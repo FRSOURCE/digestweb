@@ -1,0 +1,26 @@
+{
+  "name": "dailyweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "packageManager": "pnpm@10.30.3",
+  "scripts": {
+    "start": "concurrently 'pnpm run -r --parallel start' 'pnpm preview'",
+    "build": "pnpm run -r build",
+    "format": "pnpm run -r format",
+    "preview": "serve public",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.3.2"
+  },
+  "author": "Jakub Freisler",
+  "repository": "https://github.com/FRSOURCE/dailyweb.git",
+  "pnpm": {
+      "onlyBuiltDependencies": [
+          "sharp"
+      ]
+  }
+}
+
