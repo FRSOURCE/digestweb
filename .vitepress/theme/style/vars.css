@@ -1,0 +1,33 @@
+:root {
+  /* Page */
+  --dw-bg: #ede8df; /* warm beige */
+  --dw-bg-header: #ffffff;
+  --dw-bg-card: #ffffff;
+  --dw-bg-footer: #ffffff;
+
+  /* Deep teal primary */
+  --dw-primary: #0b3d3f;
+  --dw-primary-hover: #0f5255;
+  --dw-primary-dim: #1a6870;
+
+  /* Amber accent (FRSOURCE badge, highlights) */
+  --dw-accent: #b87333;
+  --dw-accent-hover: #c98540;
+
+  /* Typography */
+  --dw-text: #111111;
+  --dw-text-muted: #666666;
+  --dw-text-light: #999999;
+
+  /* Borders & shadow */
+  --dw-border: #e2dbd0;
+  --dw-border-card: #dedad4;
+  --dw-shadow-card:
+    0 1px 4px rgba(0, 0, 0, 0.06), 0 2px 12px rgba(0, 0, 0, 0.04);
+  --dw-shadow-hover: 0 4px 16px rgba(11, 61, 63, 0.12);
+
+  /* Sizing */
+  --dw-radius: 8px;
+  --dw-radius-sm: 5px;
+  --dw-max-w: 780px;
+}

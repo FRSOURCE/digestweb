@@ -1,15 +1,12 @@
 {
-    "compilerOptions": {
-        "plugins": [{ "name": "typescript-plugin-css-modules" }],
-        "typeRoots" : [ "./typings", "./node_modules/@types" ],
-        "lib": ["ES2015", "esnext"],
-        "esModuleInterop": true,
-        "target": "es2018",
-        "sourceMap": true,
-        "module": "esnext",
-        "jsx": "preserve",
-        "moduleResolution": "node",
-        "strict": true
-    }
+  "compilerOptions": {
+    "lib": ["ESNext", "DOM"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "target": "ESNext",
+    "jsx": "preserve",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  }
 }
-

@@ -1,26 +1,43 @@
 {
   "name": "dailyweb",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Daily curated web dev news",
+  "type": "module",
   "packageManager": "pnpm@10.30.3",
   "scripts": {
-    "start": "concurrently 'pnpm run -r --parallel start' 'pnpm preview'",
-    "build": "pnpm run -r build",
-    "format": "pnpm run -r format",
-    "preview": "serve public",
-    "prepare": "husky"
+    "dev": "vitepress dev .",
+    "build": "vitepress build .",
+    "preview": "vitepress preview .",
+    "prepare": "husky",
+    "lint": "eslint . && prettier . --check",
+    "fix": "pnpm eslint --fix && prettier . --write"
+  },
+  "dependencies": {
+    "vitepress": "2.0.0-alpha.16",
+    "vue": "^3.5.27"
   },
   "devDependencies": {
+    "@frsource/eslint-config": "^1.73.0",
+    "@frsource/prettier-config": "^1.41.0",
+    "@tailwindcss/typography": "^0.5.16",
+    "@tailwindcss/vite": "^4.1.8",
+    "@types/node": "^25.3.5",
+    "eslint": "^10.0.3",
+    "feed": "^4.2.2",
+    "globals": "^17.4.0",
+    "gray-matter": "^4.0.3",
     "husky": "^9.1.7",
-    "lint-staged": "^16.3.2"
+    "lint-staged": "^16.3.2",
+    "prettier": "^3.8.1",
+    "tailwindcss": "^4.1.8",
+    "typescript": "^5.9.3"
   },
   "author": "Jakub Freisler",
   "repository": "https://github.com/FRSOURCE/dailyweb.git",
   "pnpm": {
-      "onlyBuiltDependencies": [
-          "sharp"
-      ]
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "sharp"
+    ]
   }
 }
-

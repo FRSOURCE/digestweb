@@ -1,0 +1,74 @@
+<script setup lang="ts">
+import ShareButton from './ShareButton.vue';
+import Button from './Button.vue';
+
+defineProps<{
+  title: string;
+  description: string;
+  date: string;
+  photo: string;
+  originalUrl: string;
+  url: string;
+  featured?: boolean;
+}>();
+</script>
+
+<template>
+  <article
+    class="group bg-dw-bg rounded-2xl transition-all duration-300 raised-3 hover:raised-1 block"
+    :class="{ 'sm:flex': !featured }"
+  >
+    <div
+      class="hidden sm:flex flex-col shrink-0 overflow-hidden rounded-2xl -raised-3 w-full h-[280px]"
+      :class="{ 'sm:w-[20%] sm:min-w-36 sm:h-auto sm:-raised-1': !featured }"
+    >
+      <img
+        :src="photo"
+        :alt="title"
+        :loading="featured ? 'eager' : 'lazy'"
+        class="h-full w-full object-cover object-center block transition-transform duration-300 group-hover:scale-[1.01] mix-blend-color-burn"
+        :class="{
+          'sm:group-hover:scale-105 sm:h-0 sm:w-auto grow-1': !featured,
+        }"
+      />
+    </div>
+    <div
+      class="flex-1 p-4 justify-between gap-3"
+      :class="{ 'sm:flex flex-col': !featured, 'sm:p-6': featured }"
+    >
+      <div>
+        <h2
+          class="font-bold leading-snug mb-2 text-[1.15rem]"
+          :class="{ 'sm:text-[1.1rem]': !featured }"
+        >
+          <a
+            :href="url"
+            class="text-dw-text hover:text-dw-primary transition-colors no-underline"
+            >{{ title }}</a
+          >
+        </h2>
+        <p
+          class="text-dw-muted leading-relaxed text-[.95rem] mb-4"
+          :class="{ 'sm:text-[.875rem] sm:mb-2': !featured }"
+        >
+          {{ description }}
+        </p>
+      </div>
+      <div class="flex items-center gap-2.5 flex-wrap">
+        <Button :href="url" aria-label="Read Summary" size="sm sm:md"
+          >Read Summary</Button
+        >
+        <Button
+          :href="originalUrl"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="View Original Source"
+          class="text-dw-primary-light!"
+          size="sm sm:md"
+          >View Original Source</Button
+        >
+        <ShareButton :url="url" :title="title" class="sm:ml-auto" />
+      </div>
+    </div>
+  </article>
+</template>
