@@ -31,7 +31,7 @@ const navItems = [
 
 <template>
   <div
-    class="p-2 w-full flex flex-col min-h-dvh bg-dw-bg grid gap-4 grid-rows-[auto_1fr_auto] sm:grid-cols-[auto_1fr_auto] [grid-template-areas:'logo_menu''aside_aside''content_content''footer_footer'] sm:[grid-template-areas:'logo_curated_menu''aside_aside_aside''content_content_content''footer_footer_footer'] lg:[grid-template-areas:'logo_logo_content''aside_aside_content''footer_footer_curated']"
+    class="p-2 w-full flex flex-col min-h-dvh bg-dw-bg grid gap-4 grid-rows-[auto_1fr_auto] sm:grid-cols-[min-content_min-content_auto] xl:grid-cols-[auto_1fr_auto] [grid-template-areas:'logo_menu''aside_aside''content_content''footer_footer'] sm:[grid-template-areas:'logo_curated_menu''aside_aside_aside''content_content_content''footer_footer_footer'] lg:[grid-template-areas:'logo_logo_content''aside_aside_content''footer_footer_curated']"
   >
     <header
       class="[grid-area:logo] sticky top-2 z-50 bg-dw-bg h-[48px] lg:h-[60px] max-w-min px-4 lg:px-6 flex items-center gap-3 lg:gap-8 rounded-xl raised-5 whitespace-nowrap"
@@ -82,7 +82,7 @@ const navItems = [
     <!-- Hamburger button — mobile only -->
     <div class="[grid-area:menu] sticky top-2 z-[1000] lg:hidden ml-auto">
       <Button
-        class="bg-dw-bg h-[48px] lg:h-[60px] w-16 flex-col items-center justify-center gap-[5.5px] rounded-xl shrink-0 transition-all duration-200 cursor-pointer border-none"
+        class="bg-dw-bg h-[48px] lg:h-[60px] flex-col items-center justify-center gap-[5.5px] rounded-xl shrink-0 transition-all duration-200 cursor-pointer border-none"
         @click="menuOpen = !menuOpen"
         size="lg"
         :active="menuOpen"
@@ -106,11 +106,14 @@ const navItems = [
       <Transition name="mobile-menu">
         <header
           v-if="menuOpen"
-          class="absolute mt-2 w-[calc(100dvw-var(--spacing)*4)] right-0 bg-dw-bg raised-5 max-w-[980px] mx-auto rounded-2xl overflow-hidden whitespace-nowrap"
+          class="absolute mt-2 w-[calc(100dvw-var(--spacing)*4)] right-0 bg-dw-bg raised-5 mx-auto rounded-2xl overflow-hidden whitespace-nowrap"
         >
           <nav class="-raised-1" aria-label="Mobile navigation">
-            <ul class="flex flex-col gap-3 p-6">
-              <li v-for="{ href, label, icon } in navItems">
+            <ul class="flex flex-col md:flex-row md:flex-wrap gap-3 p-6">
+              <li
+                v-for="{ href, label, icon } in navItems"
+                class="basis-[calc(50%-var(--spacing)*3)] min-w-0 grow-1"
+              >
                 <Button
                   @click="menuOpen = false"
                   :key="href"
@@ -128,18 +131,21 @@ const navItems = [
       </Transition>
     </div>
     <div class="[grid-area:aside] text-center">
-      <header class="pt-10 pb-6">
+      <header
+        class="pt-10 pb-2 sm:pb-6"
+        :class="{ 'hidden lg:block': frontmatter.layout }"
+      >
         <h1
           class="text-[2.4rem] font-extrabold tracking-tight text-dw-text leading-tight mb-2.5"
         >
           digestweb<span class="text-dw-primary-light font-normal">.dev</span>
         </h1>
-        <h2 class="text-dw-muted mb-5">
+        <h2 class="text-dw-muted mb-2">
           Your essential dose of webdev and AI news, handpicked.
         </h2>
       </header>
       <aside
-        class="raised-5 rounded-2xl bg-dw-bg overflow-hidden hidden lg:block"
+        class="raised-5 rounded-2xl bg-dw-bg overflow-hidden hidden lg:block m-auto max-w-68"
       >
         <div
           class="flex items-center justify-between -raised-1 px-3 py-1.5 pe-1.5"
@@ -157,7 +163,7 @@ const navItems = [
 
     <!-- ── Main ── -->
     <main
-      class="flex-1 max-w-[980px] w-full mx-auto px-2 lg:px-4 pt-10 pb-16 [grid-area:content]"
+      class="flex-1 max-w-[980px] w-full mx-auto px-2 lg:px-4 pt-6 pb-16 [grid-area:content]"
     >
       <ArticleDetail v-if="frontmatter.layout === 'article'" />
       <Content v-else />

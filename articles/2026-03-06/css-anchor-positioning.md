@@ -20,6 +20,6 @@ The new `anchor()` function lets you tether any element to a named anchor purely
 - **`@position-try`** — define fallback positions for auto-flipping
 - **`position-area`** — place the element relative to the anchor with a simple grid-like syntax
 
-## FRSOURCE Commentary
+## Our Commentary
 
 Combined with the new `position-area` property, complex overlay layouts that once required hundreds of lines of JS can be expressed in a handful of CSS rules. This is one of the most impactful additions to the platform in years — and it pairs beautifully with the Popover API for fully declarative floating UI.

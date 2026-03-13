@@ -1,16 +1,10 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue';
 import { useData, Content } from 'vitepress';
+import Button from './Button.vue';
+import ShareBox from './ShareBox.vue';
 
 const { frontmatter } = useData();
-
-const displayDate = computed(() =>
-  new Date(String(frontmatter.value.date)).toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-  }),
-);
 
 const pageUrl = computed(() =>
   typeof window !== 'undefined' ? window.location.href : '',
@@ -98,15 +92,16 @@ async function copyLink() {
     </p>
 
     <!-- View original button -->
-    <div class="mb-7">
-      <a
+    <div class="mb-7 flex justify-between">
+      <Button
         :href="frontmatter.original_url"
         target="_blank"
         rel="noopener noreferrer"
-        class="inline-flex items-center px-4 py-[.45rem] rounded-xl bg-dw-bg neu-raised-sm font-mono font-bold text-[.8rem] text-dw-primary neu-hover-inset transition-all no-underline"
+        class="text-dw-primary-light!"
+        size="sm sm:md"
+        >View Original Article</Button
       >
-        [ View Original Article ]
-      </a>
+      <ShareBox :url="pageUrl" :title="frontmatter.title" />
     </div>
 
     <!-- Photo -->
@@ -117,7 +112,7 @@ async function copyLink() {
       <img
         :src="frontmatter.photo"
         :alt="frontmatter.title"
-        class="w-full max-h-[400px] object-cover block"
+        class="w-full max-h-[min(400px,60dvh)] object-cover block"
       />
     </div>
 
@@ -127,93 +122,10 @@ async function copyLink() {
     </div>
 
     <!-- Social share row -->
-    <div class="flex items-center gap-2.5 pt-6 mt-6">
-      <span class="text-[.85rem] text-dw-muted font-medium mr-1"
-        >Share this summary:</span
-      >
-
-      <a
-        :href="tweetUrl"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="inline-flex items-center justify-center w-9 h-9 rounded-xl bg-dw-bg neu-raised-sm text-dw-text no-underline transition-all duration-200 neu-hover-inset"
-        title="Share on X"
-      >
-        <svg
-          width="14"
-          height="14"
-          viewBox="0 0 24 24"
-          fill="currentColor"
-          aria-hidden="true"
-        >
-          <path
-            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.748l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"
-          />
-        </svg>
-      </a>
-
-      <a
-        :href="linkedinUrl"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="inline-flex items-center justify-center w-9 h-9 rounded-xl bg-dw-bg neu-raised-sm text-dw-primary-light no-underline transition-all duration-200 neu-hover-inset"
-        title="Share on LinkedIn"
-      >
-        <svg
-          width="14"
-          height="14"
-          viewBox="0 0 24 24"
-          fill="currentColor"
-          aria-hidden="true"
-        >
-          <path
-            d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
-          />
-          <rect x="2" y="9" width="4" height="12" />
-          <circle cx="4" cy="4" r="2" />
-        </svg>
-      </a>
-
-      <button
-        @click="copyLink"
-        :class="[
-          'inline-flex items-center justify-center w-9 h-9 rounded-xl bg-dw-bg transition-all duration-200 cursor-pointer',
-          copied
-            ? 'neu-inset text-dw-primary'
-            : 'neu-raised-sm text-dw-muted neu-hover-inset',
-        ]"
-        :title="copied ? 'Copied!' : 'Copy link'"
-      >
-        <svg
-          v-if="!copied"
-          width="14"
-          height="14"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          aria-hidden="true"
-        >
-          <rect x="9" y="9" width="13" height="13" rx="2" />
-          <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
-        </svg>
-        <svg
-          v-else
-          width="14"
-          height="14"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          aria-hidden="true"
-        >
-          <polyline points="20 6 9 17 4 12" />
-        </svg>
-      </button>
-    </div>
+    <ShareBox
+      :url="pageUrl"
+      :title="frontmatter.title"
+      class="flex items-center gap-2.5 lg:gap-4 pt-6 mt-6"
+    />
   </div>
 </template>

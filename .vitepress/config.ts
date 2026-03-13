@@ -8,11 +8,16 @@ import tailwindcss from '@tailwindcss/vite';
 const siteUrl = 'https://.frsource.org';
 const lang = 'en-US';
 
+const isIncremental = process.env.VITEPRESS_INCREMENTAL === '1';
+const skipArticles =
+  process.env.VITEPRESS_SKIP_ARTICLES?.split('|').filter(Boolean) ?? [];
+
 export default defineConfig({
   title: 'digestweb.dev',
   description: 'Daily curated web dev news by FRSOURCE',
   srcDir: '.',
   outDir: './dist',
+  metaChunk: true,
   locales: {
     root: {
       label: 'English',
@@ -24,7 +29,11 @@ export default defineConfig({
       description: 'Codzienna porcja wiadomości o web devie od FRSOURCE.',
     },
   },
-  vite: { plugins: [tailwindcss()] },
+  srcExclude: skipArticles,
+  vite: {
+    plugins: [tailwindcss()],
+    ...(isIncremental && { build: { emptyOutDir: false } }),
+  },
   head: [
     [
       'link',

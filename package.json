@@ -10,7 +10,8 @@
     "preview": "vitepress preview .",
     "prepare": "husky",
     "lint": "eslint . && prettier . --check",
-    "fix": "pnpm eslint --fix && prettier . --write"
+    "fix": "pnpm eslint --fix && prettier . --write",
+    "build:incremental": "node --strip-types tools/incrementalBuild.ts"
   },
   "dependencies": {
     "vitepress": "2.0.0-alpha.16",

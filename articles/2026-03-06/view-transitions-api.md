@@ -19,6 +19,6 @@ The trick: the browser takes a screenshot before the new page renders, then anim
 - **`view-transition-name`** — choreograph hero element animations across pages
 - **`::view-transition-old` / `::view-transition-new`** — fully customise the animation
 
-## FRSOURCE Commentary
+## Our Commentary
 
 Firefox support is on the horizon, making this a genuine progressive enhancement option for production sites today. Pair with the Navigation API for complete control over the transition lifecycle, including async data fetching mid-transition.

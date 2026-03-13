@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import ShareButton from './ShareButton.vue';
+import ShareBox from './ShareBox.vue';
 import Button from './Button.vue';
 
 defineProps<{
@@ -55,19 +55,16 @@ defineProps<{
         </p>
       </div>
       <div class="flex items-center gap-2.5 flex-wrap">
-        <Button :href="url" aria-label="Read Summary" size="sm sm:md"
-          >Read Summary</Button
-        >
+        <Button :href="url" size="sm sm:md">Read Summary</Button>
         <Button
           :href="originalUrl"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="View Original Source"
           class="text-dw-primary-light!"
           size="sm sm:md"
-          >View Original Source</Button
+          >View Original Article</Button
         >
-        <ShareButton :url="url" :title="title" class="sm:ml-auto" />
+        <ShareBox :url="url" :title="title" class="sm:ml-auto" />
       </div>
     </div>
   </article>
