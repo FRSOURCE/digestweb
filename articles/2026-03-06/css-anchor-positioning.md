@@ -7,6 +7,7 @@ original_url: https://developer.chrome.com/blog/anchor-positioning-api
 source_name: Chrome Developers
 source_author: Una Kravets
 tags: [css, layout]
+significance: 4
 ---
 
 ## Summary & Key Takeaways

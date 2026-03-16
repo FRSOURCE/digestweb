@@ -141,3 +141,7 @@ vite.config.ts.timestamp-*
 
 # fetch-news deduplication state
 tools/imported.json
+
+# Playwright
+playwright-report/
+test-results/
