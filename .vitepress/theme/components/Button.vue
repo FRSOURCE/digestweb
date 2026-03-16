@@ -88,6 +88,8 @@ const props = defineProps<{
   href?: string;
   size?: AlmostInfinitelyDeepSizeProp;
   active?: boolean;
+  disabled?: boolean;
+  tag?: 'a' | 'button' | 'label';
 }>();
 defineSlots<{
   default: () => VNode;
@@ -95,10 +97,14 @@ defineSlots<{
 const attrs = useAttrs();
 
 const Tag = computed(() => {
-  return props.href ? 'a' : 'button';
+  return props.tag ?? (props.href ? 'a' : 'button');
 });
 const tagAwareProps = computed(() => {
-  return props.href ? { href: props.href } : { type: attrs.type ?? 'button' };
+  return props.href
+    ? { href: props.href }
+    : props.tag === 'button'
+      ? { type: attrs.type ?? 'button' }
+      : {};
 });
 
 const defaultSize = computed(() => {
@@ -119,8 +125,14 @@ const sizeClasses = computed(() => {
 <template>
   <Tag
     v-bind="tagAwareProps"
-    class="inline-flex items-center bg-dw-bg font-bold text-dw-primary transition-all delay-50 ease-in no-underline cursor-pointer"
-    :class="sizeClasses"
+    class="inline-flex items-center bg-dw-bg font-bold text-dw-primary transition-all delay-50 ease-in no-underline"
+    :class="[
+      sizeClasses,
+      disabled
+        ? 'cursor-not-allowed text-dw-muted! opacity-60 pointer-events-none'
+        : 'cursor-pointer',
+    ]"
+    :disabled="disabled"
   >
     <slot />
   </Tag>

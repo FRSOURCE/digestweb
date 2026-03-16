@@ -25,7 +25,10 @@ const navItems = [
   { href: '/feed.rss', label: 'RSS', icon: RSSIcon, submenu: true },
   { href: '/feed.atom', label: 'Atom', icon: RSSIcon, submenu: true },
   { href: '/feed.json', label: 'JSON Feed', icon: RSSIcon, submenu: true },
-  { href: '/submit', label: 'Submit Link' },
+  {
+    href: 'mailto:dailyweb@frsource.org?subject=Link proposal&body=Link: https://... , Description/Summary: ... , Are you the author? [yes/no], Comments: ...',
+    label: 'Submit Link',
+  },
 ];
 </script>
 

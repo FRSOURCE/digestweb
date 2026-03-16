@@ -6,6 +6,7 @@ Run `pnpm fetch-news $ARGUMENTS` to pull articles from configured sources, evalu
 significance with Claude, and write article .md files to date-named directories.
 
 Common usage:
+
 - `/fetch-news` — all sources, last 7 days
 - `/fetch-news --days 14` — wider lookback window
 - `/fetch-news --source vite-releases` — single source by id

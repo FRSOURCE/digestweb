@@ -6,25 +6,38 @@ title: digestweb.dev
 import { computed } from 'vue'
 import { data as articles } from './articles.data.ts'
 import ArticleCard from './.vitepress/theme/components/ArticleCard.vue'
+import Filter from './.vitepress/theme/components/Filter.vue'
+import FilterPanel from './.vitepress/theme/components/FilterPanel.vue'
+import { useFilter } from './.vitepress/theme/composables/useFilter'
 
-const today = computed(() =>
-  new Date().toLocaleDateString('en-US', {
-    weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
-  }).toUpperCase()
+const { activeTags, activeDate, toggleTag } = useFilter()
+
+const sorted = computed(() =>
+  [...articles].sort((a, b) => {
+    const sigDiff = (b.frontmatter.significance ?? 1) - (a.frontmatter.significance ?? 1)
+    if (sigDiff !== 0) return sigDiff
+    return new Date(b.date).getTime() - new Date(a.date).getTime()
+  })
 )
+
+const filtered = computed(() => {
+  let result = sorted.value
+  if (activeDate.value)
+    result = result.filter(a => String(a.date).slice(0, 10) === activeDate.value)
+  if (activeTags.value.length)
+    result = result.filter(a => (a.frontmatter.tags ?? []).some(t => activeTags.value.includes(t)))
+  return result
+})
 </script>
 
-<!-- TODO: implement calendar picker -->
-<!-- <div class="text-center pb-10 max-w-[780px] mx-auto">
-  <div class="inline-flex items-center  gap-2 bg-dw-bg neu-inset-sm rounded-full px-4 py-1.5 text-[.78rem] font-bold tracking-[.08em] text-dw-muted uppercase">
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-    {{ today }}
-  </div>
-</div> -->
+<Filter />
 
 <div class="flex flex-col gap-4 sm:gap-6">
+  <p v-if="!filtered.length" class="text-dw-muted text-[0.9rem] py-8 text-center">
+    No articles match the selected filters.
+  </p>
   <ArticleCard
-    v-for="(article, i) in articles"
+    v-for="article in filtered"
     :key="article.url"
     :title="article.frontmatter.title"
     :description="article.frontmatter.description ?? ''"
@@ -32,5 +45,8 @@ const today = computed(() =>
     :photo="article.frontmatter.photo ?? '/images/placeholder.svg'"
     :original-url="article.frontmatter.original_url ?? '#'"
     :url="article.url"
+    :significance="article.frontmatter.significance ?? 1"
+    :tags="article.frontmatter.tags ?? []"
+    @tag-click="toggleTag"
   />
 </div>

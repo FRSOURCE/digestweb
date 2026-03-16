@@ -7,7 +7,7 @@ original_url: https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_A
 source_name: MDN Web Docs
 source_author: MDN contributors
 tags: [javascript, browser]
-significance: 1
+significance: 4
 ---
 
 ## Summary & Key Takeaways

@@ -5,6 +5,8 @@ import AdPlaceholder from './AdPlaceholder.vue';
 
 const visible = ref(false);
 
+defineOptions({ inheritAttrs: false });
+
 onMounted(() => {
   visible.value = sessionStorage.getItem('dw:ad-dismissed') !== '1';
 });
