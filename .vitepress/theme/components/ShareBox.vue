@@ -24,20 +24,25 @@ const props = defineProps<{
   title: string;
 }>();
 
+const validatedUrl = computed(() => {
+  if (!props.url.startsWith(location.protocol)) return `${location.origin}/${props.url}`;
+  return props.url;
+})
+
 const tweetUrl = computed(
   () =>
-    `https://twitter.com/intent/tweet?text=${encodeURIComponent(props.title)}&url=${encodeURIComponent(props.url)}`,
+    `https://twitter.com/intent/tweet?text=${encodeURIComponent(props.title)}&url=${encodeURIComponent(validatedUrl.value)}`,
 );
 const linkedinUrl = computed(
   () =>
-    `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(props.url)}`,
+    `https://www.linkedin.com/shareArticle/?mini=true&url=${encodeURIComponent(validatedUrl.value)}&title=${encodeURIComponent(props.title)}&source=digestweb.dev`,
 );
 
 const copied = ref(false);
 
 async function copyLink() {
   if (typeof window === 'undefined') return;
-  await copyText(props.url, {
+  await copyText(validatedUrl.value, {
     onSuccess: () => (copied.value = true),
     onSuccessCooldown: () => (copied.value = false),
   });
@@ -50,14 +55,17 @@ async function share() {
 
   if (navigator.share) {
     try {
-      await navigator.share({ title: props.title, url: props.url });
+      await navigator.share({
+        url: validatedUrl.value,
+        text: props.title,
+      });
     } catch {
       /* cancelled */
     }
     return;
   }
 
-  await copyText(props.url, {
+  await copyText(validatedUrl.value, {
     onSuccess: () => (showToast.value = true),
     onSuccessCooldown: () => (showToast.value = false),
   });

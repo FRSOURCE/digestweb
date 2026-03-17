@@ -79,6 +79,8 @@ export default defineConfig({
         rel: 'stylesheet',
       },
     ],
+    ['meta', { property: 'og:site_name', content: 'digestweb.dev' }],
+    ['meta', { name: 'twitter:card', content: 'summary' }],
   ],
   themeConfig: {
     nav: [{ text: 'RSS', link: '/feed.rss' }],
@@ -134,6 +136,38 @@ export default defineConfig({
     writeFileSync(resolve(siteConfig.outDir, 'feed.rss'), feed.rss2());
     writeFileSync(resolve(siteConfig.outDir, 'feed.atom'), feed.atom1());
     writeFileSync(resolve(siteConfig.outDir, 'feed.json'), feed.json1());
+  },
+  transformPageData(pageData) {
+    if (pageData.frontmatter.layout !== 'article') return;
+    const canonicalUrl = `${siteUrl}/${pageData.relativePath.replace(/\.md$/, '')}`;
+    const { title, description, photo } = pageData.frontmatter;
+    pageData.frontmatter.head ??= [];
+    pageData.frontmatter.head.push(
+      ['meta', { property: 'og:type', content: 'article' }],
+      ['meta', { property: 'og:title', content: title }],
+      ['meta', { property: 'og:description', content: description }],
+      ['meta', { property: 'og:url', content: canonicalUrl }],
+      ['meta', { property: 'og:site_name', content: 'digestweb.dev' }],
+      ...(photo
+        ? [
+            ['meta', { property: 'og:image', content: photo }] as [
+              string,
+              Record<string, string>,
+            ],
+          ]
+        : []),
+      ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+      ['meta', { name: 'twitter:title', content: title }],
+      ['meta', { name: 'twitter:description', content: description }],
+      ...(photo
+        ? [
+            ['meta', { name: 'twitter:image', content: photo }] as [
+              string,
+              Record<string, string>,
+            ],
+          ]
+        : []),
+    );
   },
   sitemap: {
     hostname: siteUrl,

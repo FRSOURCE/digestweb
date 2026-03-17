@@ -1,6 +1,12 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue';
+import { computed } from 'vue';
 import { useData, Content } from 'vitepress';
+
+const sigLabel: Record<number, string> = {
+  2: 'Worth Reading',
+  3: 'Must Read',
+  4: "Editor's Pick",
+};
 import Button from './Button.vue';
 import ShareBox from './ShareBox.vue';
 
@@ -9,27 +15,6 @@ const { frontmatter } = useData();
 const pageUrl = computed(() =>
   typeof window !== 'undefined' ? window.location.href : '',
 );
-const tweetUrl = computed(
-  () =>
-    `https://twitter.com/intent/tweet?text=${encodeURIComponent(frontmatter.value.title)}&url=${encodeURIComponent(pageUrl.value)}`,
-);
-const linkedinUrl = computed(
-  () =>
-    `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(pageUrl.value)}`,
-);
-
-const copied = ref(false);
-let copyTimer: ReturnType<typeof setTimeout>;
-
-async function copyLink() {
-  if (typeof navigator === 'undefined') return;
-  await navigator.clipboard.writeText(pageUrl.value);
-  clearTimeout(copyTimer);
-  copied.value = true;
-  copyTimer = setTimeout(() => {
-    copied.value = false;
-  }, 2200);
-}
 </script>
 
 <template>
@@ -61,6 +46,19 @@ async function copyLink() {
     >
       {{ frontmatter.title }}
     </h1>
+
+    <!-- Significance badge -->
+    <div
+      v-if="frontmatter.significance && frontmatter.significance >= 2"
+      class="text-[0.68rem] font-bold tracking-[0.1em] uppercase mb-4"
+      :class="{
+        'text-dw-primary-mid': frontmatter.significance === 2,
+        'text-dw-primary': frontmatter.significance === 3,
+        'text-dw-accent': frontmatter.significance === 4,
+      }"
+    >
+      {{ sigLabel[frontmatter.significance] }}
+    </div>
 
     <!-- Attribution -->
     <p

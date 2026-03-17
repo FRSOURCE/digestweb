@@ -106,7 +106,8 @@ const Tag = computed(() => {
 });
 const tagAwareProps = computed(() => {
   if (props.href) return { href: props.href };
-  if (Tag.value === 'button') return { type: attrs.type ?? 'button', disabled: props.disabled };
+  if (Tag.value === 'button')
+    return { type: attrs.type ?? 'button', disabled: props.disabled };
   return {};
 });
 
