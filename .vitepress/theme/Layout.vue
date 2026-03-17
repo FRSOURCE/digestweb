@@ -182,7 +182,7 @@ const navItems = [
         href="https://frsource.org"
         target="_blank"
         rel="noopener noreferrer"
-        class="inline-flex items-center align-middle opacity-85 hover:opacity-100 transition-opacity no-underline"
+        class="inline-flex items-center align-middle no-underline color-dw-accent hover:text-dw-primary font-medium transition-colors"
       >
         FRSOURCE
       </a>

@@ -5,6 +5,7 @@ import {
   useId,
   toRefs,
   computed,
+  ref,
 } from 'vue';
 import Button from './Button.vue';
 
@@ -27,6 +28,7 @@ const emit = defineEmits<{
   (event: 'update:modelValue', param: InputHTMLAttributes['checked']): void;
 }>();
 const inputId = useId();
+const inputRef = ref<HTMLInputElement | null>(null);
 
 const onSelected = computed({
   get: () => modelValue?.value,
@@ -38,6 +40,7 @@ const onSelected = computed({
 
 <template>
   <input
+    ref="inputRef"
     :id="inputId"
     v-model="onSelected"
     class="absolute w-0 outline-hidden appearance-none peer"
@@ -48,10 +51,12 @@ const onSelected = computed({
     tag="label"
     :for="inputId"
     :class="[
-      'cursor-pointer ring-1 ring-neutral-200 ring-inset rounded-full inline-flex items-center transition duration-300 justify-center outline-offset-2 outline-secondary-600 peer-next-checked:ring-2 peer-next-checked:ring-primary-700 hover:bg-primary-100 peer-next-hover:ring-primary-200 active:bg-primary-200 peer-next-active:ring-primary-300 peer-next-disabled:cursor-not-allowed peer-next-disabled:bg-disabled-100 peer-next-disabled:opacity-50 peer-next-disabled:ring-1 peer-next-disabled:ring-disabled-200 peer-next-disabled:hover:ring-disabled-200 peer-next-checked:hover:ring-primary-700 peer-next-checked:active:ring-primary-700 peer-next-focus-visible:outline',
+      'cursor-pointer items-center justify-center peer-next-focus-visible:outline-2',
     ]"
     size="sm"
     v-bind="$attrs"
+    :active="inputRef?.checked"
+    :disabled="inputRef?.disabled"
   >
     <slot v-if="$slots.prefix" name="prefix" />
     <slot />

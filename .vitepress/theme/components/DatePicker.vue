@@ -92,11 +92,16 @@ function selectDay(iso: string) {
 <template>
   <Button
     class="inline-flex items-center justify-between gap-4"
+    :aria-label="
+      activeDate
+        ? `Selected date: ${activeDate}. Open date picker`
+        : 'Open date picker'
+    "
     @click="modalOpen = true"
     size="md lg:sm"
   >
     {{ activeDate }}
-    <span>📅</span>
+    <span aria-hidden="true">📅</span>
   </Button>
   <Modal v-model="modalOpen" title="Select a date">
     <div class="select-none w-full min-w-[196px] max-w-80 mx-auto">
@@ -109,6 +114,7 @@ function selectDay(iso: string) {
           size="md lg:sm"
         >
           <svg
+            aria-hidden="true"
             width="16"
             height="16"
             viewBox="0 0 24 24"
@@ -131,6 +137,7 @@ function selectDay(iso: string) {
           size="md lg:sm"
         >
           <svg
+            aria-hidden="true"
             width="16"
             height="16"
             viewBox="0 0 24 24"
@@ -174,6 +181,7 @@ function selectDay(iso: string) {
             </Button>
             <span
               v-else
+              aria-hidden="true"
               class="w-full h-full flex items-center justify-center text-[0.7rem] text-dw-subtle opacity-35 cursor-default"
               >{{ cell.day }}</span
             >

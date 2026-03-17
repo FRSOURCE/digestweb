@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import Button from './Button.vue';
-defineProps<{ modelValue: boolean; title?: string }>();
+defineProps<{ modelValue: boolean; title: string }>();
 defineEmits<{ 'update:modelValue': [value: boolean] }>();
 </script>
 <template>
@@ -17,8 +17,8 @@ defineEmits<{ 'update:modelValue': [value: boolean] }>();
         v-if="modelValue"
         role="dialog"
         aria-modal="true"
-        :aria-label="title ?? 'Filters'"
-        class="fixed bottom-0 inset-x-0 z-[901] bg-dw-bg rounded-t-3xl lg:bottom-2 lg:inset-x-2 lg:rounded-3xl raised-5 max-h-[85dvh] overflow-y-auto pb-[env(safe-area-inset-bottom,1rem)] lg:pb-4 lg:max-w-120 lg:mx-auto"
+        :aria-label="title"
+        class="fixed bottom-0 inset-x-0 z-[901] bg-dw-bg rounded-t-3xl lg:bottom-2 lg:inset-x-2 lg:rounded-3xl raised-5 max-h-[85dvh] overflow-y-auto pb-[env(safe-area-inset-bottom,1rem)] lg:pb-2 lg:max-w-120 lg:mx-auto"
       >
         <header
           class="sticky top-0 bg-dw-bg flex items-center justify-between -raised-1 px-3 py-1.5 pe-1.5"
@@ -26,7 +26,7 @@ defineEmits<{ 'update:modelValue': [value: boolean] }>();
           <h2
             class="text-[.62rem] font-bold uppercase tracking-[.08em] text-dw-muted"
           >
-            {{ title ?? 'Filters' }}
+            {{ title }}
           </h2>
           <Button
             @click="$emit('update:modelValue', false)"

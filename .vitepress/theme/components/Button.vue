@@ -87,12 +87,17 @@ import { computed, useAttrs, VNode } from 'vue';
 const props = defineProps<{
   href?: string;
   size?: AlmostInfinitelyDeepSizeProp;
+  variant?: 'primary' | 'secondary';
   active?: boolean;
   disabled?: boolean;
+  badge?: number | string;
   tag?: 'a' | 'button' | 'label';
 }>();
 defineSlots<{
   default: () => VNode;
+}>();
+defineEmits<{
+  (e: 'click', event: MouseEvent): void;
 }>();
 const attrs = useAttrs();
 
@@ -100,11 +105,9 @@ const Tag = computed(() => {
   return props.tag ?? (props.href ? 'a' : 'button');
 });
 const tagAwareProps = computed(() => {
-  return props.href
-    ? { href: props.href }
-    : props.tag === 'button'
-      ? { type: attrs.type ?? 'button' }
-      : {};
+  if (props.href) return { href: props.href };
+  if (Tag.value === 'button') return { type: attrs.type ?? 'button', disabled: props.disabled };
+  return {};
 });
 
 const defaultSize = computed(() => {
@@ -120,20 +123,34 @@ const sizeClasses = computed(() => {
   });
   return classes;
 });
+
+const colorClasses = computed(() => {
+  if (props.variant === 'secondary')
+    return 'text-dw-primary-light bg-dw-bg-dark';
+  return 'text-dw-primary bg-dw-bg';
+});
 </script>
 
 <template>
   <Tag
     v-bind="tagAwareProps"
-    class="inline-flex items-center bg-dw-bg font-bold text-dw-primary transition-all delay-50 ease-in no-underline"
+    class="inline-flex items-center font-bold transition-all delay-50 ease-in no-underline outline-dw-primary outline-0 focus-visible:outline-2"
     :class="[
       sizeClasses,
+      colorClasses,
       disabled
-        ? 'cursor-not-allowed text-dw-muted! opacity-60 pointer-events-none'
+        ? 'cursor-not-allowed raised-0! text-dw-muted! opacity-80'
         : 'cursor-pointer',
+      { relative: typeof badge !== 'undefined' },
     ]"
-    :disabled="disabled"
+    @click="disabled ? undefined : $emit('click', $event)"
   >
     <slot />
+    <span
+      v-if="typeof badge !== 'undefined'"
+      class="absolute -top-1.5 -right-1.5 min-w-[1.1rem] h-[1.1rem] rounded-full bg-dw-accent text-white text-[0.6rem] font-bold flex items-center justify-center px-[3px] leading-none"
+    >
+      {{ badge }}
+    </span>
   </Tag>
 </template>

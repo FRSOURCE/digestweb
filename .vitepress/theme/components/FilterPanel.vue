@@ -7,6 +7,9 @@ import Button from './Button.vue';
 import Chip from './Chip.vue';
 
 defineProps<{ horizontal?: boolean }>();
+defineEmits<{
+  (e: 'close'): void;
+}>();
 
 const { activeTags, activeDate, setDate, hasFilters, clearAll } = useFilter();
 
@@ -79,14 +82,25 @@ const availableDates = computed(() => {
         @update:activeDate="setDate"
       />
     </div>
-    <Button
-      size="md"
-      class="w-full justify-center mt-4"
-      @click="clearAll"
-      :disabled="!hasFilters"
-      :class="horizontal ? 'self-end' : ''"
-    >
-      Clear all filters
-    </Button>
+    <div class="w-[calc(100%+0.75rem)] flex mt-10 -mx-1.5 gap-2">
+      <Button
+        size="md"
+        @click="clearAll"
+        :disabled="!hasFilters"
+        variant="secondary"
+        class="justify-center"
+        :class="horizontal ? 'self-end' : ''"
+      >
+        Clear all filters
+      </Button>
+      <Button
+        size="md"
+        class="justify-center grow-1"
+        :class="horizontal ? 'self-end' : ''"
+        @click="$emit('close')"
+      >
+        Done
+      </Button>
+    </div>
   </section>
 </template>

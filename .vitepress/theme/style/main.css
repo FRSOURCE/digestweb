@@ -1,5 +1,6 @@
 @import 'tailwindcss';
 @plugin "@tailwindcss/typography";
+@plugin "@storefront-ui/tw-plugin-peer-next";
 
 @source "../../../**/*.{vue,ts,md}";
 
@@ -7,12 +8,13 @@
 @theme {
   /* Backgrounds — neumorphism: card = same as bg */
   --color-dw-bg: #ede8df;
+  --color-dw-bg-dark: #e6e2d9;
   --color-dw-card: #ede8df;
 
   /* Primary — deep teal */
   --color-dw-primary: #0b3d3f;
   --color-dw-primary-mid: #0f5255;
-  --color-dw-primary-light: #18797d;
+  --color-dw-primary-light: #156b6e;
 
   /* Accent — amber */
   --color-dw-accent: #b87333;
@@ -20,15 +22,11 @@
   /* Typography */
   --color-dw-text: #2a2018;
   --color-dw-muted: #6b5b4e;
-  --color-dw-subtle: #9a8a7d;
+  --color-dw-subtle: #705d51;
 
   /* Borders (used sparingly — dividers only) */
   --color-dw-border: #d8d1c6;
   --color-dw-border-card: #d8d1c6;
-
-  /* Neumorphic shadow palette — derived from bg #EDE8DF */
-  --color-neu-dark: #c0bab1;
-  --color-neu-light: #fdfaf5;
 
   --font-sans: 'Arimo', ui-sans-serif, system-ui, Helvetica, Arial, sans-serif;
 

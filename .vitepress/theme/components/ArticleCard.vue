@@ -78,7 +78,7 @@ const emit = defineEmits<{ 'tag-click': [tag: string] }>();
           :href="originalUrl"
           target="_blank"
           rel="noopener noreferrer"
-          class="text-dw-primary-light!"
+          variant="secondary"
           size="sm sm:md"
           >View Original Article</Button
         >

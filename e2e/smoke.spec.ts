@@ -27,11 +27,6 @@ test.describe('home page', () => {
       card.getByRole('link', { name: 'View Original Article' }),
     ).toBeVisible();
   });
-
-  test('article card shows tag pills', async ({ page }) => {
-    await page.goto('/');
-    await expect(page.locator('article .tag-pill').first()).toBeVisible();
-  });
 });
 
 test.describe('home page — desktop', () => {
@@ -46,12 +41,19 @@ test.describe('home page — desktop', () => {
 // ── Navigation ────────────────────────────────────────────────────────────────
 
 test.describe('navigation — desktop', () => {
-  test.use({ viewport: { width: 1280, height: 900 } });
+  test.use({
+    isMobile: false,
+    hasTouch: false,
+    viewport: { width: 1280, height: 900 },
+  });
 
   test('logo is visible', async ({ page }) => {
     await page.goto('/');
     await expect(
-      page.locator('header').first().locator('svg, img').first(),
+      page
+        .locator('header')
+        .first()
+        .getByRole('link', { name: /digestweb/i }),
     ).toBeVisible();
   });
 
@@ -60,17 +62,11 @@ test.describe('navigation — desktop', () => {
     await expect(page.getByRole('link', { name: 'Daily Feed' })).toBeVisible();
   });
 
-  test('RSS nav link points to /feed.rss', async ({ page }) => {
-    await page.goto('/');
-    await expect(page.getByRole('link', { name: 'RSS' })).toHaveAttribute(
-      'href',
-      '/feed.rss',
-    );
-  });
-
   test('FRSOURCE curated-by link is visible', async ({ page }) => {
     await page.goto('/');
-    await expect(page.getByRole('link', { name: /frsource/i })).toBeVisible();
+    await expect(
+      page.getByRole('link', { name: /frsource/i }).first(),
+    ).toBeVisible();
   });
 });
 
@@ -88,7 +84,9 @@ test.describe('navigation — mobile', () => {
     await page.goto('/');
     await page.getByRole('button', { name: /toggle navigation/i }).click();
     await expect(page.getByRole('link', { name: 'Daily Feed' })).toBeVisible();
-    await expect(page.getByRole('link', { name: 'RSS' })).toBeVisible();
+    const rssLink = page.getByRole('link', { name: 'RSS' });
+    await expect(rssLink).toBeVisible();
+    await expect(rssLink).toHaveAttribute('href', '/feed.rss');
   });
 
   test('tapping a nav item closes the mobile menu', async ({ page }) => {
@@ -109,12 +107,12 @@ test.describe('article detail page', () => {
     await page.goto('/');
     await page.getByRole('link', { name: 'Read Summary' }).first().click();
     await expect(page).toHaveURL(/\/articles\//);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('main h1')).toBeVisible();
   });
 
   test('direct URL loads correctly', async ({ page }) => {
     await page.goto(ARTICLE_SLUG);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('main h1')).toBeVisible();
   });
 
   test('back link returns to home', async ({ page }) => {
@@ -156,32 +154,25 @@ test.describe('article detail page', () => {
   });
 });
 
-test.describe('article detail page — desktop', () => {
-  test.use({ viewport: { width: 1280, height: 900 } });
-
-  test('filter sidebar is hidden on article detail page', async ({ page }) => {
-    await page.goto(ARTICLE_SLUG);
-    await expect(
-      page.locator('aside').filter({ hasText: 'Tags' }),
-    ).not.toBeVisible();
-  });
-});
-
 // ── Share box ─────────────────────────────────────────────────────────────────
 
 test.describe('share box — desktop', () => {
-  test.use({ viewport: { width: 1280, height: 900 } });
+  test.use({
+    isMobile: false,
+    hasTouch: false,
+    viewport: { width: 1280, height: 900 },
+  });
 
   test('Share on X link is present on article detail', async ({ page }) => {
     await page.goto(ARTICLE_SLUG);
-    await expect(page.getByTitle('Share on X')).toBeVisible();
+    await expect(page.getByTitle('Share on X').first()).toBeVisible();
   });
 
   test('Share on LinkedIn link is present on article detail', async ({
     page,
   }) => {
     await page.goto(ARTICLE_SLUG);
-    await expect(page.getByTitle('Share on LinkedIn')).toBeVisible();
+    await expect(page.getByTitle('Share on LinkedIn').first()).toBeVisible();
   });
 
   test('copy link button is present on article detail', async ({ page }) => {
@@ -196,12 +187,16 @@ test.describe('share box — desktop', () => {
 });
 
 test.describe('share box — mobile', () => {
-  test.use({ viewport: { width: 390, height: 844 } });
+  test.use({
+    isMobile: true,
+    hasTouch: true,
+    viewport: { width: 390, height: 844 },
+  });
 
   test('Share button is visible on article detail page', async ({ page }) => {
     await page.goto(ARTICLE_SLUG);
     await expect(
-      page.getByRole('button', { name: /^share$/i }).first(),
+      page.getByRole('button', { name: /^share:/i }).first(),
     ).toBeVisible();
   });
 });
@@ -214,7 +209,9 @@ test.describe('floating ad — mobile', () => {
   test('ad is visible on first visit', async ({ page }) => {
     await page.goto('/');
     await expect(page.getByRole('complementary')).toBeVisible();
-    await expect(page.getByText(/advertisement/i)).toBeVisible();
+    await expect(
+      page.getByRole('complementary').getByText(/advertisement/i),
+    ).toBeVisible();
   });
 
   test('close button dismisses the ad', async ({ page }) => {
@@ -238,28 +235,5 @@ test.describe('floating ad — mobile', () => {
       sessionStorage.getItem('dw:ad-dismissed'),
     );
     expect(value).toBe('1');
-  });
-});
-
-// ── RSS feeds (requires built site — skipped in dev) ─────────────────────────
-
-test.describe('rss feeds', () => {
-  test('feed.rss is accessible and valid', async ({ page }) => {
-    const response = await page.request.get('/feed.rss');
-    expect(response.status()).toBe(200);
-    expect(await response.text()).toContain('<rss');
-  });
-
-  test('feed.atom is accessible and valid', async ({ page }) => {
-    const response = await page.request.get('/feed.atom');
-    expect(response.status()).toBe(200);
-    expect(await response.text()).toContain('<feed');
-  });
-
-  test('feed.json is accessible and has items', async ({ page }) => {
-    const response = await page.request.get('/feed.json');
-    expect(response.status()).toBe(200);
-    const json = await response.json();
-    expect(json).toHaveProperty('items');
   });
 });

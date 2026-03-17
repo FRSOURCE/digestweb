@@ -14,7 +14,17 @@ pnpm fix        # eslint --fix + prettier --write
 
 > If `pnpm` is not in PATH, run `corepack enable` first.
 
-There are no automated tests in this project.
+```bash
+pnpm test:e2e --reporter=null   # run Playwright e2e tests (quiet output)
+```
+
+## After every codebase change
+
+After making **any** change to source files, always run `/verify-e2e` to confirm the e2e tests still pass. The skill will:
+
+1. Run `pnpm test:e2e --reporter=null`.
+2. Fix failures and retry — up to 3 fix attempts.
+3. Stop and print `Manual test bugs resolution needed` if tests still fail after the 3rd fix.
 
 ## Architecture
 
