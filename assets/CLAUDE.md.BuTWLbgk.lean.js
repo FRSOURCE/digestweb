@@ -1,0 +1,1 @@
+import{_ as s,o as i,c as a,O as t}from"./chunks/framework.E_ICI9Fe.js";const k=JSON.parse('{"title":"CLAUDE.md","description":"","frontmatter":{},"headers":[],"relativePath":"CLAUDE.md","filePath":"CLAUDE.md"}'),n={name:"CLAUDE.md"};function l(d,e,h,r,o,p){return i(),a("div",null,[...e[0]||(e[0]=[t("",23)])])}const g=s(n,[["render",l]]);export{k as __pageData,g as default};

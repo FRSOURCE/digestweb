@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://.frsource.org/</id>
+    <title>digestweb.dev</title>
+    <updated>2026-03-18T15:10:57.622Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>Jakub Freisler</name>
+        <email>jakub@frsource.org</email>
+        <uri>https://.frsource.org</uri>
+    </author>
+    <link rel="alternate" href="https://.frsource.org/"/>
+    <link rel="self" href="https://.frsource.org/feed.atom"/>
+    <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
+    <rights>Copyright 2026 FRSOURCE</rights>
+</feed>
