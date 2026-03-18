@@ -49,7 +49,7 @@ jobs:
       - name: Open PR with new articles
         uses: peter-evans/create-pull-request@v6
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_PAT }}
           branch: news/${{ github.run_id }}
           commit-message: 'news: daily fetch ${{ github.run_id }}'
           title: '📰 Daily news fetch — ${{ github.run_id }}'
@@ -58,7 +58,6 @@ jobs:
 
             Candidates log is attached as a workflow artifact.
             Please review the articles, adjust frontmatter if needed, and merge when ready.
-          reviewers: frsgit
           labels: news
           draft: false
           add-paths: articles/**
