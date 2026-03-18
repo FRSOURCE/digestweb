@@ -8,6 +8,7 @@ import tailwindcss from '@tailwindcss/vite';
 const siteUrl = 'https://.frsource.org';
 const lang = 'en-US';
 
+const isProd = process.env.PROD === 'true';
 const isIncremental = process.env.VITEPRESS_INCREMENTAL === '1';
 const skipArticles =
   process.env.VITEPRESS_SKIP_ARTICLES?.split('|').filter(Boolean) ?? [];
@@ -15,7 +16,7 @@ const skipArticles =
 export default defineConfig({
   title: 'digestweb.dev',
   description: 'Daily curated web dev news by FRSOURCE',
-  base: process.env.CI ? '/digestweb/' : undefined,
+  base: isProd ? '/digestweb/' : undefined,
   srcDir: '.',
   outDir: './dist',
   metaChunk: true,

@@ -47,6 +47,8 @@ jobs:
           node-version-file: '.nvmrc'
       - run: pnpm i
       - name: Build 🔧
+        env:
+          PROD: 'true'
         run: pnpm build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
