@@ -25,9 +25,14 @@ const props = defineProps<{
 }>();
 
 const validatedUrl = computed(() => {
-  if (!props.url.startsWith(location.protocol)) return `${location.origin}/${props.url}`;
+  if (
+    !props.url.startsWith('http://') &&
+    !props.url.startsWith('https://') &&
+    typeof window !== 'undefined'
+  )
+    return `${location.origin}/${props.url}`;
   return props.url;
-})
+});
 
 const tweetUrl = computed(
   () =>

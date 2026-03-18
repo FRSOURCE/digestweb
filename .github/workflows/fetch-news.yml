@@ -1,0 +1,64 @@
+name: Daily News Fetch
+
+on:
+  schedule:
+    - cron: '0 23 * * *' # 23:00 UTC (00:00) every day
+  workflow_dispatch: # allow manual trigger
+
+jobs:
+  fetch-and-pr:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4.2.0
+
+      - uses: actions/setup-node@v4
+        with:
+          cache: 'pnpm'
+          node-version-file: '.nvmrc'
+
+      - run: pnpm i
+
+      # Restore imported.json from cache so we don't re-process old articles
+      - uses: actions/cache@v4
+        with:
+          path: tools/imported.json
+          key: fetch-news-imported-${{ github.run_id }}
+          restore-keys: fetch-news-imported-
+
+      - name: Run fetch-news
+        env:
+          GOOGLE_AI_API_KEY: ${{ secrets.GOOGLE_AI_API_KEY }}
+        run: node --strip-types tools/fetch-news.ts --days 1
+
+      - name: Upload candidates artifacts
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: candidates-${{ github.run_id }}
+          path: |
+            tools/candidates-input.json
+            tools/candidates-output.json
+          retention-days: 21
+
+      - name: Open PR with new articles
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: news/${{ github.run_id }}
+          commit-message: 'news: daily fetch ${{ github.run_id }}'
+          title: '📰 Daily news fetch — ${{ github.run_id }}'
+          body: |
+            Automated daily article import via fetch-news.
+
+            Candidates log is attached as a workflow artifact.
+            Please review the articles, adjust frontmatter if needed, and merge when ready.
+          reviewers: frsgit
+          labels: news
+          draft: false
+          add-paths: articles/**

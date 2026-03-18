@@ -17,26 +17,43 @@ interface FeedItem {
   content?: string;
 }
 
-interface TriageResult {
-  significance: 0 | 1 | 2 | 3 | 4; // 0 = skip, 1–4 = publish (4 = most significant)
-  reason: string;
-}
-
-interface GenerateResult {
+interface CandidateInput {
+  id: number;
+  source: string;
   title: string;
-  description: string;
-  slug: string;
-  tags: string[];
-  summarySection: string;
-  commentarySection: string;
+  date: string;
+  url: string;
+  content: string;
 }
 
-type ArticleJudgment = TriageResult & GenerateResult;
+interface CandidateResult {
+  id: number;
+  significance: 0 | 1 | 2 | 3 | 4;
+  reason: string;
+  // present only when significance > 0:
+  title?: string;
+  description?: string;
+  slug?: string;
+  tags?: string[];
+  summarySection?: string;
+  commentarySection?: string;
+}
+
+// used at write step only
+type ArticleJudgment = Required<Omit<CandidateResult, 'id'>>;
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 
 const root = resolve(import.meta.dirname, '..');
 const importedPath = resolve(import.meta.dirname, 'imported.json');
+const candidatesInputPath = resolve(
+  import.meta.dirname,
+  'candidates-input.json',
+);
+const candidatesOutputPath = resolve(
+  import.meta.dirname,
+  'candidates-output.json',
+);
 
 const TAG_VOCABULARY = [
   'javascript',
@@ -74,36 +91,33 @@ const SIGNIFICANCE_NAMES: Record<number, string> = {
   4: 'headline',
 };
 
-const TRIAGE_PROMPT = `You are a web dev news curator for digestweb.dev. Decide whether an RSS item is worth publishing.
+const JUDGE_PROMPT = `You are a web dev news curator for digestweb.dev.
+You receive a JSON array of article candidates. For EACH candidate, triage it and — if publishable — generate full metadata.
 
-Respond ONLY with a valid JSON object:
-{
-  significance: 0 | 1 | 2 | 3 | 4;
-  reason: string; // 1-sentence reason
-}
+Respond ONLY with a JSON array, same length and order as the input:
+
+• If significance === 0:
+  { "id": N, "significance": 0, "reason": "..." }
+
+• If significance >= 1:
+  { "id": N, "significance": 1|2|3|4, "reason": "...", "title": "...", "description": "...", "slug": "...", "tags": [...], "summarySection": "...", "commentarySection": "..." }
 
 Significance scale:
-  0 = skip — patch-only releases, link dumps, marketing
-  1 = mention   — minor release, niche article, tangential to mainstream web dev
+  0 = skip — patch-only releases, link dumps, marketing, already-covered rehash
+  1 = mention — minor release, niche article, tangential to mainstream web dev
   2 = highlight — notable minor release, good tutorial, community news
-  3 = feature   — major release with new features, significant web platform addition, influential deep-dive
-  4 = headline  — landmark release, paradigm shift, Stage 3/4 TC39 proposal shipping, ecosystem-wide impact`;
+  3 = feature — major release with new features, significant web-platform addition, influential deep-dive
+  4 = headline — landmark release, paradigm shift, Stage 3/4 TC39 proposal shipping, ecosystem-wide impact
 
-const GENERATE_PROMPT = `You are a web dev news curator for digestweb.dev. Generate article metadata for a confirmed web dev news item.
+Field rules (significance >= 1 only):
+  title         — clean, engaging, max 80 chars
+  description   — 1–2 sentences
+  slug          — kebab-case, max 80 chars
+  tags          — 1–4 items from allowed vocabulary
+  summarySection   — markdown for "## Summary & Key Takeaways"; use bullet points; concise
+  commentarySection — markdown for "## Our Commentary"; engaging, insightful
 
-Respond ONLY with a valid JSON object:
-{
-  title: string;              // clean, engaging title
-  description: string;        // 1-2 sentence description
-  slug: string;               // kebab-case URL slug
-  tags: string[];             // 1-4 tags from the allowed vocabulary
-  summarySection: string;     // markdown content for "## Summary & Key Takeaways"
-  commentarySection: string;  // markdown content for "## Our Commentary"
-}
-
-Allowed tags: ${TAG_VOCABULARY.join(', ')}
-
-For summarySection and commentarySection, write engaging markdown. Use bullet points for key takeaways. Be concise but insightful.`;
+Allowed tags: ${TAG_VOCABULARY.join(', ')}`;
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
 
@@ -176,52 +190,17 @@ function stripHtml(html: string): string {
     .trim();
 }
 
-function sleep(ms: number): Promise<void> {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
-
-async function triageWithGemini(
-  item: FeedItem,
-  source: (typeof sources)[number],
+async function judgeAllWithGemini(
+  candidates: CandidateInput[],
   genAI: GoogleGenerativeAI,
-): Promise<TriageResult> {
-  const userPrompt = `Source: ${source.name} (${source.category})
-Title: ${item.title}
-Published: ${item.isoDate}
-
-Snippet: ${stripHtml(item.content ?? item.contentSnippet ?? '').slice(0, 300)}`;
-
+): Promise<CandidateResult[]> {
   const model = genAI.getGenerativeModel({
-    model: 'gemini-2.0-flash',
-    systemInstruction: TRIAGE_PROMPT,
+    model: 'gemini-2.5-flash',
+    systemInstruction: JUDGE_PROMPT,
     generationConfig: { temperature: 0, responseMimeType: 'application/json' },
   });
-
-  const result = await model.generateContent(userPrompt);
-  return JSON.parse(result.response.text()) as TriageResult;
-}
-
-async function generateWithGemini(
-  item: FeedItem,
-  source: (typeof sources)[number],
-  genAI: GoogleGenerativeAI,
-): Promise<GenerateResult> {
-  const userPrompt = `Source: ${source.name} (${source.category})
-Title: ${item.title}
-Published: ${item.isoDate}
-URL: ${item.link}
-
-Content:
-${stripHtml(item.content ?? item.contentSnippet ?? '').slice(0, 2000)}`;
-
-  const model = genAI.getGenerativeModel({
-    model: 'gemini-2.0-flash',
-    systemInstruction: GENERATE_PROMPT,
-    generationConfig: { temperature: 0, responseMimeType: 'application/json' },
-  });
-
-  const result = await model.generateContent(userPrompt);
-  return JSON.parse(result.response.text()) as GenerateResult;
+  const result = await model.generateContent(JSON.stringify(candidates));
+  return JSON.parse(result.response.text()) as CandidateResult[];
 }
 
 function writeArticle(opts: {
@@ -339,6 +318,13 @@ async function main(): Promise<void> {
   const addedArticles: string[] = [];
   const feedErrorList: string[] = [];
 
+  // ── Phase A: feed fetching ──────────────────────────────────────────────────
+
+  const allCandidates: Array<{
+    item: FeedItem;
+    source: (typeof sources)[number];
+  }> = [];
+
   for (const source of filteredSources) {
     if (!source.feedUrl) {
       console.log(`[skip] ${source.name} — no feed URL`);
@@ -357,7 +343,6 @@ async function main(): Promise<void> {
       continue;
     }
 
-    // Filter by date and already-imported
     const candidates = items.filter((item) => {
       if (!item.link) return false;
       const pubDate = new Date(item.isoDate);
@@ -373,42 +358,65 @@ async function main(): Promise<void> {
         skippedImported++;
         continue;
       }
+      allCandidates.push({ item, source });
+    }
+  }
 
-      console.log(`  [judge] "${item.title}"`);
-      let triage: TriageResult;
-      try {
-        triage = await triageWithGemini(item, source, genAI);
-      } catch (err) {
-        const msg = err instanceof Error ? err.message : String(err);
-        console.error(`    [error] Gemini API (triage): ${msg}`);
-        await sleep(500);
-        continue;
-      }
+  // ── Phase B: single Gemini call ────────────────────────────────────────────
 
-      if (triage.significance === 0) {
-        console.log(`    [skip] ${triage.reason}`);
+  if (allCandidates.length === 0) {
+    console.log('\nNo new candidates found — skipping Gemini call.');
+  } else {
+    const inputs: CandidateInput[] = allCandidates.map(
+      ({ item, source }, id) => ({
+        id,
+        source: `${source.name} (${source.category})`,
+        title: item.title,
+        date: item.isoDate,
+        url: item.link,
+        content: stripHtml(item.content ?? item.contentSnippet ?? '').slice(
+          0,
+          2000,
+        ),
+      }),
+    );
+
+    writeFileSync(candidatesInputPath, JSON.stringify(inputs, null, 2));
+    console.log(
+      `\n[judge] ${inputs.length} candidate(s) — single Gemini call …`,
+    );
+
+    const results = await judgeAllWithGemini(inputs, genAI);
+    writeFileSync(candidatesOutputPath, JSON.stringify(results, null, 2));
+
+    // ── Phase C: process results ──────────────────────────────────────────────
+
+    for (const res of results) {
+      const { item, source } = allCandidates[res.id];
+
+      if (res.significance === 0) {
+        console.log(`  [skip] "${item.title}" — ${res.reason}`);
         skippedInsignificant++;
         if (!dryRun) appendImported(item.link);
         imported.add(item.link);
-        await sleep(500);
         continue;
       }
 
-      let generated: GenerateResult;
-      try {
-        generated = await generateWithGemini(item, source, genAI);
-      } catch (err) {
-        const msg = err instanceof Error ? err.message : String(err);
-        console.error(`    [error] Gemini API (generate): ${msg}`);
-        await sleep(500);
-        continue;
-      }
+      const judgment: ArticleJudgment = {
+        significance: res.significance,
+        reason: res.reason,
+        title: res.title as string,
+        description: res.description as string,
+        slug: res.slug as string,
+        tags: res.tags as string[],
+        summarySection: res.summarySection as string,
+        commentarySection: res.commentarySection as string,
+      };
 
-      const judgment: ArticleJudgment = { ...triage, ...generated };
       const pubDate = new Date(item.isoDate);
       const date = pubDate.toISOString().slice(0, 10);
 
-      console.log(`    [fetch og] ${item.link}`);
+      console.log(`  [fetch og] ${item.link}`);
       const ogImage = await extractOgImage(item.link);
       const photo =
         ogImage ?? picsumFallback(judgment.slug || slugify(judgment.title));
@@ -429,12 +437,10 @@ async function main(): Promise<void> {
 
       const sigName = SIGNIFICANCE_NAMES[judgment.significance] ?? '';
       console.log(
-        `    [${dryRun ? 'dry' : 'add'}] ${path}  (significance: ${judgment.significance} — ${sigName})`,
+        `  [${dryRun ? 'dry' : 'add'}] ${path}  (significance: ${judgment.significance} — ${sigName})`,
       );
       added++;
       addedArticles.push(`${judgment.title} → ${path}`);
-
-      await sleep(500);
     }
   }
 
