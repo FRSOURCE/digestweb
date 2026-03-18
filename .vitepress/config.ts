@@ -15,6 +15,7 @@ const skipArticles =
 export default defineConfig({
   title: 'digestweb.dev',
   description: 'Daily curated web dev news by FRSOURCE',
+  base: process.env.CI ? '/digestweb/' : undefined,
   srcDir: '.',
   outDir: './dist',
   metaChunk: true,
