@@ -1,6 +1,10 @@
+<script setup lang="ts">
+import { withBase } from 'vitepress';
+</script>
+
 <template>
   <a
-    href="/"
+    :href="withBase('/')"
     class="flex items-center gap-2.5 no-underline hover:opacity-50 active:opacity-70 transition-opacity shrink-0"
     aria-label="digestweb.dev — home"
   >

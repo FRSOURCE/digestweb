@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue';
-import { useData, Content } from 'vitepress';
+import { useData, Content, withBase } from 'vitepress';
 
 const sigLabel: Record<number, string> = {
   2: 'Worth Reading',
@@ -18,10 +18,10 @@ const pageUrl = computed(() =>
 </script>
 
 <template>
-  <div class="max-w-[740px] mx-auto">
+  <div>
     <!-- Back link -->
     <a
-      href="/"
+      :href="withBase('/')"
       class="inline-flex items-center gap-1.5 text-[.9rem] text-dw-primary font-medium mb-6 hover:text-dw-primary-mid no-underline transition-colors"
     >
       <svg

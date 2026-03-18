@@ -26,6 +26,8 @@ After making **any** change to source files, always run `/verify-e2e` to confirm
 2. Fix failures and retry — up to 3 fix attempts.
 3. Stop and print `Manual test bugs resolution needed` if tests still fail after the 3rd fix.
 
+After making **any** change to source files, always run `pnpm fix` to reformat code. Fix reported issues until `pnpm fix` passes (do max 3 iterations).
+
 ## Architecture
 
 **digestweb.dev** is a VitePress 2 (alpha) static site — a curated web dev news feed. Build output goes to `./dist` (GH Pages deploys from there via `deploy.yml`).

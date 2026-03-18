@@ -4,6 +4,7 @@ title: digestweb.dev
 
 <script setup>
 import { computed } from 'vue'
+import { withBase } from 'vitepress'
 import { data as articles } from './articles.data.ts'
 import ArticleCard from './.vitepress/theme/components/ArticleCard.vue'
 import Filter from './.vitepress/theme/components/Filter.vue'
@@ -42,7 +43,7 @@ const filtered = computed(() => {
     :title="article.frontmatter.title"
     :description="article.frontmatter.description ?? ''"
     :date="String(article.frontmatter.date)"
-    :photo="article.frontmatter.photo ?? '/images/placeholder.svg'"
+    :photo="article.frontmatter.photo ?? withBase('/images/placeholder.svg')"
     :original-url="article.frontmatter.original_url ?? '#'"
     :url="article.url"
     :significance="article.frontmatter.significance ?? 1"

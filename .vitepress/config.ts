@@ -5,10 +5,11 @@ import { readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import tailwindcss from '@tailwindcss/vite';
 
-const siteUrl = 'https://.frsource.org';
+const siteUrl = 'https://www.frsource.org/digestweb/';
 const lang = 'en-US';
 
 const isProd = process.env.PROD === 'true';
+const base = isProd ? '/digestweb/' : '/';
 const isIncremental = process.env.VITEPRESS_INCREMENTAL === '1';
 const skipArticles =
   process.env.VITEPRESS_SKIP_ARTICLES?.split('|').filter(Boolean) ?? [];
@@ -42,7 +43,7 @@ export default defineConfig({
       {
         rel: 'alternate',
         type: 'application/rss+xml',
-        href: '/feed.rss',
+        href: base + 'feed.rss',
         title: 'dailyweb RSS',
       },
     ],
@@ -51,7 +52,7 @@ export default defineConfig({
       {
         rel: 'alternate',
         type: 'application/atom+xml',
-        href: '/feed.atom',
+        href: base + 'feed.atom',
         title: 'dailyweb Atom',
       },
     ],
@@ -60,11 +61,11 @@ export default defineConfig({
       {
         rel: 'alternate',
         type: 'application/feed+json',
-        href: '/feed.json',
+        href: base + 'feed.json',
         title: 'dailyweb JSON Feed',
       },
     ],
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: base + 'logo.svg' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     [
       'link',

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, watch } from 'vue';
-import { useData, useRoute, Content } from 'vitepress';
+import { useData, useRoute, Content, withBase } from 'vitepress';
 import Logo from './components/Logo.vue';
 import FrsourceLogo from './components/FrsourceLogo.vue';
 import ArticleDetail from './components/ArticleDetail.vue';
@@ -21,10 +21,15 @@ watch(
 );
 
 const navItems = [
-  { href: '/', label: 'Daily Feed' },
-  { href: '/feed.rss', label: 'RSS', icon: RSSIcon, submenu: true },
-  { href: '/feed.atom', label: 'Atom', icon: RSSIcon, submenu: true },
-  { href: '/feed.json', label: 'JSON Feed', icon: RSSIcon, submenu: true },
+  { href: withBase('/'), label: 'Daily Feed' },
+  { href: withBase('/feed.rss'), label: 'RSS', icon: RSSIcon, submenu: true },
+  { href: withBase('/feed.atom'), label: 'Atom', icon: RSSIcon, submenu: true },
+  {
+    href: withBase('/feed.json'),
+    label: 'JSON Feed',
+    icon: RSSIcon,
+    submenu: true,
+  },
   {
     href: 'mailto:dailyweb@frsource.org?subject=Link proposal&body=Link: https://... , Description/Summary: ... , Are you the author? [yes/no], Comments: ...',
     label: 'Submit Link',
@@ -64,7 +69,7 @@ const navItems = [
     >
       <!-- Curated by FRSOURCE — always visible -->
       <Button
-        href="https://frsource.org"
+        href="https://www.frsource.org"
         target="_blank"
         rel="noopener noreferrer"
         class="h-full raised-5 items-center rounded-xl bg-dw-bg inline-flex items-center gap-2"
@@ -179,7 +184,7 @@ const navItems = [
       &copy; {{ new Date().getFullYear() }} digestweb.dev &mdash; brought to you
       by&nbsp;
       <a
-        href="https://frsource.org"
+        href="https://www.frsource.org"
         target="_blank"
         rel="noopener noreferrer"
         class="inline-flex items-center align-middle no-underline color-dw-accent hover:text-dw-primary font-medium transition-colors"
