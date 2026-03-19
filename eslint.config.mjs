@@ -11,6 +11,11 @@ export default [
       '**/public',
       '**/node_modules',
       '.vitepress/cache',
+      'playwright-report',
+      'test-results',
+      'tools/imported.json',
+      'tools/candidates-input.json',
+      'tools/candidates-output.json',
     ],
   },
   {

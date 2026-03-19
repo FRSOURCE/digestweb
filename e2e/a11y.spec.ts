@@ -35,7 +35,10 @@ test.describe('accessibility — filter modal', () => {
 
   test('no axe violations with filter modal open', async ({ page }) => {
     await page.goto('/');
-    await page.getByRole('button', { name: /filters/i }).click();
+    await page
+      .getByRole('button', { name: /filters/i })
+      .first()
+      .click();
     const dialog = page.getByRole('dialog');
     await expect(dialog).toBeVisible();
     await expect(dialog).toHaveCSS('opacity', '1');

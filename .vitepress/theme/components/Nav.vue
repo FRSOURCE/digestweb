@@ -6,7 +6,7 @@
       @click="prevDate && setDate(prevDate)"
     >
       ← Earlier
-      <span v-if="prevDate" class="block text-[.65rem] opacity-60">{{
+      <span v-if="prevDate" class="block text-[.65rem] text-dw-muted">{{
         formatDate(prevDate)
       }}</span>
     </Button>
@@ -18,7 +18,7 @@
       class="ml-auto"
     >
       Later →
-      <span v-if="nextDate" class="block text-[.65rem] opacity-60">{{
+      <span v-if="nextDate" class="block text-[.65rem] text-dw-muted">{{
         formatDate(nextDate)
       }}</span>
     </Button>

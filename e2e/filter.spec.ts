@@ -18,7 +18,7 @@ test.describe('tag filter', () => {
   }) => {
     await page.goto('/?tags=css');
     const filtered = await page.locator('article').count();
-    await page.getByRole('button', { name: 'Clear' }).click();
+    await page.getByRole('button', { name: 'Clear' }).first().click();
     const restored = await page.locator('article').count();
     expect(restored).toBeGreaterThan(filtered);
     await expect(page).not.toHaveURL(/tags=/);
@@ -45,12 +45,17 @@ test.describe('mobile filter modal', () => {
 
   test('filter button visible on mobile', async ({ page }) => {
     await page.goto('/');
-    await expect(page.getByRole('button', { name: /filters/i })).toBeVisible();
+    await expect(
+      page.getByRole('button', { name: /filters/i }).first(),
+    ).toBeVisible();
   });
 
   test('filter button opens modal', async ({ page }) => {
     await page.goto('/');
-    await page.getByRole('button', { name: /filters/i }).click();
+    await page
+      .getByRole('button', { name: /filters/i })
+      .first()
+      .click();
     await expect(page.getByRole('dialog')).toBeVisible();
     await expect(page.getByRole('dialog').getByText('Tags')).toBeVisible();
     await expect(page.getByRole('dialog').getByText('Date')).toBeVisible();
@@ -60,7 +65,10 @@ test.describe('mobile filter modal', () => {
     page,
   }) => {
     await page.goto('/');
-    await page.getByRole('button', { name: /filters/i }).click();
+    await page
+      .getByRole('button', { name: /filters/i })
+      .first()
+      .click();
     await page
       .getByRole('dialog')
       .getByText('css', { exact: true })
@@ -71,7 +79,10 @@ test.describe('mobile filter modal', () => {
 
   test('close button dismisses modal', async ({ page }) => {
     await page.goto('/');
-    await page.getByRole('button', { name: /filters/i }).click();
+    await page
+      .getByRole('button', { name: /filters/i })
+      .first()
+      .click();
     await expect(page.getByRole('dialog')).toBeVisible();
     await page
       .getByRole('dialog')
@@ -82,7 +93,10 @@ test.describe('mobile filter modal', () => {
 
   test('backdrop click dismisses modal', async ({ page }) => {
     await page.goto('/');
-    await page.getByRole('button', { name: /filters/i }).click();
+    await page
+      .getByRole('button', { name: /filters/i })
+      .first()
+      .click();
     await expect(page.getByRole('dialog')).toBeVisible();
     await page.mouse.click(5, 5); // Click far outside modal panel
     await expect(page.getByRole('dialog')).not.toBeVisible();
@@ -123,7 +137,7 @@ test.describe('filter persistence', () => {
 
   test('clearing filter removes localStorage entry', async ({ page }) => {
     await page.goto('/?tags=css');
-    await page.getByRole('button', { name: 'Clear' }).click();
+    await page.getByRole('button', { name: 'Clear' }).first().click();
     const stored = await page.evaluate(() => localStorage.getItem('dw:filter'));
     expect(stored).toBeNull();
   });
