@@ -11,12 +11,13 @@ significance: 2
 ---
 
 ## Summary & Key Takeaways
-*   Deno v2.7.6 is a patch release packed with new features and fixes.
-*   **Performance Tooling:** Adds `--cpu-prof-flamegraph` to generate interactive SVG flamegraphs for CPU profiling.
-*   **Module Handling:** `deno eval` now auto-detects CJS vs. ESM modules.
-*   **Node.js Compatibility:** Further enhances Node.js compatibility with additions like `MIMEType`, `Symbol.dispose` for `ChildProcess`, and improved `child_process` test passing.
-*   **Core Updates:** Updates V8 to 146.8.0 and adds a cloneable resource registry for structured cloning.
-*   **Bug Fixes:** Addresses numerous issues across core, CLI, coverage, console, crypto, fetch, FFI, and NAPI extensions.
+
+- Deno v2.7.6 is a patch release packed with new features and fixes.
+- **Performance Tooling:** Adds `--cpu-prof-flamegraph` to generate interactive SVG flamegraphs for CPU profiling.
+- **Module Handling:** `deno eval` now auto-detects CJS vs. ESM modules.
+- **Node.js Compatibility:** Further enhances Node.js compatibility with additions like `MIMEType`, `Symbol.dispose` for `ChildProcess`, and improved `child_process` test passing.
+- **Core Updates:** Updates V8 to 146.8.0 and adds a cloneable resource registry for structured cloning.
+- **Bug Fixes:** Addresses numerous issues across core, CLI, coverage, console, crypto, fetch, FFI, and NAPI extensions.
 
 ## Out Commentary
 

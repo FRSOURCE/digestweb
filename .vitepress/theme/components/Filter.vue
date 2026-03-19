@@ -9,7 +9,7 @@ const { filterCount, hasFilters, clearAll } = useFilter();
 const open = ref(false);
 </script>
 <template>
-  <div class="flex items-center gap-3 mb-5">
+  <div class="flex items-center gap-3">
     <Button
       size="sm"
       class="relative"

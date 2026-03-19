@@ -1,7 +1,8 @@
 import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 
-const ARTICLE_SLUG = '/articles/2026-03-06/css-anchor-positioning';
+const ARTICLE_SLUG =
+  '/articles/2026-03-17/github-boosts-open-source-security-investments';
 
 test.describe('accessibility — home page', () => {
   test('no axe violations', async ({ page }) => {

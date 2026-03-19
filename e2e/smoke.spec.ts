@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-const ARTICLE_SLUG = '/articles/2026-03-06/css-anchor-positioning';
+const ARTICLE_SLUG = '/articles/2026-03-18/nextjs-16-2-adapters-ai-turbopack';
 
 // ── Home page ─────────────────────────────────────────────────────────────────
 

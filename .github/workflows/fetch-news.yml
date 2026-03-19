@@ -46,6 +46,8 @@ jobs:
             tools/candidates-output.json
           retention-days: 21
 
+      - run: pnpm fix
+
       - name: Open PR with new articles
         uses: peter-evans/create-pull-request@v6
         with:

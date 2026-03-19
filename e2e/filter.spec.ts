@@ -33,7 +33,7 @@ test.describe('date filter', () => {
   test('loading page with ?date= param applies date filter', async ({
     page,
   }) => {
-    await page.goto('/?date=2026-03-06');
+    await page.goto('/?date=2026-03-16');
     await expect(page.locator('article').first()).toBeVisible();
   });
 });
