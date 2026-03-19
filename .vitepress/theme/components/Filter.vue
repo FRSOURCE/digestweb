@@ -5,13 +5,13 @@ import Modal from './Modal.vue';
 import FilterPanel from './FilterPanel.vue';
 import Button from './Button.vue';
 
-const { filterCount, hasFilters, clearAll } = useFilter();
+const { filterCount } = useFilter();
 const open = ref(false);
 </script>
 <template>
-  <div class="flex items-center gap-3">
+  <div class="flex items-center gap-3" v-bind="$attrs">
     <Button
-      size="sm"
+      size="md lg:sm"
       class="relative"
       @click="open = true"
       :badge="filterCount > 0 ? filterCount : undefined"
@@ -32,13 +32,6 @@ const open = ref(false);
       </svg>
       Filters
     </Button>
-    <button
-      v-if="hasFilters"
-      class="cursor-pointer text-[0.72rem] text-dw-accent font-medium hover:underline"
-      @click="clearAll"
-    >
-      Clear
-    </button>
   </div>
   <Modal v-model="open" title="Filters">
     <FilterPanel @close="open = false" />

@@ -4,12 +4,13 @@ title: digestweb.dev
 
 <script setup>
 import { computed } from 'vue'
-import { withBase } from 'vitepress'
+import { withBase, useData } from 'vitepress'
 import { data as articles } from './articles.data.ts'
 import ArticleCard from './.vitepress/theme/components/ArticleCard.vue'
 import Nav from './.vitepress/theme/components/Nav.vue'
 import { useFilter } from './.vitepress/theme/composables/useFilter'
 
+const { params } = useData()
 const { activeTags, minSignificance, toggleTag } = useFilter()
 
 const sorted = computed(() =>
@@ -20,14 +21,11 @@ const sorted = computed(() =>
   })
 )
 
-const latestDate = computed(() =>
-  articles.map(a => String(a.date).slice(0, 10)).filter(Boolean).sort().at(-1) ?? null
-)
-
 const filtered = computed(() => {
   let result = sorted.value
-  if (latestDate.value)
-    result = result.filter(a => String(a.date).slice(0, 10) === latestDate.value)
+  const dateFilter = params.value.date
+  if (dateFilter)
+    result = result.filter(a => String(a.date).slice(0, 10) === dateFilter)
   if (minSignificance.value > 1)
     result = result.filter(a => (a.frontmatter.significance ?? 1) >= minSignificance.value)
   if (activeTags.value.length)

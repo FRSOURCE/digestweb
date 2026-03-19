@@ -39,7 +39,7 @@ const navItems = [
 
 <template>
   <div
-    class="p-2 w-full flex flex-col min-h-dvh bg-dw-bg grid gap-4 grid-rows-[auto_1fr_auto] sm:grid-cols-[min-content_min-content_auto] xl:grid-cols-[auto_1fr_auto] [grid-template-areas:'logo_menu''aside_aside''content_content''footer_footer'] sm:[grid-template-areas:'logo_curated_menu''aside_aside_aside''content_content_content''footer_footer_footer'] lg:[grid-template-areas:'logo_logo_content''aside_aside_content''footer_footer_curated']"
+    class="p-2 w-full flex flex-col min-h-dvh bg-dw-bg grid gap-4 grid-rows-[auto_1fr_auto] sm:grid-cols-[min-content_min-content_auto] xl:grid-cols-[auto_auto_1fr] [grid-template-areas:'logo_menu''aside_aside''content_content''footer_footer'] sm:[grid-template-areas:'logo_curated_menu''aside_aside_aside''content_content_content''footer_footer_footer'] lg:[grid-template-areas:'logo_logo_content''aside_aside_content''footer_footer_curated']"
   >
     <header
       class="[grid-area:logo] sticky top-2 z-50 bg-dw-bg h-[48px] lg:h-[60px] max-w-min px-4 lg:px-6 flex items-center gap-3 lg:gap-8 rounded-xl raised-5 whitespace-nowrap"
@@ -171,7 +171,7 @@ const navItems = [
 
     <!-- ── Main ── -->
     <main
-      class="flex-1 max-w-[980px] w-full mx-auto px-2 lg:px-4 pt-6 pb-16 [grid-area:content]"
+      class="flex-1 w-[980px] w-full mx-auto px-2 lg:px-4 pt-6 pb-16 [grid-area:content]"
     >
       <ArticleDetail v-if="frontmatter.layout === 'article'" />
       <Content v-else />

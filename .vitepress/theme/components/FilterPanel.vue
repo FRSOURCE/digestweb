@@ -2,7 +2,6 @@
 import { computed } from 'vue';
 import { data as articles } from '../../../articles.data.ts';
 import { useFilter } from '../composables/useFilter';
-import DatePicker from './DatePicker.vue';
 import Button from './Button.vue';
 import Chip from './Chip.vue';
 
@@ -11,7 +10,13 @@ defineEmits<{
   (e: 'close'): void;
 }>();
 
-const { activeTags, activeDate, setDate, hasFilters, clearAll } = useFilter();
+const {
+  activeTags,
+  minSignificance,
+  hasFilters,
+  clearAll,
+  setMinSignificance,
+} = useFilter();
 
 const allTags = computed(() => {
   const s = new Set<string>();
@@ -21,14 +26,7 @@ const allTags = computed(() => {
   return [...s].sort();
 });
 
-const availableDates = computed(() => {
-  const s = new Set<string>();
-  articles.forEach((a) => {
-    const iso = String(a.date).slice(0, 10);
-    if (iso) s.add(iso);
-  });
-  return [...s].sort().reverse();
-});
+const sigLevels = [1, 2, 3, 4] as const;
 </script>
 <template>
   <section
@@ -39,6 +37,25 @@ const availableDates = computed(() => {
         : 'space-y-5 pb-2 lg:pb-0'
     "
   >
+    <fieldset :class="horizontal ? 'shrink-0' : ''">
+      <legend
+        class="text-[0.62rem] font-bold uppercase tracking-[.08em] text-dw-subtle mb-2"
+      >
+        Min. article importance
+      </legend>
+      <ul class="flex flex-wrap gap-2">
+        <li v-for="level in sigLevels" :key="level">
+          <Button
+            size="sm"
+            :active="minSignificance === level"
+            @click="setMinSignificance(level)"
+          >
+            {{ '★'.repeat(level) }}
+          </Button>
+        </li>
+      </ul>
+    </fieldset>
+    <hr v-if="allTags.length && !horizontal" class="border-dw-border" />
     <fieldset
       v-if="allTags.length"
       :class="horizontal ? 'flex-1 min-w-[200px]' : ''"
@@ -62,26 +79,6 @@ const availableDates = computed(() => {
         </li>
       </ul>
     </fieldset>
-    <hr
-      v-if="allTags.length && availableDates.length && !horizontal"
-      class="border-dw-border"
-    />
-    <div
-      v-if="availableDates.length"
-      :class="horizontal ? 'shrink-0' : ''"
-      class="max-w-80"
-    >
-      <p
-        class="text-[0.62rem] font-bold uppercase tracking-[.08em] text-dw-subtle mb-2"
-      >
-        Date
-      </p>
-      <DatePicker
-        :available-dates="availableDates"
-        :active-date="activeDate ?? new Date().toISOString().slice(0, 10)"
-        @update:activeDate="setDate"
-      />
-    </div>
     <div class="w-[calc(100%+0.75rem)] flex mt-10 -mx-1.5 gap-2">
       <Button
         size="md"

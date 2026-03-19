@@ -18,7 +18,14 @@ test.describe('tag filter', () => {
   }) => {
     await page.goto('/?tags=css');
     const filtered = await page.locator('article').count();
-    await page.getByRole('button', { name: 'Clear' }).first().click();
+    await page
+      .getByRole('button', { name: /filters/i })
+      .first()
+      .click();
+    await page
+      .getByRole('dialog')
+      .getByRole('button', { name: /clear all/i })
+      .click();
     const restored = await page.locator('article').count();
     expect(restored).toBeGreaterThan(filtered);
     await expect(page).not.toHaveURL(/tags=/);
@@ -30,10 +37,10 @@ test.describe('tag filter', () => {
 test.describe('date filter', () => {
   test.use({ viewport: { width: 1280, height: 900 } });
 
-  test('loading page with ?date= param applies date filter', async ({
+  test('loading date subpath shows articles for that date', async ({
     page,
   }) => {
-    await page.goto('/?date=2026-03-16');
+    await page.goto('/2026-03-16/');
     await expect(page.locator('article').first()).toBeVisible();
   });
 });
@@ -58,7 +65,6 @@ test.describe('mobile filter modal', () => {
       .click();
     await expect(page.getByRole('dialog')).toBeVisible();
     await expect(page.getByRole('dialog').getByText('Tags')).toBeVisible();
-    await expect(page.getByRole('dialog').getByText('Date')).toBeVisible();
   });
 
   test('selecting tag inside modal filters articles and updates URL', async ({
@@ -110,10 +116,12 @@ test.describe('mobile filter modal', () => {
     await expect(badge).toHaveText('1');
   });
 
-  test('filter count increments for tag + date', async ({ page }) => {
-    await page.goto('/?tags=css&date=2026-03-06');
+  test('filter count shows tag count only (date is path-based)', async ({
+    page,
+  }) => {
+    await page.goto('/2026-03-16/?tags=css');
     const badge = page.locator('.bg-dw-accent').first();
-    await expect(badge).toHaveText('2');
+    await expect(badge).toHaveText('1');
   });
 });
 
@@ -126,7 +134,7 @@ test.describe('filter persistence', () => {
     await page.evaluate(() => {
       localStorage.setItem(
         'dw:filter',
-        JSON.stringify({ tags: ['javascript'], date: null }),
+        JSON.stringify({ tags: ['javascript'] }),
       );
     });
     // Navigate with css in URL — should override LS
@@ -137,7 +145,14 @@ test.describe('filter persistence', () => {
 
   test('clearing filter removes localStorage entry', async ({ page }) => {
     await page.goto('/?tags=css');
-    await page.getByRole('button', { name: 'Clear' }).first().click();
+    await page
+      .getByRole('button', { name: /filters/i })
+      .first()
+      .click();
+    await page
+      .getByRole('dialog')
+      .getByRole('button', { name: /clear all/i })
+      .click();
     const stored = await page.evaluate(() => localStorage.getItem('dw:filter'));
     expect(stored).toBeNull();
   });

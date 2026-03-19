@@ -1,16 +1,16 @@
 import { ref, computed, watch, onMounted } from 'vue';
 
 const activeTags = ref<string[]>([]);
-const activeDate = ref<string | null>(null);
+const minSignificance = ref(1);
 let _initialized = false;
 const LS_KEY = 'dw:filter';
 
 export function useFilter() {
   const hasFilters = computed(
-    () => activeTags.value.length > 0 || activeDate.value !== null,
+    () => activeTags.value.length > 0 || minSignificance.value > 1,
   );
   const filterCount = computed(
-    () => activeTags.value.length + (activeDate.value ? 1 : 0),
+    () => activeTags.value.length + (minSignificance.value > 1 ? 1 : 0),
   );
 
   function toggleTag(tag: string) {
@@ -21,13 +21,13 @@ export function useFilter() {
         : activeTags.value.filter((t) => t !== tag);
   }
 
-  function setDate(date: string | null) {
-    activeDate.value = activeDate.value === date ? null : date;
+  function setMinSignificance(val: number) {
+    minSignificance.value = minSignificance.value === val ? 1 : val;
   }
 
   function clearAll() {
     activeTags.value = [];
-    activeDate.value = null;
+    minSignificance.value = 1;
   }
 
   onMounted(() => {
@@ -35,47 +35,53 @@ export function useFilter() {
     _initialized = true;
     const url = new URL(window.location.href);
     const urlTags = url.searchParams.get('tags');
-    const urlDate = url.searchParams.get('date');
-    if (urlTags !== null || urlDate !== null) {
+    const urlSig = url.searchParams.get('sig');
+    if (urlTags !== null || urlSig !== null) {
       activeTags.value = urlTags ? urlTags.split(',').filter(Boolean) : [];
-      activeDate.value = urlDate || null;
+      const sig = urlSig ? parseInt(urlSig, 10) : 1;
+      minSignificance.value = sig >= 1 && sig <= 4 ? sig : 1;
       return;
     }
     try {
       const parsed = JSON.parse(localStorage.getItem(LS_KEY) ?? 'null');
       if (parsed) {
         activeTags.value = parsed.tags ?? [];
-        activeDate.value = parsed.date ?? null;
+        const sig = parsed.sig ?? 1;
+        minSignificance.value = sig >= 1 && sig <= 4 ? sig : 1;
       }
     } catch {
       /* ignore */
     }
   });
 
-  watch([activeTags, activeDate], () => {
+  watch([activeTags, minSignificance], () => {
     if (typeof window === 'undefined') return;
     const url = new URL(window.location.href);
     if (activeTags.value.length)
       url.searchParams.set('tags', activeTags.value.join(','));
     else url.searchParams.delete('tags');
-    if (activeDate.value) url.searchParams.set('date', activeDate.value);
-    else url.searchParams.delete('date');
+    if (minSignificance.value > 1)
+      url.searchParams.set('sig', String(minSignificance.value));
+    else url.searchParams.delete('sig');
     window.history.replaceState({}, '', url.toString());
     if (hasFilters.value)
       localStorage.setItem(
         LS_KEY,
-        JSON.stringify({ tags: activeTags.value, date: activeDate.value }),
+        JSON.stringify({
+          tags: activeTags.value,
+          sig: minSignificance.value,
+        }),
       );
     else localStorage.removeItem(LS_KEY);
   });
 
   return {
     activeTags,
-    activeDate,
+    minSignificance,
     hasFilters,
     filterCount,
     toggleTag,
-    setDate,
+    setMinSignificance,
     clearAll,
   };
 }

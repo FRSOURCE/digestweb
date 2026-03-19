@@ -1,21 +1,32 @@
 <template>
   <div class="flex items-center gap-3">
     <Button
-      size="sm"
+      size="md lg:sm"
       :disabled="!prevDate"
-      @click="prevDate && setDate(prevDate)"
+      @click="prevDate && navigateToDate(prevDate)"
+      class="hidden! lg:inline-flex!"
     >
       ← Earlier
       <span v-if="prevDate" class="block text-[.65rem] text-dw-muted">{{
         formatDate(prevDate)
       }}</span>
     </Button>
-    <Filter />
+    <Filter class="mr-auto lg:mr-0 ea" />
+    <div>
+      <span class="hidden lg:inline text-[.8rem] text-dw-muted pr-2 lg:ml-6"
+        >Feed for the day of:</span
+      >
+      <DatePicker
+        :available-dates="sortedDates"
+        :active-date="effectiveDate"
+        @update:activeDate="navigateToDate"
+      />
+    </div>
     <Button
-      size="sm"
+      size="md lg:sm"
       :disabled="!nextDate"
-      @click="nextDate && setDate(nextDate)"
-      class="ml-auto"
+      @click="nextDate && navigateToDate(nextDate)"
+      class="ml-auto hidden! lg:inline-flex!"
     >
       Later →
       <span v-if="nextDate" class="block text-[.65rem] text-dw-muted">{{
@@ -27,12 +38,13 @@
 
 <script lang="ts" setup>
 import { computed } from 'vue';
+import { useData } from 'vitepress';
 import { data as articles } from '../../../articles.data.ts';
 import Filter from './Filter.vue';
-import { useFilter } from '../composables/useFilter';
+import DatePicker from './DatePicker.vue';
 import Button from './Button.vue';
 
-const { activeDate, setDate } = useFilter();
+const { params } = useData();
 
 const sortedDates = computed(() => {
   const s = new Set<string>();
@@ -44,7 +56,8 @@ const sortedDates = computed(() => {
 });
 
 const effectiveDate = computed(
-  () => activeDate.value ?? sortedDates.value[0] ?? null,
+  () =>
+    (params.value?.date as string | undefined) ?? sortedDates.value[0] ?? null,
 );
 
 const currentIndex = computed(() =>
@@ -66,5 +79,13 @@ function formatDate(iso: string) {
     month: 'short',
     day: 'numeric',
   }).format(new Date(iso + 'T12:00:00'));
+}
+
+function navigateToDate(date: string | null) {
+  const base = import.meta.env.BASE_URL as string;
+  const url = new URL(window.location.href);
+  const tagsParam = url.searchParams.get('tags');
+  const newPath = date ? base + date + '/' : base;
+  window.location.href = tagsParam ? newPath + '?tags=' + tagsParam : newPath;
 }
 </script>
