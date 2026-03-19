@@ -11,9 +11,11 @@ significance: 3
 ---
 
 ## Summary & Key Takeaways
-*   **Cloud MCP Beta Release:** Cypress introduces the beta of its Cloud Model Context Protocol (MCP) server.
-*   **AI Integration:** Cloud MCP connects AI coding assistants and agents directly to Cypress Cloud.
-*   **Context Gap Solution:** Aims to solve the problem of manually feeding test run context (like stack traces) to AI assistants, streamlining debugging.
+
+- **Cloud MCP Beta Release:** Cypress introduces the beta of its Cloud Model Context Protocol (MCP) server.
+- **AI Integration:** Cloud MCP connects AI coding assistants and agents directly to Cypress Cloud.
+- **Context Gap Solution:** Aims to solve the problem of manually feeding test run context (like stack traces) to AI assistants, streamlining debugging.
 
 ## Our Commentary
+
 The introduction of Cloud MCP by Cypress is a smart move, directly addressing a growing pain point in AI-assisted development: the "context gap.". Make sure to watch the video!

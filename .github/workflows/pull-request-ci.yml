@@ -1,11 +1,10 @@
-name: Test build
-on: 
-  push:
+name: Pull request CI
+on:
   pull_request:
     branches:
       - dev
 jobs:
-  test-build:
+  test-build-lint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
@@ -16,5 +15,6 @@ jobs:
           cache: 'pnpm'
           node-version-file: '.nvmrc'
       - run: pnpm i
+      - run: pnpm lint
       - name: Build 🔧
         run: pnpm build

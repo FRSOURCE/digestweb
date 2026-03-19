@@ -11,10 +11,12 @@ significance: 1
 ---
 
 ## Summary & Key Takeaways
-*   **Open Source Security Focus:** GitHub is increasing its commitment to securing the open source ecosystem.
-*   **Maintainer Funding:** Investments include direct funding for open source maintainers.
-*   **Strategic Partnerships:** Collaboration with organizations like Alpha-Omega to enhance supply chain security.
-*   **Resource Expansion:** Expanding access to tools and resources to reduce maintainer burden and strengthen software supply chains.
+
+- **Open Source Security Focus:** GitHub is increasing its commitment to securing the open source ecosystem.
+- **Maintainer Funding:** Investments include direct funding for open source maintainers.
+- **Strategic Partnerships:** Collaboration with organizations like Alpha-Omega to enhance supply chain security.
+- **Resource Expansion:** Expanding access to tools and resources to reduce maintainer burden and strengthen software supply chains.
 
 ## Our Commentary
+
 The security of the open source supply chain is a critical concern for all web developers, given our reliance on countless packages. GitHub's initiative to invest directly in maintainers and partner with security organizations is a welcome development! A more secure open source ecosystem benefits everyone.

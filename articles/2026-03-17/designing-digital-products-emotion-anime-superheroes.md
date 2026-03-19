@@ -11,9 +11,11 @@ significance: 2
 ---
 
 ## Summary & Key Takeaways
-*   **Emotion in Design:** Design is not just about visuals but also about pacing and evoking feelings.
-*   **Pop Culture Parallels:** The article draws insights from anime (e.g., *Dan Da Dan*) and superhero films (e.g., James Gunn’s *Superman*) to illustrate emotional shifts.
-*   **Practical Design Patterns:** Translates these observations into actionable patterns for product design, focusing on "Emotion in Flow" and "Emotion in Conflict."
+
+- **Emotion in Design:** Design is not just about visuals but also about pacing and evoking feelings.
+- **Pop Culture Parallels:** The article draws insights from anime (e.g., _Dan Da Dan_) and superhero films (e.g., James Gunn’s _Superman_) to illustrate emotional shifts.
+- **Practical Design Patterns:** Translates these observations into actionable patterns for product design, focusing on "Emotion in Flow" and "Emotion in Conflict."
 
 ## Our Commentary
+
 A refreshing perspective on product design, moving beyond the purely functional to explore the crucial role of emotion. It's a valuable reminder that the best digital products resonate on a deeper, human level, and that inspiration can come from unexpected places. Big + for Marvel reference!
