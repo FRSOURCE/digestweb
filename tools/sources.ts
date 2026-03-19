@@ -1,3 +1,12 @@
+import * as cheerio from 'cheerio';
+import type { FeedItem } from './fetch-news.ts';
+
+const fetchPage = async (url: string) => {
+  const response = await fetch(url);
+  const html = await response.text();
+  return cheerio.load(html);
+};
+
 export type SourceCategory =
   | 'framework'
   | 'build-tool'
@@ -6,14 +15,15 @@ export type SourceCategory =
   | 'testing'
   | 'web-platform'
   | 'person-blog'
-  | 'general';
+  | 'general'
+  | 'ai';
 
 export interface Source {
   id: string;
   name: string;
   category: SourceCategory;
   tags: string[];
-  feedUrl: string | null;
+  feed: string | ((homeUrl: string) => Promise<FeedItem[]>) | null;
   homeUrl: string;
   authorName?: string;
 }
@@ -21,19 +31,19 @@ export interface Source {
 export const sources: Source[] = [
   // Frameworks / Libraries
   {
-    id: 'react-releases',
-    name: 'React Releases',
+    id: 'react-blog',
+    name: 'React Blog',
     category: 'framework',
-    tags: ['react', 'release'],
-    feedUrl: 'https://github.com/facebook/react/releases.atom',
-    homeUrl: 'https://react.dev',
+    tags: ['react', 'frameworks'],
+    feed: 'https://react.dev/rss.xml',
+    homeUrl: 'https://react.dev/blog',
   },
   {
     id: 'vuejs-blog',
     name: 'Vue.js Blog',
     category: 'framework',
     tags: ['vue', 'frameworks'],
-    feedUrl: 'https://blog.vuejs.org/feed.rss',
+    feed: 'https://blog.vuejs.org/feed.rss',
     homeUrl: 'https://blog.vuejs.org',
   },
   {
@@ -41,23 +51,23 @@ export const sources: Source[] = [
     name: 'Angular Blog',
     category: 'framework',
     tags: ['angular', 'frameworks'],
-    feedUrl: 'https://blog.angular.dev/feed',
+    feed: 'https://blog.angular.dev/feed',
     homeUrl: 'https://blog.angular.dev',
   },
   {
-    id: 'svelte-releases',
-    name: 'Svelte Releases',
+    id: 'svelte-blog',
+    name: 'Svelte Blog',
     category: 'framework',
-    tags: ['svelte', 'release'],
-    feedUrl: 'https://github.com/sveltejs/svelte/releases.atom',
-    homeUrl: 'https://svelte.dev',
+    tags: ['svelte', 'frameworks'],
+    feed: 'https://svelte.dev/blog/rss.xml',
+    homeUrl: 'https://svelte.dev/blog',
   },
   {
     id: 'solidjs-releases',
     name: 'SolidJS Releases',
     category: 'framework',
     tags: ['solidjs', 'release'],
-    feedUrl: 'https://github.com/solidjs/solid/releases.atom',
+    feed: 'https://github.com/solidjs/solid/releases.atom',
     homeUrl: 'https://solidjs.com',
   },
   {
@@ -65,23 +75,44 @@ export const sources: Source[] = [
     name: 'Astro Blog',
     category: 'framework',
     tags: ['astro', 'frameworks'],
-    feedUrl: 'https://astro.build/rss.xml',
+    feed: 'https://astro.build/rss.xml',
     homeUrl: 'https://astro.build/blog',
   },
   {
-    id: 'qwik-releases',
-    name: 'Qwik Releases',
+    id: 'qwik-blog',
+    name: 'Qwik Blog',
     category: 'framework',
-    tags: ['frameworks', 'release'],
-    feedUrl: 'https://github.com/QwikDev/qwik/releases.atom',
-    homeUrl: 'https://qwik.dev',
+    tags: ['qwik', 'frameworks'],
+    homeUrl: 'https://qwik.dev/blog/',
+    feed: async (homeUrl) => {
+      const $ = await fetchPage(homeUrl);
+      const latestArticle = $('main section article a').first();
+
+      const link = new URL(latestArticle.attr('href') ?? '', homeUrl).href;
+      const title = latestArticle.find('h2').text();
+
+      const $details = await fetchPage(link);
+      const dateString = $details('h1 + div h4').first().text();
+      const isoDate = new Date(dateString).toISOString();
+      const content = $details('main article').html() ?? undefined;
+
+      if (!title || !link || !dateString || !content) {
+        // eslint-disable-next-line no-console -- logging for debugging
+        console.error(
+          'Qwik blog: No title, link, date, or content found, skipping',
+        );
+        return [];
+      }
+
+      return [{ title, link, isoDate, content }];
+    },
   },
   {
     id: 'nextjs-blog',
     name: 'Next.js Blog',
     category: 'framework',
     tags: ['react', 'frameworks'],
-    feedUrl: 'https://nextjs.org/feed.xml',
+    feed: 'https://nextjs.org/feed.xml',
     homeUrl: 'https://nextjs.org/blog',
   },
   {
@@ -89,7 +120,7 @@ export const sources: Source[] = [
     name: 'Nuxt Releases',
     category: 'framework',
     tags: ['vue', 'frameworks', 'release'],
-    feedUrl: 'https://github.com/nuxt/nuxt/releases.atom',
+    feed: 'https://github.com/nuxt/nuxt/releases.atom',
     homeUrl: 'https://nuxt.com',
   },
   {
@@ -97,7 +128,7 @@ export const sources: Source[] = [
     name: 'Remix Blog',
     category: 'framework',
     tags: ['react', 'frameworks'],
-    feedUrl: 'https://remix.run/blog/rss.xml',
+    feed: 'https://remix.run/blog/rss.xml',
     homeUrl: 'https://remix.run/blog',
   },
   {
@@ -105,7 +136,7 @@ export const sources: Source[] = [
     name: 'TanStack Blog',
     category: 'framework',
     tags: ['react', 'frameworks', 'dx'],
-    feedUrl: 'https://tanstack.com/rss.xml',
+    feed: 'https://tanstack.com/rss.xml',
     homeUrl: 'https://tanstack.com',
   },
 
@@ -115,7 +146,7 @@ export const sources: Source[] = [
     name: 'Vite Blog',
     category: 'build-tool',
     tags: ['tooling', 'build-tools'],
-    feedUrl: 'https://github.com/vitejs/vite/releases.atom',
+    feed: 'https://github.com/vitejs/vite/releases.atom',
     homeUrl: 'https://vite.dev',
   },
   {
@@ -123,7 +154,7 @@ export const sources: Source[] = [
     name: 'Vite Releases',
     category: 'build-tool',
     tags: ['tooling', 'build-tools', 'release'],
-    feedUrl: 'https://vite.dev/blog.rss',
+    feed: 'https://vite.dev/blog.rss',
     homeUrl: 'https://vite.dev',
   },
   {
@@ -131,7 +162,7 @@ export const sources: Source[] = [
     name: 'VoidZero Blog',
     category: 'build-tool',
     tags: ['tooling', 'build-tools'],
-    feedUrl: 'https://voidzero.dev/feed.xml',
+    feed: 'https://voidzero.dev/feed.xml',
     homeUrl: 'https://voidzero.dev',
   },
   {
@@ -139,7 +170,7 @@ export const sources: Source[] = [
     name: 'Rollup Releases',
     category: 'build-tool',
     tags: ['tooling', 'build-tools', 'release'],
-    feedUrl: 'https://github.com/rollup/rollup/releases.atom',
+    feed: 'https://github.com/rollup/rollup/releases.atom',
     homeUrl: 'https://rollupjs.org',
   },
   {
@@ -147,7 +178,7 @@ export const sources: Source[] = [
     name: 'esbuild Releases',
     category: 'build-tool',
     tags: ['tooling', 'build-tools', 'release', 'performance'],
-    feedUrl: 'https://github.com/evanw/esbuild/releases.atom',
+    feed: 'https://github.com/evanw/esbuild/releases.atom',
     homeUrl: 'https://esbuild.github.io',
   },
   {
@@ -155,7 +186,7 @@ export const sources: Source[] = [
     name: 'Bun Blog',
     category: 'build-tool',
     tags: ['bun', 'tooling', 'build-tools'],
-    feedUrl: 'https://bun.sh/rss.xml',
+    feed: 'https://bun.sh/rss.xml',
     homeUrl: 'https://bun.sh/blog',
     authorName: 'Jarred Sumner',
   },
@@ -164,7 +195,7 @@ export const sources: Source[] = [
     name: 'Biome Blog',
     category: 'build-tool',
     tags: ['tooling', 'dx'],
-    feedUrl: 'https://biomejs.dev/blog/rss.xml',
+    feed: 'https://biomejs.dev/blog/rss.xml',
     homeUrl: 'https://biomejs.dev/blog',
   },
   {
@@ -172,7 +203,7 @@ export const sources: Source[] = [
     name: 'pnpm Releases',
     category: 'build-tool',
     tags: ['tooling', 'release'],
-    feedUrl: 'https://github.com/pnpm/pnpm/releases.atom',
+    feed: 'https://github.com/pnpm/pnpm/releases.atom',
     homeUrl: 'https://pnpm.io',
   },
   {
@@ -180,7 +211,7 @@ export const sources: Source[] = [
     name: 'GitHub Blog',
     category: 'build-tool',
     tags: ['tooling', 'dx'],
-    feedUrl: 'https://github.blog/feed',
+    feed: 'https://github.blog/feed',
     homeUrl: 'https://github.blog',
   },
 
@@ -190,7 +221,7 @@ export const sources: Source[] = [
     name: 'TypeScript Blog',
     category: 'language-runtime',
     tags: ['typescript'],
-    feedUrl: 'https://devblogs.microsoft.com/typescript/feed/',
+    feed: 'https://devblogs.microsoft.com/typescript/feed/',
     homeUrl: 'https://devblogs.microsoft.com/typescript',
   },
   {
@@ -198,7 +229,7 @@ export const sources: Source[] = [
     name: 'Node.js Blog',
     category: 'language-runtime',
     tags: ['nodejs'],
-    feedUrl: 'https://nodejs.org/en/feed/blog.xml',
+    feed: 'https://nodejs.org/en/feed/blog.xml',
     homeUrl: 'https://nodejs.org/en/blog',
   },
   {
@@ -206,7 +237,7 @@ export const sources: Source[] = [
     name: 'Deno Releases',
     category: 'language-runtime',
     tags: ['deno', 'release'],
-    feedUrl: 'https://github.com/denoland/deno/releases.atom',
+    feed: 'https://github.com/denoland/deno/releases.atom',
     homeUrl: 'https://deno.com',
   },
   {
@@ -214,7 +245,7 @@ export const sources: Source[] = [
     name: 'WebAssembly Blog',
     category: 'language-runtime',
     tags: ['wasm', 'web-platform'],
-    feedUrl: 'https://webassembly.org/feed.xml',
+    feed: 'https://webassembly.org/feed.xml',
     homeUrl: 'https://webassembly.org/blog',
   },
 
@@ -224,7 +255,7 @@ export const sources: Source[] = [
     name: 'Tailwind CSS Blog',
     category: 'css-styling',
     tags: ['css', 'tooling'],
-    feedUrl: 'https://tailwindcss.com/feeds/feed.xml',
+    feed: 'https://tailwindcss.com/feeds/feed.xml',
     homeUrl: 'https://tailwindcss.com/blog',
   },
   {
@@ -232,7 +263,7 @@ export const sources: Source[] = [
     name: 'PostCSS Releases',
     category: 'css-styling',
     tags: ['css', 'tooling', 'release'],
-    feedUrl: 'https://github.com/postcss/postcss/releases.atom',
+    feed: 'https://github.com/postcss/postcss/releases.atom',
     homeUrl: 'https://postcss.org',
   },
   {
@@ -240,7 +271,7 @@ export const sources: Source[] = [
     name: 'Lightning CSS Releases',
     category: 'css-styling',
     tags: ['css', 'tooling', 'build-tools', 'release'],
-    feedUrl: 'https://github.com/parcel-bundler/lightningcss/releases.atom',
+    feed: 'https://github.com/parcel-bundler/lightningcss/releases.atom',
     homeUrl: 'https://lightningcss.dev',
   },
   {
@@ -248,7 +279,7 @@ export const sources: Source[] = [
     name: 'CSS Working Group Blog',
     category: 'css-styling',
     tags: ['css', 'web-platform'],
-    feedUrl: 'https://www.w3.org/blog/CSS/feed/',
+    feed: 'https://www.w3.org/blog/CSS/feed/',
     homeUrl: 'https://www.w3.org/blog/CSS',
   },
 
@@ -258,7 +289,7 @@ export const sources: Source[] = [
     name: 'Vitest Releases',
     category: 'testing',
     tags: ['testing', 'release'],
-    feedUrl: 'https://github.com/vitest-dev/vitest/releases.atom',
+    feed: 'https://github.com/vitest-dev/vitest/releases.atom',
     homeUrl: 'https://vitest.dev',
   },
   {
@@ -266,7 +297,7 @@ export const sources: Source[] = [
     name: 'Playwright Releases',
     category: 'testing',
     tags: ['testing', 'release'],
-    feedUrl: 'https://github.com/microsoft/playwright/releases.atom',
+    feed: 'https://github.com/microsoft/playwright/releases.atom',
     homeUrl: 'https://playwright.dev',
   },
   {
@@ -274,7 +305,7 @@ export const sources: Source[] = [
     name: 'Cypress Blog',
     category: 'testing',
     tags: ['testing'],
-    feedUrl: 'https://www.cypress.io/blog/rss.xml',
+    feed: 'https://www.cypress.io/blog/rss.xml',
     homeUrl: 'https://www.cypress.io/blog',
   },
   {
@@ -282,7 +313,7 @@ export const sources: Source[] = [
     name: 'Jest Releases',
     category: 'testing',
     tags: ['testing', 'release'],
-    feedUrl: 'https://github.com/jestjs/jest/releases.atom',
+    feed: 'https://github.com/jestjs/jest/releases.atom',
     homeUrl: 'https://jestjs.io',
   },
 
@@ -292,7 +323,7 @@ export const sources: Source[] = [
     name: 'Chrome Developers',
     category: 'web-platform',
     tags: ['browser', 'web-platform'],
-    feedUrl: null,
+    feed: 'https://developer.chrome.com/static/blog/feed.xml',
     homeUrl: 'https://developer.chrome.com/blog',
   },
   {
@@ -300,7 +331,7 @@ export const sources: Source[] = [
     name: 'web.dev',
     category: 'web-platform',
     tags: ['web-platform', 'performance', 'accessibility'],
-    feedUrl: 'https://web.dev/feed.xml',
+    feed: 'https://web.dev/feed.xml',
     homeUrl: 'https://web.dev',
   },
   {
@@ -308,7 +339,7 @@ export const sources: Source[] = [
     name: 'MDN Blog',
     category: 'web-platform',
     tags: ['web-platform', 'browser', 'html'],
-    feedUrl: 'https://developer.mozilla.org/en-US/blog/rss.xml',
+    feed: 'https://developer.mozilla.org/en-US/blog/rss.xml',
     homeUrl: 'https://developer.mozilla.org/en-US/blog',
   },
   {
@@ -316,7 +347,7 @@ export const sources: Source[] = [
     name: 'Firefox Hacks',
     category: 'web-platform',
     tags: ['browser', 'web-platform'],
-    feedUrl: 'https://hacks.mozilla.org/feed/',
+    feed: 'https://hacks.mozilla.org/feed/',
     homeUrl: 'https://hacks.mozilla.org',
   },
   {
@@ -324,7 +355,7 @@ export const sources: Source[] = [
     name: 'WebKit Blog',
     category: 'web-platform',
     tags: ['browser', 'web-platform'],
-    feedUrl: 'https://webkit.org/feed/',
+    feed: 'https://webkit.org/feed/',
     homeUrl: 'https://webkit.org/blog',
   },
   {
@@ -332,7 +363,7 @@ export const sources: Source[] = [
     name: 'TC39 Proposals (commits)',
     category: 'web-platform',
     tags: ['javascript', 'web-platform'],
-    feedUrl: 'https://github.com/tc39/proposals/commits.atom',
+    feed: 'https://github.com/tc39/proposals/commits.atom',
     homeUrl: 'https://github.com/tc39/proposals',
   },
 
@@ -342,7 +373,7 @@ export const sources: Source[] = [
     name: 'Overreacted',
     category: 'person-blog',
     tags: ['react', 'javascript'],
-    feedUrl: 'https://overreacted.io/rss.xml',
+    feed: 'https://overreacted.io/rss.xml',
     homeUrl: 'https://overreacted.io',
     authorName: 'Dan Abramov',
   },
@@ -351,7 +382,7 @@ export const sources: Source[] = [
     name: 'Anthony Fu Blog',
     category: 'person-blog',
     tags: ['vue', 'tooling', 'javascript'],
-    feedUrl: 'https://antfu.me/feed.xml',
+    feed: 'https://antfu.me/feed.xml',
     homeUrl: 'https://antfu.me',
     authorName: 'Anthony Fu',
   },
@@ -360,7 +391,7 @@ export const sources: Source[] = [
     name: 'Josh W. Comeau',
     category: 'person-blog',
     tags: ['css', 'react', 'tutorial'],
-    feedUrl: 'https://www.joshwcomeau.com/rss.xml',
+    feed: 'https://www.joshwcomeau.com/rss.xml',
     homeUrl: 'https://www.joshwcomeau.com',
     authorName: 'Josh W. Comeau',
   },
@@ -369,7 +400,7 @@ export const sources: Source[] = [
     name: 'Total TypeScript',
     category: 'person-blog',
     tags: ['typescript', 'tutorial'],
-    feedUrl: 'https://www.totaltypescript.com/rss.xml',
+    feed: 'https://www.totaltypescript.com/rss.xml',
     homeUrl: 'https://www.totaltypescript.com',
     authorName: 'Matt Pocock',
   },
@@ -378,7 +409,7 @@ export const sources: Source[] = [
     name: 'Kent C. Dodds',
     category: 'person-blog',
     tags: ['react', 'testing', 'javascript'],
-    feedUrl: 'https://kentcdodds.com/blog/rss.xml',
+    feed: 'https://kentcdodds.com/blog/rss.xml',
     homeUrl: 'https://kentcdodds.com/blog',
     authorName: 'Kent C. Dodds',
   },
@@ -387,7 +418,7 @@ export const sources: Source[] = [
     name: 'Jake Archibald',
     category: 'person-blog',
     tags: ['web-platform', 'javascript', 'performance'],
-    feedUrl: 'https://jakearchibald.com/posts.rss',
+    feed: 'https://jakearchibald.com/posts.rss',
     homeUrl: 'https://jakearchibald.com',
     authorName: 'Jake Archibald',
   },
@@ -396,7 +427,7 @@ export const sources: Source[] = [
     name: 'Addy Osmani',
     category: 'person-blog',
     tags: ['performance', 'javascript'],
-    feedUrl: 'https://addyosmani.com/rss.xml',
+    feed: 'https://addyosmani.com/rss.xml',
     homeUrl: 'https://addyosmani.com',
     authorName: 'Addy Osmani',
   },
@@ -405,27 +436,229 @@ export const sources: Source[] = [
     name: 'Una Kravets',
     category: 'person-blog',
     tags: ['css', 'web-platform', 'design'],
-    feedUrl: 'https://una.im/rss.xml',
+    feed: 'https://una.im/rss.xml',
     homeUrl: 'https://una.im',
     authorName: 'Una Kravets',
   },
+
+  // AI / LLM
   {
-    id: 'lee-robinson',
-    name: 'Lee Robinson',
-    category: 'person-blog',
-    tags: ['react', 'frameworks'],
-    feedUrl: null,
-    homeUrl: 'https://leerob.com',
-    authorName: 'Lee Robinson',
+    id: 'anthropic-engineering',
+    name: 'Anthropic Engineering',
+    category: 'ai',
+    tags: ['ai', 'llm', 'anthropic'],
+    feed: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_engineering.xml',
+    homeUrl: 'https://www.anthropic.com/engineering',
   },
   {
-    id: 'rich-harris',
-    name: 'Rich Harris',
+    id: 'anthropic-research',
+    name: 'Anthropic Research',
+    category: 'ai',
+    tags: ['ai', 'llm', 'anthropic'],
+    feed: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_research.xml',
+    homeUrl: 'https://www.anthropic.com/research',
+  },
+  {
+    id: 'claude-blog',
+    name: 'Claude Blog',
+    category: 'ai',
+    tags: ['ai', 'llm', 'claude', 'developer-tools'],
+    feed: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_claude.xml',
+    homeUrl: 'https://claude.com/blog',
+  },
+  {
+    id: 'openai-research',
+    name: 'OpenAI Research',
+    category: 'ai',
+    tags: ['ai', 'llm', 'openai'],
+    feed: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_openai_research.xml',
+    homeUrl: 'https://openai.com/news/research',
+  },
+  {
+    id: 'openai-blog',
+    name: 'OpenAI Blog',
+    category: 'ai',
+    tags: ['ai', 'llm', 'openai'],
+    feed: 'https://openai.com/news/rss.xml',
+    homeUrl: 'https://openai.com/news',
+  },
+  {
+    id: 'ollama-blog',
+    name: 'Ollama Blog',
+    category: 'ai',
+    tags: ['ai', 'llm', 'open-source'],
+    feed: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_ollama.xml',
+    homeUrl: 'https://ollama.com/blog',
+  },
+  {
+    id: 'xai-news',
+    name: 'xAI News',
+    category: 'ai',
+    tags: ['ai', 'llm'],
+    feed: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_xainews.xml',
+    homeUrl: 'https://x.ai/news',
+  },
+  {
+    id: 'huggingface-blog',
+    name: 'Hugging Face Blog',
+    category: 'ai',
+    tags: ['ai', 'llm', 'open-source'],
+    feed: 'https://huggingface.co/blog/feed.xml',
+    homeUrl: 'https://huggingface.co/blog',
+  },
+  {
+    id: 'deepmind-blog',
+    name: 'Google DeepMind Blog',
+    category: 'ai',
+    tags: ['ai', 'research', 'google'],
+    feed: 'https://deepmind.com/blog/feed/basic',
+    homeUrl: 'https://deepmind.google/blog',
+  },
+  {
+    id: 'google-ai-developers',
+    name: 'Google Developers Blog – AI',
+    category: 'ai',
+    tags: ['ai', 'research', 'google'],
+    feed: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_google_ai.xml',
+    homeUrl: 'https://developers.googleblog.com',
+  },
+  {
+    id: 'cursor-blog',
+    name: 'Cursor Blog',
+    category: 'ai',
+    tags: ['ai', 'developer-tools', 'coding'],
+    feed: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_cursor.xml',
+    homeUrl: 'https://cursor.com/blog',
+  },
+  {
+    id: 'windsurf-blog',
+    name: 'Windsurf Blog',
+    category: 'ai',
+    tags: ['ai', 'developer-tools', 'coding'],
+    feed: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_windsurf_blog.xml',
+    homeUrl: 'https://windsurf.com/blog',
+  },
+  {
+    id: 'the-batch',
+    name: 'The Batch',
+    category: 'ai',
+    tags: ['ai', 'newsletter'],
+    feed: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_the_batch.xml',
+    homeUrl: 'https://www.deeplearning.ai/the-batch',
+  },
+  {
+    id: 'ahead-of-ai',
+    name: 'Ahead of AI',
+    category: 'ai',
+    tags: ['ai', 'research', 'newsletter'],
+    feed: 'https://magazine.sebastianraschka.com/feed',
+    homeUrl: 'https://magazine.sebastianraschka.com',
+    authorName: 'Sebastian Raschka',
+  },
+  {
+    id: 'import-ai',
+    name: 'Import AI',
+    category: 'ai',
+    tags: ['ai', 'research', 'newsletter'],
+    feed: 'https://importai.substack.com/feed',
+    homeUrl: 'https://importai.substack.com',
+    authorName: 'Jack Clark',
+  },
+  {
+    id: 'surge-ai-blog',
+    name: 'Surge AI Blog',
+    category: 'ai',
+    tags: ['ai', 'data'],
+    feed: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_blogsurgeai.xml',
+    homeUrl: 'https://www.surgehq.ai/blog',
+  },
+  {
+    id: 'dagster-blog',
+    name: 'Dagster Blog',
+    category: 'ai',
+    tags: ['ai', 'data', 'tooling'],
+    feed: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_dagster.xml',
+    homeUrl: 'https://dagster.io/blog',
+  },
+  {
+    id: 'thinking-machines-lab',
+    name: 'Thinking Machines Lab',
+    category: 'ai',
+    tags: ['ai', 'ml'],
+    feed: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_thinkingmachines.xml',
+    homeUrl: 'https://thinkingmachines.ai/blog',
+  },
+  {
+    id: 'simonwillison-blog',
+    name: "Simon Willison's Weblog",
     category: 'person-blog',
-    tags: ['svelte', 'frameworks'],
-    feedUrl: null,
-    homeUrl: 'https://github.com/Rich-Harris',
-    authorName: 'Rich Harris',
+    tags: ['ai', 'web-dev', 'llm'],
+    feed: 'https://simonwillison.net/atom/everything/',
+    homeUrl: 'https://simonwillison.net',
+    authorName: 'Simon Willison',
+  },
+  {
+    id: 'karpathy-blog',
+    name: "Andrej Karpathy's Blog",
+    category: 'person-blog',
+    tags: ['ai', 'deep-learning'],
+    feed: 'https://karpathy.bearblog.dev/feed/',
+    homeUrl: 'https://karpathy.bearblog.dev',
+    authorName: 'Andrej Karpathy',
+  },
+  {
+    id: 'eugene-yan',
+    name: 'Eugene Yan',
+    category: 'person-blog',
+    tags: ['ai', 'ml'],
+    feed: 'https://eugeneyan.com/rss/',
+    homeUrl: 'https://eugeneyan.com',
+    authorName: 'Eugene Yan',
+  },
+  {
+    id: 'one-useful-thing',
+    name: 'One Useful Thing',
+    category: 'person-blog',
+    tags: ['ai', 'productivity'],
+    feed: 'https://www.oneusefulthing.org/feed',
+    homeUrl: 'https://www.oneusefulthing.org',
+    authorName: 'Ethan Mollick',
+  },
+  {
+    id: 'hamel-husain',
+    name: "Hamel Husain's Blog",
+    category: 'person-blog',
+    tags: ['ai', 'llm', 'developer-tools'],
+    feed: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_hamel.xml',
+    homeUrl: 'https://hamel.dev',
+    authorName: 'Hamel Husain',
+  },
+  {
+    id: 'paul-graham',
+    name: "Paul Graham's Articles",
+    category: 'person-blog',
+    tags: ['essays', 'startups', 'technology'],
+    feed: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_paulgraham.xml',
+    homeUrl: 'https://www.paulgraham.com/articles.html',
+    authorName: 'Paul Graham',
+  },
+  {
+    id: 'chander-ramesh',
+    name: 'Chander Ramesh',
+    category: 'person-blog',
+    tags: ['ai', 'engineering'],
+    feed: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_chanderramesh.xml',
+    homeUrl: 'https://chanderramesh.com/writing',
+    authorName: 'Chander Ramesh',
+  },
+  {
+    id: 'pragmatic-engineer',
+    name: 'The Pragmatic Engineer',
+    category: 'general',
+    tags: ['engineering', 'ai', 'newsletter'],
+    feed: 'https://blog.pragmaticengineer.com/feed/',
+    homeUrl: 'https://blog.pragmaticengineer.com',
+    authorName: 'Gergely Orosz',
   },
 
   // General Web Dev
@@ -434,7 +667,7 @@ export const sources: Source[] = [
     name: 'CSS-Tricks',
     category: 'general',
     tags: ['css', 'javascript', 'tutorial'],
-    feedUrl: 'https://css-tricks.com/feed/',
+    feed: 'https://css-tricks.com/feed/',
     homeUrl: 'https://css-tricks.com',
   },
   {
@@ -442,7 +675,7 @@ export const sources: Source[] = [
     name: 'Smashing Magazine',
     category: 'general',
     tags: ['design', 'css', 'javascript', 'tutorial'],
-    feedUrl: 'https://www.smashingmagazine.com/feed/',
+    feed: 'https://www.smashingmagazine.com/feed/',
     homeUrl: 'https://www.smashingmagazine.com',
   },
   {
@@ -450,7 +683,7 @@ export const sources: Source[] = [
     name: 'A List Apart',
     category: 'general',
     tags: ['design', 'accessibility', 'web-platform'],
-    feedUrl: 'https://alistapart.com/main/feed/',
+    feed: 'https://alistapart.com/main/feed/',
     homeUrl: 'https://alistapart.com',
   },
   {
@@ -458,7 +691,7 @@ export const sources: Source[] = [
     name: 'JavaScript Weekly',
     category: 'general',
     tags: ['javascript', 'typescript'],
-    feedUrl: 'https://javascriptweekly.com/rss/',
+    feed: 'https://javascriptweekly.com/rss/',
     homeUrl: 'https://javascriptweekly.com',
   },
   {
@@ -466,7 +699,7 @@ export const sources: Source[] = [
     name: 'This Week in React',
     category: 'general',
     tags: ['react', 'frameworks'],
-    feedUrl: 'https://thisweekinreact.com/newsletter/rss.xml',
+    feed: 'https://thisweekinreact.com/newsletter/rss.xml',
     homeUrl: 'https://thisweekinreact.com',
   },
 ];
