@@ -52,7 +52,7 @@ jobs:
           token: ${{ secrets.GH_PAT }}
           branch: news/${{ github.run_id }}
           commit-message: 'news: daily fetch ${{ github.run_id }}'
-          title: '📰 Daily news fetch — ${{ github.run_id }}'
+          title: 'chore: daily news fetch — ${{ github.run_id }}'
           body: |
             Automated daily article import via fetch-news.
 

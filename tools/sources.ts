@@ -157,6 +157,7 @@ export const sources: Source[] = [
     tags: ['bun', 'tooling', 'build-tools'],
     feedUrl: 'https://bun.sh/rss.xml',
     homeUrl: 'https://bun.sh/blog',
+    authorName: 'Jarred Sumner',
   },
   {
     id: 'biome-blog',

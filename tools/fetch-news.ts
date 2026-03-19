@@ -239,11 +239,7 @@ tags: [${tags}]
 significance: ${judgment.significance}
 ---
 
-## Summary & Key Takeaways
-
 ${judgment.summarySection}
-
-## Our Commentary
 
 ${judgment.commentarySection}
 `;
@@ -264,22 +260,25 @@ function slugify(text: string): string {
 
 // ─── CLI parsing ──────────────────────────────────────────────────────────────
 
-function parseArgs(): { days: number; sourceId?: string; dryRun: boolean } {
+function parseArgs(): { days: number; sourceId?: string; dryRun: boolean; dateFrom: Date } {
   const args = process.argv.slice(2);
   let days = 7;
+  let dateFrom = new Date();
   let sourceId: string | undefined;
   let dryRun = false;
 
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--days' && args[i + 1]) {
       days = parseInt(args[++i], 10);
+    } else if (args[i] === '--date-from' && args[i + 1]) {
+      dateFrom = new Date(args[++i]);
     } else if (args[i] === '--source' && args[i + 1]) {
       sourceId = args[++i];
     } else if (args[i] === '--dry-run') {
       dryRun = true;
     }
   }
-  return { days, sourceId, dryRun };
+  return { days, sourceId, dryRun, dateFrom };
 }
 
 // ─── Main ─────────────────────────────────────────────────────────────────────
@@ -293,10 +292,10 @@ async function main(): Promise<void> {
     process.exit(1);
   }
 
-  const { days, sourceId, dryRun } = parseArgs();
+  const { days, sourceId, dryRun, dateFrom } = parseArgs();
   const genAI = new GoogleGenerativeAI(process.env.GOOGLE_AI_API_KEY);
   const imported = loadImported();
-  const cutoff = new Date(Date.now() - days * 24 * 60 * 60 * 1000);
+  const cutoff = new Date(dateFrom.getTime() - days * 24 * 60 * 60 * 1000);
 
   const filteredSources = sourceId
     ? sources.filter((s) => s.id === sourceId)
@@ -346,11 +345,11 @@ async function main(): Promise<void> {
     const candidates = items.filter((item) => {
       if (!item.link) return false;
       const pubDate = new Date(item.isoDate);
-      return pubDate >= cutoff && !imported.has(item.link);
+      return pubDate >= cutoff && pubDate <= dateFrom && !imported.has(item.link);
     });
 
     console.log(
-      `  ${candidates.length} candidate(s) in last ${days} days (${items.length - candidates.length} filtered out)`,
+      `  ${candidates.length} candidate(s) in ${days} days counting from ${dateFrom.toISOString()} (${items.length - candidates.length} filtered out)`,
     );
 
     for (const item of candidates) {
