@@ -11,8 +11,6 @@ significance: 2
 ---
 
 ## Summary & Key Takeaways
-
-## Summary & Key Takeaways
 *   Deno v2.7.6 is a patch release packed with new features and fixes.
 *   **Performance Tooling:** Adds `--cpu-prof-flamegraph` to generate interactive SVG flamegraphs for CPU profiling.
 *   **Module Handling:** `deno eval` now auto-detects CJS vs. ESM modules.
@@ -20,7 +18,6 @@ significance: 2
 *   **Core Updates:** Updates V8 to 146.8.0 and adds a cloneable resource registry for structured cloning.
 *   **Bug Fixes:** Addresses numerous issues across core, CLI, coverage, console, crypto, fetch, FFI, and NAPI extensions.
 
-## Our Commentary
+## Out Commentary
 
-## Our Commentary
-Deno's v2.7.6 release, despite being a patch, demonstrates the project's continuous evolution. The `--cpu-prof-flamegraph` is a fantastic addition for performance debugging, offering immediate visual insights into CPU usage. The ongoing improvements in Node.js compatibility, including new APIs and passing more `child_process` tests, are crucial for Deno's goal of being a versatile runtime. Auto-detection of CJS/ESM in `deno eval` also streamlines developer workflow. These incremental updates collectively make Deno a more robust and developer-friendly environment.
+Good to see Deno still broadens compatibility layer with Node.js. That helps migrating projects and reusing existing libraries!

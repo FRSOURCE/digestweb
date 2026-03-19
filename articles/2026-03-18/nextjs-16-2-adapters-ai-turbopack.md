@@ -11,8 +11,6 @@ significance: 4
 ---
 
 ## Summary & Key Takeaways
-
-## Summary & Key Takeaways
 *   Next.js 16.2 is a substantial update focusing on extensibility, developer experience, and performance.
 *   **Adapters:** A new feature enabling greater flexibility and integration with various environments.
 *   **AI Tooling:** Includes `AGENTS.md` in `create-next-app`, browser log forwarding, and `next-browser` for AI agent debugging.
@@ -20,6 +18,7 @@ significance: 4
 *   **Performance & DX:** General rendering performance improvements, better debugging, and enhanced error pages.
 
 ## Our Commentary
+Next.js continues to push the boundaries of full-stack React development. The introduction of Adapters is definitely something to read about for library authors and integrators.
+Improvements to Turbopack look awesome. Quicker startup times and faster rendering intensifies rivarly with Vite (who just introduced collaboration with Cloudflare). What a time to be alive.
+To be honest, from dev perspective, the new "Hydration Diff Indicator" might be a winner. I think everyone agrees that it was not always easy to find exact cause of hydration issues in Next.js. Hopefully that's now a thing of the past!
 
-## Our Commentary
-Next.js continues to push the boundaries of full-stack React development. The introduction of Adapters is a strategic move towards greater platform agnosticism, allowing Next.js applications to run more seamlessly across diverse serverless and edge environments. Coupled with the ongoing maturation of Turbopack, which promises significant build and refresh speedups, and dedicated tooling for AI agent development, this release positions Next.js as a robust choice for modern, high-performance web applications. The focus on developer experience, from improved debugging to faster iteration cycles, is a welcome constant.
