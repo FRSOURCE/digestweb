@@ -28,9 +28,22 @@ jobs:
           name: playwright-report
           path: playwright-report/
           retention-days: 7
+  
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: pnpm/action-setup@v4.2.0
+      - name: Use Node.js
+        uses: actions/setup-node@v6
+        with:
+          cache: 'pnpm'
+          node-version-file: '.nvmrc'
+      - run: pnpm i
+      - run: pnpm lint
 
   build-and-deploy:
-    needs: [e2e]
+    needs: [e2e, lint]
     runs-on: ubuntu-latest
     permissions:
       contents: write

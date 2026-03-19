@@ -11,11 +11,13 @@ significance: 3
 ---
 
 ## Summary & Key Takeaways
-*   Explores the challenges of implementing effective search, finding that pure semantic search was insufficient.
-*   Details an iterative process of combining semantic and lexical search methods.
-*   Highlights the use of AI tools like Cursor and GPT-5.4 in refining the search algorithm.
-*   Provides insights into practical problem-solving and continuous improvement for search functionality.
+
+- Explores the challenges of implementing effective search, finding that pure semantic search was insufficient.
+- Details an iterative process of combining semantic and lexical search methods.
+- Highlights the use of AI tools like Cursor and GPT-5.4 in refining the search algorithm.
+- Provides insights into practical problem-solving and continuous improvement for search functionality.
 
 ## Our Commentary
+
 Kent C. Dodds consistently delivers high-quality, practical content, and this article is no exception. The deep dive into hybrid search is incredibly valuable, especially we all look to integrate AI into their applications.
 This piece is a must-read for anyone looking to enhance their site's search capabilities beyond basic keyword matching. And it's really cool to be able to follow Kent in his journey :)

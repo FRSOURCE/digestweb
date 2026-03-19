@@ -260,7 +260,12 @@ function slugify(text: string): string {
 
 // ─── CLI parsing ──────────────────────────────────────────────────────────────
 
-function parseArgs(): { days: number; sourceId?: string; dryRun: boolean; dateFrom: Date } {
+function parseArgs(): {
+  days: number;
+  sourceId?: string;
+  dryRun: boolean;
+  dateFrom: Date;
+} {
   const args = process.argv.slice(2);
   let days = 7;
   let dateFrom = new Date();
@@ -345,7 +350,9 @@ async function main(): Promise<void> {
     const candidates = items.filter((item) => {
       if (!item.link) return false;
       const pubDate = new Date(item.isoDate);
-      return pubDate >= cutoff && pubDate <= dateFrom && !imported.has(item.link);
+      return (
+        pubDate >= cutoff && pubDate <= dateFrom && !imported.has(item.link)
+      );
     });
 
     console.log(

@@ -11,10 +11,12 @@ significance: 3
 ---
 
 ## Summary & Key Takeaways
-*   **Significant Performance Gain:** TanStack Start achieved a 5.5x increase in Server-Side Rendering (SSR) throughput.
-*   **Profiling Methodology:** The improvement was a direct result of rigorous profiling under sustained load to identify and optimize SSR hot paths.
-*   **Eliminating Unnecessary Work:** Key optimizations involved removing redundant server-side computations and processes.
+
+- **Significant Performance Gain:** TanStack Start achieved a 5.5x increase in Server-Side Rendering (SSR) throughput.
+- **Profiling Methodology:** The improvement was a direct result of rigorous profiling under sustained load to identify and optimize SSR hot paths.
+- **Eliminating Unnecessary Work:** Key optimizations involved removing redundant server-side computations and processes.
 
 ## Our Commentary
+
 Whoah! This article from TanStack is a fantastic case study in the power of diligent performance profiling. A 5.5x improvement in SSR throughput is a massive win, directly translating to potentially lower infrastructure costs for applications built with TanStack Start.
 Developers, regardless of their framework choice, can glean valuable insights from their methodology for identifying and tackling performance hot spots.

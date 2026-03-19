@@ -11,11 +11,13 @@ significance: 2
 ---
 
 ## Summary & Key Takeaways
-*   Features new CSS functions such as `random()` and `random-item()`.
-*   Explores advanced layout and design techniques like folded corners with `clip-path` and `backdrop-filter`.
-*   Highlights significant web platform additions including the Popover API and anchored container queries.
-*   Covers a broad spectrum of CSS topics, ensuring developers are aware of both new and potentially overlooked features.
+
+- Features new CSS functions such as `random()` and `random-item()`.
+- Explores advanced layout and design techniques like folded corners with `clip-path` and `backdrop-filter`.
+- Highlights significant web platform additions including the Popover API and anchored container queries.
+- Covers a broad spectrum of CSS topics, ensuring developers are aware of both new and potentially overlooked features.
 
 ## Our Commentary
+
 The "What's !important" series is a must-read for anyone interested in "real webdev" - so new CSS/JS APIs :)
 This installment shows us random methods in CSS and reminds that `clip-path` is finally available in every browser (in case you've [missed it](https://caniuse.com/wf-clip-path)). But let's not forget about the most important - Doom in CSS. Something to use in production for sure!
