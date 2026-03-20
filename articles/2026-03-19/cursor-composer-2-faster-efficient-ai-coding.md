@@ -17,4 +17,6 @@ significance: 2
 - **Performance:** Higher token efficiency and a faster default variant.
 - **Validation:** Backed by strong results on CursorBench.
 
-Cursor is one of those tools that really pushes the boundaries of what an AI-first editor can do. Composer 2 sounds like a solid step forward, especially the focus on "higher token efficiency" and a "faster default variant." Speed and efficiency are paramount when you're relying on an AI to assist with coding; nobody wants to wait around for suggestions. I'm always a bit skeptical of "frontier-level coding" claims, but if it translates to genuinely better and faster code generation and understanding, then it's a win for developers. It's another piece of the puzzle showing how AI is becoming deeply embedded in the daily rhythm of coding.
+## Our Commentary
+
+Composer 2 sounds like a solid step forward, especially the focus on "higher token efficiency" and a "faster default variant." Nobody wants to wait around for suggestions nor pay too much for them. I'm always a bit skeptical of "frontier-level coding" claims, but if it translates to genuinely better and faster code generation and understanding, then it's a win for developers.

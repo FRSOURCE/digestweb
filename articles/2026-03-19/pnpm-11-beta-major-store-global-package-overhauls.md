@@ -19,4 +19,7 @@ significance: 3
 - **Global Virtual Store:** `pnpm add -g` and `pnpm dlx` now use a global virtual store by default.
 - **Isolated Global Packages:** Each globally installed package gets its own isolated directory, preventing conflicts.
 
-This is a pretty big deal for pnpm users, and honestly, for anyone in the Node.js ecosystem who cares about package management. The shift to SQLite for the package index is a fascinating move. We've seen similar patterns in other tools trying to optimize I/O, and it makes a lot of sense for something as I/O-heavy as a package manager. I'm particularly intrigued by the "isolated global packages" feature. How many times have I wrestled with global package conflicts? Too many to count. This could be a game-changer for developer experience, making global installs far more reliable and predictable. It's still a beta, of course, but the direction pnpm is taking here feels genuinely innovative and addresses some long-standing pain points. I'm excited to see how this evolves.
+## Our Commentary
+
+This is a pretty big deal for pnpm users, and honestly, for anyone in the Node.js ecosystem who cares about package management. The shift to SQLite for the package index is a fascinating move. We've seen similar patterns in other tools trying to optimize I/O, and it makes a lot of sense for something as I/O-heavy as a package manager.
+"isolated global packages" feature - that's a really good idea. I wrestled with global package conflicts way too many times already. It's still a beta, of course, but the direction pnpm is taking here feels genuinely innovative and addresses some long-standing pain points.
