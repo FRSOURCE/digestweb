@@ -1,8 +1,10 @@
 <script setup lang="ts">
+import { computed } from 'vue';
+import { withBase } from 'vitepress';
 import ShareBox from './ShareBox.vue';
 import Button from './Button.vue';
 
-defineProps<{
+const props = defineProps<{
   title: string;
   description: string;
   date: string;
@@ -21,6 +23,8 @@ const sigLabel: Record<number, string> = {
   3: 'Must Read',
   4: "Editor's Pick",
 };
+
+const urlWithBase = computed(() => withBase(props.url));
 </script>
 
 <template>
@@ -72,7 +76,7 @@ const sigLabel: Record<number, string> = {
           :class="{ 'sm:text-[1.1rem]': !featured }"
         >
           <a
-            :href="url"
+            :href="urlWithBase"
             class="text-dw-text hover:text-dw-primary transition-colors no-underline"
             >{{ title }}</a
           >
@@ -85,7 +89,7 @@ const sigLabel: Record<number, string> = {
         </p>
       </div>
       <div class="flex items-center gap-2.5 flex-wrap">
-        <Button :href="url" size="sm sm:md">Read Summary</Button>
+        <Button :href="urlWithBase" size="sm sm:md">Read Summary</Button>
         <Button
           :href="originalUrl"
           target="_blank"
@@ -94,7 +98,7 @@ const sigLabel: Record<number, string> = {
           size="sm sm:md"
           >View Original Article</Button
         >
-        <ShareBox :url="url" :title="title" class="sm:ml-auto" />
+        <ShareBox :url="urlWithBase" :title="title" class="sm:ml-auto" />
       </div>
     </div>
   </article>
