@@ -104,7 +104,7 @@ Respond ONLY with a JSON array, same length and order as the input:
 
 Significance scale:
   0 = skip — patch-only releases, link dumps, marketing, already-covered rehash
-  1 = mention — minor release, niche article, tangential to mainstream web dev
+  1 = mention — minor release, niche article, tangential to mainstream web dev, beginner-level article
   2 = highlight — notable minor release, good tutorial, community news
   3 = feature — major release with new features, significant web-platform addition, influential deep-dive
   4 = headline — landmark release, paradigm shift, Stage 3/4 TC39 proposal shipping, ecosystem-wide impact
