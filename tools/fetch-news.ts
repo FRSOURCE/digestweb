@@ -78,6 +78,7 @@ const TAG_VOCABULARY = [
   'testing',
   'performance',
   'dx',
+  'ux',
   'accessibility',
   'design',
   'release',

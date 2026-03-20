@@ -440,6 +440,15 @@ export const sources: Source[] = [
     homeUrl: 'https://una.im',
     authorName: 'Una Kravets',
   },
+  {
+    id: 'matt-smith',
+    name: 'Matt Smith',
+    category: 'person-blog',
+    tags: ['css', 'javascript', 'tutorial', 'react'],
+    feed: 'https://allthingssmitty.com/atom.xml',
+    homeUrl: 'https://allthingssmitty.com',
+    authorName: 'Matt Smith',
+  },
 
   // AI / LLM
   {
@@ -679,6 +688,14 @@ export const sources: Source[] = [
     homeUrl: 'https://www.smashingmagazine.com',
   },
   {
+    id: 'frontendmasters',
+    name: 'Frontend Masters Blog',
+    category: 'general',
+    tags: ['design', 'css', 'javascript', 'tutorial'],
+    feed: 'https://frontendmasters.com/blog/feed/',
+    homeUrl: 'https://frontendmasters.com/blog',
+  },
+  {
     id: 'a-list-apart',
     name: 'A List Apart',
     category: 'general',
@@ -701,5 +718,21 @@ export const sources: Source[] = [
     tags: ['react', 'frameworks'],
     feed: 'https://thisweekinreact.com/newsletter/rss.xml',
     homeUrl: 'https://thisweekinreact.com',
+  },
+  {
+    id: 'nngroup',
+    name: 'NNGroup',
+    category: 'general',
+    tags: ['ux', 'accessibility'],
+    homeUrl: 'https://www.nngroup.com/',
+    feed: 'https://www.nngroup.com/feed/rss/',
+  },
+  {
+    id: 'piccalil-blog',
+    name: 'Piccalil Blog',
+    category: 'general',
+    tags: ['accessibility', 'design', 'css', 'javascript'],
+    homeUrl: 'https://piccalil.li/blog',
+    feed: 'https://piccalil.li/articles.xml',
   },
 ];
