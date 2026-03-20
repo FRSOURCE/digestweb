@@ -1,0 +1,1 @@
+import{_ as s,o as i,c as a,P as t}from"./chunks/framework.C5AWh5fG.js";const k=JSON.parse('{"title":"CLAUDE.md","description":"","frontmatter":{},"headers":[],"relativePath":"CLAUDE.md","filePath":"CLAUDE.md"}'),n={name:"CLAUDE.md"};function l(d,e,r,h,o,p){return i(),a("div",null,[...e[0]||(e[0]=[t("",24)])])}const g=s(n,[["render",l]]);export{k as __pageData,g as default};
