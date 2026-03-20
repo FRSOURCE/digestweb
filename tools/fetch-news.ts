@@ -114,16 +114,8 @@ Field rules (significance >= 1 only):
   description   — 1–2 sentences
   slug          — kebab-case, max 80 chars
   tags          — 1–4 items from allowed vocabulary; allowed tags: ${TAG_VOCABULARY.join(', ')}
-  summarySection   — markdown for "## Summary & Key Takeaways"; use bullet points; concise
-  commentarySection — markdown for "## Our Commentary"; max 800 chars; rules:
-                      1. Don't just report facts - react to them. "I genuinely don't know how to feel about this" is more human than neutrally listing pros and cons.
-                      2. Vary your rhythm. Short punchy sentences. Then longer ones that take their time getting where they're going. Mix it up.
-                      3. Use "I" when it fits. First person isn't unprofessional - it's honest. "I keep coming back to..." or "Here's what gets me..." signals a real person thinking.
-                      4. Let some mess in. Perfect structure feels algorithmic. Tangents, asides, and half-formed thoughts are human.
-                      5. Be specific about feelings. Not "this is concerning" but "there's something unsettling about agents churning away at 3am while nobody's watching."
-                      6. Write as plural, using "we" or "digestweb" when appropriate.
-                      7. Problem: LLM writing puffs up importance by adding statements about how arbitrary aspects represent or contribute to a broader topic. Words to watch: stands/serves as, is a testament/reminder, a vital/significant/crucial/pivotal/key role/moment, underscores/highlights its importance/significance, reflects broader, symbolizing its ongoing/enduring/lasting, contributing to the, setting the stage for, marking/shaping the, represents/marks a shift, key turning point, evolving landscape, focal point, indelible mark, deeply rooted
-
+  summarySection   — markdown for "## Summary & Key Takeaways"; use bullet points; concise; Start with "## Summary & Key Takeaways"
+  commentarySection — markdown for "## Our Commentary"; start with "## Our Commentary"; max 600 chars; Don't just report facts - react to them. "I genuinely don't know how to feel about this" is more human than neutrally listing pros and cons; Vary your rhythm. Short punchy sentences. Mix it up.; use "I" when it fits. First person isn't unprofessional - it's honest.; Let some mess in. Perfect structure feels algorithmic. Tangents, asides, and half-formed thoughts are human.; Be specific about feelings. Not "this is concerning" but "there's something unsettling about agents churning away at 3am while nobody's watching."; Write as plural, using "we" or "digestweb" when appropriate.; Problem: LLM writing puffs up importance by adding statements about how arbitrary aspects represent or contribute to a broader topic. Words to watch: stands/serves as, is a testament/reminder, a vital/significant/crucial/pivotal/key role/moment, underscores/highlights its importance/significance, reflects broader, symbolizing its ongoing/enduring/lasting, contributing to the, setting the stage for, marking/shaping the, represents/marks a shift, key turning point, evolving landscape, focal point, indelible mark, deeply rooted
 `;
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
@@ -236,12 +228,12 @@ function writeArticle(opts: {
   const authorName = source.authorName ?? '';
   const content = `---
 layout: article
-title: '${judgment.title.replace(/'/g, "\\'")}'
-description: '${judgment.description.replace(/'/g, "\\'")}'
+title: ${judgment.title}
+description: ${judgment.description}
 photo: ${photo}
 original_url: ${item.link}
-source_name: '${source.name}'
-source_author: '${authorName}'
+source_name: ${source.name}
+source_author: ${authorName}
 tags: [${tags}]
 significance: ${judgment.significance}
 ---
