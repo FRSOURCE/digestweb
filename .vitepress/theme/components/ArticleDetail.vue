@@ -1,14 +1,9 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 import { useData, Content, withBase } from 'vitepress';
-
-const sigLabel: Record<number, string> = {
-  2: 'Worth Reading',
-  3: 'Must Read',
-  4: "Editor's Pick",
-};
 import Button from './Button.vue';
 import ShareBox from './ShareBox.vue';
+import SignificanceBadge from './SignificanceBadge.vue';
 
 const { frontmatter } = useData();
 
@@ -47,18 +42,7 @@ const pageUrl = computed(() =>
       {{ frontmatter.title }}
     </h1>
 
-    <!-- Significance badge -->
-    <div
-      v-if="frontmatter.significance && frontmatter.significance >= 2"
-      class="text-[0.68rem] font-bold tracking-[0.1em] uppercase mb-4"
-      :class="{
-        'text-dw-primary-mid': frontmatter.significance === 2,
-        'text-dw-primary': frontmatter.significance === 3,
-        'text-dw-accent': frontmatter.significance === 4,
-      }"
-    >
-      {{ sigLabel[frontmatter.significance] }}
-    </div>
+    <SignificanceBadge :significance="frontmatter.significance" />
 
     <!-- Attribution -->
     <p

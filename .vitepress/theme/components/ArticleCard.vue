@@ -3,6 +3,7 @@ import { computed } from 'vue';
 import { withBase } from 'vitepress';
 import ShareBox from './ShareBox.vue';
 import Button from './Button.vue';
+import SignificanceBadge from './SignificanceBadge.vue';
 
 const props = defineProps<{
   title: string;
@@ -17,12 +18,6 @@ const props = defineProps<{
 }>();
 
 const emit = defineEmits<{ 'tag-click': [tag: string] }>();
-
-const sigLabel: Record<number, string> = {
-  2: 'Worth Reading',
-  3: 'Must Read',
-  4: "Editor's Pick",
-};
 
 const urlWithBase = computed(() => withBase(props.url));
 </script>
@@ -52,17 +47,7 @@ const urlWithBase = computed(() => withBase(props.url));
     >
       <div>
         <header class="flex items-baseline gap-2.5">
-          <div
-            v-if="significance && significance >= 2"
-            class="text-[0.68rem] font-bold tracking-[0.1em] uppercase mb-2 justify-self-start rounded-md px-2 raised-0 whitespace-nowrap"
-            :class="{
-              'bg-dw-primary text-white': significance === 2,
-              'bg-dw-primary-mid text-white': significance === 3,
-              'bg-dw-primary-light text-white': significance === 4,
-            }"
-          >
-            {{ sigLabel[significance] }}
-          </div>
+          <SignificanceBadge :significance="significance" />
 
           <ul
             v-if="tags?.length"
