@@ -1,5 +1,5 @@
 import * as cheerio from 'cheerio';
-import type { FeedItem } from './fetch-news.ts';
+import type { FeedItem } from './types.ts';
 
 const fetchPage = async (url: string) => {
   const response = await fetch(url);

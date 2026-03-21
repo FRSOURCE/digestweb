@@ -1,51 +1,23 @@
 /* eslint no-console: "off" -- using console for logging script output */
 
 import { GoogleGenerativeAI } from '@google/generative-ai';
-import { createHash } from 'node:crypto';
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
-import Parser from 'rss-parser';
+import { fetchFeed, stripHtml } from './feed.ts';
+import { appendImported, loadImported } from './imported.ts';
+import { judgeAllWithGemini } from './judge.ts';
 import { sources } from './sources.ts';
-
-// ─── Types ────────────────────────────────────────────────────────────────────
-
-export interface FeedItem {
-  title: string;
-  link: string;
-  isoDate: string;
-  contentSnippet?: string;
-  content?: string;
-}
-
-interface CandidateInput {
-  id: number;
-  source: string;
-  title: string;
-  date: string;
-  url: string;
-  content: string;
-}
-
-interface CandidateResult {
-  id: number;
-  significance: 0 | 1 | 2 | 3 | 4;
-  reason: string;
-  // present only when significance > 0:
-  title?: string;
-  description?: string;
-  slug?: string;
-  tags?: string[];
-  summarySection?: string;
-  commentarySection?: string;
-}
-
-// used at write step only
-type ArticleJudgment = Required<Omit<CandidateResult, 'id'>>;
+import type { CandidateInput, CandidateResult, FeedItem } from './types.ts';
+import {
+  SIGNIFICANCE_NAMES,
+  extractOgImage,
+  picsumFallback,
+  slugify,
+  writeArticle,
+} from './write-article.ts';
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 
-const root = resolve(import.meta.dirname, '..');
-const importedPath = resolve(import.meta.dirname, 'imported.json');
 const candidatesInputPath = resolve(
   import.meta.dirname,
   'candidates-input.json',
@@ -54,209 +26,6 @@ const candidatesOutputPath = resolve(
   import.meta.dirname,
   'candidates-output.json',
 );
-
-const TAG_VOCABULARY = [
-  'javascript',
-  'typescript',
-  'css',
-  'html',
-  'browser',
-  'web-platform',
-  'frameworks',
-  'react',
-  'vue',
-  'angular',
-  'svelte',
-  'solidjs',
-  'astro',
-  'nodejs',
-  'deno',
-  'bun',
-  'wasm',
-  'tooling',
-  'build-tools',
-  'testing',
-  'performance',
-  'dx',
-  'ux',
-  'accessibility',
-  'design',
-  'release',
-  'tutorial',
-];
-
-const SIGNIFICANCE_NAMES: Record<number, string> = {
-  1: 'mention',
-  2: 'highlight',
-  3: 'feature',
-  4: 'headline',
-};
-
-const JUDGE_PROMPT = `You are a web dev news curator for digestweb.dev.
-You receive a JSON array of article candidates. For EACH candidate, triage it and — if publishable — generate full metadata.
-
-Respond ONLY with a JSON array, same length and order as the input:
-
-• If significance === 0:
-  { "id": N, "significance": 0, "reason": "..." }
-
-• If significance >= 1:
-  { "id": N, "significance": 1|2|3|4, "reason": "...", "title": "...", "description": "...", "slug": "...", "tags": [...], "summarySection": "...", "commentarySection": "..." }
-
-Significance scale:
-  0 = skip — patch-only releases, link dumps, marketing, already-covered rehash
-  1 = mention — minor release, niche article, tangential to mainstream web dev, beginner-level article
-  2 = highlight — notable minor release, good tutorial, community news
-  3 = feature — major release with new features, significant web-platform addition, influential deep-dive
-  4 = headline — landmark release, paradigm shift, Stage 3/4 TC39 proposal shipping, ecosystem-wide impact
-
-Field rules (significance >= 1 only):
-  title         — clean, engaging, max 80 chars
-  description   — 1–2 sentences
-  slug          — kebab-case, max 80 chars
-  tags          — 1–4 items from allowed vocabulary; allowed tags: ${TAG_VOCABULARY.join(', ')}
-  summarySection   — markdown for "## Summary & Key Takeaways"; use bullet points; concise; Start with "## Summary & Key Takeaways"
-  commentarySection — markdown for "## Our Commentary"; start with "## Our Commentary"; max 600 chars; Don't just report facts - react to them. "I genuinely don't know how to feel about this" is more human than neutrally listing pros and cons; Vary your rhythm. Short punchy sentences. Mix it up.; use "I" when it fits. First person isn't unprofessional - it's honest.; Let some mess in. Perfect structure feels algorithmic. Tangents, asides, and half-formed thoughts are human.; Be specific about feelings. Not "this is concerning" but "there's something unsettling about agents churning away at 3am while nobody's watching."; Write as plural, using "we" or "digestweb" when appropriate.; Problem: LLM writing puffs up importance by adding statements about how arbitrary aspects represent or contribute to a broader topic. Words to watch: stands/serves as, is a testament/reminder, a vital/significant/crucial/pivotal/key role/moment, underscores/highlights its importance/significance, reflects broader, symbolizing its ongoing/enduring/lasting, contributing to the, setting the stage for, marking/shaping the, represents/marks a shift, key turning point, evolving landscape, focal point, indelible mark, deeply rooted
-`;
-
-// ─── Helpers ─────────────────────────────────────────────────────────────────
-
-function loadImported(): Set<string> {
-  try {
-    const data = JSON.parse(readFileSync(importedPath, 'utf-8')) as string[];
-    return new Set(data);
-  } catch {
-    return new Set();
-  }
-}
-
-function appendImported(url: string): void {
-  let current: string[] = [];
-  try {
-    current = JSON.parse(readFileSync(importedPath, 'utf-8')) as string[];
-  } catch {
-    // file doesn't exist yet
-  }
-  current.push(url);
-  writeFileSync(importedPath, JSON.stringify(current, null, 2));
-}
-
-async function fetchFeed(url: string): Promise<FeedItem[]> {
-  const parser = new Parser({
-    timeout: 10000,
-    headers: { 'User-Agent': 'digestweb.dev-fetcher/1.0' },
-  });
-  const feed = await parser.parseURL(url);
-  return feed.items.map((item) => ({
-    title: item.title ?? '',
-    link: item.link ?? item.guid ?? '',
-    isoDate: item.isoDate ?? item.pubDate ?? new Date().toISOString(),
-    contentSnippet: item.contentSnippet,
-    content: item.content,
-  }));
-}
-
-async function extractOgImage(url: string): Promise<string | null> {
-  try {
-    const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 8000);
-    const res = await fetch(url, { signal: controller.signal });
-    clearTimeout(timeout);
-    const html = await res.text();
-    // two-pass regex: handle property/content in either order
-    const match =
-      html.match(
-        /<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i,
-      ) ??
-      html.match(
-        /<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i,
-      );
-    return match?.[1] ?? null;
-  } catch {
-    return null;
-  }
-}
-
-function picsumFallback(slug: string): string {
-  const hash = createHash('sha256').update(slug).digest('hex');
-  const n = parseInt(hash.slice(0, 8), 16) % 1000;
-  return `https://picsum.photos/id/${n}/800/450`;
-}
-
-function stripHtml(html: string): string {
-  return html
-    .replace(/<[^>]+>/g, ' ')
-    .replace(/\s+/g, ' ')
-    .trim();
-}
-
-async function judgeAllWithGemini(
-  candidates: CandidateInput[],
-  genAI: GoogleGenerativeAI,
-): Promise<CandidateResult[]> {
-  const model = genAI.getGenerativeModel({
-    model: 'gemini-2.5-flash',
-    systemInstruction: JUDGE_PROMPT,
-    generationConfig: { temperature: 0, responseMimeType: 'application/json' },
-  });
-  const result = await model.generateContent(JSON.stringify(candidates));
-  return JSON.parse(result.response.text()) as CandidateResult[];
-}
-
-function writeArticle(opts: {
-  judgment: ArticleJudgment;
-  item: FeedItem;
-  source: (typeof sources)[number];
-  photo: string;
-  date: string;
-  dryRun: boolean;
-}): string {
-  const { judgment, item, source, photo, date, dryRun } = opts;
-  const baseSlug = judgment.slug || slugify(judgment.title);
-  const dirPath = resolve(root, 'articles', date);
-  let slug = baseSlug;
-  let filePath = resolve(dirPath, `${slug}.md`);
-  if (!dryRun) {
-    let counter = 2;
-    while (existsSync(filePath)) {
-      slug = `${baseSlug}-${counter++}`;
-      filePath = resolve(dirPath, `${slug}.md`);
-    }
-    mkdirSync(dirPath, { recursive: true });
-  }
-
-  const tags = judgment.tags.slice(0, 4).join(', ');
-  const authorName = source.authorName ?? '';
-  const content = `---
-layout: article
-title: ${judgment.title}
-description: ${judgment.description}
-photo: ${photo}
-original_url: ${item.link}
-source_name: ${source.name}
-source_author: ${authorName}
-tags: [${tags}]
-significance: ${judgment.significance}
----
-
-${judgment.summarySection}
-
-${judgment.commentarySection}
-`;
-
-  if (!dryRun) {
-    writeFileSync(filePath, content);
-  }
-  return `articles/${date}/${slug}.md`;
-}
-
-function slugify(text: string): string {
-  return text
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-|-$/g, '')
-    .slice(0, 80);
-}
 
 // ─── CLI parsing ──────────────────────────────────────────────────────────────
 
@@ -301,7 +70,7 @@ function parseArgs(): {
   };
 }
 
-// ─── Resume helpers ────────────────────────────────────────────────────────────
+// ─── Resume helper ────────────────────────────────────────────────────────────
 
 function candidateInputsToAllCandidates(
   inputs: CandidateInput[],
@@ -382,7 +151,7 @@ async function main(): Promise<void> {
       : candidatesInputPath);
   let inputs: CandidateInput[] = [];
 
-  if (inputPath) {
+  if (candidatesInputFile || candidatesOutputFile) {
     try {
       inputs = JSON.parse(readFileSync(inputPath, 'utf-8')) as CandidateInput[];
       console.log(
@@ -455,7 +224,7 @@ async function main(): Promise<void> {
   }
 
   if (candidatesOutputFile) {
-    // ── Resume from Phase C: load both output and input files ─────────────────
+    // ── Resume from Phase B results ────────────────────────────────
     results = JSON.parse(
       readFileSync(resolve(candidatesOutputFile), 'utf-8'),
     ) as CandidateResult[];
@@ -490,7 +259,7 @@ async function main(): Promise<void> {
       continue;
     }
 
-    const judgment: ArticleJudgment = {
+    const judgment = {
       significance: res.significance,
       reason: res.reason,
       title: res.title as string,

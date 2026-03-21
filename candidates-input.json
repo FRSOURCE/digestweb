@@ -1,0 +1,90 @@
+[
+  {
+    "id": 0,
+    "source": "VoidZero Blog (build-tool)",
+    "title": "Tales from the Void: March Launch Week Recap",
+    "date": "2026-03-20T00:00:00.000Z",
+    "url": "https://voidzero.dev/posts/whats-new-march-launch-week-2026",
+    "content": "Welcome to a special edition of Tales from the Void ! Last weeks VoidZero Launch Week brought changes to how you build, test, lint, and deploy JavaScript. Here's what shipped and why it matters. Oxlint: JS Plugins Alpha &#8203; Oxlint's JS Plugins Alpha brings near-100% compatibility with the ESLint plugin ecosystem. Your existing ESLint plugins run inside Oxlint unmodified , alongside 650+ native Rust rules, while linting up to 100x faster than ESLint. Why it matters : For around 80% of ESLint users Oxlint is a true drop-in replacement. Thanks to @oxlint/migrate you can migrate automatically without changing your ruleset. That means you get significantly faster linting in CI and locally, shorter feedback loops while coding, and less time waiting on pre-commit hooks. Already in production at Midjourney, Preact, and PostHog. Make sure to read the Oxlint JS Plugins alpha announcement for more technical details and to check out the Oxlint migration guide . Known Gaps Plugins with custom parsers (e.g. for Vue or Svelte templates) and custom type-aware rules in JavaScript aren't supported yet. Both are on the roadmap, and the built-in type-aware rules cover most use cases in the meantime. Vite 8: One Bundler to Replace Two &#8203; Vite 8 is the most significant architectural change since Vite 2. Rolldown , a Rust-based bundler, now replaces both esbuild and Rollup. This change unifies development and production into a single bundler that is 10-30x faster than Rollup while maintaining full plugin compatibility. Beyond the new bundler, Vite 8 ships with: Integrated Vite Devtools for debugging and build analysis, built-in tsconfig paths support , automatic emitDecoratorMetadata without plugins, and @vitejs/plugin-react v6 which replaces Babel with Oxc for React transforms. Real-world results : Linear cut builds from 46s to 6s, Ramp saw a 57% reduction and Beehiiv 64%. Why it matters : Less dev/prod inconsistencies and build speed gains through the Rust-based bundler are sig"
+  },
+  {
+    "id": 1,
+    "source": "Robin Rendle (person-blog)",
+    "title": "Reading without reading",
+    "date": "2026-03-20T05:30:10.000Z",
+    "url": "https://robinrendle.com/notes/reading-without-reading/",
+    "content": "Mass-Driver just released MD UI , a neo-grotesque type family that’s been designed to compliment Rutherford Craze and Co.’s already excellent mono-space . And just as the name implies, MD UI is designed for a different kind of reading : When we think about reading, we tend to picture books, or magazines, or business reports. Blocks of text, traversed from beginning to end. There’s another kind of reading, though, one which I think we do much more often without really noticing it. It’s a kind of instantaneous scanning of a word or two at a time: the hour on a smartwatch, or the label on microwave dial, or the URL in your web browser. I like to call this interfacing, because it’s less about digesting information (or experiencing the text) than about interacting with your immediate surroundings. You don’t think of it as reading at all — it just happens. Interfacing is a great word! I realize now just how limiting it is to describe all types of reading as simply reading , as if all flowers are flowers or all birds are birds . The world is more complicated! There is nuance here! And of course the way we process information is more complex than a single word can hope to describe. Also, I appreciate the confidence from Mass-Driver in this new type release. There’s a self-assuredness (without ego!) that can be found in the design notes that I truly admire: MD UI isn’t so much a revival of the International Style as an anticipation of its potential future. It’s an attempt to take the familiar and push it just one step further; to fix a couple of the annoyances while leaving what works alone. That’s easier said than done. But it’s done."
+  },
+  {
+    "id": 2,
+    "source": "Codrops (general)",
+    "title": "Jackie Zhang’s Portfolio: From Chasing References to Finding Direction",
+    "date": "2026-03-20T14:56:31.000Z",
+    "url": "https://tympanus.net/codrops/2026/03/20/jackie-zhangs-portfolio-from-chasing-references-to-finding-direction/",
+    "content": "How I stopped chasing references and built a portfolio that actually feels like me."
+  },
+  {
+    "id": 3,
+    "source": "Hugging Face Blog (ai)",
+    "title": "Build a Domain-Specific Embedding Model in Under a Day",
+    "date": "2026-03-20T19:38:16.000Z",
+    "url": "https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune",
+    "content": ""
+  },
+  {
+    "id": 4,
+    "source": "Hugging Face Blog (ai)",
+    "title": "What's New in Mellea 0.4.0 + Granite Libraries Release",
+    "date": "2026-03-20T14:14:46.000Z",
+    "url": "https://huggingface.co/blog/ibm-granite/granite-libraries",
+    "content": ""
+  },
+  {
+    "id": 5,
+    "source": "The Batch (ai)",
+    "title": "Attacks On Data Centers, Qwen3.5 In All Sizes, DeepSeek’s Huawei Play, Apple’s Multimodal Tokenizer",
+    "date": "2026-03-20T00:00:00.000Z",
+    "url": "https://www.deeplearning.ai/the-batch/issue-345/",
+    "content": "The Batch AI News and Insights: I’ve been hearing from people at all levels of seniority about a feeling of job insecurity."
+  },
+  {
+    "id": 6,
+    "source": "Simon Willison's Weblog (person-blog)",
+    "title": "Quoting Kimi.ai @Kimi_Moonshot",
+    "date": "2026-03-20T20:29:23.000Z",
+    "url": "https://simonwillison.net/2026/Mar/20/cursor-on-kimi/#atom-everything",
+    "content": ""
+  },
+  {
+    "id": 7,
+    "source": "Smashing Magazine (general)",
+    "title": "Dropdowns Inside Scrollable Containers: Why They Break And How To Fix Them Properly",
+    "date": "2026-03-20T13:00:00.000Z",
+    "url": "https://smashingmagazine.com/2026/03/dropdowns-scrollable-containers-why-break-how-fix/",
+    "content": "Dropdowns often work perfectly until they’re placed inside a scrollable panel, where they can get clipped, and half the menu disappears behind the container’s edge. Godstime Aburu explains why this happens and offers practical solutions to fix it."
+  },
+  {
+    "id": 8,
+    "source": "Frontend Masters Blog (general)",
+    "title": "Text scaling support in Chrome Canary",
+    "date": "2026-03-20T16:28:29.000Z",
+    "url": "https://frontendmasters.com/blog/text-scaling-support-in-chrome-canary/",
+    "content": "Josh Tumath: Have you ever noticed that when you increase the system text size in your iOS or Android phone&#8217;s accessibility settings, the text gets bigger everywhere except on the web? On Safari and Chrome, it makes absolutely no difference. New thing: &#60;meta name=text-scale> This isn&#8217;t page zoom, which scales everything, it&#8217;s just respects the [&#8230;]"
+  },
+  {
+    "id": 9,
+    "source": "NNGroup (general)",
+    "title": "The 3 C’s of Informational Microcopy",
+    "date": "2026-03-20T17:00:00.000Z",
+    "url": "https://www.nngroup.com/articles/3-cs-microcopy/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+    "content": "Well-written informational microcopy should be clear, concise, and have character."
+  },
+  {
+    "id": 10,
+    "source": "NNGroup (general)",
+    "title": "What Is Your Site's AI Chatbot for? Users Can't Tell",
+    "date": "2026-03-20T17:00:00.000Z",
+    "url": "https://www.nngroup.com/articles/site-ai-chatbot/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+    "content": "Users see little reason to use site AI chatbots. To prove their value, chatbots must solve problems that existing site features don't."
+  }
+]
