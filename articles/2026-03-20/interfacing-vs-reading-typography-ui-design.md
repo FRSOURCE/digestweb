@@ -11,9 +11,11 @@ significance: 1
 ---
 
 ## Summary & Key Takeaways
-*   The note highlights the concept of "interfacing" as a distinct mode of reading, characterized by instantaneous scanning of single words or short phrases (e.g., on a smartwatch, URL).
-*   It highlights MD UI, a new neo-grotesque type family designed specifically to facilitate this "interfacing" mode.
-*   The author praises Mass-Driver's confident design philosophy for MD UI, aiming to evolve familiar styles for future UI needs.
+
+- The note highlights the concept of "interfacing" as a distinct mode of reading, characterized by instantaneous scanning of single words or short phrases (e.g., on a smartwatch, URL).
+- It highlights MD UI, a new neo-grotesque type family designed specifically to facilitate this "interfacing" mode.
+- The author praises Mass-Driver's confident design philosophy for MD UI, aiming to evolve familiar styles for future UI needs.
 
 ## Our Commentary
-Something for typography fans :) The distinction between "reading" and "interfacing" is something we probably all intuitively understand but rarely articulate. Thinking about how users *actually* consume information on screens, often in quick glances, should absolutely influence typography choices. The idea of a typeface specifically optimized for this kind of rapid information processing is pretty cool! It's a great reminder to challenge our fundamental understanding of how users engage with interfaces.
+
+Something for typography fans :) The distinction between "reading" and "interfacing" is something we probably all intuitively understand but rarely articulate. Thinking about how users _actually_ consume information on screens, often in quick glances, should absolutely influence typography choices. The idea of a typeface specifically optimized for this kind of rapid information processing is pretty cool! It's a great reminder to challenge our fundamental understanding of how users engage with interfaces.

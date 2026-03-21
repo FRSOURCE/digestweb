@@ -48,6 +48,10 @@ export function slugify(text: string): string {
     .slice(0, 80);
 }
 
+function yamlStr(s: string): string {
+  return "'" + s.replace(/'/g, "''") + "'";
+}
+
 export function writeArticle(opts: {
   judgment: ArticleJudgment;
   item: FeedItem;
@@ -74,12 +78,12 @@ export function writeArticle(opts: {
   const authorName = source.authorName ?? '';
   const content = `---
 layout: article
-title: ${judgment.title}
-description: ${judgment.description}
-photo: ${photo}
+title: ${yamlStr(judgment.title)}
+description: ${yamlStr(judgment.description)}
+photo: ${yamlStr(photo)}
 original_url: ${item.link}
-source_name: ${source.name}
-source_author: ${authorName}
+source_name: ${yamlStr(source.name)}
+source_author: ${yamlStr(authorName)}
 tags: [${tags}]
 significance: ${judgment.significance}
 ---
