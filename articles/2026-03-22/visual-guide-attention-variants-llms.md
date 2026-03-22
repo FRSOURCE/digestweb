@@ -19,6 +19,4 @@ significance: 3
 
 ## Our Commentary
 
-Understanding the internal mechanics of LLMs is becoming increasingly vital for anyone working with or even just curious about AI, and Sebastian Raschka consistently delivers high-quality, accessible explanations. This visual guide is a godsend for anyone trying to grasp the nuances of attention variants without getting lost in dense academic papers.
-
-We find that visual aids like these are indispensable for demystifying complex AI architectures, making the field more approachable for developers and researchers alike. It's a fantastic resource for deepening one's understanding beyond just using APIs. The clarity and depth provided here are exactly what we look for in educational content, helping to bridge the gap between theoretical concepts and practical application in the rapidly evolving world of AI.
+Understanding the internal mechanics of LLMs is becoming increasingly vital for anyone working with or even just curious about AI. This visual guide is a godsend for anyone trying to grasp the nuances of attention variants without getting lost in dense academic papers. The clarity provided here are exactly what we look for in educational content - that's why we marked this article as "Must Read"!

@@ -19,6 +19,6 @@ significance: 2
 
 ## Our Commentary
 
-Simon Willison always finds fascinating ways to explore public data, and this project is no exception. It's a brilliant example of how simple scripting and data analysis can reveal surprising insights about online communities. We find it particularly interesting how one can infer user personas from their digital footprints, even from seemingly unstructured data like forum comments.
+It's a good example of how simple scripting and data analysis can reveal surprising insights about online communities. We find it particularly interesting how one can infer user personas from their digital footprints, even from seemingly unstructured data like forum comments.
 
 While there are obvious ethical considerations around data privacy and profiling that we should always be mindful of, the technical approach here offers valuable lessons in data extraction and analysis for anyone interested in web scraping or community insights. It's a reminder that even seemingly mundane data holds a wealth of information, and with the right tools, you can uncover truly compelling patterns. This kind of project sparks curiosity about what else we could learn from public data, responsibly, of course.

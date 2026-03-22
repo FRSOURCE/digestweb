@@ -18,6 +18,6 @@ significance: 3
 
 ## Our Commentary
 
-This piece from Nathan Lambert offers a much-needed dose of realism to the often-sensationalized discussions around AI takeoff. We genuinely appreciate the nuanced perspective, which grounds the debate in practical limitations rather than purely theoretical possibilities. It's a relief to see a well-reasoned argument against the immediate 'fast takeoff' scenario, offering a more measured outlook on AGI development.
+This piece from Nathan Lambert offers a dose of realism to the discussions around AI takeoff. It's an argument against the immediate 'fast takeoff' scenario, offering a more measured outlook on AGI development.
 
 Lambert's focus on the 'lossy' nature of self-improvement provides a compelling counter-narrative to the more alarmist predictions. It doesn't dismiss the potential for powerful AI, but it reframes the timeline and nature of its emergence, suggesting a more manageable progression. This kind of grounded analysis is crucial for fostering a balanced understanding of AI's future, moving beyond hype and fear to a more informed discussion about its actual trajectory.
