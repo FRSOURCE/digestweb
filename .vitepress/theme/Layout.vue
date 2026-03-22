@@ -6,8 +6,10 @@ import FrsourceLogo from './components/FrsourceLogo.vue';
 import ArticleDetail from './components/ArticleDetail.vue';
 import FloatingAd from './components/FloatingAd.vue';
 import Button from './components/Button.vue';
-import RSSIcon from './components/RSSIcon.vue';
 import AdPlaceholder from './components/AdPlaceholder.vue';
+import RSSIcon from './components/RSSIcon.vue';
+import AtomIcon from './components/AtomIcon.vue';
+import JsonFeedIcon from './components/JsonFeedIcon.vue';
 
 const { frontmatter } = useData();
 const route = useRoute();
@@ -20,19 +22,36 @@ watch(
   },
 );
 
-const navItems = [
-  { href: withBase('/'), label: 'Daily Feed' },
-  { href: withBase('/feed.rss'), label: 'RSS', icon: RSSIcon, submenu: true },
-  { href: withBase('/feed.atom'), label: 'Atom', icon: RSSIcon, submenu: true },
+const feedLinks = [
+  {
+    href: withBase('/feed.rss'),
+    label: 'RSS',
+    ariaLabel: 'Subscribe via RSS',
+    icon: RSSIcon,
+    mobileOnly: true,
+  },
+  {
+    href: withBase('/feed.atom'),
+    label: 'Atom',
+    ariaLabel: 'Subscribe via Atom',
+    icon: AtomIcon,
+    mobileOnly: true,
+  },
   {
     href: withBase('/feed.json'),
     label: 'JSON Feed',
-    icon: RSSIcon,
-    submenu: true,
+    ariaLabel: 'Subscribe via JSON Feed',
+    icon: JsonFeedIcon,
+    mobileOnly: true,
   },
+];
+
+const navItems = [
+  ...feedLinks,
   {
     href: 'mailto:dailyweb@frsource.org?subject=Link proposal&body=Link: https://... , Description/Summary: ... , Are you the author? [yes/no], Comments: ...',
     label: 'Submit Link',
+    icon: undefined,
   },
 ];
 </script>
@@ -53,7 +72,7 @@ const navItems = [
       >
         <a
           v-for="{ href, label, icon } in navItems.filter(
-            (item) => !item.submenu,
+            (item) => !item.mobileOnly,
           )"
           :key="href"
           :href="href"
@@ -179,18 +198,32 @@ const navItems = [
 
     <!-- ── Footer ── -->
     <footer
-      class="py-2 px-4 pb-10 lg:pb-2 text-sm text-right text-dw-muted [grid-area:footer]"
+      class="py-2 px-4 pb-10 lg:pb-2 text-sm text-dw-muted [grid-area:footer] flex flex-col items-center justify-end gap-x-4 gap-y-1 lg:items-start"
     >
-      &copy; {{ new Date().getFullYear() }} digestweb.dev &mdash; brought to you
-      by&nbsp;
-      <a
-        href="https://www.frsource.org"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="inline-flex items-center align-middle no-underline color-dw-accent hover:text-dw-primary font-medium transition-colors"
-      >
-        FRSOURCE
-      </a>
+      <div class="flex items-center gap-2.5">
+        <a
+          v-for="{ href, label, ariaLabel, icon } in feedLinks"
+          :key="href"
+          :href="href"
+          :aria-label="ariaLabel"
+          class="inline-flex items-center gap-1 no-underline text-dw-muted hover:text-dw-primary transition-colors"
+        >
+          <component v-if="icon" :is="icon" class="w-3 h-3" />
+          {{ label }}
+        </a>
+      </div>
+      <span
+        >&copy; {{ new Date().getFullYear() }} digestweb.dev &mdash; brought to
+        you by&nbsp;
+        <a
+          href="https://www.frsource.org"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center align-middle no-underline color-dw-accent hover:text-dw-primary font-medium transition-colors"
+        >
+          FRSOURCE
+        </a>
+      </span>
     </footer>
 
     <FloatingAd class="lg:hidden" />

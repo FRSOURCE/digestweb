@@ -57,9 +57,13 @@ test.describe('navigation — desktop', () => {
     ).toBeVisible();
   });
 
-  test('Daily Feed nav link is visible', async ({ page }) => {
+  test('Submit Link nav item is visible in desktop nav', async ({ page }) => {
     await page.goto('/');
-    await expect(page.getByRole('link', { name: 'Daily Feed' })).toBeVisible();
+    await expect(
+      page
+        .getByRole('navigation', { name: 'Site navigation' })
+        .getByRole('link', { name: /submit link/i }),
+    ).toBeVisible();
   });
 
   test('FRSOURCE curated-by link is visible', async ({ page }) => {
@@ -83,8 +87,7 @@ test.describe('navigation — mobile', () => {
   test('hamburger opens mobile menu with nav items', async ({ page }) => {
     await page.goto('/');
     await page.getByRole('button', { name: /toggle navigation/i }).click();
-    await expect(page.getByRole('link', { name: 'Daily Feed' })).toBeVisible();
-    const rssLink = page.getByRole('link', { name: 'RSS' });
+    const rssLink = page.getByRole('link', { name: 'RSS' }).first();
     await expect(rssLink).toBeVisible();
     await expect(rssLink).toHaveAttribute('href', '/feed.rss');
   });
@@ -92,8 +95,10 @@ test.describe('navigation — mobile', () => {
   test('tapping a nav item closes the mobile menu', async ({ page }) => {
     await page.goto('/');
     await page.getByRole('button', { name: /toggle navigation/i }).click();
-    await expect(page.getByRole('link', { name: 'Daily Feed' })).toBeVisible();
-    await page.getByRole('link', { name: 'Daily Feed' }).click();
+    await expect(
+      page.getByRole('link', { name: /submit link/i }),
+    ).toBeVisible();
+    await page.getByRole('link', { name: /submit link/i }).click();
     await expect(
       page.getByRole('link', { name: /submit link/i }),
     ).not.toBeVisible();

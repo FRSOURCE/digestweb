@@ -14,6 +14,8 @@ const isIncremental = process.env.VITEPRESS_INCREMENTAL === '1';
 const skipArticles =
   process.env.VITEPRESS_SKIP_ARTICLES?.split('|').filter(Boolean) ?? [];
 
+process.env.VITE_EXTRA_EXTENSIONS = 'rss,atom';
+
 export default defineConfig({
   title: 'digestweb.dev',
   description: 'Daily curated web dev news by FRSOURCE',
