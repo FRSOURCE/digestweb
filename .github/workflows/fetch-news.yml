@@ -13,11 +13,11 @@ jobs:
       pull-requests: write
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
-      - uses: pnpm/action-setup@v4.2.0
+      - uses: pnpm/action-setup@v5.0.0
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           cache: 'pnpm'
           node-version-file: '.nvmrc'
@@ -25,7 +25,7 @@ jobs:
       - run: pnpm i
 
       # Restore imported.json from cache so we don't re-process old articles
-      - uses: actions/cache@v4
+      - uses: actions/cache@v5
         with:
           path: tools/imported.json
           key: fetch-news-imported-${{ github.run_id }}
@@ -37,7 +37,7 @@ jobs:
         run: node --strip-types tools/fetch-news.ts --days 1
 
       - name: Upload candidates artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         if: always()
         with:
           name: candidates-${{ github.run_id }}
@@ -49,7 +49,7 @@ jobs:
       - run: pnpm fix
 
       - name: Open PR with new articles
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ secrets.GH_PAT }}
           branch: news/${{ github.run_id }}
