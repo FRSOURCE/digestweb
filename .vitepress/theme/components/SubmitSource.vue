@@ -83,8 +83,6 @@ const errors = computed(() => ({
 
 const isValid = computed(() => Object.values(errors.value).every((e) => !e));
 
-const githubToken = import.meta.env.VITE_GITHUB_TOKEN as string | undefined;
-const missingConfig = import.meta.env.PROD && !githubToken;
 const turnstileSitekey = import.meta.env.VITE_TURNSTILE_SITEKEY as
   | string
   | undefined;
@@ -174,19 +172,9 @@ async function handleSubmit(e: SubmitEvent) {
       Propose a new RSS source to be included in the digestweb.dev feed.
     </p>
 
-    <!-- Missing config warning (dev / misconfigured build) -->
-    <div
-      v-if="missingConfig"
-      class="rounded-xl p-5 -raised-3 text-dw-muted text-sm"
-    >
-      <strong class="text-dw-text block mb-1">Form unavailable</strong>
-      The submission form requires <code>VITE_GITHUB_TOKEN</code> environment
-      variables to be set at build time. Please contact the site maintainer.
-    </div>
-
     <!-- Success state -->
     <div
-      v-else-if="state === 'success'"
+      v-if="state === 'success'"
       class="raised-5 rounded-2xl p-8 text-center"
     >
       <div
