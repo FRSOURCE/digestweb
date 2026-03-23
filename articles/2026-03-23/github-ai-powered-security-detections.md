@@ -18,4 +18,4 @@ significance: 2
 
 ## Our Commentary
 
-This is a smart move from GitHub. Integrating AI into security scanning isn't just about finding more bugs; it's about finding them smarter and faster, especially as codebases grow in complexity and diversity. We've seen AI assist in code generation, but its role in security is equally, if not more, critical. It's a practical application of AI that directly benefits developers by potentially catching issues before they become major problems. I'm curious to see how effective these AI detections are in practice and if they reduce false positives compared to traditional static analysis. It feels like a step towards more proactive and less reactive security postures in development.
+Security scanning that actually reduces false positives would be genuinely useful — most teams tune out SAST alerts because the signal-to-noise ratio is terrible. Whether AI improves that ratio or just produces different false positives at scale is the real question. The CodeQL integration at least keeps the analysis grounded rather than relying purely on LLM pattern matching, which is probably the right call.

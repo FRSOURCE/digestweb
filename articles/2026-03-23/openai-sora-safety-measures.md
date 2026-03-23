@@ -12,10 +12,10 @@ significance: 2
 
 ## Summary & Key Takeaways
 
-- OpenAI has detailed the safety protocols and protections integrated into Sora 2 and the Sora app.
-- The focus is on addressing the unique safety challenges presented by advanced video generation models and new social creation platforms.
-- OpenAI emphasizes a foundational approach to safety in the development and deployment of Sora.
+- OpenAI outlines the content policies, filters, and moderation systems built into Sora 2 and the Sora app.
+- The post addresses challenges specific to video generation: deepfakes, synthetic news footage, and non-consensual content.
+- Their approach combines pre-generation filtering, output watermarking, and post-generation review.
 
 ## Our Commentary
 
-It's good to see OpenAI proactively addressing safety concerns around Sora. The capabilities of advanced video generation models like Sora are incredible, but they also come with significant ethical and societal challenges. Discussing the "concrete protections" built into Sora 2 and the app is crucial for building trust and ensuring responsible deployment. We're particularly interested in the specifics of how they're tackling issues like misinformation, deepfakes, and harmful content generation. This isn't just a technical problem; it's a societal one, and transparency around safety measures is paramount as these powerful tools become more accessible.
+Laying out specifics is at least a step toward accountability. The harder problem — detecting AI-generated video at scale across the open web — isn't something any single vendor can solve, and this post focuses mostly on what OpenAI controls within their own platform. That's the easier half of the problem. Useful to read for what they've committed to, but the broader ecosystem question is still wide open.

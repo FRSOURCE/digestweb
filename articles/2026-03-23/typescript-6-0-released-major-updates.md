@@ -18,4 +18,4 @@ significance: 4
 
 ## Our Commentary
 
-TypeScript 6.0 is here, and this is always a big deal for the JavaScript ecosystem. Each major release brings new ways to write more robust, maintainable code, and we're eager to dive into the specifics. We anticipate improvements that will streamline common patterns, perhaps better inference, or more powerful type manipulations. The continuous evolution of TypeScript is a testament to its critical role in modern web development, helping teams scale and manage complexity. I'm particularly interested in how this release might impact existing large codebases and what new patterns it enables. It's a good day for type safety enthusiasts!
+TS major versions mean breaking changes that ripple through the ecosystem slowly — frameworks, tooling, and DefinitelyTyped all need to catch up. The features worth paying attention to are the inference improvements; if they handle complex generics better, that's where the real day-to-day gains are. Check the migration guide before upgrading a production project, especially if you have custom `tsconfig` settings.

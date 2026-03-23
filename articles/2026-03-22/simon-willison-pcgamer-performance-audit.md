@@ -13,9 +13,9 @@ significance: 1
 ## Summary & Key Takeaways
 
 - Simon Willison performed a detailed performance audit of an article on PCGamer.com.
-- The audit likely identifies specific bottlenecks and areas for improvement in loading speed and user experience.
-- This provides a real-world case study for web performance optimization techniques.
+- The analysis covers loading speed, render-blocking resources, and opportunities for improvement.
+- PCGamer is a high-traffic commercial site with real constraints — ad networks, CMS overhead — making this more representative than tutorial examples.
 
 ## Our Commentary
 
-Performance audits of real-world sites, especially popular ones like PCGamer, are incredibly valuable. It's easy to get lost in theoretical performance discussions, but seeing a practical breakdown of issues and potential solutions on a live site offers concrete lessons. Simon Willison's expertise in this area means we can expect insightful analysis. We're always keen to learn new tips and tricks for improving web performance, as it directly impacts user experience and SEO. This kind of article helps demystify the process and provides actionable takeaways for developers.
+Real sites make the best test subjects because they carry actual baggage: third-party scripts, ad networks, legacy markup. An audit of a site like PCGamer shows what performance trade-offs look like under real publishing constraints, not what the ideal Lighthouse score looks like in isolation. Worth reading with your own site's compromises in mind.

@@ -18,4 +18,4 @@ significance: 3
 
 ## Our Commentary
 
-This is a big one. The ability for Claude to "work on your computer" moves us firmly into the era of AI agents. We've been talking about this for a while, but seeing it implemented by a major player like Anthropic is a game-changer. The potential for productivity gains is immense – imagine Claude automating complex workflows, managing files, or even debugging code directly on your machine. However, the security implications are also immediately apparent. Granting an AI access to your local environment requires careful consideration and robust safeguards. It's an exciting, yet slightly unnerving, step towards a future where AI is deeply embedded in our daily digital lives.
+Computer use via the API has existed for a while, so the more interesting angle here is the desktop integration and how it handles edge cases when something unexpected happens mid-task. The security model matters a lot — not just "can Anthropic be trusted" but whether the model makes sound judgment calls when it hits an ambiguous situation halfway through a destructive operation. That's the harder problem.

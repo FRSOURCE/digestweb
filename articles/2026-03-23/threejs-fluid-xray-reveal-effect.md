@@ -18,4 +18,4 @@ significance: 2
 
 ## Our Commentary
 
-Codrops always pushes the boundaries of what's visually possible on the web, and this Three.js tutorial sounds like another stunning example. Creating a fluid "x-ray" reveal effect by blending two scenes is a sophisticated technique that can add a real "wow" factor to interactive experiences. While not every project needs such an elaborate effect, understanding the underlying principles of fluid simulation and scene blending in Three.js is incredibly valuable for any developer working with 3D web graphics. We're excited to see the creative applications this tutorial inspires.
+Codrops tutorials tend to be well-documented even when the technique is non-trivial. The fluid simulation is mostly decorative here — the more transferable concept is the render target switching and mask compositing approach, which applies to plenty of other transition types. If you work with Three.js, the compositing pattern alone is worth pulling from this.

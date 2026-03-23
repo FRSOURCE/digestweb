@@ -12,10 +12,10 @@ significance: 2
 
 ## Summary & Key Takeaways
 
-- Josh W. Comeau shares a "sneaky header blocker" CSS trick used on his blog, which often puzzles developers.
-- The article promises to demystify the implementation, revealing it to be surprisingly straightforward.
-- This UI detail aims to improve user experience in a subtle yet effective way.
+- Josh explains the "header blocker" pattern — a technique to prevent content from awkwardly peeking under a sticky header.
+- The implementation turns out to be simpler than expected, using positioning and pseudo-elements.
+- The effect is invisible when done right, but the jank is obvious when it's missing.
 
 ## Our Commentary
 
-Josh W. Comeau consistently delivers fantastic, in-depth CSS explanations, and this "sneaky header blocker" sounds like another gem. We love these kinds of articles that dive into seemingly complex UI effects and then reveal a simple, elegant CSS solution. It's a reminder that sometimes the most impactful design details are the ones users don't consciously notice, but which contribute significantly to a polished experience. I'm always excited to learn a new trick from Josh, and I bet this one will be immediately applicable to many projects. It's the kind of practical knowledge that makes a real difference.
+This is one of those polish details that separates sites that feel finished from ones that feel rushed. The sticky header content-bleed problem is everywhere, and most sites just ignore it. Josh's explanations are usually worth reading even if you think you know the technique — his interactive demos tend to reveal edge cases you hadn't considered.

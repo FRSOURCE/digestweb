@@ -18,4 +18,4 @@ significance: 2
 
 ## Our Commentary
 
-This is a fantastic example of pushing the boundaries of what's possible with pure CSS. The problem of dynamically drawing lines and arrows between arbitrary elements, let alone measuring their distance, has historically been a JavaScript-heavy task. The fact that Frontend Masters is exploring this with CSS alone, likely leveraging new features like anchor positioning, is incredibly exciting. It speaks to the ongoing evolution of CSS, giving developers more control over complex layouts and interactions without resorting to JavaScript. We're always impressed by these kinds of creative solutions that simplify the frontend stack.
+Anchor positioning is the CSS primitive that was missing for this class of problems. Before it, connecting two arbitrary elements with a line meant reaching for JS libraries like Floating UI or Popper. The fact that you can do the positioning, the arrow, and the distance label in CSS alone is a signal that the platform is genuinely catching up to what JS has been doing for years.

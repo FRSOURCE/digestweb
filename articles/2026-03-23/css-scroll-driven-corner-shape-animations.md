@@ -18,4 +18,4 @@ significance: 2
 
 ## Our Commentary
 
-CSS-Tricks diving into `corner-shape()` with scroll-driven animations is exactly the kind of content we love to see. This property, while still experimental, opens up some really interesting design possibilities beyond traditional `border-radius`. Combining it with scroll-driven animations takes it to another level, allowing for dynamic and engaging UI elements. It's a great example of how the web platform continues to evolve, giving designers and developers more powerful tools directly in CSS. We're excited to see how these kinds of effects become more commonplace as browser support improves.
+`corner-shape()` sounds like a minor addition until you see it animated. The scroll-driven part is the real hook — it turns a static shape property into something that responds to user behavior. Still experimental in most browsers, so treat this as preview territory. But `corner-shape()` plus scroll-driven is the kind of combination that will show up in design systems in a year or two.
