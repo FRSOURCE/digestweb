@@ -62,7 +62,7 @@ test.describe('navigation — desktop', () => {
     await expect(
       page
         .getByRole('navigation', { name: 'Site navigation' })
-        .getByRole('link', { name: /submit link/i }),
+        .getByRole('link', { name: /propose a news source/i }),
     ).toBeVisible();
   });
 
@@ -96,11 +96,11 @@ test.describe('navigation — mobile', () => {
     await page.goto('/');
     await page.getByRole('button', { name: /toggle navigation/i }).click();
     await expect(
-      page.getByRole('link', { name: /submit link/i }),
+      page.getByRole('link', { name: /propose a news source/i }),
     ).toBeVisible();
-    await page.getByRole('link', { name: /submit link/i }).click();
+    await page.getByRole('link', { name: /propose a news source/i }).click();
     await expect(
-      page.getByRole('link', { name: /submit link/i }),
+      page.getByRole('link', { name: /propose a news source/i }),
     ).not.toBeVisible();
   });
 });

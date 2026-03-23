@@ -49,8 +49,8 @@ const feedLinks = [
 const navItems = [
   ...feedLinks,
   {
-    href: 'mailto:dailyweb@frsource.org?subject=Link proposal&body=Link: https://... , Description/Summary: ... , Are you the author? [yes/no], Comments: ...',
-    label: 'Submit Link',
+    href: withBase('/submit'),
+    label: 'Propose a News Source',
     icon: undefined,
   },
 ];
@@ -198,7 +198,7 @@ const navItems = [
 
     <!-- ── Footer ── -->
     <footer
-      class="py-2 px-4 pb-10 lg:pb-2 text-sm text-dw-muted [grid-area:footer] flex flex-col items-center justify-end gap-x-4 gap-y-1 lg:items-start"
+      class="py-2 px-4 pb-10 lg:pb-2 bg-dw-bg text-sm text-dw-muted [grid-area:footer] flex flex-col items-center justify-end gap-x-4 gap-y-1 lg:items-start lg:sticky lg:bottom-2"
     >
       <div class="flex items-center gap-2.5">
         <a

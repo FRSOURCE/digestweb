@@ -1,0 +1,53 @@
+name: Submit Source
+
+on:
+  repository_dispatch:
+    types: [submit-source]
+
+jobs:
+  create-pr:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4.2.0
+
+      - uses: actions/setup-node@v4
+        with:
+          cache: 'pnpm'
+          node-version-file: '.nvmrc'
+
+      - run: pnpm i
+
+      - name: Add source to sources.ts
+        env:
+          SOURCE_DATA: ${{ toJSON(github.event.client_payload) }}
+        run: node --strip-types tools/add-source.ts
+
+      - run: pnpm fix
+
+      - name: Open PR
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GH_PAT }}
+          branch: submit-source/${{ github.run_id }}
+          commit-message: 'feat(sources): add "${{ github.event.client_payload.name }}"'
+          title: 'feat(sources): add "${{ github.event.client_payload.name }}"'
+          body: |
+            Source submitted via digestweb.dev/submit.
+
+            **Name:** ${{ github.event.client_payload.name }}
+            **Category:** ${{ github.event.client_payload.category }}
+            **Home URL:** ${{ github.event.client_payload.homeUrl }}
+            **Feed URL:** ${{ github.event.client_payload.feed }}
+            **Author:** ${{ github.event.client_payload.authorName }}
+            **Tags:** ${{ toJSON(github.event.client_payload.tags) }}
+
+            Please review and merge when ready.
+          labels: source-submission
+          draft: false
+          add-paths: tools/sources.ts

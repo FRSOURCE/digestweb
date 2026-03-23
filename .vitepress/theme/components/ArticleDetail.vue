@@ -4,6 +4,7 @@ import { useData, Content, withBase } from 'vitepress';
 import Button from './Button.vue';
 import ShareBox from './ShareBox.vue';
 import SignificanceBadge from './SignificanceBadge.vue';
+import BackButton from './BackButton.vue';
 
 const { frontmatter } = useData();
 
@@ -14,30 +15,11 @@ const pageUrl = computed(() =>
 
 <template>
   <div>
-    <!-- Back link -->
-    <a
-      :href="withBase('/')"
-      class="inline-flex items-center gap-1.5 text-[.9rem] text-dw-primary font-medium mb-6 hover:text-dw-primary-mid no-underline transition-colors"
-    >
-      <svg
-        width="16"
-        height="16"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="2.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        aria-hidden="true"
-      >
-        <polyline points="15 18 9 12 15 6" />
-      </svg>
-      Back to Daily Feed
-    </a>
+    <BackButton size="md lg:sm"> Back to Daily Feed </BackButton>
 
     <!-- Title -->
     <h1
-      class="text-[1.9rem] font-extrabold tracking-tight text-dw-text leading-tight mb-3"
+      class="mt-6 text-[1.9rem] font-extrabold tracking-tight text-dw-text leading-tight mb-3"
     >
       {{ frontmatter.title }}
     </h1>

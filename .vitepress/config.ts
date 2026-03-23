@@ -40,6 +40,24 @@ export default defineConfig({
     ...(isIncremental && { build: { emptyOutDir: false } }),
   },
   head: [
+    ['link', { rel: 'preconnect', href: 'https://challenges.cloudflare.com' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    [
+      'link',
+      {
+        rel: 'preconnect',
+        href: 'https://fonts.gstatic.com',
+        crossorigin: 'true',
+      },
+    ],
+    [
+      'script',
+      {
+        async: '',
+        defer: '',
+        src: 'https://challenges.cloudflare.com/turnstile/v0/api.js',
+      },
+    ],
     [
       'link',
       {
@@ -68,15 +86,6 @@ export default defineConfig({
       },
     ],
     ['link', { rel: 'icon', type: 'image/svg+xml', href: base + 'logo.svg' }],
-    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
-    [
-      'link',
-      {
-        rel: 'preconnect',
-        href: 'https://fonts.gstatic.com',
-        crossorigin: 'true',
-      },
-    ],
     [
       'link',
       {

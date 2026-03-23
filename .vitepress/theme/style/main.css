@@ -9,6 +9,7 @@
   /* Backgrounds — neumorphism: card = same as bg */
   --color-dw-bg: #ede8df;
   --color-dw-bg-dark: #e6e2d9;
+  --color-dw-bg-light: #f5f3f0;
   --color-dw-card: #ede8df;
 
   /* Primary — deep teal */
@@ -65,6 +66,21 @@
     0.5px 0.5px 1px 0 #0001, 0.5px 0.5px 1px 0 #0001,
     inset -6px -6px 14px 0 #fff9, inset -3px -3px 7px 0 #fff9,
     inset 6px 6px 14px 0 #0003, inset 3px 3px 7px 0 #0001;
+}
+
+/* Mimics behaviour of removed `future.hoverOnlyWhenSupporter` flag to show hover only on devices with fine pointer (mouse, not finger) */
+@custom-variant hover {
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      @slot;
+    }
+  }
+}
+
+@custom-variant focus-visible-within {
+  &:has(:focus-visible) {
+    @slot;
+  }
 }
 
 @utility -raised-* {

@@ -62,6 +62,7 @@ jobs:
       - name: Build 🔧
         env:
           PROD: 'true'
+          VITE_TURNSTILE_SITEKEY: ${{ vars.TURNSTILE_SITEKEY }}
         run: pnpm build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v4
