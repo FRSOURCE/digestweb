@@ -858,4 +858,13 @@ export const sources: Source[] = [
     homeUrl: 'https://piccalil.li/blog',
     feed: 'https://piccalil.li/articles.xml',
   },
+  {
+    id: 'qweqweqwe',
+    name: 'qweqweqwe',
+    category: 'framework',
+    tags: ['javascript,typescript'],
+    feed: 'https://google.com',
+    homeUrl: 'https://google.com',
+    authorName: [''],
+  },
 ];
