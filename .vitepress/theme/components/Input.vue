@@ -6,12 +6,14 @@ import Label from './Label.vue';
 const props = defineProps<{
   id: string;
   label: string;
+  hint?: string;
   modelValue: string;
   placeholder: string;
   required?: boolean;
   submitted: boolean;
   errorLabel?: string;
   type?: 'text' | 'email' | 'textarea' | 'url';
+  inputClass?: string;
 }>();
 
 const emit = defineEmits<{
@@ -56,10 +58,16 @@ onBeforeUnmount(() => {
       :aria-invalid="submitted && !!errorLabel"
       :aria-describedby="errorLabel ? `${id}-err` : undefined"
       class="w-full -raised-1 rounded-xl px-4 py-2.5 text-sm text-dw-text bg-dw-bg placeholder:text-dw-muted/50 outline-none focus:-raised-3 transition-shadow focus-visible:outline-solid focus-visible:outline-2 focus-visible:outline-dw-primary"
-      :class="{
-        'outline outline-2 outline-red-400': submitted && errorLabel,
-      }"
+      :class="[
+        inputClass,
+        {
+          'outline outline-2 outline-red-400': submitted && errorLabel,
+        },
+      ]"
     />
+    <p v-if="hint" class="mt-1.5 text-xs text-dw-muted">
+      {{ hint }}
+    </p>
     <p
       v-if="submitted && errorLabel"
       :id="`${id}-err`"

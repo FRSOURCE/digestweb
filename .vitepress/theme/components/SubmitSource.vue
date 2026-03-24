@@ -280,7 +280,9 @@ async function handleSubmit(e: SubmitEvent) {
             {{ cat.label }}
           </option>
         </select>
-        <ArrowIcon class="-rotate-90 size-4 absolute right-4 top-9.25" />
+        <ArrowIcon
+          class="-rotate-90 size-4 absolute right-4 top-10 pointer-events-none"
+        />
 
         <p
           v-if="submitted && errors.category"
@@ -305,10 +307,10 @@ async function handleSubmit(e: SubmitEvent) {
       <Input
         id="ss-feed-url"
         label="Feed URL"
+        hint="Address of the feed (RSS, Atom, JSON Feed, etc.). This is the best way for us to get the latest articles and will speed up the review process."
         placeholder="https://example.com/feed.xml"
         :error-label="errors.feed"
         :submitted="submitted"
-        required
         v-model="feed"
         type="url"
       />
@@ -325,14 +327,7 @@ async function handleSubmit(e: SubmitEvent) {
 
       <!-- Tags -->
       <div>
-        <label
-          for="ss-tags"
-          class="block text-[.8rem] font-bold uppercase tracking-[.06em] text-dw-muted mb-1.5"
-          >Tags
-          <span class="normal-case font-normal tracking-normal"
-            >(optional)</span
-          >
-        </label>
+        <Label for="ss-tags">Tags</Label>
         <TagsInput v-model="tags" id="ss-tags" />
       </div>
 
@@ -343,6 +338,7 @@ async function handleSubmit(e: SubmitEvent) {
         :submitted="submitted"
         v-model="reason"
         type="textarea"
+        inputClass="min-h-20"
       />
 
       <Input
