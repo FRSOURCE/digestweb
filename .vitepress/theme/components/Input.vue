@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { computed } from 'vue';
+import { computed, ref, onMounted, onBeforeUnmount } from 'vue';
+import { attach } from '@frsource/autoresize-textarea';
 import Label from './Label.vue';
 
 const props = defineProps<{
@@ -20,6 +21,22 @@ const emit = defineEmits<{
 const InputTag = computed(() => {
   return props.type === 'textarea' ? 'textarea' : 'input';
 });
+
+const inputEl = ref<HTMLElement | null>(null);
+let detach: (() => void) | undefined;
+
+onMounted(() => {
+  if (
+    props.type === 'textarea' &&
+    inputEl.value instanceof HTMLTextAreaElement
+  ) {
+    detach = attach(inputEl.value)?.detach;
+  }
+});
+
+onBeforeUnmount(() => {
+  detach?.();
+});
 </script>
 
 <template>
@@ -29,6 +46,7 @@ const InputTag = computed(() => {
     </Label>
     <component
       :is="InputTag"
+      ref="inputEl"
       :id="id"
       :value="modelValue"
       @input="emit('update:modelValue', $event.target.value)"

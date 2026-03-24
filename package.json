@@ -17,6 +17,7 @@
     "test:e2e:ui": "playwright test --ui"
   },
   "dependencies": {
+    "@frsource/autoresize-textarea": "^2.0.188",
     "@storefront-ui/tw-plugin-peer-next": "^3.1.0",
     "vitepress": "2.0.0-alpha.16",
     "vue": "^3.5.27"
