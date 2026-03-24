@@ -94,7 +94,7 @@ function onChipKeydown(e: KeyboardEvent, index: number) {
   <div class="relative" @focusout="onContainerFocusOut">
     <!-- Well -->
     <div
-      class="w-full -raised-1 rounded-xl px-4 py-2.5 text-sm text-dw-text bg-dw-bg placeholder:text-dw-muted/50 outline-none focus:-raised-3 transition-shadow"
+      class="w-full flex flex-wrap gap-2 -raised-1 rounded-xl px-4 py-2.5 text-sm text-dw-text bg-dw-bg placeholder:text-dw-muted/50 outline-none focus:-raised-3 transition-shadow"
       @click="inputRef?.focus()"
     >
       <!-- Chips -->
@@ -122,7 +122,7 @@ function onChipKeydown(e: KeyboardEvent, index: number) {
         :id="id"
         v-model="query"
         type="text"
-        class="px-2 flex-1 w-12 min-w-[6rem] bg-transparent text-sm text-dw-text placeholder:text-dw-muted/50 outline-none border-none py-0.5 focus-visible:outline-solid focus-visible:outline-2 focus-visible:outline-dw-primary rounded-sm"
+        class="px-2 flex-1 min-w-[6rem] bg-transparent text-sm text-dw-text placeholder:text-dw-muted/50 outline-none border-none py-0.5 focus-visible:outline-solid focus-visible:outline-2 focus-visible:outline-dw-primary rounded-sm"
         :placeholder="modelValue.length === 0 ? 'Type to add tags…' : ''"
         autocomplete="off"
         @focus="open = true"
