@@ -133,7 +133,8 @@ const colorClasses = computed(() => {
 </script>
 
 <template>
-  <Tag
+  <component
+    :is="Tag"
     v-bind="tagAwareProps"
     class="inline-flex items-center font-bold transition-all delay-50 ease-in no-underline outline-dw-primary outline-0 focus-visible:outline-2"
     :class="[
@@ -153,5 +154,5 @@ const colorClasses = computed(() => {
     >
       {{ badge }}
     </span>
-  </Tag>
+  </component>
 </template>

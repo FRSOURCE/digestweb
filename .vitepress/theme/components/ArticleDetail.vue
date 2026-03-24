@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue';
-import { useData, Content, withBase } from 'vitepress';
+import { useData } from 'vitepress';
 import Button from './Button.vue';
 import ShareBox from './ShareBox.vue';
 import SignificanceBadge from './SignificanceBadge.vue';

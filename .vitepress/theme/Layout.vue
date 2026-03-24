@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, watch } from 'vue';
-import { useData, useRoute, Content, withBase } from 'vitepress';
+import { useData, useRoute, withBase } from 'vitepress';
 import Logo from './components/Logo.vue';
 import FrsourceLogo from './components/FrsourceLogo.vue';
 import ArticleDetail from './components/ArticleDetail.vue';
