@@ -11,6 +11,20 @@ import ArrowIcon from './ArrowIcon.vue';
 
 type State = 'idle' | 'loading' | 'success' | 'error';
 
+const ERROR_MESSAGES: Record<string, string> = {
+  name_required: 'Source name is required.',
+  category_required: 'Category is required.',
+  homeUrl_required: 'Home URL is required.',
+  feed_required: 'Feed URL is required.',
+  email_required: 'Email is required.',
+  homeUrl_syntax_error: 'Home URL is not a valid URL.',
+  feed_syntax_error: 'Feed URL is not a valid URL.',
+  email_syntax_error: 'Email address is not valid.',
+};
+
+const SERVER_ERROR =
+  'Server error, please try again later or contact the administration at digestweb@frsource.org.';
+
 const categories: { value: SourceCategory; label: string }[] = [
   { value: 'framework', label: 'Framework / Library' },
   { value: 'build-tool', label: 'Build Tool' },
@@ -44,7 +58,7 @@ if (import.meta.env.VITE_SUBMIT_TEST === '1') {
 }
 
 const state = ref<State>('idle');
-const errorMessage = ref('');
+const errorMessages = ref<string[]>([]);
 const submitted = ref(false);
 
 const isPersonBlog = computed(() => category.value === 'person-blog');
@@ -126,7 +140,7 @@ async function sendFormData(form: HTMLFormElement, attempt: number = 0) {
         },
       },
     );
-    const resData = (await res.json()) as { result: string };
+    const resData = (await res.json()) as { result: string; error?: string[] };
     if (resData.result === 'success') {
       state.value = 'success';
     } else {
@@ -148,13 +162,25 @@ async function handleSubmit(e: SubmitEvent) {
   if (!isValid.value) return;
 
   state.value = 'loading';
-  errorMessage.value = '';
+  errorMessages.value = [];
 
   try {
     await sendFormData(form);
   } catch (err) {
     state.value = 'error';
-    errorMessage.value = err instanceof Error ? err.message : String(err);
+    if (
+      err &&
+      typeof err === 'object' &&
+      'error' in err &&
+      Array.isArray((err as { error: unknown }).error)
+    ) {
+      const codes = (err as { error: string[] }).error;
+      errorMessages.value = codes.map(
+        (code) => ERROR_MESSAGES[code] ?? SERVER_ERROR,
+      );
+    } else {
+      errorMessages.value = [SERVER_ERROR];
+    }
   }
 }
 </script>
@@ -333,14 +359,24 @@ async function handleSubmit(e: SubmitEvent) {
         <div class="cf-turnstile" :data-sitekey="turnstileSitekey"></div>
       </div>
 
-      <p
+      <div
         v-if="state === 'error'"
-        class="text-sm text-red-600 -raised-2 rounded-xl px-4 py-3"
+        class="bg-red-500/70 text-white raised-0 rounded-xl px-4 py-3"
         role="alert"
       >
-        Something went wrong:
-        {{ errorMessage || 'Unknown error. Please try again.' }}
-      </p>
+        <h3
+          class="block text-[.8rem] font-bold uppercase tracking-[.06em] mb-1.5"
+        >
+          Form was submitted with errors, please correct them and try again.
+        </h3>
+        <ul
+          v-if="errorMessages.length > 1"
+          class="list-inside space-y-1 text-xs"
+        >
+          <li v-for="msg in errorMessages" :key="msg">{{ msg }}</li>
+        </ul>
+        <p v-else>{{ errorMessages[0] ?? SERVER_ERROR }}</p>
+      </div>
 
       <Button
         type="submit"

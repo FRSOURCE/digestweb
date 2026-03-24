@@ -2,7 +2,7 @@
 withDefaults(
   defineProps<{
     required?: boolean;
-    tag?: 'div' | 'label';
+    tag?: string;
   }>(),
   {
     tag: 'label',
