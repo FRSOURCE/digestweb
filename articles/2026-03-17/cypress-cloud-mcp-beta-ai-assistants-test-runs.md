@@ -7,7 +7,7 @@ original_url: https://www.cypress.io/blog/cloud-mcp-give-your-ai-assistant-acces
 source_name: 'Cypress Blog'
 source_author: ''
 tags: [testing, dx, tooling]
-significance: 3
+significance: 2
 ---
 
 ## Summary & Key Takeaways

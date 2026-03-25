@@ -7,7 +7,7 @@ original_url: https://simonwillison.net/2026/Mar/24/package-managers-need-to-coo
 source_name: "Simon Willison's Weblog"
 source_author: 'Simon Willison'
 tags: [tooling, nodejs, bun, deno]
-significance: 2
+significance: 3
 ---
 
 ## Summary & Key Takeaways
