@@ -7,11 +7,12 @@ import ArticleDetail from './components/ArticleDetail.vue';
 import FloatingAd from './components/FloatingAd.vue';
 import Button from './components/Button.vue';
 import AdPlaceholder from './components/AdPlaceholder.vue';
+import NotFound from './components/NotFound.vue';
 import RSSIcon from './components/RSSIcon.vue';
 import AtomIcon from './components/AtomIcon.vue';
 import JsonFeedIcon from './components/JsonFeedIcon.vue';
 
-const { frontmatter } = useData();
+const { frontmatter, page } = useData();
 const route = useRoute();
 const menuOpen = ref(false);
 
@@ -192,7 +193,8 @@ const navItems = [
     <main
       class="flex-1 w-[980px] w-full mx-auto px-2 lg:px-4 pt-6 pb-16 [grid-area:content]"
     >
-      <ArticleDetail v-if="frontmatter.layout === 'article'" />
+      <NotFound v-if="page.isNotFound" />
+      <ArticleDetail v-else-if="frontmatter.layout === 'article'" />
       <Content v-else />
     </main>
 
