@@ -20,6 +20,7 @@ export default defineConfig({
   title: 'digestweb.dev',
   description: 'Daily curated web dev news by FRSOURCE',
   base: isProd ? '/digestweb/' : undefined,
+  cleanUrls: true,
   srcDir: '.',
   outDir: './dist',
   metaChunk: true,
