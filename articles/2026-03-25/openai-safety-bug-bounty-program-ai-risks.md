@@ -17,4 +17,6 @@ significance: 3
 - Key areas of focus include agentic vulnerabilities, prompt injection attacks, and data exfiltration.
 - This initiative encourages external researchers to contribute to the security and safety of OpenAI's AI systems.
 
-This is a smart and necessary move from OpenAI. As AI models become more complex and autonomous, the attack surface for misuse and unintended behavior grows exponentially. A dedicated safety bug bounty program, specifically targeting issues like prompt injection and agentic vulnerabilities, shows they're taking these risks seriously. It's a proactive step towards building more robust and secure AI, and I hope other major AI players follow suit.
+## Our Commentary
+
+This is a smart and necessary move from OpenAI. As AI models become more complex and autonomous, the attack surface for misuse and unintended behavior grows exponentially. A dedicated safety bug bounty program, specifically targeting issues like prompt injection and agentic vulnerabilities, shows they're taking these risks seriously. It's a proactive step towards building more robust and secure AI, and we hope other major AI players follow suit.

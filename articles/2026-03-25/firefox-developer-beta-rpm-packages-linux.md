@@ -17,4 +17,6 @@ significance: 1
 - The .rpm packages simplify installation for users on RPM-based Linux distributions.
 - Firefox Beta allows developers to test websites against upcoming browser versions.
 
+## Our Commentary
+
 This is a small but welcome quality-of-life improvement for Linux developers, especially those on Fedora, RHEL, or openSUSE. Dealing with manual installations or third-party repos for dev builds can be a pain, so official .rpm packages streamline the process. It's not a game-changer for the web platform, but it definitely makes the developer experience a bit smoother for a segment of our audience.

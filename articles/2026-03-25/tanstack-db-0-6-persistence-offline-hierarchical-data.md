@@ -17,4 +17,6 @@ significance: 2
 - New hierarchical includes enable projecting normalized data into UI-shaped trees, simplifying data presentation.
 - The release also brings reactive effects and virtual props for synchronized state management.
 
-This is a solid update for TanStack DB. Adding SQLite persistence and offline capabilities is a huge win for building resilient applications, especially in environments where connectivity isn't guaranteed. The hierarchical includes feature also sounds like a thoughtful addition for developers working with complex, normalized data structures and needing to present them intuitively in the UI. It feels like TanStack is really maturing its offerings beyond just query management.
+## Our Commentary
+
+This is a solid update for TanStack DB. Adding SQLite persistence and offline capabilities is a huge win for building resilient applications. It feels like TanStack is really maturing its offerings beyond just query management.

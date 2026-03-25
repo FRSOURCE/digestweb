@@ -17,4 +17,6 @@ significance: 2
 - Self-hosting addresses critical concerns regarding data privacy and security for AI applications.
 - It provides greater control over the AI development and deployment workflow.
 
+## Our Commentary
+
 This is a smart move from Cursor. For many enterprises, the biggest hurdle to adopting AI tools is data privacy and the fear of proprietary code leaving their network. Offering self-hosted cloud agents directly addresses that, making it a much more palatable solution for sensitive projects. It's a clear sign that AI tooling is maturing to meet enterprise-grade security and compliance requirements.

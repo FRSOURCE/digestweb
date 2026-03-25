@@ -17,4 +17,6 @@ significance: 2
 - It also addresses the critical aspect of accountability as AI systems become more advanced.
 - The article provides insight into OpenAI's internal approach to AI governance and ethics.
 
+## Our Commentary
+
 It's good to see OpenAI being transparent about their "Model Spec." As AI becomes more integrated into our lives, having a clear, public framework for how these powerful models are governed is crucial. The challenge, of course, is truly balancing safety with user freedom without stifling innovation or imposing overly restrictive guardrails. This is a conversation that needs to happen openly, and this article is a step in that direction.

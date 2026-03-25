@@ -7,7 +7,7 @@ original_url: https://github.blog/news-insights/company-news/updates-to-github-c
 source_name: 'GitHub Blog'
 source_author: ''
 tags: [ai, tooling, dx]
-significance: 3
+significance: 4
 ---
 
 ## Summary & Key Takeaways
@@ -17,4 +17,7 @@ significance: 3
 - This policy applies to users of Copilot Free, Pro, and Pro+.
 - Users will have the option to opt out of this data collection.
 
-This is a big one for anyone using Copilot. While it's understandable that AI models need data to improve, making data collection opt-out by default for _all_ users (including paid tiers) feels like a significant shift. It puts the onus on the user to protect their data, rather than on the platform to ask for consent. I'm curious to see how many users actually opt out and what the long-term implications are for privacy and intellectual property, especially for those working on sensitive projects.
+## Our Commentary
+
+This is a big one for anyone using Copilot. While it's understandable that AI models need data to improve, making data collection opt-out by default for _all_ users (including paid tiers) feels like a significant shift. It puts the responsibility on the user to protect their data, rather than on the platform to ask for consent.
+We're curious how many users will remember to actually opt out. And what the long-term implications are for privacy and intellectual property, especially for those working on sensitive projects.

@@ -17,4 +17,6 @@ significance: 1
 - The new version incorporates "structural awareness," suggesting improved coherence in generated compositions.
 - Google is also expanding the availability of Lyria across more of its products and platforms.
 
-Lyria 3 Pro sounds like a cool step forward for AI music generation. "Structural awareness" is a key phrase here; it implies the AI is moving beyond just generating snippets to understanding the broader form of a piece, which is a huge leap for creative tools. While it's a niche application, the integration into more Google products could expose a lot more people to AI-generated music, which is always interesting to watch.
+## Our Commentary
+
+Lyria 3 Pro sounds like a cool step forward for AI music generation. "Structural awareness" is a key phrase here. It implies the AI is moving beyond just generating snippets to understanding the broader form of a piece, which is a huge leap for creative tools. While it's a niche application, the integration into more Google products could expose a lot more people to AI-generated music, which is always interesting to watch.
