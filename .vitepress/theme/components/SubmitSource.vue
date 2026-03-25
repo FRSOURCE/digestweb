@@ -203,23 +203,18 @@ async function handleSubmit(e: SubmitEvent) {
       v-if="state === 'success'"
       class="raised-5 rounded-2xl p-8 text-center"
     >
-      <div
-        class="w-14 h-14 rounded-full bg-dw-primary flex items-center justify-center mx-auto mb-4"
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="white"
+        stroke-width="2.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        aria-hidden="true"
+        class="w-14 h-14 rounded-full bg-dw-primary flex items-center justify-center mx-auto mb-4 p-2"
       >
-        <svg
-          width="28"
-          height="28"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="white"
-          stroke-width="2.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          aria-hidden="true"
-        >
-          <polyline points="20 6 9 17 4 12" />
-        </svg>
-      </div>
+        <polyline points="20 6 9 17 4 12" />
+      </svg>
       <h2 class="text-[1.2rem] font-bold text-dw-text mb-2">
         Source submitted!
       </h2>
@@ -360,11 +355,11 @@ async function handleSubmit(e: SubmitEvent) {
         class="bg-red-500/70 text-white raised-0 rounded-xl px-4 py-3"
         role="alert"
       >
-        <h3
+        <p
           class="block text-[.8rem] font-bold uppercase tracking-[.06em] mb-1.5"
         >
           Form was submitted with errors, please correct them and try again.
-        </h3>
+        </p>
         <ul
           v-if="errorMessages.length > 1"
           class="list-inside space-y-1 text-xs"
