@@ -5,7 +5,7 @@ import { readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import tailwindcss from '@tailwindcss/vite';
 
-const siteUrl = 'https://www.frsource.org/digestweb/';
+const siteUrl = 'https://digestweb.dev';
 const lang = 'en-US';
 
 const base = '/';
@@ -94,6 +94,15 @@ export default defineConfig({
       },
     ],
     ['meta', { property: 'og:site_name', content: 'digestweb.dev' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:url', content: siteUrl }],
+    [
+      'meta',
+      {
+        property: 'og:description',
+        content: 'Daily curated web dev news by FRSOURCE',
+      },
+    ],
     ['meta', { name: 'twitter:card', content: 'summary' }],
   ],
   themeConfig: {
@@ -152,15 +161,46 @@ export default defineConfig({
     writeFileSync(resolve(siteConfig.outDir, 'feed.json'), feed.json1());
   },
   transformPageData(pageData) {
-    if (pageData.frontmatter.layout !== 'article') return;
-    const canonicalUrl = `${siteUrl}/${pageData.relativePath.replace(/\.md$/, '')}`;
-    const { title, description, photo } = pageData.frontmatter;
     pageData.frontmatter.head ??= [];
+
+    const isArticle = pageData.frontmatter.layout === 'article';
+    const canonical = isArticle
+      ? `${siteUrl}/${pageData.relativePath.replace(/\.md$/, '').replace(/\/index$/, '')}`
+      : `${siteUrl}/${pageData.relativePath.replace(/(index)?\.md$/, '')}`;
+
+    pageData.frontmatter.head.push([
+      'link',
+      { rel: 'canonical', href: canonical },
+    ]);
+
+    if (!isArticle) {
+      pageData.frontmatter.head.push([
+        'script',
+        { type: 'application/ld+json' },
+        JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'WebSite',
+          name: 'digestweb.dev',
+          url: siteUrl,
+          description: 'Daily curated web dev news by FRSOURCE',
+        }),
+      ]);
+      return;
+    }
+
+    const { title, description, photo, source_author } = pageData.frontmatter;
+    const dateMatch = pageData.relativePath.match(
+      /articles\/(\d{4}-\d{2}-\d{2})\//,
+    );
+    const publishedDate = dateMatch
+      ? new Date(dateMatch[1]).toISOString()
+      : undefined;
+
     pageData.frontmatter.head.push(
       ['meta', { property: 'og:type', content: 'article' }],
       ['meta', { property: 'og:title', content: title }],
       ['meta', { property: 'og:description', content: description }],
-      ['meta', { property: 'og:url', content: canonicalUrl }],
+      ['meta', { property: 'og:url', content: canonical }],
       ['meta', { property: 'og:site_name', content: 'digestweb.dev' }],
       ...(photo
         ? [
@@ -168,6 +208,22 @@ export default defineConfig({
               string,
               Record<string, string>,
             ],
+          ]
+        : []),
+      ...(publishedDate
+        ? [
+            [
+              'meta',
+              { property: 'article:published_time', content: publishedDate },
+            ] as [string, Record<string, string>],
+          ]
+        : []),
+      ...(source_author
+        ? [
+            [
+              'meta',
+              { property: 'article:author', content: source_author },
+            ] as [string, Record<string, string>],
           ]
         : []),
       ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
@@ -182,8 +238,37 @@ export default defineConfig({
           ]
         : []),
     );
+
+    pageData.frontmatter.head.push([
+      'script',
+      { type: 'application/ld+json' },
+      JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'NewsArticle',
+        headline: title,
+        description,
+        url: canonical,
+        ...(publishedDate ? { datePublished: publishedDate } : {}),
+        ...(photo ? { image: photo } : {}),
+        ...(source_author
+          ? { author: { '@type': 'Person', name: source_author } }
+          : {}),
+        publisher: {
+          '@type': 'Organization',
+          name: 'digestweb.dev',
+          url: siteUrl,
+        },
+      }),
+    ]);
   },
   sitemap: {
     hostname: siteUrl,
+    transformItems(items) {
+      return items.map((item) => ({
+        ...item,
+        changefreq: item.url === '' ? 'daily' : 'monthly',
+        priority: item.url === '' ? 1.0 : 0.7,
+      }));
+    },
   },
 });

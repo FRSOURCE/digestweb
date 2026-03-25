@@ -1,2 +1,19 @@
 User-agent: *
-Disallow: /
+Allow: /
+Sitemap: https://digestweb.dev/sitemap.xml
+
+# AI crawlers — explicitly allowed
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
