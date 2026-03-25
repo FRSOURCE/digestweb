@@ -2,7 +2,7 @@
 layout: article
 title: 'ChatGPT Enhances Product Discovery with Agentic Commerce Protocol'
 description: 'ChatGPT introduces richer, visually immersive shopping experiences powered by the new Agentic Commerce Protocol, enabling product discovery, side-by-side comparisons, and direct merchant integration.'
-photo: 'https://picsum.photos/id/463/800/450'
+photo: 'https://picsum.photos/id/567/800/450'
 original_url: https://openai.com/index/powering-product-discovery-in-chatgpt
 source_name: 'OpenAI Blog'
 source_author: ''
