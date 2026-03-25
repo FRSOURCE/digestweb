@@ -46,7 +46,19 @@ function parseArgs(): {
   let candidatesOutputFile: string | undefined;
 
   for (let i = 0; i < args.length; i++) {
-    if (args[i] === '--days' && args[i + 1]) {
+    if (args[i] === '--help' || args[i] === '-h') {
+      console.log(`Usage: fetch-news [options]
+
+Options:
+  --days <n>                   Number of days to look back (default: 7)
+  --date-from <ISO>            Reference date to count back from (default: now)
+  --source <id>                Fetch only the source with this id
+  --dry-run                    Parse and judge candidates without writing files
+  --candidates-input <file>    Resume from a saved candidates-input JSON file
+  --candidates-output <file>   Resume from a saved candidates-output JSON file
+  -h, --help                   Show this help message`);
+      process.exit(0);
+    } else if (args[i] === '--days' && args[i + 1]) {
       days = parseInt(args[++i], 10);
     } else if (args[i] === '--date-from' && args[i + 1]) {
       dateFrom = new Date(args[++i]);
