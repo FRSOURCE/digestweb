@@ -8,7 +8,6 @@ import tailwindcss from '@tailwindcss/vite';
 const siteUrl = 'https://www.frsource.org/digestweb/';
 const lang = 'en-US';
 
-const isProd = process.env.PROD === 'true';
 const base = '/';
 const isIncremental = process.env.VITEPRESS_INCREMENTAL === '1';
 const skipArticles =
