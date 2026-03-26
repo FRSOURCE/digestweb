@@ -2,9 +2,15 @@ import * as cheerio from 'cheerio';
 import type { FeedItem } from './types.ts';
 
 const fetchPage = async (url: string) => {
-  const response = await fetch(url);
-  const html = await response.text();
-  return cheerio.load(html);
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 10_000);
+  try {
+    const response = await fetch(url, { signal: controller.signal });
+    const html = await response.text();
+    return cheerio.load(html);
+  } finally {
+    clearTimeout(timer);
+  }
 };
 
 export type SourceCategory =

@@ -330,6 +330,8 @@ async function main(): Promise<void> {
     console.log('\nFeed errors:');
     feedErrorList.forEach((e) => console.log(`  • ${e}`));
   }
+
+  process.exit(0);
 }
 
 main().catch((err) => {
