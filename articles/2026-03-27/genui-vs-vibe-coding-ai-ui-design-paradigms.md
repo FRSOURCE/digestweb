@@ -12,13 +12,14 @@ significance: 3
 
 ## Summary & Key Takeaways
 
-- The article differentiates between Generative UI (GenUI) and Vibe Coding, two emerging methods for AI-assisted interface design.
+- The article differentiates between Generative UI (GenUI), Vibe Coding and AI-assisted design, three emerging methods for AI-assisted interface design.
 - Generative UI involves an AI system autonomously deciding to create interactive elements or entire products based on identified user needs.
 - In Vibe Coding, users actively request and guide the AI to build specific interfaces, acting more like a co-designer.
-- The core distinction lies in the locus of design agency: with GenUI, the AI makes the design decisions, while with Vibe Coding, the user retains primary control.
+- With AI-assisted design means "using AI-based tools within a professional design workflow — generating wireframes, prototyping variations, or exploring layout options as part of building a product for an end-user audience".
 - Understanding these differences is crucial for designers and developers as AI tools become more integrated into the UI/UX workflow.
 - NNGroup discusses the implications of each approach for creativity, control, and the future role of human designers.
 
 ## Our Commentary
 
-This is a fascinating distinction that I think many of us in the AI/design space have been implicitly grappling with but haven't had clear terminology for. "Vibe coding" really resonates – it perfectly captures that feeling of trying to coax an AI into understanding your aesthetic and functional goals. The idea of GenUI, where the AI _decides_ to generate, is a bit more unsettling, isn't it? It pushes the boundaries of what we consider "design agency." We're moving into a world where the line between tool and creator is blurring, and articles like this are essential for helping us navigate the ethical and practical implications. It makes me wonder how long until we're debugging an AI's "design choices."
+It's important to get your terminology right. It's even more crucial nowadays when new, trendy names come up almost every day!
+The idea of GenUI, where the AI _decides_ to generate, is a bit more unsettling, isn't it? We're moving into a world where the line between tool and creator is blurring, and articles like this are essential for helping us navigate the ethical and practical implications.
