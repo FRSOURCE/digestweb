@@ -20,7 +20,7 @@ import Button from './Button.vue';
         width="112"
         height="72"
         rx="7"
-        fill="#EAE3D8"
+        class="fill-dw-bg"
         stroke="#0B3D3F"
         stroke-width="2.5"
       />
@@ -46,10 +46,8 @@ import Button from './Button.vue';
     </svg>
 
     <div class="space-y-2 absolute top-20 lg:top-36">
-      <h1 class="text-6xl font-extrabold text-dw-primary tracking-tight">
-        404
-      </h1>
-      <h2 class="text-xl font-semibold text-dw-text">Page not found</h2>
+      <h1 class="text-6xl font-bold text-dw-primary tracking-tight">404</h1>
+      <h2 class="text-xl font-medium text-dw-text">Page not found</h2>
     </div>
 
     <blockquote

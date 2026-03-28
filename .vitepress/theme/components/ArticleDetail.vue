@@ -19,7 +19,7 @@ const pageUrl = computed(() =>
 
     <!-- Title -->
     <h1
-      class="mt-6 text-[1.9rem] font-extrabold tracking-tight text-dw-text leading-tight mb-3"
+      class="mt-6 text-[1.9rem] font-bold tracking-tight text-dw-text leading-tight mb-3"
     >
       {{ frontmatter.title }}
     </h1>
@@ -37,7 +37,7 @@ const pageUrl = computed(() =>
         :href="frontmatter.original_url"
         target="_blank"
         rel="noopener noreferrer"
-        class="text-dw-primary-light font-semibold hover:underline"
+        class="text-dw-primary-light font-medium hover:underline"
         >{{ frontmatter.source_name ?? 'original source' }}</a
       >
       <span v-else>{{ frontmatter.source_name }}</span>
@@ -48,7 +48,7 @@ const pageUrl = computed(() =>
           :href="frontmatter.source_author_url"
           target="_blank"
           rel="noopener noreferrer"
-          class="text-dw-primary-light font-semibold hover:underline"
+          class="text-dw-primary-light font-medium hover:underline"
           >{{ frontmatter.source_author }}</a
         >
         <span v-else>{{ frontmatter.source_author }}</span>

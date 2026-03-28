@@ -127,7 +127,7 @@ function selectDay(iso: string) {
             <polyline points="15 18 9 12 15 6" />
           </svg>
         </Button>
-        <span class="text-[0.75rem] font-semibold text-dw-text">{{
+        <span class="text-[0.75rem] font-bold text-dw-text">{{
           monthLabel
         }}</span>
         <Button
@@ -163,7 +163,7 @@ function selectDay(iso: string) {
       </div>
 
       <!-- Calendar grid -->
-      <div class="grid grid-cols-7 gap-y-0.5">
+      <div class="grid grid-cols-7 gap-y-1 gap-x-0.5">
         <div
           v-for="(cell, i) in calendarDays"
           :key="i"

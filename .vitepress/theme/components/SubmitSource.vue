@@ -190,7 +190,7 @@ async function handleSubmit(e: SubmitEvent) {
     <BackButton size="md lg:sm"> Back to Daily Feed </BackButton>
 
     <h1
-      class="mt-6 text-[1.9rem] font-extrabold tracking-tight text-dw-text leading-tight mb-2"
+      class="mt-6 text-[1.9rem] font-bold tracking-tight text-dw-text leading-tight mb-2"
     >
       Submit a Source
     </h1>

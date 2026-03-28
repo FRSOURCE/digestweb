@@ -166,7 +166,7 @@ const navItems = [
         :class="{ 'hidden lg:block': frontmatter.layout }"
       >
         <h1
-          class="text-[2.4rem] font-extrabold tracking-tight text-dw-text leading-tight mb-2.5"
+          class="text-[2.4rem] font-bold tracking-tight text-dw-text leading-tight mb-2.5"
         >
           digestweb<span class="text-dw-primary-light font-normal">.dev</span>
         </h1>
