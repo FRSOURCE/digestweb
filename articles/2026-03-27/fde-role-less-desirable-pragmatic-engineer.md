@@ -7,7 +7,7 @@ original_url: https://blog.pragmaticengineer.com/is-the-fde-role-becoming-less-d
 source_name: 'The Pragmatic Engineer'
 source_author: 'Gergely Orosz'
 tags: [dx, tutorial]
-significance: 2
+significance: 1
 ---
 
 ## Summary & Key Takeaways
@@ -19,4 +19,5 @@ significance: 2
 
 ## Our Commentary
 
-This article from The Pragmatic Engineer really hits on an interesting, and perhaps concerning, trend. The FDE role always sounded like a cool blend of engineering and customer interaction, but this analysis suggests it's often more "solutions" than "software." It's a crucial distinction for anyone considering this career path. I think it highlights a broader challenge in the industry: how do we define and differentiate roles clearly so engineers know what they're signing up for? It's a good reminder that a fancy title doesn't always equate to the kind of work you expect. We need more transparency about the day-to-day realities of these hybrid roles.
+On paper, the FDE role sounds like a cool blend of engineering and customer interaction, but this analysis suggests it's often more "solutions" than "software." It's a crucial distinction for anyone considering this career path.
+It's a good reminder that a fancy title doesn't always equate to the kind of work you expect.

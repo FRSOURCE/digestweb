@@ -7,7 +7,7 @@ original_url: https://developer.chrome.com/blog/element-scoped-view-transitions?
 source_name: 'Chrome Developers'
 source_author: ''
 tags: [browser, web-platform, css, ux]
-significance: 3
+significance: 2
 ---
 
 ## Summary & Key Takeaways
