@@ -71,12 +71,12 @@ const pageUrl = computed(() =>
     <!-- Photo -->
     <div
       v-if="frontmatter.photo"
-      class="w-full rounded-2xl overflow-hidden mb-8 neu-inset"
+      class="relative w-full rounded-2xl overflow-hidden mb-8 raised-0"
     >
       <img
         :src="frontmatter.photo"
         :alt="frontmatter.title"
-        class="w-full max-h-[min(400px,60dvh)] object-cover block"
+        class="w-full max-h-[min(400px,60dvh)] object-cover block mix-blend-multiply opacity-80"
       />
     </div>
 

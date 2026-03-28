@@ -130,6 +130,7 @@ const colorClasses = computed(() => {
     return 'text-dw-primary-light bg-dw-bg-dark';
   return 'text-dw-primary bg-dw-bg';
 });
+const isBadgeDefined = computed(() => typeof props.badge !== 'undefined');
 </script>
 
 <template>
@@ -143,13 +144,13 @@ const colorClasses = computed(() => {
       disabled
         ? 'cursor-not-allowed raised-0! text-dw-muted! opacity-80'
         : 'cursor-pointer',
-      { relative: typeof badge !== 'undefined' },
+      { relative: isBadgeDefined },
     ]"
     @click="disabled ? undefined : $emit('click', $event)"
   >
     <slot />
     <span
-      v-if="typeof badge !== 'undefined'"
+      v-if="isBadgeDefined"
       class="absolute -top-1.5 -right-1.5 min-w-[1.1rem] h-[1.1rem] rounded-full bg-dw-accent text-white text-[0.6rem] font-bold flex items-center justify-center px-[3px] leading-none"
     >
       {{ badge }}

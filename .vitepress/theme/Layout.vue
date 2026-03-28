@@ -11,6 +11,7 @@ import NotFound from './components/NotFound.vue';
 import RSSIcon from './components/RSSIcon.vue';
 import AtomIcon from './components/AtomIcon.vue';
 import JsonFeedIcon from './components/JsonFeedIcon.vue';
+import ThemeToggle from './components/ThemeToggle.vue';
 
 const { frontmatter, page } = useData();
 const route = useRoute();
@@ -53,6 +54,7 @@ const navItems = [
     href: withBase('/submit'),
     label: 'Propose a News Source',
     icon: undefined,
+    mobileOnly: false,
   },
 ];
 </script>
@@ -85,8 +87,9 @@ const navItems = [
       </nav>
     </header>
     <div
-      class="flex [grid-area:curated] fixed sm:sticky bottom-2 right-2 sm:top-2 m-auto sm:mr-0 h-[48px] lg:bottom-2 z-50"
+      class="flex [grid-area:curated] fixed sm:sticky bottom-2 right-2 sm:top-2 m-auto sm:mr-0 h-[48px] lg:bottom-2 z-50 gap-4"
     >
+      <ThemeToggle class="!hidden lg:!inline-flex" />
       <!-- Curated by FRSOURCE — always visible -->
       <Button
         href="https://www.frsource.org"
@@ -109,27 +112,30 @@ const navItems = [
     </div>
     <!-- Hamburger button — mobile only -->
     <div class="[grid-area:menu] sticky top-2 z-[1000] lg:hidden ml-auto">
-      <Button
-        class="bg-dw-bg h-[48px] lg:h-[60px] flex-col items-center justify-center gap-[5.5px] rounded-xl shrink-0 transition-all duration-200 cursor-pointer border-none"
-        @click="menuOpen = !menuOpen"
-        size="lg"
-        :active="menuOpen"
-        :aria-expanded="menuOpen"
-        aria-label="Toggle navigation menu"
-      >
-        <span
-          class="block w-[18px] h-[2px] bg-dw-text rounded-full transition-all duration-300 origin-center"
-          :class="menuOpen ? 'translate-y-[7.5px] rotate-45' : ''"
-        />
-        <span
-          class="block w-[18px] h-[2px] bg-dw-text rounded-full transition-all duration-300 origin-center"
-          :class="menuOpen ? 'opacity-0 scale-x-0' : ''"
-        />
-        <span
-          class="block w-[18px] h-[2px] bg-dw-text rounded-full transition-all duration-300 origin-center"
-          :class="menuOpen ? '-translate-y-[7.5px] -rotate-45' : ''"
-        />
-      </Button>
+      <div class="flex items-center gap-2">
+        <ThemeToggle class="h-[48px] lg:h-[60px]" />
+        <Button
+          class="bg-dw-bg h-[48px] lg:h-[60px] flex-col items-center justify-center gap-[5.5px] rounded-xl shrink-0 transition-all duration-200 cursor-pointer border-none"
+          @click="menuOpen = !menuOpen"
+          size="lg"
+          :active="menuOpen"
+          :aria-expanded="menuOpen"
+          aria-label="Toggle navigation menu"
+        >
+          <span
+            class="block w-[18px] h-[2px] bg-current rounded-full transition-all duration-300 origin-center"
+            :class="menuOpen ? 'translate-y-[7.5px] rotate-45' : ''"
+          />
+          <span
+            class="block w-[18px] h-[2px] bg-current rounded-full transition-all duration-300 origin-center"
+            :class="menuOpen ? 'opacity-0 scale-x-0' : ''"
+          />
+          <span
+            class="block w-[18px] h-[2px] bg-current rounded-full transition-all duration-300 origin-center"
+            :class="menuOpen ? '-translate-y-[7.5px] -rotate-45' : ''"
+          />
+        </Button>
+      </div>
       <!-- ── Mobile menu panel ── -->
       <Transition name="mobile-menu">
         <header

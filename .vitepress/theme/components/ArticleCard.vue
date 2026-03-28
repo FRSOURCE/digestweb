@@ -35,7 +35,7 @@ const urlWithBase = computed(() => withBase(props.url));
         :src="photo"
         :alt="title"
         :loading="featured ? 'eager' : 'lazy'"
-        class="h-full w-full object-cover object-center block transition-transform duration-300 group-hover:scale-[1.01] mix-blend-color-burn"
+        class="h-full w-full object-cover object-center block transition-transform duration-300 group-hover:scale-[1.01] mix-blend-multiply opacity-80"
         :class="{
           'sm:group-hover:scale-105 sm:h-0 sm:w-auto grow-1': !featured,
         }"

@@ -55,7 +55,7 @@ The theme has **no VitePress DefaultTheme** — `Layout.vue` is entirely custom.
 
 ### Styling
 
-Tailwind CSS v4 via `@tailwindcss/vite`. Custom design tokens are defined in `vars.css` as CSS custom properties and surfaced as Tailwind utilities with a `dw-` prefix (e.g. `bg-dw-bg`, `text-dw-primary`, `text-dw-muted`). A neumorphic shadow scale (`raised-1` → `raised-5`, `-raised-*` for inset variants) is also defined there.
+Tailwind CSS v4 via `@tailwindcss/vite`. Custom design tokens are defined in `main.css` as CSS custom properties and surfaced as Tailwind utilities with a `dw-` prefix (e.g. `bg-dw-bg`, `text-dw-primary`, `text-dw-muted`). A neumorphic shadow scale (`raised-1` → `raised-5`, `-raised-*` for inset variants) is also defined there.
 
 ### RSS / feeds
 

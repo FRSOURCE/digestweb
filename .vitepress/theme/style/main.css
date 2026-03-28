@@ -9,8 +9,6 @@
   /* Backgrounds — neumorphism: card = same as bg */
   --color-dw-bg: #ede8df;
   --color-dw-bg-dark: #e6e2d9;
-  --color-dw-bg-light: #f5f3f0;
-  --color-dw-card: #ede8df;
 
   /* Primary — deep teal */
   --color-dw-primary: #0b3d3f;
@@ -22,12 +20,12 @@
 
   /* Typography */
   --color-dw-text: #2a2018;
+  --color-dw-text-invert: #ede8df;
   --color-dw-muted: #6b5b4e;
   --color-dw-subtle: #705d51;
 
   /* Borders (used sparingly — dividers only) */
   --color-dw-border: #d8d1c6;
-  --color-dw-border-card: #d8d1c6;
 
   --font-sans: 'Arimo', ui-sans-serif, system-ui, Helvetica, Arial, sans-serif;
 
@@ -91,44 +89,7 @@
   box-shadow: --value(--raised-shadow-*, [integer]);
 }
 
-/* ── Neumorphic shadow utilities ──────────────── */
 @layer utilities {
-  .neu-raised {
-    box-shadow:
-      7px 7px 18px #c0bab1,
-      -7px -7px 18px #fdfaf5;
-  }
-  .neu-raised-sm {
-    box-shadow:
-      3px 3px 8px #c0bab1,
-      -3px -3px 8px #fdfaf5;
-  }
-  .neu-raised-lg {
-    box-shadow:
-      12px 12px 28px #c0bab1,
-      -12px -12px 28px #fdfaf5;
-  }
-  .neu-inset {
-    box-shadow:
-      inset 5px 5px 12px #c0bab1,
-      inset -5px -5px 12px #fdfaf5;
-  }
-  .neu-inset-sm {
-    box-shadow:
-      inset 2px 2px 6px #c0bab1,
-      inset -2px -2px 6px #fdfaf5;
-  }
-  /* Hover helpers — apply alongside the base class */
-  .neu-hover-raised:hover {
-    box-shadow:
-      9px 9px 22px #c0bab1,
-      -9px -9px 22px #fdfaf5;
-  }
-  .neu-hover-inset:hover {
-    box-shadow:
-      inset 4px 4px 10px #c0bab1,
-      inset -4px -4px 10px #fdfaf5;
-  }
   .bg-logo-gradient {
     background: linear-gradient(145deg, #3aa39d 0%, #0c3d3b 100%);
   }
@@ -148,4 +109,92 @@ body {
   background-color: var(--color-dw-bg);
   color: var(--color-dw-text);
   -webkit-font-smoothing: antialiased;
+}
+
+:root.dark {
+  color-scheme: dark;
+
+  --color-dw-bg: #201f1d;
+  --color-dw-bg-dark: #1d1916;
+  --color-dw-primary: #c0dcde;
+  --color-dw-primary-mid: #8dcacc;
+  --color-dw-primary-light: #68c1cd;
+  --color-dw-accent: #c98540;
+  --color-dw-text: #d6c8bb;
+  --color-dw-text-invert: #1c2324;
+  --color-dw-muted: #a89d91;
+  --color-dw-subtle: #908478;
+  --color-dw-border: #2c3839;
+
+  --raised-shadow-0:
+    -0.5px -0.5px 1px 0 #ffffff0a, -0.5px -0.5px 1px 0 #ffffff0a,
+    0.5px 0.5px 1px 0 #00000040, 0.5px 0.5px 1px 0 #00000040,
+    inset -0.5px -0.5px 1px 0 #ffffff0a,
+    inset -0.25px -0.25px 0.5px 0 #ffffff08, inset 0.5px 0.5px 1px 0 #00000040,
+    inset 0.25px 0.25px 0.5px 0 #00000030;
+  --raised-shadow-1:
+    -3px -3px 8px 0 #ffffff0d, -2px -2px 4px 0 #ffffff0a,
+    3px 3px 8px 0 #00000066, 2px 2px 4px 0 #00000050,
+    inset -0.5px -0.5px 1px 0 #ffffff0a,
+    inset -0.25px -0.25px 0.5px 0 #ffffff08, inset 0.5px 0.5px 1px 0 #00000040,
+    inset 0.25px 0.25px 0.5px 0 #00000030;
+  --raised-shadow-3:
+    -7px -7px 20px 0 #ffffff0d, -4px -4px 5px 0 #ffffff0a,
+    7px 7px 20px 0 #00000070, 4px 4px 5px 0 #00000060,
+    inset -0.5px -0.5px 1px 0 #ffffff0a,
+    inset -0.25px -0.25px 0.5px 0 #ffffff08, inset 0.5px 0.5px 1px 0 #00000040,
+    inset 0.25px 0.25px 0.5px 0 #00000030;
+  --raised-shadow-5:
+    -8px -8px 20px 0 #ffffff0f, -4px -4px 10px 0 #ffffff0a,
+    8px 8px 20px 0 #00000080, 4px 4px 10px 0 #00000070,
+    inset -0.5px -0.5px 1px 0 #ffffff0a,
+    inset -0.25px -0.25px 0.5px 0 #ffffff08, inset 0.5px 0.5px 1px 0 #00000040,
+    inset 0.25px 0.25px 0.5px 0 #00000030;
+  --lowered-shadow-1:
+    -0.5px -0.5px 1px 0 #ffffff0a, -0.5px -0.5px 1px 0 #ffffff0a,
+    0.5px 0.5px 1px 0 #00000050, 0.5px 0.5px 1px 0 #00000050,
+    inset -3px -3px 8px 0 #ffffff0d, inset -2px -2px 4px 0 #ffffff0a,
+    inset 3px 3px 8px 0 #00000066, inset 2px 2px 4px 0 #00000050;
+  --lowered-shadow-3:
+    -0.5px -0.5px 1px 0 #ffffff0a, -0.5px -0.5px 1px 0 #ffffff0a,
+    0.5px 0.5px 1px 0 #00000050, 0.5px 0.5px 1px 0 #00000050,
+    inset -3px -3px 9px 0 #ffffff0d, inset -1.5px -1.5px 2px 0 #ffffff0a,
+    inset 3px 3px 9px 0 #00000070, inset 1.5px 1.5px 2px 0 #00000060;
+  --lowered-shadow-5:
+    -0.5px -0.5px 1px 0 #ffffff0a, -0.5px -0.5px 1px 0 #ffffff0a,
+    0.5px 0.5px 1px 0 #00000050, 0.5px 0.5px 1px 0 #00000050,
+    inset -6px -6px 14px 0 #ffffff0f, inset -3px -3px 7px 0 #ffffff0a,
+    inset 6px 6px 14px 0 #00000070, inset 3px 3px 7px 0 #00000060;
+}
+
+:root.dark .mix-blend-multiply {
+  mix-blend-mode: difference;
+}
+
+:root.dark .dw-prose {
+  --tw-prose-body: #e8e0d8;
+  --tw-prose-headings: #4fcfd4;
+  --tw-prose-links: #44bec3;
+  --tw-prose-bold: #e8e0d8;
+  --tw-prose-bullets: #3aa8ad;
+  --tw-prose-code: #e8e0d8;
+  --tw-prose-pre-bg: #2c2b28;
+  --tw-prose-pre-code: #e8e0d8;
+}
+
+/* animation for theme toggle */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
+::view-transition-old(root),
+.dark::view-transition-new(root) {
+  z-index: 1;
+}
+
+::view-transition-new(root),
+.dark::view-transition-old(root) {
+  z-index: 9999;
 }
