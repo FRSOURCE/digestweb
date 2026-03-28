@@ -12,7 +12,7 @@ significance: 3
 
 ## Summary & Key Takeaways
 
-- Nvidia has made a significant move in the AI space, by releasing new language model - Nemotron 3 Super 120B-A12B. 
+- Nvidia has made a significant move in the AI space, by releasing new language model - Nemotron 3 Super 120B-A12B.
 - OpenAI has reportedly secured a major deal with Amazon, potentially impacting cloud infrastructure and AI deployment.
 - xAI released Grok Imagine 1.0 - "a video generator that topped an independent quality ranking at a fraction of competitors’ prices".
 - The article also touches upon advancements in "Recursive Language Models," highlighting ongoing research in AI capabilities.
