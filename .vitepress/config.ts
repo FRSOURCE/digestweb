@@ -130,29 +130,49 @@ export default defineConfig({
     });
 
     const articlesDir = resolve(siteConfig.srcDir, 'articles');
-    let files: string[] = [];
+    type ArticleEntry = {
+      data: Record<string, unknown>;
+      content: string;
+      slug: string;
+      dateDir: string;
+      date: Date;
+    };
+    const entries: ArticleEntry[] = [];
     try {
-      files = readdirSync(articlesDir).filter((f) => f.endsWith('.md'));
+      const dateDirs = readdirSync(articlesDir, { withFileTypes: true })
+        .filter((d) => d.isDirectory())
+        .map((d) => d.name);
+      for (const dateDir of dateDirs) {
+        const dayPath = resolve(articlesDir, dateDir);
+        for (const file of readdirSync(dayPath).filter((f) =>
+          f.endsWith('.md'),
+        )) {
+          const { data, content } = matter(
+            readFileSync(resolve(dayPath, file), 'utf-8'),
+          );
+          entries.push({
+            data,
+            content,
+            slug: file.replace(/\.md$/, ''),
+            dateDir,
+            date: new Date(dateDir),
+          });
+        }
+      }
     } catch {
       /* articles dir not yet populated */
     }
 
-    files
-      .map((file) => {
-        const { data, content } = matter(
-          readFileSync(resolve(articlesDir, file), 'utf-8'),
-        );
-        return { data, content, slug: file.replace(/\.md$/, '') };
-      })
-      .sort((a, b) => +new Date(b.data.date) - +new Date(a.data.date))
-      .forEach(({ data, content, slug }) => {
-        const link = `${siteUrl}/articles/${slug}`;
+    entries
+      .sort((a, b) => +b.date - +a.date)
+      .forEach(({ data, content, slug, dateDir, date }) => {
+        const link = `${siteUrl}/articles/${dateDir}/${slug}`;
         feed.addItem({
-          title: data.title ?? slug,
+          title: (data.title as string) ?? slug,
           id: link,
           link,
           description: content.trim(),
-          date: new Date(data.date),
+          date,
         });
       });
 
