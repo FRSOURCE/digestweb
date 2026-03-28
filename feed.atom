@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-03-28T17:40:32.981Z</updated>
+    <updated>2026-03-28T17:43:47.486Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -13,4 +13,1287 @@
     <link rel="self" href="https://digestweb.dev/feed.atom"/>
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Angular's Latest: Local AI, Reactive Routing, and Vitest Migration]]></title>
+        <id>https://digestweb.dev/articles/2026-03-27/angular-local-ai-reactive-routing-vitest-migration</id>
+        <link href="https://digestweb.dev/articles/2026-03-27/angular-local-ai-reactive-routing-vitest-migration"/>
+        <updated>2026-03-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Angular is introducing new features for integrating local AI directly into applications, enabling on-device intelligence.
+- The framework's routing system receives significant enhancements, focusing on more reactive and flexible navigation patterns.
+- Angular is migrating its testing infrastructure to Vitest, promising faster test execution and an improved developer experience.
+- These updates collectively aim to modernize Angular development, improve performance, and expand the framework's capabilities.
+
+## Our Commentary
+
+This is a packed release from Angular, hitting on several key areas that developers care about. The push for local AI is particularly interesting; it suggests a future where more intelligence lives on the client, which has huge implications for privacy and performance. Reactive routing improvements are always welcome, as routing can often be a source of complexity. And the Vitest migration? That's a smart move. Vitest is fast, modern, and aligns well with the direction of the broader JavaScript ecosystem. It feels like Angular is really listening to its community and making strategic choices to stay competitive and relevant.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chrome 147 Boosts View Transitions with Concurrent & Nested Scopes]]></title>
+        <id>https://digestweb.dev/articles/2026-03-27/chrome-147-concurrent-nested-view-transitions</id>
+        <link href="https://digestweb.dev/articles/2026-03-27/chrome-147-concurrent-nested-view-transitions"/>
+        <updated>2026-03-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Chrome 147 ships with new capabilities for View Transitions, specifically enabling concurrent and nested transitions.
+- Element-scoped view transitions allow developers to define transitions for specific elements, rather than the entire document.
+- This enhancement provides greater control and flexibility for animating UI changes, leading to more sophisticated user experiences.
+- Developers can now orchestrate multiple independent transitions simultaneously and create hierarchical animations.
+
+## Our Commentary
+
+View Transitions were already a game-changer for creating smooth, app-like experiences on the web. Now, with concurrent and nested transitions, Chrome is really unlocking their full potential. This is huge for complex UIs where you might have multiple independent components animating at once, or where a parent transition needs to contain child transitions. It means less JavaScript wrangling for intricate animations and more declarative control through CSS. I'm genuinely excited to see the creative ways developers will leverage this to build truly dynamic and engaging interfaces. This feels like a significant step towards closing the gap between native app fluidity and web capabilities.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The FDE Role: Surging Demand, Declining Desirability?]]></title>
+        <id>https://digestweb.dev/articles/2026-03-27/fde-role-less-desirable-pragmatic-engineer</id>
+        <link href="https://digestweb.dev/articles/2026-03-27/fde-role-less-desirable-pragmatic-engineer"/>
+        <updated>2026-03-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Job postings for Forward Deployed Engineers (FDEs) have seen a significant increase in recent times.
+- Despite the demand, many software professionals are finding the FDE role less desirable than traditional software development.
+- The core reason for this declining appeal is that the FDE role often leans more towards solutions engineering than pure software development.
+- This distinction means FDEs spend more time on implementation, customization, and client interaction rather than core product building.
+
+## Our Commentary
+
+On paper, the FDE role sounds like a cool blend of engineering and customer interaction, but this analysis suggests it's often more "solutions" than "software." It's a crucial distinction for anyone considering this career path.
+It's a good reminder that a fancy title doesn't always equate to the kind of work you expect.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GenUI vs. Vibe Coding: Distinguishing AI's Role in UI Design]]></title>
+        <id>https://digestweb.dev/articles/2026-03-27/genui-vs-vibe-coding-ai-ui-design-paradigms</id>
+        <link href="https://digestweb.dev/articles/2026-03-27/genui-vs-vibe-coding-ai-ui-design-paradigms"/>
+        <updated>2026-03-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article differentiates between Generative UI (GenUI), Vibe Coding and AI-assisted design, three emerging methods for AI-assisted interface design.
+- Generative UI involves an AI system autonomously deciding to create interactive elements or entire products based on identified user needs.
+- In Vibe Coding, users actively request and guide the AI to build specific interfaces, acting more like a co-designer.
+- With AI-assisted design means "using AI-based tools within a professional design workflow — generating wireframes, prototyping variations, or exploring layout options as part of building a product for an end-user audience".
+- Understanding these differences is crucial for designers and developers as AI tools become more integrated into the UI/UX workflow.
+- NNGroup discusses the implications of each approach for creativity, control, and the future role of human designers.
+
+## Our Commentary
+
+It's important to get your terminology right. It's even more crucial nowadays when new, trendy names come up almost every day!
+The idea of GenUI, where the AI _decides_ to generate, is a bit more unsettling, isn't it? We're moving into a world where the line between tool and creator is blurring, and articles like this are essential for helping us navigate the ethical and practical implications.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pell Mell: Crafting an Immersive Visual Exploration Platform]]></title>
+        <id>https://digestweb.dev/articles/2026-03-27/pell-mell-visual-exploration-platform-codrops</id>
+        <link href="https://digestweb.dev/articles/2026-03-27/pell-mell-visual-exploration-platform-codrops"/>
+        <updated>2026-03-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article presents a case study on Pell Mell, a platform designed for creative discovery with a unique visual approach.
+- It details the implementation of immersive scrolling and carefully restrained user interactions to enhance engagement.
+- The design draws inspiration from editorial layouts, creating a sophisticated and rhythmic visual experience.
+- Emphasis is placed on a performance-conscious visual system, ensuring a smooth and responsive user interface.
+
+## Our Commentary
+
+Gaspard takes us on a journey through creation of the Pell Mell site. What really stands out to me is the focus on "editorial rhythm" and "restrained interactions.". It's a refreshing counterpoint to the often-overloaded web, showing how thoughtful design can create a truly immersive and elegant experience without sacrificing performance.
+I think there's a lot to learn here for anyone looking to push the boundaries of web design beyond typical templates.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Batch: AI News Roundup - Nvidia, OpenAI, Grok & More]]></title>
+        <id>https://digestweb.dev/articles/2026-03-27/the-batch-ai-news-roundup-march-2026</id>
+        <link href="https://digestweb.dev/articles/2026-03-27/the-batch-ai-news-roundup-march-2026"/>
+        <updated>2026-03-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Nvidia has made a significant move in the AI space, by releasing new language model - Nemotron 3 Super 120B-A12B.
+- OpenAI has reportedly secured a major deal with Amazon, potentially impacting cloud infrastructure and AI deployment.
+- xAI released Grok Imagine 1.0 - "a video generator that topped an independent quality ranking at a fraction of competitors’ prices".
+- The article also touches upon advancements in "Recursive Language Models," highlighting ongoing research in AI capabilities.
+
+## Our Commentary
+
+The AI landscape is moving at a dizzying pace, and The Batch is one of the best ways to keep up. This issue covers everything from corporate strategy (Nvidia, OpenAI's Amazon deal) to market adjustments (Grok's price cuts) and even research frontiers (Recursive Language Models). I find these roundups invaluable for understanding the broader trends and connecting the dots between seemingly disparate announcements. It's a lot to take in, but absolutely essential for anyone tracking the AI industry.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[March 2026: A Roundup of New Web Platform Features]]></title>
+        <id>https://digestweb.dev/articles/2026-03-27/web-platform-new-features-march-2026</id>
+        <link href="https://digestweb.dev/articles/2026-03-27/web-platform-new-features-march-2026"/>
+        <updated>2026-03-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article provides a comprehensive overview of new web platform features introduced in stable and beta browsers during March 2026.
+- It highlights various updates, including new APIs, CSS properties, and JavaScript enhancements.
+- The roundup serves as a quick reference for developers to stay informed about the latest browser capabilities.
+- Key features are typically categorized or presented with links to more detailed documentation.
+
+## Our Commentary
+
+These monthly roundups from web.dev are incredibly useful. It's easy to miss new browser features, especially with the rapid pace of development, so having a curated list like this is a lifesaver. While it doesn't dive deep into any single feature, it's perfect for a quick scan to see what's new and what might impact our projects. I always appreciate how they link out to more detailed resources, making it easy to follow up on anything that catches my eye. It's a great way to keep a pulse on the evolving web platform without getting overwhelmed.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Applying Accessibility Fixes with Stealth for the Greater Good]]></title>
+        <id>https://digestweb.dev/articles/2026-03-26/applying-accessibility-fixes-stealth-greater-good</id>
+        <link href="https://digestweb.dev/articles/2026-03-26/applying-accessibility-fixes-stealth-greater-good"/>
+        <updated>2026-03-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Steve Frenzel shares their journey into prioritizing web accessibility, highlighting its often-overlooked role in web development education and practice.
+- The article addresses the concept of ableism within the tech industry, defining it as discrimination against disabled people.
+- It critiques the 'medical model of disability,' which incorrectly places the 'problem' with the individual rather than the inaccessible environment.
+- The piece aims to provide practical, 'stealth' methods for developers to integrate accessibility fixes into their work, even in challenging organizational contexts.
+
+## Our Commentary
+
+This article is a powerful and necessary read. The author's personal journey into accessibility, coupled with a frank discussion of ableism in tech, really resonates. The idea of applying 'stealth' fixes is a sad reality for many developers, but it also highlights the dedication required to push for a more accessible web. We need to do better as an industry, and articles like this are vital in sparking that change.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Astro 6.1: Image Defaults, SmartyPants, and i18n Fallback Routes]]></title>
+        <id>https://digestweb.dev/articles/2026-03-26/astro-6-1-image-defaults-smartypants-i18n-fallback-routes</id>
+        <link href="https://digestweb.dev/articles/2026-03-26/astro-6-1-image-defaults-smartypants-i18n-fallback-routes"/>
+        <updated>2026-03-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Astro 6.1 introduces codec-specific Sharp image defaults, enhancing image optimization capabilities.
+- The release includes advanced SmartyPants configuration options for improved typography and text formatting.
+- Internationalization (i18n) is bolstered with new fallback routes for integrations, making multilingual sites more robust.
+
+## Our Commentary
+
+The image defaults are a welcome addition for performance-conscious developers, and better i18n support is always a win for global applications. It's these steady, incremental improvements that keep a framework feeling fresh and capable.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gemini 3.1 Flash Live Enhances Audio AI for Natural Interactions]]></title>
+        <id>https://digestweb.dev/articles/2026-03-26/gemini-3-1-flash-live-enhances-audio-ai-natural-interactions</id>
+        <link href="https://digestweb.dev/articles/2026-03-26/gemini-3-1-flash-live-enhances-audio-ai-natural-interactions"/>
+        <updated>2026-03-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Google DeepMind has launched Gemini 3.1 Flash Live, focusing on advancements in audio AI.
+- The update features a new voice model designed for enhanced performance.
+- Key improvements include increased precision in voice recognition and generation.
+- The model also achieves lower latency, making voice interactions more responsive.
+- The overall goal is to create more fluid, natural, and precise voice-based AI experiences.
+
+## Our Commentary
+
+Lower latency and improved precision in audio AI are critical for truly natural human-computer interaction. This update to Gemini Flash Live sounds like a significant step forward in making voice interfaces feel less robotic and more conversational.
+This could unlock new possibilities for real-time applications, from advanced virtual assistants to more immersive gaming experiences.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Generative UI Notes: Automating User Interface Design]]></title>
+        <id>https://digestweb.dev/articles/2026-03-26/generative-ui-notes-automating-design</id>
+        <link href="https://digestweb.dev/articles/2026-03-26/generative-ui-notes-automating-design"/>
+        <updated>2026-03-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article explores the concept of Generative UI, which involves automatically generating user interfaces.
+- It looks at various research and experiments in this field.
+- The goal of Generative UI is to create interfaces based on user preferences and defined parameters.
+- This topic bridges the fields of artificial intelligence and user interface/experience design.
+
+## Our Commentary
+
+Generative UI is one of those topics that makes me genuinely excited and a little bit nervous. The idea of AI automatically generating interfaces based on preferences is incredibly powerful for rapid prototyping and personalization. However, it also raises questions about the role of human designers and the potential for generic, soulless interfaces. It's a fascinating space to watch, and I think the key will be finding the right balance between AI assistance and human creativity.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Actions 2026 Security Roadmap: Hardening the Supply Chain]]></title>
+        <id>https://digestweb.dev/articles/2026-03-26/github-actions-2026-security-roadmap</id>
+        <link href="https://digestweb.dev/articles/2026-03-26/github-actions-2026-security-roadmap"/>
+        <updated>2026-03-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- GitHub Actions' 2026 security roadmap focuses on hardening the software supply chain from end to end.
+- Key areas of improvement include implementing more secure defaults for Actions workflows.
+- The roadmap emphasizes enhanced policy controls to govern how Actions are used and configured.
+- Improvements in CI/CD observability are planned to provide better insights into security posture and potential risks.
+
+## Our Commentary
+
+It's reassuring to see GitHub prioritizing security for Actions with a clear roadmap. We're particularly interested in how improved CI/CD observability will empower teams to proactively identify and mitigate risks. This isn't just about GitHub's platform - it's about setting a higher standard for the entire open-source ecosystem.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Open Source Vulnerability Trends: Malware Surges, Advisories Shift]]></title>
+        <id>https://digestweb.dev/articles/2026-03-26/open-source-vulnerability-trends-malware-surge</id>
+        <link href="https://digestweb.dev/articles/2026-03-26/open-source-vulnerability-trends-malware-surge"/>
+        <updated>2026-03-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- GitHub's report on open source vulnerability trends indicates a four-year low in reviewed advisories.
+- Malware advisories have seen a significant surge over the past year.
+- The number of CVEs published by CNA (CVE Numbering Authority) organizations has grown.
+- These shifts have implications for how developers and organizations approach vulnerability triage and response strategies.
+
+## Our Commentary
+
+The trends highlighted by GitHub are a stark reminder of the evolving threat landscape in open source. A surge in malware advisories, even as overall reviewed advisories dip, suggests a shift towards more insidious attacks. We need to adapt our strategies, focusing more on proactive threat detection and supply chain integrity, rather than just reactive patching.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pnpm 11 Beta 3 Unveils Major Performance & Isolation Improvements]]></title>
+        <id>https://digestweb.dev/articles/2026-03-26/pnpm-11-beta-3-performance-isolation-improvements</id>
+        <link href="https://digestweb.dev/articles/2026-03-26/pnpm-11-beta-3-performance-isolation-improvements"/>
+        <updated>2026-03-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- pnpm 11 Beta 3 introduces a new store format where runtime dependencies are always linked from a global virtual store.
+- The index file format is optimized to store hash algorithms once per file and uses hex digests for improved performance during path lookups.
+- The store version is bumped to v11, and bundled manifests are now stored directly in the package index file to reduce I/O and speed up installations.
+- SQLite is now used for storing the package index in the content-addressable store, replacing individual JSON files with a single database for better performance and space efficiency.
+- Global installs and `pnpm dlx` now default to using the global virtual store, with packages stored in a shared `links` directory.
+- Globally installed packages are now isolated, each receiving its own installation directory to prevent conflicts and ensure consistent environments.
+
+## Our Commentary
+
+These changes in pnpm 11 Beta 3 are genuinely exciting. The move to SQLite for the package index and the optimized file format are huge for performance, especially on systems with high I/O overhead. But what really stands out to us is the concept of isolated global packages. This is a game-changer for managing global tools and avoiding the 'it works on my machine' syndrome that often plagues shared environments. It feels like pnpm is doubling down on its core strengths, pushing the boundaries of what a package manager can do for developer experience and reliability.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quantization from the Ground Up: Optimizing LLMs]]></title>
+        <id>https://digestweb.dev/articles/2026-03-26/quantization-from-the-ground-up-optimizing-llms</id>
+        <link href="https://digestweb.dev/articles/2026-03-26/quantization-from-the-ground-up-optimizing-llms"/>
+        <updated>2026-03-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article offers a fundamental explanation of quantization in the context of large language models (LLMs).
+- It clarifies the necessity of quantization, primarily to reduce the substantial size and memory footprint of LLMs.
+- The core mechanism involves reducing the precision of the model's weights, typically from 16-bit or 32-bit floating points to lower bit representations.
+- Different quantization techniques, such as 8-bit and 4-bit quantization, are explored.
+- The post aims to demystify this crucial optimization technique for anyone working with or interested in LLMs.
+
+## Our Commentary
+
+Quantization is one of those "magic" terms in the LLM world that often gets thrown around without much explanation.
+This is a fantastic resource for anyone looking to move beyond just using LLMs to understanding how they're optimized under the hood. It's a practical deep-dive that will be incredibly useful.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Site-Search Paradox: Why Internal Search Often Fails]]></title>
+        <id>https://digestweb.dev/articles/2026-03-26/site-search-paradox-why-internal-search-fails</id>
+        <link href="https://digestweb.dev/articles/2026-03-26/site-search-paradox-why-internal-search-fails"/>
+        <updated>2026-03-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Modern UX success hinges on content findability, not just content volume.
+- Despite advanced tools, internal site search frequently fails to meet user expectations.
+- Users often resort to global search engines to find specific pages on a local site.
+- The article explores the reasons behind this 'Site-Search Paradox' and suggests ways to improve internal search functionality.
+
+## Our Commentary
+
+It's incredibly frustrating when you know the content is there, but the site's own search can't find it. The 'Site-Search Paradox' is a real problem, and it's a testament to how much we rely on Google-level search experiences everywhere. Investing in robust internal search isn't just a nice-to-have. It's fundamental to good UX and keeping users engaged. We need to stop treating it as an afterthought.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cursor Enables Self-Hosted Cloud Agents for Enhanced Privacy]]></title>
+        <id>https://digestweb.dev/articles/2026-03-25/cursor-self-hosted-cloud-agents-privacy</id>
+        <link href="https://digestweb.dev/articles/2026-03-25/cursor-self-hosted-cloud-agents-privacy"/>
+        <updated>2026-03-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Cursor now offers the capability to run cloud agents in a self-hosted environment.
+- This feature ensures that all code and tool execution remains entirely within the user's network.
+- Self-hosting addresses critical concerns regarding data privacy and security for AI applications.
+- It provides greater control over the AI development and deployment workflow.
+
+## Our Commentary
+
+This is a smart move from Cursor. For many enterprises, the biggest hurdle to adopting AI tools is data privacy and the fear of proprietary code leaving their network. Offering self-hosted cloud agents directly addresses that, making it a much more palatable solution for sensitive projects. It's a clear sign that AI tooling is maturing to meet enterprise-grade security and compliance requirements.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Firefox Developer Edition & Beta Now Available as .rpm Packages]]></title>
+        <id>https://digestweb.dev/articles/2026-03-25/firefox-developer-beta-rpm-packages-linux</id>
+        <link href="https://digestweb.dev/articles/2026-03-25/firefox-developer-beta-rpm-packages-linux"/>
+        <updated>2026-03-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Mozilla has released .rpm packages for Firefox Developer Edition and Beta.
+- This expands on the Nightly .rpm package introduced in January.
+- The .rpm packages simplify installation for users on RPM-based Linux distributions.
+- Firefox Beta allows developers to test websites against upcoming browser versions.
+
+## Our Commentary
+
+This is a small but welcome quality-of-life improvement for Linux developers, especially those on Fedora, RHEL, or openSUSE. Dealing with manual installations or third-party repos for dev builds can be a pain, so official .rpm packages streamline the process. It's not a game-changer for the web platform, but it definitely makes the developer experience a bit smoother for a segment of our audience.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Copilot Updates Data Usage Policy for AI Model Training]]></title>
+        <id>https://digestweb.dev/articles/2026-03-25/github-copilot-data-usage-policy-update-ai-training</id>
+        <link href="https://digestweb.dev/articles/2026-03-25/github-copilot-data-usage-policy-update-ai-training"/>
+        <updated>2026-03-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- GitHub Copilot is updating its data usage policy, effective April 24.
+- Interaction data, including inputs, outputs, code snippets, and context, will be used for training and improving AI models.
+- This policy applies to users of Copilot Free, Pro, and Pro+.
+- Users will have the option to opt out of this data collection.
+
+## Our Commentary
+
+This is a big one for anyone using Copilot. While it's understandable that AI models need data to improve, making data collection opt-out by default for _all_ users (including paid tiers) feels like a significant shift. It puts the responsibility on the user to protect their data, rather than on the platform to ask for consent.
+We're curious how many users will remember to actually opt out. And what the long-term implications are for privacy and intellectual property, especially for those working on sensitive projects.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google DeepMind's Lyria 3 Pro: Longer, Structurally Aware AI Music]]></title>
+        <id>https://digestweb.dev/articles/2026-03-25/google-deepmind-lyria-3-pro-ai-music</id>
+        <link href="https://digestweb.dev/articles/2026-03-25/google-deepmind-lyria-3-pro-ai-music"/>
+        <updated>2026-03-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Google DeepMind has launched Lyria 3 Pro, an updated AI music generation tool.
+- Lyria 3 Pro now allows for the creation of longer musical tracks.
+- The new version incorporates "structural awareness," suggesting improved coherence in generated compositions.
+- Google is also expanding the availability of Lyria across more of its products and platforms.
+
+## Our Commentary
+
+Lyria 3 Pro sounds like a cool step forward for AI music generation. "Structural awareness" is a key phrase here. It implies the AI is moving beyond just generating snippets to understanding the broader form of a piece, which is a huge leap for creative tools. While it's a niche application, the integration into more Google products could expose a lot more people to AI-generated music, which is always interesting to watch.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI's Model Spec: Balancing AI Safety, Freedom, and Accountability]]></title>
+        <id>https://digestweb.dev/articles/2026-03-25/openai-model-spec-ai-safety-freedom-accountability</id>
+        <link href="https://digestweb.dev/articles/2026-03-25/openai-model-spec-ai-safety-freedom-accountability"/>
+        <updated>2026-03-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI's "Model Spec" is a public framework designed to guide the behavior of its AI models.
+- The framework aims to strike a balance between ensuring AI safety and preserving user freedom.
+- It also addresses the critical aspect of accountability as AI systems become more advanced.
+- The article provides insight into OpenAI's internal approach to AI governance and ethics.
+
+## Our Commentary
+
+It's good to see OpenAI being transparent about their "Model Spec." As AI becomes more integrated into our lives, having a clear, public framework for how these powerful models are governed is crucial. The challenge, of course, is truly balancing safety with user freedom without stifling innovation or imposing overly restrictive guardrails. This is a conversation that needs to happen openly, and this article is a step in that direction.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Launches Safety Bug Bounty Program for AI Risks]]></title>
+        <id>https://digestweb.dev/articles/2026-03-25/openai-safety-bug-bounty-program-ai-risks</id>
+        <link href="https://digestweb.dev/articles/2026-03-25/openai-safety-bug-bounty-program-ai-risks"/>
+        <updated>2026-03-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI has initiated a Safety Bug Bounty program.
+- The program aims to identify and mitigate potential AI abuse and safety risks.
+- Key areas of focus include agentic vulnerabilities, prompt injection attacks, and data exfiltration.
+- This initiative encourages external researchers to contribute to the security and safety of OpenAI's AI systems.
+
+## Our Commentary
+
+This is a smart and necessary move from OpenAI. As AI models become more complex and autonomous, the attack surface for misuse and unintended behavior grows exponentially. A dedicated safety bug bounty program, specifically targeting issues like prompt injection and agentic vulnerabilities, shows they're taking these risks seriously. It's a proactive step towards building more robust and secure AI, and we hope other major AI players follow suit.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TanStack DB 0.6: Persistence, Offline Support, and Hierarchical Data]]></title>
+        <id>https://digestweb.dev/articles/2026-03-25/tanstack-db-0-6-persistence-offline-hierarchical-data</id>
+        <link href="https://digestweb.dev/articles/2026-03-25/tanstack-db-0-6-persistence-offline-hierarchical-data"/>
+        <updated>2026-03-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- TanStack DB 0.6 introduces SQLite-backed persistence, allowing data to be stored across various runtimes.
+- This update significantly enhances offline support for applications using TanStack DB.
+- New hierarchical includes enable projecting normalized data into UI-shaped trees, simplifying data presentation.
+- The release also brings reactive effects and virtual props for synchronized state management.
+
+## Our Commentary
+
+This is a solid update for TanStack DB. Adding SQLite persistence and offline capabilities is a huge win for building resilient applications. It feels like TanStack is really maturing its offerings beyond just query management.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI-Powered GitHub Issue Triage with Copilot SDK]]></title>
+        <id>https://digestweb.dev/articles/2026-03-24/ai-github-issue-triage-copilot-sdk</id>
+        <link href="https://digestweb.dev/articles/2026-03-24/ai-github-issue-triage-copilot-sdk"/>
+        <updated>2026-03-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Andrea demonstrates how to build an AI-powered issue triage system using the Copilot SDK.
+- The example integrates the SDK into a React Native app to generate issue summaries.
+- It covers production patterns like graceful degradation and caching for robust AI integration.
+
+## Our Commentary
+
+This is a practical application of AI that many development teams could benefit from. Issue triage can be a time sink, and having AI assist with summarization could genuinely streamline workflows. What I appreciate here is the focus on "production patterns" like graceful degradation and caching. It's not just a demo; it's showing how to build something reliable. This kind of integration, where AI augments existing tools rather than replacing them entirely, feels like the most immediate and impactful path forward for AI in developer tooling.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ChatGPT Enhances Product Discovery with Agentic Commerce Protocol]]></title>
+        <id>https://digestweb.dev/articles/2026-03-24/chatgpt-product-discovery-agentic-commerce</id>
+        <link href="https://digestweb.dev/articles/2026-03-24/chatgpt-product-discovery-agentic-commerce"/>
+        <updated>2026-03-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- ChatGPT is integrating a new "Agentic Commerce Protocol" to enhance product discovery.
+- This feature will enable richer, visually immersive shopping experiences directly within ChatGPT.
+- Users can expect capabilities like product discovery, side-by-side comparisons, and direct merchant integration.
+
+## Our Commentary
+
+This is a pretty big deal for ChatGPT and potentially for e-commerce. Integrating "Agentic Commerce Protocol" to power product discovery and shopping directly within the chatbot moves it from a conversational AI to a transactional platform. The idea of visually immersive shopping and side-by-side comparisons within a chat interface is intriguing. It feels like a significant step towards AI agents becoming active participants in our daily tasks, blurring the lines between search, recommendation, and direct purchasing. We'll be watching closely to see how this impacts user behavior and the broader retail ecosystem.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Claude Code Introduces Auto Mode for Enhanced Coding]]></title>
+        <id>https://digestweb.dev/articles/2026-03-24/claude-code-auto-mode</id>
+        <link href="https://digestweb.dev/articles/2026-03-24/claude-code-auto-mode"/>
+        <updated>2026-03-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Claude Code has introduced a new "Auto mode" feature.
+- This mode enhances Claude's capabilities for autonomous code generation or problem-solving.
+- It aims to provide a middle ground between default behaviour and `--dangerously-skip-permissions` flag.
+- "Auto mode may have a small impact on token consumption, cost, and latency for tool calls."
+
+## Our Commentary
+
+We've seen various levels of AI code generation, but an "auto mode" suggests a higher degree of agency. This could be a real productivity booster, need to check it out by ourselves!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building San Rita’s Topographic Web Experience]]></title>
+        <id>https://digestweb.dev/articles/2026-03-24/codrops-san-ritas-topographic-web-experience</id>
+        <link href="https://digestweb.dev/articles/2026-03-24/codrops-san-ritas-topographic-web-experience"/>
+        <updated>2026-03-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Codrops presents a deep dive into building San Rita's portfolio website.
+- The site features a unique "digital landscape" with 3D terrain, vintage map textures, and immersive motion.
+- The article explores the techniques used to create this strong sense of place and interactive experience.
+
+## Our Commentary
+
+Codrops consistently delivers inspiring examples of what's possible on the web, and this "San Rita" project is no exception. The blend of 3D terrain, vintage aesthetics, and immersive motion sounds like a masterclass in creative front-end development.
+For developers looking to push the boundaries of visual design and interaction - have a good read on this one!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cypress Introduces AI-Powered Test Automation with cy.prompt]]></title>
+        <id>https://digestweb.dev/articles/2026-03-24/cypress-ai-powered-test-automation-cy-prompt</id>
+        <link href="https://digestweb.dev/articles/2026-03-24/cypress-ai-powered-test-automation-cy-prompt"/>
+        <updated>2026-03-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Cypress has launched `cy.prompt` in beta, enabling AI-powered test automation.
+- Developers can now describe desired test actions in plain English, and Cypress will generate the corresponding test code.
+- This aims to eliminate the "translation step" from test idea to code, speeding up test creation and reducing context switching.
+
+## Our Commentary
+
+This is a genuinely exciting development for the testing landscape. The friction of translating a test idea into precise code, especially when dealing with selectors and assertions, is a real productivity killer. `cy.prompt` has the potential to drastically lower the barrier to entry for writing robust tests and accelerate the entire development cycle. We've seen AI assist with code generation, but applying it directly to the often-tedious task of E2E test writing feels like a perfect fit. If it works as advertised, this could be a game-changer for developer experience in QA.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hugging Face Introduces EVA: A Framework for Voice Agent Evaluation]]></title>
+        <id>https://digestweb.dev/articles/2026-03-24/hugging-face-eva-voice-agent-evaluation</id>
+        <link href="https://digestweb.dev/articles/2026-03-24/hugging-face-eva-voice-agent-evaluation"/>
+        <updated>2026-03-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Hugging Face, in partnership with ServiceNow AI, has launched EVA (Evaluating Voice Agents).
+- EVA is a new framework specifically designed for evaluating the performance and capabilities of voice AI agents.
+- This aims to standardize and improve the assessment process for this specialized area of AI.
+
+## Our Commentary
+
+Evaluating AI models is notoriously difficult, and voice agents present their own unique set of challenges. So, a dedicated framework like EVA from Hugging Face and ServiceNow AI is a welcome addition. Standardizing evaluation metrics and processes is crucial for advancing the field, allowing researchers and developers to compare models more effectively and identify areas for improvement. It's a foundational piece of tooling that might not grab headlines, but it's essential for building more robust and reliable voice AI systems.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pnpm 10.33 Improves Peer Dependency Deduplication]]></title>
+        <id>https://digestweb.dev/articles/2026-03-24/pnpm-10-33-dedupe-peers-dependency-duplication</id>
+        <link href="https://digestweb.dev/articles/2026-03-24/pnpm-10-33-dedupe-peers-dependency-duplication"/>
+        <updated>2026-03-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- pnpm v10.33 introduces `dedupePeers`, a new setting to reduce peer dependency duplication.
+- This feature uses version-only identifiers for peer dependency suffixes, simplifying package paths.
+- It aims to dramatically reduce the number of package instances, especially in projects with many recursive peer dependencies.
+- Other patch fixes include improved error handling, concurrent `pnpm dlx` stability, and Windows compatibility improvements.
+
+## Our Commentary
+
+The `dedupePeers` feature in pnpm 10.33 is a really smart optimization. Anyone who's wrestled with `node_modules` bloat or deeply nested peer dependency structures knows the pain. Reducing package instances can have a tangible impact on disk space, install times, and even build performance. It's these kinds of incremental improvements in tooling that make a real difference in developer experience over time. pnpm continues to innovate in package management, and this release is another step in making dependency graphs more manageable.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Shadow DOM Focus Delegation: Getting `delegatesFocus` Right]]></title>
+        <id>https://digestweb.dev/articles/2026-03-24/shadow-dom-focus-delegation-delegatesfocus-right</id>
+        <link href="https://digestweb.dev/articles/2026-03-24/shadow-dom-focus-delegation-delegatesfocus-right"/>
+        <updated>2026-03-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article explains how to properly use the `delegatesFocus` option in Shadow DOM for web components.
+- It highlights that manual focus handling is often unnecessary for simple wrapper components.
+- Using `delegatesFocus` can simplify the development of accessible web components.
+- This feature helps ensure a better user experience by correctly managing focus within custom elements.
+
+## Our Commentary
+
+Focus management in web components, especially with Shadow DOM, can be notoriously tricky. `delegatesFocus` is one of those subtle but powerful features that, when used correctly, can drastically improve both developer experience and accessibility.
+At digestweb.dev we always advocate for web components, so this article sounds just delicious!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Simon Willison: Package Managers Need to Cool Down]]></title>
+        <id>https://digestweb.dev/articles/2026-03-24/simon-willison-package-managers-cool-down</id>
+        <link href="https://digestweb.dev/articles/2026-03-24/simon-willison-package-managers-cool-down"/>
+        <updated>2026-03-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison writes about the recent LiteLLM supply chain attack.
+- He suggests idea of dependency cooldown as a resolution for such attacks.
+- It seems that most js package managers already support cooldown settings.
+
+## Our Commentary
+
+The recent attacks highlight the importance of enabling dependency cooldown settings. For the security of your projects, make sure to configure these safeguards in your package manager!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Testing Font Scaling for Accessibility with Figma Variables]]></title>
+        <id>https://digestweb.dev/articles/2026-03-24/testing-font-scaling-accessibility-figma-variables</id>
+        <link href="https://digestweb.dev/articles/2026-03-24/testing-font-scaling-accessibility-figma-variables"/>
+        <updated>2026-03-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article demonstrates how to test font scaling for accessibility using Figma variables.
+- It advocates for integrating accessibility testing seamlessly into everyday design workflows.
+- The approach aims to make accessibility an inherent part of the design process rather than an afterthought.
+
+## Our Commentary
+
+This is exactly the kind of practical accessibility advice we love to see. Integrating font scaling tests directly into Figma with variables is a brilliant way to make accessibility "feel almost inevitable rather than optional." Far too often, accessibility is treated as a separate, late-stage concern, leading to costly reworks. By embedding these checks into the design phase, teams can catch issues much earlier and build more inclusive experiences from the ground up. It's a great example of how thoughtful tooling and workflow design can significantly improve the quality of our digital products.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TypeScript 6.0 Released, Next.js 16.2, and Node.js Community Shifts]]></title>
+        <id>https://digestweb.dev/articles/2026-03-24/typescript-6-0-nextjs-16-2-nodejs-community-shifts</id>
+        <link href="https://digestweb.dev/articles/2026-03-24/typescript-6-0-nextjs-16-2-nodejs-community-shifts"/>
+        <updated>2026-03-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- **TypeScript 6.0** is out, featuring numerous default changes (e.g., `strict` now `true`, `module` is `esnext`), deprecations (e.g., `es5` target), and `stableTypeOrdering` to prepare for the upcoming Go-powered TypeScript 7.0 compiler.
+- **Next.js 16.2** brings significant performance improvements, including much faster `next dev` startup and ~50% faster rendering.
+- The **Node.js community** is debating the role of LLM-produced code, with a petition against AI-assisted contributions.
+- **Deno** saw a large number of employee departures, though the company states it is not going away.
+- Other releases include Storybook 10.3.0 and a Chibivue project/book for a minimal Vue.js implementation.
+
+## Our Commentary
+
+javascriptweekly.com provides concise write-up of latest releases. It's not a long article, so just have a look at it :)]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebKit Features Arrive in Safari 26.4]]></title>
+        <id>https://digestweb.dev/articles/2026-03-24/webkit-features-safari-26-4</id>
+        <link href="https://digestweb.dev/articles/2026-03-24/webkit-features-safari-26-4"/>
+        <updated>2026-03-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- WebKit has released its latest set of features for Safari 26.4.
+- The update includes various new capabilities and improvements for the web platform:
+  - CSS Grid Lanes — New display: grid-lanes enables masonry-style layouts
+    natively, no JavaScript needed.
+  - WebTransport — HTTP/3/QUIC-based alternative to WebSockets for
+    low-latency bidirectional communication in games and live collaboration.
+  - Keyboard Lock API — Fullscreen web apps can now capture keys like `Escape`, enabling proper keyboard handling for games and immersive tools.
+  - Threaded scroll-driven animations — Now run on the compositor thread
+    for smoother performance.
+  - ReadableStream improvements — BYOB readers for memory-efficient binary
+    data and for await...of async iteration support.
+  - sizes attribute math functions — Responsive images can now use
+    clamp(), min(), max() in the sizes attribute.
+  - 191 bug fixes — Covering CSS zoom, SVG animation/rendering,
+    accessibility (VoiceOver/Voice Control), and WebRTC improvements.
+
+## Our Commentary
+
+While the title is generic: "just another release", it's good to see faster pace in Safari development. It seems that Webkit is the first to ship with stable implementation of Grid Lanes!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Anthropic Enables Long-Running Claude for Scientific Computing]]></title>
+        <id>https://digestweb.dev/articles/2026-03-23/anthropic-long-running-claude-scientific-computing</id>
+        <link href="https://digestweb.dev/articles/2026-03-23/anthropic-long-running-claude-scientific-computing"/>
+        <updated>2026-03-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Anthropic is researching methods to enable Claude to handle long-running tasks, specifically for scientific computing.
+- This work aims to overcome limitations of current AI models regarding sustained context and multi-step operations.
+- The ability for AI to maintain state and execute complex, extended computations is crucial for advanced scientific applications.
+
+## Our Commentary
+
+The ability for an AI like Claude to handle "long-running" tasks, especially in scientific computing, is a huge leap forward. One of the biggest frustrations with current LLMs is their limited context window and stateless nature, making complex, multi-step processes difficult. If Claude can maintain state and context over extended periods, it unlocks entirely new possibilities for research, simulation, and data analysis. We're talking about AI that can truly "work" on a problem for hours or days, rather than just responding to isolated prompts. This feels like a foundational improvement that will enable many future AI applications.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Anthropic's "Vibe Physics": AI as a Grad Student]]></title>
+        <id>https://digestweb.dev/articles/2026-03-23/anthropic-vibe-physics-ai-grad-student</id>
+        <link href="https://digestweb.dev/articles/2026-03-23/anthropic-vibe-physics-ai-grad-student"/>
+        <updated>2026-03-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Anthropic's "Vibe Physics" research explores the potential for AI to operate as a "grad student" in the field of physics.
+- This initiative focuses on advanced AI reasoning, problem-solving, and scientific discovery capabilities.
+- The research aims to push the boundaries of AI's autonomous learning and contribution in complex scientific domains.
+
+## Our Commentary
+
+The idea of an AI acting as a "grad student" in physics is both fascinating and a little unsettling. On one hand, it promises to accelerate scientific discovery by offloading tedious or complex analytical tasks to highly capable models. Imagine the breakthroughs if AI could autonomously explore hypotheses and process data at speeds humans can't match. On the other hand, it raises questions about the future role of human researchers and the nature of scientific intuition. We're moving beyond AI as a tool and towards AI as a collaborator, or even an independent agent. It's a significant step in AI's journey towards more autonomous and creative roles.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Claude Can Now Work Directly on Your Computer]]></title>
+        <id>https://digestweb.dev/articles/2026-03-23/claude-work-on-your-computer</id>
+        <link href="https://digestweb.dev/articles/2026-03-23/claude-work-on-your-computer"/>
+        <updated>2026-03-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Claude has gained the ability to interact directly with a user's local computer.
+- This feature opens up new possibilities for automation, allowing Claude to execute tasks and access local files.
+- It represents a significant step towards more integrated and powerful AI agents operating within personal computing environments.
+
+## Our Commentary
+
+Computer use via the API has existed for a while, so the more interesting angle here is the desktop integration and how it handles edge cases when something unexpected happens mid-task. The security model matters a lot — not just "can Anthropic be trusted" but whether the model makes sound judgment calls when it hits an ambiguous situation halfway through a destructive operation. That's the harder problem.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS Anchor Positioning: Two Circles, One Arrow]]></title>
+        <id>https://digestweb.dev/articles/2026-03-23/css-anchor-positioning-two-circles-one-arrow</id>
+        <link href="https://digestweb.dev/articles/2026-03-23/css-anchor-positioning-two-circles-one-arrow"/>
+        <updated>2026-03-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Frontend Masters tackles the challenge of drawing a dynamic line with arrows between two arbitrary elements using only CSS.
+- The article demonstrates how to measure and display the distance between these elements.
+- This advanced CSS tutorial showcases the capabilities of new features like anchor positioning for complex layout problems.
+
+## Our Commentary
+
+Anchor positioning is the CSS primitive that was missing for this class of problems. Before it, connecting two arbitrary elements with a line meant reaching for JS libraries like Floating UI or Popper. The fact that you can do the positioning, the arrow, and the distance label in CSS alone is a signal that the platform is genuinely catching up to what JS has been doing for years.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scroll-Driven Animations with CSS `corner-shape()`]]></title>
+        <id>https://digestweb.dev/articles/2026-03-23/css-scroll-driven-corner-shape-animations</id>
+        <link href="https://digestweb.dev/articles/2026-03-23/css-scroll-driven-corner-shape-animations"/>
+        <updated>2026-03-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Daniel Schwarz demonstrates how to animate the new CSS `corner-shape()` property using scroll-driven effects.
+- The article explores the mathematical nature of `corner-shape()` which makes it easily animatable.
+- This tutorial from CSS-Tricks highlights creative UI possibilities with modern CSS features.
+
+## Our Commentary
+
+`corner-shape()` sounds like a minor addition until you see it animated. The scroll-driven part is the real hook — it turns a static shape property into something that responds to user behavior. Still experimental in most browsers, so treat this as preview territory. But `corner-shape()` plus scroll-driven is the kind of combination that will show up in design systems in a year or two.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fast Regex Search: Indexing Text for AI Agent Tools]]></title>
+        <id>https://digestweb.dev/articles/2026-03-23/cursor-fast-regex-search-ai-agents</id>
+        <link href="https://digestweb.dev/articles/2026-03-23/cursor-fast-regex-search-ai-agents"/>
+        <updated>2026-03-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Cursor.com is developing indexed regular expression search to accelerate AI agent operations in large codebases.
+- The goal is to eliminate long wait times associated with traditional tools like `ripgrep` when agents search for text.
+- This optimization is crucial for improving the efficiency and responsiveness of AI-powered coding tools.
+
+## Our Commentary
+
+This is a fantastic example of how AI is driving innovation in core developer tooling. The problem of slow regex searches in massive monorepos is a pain point many developers know well. If AI agents are going to be truly effective, they need lightning-fast access to code, and waiting 15 seconds for `ripgrep` simply won't cut it. Cursor's approach to indexing text specifically for agent tools is a smart solution. It highlights the need for specialized infrastructure to support AI-driven workflows, rather than just slapping AI on top of existing tools. We're excited about the potential performance gains this could bring to AI-assisted development.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Boosts App Security with AI-Powered Detections]]></title>
+        <id>https://digestweb.dev/articles/2026-03-23/github-ai-powered-security-detections</id>
+        <link href="https://digestweb.dev/articles/2026-03-23/github-ai-powered-security-detections"/>
+        <updated>2026-03-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- GitHub has expanded its application security coverage by integrating AI-powered detections with CodeQL.
+- This enhancement allows GitHub Code Security to identify vulnerabilities across a wider range of languages and frameworks.
+- The goal is to provide more comprehensive and intelligent security analysis for developers.
+
+## Our Commentary
+
+Security scanning that actually reduces false positives would be genuinely useful — most teams tune out SAST alerts because the signal-to-noise ratio is terrible. Whether AI improves that ratio or just produces different false positives at scale is the real question. The CodeQL integration at least keeps the analysis grounded rather than relying purely on LLM pattern matching, which is probably the right call.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Sneaky CSS Header Blocker Trick]]></title>
+        <id>https://digestweb.dev/articles/2026-03-23/josh-w-comeau-sneaky-css-header-blocker-trick</id>
+        <link href="https://digestweb.dev/articles/2026-03-23/josh-w-comeau-sneaky-css-header-blocker-trick"/>
+        <updated>2026-03-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Josh explains the "header blocker" pattern — a technique to prevent content from awkwardly peeking under a sticky header.
+- The implementation turns out to be simpler than expected, using positioning and pseudo-elements.
+- The effect is invisible when done right, but the jank is obvious when it's missing.
+
+## Our Commentary
+
+This is one of those polish details that separates sites that feel finished from ones that feel rushed. The sticky header content-bleed problem is everywhere, and most sites just ignore it. Josh's explanations are usually worth reading even if you think you know the technique — his interactive demos tend to reveal edge cases you hadn't considered.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Details Safety Measures for Creating with Sora]]></title>
+        <id>https://digestweb.dev/articles/2026-03-23/openai-sora-safety-measures</id>
+        <link href="https://digestweb.dev/articles/2026-03-23/openai-sora-safety-measures"/>
+        <updated>2026-03-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI outlines the content policies, filters, and moderation systems built into Sora 2 and the Sora app.
+- The post addresses challenges specific to video generation: deepfakes, synthetic news footage, and non-consensual content.
+- Their approach combines pre-generation filtering, output watermarking, and post-generation review.
+
+## Our Commentary
+
+Laying out specifics is at least a step toward accountability. The harder problem — detecting AI-generated video at scale across the open web — isn't something any single vendor can solve, and this post focuses mostly on what OpenAI controls within their own platform. That's the easier half of the problem. Useful to read for what they've committed to, but the broader ecosystem question is still wide open.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fluid X-Ray Reveal Effect with Dual Scenes in Three.js]]></title>
+        <id>https://digestweb.dev/articles/2026-03-23/threejs-fluid-xray-reveal-effect</id>
+        <link href="https://digestweb.dev/articles/2026-03-23/threejs-fluid-xray-reveal-effect"/>
+        <updated>2026-03-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Codrops presents a tutorial on building a "dual-scene fluid x-ray reveal effect" using Three.js.
+- The technique involves blending two distinct 3D scenes with a fluid simulation for a dynamic visual transition.
+- This article is aimed at developers looking to implement advanced and creative graphics effects on the web.
+
+## Our Commentary
+
+Codrops tutorials tend to be well-documented even when the technique is non-trivial. The fluid simulation is mostly decorative here — the more transferable concept is the render target switching and mask compositing approach, which applies to plenty of other transition types. If you work with Three.js, the compositing pattern alone is worth pulling from this.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TypeScript 6.0 Released: Major Updates for Type-Safe JavaScript]]></title>
+        <id>https://digestweb.dev/articles/2026-03-23/typescript-6-0-released-major-updates</id>
+        <link href="https://digestweb.dev/articles/2026-03-23/typescript-6-0-released-major-updates"/>
+        <updated>2026-03-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- TypeScript 6.0 has been officially released, marking a significant update to the popular type-checking language.
+- The new version introduces a range of features and improvements aimed at enhancing type safety and developer experience.
+- Developers are encouraged to explore the release notes for detailed information on new syntax, compiler options, and tooling enhancements.
+
+## Our Commentary
+
+TS major versions mean breaking changes that ripple through the ecosystem slowly — frameworks, tooling, and DefinitelyTyped all need to catch up. The features worth paying attention to are the inference improvements; if they handle complex generics better, that's where the real day-to-day gains are. Check the migration guide before upgrading a production project, especially if you have custom `tsconfig` settings.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vitest v4.1.1 Released with Experimental Features & Bug Fixes]]></title>
+        <id>https://digestweb.dev/articles/2026-03-23/vitest-4-1-1-experimental-features-bug-fixes</id>
+        <link href="https://digestweb.dev/articles/2026-03-23/vitest-4-1-1-experimental-features-bug-fixes"/>
+        <updated>2026-03-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Vitest v4.1.1 has been released, bringing a mix of new experimental features and bug fixes.
+- New experimental features include `matchesTags` for filtering tests and `experimental.vcsProvider`.
+- The update also addresses various bugs, including issues with fixture detection, `vi.mocked()`, coverage reports, and `vi.advanceTimers`.
+
+## Our Commentary
+
+A `v4.1.1` release for Vitest is always welcome, especially when it includes both new experimental features and a solid list of bug fixes. It's good to see continued iteration on the testing experience, with additions like `matchesTags` potentially offering more granular control over test execution. The bug fixes, particularly around mocking and coverage, suggest a maturing codebase, which is crucial for a testing framework. We appreciate the steady progress and the team's commitment to refining the developer experience. It's these incremental improvements that collectively make a big difference in daily development workflows.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lossy Self-Improvement: Why AI Won't Lead to Fast Takeoff]]></title>
+        <id>https://digestweb.dev/articles/2026-03-22/lossy-self-improvement-ai-fast-takeoff</id>
+        <link href="https://digestweb.dev/articles/2026-03-22/lossy-self-improvement-ai-fast-takeoff"/>
+        <updated>2026-03-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- **Core Argument:** AI self-improvement is a real phenomenon, but it's fundamentally 'lossy.' This means that each iteration of improvement introduces some degradation or inefficiency, preventing the exponential, uncontrolled growth often associated with 'fast takeoff' scenarios for Artificial General Intelligence (AGI).
+- **Mechanisms of Loss:** Lambert points to several factors contributing to this loss, including data degradation (e.g., models training on their own outputs), model drift, and the inherent computational and practical limits of iterative refinement.
+- **Implications for AGI:** The 'lossy' nature suggests a more gradual, controlled, and perhaps predictable path for AGI development, rather than a sudden, uncontainable intelligence explosion.
+
+## Our Commentary
+
+This piece from Nathan Lambert offers a dose of realism to the discussions around AI takeoff. It's an argument against the immediate 'fast takeoff' scenario, offering a more measured outlook on AGI development.
+
+Lambert's focus on the 'lossy' nature of self-improvement provides a compelling counter-narrative to the more alarmist predictions. It doesn't dismiss the potential for powerful AI, but it reframes the timeline and nature of its emergence, suggesting a more manageable progression. This kind of grounded analysis is crucial for fostering a balanced understanding of AI's future, moving beyond hype and fear to a more informed discussion about its actual trajectory.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Profiling Hacker News Users: Insights from Comment Data]]></title>
+        <id>https://digestweb.dev/articles/2026-03-22/profiling-hacker-news-users-comments</id>
+        <link href="https://digestweb.dev/articles/2026-03-22/profiling-hacker-news-users-comments"/>
+        <updated>2026-03-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- **Data Source:** Simon Willison utilized publicly available Hacker News comment data to conduct a profiling exercise.
+- **Methodology:** The project involved extracting and analyzing comment histories to identify recurring themes, common interests, and posting patterns among users.
+- **Insights Gained:** The analysis revealed interesting insights into the Hacker News community, such as prevalent topics of discussion, user engagement styles, and potential demographic indicators based on comment content.
+- **Tools Used:** The article likely details the specific tools and scripting techniques employed for data extraction, processing, and visualization.
+
+## Our Commentary
+
+It's a good example of how simple scripting and data analysis can reveal surprising insights about online communities. We find it particularly interesting how one can infer user personas from their digital footprints, even from seemingly unstructured data like forum comments.
+
+While there are obvious ethical considerations around data privacy and profiling that we should always be mindful of, the technical approach here offers valuable lessons in data extraction and analysis for anyone interested in web scraping or community insights. It's a reminder that even seemingly mundane data holds a wealth of information, and with the right tools, you can uncover truly compelling patterns. This kind of project sparks curiosity about what else we could learn from public data, responsibly, of course.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PCGamer Article Performance Audit by Simon Willison]]></title>
+        <id>https://digestweb.dev/articles/2026-03-22/simon-willison-pcgamer-performance-audit</id>
+        <link href="https://digestweb.dev/articles/2026-03-22/simon-willison-pcgamer-performance-audit"/>
+        <updated>2026-03-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison performed a detailed performance audit of an article on PCGamer.com.
+- The analysis covers loading speed, render-blocking resources, and opportunities for improvement.
+- PCGamer is a high-traffic commercial site with real constraints — ad networks, CMS overhead — making this more representative than tutorial examples.
+
+## Our Commentary
+
+Real sites make the best test subjects because they carry actual baggage: third-party scripts, ad networks, legacy markup. An audit of a site like PCGamer shows what performance trade-offs look like under real publishing constraints, not what the ideal Lighthouse score looks like in isolation. Worth reading with your own site's compromises in mind.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Visual Guide to Attention Variants in Modern LLMs]]></title>
+        <id>https://digestweb.dev/articles/2026-03-22/visual-guide-attention-variants-llms</id>
+        <link href="https://digestweb.dev/articles/2026-03-22/visual-guide-attention-variants-llms"/>
+        <updated>2026-03-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- **Comprehensive Overview:** The article offers a detailed visual exploration of the evolution and different types of attention mechanisms employed in modern Large Language Models (LLMs).
+- **Key Variants Covered:** It breaks down concepts like Multi-Head Attention (MHA), Grouped-Query Attention (GQA), Multi-Query Attention (MLA), sparse attention, and various hybrid architectures.
+- **Visual Learning:** Emphasizes visual explanations to demystify these complex components, making them more accessible to a broader audience interested in LLM internals.
+- **Practical Relevance:** Understanding these variants is crucial for comprehending how LLMs process information, manage computational resources, and scale effectively.
+
+## Our Commentary
+
+Understanding the internal mechanics of LLMs is becoming increasingly vital for anyone working with or even just curious about AI. This visual guide is a godsend for anyone trying to grasp the nuances of attention variants without getting lost in dense academic papers. The clarity provided here are exactly what we look for in educational content - that's why we marked this article as "Must Read"!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Illusion of Being Informed: A Personal Reflection on News & Social Media]]></title>
+        <id>https://digestweb.dev/articles/2026-03-21/illusion-of-being-informed-news-social-media</id>
+        <link href="https://digestweb.dev/articles/2026-03-21/illusion-of-being-informed-news-social-media"/>
+        <updated>2026-03-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- **Information Overload**: The author discusses the overwhelming feeling of consuming news in 2026, likening it to a "hive mind of 8 billion people screaming."
+- **Social Media's Impact**: Citing Erin Kissane, the article highlights research suggesting social media makes us _feel_ more informed without actually increasing knowledge, magnifying the Dunning-Kruger effect.
+
+## Our Commentary
+
+This note really resonated with us. The feeling of being constantly bombarded by information, yet somehow less informed, is a pervasive modern dilemma. Rendle's reflection on the "illusion of being informed" hits home, especially for those of us who spend our days online. For everyone feeling similarily - we recommend reading original piece by Erin Kissane [Landslide; a ghost story](https://www.wrecka.ge/landslide-a-ghost-story/).]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Integrating AI Coding Agents with Git: A Guide to Agentic Engineering Patterns]]></title>
+        <id>https://digestweb.dev/articles/2026-03-21/integrating-ai-coding-agents-with-git</id>
+        <link href="https://digestweb.dev/articles/2026-03-21/integrating-ai-coding-agents-with-git"/>
+        <updated>2026-03-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- **Agentic Engineering Focus**: The article delves into the practicalities of "agentic engineering," specifically how AI coding agents can be integrated into development workflows.
+- **Git Integration**: It provides guidance on using Git as a core component when working with autonomous coding agents.
+
+## Our Commentary
+
+The rise of AI coding agents is undeniable, and the big question for developers isn't _if_ we'll use them, but _how_ we'll integrate them effectively into our existing workflows. Git is the bedrock of modern development, so understanding how agents can interact with it without causing chaos is pretty important.
+As always - kudos to the author for providing specific examples. Now it's time to try them our in our codebases!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pnpm 11 Beta 2: Major Store & Global Package Overhauls]]></title>
+        <id>https://digestweb.dev/articles/2026-03-21/pnpm-11-beta-2-major-store-global-package-overhauls</id>
+        <link href="https://digestweb.dev/articles/2026-03-21/pnpm-11-beta-2-major-store-global-package-overhauls"/>
+        <updated>2026-03-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- **Store Architecture Overhaul**: pnpm 11 introduces a new store version (v11) with significant changes.
+- **SQLite Integration**: Package index data is now stored in a single SQLite database, replacing individual JSON files, to reduce I/O and improve space efficiency.
+- **Optimized Index Format**: The index file format is optimized to store hash algorithms once and use hex digests, improving performance for path lookups.
+- **Bundled Manifests**: Package manifests are now stored directly in the index, reducing the need to read `package.json` files during resolution and installation.
+- **Global Virtual Store**: Global installs (`pnpm add -g`) and `pnpm dlx` now default to using the global virtual store.
+- **Isolated Global Packages**: Each globally installed package gets its own isolated directory, preventing conflicts and improving consistency.
+
+## Our Commentary
+
+This is a pretty big deal for pnpm users, and honestly, for anyone in the Node.js ecosystem who cares about package management efficiency. The move to SQLite for the package index is a smart play; we've seen similar shifts in other tools to combat filesystem overhead, and it usually pays off in spades for performance. The idea of isolated global packages is also a huge win for developer experience. How many times have we wrestled with conflicting global tools? This change should make that a thing of the past, which is a relief. It's still a beta, but these are the kinds of foundational improvements that make a package manager truly robust. We're excited to see how this lands in a stable release.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building an Authentic Portfolio: Finding Your Own Direction]]></title>
+        <id>https://digestweb.dev/articles/2026-03-20/building-authentic-portfolio-finding-direction</id>
+        <link href="https://digestweb.dev/articles/2026-03-20/building-authentic-portfolio-finding-direction"/>
+        <updated>2026-03-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article is a personal account by Jackie Zhang detailing their journey in portfolio creation.
+- It focuses on the shift from merely imitating existing design references to developing a portfolio that authentically represents their individual style and capabilities.
+- The core message is about finding personal direction and voice in creative work.
+
+## Our Commentary
+
+We've all been there, endlessly scrolling through Dribbble or Behance, trying to replicate what's "hot.". For anyone struggling with portfolio anxiety or feeling like their work isn't truly _theirs_, this could be a valuable read. It's less about technical skills and more about the often-overlooked psychological aspect of creative development.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chrome Canary Tests Native Text Scaling for Enhanced Web Accessibility]]></title>
+        <id>https://digestweb.dev/articles/2026-03-20/chrome-canary-native-text-scaling-accessibility</id>
+        <link href="https://digestweb.dev/articles/2026-03-20/chrome-canary-native-text-scaling-accessibility"/>
+        <updated>2026-03-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article highlights a long-standing accessibility gap: web pages on mobile browsers (Safari, Chrome) do not respect system-wide text scaling settings, unlike native apps.
+- Chrome Canary is introducing a new `<meta name=text-scale>` tag to address this.
+- This feature is distinct from page zoom, as it specifically scales text elements while leaving other page components unaffected.
+- It aims to provide a more consistent and accessible experience for users who rely on larger text sizes.
+
+## Our Commentary
+
+This is fantastic news for web accessibility! The lack of proper system text scaling on the web has been a persistent frustration for users with visual impairments. It's always felt like a glaring omission when native apps handle it so gracefully. The introduction of `<meta name=text-scale>` in Chrome Canary is a huge (small :>) step forward. We're eager to see this roll out more widely!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fixing Dropdowns in Scrollable Containers: A Practical Guide]]></title>
+        <id>https://digestweb.dev/articles/2026-03-20/fixing-dropdowns-scrollable-containers-guide</id>
+        <link href="https://digestweb.dev/articles/2026-03-20/fixing-dropdowns-scrollable-containers-guide"/>
+        <updated>2026-03-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article explains the common issue of dropdown menus being clipped or disappearing when placed within scrollable containers.
+- It delves into the underlying reasons for this behavior, often related to CSS `overflow` properties and stacking contexts.
+- Practical solutions are provided to properly fix these issues, ensuring dropdowns display correctly without being cut off.
+
+## Our Commentary
+
+Oh, the classic dropdown-in-scrollable-container headache! We've all wrestled with this one, often resorting to hacky `z-index` fixes or just giving up and redesigning. It's a deceptively simple problem that can cause significant UX frustration. This is definitely one to bookmark for the next time we encounter that infuriating clipping.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Interfacing vs. Reading: A New Perspective on Typography and UI]]></title>
+        <id>https://digestweb.dev/articles/2026-03-20/interfacing-vs-reading-typography-ui-design</id>
+        <link href="https://digestweb.dev/articles/2026-03-20/interfacing-vs-reading-typography-ui-design"/>
+        <updated>2026-03-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- The note highlights the concept of "interfacing" as a distinct mode of reading, characterized by instantaneous scanning of single words or short phrases (e.g., on a smartwatch, URL).
+- It highlights MD UI, a new neo-grotesque type family designed specifically to facilitate this "interfacing" mode.
+- The author praises Mass-Driver's confident design philosophy for MD UI, aiming to evolve familiar styles for future UI needs.
+
+## Our Commentary
+
+Something for typography fans :) The distinction between "reading" and "interfacing" is something we probably all intuitively understand but rarely articulate. Thinking about how users _actually_ consume information on screens, often in quick glances, should absolutely influence typography choices. The idea of a typeface specifically optimized for this kind of rapid information processing is pretty cool! It's a great reminder to challenge our fundamental understanding of how users engage with interfaces.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Users Confused by Site AI Chatbots: Define Their Purpose]]></title>
+        <id>https://digestweb.dev/articles/2026-03-20/nngroup-users-confused-ai-chatbots</id>
+        <link href="https://digestweb.dev/articles/2026-03-20/nngroup-users-confused-ai-chatbots"/>
+        <updated>2026-03-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- NNGroup's research indicates a significant user perception problem with site AI chatbots: users often don't understand their purpose or see a compelling reason to use them.
+- The article suggests that for AI chatbots to prove their value, they must address specific user problems that are not adequately solved by existing website functionalities.
+- Simply having a chatbot isn't enough; its utility needs to be clearly defined and communicated to users.
+
+## Our Commentary
+
+This article hits on a crucial point we've been observing: the "AI for AI's sake" phenomenon. Just because you _can_ integrate an AI doesn't mean you _should_, or at least not without a clear value proposition. We've seen so many chatbots that feel like glorified FAQs or clunky search interfaces. NNGroup's findings are a stark reminder that technology adoption hinges on solving real user problems, not just being novel. It's a call to action for product teams to critically evaluate the actual utility of their AI integrations and ensure they're genuinely enhancing the user experience, not just adding another layer of confusion.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VoidZero's March Launch Week: Oxlint & Vite 8 Deliver Massive Performance Boosts]]></title>
+        <id>https://digestweb.dev/articles/2026-03-20/voidzero-march-launch-week-oxlint-vite8-performance-boosts</id>
+        <link href="https://digestweb.dev/articles/2026-03-20/voidzero-march-launch-week-oxlint-vite8-performance-boosts"/>
+        <updated>2026-03-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Oxlint now supports JavaScript plugins, offering near-100% compatibility with the ESLint ecosystem and up to 100x faster linting.
+- Vite 8 introduces Rolldown, a new Rust-based bundler that replaces both esbuild and Rollup, unifying dev/prod and delivering 10-30x faster builds.
+- New features in Vite 8 include integrated Devtools, built-in tsconfig paths, automatic emitDecoratorMetadata, and Oxc-powered React transforms.
+- Real-world examples show significant build time reductions (e.g., Linear from 46s to 6s).
+
+## Our Commentary
+
+This is a monumental release for the web development ecosystem. The performance gains from both Oxlint and Vite 8 are staggering. We've been watching the Rustification of web tooling for a while, and this feels like a major inflection point. Oxlint's ability to run existing ESLint plugins is a game-changer; it removes the biggest barrier to adoption for many teams. And Vite 8's move to a single, super-fast Rust bundler for both dev and prod? That's a dream come true for consistency and speed. We anticipate this will set a new standard for build tool performance and developer experience. The impact on CI times and local feedback loops will be immense.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cursor Introduces Composer 2: Faster, More Efficient AI Coding]]></title>
+        <id>https://digestweb.dev/articles/2026-03-19/cursor-composer-2-faster-efficient-ai-coding</id>
+        <link href="https://digestweb.dev/articles/2026-03-19/cursor-composer-2-faster-efficient-ai-coding"/>
+        <updated>2026-03-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- **Composer 2 Release:** An update to Cursor's underlying AI model for its code editor.
+- **Key Improvements:** Achieves "frontier-level coding" capabilities.
+- **Performance:** Higher token efficiency and a faster default variant.
+- **Validation:** Backed by strong results on CursorBench.
+
+## Our Commentary
+
+Composer 2 sounds like a solid step forward, especially the focus on "higher token efficiency" and a "faster default variant." Nobody wants to wait around for suggestions nor pay too much for them. I'm always a bit skeptical of "frontier-level coding" claims, but if it translates to genuinely better and faster code generation and understanding, then it's a win for developers.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Squad: Coordinated AI Agents Orchestrated Within Your Repository]]></title>
+        <id>https://digestweb.dev/articles/2026-03-19/github-squad-coordinated-ai-agents-repository</id>
+        <link href="https://digestweb.dev/articles/2026-03-19/github-squad-coordinated-ai-agents-repository"/>
+        <updated>2026-03-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- **Squad System:** GitHub's approach to orchestrating multiple AI agents directly within a code repository.
+- **Repository-Native:** Agents operate within the repository context, leveraging existing code and structure.
+- **Design Patterns:** Focus on creating multi-agent workflows that are inspectable, predictable, and collaborative.
+- **GitHub Copilot Integration:** Built around and enhancing the capabilities of GitHub Copilot.
+
+## Our Commentary
+
+Okay, this is where things start to get really interesting, and maybe a little unsettling. The idea of "coordinated AI agents" running _inside_ your repository, making changes, collaborating... it's a vision of the future that's rapidly becoming the present. The potential for increased productivity is immense, but so is the potential for opaque, hard-to-debug issues if not designed carefully. It feels like we're on the cusp of a paradigm shift in how we interact with our codebases, moving from direct human interaction to managing a team that includes AI entities.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Modal vs. Separate Page: A UX Decision Tree for Web Design]]></title>
+        <id>https://digestweb.dev/articles/2026-03-19/modal-vs-separate-page-ux-decision-tree</id>
+        <link href="https://digestweb.dev/articles/2026-03-19/modal-vs-separate-page-ux-decision-tree"/>
+        <updated>2026-03-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- **Core Decision:** Guides on when to use a modal dialog versus a separate page for user interactions.
+- **Considerations:** Covers factors like the level of interruption, navigation flow, and user context.
+- **Practical Advice:** Offers a decision-making framework to help avoid common UX pitfalls with modals.
+
+## Our Commentary
+
+Ah, the age-old "modal or new page?" question. It's one of those fundamental UX decisions that can make or break a user's experience, and honestly, it's still something I see teams struggle with. This kind of decision tree is incredibly valuable because it forces you to think through the implications beyond just "it looks good.".
+It's a good reminder that good design is about thoughtful choices, not just trends.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Open Source Mentorship in the AI Era: A 3 Cs Framework for Maintainers]]></title>
+        <id>https://digestweb.dev/articles/2026-03-19/open-source-mentorship-ai-era-3cs-framework</id>
+        <link href="https://digestweb.dev/articles/2026-03-19/open-source-mentorship-ai-era-3cs-framework"/>
+        <updated>2026-03-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- **Challenge:** Growing contribution volumes make mentorship signals harder to interpret for open-source maintainers.
+- **Solution:** The "3 Cs framework" is introduced to help maintainers mentor more strategically.
+- **Goal:** Enable effective mentorship while preventing maintainer burnout.
+
+## Our Commentary
+
+The rise of AI tools like Copilot means more code, faster, but it doesn't necessarily mean better or more thoughtful contributions. How do you mentor someone when a significant portion of their code might be AI-generated?
+
+The "3 Cs framework" sounds like a practical approach to navigate this new landscape. I appreciate GitHub addressing the maintainer burnout aspect too; it's a real problem, and anything that helps maintainers be more efficient and less overwhelmed is a win for the entire open-source ecosystem.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Acquires Astral, Creators of uv and Ruff, to Boost Codex & Dev Tools]]></title>
+        <id>https://digestweb.dev/articles/2026-03-19/openai-acquires-astral-uv-ruff-codex-dev-tools</id>
+        <link href="https://digestweb.dev/articles/2026-03-19/openai-acquires-astral-uv-ruff-codex-dev-tools"/>
+        <updated>2026-03-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- **Acquisition:** OpenAI has acquired Astral, a company known for its high-performance Python developer tools.
+- **Key Tools:** Astral developed `uv` (a fast Python package installer/resolver), `Ruff` (an extremely fast Python linter/formatter), and `ty` (a type checker).
+- **Strategic Goal:** The acquisition is intended to accelerate the growth of OpenAI's Codex model.
+- **Future Impact:** Aims to power the next generation of AI-driven developer tools, particularly for Python.
+
+## Our Commentary
+
+Wow. OpenAI acquiring Astral is a bombshell. Astral's tools like `uv` and `Ruff` have been absolute game-changers for the Python ecosystem, bringing incredible speed and efficiency to tasks that used to be painfully slow.
+
+The idea of OpenAI integrating that kind of performance and developer experience into their AI-powered developer tools, especially Codex, is both incredibly exciting and a little daunting. It seems that AI companies are not just building models, but actively acquiring the best developer tooling talent to embed AI deeply into the development workflow. This isn't just about Python; it's about the future of how _all_ code gets written, checked, and managed.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Monitors Coding Agents for Misalignment with Chain-of-Thought]]></title>
+        <id>https://digestweb.dev/articles/2026-03-19/openai-monitors-coding-agents-misalignment-chain-of-thought</id>
+        <link href="https://digestweb.dev/articles/2026-03-19/openai-monitors-coding-agents-misalignment-chain-of-thought"/>
+        <updated>2026-03-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- **Focus:** Monitoring internal coding agents for potential misalignment.
+- **Methodology:** Utilizes "chain-of-thought monitoring" to analyze agent behavior.
+- **Goal:** Detect risks and strengthen AI safety safeguards.
+- **Context:** Applied to real-world deployments of coding agents.
+
+## Our Commentary
+
+The idea of "misalignment" in coding agents is a genuinely scary thought – imagine an AI assistant subtly introducing vulnerabilities or inefficient patterns without detection. OpenAI's use of "chain-of-thought monitoring" sounds like a smart approach to get inside the black box and understand _why_ an agent made a particular decision. It's not just about the output, but the reasoning process. As we delegate more tasks to AI, understanding and mitigating these risks becomes paramount. I'm glad to see them sharing their approach, because this isn't just an OpenAI problem - it's an industry-wide challenge we all need to grapple with.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pnpm 11 Beta 0: Major Store & Global Package Overhauls]]></title>
+        <id>https://digestweb.dev/articles/2026-03-19/pnpm-11-beta-major-store-global-package-overhauls</id>
+        <link href="https://digestweb.dev/articles/2026-03-19/pnpm-11-beta-major-store-global-package-overhauls"/>
+        <updated>2026-03-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- **Store Runtime Changes:** Dependencies are now linked from a global virtual store.
+- **Optimized Index Format:** Uses hex digests for file entries and stores hash algorithms once, improving lookup performance.
+- **SQLite for Package Index:** Replaces individual JSON files with a single SQLite database for metadata, reducing I/O and improving space efficiency.
+- **Bundled Manifests:** Package manifests are stored directly in the index, eliminating `package.json` reads during resolution.
+- **Global Virtual Store:** `pnpm add -g` and `pnpm dlx` now use a global virtual store by default.
+- **Isolated Global Packages:** Each globally installed package gets its own isolated directory, preventing conflicts.
+
+## Our Commentary
+
+This is a pretty big deal for pnpm users, and honestly, for anyone in the Node.js ecosystem who cares about package management. The shift to SQLite for the package index is a fascinating move. We've seen similar patterns in other tools trying to optimize I/O, and it makes a lot of sense for something as I/O-heavy as a package manager.
+"isolated global packages" feature - that's a really good idea. I wrestled with global package conflicts way too many times already. It's still a beta, of course, but the direction pnpm is taking here feels genuinely innovative and addresses some long-standing pain points.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bun v1.3.11: New Cron API & 100+ Bug Fixes]]></title>
+        <id>https://digestweb.dev/articles/2026-03-18/bun-v1-3-11-cron-api-fixes</id>
+        <link href="https://digestweb.dev/articles/2026-03-18/bun-v1-3-11-cron-api-fixes"/>
+        <updated>2026-03-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary
+
+- Bun v1.3.11 is a significant patch release, addressing 105 issues and improving Node.js compatibility.
+- **New `Bun.cron` API:** Enables scheduling OS-level cron jobs directly within Bun applications.
+- **New `Bun.sliceAnsi`:** Provides ANSI/grapheme-aware string slicing for better terminal output handling.
+- **Testing Improvements:** Adds `bun test --path-ignore-patterns` for more granular test execution.
+- **Performance & Size:** Smaller binary size on Linux (4 MB reduction).
+- **Compatibility:** Numerous fixes for `dgram`, `fs`, `http2`, bundler, CSS parsing, and Node.js API parity.
+
+## Our Commentary
+
+Jareed Sumner and Bun still keep their tremendous pace! It's hard to pin point one single best thing about this release - it looks like mainly maintenance stuff. Will be good to upgrade though! Wondering how much docker image size decresed with 4MB less in Linux build :-)]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deno v2.7.6: CPU Flamegraphs & Node.js Compat Boosts]]></title>
+        <id>https://digestweb.dev/articles/2026-03-18/deno-v2-7-6-cpu-flamegraphs-node-compat</id>
+        <link href="https://digestweb.dev/articles/2026-03-18/deno-v2-7-6-cpu-flamegraphs-node-compat"/>
+        <updated>2026-03-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Deno v2.7.6 is a patch release packed with new features and fixes.
+- **Performance Tooling:** Adds `--cpu-prof-flamegraph` to generate interactive SVG flamegraphs for CPU profiling.
+- **Module Handling:** `deno eval` now auto-detects CJS vs. ESM modules.
+- **Node.js Compatibility:** Further enhances Node.js compatibility with additions like `MIMEType`, `Symbol.dispose` for `ChildProcess`, and improved `child_process` test passing.
+- **Core Updates:** Updates V8 to 146.8.0 and adds a cloneable resource registry for structured cloning.
+- **Bug Fixes:** Addresses numerous issues across core, CLI, coverage, console, crypto, fetch, FFI, and NAPI extensions.
+
+## Out Commentary
+
+Good to see Deno still broadens compatibility layer with Node.js. That helps migrating projects and reusing existing libraries!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js 16.2: Adapters, AI Tooling & Turbopack Boosts]]></title>
+        <id>https://digestweb.dev/articles/2026-03-18/nextjs-16-2-adapters-ai-turbopack</id>
+        <link href="https://digestweb.dev/articles/2026-03-18/nextjs-16-2-adapters-ai-turbopack"/>
+        <updated>2026-03-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Next.js 16.2 is a substantial update focusing on extensibility, developer experience, and performance.
+- **Adapters:** A new feature enabling greater flexibility and integration with various environments.
+- **AI Tooling:** Includes `AGENTS.md` in `create-next-app`, browser log forwarding, and `next-browser` for AI agent debugging.
+- **Turbopack Enhancements:** Delivers faster builds, Server Fast Refresh, tree shaking for dynamic imports, SRI support, and over 200 bug fixes.
+- **Performance & DX:** General rendering performance improvements, better debugging, and enhanced error pages.
+
+## Our Commentary
+
+Next.js continues to push the boundaries of full-stack React development. The introduction of Adapters is definitely something to read about for library authors and integrators.
+Improvements to Turbopack look awesome. Quicker startup times and faster rendering intensifies rivarly with Vite (who just introduced collaboration with Cloudflare). What a time to be alive.
+To be honest, from dev perspective, the new "Hydration Diff Indicator" might be a winner. I think everyone agrees that it was not always easy to find exact cause of hydration issues in Next.js. Hopefully that's now a thing of the past!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Running Qwen 397B Locally with Apple\'s "LLM in a Flash"]]></title>
+        <id>https://digestweb.dev/articles/2026-03-18/running-qwen-397b-locally-apple-llm-in-a-flash</id>
+        <link href="https://digestweb.dev/articles/2026-03-18/running-qwen-397b-locally-apple-llm-in-a-flash"/>
+        <updated>2026-03-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary
+
+- **Topic:** Explores the feasibility and methods for running very large language models (specifically Qwen 397B) on local hardware.
+- **Key Technique:** Utilizes Apple's "LLM in a Flash" technology, designed for efficient on-device LLM inference.
+- **Author:** Simon Willison, known for his deep dives into AI and data topics.
+
+## Our Commentary
+
+The idea of running a 397B parameter model locally is mind-boggling, even with Apple's "LLM in a Flash" optimizations. While this is definitely a niche topic for most web developers, it hints at a future where powerful AI capabilities might be directly integrated into client-side applications without relying solely on cloud APIs. It makes me wonder what kind of local AI-powered experiences we'll be building in the coming years.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cypress Cloud MCP Beta: AI Assistants Get Direct Test Run Access]]></title>
+        <id>https://digestweb.dev/articles/2026-03-17/cypress-cloud-mcp-beta-ai-assistants-test-runs</id>
+        <link href="https://digestweb.dev/articles/2026-03-17/cypress-cloud-mcp-beta-ai-assistants-test-runs"/>
+        <updated>2026-03-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- **Cloud MCP Beta Release:** Cypress introduces the beta of its Cloud Model Context Protocol (MCP) server.
+- **AI Integration:** Cloud MCP connects AI coding assistants and agents directly to Cypress Cloud.
+- **Context Gap Solution:** Aims to solve the problem of manually feeding test run context (like stack traces) to AI assistants, streamlining debugging.
+
+## Our Commentary
+
+The introduction of Cloud MCP by Cypress is a smart move, directly addressing a growing pain point in AI-assisted development: the "context gap.". Make sure to watch the video!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Designing Digital Products with Emotion: Lessons from Anime & Superheroes]]></title>
+        <id>https://digestweb.dev/articles/2026-03-17/designing-digital-products-emotion-anime-superheroes</id>
+        <link href="https://digestweb.dev/articles/2026-03-17/designing-digital-products-emotion-anime-superheroes"/>
+        <updated>2026-03-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- **Emotion in Design:** Design is not just about visuals but also about pacing and evoking feelings.
+- **Pop Culture Parallels:** The article draws insights from anime (e.g., _Dan Da Dan_) and superhero films (e.g., James Gunn’s _Superman_) to illustrate emotional shifts.
+- **Practical Design Patterns:** Translates these observations into actionable patterns for product design, focusing on "Emotion in Flow" and "Emotion in Conflict."
+
+## Our Commentary
+
+A refreshing perspective on product design, moving beyond the purely functional to explore the crucial role of emotion. It's a valuable reminder that the best digital products resonate on a deeper, human level, and that inspiration can come from unexpected places. Big + for Marvel reference!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Boosts Open Source Security with New Investments]]></title>
+        <id>https://digestweb.dev/articles/2026-03-17/github-boosts-open-source-security-investments</id>
+        <link href="https://digestweb.dev/articles/2026-03-17/github-boosts-open-source-security-investments"/>
+        <updated>2026-03-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- **Open Source Security Focus:** GitHub is increasing its commitment to securing the open source ecosystem.
+- **Maintainer Funding:** Investments include direct funding for open source maintainers.
+- **Strategic Partnerships:** Collaboration with organizations like Alpha-Omega to enhance supply chain security.
+- **Resource Expansion:** Expanding access to tools and resources to reduce maintainer burden and strengthen software supply chains.
+
+## Our Commentary
+
+The security of the open source supply chain is a critical concern for all web developers, given our reliance on countless packages. GitHub's initiative to invest directly in maintainers and partner with security organizations is a welcome development! A more secure open source ecosystem benefits everyone.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TanStack Start Achieves 5.5x SSR Throughput Boost Through Profiling]]></title>
+        <id>https://digestweb.dev/articles/2026-03-17/tanstack-start-5x-ssr-throughput-boost-profiling</id>
+        <link href="https://digestweb.dev/articles/2026-03-17/tanstack-start-5x-ssr-throughput-boost-profiling"/>
+        <updated>2026-03-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- **Significant Performance Gain:** TanStack Start achieved a 5.5x increase in Server-Side Rendering (SSR) throughput.
+- **Profiling Methodology:** The improvement was a direct result of rigorous profiling under sustained load to identify and optimize SSR hot paths.
+- **Eliminating Unnecessary Work:** Key optimizations involved removing redundant server-side computations and processes.
+
+## Our Commentary
+
+Whoah! This article from TanStack is a fantastic case study in the power of diligent performance profiling. A 5.5x improvement in SSR throughput is a massive win, directly translating to potentially lower infrastructure costs for applications built with TanStack Start.
+Developers, regardless of their framework choice, can glean valuable insights from their methodology for identifying and tackling performance hot spots.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vite 8.0 Ships with Rolldown, Wasm SSR, & Major Performance Boosts]]></title>
+        <id>https://digestweb.dev/articles/2026-03-17/vite-8-0-released-rolldown-wasm-ssr-performance</id>
+        <link href="https://digestweb.dev/articles/2026-03-17/vite-8-0-released-rolldown-wasm-ssr-performance"/>
+        <updated>2026-03-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- **Vite 8.0 Released:** A "mega release" for the popular build tool, featuring significant architectural and performance upgrades.
+- **Rolldown Integration:** Rolldown now replaces Rollup and esbuild under the hood, streamlining the build process.
+- **WebAssembly SSR Support:** Adds support for Server-Side Rendering with WebAssembly.
+- **Performance Gains:** Delivers substantial performance improvements across the board.
+- **Babel-Free React Plugin:** `@vitejs/plugin-react` v6 no longer requires Babel.
+- **Temporal API Advances:** The long-awaited Temporal API for robust date/time handling in JavaScript continues to gain support and advance through TC39.
+- **Other TC39 Proposals:** _Import Text_, _Error Stack Accessor_, and _Iterator Includes_ also advanced.
+
+## Our Commentary
+
+Vite 8.0 is undoubtedly the headline here, representing a monumental leap for one of the most critical tools in the modern web development stack. The shift to Rolldown is a bold move, promising even greater efficiency and a more unified toolchain. Combined with WebAssembly SSR and significant performance boosts, Vite continues to solidify its position as a leader in developer experience and build speed.
+
+Equally important is the continued advancement of the Temporal API. JavaScript's native date handling has been a source of frustration for years, and Temporal's progress towards widespread adoption is a huge win for developers. This newsletter highlights a period of rapid evolution, both in foundational web platform features and the essential tooling that underpins our daily work.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Implementing Hybrid Semantic + Lexical Search with AI]]></title>
+        <id>https://digestweb.dev/articles/2026-03-16/implementing-hybrid-semantic-lexical-search-with-ai</id>
+        <link href="https://digestweb.dev/articles/2026-03-16/implementing-hybrid-semantic-lexical-search-with-ai"/>
+        <updated>2026-03-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Explores the challenges of implementing effective search, finding that pure semantic search was insufficient.
+- Details an iterative process of combining semantic and lexical search methods.
+- Highlights the use of AI tools like Cursor and GPT-5.4 in refining the search algorithm.
+- Provides insights into practical problem-solving and continuous improvement for search functionality.
+
+## Our Commentary
+
+Kent C. Dodds consistently delivers high-quality, practical content, and this article is no exception. The deep dive into hybrid search is incredibly valuable, especially we all look to integrate AI into their applications.
+This piece is a must-read for anyone looking to enhance their site's search capabilities beyond basic keyword matching. And it's really cool to be able to follow Kent in his journey :)]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What’s !important #7: A Roundup of New & Noteworthy CSS Features]]></title>
+        <id>https://digestweb.dev/articles/2026-03-16/whats-important-7-new-noteworthy-css-features</id>
+        <link href="https://digestweb.dev/articles/2026-03-16/whats-important-7-new-noteworthy-css-features"/>
+        <updated>2026-03-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Features new CSS functions such as `random()` and `random-item()`.
+- Explores advanced layout and design techniques like folded corners with `clip-path` and `backdrop-filter`.
+- Highlights significant web platform additions including the Popover API and anchored container queries.
+- Covers a broad spectrum of CSS topics, ensuring developers are aware of both new and potentially overlooked features.
+
+## Our Commentary
+
+The "What's !important" series is a must-read for anyone interested in "real webdev" - so new CSS/JS APIs :)
+This installment shows us random methods in CSS and reminds that `clip-path` is finally available in every browser (in case you've [missed it](https://caniuse.com/wf-clip-path)). But let's not forget about the most important - Doom in CSS. Something to use in production for sure!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why Tailwind CSS Excels for Building Web Layouts]]></title>
+        <id>https://digestweb.dev/articles/2026-03-16/why-tailwind-css-excels-for-building-web-layouts</id>
+        <link href="https://digestweb.dev/articles/2026-03-16/why-tailwind-css-excels-for-building-web-layouts"/>
+        <updated>2026-03-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Discusses the efficiency of Tailwind CSS for layout creation.
+- Highlights four specific advantages of using Tailwind for common layout patterns.
+- Emphasizes the utility-first methodology's benefits in structuring web pages.
+
+## Our Commentary
+
+Okay, this one is really interesting. Layout syntax proposed in examples looks so clean ;\_; Looks like we need to rewrite so grids, be right back!]]></summary>
+    </entry>
 </feed>
