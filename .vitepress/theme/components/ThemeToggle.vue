@@ -1,9 +1,18 @@
 <script setup lang="ts">
 import { useData } from 'vitepress';
-import { nextTick } from 'vue';
+import { nextTick, onMounted, ref, watch } from 'vue';
 import Button from './Button.vue';
 
 const { isDark } = useData();
+
+const showDarkIcon = ref(false);
+
+onMounted(() => {
+  showDarkIcon.value = isDark.value;
+  watch(isDark, (newVal) => {
+    showDarkIcon.value = newVal;
+  });
+});
 
 const toggle = async ({ clientX: x, clientY: y }: MouseEvent) => {
   if (
@@ -43,11 +52,10 @@ const toggle = async ({ clientX: x, clientY: y }: MouseEvent) => {
   <Button
     size="lg lg:md"
     @click="toggle($event)"
-    :aria-label="isDark ? 'Switch to light mode' : 'Switch to dark mode'"
+    :aria-label="showDarkIcon ? 'Switch to light mode' : 'Switch to dark mode'"
   >
-    <!-- Sun — shown in dark mode to switch to light -->
     <svg
-      v-if="isDark"
+      v-if="showDarkIcon"
       xmlns="http://www.w3.org/2000/svg"
       width="22"
       height="22"
@@ -65,7 +73,6 @@ const toggle = async ({ clientX: x, clientY: y }: MouseEvent) => {
         d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"
       />
     </svg>
-    <!-- Moon — shown in light mode to switch to dark -->
     <svg
       v-else
       xmlns="http://www.w3.org/2000/svg"

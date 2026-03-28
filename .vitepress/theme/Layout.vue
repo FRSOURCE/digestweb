@@ -68,7 +68,6 @@ const navItems = [
     >
       <Logo />
 
-      <!-- Desktop nav — hidden on mobile -->
       <nav
         class="hidden lg:flex items-center gap-6 flex-1"
         aria-label="Site navigation"
@@ -90,7 +89,6 @@ const navItems = [
       class="flex [grid-area:curated] fixed sm:sticky bottom-2 right-2 sm:top-2 m-auto sm:mr-0 h-[48px] lg:bottom-2 z-50 gap-4"
     >
       <ThemeToggle class="!hidden lg:!inline-flex" />
-      <!-- Curated by FRSOURCE — always visible -->
       <Button
         href="https://www.frsource.org"
         target="_blank"
@@ -110,7 +108,6 @@ const navItems = [
         <FrsourceLogo prefix="hdr" class="w-[44px] lg:w-[52px] h-auto block" />
       </Button>
     </div>
-    <!-- Hamburger button — mobile only -->
     <div class="[grid-area:menu] sticky top-2 z-[1000] lg:hidden ml-auto">
       <div class="flex items-center gap-2">
         <ThemeToggle class="h-[48px] lg:h-[60px]" />
@@ -136,7 +133,6 @@ const navItems = [
           />
         </Button>
       </div>
-      <!-- ── Mobile menu panel ── -->
       <Transition name="mobile-menu">
         <header
           v-if="menuOpen"
@@ -195,7 +191,6 @@ const navItems = [
       </aside>
     </div>
 
-    <!-- ── Main ── -->
     <main
       class="flex-1 w-[980px] w-full mx-auto px-2 lg:px-4 pt-6 pb-16 [grid-area:content]"
     >
@@ -204,7 +199,6 @@ const navItems = [
       <Content v-else />
     </main>
 
-    <!-- ── Footer ── -->
     <footer
       class="py-2 px-4 pb-10 lg:pb-2 bg-dw-bg text-sm text-dw-muted [grid-area:footer] flex flex-col items-center justify-end gap-x-4 gap-y-1 lg:items-start lg:sticky lg:bottom-2"
     >
