@@ -2,7 +2,7 @@ name: Daily News Fetch
 
 on:
   schedule:
-    - cron: '0 3,22 * * *' # 03:00 UTC (04:00 CET) and 22:00 UTC (23:00 CET) every day
+    - cron: '0 3,21 * * *' # 03:00 UTC (05:00 CET) and 21:00 UTC (23:00 CET) every day
   workflow_dispatch: # allow manual trigger
 
 jobs:
