@@ -2,7 +2,7 @@
 layout: article
 title: 'Robin Rendle on the "Feeling" of Software and Blog Maintenance'
 description: 'Robin Rendle shares recent updates to his personal blog, covering image optimization, accessibility improvements, and typeface choices, while reflecting on the emotional aspect of software design and the challenges of maintaining a blog.'
-photo: 'https://picsum.photos/id/720/800/450'
+photo: 'https://picsum.photos/id/340/800/450'
 original_url: https://robinrendle.com/notes/software-is-a-feeling/
 source_name: 'Robin Rendle'
 source_author: 'Robin Rendle'
