@@ -10,6 +10,27 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-03-29/codrops-motion-highlights-17-web-animations",
+            "url": "https://digestweb.dev/articles/2026-03-29/codrops-motion-highlights-17-web-animations",
+            "title": "Codrops Motion Highlights #17: Creative Web Animations",
+            "summary": "## Summary & Key Takeaways\n\n- This edition of Motion Highlights from Codrops features a curated collection of web animations.\n- It includes examples ranging from fluid simulations to bold microinteractions.\n- The showcase emphasizes vibrant animation and visual storytelling on the creative web.\n\n## Our Commentary\n\nCodrops always delivers when it comes to visual inspiration, and this \"Motion Highlights\" series is a consistent source of \"wow\" moments. Worth scrolling-through, especially when you're looking for inspiration!",
+            "date_modified": "2026-03-29T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-03-29/pnpm-11-beta-4-performance-store-enhancements",
+            "url": "https://digestweb.dev/articles/2026-03-29/pnpm-11-beta-4-performance-store-enhancements",
+            "title": "pnpm 11 Beta 4 Introduces Major Performance & Store Enhancements",
+            "summary": "## Summary & Key Takeaways\n\n- The CLI output for script execution is now cleaner, showing `$ command` and suggesting `pnpm peers check` for peer dependency issues.\n- Lifecycle scripts now only populate well-known `npm_*` environment variables, aligning with Yarn's behavior.\n- Runtime dependencies are consistently linked from the global virtual store, which is also used by global installs and `pnpm dlx`.\n- The store's index file format has been optimized to store hash algorithms once and use hex digests, improving performance.\n- pnpm now utilizes SQLite for storing package index metadata, which reduces filesystem overhead, improves space efficiency, and enables concurrent access.\n\n## Our Commentary\n\nYet another post about upcoming pnpm 11. But well - we cannot get enought and wait any longer! :)\nThis pnpm 11 beta is packed with some seriously interesting under-the-hood changes. The move to SQLite for the package index is a big deal. It's a smart way to tackle filesystem overhead and should make installs even snappier.\nWaiting!",
+            "date_modified": "2026-03-29T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-03-29/robin-rendle-software-is-a-feeling-blog-updates",
+            "url": "https://digestweb.dev/articles/2026-03-29/robin-rendle-software-is-a-feeling-blog-updates",
+            "title": "Robin Rendle on the \"Feeling\" of Software and Blog Maintenance",
+            "summary": "## Summary & Key Takeaways\n\n- The author implemented smart resizing and lazy loading for images in his `/photos` section to improve performance.\n- He discusses the challenge of maintaining a blog and ensuring updates don't add too much \"faff.\"\n- The blog switched to MD UI for navigation and titles, utilizing a variable font for future-proofing design.\n- He expresses a strong appreciation for the aesthetics of MD UI at large sizes and the unique italics of MD IO.\n- The author fixed a \"flash of text\" issue during navigation, likely related to FOUC or FOUT.\n\n## Our Commentary\n\nI really appreciate Robin Rendle's style of writing. \"Software is a feeling\" perfectly encapsulates what some of us, engineers, designers sense. Sometimes it's hard to describe, but still - the software feels just-right.\nIf you're into reading a bit personal, but still - engineering journals - then this post is just for you :)",
+            "date_modified": "2026-03-29T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-03-27/angular-local-ai-reactive-routing-vitest-migration",
             "url": "https://digestweb.dev/articles/2026-03-27/angular-local-ai-reactive-routing-vitest-migration",
             "title": "Angular's Latest: Local AI, Reactive Routing, and Vitest Migration",
