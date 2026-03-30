@@ -1,35 +1,6 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import type { CandidateInput, CandidateResult } from './types.ts';
-
-export const TAG_VOCABULARY = [
-  'javascript',
-  'typescript',
-  'css',
-  'html',
-  'browser',
-  'web-platform',
-  'frameworks',
-  'react',
-  'vue',
-  'angular',
-  'svelte',
-  'solidjs',
-  'astro',
-  'nodejs',
-  'deno',
-  'bun',
-  'wasm',
-  'tooling',
-  'build-tools',
-  'testing',
-  'performance',
-  'dx',
-  'ux',
-  'accessibility',
-  'design',
-  'release',
-  'tutorial',
-];
+import { TAG_VOCABULARY } from './tags.ts';
 
 const JUDGE_PROMPT = `You are a web dev & AI news curator for digestweb.dev.
 You receive a JSON array of article candidates. For EACH candidate, triage it and — if publishable — generate full metadata.
