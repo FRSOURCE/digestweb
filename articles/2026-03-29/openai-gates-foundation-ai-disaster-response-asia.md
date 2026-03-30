@@ -18,4 +18,4 @@ significance: 1
 
 ## Our Commentary
 
-It's always encouraging to see AI applied to real-world problems with significant humanitarian impact. OpenAI's collaboration with the Gates Foundation on disaster response in Asia is a prime example of how these powerful tools can be directed towards good. While this isn't a technical breakthrough, it highlights the ongoing effort to apply existing AI capabilities to critical areas. I'm curious about the specific AI tools and methodologies shared during the workshop and how they'll be adopted by local teams. It's a reminder that the impact of AI often comes from its practical deployment in challenging environments.
+It's always encouraging to see AI applied to real-world problems with significant humanitarian impact. While this isn't a technical breakthrough, it highlights the ongoing effort to apply existing AI capabilities to critical areas.
