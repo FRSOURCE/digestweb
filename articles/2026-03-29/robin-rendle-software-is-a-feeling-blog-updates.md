@@ -7,7 +7,7 @@ original_url: https://robinrendle.com/notes/software-is-a-feeling/
 source_name: 'Robin Rendle'
 source_author: 'Robin Rendle'
 tags: [design, ux, accessibility, performance]
-significance: 2
+significance: 1
 ---
 
 ## Summary & Key Takeaways
@@ -18,4 +18,7 @@ significance: 2
 - He expresses a strong appreciation for the aesthetics of MD UI at large sizes and the unique italics of MD IO.
 - The author fixed a "flash of text" issue during navigation, likely related to FOUC or FOUT.
 
-I really appreciate Robin Rendle's perspective here. "Software is a feeling" perfectly encapsulates what we often miss in the pursuit of pure functionality. His updates, like image optimization and typeface choices, aren't just technical improvements; they're about crafting an experience. The struggle with blog maintenance is so relatable – it's a constant battle between adding features and keeping the update process frictionless. His love for specific typefaces and their quirks is infectious; it reminds us that the small, aesthetic details can have a huge impact on how we perceive and interact with a site. It's a good reminder to step back and consider the emotional impact of our work.
+## Our Commentary
+
+I really appreciate Robin Rendle's style of writing. "Software is a feeling" perfectly encapsulates what some of us, engineers, designers sense. Sometimes it's hard to describe, but still - the software feels just-right.
+If you're into reading a bit personal, but still - engineering journals - then this post is just for you :)

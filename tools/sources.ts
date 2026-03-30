@@ -1,5 +1,6 @@
 import * as cheerio from 'cheerio';
 import type { FeedItem } from './types.ts';
+import type { TAG_VOCABULARY } from './tags.ts';
 
 const fetchPage = async (url: string) => {
   const controller = new AbortController();
@@ -28,7 +29,7 @@ export interface Source {
   id: string;
   name: string;
   category: SourceCategory;
-  tags: string[];
+  tags: (typeof TAG_VOCABULARY)[number][];
   feed: string | ((homeUrl: string) => Promise<FeedItem[]>) | null;
   homeUrl: string;
   authorName?: string;
@@ -99,7 +100,7 @@ export const sources: Source[] = [
 
       const $details = await fetchPage(link);
       const dateString = $details('h1 + div h4').first().text();
-      const isoDate = new Date(dateString).toISOString();
+      const isoDate = new Date(`${dateString}Z`).toISOString();
       const content = $details('main article').html() ?? undefined;
 
       if (!title || !link || !dateString || !content) {
@@ -514,7 +515,7 @@ export const sources: Source[] = [
     id: 'chip-huyen',
     name: 'Chip Huyen',
     category: 'person-blog',
-    tags: ['ai', 'ml', 'engineering'],
+    tags: ['ai', 'research'],
     feed: 'https://huyenchip.com/feed.xml',
     homeUrl: 'https://huyenchip.com',
     authorName: 'Chip Huyen',
@@ -523,7 +524,7 @@ export const sources: Source[] = [
     id: 'jay-alammar',
     name: 'Jay Alammar',
     category: 'person-blog',
-    tags: ['ai', 'llm', 'deep-learning'],
+    tags: ['ai', 'llm'],
     feed: 'https://jalammar.github.io/feed.xml',
     homeUrl: 'https://jalammar.github.io',
     authorName: 'Jay Alammar',
@@ -559,7 +560,7 @@ export const sources: Source[] = [
     id: 'claude-blog',
     name: 'Claude Blog',
     category: 'ai',
-    tags: ['ai', 'llm', 'claude', 'developer-tools'],
+    tags: ['ai', 'llm', 'claude'],
     feed: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_claude.xml',
     homeUrl: 'https://claude.com/blog',
   },
@@ -623,7 +624,7 @@ export const sources: Source[] = [
     id: 'cursor-blog',
     name: 'Cursor Blog',
     category: 'ai',
-    tags: ['ai', 'developer-tools', 'coding'],
+    tags: ['ai', 'tooling'],
     feed: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_cursor.xml',
     homeUrl: 'https://cursor.com/blog',
   },
@@ -631,7 +632,7 @@ export const sources: Source[] = [
     id: 'windsurf-blog',
     name: 'Windsurf Blog',
     category: 'ai',
-    tags: ['ai', 'developer-tools', 'coding'],
+    tags: ['ai', 'tooling'],
     feed: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_windsurf_blog.xml',
     homeUrl: 'https://windsurf.com/blog',
   },
@@ -639,7 +640,7 @@ export const sources: Source[] = [
     id: 'the-batch',
     name: 'The Batch',
     category: 'ai',
-    tags: ['ai', 'newsletter'],
+    tags: ['ai'],
     feed: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_the_batch.xml',
     homeUrl: 'https://www.deeplearning.ai/the-batch',
   },
@@ -647,7 +648,7 @@ export const sources: Source[] = [
     id: 'ahead-of-ai',
     name: 'Ahead of AI',
     category: 'ai',
-    tags: ['ai', 'research', 'newsletter'],
+    tags: ['ai', 'research'],
     feed: 'https://magazine.sebastianraschka.com/feed',
     homeUrl: 'https://magazine.sebastianraschka.com',
     authorName: 'Sebastian Raschka',
@@ -656,7 +657,7 @@ export const sources: Source[] = [
     id: 'import-ai',
     name: 'Import AI',
     category: 'ai',
-    tags: ['ai', 'research', 'newsletter'],
+    tags: ['ai', 'research'],
     feed: 'https://importai.substack.com/feed',
     homeUrl: 'https://importai.substack.com',
     authorName: 'Jack Clark',
@@ -665,7 +666,7 @@ export const sources: Source[] = [
     id: 'surge-ai-blog',
     name: 'Surge AI Blog',
     category: 'ai',
-    tags: ['ai', 'data'],
+    tags: ['ai', 'research'],
     feed: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_blogsurgeai.xml',
     homeUrl: 'https://www.surgehq.ai/blog',
   },
@@ -673,7 +674,7 @@ export const sources: Source[] = [
     id: 'dagster-blog',
     name: 'Dagster Blog',
     category: 'ai',
-    tags: ['ai', 'data', 'tooling'],
+    tags: ['ai', 'tooling'],
     feed: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_dagster.xml',
     homeUrl: 'https://dagster.io/blog',
   },
@@ -681,7 +682,7 @@ export const sources: Source[] = [
     id: 'thinking-machines-lab',
     name: 'Thinking Machines Lab',
     category: 'ai',
-    tags: ['ai', 'ml'],
+    tags: ['ai', 'research'],
     feed: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_thinkingmachines.xml',
     homeUrl: 'https://thinkingmachines.ai/blog',
   },
@@ -689,7 +690,7 @@ export const sources: Source[] = [
     id: 'fast-ai',
     name: 'fast.ai Blog',
     category: 'ai',
-    tags: ['ai', 'deep-learning', 'education'],
+    tags: ['ai', 'research'],
     feed: 'https://www.fast.ai/index.xml',
     homeUrl: 'https://www.fast.ai',
     authorName: 'Jeremy Howard',
@@ -698,7 +699,7 @@ export const sources: Source[] = [
     id: 'bair-blog',
     name: 'BAIR Blog',
     category: 'ai',
-    tags: ['ai', 'research', 'ml'],
+    tags: ['ai', 'research'],
     feed: 'https://bair.berkeley.edu/blog/feed.xml',
     homeUrl: 'https://bair.berkeley.edu/blog',
   },
@@ -706,7 +707,7 @@ export const sources: Source[] = [
     id: 'weights-biases-blog',
     name: 'Weights & Biases Blog',
     category: 'ai',
-    tags: ['ai', 'ml', 'tooling'],
+    tags: ['ai', 'tooling'],
     feed: 'https://wandb.ai/fully-connected/rss.xml',
     homeUrl: 'https://wandb.ai/fully-connected',
   },
@@ -726,11 +727,50 @@ export const sources: Source[] = [
     feed: 'https://research.facebook.com/feed/',
     homeUrl: 'https://ai.meta.com/blog',
   },
+
+  {
+    id: 'mistral-news',
+    name: 'Mistral News',
+    category: 'ai',
+    tags: ['ai', 'llm', 'mistral'],
+    homeUrl: 'https://mistral.ai/news',
+    feed: async (homeUrl) => {
+      const $ = await fetchPage(homeUrl);
+
+      const latestArticle = $('main').children().eq(1).find('article').first();
+
+      const link = new URL(latestArticle.parent().attr('href') ?? '', homeUrl)
+        .href;
+      const title = latestArticle.find('h1').text();
+      const dateString = latestArticle
+        .children()
+        .eq(1)
+        .children()
+        .eq(1)
+        .children()
+        .first()
+        .text();
+      const isoDate = new Date(`${dateString}Z`).toISOString();
+
+      const $details = await fetchPage(link);
+      const content = $details('main .blog-rich-text').html() ?? undefined;
+
+      if (!title || !link || !dateString || !isoDate || !content) {
+        // eslint-disable-next-line no-console -- logging for debugging
+        console.error(
+          'Mistral news: No title, link, date, isoDate, or content found, skipping',
+        );
+        return [];
+      }
+
+      return [{ title, link, isoDate, content }];
+    },
+  },
   {
     id: 'simonwillison-blog',
     name: "Simon Willison's Weblog",
     category: 'person-blog',
-    tags: ['ai', 'web-dev', 'llm'],
+    tags: ['ai', 'llm'],
     feed: 'https://simonwillison.net/atom/everything/',
     homeUrl: 'https://simonwillison.net',
     authorName: 'Simon Willison',
@@ -739,7 +779,7 @@ export const sources: Source[] = [
     id: 'karpathy-blog',
     name: "Andrej Karpathy's Blog",
     category: 'person-blog',
-    tags: ['ai', 'deep-learning'],
+    tags: ['ai', 'research'],
     feed: 'https://karpathy.bearblog.dev/feed/',
     homeUrl: 'https://karpathy.bearblog.dev',
     authorName: 'Andrej Karpathy',
@@ -748,7 +788,7 @@ export const sources: Source[] = [
     id: 'eugene-yan',
     name: 'Eugene Yan',
     category: 'person-blog',
-    tags: ['ai', 'ml'],
+    tags: ['ai', 'research'],
     feed: 'https://eugeneyan.com/rss/',
     homeUrl: 'https://eugeneyan.com',
     authorName: 'Eugene Yan',
@@ -757,7 +797,7 @@ export const sources: Source[] = [
     id: 'one-useful-thing',
     name: 'One Useful Thing',
     category: 'person-blog',
-    tags: ['ai', 'productivity'],
+    tags: ['ai'],
     feed: 'https://www.oneusefulthing.org/feed',
     homeUrl: 'https://www.oneusefulthing.org',
     authorName: 'Ethan Mollick',
@@ -766,7 +806,7 @@ export const sources: Source[] = [
     id: 'hamel-husain',
     name: "Hamel Husain's Blog",
     category: 'person-blog',
-    tags: ['ai', 'llm', 'developer-tools'],
+    tags: ['ai', 'llm', 'tooling'],
     feed: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_hamel.xml',
     homeUrl: 'https://hamel.dev',
     authorName: 'Hamel Husain',
@@ -775,7 +815,7 @@ export const sources: Source[] = [
     id: 'paul-graham',
     name: "Paul Graham's Articles",
     category: 'person-blog',
-    tags: ['essays', 'startups', 'technology'],
+    tags: ['research'],
     feed: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_paulgraham.xml',
     homeUrl: 'https://www.paulgraham.com/articles.html',
     authorName: 'Paul Graham',
@@ -784,7 +824,7 @@ export const sources: Source[] = [
     id: 'chander-ramesh',
     name: 'Chander Ramesh',
     category: 'person-blog',
-    tags: ['ai', 'engineering'],
+    tags: ['ai', 'research'],
     feed: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_chanderramesh.xml',
     homeUrl: 'https://chanderramesh.com/writing',
     authorName: 'Chander Ramesh',
@@ -793,7 +833,7 @@ export const sources: Source[] = [
     id: 'pragmatic-engineer',
     name: 'The Pragmatic Engineer',
     category: 'general',
-    tags: ['engineering', 'ai', 'newsletter'],
+    tags: ['ai', 'research'],
     feed: 'https://blog.pragmaticengineer.com/feed/',
     homeUrl: 'https://blog.pragmaticengineer.com',
     authorName: 'Gergely Orosz',

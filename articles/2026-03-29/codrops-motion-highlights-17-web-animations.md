@@ -7,7 +7,7 @@ original_url: https://tympanus.net/codrops/2026/03/29/motion-highlights-17/
 source_name: 'Codrops'
 source_author: ''
 tags: [design, ux, css]
-significance: 1
+significance: 3
 ---
 
 ## Summary & Key Takeaways
@@ -16,4 +16,6 @@ significance: 1
 - It includes examples ranging from fluid simulations to bold microinteractions.
 - The showcase emphasizes vibrant animation and visual storytelling on the creative web.
 
-Codrops always delivers when it comes to visual inspiration, and this "Motion Highlights" series is a consistent source of "wow" moments. While it's not a deep dive into a new API or framework, it's a fantastic reminder of the artistic potential of the web platform. Seeing these fluid simulations and microinteractions makes me want to push the boundaries of what's possible with CSS and JavaScript animations. It's a great resource for designers and developers looking to inject more life and personality into their projects.
+## Our Commentary
+
+Codrops always delivers when it comes to visual inspiration, and this "Motion Highlights" series is a consistent source of "wow" moments. Worth scrolling-through, especially when you're looking for inspiration!
