@@ -4,11 +4,144 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Tue, 31 Mar 2026 00:37:17 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 31 Mar 2026 22:58:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Agent-Driven Development: Building Agents with Copilot for Automated Workflows]]></title>
+            <link>https://digestweb.dev/articles/2026-03-31/agent-driven-development-copilot-automated-workflows</link>
+            <guid>https://digestweb.dev/articles/2026-03-31/agent-driven-development-copilot-automated-workflows</guid>
+            <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[## Summary & Key Takeaways
+
+- The article explores the concept of agent-driven development within GitHub Copilot Applied Science.
+- An author used coding agents to build other agents, automating aspects of their work.
+- The post shares key learnings and insights gained from this experience.
+- It focuses on how to work more effectively and collaboratively with AI coding agents.
+
+## Our Commentary
+
+This article is not about AI hype - it's a practical, "here's what I actually did" account of using AI agents to automate development tasks. The idea of "coding agents building agents" is a bit meta, but it points to a future where our tools are far more autonomous. It's a glimpse into the evolving role of developers, where managing and guiding AI agents becomes a core skill.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Exploring Arnaud Rocca's Portfolio: GSAP Motion & Fluid WebGL Interactions]]></title>
+            <link>https://digestweb.dev/articles/2026-03-31/arnaud-rocca-portfolio-gsap-webgl-motion-system</link>
+            <guid>https://digestweb.dev/articles/2026-03-31/arnaud-rocca-portfolio-gsap-webgl-motion-system</guid>
+            <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[## Summary & Key Takeaways
+
+- The article provides an in-depth look at Arnaud Rocca's distinctive portfolio website.
+- It explores the implementation of a reusable GSAP-powered motion system for animations.
+- Custom text transitions contribute to the unique user experience.
+- Fluid WebGL interactions are used to create visually engaging elements.
+- The case study offers insights into combining various advanced web technologies for a cohesive design.
+
+## Our Commentary
+
+The blend of GSAP for motion and WebGL for fluid interactions is a powerful combination, and it's inspiring to see how these technologies are used to create such a distinctive experience. I particularly appreciate the focus on "reusable" GSAP animations – that's a key takeaway for anyone looking to build scalable, high-performance interactive sites. It's a great reminder that the web can be a truly artistic medium.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Hugging Face Releases TRL v1.0: A Post-Training Library for LLMs]]></title>
+            <link>https://digestweb.dev/articles/2026-03-31/hugging-face-trl-v1-0-post-training-library-llms</link>
+            <guid>https://digestweb.dev/articles/2026-03-31/hugging-face-trl-v1-0-post-training-library-llms</guid>
+            <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[## Summary & Key Takeaways
+
+- Hugging Face has released TRL v1.0, a significant milestone for its post-training library.
+- TRL is designed to facilitate the fine-tuning and optimization of large language models (LLMs).
+- The library aims to provide tools that can adapt to the rapidly changing AI research landscape.
+- This v1.0 release indicates a mature and stable version for developers working with LLM post-training.
+
+## Our Commentary
+
+TRL v1.0 from Hugging Face is a welcome sight. In the wild west of LLM development, having stable, well-maintained post-training tools is absolutely crucial.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[IBM's Granite 4.0 3B Vision: Compact Multimodal AI for Enterprise Documents]]></title>
+            <link>https://digestweb.dev/articles/2026-03-31/ibm-granite-4-0-3b-vision-multimodal-enterprise-ai</link>
+            <guid>https://digestweb.dev/articles/2026-03-31/ibm-granite-4-0-3b-vision-multimodal-enterprise-ai</guid>
+            <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[## Summary & Key Takeaways
+
+- IBM has introduced Granite 4.0 3B Vision, a new multimodal AI model.
+- The model is designed to be compact, making it efficient for deployment.
+- Its primary focus is on providing intelligence for enterprise documents.
+- This release aims to enhance document processing and understanding capabilities for businesses.
+
+## Our Commentary
+
+IBM's Granite 4.0 3B Vision sounds like a practical step forward for enterprise AI. The "compact multimodal" aspect is key here. Businesses need powerful AI that can run efficiently, not just massive, resource-hungry models. Specializing in enterprise documents is a smart niche, as document processing remains a huge pain point for many organizations. I'm curious about its performance on real-world, messy business documents – that's where the rubber meets the road for these kinds of models.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[JetStream 3.0 Released: A Major Update to Cross-Browser Benchmarking]]></title>
+            <link>https://digestweb.dev/articles/2026-03-31/jetstream-3-0-released-cross-browser-benchmark-suite</link>
+            <guid>https://digestweb.dev/articles/2026-03-31/jetstream-3-0-released-cross-browser-benchmark-suite</guid>
+            <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[## Summary & Key Takeaways
+
+- JetStream 3.0, a major update to the cross-browser benchmark suite, has been announced.
+- The development was a collaborative effort between WebKit, Google, and Mozilla.
+- This new version aims to provide updated and more relevant performance metrics for web browsers.
+- It will help evaluate JavaScript and WebAssembly performance across different browser engines.
+
+## Our Commentary
+
+JetStream 3.0 is a big deal for anyone invested in web performance. When the major browser vendors — WebKit, Google, and Mozilla — collaborate on a benchmark, you know it's going to be influential. It's a crucial tool for understanding how browsers are evolving and where performance gains are being made. I'm always a bit wary of benchmarks becoming targets rather than tools, but a well-designed, collaborative suite like this helps keep everyone honest and focused on real-world improvements.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Critical npm Supply Chain Attack Compromises Axios Package with Trojan Dependency]]></title>
+            <link>https://digestweb.dev/articles/2026-03-31/npm-supply-chain-attack-axios-trojan-dependency</link>
+            <guid>https://digestweb.dev/articles/2026-03-31/npm-supply-chain-attack-axios-trojan-dependency</guid>
+            <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[## Summary & Key Takeaways
+
+- A major npm supply chain attack has compromised the widely used Axios HTTP library.
+- Malicious versions of Axios were published containing a remote access trojan as a dependency.
+- The attack is significant due to Axios's popularity, affecting potentially millions of projects.
+- Developers are advised to check for affected versions and consider pinning dependencies or preventing post-install scripts.
+- Resources are available to help identify if projects are impacted and to mitigate risks.
+
+## Our Commentary
+
+This Axios supply chain attack is genuinely alarming. Axios is practically ubiquitous in the JavaScript ecosystem, and the idea that a malicious dependency could sneak in and affect so many projects is a stark reminder of the fragility of our software supply chain.
+This incident underscores the critical need for robust security practices like dependency pinning, careful review of post-install scripts, and proactive monitoring. It's a wake-up call for the entire community.
+As a solution from our side we can totally recommend configuring a cooldown strategy in your package manager. [This was described recently by Simon Willson](https://digestweb.dev/articles/2026-03-24/simon-willison-package-managers-cool-down).]]></description>
+        </item>
+        <item>
+            <title><![CDATA[TanStack Router Adopts Signal Graph for Reactive Core, Boosting Performance]]></title>
+            <link>https://digestweb.dev/articles/2026-03-31/tanstack-router-signal-graph-reactive-core-performance</link>
+            <guid>https://digestweb.dev/articles/2026-03-31/tanstack-router-signal-graph-reactive-core-performance</guid>
+            <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[## Summary & Key Takeaways
+
+- TanStack Router has implemented a new reactive core based on a granular signal graph.
+- This architectural change aims to improve how state changes are propagated within the router.
+- The new signal graph design narrows change propagation, leading to more efficient updates.
+- Benchmarks indicate that this update results in faster client-side navigation.
+
+## Our Commentary
+
+This is a genuinely exciting development for TanStack Router. The move to a signal graph for its reactive core feels like a natural evolution, especially given the industry's increasing focus on fine-grained reactivity. Faster client-side navigation is a huge win for user experience, and I appreciate the transparency in their benchmarks.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What’s !important #8: Light/Dark Favicons, @mixin, object-view-box, and More]]></title>
+            <link>https://digestweb.dev/articles/2026-03-31/whats-important-8-light-dark-favicons-mixin-object-view-box</link>
+            <guid>https://digestweb.dev/articles/2026-03-31/whats-important-8-light-dark-favicons-mixin-object-view-box</guid>
+            <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[## Summary & Key Takeaways
+
+- The latest "What's !important" roundup covers several new CSS and web features.
+- It highlights the ability to implement light and dark mode favicons.
+- The article discusses the `@mixin` CSS rule for reusable styles.
+- New features like anchor-interpolated morphing and `object-view-box` are also explored.
+- This issue provides a quick overview of practical web development updates.
+
+## Our Commentary
+
+I always appreciate these "What's !important" roundups from CSS-Tricks. They're fantastic for catching up on those smaller, but incredibly useful, web platform features that might otherwise slip under the radar. Light/dark favicons are a nice touch for user experience, and `@mixin` in native CSS is something I've been looking forward to. It's a good reminder that the web platform is constantly evolving, and even seemingly minor additions can significantly improve developer workflows and user interfaces.]]></description>
+        </item>
         <item>
             <title><![CDATA[Build a Drill-Down Menu with HTML Details & CSS @scope]]></title>
             <link>https://digestweb.dev/articles/2026-03-30/build-drill-down-menu-html-details-css-scope</link>
