@@ -19,4 +19,4 @@ significance: 2
 
 ## Our Commentary
 
-IBM's Granite 4.0 3B Vision sounds like a practical step forward for enterprise AI. The "compact multimodal" aspect is key here; businesses need powerful AI that can run efficiently, not just massive, resource-hungry models. Specializing in enterprise documents is a smart niche, as document processing remains a huge pain point for many organizations. I'm curious about its performance on real-world, messy business documents – that's where the rubber meets the road for these kinds of models.
+IBM's Granite 4.0 3B Vision sounds like a practical step forward for enterprise AI. The "compact multimodal" aspect is key here. Businesses need powerful AI that can run efficiently, not just massive, resource-hungry models. Specializing in enterprise documents is a smart niche, as document processing remains a huge pain point for many organizations. I'm curious about its performance on real-world, messy business documents – that's where the rubber meets the road for these kinds of models.

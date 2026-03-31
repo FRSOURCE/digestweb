@@ -19,4 +19,4 @@ significance: 3
 
 ## Our Commentary
 
-This is a genuinely exciting development for TanStack Router. The move to a signal graph for its reactive core feels like a natural evolution, especially given the industry's increasing focus on fine-grained reactivity. Faster client-side navigation is a huge win for user experience, and I appreciate the transparency in their benchmarks. It makes me wonder if we'll see other TanStack libraries adopt similar patterns. This could set a new standard for performance in client-side routing.
+This is a genuinely exciting development for TanStack Router. The move to a signal graph for its reactive core feels like a natural evolution, especially given the industry's increasing focus on fine-grained reactivity. Faster client-side navigation is a huge win for user experience, and I appreciate the transparency in their benchmarks.

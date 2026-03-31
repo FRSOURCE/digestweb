@@ -7,7 +7,7 @@ original_url: https://tympanus.net/codrops/2026/03/31/arnaud-roccas-portfolio-fr
 source_name: 'Codrops'
 source_author: ''
 tags: [design, ux, tutorial, web-platform]
-significance: 2
+significance: 1
 ---
 
 ## Summary & Key Takeaways
@@ -20,4 +20,4 @@ significance: 2
 
 ## Our Commentary
 
-Codrops always delivers when it comes to showcasing cutting-edge web design, and this portfolio breakdown is no exception. The blend of GSAP for motion and WebGL for fluid interactions is a powerful combination, and it's inspiring to see how these technologies are used to create such a distinctive experience. I particularly appreciate the focus on "reusable" GSAP animations – that's a key takeaway for anyone looking to build scalable, high-performance interactive sites. It's a great reminder that the web can be a truly artistic medium.
+The blend of GSAP for motion and WebGL for fluid interactions is a powerful combination, and it's inspiring to see how these technologies are used to create such a distinctive experience. I particularly appreciate the focus on "reusable" GSAP animations – that's a key takeaway for anyone looking to build scalable, high-performance interactive sites. It's a great reminder that the web can be a truly artistic medium.

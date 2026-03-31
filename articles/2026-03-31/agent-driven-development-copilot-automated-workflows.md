@@ -7,16 +7,16 @@ original_url: https://github.blog/ai-and-ml/github-copilot/agent-driven-developm
 source_name: 'GitHub Blog'
 source_author: ''
 tags: [ai, dx, tooling]
-significance: 3
+significance: 2
 ---
 
 ## Summary & Key Takeaways
 
 - The article explores the concept of agent-driven development within GitHub Copilot Applied Science.
-- A GitHub Applied Scientist used coding agents to build other agents, automating aspects of their work.
+- An author used coding agents to build other agents, automating aspects of their work.
 - The post shares key learnings and insights gained from this experience.
 - It focuses on how to work more effectively and collaboratively with AI coding agents.
 
 ## Our Commentary
 
-This is the kind of AI article I'm genuinely interested in. It's not just hype; it's a practical, "here's what I actually did" account of using AI agents to automate development tasks. The idea of "coding agents building agents" is a bit meta, but it points to a future where our tools are far more autonomous. I'm curious about the specific types of tasks that were automated and the challenges encountered. This feels like a glimpse into the evolving role of developers, where managing and guiding AI agents becomes a core skill.
+This article is not about AI hype - it's a practical, "here's what I actually did" account of using AI agents to automate development tasks. The idea of "coding agents building agents" is a bit meta, but it points to a future where our tools are far more autonomous. It's a glimpse into the evolving role of developers, where managing and guiding AI agents becomes a core skill.

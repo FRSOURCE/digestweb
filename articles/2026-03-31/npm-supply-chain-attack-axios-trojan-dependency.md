@@ -20,4 +20,6 @@ significance: 4
 
 ## Our Commentary
 
-This Axios supply chain attack is genuinely alarming. Axios is practically ubiquitous in the JavaScript ecosystem, and the idea that a malicious dependency could sneak in and affect so many projects is a stark reminder of the fragility of our software supply chain. It's not just about using Axios directly; it's about every layer of your dependency tree. This incident underscores the critical need for robust security practices like dependency pinning, careful review of post-install scripts, and proactive monitoring. It's a wake-up call for the entire community.
+This Axios supply chain attack is genuinely alarming. Axios is practically ubiquitous in the JavaScript ecosystem, and the idea that a malicious dependency could sneak in and affect so many projects is a stark reminder of the fragility of our software supply chain.
+This incident underscores the critical need for robust security practices like dependency pinning, careful review of post-install scripts, and proactive monitoring. It's a wake-up call for the entire community.
+As a solution from our side we can totally recommend configuring a cooldown strategy in your package manager. [This was described recently by Simon Willson](https://digestweb.dev/articles/2026-03-24/simon-willison-package-managers-cool-down).

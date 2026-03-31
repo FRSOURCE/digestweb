@@ -19,4 +19,4 @@ significance: 2
 
 ## Our Commentary
 
-TRL v1.0 from Hugging Face is a welcome sight. In the wild west of LLM development, having stable, well-maintained post-training tools is absolutely crucial. The "built to move with the field" tagline is particularly reassuring, as AI moves at a breakneck pace. This kind of infrastructure is what allows researchers and developers to actually _do_ things with these models, rather than constantly reinventing the wheel. It's a quiet but important step forward for the practical application of LLMs.
+TRL v1.0 from Hugging Face is a welcome sight. In the wild west of LLM development, having stable, well-maintained post-training tools is absolutely crucial.
