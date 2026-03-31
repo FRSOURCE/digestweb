@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-03-30T13:04:49.432Z</updated>
+    <updated>2026-03-31T00:37:17.197Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -13,6 +13,105 @@
     <link rel="self" href="https://digestweb.dev/feed.atom"/>
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Build a Drill-Down Menu with HTML Details & CSS @scope]]></title>
+        <id>https://digestweb.dev/articles/2026-03-30/build-drill-down-menu-html-details-css-scope</id>
+        <link href="https://digestweb.dev/articles/2026-03-30/build-drill-down-menu-html-details-css-scope"/>
+        <updated>2026-03-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article provides a tutorial on creating a drill-down menu component.
+- It leverages native HTML `<details>` elements for collapsible content.
+- The new CSS `@scope` rule is utilized to control the open state of nested `<details>` elements.
+- The technique ensures that only one level of the menu is open at a time, providing a clean user experience.
+- This approach demonstrates modern web platform features for building complex UI components with less JavaScript.
+
+## Our Commentary
+
+This is a brilliant use of modern web platform features! The `<details>` element is so often overlooked, and combining it with `@scope` for a drill-down menu is incredibly elegant. It's a testament to how much we can achieve with pure HTML and CSS now, reducing the need for JavaScript for basic interactivity.
+This is why digestweb exists - we love seeing creative applications of new CSS features like `@scope`!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Claude Platform Introduces Compliance API for Activity Auditing]]></title>
+        <id>https://digestweb.dev/articles/2026-03-30/claude-platform-compliance-api-activity-auditing</id>
+        <link href="https://digestweb.dev/articles/2026-03-30/claude-platform-compliance-api-activity-auditing"/>
+        <updated>2026-03-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Anthropic has released a new Compliance API for the Claude platform.
+- This API allows users to audit activity within the Claude platform.
+- The feature is particularly important for organizations with strict compliance and regulatory requirements.
+- It provides enhanced transparency and control over how the AI is being used.
+- This addition strengthens Claude's offering for enterprise-level deployments.
+
+## Our Commentary
+
+This is a smart move by Anthropic. As AI adoption grows in regulated industries, features like a Compliance API become non-negotiable. It shows a clear understanding of enterprise needs beyond just raw model performance. For companies worried about data governance and accountability when integrating LLMs, this API could be a significant differentiator for Claude. It's a step towards making AI more trustworthy and auditable in sensitive contexts.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Form Automation Tips for Happier Users and Clients]]></title>
+        <id>https://digestweb.dev/articles/2026-03-30/form-automation-tips-happier-users-clients</id>
+        <link href="https://digestweb.dev/articles/2026-03-30/form-automation-tips-happier-users-clients"/>
+        <updated>2026-03-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article addresses the often-overlooked gap between a functional form and its business impact.
+- It highlights the importance of considering what happens to form data after submission.
+- Effective form automation can lead to happier users and more satisfied clients.
+- The piece encourages a broader perspective on form development, integrating business process considerations.
+
+## Our Commentary
+
+This is a fantastic point that often gets missed in the frontend bubble. We obsess over the perfect `input` and `label`, but if the data just disappears into a black hole or requires manual processing on the backend, we've only done half the job. Thinking about the entire lifecycle of form data, from user input to business action, is crucial for delivering real value!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Latest Open AI Artifacts: New Models & Organizations Emerge]]></title>
+        <id>https://digestweb.dev/articles/2026-03-30/latest-open-ai-artifacts-new-models-organizations-emerge</id>
+        <link href="https://digestweb.dev/articles/2026-03-30/latest-open-ai-artifacts-new-models-organizations-emerge"/>
+        <updated>2026-03-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article provides a roundup of the latest open-source AI artifacts and developments.
+- It highlights the emergence of new organizations contributing to the open AI ecosystem.
+- Specific mentions include Nemotron Super, Sarvam, and Cohere Transcribe, indicating advancements in different AI domains.
+
+## Our Commentary
+
+It's fascinating to see not just new models, but entirely new organizations popping up, pushing the boundaries of what's available to the public. It's a lot to keep track of, but these summaries make it manageable.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mr. Chatterbox: A Victorian-Era Ethically Trained Local LLM]]></title>
+        <id>https://digestweb.dev/articles/2026-03-30/mr-chatterbox-victorian-era-ethically-trained-local-llm</id>
+        <link href="https://digestweb.dev/articles/2026-03-30/mr-chatterbox-victorian-era-ethically-trained-local-llm"/>
+        <updated>2026-03-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Mr. Chatterbox is introduced as a unique, "weak" language model.
+- It is characterized by its "Victorian-era ethically trained" nature, suggesting a specific persona or guardrails.
+- This project highlights efforts in creating specialized and ethically-aligned AI models.
+- It caters to users interested in running AI models offline and exploring unique AI personalities.
+
+## Our Commentary
+
+This is just delightful! A "Victorian-era ethically trained" model that runs locally?
+It reminds us that AI doesn't always have to be about chasing the biggest, most general model. There's immense value in niche, characterful, and locally runnable applications. Let just have some fun with the tech, please :)]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React Tip: You Probably Don't Need to Lift State]]></title>
+        <id>https://digestweb.dev/articles/2026-03-30/react-tip-you-probably-dont-need-to-lift-state</id>
+        <link href="https://digestweb.dev/articles/2026-03-30/react-tip-you-probably-dont-need-to-lift-state"/>
+        <updated>2026-03-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- It advises against the common practice of lifting state by default.
+- The core recommendation is to keep state as close as possible to the component where it is used.
+- State should only be lifted when there is a genuine need to share it across multiple components.
+- This approach can lead to simpler component trees and easier-to-manage applications.
+
+## Our Commentary
+
+A short article, but much needed. We often get into the habit of lifting state "just in case," but it quickly leads to prop drilling and overly complex components. It's a great reminder that simplicity and locality are often better defaults.]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Codrops Motion Highlights #17: Creative Web Animations]]></title>
         <id>https://digestweb.dev/articles/2026-03-29/codrops-motion-highlights-17-web-animations</id>
