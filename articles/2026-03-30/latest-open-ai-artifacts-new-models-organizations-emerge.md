@@ -14,10 +14,8 @@ significance: 3
 
 - The article provides a roundup of the latest open-source AI artifacts and developments.
 - It highlights the emergence of new organizations contributing to the open AI ecosystem.
-- Various new types of models are featured, showcasing the diversity in AI research and application.
 - Specific mentions include Nemotron Super, Sarvam, and Cohere Transcribe, indicating advancements in different AI domains.
-- The post serves as a valuable update on the rapidly evolving landscape of open AI.
 
 ## Our Commentary
 
-Nathan Lambert's roundups are always a goldmine for keeping up with the dizzying pace of open AI. It's fascinating to see not just new models, but entirely new organizations popping up, pushing the boundaries of what's available to the public. The mention of "new types of models" is particularly intriguing – it suggests innovation beyond just larger, more powerful LLMs, which is a healthy sign for the ecosystem. It's a lot to keep track of, but these summaries make it manageable.
+It's fascinating to see not just new models, but entirely new organizations popping up, pushing the boundaries of what's available to the public. It's a lot to keep track of, but these summaries make it manageable.

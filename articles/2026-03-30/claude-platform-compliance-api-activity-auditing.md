@@ -7,7 +7,7 @@ original_url: https://claude.com/blog/claude-platform-compliance-api
 source_name: 'Claude Blog'
 source_author: ''
 tags: [ai, anthropic, claude, release]
-significance: 2
+significance: 1
 ---
 
 ## Summary & Key Takeaways

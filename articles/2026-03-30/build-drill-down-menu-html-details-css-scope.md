@@ -7,7 +7,7 @@ original_url: https://frontendmasters.com/blog/the-drill-down-menu-with-details-
 source_name: 'Frontend Masters Blog'
 source_author: ''
 tags: [html, css, web-platform, tutorial]
-significance: 2
+significance: 4
 ---
 
 ## Summary & Key Takeaways
@@ -20,4 +20,5 @@ significance: 2
 
 ## Our Commentary
 
-This is a brilliant use of modern web platform features! The `<details>` element is so often overlooked, and combining it with `@scope` for a drill-down menu is incredibly elegant. It's a testament to how much we can achieve with pure HTML and CSS now, reducing the need for JavaScript for basic interactivity. This kind of progressive enhancement makes for more robust and accessible components. I love seeing creative applications of new CSS features like `@scope`.
+This is a brilliant use of modern web platform features! The `<details>` element is so often overlooked, and combining it with `@scope` for a drill-down menu is incredibly elegant. It's a testament to how much we can achieve with pure HTML and CSS now, reducing the need for JavaScript for basic interactivity.
+This is why digestweb exists - we love seeing creative applications of new CSS features like `@scope`!
