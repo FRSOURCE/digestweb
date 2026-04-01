@@ -19,4 +19,4 @@ significance: 3
 
 ## Our Commentary
 
-This is a fascinating step towards more sophisticated AI-driven development. The idea of orchestrating multiple agents to tackle a single problem is powerful, but also raises questions about debugging and managing their interactions. I'm genuinely curious to see how developers leverage this for complex tasks and if it truly streamlines workflows or adds another layer of complexity. The potential for automating multi-step processes is huge, but the prompt engineering for such a system must be a whole new challenge.
+This is a fascinating step towards more sophisticated AI-driven development. The idea of orchestrating multiple agents to tackle a single problem is powerful, but also raises questions about debugging and managing their interactions. I'm genuinely curious to see how developers leverage this for complex tasks and if it truly streamlines workflows or adds another layer of complexity.

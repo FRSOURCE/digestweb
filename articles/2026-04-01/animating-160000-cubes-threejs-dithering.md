@@ -19,4 +19,4 @@ significance: 2
 
 ## Our Commentary
 
-This is the kind of deep dive we love to see! Visualizing complex concepts like dithering with such a large number of animated elements in Three.js is impressive. It's a fantastic example of pushing the boundaries of web graphics and offers valuable insights into performance optimization with custom shaders. Definitely a must-read for anyone interested in advanced 3D web development and how to make abstract ideas tangible through interactive visuals.
+This is the kind of deep dive we love to see! Visualizing complex concepts like dithering with such a large number of animated elements in Three.js is impressive. Definitely a must-read for anyone interested in advanced 3D web development and how to make abstract ideas tangible through interactive visuals.

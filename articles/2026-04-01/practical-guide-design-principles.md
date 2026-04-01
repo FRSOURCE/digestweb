@@ -19,4 +19,4 @@ significance: 2
 
 ## Our Commentary
 
-Design principles are timeless and essential, yet often overlooked in the rush to implement new features. This kind of foundational guide is incredibly valuable, especially for developers who might not have a formal design background. It's a great reminder that good design isn't just about aesthetics, but about creating intuitive and effective user experiences. I appreciate the focus on practicality and quick look-up, making it a resource I'd definitely bookmark.
+Design principles are timeless and essential, yet often overlooked in the rush to implement new features. This kind of foundational guide is incredibly valuable, especially for developers who might not have a formal design background. It's a great reminder that good design isn't just about aesthetics, but about creating intuitive and effective user experiences.
