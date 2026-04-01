@@ -12,11 +12,10 @@ significance: 2
 
 ## Summary & Key Takeaways
 
-- The article introduces the concept of "Claude Dispatch," likely referring to a method or pattern for routing requests to different Claude AI models or functionalities.
-- It emphasizes the "power of interfaces" in the context of AI, suggesting that well-designed interfaces are crucial for leveraging AI capabilities effectively.
-- The author notes that despite capable AI, developers often lack the appropriate tools for the job.
+- The article introduces "Claude Dispatch" which allows you to interact with your Agent Assistant remotely from your mobile phone.
+- The author notes that despite capable AI, developers often lack the appropriate tools/interfaces for the job.
 - The discussion implies a need for better abstraction layers and interaction patterns to fully utilize advanced AI models.
 
 ## Our Commentary
 
-This piece touches on a crucial point: the gap between powerful AI models and the practical tools to wield them. "Claude Dispatch" sounds like a fascinating approach to managing interactions with complex LLMs, and the emphasis on interfaces resonates deeply. We're often so focused on the raw capabilities of models that we overlook the ergonomics of integrating them into real-world applications. It's a reminder that even with cutting-edge AI, good software design principles—like robust interfaces—remain paramount for unlocking their true potential.
+This piece touches on a crucial point: the gap between powerful AI models and the practical tools to wield them. We're often so focused on the raw capabilities of models that we overlook the ergonomics of integrating them into real-world usage. It's a reminder that even with cutting-edge AI, good software design principles—like robust interfaces—remain paramount for unlocking their true potential.
