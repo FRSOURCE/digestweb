@@ -76,7 +76,7 @@ const pageUrl = computed(() =>
       <img
         :src="frontmatter.photo"
         :alt="frontmatter.title"
-        class="w-full max-h-[min(400px,60dvh)] object-cover block mix-blend-multiply opacity-80"
+        class="w-full h-[min(400px,60dvh)] object-cover block mix-blend-multiply opacity-80"
       />
     </div>
 
