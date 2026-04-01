@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-04-01T23:29:09.053Z</updated>
+    <updated>2026-04-01T23:29:19.140Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -13,6 +13,104 @@
     <link rel="self" href="https://digestweb.dev/feed.atom"/>
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[ADeLe: Predicting and Explaining AI Performance Across Tasks]]></title>
+        <id>https://digestweb.dev/articles/2026-04-01/adele-predicting-explaining-ai-performance</id>
+        <link href="https://digestweb.dev/articles/2026-04-01/adele-predicting-explaining-ai-performance"/>
+        <updated>2026-04-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Current AI benchmarks report performance but offer little insight into underlying capabilities or explanations for failures.
+- They also struggle to reliably predict outcomes on new tasks.
+- Microsoft researchers, in collaboration with Princeton University and Universitat Politècnica de València, introduce ADeLe.
+- ADeLe aims to predict and explain AI performance across tasks, addressing these limitations.
+
+## Our Commentary
+
+This is a critical piece of research. The "black box" nature of many advanced AI models, especially LLMs, is a major hurdle for trust and deployment in sensitive areas. ADeLe's focus on explaining _why_ an AI performs a certain way, and predicting its behavior on new tasks, is a huge step towards more transparent and reliable AI systems. We need more work like this to truly understand and harness the power of these models responsibly. It's exciting to see progress in making AI less opaque.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Animating 160,000 Cubes in Three.js to Visualize Dithering]]></title>
+        <id>https://digestweb.dev/articles/2026-04-01/animating-160000-cubes-threejs-dithering</id>
+        <link href="https://digestweb.dev/articles/2026-04-01/animating-160000-cubes-threejs-dithering"/>
+        <updated>2026-04-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article provides a step-by-step breakdown of building a Three.js visual explainer.
+- It focuses on visualizing the concept of dithering.
+- The visualization involves animating 160,000 cubes.
+- Custom shaders are utilized to achieve the desired graphical effects and performance.
+
+## Our Commentary
+
+This is the kind of deep dive we love to see! Visualizing complex concepts like dithering with such a large number of animated elements in Three.js is impressive. Definitely a must-read for anyone interested in advanced 3D web development and how to make abstract ideas tangible through interactive visuals.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Copilot CLI's /fleet: Run Multiple AI Agents in Parallel]]></title>
+        <id>https://digestweb.dev/articles/2026-04-01/github-copilot-cli-fleet-multiple-ai-agents</id>
+        <link href="https://digestweb.dev/articles/2026-04-01/github-copilot-cli-fleet-multiple-ai-agents"/>
+        <updated>2026-04-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- GitHub Copilot CLI now includes a new command called `/fleet`.
+- The `/fleet` command allows users to dispatch multiple AI agents in parallel.
+- The article explains how to write prompts that effectively split work across files.
+- It also covers declaring dependencies between tasks and avoiding common pitfalls when using multiple agents.
+
+## Our Commentary
+
+This is a fascinating step towards more sophisticated AI-driven development. The idea of orchestrating multiple agents to tackle a single problem is powerful, but also raises questions about debugging and managing their interactions. I'm genuinely curious to see how developers leverage this for complex tasks and if it truly streamlines workflows or adds another layer of complexity.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Practical Guide to Design Principles]]></title>
+        <id>https://digestweb.dev/articles/2026-04-01/practical-guide-design-principles</id>
+        <link href="https://digestweb.dev/articles/2026-04-01/practical-guide-design-principles"/>
+        <updated>2026-04-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article provides a practical guide to fundamental design principles.
+- It includes extensive references and examples to illustrate each principle.
+- Methods for quick look-up are integrated, making it a handy resource.
+- The guide is particularly useful for understanding UX and design patterns.
+
+## Our Commentary
+
+Design principles are timeless and essential, yet often overlooked in the rush to implement new features. This kind of foundational guide is incredibly valuable, especially for developers who might not have a formal design background. It's a great reminder that good design isn't just about aesthetics, but about creating intuitive and effective user experiences.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Securing the Open Source Supply Chain on GitHub]]></title>
+        <id>https://digestweb.dev/articles/2026-04-01/securing-open-source-supply-chain-github</id>
+        <link href="https://digestweb.dev/articles/2026-04-01/securing-open-source-supply-chain-github"/>
+        <updated>2026-04-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Recent attacks on open-source projects are primarily focused on exfiltrating secrets.
+- GitHub provides immediate prevention steps that users can implement today.
+- The platform is actively developing new security capabilities to further enhance open-source supply chain protection.
+
+## Our Commentary
+
+This is a crucial topic. Supply chain security is often overlooked until a major incident occurs, and the focus on secret exfiltration is particularly concerning. It's good to see GitHub being proactive and providing actionable advice, but the ongoing cat-and-mouse game between attackers and defenders means vigilance is constant. We appreciate the transparency on future features, as this problem isn't going away anytime soon. It's a shared responsibility, and tools like these are essential.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What's New in Svelte & SvelteKit: April 2026 Updates]]></title>
+        <id>https://digestweb.dev/articles/2026-04-01/whats-new-svelte-sveltekit-april-2026</id>
+        <link href="https://digestweb.dev/articles/2026-04-01/whats-new-svelte-sveltekit-april-2026"/>
+        <updated>2026-04-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- The Svelte team released their April 2026 "What's New" update, detailing several enhancements across the framework and its meta-framework, SvelteKit.
+- A new best practices guide has been added to the Svelte documentation.
+- MCP: Svelte's OpenCode configuration is now located in a dedicated `.opencode/` folder, simplifying its management.
+- The `svelte.config.js` file now supports functions for setting options like `css`, `runes`, and `customElement`, centralizing configuration logic.
+- New types such as `TweenOptions`, `SpringOptions`, `SpringUpdateOptions`, and `Updater` are now exported from `svelte/motion`, improving type safety for animation utilities.
+- SvelteKit introduces server-side error boundaries, allowing for more robust error handling in server-rendered applications.
+- Page and layout parameters with matchers now benefit from type narrowing in `$app/types`, enhancing type safety when working with route parameters.
+
+## Our Commentary
+
+This is a solid update for the Svelte ecosystem. The move to functions in `svelte.config.js` is a smart one, centralizing configuration and making it more programmatic. Server-side error boundaries in SvelteKit are a huge win for reliability, and the continued focus on type safety, especially with param narrowing, shows a commitment to developer experience. It's these kinds of incremental, thoughtful improvements that make a framework truly robust.]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Agent-Driven Development: Building Agents with Copilot for Automated Workflows]]></title>
         <id>https://digestweb.dev/articles/2026-03-31/agent-driven-development-copilot-automated-workflows</id>
