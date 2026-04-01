@@ -38,4 +38,5 @@ export const TAG_VOCABULARY = [
   'deepmind',
   'xai',
   'mistral',
+  'showcases',
 ] as const;

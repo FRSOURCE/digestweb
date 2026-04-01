@@ -849,6 +849,22 @@ export const sources: Source[] = [
     homeUrl: 'https://css-tricks.com',
   },
   {
+    id: 'codepen-blog',
+    name: 'Codepen Blog',
+    category: 'general',
+    tags: ['css', 'javascript', 'html', 'tutorial'],
+    feed: 'https://blog.codepen.io/feed/',
+    homeUrl: 'https://blog.codepen.io',
+  },
+  {
+    id: 'codepen-sparks',
+    name: 'Codepen Sparks',
+    category: 'general',
+    tags: ['css', 'javascript', 'html', 'showcases'],
+    feed: 'https://codepen.io/spark/feed',
+    homeUrl: 'https://codepen.io/spark',
+  },
+  {
     id: 'smashing-magazine',
     name: 'Smashing Magazine',
     category: 'general',
