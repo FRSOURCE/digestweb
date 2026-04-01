@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-04-01T10:10:17.554Z</updated>
+    <updated>2026-04-01T10:21:56.052Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -45,6 +45,21 @@ This article is not about AI hype - it's a practical, "here's what I actually di
 ## Our Commentary
 
 The blend of GSAP for motion and WebGL for fluid interactions is a powerful combination, and it's inspiring to see how these technologies are used to create such a distinctive experience. I particularly appreciate the focus on "reusable" GSAP animations – that's a key takeaway for anyone looking to build scalable, high-performance interactive sites. It's a great reminder that the web can be a truly artistic medium.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Claude Dispatch and the Power of AI Interfaces]]></title>
+        <id>https://digestweb.dev/articles/2026-03-31/claude-dispatch-ai-interfaces</id>
+        <link href="https://digestweb.dev/articles/2026-03-31/claude-dispatch-ai-interfaces"/>
+        <updated>2026-03-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article introduces "Claude Dispatch" which allows you to interact with your Agent Assistant remotely from your mobile phone.
+- The author notes that despite capable AI, developers often lack the appropriate tools/interfaces for the job.
+- The discussion implies a need for better abstraction layers and interaction patterns to fully utilize advanced AI models.
+
+## Our Commentary
+
+This piece touches on a crucial point: the gap between powerful AI models and the practical tools to wield them. We're often so focused on the raw capabilities of models that we overlook the ergonomics of integrating them into real-world usage. It's a reminder that even with cutting-edge AI, good software design principles—like robust interfaces—remain paramount for unlocking their true potential.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hugging Face Releases TRL v1.0: A Post-Training Library for LLMs]]></title>
