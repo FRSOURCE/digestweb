@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-04-03T22:44:10.944Z</updated>
+    <updated>2026-04-03T22:53:51.776Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,174 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[AI News Roundup: Claude Code Leaks, OpenAI Shifts, Gemini Music, LLMs Learn at Inference]]></title>
+        <id>https://digestweb.dev/articles/2026-04-03/ai-news-roundup-claude-code-leaks-openai-shifts-gemini-music-llms-learn-at-inference</id>
+        <link href="https://digestweb.dev/articles/2026-04-03/ai-news-roundup-claude-code-leaks-openai-shifts-gemini-music-llms-learn-at-inference"/>
+        <updated>2026-04-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This AI news digest covers the leak of Claude Code's source, OpenAI's strategic exit from video generation, Gemini's new music generation capabilities, and breakthroughs in LLMs learning during inference. It also touches on the rapid improvement of voice-based AI.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Reports indicate a leak of Claude Code's source, a notable event for Anthropic.
+- OpenAI is reportedly exiting the video generation domain, suggesting a strategic shift.
+- Google's Gemini has introduced new music generation capabilities, enhancing its multimodal offerings.
+- New research highlights LLMs' ability to learn during the inference stage, a significant development.
+- The digest also emphasizes the rapid improvement and growing importance of voice-based AI user interfaces.
+
+## Out Commentary
+
+Wow, this is a packed issue! The Claude code leak is certainly unsettling for Anthropic, raising questions about security and intellectual property in the competitive LLM race. OpenAI exiting video generation is a head-scratcher - are they doubling down elsewhere, or did they hit a wall? Gemini adding music generation is cool, but the real headline for me is LLMs learning at inference. That's a paradigm shift if it becomes robust – imagine models adapting in real-time without retraining. It feels like the AI world is moving at warp speed, with major news breaking almost daily.
+
+Original Link: https://www.deeplearning.ai/the-batch/issue-347/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Axios Supply Chain Attack Leveraged Targeted Social Engineering]]></title>
+        <id>https://digestweb.dev/articles/2026-04-03/axios-supply-chain-attack-targeted-social-engineering</id>
+        <link href="https://digestweb.dev/articles/2026-04-03/axios-supply-chain-attack-targeted-social-engineering"/>
+        <updated>2026-04-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison details the Axios supply chain attack, revealing how attackers used individually targeted social engineering tactics to compromise the popular JavaScript library, underscoring a growing threat vector.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The Axios supply chain attack was executed using sophisticated, individually targeted social engineering.
+- Attackers likely compromised maintainer accounts or development environments through deceptive tactics.
+- The article underscores the critical role of the human element in software supply chain security breaches.
+- It highlights that targeted social engineering can bypass many technical security measures.
+- The incident serves as a warning for open-source projects to enhance human-centric security practices.
+
+## Out Commentary
+
+This is genuinely concerning. We often focus on technical vulnerabilities, but social engineering remains one of the most potent attack vectors. This is a stark reminder that open-source maintainers who often are volunteers, are becoming high-value targets as well. We need better support and education for them to withstand these sophisticated attacks.
+
+Original Link: https://simonwillison.net/2026/Apr/3/supply-chain-social-engineering/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beyond Benchmarks: What Makes an Open AI Model Truly Succeed?]]></title>
+        <id>https://digestweb.dev/articles/2026-04-03/beyond-benchmarks-what-makes-open-ai-model-succeed</id>
+        <link href="https://digestweb.dev/articles/2026-04-03/beyond-benchmarks-what-makes-open-ai-model-succeed"/>
+        <updated>2026-04-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Nathan Lambert explores the true indicators of success for open AI models, using Gemma 4 as an example, arguing that factors beyond benchmark scores are crucial for real-world impact and adoption.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Nathan Lambert's article examines the true success metrics for open AI models, challenging the sole reliance on benchmark scores.
+- Using Gemma 4 as a case study, it argues that community engagement and ease of fine-tuning are critical.
+- The piece highlights practical applicability and the surrounding ecosystem as key indicators of a model's long-term impact.
+- It suggests that a model's utility and adaptability in real-world applications define its true value.
+
+## Out Commentary
+
+This is a much-needed perspective in the AI space. We're all so fixated on leaderboards and benchmark numbers, but as Lambert points out, that often misses the forest for the trees. An "open" model isn't just about the weights; it's about the community, the tooling, and how easily developers can actually _use_ and _adapt_ it. I think this is a crucial conversation for the longevity and true decentralization of AI development. It's a reminder that technology adoption is rarely just about raw performance.
+
+Original Link: https://www.interconnects.ai/p/gemma-4-and-what-makes-an-open-model]]></content>
+        <author>
+            <name>Nathan Lambert</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cypress Test Replay Now Captures Canvas Elements by Default]]></title>
+        <id>https://digestweb.dev/articles/2026-04-03/cypress-test-replay-captures-canvas-by-default</id>
+        <link href="https://digestweb.dev/articles/2026-04-03/cypress-test-replay-captures-canvas-by-default"/>
+        <updated>2026-04-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cypress Test Replay now automatically captures canvas elements for all projects in Cypress Cloud, simplifying testing for applications that interact with them. The update details what changed, remaining gaps, and how to adjust settings.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Cypress Test Replay in Cypress Cloud now captures canvas elements by default for all projects.
+- This eliminates the need for users to manually request or enable canvas capture for their tests.
+- The announcement details the specific changes introduced with this update.
+- It also addresses current limitations and "gaps" in the canvas capture functionality.
+- Instructions are provided for users who need to adjust or disable the default canvas capture setting.
+
+## Out Commentary
+
+It's a small change, but making it a default shows Cypress is listening to its user base and trying to reduce friction. We've all been there, trying to debug a test only to realize a crucial visual element wasn't captured. This should make those scenarios less frequent.
+
+Original Link: https://www.cypress.io/blog/cypress-test-replay-now-captures-canvas-elements-by-default/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub's AI-Native Development Woes: Availability Drops, Leadership Vacuum]]></title>
+        <id>https://digestweb.dev/articles/2026-04-03/github-ai-native-development-woes-availability-drops-leadership-vacuum</id>
+        <link href="https://digestweb.dev/articles/2026-04-03/github-ai-native-development-woes-availability-drops-leadership-vacuum"/>
+        <updated>2026-04-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Pragmatic Engineer questions GitHub's viability for AI-native development, reporting a drastic drop in availability (90% uptime) partly due to AI agent traffic, alongside concerns about leadership and strategic direction.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The Pragmatic Engineer questions GitHub's current suitability for AI-native development.
+- GitHub's availability has reportedly dropped significantly, reaching approximately 90% uptime.
+- Increased traffic from AI coding agents is cited as a contributing factor to these availability issues.
+- The report also highlights a leadership vacuum at GitHub, with no CEO and an unclear strategic direction.
+- These challenges could impact GitHub's central role in the software development ecosystem.
+
+## Out Commentary
+
+90% availability for GitHub is really bad for a platform so central to modern development. It feels like GitHub is caught between a rock and a hard place: embrace AI, but then struggle to scale for it. The leadership vacuum only compounds the problem. I hope they can get a handle on this quickly, because the implications are huge.
+
+Original Link: https://blog.pragmaticengineer.com/the-pulse-is-github-still-best-for-ai-native-development/]]></content>
+        <author>
+            <name>Gergely Orosz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Can JavaScript Bypass a CSP Meta Tag Within an Iframe?]]></title>
+        <id>https://digestweb.dev/articles/2026-04-03/javascript-bypass-csp-meta-tag-iframe</id>
+        <link href="https://digestweb.dev/articles/2026-04-03/javascript-bypass-csp-meta-tag-iframe"/>
+        <updated>2026-04-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison investigates a nuanced web security question: whether JavaScript can escape or bypass a Content Security Policy (CSP) defined within a meta tag inside an iframe. This exploration delves into potential vulnerabilities and browser behaviors.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison investigates if JavaScript can bypass a Content Security Policy (CSP) set via a meta tag within an iframe.
+- The article delves into the intricate interactions between JavaScript, CSP, and iframe security contexts.
+- It likely explores potential attack vectors and browser security mechanisms in this specific scenario.
+- The goal is to assess the robustness of CSP when defined within a meta tag inside a nested iframe.
+
+## Out Commentary
+
+The question itself is fascinating – the interplay of CSP, iframes, and meta tags can be incredibly subtle, and it's often in these edge cases that vulnerabilities are found. It's a stark reminder that web security is a constant cat-and-mouse game, and understanding these low-level interactions is crucial for building truly secure applications.
+
+Original Link: https://simonwillison.net/2026/Apr/3/test-csp-iframe-escape/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Monorepos, Hub-and-Spoke, and Copybara: Bi-directional Git Syncing]]></title>
+        <id>https://digestweb.dev/articles/2026-04-03/monorepos-hub-spoke-copybara-bi-directional-git-syncing</id>
+        <link href="https://digestweb.dev/articles/2026-04-03/monorepos-hub-spoke-copybara-bi-directional-git-syncing"/>
+        <updated>2026-04-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Dagster team details their approach to configuring Copybara for bi-directional syncing, enabling a hub-and-spoke model for managing Git repositories within a monorepo setup.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The Dagster team outlines their use of Copybara for managing Git repositories within a monorepo.
+- The article details the configuration of Copybara to enable bi-directional syncing.
+- It explains the "hub-and-spoke" model adopted for their repository architecture.
+- The post likely covers the benefits, challenges, and best practices for this specific setup.
+
+## Out Commentary
+
+Monorepos are still a hot topic, and seeing how a team like Dagster tackles the complexities of syncing with tools like Copybara is always insightful. This feels like a very specific solution to a very specific problem, but the underlying principles of managing large codebases and ensuring consistent, efficient workflows are universal. It's a good reminder that there's no one-size-fits-all solution for repository management, and sometimes you need to build or heavily configure specialized tools.
+
+Original Link: https://dagster.io/blog/monorepos-the-hub-and-spoke-model-and-copybara]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Optimizing Diff Line Performance: GitHub's Uphill Climb]]></title>
+        <id>https://digestweb.dev/articles/2026-04-03/optimizing-diff-line-performance-githubs-uphill-climb</id>
+        <link href="https://digestweb.dev/articles/2026-04-03/optimizing-diff-line-performance-githubs-uphill-climb"/>
+        <updated>2026-04-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[GitHub shares insights into the complex engineering challenges and architectural decisions involved in making diff line rendering performant. The article emphasizes that simplicity often leads to better performance.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- GitHub's engineering team details the complex journey of optimizing diff line rendering performance.
+- The article emphasizes that simplicity in architecture and algorithms is often key to achieving significant performance improvements.
+- It covers the specific challenges encountered when displaying large and complex code differences.
+- The post discusses the iterative process of identifying bottlenecks, implementing solutions, and making necessary trade-offs.
+
+## Out Commentary
+
+This is a classic "behind the scenes" look at a problem many of us take for granted. We often just expect diffs to load instantly, but this article reminds us of the immense engineering effort required for seemingly simple features at scale. I appreciate the transparency in sharing these architectural challenges. It's a good lesson in how even small optimizations can have a huge impact on user experience when applied to a platform like GitHub.
+
+Original Link: https://github.blog/engineering/architecture-optimization/the-uphill-climb-of-making-diff-lines-performant/]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[What to Know in JavaScript (2026 Edition): A Comprehensive Guide]]></title>
         <id>https://digestweb.dev/articles/2026-04-03/what-to-know-javascript-2026-edition-comprehensive-guide</id>
