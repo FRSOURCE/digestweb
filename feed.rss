@@ -4,11 +4,30 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Fri, 03 Apr 2026 16:43:13 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Apr 2026 16:43:16 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[What to Know in JavaScript (2026 Edition): A Comprehensive Guide]]></title>
+            <link>https://digestweb.dev/articles/2026-04-03/what-to-know-javascript-2026-edition-comprehensive-guide</link>
+            <guid>https://digestweb.dev/articles/2026-04-03/what-to-know-javascript-2026-edition-comprehensive-guide</guid>
+            <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[## Summary & Key Takeaways
+
+- This Frontend Masters guide provides a comprehensive overview of the JavaScript ecosystem as of 2026.
+- It delves into the latest developments and proposals for JavaScript language features.
+- The article examines the current state and trends of popular web frameworks and libraries.
+- It offers insights into the evolution of JavaScript runtimes, including Node.js, Deno, and Bun.
+- Readers will find updates on essential build tools and their impact on development workflows.
+- The guide also covers advancements in testing strategies and tools within the JavaScript landscape.
+- It serves as a crucial resource for developers aiming to stay current with the rapidly changing web development world.
+
+## Our Commentary
+
+These "what to know" guides are absolute lifesavers in the JavaScript world. The pace of change is relentless – one minute you're mastering a framework, the next there's a new runtime or a Stage 3 proposal that changes everything. We genuinely appreciate Frontend Masters for distilling this chaos into something digestible. It's not just about listing new features; it's about providing context and helping developers understand where to focus their learning efforts. We often use these articles as a benchmark, a quick way to check if we've missed anything significant or if our current tech stack is still aligned with emerging best practices. It's a vital compass in an ever-shifting landscape.]]></description>
+        </item>
         <item>
             <title><![CDATA[Cursor 3 Transforms into Unified Workspace for AI Agent Development]]></title>
             <link>https://digestweb.dev/articles/2026-04-02/cursor-3-unified-workspace-ai-agents</link>
