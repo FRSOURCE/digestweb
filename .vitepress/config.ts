@@ -15,6 +15,17 @@ const skipArticles =
 
 process.env.VITE_EXTRA_EXTENSIONS = 'rss,atom';
 
+type ArticleFrontmatterData = {
+  title: string;
+  description: string;
+  photo: string;
+  original_url: string;
+  source_name: string;
+  source_author: string;
+  tags: string[];
+  significance: number;
+};
+
 export default defineConfig({
   title: 'digestweb.dev',
   description: 'Daily curated web dev news by FRSOURCE',
@@ -124,14 +135,16 @@ export default defineConfig({
       author: {
         name: 'Jakub Freisler',
         email: 'jakub@frsource.org',
-        link: siteUrl,
+        link: 'https://www.frsource.org/',
       },
       updated: new Date(),
+      ttl: 60 * 12, // 12 hours
+      image: `${siteUrl}/logo.svg`,
     });
 
     const articlesDir = resolve(siteConfig.srcDir, 'articles');
     type ArticleEntry = {
-      data: Record<string, unknown>;
+      data: ArticleFrontmatterData;
       content: string;
       slug: string;
       dateDir: string;
@@ -150,8 +163,9 @@ export default defineConfig({
           const { data, content } = matter(
             readFileSync(resolve(dayPath, file), 'utf-8'),
           );
+          const typedData = data as ArticleFrontmatterData;
           entries.push({
-            data,
+            data: typedData,
             content,
             slug: file.replace(/\.md$/, ''),
             dateDir,
@@ -167,12 +181,18 @@ export default defineConfig({
       .sort((a, b) => +b.date - +a.date)
       .forEach(({ data, content, slug, dateDir, date }) => {
         const link = `${siteUrl}/articles/${dateDir}/${slug}`;
+        content = content.trim() + '\n\nOriginal Link: ' + data.original_url;
         feed.addItem({
           title: (data.title as string) ?? slug,
           id: link,
           link,
-          description: content.trim(),
+          description: data.description.trim(),
+          content,
+          image: data.photo,
           date,
+          author: data.source_author
+            ? [{ name: data.source_author }]
+            : undefined,
         });
       });
 
