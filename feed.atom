@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-04-01T23:29:19.140Z</updated>
+    <updated>2026-04-03T16:43:13.029Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -13,6 +13,243 @@
     <link rel="self" href="https://digestweb.dev/feed.atom"/>
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Cursor 3 Transforms into Unified Workspace for AI Agent Development]]></title>
+        <id>https://digestweb.dev/articles/2026-04-02/cursor-3-unified-workspace-ai-agents</id>
+        <link href="https://digestweb.dev/articles/2026-04-02/cursor-3-unified-workspace-ai-agents"/>
+        <updated>2026-04-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Cursor, the AI-native code editor, has released its third major version, Cursor 3.
+- Cursor 3 is positioned as a unified workspace specifically tailored for building software.
+- A core focus of this new version is the integration and support for AI agents in the development process.
+- This release aims to streamline the workflow for developers leveraging AI agents for coding tasks.
+
+## Our Commentary
+
+This is a fascinating evolution for Cursor. Moving from an AI-native editor to a "unified workspace for building software with agents" is a significant strategic shift. It acknowledges the growing trend of agentic workflows in software development.
+We're seeing AI agents move beyond just code generation to more complex, autonomous tasks. A dedicated workspace like Cursor 3 could be a game-changer for developers looking to harness this paradigm.
+It makes us wonder how traditional IDEs will adapt to this agent-centric future. Cursor is clearly trying to define that space, and we're excited to see how it impacts developer productivity.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Edoardo Lunardi on Craft, Code Quality, and Frontend Obsession]]></title>
+        <id>https://digestweb.dev/articles/2026-04-02/edoardo-lunardi-frontend-craft-code-quality</id>
+        <link href="https://digestweb.dev/articles/2026-04-02/edoardo-lunardi-frontend-craft-code-quality"/>
+        <updated>2026-04-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article is an interview with Edoardo Lunardi, a creative frontend developer.
+- It delves into his philosophy of obsessing over craft, code quality, and subtle details in his work.
+- Lunardi discusses how this meticulous approach has influenced his decade-long career in creative frontend development.
+- The piece highlights the intersection of engineering principles and artistic craftsmanship in web development.
+
+## Our Commentary
+
+We love these kinds of deep dives into the philosophy behind great frontend work. It's easy to get caught up in the latest frameworks and tools, but Lunardi's focus on craft and quality is a timeless reminder of what truly makes a difference.
+It's inspiring to hear about someone's dedication to the "details nobody notices." That's often where the magic happens, creating experiences that feel polished and intuitive, even if users can't articulate why.
+This article serves as a great prompt to reflect on our own work: are we just shipping features, or are we truly crafting experiences?]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[esbuild v0.28.0 Ships Stage 3 `import with { type: 'text' }` Support]]></title>
+        <id>https://digestweb.dev/articles/2026-04-02/esbuild-v0-28-0-import-with-type-text-support</id>
+        <link href="https://digestweb.dev/articles/2026-04-02/esbuild-v0-28-0-import-with-type-text-support"/>
+        <updated>2026-04-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- esbuild v0.28.0 introduces support for the `import ... with { type: 'text' }` proposal, which has reached Stage 3 in TC39.
+- This feature allows importing text files directly, behaving similarly to esbuild's existing text loader.
+- The release also adds integrity checks to the fallback download path for esbuild's platform-specific packages, enhancing security and reliability during installation.
+- The Go compiler has been updated from 1.25.7 to 1.26.1, bringing internal changes like a new garbage collector and more aggressive stack allocation.
+- The WebAssembly build now consistently uses sign extension and non-trapping floating-point to integer conversion instructions.
+
+## Our Commentary
+
+This is a solid release from esbuild. The `import with { type: 'text' }` proposal reaching Stage 3 and being implemented in major tools like esbuild, Deno, and Bun is a clear signal of its importance for the web platform. It streamlines how we handle non-JS assets.
+We're particularly pleased to see the integrity checks added to the fallback download path. Supply chain security is paramount, and even small improvements like this contribute to a more robust ecosystem. It's a breaking change, but a necessary one for peace of mind.
+The Go compiler update is mostly under the hood, but it's a reminder of the complex dependencies in modern build tools. It's good to see esbuild keeping up with its underlying tech stack.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google DeepMind Unveils Gemma 4: Most Capable Open Models for Agentic AI]]></title>
+        <id>https://digestweb.dev/articles/2026-04-02/google-deepmind-gemma-4-open-models-agentic-ai</id>
+        <link href="https://digestweb.dev/articles/2026-04-02/google-deepmind-gemma-4-open-models-agentic-ai"/>
+        <updated>2026-04-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Google DeepMind has officially launched Gemma 4, their latest generation of open AI models.
+- Gemma 4 is presented as Google DeepMind's most intelligent open model to date.
+- The models are specifically engineered for advanced reasoning capabilities.
+- A key focus of Gemma 4's design is its suitability for agentic workflows, indicating support for autonomous AI systems.
+
+## Our Commentary
+
+This is a huge deal. Google DeepMind claiming "most capable open models" and specifically highlighting "advanced reasoning and agentic workflows" means they're pushing the boundaries of what's available to the open-source community.
+The focus on agentic workflows is particularly exciting. This is where a lot of the cutting-edge AI development is happening, and having powerful open models tailored for it could accelerate innovation dramatically.
+We're seeing a clear trend towards more autonomous and reasoning-capable AI, and Gemma 4 looks like a significant player in that shift. It's a strong statement from DeepMind in the open-source AI race.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hugging Face Welcomes Gemma 4: On-Device Multimodal AI Intelligence]]></title>
+        <id>https://digestweb.dev/articles/2026-04-02/hugging-face-gemma-4-on-device-multimodal-ai</id>
+        <link href="https://digestweb.dev/articles/2026-04-02/hugging-face-gemma-4-on-device-multimodal-ai"/>
+        <updated>2026-04-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Hugging Face has announced the release of Gemma 4, a new AI model.
+- Gemma 4 is described as offering "frontier multimodal intelligence."
+- A key characteristic of Gemma 4 is its capability for "on-device" operation, suggesting efficiency and accessibility.
+- This release likely represents a significant advancement in making powerful AI models available for local execution.
+
+## Our Commentary
+
+This is exciting! "On-device multimodal intelligence" is a huge step forward for AI accessibility and privacy. Running powerful models locally reduces latency, costs, and reliance on cloud services, opening up new possibilities for applications.
+We've been waiting for more capable models that can run efficiently on consumer hardware. Gemma 4, especially coming from Hugging Face, suggests a strong push towards democratizing advanced AI.
+The implications for edge computing, privacy-preserving AI, and even offline applications are massive. This could genuinely change how developers integrate AI into their products.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[llm-gemini Plugin Updates to Version 0.30]]></title>
+        <id>https://digestweb.dev/articles/2026-04-02/llm-gemini-0-30-release</id>
+        <link href="https://digestweb.dev/articles/2026-04-02/llm-gemini-0-30-release"/>
+        <updated>2026-04-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison has released version 0.30 of his `llm-gemini` plugin.
+- This plugin integrates Google's Gemini models with his `llm` command-line tool.
+- The update likely includes bug fixes, performance improvements, or minor feature additions.
+- It provides enhanced functionality for users interacting with Gemini models via the `llm` tool.
+
+## Our Commentary
+
+For anyone deeply embedded in Simon Willison's `llm` ecosystem, this update to `llm-gemini` is a welcome refinement. It shows continuous development and commitment to keeping his tools current with the latest models.
+It's a good example of how the open-source community rapidly builds layers of tooling around foundational AI models, making them more accessible and usable for specific workflows.
+While a minor version bump, these incremental improvements are what make developer tools robust and reliable over time.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Master Complex CSS Shapes with the `shape()` Function]]></title>
+        <id>https://digestweb.dev/articles/2026-04-02/master-complex-css-shapes-with-shape-function</id>
+        <link href="https://digestweb.dev/articles/2026-04-02/master-complex-css-shapes-with-shape-function"/>
+        <updated>2026-04-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article is a tutorial on creating complex CSS shapes beyond basic rectangles and circles.
+- It demonstrates how to use modern CSS features, specifically the `shape()` function, to achieve intricate designs.
+- Examples of shapes covered include triangles, hexagons, stars, and hearts.
+- The guide aims to simplify the process of implementing advanced visual elements in web design.
+
+## Our Commentary
+
+We love a good CSS-Tricks tutorial, and this one on complex shapes is particularly useful. While basic shapes are easy, pushing the boundaries with CSS can often feel like a hack.
+The `shape()` function is a powerful, yet sometimes underutilized, tool for creative web design. This article makes it accessible and shows how modern CSS can handle what once required SVG or image assets.
+It's a great reminder that CSS continues to evolve, offering more direct and performant ways to achieve sophisticated visual effects. This will definitely be a bookmark for our design-focused developers.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Node.js Pauses Security Bug Bounty Program Due to Funding Loss]]></title>
+        <id>https://digestweb.dev/articles/2026-04-02/nodejs-security-bug-bounty-program-paused-funding-loss</id>
+        <link href="https://digestweb.dev/articles/2026-04-02/nodejs-security-bug-bounty-program-paused-funding-loss"/>
+        <updated>2026-04-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- The Node.js project has announced the indefinite pausing of its security bug bounty program.
+- This decision is a direct result of a critical loss of funding for the program.
+- The bug bounty program was a crucial component in identifying and mitigating security vulnerabilities within the Node.js runtime.
+- The pause raises significant concerns about the future security posture and community involvement in safeguarding Node.js.
+- The announcement highlights the ongoing challenges open-source projects face in securing consistent financial support for vital initiatives.
+
+## Our Commentary
+
+This is genuinely concerning news. The Node.js ecosystem is massive, powering countless applications, and a robust bug bounty program is a cornerstone of its security. To see it paused due to funding issues feels like a step backward.
+It really underscores the fragility of open-source funding models. We rely so heavily on these projects, yet the financial support for critical infrastructure often lags. Who steps up now? Will this lead to a decline in reported vulnerabilities or, worse, an increase in unpatched ones?
+We hope the OpenJS Foundation and the wider community can rally to find a sustainable solution. The security of Node.js isn't just a project concern; it's a collective industry responsibility.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Acquires TBPN to Accelerate Global AI Conversations]]></title>
+        <id>https://digestweb.dev/articles/2026-04-02/openai-acquires-tbpn-ai-conversations</id>
+        <link href="https://digestweb.dev/articles/2026-04-02/openai-acquires-tbpn-ai-conversations"/>
+        <updated>2026-04-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI has announced the acquisition of TBPN.
+- The acquisition's primary goal is to accelerate global conversations surrounding artificial intelligence.
+- OpenAI intends to use this acquisition to support independent media.
+- This move aims to expand dialogue with AI builders, businesses, and the broader tech community.
+
+## Our Commentary
+
+This acquisition is interesting. OpenAI is clearly looking beyond just building models and is now actively shaping the narrative and public perception of AI. Acquiring a media-focused entity like TBPN suggests a more direct hand in how AI is discussed.
+We're curious about the implications for "independent media." Will this truly foster diverse perspectives, or will it subtly align narratives with OpenAI's vision? It's a delicate balance when a major AI player starts directly influencing media.
+It feels like a strategic play to control the message and ensure a positive public image, especially as AI becomes more integrated into society.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Codex Introduces Flexible Pay-As-You-Go Pricing for Teams]]></title>
+        <id>https://digestweb.dev/articles/2026-04-02/openai-codex-flexible-pricing-teams</id>
+        <link href="https://digestweb.dev/articles/2026-04-02/openai-codex-flexible-pricing-teams"/>
+        <updated>2026-04-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI's Codex service now features more flexible pricing options for teams.
+- This update includes the introduction of pay-as-you-go pricing for ChatGPT Business and Enterprise accounts.
+- The new pricing model aims to offer teams a more adaptable way to begin using and scale their adoption of OpenAI's services.
+
+## Our Commentary
+
+Flexible pricing is always a welcome change, especially for businesses looking to integrate AI tools without massive upfront commitments. It lowers the barrier to entry for smaller teams or those experimenting with AI at scale.
+It's a smart move by OpenAI to encourage wider adoption of their enterprise offerings. Pay-as-you-go models often resonate better with dynamic business needs than rigid subscription tiers.
+We see this as a positive step for developer experience, making it easier for teams to experiment and scale their AI-powered workflows.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Quick Guide to Creating Web Syndication Feeds (RSS & Atom)]]></title>
+        <id>https://digestweb.dev/articles/2026-04-02/quick-guide-creating-web-syndication-feeds</id>
+        <link href="https://digestweb.dev/articles/2026-04-02/quick-guide-creating-web-syndication-feeds"/>
+        <updated>2026-04-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article provides a guide to creating and understanding web syndication feeds, such as RSS and Atom.
+- It argues that RSS is still highly relevant and essential for proper content publishing on the web.
+- The guide focuses on the core principles of various feed formats rather than exhaustive details.
+- It serves as a reference or cheat sheet for developers, even if most tools automate feed generation.
+- Understanding feed formats is crucial for troubleshooting and parsing content, not just creating it.
+- The article includes boilerplate and metadata requirements for RSS feeds as an example.
+
+## Our Commentary
+
+We're big fans of this article's premise: RSS is not dead! It's a fundamental part of the open web, and it's refreshing to see a guide that champions its continued relevance.
+In an era dominated by algorithmic feeds, the ability to subscribe directly to content creators via RSS is a powerful act of reclaiming control over one's information diet.
+This guide is excellent for anyone looking to ensure their content is truly "on the web" and accessible beyond walled gardens. It's a foundational piece of knowledge that every web publisher should have.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Simon Willison on Agentic Engineering: Highlights from Lenny's Podcast]]></title>
+        <id>https://digestweb.dev/articles/2026-04-02/simon-willison-agentic-engineering-lennys-podcast</id>
+        <link href="https://digestweb.dev/articles/2026-04-02/simon-willison-agentic-engineering-lennys-podcast"/>
+        <updated>2026-04-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison has published highlights from his recent conversation on Lenny's Podcast.
+- The discussion centered around the emerging field of "agentic engineering."
+- Agentic engineering involves designing and building systems where AI agents can autonomously perform complex tasks.
+- The blog post likely distills key insights and perspectives from the podcast episode on this trending AI topic.
+
+## Our Commentary
+
+Simon Willison is always a must-read for anything AI-related, and his insights on agentic engineering are particularly valuable right now. This field is moving incredibly fast, and getting a clear perspective from someone like him is crucial.
+The concept of AI agents taking on more complex, multi-step tasks is a paradigm shift. It moves beyond simple prompt engineering to designing entire systems where AIs can reason, plan, and execute.
+We're seeing "agentic workflows" mentioned everywhere, from new models like Gemma 4 to tools like Cursor 3. This podcast recap reinforces that this isn't just hype; it's a fundamental shift in how we build with AI.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Simon Willison's Take on Google DeepMind's Gemma 4 Open Models]]></title>
+        <id>https://digestweb.dev/articles/2026-04-02/simon-willison-gemma-4-open-models</id>
+        <link href="https://digestweb.dev/articles/2026-04-02/simon-willison-gemma-4-open-models"/>
+        <updated>2026-04-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison has published his thoughts and analysis on the recently announced Gemma 4 models from Google DeepMind.
+- Gemma 4 is positioned as Google DeepMind's most capable open model to date.
+- The models are specifically designed for advanced reasoning and agentic workflows.
+- Willison's post likely provides a critical review, practical implications, or further technical details beyond the official announcement.
+
+## Our Commentary
+
+It's great to see Simon Willison weighing in on Gemma 4 so quickly. His analysis often cuts through the marketing hype and gets to the practical implications and technical nuances.
+When a major open model like Gemma 4 drops, having trusted voices like Simon provide their perspective is invaluable for the community to understand its true potential and limitations.
+We'll be keen to see if his take aligns with or diverges from the official DeepMind narrative, offering a more rounded view of this significant release.]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ADeLe: Predicting and Explaining AI Performance Across Tasks]]></title>
         <id>https://digestweb.dev/articles/2026-04-01/adele-predicting-explaining-ai-performance</id>
