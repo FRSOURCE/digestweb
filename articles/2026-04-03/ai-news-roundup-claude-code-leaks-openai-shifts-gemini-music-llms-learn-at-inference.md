@@ -18,4 +18,6 @@ significance: 4
 - New research highlights LLMs' ability to learn during the inference stage, a significant development.
 - The digest also emphasizes the rapid improvement and growing importance of voice-based AI user interfaces.
 
-Wow, this is a packed issue! The Claude code leak is certainly unsettling for Anthropic, raising questions about security and intellectual property in the competitive LLM race. OpenAI exiting video generation is a head-scratcher; are they doubling down elsewhere, or did they hit a wall? Gemini adding music generation is cool, but the real headline for me is LLMs learning at inference. That's a paradigm shift if it becomes robust – imagine models adapting in real-time without retraining. It feels like the AI world is moving at warp speed, with major news breaking almost daily.
+## Out Commentary
+
+Wow, this is a packed issue! The Claude code leak is certainly unsettling for Anthropic, raising questions about security and intellectual property in the competitive LLM race. OpenAI exiting video generation is a head-scratcher - are they doubling down elsewhere, or did they hit a wall? Gemini adding music generation is cool, but the real headline for me is LLMs learning at inference. That's a paradigm shift if it becomes robust – imagine models adapting in real-time without retraining. It feels like the AI world is moving at warp speed, with major news breaking almost daily.

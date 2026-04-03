@@ -7,7 +7,7 @@ original_url: https://blog.pragmaticengineer.com/the-pulse-is-github-still-best-
 source_name: 'The Pragmatic Engineer'
 source_author: 'Gergely Orosz'
 tags: [ai, tooling, dx, open-source]
-significance: 4
+significance: 3
 ---
 
 ## Summary & Key Takeaways
@@ -18,4 +18,6 @@ significance: 4
 - The report also highlights a leadership vacuum at GitHub, with no CEO and an unclear strategic direction.
 - These challenges could impact GitHub's central role in the software development ecosystem.
 
-This is a bombshell. 90% availability for GitHub is absolutely catastrophic for a platform so central to modern development. The idea that AI agents are contributing to this instability is both ironic and deeply concerning. It feels like GitHub is caught between a rock and a hard place: embrace AI, but then struggle to scale for it. The leadership vacuum only compounds the problem. We rely on GitHub so heavily; seeing it falter like this is genuinely unsettling for the entire developer ecosystem. I hope they can get a handle on this quickly, because the implications are huge.
+## Out Commentary
+
+90% availability for GitHub is really bad for a platform so central to modern development. It feels like GitHub is caught between a rock and a hard place: embrace AI, but then struggle to scale for it. The leadership vacuum only compounds the problem. I hope they can get a handle on this quickly, because the implications are huge.

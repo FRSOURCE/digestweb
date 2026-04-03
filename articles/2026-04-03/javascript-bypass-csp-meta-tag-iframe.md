@@ -17,4 +17,6 @@ significance: 3
 - It likely explores potential attack vectors and browser security mechanisms in this specific scenario.
 - The goal is to assess the robustness of CSP when defined within a meta tag inside a nested iframe.
 
-Simon Willison is a treasure for these kinds of deep, specific security dives. This isn't a "how-to" for beginners; it's a forensic examination of browser security boundaries. The question itself is fascinating – the interplay of CSP, iframes, and meta tags can be incredibly subtle, and it's often in these edge cases that vulnerabilities are found. It's a stark reminder that web security is a constant cat-and-mouse game, and understanding these low-level interactions is crucial for building truly secure applications.
+## Out Commentary
+
+The question itself is fascinating – the interplay of CSP, iframes, and meta tags can be incredibly subtle, and it's often in these edge cases that vulnerabilities are found. It's a stark reminder that web security is a constant cat-and-mouse game, and understanding these low-level interactions is crucial for building truly secure applications.

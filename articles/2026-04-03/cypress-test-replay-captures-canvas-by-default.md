@@ -7,7 +7,7 @@ original_url: https://www.cypress.io/blog/cypress-test-replay-now-captures-canva
 source_name: 'Cypress Blog'
 source_author: ''
 tags: [testing, release, tooling]
-significance: 2
+significance: 1
 ---
 
 ## Summary & Key Takeaways
@@ -18,4 +18,6 @@ significance: 2
 - It also addresses current limitations and "gaps" in the canvas capture functionality.
 - Instructions are provided for users who need to adjust or disable the default canvas capture setting.
 
-This is a solid quality-of-life improvement for Cypress users, especially those dealing with complex UIs or games built on canvas. It's a small change, but making it a default shows Cypress is listening to its user base and trying to reduce friction. We've all been there, trying to debug a test only to realize a crucial visual element wasn't captured. This should make those scenarios less frequent.
+## Out Commentary
+
+It's a small change, but making it a default shows Cypress is listening to its user base and trying to reduce friction. We've all been there, trying to debug a test only to realize a crucial visual element wasn't captured. This should make those scenarios less frequent.

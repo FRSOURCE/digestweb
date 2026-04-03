@@ -17,4 +17,6 @@ significance: 1
 - It explains the "hub-and-spoke" model adopted for their repository architecture.
 - The post likely covers the benefits, challenges, and best practices for this specific setup.
 
-Monorepos are a hot topic, and seeing how a team like Dagster tackles the complexities of syncing with tools like Copybara is always insightful. This feels like a very specific solution to a very specific problem, but the underlying principles of managing large codebases and ensuring consistent, efficient workflows are universal. It's a good reminder that there's no one-size-fits-all solution for repository management, and sometimes you need to build or heavily configure specialized tools.
+## Out Commentary
+
+Monorepos are still a hot topic, and seeing how a team like Dagster tackles the complexities of syncing with tools like Copybara is always insightful. This feels like a very specific solution to a very specific problem, but the underlying principles of managing large codebases and ensuring consistent, efficient workflows are universal. It's a good reminder that there's no one-size-fits-all solution for repository management, and sometimes you need to build or heavily configure specialized tools.

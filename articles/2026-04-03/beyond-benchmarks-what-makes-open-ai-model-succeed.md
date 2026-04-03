@@ -17,4 +17,6 @@ significance: 3
 - The piece highlights practical applicability and the surrounding ecosystem as key indicators of a model's long-term impact.
 - It suggests that a model's utility and adaptability in real-world applications define its true value.
 
+## Out Commentary
+
 This is a much-needed perspective in the AI space. We're all so fixated on leaderboards and benchmark numbers, but as Lambert points out, that often misses the forest for the trees. An "open" model isn't just about the weights; it's about the community, the tooling, and how easily developers can actually _use_ and _adapt_ it. I think this is a crucial conversation for the longevity and true decentralization of AI development. It's a reminder that technology adoption is rarely just about raw performance.

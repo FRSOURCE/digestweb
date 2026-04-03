@@ -18,4 +18,6 @@ significance: 3
 - It highlights that targeted social engineering can bypass many technical security measures.
 - The incident serves as a warning for open-source projects to enhance human-centric security practices.
 
-This is genuinely concerning. We often focus on technical vulnerabilities, but social engineering remains one of the most potent attack vectors. The fact that the Axios attack was _individually targeted_ makes it even more insidious – it's not just about securing your code, but also about securing your people and their digital identities. This is a stark reminder that open-source maintainers are often volunteers, and they're increasingly becoming high-value targets. We need better support and education for them to withstand these sophisticated attacks.
+## Out Commentary
+
+This is genuinely concerning. We often focus on technical vulnerabilities, but social engineering remains one of the most potent attack vectors. This is a stark reminder that open-source maintainers who often are volunteers, are becoming high-value targets as well. We need better support and education for them to withstand these sophisticated attacks.

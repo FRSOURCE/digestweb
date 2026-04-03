@@ -7,7 +7,7 @@ original_url: https://github.blog/engineering/architecture-optimization/the-uphi
 source_name: 'GitHub Blog'
 source_author: ''
 tags: [performance, tooling]
-significance: 1
+significance: 2
 ---
 
 ## Summary & Key Takeaways
@@ -16,5 +16,7 @@ significance: 1
 - The article emphasizes that simplicity in architecture and algorithms is often key to achieving significant performance improvements.
 - It covers the specific challenges encountered when displaying large and complex code differences.
 - The post discusses the iterative process of identifying bottlenecks, implementing solutions, and making necessary trade-offs.
+
+## Out Commentary
 
 This is a classic "behind the scenes" look at a problem many of us take for granted. We often just expect diffs to load instantly, but this article reminds us of the immense engineering effort required for seemingly simple features at scale. I appreciate the transparency in sharing these architectural challenges. It's a good lesson in how even small optimizations can have a huge impact on user experience when applied to a platform like GitHub.
