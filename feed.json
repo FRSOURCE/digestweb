@@ -11,12 +11,33 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-04-03/ai-impact-vulnerability-research-cooked",
+            "content_html": "## Summary & Key Takeaways\n\n- The article discusses how AI tools, particularly large language models (LLMs) and coding assistants like GitHub Copilot, are rapidly changing the landscape of vulnerability research.\n- It suggests that AI's ability to quickly identify and fix common vulnerabilities might make traditional human-led vulnerability discovery less viable.\n- The author questions the future of human vulnerability researchers in a world where AI can find and patch bugs at an unprecedented speed.\n- The piece explores the potential for AI to both automate vulnerability discovery and assist in patching, creating a new dynamic in cybersecurity.\n\n## Our Commentary\n\nThis is a fascinating, and frankly, a bit unsettling take. The idea that AI could \"cook\" an entire field like vulnerability research by simply being too good, too fast, is a stark reminder of the disruptive power of these tools. We've seen AI automate many tasks, but for it to potentially outpace human ingenuity in finding novel flaws raises serious questions about the future of human expertise in security. It makes me wonder if the focus will shift from finding bugs to understanding and auditing AI-generated code for subtle, complex vulnerabilities that even AI might miss.\n\nOriginal Link: https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-04-03/ai-impact-vulnerability-research-cooked",
+            "title": "AI's Impact on Vulnerability Research: Is the Field \"Cooked\"?",
+            "summary": "Simon Willison explores how AI tools are transforming vulnerability research, potentially making it harder for human experts to discover novel security flaws.",
+            "image": "https://picsum.photos/id/300/800/450",
+            "date_modified": "2026-04-03T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-04-03/ai-news-roundup-claude-code-leaks-openai-shifts-gemini-music-llms-learn-at-inference",
             "content_html": "## Summary & Key Takeaways\n\n- Reports indicate a leak of Claude Code's source, a notable event for Anthropic.\n- OpenAI is reportedly exiting the video generation domain, suggesting a strategic shift.\n- Google's Gemini has introduced new music generation capabilities, enhancing its multimodal offerings.\n- New research highlights LLMs' ability to learn during the inference stage, a significant development.\n- The digest also emphasizes the rapid improvement and growing importance of voice-based AI user interfaces.\n\n## Out Commentary\n\nWow, this is a packed issue! The Claude code leak is certainly unsettling for Anthropic, raising questions about security and intellectual property in the competitive LLM race. OpenAI exiting video generation is a head-scratcher - are they doubling down elsewhere, or did they hit a wall? Gemini adding music generation is cool, but the real headline for me is LLMs learning at inference. That's a paradigm shift if it becomes robust – imagine models adapting in real-time without retraining. It feels like the AI world is moving at warp speed, with major news breaking almost daily.\n\nOriginal Link: https://www.deeplearning.ai/the-batch/issue-347/",
             "url": "https://digestweb.dev/articles/2026-04-03/ai-news-roundup-claude-code-leaks-openai-shifts-gemini-music-llms-learn-at-inference",
             "title": "AI News Roundup: Claude Code Leaks, OpenAI Shifts, Gemini Music, LLMs Learn at Inference",
             "summary": "This AI news digest covers the leak of Claude Code's source, OpenAI's strategic exit from video generation, Gemini's new music generation capabilities, and breakthroughs in LLMs learning during inference. It also touches on the rapid improvement of voice-based AI.",
             "image": "https://charonhub.deeplearning.ai/content/images/2026/04/Voice-based-AI-that-you-can-talk-to-is-improving-rapidly--yet-most-people-still-don-t-appreciate-how-pervasive-voice-UIs--user-interfaces--will-become.-1.png",
+            "date_modified": "2026-04-03T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-04-03/ai-survey-writing-human-expertise",
+            "content_html": "## Summary & Key Takeaways\n\n- The article from Nielsen Norman Group explores the utility of AI in drafting surveys.\n- It highlights AI's capability to quickly generate polished survey questions and structures.\n- Crucially, the piece emphasizes that human expertise is still indispensable for reviewing AI-generated surveys.\n- Human researchers are needed to identify subtle design flaws, biases, and nuances that could compromise data quality and validity.\n\n## Our Commentary\n\nWe appreciate the clear distinction between AI as an augmentation tool versus a full replacement. It's a good reminder that even in seemingly straightforward tasks like survey writing, the \"last mile\" of quality and nuance often requires human judgment. It reinforces the idea that AI is a powerful assistant, but the ultimate responsibility for quality and ethical design still rests with us.\n\nOriginal Link: https://www.nngroup.com/articles/ai-survey-writing/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+            "url": "https://digestweb.dev/articles/2026-04-03/ai-survey-writing-human-expertise",
+            "title": "AI for Survey Writing: Augmenting, Not Replacing, Human Expertise",
+            "summary": "Nielsen Norman Group discusses how AI can draft surveys efficiently, but human experts remain crucial for identifying subtle design flaws and ensuring data quality.",
+            "image": "https://media.nngroup.com/media/articles/opengraph_images/Course_Card_1.png",
             "date_modified": "2026-04-03T00:00:00.000Z"
         },
         {
@@ -44,12 +65,33 @@
             }
         },
         {
+            "id": "https://digestweb.dev/articles/2026-04-03/cognitive-impact-ai-coding-agents",
+            "content_html": "## Summary & Key Takeaways\n\n- The article explores the cognitive demands placed on developers when working with AI coding agents.\n- It argues that while agents automate code generation, developers still bear a significant cognitive load in reviewing, understanding, and debugging the AI's output.\n- The author suggests that the mental effort shifts from writing code to critically evaluating and integrating AI-generated solutions.\n- This new paradigm requires developers to develop skills in prompt engineering, output validation, and understanding the \"black box\" nature of AI.\n\n## Our Commentary\n\nThis resonates deeply with our own experiences. The promise of AI agents is often framed as pure automation, but the reality is a more complex dance between human and machine. We're becoming orchestrators and critical auditors. It's less about writing the perfect `for` loop and more about ensuring the AI's `for` loop is correct, efficient, and fits the broader architecture. This shift in mental effort is something every developer adopting AI tools needs to be aware of.\n\nOriginal Link: https://simonwillison.net/2026/Apr/3/cognitive-cost/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-04-03/cognitive-impact-ai-coding-agents",
+            "title": "The Cognitive Impact of AI Coding Agents on Developers",
+            "summary": "Simon Willison examines how integrating AI coding agents shifts cognitive load for developers, requiring new skills in review and integration rather than simple delegation.",
+            "image": "https://static.simonwillison.net/static/2026/cognitive-cost-card.jpg",
+            "date_modified": "2026-04-03T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-04-03/cypress-test-replay-captures-canvas-by-default",
             "content_html": "## Summary & Key Takeaways\n\n- Cypress Test Replay in Cypress Cloud now captures canvas elements by default for all projects.\n- This eliminates the need for users to manually request or enable canvas capture for their tests.\n- The announcement details the specific changes introduced with this update.\n- It also addresses current limitations and \"gaps\" in the canvas capture functionality.\n- Instructions are provided for users who need to adjust or disable the default canvas capture setting.\n\n## Out Commentary\n\nIt's a small change, but making it a default shows Cypress is listening to its user base and trying to reduce friction. We've all been there, trying to debug a test only to realize a crucial visual element wasn't captured. This should make those scenarios less frequent.\n\nOriginal Link: https://www.cypress.io/blog/cypress-test-replay-now-captures-canvas-elements-by-default/",
             "url": "https://digestweb.dev/articles/2026-04-03/cypress-test-replay-captures-canvas-by-default",
             "title": "Cypress Test Replay Now Captures Canvas Elements by Default",
             "summary": "Cypress Test Replay now automatically captures canvas elements for all projects in Cypress Cloud, simplifying testing for applications that interact with them. The update details what changed, remaining gaps, and how to adjust settings.",
             "image": "https://www.cypress.io/cypress_logo_social.png",
+            "date_modified": "2026-04-03T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-04-03/defining-ai-agents",
+            "content_html": "## Summary & Key Takeaways\n\n- The article offers a clear and concise definition of an AI agent.\n- It describes an AI agent as a system that actively pursues a goal through a cycle of taking actions, evaluating its progress, and making subsequent decisions.\n- The definition emphasizes that effective AI agents must possess qualities such as reliability, adaptability, and accuracy.\n- This framework helps distinguish AI agents from simpler AI tools by focusing on their autonomous, goal-oriented behavior.\n\n## Our Commentary\n\nIn a world awash with AI buzzwords, a clear, concrete definition like this from NNGroup is incredibly valuable. We've seen \"AI agent\" thrown around quite a bit, often without a shared understanding. This article helps ground the concept, providing a useful mental model for what constitutes an agent and what makes one effective. It's a foundational piece for anyone trying to make sense of the increasingly complex AI ecosystem, especially as these agents become more integrated into our workflows.\n\nOriginal Link: https://www.nngroup.com/articles/definition-ai-agent/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+            "url": "https://digestweb.dev/articles/2026-04-03/defining-ai-agents",
+            "title": "Defining AI Agents: Iterative Goal Pursuit and Key Attributes",
+            "summary": "Nielsen Norman Group provides a concrete definition of an AI agent as a system that iteratively takes actions, evaluates progress, and decides next steps to pursue a goal.",
+            "image": "https://media.nngroup.com/media/articles/opengraph_images/Course_Card_2.png",
             "date_modified": "2026-04-03T00:00:00.000Z"
         },
         {
