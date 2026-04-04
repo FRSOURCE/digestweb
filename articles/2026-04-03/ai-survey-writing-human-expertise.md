@@ -7,7 +7,7 @@ original_url: https://www.nngroup.com/articles/ai-survey-writing/?utm_source=rss
 source_name: 'NNGroup'
 source_author: ''
 tags: [ai, ux, research, tutorial]
-significance: 2
+significance: 1
 ---
 
 ## Summary & Key Takeaways
@@ -19,4 +19,4 @@ significance: 2
 
 ## Our Commentary
 
-This is a classic NNGroup take: practical, grounded, and realistic about technology's role. We appreciate the clear distinction between AI as an augmentation tool versus a full replacement. It's a good reminder that even in seemingly straightforward tasks like survey writing, the "last mile" of quality and nuance often requires human judgment. It reinforces the idea that AI is a powerful assistant, but the ultimate responsibility for quality and ethical design still rests with us.
+We appreciate the clear distinction between AI as an augmentation tool versus a full replacement. It's a good reminder that even in seemingly straightforward tasks like survey writing, the "last mile" of quality and nuance often requires human judgment. It reinforces the idea that AI is a powerful assistant, but the ultimate responsibility for quality and ethical design still rests with us.
