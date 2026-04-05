@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Sat, 04 Apr 2026 10:46:29 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 05 Apr 2026 08:39:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,28 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Understanding the Core Components of AI Coding Agents]]></title>
+            <link>https://digestweb.dev/articles/2026-04-04/understanding-core-components-ai-coding-agents</link>
+            <guid>https://digestweb.dev/articles/2026-04-04/understanding-core-components-ai-coding-agents</guid>
+            <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This article breaks down how AI coding agents leverage tools, memory, and repository context to enhance the practical application and effectiveness of Large Language Models in software development. It provides insights into their operational architecture.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article explores the fundamental components that enable AI coding agents to function effectively.
+- It highlights the crucial role of "tools," which allow LLMs to interact with external systems and execute specific actions beyond text generation.
+- "Memory" is discussed as essential for agents to retain context, learn from past interactions, and maintain state across multiple steps.
+- The concept of "repository context" is introduced, emphasizing how agents utilize codebase information for more accurate and relevant code generation and modification.
+- These components collectively enhance the practical utility of Large Language Models in real-world software development scenarios.
+- The integration of these elements helps overcome common limitations of raw LLMs, making agents more robust and capable.
+
+## Our Commentary
+
+The rise of coding agents is one of the most fascinating and, frankly, slightly terrifying developments in AI right now. This article's breakdown of tools, memory, and repo context really hits on the core challenges and innovations. We've seen raw LLMs struggle with complex coding tasks, but giving them "hands" (tools) and "brains" (memory, context) fundamentally changes the game. There's something unsettling about agents churning away at 3 am while nobody's watching, but the potential for productivity gains is undeniable. It makes us wonder how quickly these systems will evolve from assistants to autonomous developers. The implications for developer workflows and even the definition of "coding" itself are profound.
+
+Original Link: https://magazine.sebastianraschka.com/p/components-of-a-coding-agent]]></content:encoded>
+            <enclosure url="https://substackcdn.com/image/fetch/$s_!_g0S!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49b97718-57f4-4977-99c8-8ad5c4d32af3_1548x862.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[AI's Impact on Vulnerability Research: Is the Field "Cooked"?]]></title>
             <link>https://digestweb.dev/articles/2026-04-03/ai-impact-vulnerability-research-cooked</link>
@@ -258,6 +280,28 @@ This is a classic "behind the scenes" look at a problem many of us take for gran
 
 Original Link: https://github.blog/engineering/architecture-optimization/the-uphill-climb-of-making-diff-lines-performant/]]></content:encoded>
             <enclosure url="https://github.blog/wp-content/uploads/2026/01/generic-invertocat-github-logo.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[TypeScript Type Guards vs. Assertion Functions: Understanding Scope]]></title>
+            <link>https://digestweb.dev/articles/2026-04-03/typescript-type-guards-assertion-functions-scope</link>
+            <guid>https://digestweb.dev/articles/2026-04-03/typescript-type-guards-assertion-functions-scope</guid>
+            <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This article clarifies the distinct scoping behaviors of TypeScript type guards and assertion functions, demonstrating how assertion functions provide persistent type narrowing beyond conditional blocks. It highlights a crucial difference for robust type handling in TypeScript applications.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article introduces TypeScript type guards, which narrow types only within their conditional scope.
+- It then explains assertion functions, a lesser-known TypeScript feature.
+- Assertion functions, declared with `asserts value is Type`, throw an error if the condition is not met.
+- Crucially, assertion functions narrow the type of a variable for the _entire remaining scope_ after the assertion.
+- This persistent type narrowing is a key difference from standard type guards, which revert the type outside their `if` block.
+- The author notes that while validation libraries like Zod are generally recommended for unknown data sources, assertion functions offer a type-focused solution.
+
+## Our Commentary
+
+This is a fantastic "Today I Learned" moment, and honestly, we at digestweb.dev were right there with Stefan – assertion functions often fly under the radar! The persistent type narrowing they offer is a game-changer for code clarity and safety, especially when dealing with external data sources or complex object structures. It's one of those subtle TypeScript features that, once you know it, you can't unsee its utility. We often find ourselves writing redundant checks or casting, and this pattern offers a much cleaner alternative. It's a great reminder that TypeScript has many powerful tools beyond the basics.
+
+Original Link: https://www.stefanjudis.com/today-i-learned/the-scope-of-type-guards-and-assertion-functions/]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/493/800/450" length="0" type="image//id/493/800/450"/>
         </item>
         <item>
             <title><![CDATA[What to Know in JavaScript (2026 Edition): A Comprehensive Guide]]></title>
