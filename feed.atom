@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-04-05T08:39:47.565Z</updated>
+    <updated>2026-04-05T08:39:54.770Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,30 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Components of a Coding Agent: Tools, Memory, and Context]]></title>
+        <id>https://digestweb.dev/articles/2026-04-04/components-of-a-coding-agent-tools-memory-context</id>
+        <link href="https://digestweb.dev/articles/2026-04-04/components-of-a-coding-agent-tools-memory-context"/>
+        <updated>2026-04-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Explore the essential components that empower AI coding agents, including their use of tools, memory, and repository context to enhance LLM performance in practical applications.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- This article delves into the fundamental building blocks of effective AI coding agents.
+- It explains how these agents leverage external tools to perform actions beyond their core LLM capabilities.
+- The piece details the role of memory in maintaining conversational state and learning from past interactions.
+- It also covers the importance of repository context for understanding project structure and relevant code.
+- The author illustrates how these components collectively improve the practical application and performance of LLMs in coding tasks.
+
+## Our Commentary
+
+This is a really solid breakdown of what makes AI coding agents tick. We've seen a lot of hype around agents, but understanding the underlying architecture — especially the interplay of tools, memory, and context — is crucial for anyone looking to build or even just evaluate them.
+It's easy to get lost in the 'magic' of LLMs, but this article grounds the discussion in practical engineering. The emphasis on structured memory and context management really highlights the current limitations and the clever workarounds developers are implementing. It makes me wonder how much more sophisticated these systems will become as LLMs themselves improve, reducing the need for some of these external scaffolding components.
+
+Original Link: https://magazine.sebastianraschka.com/p/components-of-a-coding-agent]]></content>
+        <author>
+            <name>Sebastian Raschka</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Understanding the Core Components of AI Coding Agents]]></title>
         <id>https://digestweb.dev/articles/2026-04-04/understanding-core-components-ai-coding-agents</id>
