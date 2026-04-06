@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-04-05T08:40:59.985Z</updated>
+    <updated>2026-04-06T15:37:45.175Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,110 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Cleaning Up Claude's Code Pastes with Python]]></title>
+        <id>https://digestweb.dev/articles/2026-04-06/cleaning-up-claude-code-pastes-with-python</id>
+        <link href="https://digestweb.dev/articles/2026-04-06/cleaning-up-claude-code-pastes-with-python"/>
+        <updated>2026-04-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn how to easily clean up conversational filler and extra text from Claude's code outputs using a simple Python script and regular expressions. This improves the developer experience when integrating LLM-generated code.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Large Language Models like Claude often include conversational text or explanations around code blocks, making direct pasting difficult.
+- This article presents a Python script designed to clean up such LLM outputs.
+- The script utilizes regular expressions to identify and extract only the pure code content.
+- It addresses common patterns where Claude might introduce code with phrases like "Here's the code:" or add surrounding commentary.
+- The solution aims to streamline the process of integrating AI-generated code into development workflows.
+- This practical tip enhances the developer experience by reducing manual cleanup efforts.
+- The approach is adaptable and can be modified for outputs from other LLMs with similar formatting quirks.
+- It highlights a common challenge in working with AI and offers a straightforward, effective remedy.
+
+## Our Commentary
+
+This is one of those small, practical tips that makes a huge difference in daily development. We've all been there, wrestling with LLM output that's 90% useful code and 10% conversational fluff. Simon's simple Python script is a lifesaver for anyone regularly pasting code from Claude or similar models. It's a great reminder that while AI is powerful, the human element of crafting good tooling around it is still crucial for a smooth developer experience. It also subtly points to the ongoing need for LLMs to produce cleaner, more directly usable output, but until then, this kind of utility is invaluable.
+
+Original Link: https://simonwillison.net/2026/Apr/6/cleanup-claude-code-paste/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google AI Edge Gallery: On-Device AI Examples]]></title>
+        <id>https://digestweb.dev/articles/2026-04-06/google-ai-edge-gallery-on-device-ai-examples</id>
+        <link href="https://digestweb.dev/articles/2026-04-06/google-ai-edge-gallery-on-device-ai-examples"/>
+        <updated>2026-04-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Explore Google's new AI Edge Gallery, a collection of open-source examples for running AI models on edge devices using MediaPipe, TensorFlow Lite, and ONNX Runtime. It provides practical code, models, and instructions for various platforms.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The Google AI Edge Gallery is a new resource offering open-source examples for running AI models on edge devices.
+- It features examples utilizing MediaPipe, TensorFlow Lite, and ONNX Runtime.
+- The gallery includes practical applications such as object detection, image segmentation, and pose estimation.
+- Developers can find code, pre-trained models, and detailed instructions for deploying these AI solutions across Android, iOS, web, and Linux platforms.
+- This initiative aims to simplify the development and deployment of on-device AI applications.
+- The gallery provides a centralized hub for exploring and implementing edge AI capabilities.
+- It supports a range of hardware and software configurations, making AI more accessible for embedded systems.
+- The examples are designed to be easily integrated into existing projects, accelerating development cycles.
+
+## Our Commentary
+
+This is a genuinely exciting development for anyone dabbling in on-device AI. Google bringing together a gallery of open-source examples, complete with code and models, is a huge accelerator. We've seen the promise of edge AI for a while, but getting started can be a real pain. This gallery, especially with its multi-platform support and focus on practical applications, feels like a significant step towards democratizing on-device machine learning. I'm particularly keen on seeing how this evolves and what new use cases it enables for developers outside of Google's immediate ecosystem.
+
+Original Link: https://simonwillison.net/2026/Apr/6/google-ai-edge-gallery/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing datasette-ports: Lightweight Data APIs from SQLite]]></title>
+        <id>https://digestweb.dev/articles/2026-04-06/introducing-datasette-ports-lightweight-data-apis-from-sqlite</id>
+        <link href="https://digestweb.dev/articles/2026-04-06/introducing-datasette-ports-lightweight-data-apis-from-sqlite"/>
+        <updated>2026-04-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Discover `datasette-ports`, a new Datasette plugin that enables you to define named SQL queries as "ports," exposing them as simple JSON APIs via URLs. It offers a lightweight way to create micro-APIs from your SQLite databases.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- `datasette-ports` is a new Datasette plugin designed to simplify data exposure.
+- It allows users to define "ports," which are named SQL queries.
+- These ports can be accessed via simple URLs, returning data in JSON format.
+- The plugin provides a lightweight method for creating micro-APIs directly from SQLite databases.
+- It aims to make it easier to expose specific data views or custom API endpoints without extensive coding.
+- This tool enhances Datasette's capability as a platform for publishing and exploring data.
+- Developers can quickly turn complex SQL queries into accessible web endpoints.
+- The plugin streamlines the process of sharing and integrating data from SQLite databases.
+
+## Our Commentary
+
+Simon Willison continues to churn out incredibly useful tools for the Datasette ecosystem, and `datasette-ports` looks like another winner. The idea of turning SQL queries into simple, named API endpoints is brilliant in its simplicity. It really lowers the barrier to exposing data from SQLite databases, which is something many of us do regularly. While Datasette itself is a niche, this kind of lightweight API generation is a concept that could inspire similar approaches in other data-publishing tools. It's a testament to the power of focused, open-source development.
+
+Original Link: https://simonwillison.net/2026/Apr/6/datasette-ports/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Eight Years of Wanting, Three Months of Building with AI]]></title>
+        <id>https://digestweb.dev/articles/2026-04-05/eight-years-wanting-three-months-building-with-ai</id>
+        <link href="https://digestweb.dev/articles/2026-04-05/eight-years-wanting-three-months-building-with-ai"/>
+        <updated>2026-04-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison shares a personal story of finally building a long-desired note-organizing tool in just three months, thanks to modern AI. He reflects on how AI acted as a force multiplier, overcoming years of procrastination and technical hurdles.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison recounts his eight-year desire to build a personal note-organizing and search tool.
+- Despite his technical background, he struggled to find the time and motivation to start the project.
+- The advent of modern AI tools, particularly Large Language Models, changed this dynamic.
+- Over the past three months, he rapidly prototyped and built a functional version of his long-desired tool.
+- The article emphasizes AI's role as a "force multiplier" in personal development projects.
+- AI helped him overcome previous blockers and accelerate the development process significantly.
+- This personal narrative illustrates the transformative impact of AI on individual productivity and project realization.
+- It suggests that AI can make complex or long-deferred projects more approachable and achievable.
+
+## Our Commentary
+
+This article really resonates with me. We've all got those "someday" projects, the ones that sit on the back burner for years despite our best intentions. Simon's story is a powerful testament to how AI isn't just for big tech companies; it's a genuine force multiplier for individual developers too. The idea that AI can help us finally tackle those long-deferred personal projects, turning years of wanting into months of building, is incredibly inspiring. It makes me wonder what other long-standing ideas are now within reach. This isn't just about coding faster; it's about unlocking creative potential and overcoming the inertia that often plagues personal endeavors.
+
+Original Link: https://simonwillison.net/2026/Apr/5/building-with-ai/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Understanding the Core Components of AI Coding Agents]]></title>
         <id>https://digestweb.dev/articles/2026-04-04/understanding-core-components-ai-coding-agents</id>
