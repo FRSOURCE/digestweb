@@ -7,7 +7,7 @@ original_url: https://css-tricks.com/css-multi-column-layout-wrapping-features/
 source_name: 'CSS-Tricks'
 source_author: ''
 tags: [css, web-platform, browser, release]
-significance: 3
+significance: 2
 ---
 
 ## Summary & Key Takeaways
@@ -20,6 +20,4 @@ significance: 3
 
 ## Our Commentary
 
-This is a genuinely exciting development for CSS layout! Multi-column layouts have always been a bit tricky to manage, especially when content length is dynamic. The introduction of `column-height` and `column-wrap` in Chrome 145 feels like a missing piece of the puzzle.
-
-Preventing horizontal scroll in multi-column layouts by allowing content to wrap into new rows is a huge win for responsive design and user experience. We've definitely wrestled with this problem before, and having native CSS properties to handle it cleanly is a testament to the continuous evolution of the web platform. This will make many complex layouts much simpler to implement.
+Multi-column layouts have always been a bit tricky to manage, especially when content length is dynamic. The introduction of `column-height` and `column-wrap` in Chrome 145 feels like a missing piece of the puzzle. Let's see when we get that supported in every browser though :)
