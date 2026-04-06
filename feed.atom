@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-04-06T15:37:45.175Z</updated>
+    <updated>2026-04-06T23:44:31.011Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,50 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Behind the Scenes: Building Maxima Therapy with React, GSAP, and AI]]></title>
+        <id>https://digestweb.dev/articles/2026-04-06/building-maxima-therapy-website-react-gsap-ai</id>
+        <link href="https://digestweb.dev/articles/2026-04-06/building-maxima-therapy-website-react-gsap-ai"/>
+        <updated>2026-04-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Explore the creative process behind the Maxima Therapy website, showcasing playful interactions, innovative code, and how AI was integrated into the development workflow.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article provides a behind-the-scenes look at the development of the Maxima Therapy website.
+- It highlights the use of React for the frontend and GSAP for creating playful and engaging animations.
+- The development process involved creative coding techniques to achieve unique user interactions.
+- The team also experimented with integrating AI tools to assist in various aspects of the website's creation.
+- The project emphasizes a blend of modern web technologies and innovative design principles.
+
+## Our Commentary
+
+Codrops always delivers inspiring showcases, and this one is no different. We're particularly interested in the "dabbling with AI" aspect. It's becoming increasingly common for agencies and developers to integrate AI into their workflows, whether for content generation, design inspiration, or even code snippets.
+
+It's a good example of how AI is slowly but surely becoming another tool in the modern web developer's arsenal, rather than a standalone solution. We're curious to see the specifics of how AI was leveraged here – was it for generating copy, assisting with design elements, or something else entirely? This kind of practical application is far more valuable than theoretical discussions.
+
+Original Link: https://tympanus.net/codrops/2026/04/06/building-the-maxima-therapy-website-react-gsap-and-dabbling-with-ai/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chris’ Corner: Navigating Perfectionism in Design and Creative Work]]></title>
+        <id>https://digestweb.dev/articles/2026-04-06/chris-corner-perfectionism-design-creative-work</id>
+        <link href="https://digestweb.dev/articles/2026-04-06/chris-corner-perfectionism-design-creative-work"/>
+        <updated>2026-04-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article from Chris Coyier explores the fine line between beneficial perfectionist traits and obsessive tendencies in creative work, offering insights on recognizing when it goes too far.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article delves into the nature of perfectionism within design and creative fields.
+- It discusses how perfectionist traits can be beneficial but also highlights the point where they become detrimental.
+- The author explores the tendency to justify obsessive work habits, even when they lead to agony.
+- It features insights from other creatives like Siqi, Renald, and Pablo on avoiding getting bogged down by perfectionism.
+- The piece encourages self-awareness to distinguish between productive drive and counterproductive obsession.
+
+## Our Commentary
+
+Ah, perfectionism – the designer's blessing and curse. This piece from Chris Coyier hits home for many of us in the web development and design world. It's so easy to get lost in the pursuit of pixel-perfect or perfectly optimized solutions, often at the expense of progress or mental well-being.
+
+We appreciate the candid discussion about recognizing when those traits cross into obsession. It's a constant battle to find that balance, and articles like this serve as a good reminder to step back, assess, and sometimes, just ship it. The insights from other creatives add a nice touch of shared experience.
+
+Original Link: https://blog.codepen.io/2026/04/06/chris-corner-design-2/]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Cleaning Up Claude's Code Pastes with Python]]></title>
         <id>https://digestweb.dev/articles/2026-04-06/cleaning-up-claude-code-pastes-with-python</id>
@@ -39,6 +83,28 @@ Original Link: https://simonwillison.net/2026/Apr/6/cleanup-claude-code-paste/#a
         <author>
             <name>Simon Willison</name>
         </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Creating Interactive Puzzle Pieces with CSS `clip-path: shape()`]]></title>
+        <id>https://digestweb.dev/articles/2026-04-06/creating-puzzle-pieces-css-clip-path</id>
+        <link href="https://digestweb.dev/articles/2026-04-06/creating-puzzle-pieces-css-clip-path"/>
+        <updated>2026-04-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn how to leverage the `clip-path: shape()` CSS property to construct intricate puzzle pieces and arrange them into a dynamic grid with perfectly matched edges.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article demonstrates how to create puzzle pieces purely with CSS.
+- It utilizes the powerful `clip-path: shape()` property to define the complex shapes of puzzle edges.
+- The tutorial extends beyond single pieces to show how to build an entire grid of puzzle elements.
+- It covers techniques for ensuring that the edges of adjacent puzzle pieces match seamlessly.
+- The method allows for content to be placed inside the CSS-generated puzzle pieces.
+
+## Our Commentary
+
+This is such a fun and creative application of CSS! We love seeing how developers push the boundaries of what's possible with native browser features. `clip-path: shape()` is incredibly versatile, but using it to generate a grid of perfectly interlocking puzzle pieces is a genuinely clever idea.
+
+It's not just a neat trick; it's a fantastic way to understand the power of `clip-path` and how it can be used for more than just simple geometric shapes. This kind of tutorial is great for sparking creativity and showing developers how to think outside the box with CSS. We're definitely bookmarking this for future inspiration!
+
+Original Link: https://frontendmasters.com/blog/creating-puzzle-peices-in-css/]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Google AI Edge Gallery: On-Device AI Examples]]></title>
@@ -93,6 +159,69 @@ Original Link: https://simonwillison.net/2026/Apr/6/datasette-ports/#atom-everyt
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New CSS Multi-Column Layout Features: `column-height` and `column-wrap`]]></title>
+        <id>https://digestweb.dev/articles/2026-04-06/new-css-multi-column-layout-wrapping-features</id>
+        <link href="https://digestweb.dev/articles/2026-04-06/new-css-multi-column-layout-wrapping-features"/>
+        <updated>2026-04-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Chrome 145 introduces `column-height` and `column-wrap` properties, allowing developers to control multi-column content flow by wrapping overflow into new rows, enabling vertical scrolling.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Chrome 145 is introducing two new CSS properties: `column-height` and `column-wrap`.
+- These properties enhance the control over multi-column layouts in CSS.
+- `column-wrap` allows additional content that overflows columns to wrap into a new row below the existing columns.
+- This new wrapping behavior enables a vertical scroll for overflow content, preventing unwanted horizontal scrolling.
+- The features provide more flexibility and better user experience for complex text and content layouts.
+
+## Our Commentary
+
+Multi-column layouts have always been a bit tricky to manage, especially when content length is dynamic. The introduction of `column-height` and `column-wrap` in Chrome 145 feels like a missing piece of the puzzle. Let's see when we get that supported in every browser though :)
+
+Original Link: https://css-tricks.com/css-multi-column-layout-wrapping-features/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Proposes Industrial Policy for the AI Era: Expanding Opportunity & Prosperity]]></title>
+        <id>https://digestweb.dev/articles/2026-04-06/openai-industrial-policy-intelligence-age</id>
+        <link href="https://digestweb.dev/articles/2026-04-06/openai-industrial-policy-intelligence-age"/>
+        <updated>2026-04-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI outlines its vision for a people-first industrial policy in the age of advanced intelligence, focusing on expanding opportunities, sharing prosperity, and building resilient institutions.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI has put forth a set of ambitious, people-first industrial policy ideas for the evolving AI era.
+- The proposed policies aim to expand opportunities for individuals and communities in the face of advanced intelligence.
+- A core focus is on ensuring the shared prosperity that arises from AI advancements.
+- The initiative also emphasizes the importance of building resilient institutions to adapt to and manage the societal changes brought by AI.
+- These ideas are intended to guide the development and integration of AI in a way that benefits humanity broadly.
+
+## Our Commentary
+
+This is a big one. OpenAI isn't just building models; they're actively trying to shape the societal and economic landscape around AI. Proposing an "industrial policy for the Intelligence Age" is a bold move, and it signals a recognition of AI's profound, systemic impact.
+
+While the stated goals of "expanding opportunity" and "sharing prosperity" sound great, the devil is always in the details of implementation. We need to critically examine whose interests such policies truly serve and how they'll prevent further concentration of power. It's a conversation that needs broad public input, not just from the tech giants. This is a crucial discussion for the future.
+
+Original Link: https://openai.com/index/industrial-policy-for-the-intelligence-age]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Launches Safety Fellowship to Foster AI Alignment Research]]></title>
+        <id>https://digestweb.dev/articles/2026-04-06/openai-launches-safety-fellowship-ai-alignment</id>
+        <link href="https://digestweb.dev/articles/2026-04-06/openai-launches-safety-fellowship-ai-alignment"/>
+        <updated>2026-04-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI introduces a pilot program designed to support independent research in AI safety and alignment, aiming to cultivate the next generation of talent in responsible AI development.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI has announced a new pilot program called the OpenAI Safety Fellowship.
+- The fellowship aims to support independent research focused on AI safety and alignment.
+- A key goal of the program is to develop and nurture the next generation of talent in this critical field.
+- This initiative reflects OpenAI's commitment to addressing the challenges and ensuring the responsible development of advanced AI.
+
+## Our Commentary
+
+It's good to see OpenAI putting resources into safety and alignment research, especially with a focus on independent talent. The rapid advancements in AI make these areas more crucial than ever. However, there's always a slight tension when the very companies pushing the boundaries of AI are also the ones defining and funding its safety research.
+
+We hope this fellowship genuinely fosters diverse perspectives and truly independent thought, rather than just aligning with OpenAI's internal safety frameworks. The future of AI depends on robust, critical examination from all angles, and programs like this have the potential to contribute positively if executed with true openness.
+
+Original Link: https://openai.com/index/introducing-openai-safety-fellowship]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Eight Years of Wanting, Three Months of Building with AI]]></title>
         <id>https://digestweb.dev/articles/2026-04-05/eight-years-wanting-three-months-building-with-ai</id>
         <link href="https://digestweb.dev/articles/2026-04-05/eight-years-wanting-three-months-building-with-ai"/>
@@ -116,6 +245,56 @@ This article really resonates with me. We've all got those "someday" projects, t
 Original Link: https://simonwillison.net/2026/Apr/5/building-with-ai/#atom-everything]]></content>
         <author>
             <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Localize Units and Currencies with JavaScript's Intl.NumberFormat]]></title>
+        <id>https://digestweb.dev/articles/2026-04-05/localize-units-currencies-javascript-intl-numberformat</id>
+        <link href="https://digestweb.dev/articles/2026-04-05/localize-units-currencies-javascript-intl-numberformat"/>
+        <updated>2026-04-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Discover how the `Intl.NumberFormat` API in JavaScript can effortlessly format numbers with various currencies and units, handling locale-specific conventions.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The `Intl.NumberFormat` API in JavaScript can format numbers with currencies and units.
+- It automatically handles locale-specific formatting, such as currency symbol placement and decimal separators.
+- Examples demonstrate formatting currencies like EUR and JPY, and units like "kilometer-per-hour" and "kilobyte" in different locales.
+- The API supports various `unitDisplay` options, including `long` for full unit names.
+- Developers are advised to use this built-in language feature instead of implementing custom currency/unit logic.
+
+## Our Commentary
+
+This is a fantastic "Today I Learned" moment for many, including us! The `Intl` object is a powerhouse, and it's easy to overlook its full capabilities. We've all probably written some clunky custom logic for currency or unit formatting at some point, only to realize the browser could do it better and more correctly.
+
+The examples showing how Japanese Yen symbols move or how French translates "kilobyte" are great illustrations of why relying on `Intl` is crucial for true internationalization. It's a small detail that makes a huge difference in user experience and correctness. A solid reminder to always check the platform APIs before rolling your own.
+
+Original Link: https://www.stefanjudis.com/today-i-learned/intl-can-localize-units-too/]]></content>
+        <author>
+            <name>Stefan Judis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web Weekly #188: CSS, JavaScript, TypeScript, and AI Insights]]></title>
+        <id>https://digestweb.dev/articles/2026-04-05/web-weekly-188-css-javascript-typescript-ai</id>
+        <link href="https://digestweb.dev/articles/2026-04-05/web-weekly-188-css-javascript-typescript-ai"/>
+        <updated>2026-04-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This edition of Web Weekly covers recent developments in CSS, new JavaScript features, TypeScript type guards, and includes thought-provoking takes on AI's impact on work.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The CSS sticky spec has seen changes, and the `position-visibility` property is discussed.
+- New JavaScript features expected to land in 2026 are highlighted.
+- CSS subgrid is presented as a solution for laying out content from CMS systems, with cross-browser support since September 2023.
+- The article differentiates between TypeScript type guards and assertion functions for type narrowing.
+- It includes philosophical snippets on the nature of unfinished work, the pitfalls of letting AI write for you, and how AI might shrink teams but not problems.
+
+## Our Commentary
+
+Stefan's Web Weekly is always a treat, and this edition is no exception. We appreciate the concise updates on various web platform features, especially the nod to CSS subgrid's utility for CMS content. The quick dive into TypeScript type guards versus assertion functions is a nice "today I learned" moment for many.
+
+What really caught our eye were the "No code" snippets. The idea that "Nothing you own is finished" resonates deeply with the continuous nature of web development. And the AI takes – "Letting an LLM write for you is like paying somebody to work out for you" and "AI Shrinks the Team, Not the Problem" – are sharp, critical perspectives we need more of. It's a good reminder that tools augment, they don't replace fundamental understanding or human responsibility.
+
+Original Link: https://www.stefanjudis.com/blog/web-weekly-188/]]></content>
+        <author>
+            <name>Stefan Judis</name>
         </author>
     </entry>
     <entry>
