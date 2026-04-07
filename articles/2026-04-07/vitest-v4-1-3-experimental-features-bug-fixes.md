@@ -7,7 +7,7 @@ original_url: https://github.com/vitest-dev/vitest/releases/tag/v4.1.3
 source_name: 'Vitest Releases'
 source_author: ''
 tags: [release, testing, tooling]
-significance: 2
+significance: 1
 ---
 
 ## Summary & Key Takeaways
@@ -16,5 +16,7 @@ significance: 2
 - Developers can now use `TestAttachment.bodyEncoding` and implement custom snapshot matchers.
 - The release also includes numerous bug fixes, such as advancing fake timers with `expect.poll` interval and resolving issues with suite hooks.
 - Improvements were made to snapshot handling, error reporting, and type leakage prevention.
+
+## Our Commentary
 
 It's always good to see a testing framework like Vitest continue to iterate quickly. The experimental features, especially custom snapshot matchers, sound like they could unlock some really powerful testing patterns. We're particularly interested in how `preParse` might impact performance for larger test suites. The continuous stream of bug fixes also reassures us about the project's health and responsiveness.

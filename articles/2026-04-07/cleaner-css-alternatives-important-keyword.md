@@ -17,4 +17,6 @@ significance: 2
 - Other strategies include leveraging specificity tricks, smarter CSS rule ordering, and clever selector hacks.
 - The goal is to achieve cleaner, more predictable, and maintainable stylesheets without resorting to `!important`.
 
+## Our Commentary
+
 Ah, `!important` – the developer's equivalent of a panic button. We've all been there, and it's a slippery slope. This article is a welcome reminder that there are almost always better, more elegant solutions. Cascade layers, in particular, have been a game-changer for managing complexity. It's a fundamental skill for any frontend developer to master, and CSS-Tricks consistently delivers solid advice on these core topics.

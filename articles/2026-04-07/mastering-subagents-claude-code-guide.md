@@ -16,4 +16,6 @@ significance: 2
 - It covers the scenarios and best practices for when to deploy subagents to manage complex tasks.
 - The guide aims to help developers enhance their AI agent workflows by leveraging modular subagent architectures.
 
+## Our Commentary
+
 Subagents are a fascinating concept in the evolving world of AI. Breaking down complex tasks into smaller, manageable units for specialized agents feels like a natural progression for building more robust and reliable AI systems. We're curious to see how Anthropic frames the "when" to use them – often, the hardest part of any new pattern is knowing where it truly adds value versus just adding complexity. This guide could be a key resource for anyone building serious applications with Claude.

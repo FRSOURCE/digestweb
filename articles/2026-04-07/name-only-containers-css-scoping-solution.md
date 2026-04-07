@@ -17,4 +17,6 @@ significance: 3
 - This is achieved using a simple `@container` query, providing a powerful and intuitive styling mechanism.
 - This approach addresses a long-standing need for better component-level style encapsulation in CSS.
 
+## Our Commentary
+
 Finally! This is the kind of granular control over CSS scoping that frontend developers have been dreaming of for years. The ability to truly encapsulate styles within a component using `container-name` and `@container` queries is a massive win for maintainability and developer experience. It feels like a missing piece of the puzzle for component-driven architectures. We're genuinely excited about the cleaner, more predictable stylesheets this will enable.
