@@ -11,6 +11,93 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-04-07/cleaner-css-alternatives-important-keyword",
+            "content_html": "## Summary & Key Takeaways\n\n- The article from CSS-Tricks explores various alternatives to using the `!important` keyword in CSS.\n- It covers modern techniques such as cascade layers, which provide a structured way to manage CSS specificity.\n- Other strategies include leveraging specificity tricks, smarter CSS rule ordering, and clever selector hacks.\n- The goal is to achieve cleaner, more predictable, and maintainable stylesheets without resorting to `!important`.\n\n## Our Commentary\n\nAh, `!important` – the developer's equivalent of a panic button. We've all been there, and it's a slippery slope. This article is a welcome reminder that there are almost always better, more elegant solutions. Cascade layers, in particular, have been a game-changer for managing complexity. It's a fundamental skill for any frontend developer to master, and CSS-Tricks consistently delivers solid advice on these core topics.\n\nOriginal Link: https://css-tricks.com/alternatives-to-the-important-keyword/",
+            "url": "https://digestweb.dev/articles/2026-04-07/cleaner-css-alternatives-important-keyword",
+            "title": "Cleaner CSS: Alternatives to the !important Keyword",
+            "summary": "Explore various modern CSS techniques, including cascade layers and specificity strategies, to replace the `!important` keyword with more predictable and maintainable styling solutions.",
+            "image": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/03/important-style.webp",
+            "date_modified": "2026-04-07T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-04-07/glm-5-1-advancing-ai-long-horizon-tasks",
+            "content_html": "## Summary & Key Takeaways\n\n- The article from Simon Willison's Weblog introduces GLM-5.1, a new development in AI.\n- It highlights GLM-5.1's focus on addressing long-horizon tasks, a significant challenge in AI research.\n- The discussion likely delves into how this model aims to improve the handling of complex, multi-step operations.\n\n## Our Commentary\n\nLong-horizon tasks are the holy grail for many AI applications, so any progress here is genuinely exciting. Simon Willison's insights are always sharp, and we trust him to cut through the hype. If GLM-5.1 truly makes strides in this area, it could unlock a new generation of more capable and autonomous AI agents. We're keeping a close eye on how this research translates into practical applications.\n\nOriginal Link: https://simonwillison.net/2026/Apr/7/glm-51/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-04-07/glm-5-1-advancing-ai-long-horizon-tasks",
+            "title": "GLM-5.1: Advancing AI Capabilities for Long-Horizon Tasks",
+            "summary": "Simon Willison discusses GLM-5.1, a new development in AI research focused on improving models' ability to handle complex, multi-step tasks over extended periods.",
+            "image": "https://static.simonwillison.net/static/2026/glm-5.1-pelican.png",
+            "date_modified": "2026-04-07T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-04-07/javascript-2026-jsir-jetstream3-ecosystem-overview",
+            "content_html": "## Summary & Key Takeaways\n\n- Google has open-sourced JSIR, a new high-level Intermediate Representation for JavaScript, intended to form a foundation for next-generation tooling.\n- WebKit, Google, and Mozilla have jointly unveiled JetStream 3, the latest version of their browser-oriented JavaScript and WASM performance benchmarks.\n- The issue includes an \"up-to-date overview of the JS landscape,\" covering ECMAScript additions, frameworks, runtimes, and build tools.\n- Other notable mentions include a postmortem of an npm supply chain compromise and Cloudflare's release of EmDash, a JavaScript-flavored \"spiritual successor to WordPress.\"\n- ESLint v10.2.0 adds support for language-aware rules, and Node.js 25.9.0 introduces `--max-heap-size` and an experimental iterable streams API.\n\n## Our Commentary\n\nJavaScript Weekly always delivers a packed issue, and this one is no exception. Google's JSIR is a fascinating, albeit long-term, development. It's the kind of foundational work that could quietly revolutionize our tooling down the line, making linters and bundlers even smarter. And JetStream 3? That's a big deal for browser performance nerds like us. It's a good snapshot of where the ecosystem is heading, with a mix of deep technical advancements and practical updates. We're particularly intrigued by Cloudflare's EmDash – a \"spiritual successor to WordPress\" built with JS sounds ambitious!\n\nOriginal Link: https://javascriptweekly.com/issues/780",
+            "url": "https://digestweb.dev/articles/2026-04-07/javascript-2026-jsir-jetstream3-ecosystem-overview",
+            "title": "JavaScript in 2026: Google's JSIR, JetStream 3, and Ecosystem Overview",
+            "summary": "This JavaScript Weekly issue highlights Google's new JSIR for advanced tooling, the release of browser performance benchmark JetStream 3, and provides a comprehensive overview of the current JavaScript ecosystem.",
+            "image": "https://picsum.photos/id/185/800/450",
+            "date_modified": "2026-04-07T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-04-07/mastering-subagents-claude-code-guide",
+            "content_html": "## Summary & Key Takeaways\n\n- The article provides guidance on effectively using subagents within the Claude Code environment.\n- It covers the scenarios and best practices for when to deploy subagents to manage complex tasks.\n- The guide aims to help developers enhance their AI agent workflows by leveraging modular subagent architectures.\n\n## Our Commentary\n\nSubagents are a fascinating concept in the evolving world of AI. Breaking down complex tasks into smaller, manageable units for specialized agents feels like a natural progression for building more robust and reliable AI systems. We're curious to see how Anthropic frames the \"when\" to use them – often, the hardest part of any new pattern is knowing where it truly adds value versus just adding complexity. This guide could be a key resource for anyone building serious applications with Claude.\n\nOriginal Link: https://claude.com/blog/how-and-when-to-use-subagents-in-claude-code",
+            "url": "https://digestweb.dev/articles/2026-04-07/mastering-subagents-claude-code-guide",
+            "title": "Mastering Subagents in Claude Code: A Practical Guide",
+            "summary": "Learn the best practices for implementing and utilizing subagents within Claude Code, enhancing the capabilities and complexity of your AI agent workflows.",
+            "image": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_og-claude-generic.jpg",
+            "date_modified": "2026-04-07T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-04-07/name-only-containers-css-scoping-solution",
+            "content_html": "## Summary & Key Takeaways\n\n- The article introduces \"name-only containers\" as a solution for CSS scoping within components.\n- By assigning a `container-name` to the root of a component, developers can scope styles directly to it.\n- This is achieved using a simple `@container` query, providing a powerful and intuitive styling mechanism.\n- This approach addresses a long-standing need for better component-level style encapsulation in CSS.\n\n## Our Commentary\n\nFinally! This is the kind of granular control over CSS scoping that frontend developers have been dreaming of for years. The ability to truly encapsulate styles within a component using `container-name` and `@container` queries is a massive win for maintainability and developer experience. It feels like a missing piece of the puzzle for component-driven architectures. We're genuinely excited about the cleaner, more predictable stylesheets this will enable.\n\nOriginal Link: https://frontendmasters.com/blog/name-only-containers-the-scoping-we-needed/",
+            "url": "https://digestweb.dev/articles/2026-04-07/name-only-containers-css-scoping-solution",
+            "title": "Name-Only Containers: The CSS Scoping Solution for Components",
+            "summary": "Discover how `container-name` and `@container` queries provide a robust and intuitive way to scope styles directly to individual components, simplifying CSS management.",
+            "image": "https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/9223",
+            "date_modified": "2026-04-07T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-04-07/project-glasswing-anthropic-claude-mythos-safety",
+            "content_html": "## Summary & Key Takeaways\n\n- Simon Willison discusses Anthropic's Project Glasswing, an initiative focused on AI safety.\n- Project Glasswing involves restricting access to the powerful Claude Mythos model.\n- Access is limited exclusively to security researchers to ensure responsible development and mitigate potential risks.\n\n## Our Commentary\n\nThis is exactly the kind of proactive safety measure we need to see from major AI labs. The idea of a \"Mythos\" model sounds incredibly powerful, and the potential for misuse is real. Restricting it to security researchers for red-teaming and vulnerability discovery is a smart, necessary step. It shows a commitment to responsible AI development that we at digestweb deeply appreciate. It's a complex problem, and transparency around these safety efforts is crucial.\n\nOriginal Link: https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-04-07/project-glasswing-anthropic-claude-mythos-safety",
+            "title": "Project Glasswing: Anthropic Restricts Claude Mythos for Safety Research",
+            "summary": "Simon Willison comments on Anthropic's Project Glasswing, an initiative to limit access to their powerful Claude Mythos model exclusively to security researchers, emphasizing its necessity for AI safety.",
+            "image": "https://static.simonwillison.net/static/2026/openbsd-27-years.jpg",
+            "date_modified": "2026-04-07T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-04-07/r-k-26-crafting-high-impact-portfolio-codrops",
+            "content_html": "## Summary & Key Takeaways\n\n- The article details the extensive process behind creating the R—K ’26 portfolio, which involved over a year of iteration and refinement.\n- It focuses on how identity, rhythm, and interaction were integrated to form a cohesive and impactful user experience.\n- The piece explores the motion studies and technical considerations that shaped the portfolio's unique presence.\n\n## Our Commentary\n\nCodrops always delivers when it comes to showcasing cutting-edge web design, and this article looks like another gem. We love seeing the \"behind the scenes\" of projects that push the boundaries of web interaction. The idea of a portfolio \"led by presence\" is intriguing, and we're eager to see how they achieved that blend of identity and rhythm through code. It's a great reminder that web development isn't just about functionality, but also about artistry and user emotion.\n\nOriginal Link: https://tympanus.net/codrops/2026/04/07/r-k-26-the-thinking-and-code-behind-a-portfolio-led-by-presence/",
+            "url": "https://digestweb.dev/articles/2026-04-07/r-k-26-crafting-high-impact-portfolio-codrops",
+            "title": "R—K ’26: A Deep Dive into Crafting a High-Impact Portfolio",
+            "summary": "Explore the year-long process of designing and coding R—K ’26, a portfolio that seamlessly blends identity, rhythm, and interaction to create a strong digital presence.",
+            "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/03/rk-thumb.webp?x34745",
+            "date_modified": "2026-04-07T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-04-07/transparency-agentic-ai-designing-for-trust-part-1",
+            "content_html": "## Summary & Key Takeaways\n\n- The article discusses the importance of transparency when designing for agentic AI systems.\n- It emphasizes the need to balance revealing system behavior with avoiding information overload.\n- Victor Yocco explores methods for mapping decision points within AI agents.\n- The goal is to reveal the right moments of information to build user trust through clarity.\n\n## Our Commentary\n\nThis is a topic that keeps us up at night. Agentic AI is powerful, but the \"black box\" problem is a real barrier to trust and adoption. Smashing Magazine tackling this is fantastic. We're particularly interested in the idea of \"necessary transparency moments\" – it's not about dumping all data, but about intelligently revealing _what_ users need to know, _when_ they need to know it. This is a design challenge as much as a technical one, and it's absolutely crucial for the future of AI.\n\nOriginal Link: https://smashingmagazine.com/2026/04/identifying-necessary-transparency-moments-agentic-ai-part1/",
+            "url": "https://digestweb.dev/articles/2026-04-07/transparency-agentic-ai-designing-for-trust-part-1",
+            "title": "Transparency in Agentic AI: Designing for Trust (Part 1)",
+            "summary": "Victor Yocco explores the nuanced approach to designing transparency in agentic AI, focusing on identifying key decision points to build user trust through clarity rather than overwhelming data.",
+            "image": "https://files.smashing.media/articles/identifying-necessary-transparency-moments-agentic-ai-part1/identifying-necessary-transparency-moments-agentic-ai-part1.jpg",
+            "date_modified": "2026-04-07T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-04-07/vitest-v4-1-3-experimental-features-bug-fixes",
+            "content_html": "## Summary & Key Takeaways\n\n- Vitest v4.1.3 introduces several experimental features, including an `experimental.preParse` flag and support for `browser.locators.exact` option.\n- Developers can now use `TestAttachment.bodyEncoding` and implement custom snapshot matchers.\n- The release also includes numerous bug fixes, such as advancing fake timers with `expect.poll` interval and resolving issues with suite hooks.\n- Improvements were made to snapshot handling, error reporting, and type leakage prevention.\n\n## Our Commentary\n\nIt's always good to see a testing framework like Vitest continue to iterate quickly. The experimental features, especially custom snapshot matchers, sound like they could unlock some really powerful testing patterns. We're particularly interested in how `preParse` might impact performance for larger test suites. The continuous stream of bug fixes also reassures us about the project's health and responsiveness.\n\nOriginal Link: https://github.com/vitest-dev/vitest/releases/tag/v4.1.3",
+            "url": "https://digestweb.dev/articles/2026-04-07/vitest-v4-1-3-experimental-features-bug-fixes",
+            "title": "Vitest v4.1.3 Introduces Experimental Features and Bug Fixes",
+            "summary": "This minor release of Vitest brings new experimental features like `preParse` flag and custom snapshot matchers, alongside numerous bug fixes to improve stability and developer experience.",
+            "image": "https://opengraph.githubassets.com/53cc7ef79921d82f17ce32e682c33b6fc4bebefc7a93fe019ebdbefa64651377/vitest-dev/vitest/releases/tag/v4.1.3",
+            "date_modified": "2026-04-07T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-04-06/building-maxima-therapy-website-react-gsap-ai",
             "content_html": "## Summary & Key Takeaways\n\n- The article provides a behind-the-scenes look at the development of the Maxima Therapy website.\n- It highlights the use of React for the frontend and GSAP for creating playful and engaging animations.\n- The development process involved creative coding techniques to achieve unique user interactions.\n- The team also experimented with integrating AI tools to assist in various aspects of the website's creation.\n- The project emphasizes a blend of modern web technologies and innovative design principles.\n\n## Our Commentary\n\nCodrops always delivers inspiring showcases, and this one is no different. We're particularly interested in the \"dabbling with AI\" aspect. It's becoming increasingly common for agencies and developers to integrate AI into their workflows, whether for content generation, design inspiration, or even code snippets.\n\nIt's a good example of how AI is slowly but surely becoming another tool in the modern web developer's arsenal, rather than a standalone solution. We're curious to see the specifics of how AI was leveraged here – was it for generating copy, assisting with design elements, or something else entirely? This kind of practical application is far more valuable than theoretical discussions.\n\nOriginal Link: https://tympanus.net/codrops/2026/04/06/building-the-maxima-therapy-website-react-gsap-and-dabbling-with-ai/",
             "url": "https://digestweb.dev/articles/2026-04-06/building-maxima-therapy-website-react-gsap-ai",
