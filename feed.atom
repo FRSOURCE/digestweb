@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-04-06T23:44:31.011Z</updated>
+    <updated>2026-04-07T10:29:52.264Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -105,6 +105,26 @@ This is such a fun and creative application of CSS! We love seeing how developer
 It's not just a neat trick; it's a fantastic way to understand the power of `clip-path` and how it can be used for more than just simple geometric shapes. This kind of tutorial is great for sparking creativity and showing developers how to think outside the box with CSS. We're definitely bookmarking this for future inspiration!
 
 Original Link: https://frontendmasters.com/blog/creating-puzzle-peices-in-css/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Copilot CLI Gets 'Rubber Duck' for Multi-Model Second Opinions]]></title>
+        <id>https://digestweb.dev/articles/2026-04-06/github-copilot-cli-rubber-duck-multi-model-second-opinions</id>
+        <link href="https://digestweb.dev/articles/2026-04-06/github-copilot-cli-rubber-duck-multi-model-second-opinions"/>
+        <updated>2026-04-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[GitHub Copilot CLI now integrates 'Rubber Duck,' a new feature that combines different AI model families to offer varied perspectives and a 'second opinion' on code suggestions, aiming to improve the quality and diversity of assistance.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- GitHub Copilot CLI introduces "Rubber Duck," a new feature designed to offer diverse perspectives on code suggestions.
+- "Rubber Duck" achieves this by combining insights from multiple AI model families.
+- The goal is to provide developers with a "second opinion" on their code, similar to the traditional rubber duck debugging technique.
+- This enhancement aims to improve the quality, variety, and reliability of the AI-generated code assistance.
+- Developers can use this feature to explore alternative solutions or validate their current approaches more effectively.
+
+## Our Commentary
+
+This is a genuinely interesting evolution for AI coding assistants. The idea of getting a "second opinion" from different model families feels like a step towards more robust and less monolithic AI assistance. We've all seen Copilot confidently suggest something that's just... wrong. Introducing a mechanism for diverse perspectives could mitigate that, pushing developers to think more critically rather than just accepting the first suggestion. It also subtly acknowledges the limitations of single-model approaches. I'm curious to see how distinct these "second opinions" truly are in practice and if they genuinely foster better code quality and developer understanding.
+
+Original Link: https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-combines-model-families-for-a-second-opinion/]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Google AI Edge Gallery: On-Device AI Examples]]></title>
@@ -220,6 +240,25 @@ It's good to see OpenAI putting resources into safety and alignment research, es
 We hope this fellowship genuinely fosters diverse perspectives and truly independent thought, rather than just aligning with OpenAI's internal safety frameworks. The future of AI depends on robust, critical examination from all angles, and programs like this have the potential to contribute positively if executed with true openness.
 
 Original Link: https://openai.com/index/introducing-openai-safety-fellowship]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windsurf Launches 'Adaptive' Model Router, Enhances AI Model Selection]]></title>
+        <id>https://digestweb.dev/articles/2026-04-06/windsurf-adaptive-model-router-ai-updates</id>
+        <link href="https://digestweb.dev/articles/2026-04-06/windsurf-adaptive-model-router-ai-updates"/>
+        <updated>2026-04-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Windsurf has rolled out 'Adaptive,' an intelligent model router that automatically selects the optimal AI model, complemented by a redesigned model picker offering pricing context and the removal of daily usage limits for its Max tier.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Windsurf has launched "Adaptive," an intelligent model router designed to automatically select the most suitable AI model for specific tasks.
+- The platform's model picker has been redesigned to include transparent pricing context, helping users make informed choices.
+- Daily usage limits for Windsurf's "Max" tier have been removed, offering greater flexibility to power users.
+- These updates aim to enhance the user experience by making AI model selection smarter, more cost-efficient, and less restrictive.
+
+## Our Commentary
+
+An "Adaptive model router" is a smart move for any platform offering access to multiple AI models. It addresses a real pain point: choosing the right model for the job, especially when performance, cost, and specific capabilities vary wildly. Adding pricing context directly into the picker is also a huge win for developer experience and cost management. We've seen too many platforms where cost is an afterthought, leading to nasty surprises. Removing daily limits for power users is just good business sense, letting those who need it truly leverage the platform. This feels like a solid set of updates focused on practical usability.
+
+Original Link: https://windsurf.com/blog/windsurf-adaptive]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Eight Years of Wanting, Three Months of Building with AI]]></title>
