@@ -11,6 +11,15 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-04-08/mdn-new-frontend-deep-dive-architecture-tech",
+            "content_html": "## Summary & Key Takeaways\n\n- MDN Web Docs has undergone a significant frontend rebuild, moving from a Django/Jinja2 stack to a modern Next.js application using React, TypeScript, and Tailwind CSS.\n- The primary motivations for this rebuild included improving developer experience, enhancing performance, and modernizing the technology stack to ensure long-term maintainability.\n- Key architectural decisions involved adopting a monorepo structure, implementing a robust component library, and integrating with existing backend APIs.\n- Challenges addressed during the migration included ensuring SEO continuity, handling a vast amount of existing content, and managing the transition without disrupting users.\n- The new frontend aims to provide a faster, more responsive, and more accessible experience for developers accessing MDN's comprehensive documentation.\n\n## Our Commentary\n\nThis is a big one for the web platform. MDN is a cornerstone, and seeing them embrace a modern stack like Next.js, React, TypeScript, and Tailwind CSS is a strong signal. It's not just about new features; it's about the developer experience for those maintaining MDN itself, which ultimately trickles down to us. We're particularly interested in the challenges they faced with SEO and content migration—these are real-world problems many large-scale projects encounter. It's a testament to the maturity of these modern frameworks that even a site as critical as MDN can confidently adopt them for a full rebuild. We hope this move also paves the way for even faster updates and new features on MDN itself.\n\nOriginal Link: https://developer.mozilla.org/en-US/blog/mdn-front-end-deep-dive/",
+            "url": "https://digestweb.dev/articles/2026-04-08/mdn-new-frontend-deep-dive-architecture-tech",
+            "title": "Under the Hood of MDN's New Frontend: A Deep Dive into its Rebuild",
+            "summary": "Explore the architectural decisions and technology choices behind MDN's recently rebuilt frontend, understanding the motivations and challenges of such a significant undertaking.",
+            "image": "https://picsum.photos/id/530/800/450",
+            "date_modified": "2026-04-08T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-04-07/cleaner-css-alternatives-important-keyword",
             "content_html": "## Summary & Key Takeaways\n\n- The article from CSS-Tricks explores various alternatives to using the `!important` keyword in CSS.\n- It covers modern techniques such as cascade layers, which provide a structured way to manage CSS specificity.\n- Other strategies include leveraging specificity tricks, smarter CSS rule ordering, and clever selector hacks.\n- The goal is to achieve cleaner, more predictable, and maintainable stylesheets without resorting to `!important`.\n\n## Our Commentary\n\nAh, `!important` – the developer's equivalent of a panic button. We've all been there, and it's a slippery slope. This article is a welcome reminder that there are almost always better, more elegant solutions. Cascade layers, in particular, have been a game-changer for managing complexity. It's a fundamental skill for any frontend developer to master, and CSS-Tricks consistently delivers solid advice on these core topics.\n\nOriginal Link: https://css-tricks.com/alternatives-to-the-important-keyword/",
             "url": "https://digestweb.dev/articles/2026-04-07/cleaner-css-alternatives-important-keyword",
@@ -78,6 +87,18 @@
             "summary": "Explore the year-long process of designing and coding R—K ’26, a portfolio that seamlessly blends identity, rhythm, and interaction to create a strong digital presence.",
             "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/03/rk-thumb.webp?x34745",
             "date_modified": "2026-04-07T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-04-07/sqlite-wal-mode-docker-shared-volume",
+            "content_html": "## Summary & Key Takeaways\n\n- The article addresses the complexities of using SQLite's Write-Ahead Logging (WAL) mode when the database file is shared across multiple Docker containers via a shared volume.\n- WAL mode significantly improves concurrency for SQLite databases but relies on specific file system locking mechanisms that can be problematic in networked or containerized environments.\n- Simon Willison explains that issues often arise due to how different file systems and Docker volume drivers handle advisory file locks, which are crucial for WAL's integrity.\n- The post provides practical guidance on configuring SQLite with `PRAGMA journal_mode=WAL` and managing `PRAGMA busy_timeout` to ensure reliable operation.\n- It emphasizes the importance of understanding the underlying file system behavior and offers troubleshooting tips for common scenarios where WAL mode might fail or cause corruption.\n\n## Our Commentary\n\nThis is the kind of practical, nitty-gritty technical deep dive we love to see. SQLite in WAL mode is fantastic for performance and concurrency, but as Simon Willison points out, throwing Docker shared volumes into the mix can turn it into a real headache. We've definitely seen developers struggle with these kinds of subtle file system interaction issues in containerized environments. It's a great reminder that even with high-level abstractions like Docker, understanding the low-level mechanics of your database and file system is crucial. This article provides invaluable guidance for anyone trying to get a robust, performant SQLite setup running in production with Docker.\n\nOriginal Link: https://simonwillison.net/2026/Apr/7/sqlite-wal-docker-containers/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-04-07/sqlite-wal-mode-docker-shared-volume",
+            "title": "Running SQLite in WAL Mode Across Docker Containers Sharing a Volume",
+            "summary": "Explore the intricacies of configuring SQLite's Write-Ahead Logging (WAL) mode when sharing a database volume between multiple Docker containers, addressing common pitfalls and solutions.",
+            "image": "https://picsum.photos/id/625/800/450",
+            "date_modified": "2026-04-07T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
         },
         {
             "id": "https://digestweb.dev/articles/2026-04-07/transparency-agentic-ai-designing-for-trust-part-1",
