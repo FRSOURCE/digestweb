@@ -14,9 +14,9 @@ significance: 2
 
 - Claude has announced that its "Cowork" platform is now prepared for enterprise-level deployment.
 - The update focuses on features and capabilities essential for large organizations.
-- This likely includes enhanced security, scalability, compliance, and integration options.
+- This includes "Role-based access controls", "Group spend limits", "Usage analytics", "Zoom MCP connector" and "Per tool connector controls".
 - The goal is to enable businesses to leverage Claude's AI for collaborative tasks and improved productivity within their existing workflows.
 
 ## Our Commentary
 
-Enterprise readiness is a huge hurdle for many AI products, so this is a significant step for Claude Cowork. It signals a maturity in their offering beyond just consumer-facing models. We're curious about the specific features that make it "enterprise-ready" – things like data governance, fine-grained access control, and robust APIs are usually key. This move could significantly expand Claude's footprint in the business world.
+Enterprise readiness is a huge hurdle for many AI products, so this is a significant step for Claude Cowork. It signals a maturity in their offering beyond just consumer-facing models. IT looks like Claude is pushing towards becoming a stable enterprise-grade solution that covers all ends of the biggest organizations. This move could significantly expand Claude's footprint in the business world.
