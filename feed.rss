@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Fri, 10 Apr 2026 00:15:30 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Apr 2026 10:03:02 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,242 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Accelerating Angular Compiler with AI: A VoidZero Case Study]]></title>
+            <link>https://digestweb.dev/articles/2026-04-10/accelerating-angular-compiler-with-ai-voidzero</link>
+            <guid>https://digestweb.dev/articles/2026-04-10/accelerating-angular-compiler-with-ai-voidzero</guid>
+            <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[VoidZero shares how they leveraged AI to enhance the speed and efficiency of the Angular compiler, providing a deep dive into their methodology.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article from VoidZero details their process of using AI to optimize the Angular compiler.
+- This initiative aimed to significantly improve the compilation speed for Angular applications.
+- The post likely covers the specific AI techniques and methodologies employed to achieve these performance gains.
+- It serves as a case study for applying AI in build tools and developer experience.
+
+This is fascinating! The idea of using AI to optimize compilers is a powerful one, and seeing it applied to something as widely used as Angular is exciting. We're always looking for ways to improve DX, and faster build times are a huge win. I'm curious about the specific AI techniques they used and if this approach could be generalized to other compilers or build processes. It feels like a glimpse into the future of developer tooling.
+
+Original Link: https://voidzero.dev/posts/oxc-angular-compiler]]></content:encoded>
+            <enclosure url="https://voidzero.dev/covers/oxc-angular-compiler.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[AI-Accelerated Offense: Fortifying Your Security Program]]></title>
+            <link>https://digestweb.dev/articles/2026-04-10/ai-accelerated-offense-fortifying-security</link>
+            <guid>https://digestweb.dev/articles/2026-04-10/ai-accelerated-offense-fortifying-security</guid>
+            <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Claude's blog post discusses the escalating threat of AI-powered cyberattacks and offers strategies for organizations to prepare and strengthen their security programs against these advanced offenses.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The Claude blog post highlights the increasing threat of AI-accelerated cyberattacks.
+- It provides guidance for organizations on how to adapt and strengthen their security programs.
+- The article likely covers proactive measures and strategies to defend against sophisticated AI-powered offenses.
+- It emphasizes the need for evolving security practices in response to advanced AI capabilities.
+
+This is a sobering but absolutely necessary conversation. As AI capabilities grow, so does their potential for misuse, and AI-accelerated cyber offense is a serious concern. It's not just about defending against new tools, but against new _strategies_ that AI enables. We need to be thinking about this proactively, and it's good to see major AI players like Claude addressing it head-on. The arms race between AI offense and defense is just beginning, and security teams need to be ready.
+
+Original Link: https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense]]></content:encoded>
+            <enclosure url="https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_og-claude-generic.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Designing Tools for AI Agents: Insights from Claude Code]]></title>
+            <link>https://digestweb.dev/articles/2026-04-10/designing-tools-ai-agents-claude-code</link>
+            <guid>https://digestweb.dev/articles/2026-04-10/designing-tools-ai-agents-claude-code</guid>
+            <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Claude shares its philosophy and methodology behind designing tools for its AI agents, offering a glimpse into the internal workings and capabilities of Claude Code.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The Claude blog post discusses their approach to designing tools specifically for AI agents within Claude Code.
+- It provides insights into how they enable agents to "see" and interact with these tools effectively.
+- The article likely covers the principles and challenges involved in creating agent-centric interfaces and functionalities.
+- This offers a valuable perspective on the evolving field of AI tool integration and agent capabilities.
+
+This is a fascinating topic! Understanding how AI agents perceive and utilize tools is critical for building more capable and reliable systems. When we talk about agents, the quality of their tools and their ability to use them effectively is paramount. Claude sharing their design philosophy here is incredibly insightful, especially as we move towards more autonomous AI. It makes me wonder about the future of human-agent collaboration and how our interfaces will evolve to accommodate both.
+
+Original Link: https://claude.com/blog/seeing-like-an-agent]]></content:encoded>
+            <enclosure url="https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_og-claude-generic.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Exat Microsite: A Deep Dive into Creative Typography & Interaction]]></title>
+            <link>https://digestweb.dev/articles/2026-04-10/exat-microsite-creative-typography-interaction</link>
+            <guid>https://digestweb.dev/articles/2026-04-10/exat-microsite-creative-typography-interaction</guid>
+            <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Codrops presents a case study on the Exat microsite, exploring how motion, interaction, and scroll-driven design elevate a typography showcase to new creative heights.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Codrops features a case study on the Exat microsite, highlighting its innovative design.
+- The article explores how motion, interaction, and scroll-driven design principles were applied.
+- The Exat microsite serves as an expressive and creative showcase for contemporary typography.
+- It demonstrates pushing web design boundaries for visual impact and user engagement.
+
+Codrops always delivers stunning design showcases, and this one sounds like another gem. It's inspiring to see how far web typography and interactive design can be pushed. In an era where so much focus is on performance and utility, it's refreshing to see a project that prioritizes artistic expression and user delight through creative use of web technologies. This is a great reminder that the web can be a canvas for truly unique experiences.
+
+Original Link: https://tympanus.net/codrops/2026/04/10/the-exat-microsite-pushing-a-typography-showcase-to-new-creative-extremes/]]></content:encoded>
+            <enclosure url="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/03/exat_cover_codrops.jpg?x34745" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Getting Started with GitHub Copilot CLI: A Beginner's Guide]]></title>
+            <link>https://digestweb.dev/articles/2026-04-10/getting-started-github-copilot-cli-beginners-guide</link>
+            <guid>https://digestweb.dev/articles/2026-04-10/getting-started-github-copilot-cli-beginners-guide</guid>
+            <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This step-by-step tutorial from GitHub Blog introduces beginners to the GitHub Copilot CLI, helping them integrate AI assistance into their command-line workflows.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The GitHub Blog provides a beginner's guide to using the GitHub Copilot CLI.
+- It offers a step-by-step tutorial to help new users get started with the AI-powered command-line interface.
+- The guide aims to facilitate the adoption of Copilot CLI for enhancing developer workflows.
+
+GitHub Copilot CLI is a fantastic tool for boosting productivity, especially for those who spend a lot of time in the terminal. A beginner's guide like this is incredibly valuable for lowering the barrier to entry. We've seen how AI can transform coding, and bringing that power directly to the command line for tasks like git commands or complex shell scripts is a game-changer. It's a great way to onboard more developers to AI-assisted development.
+
+Original Link: https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli/]]></content:encoded>
+            <enclosure url="https://github.blog/wp-content/uploads/2026/04/Episode-1.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Handmade Designs Emerge as a New Trust Signal in the AI Era]]></title>
+            <link>https://digestweb.dev/articles/2026-04-10/handmade-designs-new-trust-signal-ai-era</link>
+            <guid>https://digestweb.dev/articles/2026-04-10/handmade-designs-new-trust-signal-ai-era</guid>
+            <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[NNGroup observes that as AI-generated content proliferates, users are increasingly seeking and trusting designs that exhibit a human touch, making "handmade" aesthetics a new mark of authenticity.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- NNGroup identifies "handmade designs" as an emerging trust signal for users.
+- In an era saturated with AI-generated content, users are experiencing "AI fatigue."
+- There's a growing preference for designs that visibly appear to be crafted by a human.
+- This shift impacts design strategy, emphasizing authenticity and human connection.
+
+This is a really insightful observation from NNGroup, and it resonates deeply with me. We've been talking about the "uncanny valley" in AI for a while, but this points to a broader "AI fatigue" in design. As AI becomes ubiquitous, the human touch, the imperfections, the _soul_ in design, might become the ultimate differentiator and a powerful signal of authenticity and trust. It's a fascinating counter-trend to the push for AI-driven efficiency and could lead to a resurgence of artisanal digital design.
+
+Original Link: https://www.nngroup.com/articles/handmade-designs/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication]]></content:encoded>
+            <enclosure url="https://media.nngroup.com/media/articles/opengraph_images/Course_Cards_7.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Multi-Agent Coordination: Five Key Patterns & Their Applications]]></title>
+            <link>https://digestweb.dev/articles/2026-04-10/multi-agent-coordination-patterns-applications</link>
+            <guid>https://digestweb.dev/articles/2026-04-10/multi-agent-coordination-patterns-applications</guid>
+            <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Claude's blog delves into five essential multi-agent coordination patterns, providing guidance on when and how to effectively apply each approach in AI system design.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The Claude blog post outlines five distinct patterns for multi-agent coordination.
+- It provides guidance on the appropriate use cases for each coordination approach.
+- The article is a deep dive into designing and implementing effective multi-agent AI systems.
+- It helps developers and researchers understand the complexities of agent interaction.
+
+Multi-agent systems are quickly becoming a cornerstone of advanced AI applications, and understanding effective coordination patterns is crucial. This article from Claude (Anthropic) is a timely and valuable resource. We're seeing a shift from single-agent prompts to orchestrating entire teams of AI, and having clear patterns to follow will be essential for building robust and reliable systems. This is exactly the kind of practical research we need to push the boundaries of what AI can do.
+
+Original Link: https://claude.com/blog/multi-agent-coordination-patterns]]></content:encoded>
+            <enclosure url="https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_og-claude-generic.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[NNGroup: Rethinking UX for AI Agents as New Users]]></title>
+            <link>https://digestweb.dev/articles/2026-04-10/nngroup-rethinking-ux-ai-agents-users</link>
+            <guid>https://digestweb.dev/articles/2026-04-10/nngroup-rethinking-ux-ai-agents-users</guid>
+            <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[NNGroup posits that AI agents are now interacting with digital interfaces, requiring designers to redefine the concept of a "user" and prioritize accessibility for both human and AI entities.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- NNGroup highlights the emerging reality of AI agents interacting with digital interfaces alongside humans.
+- This development necessitates a fundamental re-evaluation of what constitutes a "user" in design.
+- Designing for both human and AI users requires a renewed focus on accessibility principles.
+- The article explores the implications for future UX design and interface development.
+
+This is a truly paradigm-shifting concept, and NNGroup is spot on for highlighting it. The idea of "AI agents as users" fundamentally changes how we approach interface design and accessibility. It's not just about humans anymore; we need to consider how an autonomous agent will parse, understand, and interact with our digital products. This will push us to create more structured, semantic, and robust interfaces, which, ironically, will likely benefit human users too. This is a critical area of research and development for the future of the web.
+
+Original Link: https://www.nngroup.com/articles/ai-agents-as-users/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication]]></content:encoded>
+            <enclosure url="https://media.nngroup.com/media/articles/opengraph_images/Course_Cards_8.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[A Personal Reflection on Losing "MadCSS" Skills]]></title>
+            <link>https://digestweb.dev/articles/2026-04-10/personal-reflection-losing-madcss-skills</link>
+            <guid>https://digestweb.dev/articles/2026-04-10/personal-reflection-losing-madcss-skills</guid>
+            <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Frontend Masters blog features a personal account of a developer's journey, reflecting on the challenges of keeping up with advanced CSS and the continuous learning process in frontend development.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article is a personal reflection on the author's experience with CSS.
+- It touches upon the challenges of staying current with advanced CSS techniques, humorously dubbed "MadCSS."
+- The piece emphasizes the ongoing nature of learning in frontend development.
+- It offers a relatable perspective on skill evolution and adaptation in the web industry.
+
+This title immediately caught my eye! "How I Lost MadCSS" sounds like a relatable lament for anyone in frontend development. The CSS landscape is constantly evolving, and it's easy to feel like you're falling behind. I appreciate the honesty in the description – "I just like learning ok." It's a good reminder that continuous learning is the only constant in our field, and it's okay to admit when you're not on top of every single new feature. I'm curious to read the full story and see what insights it offers.
+
+Original Link: https://frontendmasters.com/blog/how-i-lost-madcss/]]></content:encoded>
+            <enclosure url="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/9235" length="0" type="image//blog/wp-json/social-image-generator/v1/image/9235"/>
+        </item>
+        <item>
+            <title><![CDATA[pnpm 11 RC 0: Major Overhaul with Node.js 22+ Requirement & New Features]]></title>
+            <link>https://digestweb.dev/articles/2026-04-10/pnpm-11-rc-0-major-overhaul-node-22-plus</link>
+            <guid>https://digestweb.dev/articles/2026-04-10/pnpm-11-rc-0-major-overhaul-node-22-plus</guid>
+            <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The first release candidate for pnpm 11 drops, bringing a Node.js 22+ requirement, pure ESM, a SQLite-backed store, native publish flow, and enhanced supply-chain protection.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- pnpm 11 RC 0 is released, requiring Node.js 22+ and dropping support for older Node.js versions.
+- The package manager is now pure ESM, and the standalone executable needs glibc 2.27.
+- Supply-chain protection is enabled by default, with a 1-day minimum release age and blocking of exotic subdependencies.
+- A new SQLite-backed store index (store v11) promises faster installations by reducing filesystem syscalls.
+- Global installs are now isolated, each with its own directory, package.json, node_modules, and lockfile.
+- pnpm now features a native publish flow, no longer delegating to the npm CLI for many commands.
+- New commands like `pnpm ci`, `pnpm sbom`, and `pnpm clean` are introduced, along with `pn`/`pnx` aliases.
+- HTTP and I/O operations are faster due to `undici` with Happy Eyeballs and other optimizations.
+
+Wow, pnpm 11 is shaping up to be a massive release! The Node.js 22+ requirement and pure ESM transition are significant breaking changes that will force many projects to upgrade their environments, but they also push the ecosystem forward. I'm particularly excited about the SQLite-backed store and the native publish flow; these sound like huge wins for performance and reliability. The enhanced supply-chain protection by default is also a critical improvement. This release solidifies pnpm's position as a leading package manager, and we're eager to see how the community adopts these changes.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.0.0-rc.0]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/39025bc60a161d9b6720d64065bc6012d2d4240745f14339e4c37ae37fe86c2d/pnpm/pnpm/releases/tag/v11.0.0-rc.0" length="0" type="image/0"/>
+        </item>
+        <item>
+            <title><![CDATA[Practical UX Improvements for Legacy Systems]]></title>
+            <link>https://digestweb.dev/articles/2026-04-10/practical-ux-improvements-legacy-systems</link>
+            <guid>https://digestweb.dev/articles/2026-04-10/practical-ux-improvements-legacy-systems</guid>
+            <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Smashing Magazine offers practical guidelines and strategies for enhancing user experience in organizations grappling with legacy systems and entrenched, often broken, processes.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Smashing Magazine presents practical guidelines for improving UX in legacy systems.
+- The article addresses the challenges of working with outdated systems and broken processes.
+- It offers strategies to drive significant UX impact within these constraints.
+- The content is aimed at designers and developers facing real-world enterprise challenges.
+
+Improving UX in legacy systems is a perennial challenge for many organizations. It's not just about code; it's about navigating technical debt, organizational inertia, and often, a lack of resources. Smashing Magazine tackling this with practical guidelines is incredibly valuable. We've all been there, trying to polish a turd, and having a structured approach can make all the difference. This article will resonate with many developers and designers working in established companies.
+
+Original Link: https://smashingmagazine.com/2026/04/legacy-systems/]]></content:encoded>
+            <enclosure url="https://files.smashing.media/articles/how-improve-ux-legacy-systems/legacy-systems.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Simon Willison: ChatGPT Voice Mode Uses a Weaker Model]]></title>
+            <link>https://digestweb.dev/articles/2026-04-10/simon-willison-chatgpt-voice-mode-weaker-model</link>
+            <guid>https://digestweb.dev/articles/2026-04-10/simon-willison-chatgpt-voice-mode-weaker-model</guid>
+            <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison reports that ChatGPT's voice interaction mode appears to be powered by a less capable underlying model compared to its text-based counterpart, impacting performance.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison observes that ChatGPT's voice mode utilizes a weaker underlying AI model.
+- This suggests that the performance and capabilities in voice interactions may be inferior to text-based usage.
+- The finding is significant for users who rely on voice mode for complex tasks.
+- It highlights potential trade-offs in multimodal AI implementations.
+
+This is a really important observation from Simon Willison. Many users might assume that all interaction modes with ChatGPT leverage the same underlying intelligence, so discovering that voice mode is weaker could impact how people choose to use the tool. It makes sense from an engineering perspective – optimizing for real-time voice processing might require a lighter model – but it's a crucial detail for user expectations and for developers building on these APIs. It reminds us that "AI" isn't a monolith; there are always nuances in implementation.
+
+Original Link: https://simonwillison.net/2026/Apr/10/voice-mode-is-weaker/#atom-everything]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/210/800/450" length="0" type="image//id/210/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[TanStack Libraries Embrace Solid 2.0 Beta]]></title>
+            <link>https://digestweb.dev/articles/2026-04-10/tanstack-libraries-embrace-solid-2-0-beta</link>
+            <guid>https://digestweb.dev/articles/2026-04-10/tanstack-libraries-embrace-solid-2-0-beta</guid>
+            <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[TanStack Router, Start, and Query now offer beta support for Solid 2.0, enabling developers to integrate Solid's next major release into their applications.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- TanStack Router, Start, and Query have officially added beta support for Solid 2.0.
+- This integration allows developers to begin experimenting with Solid's upcoming major release in real-world applications.
+- The move signifies growing ecosystem support for SolidJS as it evolves.
+
+This is great news for the SolidJS community! TanStack libraries are foundational for many web applications, and getting early beta support for Solid 2.0 means developers can start testing and providing feedback on the next iteration of SolidJS. It's a strong signal of confidence in Solid's future and will help ensure a smoother transition when 2.0 officially drops.
+
+Original Link: https://tanstack.com/blog/tanstack-start-solid-v2]]></content:encoded>
+            <enclosure url="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Ftanstack-start-solid-v2%2Fheader.png&amp;w=1200&amp;h=630&amp;fit=cover&amp;fm=jpg&amp;q=80" length="0" type="image/netlify/images"/>
+        </item>
         <item>
             <title><![CDATA[Anthropic Research: Trustworthy AI Agents in Practice]]></title>
             <link>https://digestweb.dev/articles/2026-04-09/anthropic-research-trustworthy-ai-agents-in-practice</link>
