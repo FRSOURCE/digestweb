@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-04-14T23:25:59.599Z</updated>
+    <updated>2026-04-14T23:29:51.167Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,296 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Anthropic Research: Automated Alignment Researchers Using LLMs]]></title>
+        <id>https://digestweb.dev/articles/2026-04-14/anthropic-automated-alignment-researchers-llms</id>
+        <link href="https://digestweb.dev/articles/2026-04-14/anthropic-automated-alignment-researchers-llms"/>
+        <updated>2026-04-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Anthropic's latest research explores the concept of "Automated Alignment Researchers," leveraging large language models to scale scalable oversight in AI systems. This work aims to address critical challenges in AI safety and alignment.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Anthropic Research has published new findings on "Automated Alignment Researchers."
+- The research focuses on utilizing large language models (LLMs) to enhance and scale scalable oversight mechanisms for AI systems.
+- This initiative is part of Anthropic's broader efforts to address AI alignment and safety challenges.
+- The goal is to develop methods where AI can assist in its own alignment, making the oversight process more efficient and robust.
+
+## Our Commentary
+
+This is exactly the kind of deep, foundational research we need from companies like Anthropic. The idea of using LLMs to _scale_ alignment oversight is fascinating and, frankly, a bit meta. It suggests a future where AI itself plays a crucial role in ensuring its own safety and ethical behavior. I'm genuinely curious about the practical implications and potential pitfalls of such a system. It feels like a necessary step, but also one that requires immense scrutiny. The implications for future AI development are huge.
+
+Original Link: https://www.anthropic.com/research/automated-alignment-researchers]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Claude Code Desktop Redesigned for Parallel Agents]]></title>
+        <id>https://digestweb.dev/articles/2026-04-14/claude-code-desktop-redesign-parallel-agents</id>
+        <link href="https://digestweb.dev/articles/2026-04-14/claude-code-desktop-redesign-parallel-agents"/>
+        <updated>2026-04-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Claude Code has undergone a desktop redesign specifically to support parallel agents, signaling a major architectural shift to enhance its multi-tasking and processing capabilities. This update aims to deliver a more powerful and efficient AI coding experience.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Claude Code has announced a significant redesign of its desktop application.
+- The primary focus of this redesign is to enable and optimize support for parallel agents.
+- This architectural shift suggests an enhancement in Claude Code's ability to handle multiple tasks or processes concurrently.
+- The update aims to provide a more powerful and efficient coding experience for users.
+
+## Our Commentary
+
+This is a big deal for the future of AI coding assistants. Moving to a parallel agent architecture means Claude Code can likely tackle more complex problems by breaking them down and processing parts simultaneously. It's a clear indicator of the direction AI development is heading – towards more autonomous, multi-faceted agents. I'm excited about the potential for increased speed and capability, but also curious about the new interaction patterns this might enable. It feels like a step closer to a true AI co-developer.
+
+Original Link: https://claude.com/blog/claude-code-desktop-redesign]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Claude Code Introduces New "Routines" Feature]]></title>
+        <id>https://digestweb.dev/articles/2026-04-14/claude-code-introduces-routines</id>
+        <link href="https://digestweb.dev/articles/2026-04-14/claude-code-introduces-routines"/>
+        <updated>2026-04-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Claude Code by Anthropic has rolled out a new feature called "routines," designed to enhance the capabilities and workflow for developers using the AI coding assistant. This update aims to streamline repetitive tasks and improve code generation.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Claude Code has announced the introduction of a new feature called "routines."
+- These routines are designed to enhance the functionality and user experience for developers utilizing Claude Code.
+- The update aims to streamline common or repetitive coding tasks within the AI assistant.
+- This feature likely allows for more structured and efficient interaction with Claude for code generation and manipulation.
+
+## Our Commentary
+
+"Routines" in an AI coding assistant sounds like a step towards more sophisticated, programmable agents. If it allows developers to define repeatable sequences or patterns for Claude to follow, that's a significant boost to developer experience and efficiency. It moves beyond simple prompt engineering to something more akin to scripting the AI. I'm eager to see how flexible and powerful these routines are in practice, as they could genuinely change how we interact with AI for coding tasks.
+
+Original Link: https://claude.com/blog/introducing-routines-in-claude-code]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CodePen 2.0 Editor Now Supports npm Packages via Import Maps]]></title>
+        <id>https://digestweb.dev/articles/2026-04-14/codepen-2-0-editor-npm-packages-import-maps</id>
+        <link href="https://digestweb.dev/articles/2026-04-14/codepen-2-0-editor-npm-packages-import-maps"/>
+        <updated>2026-04-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The CodePen 2.0 Editor has introduced support for npm packages, leveraging `<script type="importmap">` to allow developers to easily import and use packages directly. This enhancement significantly improves the developer experience on the platform.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- CodePen's 2.0 Editor now includes support for npm packages.
+- The implementation involves detecting desired packages and listing them in an editable `package.json` file.
+- These packages are then integrated into HTML files using `<script type="importmap">`.
+- This feature aims to simplify the process of using external libraries and frameworks within CodePen projects.
+
+## Our Commentary
+
+This is a fantastic quality-of-life improvement for CodePen users! The ability to easily pull in npm packages via import maps makes CodePen an even more powerful prototyping and sharing tool. It removes a significant hurdle for developers wanting to experiment with modern libraries without complex build setups. It's a smart use of a web platform feature (`importmap`) to enhance DX, and I think it will make CodePen even more indispensable for quick demos and learning.
+
+Original Link: https://blog.codepen.io/2026/04/14/422-supporting-packages/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Radio State Machine: Advanced CSS State Management]]></title>
+        <id>https://digestweb.dev/articles/2026-04-14/css-radio-state-machine-advanced-css-management</id>
+        <link href="https://digestweb.dev/articles/2026-04-14/css-radio-state-machine-advanced-css-management"/>
+        <updated>2026-04-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CSS-Tricks explores the "Radio State Machine," an advanced technique for managing component states in CSS beyond the traditional checkbox hack. This method allows for handling multiple component modes (e.g., three, four, or seven) purely with CSS.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article introduces the "Radio State Machine" as an advanced method for CSS state management.
+- It offers a solution for components requiring more than two states, moving beyond the limitations of the "checkbox hack."
+- This technique enables developers to manage multiple component modes (e.g., three, four, or seven) using pure CSS.
+- The article provides a deep dive into implementing this method for complex UI interactions.
+
+## Our Commentary
+
+I love seeing creative solutions for pure CSS state management. The "checkbox hack" has been a staple, but it's always felt a bit... hacky. The "Radio State Machine" sounds like a more robust and scalable approach for handling multiple states without resorting to JavaScript. It's a testament to the power and flexibility of CSS when pushed to its limits. For developers who prioritize minimal JavaScript and maximum CSS, this could be a really valuable pattern to add to their toolkit.
+
+Original Link: https://css-tricks.com/the-radio-state-machine/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GDP.pdf: New Benchmark for Frontier AI Models on Real-World Documents]]></title>
+        <id>https://digestweb.dev/articles/2026-04-14/gdp-pdf-ai-benchmark-real-world-documents</id>
+        <link href="https://digestweb.dev/articles/2026-04-14/gdp-pdf-ai-benchmark-real-world-documents"/>
+        <updated>2026-04-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Surge AI introduces GDP.pdf, a novel multimodal and reasoning benchmark designed to assess whether frontier AI models can master complex, real-world documents. It uses prompts and PDFs directly from expert professional workflows.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Surge AI has introduced a new benchmark called GDP.pdf.
+- This benchmark is designed to evaluate the multimodal and reasoning capabilities of frontier AI models.
+- GDP.pdf utilizes real-world prompts and PDF documents sourced directly from expert professional workflows.
+- The goal is to assess how effectively advanced AI models can understand and process the complex documents that govern global operations.
+
+## Our Commentary
+
+This is a crucial development for evaluating the true capabilities of frontier AI models. Moving beyond synthetic datasets to "documents that run the world" is exactly what we need to understand if these models are truly ready for high-stakes professional environments. The focus on multimodal reasoning with real-world PDFs is particularly insightful. I'm always a bit skeptical of benchmarks, but one that directly taps into expert workflows feels more grounded and relevant. It's a good step towards more rigorous and practical AI evaluation.
+
+Original Link: https://www.surgehq.ai/blog/gdp-pdf-can-100b-ai-models-master-the-documents-that-run-the-world]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Offers Free Code Security Risk Assessment]]></title>
+        <id>https://digestweb.dev/articles/2026-04-14/github-free-code-security-risk-assessment</id>
+        <link href="https://digestweb.dev/articles/2026-04-14/github-free-code-security-risk-assessment"/>
+        <updated>2026-04-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[GitHub introduces a new, free Code Security Risk Assessment tool that provides a one-click overview of vulnerabilities across an organization's codebase. This feature aims to help developers quickly identify and address potential security risks.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- GitHub has launched a new Code Security Risk Assessment tool, available at no cost.
+- This tool provides a quick, one-click view of vulnerabilities present across an organization's entire codebase.
+- It is designed to help developers and teams rapidly identify potential security exposures.
+
+## Our Commentary
+
+A free security assessment is always welcome, especially from a platform as central as GitHub. It lowers the barrier to entry for teams to get a baseline understanding of their code's exposure. While it's a product announcement, the "free" aspect makes it noteworthy. I wonder how deep the assessment goes and if it truly provides actionable insights beyond a high-level overview. Still, for a quick check, it's a good addition.
+
+Original Link: https://github.blog/security/application-security/how-exposed-is-your-code-find-out-in-minutes-for-free/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google's 5 Tips for Building Better AI Agents: From Prompt to Agentic Engineering]]></title>
+        <id>https://digestweb.dev/articles/2026-04-14/google-5-tips-build-better-ai-agents</id>
+        <link href="https://digestweb.dev/articles/2026-04-14/google-5-tips-build-better-ai-agents"/>
+        <updated>2026-04-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Google shares five key developer tips from its AI Agent Bake-Off, emphasizing a shift from prompt engineering to rigorous agentic engineering for production-ready AI. The advice covers modular architectures, deterministic code, multimodality, and open-source protocols.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Google's AI Agent Bake-Off highlights a transition from basic prompt engineering to advanced "agentic engineering" for AI development.
+- Production-ready AI agents require a modular, multi-agent architecture for robustness and scalability.
+- Key developer tips include decomposing complex tasks into specialized sub-agents.
+- Developers should use deterministic code for agent execution to minimize probabilistic errors.
+- Prioritizing multimodality and open-source protocols like MCP is crucial for future-proofing and integration.
+
+## Our Commentary
+
+This article from Google is incredibly timely and important. The shift from "prompt engineering" to "agentic engineering" is exactly what we've been seeing and discussing. It's a clear signal that building robust AI systems is becoming a software engineering discipline in its own right, moving beyond simple API calls. The emphasis on modularity, deterministic code, and multi-agent architectures resonates deeply. It's a practical guide for anyone serious about building production-grade AI, and I appreciate the focus on open-source protocols. This is the kind of guidance that shapes an emerging field.
+
+Original Link: https://developers.googleblog.com/build-better-ai-agents-5-developer-tips-from-the-agent-bake-off/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hack the AI Agent: Sharpen Your AI Security Skills with GitHub's Game]]></title>
+        <id>https://digestweb.dev/articles/2026-04-14/hack-ai-agent-github-secure-code-game</id>
+        <link href="https://digestweb.dev/articles/2026-04-14/hack-ai-agent-github-secure-code-game"/>
+        <updated>2026-04-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[GitHub introduces a free, open-source game with five challenges to help developers find and exploit real-world agentic AI vulnerabilities. Over 10,000 developers have already used it to enhance their security skills.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- GitHub has launched a free, open-source game called "Hack the AI Agent" designed to teach developers about agentic AI security.
+- The game features five progressive challenges that allow users to find and exploit real-world AI vulnerabilities.
+- It aims to help developers sharpen their skills in securing AI systems and understanding potential attack vectors.
+- Over 10,000 developers have already engaged with the game to improve their AI security knowledge.
+
+## Our Commentary
+
+This is a genuinely smart move from GitHub. Gamified learning, especially for something as critical and rapidly evolving as AI security, is incredibly effective. I appreciate that it's open-source and free, making it accessible to everyone. It's a proactive step in building a more secure AI ecosystem, and I think we'll see more of these practical, hands-on approaches as AI agents become more prevalent. It's one thing to read about vulnerabilities, another to actively "hack" them in a safe environment.
+
+Original Link: https://github.blog/security/hack-the-ai-agent-build-agentic-ai-security-skills-with-the-github-secure-code-game/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JavaScript Weekly #781: MDN Rebuilds with Web Components, Bun Adds Browser Automation]]></title>
+        <id>https://digestweb.dev/articles/2026-04-14/javascript-weekly-781-mdn-web-components-bun-automation</id>
+        <link href="https://digestweb.dev/articles/2026-04-14/javascript-weekly-781-mdn-web-components-bun-automation"/>
+        <updated>2026-04-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This issue of JavaScript Weekly highlights MDN's significant frontend rebuild, moving from React to web components, alongside the major release of Phaser 4.0 and Bun v1.3.12 introducing native headless browser automation. It also covers a critical React security fix.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- MDN has completely rebuilt its frontend, transitioning from React to web components and a custom server component system to reduce shipped JavaScript.
+- Phaser 4.0, the 2D WebGL and Canvas game framework, has been released with performance improvements and AI agent support.
+- Bun v1.3.12 now includes native, headless browser automation and an in-process task scheduler (`Bun.cron`).
+- Google plans to penalize websites that interfere with browser back button functionality starting in June.
+- Critical security fixes for a React Server Components vulnerability have been released in React 19.2.5, 19.1.6, and 19.0.5.
+- React Native 0.85 brings a new animation backend and devtools improvements.
+
+## Our Commentary
+
+This JavaScript Weekly issue is packed! The MDN news is a huge statement – ditching React for web components on such a foundational resource is a bold move that speaks volumes about the maturity and capabilities of native web technologies. It's a strong signal for the "less JavaScript" movement. Bun's continued rapid development, especially with native browser automation, is also incredibly exciting and positions it as a serious contender in the runtime space. And of course, a React security fix is always something to pay attention to. It feels like the web platform is truly coming into its own, offering compelling alternatives to traditional frameworks.
+
+Original Link: https://javascriptweekly.com/issues/781]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Making of a Cinematic Cyberpunk Portfolio: A Deep Dive]]></title>
+        <id>https://digestweb.dev/articles/2026-04-14/making-cinematic-cyberpunk-portfolio-codrops</id>
+        <link href="https://digestweb.dev/articles/2026-04-14/making-cinematic-cyberpunk-portfolio-codrops"/>
+        <updated>2026-04-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Codrops presents a deep dive into the creation of a cinematic cyberpunk portfolio, detailing how film-inspired concepts were transformed into an immersive web experience. The article explores the evolution of four distinct scenes and their cohesive integration.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article provides a detailed look into the creation process of a cinematic cyberpunk-themed portfolio.
+- It explores how film-inspired ideas were conceptualized and developed into a cohesive and immersive user experience.
+- The deep dive focuses on the evolution and integration of four distinct cinematic scenes within the portfolio.
+- The piece offers insights into the design and development choices made to achieve the unique aesthetic and interactivity.
+
+## Our Commentary
+
+Codrops always delivers on the visual front, and this "making of" article sounds like a treat for anyone interested in pushing the boundaries of web design. I love seeing how creative concepts translate into interactive experiences. It's a great reminder that the web can be a canvas for truly immersive art, not just functional applications. While not a technical breakthrough, it's inspiring for designers and front-end developers looking to create something truly unique.
+
+Original Link: https://tympanus.net/codrops/2026/04/14/they-call-me-giulio-the-making-of-a-cinematic-cyberpunk-portfolio/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Multi-Agent System Speeds Up GPU Kernels by 38%]]></title>
+        <id>https://digestweb.dev/articles/2026-04-14/multi-agent-system-gpu-kernels-speedup</id>
+        <link href="https://digestweb.dev/articles/2026-04-14/multi-agent-system-gpu-kernels-speedup"/>
+        <updated>2026-04-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Cursor Blog reports a substantial 38% performance improvement in GPU kernels achieved by implementing a multi-agent system. This advancement highlights the potential of agentic AI architectures for optimizing computational efficiency in AI/ML workloads.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- A multi-agent system has been successfully implemented to optimize GPU kernel performance.
+- This implementation resulted in a significant speedup of 38% for GPU kernels.
+- The achievement demonstrates the potential of agentic AI architectures in enhancing computational efficiency.
+- This improvement is particularly relevant for accelerating AI and machine learning workloads.
+
+## Our Commentary
+
+A 38% speedup in GPU kernels using a multi-agent system is genuinely impressive. This isn't just a minor tweak; it suggests a fundamental improvement in how we can optimize low-level computational tasks with AI. It reinforces the idea that AI agents aren't just for high-level reasoning but can also drive significant performance gains in core infrastructure. I'm curious about the specifics of how these agents interact and what kind of overhead they introduce, but the headline number alone is enough to make me pay attention. This could have broad implications for AI training and inference.
+
+Original Link: https://cursor.com/blog/multi-agent-kernels]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Expands Cyber Defense Program with GPT-5.4-Cyber]]></title>
+        <id>https://digestweb.dev/articles/2026-04-14/openai-expands-cyber-defense-gpt-5-4-cyber</id>
+        <link href="https://digestweb.dev/articles/2026-04-14/openai-expands-cyber-defense-gpt-5-4-cyber"/>
+        <updated>2026-04-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI is scaling its Trusted Access for Cyber program, introducing the specialized GPT-5.4-Cyber model to vetted cybersecurity defenders. This initiative aims to strengthen safeguards and advance AI capabilities in cyber defense.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI is expanding its "Trusted Access for Cyber" program.
+- The expansion includes the introduction of a new, specialized model: GPT-5.4-Cyber.
+- This model will be made available to vetted cybersecurity defenders.
+- The initiative aims to strengthen existing safeguards and advance the overall capabilities of AI in cyber defense.
+
+## Our Commentary
+
+This is a double-edged sword, isn't it? On one hand, giving advanced AI tools to cyber defenders is crucial for keeping pace with evolving threats. On the other, the very existence of a "GPT-5.4-Cyber" model highlights the escalating AI arms race in cybersecurity. I appreciate the "vetted defenders" aspect, but it still raises questions about control and potential misuse. It's a necessary step, but one that comes with significant ethical and security considerations. The future of cyber warfare is clearly going to be AI-driven.
+
+Original Link: https://openai.com/index/scaling-trusted-access-for-cyber-defense]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Simon Willison: Cybersecurity Looks Like Proof of Work Now]]></title>
+        <id>https://digestweb.dev/articles/2026-04-14/simon-willison-cybersecurity-proof-of-work</id>
+        <link href="https://digestweb.dev/articles/2026-04-14/simon-willison-cybersecurity-proof-of-work"/>
+        <updated>2026-04-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison offers a thought-provoking perspective on the current state of cybersecurity, suggesting that its challenges and solutions are increasingly resembling a "Proof of Work" paradigm. This commentary explores the evolving landscape of digital defense.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison presents an analysis suggesting that cybersecurity is evolving to resemble a "Proof of Work" system.
+- This perspective implies that digital defense increasingly requires demonstrable effort and computational expense to secure systems.
+- The commentary likely explores the implications of this shift for both attackers and defenders in the digital realm.
+- It offers a unique lens through which to understand the escalating challenges in maintaining online security.
+
+## Our Commentary
+
+Simon Willison always has a knack for cutting through the noise and offering insightful analogies. The idea that cybersecurity is becoming a "Proof of Work" problem is a compelling one. It suggests an arms race where the cost of defense is constantly rising, mirroring the computational effort required in blockchain. This perspective is particularly relevant as AI enters the fray, potentially escalating the "work" required on both sides. It's a sobering thought, but one that feels increasingly accurate.
+
+Original Link: https://simonwillison.net/2026/Apr/14/cybersecurity-proof-of-work/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebKit Ships Name-Only @container Queries in Safari 26.4]]></title>
+        <id>https://digestweb.dev/articles/2026-04-14/webkit-name-only-container-queries-safari-26-4</id>
+        <link href="https://digestweb.dev/articles/2026-04-14/webkit-name-only-container-queries-safari-26-4"/>
+        <updated>2026-04-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[WebKit introduces and ships name-only `@container` queries in Safari 26.4, offering a streamlined solution to common naming challenges in CSS. This enhancement improves the usability and flexibility of container queries for responsive design.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- WebKit has announced the introduction of name-only `@container` queries.
+- This new feature is now shipped and available in Safari version 26.4.
+- Name-only container queries aim to simplify the process of using container queries by addressing common naming complexities.
+- This enhancement provides a more flexible and efficient way to implement responsive designs based on container dimensions.
+
+## Our Commentary
+
+This is a welcome refinement to `@container` queries. The "naming wars" are a real pain point in CSS, and anything that simplifies component-based styling without resorting to overly complex naming conventions or JavaScript is a win. Shipping in Safari means broader adoption is on the horizon, which is great for web developers. It shows a continued commitment to making CSS more powerful and ergonomic. I'm curious to see how developers integrate this into their workflows.
+
+Original Link: https://webkit.org/blog/17923/name-only-container-queries-a-solution-to-the-naming-wars/]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Gemma 4 Audio with MLX: Running Google's Latest Model on Apple Silicon]]></title>
         <id>https://digestweb.dev/articles/2026-04-12/gemma-4-audio-mlx-apple-silicon</id>
