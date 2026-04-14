@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-04-11T10:03:02.037Z</updated>
+    <updated>2026-04-14T23:25:59.599Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,94 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Gemma 4 Audio with MLX: Running Google's Latest Model on Apple Silicon]]></title>
+        <id>https://digestweb.dev/articles/2026-04-12/gemma-4-audio-mlx-apple-silicon</id>
+        <link href="https://digestweb.dev/articles/2026-04-12/gemma-4-audio-mlx-apple-silicon"/>
+        <updated>2026-04-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Explore how to leverage the new Gemma 4 model's audio capabilities using Apple's MLX framework, enabling efficient local inference on Apple silicon devices. This guide provides practical steps and insights for integrating advanced AI audio processing.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article demonstrates how to run Google's Gemma 4 model, specifically its audio processing features, using Apple's MLX framework.
+- It provides a practical guide for setting up and executing audio-related tasks, such as transcription or generation, on Apple silicon.
+- The integration highlights the efficiency and performance benefits of MLX for local machine learning inference.
+- This approach allows developers to experiment with advanced multimodal AI models directly on their Apple devices.
+
+## Our Commentary
+
+This is a fantastic example of how quickly the AI ecosystem is evolving, bringing powerful models like Gemma 4 directly to local hardware. The combination of Google's latest multimodal capabilities with Apple's optimized MLX framework is a potent one for developers. We're seeing a clear trend towards more accessible and efficient local AI inference, which is exciting for privacy, cost, and experimentation. It's a testament to the open-source community's ability to rapidly integrate and optimize cutting-edge models for diverse hardware. We're particularly interested in how this will empower new types of audio-centric applications on personal devices.
+
+Original Link: https://simonwillison.net/2026/Apr/12/mlx-audio/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Demo: SQLite Query Result Formatter]]></title>
+        <id>https://digestweb.dev/articles/2026-04-11/demo-sqlite-query-result-formatter</id>
+        <link href="https://digestweb.dev/articles/2026-04-11/demo-sqlite-query-result-formatter"/>
+        <updated>2026-04-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison demonstrates a new tool designed to format SQLite query results, making it easier to read and work with data directly from the database. This utility aims to enhance the developer experience for SQLite users.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article presents a demonstration of a new tool for formatting SQLite query results.
+- This formatter aims to improve the readability and presentation of data retrieved from SQLite databases.
+- The demo likely illustrates how the tool can be used to streamline data analysis and debugging workflows.
+- It highlights a practical enhancement for developers and users who frequently interact with SQLite output.
+
+## Our Commentary
+
+This is classic Simon Willison – taking a common developer pain point, like messy query results, and building or showcasing a neat, practical solution. Anyone who's spent time debugging SQL queries knows the value of a good formatter. It's not just about aesthetics; it's about reducing cognitive load and speeding up the process of understanding data. We love seeing these kinds of developer experience improvements, especially for a foundational tool like SQLite. It's a testament to how small, well-crafted utilities can make a big difference in daily workflows. This is definitely something we'll be checking out for our own SQLite interactions.
+
+Original Link: https://simonwillison.net/2026/Apr/11/sqlite-qrf/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SQLite 3.53.0 Released]]></title>
+        <id>https://digestweb.dev/articles/2026-04-11/sqlite-3-53-0-released</id>
+        <link href="https://digestweb.dev/articles/2026-04-11/sqlite-3-53-0-released"/>
+        <updated>2026-04-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The latest version of SQLite, 3.53.0, has been released, bringing new features and enhancements to the widely used embedded database engine. Simon Willison often covers the most interesting aspects of these updates.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- SQLite version 3.53.0 has been officially released, introducing new capabilities and improvements.
+- This update likely includes various enhancements to the database engine's performance, stability, or feature set.
+- Users of SQLite are encouraged to review the release notes for a detailed overview of changes.
+- The release continues the ongoing development of this widely adopted embedded database solution.
+
+## Our Commentary
+
+SQLite is one of those unsung heroes of the web and software world – it's absolutely everywhere, powering everything from browsers to mobile apps. A new `.0` release, even if it's a minor version bump, usually means some interesting new features or significant performance tweaks. Simon Willison is fantastic at digging into the practical implications of these updates, so we're keen to see what gems he's uncovered. It's a reminder that even foundational technologies continue to evolve, quietly improving the reliability and capabilities of countless applications we use daily. We're always happy to see continued investment in such a critical piece of the open-source ecosystem.
+
+Original Link: https://simonwillison.net/2026/Apr/11/sqlite/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Inevitable Need for an Open Model Consortium]]></title>
+        <id>https://digestweb.dev/articles/2026-04-11/the-inevitable-need-for-an-open-model-consortium</id>
+        <link href="https://digestweb.dev/articles/2026-04-11/the-inevitable-need-for-an-open-model-consortium"/>
+        <updated>2026-04-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Nathan Lambert explores the compelling reasons and inherent difficulties in establishing an open model consortium to guide the future of AI development. He argues for its necessity despite the challenges of collaboration.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article argues for the inevitable necessity of an open model consortium to shape the future of AI development.
+- It explores the strategic reasons why such a collaborative body is crucial for the ecosystem.
+- The author acknowledges the inherent difficulties and complexities involved in establishing and managing a consortium.
+- Despite personal reservations about consortia, the piece concludes that their formation is a critical step forward for open AI.
+
+## Our Commentary
+
+This piece from Nathan Lambert hits on a really critical, and often uncomfortable, truth about the future of AI. We're seeing an explosion of models, but the underlying infrastructure and governance are still very much up in the air. The idea of an "open model consortium" feels like a natural evolution, a way to standardize, share, and ensure responsible development without relying solely on a few tech giants. I genuinely appreciate Lambert's candid admission of disliking consortia, because it grounds the argument in a pragmatic reality: these things are hard, often bureaucratic, but sometimes necessary. It makes me wonder if the current pace of innovation will outstrip any consortium's ability to form and act effectively, or if the sheer complexity of AI will force this kind of collective action. It's a tough problem, but one we absolutely need to be discussing.
+
+Original Link: https://www.interconnects.ai/p/the-inevitable-need-for-an-open-model]]></content>
+        <author>
+            <name>Nathan Lambert</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Accelerating Angular Compiler with AI: A VoidZero Case Study]]></title>
         <id>https://digestweb.dev/articles/2026-04-10/accelerating-angular-compiler-with-ai-voidzero</id>
