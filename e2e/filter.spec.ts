@@ -1,4 +1,5 @@
-import { test, expect } from '@playwright/test';
+import { expect } from '@playwright/test';
+import { test } from './utils';
 
 // ── Tag filtering ─────────────────────────────────────────────────────────────
 
@@ -6,8 +7,17 @@ test.describe('tag filter', () => {
   test.use({ viewport: { width: 1280, height: 900 } });
 
   test('loading page with ?tags= param applies filter', async ({ page }) => {
-    await page.goto('/?tags=css');
+    await page.goto('/2026-04-10/?tags=css');
+    // Wait for Vue hydration: badge appears when activeTags is set client-side
+    await expect(
+      page
+        .getByRole('button', { name: /filters/i })
+        .first()
+        .locator('.bg-dw-accent'),
+    ).toHaveText('1');
+    // After hydration, all visible articles should have the #css tag
     const articles = page.locator('article');
+    await expect(articles.first()).toBeVisible();
     for (const article of await articles.all()) {
       await expect(article.getByText('#css', { exact: true })).toBeVisible();
     }
@@ -16,7 +26,7 @@ test.describe('tag filter', () => {
   test('clear all removes filter and restores all articles', async ({
     page,
   }) => {
-    await page.goto('/?tags=css');
+    await page.goto('/2026-04-10/?tags=css');
     const filtered = await page.locator('article').count();
     await page
       .getByRole('button', { name: /filters/i })

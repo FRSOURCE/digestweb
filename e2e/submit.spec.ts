@@ -1,4 +1,5 @@
-import { test, expect, type Page } from '@playwright/test';
+import { expect, type Page } from '@playwright/test';
+import { test } from './utils';
 
 const API_URL = '**/script.google.com/**';
 const TURNSTILE_URL = '**/challenges.cloudflare.com/**';

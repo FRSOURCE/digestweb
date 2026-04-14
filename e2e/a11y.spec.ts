@@ -1,5 +1,6 @@
-import { test, expect } from '@playwright/test';
+import { expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
+import { test } from './utils';
 
 const ARTICLE_SLUG =
   '/articles/2026-03-17/github-boosts-open-source-security-investments';
