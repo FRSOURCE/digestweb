@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Wed, 15 Apr 2026 21:50:30 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Apr 2026 22:51:17 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,210 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Build a Personal Command Center with GitHub Copilot CLI]]></title>
+            <link>https://digestweb.dev/articles/2026-04-15/build-personal-command-center-github-copilot-cli</link>
+            <guid>https://digestweb.dev/articles/2026-04-15/build-personal-command-center-github-copilot-cli</guid>
+            <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover how a GitHub engineer leveraged Copilot CLI to create a personal organization command center, demonstrating AI's role in custom tool development.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- A GitHub engineer developed a personal organization command center using GitHub Copilot CLI.
+- The project highlights how AI can support and accelerate the development of custom productivity tools.
+- The command center helps manage tasks, notes, and information, streamlining personal workflows.
+- This showcases a practical, real-world application of AI in enhancing developer efficiency.
+
+## Our Commentary
+
+I love seeing these kinds of practical, 'eat your own dog food' examples. It's one thing to talk about AI's potential, but seeing an engineer build a genuinely useful personal tool with Copilot CLI really brings it home. It makes me wonder what other bespoke tools developers could create to streamline their unique workflows. The idea of an AI-assisted 'command center' feels like a glimpse into a more personalized, efficient future for developer experience. We're moving beyond just code generation to AI as a true development partner.
+
+Original Link: https://github.blog/ai-and-ml/github-copilot/build-a-personal-organization-command-center-with-github-copilot-cli/]]></content:encoded>
+            <enclosure url="https://github.blog/wp-content/uploads/2026/04/command-cecnter.png?fit=1920%2C1080" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Building a UI Without Breakpoints: A Modern Approach]]></title>
+            <link>https://digestweb.dev/articles/2026-04-15/building-ui-without-breakpoints-modern-approach</link>
+            <guid>https://digestweb.dev/articles/2026-04-15/building-ui-without-breakpoints-modern-approach</guid>
+            <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn a modern layout approach for building UIs with fluid, intrinsic components that adapt by default, minimizing reliance on traditional breakpoints.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article explores a contemporary approach to UI development that moves beyond traditional breakpoints.
+- It advocates for using fluid, intrinsic components that inherently adapt to different screen sizes.
+- This method treats conditional rules as local, intentional exceptions rather than primary layout drivers.
+- The goal is to create more flexible and resilient user interfaces that respond naturally to various contexts.
+- This approach aligns with modern web design principles for responsive and adaptive layouts.
+
+## Our Commentary
+
+'Building a UI Without Breakpoints' is a headline that immediately grabs my attention, and it's a concept we at digestweb wholeheartedly endorse. The idea of intrinsic, fluid components that adapt by default is far more aligned with the modern web than rigid breakpoint-based design. It's a shift in mindset that leads to more robust and maintainable UIs. This article sounds like a fantastic resource for developers looking to embrace truly responsive design and move away from the 'breakpoint soup' that often plagues projects. It's about designing for flexibility, not fixed dimensions.
+
+Original Link: https://frontendmasters.com/blog/building-a-ui-without-breakpoints/]]></content:encoded>
+            <enclosure url="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/9317" length="0" type="image//blog/wp-json/social-image-generator/v1/image/9317"/>
+        </item>
+        <item>
+            <title><![CDATA[Interact with Agent-Created Visualizations in Cursor Canvases]]></title>
+            <link>https://digestweb.dev/articles/2026-04-15/cursor-agent-created-visualizations-canvases</link>
+            <guid>https://digestweb.dev/articles/2026-04-15/cursor-agent-created-visualizations-canvases</guid>
+            <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Cursor, the AI-powered IDE, now allows users to interact with agent-created visualizations directly within its canvas feature.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Cursor, an AI-powered IDE, has introduced new interactive capabilities for its canvas feature.
+- Users can now interact directly with visualizations generated by AI agents within the canvases.
+- This enhancement aims to improve the developer experience by making AI outputs more dynamic and actionable.
+- The feature integrates AI-driven insights more deeply into the development workflow.
+
+## Our Commentary
+
+Interactive visualizations from AI agents in an IDE? That's a neat idea. It's a small but significant step towards making AI outputs more than just static text. Being able to poke and prod at what an agent generates could really help with debugging and understanding complex AI-driven solutions. It's another example of how AI is slowly but surely making developer tools more dynamic and intelligent. I'm curious to see what kinds of visualizations agents will be able to create and how useful they'll truly be.
+
+Original Link: https://cursor.com/blog/canvas]]></content:encoded>
+            <enclosure url="https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/blog/og/canvas-og-v4.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Gemini 3.1 Flash TTS: Next-Gen Expressive AI Speech]]></title>
+            <link>https://digestweb.dev/articles/2026-04-15/gemini-3-1-flash-tts-expressive-ai-speech</link>
+            <guid>https://digestweb.dev/articles/2026-04-15/gemini-3-1-flash-tts-expressive-ai-speech</guid>
+            <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Google DeepMind unveils Gemini 3.1 Flash TTS, an advanced audio model featuring granular audio tags for precise control over expressive AI speech generation.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Google DeepMind has announced Gemini 3.1 Flash TTS, their latest audio model.
+- This new generation of AI speech introduces granular audio tags.
+- These tags provide developers with precise control to direct AI speech for highly expressive audio generation.
+- The update aims to enhance the naturalness and customizability of AI-generated voices.
+
+## Our Commentary
+
+This is genuinely exciting for anyone working with AI audio. The ability to have 'granular audio tags' for precise control over expressiveness in TTS is a game-changer. It moves beyond just selecting a voice to truly directing the nuance and emotion of the speech. I can imagine this opening up so many possibilities for more natural-sounding voice assistants, immersive storytelling, and accessible content. It feels like we're getting closer to AI speech that doesn't just sound human, but can convey intent and emotion with real fidelity.
+
+Original Link: https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/]]></content:encoded>
+            <enclosure url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3.1-flash-tts_metacard_dark_1920x1080.width-1300.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Meet HoloTab: Your AI Browser Companion]]></title>
+            <link>https://digestweb.dev/articles/2026-04-15/meet-holotab-ai-browser-companion</link>
+            <guid>https://digestweb.dev/articles/2026-04-15/meet-holotab-ai-browser-companion</guid>
+            <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[HCompany introduces HoloTab, an AI-powered browser companion designed to enhance your web browsing experience.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- HCompany has launched HoloTab, a new AI browser companion.
+- HoloTab aims to integrate AI capabilities directly into the user's web browsing experience.
+- The companion is designed to assist with various tasks and enhance productivity within the browser environment.
+- This release highlights the growing trend of AI-powered tools for everyday web use.
+
+## Our Commentary
+
+Another day, another AI browser companion! It feels like every company is racing to integrate AI directly into our browsing experience. While HoloTab sounds interesting, the real challenge for these tools is to offer genuinely novel and indispensable features that go beyond what existing browser extensions or standalone AI tools already provide. We're definitely seeing a trend here, but the market is getting crowded, and differentiation will be key.
+
+Original Link: https://huggingface.co/blog/Hcompany/holotab]]></content:encoded>
+            <enclosure url="https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/Hcompany/holotab.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[My Bets on Open Models, Mid-2026]]></title>
+            <link>https://digestweb.dev/articles/2026-04-15/nathan-lambert-bets-open-models-mid-2026</link>
+            <guid>https://digestweb.dev/articles/2026-04-15/nathan-lambert-bets-open-models-mid-2026</guid>
+            <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Nathan Lambert shares his predictions for the future of open AI models, analyzing the evolving gap between open and closed-source AI.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Nathan Lambert provides his mid-2026 predictions regarding the trajectory of open AI models.
+- The article focuses on the anticipated developments and challenges in the open-closed gap within the AI ecosystem.
+- It offers insights into the competitive landscape and strategic directions for open-source AI.
+- Lambert's analysis aims to inform expectations about future advancements and market dynamics.
+
+## Our Commentary
+
+Nathan Lambert's insights are always a must-read for anyone tracking the AI space, especially the open-source side. His 'bets' aren't just guesses; they're informed analyses that often shape how we think about the future. The open-closed gap is a fascinating, high-stakes battleground, and I'm genuinely curious to see how his predictions play out. It feels like we're at a critical juncture where the definition and viability of 'open' AI are constantly being redefined. This kind of forward-looking analysis is crucial for understanding where the industry is headed.
+
+Original Link: https://www.interconnects.ai/p/my-bets-on-open-models-mid-2026]]></content:encoded>
+            <enclosure url="https://substackcdn.com/image/fetch/$s_!VSGK!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8be08b29-d70a-43f3-8422-6b952816ddab_3182x1790.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Evolves Agents SDK with Sandbox Execution and Model-Native Harness]]></title>
+            <link>https://digestweb.dev/articles/2026-04-15/openai-agents-sdk-sandbox-execution-model-native-harness</link>
+            <guid>https://digestweb.dev/articles/2026-04-15/openai-agents-sdk-sandbox-execution-model-native-harness</guid>
+            <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI's Agents SDK now features native sandbox execution and a model-native harness, enabling developers to build more secure and long-running AI agents.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI has released an update to its Agents SDK, introducing significant new capabilities.
+- The SDK now includes native sandbox execution, enhancing the security of AI agents.
+- A new model-native harness helps developers build more robust and long-running agents.
+- These improvements facilitate the creation of agents that can securely interact with files and various tools over extended periods.
+
+## Our Commentary
+
+This is a big deal for anyone serious about building AI agents. Security and reliability have been major hurdles, and native sandbox execution directly addresses those concerns. The 'model-native harness' also sounds like it could simplify the complexities of agent orchestration, making it easier to build agents that actually work reliably over time. We've been waiting for more robust infrastructure for agents, and this feels like a solid step forward from OpenAI. It's exciting to think about the more complex, secure applications this will unlock.
+
+Original Link: https://openai.com/index/the-next-evolution-of-the-agents-sdk]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/968/800/450" length="0" type="image//id/968/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Subagents Arrive in Gemini CLI for Enhanced AI Workflows]]></title>
+            <link>https://digestweb.dev/articles/2026-04-15/subagents-gemini-cli-enhanced-ai-workflows</link>
+            <guid>https://digestweb.dev/articles/2026-04-15/subagents-gemini-cli-enhanced-ai-workflows</guid>
+            <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Gemini CLI now features subagents, specialized expert agents that handle complex tasks in isolated contexts, boosting productivity and preventing 'context rot'.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Gemini CLI has introduced subagents, a new feature for managing complex AI tasks.
+- Subagents are specialized expert agents that operate in isolated context windows.
+- This architecture helps prevent 'context rot' by keeping the primary session focused and fast.
+- They can be customized via Markdown files and run in parallel for increased productivity.
+- Subagents are easily invoked using the `@agent` syntax for targeted delegation of tasks.
+
+## Our Commentary
+
+Subagents in Gemini CLI are a really smart move. 'Context rot' is a genuine pain point when working with complex AI agents, and this architectural approach of delegating to specialized, isolated subagents seems like an elegant solution. The ability to customize them with Markdown and run them in parallel is a huge win for developer experience and efficiency. It feels like Google is really thinking about how to make agents practical for real-world, multi-step workflows, and I'm excited to see how this evolves.
+
+Original Link: https://developers.googleblog.com/subagents-have-arrived-in-gemini-cli/]]></content:encoded>
+            <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_-_Subagents_metadata_i.2e16d0ba.fill-1200x600.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents]]></title>
+            <link>https://digestweb.dev/articles/2026-04-15/vakra-reasoning-tool-use-failure-modes-agents</link>
+            <guid>https://digestweb.dev/articles/2026-04-15/vakra-reasoning-tool-use-failure-modes-agents</guid>
+            <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore the VAKRA benchmark analysis, delving into the reasoning, tool use, and common failure modes observed in AI agents.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article presents an in-depth analysis of AI agents using the VAKRA benchmark.
+- It investigates the reasoning capabilities of various AI agents.
+- The research examines how effectively agents utilize tools to complete tasks.
+- A key focus is on identifying and understanding the common failure modes of AI agents.
+- This analysis provides crucial insights into the current limitations and areas for improvement in agent design.
+
+## Our Commentary
+
+Understanding the 'failure modes' of AI agents is just as important as celebrating their successes. This VAKRA analysis from Hugging Face and IBM Research sounds like a critical piece of work for advancing agent reliability. We're all excited about what agents can do, but knowing where they break down—especially concerning reasoning and tool use—is essential for building truly robust systems. It's a reminder that the path to fully autonomous agents is paved with careful, iterative research into their limitations.
+
+Original Link: https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis]]></content:encoded>
+            <enclosure url="https://cdn-uploads.huggingface.co/production/uploads/677629b4931b3b2eb8d5820a/aheSsLHG7bQqr_2b8A6cS.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Windsurf 2.0: Agent Command Center & Devin Integration]]></title>
+            <link>https://digestweb.dev/articles/2026-04-15/windsurf-2-0-agent-command-center-devin</link>
+            <guid>https://digestweb.dev/articles/2026-04-15/windsurf-2-0-agent-command-center-devin</guid>
+            <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Windsurf 2.0 launches with an Agent Command Center and Devin integration, enabling seamless collaboration between local and cloud AI agents to accelerate development.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Windsurf has released version 2.0, featuring significant updates to its platform.
+- The new version introduces an 'Agent Command Center' for managing AI agents.
+- Windsurf 2.0 now integrates 'Devin', likely referring to an advanced AI agent, to enhance capabilities.
+- The platform emphasizes collaboration between local and cloud agents to improve shipping efficiency.
+- This update aims to streamline workflows and boost productivity for developers using AI agents.
+
+## Our Commentary
+
+Windsurf 2.0 sounds like it's leaning heavily into the agent orchestration space, which is a smart move given the current AI landscape. The 'Agent Command Center' and 'Devin' integration suggest a focus on making complex agent workflows more manageable. The idea of local and cloud agents working together is particularly interesting – it hints at a hybrid approach that could offer the best of both worlds in terms of privacy, performance, and scalability. We're seeing more platforms emerge to wrangle these powerful AI tools, and Windsurf seems to be positioning itself well.
+
+Original Link: https://windsurf.com/blog/windsurf-2-0]]></content:encoded>
+            <enclosure url="https://exafunction.github.io/public/images/blog/windsurf-2-0/windsurf-2-0-square.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Anthropic Research: Automated Alignment Researchers Using LLMs]]></title>
             <link>https://digestweb.dev/articles/2026-04-14/anthropic-automated-alignment-researchers-llms</link>
