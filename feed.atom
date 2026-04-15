@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-04-14T23:29:51.167Z</updated>
+    <updated>2026-04-15T21:13:42.899Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -224,6 +224,30 @@ Original Link: https://javascriptweekly.com/issues/781]]></content>
 Codrops always delivers on the visual front, and this "making of" article sounds like a treat for anyone interested in pushing the boundaries of web design. I love seeing how creative concepts translate into interactive experiences. It's a great reminder that the web can be a canvas for truly immersive art, not just functional applications. While not a technical breakthrough, it's inspiring for designers and front-end developers looking to create something truly unique.
 
 Original Link: https://tympanus.net/codrops/2026/04/14/they-call-me-giulio-the-making-of-a-cinematic-cyberpunk-portfolio/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Modern CSRF Protection: Sec-Fetch-Site Header in Datasette]]></title>
+        <id>https://digestweb.dev/articles/2026-04-14/modern-csrf-protection-sec-fetch-site-header-datasette</id>
+        <link href="https://digestweb.dev/articles/2026-04-14/modern-csrf-protection-sec-fetch-site-header-datasette"/>
+        <updated>2026-04-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Explore how Datasette is shifting from traditional CSRF tokens to leveraging the `Sec-Fetch-Site` header for enhanced web security and simplified implementation. This article delves into the benefits and considerations of this modern approach.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article details Datasette's transition from token-based CSRF protection to using the `Sec-Fetch-Site` HTTP header.
+- `Sec-Fetch-Site` is a browser-provided header that indicates the relationship between the request initiator and the target site.
+- This approach simplifies CSRF protection by removing the need for server-side state or client-side token management.
+- It offers advantages for Single Page Applications (SPAs) and API-driven architectures.
+- The author discusses the security implications, noting that while effective for same-site requests, it's not a universal replacement for all CSRF scenarios.
+- Browser support for `Sec-Fetch-Site` is widespread, making it a viable modern security primitive.
+
+## Our Commentary
+
+This is a fascinating deep dive into a more modern, browser-native approach to CSRF protection. We've all wrestled with CSRF tokens, and the idea of offloading some of that complexity to the browser's built-in security mechanisms is genuinely appealing. It feels like a step towards simpler, more robust web applications. I appreciate Simon's detailed breakdown of the pros and cons, especially highlighting that it's not a silver bullet for _all_ cross-site request forgery. It's a good reminder that web security is nuanced, but also that the platform is evolving to provide better primitives. This could definitely influence how we think about security in our own projects.
+
+Original Link: https://simonwillison.net/2026/Apr/14/replace-token-based-csrf/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Multi-Agent System Speeds Up GPU Kernels by 38%]]></title>
