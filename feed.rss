@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Wed, 15 Apr 2026 22:51:17 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Apr 2026 08:34:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,215 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Best Practices for Claude Opus 4.7 with Claude Code]]></title>
+            <link>https://digestweb.dev/articles/2026-04-16/claude-opus-4-7-code-best-practices</link>
+            <guid>https://digestweb.dev/articles/2026-04-16/claude-opus-4-7-code-best-practices</guid>
+            <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn optimal strategies for leveraging Claude Opus 4.7 in conjunction with Claude Code to maximize performance and efficiency in your AI development workflows.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- This article outlines best practices for effectively using Claude Opus 4.7 alongside Claude Code.
+- It provides guidance on how to optimize interactions and workflows to achieve better results when developing with these Anthropic tools.
+- The recommendations aim to help users harness the full potential of the models for coding-related tasks.
+
+## Our Commentary
+
+As AI models become more specialized, guides like this are increasingly important. It's not just about having a powerful model, but knowing how to prompt and integrate it effectively into specific tools like Claude Code. For developers working within the Anthropic ecosystem, this kind of practical advice can significantly improve productivity and the quality of generated code.
+
+Original Link: https://claude.com/blog/best-practices-for-using-claude-opus-4-7-with-claude-code]]></content:encoded>
+            <enclosure url="https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[The Art of Complex Motion: Corentin Bernadou's Shaders]]></title>
+            <link>https://digestweb.dev/articles/2026-04-16/corentin-bernadou-shaders-motion-design</link>
+            <guid>https://digestweb.dev/articles/2026-04-16/corentin-bernadou-shaders-motion-design</guid>
+            <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore Corentin Bernadou's distinct motion practice, shaped by sharing experiments, studying shaders, and pushing animation boundaries.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- This article delves into the creative journey of Corentin Bernadou, highlighting how his dedication to experimentation and deep study of shaders has forged a unique approach to complex motion design.
+- It showcases how sharing his work and continuously pushing animation limits have been central to developing his distinctive style.
+- The piece emphasizes the artistic and technical aspects behind his captivating visual effects.
+
+## Our Commentary
+
+Codrops always delivers on the visual inspiration front, and this piece is no exception. Corentin Bernadou's work with shaders is genuinely captivating, reminding us of the incredible artistic potential within the web platform. It's a great prompt to remember that web development isn't just about frameworks and data, but also about pushing the boundaries of visual expression and creating truly immersive experiences.
+
+Original Link: https://tympanus.net/codrops/2026/04/16/the-art-of-complex-motion-corentin-bernadous-world-of-shaders-and-experimentation/]]></content:encoded>
+            <enclosure url="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/04/dev-spotlight_corentin-bernadou.jpg?x81522" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Cypress Cloud's Errors Tab: Faster Test Triage]]></title>
+            <link>https://digestweb.dev/articles/2026-04-16/cypress-cloud-errors-tab-triage</link>
+            <guid>https://digestweb.dev/articles/2026-04-16/cypress-cloud-errors-tab-triage</guid>
+            <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Cypress Cloud's Errors tab now offers expanded defaults, accurate flaky test status, and direct Test Replay links to streamline test failure triage.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The Cypress Cloud Errors tab now groups test failures by error type, making it easier to identify root causes.
+- Key updates include expanded default views, more accurate detection of flaky tests, and direct links to Test Replay for quicker debugging.
+- These enhancements aim to help developers triage test failures more efficiently.
+
+## Our Commentary
+
+Any improvement to debugging and triage workflows is a win for developer experience. Flaky tests are a notorious pain point, so more accurate status reporting is particularly welcome. Direct links to Test Replay sound like a real time-saver, cutting down on context switching. It's a solid quality-of-life update for Cypress users.
+
+Original Link: https://www.cypress.io/blog/how-the-cypress-cloud-errors-tab-helps-you-triage-faster/]]></content:encoded>
+            <enclosure url="https://www.cypress.io/cypress_logo_social.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[How GitHub Uses eBPF to Boost Deployment Safety]]></title>
+            <link>https://digestweb.dev/articles/2026-04-16/github-ebpf-deployment-safety</link>
+            <guid>https://digestweb.dev/articles/2026-04-16/github-ebpf-deployment-safety</guid>
+            <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[GitHub details its use of eBPF to detect and prevent circular dependencies in its deployment tooling, enhancing system reliability.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article explains how GitHub leverages eBPF to identify and block circular dependencies within its deployment systems.
+- It highlights how this approach improves the safety and reliability of their infrastructure.
+- The post details the technical implementation and the benefits observed from using eBPF for this specific use case.
+
+## Our Commentary
+
+This is a fascinating look under the hood at how a massive platform like GitHub tackles complex infrastructure challenges. eBPF continues to impress with its versatility, moving beyond networking and observability into critical areas like deployment safety. It's a testament to how low-level kernel capabilities can be harnessed for high-level operational resilience. We appreciate the transparency in sharing such technical deep dives.
+
+Original Link: https://github.blog/engineering/infrastructure/how-github-uses-ebpf-to-improve-deployment-safety/]]></content:encoded>
+            <enclosure url="https://github.blog/wp-content/uploads/2026/01/4ba0cd42388a255e04c78e5143548f22e577d68e0f15f68e6a3c76c18b927981-1920x1080-1.png?fit=1920%2C1080" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Training Multimodal Embedding & Reranker Models with Sentence Transformers]]></title>
+            <link>https://digestweb.dev/articles/2026-04-16/huggingface-multimodal-sentence-transformers</link>
+            <guid>https://digestweb.dev/articles/2026-04-16/huggingface-multimodal-sentence-transformers</guid>
+            <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how to train and finetune multimodal embedding and reranker models using the Sentence Transformers library, enhancing your AI's understanding of diverse data types.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- This article provides a detailed guide on the process of training and finetuning multimodal embedding and reranker models.
+- It specifically focuses on utilizing the Sentence Transformers library to achieve these tasks.
+- The tutorial aims to equip practitioners with the knowledge to improve their AI models' ability to process and understand various data modalities effectively.
+
+## Our Commentary
+
+Multimodal AI is a rapidly evolving field, and the ability to effectively train and finetune these models is crucial. Sentence Transformers is a fantastic library, and a guide like this for multimodal embeddings and rerankers is incredibly valuable for practitioners looking to push the boundaries of their AI applications. It's a deep dive into practical model development, which we always appreciate.
+
+Original Link: https://huggingface.co/blog/train-multimodal-sentence-transformers]]></content:encoded>
+            <enclosure url="https://huggingface.co/blog/assets/train-sentence-transformers/st-hf-thumbnail.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[JavaScript Module System: Your First Architecture Decision]]></title>
+            <link>https://digestweb.dev/articles/2026-04-16/javascript-module-system-architecture</link>
+            <guid>https://digestweb.dev/articles/2026-04-16/javascript-module-system-architecture</guid>
+            <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This article argues that a well-designed JavaScript module system is a foundational architectural decision crucial for maintaining large and complex web applications.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article emphasizes that establishing a well-designed JavaScript module system should be considered the very first architectural decision in any project.
+- It explains that while modules simplify writing large programs, a lack of guiding principles for their use can quickly lead to unmaintainable codebases.
+- The post advocates for a systematic approach to module organization to ensure long-term project health.
+
+## Our Commentary
+
+This is a crucial point that often gets overlooked in the rush to build. We've all seen projects where module sprawl makes maintenance a nightmare. Thinking about your module system as a core architectural decision, rather than an afterthought, can save immense headaches down the line. It's a reminder that good software engineering principles apply just as much to JavaScript as to any other language, and investing in structure early pays dividends.
+
+Original Link: https://css-tricks.com/the-javascript-module-system-architecture/]]></content:encoded>
+            <enclosure url="https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/03/s_438F18945EAD505ECD4EDF4C4D7332DB9EE1178AECF38D5E1E1966514E384E9B_1772462582173_Untitled-scaled.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[MaxText Adds SFT and RL Support on Single-Host TPUs]]></title>
+            <link>https://digestweb.dev/articles/2026-04-16/maxtext-sft-rl-single-host-tpus</link>
+            <guid>https://digestweb.dev/articles/2026-04-16/maxtext-sft-rl-single-host-tpus</guid>
+            <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[MaxText now supports Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) on single-host TPU configurations, leveraging JAX and Tunix for efficient model refinement.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- MaxText has introduced new capabilities for Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) on single-host TPU setups.
+- This update utilizes JAX and the Tunix library to provide high-performance model refinement.
+- These features enable developers to easily adapt pre-trained models for specialized tasks and complex reasoning, offering a scalable path from single-host to multi-host configurations.
+
+## Our Commentary
+
+Expanding post-training capabilities like SFT and RL on single-host TPUs is a significant step for accessibility and iteration speed for AI developers. It means more researchers and practitioners can experiment with advanced fine-tuning techniques without needing massive multi-host setups from the get-go. This move by Google, leveraging JAX, continues to solidify the TPU ecosystem as a powerful option for AI development.
+
+Original Link: https://developers.googleblog.com/maxtext-expands-post-training-capabilities-introducing-sft-and-rl-on-single-host-tpus/]]></content:encoded>
+            <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-meta.2e16d0ba.fill-1200x600.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI's Codex App Expands Capabilities for Developers]]></title>
+            <link>https://digestweb.dev/articles/2026-04-16/openai-codex-app-major-update</link>
+            <guid>https://digestweb.dev/articles/2026-04-16/openai-codex-app-major-update</guid>
+            <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The updated Codex app for macOS and Windows now includes computer use, in-app browsing, image generation, memory, and plugins to accelerate developer workflows.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI has significantly updated its Codex app for macOS and Windows, transforming it into a more comprehensive developer assistant.
+- The new version introduces capabilities such as direct computer interaction, in-app browsing, image generation, enhanced memory, and support for plugins.
+- These additions are designed to streamline and accelerate various aspects of developer workflows.
+
+## Our Commentary
+
+This is a pretty substantial upgrade for the Codex app. The ability to interact with the computer, browse, and use plugins pushes it closer to a true AI agent for developers. We're seeing a clear trend towards AI tools becoming more integrated and autonomous within our daily workflows. The 'memory' aspect is particularly interesting, hinting at more persistent and context-aware assistance. This could genuinely change how many developers approach routine tasks.
+
+Original Link: https://openai.com/index/codex-for-almost-everything]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/375/800/450" length="0" type="image//id/375/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Boosts Cyber Defense with GPT-5.4-Cyber]]></title>
+            <link>https://digestweb.dev/articles/2026-04-16/openai-cyber-defense-gpt-5-4-cyber</link>
+            <guid>https://digestweb.dev/articles/2026-04-16/openai-cyber-defense-gpt-5-4-cyber</guid>
+            <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Leading security firms and enterprises are joining OpenAI’s Trusted Access for Cyber program, utilizing GPT-5.4-Cyber and $10M in API grants to enhance global cyber defense.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI is launching its Trusted Access for Cyber program, bringing together major security firms and enterprises to bolster global cyber defense.
+- Participants will leverage the new GPT-5.4-Cyber model and receive $10 million in API grants.
+- This initiative aims to accelerate the development and deployment of advanced AI solutions for cybersecurity challenges.
+
+## Our Commentary
+
+The intersection of AI and cybersecurity is becoming increasingly vital. It's encouraging to see OpenAI dedicating resources and a specialized model like GPT-5.4-Cyber to this critical area. The collaboration with leading security firms and the substantial API grants suggest a serious commitment to making a real impact. This could be a game-changer in the ongoing battle against cyber threats, though we also acknowledge the potential dual-use concerns that always accompany powerful AI.
+
+Original Link: https://openai.com/index/accelerating-cyber-defense-ecosystem]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/107/800/450" length="0" type="image//id/107/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Unveils GPT-Rosalind for Life Sciences Research]]></title>
+            <link>https://digestweb.dev/articles/2026-04-16/openai-gpt-rosalind-life-sciences</link>
+            <guid>https://digestweb.dev/articles/2026-04-16/openai-gpt-rosalind-life-sciences</guid>
+            <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI introduces GPT-Rosalind, a frontier reasoning model designed to accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI has launched GPT-Rosalind, a new frontier reasoning model specifically engineered to advance life sciences research.
+- This model is built to accelerate critical processes such as drug discovery, genomics analysis, and protein reasoning.
+- Its introduction aims to significantly enhance and streamline various scientific research workflows within the life sciences domain.
+
+## Our Commentary
+
+The application of frontier AI models to scientific research, especially in life sciences, is incredibly exciting. GPT-Rosalind has the potential to dramatically speed up discoveries in areas like drug development and genomics, which could have profound impacts on human health. It's a powerful example of how specialized AI can augment human expertise in complex fields. We're watching the boundaries of scientific exploration being pushed by these advanced tools.
+
+Original Link: https://openai.com/index/introducing-gpt-rosalind]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/983/800/450" length="0" type="image//id/983/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Local Qwen3.6-35B Outperforms Claude Opus 4.7 for Image Generation]]></title>
+            <link>https://digestweb.dev/articles/2026-04-16/qwen-beats-opus-local-image-gen</link>
+            <guid>https://digestweb.dev/articles/2026-04-16/qwen-beats-opus-local-image-gen</guid>
+            <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison shares an intriguing comparison where a locally run Qwen3.6-35B-A3B model generated a superior pelican image compared to Claude Opus 4.7.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison conducted a direct comparison between a locally hosted Qwen3.6-35B-A3B model and Anthropic's Claude Opus 4.7 for image generation.
+- Surprisingly, the local Qwen model produced a more impressive pelican image than the commercial Claude Opus 4.7.
+- This highlights the growing capabilities of smaller, locally runnable AI models.
+
+## Our Commentary
+
+This is exactly the kind of real-world, anecdotal comparison we love to see. It challenges the perception that only the largest, cloud-hosted models can deliver top-tier results. The fact that a model running on a laptop can outperform a commercial API for a specific task is a powerful statement about the progress in local AI and the potential of open-source models. It makes us wonder what other 'underdog' models are out there waiting to surprise us.
+
+Original Link: https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-everything]]></content:encoded>
+            <enclosure url="https://static.simonwillison.net/static/2026/qwen-opus-card.jpg" length="0" type="image/jpg"/>
+        </item>
         <item>
             <title><![CDATA[Build a Personal Command Center with GitHub Copilot CLI]]></title>
             <link>https://digestweb.dev/articles/2026-04-15/build-personal-command-center-github-copilot-cli</link>
