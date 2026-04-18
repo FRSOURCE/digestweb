@@ -11,6 +11,18 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-04-17/datasette-1-0a28-latest-alpha-release",
+            "content_html": "## Summary & Key Takeaways\n\n- This post announces Datasette 1.0a28, the 28th alpha release of the open-source data exploration and publishing tool.\n- Datasette allows users to explore and publish data from SQLite databases, often used for data journalism and analysis.\n- Alpha releases typically focus on iterative improvements, bug fixes, and the introduction of new features for early testing.\n- This iteration likely brings refinements to existing functionalities and prepares for future stable releases.\n\n## Our Commentary\n\nAnother alpha release from Simon Willison's Datasette project. It's always good to see continuous development on robust open-source tools like this. While alpha releases are often incremental, they're crucial for refining the product and catching issues early. Datasette remains a fantastic example of how powerful SQLite can be when paired with a thoughtful UI for data exploration. We appreciate the steady progress, even if each individual alpha isn't a headline-grabber.\n\nOriginal Link: https://simonwillison.net/2026/Apr/17/datasette/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-04-17/datasette-1-0a28-latest-alpha-release",
+            "title": "Datasette 1.0a28: Latest Alpha Release for Data Exploration",
+            "summary": "Simon Willison announces the 28th alpha release of Datasette, a powerful open-source tool for exploring and publishing data from SQLite databases.",
+            "image": "https://picsum.photos/id/820/800/450",
+            "date_modified": "2026-04-17T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-04-16/claude-opus-4-7-code-best-practices",
             "content_html": "## Summary & Key Takeaways\n\n- This article outlines best practices for effectively using Claude Opus 4.7 alongside Claude Code.\n- It provides guidance on how to optimize interactions and workflows to achieve better results when developing with these Anthropic tools.\n- The recommendations aim to help users harness the full potential of the models for coding-related tasks.\n\n## Our Commentary\n\nAs AI models become more specialized, guides like this are increasingly important. It's not just about having a powerful model, but knowing how to prompt and integrate it effectively into specific tools like Claude Code. For developers working within the Anthropic ecosystem, this kind of practical advice can significantly improve productivity and the quality of generated code.\n\nOriginal Link: https://claude.com/blog/best-practices-for-using-claude-opus-4-7-with-claude-code",
             "url": "https://digestweb.dev/articles/2026-04-16/claude-opus-4-7-code-best-practices",

@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Fri, 17 Apr 2026 08:34:48 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Apr 2026 09:39:49 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,26 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Datasette 1.0a28: Latest Alpha Release for Data Exploration]]></title>
+            <link>https://digestweb.dev/articles/2026-04-17/datasette-1-0a28-latest-alpha-release</link>
+            <guid>https://digestweb.dev/articles/2026-04-17/datasette-1-0a28-latest-alpha-release</guid>
+            <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison announces the 28th alpha release of Datasette, a powerful open-source tool for exploring and publishing data from SQLite databases.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- This post announces Datasette 1.0a28, the 28th alpha release of the open-source data exploration and publishing tool.
+- Datasette allows users to explore and publish data from SQLite databases, often used for data journalism and analysis.
+- Alpha releases typically focus on iterative improvements, bug fixes, and the introduction of new features for early testing.
+- This iteration likely brings refinements to existing functionalities and prepares for future stable releases.
+
+## Our Commentary
+
+Another alpha release from Simon Willison's Datasette project. It's always good to see continuous development on robust open-source tools like this. While alpha releases are often incremental, they're crucial for refining the product and catching issues early. Datasette remains a fantastic example of how powerful SQLite can be when paired with a thoughtful UI for data exploration. We appreciate the steady progress, even if each individual alpha isn't a headline-grabber.
+
+Original Link: https://simonwillison.net/2026/Apr/17/datasette/#atom-everything]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/820/800/450" length="0" type="image//id/820/800/450"/>
+        </item>
         <item>
             <title><![CDATA[Best Practices for Claude Opus 4.7 with Claude Code]]></title>
             <link>https://digestweb.dev/articles/2026-04-16/claude-opus-4-7-code-best-practices</link>
