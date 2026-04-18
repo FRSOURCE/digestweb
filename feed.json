@@ -77,15 +77,6 @@
             "date_modified": "2026-04-17T00:00:00.000Z"
         },
         {
-            "id": "https://digestweb.dev/articles/2026-04-17/nngroup-july-ux-conference-announced",
-            "content_html": "## Summary & Key Takeaways\n\n- The Nielsen Norman Group (NNGroup) has announced its July UX Conference, scheduled from July 20 to July 24, 2026.\n- Attendees can participate in up to five in-depth training courses.\n- The courses are designed to teach user experience best practices for successful design.\n- The training focuses on developing long-lasting skills essential for UX professionals.\n\n## Our Commentary\n\nNNGroup conferences are always a solid bet for anyone serious about UX. They're not about fleeting trends but foundational principles, which is something we deeply value. In a world where design fads come and go, investing in \"long-lasting skills\" feels incredibly smart. It's a good opportunity for professionals to deepen their understanding and stay sharp, especially with the constant evolution of user expectations.\n\nOriginal Link: https://www.nngroup.com/training/july/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-            "url": "https://digestweb.dev/articles/2026-04-17/nngroup-july-ux-conference-announced",
-            "title": "NNGroup Announces July UX Conference: In-Depth Training for Professionals",
-            "summary": "The Nielsen Norman Group will host its July UX Conference from July 20-24, 2026, offering up to five in-depth training courses focused on user experience best practices and long-lasting skills for UX professionals.",
-            "image": "https://media.nngroup.com/media/events/opengraph_images/Social-Card-July_2026.png",
-            "date_modified": "2026-04-17T00:00:00.000Z"
-        },
-        {
             "id": "https://digestweb.dev/articles/2026-04-17/pnpm-11-rc-2-breaking-changes-new-pm-on-fail-command",
             "content_html": "## Summary & Key Takeaways\n\n- pnpm 11 RC 2 introduces breaking changes by removing `managePackageManagerVersions`, `packageManagerStrict`, and `packageManagerStrictVersion` settings.\n- These settings are replaced by a new `pmOnFail` setting, which directly controls the failure behavior for `packageManager` and `devEngines.packageManager`.\n- The `COREPACK_ENABLE_STRICT` environment variable is no longer honored; users should migrate to `pmOnFail`.\n- `pnpm dlx` and `pnpm create` now respect project-level security and trust policy settings.\n- New native commands like `star`, `unstar`, `stars`, and `whoami` have been implemented.\n- A new `pnpm with <version|current> <args...>` command allows running pnpm at a specific version for a single invocation, bypassing project pins.\n- The `pmOnFail` setting can be configured via CLI, environment variables, `pnpm-workspace.yaml`, or `.npmrc`.\n\n## Our Commentary\n\nThis RC for pnpm 11 brings some substantial changes, particularly the consolidation of package manager versioning logic into `pmOnFail`. While breaking changes are always a bit of a headache, simplifying these settings into one clear option seems like a good move for long-term maintainability and clarity. The `pnpm with` command is a fantastic addition for testing or running scripts with specific pnpm versions without altering the project's pinned version. This is a huge win for DX, especially in monorepos or when dealing with legacy projects. We're excited to see the final release.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v11.0.0-rc.2",
             "url": "https://digestweb.dev/articles/2026-04-17/pnpm-11-rc-2-breaking-changes-new-pm-on-fail-command",
@@ -93,18 +84,6 @@
             "summary": "pnpm 11 Release Candidate 2 introduces significant breaking changes, consolidating package manager version settings into a new `pmOnFail` option. It also adds a powerful `pnpm with` command for running specific pnpm versions.",
             "image": "https://opengraph.githubassets.com/d560c3745cb5776c84d4487803952235a5c7d69a7a72f3073854d0432eda9a05/pnpm/pnpm/releases/tag/v11.0.0-rc.2",
             "date_modified": "2026-04-17T00:00:00.000Z"
-        },
-        {
-            "id": "https://digestweb.dev/articles/2026-04-17/pycon-us-2026-announced-new-ai-security-tracks",
-            "content_html": "## Summary & Key Takeaways\n\n- PyCon US 2026 has been announced, taking place in Long Beach, California, from May 15-23, 2026.\n- This year's conference introduces new dedicated tracks for Artificial Intelligence and security.\n- The event will cover a broad range of Python development topics, including these new focus areas.\n- Attendees are encouraged to submit proposals for talks and tutorials.\n- Early bird registration details will be released at a later date.\n\n## Our Commentary\n\nPyCon US adding dedicated AI and security tracks is a smart move. It reflects where the Python ecosystem is heading, with AI becoming an undeniable force. We've seen Python's dominance in machine learning, so it's only natural for its flagship conference to lean into that. It's a good sign for the community, showing adaptability and a commitment to staying relevant. I'm curious to see what kind of talks emerge from these new tracks.\n\nOriginal Link: https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-everything",
-            "url": "https://digestweb.dev/articles/2026-04-17/pycon-us-2026-announced-new-ai-security-tracks",
-            "title": "PyCon US 2026 Announced: Featuring New AI and Security Tracks",
-            "summary": "PyCon US 2026 will take place in Long Beach, California, and introduces dedicated tracks for Artificial Intelligence and security, reflecting the evolving landscape of Python development.",
-            "image": "https://static.simonwillison.net/static/2026/pycon-us-card.jpg",
-            "date_modified": "2026-04-17T00:00:00.000Z",
-            "author": {
-                "name": "Simon Willison"
-            }
         },
         {
             "id": "https://digestweb.dev/articles/2026-04-17/site-ai-chatbots-less-chat-more-answer",
