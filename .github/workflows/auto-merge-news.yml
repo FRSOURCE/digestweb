@@ -45,9 +45,8 @@ jobs:
           # gh pr checks exits non-zero if any check failed/pending
           if gh pr checks "$pr_number" \
                --repo "$GITHUB_REPOSITORY" \
-               --required \
                --watch 2>/dev/null; then
-            echo "All required checks passed."
+            echo "All checks passed."
             echo "ready=true" >> "$GITHUB_OUTPUT"
           else
             echo "::notice::PR #$pr_number has checks that have not passed yet — skipping merge."
