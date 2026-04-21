@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-04-18T09:40:07.977Z</updated>
+    <updated>2026-04-21T09:08:01.970Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,355 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Angular Update: AI Training, Local Gemini, and Signal Forms Styling]]></title>
+        <id>https://digestweb.dev/articles/2026-04-20/angular-update-ai-training-local-gemini-signal-forms-styling</id>
+        <link href="https://digestweb.dev/articles/2026-04-20/angular-update-ai-training-local-gemini-signal-forms-styling"/>
+        <updated>2026-04-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Angular introduces new AI training capabilities, enabling local Gemini model integration for on-device inference. The update also brings enhanced styling features for Signal Forms, improving developer experience and visual customization.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Angular now supports AI training within applications, specifically integrating local Gemini models for on-device inference.
+- New styling features have been added to Signal Forms, providing developers with more control over the visual presentation of reactive forms.
+- The update aims to enhance the developer experience by combining AI capabilities with improved UI development tools.
+- These advancements reflect Angular's ongoing commitment to modern web development and AI integration.
+
+## Our Commentary
+
+This is a pretty packed update from Angular! The local Gemini integration is particularly interesting, pushing AI capabilities directly into the client-side framework. It feels like a strategic move to keep Angular relevant in the AI-first era. The Signal Forms styling improvements are also a welcome DX boost. We're seeing frameworks really lean into AI, and Angular's approach here seems practical and powerful.
+
+Original Link: https://blog.angular.dev/ai-training-local-gemini-and-styling-signal-forms-6dd270e87fac?source=rss----447683c3d9a3---4]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building a Blog with TanStack Start: Pre-rendering and Server Functions (Part 2)]]></title>
+        <id>https://digestweb.dev/articles/2026-04-20/building-blog-tanstack-start-pre-rendering-server-functions-part-2</id>
+        <link href="https://digestweb.dev/articles/2026-04-20/building-blog-tanstack-start-pre-rendering-server-functions-part-2"/>
+        <updated>2026-04-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Frontend Masters continues its series on building a blog with TanStack Start, focusing on leveraging pre-rendering for static build files and utilizing server functions via middleware for enhanced functionality.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- This article is the second part of a tutorial series on building a blog using TanStack Start.
+- It focuses on the benefits of pre-rendering for blogs, allowing static build files to render independently.
+- The tutorial also covers how TanStack Start facilitates server functions through middleware.
+- The content aims to guide developers in creating performant and functional blogs with the TanStack ecosystem.
+
+## Our Commentary
+
+TanStack Start is an interesting contender in the web framework space, and a practical tutorial like this is exactly what developers need to get started. Pre-rendering is a natural fit for blogs, and seeing how TanStack handles server functions via middleware is a good insight into its architecture. It's always exciting to see new frameworks emerge with fresh takes on common problems. This series looks like a solid resource for anyone exploring the TanStack ecosystem.
+
+Original Link: https://frontendmasters.com/blog/building-a-blog-in-tanstack-part-2-of-2/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bun v1.3.13: Performance Boosts, Testing Features & Node.js Compatibility]]></title>
+        <id>https://digestweb.dev/articles/2026-04-20/bun-v1-3-13-performance-testing-node-compatibility</id>
+        <link href="https://digestweb.dev/articles/2026-04-20/bun-v1-3-13-performance-testing-node-compatibility"/>
+        <updated>2026-04-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Bun v1.3.13 introduces significant performance improvements, new testing flags like `--parallel` and `--isolate`, and enhanced Node.js compatibility, addressing 82 issues. It also adds SHA3 support and `ws+unix://` WebSocket client.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Bun v1.3.13 fixes 82 issues, incorporating 381 community upvotes.
+- New `bun test` flags include `--parallel`, `--isolate`, `--shard`, and `--changed` for more flexible testing.
+- Memory usage for `bun install` tarball streaming is reduced by 17x, and source maps use 8x less memory.
+- Gzip compression is 5.5x faster thanks to `zlib-ng` integration.
+- `Bun.serve()` now supports `Range` requests, and `node:crypto` and WebCrypto include SHA3.
+- A `ws+unix://` WebSocket client has been added, alongside numerous bugfixes and Node.js compatibility improvements.
+
+## Our Commentary
+
+Bun continues its relentless pace of development. This 1.3.13 release, while a minor version bump, is packed with substantial improvements. The memory optimizations for `bun install` and source maps are huge for DX, and the `bun test` enhancements show a commitment to a robust testing story. It's impressive how quickly Bun is closing the feature and compatibility gap with Node.js, while often outperforming it.
+
+Original Link: https://bun.com/blog/bun-v1.3.13]]></content>
+        <author>
+            <name>Jarred Sumner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chris’ Corner: Understanding URLs and Caching Performance]]></title>
+        <id>https://digestweb.dev/articles/2026-04-20/chris-corner-urls-caching-performance</id>
+        <link href="https://digestweb.dev/articles/2026-04-20/chris-corner-urls-caching-performance"/>
+        <updated>2026-04-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Chris Coyier discusses the impact of URL parameters on web caching, referencing Barry Pollard's insights on how different query parameters can affect content delivery and performance.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Chris Coyier's article delves into the nuances of URLs, specifically focusing on how query parameters affect web caching.
+- It references Barry Pollard's work on the "URL params performance penalty," highlighting that seemingly identical content with different query strings can be treated as distinct by caches.
+- The post explains that caching mechanisms care about URL variations because they might indicate different content, even if visually similar.
+- Understanding this behavior is crucial for optimizing content delivery and overall website performance.
+
+## Our Commentary
+
+This is a classic web performance gotcha that still trips people up. The fact that a simple query parameter can completely bypass a cache is a subtle but significant detail. Chris Coyier's "Chris' Corner" posts are always good for these kinds of practical, foundational web development insights. It's a great reminder to be mindful of how URLs are constructed and how they interact with the caching layers of the web. A must-read for anyone serious about performance.
+
+Original Link: https://blog.codepen.io/2026/04/20/chris-corner-urls/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Enhancing Markdown in Astro with MDX]]></title>
+        <id>https://digestweb.dev/articles/2026-04-20/enhancing-markdown-astro-mdx</id>
+        <link href="https://digestweb.dev/articles/2026-04-20/enhancing-markdown-astro-mdx"/>
+        <updated>2026-04-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CSS-Tricks explores how to enhance the Markdown experience in Astro, arguing that while Astro has built-in Markdown support, integrating MDX can significantly improve its capabilities.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article from CSS-Tricks discusses how to improve the Markdown experience within Astro projects.
+- It acknowledges Astro's native support for `.md` files but advocates for the use of MDX to extend Markdown's functionality.
+- The post suggests that MDX can provide a more powerful and flexible content authoring experience in Astro.
+- It implies a tutorial or guide on how to integrate and leverage MDX with Astro.
+
+## Our Commentary
+
+Astro's built-in Markdown support is already great, but adding MDX takes it to another level. This article from CSS-Tricks is a welcome guide for anyone looking to inject more dynamic components and interactivity directly into their Markdown content. It's a powerful combination for content-driven sites, allowing for rich, component-based layouts without leaving the comfort of Markdown. We're big fans of MDX, and seeing it paired with Astro is a natural fit.
+
+Original Link: https://css-tricks.com/markdown-astro/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Copilot Individual Plans See Changes for Reliability]]></title>
+        <id>https://digestweb.dev/articles/2026-04-20/github-copilot-individual-plans-changes</id>
+        <link href="https://digestweb.dev/articles/2026-04-20/github-copilot-individual-plans-changes"/>
+        <updated>2026-04-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[GitHub announces changes to its Copilot Individual plans, stating the adjustments are made to ensure a reliable and predictable experience for existing customers.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- GitHub is implementing changes to its Copilot Individual plans.
+- The stated reason for these changes is to ensure a reliable and predictable experience for current customers.
+- The announcement was made on the GitHub Blog under "Company News."
+
+## Our Commentary
+
+Changes to pricing or plans for a tool as ubiquitous as GitHub Copilot are always going to get attention. While the blog post is light on details, the "reliable and predictable experience" phrasing often hints at adjustments to usage limits or pricing structures. It's a reminder that even AI-powered developer tools operate under economic realities, and we should always be prepared for shifts in their availability or cost.
+
+Original Link: https://github.blog/news-insights/company-news/changes-to-github-copilot-individual-plans/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GRASP: Gradient-based Planning for World Models at Longer Horizons]]></title>
+        <id>https://digestweb.dev/articles/2026-04-20/grasp-gradient-based-planning-world-models-longer-horizons</id>
+        <link href="https://digestweb.dev/articles/2026-04-20/grasp-gradient-based-planning-world-models-longer-horizons"/>
+        <updated>2026-04-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[BAIR introduces GRASP, a new gradient-based planner for learned dynamics (world models) that makes long-horizon planning practical through virtual states, stochasticity for exploration, and reshaped gradients.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- BAIR introduces GRASP, a new gradient-based planner designed to make long-horizon planning with learned dynamics (world models) more practical.
+- GRASP addresses fragility in long-horizon planning by lifting trajectories into virtual states for parallel optimization across time.
+- It incorporates stochasticity directly into state iterates to enhance exploration during planning.
+- The method reshapes gradients to provide cleaner signals to actions, avoiding brittle "state-input" gradients through high-dimensional vision models.
+- The article explains the problems that motivated GRASP, particularly the fragility of planning with modern world models over long horizons.
+
+## Our Commentary
+
+This is a deep dive into the cutting edge of AI planning, and it's exactly the kind of foundational research that can lead to significant breakthroughs. The challenges of long-horizon planning with world models are well-known, and GRASP's approach to parallelizing optimization and reshaping gradients sounds genuinely innovative. It's exciting to see how researchers are tackling these complex problems, pushing us closer to more robust and capable AI agents. This is definitely one to watch for those interested in the core mechanics of AI.
+
+Original Link: http://bair.berkeley.edu/blog/2026/04/20/grasp/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Highlights from Git 2.54 Release]]></title>
+        <id>https://digestweb.dev/articles/2026-04-20/highlights-git-2-54-release</id>
+        <link href="https://digestweb.dev/articles/2026-04-20/highlights-git-2-54-release"/>
+        <updated>2026-04-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[GitHub provides an overview of the most interesting features and changes introduced in the open-source Git project's 2.54 release.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The open-source Git project has released version 2.54.
+- GitHub's blog post highlights some of the most interesting new features and changes in this release.
+- The article serves as a curated look at the significant updates since the previous version.
+
+## Our Commentary
+
+Git updates are always important, even if they don't always grab headlines. These "highlights" posts from GitHub are great for quickly catching up on what's new in the core tool we all use daily. It's a testament to the ongoing development of Git that even after decades, there are still meaningful improvements being made. I'm always curious to see what quality-of-life improvements or performance boosts land in each release.
+
+Original Link: https://github.blog/open-source/git/highlights-from-git-2-54/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Interactive Storytelling for the Web with Timelines, 3D, and Layered Scenes]]></title>
+        <id>https://digestweb.dev/articles/2026-04-20/interactive-storytelling-web-timelines-3d-layered-scenes</id>
+        <link href="https://digestweb.dev/articles/2026-04-20/interactive-storytelling-web-timelines-3d-layered-scenes"/>
+        <updated>2026-04-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This tutorial from Codrops guides developers through creating immersive web stories using timelines, 3D elements, and layered scenes, exemplified by a Moon story built with Instorier.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article provides a step-by-step tutorial on building interactive and immersive web stories.
+- It focuses on utilizing timelines, 3D elements, and layered scenes to create engaging user experiences.
+- An example of a Moon story built with the Instorier tool is used to demonstrate the concepts.
+- The tutorial aims to equip developers with techniques for advanced web-based storytelling.
+
+## Our Commentary
+
+Codrops always delivers on cutting-edge web design, and this interactive storytelling tutorial looks fantastic. Combining timelines, 3D, and layered scenes is a powerful recipe for truly immersive experiences. It's a great reminder that the web platform is capable of so much more than just static content, and pushing these creative boundaries is what makes the web exciting. I'm keen to see how these techniques can be applied beyond just "stories."
+
+Original Link: https://tympanus.net/codrops/2026/04/20/interactive-storytelling-for-the-web-building-immersive-stories-with-timelines-3d-and-layered-scenes/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pnpm 11 RC 3: Standalone Apps, Enhanced Audit & Versioning]]></title>
+        <id>https://digestweb.dev/articles/2026-04-20/pnpm-11-rc-3-standalone-apps-enhanced-audit-versioning</id>
+        <link href="https://digestweb.dev/articles/2026-04-20/pnpm-11-rc-3-standalone-apps-enhanced-audit-versioning"/>
+        <updated>2026-04-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[pnpm 11 RC 3 introduces `pnpm pack-app` for creating standalone executables, refines `pnpm audit --fix` with interactive mode and better override ranges, and expands `pnpm version` to match npm's behavior.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- pnpm 11 RC 3 introduces `pnpm pack-app`, a new command to package CommonJS entry files into standalone executables for various platforms using Node.js Single Executable Applications API.
+- The `pnpm audit --fix` command now respects the `auditLevel` setting, supports an interactive mode (`--interactive`), and generates caret ranges (`^X.Y.Z`) for overrides instead of open-ended ones.
+- The `pnpm version` command has been fixed and expanded to align with npm's behavior, accepting explicit semver versions and recognizing flags like `--no-commit-hooks`, `--no-git-tag-version`, `--sign-git-tag`, and `--message`.
+- It also creates a git commit and annotated tag for version bumps within a git repository, with customizable tag prefixes.
+
+## Our Commentary
+
+pnpm 11 RC 3 is looking like a solid major release. The `pnpm pack-app` command is a game-changer for distributing Node.js applications as single executables, which is a feature I've personally wanted for a long time. The improvements to `pnpm audit --fix` are also crucial for security and developer control. It's great to see pnpm not just focusing on speed but also on developer experience and robust tooling.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.0.0-rc.3]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Query Datasette from Google Sheets with Custom SQL Functions]]></title>
+        <id>https://digestweb.dev/articles/2026-04-20/query-datasette-google-sheets-sql-functions</id>
+        <link href="https://digestweb.dev/articles/2026-04-20/query-datasette-google-sheets-sql-functions"/>
+        <updated>2026-04-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison demonstrates a powerful integration, allowing users to fetch and manipulate data from Datasette instances directly within Google Sheets using custom SQL functions.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison's article demonstrates how to integrate Datasette with Google Sheets using custom SQL functions.
+- It provides a guide for setting up functions that allow direct SQL queries against Datasette databases from within a spreadsheet.
+- This integration facilitates powerful data analysis and reporting workflows by connecting structured data in Datasette to Google Sheets.
+- The method showcases the flexibility of both Datasette's API and Google Sheets' custom function capabilities.
+
+## Our Commentary
+
+Simon Willison always comes up with these incredibly clever and practical data integrations. The idea of querying Datasette directly from Google Sheets using SQL functions is brilliant. It democratizes access to structured data in a way that many non-technical users can immediately grasp. This is a fantastic example of how open data tools can be combined to create powerful, accessible workflows. I can see this being incredibly useful for quick data exploration and reporting.
+
+Original Link: https://simonwillison.net/2026/Apr/20/datasette-sql/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rethinking JavaScript Chaining: When Simpler Steps Improve Readability]]></title>
+        <id>https://digestweb.dev/articles/2026-04-20/rethinking-javascript-chaining-readability</id>
+        <link href="https://digestweb.dev/articles/2026-04-20/rethinking-javascript-chaining-readability"/>
+        <updated>2026-04-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Matt Smith discusses why excessive JavaScript method chaining, while initially appearing clean, can hinder readability and obscure underlying operations, advocating for breaking chains into simpler, more explicit steps.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The author argues that while JavaScript method chaining can look clean, it often negatively impacts code readability.
+- Excessive chaining can hide the complexity and additional work involved in each step.
+- The article suggests that breaking down long chains into simpler, more explicit steps can improve code clarity and maintainability.
+- It provides insights into when to avoid chaining for better developer experience.
+
+## Our Commentary
+
+This article hits on a common pitfall in JavaScript development. We've all been there, writing those beautifully concise, yet ultimately opaque, chains of methods. I appreciate the honesty here; sometimes, what looks "clean" on the surface actually makes debugging and understanding the flow much harder. It's a good reminder that readability often triumphs over conciseness, especially in collaborative projects. This is a valuable perspective for any JavaScript developer.
+
+Original Link: https://allthingssmitty.com/2026/04/20/why-i-dont-chain-everything-in-javascript-anymore/]]></content>
+        <author>
+            <name>Matt Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Session Timeouts: An Overlooked Accessibility Barrier in Authentication Design]]></title>
+        <id>https://digestweb.dev/articles/2026-04-20/session-timeouts-accessibility-barrier-authentication-design</id>
+        <link href="https://digestweb.dev/articles/2026-04-20/session-timeouts-accessibility-barrier-authentication-design"/>
+        <updated>2026-04-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Smashing Magazine highlights how poorly managed session timeouts can create significant accessibility barriers, particularly for users with disabilities, and offers guidance on implementing thoughtful session management for a more inclusive web.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article argues that poorly handled session timeouts are more than just an inconvenience; they pose serious accessibility barriers.
+- These barriers can interrupt essential online tasks, especially for individuals with disabilities who may require more time to complete actions.
+- The post provides guidance on implementing thoughtful session management strategies.
+- The goal is to improve usability, reduce user frustration, and contribute to a more accessible and respectful web experience.
+
+## Our Commentary
+
+This is such a crucial topic that often gets overlooked in the rush to implement security features. Session timeouts, while necessary for security, can be a nightmare for accessibility if not handled gracefully. Smashing Magazine does a great job of highlighting this often-invisible barrier. It's a powerful reminder that good design and accessibility aren't just about visual elements, but about the entire user flow, including authentication. We need to prioritize user needs, especially for those who might take longer to interact with a system.
+
+Original Link: https://smashingmagazine.com/2026/04/session-timeouts-accessibility-barrier-authentication-design/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Understanding the Open-Closed LLM Performance Gap]]></title>
+        <id>https://digestweb.dev/articles/2026-04-20/understanding-open-closed-llm-performance-gap</id>
+        <link href="https://digestweb.dev/articles/2026-04-20/understanding-open-closed-llm-performance-gap"/>
+        <updated>2026-04-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Nathan Lambert explores the complex factors that contribute to the performance differences between open-source and closed-source Large Language Models, and how these dynamics are expected to evolve.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article delves into the intricate factors that influence the perceived performance gap between open-source and closed-source Large Language Models (LLMs).
+- It discusses how a single evaluation number often oversimplifies the complex interplay of model architecture, training data, and deployment strategies.
+- The author analyzes the current state of this performance disparity and offers insights into how it might change in the future.
+- The post aims to provide a nuanced understanding beyond simple benchmark comparisons.
+
+## Our Commentary
+
+Nathan Lambert consistently provides insightful analysis in the AI space, and this piece on the open-closed LLM performance gap is no exception. It's easy to get caught up in benchmark numbers, but this article reminds us that the reality is far more complex. Understanding the underlying factors, from data quality to inference costs, is crucial for making informed decisions about which models to use. I particularly appreciate the forward-looking perspective on how this gap might evolve.
+
+Original Link: https://www.interconnects.ai/p/reading-todays-open-closed-performance]]></content>
+        <author>
+            <name>Nathan Lambert</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Claude Opus System Prompt Evolution: 4.6 to 4.7 Changes Revealed]]></title>
+        <id>https://digestweb.dev/articles/2026-04-18/claude-opus-system-prompt-evolution-4-6-to-4-7-changes</id>
+        <link href="https://digestweb.dev/articles/2026-04-18/claude-opus-system-prompt-evolution-4-6-to-4-7-changes"/>
+        <updated>2026-04-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison details the subtle yet impactful changes Anthropic made to Claude Opus's system prompt between versions 4.6 and 4.7. This analysis offers a rare glimpse into how LLM providers fine-tune model behavior.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison analyzed the system prompt changes for Anthropic's Claude Opus model between versions 4.6 and 4.7.
+- Key refinements include explicitly identifying Claude, emphasizing brevity, and improving instruction following.
+- Anthropic also adjusted how the model should handle internal "thought" blocks and removed some redundant instructions.
+- These subtle modifications aim to make Claude more helpful, direct, and aligned with user expectations.
+- The analysis highlights the continuous effort by LLM providers to fine-tune model behavior through prompt engineering.
+
+## Our Commentary
+
+This is fascinating. We often treat LLMs as black boxes, but Simon's dive into Claude's system prompt changes pulls back the curtain a little. It's a reminder that even minor tweaks to the underlying instructions can significantly alter a model's personality and performance. The shift towards brevity and directness is a common user request, and it's cool to see Anthropic responding to that. It also makes you wonder what other subtle changes are happening under the hood that we don't get to see. This kind of transparency, even if reverse-engineered, is invaluable for developers building on these platforms.
+
+Original Link: https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Demystifying LLM Architectures: A Practical Workflow]]></title>
+        <id>https://digestweb.dev/articles/2026-04-18/demystifying-llm-architectures-practical-workflow</id>
+        <link href="https://digestweb.dev/articles/2026-04-18/demystifying-llm-architectures-practical-workflow"/>
+        <updated>2026-04-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Sebastian Raschka shares his personal, learning-oriented workflow for effectively dissecting and understanding the architectures of new open-weight Large Language Models. This guide provides a systematic approach for anyone looking to deepen their comprehension of cutting-edge AI models.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Sebastian Raschka presents a five-step workflow for understanding the architectures of new open-weight Large Language Models.
+- The process begins with a strategic reading of the research paper, focusing on the abstract, introduction, and conclusion before diving into methods.
+- Key components of the model, such as attention mechanisms and tokenizers, are identified and analyzed.
+- Understanding the data flow through the model during both inference and training is a crucial step.
+- The workflow encourages examining the model's code implementation to bridge theoretical understanding with practical application.
+- Finally, hands-on experimentation and visualization are recommended to solidify comprehension and test hypotheses.
+
+## Our Commentary
+
+This is exactly the kind of practical, actionable advice we love to see. Understanding LLM architectures can feel like staring into a black box, especially with the rapid pace of new model releases. Raschka's systematic approach provides a much-needed roadmap. We particularly appreciate the emphasis on starting with the paper's high-level overview before getting lost in the weeds, and then cross-referencing with code. It's a reminder that even complex systems can be broken down into manageable, understandable parts. This workflow isn't just for LLMs; it's a solid framework for tackling any complex technical documentation or codebase.
+
+Original Link: https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms]]></content>
+        <author>
+            <name>Sebastian Raschka</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Track Claude System Prompts with Git: A Timeline of LLM Evolution]]></title>
+        <id>https://digestweb.dev/articles/2026-04-18/track-claude-system-prompts-git-timeline-llm-evolution</id>
+        <link href="https://digestweb.dev/articles/2026-04-18/track-claude-system-prompts-git-timeline-llm-evolution"/>
+        <updated>2026-04-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison shares a clever method to extract and track Claude's system prompts over time using a Python script and Git. This creates a transparent timeline of how LLM instructions evolve.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison developed a method to extract and track the system prompts of various Claude models (Opus, Sonnet, Haiku).
+- The process involves querying the Anthropic API, extracting the core system prompt from the `tool_use_system_prompt` field.
+- He then commits these extracted prompts to a Git repository, creating a historical timeline of changes.
+- This "git blame" approach allows developers to observe how LLM providers fine-tune model instructions over time.
+- The article includes the Python script used for this extraction, enabling others to replicate the process.
+
+## Our Commentary
+
+This is brilliant. The idea of using Git to track LLM system prompts is such a simple yet powerful concept. It addresses a real pain point: the lack of transparency around how these models are updated. We're constantly adapting our prompts and applications to new model versions, and having a historical record of the underlying system instructions could be a game-changer for debugging and understanding behavioral shifts. It's a fantastic example of community-driven transparency, and we hope more people adopt similar methods for other models. This kind of open-source tooling is exactly what the AI ecosystem needs.
+
+Original Link: https://simonwillison.net/2026/Apr/18/extract-system-prompts/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A2UI v0.9: Google's New Standard for Framework-Agnostic Generative UI]]></title>
         <id>https://digestweb.dev/articles/2026-04-17/a2ui-v0-9-google-generative-ui-standard</id>
@@ -149,6 +498,25 @@ While not a direct web dev or AI feature, improved transparency on a platform as
 Original Link: https://github.blog/news-insights/company-news/bringing-more-transparency-to-githubs-status-page/]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[NNGroup Announces July UX Conference: In-Depth Training for Professionals]]></title>
+        <id>https://digestweb.dev/articles/2026-04-17/nngroup-july-ux-conference-announced</id>
+        <link href="https://digestweb.dev/articles/2026-04-17/nngroup-july-ux-conference-announced"/>
+        <updated>2026-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Nielsen Norman Group will host its July UX Conference from July 20-24, 2026, offering up to five in-depth training courses focused on user experience best practices and long-lasting skills for UX professionals.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The Nielsen Norman Group (NNGroup) has announced its July UX Conference, scheduled from July 20 to July 24, 2026.
+- Attendees can participate in up to five in-depth training courses.
+- The courses are designed to teach user experience best practices for successful design.
+- The training focuses on developing long-lasting skills essential for UX professionals.
+
+## Our Commentary
+
+NNGroup conferences are always a solid bet for anyone serious about UX. They're not about fleeting trends but foundational principles, which is something we deeply value. In a world where design fads come and go, investing in "long-lasting skills" feels incredibly smart. It's a good opportunity for professionals to deepen their understanding and stay sharp, especially with the constant evolution of user expectations.
+
+Original Link: https://www.nngroup.com/training/july/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[pnpm 11 RC 2: Breaking Changes, New `pmOnFail` & `pnpm with` Command]]></title>
         <id>https://digestweb.dev/articles/2026-04-17/pnpm-11-rc-2-breaking-changes-new-pm-on-fail-command</id>
         <link href="https://digestweb.dev/articles/2026-04-17/pnpm-11-rc-2-breaking-changes-new-pm-on-fail-command"/>
@@ -169,6 +537,29 @@ Original Link: https://github.blog/news-insights/company-news/bringing-more-tran
 This RC for pnpm 11 brings some substantial changes, particularly the consolidation of package manager versioning logic into `pmOnFail`. While breaking changes are always a bit of a headache, simplifying these settings into one clear option seems like a good move for long-term maintainability and clarity. The `pnpm with` command is a fantastic addition for testing or running scripts with specific pnpm versions without altering the project's pinned version. This is a huge win for DX, especially in monorepos or when dealing with legacy projects. We're excited to see the final release.
 
 Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.0.0-rc.2]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PyCon US 2026 Announced: Featuring New AI and Security Tracks]]></title>
+        <id>https://digestweb.dev/articles/2026-04-17/pycon-us-2026-announced-new-ai-security-tracks</id>
+        <link href="https://digestweb.dev/articles/2026-04-17/pycon-us-2026-announced-new-ai-security-tracks"/>
+        <updated>2026-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[PyCon US 2026 will take place in Long Beach, California, and introduces dedicated tracks for Artificial Intelligence and security, reflecting the evolving landscape of Python development.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- PyCon US 2026 has been announced, taking place in Long Beach, California, from May 15-23, 2026.
+- This year's conference introduces new dedicated tracks for Artificial Intelligence and security.
+- The event will cover a broad range of Python development topics, including these new focus areas.
+- Attendees are encouraged to submit proposals for talks and tutorials.
+- Early bird registration details will be released at a later date.
+
+## Our Commentary
+
+PyCon US adding dedicated AI and security tracks is a smart move. It reflects where the Python ecosystem is heading, with AI becoming an undeniable force. We've seen Python's dominance in machine learning, so it's only natural for its flagship conference to lean into that. It's a good sign for the community, showing adaptability and a commitment to staying relevant. I'm curious to see what kind of talks emerge from these new tracks.
+
+Original Link: https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Site AI Chatbots: Prioritize Direct Answers Over Conversation]]></title>
