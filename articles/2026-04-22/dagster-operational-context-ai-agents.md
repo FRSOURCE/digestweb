@@ -1,7 +1,7 @@
 ---
 layout: article
 title: 'Dagster: Operational Context is Key for Reliable AI Agents'
-description: 'Dagster argues that AI agents often fail by lacking operational context from orchestrators, leading to confidently incorrect decisions. The article emphasizes that understanding underlying pipeline success is crucial, not just business definitions.'
+description: 'Dagster argues that AI agents often fail by lacking operational context from orchestrators, leading to incorrect decisions. The article emphasizes that understanding underlying pipeline success is crucial, not just business definitions.'
 photo: 'https://1Sz0wSAzPg.flowdrivecdn.com/Ga8gchphBrTUTxdiWS3Sl'
 original_url: https://dagster.io/blog/the-missing-half-of-the-enterprise-context-layer
 source_name: 'Dagster Blog'
