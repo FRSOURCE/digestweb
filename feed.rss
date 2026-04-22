@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Wed, 22 Apr 2026 00:23:19 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 Apr 2026 15:46:55 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -34,6 +34,24 @@ The topic of AI in cybersecurity is incredibly important, and the angle of "open
 
 Original Link: https://huggingface.co/blog/cybersecurity-openness]]></content:encoded>
             <enclosure url="https://huggingface.co/blog/assets/cybersecurity-openness/detective_huggy_thumbnail.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Cursor AI Editor Partners with SpaceX for Model Training]]></title>
+            <link>https://digestweb.dev/articles/2026-04-21/cursor-ai-editor-partners-spacex-model-training</link>
+            <guid>https://digestweb.dev/articles/2026-04-21/cursor-ai-editor-partners-spacex-model-training</guid>
+            <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The AI-first code editor, Cursor, announces a significant partnership with SpaceX to collaborate on advanced model training initiatives. This collaboration aims to enhance AI capabilities within development workflows.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Cursor, the AI-first code editor, has announced a partnership with SpaceX.
+- The collaboration focuses on advanced model training initiatives.
+- This partnership is expected to further enhance AI capabilities within development workflows.
+- It signifies a notable collaboration between a prominent AI tooling company and a major aerospace and technology firm.
+
+This is a big deal for Cursor and potentially for AI-assisted development. SpaceX is known for pushing boundaries, so their involvement could accelerate Cursor's AI models significantly. It also highlights the increasing integration of AI into core development tools. We're seeing more and more specialized AI models being trained for specific domains, and code is a massive one.
+
+Original Link: https://cursor.com/blog/spacex-model-training]]></content:encoded>
+            <enclosure url="https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/blog/og/opengraph-co-branded-1-.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Cursor Blog: Focusing on App Stability for the AI-First Editor]]></title>
@@ -119,6 +137,26 @@ Original Link: https://developers.googleblog.com/production-ready-ai-agents-5-le
             <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/AI_Agent_Clinic_Asset.2e16d0ba.fill-1200x600.png" length="0" type="image/png"/>
         </item>
         <item>
+            <title><![CDATA[Grounding Korean AI Agents in Demographics with Synthetic Personas]]></title>
+            <link>https://digestweb.dev/articles/2026-04-21/grounding-korean-ai-agents-demographics-synthetic-personas</link>
+            <guid>https://digestweb.dev/articles/2026-04-21/grounding-korean-ai-agents-demographics-synthetic-personas</guid>
+            <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hugging Face and NVIDIA demonstrate how to ground Korean AI agents in real demographics by using synthetic personas, leveraging tools like Nemotron to create culturally relevant training data.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article describes a method to ground AI agents in specific cultural and demographic contexts, using Korean AI agents as a case study.
+- It explains the use of synthetic personas, generated from real demographic data, to train and fine-tune AI models.
+- Tools like NVIDIA's Nemotron are leveraged to create diverse and representative synthetic data.
+- This approach aims to ensure AI agent responses are culturally appropriate and relevant, addressing data scarcity for specific demographics.
+
+## Our Commentary
+
+This is a fascinating application of synthetic data and AI. The challenge of making AI agents culturally relevant is huge, and using synthetic personas grounded in real demographics seems like a smart way to tackle it, especially for languages and cultures where data might be less abundant. It highlights the growing sophistication in AI training, moving beyond just raw data to more nuanced, context-aware approaches. This kind of work is crucial for truly global AI adoption.
+
+Original Link: https://huggingface.co/blog/nvidia/build-korean-agents-with-nemotron-personas]]></content:encoded>
+            <enclosure url="https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/nvidia/build-korean-agents-with-nemotron-personas.png" length="0" type="image/png"/>
+        </item>
+        <item>
             <title><![CDATA[HTML in Canvas: New Experimental API Brings Interactive Web Content to Canvas]]></title>
             <link>https://digestweb.dev/articles/2026-04-21/html-in-canvas-experimental-api</link>
             <guid>https://digestweb.dev/articles/2026-04-21/html-in-canvas-experimental-api</guid>
@@ -182,47 +220,6 @@ Original Link: https://openai.com/index/scaling-codex-to-enterprises-worldwide]]
             <enclosure url="https://picsum.photos/id/676/800/450" length="0" type="image//id/676/800/450"/>
         </item>
         <item>
-            <title><![CDATA[pnpm 11 RC 4 Speeds Up Node.js Runtime Installs & Enhances `pack-app`]]></title>
-            <link>https://digestweb.dev/articles/2026-04-21/pnpm-11-rc-4-faster-node-runtime-installs-pack-app-updates</link>
-            <guid>https://digestweb.dev/articles/2026-04-21/pnpm-11-rc-4-faster-node-runtime-installs-pack-app-updates</guid>
-            <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[pnpm 11 RC 4 significantly improves Node.js runtime installation speed by no longer extracting bundled npm, npx, and corepack. It also refines the `pnpm pack-app` command with a new `--runtime` flag for better control over embedded runtimes.]]></description>
-            <content:encoded><![CDATA[## Summary & Key Takeaways
-
-- pnpm 11 RC 4 introduces a major change that makes Node.js runtime installations significantly faster.
-- The installer no longer extracts bundled `npm`, `npx`, and `corepack` from Node.js archives, reducing file operations.
-- Users needing `npm` can install it as a separate package.
-- The `pnpm pack-app` command now uses a more flexible `--runtime` flag, replacing `--node-version`, to specify runtimes like `node@22.0.0`.
-- This update also includes patch fixes to restore legacy package names for `@pnpm/exe`'s optional dependencies, ensuring compatibility with `pnpm self-update` from v10.
-
-## Our Commentary
-
-We're always happy to see performance improvements, and cutting installation time by "roughly half the files" for Node.js runtimes is a substantial win for developer experience. The `pack-app` changes also seem like a step towards more robust and future-proof handling of different runtimes, which is a smart move. It's good to see them addressing compatibility for self-updates too; breaking that flow can be a real headache.
-
-Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.0.0-rc.4]]></content:encoded>
-            <enclosure url="https://opengraph.githubassets.com/efb4c0358223fe7100959f5cbfce5dca6853691e147de604ad0a67965a8deceb/pnpm/pnpm/releases/tag/v11.0.0-rc.4" length="0" type="image/4"/>
-        </item>
-        <item>
-            <title><![CDATA[pnpm 11 RC 5 Addresses Node.js v25.7+ SEA Executable Crashes]]></title>
-            <link>https://digestweb.dev/articles/2026-04-21/pnpm-11-rc-5-fixes-node-js-sea-crashes</link>
-            <guid>https://digestweb.dev/articles/2026-04-21/pnpm-11-rc-5-fixes-node-js-sea-crashes</guid>
-            <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[This release candidate for pnpm 11 fixes critical regressions in the Single Executable Application (SEA) functionality when used with Node.js v25.7 and newer. It addresses issues with SEA blob format changes and module loading within CJS SEA entries.]]></description>
-            <content:encoded><![CDATA[## Summary & Key Takeaways
-
-- pnpm 11 RC 5 is a patch release candidate addressing regressions in the Single Executable Application (SEA) feature.
-- It fixes crashes occurring with SEA executables on Node.js v25.7 and later versions.
-- The update ensures `pnpm pack-app` correctly pins the Node.js version used for SEA blob creation to match the embedded runtime.
-- It also resolves issues with module loading within CJS SEA entry points by using `Module.createRequire` instead of `await import()`.
-
-## Our Commentary
-
-This is a very specific fix, but an important one for anyone leveraging pnpm's SEA capabilities, especially with newer Node.js versions. It highlights the ongoing complexities of maintaining compatibility across different Node.js runtime changes, particularly around module systems and executable bundling. It's a reminder that even seemingly minor Node.js updates can have cascading effects on tooling.
-
-Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.0.0-rc.5]]></content:encoded>
-            <enclosure url="https://opengraph.githubassets.com/d831f88822e058bb60728ec990a6f58efb6ab3b7157bb6bd67de05fe46c02ef4/pnpm/pnpm/releases/tag/v11.0.0-rc.5" length="0" type="image/5"/>
-        </item>
-        <item>
             <title><![CDATA[QIMMA: A New Quality-First Leaderboard for Arabic LLMs]]></title>
             <link>https://digestweb.dev/articles/2026-04-21/qimma-arabic-llm-leaderboard</link>
             <guid>https://digestweb.dev/articles/2026-04-21/qimma-arabic-llm-leaderboard</guid>
@@ -281,27 +278,6 @@ Wow, a "completely new foundation" for TypeScript 7.0? That's huge! We've seen i
 
 Original Link: https://devblogs.microsoft.com/typescript/announcing-typescript-7-0-beta/]]></content:encoded>
             <enclosure url="https://devblogs.microsoft.com/typescript/wp-content/uploads/sites/11/2026/04/ts7-0-beta-4.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Vitest v4.1.5 Released with Bug Fixes and Experimental Coverage Option]]></title>
-            <link>https://digestweb.dev/articles/2026-04-21/vitest-v4-1-5-bug-fixes-experimental-coverage</link>
-            <guid>https://digestweb.dev/articles/2026-04-21/vitest-v4-1-5-bug-fixes-experimental-coverage</guid>
-            <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Vitest v4.1.5 is a maintenance release addressing several bug fixes across various components, including reporters, snapshot testing, and UI. It also introduces an experimental feature for Istanbul instrumenter options in coverage.]]></description>
-            <content:encoded><![CDATA[## Summary & Key Takeaways
-
-- Vitest v4.1.5 is a patch release focused on stability and minor improvements.
-- It introduces an experimental feature for Istanbul coverage to support an instrumenter option.
-- Numerous bug fixes are included, addressing issues like `--project` negation, HTML reporter labels, `vi.defineHelper` calls, and diff config options in soft assertions.
-- Other fixes improve static test discovery, provide better error messages for coverage reports, increase snapshot output length, and enhance JSX/TSX syntax highlighting in the UI.
-- It also adds support for `MessagePort` objects in `postMessage` data within web workers.
-
-## Our Commentary
-
-A typical patch release for Vitest, mostly squashing bugs. The experimental Istanbul instrumenter option is a nice addition for those pushing the boundaries of coverage, but the bulk of this release is about stability. It's good to see continuous refinement, especially for a critical tool like a test runner.
-
-Original Link: https://github.com/vitest-dev/vitest/releases/tag/v4.1.5]]></content:encoded>
-            <enclosure url="https://opengraph.githubassets.com/56edb6652548bd47cfc964c9c1394705545b61e0ee5dd3b3a8a23edccb29c748/vitest-dev/vitest/releases/tag/v4.1.5" length="0" type="image/5"/>
         </item>
         <item>
             <title><![CDATA[Angular Update: AI Training, Local Gemini, and Signal Forms Styling]]></title>
