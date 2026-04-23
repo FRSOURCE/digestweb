@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Wed, 22 Apr 2026 22:43:55 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 23 Apr 2026 08:54:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -210,6 +210,26 @@ Original Link: https://openai.com/index/introducing-workspace-agents-in-chatgpt]
             <enclosure url="https://picsum.photos/id/907/800/450" length="0" type="image//id/907/800/450"/>
         </item>
         <item>
+            <title><![CDATA[OpenAI Offers Free ChatGPT for U.S. Clinicians]]></title>
+            <link>https://digestweb.dev/articles/2026-04-22/openai-offers-free-chatgpt-for-us-clinicians</link>
+            <guid>https://digestweb.dev/articles/2026-04-22/openai-offers-free-chatgpt-for-us-clinicians</guid>
+            <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI is making ChatGPT for Clinicians free for verified U.S. physicians, nurse practitioners, and pharmacists. This initiative aims to support clinical care, documentation, and research within the healthcare sector.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI is providing free access to a specialized version of ChatGPT for verified U.S. clinicians.
+- This offering is available to physicians, nurse practitioners, and pharmacists.
+- The goal is to support various aspects of clinical work, including patient care, administrative documentation, and medical research.
+- This move highlights OpenAI's strategy to tailor its AI models for specific professional applications and industries.
+
+## Our Commentary
+
+This is a fascinating move from OpenAI. Making a specialized version of ChatGPT free for clinicians in the U.S. is a smart way to drive adoption and gather real-world usage data in a high-stakes environment. It also positions ChatGPT as a serious tool for professional use, not just a general-purpose chatbot. I'm curious to see the ethical considerations and data privacy implications, especially with patient information potentially involved. It feels like a significant step in integrating AI directly into critical professional workflows.
+
+Original Link: https://openai.com/index/making-chatgpt-better-for-clinicians]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/275/800/450" length="0" type="image//id/275/800/450"/>
+        </item>
+        <item>
             <title><![CDATA[OpenAI Boosts Agentic Workflows with WebSockets & Caching]]></title>
             <link>https://digestweb.dev/articles/2026-04-22/openai-websockets-agentic-workflows-speedup</link>
             <guid>https://digestweb.dev/articles/2026-04-22/openai-websockets-agentic-workflows-speedup</guid>
@@ -228,6 +248,26 @@ This is a crucial technical advancement for AI agents. Latency is often the Achi
 
 Original Link: https://openai.com/index/speeding-up-agentic-workflows-with-websockets]]></content:encoded>
             <enclosure url="https://picsum.photos/id/743/800/450" length="0" type="image//id/743/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[The Overcomplexity of Shadcn/Radix Radio Buttons]]></title>
+            <link>https://digestweb.dev/articles/2026-04-22/overcomplexity-shadcn-radix-radio-button</link>
+            <guid>https://digestweb.dev/articles/2026-04-22/overcomplexity-shadcn-radix-radio-button</guid>
+            <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This article critically examines how popular UI component libraries like Shadcn and Radix transform a simple radio button into hundreds of lines of code and numerous imports. It questions whether this complexity delivers improved accessibility or developer experience.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article critiques the significant code complexity involved in implementing a basic radio button using Shadcn UI, which in turn relies on Radix UI.
+- A simple radio button can expand into dozens or hundreds of lines of code and multiple imports through these libraries.
+- The author questions whether this increased complexity genuinely improves accessibility or developer experience.
+- It suggests that the abstraction layers might introduce more overhead and potential issues than they solve for fundamental UI elements.
+
+## Our Commentary
+
+This piece hits on a nerve that many frontend developers feel: the creeping complexity in modern UI development. A radio button, of all things, becoming a multi-hundred-line affair is genuinely unsettling. While abstraction layers aim to simplify, they often introduce their own set of problems, especially when it comes to bundle size, performance, and even accessibility, as the article points out. It makes me wonder if we've lost sight of the fundamentals in the pursuit of "developer experience" that sometimes just means "less boilerplate." We need to be more critical of the tools we adopt and ensure they truly solve problems without creating new, more insidious ones.
+
+Original Link: https://frontendmasters.com/blog/the-incredible-overcomplexity-of-the-shadcn-radio-button/]]></content:encoded>
+            <enclosure url="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/9457" length="0" type="image//blog/wp-json/social-image-generator/v1/image/9457"/>
         </item>
         <item>
             <title><![CDATA[TanStack AI Gets Comprehensive Debug Logging]]></title>
@@ -268,6 +308,26 @@ This is a fantastic quality-of-life improvement for anyone building with AI tool
 
 Original Link: https://tanstack.com/blog/type-safe-provider-tools-tanstack-ai]]></content:encoded>
             <enclosure url="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Ftype-safe-provider-tools-tanstack-ai%2Fheader.png&amp;w=1200&amp;h=630&amp;fit=cover&amp;fm=jpg&amp;q=80" length="0" type="image/netlify/images"/>
+        </item>
+        <item>
+            <title><![CDATA[Unlock Structured Clone for Chrome Extension Messaging]]></title>
+            <link>https://digestweb.dev/articles/2026-04-22/unlock-structured-clone-chrome-extension-messaging</link>
+            <guid>https://digestweb.dev/articles/2026-04-22/unlock-structured-clone-chrome-extension-messaging</guid>
+            <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chrome extension developers can now opt-in to use the Structured Clone algorithm for message serialization, enabling more complex data types to be passed between contexts. This enhances the robustness and flexibility of extension communication.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Chrome extension developers can now opt-in to use the Structured Clone algorithm for message serialization.
+- This feature allows for the transfer of a wider range of data types, including complex objects, between different extension contexts.
+- The Structured Clone algorithm provides a more robust and flexible way to communicate compared to traditional JSON serialization.
+- This enhancement aims to simplify development and improve the capabilities of Chrome extensions.
+
+## Our Commentary
+
+This is a welcome improvement for Chrome extension developers. The limitations of JSON serialization for inter-context messaging have always been a pain point, forcing developers to manually serialize/deserialize complex objects or resort to less efficient workarounds. Structured Clone brings a much-needed native solution, making extension development smoother and more powerful. It's a good step towards making the extension platform more capable and developer-friendly.
+
+Original Link: https://developer.chrome.com/blog/structured-clone-messaging?hl=en]]></content:encoded>
+            <enclosure url="https://developer.chrome.com/static/blog/structured-clone-messaging/images/thumbnail.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[The UX Designer's Evolving Role in the AI Era: Guarding User Experience]]></title>
