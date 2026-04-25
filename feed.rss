@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Thu, 23 Apr 2026 08:54:29 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 25 Apr 2026 08:06:52 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,187 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Comprehensive Prompting Guide for GPT-5.5]]></title>
+            <link>https://digestweb.dev/articles/2026-04-25/gpt-5-5-comprehensive-prompting-guide</link>
+            <guid>https://digestweb.dev/articles/2026-04-25/gpt-5-5-comprehensive-prompting-guide</guid>
+            <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison provides an in-depth guide to effective prompting techniques for the hypothetical GPT-5.5 model, covering advanced strategies for maximizing its capabilities. This resource is essential for AI practitioners looking to optimize their interactions with cutting-edge LLMs.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- This guide offers comprehensive strategies for effectively prompting the hypothetical GPT-5.5 model.
+- It delves into advanced techniques such as few-shot learning, chain-of-thought reasoning, and effective tool utilization.
+- The article provides best practices and specific examples for various tasks, aiming to help users maximize the model's performance.
+- It serves as a valuable resource for AI practitioners and researchers working with large language models.
+
+## Our Commentary
+
+Simon Willison's guides are always gold, and a prompting guide for a model as advanced as GPT-5.5 (even if hypothetical for now) is incredibly valuable. As LLMs become more powerful, the art and science of prompting become even more critical. We appreciate the focus on practical, actionable advice that goes beyond basic instructions, helping developers truly unlock the potential of these models. This is the kind of resource that shapes how we interact with AI.
+
+Original Link: https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/94/800/450" length="0" type="image//id/94/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Simplifying Responsive Images with Auto `sizes` Attribute]]></title>
+            <link>https://digestweb.dev/articles/2026-04-24/auto-sizes-responsive-images-simplifying</link>
+            <guid>https://digestweb.dev/articles/2026-04-24/auto-sizes-responsive-images-simplifying</guid>
+            <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Frontend Masters explores a solution for automatically generating and managing the `sizes` attribute for responsive images, addressing the long-standing developer experience challenge of hand-writing and maintaining this complex attribute.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article addresses the common difficulty developers face in manually writing and maintaining the `sizes` attribute for responsive images.
+- It proposes or discusses a method for automatically generating this attribute, significantly improving developer experience.
+- Proper use of the `sizes` attribute is crucial for optimizing image loading and overall web performance.
+- The solution aims to make responsive image implementation more accessible and less error-prone.
+
+## Our Commentary
+
+Oh, thank goodness. We've all been there, wrestling with the `sizes` attribute, trying to get responsive images just right. It's a critical performance optimization, but the manual effort is often a barrier. An "auto `sizes`" solution is a huge win for developer experience and web performance. This is the kind of practical improvement that makes a real difference in day-to-day frontend work. We're genuinely excited about anything that simplifies this complex but vital aspect of web development.
+
+Original Link: https://frontendmasters.com/blog/auto-sizes-on-images/]]></content:encoded>
+            <enclosure url="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/9474" length="0" type="image//blog/wp-json/social-image-generator/v1/image/9474"/>
+        </item>
+        <item>
+            <title><![CDATA[DeepSeek V4: Frontier-Level LLM Performance at a Fraction of the Cost]]></title>
+            <link>https://digestweb.dev/articles/2026-04-24/deepseek-v4-frontier-llm-affordable</link>
+            <guid>https://digestweb.dev/articles/2026-04-24/deepseek-v4-frontier-llm-affordable</guid>
+            <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison introduces DeepSeek V4, a new large language model that offers performance comparable to leading frontier models while being significantly more cost-effective. This release could democratize access to high-performance AI for a broader range of developers and businesses.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article announces DeepSeek V4, a new large language model positioned as a strong competitor to frontier models.
+- A key highlight is its performance, which is described as "almost on the frontier" across various benchmarks.
+- Crucially, DeepSeek V4 is noted for its significantly lower cost compared to other top-tier models.
+- This combination of high performance and affordability has the potential to make advanced AI more accessible to a wider audience.
+
+## Our Commentary
+
+This is exactly the kind of news we love to see in the AI space. DeepSeek V4's claim of near-frontier performance at a fraction of the price is a game-changer. It means more developers and smaller teams can access powerful AI capabilities without breaking the bank. This kind of competition and innovation is vital for pushing the entire ecosystem forward and preventing a monopoly on advanced AI. We're eager to see how it performs in real-world applications.
+
+Original Link: https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything]]></content:encoded>
+            <enclosure url="https://static.simonwillison.net/static/2026/deepseek-v4-card.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[The Human Desire for Agency Over Full Automation]]></title>
+            <link>https://digestweb.dev/articles/2026-04-24/human-desire-agency-over-automation</link>
+            <guid>https://digestweb.dev/articles/2026-04-24/human-desire-agency-over-automation</guid>
+            <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison explores the nuanced relationship between humans and automation, arguing that people often prioritize agency and the satisfaction of accomplishment over complete automation. The article delves into the psychological reasons why over-automating tasks can be detrimental to user experience.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article challenges the assumption that people universally desire full automation in all aspects of their lives.
+- It posits that humans often value agency, control, and the sense of accomplishment derived from completing tasks themselves.
+- Simon Willison discusses the psychological implications of automation, highlighting potential downsides of removing human involvement entirely.
+- The piece suggests that thoughtful design should balance automation with opportunities for human interaction and decision-making.
+
+## Our Commentary
+
+This is a really important perspective, especially as AI pushes the boundaries of what can be automated. We often assume "more automation is always better," but Simon Willison reminds us that human psychology is complex. There's a deep satisfaction in agency, in solving a problem, even if a machine _could_ do it faster. This article is a crucial read for anyone designing AI-powered systems, urging us to consider the human element beyond mere efficiency.
+
+Original Link: https://simonwillison.net/2026/Apr/24/the-people-do-not-yearn-for-automation/#atom-everything]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/70/800/450" length="0" type="image//id/70/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[NNGroug's 10 Guidelines for Designing Effective AI Chatbots]]></title>
+            <link>https://digestweb.dev/articles/2026-04-24/nngroup-ai-chatbots-design-guidelines</link>
+            <guid>https://digestweb.dev/articles/2026-04-24/nngroup-ai-chatbots-design-guidelines</guid>
+            <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Nielsen Norman Group provides ten essential guidelines for designing site-specific AI chatbots that are helpful and user-friendly. Key recommendations include clearly stating capabilities, offering prompt suggestions, and contextually understanding user intent.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The Nielsen Norman Group presents ten key guidelines for designing effective and user-friendly AI chatbots for websites.
+- Recommendations include clearly communicating the chatbot's capabilities and limitations to users.
+- Designers should provide relevant prompt suggestions to guide user interactions and improve usability.
+- Effective chatbots should quickly signal their understanding of the user's current context or query.
+- The guidelines aim to enhance the overall user experience and utility of site-specific AI assistants.
+
+## Our Commentary
+
+As AI chatbots become ubiquitous, good UX design for them is paramount. NNGroug's guidelines are a timely and crucial resource. We've all experienced frustrating chatbots, and these principles—like clear capability statements and contextual awareness—are exactly what's needed to move beyond basic, often unhelpful, implementations. This is a must-read for anyone integrating AI into their user interfaces; it's about making AI truly helpful, not just present.
+
+Original Link: https://www.nngroup.com/articles/ai-chatbots-design-guidelines/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication]]></content:encoded>
+            <enclosure url="https://media.nngroup.com/media/articles/opengraph_images/10_Guidelines-Cards.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Nielsen Norman Group: Understanding Why User Panels Fail]]></title>
+            <link>https://digestweb.dev/articles/2026-04-24/nngroup-why-user-panels-fail</link>
+            <guid>https://digestweb.dev/articles/2026-04-24/nngroup-why-user-panels-fail</guid>
+            <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Nielsen Norman Group analyzes the common reasons why user panels can become ineffective over time, detailing how predictable deterioration introduces bias and diminishes their value for ongoing user research.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The Nielsen Norman Group article examines the inherent weaknesses and common failure modes of user panels.
+- It explains how these panels can predictably deteriorate, leading to reduced effectiveness in ongoing research.
+- The piece highlights how various factors can introduce bias into the feedback gathered from user panels.
+- Understanding these pitfalls is crucial for researchers to design more robust and reliable user research methodologies.
+
+## Our Commentary
+
+NNGroug always delivers solid, actionable insights, and this piece on user panels is no exception. It's easy to fall into the trap of thinking a consistent panel is always better, but they highlight the subtle ways bias creeps in. This is a vital read for anyone doing continuous user research. It reminds us that even well-intentioned methodologies need critical evaluation to ensure we're truly hearing our users, not just an echo chamber.
+
+Original Link: https://www.nngroup.com/articles/user-panels-fail/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication]]></content:encoded>
+            <enclosure url="https://media.nngroup.com/media/articles/opengraph_images/Why_User_Panels_Fail-CC.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Susurrus: Crafting a Watercolor WebGL World with Three.js and Shaders]]></title>
+            <link>https://digestweb.dev/articles/2026-04-24/susurrus-watercolor-webgl-threejs-shaders</link>
+            <guid>https://digestweb.dev/articles/2026-04-24/susurrus-watercolor-webgl-threejs-shaders</guid>
+            <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Codrops offers a behind-the-scenes look at "Susurrus," a meditative WebGL scene that blends non-photorealistic rendering (NPR) shading, ambient sound, and interactive elements. The article details the technical process of creating a cozy watercolor aesthetic using Three.js and custom shaders.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article provides an in-depth breakdown of "Susurrus," a unique WebGL experience.
+- It focuses on the technical implementation of non-photorealistic rendering (NPR) to achieve a watercolor aesthetic.
+- The creation process involves Three.js and custom shaders to render the visual style.
+- The piece also covers the integration of sound and interactive elements to enhance the meditative user experience.
+
+## Our Commentary
+
+Codrops consistently delivers stunning visual showcases, and "Susurrus" is no exception. What we appreciate most is the detailed technical dive into how these effects are achieved. It's not just eye candy; it's a masterclass in creative WebGL and shader programming. For anyone looking to push the boundaries of web graphics, this is an invaluable resource. The blend of art and code here is truly inspiring.
+
+Original Link: https://tympanus.net/codrops/2026/04/24/susurrus-crafting-a-cozy-watercolor-world-with-three-js-and-shaders/]]></content:encoded>
+            <enclosure url="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/04/susurrus-main-image-1-2.webp?x30804" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[TanStack AI Now Composes Music, Generates Audio with Streaming]]></title>
+            <link>https://digestweb.dev/articles/2026-04-24/tanstack-ai-audio-generation-music-streaming</link>
+            <guid>https://digestweb.dev/articles/2026-04-24/tanstack-ai-audio-generation-music-streaming</guid>
+            <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[TanStack AI introduces a new `generateAudio` activity, enabling music, sound effects, text-to-speech, and transcription through a unified typed API. It supports adapters like fal and Gemini Lyria.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- TanStack AI has launched a new `generateAudio` activity, significantly expanding its capabilities into audio generation.
+- This new feature supports streaming for various audio tasks, including music composition, sound effect generation, text-to-speech, and transcription.
+- It offers a single, typed API interface, allowing developers to integrate different audio providers seamlessly.
+- Initial adapters include `fal` and Google's `Gemini Lyria`, providing flexibility in choosing backend services.
+
+## Our Commentary
+
+This is a fascinating move for TanStack. While they're known for web dev utilities, their foray into AI with a focus on a unified API for various providers is smart. Audio generation is a complex space, and abstracting it behind a consistent interface could be a huge win for developers looking to integrate these capabilities without vendor lock-in. We're seeing more and more web-focused libraries branch into AI, and this feels like a natural, powerful extension.
+
+Original Link: https://tanstack.com/blog/tanstack-ai-audio-generation]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/328/800/450" length="0" type="image//id/328/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Web App Manifests Gain Native Localization Support]]></title>
+            <link>https://digestweb.dev/articles/2026-04-24/web-app-manifests-localization-support</link>
+            <guid>https://digestweb.dev/articles/2026-04-24/web-app-manifests-localization-support</guid>
+            <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Web app manifests can now natively support multiple languages, allowing developers to provide localized app names and descriptions for users worldwide. This enhances the internationalization capabilities of Progressive Web Apps.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Web app manifests now include native support for localization, enabling developers to provide language-specific content.
+- This new capability allows for different app names, descriptions, and other manifest fields based on the user's preferred language.
+- The feature aims to improve the internationalization and user experience of Progressive Web Apps (PWAs).
+- Developers can specify multiple language entries within a single manifest file, simplifying management.
+
+## Our Commentary
+
+Finally! This has been a long-requested feature for PWAs. Building truly global web applications means more than just translating content; it means the app itself feels native in the user's language, right from the home screen icon and name. This is a crucial step forward for PWA adoption and a win for user experience. It removes a significant hurdle for developers targeting diverse audiences.
+
+Original Link: https://developer.chrome.com/blog/manifest-localization?hl=en]]></content:encoded>
+            <enclosure url="https://developer.chrome.com/static/blog/manifest-localization/image/hero.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Enhancing Astro Projects with a Custom Markdown Component]]></title>
             <link>https://digestweb.dev/articles/2026-04-22/astro-markdown-component-css-tricks</link>
