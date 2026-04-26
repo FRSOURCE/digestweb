@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-04-25T08:06:52.912Z</updated>
+    <updated>2026-04-26T04:24:16.697Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,29 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Embracing Uncertainty: Lessons from Fungi for Interconnected Systems]]></title>
+        <id>https://digestweb.dev/articles/2026-04-25/embracing-uncertainty-lessons-from-fungi-for-interconnected-systems</id>
+        <link href="https://digestweb.dev/articles/2026-04-25/embracing-uncertainty-lessons-from-fungi-for-interconnected-systems"/>
+        <updated>2026-04-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article explores how the biological world of fungi challenges our notions of individual identity, suggesting that all disciplines are deeply interconnected. It draws parallels to web design and the blurring lines between fields.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article discusses "Entangled Life" by Merlin Sheldrake, highlighting how fungi challenge traditional biological concepts of individual identity.
+- It notes that genes can be inherited horizontally, not just parent-to-child, and that organisms like lichens are complex symbiotes, blurring the lines between individuals.
+- The author suggests that biology transforms into ecology when viewed through the lens of relationships rather than separate entities.
+- This perspective is likened to James Burke's "Connections," arguing that disciplines like farming, math, biology, and web design are not separate but a "big soupy mess."
+- The piece concludes that fungi don't conform to human ideas of individual identities, emphasizing the ambiguity and interconnectedness of relationships in nature and beyond.
+
+## Our Commentary
+
+This is a fascinating read that makes you pause and rethink fundamental assumptions. The idea that "biology transformed into ecology" when looking at fungi feels incredibly relevant to how we approach complex systems in web development or AI. We often try to isolate components, but the reality is a "big soupy mess" of interdependencies. It's a good reminder that sometimes the most profound insights come from looking outside our immediate domain. I genuinely don't know how to feel about the idea of horizontal gene transfer, it's just so weird and cool.
+
+Original Link: https://robinrendle.com/notes/uncertainty-is-healthy/]]></content>
+        <author>
+            <name>Robin Rendle</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Comprehensive Prompting Guide for GPT-5.5]]></title>
         <id>https://digestweb.dev/articles/2026-04-25/gpt-5-5-comprehensive-prompting-guide</id>
