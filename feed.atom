@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-04-26T04:24:16.697Z</updated>
+    <updated>2026-04-27T09:18:41.200Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,28 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[OpenAI's Guiding Principles: Sam Altman on AGI for All Humanity]]></title>
+        <id>https://digestweb.dev/articles/2026-04-26/openai-guiding-principles-sam-altman-agi-humanity</id>
+        <link href="https://digestweb.dev/articles/2026-04-26/openai-guiding-principles-sam-altman-agi-humanity"/>
+        <updated>2026-04-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Sam Altman outlines the five core principles guiding OpenAI's mission to ensure Artificial General Intelligence benefits everyone. This statement provides insight into their ethical and operational framework.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI's mission is to ensure Artificial General Intelligence (AGI) benefits all of humanity.
+- Sam Altman outlines five core principles guiding the company's work.
+- These principles include prioritizing safety in AGI development and deployment.
+- They emphasize ensuring the broad distribution of AGI's benefits.
+- A long-term perspective on AGI's future impact is a key focus.
+- The company commits to boldness in pushing AI research boundaries.
+- Teamwork and fostering diverse perspectives are crucial for their approach.
+
+## Our Commentary
+
+It's always interesting to see a major player like OpenAI lay out their foundational principles. On one hand, it's reassuring to hear commitments to safety and broad benefit, especially given the immense power AGI could wield. On the other, these are high-level statements, and the real test will be in their execution and the specific choices they make as AGI develops. We're watching closely to see how these principles translate into concrete actions and safeguards, particularly around the 'boldness' aspect. There's a fine line between pushing boundaries and moving too fast.
+
+Original Link: https://openai.com/index/our-principles]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Embracing Uncertainty: Lessons from Fungi for Interconnected Systems]]></title>
         <id>https://digestweb.dev/articles/2026-04-25/embracing-uncertainty-lessons-from-fungi-for-interconnected-systems</id>
