@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-04-27T09:18:41.200Z</updated>
+    <updated>2026-04-28T04:35:30.395Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,216 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[The 'Bug-Free' Workforce: AI's Impact on Team Interaction and Trust]]></title>
+        <id>https://digestweb.dev/articles/2026-04-27/ai-workforce-disrupting-team-interactions</id>
+        <link href="https://digestweb.dev/articles/2026-04-27/ai-workforce-disrupting-team-interactions"/>
+        <updated>2026-04-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article explores how AI tools, by reducing the need for informal colleague interactions, subtly disrupt the social dynamics that build strong teams. It examines the risks to trust and innovation, offering strategies to maintain human connection amidst AI integration.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- AI tools are reducing the need for colleagues to 'bug' each other for help.
+- This efficiency, however, replaces informal interactions crucial for team building.
+- These interactions are vital for fostering trust, belonging, and innovation within teams.
+- The article explores the potential negative impacts and offers strategies for maintaining human connection while leveraging AI.
+
+This article hits on a crucial, often overlooked, aspect of AI adoption: its subtle impact on human interaction and team cohesion. We've been so focused on AI's productivity gains that we might be inadvertently eroding the very social fabric that makes teams effective. It's a powerful reminder that technology isn't just about efficiency; it's about people. We need to be incredibly intentional about designing our AI-augmented workflows to preserve and even enhance human connection. This is a conversation we all need to be having.
+
+Original Link: https://smashingmagazine.com/2026/04/bug-free-workforce-ai-disrupting-teams/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Choco Streamlines Food Distribution Using OpenAI AI Agents]]></title>
+        <id>https://digestweb.dev/articles/2026-04-27/choco-automates-food-distribution-openai-ai</id>
+        <link href="https://digestweb.dev/articles/2026-04-27/choco-automates-food-distribution-openai-ai"/>
+        <updated>2026-04-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Discover how Choco leveraged OpenAI APIs to automate and optimize its food distribution processes, leading to increased productivity and business growth. This customer story highlights the real-world impact of AI in logistics.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Choco, a food distribution company, utilized OpenAI APIs.
+- They implemented AI agents to streamline their operational processes.
+- This resulted in boosted productivity and unlocked significant business growth.
+- The article serves as an in-depth customer story on real-world AI impact.
+
+It's always good to see concrete examples of AI delivering tangible business value beyond the hype. Choco's story shows how even established industries like food distribution can find significant efficiencies with AI agents. It's a reminder that the real power of AI often lies in applying it to specific, often mundane, operational challenges. We appreciate these practical showcases that demonstrate AI's utility in diverse sectors.
+
+Original Link: https://openai.com/index/choco]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exploring the Nonexistent `::nth-letter` CSS Selector with a Shim]]></title>
+        <id>https://digestweb.dev/articles/2026-04-27/css-nth-letter-selector-shim</id>
+        <link href="https://digestweb.dev/articles/2026-04-27/css-nth-letter-selector-shim"/>
+        <updated>2026-04-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article proposes a creative shim for a `::nth-letter` CSS selector, demonstrating its potential and advocating for native browser support. It encourages developers to experiment with this 'hack' to highlight the need for such a feature.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article explores the concept of a `::nth-letter` CSS selector.
+- It provides a shim or 'hack' to simulate this nonexistent feature.
+- The author hopes widespread use will demonstrate the need for native browser support.
+- It encourages developers to experiment with advanced text styling possibilities.
+
+This is exactly the kind of creative problem-solving we love to see in the CSS community! Advocating for new features by demonstrating their utility with a clever shim is a powerful approach. It reminds us that the web platform evolves through both official specifications and community-driven innovation. We're excited to see what designers and developers create with this idea, and hope it pushes browser vendors to consider native `::nth-letter` support. It's a great example of developer experience driving platform evolution.
+
+Original Link: https://css-tricks.com/using-nonexistent-nth-letter-selector-now/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Copilot Shifts to Usage-Based Billing Model]]></title>
+        <id>https://digestweb.dev/articles/2026-04-27/github-copilot-usage-based-billing</id>
+        <link href="https://digestweb.dev/articles/2026-04-27/github-copilot-usage-based-billing"/>
+        <updated>2026-04-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[GitHub Copilot is transitioning to a usage-based billing system starting June 1st, where usage will consume GitHub AI Credits. This change impacts how developers are charged for the popular AI coding assistant.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- GitHub Copilot is moving to a usage-based billing model.
+- Starting June 1st, Copilot usage will consume GitHub AI Credits.
+- This change requires users to manage their allocated AI Credits.
+- The new system alters how developers are charged for the AI coding assistant.
+
+This is a big deal for developers who rely on Copilot. We've seen this coming with many AI services, and it's a clear move towards monetizing actual compute usage. While it makes sense from GitHub's perspective, it adds another layer of cost management for teams and individual developers. I genuinely wonder how this will affect adoption and usage patterns. Will developers become more conscious of how much code Copilot is generating, or will it just become another line item in the budget?
+
+Original Link: https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google DeepMind Partners with Republic of Korea for AI Research]]></title>
+        <id>https://digestweb.dev/articles/2026-04-27/google-deepmind-korea-ai-partnership</id>
+        <link href="https://digestweb.dev/articles/2026-04-27/google-deepmind-korea-ai-partnership"/>
+        <updated>2026-04-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Google DeepMind has announced a partnership with the Republic of Korea to accelerate scientific breakthroughs using frontier AI models. This collaboration aims to advance AI research and development on a national scale.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Google DeepMind has formed a partnership with the Republic of Korea.
+- The collaboration aims to accelerate scientific breakthroughs.
+- It will utilize frontier AI models for advanced research and development.
+- This initiative signifies a national-level commitment to AI progress.
+
+It's fascinating to see major AI labs forming partnerships directly with nations. This isn't just about commercial adoption; it's about leveraging AI for fundamental scientific progress. Korea has a strong tech ecosystem, and combining that with DeepMind's expertise could lead to some truly groundbreaking discoveries. We're seeing AI become a geopolitical asset, and these partnerships reflect that new reality. It's a powerful move that could shape the future of AI research.
+
+Original Link: https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Meet Speech Translation Rolls Out to Mobile Devices]]></title>
+        <id>https://digestweb.dev/articles/2026-04-27/google-meet-speech-translation-mobile</id>
+        <link href="https://digestweb.dev/articles/2026-04-27/google-meet-speech-translation-mobile"/>
+        <updated>2026-04-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Google Meet is now rolling out its speech translation feature to mobile devices, enhancing accessibility and communication for users on the go. This update brings real-time language translation to mobile video calls.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Google Meet's speech translation feature is now available on mobile devices.
+- This rollout enhances accessibility for mobile users.
+- It enables real-time language translation during video calls.
+- The update improves communication capabilities for users on the go.
+
+Real-time speech translation on mobile is a fantastic accessibility and productivity boost for Google Meet users. It's a practical application of AI that directly solves a common communication barrier. While not a groundbreaking AI research paper, these kinds of incremental improvements in widely used tools have a massive collective impact on daily life and work. It's a testament to how AI is steadily making our digital interactions more inclusive and efficient.
+
+Original Link: https://simonwillison.net/2026/Apr/27/speech-translation-in-google-meet-is-now-rolling-out-to-mobile-d/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Achieves FedRAMP Moderate Authorization for Enterprise & API]]></title>
+        <id>https://digestweb.dev/articles/2026-04-27/openai-fedramp-moderate-authorization</id>
+        <link href="https://digestweb.dev/articles/2026-04-27/openai-fedramp-moderate-authorization"/>
+        <updated>2026-04-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI has secured FedRAMP Moderate authorization for ChatGPT Enterprise and its API, enabling secure and compliant AI adoption for U.S. federal agencies. This milestone opens doors for government use of OpenAI's advanced models.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI has achieved FedRAMP Moderate authorization.
+- This authorization applies to ChatGPT Enterprise and the OpenAI API.
+- It enables secure and compliant AI adoption for U.S. federal agencies.
+- The milestone signifies increased trust in OpenAI's security and data handling for government use.
+
+This is a big deal for OpenAI's enterprise strategy. FedRAMP compliance is a huge hurdle, and clearing it means they can now seriously target government contracts. It also signals a growing trust in their security and data handling, which is important for any large organization considering their services. We'll likely see more government agencies exploring AI solutions now that this barrier has been removed.
+
+Original Link: https://openai.com/index/openai-available-at-fedramp-moderate]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The History of the Deceased OpenAI Microsoft AGI Clause]]></title>
+        <id>https://digestweb.dev/articles/2026-04-27/openai-microsoft-agi-clause-history</id>
+        <link href="https://digestweb.dev/articles/2026-04-27/openai-microsoft-agi-clause-history"/>
+        <updated>2026-04-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison delves into the history and implications of the now-removed AGI clause within the OpenAI and Microsoft partnership agreement. This analysis sheds light on the evolving strategic relationship between the two AI giants.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article tracks the history of a specific AGI clause.
+- This clause was part of the OpenAI and Microsoft partnership agreement.
+- The clause is now 'deceased' or removed, indicating a change in their strategic understanding.
+- Simon Willison provides an analysis of its significance and evolution.
+
+Simon Willison always delivers sharp, insightful commentary, and this piece on the 'deceased' AGI clause is particularly timely given the recent partnership update. The removal of such a foundational clause speaks volumes about the shifting dynamics and perhaps the maturity of their collaboration. It makes us wonder what new understandings or definitions of AGI are now at play behind the scenes. This is the kind of deep-dive analysis we appreciate, offering crucial context to high-level announcements.
+
+Original Link: https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI and Microsoft Announce Simplified Partnership Agreement]]></title>
+        <id>https://digestweb.dev/articles/2026-04-27/openai-microsoft-partnership-simplified</id>
+        <link href="https://digestweb.dev/articles/2026-04-27/openai-microsoft-partnership-simplified"/>
+        <updated>2026-04-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI and Microsoft have amended their partnership agreement to simplify terms, provide long-term clarity, and foster continued AI innovation at scale. This move aims to strengthen their collaboration in the rapidly evolving AI landscape.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI and Microsoft have announced an amended partnership agreement.
+- The new agreement aims to simplify the partnership's terms.
+- It is designed to add long-term clarity to their collaboration.
+- The partnership seeks to support continued AI innovation at scale.
+
+The Microsoft-OpenAI partnership has been one of the most impactful in recent tech history. Any update to their agreement is significant, especially one that promises 'simplified' terms and 'long-term clarity.' It suggests they're streamlining operations and doubling down on their joint vision, which could accelerate AI development even further. We'll be watching closely for the practical implications of this 'next phase' and what it means for the broader AI ecosystem.
+
+Original Link: https://openai.com/index/next-phase-of-microsoft-partnership]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Introduces Symphony: An Open-Source Spec for AI Agent Orchestration]]></title>
+        <id>https://digestweb.dev/articles/2026-04-27/openai-symphony-open-source-ai-orchestration</id>
+        <link href="https://digestweb.dev/articles/2026-04-27/openai-symphony-open-source-ai-orchestration"/>
+        <updated>2026-04-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI has released Symphony, an open-source specification for Codex orchestration, designed to transform issue trackers into always-on AI agent systems. This aims to boost engineering output and significantly reduce context switching for developers.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI has introduced Symphony, an open-source specification.
+- Symphony is designed for Codex orchestration, enabling AI agents.
+- It aims to transform issue trackers into always-on agent systems.
+- The goal is to boost engineering output and reduce context switching for developers.
+
+This is genuinely exciting! An open-source spec for AI agent orchestration from OpenAI is a big step towards standardizing how we build and manage these systems. The idea of turning issue trackers into 'always-on agent systems' is powerful – imagine agents autonomously tackling tasks, reducing the mental load on engineers. This could be a game-changer for developer productivity and how we interact with our tools. We're eager to see how the community adopts and extends Symphony.
+
+Original Link: https://openai.com/index/open-source-codex-orchestration-symphony]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rhumb Studio: Crafting Immersive, Spatial Web Experiences]]></title>
+        <id>https://digestweb.dev/articles/2026-04-27/rhumb-studio-immersive-web-experiences</id>
+        <link href="https://digestweb.dev/articles/2026-04-27/rhumb-studio-immersive-web-experiences"/>
+        <updated>2026-04-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Discover Rhumb Studio, a two-person team redefining web design by creating immersive, spatial experiences that feel more like places than traditional web pages. Their work showcases innovative approaches to digital interaction.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Rhumb Studio is a small, two-person design studio.
+- They specialize in crafting immersive and spatial web experiences.
+- Their approach aims to make web content feel more like places than traditional pages.
+- The studio's work redefines web design through innovative digital interactions.
+
+It's always inspiring to see small studios pushing the boundaries of web design. We often get caught up in frameworks and tooling, but articles like this remind us of the creative potential of the web platform itself. The idea of web experiences feeling more like 'places' than 'pages' is a compelling vision for the future of interaction. It makes me wonder what new paradigms we'll see emerge as these ideas gain traction.
+
+Original Link: https://tympanus.net/codrops/2026/04/27/rhumb-studio-small-but-mighty-shaped-by-curiosity/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building Scalable Web Apps with OpenAI's Privacy Filter]]></title>
+        <id>https://digestweb.dev/articles/2026-04-27/scalable-web-apps-openai-privacy-filter</id>
+        <link href="https://digestweb.dev/articles/2026-04-27/scalable-web-apps-openai-privacy-filter"/>
+        <updated>2026-04-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn how to integrate OpenAI's Privacy Filter into scalable web applications to enhance data security and compliance. This tutorial guides developers through the process of building robust AI-powered web services.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article provides a tutorial on building scalable web applications.
+- It focuses on integrating OpenAI's Privacy Filter for enhanced data security.
+- The guide helps developers create robust and compliant AI-powered web services.
+- It covers best practices for handling sensitive information in AI applications.
+
+Data privacy is paramount when working with AI, especially in web applications. A tutorial on integrating OpenAI's Privacy Filter is incredibly valuable for developers looking to build compliant and secure AI services. We appreciate resources that focus on the practical, responsible implementation of AI, rather than just the capabilities. This is a must-read for anyone deploying AI models in production, as security and privacy cannot be an afterthought.
+
+Original Link: https://huggingface.co/blog/openai-privacy-filter-web-apps]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[OpenAI's Guiding Principles: Sam Altman on AGI for All Humanity]]></title>
         <id>https://digestweb.dev/articles/2026-04-26/openai-guiding-principles-sam-altman-agi-humanity</id>
