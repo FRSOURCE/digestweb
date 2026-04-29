@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-04-28T09:22:33.550Z</updated>
+    <updated>2026-04-29T09:10:34.062Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,90 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[AI-Assisted Coding: Bridging the Gap to Production-Ready Code]]></title>
+        <id>https://digestweb.dev/articles/2026-04-28/ai-assisted-coding-production-ready-guide</id>
+        <link href="https://digestweb.dev/articles/2026-04-28/ai-assisted-coding-production-ready-guide"/>
+        <updated>2026-04-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This practical guide for software engineers explores the critical difference between AI-generated code that merely functions and code that meets production standards, emphasizing the engineer's role.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article serves as a practical guide for software engineers navigating the landscape of AI-assisted coding.
+- It highlights the significant gap between AI-generated code that "works" and code that is truly "production-ready."
+- The guide emphasizes the indispensable role of the human engineer in refining, validating, and ensuring the quality of AI-produced code.
+- It likely offers strategies and best practices for effectively integrating AI tools into development workflows while maintaining high standards.
+- The core message is that AI is an assistant, and the ultimate responsibility for code quality and readiness lies with the developer.
+
+## Our Commentary
+
+This is a much-needed perspective on AI-assisted coding. It's easy to get swept up in the hype, but the reality is that AI tools are just that – tools. The article's focus on the "gap" between functional and production-ready code, and the irreplaceable role of the engineer, is spot on. We've seen too many examples of developers blindly trusting AI output. This guide will hopefully help engineers develop a more critical and effective approach to leveraging AI in their daily work. It's a reminder that human oversight and expertise remain paramount.
+
+Original Link: https://frontendmasters.com/blog/ai-assisted-coding-a-practical-guide-for-software-engineers/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Crafting a Scroll-Driven 3D World with Three.js, GSAP, and WebGL]]></title>
+        <id>https://digestweb.dev/articles/2026-04-28/crafting-scroll-driven-3d-world-threejs-gsap-webgl</id>
+        <link href="https://digestweb.dev/articles/2026-04-28/crafting-scroll-driven-3d-world-threejs-gsap-webgl"/>
+        <updated>2026-04-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn how to build an immersive, scroll-driven 3D web experience from scratch using Three.js, GSAP, and WebGL, focusing on intentional design and technical execution.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article details the process of creating a unique scroll-driven 3D web experience that goes beyond a traditional portfolio.
+- It leverages Three.js for 3D rendering, GSAP for advanced animations, and WebGL for high-performance graphics.
+- The core philosophy emphasizes that every technical and design decision should contribute to a meaningful message or narrative.
+- The post likely covers techniques for integrating scroll progress with 3D scene manipulation and animation timelines.
+- It serves as both a showcase of what's possible and a guide for developers looking to build similar complex interactive sites.
+
+## Our Commentary
+
+This is the kind of article that makes me excited about the web's potential. Combining Three.js, GSAP, and WebGL to create a narrative-driven 3D experience is incredibly ambitious and inspiring. It's not just about technical prowess; it's about using technology to tell a story. I love the emphasis on intentional design, where every choice serves a purpose. This pushes the boundaries of what a "website" can be and offers fantastic insights for anyone looking to build truly immersive digital experiences.
+
+Original Link: https://tympanus.net/codrops/2026/04/28/more-than-a-portfolio-building-a-scroll-driven-3d-world-with-something-to-say/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mastering Scroll-Driven Animations with the New CSS Animation Timeline API]]></title>
+        <id>https://digestweb.dev/articles/2026-04-28/mastering-scroll-driven-animations-css-animation-timeline-api</id>
+        <link href="https://digestweb.dev/articles/2026-04-28/mastering-scroll-driven-animations-css-animation-timeline-api"/>
+        <updated>2026-04-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Explore the powerful new CSS Animation Timeline API, enabling complex scroll-driven animations directly in CSS without JavaScript, and discover its creative potential.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article introduces the new CSS Animation Timeline API, which allows developers to create dynamic scroll-driven animations using only CSS.
+- This API eliminates the need for JavaScript to synchronize animations with scroll positions.
+- It provides a declarative way to link CSS animations to a scroll container's progress or an element's visibility within the scrollport.
+- The post demonstrates various "super cool" effects achievable with the API, showcasing its flexibility and power.
+- Developers can define animation ranges and attach them to specific scroll events or element positions.
+- The API aims to improve performance and simplify the creation of complex interactive scroll experiences.
+
+## Our Commentary
+
+This is exactly the kind of web platform advancement we love to see! The Animation Timeline API is a game-changer for front-end developers, finally bringing native, performant scroll-driven animations to CSS. Josh W. Comeau's tutorials are always top-notch, and I'm genuinely excited to dive into this one. It feels like a significant step towards richer, more interactive web experiences without the JavaScript overhead. This will undoubtedly inspire a new wave of creative designs.
+
+Original Link: https://www.joshwcomeau.com/animation/scroll-driven-animations/]]></content>
+        <author>
+            <name>Josh W. Comeau</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NVIDIA Nemotron 3 Nano Omni: Multimodal AI for Long-Context Agents]]></title>
+        <id>https://digestweb.dev/articles/2026-04-28/nvidia-nemotron-3-nano-omni-multimodal-ai-long-context-agents</id>
+        <link href="https://digestweb.dev/articles/2026-04-28/nvidia-nemotron-3-nano-omni-multimodal-ai-long-context-agents"/>
+        <updated>2026-04-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[NVIDIA introduces Nemotron 3 Nano Omni, a new multimodal AI model designed for long-context understanding across documents, audio, and video, specifically tailored for AI agents.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- NVIDIA has launched Nemotron 3 Nano Omni, a new AI model focused on multimodal intelligence.
+- The model is designed to handle long-context inputs across various data types, including documents, audio, and video.
+- It is specifically engineered to power advanced AI agents, enabling them to process and understand complex, diverse information.
+- This release aims to enhance the capabilities of AI systems in tasks requiring comprehensive understanding of different media.
+- The "Nano" designation suggests an optimized, potentially smaller model, while "Omni" points to its broad multimodal scope.
+
+## Our Commentary
+
+NVIDIA continues to push the boundaries in AI hardware and now, increasingly, in models. Nemotron 3 Nano Omni sounds like a powerful step towards truly capable multimodal agents. The focus on "long-context" is particularly exciting, as it addresses a common limitation in current models. I'm curious to see how this model performs in real-world agentic workflows, especially with its ability to process diverse media types. This could unlock some genuinely innovative applications.
+
+Original Link: https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Physics-Informed AI Enhances Adaptive Ultrasound Imaging]]></title>
         <id>https://digestweb.dev/articles/2026-04-28/physics-informed-ai-adaptive-ultrasound-imaging</id>
@@ -60,6 +144,30 @@ Original Link: https://simonwillison.net/2026/Apr/28/pip-261/#atom-everything]]>
         <author>
             <name>Simon Willison</name>
         </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pnpm 11: Major Updates for Performance, Security, and DX]]></title>
+        <id>https://digestweb.dev/articles/2026-04-28/pnpm-11-major-updates-performance-security-dx</id>
+        <link href="https://digestweb.dev/articles/2026-04-28/pnpm-11-major-updates-performance-security-dx"/>
+        <updated>2026-04-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[pnpm v11 introduces significant changes, including requiring Node.js 22+, enabling supply-chain protection by default, and overhauling global installs and the store index for improved performance and developer experience.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- pnpm v11 now requires Node.js 22+, dropping support for older versions, and is pure ESM.
+- Supply-chain protection features like `minimumReleaseAge` and `blockExoticSubdeps` are enabled by default.
+- The `allowBuilds` setting replaces several older build-dependency configurations.
+- Global installs are now isolated, each with its own directory and virtual store.
+- A new SQLite-backed store index (store v11) improves installation speed by reducing filesystem syscalls.
+- pnpm's publish flow is now native, no longer delegating to the npm CLI for many commands.
+- The `.npmrc` file is restricted to auth/registry settings, with other configurations moving to `pnpm-workspace.yaml` or `config.yaml`.
+- Runtime installs are slimmer, excluding bundled npm, npx, and corepack.
+- Several new commands have been introduced, including `pnpm ci`, `pnpm sbom`, and `pnpm clean`.
+
+## Our Commentary
+
+This is a substantial release for pnpm, pushing the ecosystem forward with a strong focus on security and performance. The Node.js 22+ requirement is a bold move, but it aligns with modern development practices. I'm particularly excited about the default supply-chain protections and the performance gains from the new store index. It feels like pnpm is really maturing into a robust, secure, and efficient package manager.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.0.0]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Simon Willison Unveils 'Talkie': A 13B Vintage Language Model from 1930]]></title>
