@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-05-02T04:20:00.486Z</updated>
+    <updated>2026-05-03T04:41:55.500Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,25 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Designing a Layered Portfolio: A Two-Year Journey Beyond the Gallery]]></title>
+        <id>https://digestweb.dev/articles/2026-05-02/designing-layered-portfolio-journey-beyond-gallery</id>
+        <link href="https://digestweb.dev/articles/2026-05-02/designing-layered-portfolio-journey-beyond-gallery"/>
+        <updated>2026-05-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Explore a two-year design and development journey to create a unique, layered portfolio experience that breaks away from conventional gallery layouts. Discover the challenges and solutions in crafting an engaging, interactive showcase.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- This article details a two-year design and development process to create a portfolio that moves beyond the traditional gallery format.
+- The project aimed to build a layered, interactive experience, offering a more engaging way for users to explore work.
+- It covers the conceptualization, design challenges, and technical solutions involved in crafting this unique portfolio.
+- The journey highlights the iterative nature of design and the dedication required to achieve a distinct user experience.
+
+## Our Commentary
+
+We're always excited to see designers push the boundaries of what a portfolio can be. A two-year commitment to a single project like this speaks volumes about the dedication and vision behind it. Traditional galleries can feel so static, and the idea of a 'layered experience' promises something far more immersive and memorable. We're keen to dive into the technical details and design decisions that made this possible. It's a great reminder that sometimes, the best way to stand out is to completely rethink the established norms.
+
+Original Link: https://tympanus.net/codrops/2026/05/02/designing-against-the-gallery-a-two-year-journey-to-a-layered-portfolio-experience/]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Designing Stable Interfaces for Streaming Content]]></title>
         <id>https://digestweb.dev/articles/2026-05-01/designing-stable-interfaces-streaming-content</id>
