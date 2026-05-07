@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-05-06T09:24:16.946Z</updated>
+    <updated>2026-05-07T09:32:52.146Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,297 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Animating Focus Rings with CSS View Transitions for Enhanced UX]]></title>
+        <id>https://digestweb.dev/articles/2026-05-07/animating-focus-view-transitions-ux-accessibility</id>
+        <link href="https://digestweb.dev/articles/2026-05-07/animating-focus-view-transitions-ux-accessibility"/>
+        <updated>2026-05-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This Frontend Masters article explores a fresh approach to animating focus rings using the new CSS View Transitions API. It demonstrates how to achieve "flying focus" effects, leveraging the browser to handle element positioning and transitions automatically, significantly enhancing accessibility and user experience.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article presents a novel method for animating focus rings on web pages.
+- It utilizes the new CSS View Transitions API to create dynamic "flying focus" effects.
+- The key advantage is letting View Transitions automatically handle element positioning and animation, reducing manual calculations.
+- This approach significantly enhances the user experience by making focus changes smoother and more visually engaging.
+- It also contributes to improved accessibility by making keyboard navigation more apparent and pleasant.
+
+## Our Commentary
+
+View Transitions are a game-changer for web animations, and this application to focus rings is brilliant. We've all seen the jarring default focus outlines, and while functional, they rarely contribute to a polished user experience. Using View Transitions to create "flying focus" is not just aesthetically pleasing; it's a huge win for accessibility.
+
+It's exciting to see developers leveraging new browser capabilities to solve long-standing UX and accessibility challenges in elegant ways. This article perfectly demonstrates how a powerful new web-platform feature can be applied creatively to make the web a better place for everyone. We're definitely adding this to our toolkit.
+
+Original Link: https://frontendmasters.com/blog/animating-focus-with-view-transitions/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chris Coyier on Import Maps: Streamlining JavaScript Module Imports]]></title>
+        <id>https://digestweb.dev/articles/2026-05-06/chris-coyier-import-maps-javascript-modules</id>
+        <link href="https://digestweb.dev/articles/2026-05-06/chris-coyier-import-maps-javascript-modules"/>
+        <updated>2026-05-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Chris Coyier on the Codepen Blog explains the utility of Import Maps, a web platform feature that allows developers to control how module specifiers are resolved. This simplifies managing JavaScript module paths, making updates easier and improving development experience.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article introduces Import Maps as a valuable web platform feature.
+- Import Maps allow developers to define how module specifiers are resolved in JavaScript.
+- This enables writing `import thing from "place";` and then mapping "place" to a specific file or URL.
+- A key benefit is centralizing module path management, simplifying updates across a project.
+- It enhances the developer experience by making module imports more flexible and maintainable.
+
+## Our Commentary
+
+Import Maps are one of those web platform features that, once you start using them, you wonder how you ever lived without them. Chris Coyier does a great job of highlighting their practical benefits, especially for managing dependencies and simplifying module paths.
+
+We at digestweb see this as a crucial step towards a more robust and developer-friendly module ecosystem in the browser. It reduces the reliance on complex build tools for basic module resolution, making native ESM more accessible and powerful. It's a small but mighty addition that significantly improves DX.
+
+Original Link: https://blog.codepen.io/2026/05/06/chris-corner-import-maps/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Creative CSS Grid: Crafting Zigzag Layouts with Transforms]]></title>
+        <id>https://digestweb.dev/articles/2026-05-06/creative-css-grid-zigzag-layouts-transforms</id>
+        <link href="https://digestweb.dev/articles/2026-05-06/creative-css-grid-zigzag-layouts-transforms"/>
+        <updated>2026-05-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This CSS-Tricks tutorial demonstrates how to break away from conventional grid layouts by combining CSS Grid with transform properties to create dynamic and visually engaging zigzag patterns. It offers a practical guide for front-end developers.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article provides a tutorial on creating non-traditional zigzag layouts using CSS.
+- It leverages the power of CSS Grid in combination with CSS transform properties.
+- The technique allows developers to achieve more dynamic and rhythmic designs than standard aligned grids.
+- The tutorial offers a practical approach for front-end developers to enhance their layout skills.
+- It encourages moving beyond conventional grid structures for more creative web designs.
+
+## Our Commentary
+
+We love seeing articles that push the boundaries of what's possible with core web technologies like CSS Grid. While perfectly aligned grids are often necessary, sometimes you just want to add a bit of "rhythm" and visual interest, and this zigzag trick is a fantastic way to do it.
+
+It's a great example of how combining seemingly simple CSS properties can lead to surprisingly sophisticated results. For developers looking to add a unique flair to their designs without resorting to complex JavaScript, this tutorial is a gem. It reminds us that CSS still has plenty of creative potential to explore.
+
+Original Link: https://css-tricks.com/zigzag-css-grid-layouts/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google's Controversial Prompt API and Gemini Nano Deployment]]></title>
+        <id>https://digestweb.dev/articles/2026-05-06/google-prompt-api-gemini-nano-controversy</id>
+        <link href="https://digestweb.dev/articles/2026-05-06/google-prompt-api-gemini-nano-controversy"/>
+        <updated>2026-05-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Mat Marquis on CSS-Tricks criticizes Google's deployment of Gemini Nano and a "Prompt API" to Chrome users without explicit permission, likening it to U2's album marketing. The article raises concerns about user control, privacy, and Google's approach to integrating AI into the browser.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article discusses Google's deployment of Gemini Nano and a "Prompt API" to Chrome users.
+- Mat Marquis criticizes this deployment, noting it occurred without explicit user permission.
+- He compares it to U2's controversial album marketing, highlighting a lack of user consent.
+- The deployment involved a 4GB transfer to Chrome users' devices.
+- The piece raises significant concerns about user control, privacy, and Google's influence on web standards and browser features.
+
+## Our Commentary
+
+This is deeply concerning. Google pushing a 4GB AI model onto users' machines without explicit permission feels like a significant overreach, and Mat Marquis's comparison to the U2 album debacle is spot-on. It's a stark reminder of the power dynamics at play in the browser ecosystem.
+
+The idea of a "Prompt API" being integrated in this manner raises questions about how much control users will truly have over their browser experience and data in an AI-driven future. We at digestweb believe user consent and transparency are paramount, and this move by Google seems to fly in the face of those principles. It's a moment that underscores the need for vigilance regarding browser vendors' influence.
+
+Original Link: https://css-tricks.com/googles-prompt-api/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Advanced GSAP Animations: Shaders, Clip-Paths, and Portfolio Design]]></title>
+        <id>https://digestweb.dev/articles/2026-05-06/gsap-advanced-animations-shaders-clip-paths-portfolio</id>
+        <link href="https://digestweb.dev/articles/2026-05-06/gsap-advanced-animations-shaders-clip-paths-portfolio"/>
+        <updated>2026-05-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article from Codrops showcases how GSAP can orchestrate complex animations, from manipulating shader uniforms to creating dynamic clip-path wipes and text reveals. It offers a technical deep dive into building a highly interactive portfolio.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article explores the technical implementation of a portfolio website, highlighting advanced animation techniques.
+- It demonstrates how GSAP (GreenSock Animation Platform) is used to orchestrate a wide range of visual effects.
+- Examples include manipulating shader uniforms for unique visual styles.
+- The article also covers creating dynamic clip-path wipes and intricate text reveal animations.
+- It serves as a showcase and technical breakdown for developers interested in high-fidelity web animations.
+
+## Our Commentary
+
+Codrops always delivers when it comes to pushing the boundaries of web design and animation, and this article is no exception. It's inspiring to see how GSAP can be leveraged for such a diverse array of effects, from the subtle to the spectacular.
+
+What we appreciate most is the technical "handshake" aspect – it's not just about making things move, but understanding the underlying mechanisms like shader uniforms. This kind of detailed breakdown is invaluable for front-end developers looking to elevate their craft beyond basic transitions. It reminds us that the web can be a truly expressive canvas.
+
+Original Link: https://tympanus.net/codrops/2026/05/06/from-shader-uniforms-to-clip-path-wipes-how-gsap-drives-my-portfolio/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Local-First Web Development: An Honest Architectural Perspective for 2026]]></title>
+        <id>https://digestweb.dev/articles/2026-05-06/local-first-web-development-architecture-2026</id>
+        <link href="https://digestweb.dev/articles/2026-05-06/local-first-web-development-architecture-2026"/>
+        <updated>2026-05-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Smashing Magazine presents an honest and critical look at the architecture of building local-first web applications in 2026. Aimed at experienced developers, this article cuts through hype to provide a realistic perspective on the challenges and benefits of this architectural paradigm.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article offers an honest and critical perspective on building local-first web applications in 2026.
+- It is specifically targeted at experienced developers who are skeptical of quick-fix solutions.
+- The piece delves into the architectural considerations and complexities of local-first development.
+- It likely discusses the benefits such as offline capabilities, improved performance, and enhanced data privacy.
+- The article also addresses the challenges, trade-offs, and realistic expectations for implementing this paradigm.
+
+## Our Commentary
+
+"Local-first" is a concept that has been gaining serious traction, and an "honest perspective" from Smashing Magazine is exactly what we need. It's easy to get swept up in the idealism of offline-first and data ownership, but the architectural complexities are significant. We appreciate an article that acknowledges the skepticism of seasoned developers and doesn't promise silver bullets.
+
+This kind of deep dive is crucial for anyone considering this paradigm. It's not just about technical implementation; it's about rethinking data flow, synchronization, and conflict resolution. We at digestweb are keen to see how this architectural approach evolves and matures, and this article seems like a vital contribution to that conversation.
+
+Original Link: https://smashingmagazine.com/2026/05/architecture-local-first-web-development/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pnpm 10.33.4: Enhanced Git Tarball Security and Monorepo Filter Fix]]></title>
+        <id>https://digestweb.dev/articles/2026-05-06/pnpm-10-33-4-git-tarball-security-monorepo-filter-fix</id>
+        <link href="https://digestweb.dev/articles/2026-05-06/pnpm-10-33-4-git-tarball-security-monorepo-filter-fix"/>
+        <updated>2026-05-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This patch release for pnpm 10 introduces a critical security improvement by pinning the integrity of git-hosted tarballs in the lockfile, preventing supply chain attacks. It also fixes a regression where `--filter` arguments incorrectly included the workspace root in monorepo commands.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- pnpm 10.33.4 is a patch release focusing on security and filtering behavior.
+- It pins the integrity of git-hosted tarballs in the lockfile, preventing tampering or substitution of dependencies.
+- A new `gitHosted: true` field is added to lockfile resolutions for git dependencies, improving consistency.
+- Fixes a regression where `pnpm --recursive --filter '!<pkg>'` commands incorrectly included the workspace root.
+- The workspace root is now correctly excluded by default when only negative `--filter` arguments are provided.
+
+## Our Commentary
+
+It's great to see pnpm backporting critical security fixes like the git-hosted tarball integrity pinning to older major versions. This shows a strong commitment to user security across the board.
+
+The `--filter` regression fix is also a welcome improvement for monorepo users. These kinds of subtle behavioral changes can be frustrating, so getting it right is important for developer experience. Overall, a solid maintenance release.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v10.33.4]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pnpm 11.0.7: Key Fixes for Windows, `node_modules`, and Git Tarball Security]]></title>
+        <id>https://digestweb.dev/articles/2026-05-06/pnpm-11-0-7-fixes-windows-node-modules-git-tarball-security</id>
+        <link href="https://digestweb.dev/articles/2026-05-06/pnpm-11-0-7-fixes-windows-node-modules-git-tarball-security"/>
+        <updated>2026-05-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This patch release for pnpm 11 addresses critical issues including restoring execute bits for `node-gyp` shims, fixing `pnpx`/`pnx` aliases on Windows, and preventing `node_modules` recreation after `pnpm fetch`. It also introduces a significant security enhancement by pinning the integrity of git-hosted tarballs in the lockfile.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- pnpm 11.0.7 is a patch release addressing several important issues.
+- It restores the execute bit on `node-gyp` shims, resolving permission denied errors on Windows.
+- Fixes `pn`, `pnpx`, and `pnx` aliases failing in Git Bash / MSYS2 on Windows, which previously dropped users into an interactive prompt.
+- Corrects an issue where `pnpm install` would recreate `node_modules` after `pnpm fetch` due to changes in hoist patterns.
+- Introduces a security enhancement by pinning the integrity of git-hosted tarballs in the lockfile, preventing tampering or substitution.
+- A new `gitHosted: true` field is added to lockfile resolutions for git dependencies.
+
+## Our Commentary
+
+It's always good to see build tools addressing platform-specific quirks, especially on Windows where things can get tricky. The fixes for `pnpx` aliases and `node_modules` recreation are solid quality-of-life improvements.
+
+However, the most impactful change here is the pinning of git-hosted tarball integrity. This is a crucial security enhancement that we at digestweb are thrilled to see. Relying solely on URLs for git dependencies was a significant attack vector, and this change makes the supply chain much more robust. It's a small detail that makes a big difference for trust.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.0.7]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Simon Willison's Live Blog: Coding with Claude 2026 Event]]></title>
+        <id>https://digestweb.dev/articles/2026-05-06/simon-willison-live-blog-code-with-claude-2026</id>
+        <link href="https://digestweb.dev/articles/2026-05-06/simon-willison-live-blog-code-with-claude-2026"/>
+        <updated>2026-05-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison provides a live blog covering the "Code with Claude 2026" event, offering real-time insights and observations on using the Claude AI model for coding tasks.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- This entry is a live blog from Simon Willison covering the "Code with Claude 2026" event.
+- It provides real-time updates and commentary on the use of Claude AI for coding.
+- The blog likely captures key demonstrations, discussions, and insights from the event.
+- It offers a perspective on the practical application and capabilities of Claude in a development context.
+
+## Our Commentary
+
+Simon Willison's live blogs are always a treasure trove of immediate, unfiltered insights, especially when it comes to AI. Following his thoughts on "Code with Claude" is a great way to get a feel for the practicalities and current state of LLMs in development, straight from someone who genuinely uses and understands them.
+
+We appreciate the raw, in-the-moment perspective that a live blog offers, cutting through marketing fluff to the actual developer experience. It's a valuable resource for anyone trying to keep up with the rapid pace of AI advancements.
+
+Original Link: https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Simon Willison: Vibe Coding and Agentic Engineering's Unsettling Convergence]]></title>
+        <id>https://digestweb.dev/articles/2026-05-06/simon-willison-vibe-coding-agentic-engineering-convergence</id>
+        <link href="https://digestweb.dev/articles/2026-05-06/simon-willison-vibe-coding-agentic-engineering-convergence"/>
+        <updated>2026-05-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison expresses concern about the increasing proximity between "vibe coding" – an intuitive, flow-state approach to development – and "agentic engineering," where AI agents autonomously handle coding tasks. This article likely explores the implications of this convergence for developers.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article, by Simon Willison, discusses the growing convergence of "vibe coding" and "agentic engineering."
+- "Vibe coding" refers to an intuitive, flow-state approach to software development.
+- "Agentic engineering" involves autonomous AI agents performing coding tasks.
+- Willison expresses a degree of discomfort or concern regarding this increasing proximity.
+- The piece likely explores the implications for human developers, creativity, and the future of coding.
+
+## Our Commentary
+
+This title immediately grabbed our attention. Simon Willison hits on a feeling many of us in the dev community are grappling with: the tension between the deeply human, often intuitive process of coding ("vibe coding") and the rise of autonomous AI agents. There's something unsettling about the idea of our creative flow being encroached upon or even replaced by algorithmic efficiency.
+
+It forces us to confront what we value in coding – is it just the output, or is there an intrinsic value in the process, the "vibe" itself? This isn't just a technical discussion; it's a philosophical one about the future of human creativity in a world increasingly shaped by AI. We genuinely don't know how to feel about this convergence, but it's a conversation we absolutely need to have.
+
+Original Link: https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Validating Agentic Behavior: Building Trust for GitHub Copilot Agents]]></title>
+        <id>https://digestweb.dev/articles/2026-05-06/validating-agentic-behavior-github-copilot-trust-layer</id>
+        <link href="https://digestweb.dev/articles/2026-05-06/validating-agentic-behavior-github-copilot-trust-layer"/>
+        <updated>2026-05-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[GitHub explores how to build a "Trust Layer" for Copilot Coding Agents, focusing on validating agentic behavior in scenarios where the "correct" outcome isn't deterministic. The article discusses using dominatory analysis to achieve this without brittle scripts or black-box judgments.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article addresses the challenge of validating AI agent behavior when there isn't a single deterministic "correct" answer.
+- GitHub is working on building a "Trust Layer" for its Copilot Coding Agents.
+- This layer aims to ensure reliability and trustworthiness without relying on fragile scripts or opaque judgment systems.
+- The proposed solution involves using dominatory analysis to evaluate agent actions and outcomes.
+- This approach is crucial for the future development and adoption of AI agents in software development.
+
+## Our Commentary
+
+This is a fascinating and incredibly important topic. As AI agents become more autonomous, the question of how we trust them, especially in non-deterministic tasks like coding, becomes paramount. "Correct" isn't always a binary state in software development, and relying on traditional testing methods quickly breaks down.
+
+The idea of a "Trust Layer" and using dominatory analysis sounds promising. It feels like a step towards more robust and explainable AI systems, moving beyond just "did it work?" to "did it work _sensibly_ and _safely_?". We're going to need more of this kind of thoughtful engineering as agents integrate deeper into our workflows.
+
+Original Link: https://github.blog/ai-and-ml/generative-ai/validating-agentic-behavior-when-correct-isnt-deterministic/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[vLLM V0 to V1: Prioritizing Correctness in Reinforcement Learning]]></title>
+        <id>https://digestweb.dev/articles/2026-05-06/vllm-v0-v1-correctness-before-corrections-rl</id>
+        <link href="https://digestweb.dev/articles/2026-05-06/vllm-v0-v1-correctness-before-corrections-rl"/>
+        <updated>2026-05-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article from Hugging Face discusses the evolution of vLLM from version 0 to 1, focusing on the principle of ensuring correctness before applying corrections in Reinforcement Learning (RL) contexts.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article discusses the transition of vLLM from version 0 to version 1.
+- It emphasizes a core philosophy of prioritizing "correctness before corrections" in Reinforcement Learning (RL).
+- This approach suggests a focus on foundational accuracy in RL models before attempting to refine or correct their behavior.
+- The evolution likely involves architectural or methodological changes to enhance the inherent correctness of the vLLM framework.
+
+## Our Commentary
+
+The title "Correctness Before Corrections" in RL is a compelling mantra. It speaks to a fundamental challenge in AI: building systems that are inherently reliable rather than constantly patching their flaws. We've seen too many instances where complex correction layers obscure underlying issues, leading to brittle systems.
+
+For vLLM, a framework focused on efficient LLM serving, this principle could mean more stable and predictable inference. It's a philosophical shift that we at digestweb believe is crucial for the maturity of AI systems, moving towards more robust and trustworthy deployments.
+
+Original Link: https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windsurf Integrates Devin Review for Fast, Comprehensive AI Code Review]]></title>
+        <id>https://digestweb.dev/articles/2026-05-06/windsurf-devin-review-ai-code-review-integration</id>
+        <link href="https://digestweb.dev/articles/2026-05-06/windsurf-devin-review-ai-code-review-integration"/>
+        <updated>2026-05-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Windsurf announces the integration of "Devin Review" and "Quick Review" features, bringing AI-powered code verification directly into the developer's workspace. This aims to streamline the code review process with fast and comprehensive analysis.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Windsurf has launched new features for AI-powered code review: Devin Review and Quick Review.
+- These tools aim to provide fast and comprehensive code verification.
+- The key innovation is bringing these review capabilities directly into the developer's coding workspace.
+- This integration is designed to streamline the development workflow and improve code quality.
+- The mention of "Devin Review" suggests leveraging advanced AI agent capabilities for analysis.
+
+## Our Commentary
+
+The promise of AI-powered code review is huge, and integrating it directly into the workspace is the logical next step. We've all felt the friction of context-switching during code reviews, so having "Devin Review" right there could be a game-changer for developer experience.
+
+However, the devil is always in the details with these tools. How "comprehensive" is it really? And how much trust can we place in an AI's judgment on complex code? It's exciting, but we're also cautiously optimistic, hoping it truly augments human reviewers rather than just adding another layer of suggestions.
+
+Original Link: https://windsurf.com/blog/devin-review-windsurf]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Chrome 148 Brings CSS Name-Only Container Queries, Lazy Loading for Media]]></title>
         <id>https://digestweb.dev/articles/2026-05-05/chrome-148-css-container-queries-lazy-loading</id>
