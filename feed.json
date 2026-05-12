@@ -56,6 +56,15 @@
             "date_modified": "2026-05-11T00:00:00.000Z"
         },
         {
+            "id": "https://digestweb.dev/articles/2026-05-11/hugging-face-aws-foundation-model-training-inference",
+            "content_html": "## Summary & Key Takeaways\n\n- Hugging Face provides guidance on utilizing AWS infrastructure for the training and inference of large foundation models.\n- The article likely covers various AWS services and tools that integrate with Hugging Face's ecosystem.\n- It aims to help developers and researchers efficiently build and deploy AI models at scale on the cloud.\n\n## Our Commentary\n\nThis is a practical guide for anyone looking to scale their AI model development on AWS using Hugging Face's tools. The synergy between a leading AI platform and a dominant cloud provider is crucial for democratizing access to powerful AI infrastructure. We see this kind of collaboration constantly, and it's a good thing for the ecosystem. It means more developers can get their hands on serious compute without having to reinvent the wheel. It's less about groundbreaking research and more about making existing powerful tools accessible and performant.\n\nOriginal Link: https://huggingface.co/blog/amazon/foundation-model-building-blocks",
+            "url": "https://digestweb.dev/articles/2026-05-11/hugging-face-aws-foundation-model-training-inference",
+            "title": "Hugging Face & AWS: Foundation Model Training & Inference",
+            "summary": "Hugging Face outlines the essential building blocks and best practices for training and deploying foundation models on Amazon Web Services.",
+            "image": "https://cdn-uploads.huggingface.co/production/uploads/64d6b270c2eedf9af82baa23/YybsyZaGr5f0fLe0qDuLn.png",
+            "date_modified": "2026-05-11T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-05-11/human-ai-collaboration-interaction-models",
             "content_html": "## Summary & Key Takeaways\n\n- The article from Thinking Machines Lab introduces \"Interaction Models\" as a method for scalable human-AI collaboration.\n- It delves into approaches that allow humans and AI systems to work together more effectively and efficiently.\n- The research aims to address the challenges of integrating AI into complex workflows while maintaining human oversight and control.\n- This approach focuses on designing interfaces and protocols that facilitate seamless interaction between human users and AI agents.\n\n## Our Commentary\n\nThe concept of \"Interaction Models\" for human-AI collaboration is incredibly important. As AI becomes more pervasive, the way humans and machines work together will define its success. This isn't just about building better AI; it's about building better _interfaces_ and _processes_ for that collaboration. We've seen too many AI tools that feel like black boxes, and research into scalable interaction models is crucial for building trust, improving explainability, and ensuring that AI truly augments human capabilities rather than just automating tasks.\n\nOriginal Link: https://thinkingmachines.ai/blog/interaction-models/",
             "url": "https://digestweb.dev/articles/2026-05-11/human-ai-collaboration-interaction-models",
@@ -75,6 +84,15 @@
             "author": {
                 "name": "Matt Smith"
             }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-11/javascript-composites-object-comparison",
+            "content_html": "## Summary & Key Takeaways\n\n- The article introduces the concept of 'composites' as a potential new data type or feature in JavaScript.\n- It addresses the long-standing problem of comparing two objects that appear identical but return `false` due to reference equality.\n- Another issue 'composites' aim to solve is the inability to reliably use objects as keys in `Map` or `Set` data structures.\n- The discussion is based on a video by Matt Pocock, highlighting a fundamental challenge in JavaScript development.\n\n## Our Commentary\n\nThe idea of 'composites' is genuinely exciting for JavaScript developers. We've all hit that wall where `{}` === `{}` is `false`, and it's a constant source of frustration and workarounds. The ability to compare objects by value and use them as reliable map keys would be a huge quality-of-life improvement. While this is based on an older video, the problem it addresses is evergreen. It makes me wonder if this concept is gaining traction in TC39 or if it remains a theoretical solution. It feels like a fundamental missing piece in the language.\n\nOriginal Link: https://frontendmasters.com/blog/arrays-objects-now-composites/",
+            "url": "https://digestweb.dev/articles/2026-05-11/javascript-composites-object-comparison",
+            "title": "Exploring 'Composites' for Better JavaScript Object Comparison",
+            "summary": "A look into the concept of 'composites,' a potential solution to JavaScript's challenges with comparing objects by value and using them as map keys.",
+            "image": "https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/9613",
+            "date_modified": "2026-05-11T00:00:00.000Z"
         },
         {
             "id": "https://digestweb.dev/articles/2026-05-11/lemma-studio-cinematic-web-experiences",
@@ -128,6 +146,15 @@
             "title": "SocialReasoning-Bench Reveals AI Agents Fail to Prioritize User Interests",
             "summary": "Microsoft Research's SocialReasoning-Bench study finds that while AI agents execute competently, they consistently fail to optimize for user interests, even with explicit instructions.",
             "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/05/SocialReasoningBench-TWLIFB-1200x627-1.jpg",
+            "date_modified": "2026-05-11T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-11/tanstack-npm-supply-chain-compromise-postmortem",
+            "content_html": "## Summary & Key Takeaways\n\n- The TanStack team published a postmortem detailing a sophisticated supply-chain attack that affected 42 of their npm packages.\n- The attacker exploited a `pull_request_target` Pwn Request and GitHub Actions cache poisoning across fork↔base trust boundaries.\n- OIDC tokens were extracted from runner memory, enabling the publication of 84 malicious versions of `@tanstack/*` packages.\n- The incident highlights critical vulnerabilities in CI/CD pipelines and the npm ecosystem.\n\n## Our Commentary\n\nThis is genuinely unsettling. A supply-chain attack of this sophistication, chaining multiple vulnerabilities, is a stark reminder of the fragility of our software dependencies. The fact that OIDC tokens were extracted from runner memory is particularly alarming; it shows attackers are constantly finding new ways to bypass security measures. We rely so heavily on these open-source packages, and incidents like this erode trust. It's a wake-up call for every project maintaining an npm presence to review their CI/CD security, especially around GitHub Actions and token management. The complexity of the attack vectors makes it clear that defending against these threats requires constant vigilance and deep technical understanding.\n\nOriginal Link: https://tanstack.com/blog/npm-supply-chain-compromise-postmortem",
+            "url": "https://digestweb.dev/articles/2026-05-11/tanstack-npm-supply-chain-compromise-postmortem",
+            "title": "TanStack Suffers Sophisticated npm Supply-Chain Attack",
+            "summary": "TanStack details a complex supply-chain compromise affecting 42 of its npm packages, involving GitHub Actions cache poisoning and OIDC token extraction.",
+            "image": "https://tanstack.com/assets/og-C0HGjoLl.png",
             "date_modified": "2026-05-11T00:00:00.000Z"
         },
         {

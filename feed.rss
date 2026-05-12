@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Tue, 12 May 2026 04:37:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 12 May 2026 09:38:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -113,6 +113,25 @@ Original Link: https://github.blog/developer-skills/github/github-for-beginners-
             <enclosure url="https://github.blog/wp-content/uploads/2026/05/GIT890_THUMB_GFB_B-1.png?fit=1280%2C720" length="0" type="image/png"/>
         </item>
         <item>
+            <title><![CDATA[Hugging Face & AWS: Foundation Model Training & Inference]]></title>
+            <link>https://digestweb.dev/articles/2026-05-11/hugging-face-aws-foundation-model-training-inference</link>
+            <guid>https://digestweb.dev/articles/2026-05-11/hugging-face-aws-foundation-model-training-inference</guid>
+            <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hugging Face outlines the essential building blocks and best practices for training and deploying foundation models on Amazon Web Services.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Hugging Face provides guidance on utilizing AWS infrastructure for the training and inference of large foundation models.
+- The article likely covers various AWS services and tools that integrate with Hugging Face's ecosystem.
+- It aims to help developers and researchers efficiently build and deploy AI models at scale on the cloud.
+
+## Our Commentary
+
+This is a practical guide for anyone looking to scale their AI model development on AWS using Hugging Face's tools. The synergy between a leading AI platform and a dominant cloud provider is crucial for democratizing access to powerful AI infrastructure. We see this kind of collaboration constantly, and it's a good thing for the ecosystem. It means more developers can get their hands on serious compute without having to reinvent the wheel. It's less about groundbreaking research and more about making existing powerful tools accessible and performant.
+
+Original Link: https://huggingface.co/blog/amazon/foundation-model-building-blocks]]></content:encoded>
+            <enclosure url="https://cdn-uploads.huggingface.co/production/uploads/64d6b270c2eedf9af82baa23/YybsyZaGr5f0fLe0qDuLn.png" length="0" type="image/png"/>
+        </item>
+        <item>
             <title><![CDATA[Interaction Models: Scaling Human-AI Collaboration]]></title>
             <link>https://digestweb.dev/articles/2026-05-11/human-ai-collaboration-interaction-models</link>
             <guid>https://digestweb.dev/articles/2026-05-11/human-ai-collaboration-interaction-models</guid>
@@ -151,6 +170,26 @@ Oh, the classic boolean flag dilemma! We've all been there, staring at a functio
 
 Original Link: https://allthingssmitty.com/2026/05/11/i-keep-tripping-over-true-false-true/]]></content:encoded>
             <enclosure url="https://allthingssmitty.com/img/posts/sunset-home-office-min.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Exploring 'Composites' for Better JavaScript Object Comparison]]></title>
+            <link>https://digestweb.dev/articles/2026-05-11/javascript-composites-object-comparison</link>
+            <guid>https://digestweb.dev/articles/2026-05-11/javascript-composites-object-comparison</guid>
+            <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A look into the concept of 'composites,' a potential solution to JavaScript's challenges with comparing objects by value and using them as map keys.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article introduces the concept of 'composites' as a potential new data type or feature in JavaScript.
+- It addresses the long-standing problem of comparing two objects that appear identical but return `false` due to reference equality.
+- Another issue 'composites' aim to solve is the inability to reliably use objects as keys in `Map` or `Set` data structures.
+- The discussion is based on a video by Matt Pocock, highlighting a fundamental challenge in JavaScript development.
+
+## Our Commentary
+
+The idea of 'composites' is genuinely exciting for JavaScript developers. We've all hit that wall where `{}` === `{}` is `false`, and it's a constant source of frustration and workarounds. The ability to compare objects by value and use them as reliable map keys would be a huge quality-of-life improvement. While this is based on an older video, the problem it addresses is evergreen. It makes me wonder if this concept is gaining traction in TC39 or if it remains a theoretical solution. It feels like a fundamental missing piece in the language.
+
+Original Link: https://frontendmasters.com/blog/arrays-objects-now-composites/]]></content:encoded>
+            <enclosure url="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/9613" length="0" type="image//blog/wp-json/social-image-generator/v1/image/9613"/>
         </item>
         <item>
             <title><![CDATA[Le:mma Studio: Crafting Cinematic and Emotional Web Experiences]]></title>
@@ -272,6 +311,26 @@ This is a headline-level finding, and frankly, it's unsettling. The fact that AI
 
 Original Link: https://www.microsoft.com/en-us/research/blog/socialreasoning-bench-measuring-whether-ai-agents-act-in-users-best-interests/]]></content:encoded>
             <enclosure url="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/05/SocialReasoningBench-TWLIFB-1200x627-1.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[TanStack Suffers Sophisticated npm Supply-Chain Attack]]></title>
+            <link>https://digestweb.dev/articles/2026-05-11/tanstack-npm-supply-chain-compromise-postmortem</link>
+            <guid>https://digestweb.dev/articles/2026-05-11/tanstack-npm-supply-chain-compromise-postmortem</guid>
+            <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[TanStack details a complex supply-chain compromise affecting 42 of its npm packages, involving GitHub Actions cache poisoning and OIDC token extraction.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The TanStack team published a postmortem detailing a sophisticated supply-chain attack that affected 42 of their npm packages.
+- The attacker exploited a `pull_request_target` Pwn Request and GitHub Actions cache poisoning across fork↔base trust boundaries.
+- OIDC tokens were extracted from runner memory, enabling the publication of 84 malicious versions of `@tanstack/*` packages.
+- The incident highlights critical vulnerabilities in CI/CD pipelines and the npm ecosystem.
+
+## Our Commentary
+
+This is genuinely unsettling. A supply-chain attack of this sophistication, chaining multiple vulnerabilities, is a stark reminder of the fragility of our software dependencies. The fact that OIDC tokens were extracted from runner memory is particularly alarming; it shows attackers are constantly finding new ways to bypass security measures. We rely so heavily on these open-source packages, and incidents like this erode trust. It's a wake-up call for every project maintaining an npm presence to review their CI/CD security, especially around GitHub Actions and token management. The complexity of the attack vectors makes it clear that defending against these threats requires constant vigilance and deep technical understanding.
+
+Original Link: https://tanstack.com/blog/npm-supply-chain-compromise-postmortem]]></content:encoded>
+            <enclosure url="https://tanstack.com/assets/og-C0HGjoLl.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[WebKit Features for Safari 26.5: New CSS, SVG, and Popover APIs]]></title>
