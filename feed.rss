@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Tue, 12 May 2026 09:38:51 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 13 May 2026 04:44:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,306 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Anthropic's Cybersecurity: Building Threat Detection with Claude Code]]></title>
+            <link>https://digestweb.dev/articles/2026-05-12/anthropic-cybersecurity-claude-code-threat-detection</link>
+            <guid>https://digestweb.dev/articles/2026-05-12/anthropic-cybersecurity-claude-code-threat-detection</guid>
+            <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Anthropic's cybersecurity team shares how they developed an internal threat detection platform using their own AI model, Claude Code. This case study highlights practical applications of AI in enterprise security.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Anthropic's cybersecurity team utilized Claude Code to develop a threat detection platform.
+- The article details the process of building this internal tool with their own AI model.
+- It serves as a practical example of AI application in the field of enterprise cybersecurity.
+- The platform aims to enhance the company's ability to identify and respond to security threats.
+
+## Our Commentary
+
+It's always interesting to see AI companies "dogfooding" their own products, especially for critical internal functions like cybersecurity. Using Claude Code to build a threat detection platform is a strong testament to its capabilities, assuming it works well. It makes me wonder about the specific challenges and advantages of using an LLM for such a sensitive and complex task. The potential for AI to augment security teams is huge, but the trust factor is paramount.
+
+Original Link: https://claude.com/blog/how-anthropic-uses-claude-cybersecurity]]></content:encoded>
+            <enclosure url="https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[AutoScout24 Scales Engineering with OpenAI's Codex & ChatGPT]]></title>
+            <link>https://digestweb.dev/articles/2026-05-12/autoscout24-openai-codex-chatgpt-engineering</link>
+            <guid>https://digestweb.dev/articles/2026-05-12/autoscout24-openai-codex-chatgpt-engineering</guid>
+            <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[AutoScout24 Group shares how they leverage OpenAI's Codex and ChatGPT to accelerate development cycles, enhance code quality, and broaden AI adoption across their engineering teams. This showcases practical enterprise AI integration.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- AutoScout24 Group is using OpenAI's Codex and ChatGPT to enhance its engineering operations.
+- The integration aims to speed up development cycles and improve overall code quality.
+- It also focuses on expanding the adoption of AI-powered workflows within the company.
+- This case study demonstrates practical enterprise-level application of AI in software development.
+
+## Our Commentary
+
+This is another solid example of AI moving beyond novelty into core business operations. AutoScout24 using Codex and ChatGPT to "speed development cycles" and "improve code quality" is exactly the kind of impact we expect from these tools. It's encouraging to see real-world evidence of AI's positive influence on developer experience and productivity. We're always keen to see how companies measure these improvements and what specific workflows benefit most.
+
+Original Link: https://openai.com/index/autoscout24]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/10/800/450" length="0" type="image//id/10/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Banish JavaScript to the ShadowRealm: A New API for Isolation]]></title>
+            <link>https://digestweb.dev/articles/2026-05-12/banish-javascript-shadowrealm-api-isolation</link>
+            <guid>https://digestweb.dev/articles/2026-05-12/banish-javascript-shadowrealm-api-isolation</guid>
+            <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[CSS-Tricks explores the upcoming ShadowRealm API, which introduces a new JavaScript realm designed specifically for isolation. This API promises to enhance security and modularity for web developers, particularly in component-based architectures.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article discusses the proposed ShadowRealm API for JavaScript.
+- ShadowRealm introduces a new type of JavaScript realm primarily designed for isolation.
+- This API aims to enhance security and modularity in web development.
+- It will be particularly useful for building robust component libraries and secure environments.
+
+## Our Commentary
+
+The ShadowRealm API is something we've been eagerly anticipating! True JavaScript isolation has been a long-standing challenge, especially for complex applications and component libraries that need to load untrusted code or manage dependencies without interference. The idea of "banishing JavaScript to the ShadowRealm" sounds dramatic, but it's exactly what we need for more resilient and secure web development. This could be a game-changer for frameworks and micro-frontends.
+
+Original Link: https://css-tricks.com/soon-we-can-finally-banish-javascript-to-the-shadowrealm/]]></content:encoded>
+            <enclosure url="https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/04/js-shadow.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Chrome 148: Immediate UI Mode Streamlines Passkey & Password Sign-in]]></title>
+            <link>https://digestweb.dev/articles/2026-05-12/chrome-148-immediate-ui-mode-passkeys-passwords</link>
+            <guid>https://digestweb.dev/articles/2026-05-12/chrome-148-immediate-ui-mode-passkeys-passwords</guid>
+            <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chrome 148 now features "Immediate UI mode" for passkeys and passwords, offering a frictionless credential request experience. This update aims to significantly streamline user sign-in flows on the web.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Chrome 148 introduces a new "Immediate UI mode" for passkeys and passwords.
+- This feature is designed to streamline user sign-in flows.
+- It provides a more frictionless and efficient credential request experience.
+- The update enhances both user experience and security for web authentication.
+
+## Our Commentary
+
+This is a welcome improvement! Anything that makes passkeys and secure sign-in more seamless for users is a win. The "frictionless credential request" sounds like a step towards making passkeys truly ubiquitous and less intimidating for the average user. We've been advocating for better authentication experiences, and this feels like a solid step in the right direction from Chrome.
+
+Original Link: https://developer.chrome.com/blog/webauthn-immediate-ui?hl=en]]></content:encoded>
+            <enclosure url="https://developer.chrome.com/static/blog/webauthn-immediate-ui/image/immediate-mediation-thumb.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Claude Opus 4.7 Fast Mode Now Available on Windsurf]]></title>
+            <link>https://digestweb.dev/articles/2026-05-12/claude-opus-4-7-fast-mode-windsurf</link>
+            <guid>https://digestweb.dev/articles/2026-05-12/claude-opus-4-7-fast-mode-windsurf</guid>
+            <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Windsurf announces the availability of Claude Opus 4.7 in a new "fast mode," offering the full intelligence of the model with approximately 2.5 times higher output speeds. This enhances performance for users on the Windsurf platform.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Claude Opus 4.7 is now available in a "fast mode" on the Windsurf platform.
+- This new mode offers the full intelligence of Opus 4.7.
+- It provides approximately 2.5 times higher output speeds compared to the standard mode.
+- The update aims to enhance the performance and efficiency for users interacting with Claude Opus on Windsurf.
+
+## Our Commentary
+
+Faster AI is almost always better AI, especially for interactive applications. A 2.5x speed increase for Claude Opus 4.7 on Windsurf is a solid improvement for users of that platform. It highlights the ongoing race for both capability and efficiency in the LLM space. While it's a third-party integration, it reflects the broader trend of optimizing model delivery.
+
+Original Link: https://windsurf.com/blog/opus-4.7-fast]]></content:encoded>
+            <enclosure url="https://exafunction.github.io/public/images/blog/opus-4.7-fast/opus-4.7-fast-blog-card.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Dungeons & Desktops: Crafting Roguelikes with GitHub Copilot CLI]]></title>
+            <link>https://digestweb.dev/articles/2026-05-12/dungeons-desktops-github-copilot-cli-roguelike</link>
+            <guid>https://digestweb.dev/articles/2026-05-12/dungeons-desktops-github-copilot-cli-roguelike</guid>
+            <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover how a developer leveraged GitHub Copilot CLI to build an extension that transforms any codebase into a unique, procedurally generated roguelike dungeon. This article highlights the creative potential of AI in development.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article demonstrates a unique application of GitHub Copilot CLI.
+- A developer created an extension that converts any codebase into a procedurally generated roguelike dungeon.
+- This project showcases the creative and generative capabilities of AI in software development.
+- It provides an example of how Copilot CLI can be used for more than just code completion.
+
+## Our Commentary
+
+This is just plain fun! It's easy to get caught up in the serious applications of AI, but seeing something like this reminds us of the sheer creative potential. Using Copilot CLI to turn a codebase into a dungeon is a brilliant, whimsical idea that genuinely makes me want to try it. It's a great example of how AI can augment imagination, not just efficiency.
+
+Original Link: https://github.blog/ai-and-ml/github-copilot/dungeons-desktops-building-a-procedurally-generated-roguelike-with-github-copilot-cli/]]></content:encoded>
+            <enclosure url="https://github.blog/wp-content/uploads/2026/05/586361988-07b052aa-cf75-4102-acfd-bc157c18ba32.gif?fit=1920%2C1080" length="0" type="image/gif"/>
+        </item>
+        <item>
+            <title><![CDATA[Google ADK: Building Long-Running, Context-Aware AI Agents]]></title>
+            <link>https://digestweb.dev/articles/2026-05-12/google-adk-long-running-ai-agents-context</link>
+            <guid>https://digestweb.dev/articles/2026-05-12/google-adk-long-running-ai-agents-context</guid>
+            <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Google's new Agent Development Kit (ADK) enables developers to build production-grade AI agents that maintain context over long-running, multi-day workflows. It leverages durable state machines and persistent storage to overcome the limitations of stateless chatbots.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Google introduces the Agent Development Kit (ADK) for building advanced AI agents.
+- ADK enables the creation of long-running agents that can pause, resume, and retain context over extended periods.
+- It transitions from stateless chatbots to production-grade agents for complex enterprise workflows like HR onboarding.
+- The kit utilizes durable state machines, persistent session storage, event-driven webhooks, and multi-agent delegation for resilience and accuracy.
+
+## Our Commentary
+
+This is a huge step forward for AI agent development! The ability for agents to maintain context over days or weeks, and to "sleep" and "wake up" without losing their train of thought, is a game-changer for real-world enterprise applications. We've seen the limitations of stateless chatbots, and ADK's focus on durable state machines and persistent storage directly addresses that. This could unlock a whole new class of AI-powered workflows that were previously too complex or unreliable. There's something unsettling about agents churning away at 3am while nobody's watching, but the potential for productivity is undeniable.
+
+Original Link: https://developers.googleblog.com/build-long-running-ai-agents-that-pause-resume-and-never-lose-context-with-adk/]]></content:encoded>
+            <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_ffv5cwffv5.2e16d0ba.fill-1200x600.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Microsoft MatterSim: Advancing AI for Materials Science with Multi-Task Models]]></title>
+            <link>https://digestweb.dev/articles/2026-05-12/microsoft-mattersim-ai-materials-science</link>
+            <guid>https://digestweb.dev/articles/2026-05-12/microsoft-mattersim-ai-materials-science</guid>
+            <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Microsoft Research details new advancements in MatterSim, enhancing AI's role in materials science through faster large-scale simulations and the introduction of MatterSim-MT, a multi-task model for broader property simulation. This pushes the boundaries of AI in scientific discovery.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Microsoft Research is advancing AI applications in materials science with MatterSim.
+- New capabilities include significantly faster large-scale simulations.
+- They introduce MatterSim-MT, a new multi-task model.
+- MatterSim-MT can simulate properties beyond just potential energy surfaces, expanding AI's utility in the field.
+
+## Our Commentary
+
+This is a fantastic example of AI's potential beyond general-purpose LLMs. Applying AI to materials science, with faster simulations and multi-task models like MatterSim-MT, could genuinely accelerate scientific discovery and innovation in critical areas. We're talking about potentially designing new materials with unprecedented properties, which has massive implications for everything from energy to manufacturing. It's a reminder that AI's impact will be felt across all scientific disciplines.
+
+Original Link: https://www.microsoft.com/en-us/research/blog/advancing-ai-for-materials-with-mattersim-experimental-synthesis-faster-simulation-and-multi-task-models/]]></content:encoded>
+            <enclosure url="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/05/MatterSimv1_5-TWLIFB-1200x627-1-scaled.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[NVIDIA Engineers & Researchers Build with OpenAI Codex & GPT-5.5]]></title>
+            <link>https://digestweb.dev/articles/2026-05-12/nvidia-openai-codex-gpt-5-5-development</link>
+            <guid>https://digestweb.dev/articles/2026-05-12/nvidia-openai-codex-gpt-5-5-development</guid>
+            <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI highlights how NVIDIA teams are utilizing Codex alongside GPT-5.5 to ship production systems and rapidly transform research ideas into runnable experiments. This demonstrates advanced AI integration in a leading tech company.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- NVIDIA engineers and researchers are actively using OpenAI's Codex and GPT-5.5.
+- These AI tools help them ship production systems more efficiently.
+- They also enable the rapid conversion of research ideas into runnable experiments.
+- The collaboration showcases advanced AI integration within a major technology company.
+
+## Our Commentary
+
+This is a significant endorsement for OpenAI's models. NVIDIA, being at the forefront of AI hardware and research, using Codex and GPT-5.5 for their own development speaks volumes. It suggests these tools are robust enough for serious production and research workflows, not just casual coding assistance. We're particularly interested in how they're "turning research ideas into runnable experiments" – that's where AI could truly accelerate scientific discovery.
+
+Original Link: https://openai.com/index/nvidia]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/463/800/450" length="0" type="image//id/463/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[The Compounding Power of Open Model Ecosystems: Insights from China]]></title>
+            <link>https://digestweb.dev/articles/2026-05-12/open-model-ecosystems-compounding-china-ai</link>
+            <guid>https://digestweb.dev/articles/2026-05-12/open-model-ecosystems-compounding-china-ai</guid>
+            <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Nathan Lambert explores how open model ecosystems grow and compound, offering further reflections on China's high-participation, open-first AI development environment. The article delves into the unique dynamics of such systems.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article provides reflections on the compounding effects within open model ecosystems.
+- It specifically examines China's AI ecosystem, characterized by high participation and an open-first approach.
+- The author analyzes the unique dynamics and growth patterns observed in these environments.
+- It offers insights into how open collaboration can accelerate AI development and innovation.
+
+## Our Commentary
+
+This is a really important topic. The "open-first" approach, especially in a high-participation environment like China's, could fundamentally reshape the global AI landscape. We've seen the power of open-source in traditional software, and understanding how that compounds in the rapidly evolving AI space is crucial. It makes me wonder if the West's more closed, corporate-led AI development will eventually be outpaced by these more collaborative, distributed models.
+
+Original Link: https://www.interconnects.ai/p/how-open-model-ecosystems-compound]]></content:encoded>
+            <enclosure url="https://substackcdn.com/image/fetch/$s_!KSVU!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F39c7cc76-02ac-4c38-bbab-7d89dca53d0b_3182x1790.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Codex: Empowering Finance Teams with AI-Assisted Workflows]]></title>
+            <link>https://digestweb.dev/articles/2026-05-12/openai-codex-finance-teams-workflows</link>
+            <guid>https://digestweb.dev/articles/2026-05-12/openai-codex-finance-teams-workflows</guid>
+            <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI showcases how finance teams can utilize Codex to generate MBRs, reporting packs, variance bridges, and planning scenarios from real-world inputs. This article highlights AI's practical applications in financial operations.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI demonstrates how finance teams can use Codex for various tasks.
+- Codex assists in building MBRs (Monthly Business Reviews), reporting packs, and variance bridges.
+- It also helps in performing model checks and creating planning scenarios.
+- The article emphasizes using Codex with real work inputs to streamline financial operations.
+
+## Our Commentary
+
+It's interesting to see AI, specifically Codex, being applied to the finance sector. While the examples given (MBRs, reporting packs) sound like tasks ripe for automation, the real challenge will be ensuring accuracy and auditability in such a critical domain. We're curious about the level of human oversight required and how these AI-generated outputs integrate into existing financial systems. The potential for efficiency gains is clear, but the stakes are incredibly high.
+
+Original Link: https://openai.com/academy/codex-for-work/how-finance-teams-use-codex]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/547/800/450" length="0" type="image//id/547/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Parameter Golf: Lessons from AI-Assisted Machine Learning Research]]></title>
+            <link>https://digestweb.dev/articles/2026-05-12/openai-parameter-golf-ai-assisted-research</link>
+            <guid>https://digestweb.dev/articles/2026-05-12/openai-parameter-golf-ai-assisted-research</guid>
+            <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI reflects on the "Parameter Golf" challenge, which engaged over 1,000 participants in exploring AI-assisted machine learning research, coding agents, and novel model design under strict constraints. The article shares key learnings from this large-scale initiative.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI's "Parameter Golf" challenge involved over 1,000 participants and 2,000 submissions.
+- The initiative explored various aspects of AI-assisted machine learning research.
+- Key areas included coding agents, quantization, and novel model design under strict constraints.
+- The article shares the lessons learned from this large-scale, collaborative research effort.
+
+## Our Commentary
+
+This sounds like a fascinating experiment! "Parameter Golf" is a clever way to gamify and crowdsource insights into AI-assisted research. The sheer scale of participation and submissions suggests a strong community interest in pushing the boundaries of what AI can do for scientific discovery. We're particularly intrigued by the findings on "coding agents" and "novel model design under strict constraints" – these are areas where AI could truly unlock new paradigms. It's a great example of how OpenAI is fostering collaborative research.
+
+Original Link: https://openai.com/index/what-parameter-golf-taught-us]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/750/800/450" length="0" type="image//id/750/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Repeating Square Dot Backgrounds: A CSS Tutorial]]></title>
+            <link>https://digestweb.dev/articles/2026-05-12/repeating-square-dots-backgrounds-css-tutorial</link>
+            <guid>https://digestweb.dev/articles/2026-05-12/repeating-square-dots-backgrounds-css-tutorial</guid>
+            <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This Frontend Masters tutorial explores various CSS techniques to create repeating square dot background effects. Learn how to draw small square dots within a larger area and achieve visually appealing dotted patterns.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The tutorial focuses on creating repeating square dot backgrounds using CSS.
+- It demonstrates multiple techniques to achieve this visual effect.
+- The core idea involves drawing a small square dot within a slightly larger area.
+- This method allows for the creation of appealing dotted background patterns.
+
+## Our Commentary
+
+Sometimes it's the simple, elegant CSS tricks that make the biggest difference in design. This tutorial sounds like a great way to add subtle texture and visual interest to web pages without relying on images or complex JavaScript. We always appreciate practical, well-explained CSS techniques that can be immediately applied. It's a good reminder that the fundamentals of design and implementation are still incredibly valuable.
+
+Original Link: https://frontendmasters.com/blog/repeating-square-dots-backgrounds-in-css/]]></content:encoded>
+            <enclosure url="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/9617" length="0" type="image//blog/wp-json/social-image-generator/v1/image/9617"/>
+        </item>
+        <item>
+            <title><![CDATA[Sustained Attention & Revision: The Human Element Beyond LLMs]]></title>
+            <link>https://digestweb.dev/articles/2026-05-12/sustained-attention-revision-human-llms</link>
+            <guid>https://digestweb.dev/articles/2026-05-12/sustained-attention-revision-human-llms</guid>
+            <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Robin Rendle reflects on writing as a process of sustained attention and revision, arguing that while LLMs can mimic output, they cannot replicate the transformative human experience of creation. The piece emphasizes the value of deep engagement with language.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article explores writing as a process of sustained attention and endurance, not just sentence production.
+- It argues that LLMs can reproduce the _appearance_ of writing but not the transformative learning that occurs during its making.
+- The author emphasizes the importance of moving through language without an AI intermediary.
+- Revision is presented as an act of generously imagining and "revising up" the reader, which in turn elevates the writer.
+
+## Our Commentary
+
+This piece really resonates with me. In an age where AI can churn out text at an alarming rate, it's crucial to remember what makes human creation valuable. The idea that writing is "the training of endurance by way of sustained attention" and that revision is about "revising your reader up" is a beautiful and profound counter-narrative to the instant gratification promised by AI tools. It's a reminder that the _process_ is often as important as the product, and that's something AI can't yet replicate.
+
+Original Link: https://robinrendle.com/notes/sustained-attention-revision/]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/913/800/450" length="0" type="image//id/913/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[TanStack's Post-Compromise Hardening: Lessons from the npm Attack]]></title>
+            <link>https://digestweb.dev/articles/2026-05-12/tanstack-npm-compromise-hardening-security-measures</link>
+            <guid>https://digestweb.dev/articles/2026-05-12/tanstack-npm-compromise-hardening-security-measures</guid>
+            <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[TanStack details the organizational and technical changes implemented after the May 11 npm supply-chain attack to prevent similar incidents. This article serves as a crucial postmortem companion, outlining enhanced security protocols.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- TanStack is implementing significant changes following a supply-chain attack on npm on May 11.
+- The article serves as a companion to their incident postmortem, focusing on preventative measures.
+- It outlines organizational and technical adjustments to prevent similar security breaches in the future.
+- The goal is to harden their systems and processes against supply-chain vulnerabilities.
+
+## Our Commentary
+
+This is a critical read for any project maintainer or developer concerned about supply-chain security. The fact that a major framework like TanStack was hit underscores the pervasive threat. We appreciate the transparency in sharing their hardening strategies; it's a valuable contribution to collective security knowledge. It's a stark reminder that even well-maintained projects are vulnerable, and continuous vigilance is paramount.
+
+Original Link: https://tanstack.com/blog/incident-followup]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/812/800/450" length="0" type="image//id/812/800/450"/>
+        </item>
         <item>
             <title><![CDATA[ChatGPT Adoption Surges in Early 2026, Reaching Broader Demographics]]></title>
             <link>https://digestweb.dev/articles/2026-05-11/chatgpt-adoption-broadens-2026</link>
