@@ -11,6 +11,18 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-05-13/bun-v1-3-14-image-api-http3-faster-installs",
+            "content_html": "## Summary & Key Takeaways\n\n- Bun v1.3.14 addresses 92 issues and introduces a new `Bun.Image` built-in image processing API.\n- Warm installs are now 7x faster due to an isolated linker's global store.\n- Experimental HTTP/2 and HTTP/3 clients are available for `fetch()`, and HTTP/3 (QUIC) is supported in `Bun.serve()`.\n- The `fs.watch()` implementation has been rewritten for Linux and macOS, improving reliability.\n- Other additions include the `--no-orphans` CLI flag, `process.execve()`, `Bun.Terminal` on Windows via ConPTY, and builds for FreeBSD and Android.\n- The release also features a shared SSL_CTX cache, smaller binaries, and numerous bugfixes and Node.js compatibility improvements.\n\n## Our Commentary\n\nThis Bun release is absolutely stacked. The `Bun.Image` API is a huge surprise and a genuinely exciting addition, potentially simplifying image manipulation workflows significantly within the Bun ecosystem. And 7x faster warm installs? That's a game-changer for developer experience, especially in CI/CD environments. The experimental HTTP/2 and HTTP/3 support also shows Bun's ambition to be at the forefront of web technology. It feels like Bun is not just catching up but actively innovating and pushing the boundaries of what a JavaScript runtime can be. We're seeing a rapid evolution here that keeps us on our toes.\n\nOriginal Link: https://bun.com/blog/bun-v1.3.14",
+            "url": "https://digestweb.dev/articles/2026-05-13/bun-v1-3-14-image-api-http3-faster-installs",
+            "title": "Bun v1.3.14: Image API, HTTP/3, and 7x Faster Installs",
+            "summary": "Bun's latest release introduces a built-in image processing API, experimental HTTP/2 and HTTP/3 clients, and dramatically speeds up warm installs.",
+            "image": "https://picsum.photos/id/552/800/450",
+            "date_modified": "2026-05-13T00:00:00.000Z",
+            "author": {
+                "name": "Jarred Sumner"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-05-12/anthropic-cybersecurity-claude-code-threat-detection",
             "content_html": "## Summary & Key Takeaways\n\n- Anthropic's cybersecurity team utilized Claude Code to develop a threat detection platform.\n- The article details the process of building this internal tool with their own AI model.\n- It serves as a practical example of AI application in the field of enterprise cybersecurity.\n- The platform aims to enhance the company's ability to identify and respond to security threats.\n\n## Our Commentary\n\nIt's always interesting to see AI companies \"dogfooding\" their own products, especially for critical internal functions like cybersecurity. Using Claude Code to build a threat detection platform is a strong testament to its capabilities, assuming it works well. It makes me wonder about the specific challenges and advantages of using an LLM for such a sensitive and complex task. The potential for AI to augment security teams is huge, but the trust factor is paramount.\n\nOriginal Link: https://claude.com/blog/how-anthropic-uses-claude-cybersecurity",
             "url": "https://digestweb.dev/articles/2026-05-12/anthropic-cybersecurity-claude-code-threat-detection",
@@ -62,6 +74,15 @@
             "title": "Dungeons & Desktops: Crafting Roguelikes with GitHub Copilot CLI",
             "summary": "Discover how a developer leveraged GitHub Copilot CLI to build an extension that transforms any codebase into a unique, procedurally generated roguelike dungeon. This article highlights the creative potential of AI in development.",
             "image": "https://github.blog/wp-content/uploads/2026/05/586361988-07b052aa-cf75-4102-acfd-bc157c18ba32.gif?fit=1920%2C1080",
+            "date_modified": "2026-05-12T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-12/finance-teams-use-codex-reporting-planning",
+            "content_html": "## Summary & Key Takeaways\n\n- The article demonstrates how finance teams can integrate OpenAI's Codex into their workflows.\n- Codex can assist in generating various financial documents and analyses.\n- Specific applications include building Monthly Business Reviews (MBRs) and comprehensive reporting packs.\n- Finance professionals can also use Codex to create variance bridges and perform model checks.\n- The tool facilitates the development of planning scenarios based on real-world financial inputs.\n\n## Our Commentary\n\nIt's interesting to see specific, practical applications of AI in specialized fields like finance. While Codex isn't the newest model, this article highlights the enduring value of AI for automating repetitive, data-intensive tasks. It's a good reminder that the real power of these tools often lies in their integration into existing workflows, even if the underlying tech isn't cutting-edge. We're seeing more and more of these targeted applications, which is a positive sign for AI adoption beyond just chatbots.\n\nOriginal Link: https://openai.com/academy/how-finance-teams-use-codex",
+            "url": "https://digestweb.dev/articles/2026-05-12/finance-teams-use-codex-reporting-planning",
+            "title": "Finance Teams Leverage Codex for Reporting & Planning",
+            "summary": "Explore how finance professionals can utilize OpenAI's Codex to automate the creation of MBRs, reporting packs, and complex financial models.",
+            "image": "https://picsum.photos/id/129/800/450",
             "date_modified": "2026-05-12T00:00:00.000Z"
         },
         {

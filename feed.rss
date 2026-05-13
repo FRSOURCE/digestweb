@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Wed, 13 May 2026 04:44:56 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 13 May 2026 09:49:19 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,28 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Bun v1.3.14: Image API, HTTP/3, and 7x Faster Installs]]></title>
+            <link>https://digestweb.dev/articles/2026-05-13/bun-v1-3-14-image-api-http3-faster-installs</link>
+            <guid>https://digestweb.dev/articles/2026-05-13/bun-v1-3-14-image-api-http3-faster-installs</guid>
+            <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Bun's latest release introduces a built-in image processing API, experimental HTTP/2 and HTTP/3 clients, and dramatically speeds up warm installs.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Bun v1.3.14 addresses 92 issues and introduces a new `Bun.Image` built-in image processing API.
+- Warm installs are now 7x faster due to an isolated linker's global store.
+- Experimental HTTP/2 and HTTP/3 clients are available for `fetch()`, and HTTP/3 (QUIC) is supported in `Bun.serve()`.
+- The `fs.watch()` implementation has been rewritten for Linux and macOS, improving reliability.
+- Other additions include the `--no-orphans` CLI flag, `process.execve()`, `Bun.Terminal` on Windows via ConPTY, and builds for FreeBSD and Android.
+- The release also features a shared SSL_CTX cache, smaller binaries, and numerous bugfixes and Node.js compatibility improvements.
+
+## Our Commentary
+
+This Bun release is absolutely stacked. The `Bun.Image` API is a huge surprise and a genuinely exciting addition, potentially simplifying image manipulation workflows significantly within the Bun ecosystem. And 7x faster warm installs? That's a game-changer for developer experience, especially in CI/CD environments. The experimental HTTP/2 and HTTP/3 support also shows Bun's ambition to be at the forefront of web technology. It feels like Bun is not just catching up but actively innovating and pushing the boundaries of what a JavaScript runtime can be. We're seeing a rapid evolution here that keeps us on our toes.
+
+Original Link: https://bun.com/blog/bun-v1.3.14]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/552/800/450" length="0" type="image//id/552/800/450"/>
+        </item>
         <item>
             <title><![CDATA[Anthropic's Cybersecurity: Building Threat Detection with Claude Code]]></title>
             <link>https://digestweb.dev/articles/2026-05-12/anthropic-cybersecurity-claude-code-threat-detection</link>
@@ -134,6 +156,27 @@ This is just plain fun! It's easy to get caught up in the serious applications o
 
 Original Link: https://github.blog/ai-and-ml/github-copilot/dungeons-desktops-building-a-procedurally-generated-roguelike-with-github-copilot-cli/]]></content:encoded>
             <enclosure url="https://github.blog/wp-content/uploads/2026/05/586361988-07b052aa-cf75-4102-acfd-bc157c18ba32.gif?fit=1920%2C1080" length="0" type="image/gif"/>
+        </item>
+        <item>
+            <title><![CDATA[Finance Teams Leverage Codex for Reporting & Planning]]></title>
+            <link>https://digestweb.dev/articles/2026-05-12/finance-teams-use-codex-reporting-planning</link>
+            <guid>https://digestweb.dev/articles/2026-05-12/finance-teams-use-codex-reporting-planning</guid>
+            <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore how finance professionals can utilize OpenAI's Codex to automate the creation of MBRs, reporting packs, and complex financial models.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article demonstrates how finance teams can integrate OpenAI's Codex into their workflows.
+- Codex can assist in generating various financial documents and analyses.
+- Specific applications include building Monthly Business Reviews (MBRs) and comprehensive reporting packs.
+- Finance professionals can also use Codex to create variance bridges and perform model checks.
+- The tool facilitates the development of planning scenarios based on real-world financial inputs.
+
+## Our Commentary
+
+It's interesting to see specific, practical applications of AI in specialized fields like finance. While Codex isn't the newest model, this article highlights the enduring value of AI for automating repetitive, data-intensive tasks. It's a good reminder that the real power of these tools often lies in their integration into existing workflows, even if the underlying tech isn't cutting-edge. We're seeing more and more of these targeted applications, which is a positive sign for AI adoption beyond just chatbots.
+
+Original Link: https://openai.com/academy/how-finance-teams-use-codex]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/129/800/450" length="0" type="image//id/129/800/450"/>
         </item>
         <item>
             <title><![CDATA[Google ADK: Building Long-Running, Context-Aware AI Agents]]></title>
