@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-05-14T04:44:13.373Z</updated>
+    <updated>2026-05-14T09:35:55.416Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -56,6 +56,28 @@ Original Link: https://bun.com/blog/bun-v1.3.14]]></content>
 We always appreciate a good, practical CSS tutorial that goes beyond the basics. Crafting unique UI elements like callouts with leader lines can often feel like a hacky process, but this article seems to offer a clean, modern approach using properties like `offset-path`. It's a great reminder that mastering CSS isn't just about knowing properties, but about creatively combining them to achieve specific design goals. This kind of detailed breakdown is super helpful for front-end developers looking to elevate their UI game.
 
 Original Link: https://frontendmasters.com/blog/callout-ui-with-css-offset-border/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Datasette Launches Dedicated Blog]]></title>
+        <id>https://digestweb.dev/articles/2026-05-13/datasette-launches-dedicated-blog</id>
+        <link href="https://digestweb.dev/articles/2026-05-13/datasette-launches-dedicated-blog"/>
+        <updated>2026-05-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison announces the launch of a new, dedicated blog for Datasette, his open-source tool for exploring and publishing data. This move aims to provide a focused platform for project updates, tutorials, and community news.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison has launched a dedicated blog for Datasette, his popular open-source tool.
+- The new blog will serve as a central hub for official project announcements, updates, and tutorials.
+- This initiative aims to foster a more focused community around Datasette and its ecosystem.
+- Content will likely include deep dives into Datasette features, use cases, and related data tools.
+
+## Our Commentary
+
+We're genuinely excited to see Datasette get its own dedicated space. Simon Willison's personal blog is a treasure trove, but having a focused platform for Datasette means easier access to project-specific news and deeper dives. It's a smart move for community building and discoverability. We anticipate this will make it even easier for new users to get started and for existing users to stay up-to-date with this incredibly useful tool for data exploration. It also signals continued investment in the project, which is always great to see in the open-source world.
+
+Original Link: https://simonwillison.net/2026/May/13/welcome-to-the-datasette-blog/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Exploring the HTML-in-Canvas Proposal]]></title>

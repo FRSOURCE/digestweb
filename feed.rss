@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Thu, 14 May 2026 04:44:13 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 May 2026 09:35:55 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -56,6 +56,26 @@ We always appreciate a good, practical CSS tutorial that goes beyond the basics.
 
 Original Link: https://frontendmasters.com/blog/callout-ui-with-css-offset-border/]]></content:encoded>
             <enclosure url="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/9632" length="0" type="image//blog/wp-json/social-image-generator/v1/image/9632"/>
+        </item>
+        <item>
+            <title><![CDATA[Datasette Launches Dedicated Blog]]></title>
+            <link>https://digestweb.dev/articles/2026-05-13/datasette-launches-dedicated-blog</link>
+            <guid>https://digestweb.dev/articles/2026-05-13/datasette-launches-dedicated-blog</guid>
+            <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison announces the launch of a new, dedicated blog for Datasette, his open-source tool for exploring and publishing data. This move aims to provide a focused platform for project updates, tutorials, and community news.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison has launched a dedicated blog for Datasette, his popular open-source tool.
+- The new blog will serve as a central hub for official project announcements, updates, and tutorials.
+- This initiative aims to foster a more focused community around Datasette and its ecosystem.
+- Content will likely include deep dives into Datasette features, use cases, and related data tools.
+
+## Our Commentary
+
+We're genuinely excited to see Datasette get its own dedicated space. Simon Willison's personal blog is a treasure trove, but having a focused platform for Datasette means easier access to project-specific news and deeper dives. It's a smart move for community building and discoverability. We anticipate this will make it even easier for new users to get started and for existing users to stay up-to-date with this incredibly useful tool for data exploration. It also signals continued investment in the project, which is always great to see in the open-source world.
+
+Original Link: https://simonwillison.net/2026/May/13/welcome-to-the-datasette-blog/#atom-everything]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/297/800/450" length="0" type="image//id/297/800/450"/>
         </item>
         <item>
             <title><![CDATA[Exploring the HTML-in-Canvas Proposal]]></title>

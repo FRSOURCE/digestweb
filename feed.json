@@ -32,6 +32,18 @@
             "date_modified": "2026-05-13T00:00:00.000Z"
         },
         {
+            "id": "https://digestweb.dev/articles/2026-05-13/datasette-launches-dedicated-blog",
+            "content_html": "## Summary & Key Takeaways\n\n- Simon Willison has launched a dedicated blog for Datasette, his popular open-source tool.\n- The new blog will serve as a central hub for official project announcements, updates, and tutorials.\n- This initiative aims to foster a more focused community around Datasette and its ecosystem.\n- Content will likely include deep dives into Datasette features, use cases, and related data tools.\n\n## Our Commentary\n\nWe're genuinely excited to see Datasette get its own dedicated space. Simon Willison's personal blog is a treasure trove, but having a focused platform for Datasette means easier access to project-specific news and deeper dives. It's a smart move for community building and discoverability. We anticipate this will make it even easier for new users to get started and for existing users to stay up-to-date with this incredibly useful tool for data exploration. It also signals continued investment in the project, which is always great to see in the open-source world.\n\nOriginal Link: https://simonwillison.net/2026/May/13/welcome-to-the-datasette-blog/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-05-13/datasette-launches-dedicated-blog",
+            "title": "Datasette Launches Dedicated Blog",
+            "summary": "Simon Willison announces the launch of a new, dedicated blog for Datasette, his open-source tool for exploring and publishing data. This move aims to provide a focused platform for project updates, tutorials, and community news.",
+            "image": "https://picsum.photos/id/297/800/450",
+            "date_modified": "2026-05-13T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-05-13/exploring-html-in-canvas-proposal",
             "content_html": "## Summary & Key Takeaways\n\n- The article explores the HTML-in-Canvas proposal, a new web platform feature.\n- It details how the proposal works under the hood.\n- The post highlights the new capabilities and use cases that HTML-in-Canvas enables.\n- Practical demonstrations are included to illustrate its potential.\n\n## Our Commentary\n\nThis proposal feels like a game-changer for interactive web experiences, especially for complex UIs or games that need to blend the power of canvas rendering with the flexibility and accessibility of standard HTML. We've seen many attempts to bridge this gap, but a native browser solution could be truly transformative. I'm particularly interested in how this might simplify development for tools that currently rely on custom rendering engines or complex DOM-to-canvas conversions. The performance implications and accessibility considerations will be key to its adoption, but the potential is huge.\n\nOriginal Link: https://tympanus.net/codrops/2026/05/13/exploring-the-html-in-canvas-proposal/",
             "url": "https://digestweb.dev/articles/2026-05-13/exploring-html-in-canvas-proposal",
