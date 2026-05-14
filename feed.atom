@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-05-13T09:49:19.599Z</updated>
+    <updated>2026-05-14T04:44:13.373Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -37,6 +37,120 @@ Original Link: https://bun.com/blog/bun-v1.3.14]]></content>
         <author>
             <name>Jarred Sumner</name>
         </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Crafting Callout UI with CSS Offset & Border]]></title>
+        <id>https://digestweb.dev/articles/2026-05-13/crafting-callout-ui-css-offset-border</id>
+        <link href="https://digestweb.dev/articles/2026-05-13/crafting-callout-ui-css-offset-border"/>
+        <updated>2026-05-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn to design elegant callout UI elements using advanced CSS techniques, including leader lines and text boxes, by leveraging properties like `offset-path` and creative border usage.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article focuses on designing callout UI elements using CSS.
+- It demonstrates how to incorporate leader lines and text boxes into these elements.
+- The tutorial details setting up the necessary HTML structure.
+- It explains the utilization of various CSS properties, including `offset-path` and creative border applications.
+
+## Our Commentary
+
+We always appreciate a good, practical CSS tutorial that goes beyond the basics. Crafting unique UI elements like callouts with leader lines can often feel like a hacky process, but this article seems to offer a clean, modern approach using properties like `offset-path`. It's a great reminder that mastering CSS isn't just about knowing properties, but about creatively combining them to achieve specific design goals. This kind of detailed breakdown is super helpful for front-end developers looking to elevate their UI game.
+
+Original Link: https://frontendmasters.com/blog/callout-ui-with-css-offset-border/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exploring the HTML-in-Canvas Proposal]]></title>
+        <id>https://digestweb.dev/articles/2026-05-13/exploring-html-in-canvas-proposal</id>
+        <link href="https://digestweb.dev/articles/2026-05-13/exploring-html-in-canvas-proposal"/>
+        <updated>2026-05-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dive into the HTML-in-Canvas proposal, understanding its mechanics and the new possibilities it unlocks for web development, complete with practical demonstrations.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article explores the HTML-in-Canvas proposal, a new web platform feature.
+- It details how the proposal works under the hood.
+- The post highlights the new capabilities and use cases that HTML-in-Canvas enables.
+- Practical demonstrations are included to illustrate its potential.
+
+## Our Commentary
+
+This proposal feels like a game-changer for interactive web experiences, especially for complex UIs or games that need to blend the power of canvas rendering with the flexibility and accessibility of standard HTML. We've seen many attempts to bridge this gap, but a native browser solution could be truly transformative. I'm particularly interested in how this might simplify development for tools that currently rely on custom rendering engines or complex DOM-to-canvas conversions. The performance implications and accessibility considerations will be key to its adoption, but the potential is huge.
+
+Original Link: https://tympanus.net/codrops/2026/05/13/exploring-the-html-in-canvas-proposal/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GridSFM: A Small AI Foundation Model for Electric Grid Optimization]]></title>
+        <id>https://digestweb.dev/articles/2026-05-13/gridsfm-ai-foundation-model-electric-grid-optimization</id>
+        <link href="https://digestweb.dev/articles/2026-05-13/gridsfm-ai-foundation-model-electric-grid-optimization"/>
+        <updated>2026-05-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft Research unveils GridSFM, a compact foundation model capable of predicting AC optimal power flow in milliseconds, enhancing electric grid efficiency, reducing costs, and providing operators with crucial insights into system health.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Microsoft Research introduces GridSFM, a new small foundation model.
+- GridSFM is designed to predict AC optimal power flow in milliseconds.
+- This capability boosts efficiency and unlocks cost savings for electric grids.
+- The model provides grid operators with direct visibility into congestion, stability, and system health.
+
+## Our Commentary
+
+This is a fantastic example of AI moving beyond general-purpose LLMs and into highly specialized, impactful applications. Optimizing the electric grid is a massive, complex problem with direct societal benefits, from reducing energy waste to preventing blackouts. The idea of a 'small foundation model' tailored for this specific domain is intriguing; it suggests a future where AI isn't just about scale, but about precision and domain expertise. We love seeing AI applied to critical infrastructure, and GridSFM feels like a genuinely important step forward.
+
+Original Link: https://www.microsoft.com/en-us/research/blog/gridsfm-a-new-small-foundation-model-for-the-electric-grid/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[mimalloc: Microsoft's High-Performance Memory Allocator]]></title>
+        <id>https://digestweb.dev/articles/2026-05-13/mimalloc-microsoft-high-performance-memory-allocator</id>
+        <link href="https://digestweb.dev/articles/2026-05-13/mimalloc-microsoft-high-performance-memory-allocator"/>
+        <updated>2026-05-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft Research introduces mimalloc, an open-source, scalable memory allocator designed for modern systems, offering superior performance, bounded allocation times, and minimal contention as a drop-in replacement for malloc.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- mimalloc is a new open-source, high-performance, and scalable memory allocator from Microsoft Research.
+- It serves as a drop-in replacement for standard `malloc` and `free` functions.
+- The allocator is relatively small, with clear internal data structures, and is easy to integrate.
+- It provides bounded worst-case allocation times and space overhead, low internal fragmentation, and minimal contention through atomic operations.
+
+## Our Commentary
+
+Memory allocators are one of those foundational pieces of software that most developers never think about, but they have a massive impact on performance. A drop-in replacement like mimalloc, especially one from Microsoft Research with these performance claims, is genuinely exciting. The focus on bounded allocation times and low contention is particularly appealing for high-performance systems and concurrent applications. We're always looking for ways to squeeze more performance out of our systems, and low-level optimizations like this can have a ripple effect across the entire software stack.
+
+Original Link: https://www.microsoft.com/en-us/research/blog/mimalloc-a-high-performance-scalable-memory-allocator-for-the-modern-era/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI's Secure Sandbox for Codex on Windows]]></title>
+        <id>https://digestweb.dev/articles/2026-05-13/openai-secure-sandbox-codex-windows</id>
+        <link href="https://digestweb.dev/articles/2026-05-13/openai-secure-sandbox-codex-windows"/>
+        <updated>2026-05-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI details the engineering behind building a secure and efficient sandbox for its Codex AI on Windows, ensuring controlled file access and network restrictions for coding agents.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI developed a secure sandbox specifically for its Codex AI on Windows.
+- The sandbox aims to enable safe and efficient operation of coding agents.
+- Key features include controlled file access and network restrictions.
+- This engineering effort addresses the challenges of deploying powerful AI agents in sensitive environments.
+
+## Our Commentary
+
+This is a crucial piece of the puzzle for deploying AI agents responsibly. The idea of an AI agent with system access, even for coding, without robust sandboxing is frankly unsettling. OpenAI's focus on controlled file access and network restrictions shows a necessary commitment to safety. It highlights the complex engineering required to move AI from research labs to practical, secure applications. We'll see more of this as agents become more capable and integrated into our workflows; security by design is paramount.
+
+Original Link: https://openai.com/index/building-codex-windows-sandbox]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Practical UI Patterns for AI Transparency (Part 2)]]></title>
+        <id>https://digestweb.dev/articles/2026-05-13/practical-ui-patterns-ai-transparency-part-2</id>
+        <link href="https://digestweb.dev/articles/2026-05-13/practical-ui-patterns-ai-transparency-part-2"/>
+        <updated>2026-05-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article explores why conventional loading indicators are insufficient for agentic AI experiences and proposes new interface patterns to enhance transparency, reveal system processes, and foster user trust.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Traditional loading patterns like spinners are inadequate for agentic AI experiences.
+- The article advocates for interface patterns that reveal the AI system's process, status, and decision-making.
+- Such transparent patterns are crucial for improving user trust and understanding.
+- It provides practical guidance for designing more informative AI interfaces.
+
+## Our Commentary
+
+This is a topic we've been thinking a lot about. As AI agents become more autonomous, the black box problem becomes a major UX challenge. Spinners just don't cut it when an AI is making complex decisions or performing multi-step tasks. We need interfaces that give users a window into the AI's 'mind' – its progress, its reasoning, and its current state. This article's focus on practical patterns for transparency is incredibly valuable. Building trust in AI isn't just about performance; it's about making the invisible visible, and that's a design problem we're all grappling with.
+
+Original Link: https://smashingmagazine.com/2026/05/practical-interface-patterns-ai-transparency/]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Anthropic's Cybersecurity: Building Threat Detection with Claude Code]]></title>
