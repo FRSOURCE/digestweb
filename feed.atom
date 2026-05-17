@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-05-16T08:49:07.716Z</updated>
+    <updated>2026-05-17T04:54:33.859Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,65 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Recent LLM Architecture Developments: Reducing Long-Context Costs]]></title>
+        <id>https://digestweb.dev/articles/2026-05-16/llm-architecture-developments-long-context-costs</id>
+        <link href="https://digestweb.dev/articles/2026-05-16/llm-architecture-developments-long-context-costs"/>
+        <updated>2026-05-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article delves into recent advancements in large language model (LLM) architectures, focusing on techniques like KV Sharing, mHC, and Compressed Attention. These innovations are crucial for reducing the computational costs associated with processing long contexts in new open-weight LLMs such as Gemma 4 and DeepSeek V4.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article discusses recent technical developments in large language model (LLM) architectures.
+- It highlights techniques like KV Sharing, multi-head compression (mHC), and Compressed Attention.
+- These advancements are primarily aimed at reducing the computational costs associated with processing long contexts in LLMs.
+- The improvements are relevant to new open-weight LLMs, including Gemma 4 and DeepSeek V4.
+- The focus is on making LLMs more efficient, especially when handling extensive input sequences.
+
+This is the kind of deep-dive we love to see. The constant innovation in LLM architectures, particularly around long-context efficiency, is critical. It's not just about bigger models, but smarter ones. Techniques like KV Sharing and Compressed Attention are the unsung heroes making these models practical for real-world applications. It's a reminder that the underlying engineering is just as exciting as the headline-grabbing model releases. This work directly impacts the capabilities and cost-effectiveness of future AI systems.
+
+Original Link: https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures]]></content>
+        <author>
+            <name>Sebastian Raschka</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Open Model Bonanza: Gemma 4, DeepSeek V4, and More Lead New LLM Wave]]></title>
+        <id>https://digestweb.dev/articles/2026-05-16/open-model-bonanza-gemma-4-deepseek-v4-new-llm-wave</id>
+        <link href="https://digestweb.dev/articles/2026-05-16/open-model-bonanza-gemma-4-deepseek-v4-new-llm-wave"/>
+        <updated>2026-05-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article details a flurry of new open-source LLM releases, highlighting major updates like Google's Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5, and GLM-5.1. It also touches on CAISI's V4 assessment, showcasing rapid advancements in the open AI landscape.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The latest "Open Artifacts" roundup highlights a significant wave of new open-source large language model (LLM) releases.
+- Key releases include Google's Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5, and GLM-5.1.
+- The article notes an "open model bonanza," indicating a rapid pace of development and availability in the open AI ecosystem.
+- It also mentions an assessment by CAISI on V4 models, suggesting ongoing evaluation of these new advancements.
+
+This is a big deal for the open-source AI community. The sheer number of significant releases in a short period is astounding. It feels like we're seeing an acceleration, with major players like Google pushing their open models further. This competition is fantastic for innovation and accessibility, but it also means keeping up is a full-time job. We're genuinely excited to see what developers build with these new tools.
+
+Original Link: https://www.interconnects.ai/p/latest-open-artifacts-21-open-model]]></content>
+        <author>
+            <name>Nathan Lambert</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Partners with Malta to Offer ChatGPT Plus and AI Training to All Citizens]]></title>
+        <id>https://digestweb.dev/articles/2026-05-16/openai-malta-partnership-chatgpt-plus-ai-training</id>
+        <link href="https://digestweb.dev/articles/2026-05-16/openai-malta-partnership-chatgpt-plus-ai-training"/>
+        <updated>2026-05-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI has announced a partnership with the government of Malta to provide all its citizens with access to ChatGPT Plus and comprehensive AI training. This initiative aims to expand AI access, foster practical AI skills, and promote responsible AI usage across the nation.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI has formed a partnership with the government of Malta.
+- This collaboration aims to expand access to artificial intelligence for all Maltese citizens.
+- The partnership includes providing free access to ChatGPT Plus, OpenAI's premium AI service.
+- Citizens will also receive training to help them build practical AI skills.
+- The initiative emphasizes the importance of using AI responsibly.
+
+This is a fascinating move. A whole country getting ChatGPT Plus and AI training is a bold step towards national AI literacy. It's a huge experiment in democratizing access to advanced AI tools and skills. We're curious to see the long-term impact on Malta's economy and education system. It also raises questions about digital divides and how other nations might follow suit, or if this sets a precedent for AI companies partnering directly with governments on such a large scale.
+
+Original Link: https://openai.com/index/malta-chatgpt-plus-partnership]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ChatGPT Introduces AI-Powered Personal Finance Experience]]></title>
         <id>https://digestweb.dev/articles/2026-05-15/chatgpt-personal-finance-experience</id>

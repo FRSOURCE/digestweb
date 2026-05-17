@@ -11,6 +11,39 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-05-16/llm-architecture-developments-long-context-costs",
+            "content_html": "## Summary & Key Takeaways\n\n- The article discusses recent technical developments in large language model (LLM) architectures.\n- It highlights techniques like KV Sharing, multi-head compression (mHC), and Compressed Attention.\n- These advancements are primarily aimed at reducing the computational costs associated with processing long contexts in LLMs.\n- The improvements are relevant to new open-weight LLMs, including Gemma 4 and DeepSeek V4.\n- The focus is on making LLMs more efficient, especially when handling extensive input sequences.\n\nThis is the kind of deep-dive we love to see. The constant innovation in LLM architectures, particularly around long-context efficiency, is critical. It's not just about bigger models, but smarter ones. Techniques like KV Sharing and Compressed Attention are the unsung heroes making these models practical for real-world applications. It's a reminder that the underlying engineering is just as exciting as the headline-grabbing model releases. This work directly impacts the capabilities and cost-effectiveness of future AI systems.\n\nOriginal Link: https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
+            "url": "https://digestweb.dev/articles/2026-05-16/llm-architecture-developments-long-context-costs",
+            "title": "Recent LLM Architecture Developments: Reducing Long-Context Costs",
+            "summary": "This article delves into recent advancements in large language model (LLM) architectures, focusing on techniques like KV Sharing, mHC, and Compressed Attention. These innovations are crucial for reducing the computational costs associated with processing long contexts in new open-weight LLMs such as Gemma 4 and DeepSeek V4.",
+            "image": "https://substackcdn.com/image/fetch/$s_!6wCM!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2b841d26-5b2d-4be9-9710-d89d4f023f0c_1600x900.png",
+            "date_modified": "2026-05-16T00:00:00.000Z",
+            "author": {
+                "name": "Sebastian Raschka"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-16/open-model-bonanza-gemma-4-deepseek-v4-new-llm-wave",
+            "content_html": "## Summary & Key Takeaways\n\n- The latest \"Open Artifacts\" roundup highlights a significant wave of new open-source large language model (LLM) releases.\n- Key releases include Google's Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5, and GLM-5.1.\n- The article notes an \"open model bonanza,\" indicating a rapid pace of development and availability in the open AI ecosystem.\n- It also mentions an assessment by CAISI on V4 models, suggesting ongoing evaluation of these new advancements.\n\nThis is a big deal for the open-source AI community. The sheer number of significant releases in a short period is astounding. It feels like we're seeing an acceleration, with major players like Google pushing their open models further. This competition is fantastic for innovation and accessibility, but it also means keeping up is a full-time job. We're genuinely excited to see what developers build with these new tools.\n\nOriginal Link: https://www.interconnects.ai/p/latest-open-artifacts-21-open-model",
+            "url": "https://digestweb.dev/articles/2026-05-16/open-model-bonanza-gemma-4-deepseek-v4-new-llm-wave",
+            "title": "Open Model Bonanza: Gemma 4, DeepSeek V4, and More Lead New LLM Wave",
+            "summary": "This article details a flurry of new open-source LLM releases, highlighting major updates like Google's Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5, and GLM-5.1. It also touches on CAISI's V4 assessment, showcasing rapid advancements in the open AI landscape.",
+            "image": "https://substackcdn.com/image/fetch/$s_!S79s!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff60acac9-5993-474e-84f9-8805792bddef_1024x576.jpeg",
+            "date_modified": "2026-05-16T00:00:00.000Z",
+            "author": {
+                "name": "Nathan Lambert"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-16/openai-malta-partnership-chatgpt-plus-ai-training",
+            "content_html": "## Summary & Key Takeaways\n\n- OpenAI has formed a partnership with the government of Malta.\n- This collaboration aims to expand access to artificial intelligence for all Maltese citizens.\n- The partnership includes providing free access to ChatGPT Plus, OpenAI's premium AI service.\n- Citizens will also receive training to help them build practical AI skills.\n- The initiative emphasizes the importance of using AI responsibly.\n\nThis is a fascinating move. A whole country getting ChatGPT Plus and AI training is a bold step towards national AI literacy. It's a huge experiment in democratizing access to advanced AI tools and skills. We're curious to see the long-term impact on Malta's economy and education system. It also raises questions about digital divides and how other nations might follow suit, or if this sets a precedent for AI companies partnering directly with governments on such a large scale.\n\nOriginal Link: https://openai.com/index/malta-chatgpt-plus-partnership",
+            "url": "https://digestweb.dev/articles/2026-05-16/openai-malta-partnership-chatgpt-plus-ai-training",
+            "title": "OpenAI Partners with Malta to Offer ChatGPT Plus and AI Training to All Citizens",
+            "summary": "OpenAI has announced a partnership with the government of Malta to provide all its citizens with access to ChatGPT Plus and comprehensive AI training. This initiative aims to expand AI access, foster practical AI skills, and promote responsible AI usage across the nation.",
+            "image": "https://picsum.photos/id/296/800/450",
+            "date_modified": "2026-05-16T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-05-15/chatgpt-personal-finance-experience",
             "content_html": "## Summary & Key Takeaways\n\n- ChatGPT is previewing a new personal finance experience for Pro users in the U.S.\n- Users can securely connect their financial accounts to the platform.\n- The feature offers AI-powered insights and guidance tailored to individual financial context, goals, and priorities.\n- This marks a significant expansion of ChatGPT's capabilities into sensitive and personalized domains.\n\nThis is a huge move for ChatGPT, pushing it into a highly sensitive and impactful domain. Connecting financial accounts to an LLM raises immediate questions about security, privacy, and the reliability of AI-generated financial advice. While the potential for personalized insights is immense, the stakes are incredibly high. We're watching closely to see how OpenAI addresses the inherent risks and builds trust in such a critical application. It feels like a bold step, but one that demands extreme caution and transparency.\n\nOriginal Link: https://openai.com/index/personal-finance-chatgpt",
             "url": "https://digestweb.dev/articles/2026-05-15/chatgpt-personal-finance-experience",
