@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-05-17T04:54:33.859Z</updated>
+    <updated>2026-05-18T05:07:17.716Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,69 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Achieving Better Fluid Sizing with the CSS `round()` Function]]></title>
+        <id>https://digestweb.dev/articles/2026-05-17/css-fluid-sizing-round-function-ahmad-shadeed</id>
+        <link href="https://digestweb.dev/articles/2026-05-17/css-fluid-sizing-round-function-ahmad-shadeed"/>
+        <updated>2026-05-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ahmad Shadeed's article delves into leveraging the CSS `round()` function to create more precise and robust fluid sizing for responsive web designs, offering practical examples and insights.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article by Ahmad Shadeed explores the CSS `round()` function for enhancing fluid sizing in web design.
+- It demonstrates how `round()` can be used to snap fluid values to specific increments, improving visual consistency.
+- This technique helps prevent undesirable fractional pixel values and creates more predictable responsive layouts.
+- The post likely provides practical examples and use cases for integrating `round()` with other CSS functions like `clamp()` or `calc()`.
+
+## Our Commentary
+
+Ahmad Shadeed consistently delivers high-quality, practical CSS insights, and this article on `round()` for fluid sizing is no exception. We've been excited about the new CSS Math Functions, and `round()` is a powerful tool for designers and developers looking to achieve pixel-perfect (or rather, increment-perfect) fluid layouts. It addresses a common pain point in responsive design where values can become unpredictable. This kind of granular control is exactly what we need to push the boundaries of what's possible with CSS alone, reducing reliance on JavaScript for layout precision.
+
+Original Link: https://ishadeed.com/article/css-round/]]></content>
+        <author>
+            <name>Ahmad Shadeed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GDS Criticizes NHS Retreat from Open Source Software]]></title>
+        <id>https://digestweb.dev/articles/2026-05-17/gds-criticizes-nhs-open-source-retreat</id>
+        <link href="https://digestweb.dev/articles/2026-05-17/gds-criticizes-nhs-open-source-retreat"/>
+        <updated>2026-05-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison's blog post discusses the UK Government Digital Service's (GDS) reaction to the National Health Service's (NHS) decision to scale back its commitment to open-source software, highlighting potential implications.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison's article covers the UK Government Digital Service's (GDS) perspective on the National Health Service's (NHS) decision to reduce its reliance on open-source software.
+- The GDS's input likely highlights concerns or disagreements with the NHS's policy shift.
+- The discussion touches upon the broader implications for public sector technology strategy and the open-source ecosystem.
+- The article probably analyzes the reasons behind the NHS's retreat and the potential consequences for innovation, cost, and transparency.
+
+## Our Commentary
+
+This is a genuinely concerning development, and Simon Willison's coverage of the GDS's stance is crucial. The NHS retreating from open source feels like a step backward, especially when the benefits of transparency, community contribution, and cost-effectiveness are so well-documented. We've seen the GDS champion open standards and open source for years, so their criticism here carries significant weight. It makes us wonder about the underlying reasons for the NHS's decision – is it perceived security risks, vendor lock-in pressures, or a misunderstanding of open-source models? This isn't just about software; it's about public trust, accountability, and the future of digital public services. We hope this isn't a trend, as the public sector has so much to gain from embracing open principles.
+
+Original Link: https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TanStack AI Achieves Full AG-UI Compliance for Bidirectional Communication]]></title>
+        <id>https://digestweb.dev/articles/2026-05-17/tanstack-ai-full-ag-ui-compliance-bidirectional-communication</id>
+        <link href="https://digestweb.dev/articles/2026-05-17/tanstack-ai-full-ag-ui-compliance-bidirectional-communication"/>
+        <updated>2026-05-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TanStack AI now supports full client-to-server AG-UI compliance, completing the round trip for server-to-client events and ensuring robust bidirectional communication.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- TanStack AI has achieved full compliance with the AG-UI specification.
+- This update enables complete client-to-server communication, complementing existing server-to-client event handling.
+- The new compliance ensures a robust, bidirectional data flow for AI-driven user interfaces.
+- The update is fully backward compatible, ensuring seamless integration for existing TanStack AI users.
+
+## Our Commentary
+
+This is a significant step for TanStack AI, completing the loop for AG-UI. While the specifics of AG-UI aren't detailed here, achieving full bidirectional compliance suggests a more mature and capable framework for building AI-powered user interfaces. We're seeing more and more frameworks bake AI capabilities directly into their core offerings, and TanStack's commitment here is a strong signal. It makes us wonder how quickly AG-UI will become a de-facto standard for AI-driven UI interactions. The backward compatibility is a welcome detail, making adoption easier.
+
+Original Link: https://tanstack.com/blog/ag-ui-compliance]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Recent LLM Architecture Developments: Reducing Long-Context Costs]]></title>
         <id>https://digestweb.dev/articles/2026-05-16/llm-architecture-developments-long-context-costs</id>
