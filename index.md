@@ -20,9 +20,17 @@ const sorted = computed(() =>
   })
 )
 
-const latestDate = computed(() =>
-  articles.map(a => String(a.date).slice(0, 10)).filter(Boolean).sort().at(-1) ?? null
-)
+const targetDate = computed(() => {
+  const now = new Date()
+  const d = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()))
+  if (now.getUTCHours() < 8) d.setUTCDate(d.getUTCDate() - 1)
+  return d.toISOString().slice(0, 10)
+})
+
+const latestDate = computed(() => {
+  const dates = articles.map(a => String(a.date).slice(0, 10)).filter(Boolean).sort()
+  return dates.includes(targetDate.value) ? targetDate.value : (dates.at(-1) ?? null)
+})
 
 const filtered = computed(() => {
   let result = sorted.value
