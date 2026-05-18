@@ -14,19 +14,23 @@ Respond ONLY with a JSON array, same length and order as the input:
   { "id": N, "significance": 1|2|3|4, "reason": "...", "title": "...", "description": "...", "slug": "...", "tags": [...], "summarySection": "...", "commentarySection": "..." }
 
 Significance scale:
-  0 = skip — patch-only releases, link dumps, marketing, already-covered rehash
+  0 = skip — patch-only releases, link dumps, marketing, already-covered rehash, duplicated article
   1 = mention — minor release, niche article, tangential to mainstream web dev or AI, beginner-level article
   2 = highlight — notable minor release, good tutorial, community news
   3 = feature — major release with new features, significant web-platform addition, influential deep-dive
   4 = headline — landmark release, paradigm shift, Stage 3/4 TC39 proposal shipping, ecosystem-wide impact
 
+Field rules:
+  id     - same as input
+  reason - why this significance was chosen
+
 Field rules (significance >= 1 only):
   title         — clean, engaging, max 80 chars
-  description   — 1–2 sentences
+  description   — 1–2 sentences; clean description, article teaser
   slug          — kebab-case, max 80 chars
   tags          — 1–4 items from allowed vocabulary; allowed tags: ${TAG_VOCABULARY.join(', ')}
-  summarySection   — markdown for "## Summary & Key Takeaways"; use bullet points; concise; one sentence per bullet point; max 8 bullet points; start with "## Summary & Key Takeaways"; summarise the article key points - present the article; do not refer users to just read the article - don't use something like "users should review the blog post"; don't invent what the article is about - if something is missing from the provided content, fetch the article via its url
-  commentarySection — markdown for "## Our Commentary"; always start with "## Our Commentary"; max 600 chars; Don't just report facts - react to them. "I genuinely don't know how to feel about this" is more human than neutrally listing pros and cons; Vary your rhythm. Short punchy sentences. Mix it up.; use "I" when it fits. First person isn't unprofessional - it's honest.; Let some mess in. Perfect structure feels algorithmic. Tangents, asides, and half-formed thoughts are human.; Be specific about feelings. Not "this is concerning" but "there's something unsettling about agents churning away at 3am while nobody's watching."; Write as plural, using "we" or "digestweb" when appropriate.; Problem: LLM writing puffs up importance by adding statements about how arbitrary aspects represent or contribute to a broader topic. Words to watch: stands/serves as, is a testament/reminder, a vital/significant/crucial/pivotal/key role/moment, underscores/highlights its importance/significance, reflects broader, symbolizing its ongoing/enduring/lasting, contributing to the, setting the stage for, marking/shaping the, represents/marks a shift, key turning point, evolving landscape, focal point, indelible mark, deeply rooted
+  summarySection   — use markdown; summary and key takeaways from the article; use bullet points; concise; one sentence per bullet point; max 8 bullet points; summarise the article key points - present the article; do not refer users to just read the article - don't use something like "users should review the blog post"; don't invent what the article is about - if something is missing from the provided content, fetch the article via its url
+  commentarySection — use markdown; our commentary for the article; max 600 chars; Don't just report facts - react to them. "I genuinely don't know how to feel about this" is more human than neutrally listing pros and cons; Vary your rhythm. Short punchy sentences. Mix it up.; Let some mess in. Perfect structure feels algorithmic. Tangents, asides, and half-formed thoughts are human; Be specific about feelings. Not "this is concerning" but "there's something unsettling about agents churning away at 3am while nobody's watching."; Act as the collective 'we' of digestweb, but use 'I' for strong personal opinions, First person isn't unprofessional - it's honest.; Problem: LLM writing puffs up importance by adding statements about how arbitrary aspects represent or contribute to a broader topic. Words to watch: stands/serves as, is a testament/reminder, a vital/significant/crucial/pivotal/key role/moment, underscores/highlights its importance/significance, reflects broader, symbolizing its ongoing/enduring/lasting, contributing to the, setting the stage for, marking/shaping the, represents/marks a shift, key turning point, evolving landscape, focal point, indelible mark, deeply rooted
 `;
 
 const GEMINI_TIMEOUT_MS = 10 * 60 * 1000;
@@ -52,7 +56,14 @@ export async function judgeAllWithGemini(
   );
 
   const result = await Promise.race([
-    model.generateContent(JSON.stringify(candidates)),
+    model.generateContent({
+      contents: [
+        {
+          role: 'user',
+          parts: [{ text: JSON.stringify(candidates) }],
+        },
+      ],
+    }),
     timeoutPromise,
   ]);
   return JSON.parse(result.response.text()) as CandidateResult[];

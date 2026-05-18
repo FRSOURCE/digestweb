@@ -88,7 +88,11 @@ tags: [${tags}]
 significance: ${judgment.significance}
 ---
 
+## Summary & Key Takeaways
+
 ${judgment.summarySection}
+
+## Our Commentary
 
 ${judgment.commentarySection}
 `;
