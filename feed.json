@@ -11,6 +11,18 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-05-19/last-six-months-llms-five-minute-expert-overview",
+            "content_html": "## Summary & Key Takeaways\n\nThe article provides a concise overview of major developments in large language models over the past six months.\n\n- Key trends include the significant progress and increasing adoption of open-source LLMs.\n- Advancements in multimodal AI, integrating text with images and other data types, are highlighted.\n- The evolution of prompt engineering techniques and Retrieval Augmented Generation (RAG) for better model performance is discussed.\n- The growing interest and practical applications of AI agents are noted.\n- Ongoing discussions around AI safety, ethics, and regulatory frameworks are also covered.\n- The piece emphasizes the rapid innovation and increasing accessibility within the LLM ecosystem.\n\n## Our Commentary\n\nKeeping pace with the LLM landscape feels like a full-time job, so a '5-minute' expert summary from Simon Willison is an absolute godsend. He consistently cuts through the noise, offering grounded insights into what truly matters. I particularly appreciate how he distills complex trends like the rise of open-source models and agentic AI into digestible points. This isn't just a recap; it's a compass for navigating the next six months. It's a reminder that while the hype cycle spins, real, impactful progress is happening at an astonishing rate.\n\nOriginal Link: https://simonwillison.net/2026/May/19/5-minute-llms/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-05-19/last-six-months-llms-five-minute-expert-overview",
+            "title": "The Last Six Months in LLMs: A Five-Minute Expert Overview",
+            "summary": "Simon Willison provides a concise yet comprehensive summary of the most significant advancements and trends in large language models over the past six months. This article offers a rapid update on the evolving AI landscape.",
+            "image": "https://static.simonwillison.net/static/2026/5-minutes-llms/5-minutes-llms.001.jpeg",
+            "date_modified": "2026-05-19T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-05-18/cross-document-view-transitions-hidden-gotchas",
             "content_html": "## Summary & Key Takeaways\n\n- This article is the first part of a two-part series on cross-document View Transitions.\n- It focuses on the less-discussed \"gotchas\" and challenges developers might face.\n- Topics include moving away from deprecated methods for opting into View Transitions.\n- It also highlights a little-known 4-second timeout that can affect transitions.\n- The article aims to provide practical insights for implementing this new web platform feature effectively.\n\n## Our Commentary\n\nView Transitions are one of the most exciting new features on the web platform, but like any powerful tool, they come with their own set of quirks. This article from CSS-Tricks is exactly what we need – a practical guide that goes beyond the basics and dives into the real-world \"gotchas.\" The mention of a 4-second timeout is particularly intriguing; these are the kinds of details that can save developers hours of debugging. I'm really looking forward to the second part of this series, as mastering cross-document transitions will be key to building truly seamless web experiences.\n\nOriginal Link: https://css-tricks.com/cross-document-view-transitions-part-1/",
             "url": "https://digestweb.dev/articles/2026-05-18/cross-document-view-transitions-hidden-gotchas",
