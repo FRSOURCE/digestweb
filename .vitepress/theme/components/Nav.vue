@@ -44,6 +44,10 @@ import Filter from './Filter.vue';
 import DatePicker from './DatePicker.vue';
 import Button from './Button.vue';
 
+const props = defineProps<{
+  initialDate?: string;
+}>();
+
 const { params } = useData();
 
 const sortedDates = computed(() => {
@@ -57,7 +61,10 @@ const sortedDates = computed(() => {
 
 const effectiveDate = computed(
   () =>
-    (params.value?.date as string | undefined) ?? sortedDates.value[0] ?? null,
+    props.initialDate ??
+    (params.value?.date as string | undefined) ??
+    sortedDates.value[0] ??
+    null,
 );
 
 const currentIndex = computed(() =>

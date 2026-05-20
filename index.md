@@ -23,7 +23,7 @@ const sorted = computed(() =>
 const targetDate = computed(() => {
   const now = new Date()
   const d = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()))
-  if (now.getUTCHours() < 8) d.setUTCDate(d.getUTCDate() - 1)
+  d.setUTCDate(d.getUTCDate() - 1)
   return d.toISOString().slice(0, 10)
 })
 
@@ -44,7 +44,7 @@ const filtered = computed(() => {
 })
 </script>
 
-<Nav class="mb-5" />
+<Nav class="mb-5" :initial-date="latestDate" />
 
 <div class="flex flex-col gap-4 sm:gap-6 lg:min-h-[400px]">
   <p v-if="!filtered.length" class="text-dw-muted text-[0.9rem] py-8 text-center">
