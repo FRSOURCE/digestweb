@@ -11,6 +11,15 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-05-20/claude-code-html-unreasonable-effectiveness",
+            "content_html": "## Summary & Key Takeaways\n\n- Claude Code demonstrates HTML's utility for structured output.\n- HTML's declarative nature simplifies AI-generated UI.\n- It provides a robust, widely understood format for AI agents.\n- The article showcases examples of AI generating complex HTML structures.\n- This approach reduces the need for custom UI frameworks in some AI applications.\n\n## Our Commentary\n\nThis is a fascinating angle. I've seen AI struggle with complex UI frameworks, but HTML? That's a solid, universal target. It makes me wonder if we're overcomplicating things sometimes. The idea of AI just spitting out clean HTML for a quick interface feels... right. It's a pragmatic approach.\n\nOriginal Link: https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html",
+            "url": "https://digestweb.dev/articles/2026-05-20/claude-code-html-unreasonable-effectiveness",
+            "title": "Claude Code: HTML's Unreasonable Effectiveness for AI",
+            "summary": "This article from the Claude blog delves into how HTML, often seen as a simple markup language, proves surprisingly powerful and effective when used in conjunction with AI code generation. It highlights its utility for structured output and UI.",
+            "image": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg",
+            "date_modified": "2026-05-20T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-05-19/chrome-declarative-partial-updates-streaming",
             "content_html": "## Summary & Key Takeaways\n\n- Chrome 148 introduces declarative partial updates.\n- New out-of-order streaming capabilities are available.\n- HTML insertion and streaming methods are renewed.\n- These features are available for testing now.\n\n## Our Commentary\n\nDeclarative partial updates and out-of-order streaming sound like a big deal for perceived performance and initial load times. We've been chasing these kinds of optimizations for years. It's good to see the browser platform itself providing more native ways to handle dynamic content efficiently. This could simplify a lot of client-side hydration logic.\n\nOriginal Link: https://developer.chrome.com/blog/declarative-partial-updates?hl=en",
             "url": "https://digestweb.dev/articles/2026-05-19/chrome-declarative-partial-updates-streaming",
@@ -45,6 +54,18 @@
             "summary": "Una Kravets introduces `border-shape`, an upcoming CSS primitive that defines custom shapes for element borders, simplifying complex non-standard designs.",
             "image": "https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/9739",
             "date_modified": "2026-05-19T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-19/gemini-3-5-flash-google-widespread-adoption",
+            "content_html": "## Summary & Key Takeaways\n\n- Google introduces Gemini 3.5 Flash, a new LLM.\n- The model is noted for its potential cost implications.\n- Google reportedly plans extensive integration of 3.5 Flash across its ecosystem.\n- This suggests a strategic shift in Google's LLM deployment.\n- The article speculates on the implications of this widespread use.\n\n## Our Commentary\n\nGemini 3.5 Flash, huh? \"More expensive, but Google plans to use it for everything.\" That's a statement. It makes me wonder about the trade-offs. Are they pushing for a unified, powerful backend, even if it costs more? Or is the \"more expensive\" part relative to older, less capable models? This feels like a big internal bet for Google.\n\nOriginal Link: https://simonwillison.net/2026/May/19/gemini-35-flash/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-05-19/gemini-3-5-flash-google-widespread-adoption",
+            "title": "Gemini 3.5 Flash: Google's New Model & Widespread Adoption Plans",
+            "summary": "Simon Willison reports on Gemini 3.5 Flash, a new model from Google. While potentially more expensive, Google reportedly intends to integrate this model across a vast array of its services and products.",
+            "image": "https://static.simonwillison.net/static/2026/gemini-3.5-flash.png",
+            "date_modified": "2026-05-19T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
         },
         {
             "id": "https://digestweb.dev/articles/2026-05-19/google-ai-edge-gallery-mcp-sessions",
@@ -155,6 +176,15 @@
             "title": "OpenAI Advances Content Provenance with New Tools",
             "summary": "OpenAI introduces Content Credentials, SynthID, and a verification tool to enhance content provenance, aiming for a safer and more transparent AI ecosystem.",
             "image": "https://picsum.photos/id/648/800/450",
+            "date_modified": "2026-05-19T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-19/openai-launches-ai-partnership-singapore",
+            "content_html": "## Summary & Key Takeaways\n\n- OpenAI initiates a multi-year AI partnership in Singapore.\n- The collaboration focuses on expanding AI deployment across sectors.\n- It aims to build local AI talent and expertise.\n- The initiative will support Singaporean businesses and public services.\n- This partnership represents a strategic regional expansion for OpenAI.\n\n## Our Commentary\n\nRegional expansions like this are always interesting. It's not a new model, but it shows how these companies are embedding themselves globally. I wonder what specific local challenges they're hoping to solve. It feels like a smart move for talent acquisition and market penetration.\n\nOriginal Link: https://openai.com/index/introducing-openai-for-singapore",
+            "url": "https://digestweb.dev/articles/2026-05-19/openai-launches-ai-partnership-singapore",
+            "title": "OpenAI Launches Multi-Year AI Partnership in Singapore",
+            "summary": "OpenAI has announced a new multi-year partnership in Singapore, aiming to expand AI deployment, cultivate local talent, and support both businesses and public services with advanced AI solutions.",
+            "image": "https://picsum.photos/id/671/800/450",
             "date_modified": "2026-05-19T00:00:00.000Z"
         },
         {

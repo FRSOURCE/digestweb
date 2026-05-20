@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Wed, 20 May 2026 05:05:29 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 20 May 2026 07:34:12 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,27 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Claude Code: HTML's Unreasonable Effectiveness for AI]]></title>
+            <link>https://digestweb.dev/articles/2026-05-20/claude-code-html-unreasonable-effectiveness</link>
+            <guid>https://digestweb.dev/articles/2026-05-20/claude-code-html-unreasonable-effectiveness</guid>
+            <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This article from the Claude blog delves into how HTML, often seen as a simple markup language, proves surprisingly powerful and effective when used in conjunction with AI code generation. It highlights its utility for structured output and UI.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Claude Code demonstrates HTML's utility for structured output.
+- HTML's declarative nature simplifies AI-generated UI.
+- It provides a robust, widely understood format for AI agents.
+- The article showcases examples of AI generating complex HTML structures.
+- This approach reduces the need for custom UI frameworks in some AI applications.
+
+## Our Commentary
+
+This is a fascinating angle. I've seen AI struggle with complex UI frameworks, but HTML? That's a solid, universal target. It makes me wonder if we're overcomplicating things sometimes. The idea of AI just spitting out clean HTML for a quick interface feels... right. It's a pragmatic approach.
+
+Original Link: https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html]]></content:encoded>
+            <enclosure url="https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg" length="0" type="image/jpg"/>
+        </item>
         <item>
             <title><![CDATA[Declarative Partial Updates & Out-of-Order Streaming in Chrome 148]]></title>
             <link>https://digestweb.dev/articles/2026-05-19/chrome-declarative-partial-updates-streaming</link>
@@ -94,6 +115,27 @@ Original Link: https://claude.com/blog/claude-managed-agents-updates]]></content
 
 Original Link: https://frontendmasters.com/blog/border-shape/]]></content:encoded>
             <enclosure url="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/9739" length="0" type="image//blog/wp-json/social-image-generator/v1/image/9739"/>
+        </item>
+        <item>
+            <title><![CDATA[Gemini 3.5 Flash: Google's New Model & Widespread Adoption Plans]]></title>
+            <link>https://digestweb.dev/articles/2026-05-19/gemini-3-5-flash-google-widespread-adoption</link>
+            <guid>https://digestweb.dev/articles/2026-05-19/gemini-3-5-flash-google-widespread-adoption</guid>
+            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison reports on Gemini 3.5 Flash, a new model from Google. While potentially more expensive, Google reportedly intends to integrate this model across a vast array of its services and products.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Google introduces Gemini 3.5 Flash, a new LLM.
+- The model is noted for its potential cost implications.
+- Google reportedly plans extensive integration of 3.5 Flash across its ecosystem.
+- This suggests a strategic shift in Google's LLM deployment.
+- The article speculates on the implications of this widespread use.
+
+## Our Commentary
+
+Gemini 3.5 Flash, huh? "More expensive, but Google plans to use it for everything." That's a statement. It makes me wonder about the trade-offs. Are they pushing for a unified, powerful backend, even if it costs more? Or is the "more expensive" part relative to older, less capable models? This feels like a big internal bet for Google.
+
+Original Link: https://simonwillison.net/2026/May/19/gemini-35-flash/#atom-everything]]></content:encoded>
+            <enclosure url="https://static.simonwillison.net/static/2026/gemini-3.5-flash.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Google AI Edge Gallery: MCP Integration & Persistent Sessions]]></title>
@@ -343,6 +385,27 @@ Content provenance is one of the most critical challenges facing AI right now. O
 
 Original Link: https://openai.com/index/advancing-content-provenance]]></content:encoded>
             <enclosure url="https://picsum.photos/id/648/800/450" length="0" type="image//id/648/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Launches Multi-Year AI Partnership in Singapore]]></title>
+            <link>https://digestweb.dev/articles/2026-05-19/openai-launches-ai-partnership-singapore</link>
+            <guid>https://digestweb.dev/articles/2026-05-19/openai-launches-ai-partnership-singapore</guid>
+            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI has announced a new multi-year partnership in Singapore, aiming to expand AI deployment, cultivate local talent, and support both businesses and public services with advanced AI solutions.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI initiates a multi-year AI partnership in Singapore.
+- The collaboration focuses on expanding AI deployment across sectors.
+- It aims to build local AI talent and expertise.
+- The initiative will support Singaporean businesses and public services.
+- This partnership represents a strategic regional expansion for OpenAI.
+
+## Our Commentary
+
+Regional expansions like this are always interesting. It's not a new model, but it shows how these companies are embedding themselves globally. I wonder what specific local challenges they're hoping to solve. It feels like a smart move for talent acquisition and market penetration.
+
+Original Link: https://openai.com/index/introducing-openai-for-singapore]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/671/800/450" length="0" type="image//id/671/800/450"/>
         </item>
         <item>
             <title><![CDATA[Building Shader.se: WebGPU, React Three Fiber & Scroll-Driven Transitions]]></title>
