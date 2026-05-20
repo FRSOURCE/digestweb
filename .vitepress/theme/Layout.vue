@@ -90,6 +90,23 @@ const navItems = [
     >
       <ThemeToggle class="!hidden lg:!inline-flex" />
       <Button
+        href="https://www.frsource.org/blog/sponsoring"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="h-full raised-5 items-center rounded-xl bg-dw-bg inline-flex items-center gap-2"
+        title="Support us"
+      >
+        <div class="text-right leading-tight">
+          <span class="block text-[.65rem] lg:text-[.7rem] text-dw-muted"
+            >Support us</span
+          >
+          <span class="text-[.8rem] font-bold text-dw-primary tracking-wider"
+            >Sponsor</span
+          >
+        </div>
+        <span class="text-xl leading-none">🤝</span>
+      </Button>
+      <Button
         href="https://www.frsource.org"
         target="_blank"
         rel="noopener noreferrer"
