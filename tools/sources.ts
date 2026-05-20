@@ -1,6 +1,7 @@
 import * as cheerio from 'cheerio';
-import type { FeedItem } from './types.ts';
+import { fetchFeed } from './feed.ts';
 import type { TAG_VOCABULARY } from './tags.ts';
+import type { FeedItem } from './types.ts';
 
 const fetchPage = async (url: string) => {
   const controller = new AbortController();
@@ -370,8 +371,43 @@ export const sources: Source[] = [
     name: 'TC39 Proposals (commits)',
     category: 'web-platform',
     tags: ['javascript', 'web-platform'],
-    feed: 'https://github.com/tc39/proposals/commits.atom',
     homeUrl: 'https://github.com/tc39/proposals',
+    feed: async () => {
+      const items = await fetchFeed(
+        'https://github.com/tc39/proposals/commits.atom',
+      );
+
+      const stage4Items = items.filter((item) => /stage\s*4/i.test(item.title));
+
+      if (stage4Items.length === 0) return [];
+
+      const byDate = new Map<string, FeedItem[]>();
+      for (const item of stage4Items) {
+        const date = item.isoDate.slice(0, 10);
+        if (!byDate.has(date)) byDate.set(date, []);
+        // eslint-disable-next-line @typescript-eslint/no-non-null-assertion -- just set above
+        byDate.get(date)!.push(item);
+      }
+
+      return Array.from(byDate.entries()).map(([date, dayItems]) => {
+        const lines = dayItems
+          .map((item) => {
+            const name = item.title
+              .replace(/\bto\s+stage\s+4\b.*/i, '')
+              .replace(/^\s*move\s+/i, '')
+              .trim();
+            return `- ${name}: ${item.link}`;
+          })
+          .join('\n');
+
+        return {
+          title: 'TC39 Stage 4 Proposals Update',
+          link: dayItems[0].link,
+          isoDate: dayItems[0].isoDate,
+          content: `TC39 proposals promoted to Stage 4 on ${date}:\n${lines}`,
+        };
+      });
+    },
   },
 
   // Influential People
