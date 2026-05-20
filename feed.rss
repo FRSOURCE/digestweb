@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Tue, 19 May 2026 22:01:41 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 20 May 2026 05:05:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,251 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Declarative Partial Updates & Out-of-Order Streaming in Chrome 148]]></title>
+            <link>https://digestweb.dev/articles/2026-05-19/chrome-declarative-partial-updates-streaming</link>
+            <guid>https://digestweb.dev/articles/2026-05-19/chrome-declarative-partial-updates-streaming</guid>
+            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chrome 148 introduces declarative partial updates, bringing new out-of-order streaming capabilities and renewed HTML insertion methods for testing.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Chrome 148 introduces declarative partial updates.
+- New out-of-order streaming capabilities are available.
+- HTML insertion and streaming methods are renewed.
+- These features are available for testing now.
+
+## Our Commentary
+
+Declarative partial updates and out-of-order streaming sound like a big deal for perceived performance and initial load times. We've been chasing these kinds of optimizations for years. It's good to see the browser platform itself providing more native ways to handle dynamic content efficiently. This could simplify a lot of client-side hydration logic.
+
+Original Link: https://developer.chrome.com/blog/declarative-partial-updates?hl=en]]></content:encoded>
+            <enclosure url="https://developer.chrome.com/static/blog/declarative-partial-updates/image/thumbnail.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Chrome DevTools for Agents 1.0: AI Coding Workflow Streamlined]]></title>
+            <link>https://digestweb.dev/articles/2026-05-19/chrome-devtools-for-agents-v1-ai-workflow</link>
+            <guid>https://digestweb.dev/articles/2026-05-19/chrome-devtools-for-agents-v1-ai-workflow</guid>
+            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chrome DevTools for agents 1.0 provides essential visibility for coding agents to verify, debug, and optimize code directly within the browser.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Chrome DevTools for agents 1.0 is now available.
+- It provides visibility for coding agents to verify code.
+- Agents can debug and optimize code in real time.
+- This tool aims to streamline AI coding workflows.
+
+## Our Commentary
+
+DevTools for _agents_? This is wild. It's a clear signal that AI isn't just a helper anymore; it's becoming an active participant in the development loop. I'm curious how much control we'll have over these agents and what "debugging" an agent's code verification process even looks like. This feels like a big step into uncharted territory.
+
+Original Link: https://developer.chrome.com/blog/devtools-for-agents-v1?hl=en]]></content:encoded>
+            <enclosure url="https://developer.chrome.com/static/blog/devtools-for-agents-v1/img/cd4a-hero.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Claude Managed Agents: Self-Hosted Sandboxes & MCP Tunnels]]></title>
+            <link>https://digestweb.dev/articles/2026-05-19/claude-managed-agents-sandboxes-mcp-tunnels</link>
+            <guid>https://digestweb.dev/articles/2026-05-19/claude-managed-agents-sandboxes-mcp-tunnels</guid>
+            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Claude Managed Agents now offer self-hosted sandboxes and MCP tunnels, providing developers with enhanced control and integration options for their AI agents.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Claude Managed Agents now support self-hosted sandboxes.
+- New MCP tunnels are introduced for enhanced integration.
+- These features offer more control over agent environments.
+- The updates aim to improve developer experience for Claude users.
+
+## Our Commentary
+
+Self-hosted sandboxes for Claude agents? This is a big step towards giving developers more control and privacy over their agent's execution environment. MCP tunnels also sound like a crucial piece for secure and efficient communication. It's good to see Anthropic focusing on the practicalities of deploying and managing agents.
+
+Original Link: https://claude.com/blog/claude-managed-agents-updates]]></content:encoded>
+            <enclosure url="https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[`border-shape`: A New CSS Primitive for Custom Borders]]></title>
+            <link>https://digestweb.dev/articles/2026-05-19/css-border-shape-primitive-custom-borders</link>
+            <guid>https://digestweb.dev/articles/2026-05-19/css-border-shape-primitive-custom-borders</guid>
+            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Una Kravets introduces `border-shape`, an upcoming CSS primitive that defines custom shapes for element borders, simplifying complex non-standard designs.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- `border-shape` is an upcoming CSS primitive.
+- It defines custom shapes for an element's border.
+- This simplifies creating non-standard shapes like speech bubbles or hearts.
+- It offers a native alternative to `clip-path` for borders.
+
+## Our Commentary
+
+`border-shape`! Finally! This is one of those CSS features that feels long overdue. `clip-path` has been a decent workaround, but a native primitive for custom borders will be a huge win for designers and developers alike. It's going to make complex UI elements so much easier to implement and maintain. I'm genuinely excited about this.
+
+Original Link: https://frontendmasters.com/blog/border-shape/]]></content:encoded>
+            <enclosure url="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/9739" length="0" type="image//blog/wp-json/social-image-generator/v1/image/9739"/>
+        </item>
+        <item>
+            <title><![CDATA[Google AI Edge Gallery: MCP Integration & Persistent Sessions]]></title>
+            <link>https://digestweb.dev/articles/2026-05-19/google-ai-edge-gallery-mcp-sessions</link>
+            <guid>https://digestweb.dev/articles/2026-05-19/google-ai-edge-gallery-mcp-sessions</guid>
+            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Google AI Edge Gallery expands on-device AI with experimental MCP support, persistent chat history, and a "Schedule Notification" skill for proactive user interactions.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Google AI Edge Gallery adds experimental MCP support on Android.
+- Gemma 4 can now coordinate tasks across external data sources.
+- A "Schedule Notification" skill enables proactive routines.
+- Persistent chat history restores long session contexts instantly.
+- An open-source toolkit encourages community-built workflows.
+
+## Our Commentary
+
+Google AI Edge Gallery getting MCP integration and persistent sessions is a smart move. On-device AI is where a lot of the magic will happen for privacy and responsiveness. The "Schedule Notification" skill hints at a future where our devices are far more proactive and less reactive. I'm always a fan of open-source toolkits for community engagement.
+
+Original Link: https://developers.googleblog.com/a-smarter-google-ai-edge-gallery-mcp-integration-notifications-and-session-continuity/]]></content:encoded>
+            <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_eutazteuta.2e16d0ba.fill-1200x600.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Google Transitions Gemini CLI to Agent-First Antigravity CLI]]></title>
+            <link>https://digestweb.dev/articles/2026-05-19/google-gemini-cli-to-antigravity-cli</link>
+            <guid>https://digestweb.dev/articles/2026-05-19/google-gemini-cli-to-antigravity-cli</guid>
+            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Google is unifying its AI terminal tools by transitioning the Gemini CLI to the new Antigravity CLI, an agent-first platform for complex, multi-agent workflows.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Google is transitioning Gemini CLI to Antigravity CLI.
+- Antigravity CLI is a new agent-first platform for multi-agent workflows.
+- It offers faster execution and asynchronous processing.
+- Individual and free users must transition by June 18, 2026.
+
+## Our Commentary
+
+The transition from Gemini CLI to Antigravity CLI is a clear sign of Google's commitment to the agent-first paradigm. Unifying tools is generally a good thing for DX, but I'm always wary of forced migrations, especially with deadlines. It's a necessary step for their ecosystem, but I hope the transition is smooth for developers.
+
+Original Link: https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/]]></content:encoded>
+            <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GeminiCLI-AntigravityCLI_1200x630.2e16d0ba.fill-1200x600.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Google I/O 2026: Chrome Powers the Agentic Web]]></title>
+            <link>https://digestweb.dev/articles/2026-05-19/google-io-2026-chrome-agentic-web-updates</link>
+            <guid>https://digestweb.dev/articles/2026-05-19/google-io-2026-chrome-agentic-web-updates</guid>
+            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Google I/O 2026 unveils 15 updates for Chrome, focusing on new capabilities, tools, and features to enable the "agentic web" paradigm.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Google I/O 2026 announcements focus on the "agentic web."
+- Chrome is receiving new capabilities, tools, and features.
+- The updates aim to empower AI agents within the browser environment.
+- This article serves as a high-level summary of 15 key updates.
+
+## Our Commentary
+
+"Agentic web" is the new buzzword, and Google I/O is clearly pushing it hard. This summary article is a good starting point, but I'm already feeling a mix of excitement and trepidation about what "agents" truly mean for web development. It's a big shift, and we need to pay close attention to the details.
+
+Original Link: https://developer.chrome.com/blog/chrome-at-io26?hl=en]]></content:encoded>
+            <enclosure url="https://developer.chrome.com/static/blog/chrome-at-io26/image/hero.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Google I/O 2026 Keynote: Agentic AI, Gemini 3.5 & WebMCP]]></title>
+            <link>https://digestweb.dev/articles/2026-05-19/google-io-2026-keynote-agentic-ai-web-mcp</link>
+            <guid>https://digestweb.dev/articles/2026-05-19/google-io-2026-keynote-agentic-ai-web-mcp</guid>
+            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Google I/O 2026 announces a shift to independent agents, Gemini 3.5, the Antigravity platform, new Android tools, and web innovations like Chrome DevTools for agents and WebMCP.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Google I/O 2026 signals a transition from assistive AI to independent agents.
+- The Gemini 3.5 series and Antigravity agent-first platform were launched.
+- New Android CLI tools and an automated Migration agent were introduced.
+- Web development sees Chrome DevTools for agents and HTML-in-Canvas API.
+- WebMCP, an open web standard for browser-based AI agents, is proposed.
+
+## Our Commentary
+
+This is the big one from Google I/O. The shift to "independent agents" feels like a massive leap, and the Antigravity platform sounds like Google's answer to orchestrating this new paradigm. WebMCP as an open standard for browser agents is particularly intriguing – it suggests a future where agents are deeply integrated into the web itself. I'm trying to wrap my head around the implications of all this.
+
+Original Link: https://developers.googleblog.com/all-the-news-from-the-google-io-2026-developer-keynote/]]></content:encoded>
+            <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GoogleForDevelopers-ComboIO-Wagta.2e16d0ba.fill-1200x600_984jqJ0.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Google Tensor ML SDK Beta with LiteRT for Pixel 10]]></title>
+            <link>https://digestweb.dev/articles/2026-05-19/google-tensor-ml-sdk-beta-litert-pixel10</link>
+            <guid>https://digestweb.dev/articles/2026-05-19/google-tensor-ml-sdk-beta-litert-pixel10</guid>
+            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Google Tensor ML SDK enters beta, enabling high-performance ML model deployment on Pixel 10's TPU, integrating LiteRT, and offering a 100+ model garden.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Google Tensor ML SDK is now in Beta.
+- It allows deploying ML models directly onto Pixel 10's TPU.
+- Integration with LiteRT provides a unified workflow.
+- A new model garden offers over 100 classic and generative AI models.
+- This enables low-latency, private on-device features.
+
+## Our Commentary
+
+The Google Tensor ML SDK hitting beta is great for Pixel developers. On-device ML, especially with a dedicated TPU, opens up a lot of possibilities for privacy-preserving and low-latency features. The integration with LiteRT and the model garden make it much more accessible. It's another piece of the puzzle for powerful edge AI.
+
+Original Link: https://developers.googleblog.com/google-tensor-sdk-beta-with-litert/]]></content:encoded>
+            <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image_3.2e16d0ba.fill-1200x600.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[HTML-in-Canvas API Origin Trial: Bringing DOM to Canvas]]></title>
+            <link>https://digestweb.dev/articles/2026-05-19/html-in-canvas-api-origin-trial</link>
+            <guid>https://digestweb.dev/articles/2026-05-19/html-in-canvas-api-origin-trial</guid>
+            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The HTML-in-Canvas API origin trial in Chrome allows developers to integrate the DOM directly into Canvas-driven applications, enhancing interactive experiences.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The HTML-in-Canvas API origin trial is now available in Chrome.
+- It allows bringing the DOM directly into Canvas-driven applications.
+- This API aims to enhance rich interactive experiences.
+- Developers can test this new capability during the origin trial.
+
+## Our Commentary
+
+HTML-in-Canvas is one of those ideas that sounds both incredibly powerful and potentially terrifying. The ability to bring the DOM into Canvas opens up so many possibilities for games, data visualizations, and complex UIs. But I also worry about the performance implications and how accessible these hybrid experiences will be. It's a fascinating experiment.
+
+Original Link: https://developer.chrome.com/blog/html-in-canvas-origin-trial?hl=en]]></content:encoded>
+            <enclosure url="https://developer.chrome.com/static/blog/html-in-canvas-origin-trial/image/thumbnail.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Introducing the Ettin Reranker Family from Hugging Face]]></title>
+            <link>https://digestweb.dev/articles/2026-05-19/huggingface-ettin-reranker-family</link>
+            <guid>https://digestweb.dev/articles/2026-05-19/huggingface-ettin-reranker-family</guid>
+            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hugging Face unveils the Ettin Reranker Family, a new set of models designed to improve the relevance and quality of search and retrieval results.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Hugging Face introduces the Ettin Reranker Family.
+- These models are designed to improve search relevance.
+- They are likely beneficial for retrieval augmented generation (RAG).
+- This expands Hugging Face's open-source AI offerings.
+
+## Our Commentary
+
+A new reranker family from Hugging Face is always interesting. Rerankers are often the unsung heroes of effective RAG systems, and having more open-source options is a win for the community. I'm curious to see how Ettin performs against existing models.
+
+Original Link: https://huggingface.co/blog/ettin-reranker]]></content:encoded>
+            <enclosure url="https://huggingface.co/blog/assets/train-sentence-transformers/st-hf-thumbnail.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[JS Weekly: npm Install Scripts RFC, Dr. Axel's Blog & Bun's Rust Rewrite]]></title>
+            <link>https://digestweb.dev/articles/2026-05-19/js-weekly-npm-security-axel-blog-bun-deno</link>
+            <guid>https://digestweb.dev/articles/2026-05-19/js-weekly-npm-security-axel-blog-bun-deno</guid>
+            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This week's JavaScript news includes an RFC to make npm install scripts opt-in, Dr. Axel Rauschmayer's blog going offline due to AI, and updates on Bun's Rust rewrite and Deno 2.8.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- An RFC proposes making npm install scripts opt-in for security.
+- Dr. Axel Rauschmayer's blog is offline due to AI crawlers.
+- Bun's Rust-based rewrite has been merged.
+- Deno 2.8 is teasing significant Node.js compatibility and TypeScript 6.0.3.
+- Chrome/Edge are working on a new `<install>` HTML element for PWAs.
+- Express.js has a new look and improved docs.
+
+## Our Commentary
+
+This JS Weekly is packed! The npm install script RFC is critical; that security hole has been a concern for ages. Dr. Axel's blog going offline because of AI crawlers is genuinely unsettling. It's a stark reminder of the unintended consequences of these technologies. Bun's Rust rewrite is a big internal change, and Deno 2.8 sounds promising. A new `<install>` HTML element for PWAs is also a neat idea.
+
+Original Link: https://javascriptweekly.com/issues/786]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/338/800/450" length="0" type="image//id/338/800/450"/>
+        </item>
         <item>
             <title><![CDATA[The Last Six Months in LLMs: A Five-Minute Expert Overview]]></title>
             <link>https://digestweb.dev/articles/2026-05-19/last-six-months-llms-five-minute-expert-overview</link>
@@ -38,6 +283,284 @@ Keeping pace with the LLM landscape feels like a full-time job, so a '5-minute' 
 
 Original Link: https://simonwillison.net/2026/May/19/5-minute-llms/#atom-everything]]></content:encoded>
             <enclosure url="https://static.simonwillison.net/static/2026/5-minutes-llms/5-minutes-llms.001.jpeg" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[LiteRT-LM: Blazing Fast On-Device GenAI with WebGPU Support]]></title>
+            <link>https://digestweb.dev/articles/2026-05-19/litert-lm-on-device-genai-webgpu</link>
+            <guid>https://digestweb.dev/articles/2026-05-19/litert-lm-on-device-genai-webgpu</guid>
+            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Google AI Edge's LiteRT-LM provides highly optimized infrastructure for running Gemma 4 on-device, featuring Multi-Token Prediction and WebGPU-accelerated JavaScript APIs.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- LiteRT-LM optimizes on-device GenAI for Gemma 4.
+- It offers memory-efficient dynamic loading and Multi-Token Prediction for speed.
+- Advanced orchestration tools like Thinking Mode are included.
+- New native Swift APIs and WebGPU-accelerated JavaScript APIs are introduced.
+- This enables high-performance, serverless browser inference.
+
+## Our Commentary
+
+Blazing fast on-device GenAI with LiteRT-LM, and crucially, WebGPU-accelerated JavaScript APIs? This is huge for bringing powerful AI directly into the browser without server roundtrips. Multi-Token Prediction and Thinking Mode sound like clever optimizations. This is the kind of infrastructure that makes the "agentic web" feel more tangible.
+
+Original Link: https://developers.googleblog.com/blazing-fast-on-device-genai-with-litert-lm/]]></content:encoded>
+            <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_7r4n957r4n.2e16d0ba.fill-1200x600.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[OlmoEarth v1.1: More Efficient AI Model Family]]></title>
+            <link>https://digestweb.dev/articles/2026-05-19/olmoearth-v1-1-efficient-ai-models</link>
+            <guid>https://digestweb.dev/articles/2026-05-19/olmoearth-v1-1-efficient-ai-models</guid>
+            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OlmoEarth v1.1 introduces a more efficient family of AI models, enhancing performance for specific applications.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OlmoEarth v1.1 is a new, more efficient family of models.
+- This update aims to improve performance.
+- It's released by AllenAI via Hugging Face.
+
+## Our Commentary
+
+OlmoEarth v1.1 sounds like a solid iterative improvement. Efficiency gains in AI models are always welcome, especially for those looking to deploy on more constrained hardware or reduce inference costs. It's a continuous race for better performance.
+
+Original Link: https://huggingface.co/blog/allenai/olmoearth-v1-1]]></content:encoded>
+            <enclosure url="https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/19ZFgyFbi-kj2Yf0WUPGk.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Advances Content Provenance with New Tools]]></title>
+            <link>https://digestweb.dev/articles/2026-05-19/openai-content-provenance-synthid-verification</link>
+            <guid>https://digestweb.dev/articles/2026-05-19/openai-content-provenance-synthid-verification</guid>
+            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI introduces Content Credentials, SynthID, and a verification tool to enhance content provenance, aiming for a safer and more transparent AI ecosystem.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI is advancing AI content provenance.
+- New tools include Content Credentials and SynthID.
+- A verification tool helps identify AI-generated media.
+- The goal is a safer, more transparent AI ecosystem.
+
+## Our Commentary
+
+Content provenance is one of the most critical challenges facing AI right now. OpenAI's push with Content Credentials and SynthID is a necessary step, but I'm skeptical about how effective these tools will be against determined misuse. It's a cat-and-mouse game, and we're just at the beginning. Still, it's good they're actively working on it.
+
+Original Link: https://openai.com/index/advancing-content-provenance]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/648/800/450" length="0" type="image//id/648/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Building Shader.se: WebGPU, React Three Fiber & Scroll-Driven Transitions]]></title>
+            <link>https://digestweb.dev/articles/2026-05-19/shader-se-webgpu-react-three-fiber-scroll-transitions</link>
+            <guid>https://digestweb.dev/articles/2026-05-19/shader-se-webgpu-react-three-fiber-scroll-transitions</guid>
+            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A deep dive into Shader.se's scroll-driven WebGPU pipeline, detailing selective scene rendering and seamless transitions using React Three Fiber.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article details the scroll-driven WebGPU pipeline behind Shader.se.
+- It covers selective scene rendering techniques.
+- Seamless scene transitions are achieved using React Three Fiber.
+- The piece offers insights into advanced web graphics development.
+
+## Our Commentary
+
+This Codrops article is exactly what I love to see: a deep dive into a complex, visually stunning project. WebGPU and React Three Fiber are powerful tools, and seeing how they're combined for scroll-driven transitions is inspiring. It's a great example of pushing the boundaries of what's possible in the browser.
+
+Original Link: https://tympanus.net/codrops/2026/05/19/80s-business-tech-seamless-scene-transitions-inside-shader-ses-scroll-driven-webgpu-pipeline/]]></content:encoded>
+            <enclosure url="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/05/shader.webp?x42294" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[Structured Output That Remembers Across Turns in TanStack Chat]]></title>
+            <link>https://digestweb.dev/articles/2026-05-19/tanstack-chat-multi-turn-structured-output</link>
+            <guid>https://digestweb.dev/articles/2026-05-19/tanstack-chat-multi-turn-structured-output</guid>
+            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[TanStack's `useChat` now preserves structured output across multiple turns, ensuring history is maintained for complex AI conversations.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- `useChat` now retains structured output across multiple turns.
+- Each assistant turn carries its own typed `StructuredOutputPart` on its `UIMessage`.
+- This change ensures chat history is preserved by default.
+- The schema generic threads down to individual message parts.
+
+## Our Commentary
+
+This is a smart, practical update. Losing context in multi-turn structured chats was a real headache, forcing developers to build their own workarounds. TanStack stepping in to handle this at the framework level is a huge win for DX. It feels like a small but mighty improvement.
+
+Original Link: https://tanstack.com/blog/multi-turn-structured-output]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/535/800/450" length="0" type="image//id/535/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[`Atomics.pause` Reaches TC39 Stage 4]]></title>
+            <link>https://digestweb.dev/articles/2026-05-19/tc39-atomics-pause-stage-4</link>
+            <guid>https://digestweb.dev/articles/2026-05-19/tc39-atomics-pause-stage-4</guid>
+            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The `Atomics.pause` proposal, designed to improve performance in busy-wait loops, has officially reached Stage 4 at TC39.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- `Atomics.pause` has reached Stage 4.
+- This means it's finalized for inclusion in the next ECMAScript standard.
+- It provides a hint to the CPU for busy-wait loops.
+- This feature aims to improve performance and power efficiency.
+
+## Our Commentary
+
+`Atomics.pause` hitting Stage 4 is a win for low-level performance. Giving the CPU a hint during busy-wait loops can significantly improve power efficiency and overall system responsiveness. It's a subtle but powerful addition for highly optimized JavaScript code, especially in WebAssembly contexts.
+
+Original Link: https://github.com/tc39/proposals/commit/aa5330ff1f73b00363f0f0394eebcb27d41aad91]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/d18bcd7e51a967c89ac43c83db4d8485bf81d9ed1581748169758196decca198/tc39/proposals/commit/aa5330ff1f73b00363f0f0394eebcb27d41aad91" length="0" type="image//d18bcd7e51a967c89ac43c83db4d8485bf81d9ed1581748169758196decca198/tc39/proposals/commit/aa5330ff1f73b00363f0f0394eebcb27d41aad91"/>
+        </item>
+        <item>
+            <title><![CDATA[Decorator Metadata Proposal Advances to Stage 2.7]]></title>
+            <link>https://digestweb.dev/articles/2026-05-19/tc39-decorator-metadata-stage-2-7</link>
+            <guid>https://digestweb.dev/articles/2026-05-19/tc39-decorator-metadata-stage-2-7</guid>
+            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Decorator Metadata proposal has moved to Stage 2.7 at TC39, indicating continued progress in its development.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The Decorator Metadata proposal has advanced to Stage 2.7.
+- This update was decided at the May 19, 2026 TC39 meeting.
+- It signifies ongoing development for decorator-related features.
+
+## Our Commentary
+
+Decorator Metadata inching forward. It's good to see continued progress, even if it's a fractional stage update. We're still waiting for the full decorator story to stabilize, and metadata is a crucial piece for many frameworks.
+
+Original Link: https://github.com/tc39/proposals/commit/2af05ca9c714f06520e302c48fe262aa454b16f2]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/02f6fcc9f2b25c40ccdd035741d4c391f5c7d1e26c5282e4ec8ab67a44c1bc57/tc39/proposals/commit/2af05ca9c714f06520e302c48fe262aa454b16f2" length="0" type="image//02f6fcc9f2b25c40ccdd035741d4c391f5c7d1e26c5282e4ec8ab67a44c1bc57/tc39/proposals/commit/2af05ca9c714f06520e302c48fe262aa454b16f2"/>
+        </item>
+        <item>
+            <title><![CDATA[Decorators Proposal Advances to Stage 2.7]]></title>
+            <link>https://digestweb.dev/articles/2026-05-19/tc39-decorators-stage-2-7</link>
+            <guid>https://digestweb.dev/articles/2026-05-19/tc39-decorators-stage-2-7</guid>
+            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Decorators proposal has moved to Stage 2.7 at TC39, indicating continued progress in its development.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The Decorators proposal has advanced to Stage 2.7.
+- This update was decided at the May 19, 2026 TC39 meeting.
+- It signifies ongoing development for decorator features.
+
+## Our Commentary
+
+Decorators at 2.7. We're still in the waiting game for this one to fully land. It's been a long road, and while 2.7 isn't Stage 3, it's good to see it's still actively being refined.
+
+Original Link: https://github.com/tc39/proposals/commit/cd2396f40e8bcfc76162bcc2d3340024f236bfe0]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/c69bfef6f0612b2e466ed3e674d72f02ce62ae571a42b9c8f2f9ce131a675a91/tc39/proposals/commit/cd2396f40e8bcfc76162bcc2d3340024f236bfe0" length="0" type="image//c69bfef6f0612b2e466ed3e674d72f02ce62ae571a42b9c8f2f9ce131a675a91/tc39/proposals/commit/cd2396f40e8bcfc76162bcc2d3340024f236bfe0"/>
+        </item>
+        <item>
+            <title><![CDATA[Explicit Resource Management Reaches TC39 Stage 4]]></title>
+            <link>https://digestweb.dev/articles/2026-05-19/tc39-explicit-resource-management-stage-4</link>
+            <guid>https://digestweb.dev/articles/2026-05-19/tc39-explicit-resource-management-stage-4</guid>
+            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Explicit Resource Management proposal, introducing `using` declarations for deterministic resource cleanup, has officially reached Stage 4 at TC39.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Explicit Resource Management has reached Stage 4.
+- This means it's finalized for inclusion in the next ECMAScript standard.
+- It introduces `using` declarations for deterministic resource cleanup.
+- This feature will improve error handling and resource management.
+
+## Our Commentary
+
+Explicit Resource Management hitting Stage 4 is huge! The `using` declaration is going to be a game-changer for managing resources like file handles or database connections, finally bringing deterministic cleanup to JavaScript. I've been waiting for this one. It's a massive quality-of-life improvement for robust applications.
+
+Original Link: https://github.com/tc39/proposals/commit/5adf344f5091c8726363594b44d54f14c97a52f6]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/2dc02cdbadfc9abdb96e6b9aa94a9f399cc62082f2c0a234aac7cf6a1424183d/tc39/proposals/commit/5adf344f5091c8726363594b44d54f14c97a52f6" length="0" type="image//2dc02cdbadfc9abdb96e6b9aa94a9f399cc62082f2c0a234aac7cf6a1424183d/tc39/proposals/commit/5adf344f5091c8726363594b44d54f14c97a52f6"/>
+        </item>
+        <item>
+            <title><![CDATA[Intl.NumberFormat `trailingZeroDisplay` Moves to TC39 Stage 3]]></title>
+            <link>https://digestweb.dev/articles/2026-05-19/tc39-intl-keep-trailing-zeros-stage-3</link>
+            <guid>https://digestweb.dev/articles/2026-05-19/tc39-intl-keep-trailing-zeros-stage-3</guid>
+            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The `Intl Keep Trailing Zeros` proposal, enhancing `Intl.NumberFormat` for precise decimal display, has advanced to Stage 3 at TC39.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The `Intl Keep Trailing Zeros` proposal has reached Stage 3.
+- This update was approved at the May 19, 2026 TC39 meeting.
+- It enhances `Intl.NumberFormat` for precise decimal display.
+- Stage 3 means the proposal is stable and ready for implementations.
+
+## Our Commentary
+
+`Intl Keep Trailing Zeros` hitting Stage 3 is a quiet but important win for internationalization. Dealing with number formatting, especially trailing zeros, can be surprisingly complex. Having a standardized way to handle this directly in `Intl.NumberFormat` will be a relief for many developers working on global applications.
+
+Original Link: https://github.com/tc39/proposals/commit/2b91377f3abb560aa0aacecbacd119ac8a6ff3b9]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/6e9114735d3dff4d34562bc9b2f4a25910a040dfbe0fe8d4218d4afc66b36287/tc39/proposals/commit/2b91377f3abb560aa0aacecbacd119ac8a6ff3b9" length="0" type="image//6e9114735d3dff4d34562bc9b2f4a25910a040dfbe0fe8d4218d4afc66b36287/tc39/proposals/commit/2b91377f3abb560aa0aacecbacd119ac8a6ff3b9"/>
+        </item>
+        <item>
+            <title><![CDATA[`isTemplateObject` Proposal Withdrawn from TC39]]></title>
+            <link>https://digestweb.dev/articles/2026-05-19/tc39-is-template-object-withdrawn</link>
+            <guid>https://digestweb.dev/articles/2026-05-19/tc39-is-template-object-withdrawn</guid>
+            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The `isTemplateObject` proposal has been officially withdrawn from TC39, as decided at the May 19, 2026 meeting.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The `isTemplateObject` proposal has been withdrawn.
+- This decision was made at the May 19, 2026 TC39 meeting.
+- It means this specific proposal will not proceed further.
+
+## Our Commentary
+
+Another proposal bites the dust. `isTemplateObject` being withdrawn isn't a huge surprise; sometimes ideas just don't quite fit or better alternatives emerge. It's a reminder that the TC39 process is iterative and proposals can change course.
+
+Original Link: https://github.com/tc39/proposals/commit/e605e9b8bb3aff999a76cf887d0cd15e69d6fe6d]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/4ebb6d1565cf2b6ac052f0d96b7915214378009765f7bcf3b582a208cc4d5f20/tc39/proposals/commit/e605e9b8bb3aff999a76cf887d0cd15e69d6fe6d" length="0" type="image//4ebb6d1565cf2b6ac052f0d96b7915214378009765f7bcf3b582a208cc4d5f20/tc39/proposals/commit/e605e9b8bb3aff999a76cf887d0cd15e69d6fe6d"/>
+        </item>
+        <item>
+            <title><![CDATA[Joint Iteration Proposal Reaches TC39 Stage 4]]></title>
+            <link>https://digestweb.dev/articles/2026-05-19/tc39-joint-iteration-stage-4</link>
+            <guid>https://digestweb.dev/articles/2026-05-19/tc39-joint-iteration-stage-4</guid>
+            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Joint Iteration proposal, enabling simultaneous iteration over multiple iterables, has officially reached Stage 4 at TC39.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Joint Iteration has reached Stage 4.
+- This means it's finalized for inclusion in the next ECMAScript standard.
+- It allows for simultaneous iteration over multiple iterables.
+- This feature will simplify common data processing patterns.
+
+## Our Commentary
+
+Joint Iteration reaching Stage 4 is fantastic! This is one of those quality-of-life features that will make working with multiple arrays or iterables so much cleaner. No more manual index management or awkward `map`/`filter` chains when you just need to process things in parallel. I'm genuinely excited to use this.
+
+Original Link: https://github.com/tc39/proposals/commit/7e2d9a45e71525984d4c35313a3daeb4260773ef]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/f6c052ebed15e3fc38ac3661d2ef6f8cb5cc148911aaa4dca110c1cad6766aaa/tc39/proposals/commit/7e2d9a45e71525984d4c35313a3daeb4260773ef" length="0" type="image//f6c052ebed15e3fc38ac3661d2ef6f8cb5cc148911aaa4dca110c1cad6766aaa/tc39/proposals/commit/7e2d9a45e71525984d4c35313a3daeb4260773ef"/>
+        </item>
+        <item>
+            <title><![CDATA[RegExp Buffer Boundaries Proposal Advances to Stage 2.7]]></title>
+            <link>https://digestweb.dev/articles/2026-05-19/tc39-regexp-buffer-boundaries-stage-2-7</link>
+            <guid>https://digestweb.dev/articles/2026-05-19/tc39-regexp-buffer-boundaries-stage-2-7</guid>
+            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The RegExp Buffer Boundaries proposal has moved to Stage 2.7 at TC39, indicating continued progress in its development.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The RegExp Buffer Boundaries proposal has advanced to Stage 2.7.
+- This update was decided at the May 19, 2026 TC39 meeting.
+- It signifies ongoing development for RegExp enhancements.
+
+## Our Commentary
+
+RegExp Buffer Boundaries moving to 2.7. It's a niche but important area for those working with binary data and regex. Slow and steady wins the race, I guess.
+
+Original Link: https://github.com/tc39/proposals/commit/217882a8ac1519dfedd052f43716fe2a45acebfa]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/0781650560c0d028f24d224f305e625ca9ab5f556d7f915c3c68b4f5ffa8495d/tc39/proposals/commit/217882a8ac1519dfedd052f43716fe2a45acebfa" length="0" type="image//0781650560c0d028f24d224f305e625ca9ab5f556d7f915c3c68b4f5ffa8495d/tc39/proposals/commit/217882a8ac1519dfedd052f43716fe2a45acebfa"/>
+        </item>
+        <item>
+            <title><![CDATA[Vitest v5.0.0-beta.3: Node.js 22, Vite 6.4 & DevTools Updates]]></title>
+            <link>https://digestweb.dev/articles/2026-05-19/vitest-v5-beta-3-node22-vite64-devtools</link>
+            <guid>https://digestweb.dev/articles/2026-05-19/vitest-v5-beta-3-node22-vite64-devtools</guid>
+            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Vitest v5 beta 3 introduces breaking changes requiring Node.js 22 and Vite 6.4, alongside new features for TypeScript build mode and enhanced browser DevTools.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Vitest v5.0.0-beta.3 requires Node.js 22 and Vite 6.4.
+- It adds support for TypeScript build mode.
+- The API now exposes logs recorded during tests.
+- Browser DevTools show aria tree on locator element errors.
+- Live update trace view is available on the watch UI.
+- Custom command tracing is supported with `context.mark`.
+
+## Our Commentary
+
+Vitest continues its rapid evolution. The jump to Node.js 22 and Vite 6.4 for v5 is a clear signal of their commitment to staying current. I'm particularly interested in the browser DevTools improvements; better visibility into test failures is always a good thing. It's a solid beta, pushing the envelope for testing.
+
+Original Link: https://github.com/vitest-dev/vitest/releases/tag/v5.0.0-beta.3]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/83d7906483853f3e72646d545339194d78ac94216bcfc12defa52402d86f03c5/vitest-dev/vitest/releases/tag/v5.0.0-beta.3" length="0" type="image/3"/>
         </item>
         <item>
             <title><![CDATA[Cross-Document View Transitions: Uncovering the Hidden Gotchas]]></title>
