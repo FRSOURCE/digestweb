@@ -89,7 +89,7 @@ const p = props.prefix;
       :fill="`url(#${p}e)`"
       d="m175.1 154.63-37.19-21.47 21.39-12.35 15.8 9.12z"
     />
-    <g fill="#081733">
+    <g :class="$style.circle" fill="#081733">
       <path
         d="M94.34 120c23.35 0 42.35 19 42.35 42.35s-19 42.35-42.35 42.35-42.35-19-42.35-42.35S70.99 120 94.34 120m0-6.75a49.1 49.1 0 1 0 0 98.2 49.1 49.1 0 0 0 0-98.2z"
       />
@@ -99,3 +99,9 @@ const p = props.prefix;
     </g>
   </svg>
 </template>
+
+<style module>
+:global(.dark) .circle {
+  fill: #ffffff;
+}
+</style>
