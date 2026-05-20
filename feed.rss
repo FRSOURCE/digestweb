@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Wed, 20 May 2026 07:34:12 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 20 May 2026 08:01:17 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -179,26 +179,6 @@ Original Link: https://developers.googleblog.com/an-important-update-transitioni
             <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GeminiCLI-AntigravityCLI_1200x630.2e16d0ba.fill-1200x600.png" length="0" type="image/png"/>
         </item>
         <item>
-            <title><![CDATA[Google I/O 2026: Chrome Powers the Agentic Web]]></title>
-            <link>https://digestweb.dev/articles/2026-05-19/google-io-2026-chrome-agentic-web-updates</link>
-            <guid>https://digestweb.dev/articles/2026-05-19/google-io-2026-chrome-agentic-web-updates</guid>
-            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Google I/O 2026 unveils 15 updates for Chrome, focusing on new capabilities, tools, and features to enable the "agentic web" paradigm.]]></description>
-            <content:encoded><![CDATA[## Summary & Key Takeaways
-
-- Google I/O 2026 announcements focus on the "agentic web."
-- Chrome is receiving new capabilities, tools, and features.
-- The updates aim to empower AI agents within the browser environment.
-- This article serves as a high-level summary of 15 key updates.
-
-## Our Commentary
-
-"Agentic web" is the new buzzword, and Google I/O is clearly pushing it hard. This summary article is a good starting point, but I'm already feeling a mix of excitement and trepidation about what "agents" truly mean for web development. It's a big shift, and we need to pay close attention to the details.
-
-Original Link: https://developer.chrome.com/blog/chrome-at-io26?hl=en]]></content:encoded>
-            <enclosure url="https://developer.chrome.com/static/blog/chrome-at-io26/image/hero.png" length="0" type="image/png"/>
-        </item>
-        <item>
             <title><![CDATA[Google I/O 2026 Keynote: Agentic AI, Gemini 3.5 & WebMCP]]></title>
             <link>https://digestweb.dev/articles/2026-05-19/google-io-2026-keynote-agentic-ai-web-mcp</link>
             <guid>https://digestweb.dev/articles/2026-05-19/google-io-2026-keynote-agentic-ai-web-mcp</guid>
@@ -218,27 +198,6 @@ This is the big one from Google I/O. The shift to "independent agents" feels lik
 
 Original Link: https://developers.googleblog.com/all-the-news-from-the-google-io-2026-developer-keynote/]]></content:encoded>
             <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GoogleForDevelopers-ComboIO-Wagta.2e16d0ba.fill-1200x600_984jqJ0.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Google Tensor ML SDK Beta with LiteRT for Pixel 10]]></title>
-            <link>https://digestweb.dev/articles/2026-05-19/google-tensor-ml-sdk-beta-litert-pixel10</link>
-            <guid>https://digestweb.dev/articles/2026-05-19/google-tensor-ml-sdk-beta-litert-pixel10</guid>
-            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[The Google Tensor ML SDK enters beta, enabling high-performance ML model deployment on Pixel 10's TPU, integrating LiteRT, and offering a 100+ model garden.]]></description>
-            <content:encoded><![CDATA[## Summary & Key Takeaways
-
-- Google Tensor ML SDK is now in Beta.
-- It allows deploying ML models directly onto Pixel 10's TPU.
-- Integration with LiteRT provides a unified workflow.
-- A new model garden offers over 100 classic and generative AI models.
-- This enables low-latency, private on-device features.
-
-## Our Commentary
-
-The Google Tensor ML SDK hitting beta is great for Pixel developers. On-device ML, especially with a dedicated TPU, opens up a lot of possibilities for privacy-preserving and low-latency features. The integration with LiteRT and the model garden make it much more accessible. It's another piece of the puzzle for powerful edge AI.
-
-Original Link: https://developers.googleblog.com/google-tensor-sdk-beta-with-litert/]]></content:encoded>
-            <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image_3.2e16d0ba.fill-1200x600.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[HTML-in-Canvas API Origin Trial: Bringing DOM to Canvas]]></title>
@@ -448,182 +407,25 @@ Original Link: https://tanstack.com/blog/multi-turn-structured-output]]></conten
             <enclosure url="https://picsum.photos/id/535/800/450" length="0" type="image//id/535/800/450"/>
         </item>
         <item>
-            <title><![CDATA[`Atomics.pause` Reaches TC39 Stage 4]]></title>
-            <link>https://digestweb.dev/articles/2026-05-19/tc39-atomics-pause-stage-4</link>
-            <guid>https://digestweb.dev/articles/2026-05-19/tc39-atomics-pause-stage-4</guid>
+            <title><![CDATA[TC39 ECMAScript proposals update]]></title>
+            <link>https://digestweb.dev/articles/2026-05-19/tc39-proposals-update</link>
+            <guid>https://digestweb.dev/articles/2026-05-19/tc39-proposals-update</guid>
             <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[The `Atomics.pause` proposal, designed to improve performance in busy-wait loops, has officially reached Stage 4 at TC39.]]></description>
+            <description><![CDATA[Several proposals have reached the Stage 4 (the last one): `Atomics.pause`]]></description>
             <content:encoded><![CDATA[## Summary & Key Takeaways
 
-- `Atomics.pause` has reached Stage 4.
-- This means it's finalized for inclusion in the next ECMAScript standard.
-- It provides a hint to the CPU for busy-wait loops.
-- This feature aims to improve performance and power efficiency.
+- This means those proposals are finalized for inclusion in the next ECMAScript standard.
+- `Atomics.pause` is designed to improve performance, by providing a hint to the CPU for busy-wait loops. [Click here to see the details](https://github.com/tc39/proposals/commit/aa5330ff1f73b00363f0f0394eebcb27d41aad91).
+- The Explicit Resource Management proposal is introducing `using` declarations for deterministic resource cleanup. [Click here to see the details](https://github.com/tc39/proposals/commit/5adf344f5091c8726363594b44d54f14c97a52f6).
+- The Joint Iteration proposal enables simultaneous iteration over multiple iterables. [Click here to see the details](https://github.com/tc39/proposals/commit/7e2d9a45e71525984d4c35313a3daeb4260773ef).
 
 ## Our Commentary
 
-`Atomics.pause` hitting Stage 4 is a win for low-level performance. Giving the CPU a hint during busy-wait loops can significantly improve power efficiency and overall system responsiveness. It's a subtle but powerful addition for highly optimized JavaScript code, especially in WebAssembly contexts.
+Some changes are coming to the next ECMAScript standard version! The `using` declaration is something you might use in the nearest future for file handles or database connections to avoid hussle of cleaning up after those operations. New `zip` and `zipKeyed` methods are something that was missing for long time when writing functional code :)
+Overall, these are quality-of-life improvements and we're always happy to see those!
 
 Original Link: https://github.com/tc39/proposals/commit/aa5330ff1f73b00363f0f0394eebcb27d41aad91]]></content:encoded>
             <enclosure url="https://opengraph.githubassets.com/d18bcd7e51a967c89ac43c83db4d8485bf81d9ed1581748169758196decca198/tc39/proposals/commit/aa5330ff1f73b00363f0f0394eebcb27d41aad91" length="0" type="image//d18bcd7e51a967c89ac43c83db4d8485bf81d9ed1581748169758196decca198/tc39/proposals/commit/aa5330ff1f73b00363f0f0394eebcb27d41aad91"/>
-        </item>
-        <item>
-            <title><![CDATA[Decorator Metadata Proposal Advances to Stage 2.7]]></title>
-            <link>https://digestweb.dev/articles/2026-05-19/tc39-decorator-metadata-stage-2-7</link>
-            <guid>https://digestweb.dev/articles/2026-05-19/tc39-decorator-metadata-stage-2-7</guid>
-            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[The Decorator Metadata proposal has moved to Stage 2.7 at TC39, indicating continued progress in its development.]]></description>
-            <content:encoded><![CDATA[## Summary & Key Takeaways
-
-- The Decorator Metadata proposal has advanced to Stage 2.7.
-- This update was decided at the May 19, 2026 TC39 meeting.
-- It signifies ongoing development for decorator-related features.
-
-## Our Commentary
-
-Decorator Metadata inching forward. It's good to see continued progress, even if it's a fractional stage update. We're still waiting for the full decorator story to stabilize, and metadata is a crucial piece for many frameworks.
-
-Original Link: https://github.com/tc39/proposals/commit/2af05ca9c714f06520e302c48fe262aa454b16f2]]></content:encoded>
-            <enclosure url="https://opengraph.githubassets.com/02f6fcc9f2b25c40ccdd035741d4c391f5c7d1e26c5282e4ec8ab67a44c1bc57/tc39/proposals/commit/2af05ca9c714f06520e302c48fe262aa454b16f2" length="0" type="image//02f6fcc9f2b25c40ccdd035741d4c391f5c7d1e26c5282e4ec8ab67a44c1bc57/tc39/proposals/commit/2af05ca9c714f06520e302c48fe262aa454b16f2"/>
-        </item>
-        <item>
-            <title><![CDATA[Decorators Proposal Advances to Stage 2.7]]></title>
-            <link>https://digestweb.dev/articles/2026-05-19/tc39-decorators-stage-2-7</link>
-            <guid>https://digestweb.dev/articles/2026-05-19/tc39-decorators-stage-2-7</guid>
-            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[The Decorators proposal has moved to Stage 2.7 at TC39, indicating continued progress in its development.]]></description>
-            <content:encoded><![CDATA[## Summary & Key Takeaways
-
-- The Decorators proposal has advanced to Stage 2.7.
-- This update was decided at the May 19, 2026 TC39 meeting.
-- It signifies ongoing development for decorator features.
-
-## Our Commentary
-
-Decorators at 2.7. We're still in the waiting game for this one to fully land. It's been a long road, and while 2.7 isn't Stage 3, it's good to see it's still actively being refined.
-
-Original Link: https://github.com/tc39/proposals/commit/cd2396f40e8bcfc76162bcc2d3340024f236bfe0]]></content:encoded>
-            <enclosure url="https://opengraph.githubassets.com/c69bfef6f0612b2e466ed3e674d72f02ce62ae571a42b9c8f2f9ce131a675a91/tc39/proposals/commit/cd2396f40e8bcfc76162bcc2d3340024f236bfe0" length="0" type="image//c69bfef6f0612b2e466ed3e674d72f02ce62ae571a42b9c8f2f9ce131a675a91/tc39/proposals/commit/cd2396f40e8bcfc76162bcc2d3340024f236bfe0"/>
-        </item>
-        <item>
-            <title><![CDATA[Explicit Resource Management Reaches TC39 Stage 4]]></title>
-            <link>https://digestweb.dev/articles/2026-05-19/tc39-explicit-resource-management-stage-4</link>
-            <guid>https://digestweb.dev/articles/2026-05-19/tc39-explicit-resource-management-stage-4</guid>
-            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[The Explicit Resource Management proposal, introducing `using` declarations for deterministic resource cleanup, has officially reached Stage 4 at TC39.]]></description>
-            <content:encoded><![CDATA[## Summary & Key Takeaways
-
-- Explicit Resource Management has reached Stage 4.
-- This means it's finalized for inclusion in the next ECMAScript standard.
-- It introduces `using` declarations for deterministic resource cleanup.
-- This feature will improve error handling and resource management.
-
-## Our Commentary
-
-Explicit Resource Management hitting Stage 4 is huge! The `using` declaration is going to be a game-changer for managing resources like file handles or database connections, finally bringing deterministic cleanup to JavaScript. I've been waiting for this one. It's a massive quality-of-life improvement for robust applications.
-
-Original Link: https://github.com/tc39/proposals/commit/5adf344f5091c8726363594b44d54f14c97a52f6]]></content:encoded>
-            <enclosure url="https://opengraph.githubassets.com/2dc02cdbadfc9abdb96e6b9aa94a9f399cc62082f2c0a234aac7cf6a1424183d/tc39/proposals/commit/5adf344f5091c8726363594b44d54f14c97a52f6" length="0" type="image//2dc02cdbadfc9abdb96e6b9aa94a9f399cc62082f2c0a234aac7cf6a1424183d/tc39/proposals/commit/5adf344f5091c8726363594b44d54f14c97a52f6"/>
-        </item>
-        <item>
-            <title><![CDATA[Intl.NumberFormat `trailingZeroDisplay` Moves to TC39 Stage 3]]></title>
-            <link>https://digestweb.dev/articles/2026-05-19/tc39-intl-keep-trailing-zeros-stage-3</link>
-            <guid>https://digestweb.dev/articles/2026-05-19/tc39-intl-keep-trailing-zeros-stage-3</guid>
-            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[The `Intl Keep Trailing Zeros` proposal, enhancing `Intl.NumberFormat` for precise decimal display, has advanced to Stage 3 at TC39.]]></description>
-            <content:encoded><![CDATA[## Summary & Key Takeaways
-
-- The `Intl Keep Trailing Zeros` proposal has reached Stage 3.
-- This update was approved at the May 19, 2026 TC39 meeting.
-- It enhances `Intl.NumberFormat` for precise decimal display.
-- Stage 3 means the proposal is stable and ready for implementations.
-
-## Our Commentary
-
-`Intl Keep Trailing Zeros` hitting Stage 3 is a quiet but important win for internationalization. Dealing with number formatting, especially trailing zeros, can be surprisingly complex. Having a standardized way to handle this directly in `Intl.NumberFormat` will be a relief for many developers working on global applications.
-
-Original Link: https://github.com/tc39/proposals/commit/2b91377f3abb560aa0aacecbacd119ac8a6ff3b9]]></content:encoded>
-            <enclosure url="https://opengraph.githubassets.com/6e9114735d3dff4d34562bc9b2f4a25910a040dfbe0fe8d4218d4afc66b36287/tc39/proposals/commit/2b91377f3abb560aa0aacecbacd119ac8a6ff3b9" length="0" type="image//6e9114735d3dff4d34562bc9b2f4a25910a040dfbe0fe8d4218d4afc66b36287/tc39/proposals/commit/2b91377f3abb560aa0aacecbacd119ac8a6ff3b9"/>
-        </item>
-        <item>
-            <title><![CDATA[`isTemplateObject` Proposal Withdrawn from TC39]]></title>
-            <link>https://digestweb.dev/articles/2026-05-19/tc39-is-template-object-withdrawn</link>
-            <guid>https://digestweb.dev/articles/2026-05-19/tc39-is-template-object-withdrawn</guid>
-            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[The `isTemplateObject` proposal has been officially withdrawn from TC39, as decided at the May 19, 2026 meeting.]]></description>
-            <content:encoded><![CDATA[## Summary & Key Takeaways
-
-- The `isTemplateObject` proposal has been withdrawn.
-- This decision was made at the May 19, 2026 TC39 meeting.
-- It means this specific proposal will not proceed further.
-
-## Our Commentary
-
-Another proposal bites the dust. `isTemplateObject` being withdrawn isn't a huge surprise; sometimes ideas just don't quite fit or better alternatives emerge. It's a reminder that the TC39 process is iterative and proposals can change course.
-
-Original Link: https://github.com/tc39/proposals/commit/e605e9b8bb3aff999a76cf887d0cd15e69d6fe6d]]></content:encoded>
-            <enclosure url="https://opengraph.githubassets.com/4ebb6d1565cf2b6ac052f0d96b7915214378009765f7bcf3b582a208cc4d5f20/tc39/proposals/commit/e605e9b8bb3aff999a76cf887d0cd15e69d6fe6d" length="0" type="image//4ebb6d1565cf2b6ac052f0d96b7915214378009765f7bcf3b582a208cc4d5f20/tc39/proposals/commit/e605e9b8bb3aff999a76cf887d0cd15e69d6fe6d"/>
-        </item>
-        <item>
-            <title><![CDATA[Joint Iteration Proposal Reaches TC39 Stage 4]]></title>
-            <link>https://digestweb.dev/articles/2026-05-19/tc39-joint-iteration-stage-4</link>
-            <guid>https://digestweb.dev/articles/2026-05-19/tc39-joint-iteration-stage-4</guid>
-            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[The Joint Iteration proposal, enabling simultaneous iteration over multiple iterables, has officially reached Stage 4 at TC39.]]></description>
-            <content:encoded><![CDATA[## Summary & Key Takeaways
-
-- Joint Iteration has reached Stage 4.
-- This means it's finalized for inclusion in the next ECMAScript standard.
-- It allows for simultaneous iteration over multiple iterables.
-- This feature will simplify common data processing patterns.
-
-## Our Commentary
-
-Joint Iteration reaching Stage 4 is fantastic! This is one of those quality-of-life features that will make working with multiple arrays or iterables so much cleaner. No more manual index management or awkward `map`/`filter` chains when you just need to process things in parallel. I'm genuinely excited to use this.
-
-Original Link: https://github.com/tc39/proposals/commit/7e2d9a45e71525984d4c35313a3daeb4260773ef]]></content:encoded>
-            <enclosure url="https://opengraph.githubassets.com/f6c052ebed15e3fc38ac3661d2ef6f8cb5cc148911aaa4dca110c1cad6766aaa/tc39/proposals/commit/7e2d9a45e71525984d4c35313a3daeb4260773ef" length="0" type="image//f6c052ebed15e3fc38ac3661d2ef6f8cb5cc148911aaa4dca110c1cad6766aaa/tc39/proposals/commit/7e2d9a45e71525984d4c35313a3daeb4260773ef"/>
-        </item>
-        <item>
-            <title><![CDATA[RegExp Buffer Boundaries Proposal Advances to Stage 2.7]]></title>
-            <link>https://digestweb.dev/articles/2026-05-19/tc39-regexp-buffer-boundaries-stage-2-7</link>
-            <guid>https://digestweb.dev/articles/2026-05-19/tc39-regexp-buffer-boundaries-stage-2-7</guid>
-            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[The RegExp Buffer Boundaries proposal has moved to Stage 2.7 at TC39, indicating continued progress in its development.]]></description>
-            <content:encoded><![CDATA[## Summary & Key Takeaways
-
-- The RegExp Buffer Boundaries proposal has advanced to Stage 2.7.
-- This update was decided at the May 19, 2026 TC39 meeting.
-- It signifies ongoing development for RegExp enhancements.
-
-## Our Commentary
-
-RegExp Buffer Boundaries moving to 2.7. It's a niche but important area for those working with binary data and regex. Slow and steady wins the race, I guess.
-
-Original Link: https://github.com/tc39/proposals/commit/217882a8ac1519dfedd052f43716fe2a45acebfa]]></content:encoded>
-            <enclosure url="https://opengraph.githubassets.com/0781650560c0d028f24d224f305e625ca9ab5f556d7f915c3c68b4f5ffa8495d/tc39/proposals/commit/217882a8ac1519dfedd052f43716fe2a45acebfa" length="0" type="image//0781650560c0d028f24d224f305e625ca9ab5f556d7f915c3c68b4f5ffa8495d/tc39/proposals/commit/217882a8ac1519dfedd052f43716fe2a45acebfa"/>
-        </item>
-        <item>
-            <title><![CDATA[Vitest v5.0.0-beta.3: Node.js 22, Vite 6.4 & DevTools Updates]]></title>
-            <link>https://digestweb.dev/articles/2026-05-19/vitest-v5-beta-3-node22-vite64-devtools</link>
-            <guid>https://digestweb.dev/articles/2026-05-19/vitest-v5-beta-3-node22-vite64-devtools</guid>
-            <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Vitest v5 beta 3 introduces breaking changes requiring Node.js 22 and Vite 6.4, alongside new features for TypeScript build mode and enhanced browser DevTools.]]></description>
-            <content:encoded><![CDATA[## Summary & Key Takeaways
-
-- Vitest v5.0.0-beta.3 requires Node.js 22 and Vite 6.4.
-- It adds support for TypeScript build mode.
-- The API now exposes logs recorded during tests.
-- Browser DevTools show aria tree on locator element errors.
-- Live update trace view is available on the watch UI.
-- Custom command tracing is supported with `context.mark`.
-
-## Our Commentary
-
-Vitest continues its rapid evolution. The jump to Node.js 22 and Vite 6.4 for v5 is a clear signal of their commitment to staying current. I'm particularly interested in the browser DevTools improvements; better visibility into test failures is always a good thing. It's a solid beta, pushing the envelope for testing.
-
-Original Link: https://github.com/vitest-dev/vitest/releases/tag/v5.0.0-beta.3]]></content:encoded>
-            <enclosure url="https://opengraph.githubassets.com/83d7906483853f3e72646d545339194d78ac94216bcfc12defa52402d86f03c5/vitest-dev/vitest/releases/tag/v5.0.0-beta.3" length="0" type="image/3"/>
         </item>
         <item>
             <title><![CDATA[Cross-Document View Transitions: Uncovering the Hidden Gotchas]]></title>
