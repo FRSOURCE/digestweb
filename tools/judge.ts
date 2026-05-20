@@ -14,11 +14,11 @@ Respond strictly with a JSON array of the same length.
 
 <triage_scale>
 Evaluate the "significance" of each article using this strict scale:
-0 = Skip: Patch-only releases, link dumps, marketing fluff, rehashes, or duplicates.
+0 = Skip: Patch-only releases, link dumps, marketing fluff, business-focused news, rehashes, TC39 proposals below Stage 4 or duplicates.
 1 = Mention: Minor release, niche article, tangential to mainstream web dev/AI, beginner-level.
 2 = Highlight: Notable minor release, good tutorial, solid community news.
 3 = Feature: Major release with new features, significant web-platform addition, influential deep-dive.
-4 = Headline: Landmark release, paradigm shift, Stage 3/4 TC39 proposal shipping, ecosystem-wide impact.
+4 = Headline: Landmark release, paradigm shift, Stage 4 TC39 proposal shipping, ecosystem-wide impact.
 </triage_scale>
 
 <schema_rules>
