@@ -22,7 +22,7 @@ function dismiss() {
     <div
       v-if="visible"
       v-bind="$attrs"
-      class="fixed bottom-2 right-2 w-[230px] bg-dw-bg raised-5 rounded-2xl z-[500] overflow-hidden"
+      class="fixed bottom-16 sm:bottom-2 right-2 w-[230px] bg-dw-bg raised-5 rounded-2xl z-[500] overflow-hidden"
       role="complementary"
     >
       <div

@@ -192,7 +192,7 @@ const navItems = [
         </h2>
       </header>
       <aside
-        class="raised-5 rounded-2xl bg-dw-bg overflow-hidden hidden lg:block m-auto max-w-68"
+        class="raised-5 rounded-2xl bg-dw-bg overflow-hidden hidden lg:block m-auto max-w-68 sticky top-[100px]"
       >
         <div
           class="flex items-center justify-between -raised-1 px-3 py-1.5 pe-1.5"
