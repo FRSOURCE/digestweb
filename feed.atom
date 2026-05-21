@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-05-20T11:26:50.275Z</updated>
+    <updated>2026-05-21T05:10:32.663Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -33,6 +33,191 @@
 This is a fascinating angle. I've seen AI struggle with complex UI frameworks, but HTML? That's a solid, universal target. It makes me wonder if we're overcomplicating things sometimes. The idea of AI just spitting out clean HTML for a quick interface feels... right. It's a pragmatic approach.
 
 Original Link: https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cypress Cloud MCP Now Generally Available, Enhancing AI Debugging]]></title>
+        <id>https://digestweb.dev/articles/2026-05-20/cypress-cloud-mcp-generally-available-ai-debugging</id>
+        <link href="https://digestweb.dev/articles/2026-05-20/cypress-cloud-mcp-generally-available-ai-debugging"/>
+        <updated>2026-05-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cypress Cloud's AI-powered "MCP" is now generally available, aiming to streamline debugging by providing AI assistants with direct access to test context. Over 500 organizations adopted it during beta.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Cypress Cloud's AI-powered MCP (Managed Cloud Platform) has reached General Availability.
+- The platform aims to eliminate the need for manual copy-pasting of stack traces for AI debugging.
+- AI assistants can now directly access all necessary test context within Cypress Cloud.
+- During its 9-week beta, over 500 organizations connected to the service.
+- More than 1,000 developers utilized the AI debugging capabilities.
+- This release validates the hypothesis that developers benefit from integrated AI assistance.
+
+## Our Commentary
+
+This is a smart move from Cypress. Integrating AI directly into the testing platform, with full context, is exactly what developers need. No more copy-pasting logs into ChatGPT. I'm genuinely excited about how this could speed up debugging cycles. It feels like a natural evolution for developer tools.
+
+Original Link: https://www.cypress.io/blog/cypress-cloud-mcp-is-generally-available/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Create a Gravity-Based Mouse Trail with GSAP for Engaging UI]]></title>
+        <id>https://digestweb.dev/articles/2026-05-20/gsap-gravity-mouse-trail-codrops-tutorial</id>
+        <link href="https://digestweb.dev/articles/2026-05-20/gsap-gravity-mouse-trail-codrops-tutorial"/>
+        <updated>2026-05-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Codrops presents a creative GSAP experiment demonstrating how to build an interactive, gravity-based mouse trail where images cascade and rebound, adding dynamic motion to web interfaces.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article provides a tutorial on creating a gravity-based mouse trail effect using GSAP.
+- It showcases an interactive experiment where images follow the mouse cursor.
+- Images cascade from the mouse position and realistically rebound off the bottom of the screen.
+- The tutorial focuses on achieving satisfying and dynamic motion with GSAP.
+- This technique can enhance user experience with engaging visual feedback.
+
+## Our Commentary
+
+Codrops always delivers on creative UI experiments. This GSAP tutorial looks like a fun way to add some flair to a site. I appreciate how they break down complex animations into digestible steps. It's a good reminder that sometimes the "fun" stuff is what makes a user experience truly memorable.
+
+Original Link: https://tympanus.net/codrops/2026/05/20/made-with-gsap-building-a-fun-gravity-based-mouse-trail/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Node.js 26.2.0 Released for Current Branch]]></title>
+        <id>https://digestweb.dev/articles/2026-05-20/nodejs-26-2-0-current-release</id>
+        <link href="https://digestweb.dev/articles/2026-05-20/nodejs-26-2-0-current-release"/>
+        <updated>2026-05-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Node.js 26.2.0 is now available for the current release line, bringing a standard set of minor updates and bug fixes to the JavaScript runtime.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Node.js 26.2.0 has been released for the current branch.
+- This minor update typically includes bug fixes and incremental improvements.
+- Users on the current release line are encouraged to update for stability and performance enhancements.
+
+## Our Commentary
+
+Another minor Node.js release. We always appreciate the continuous improvements, even if they're not headline-grabbing features. Keeping the runtime stable and performant is crucial for the ecosystem.
+
+Original Link: https://nodejs.org/en/blog/release/v26.2.0]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Model Disproves 80-Year-Old Discrete Geometry Conjecture]]></title>
+        <id>https://digestweb.dev/articles/2026-05-20/openai-model-disproves-discrete-geometry-conjecture</id>
+        <link href="https://digestweb.dev/articles/2026-05-20/openai-model-disproves-discrete-geometry-conjecture"/>
+        <updated>2026-05-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[An OpenAI model has achieved a significant milestone in AI-driven mathematics by solving the 80-year-old unit distance problem, thereby disproving a central conjecture in discrete geometry.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- An OpenAI model successfully solved the long-standing unit distance problem.
+- This achievement disproves a central conjecture in the field of discrete geometry.
+- The conjecture had remained unsolved for 80 years.
+- This marks a significant milestone in the application of AI to advanced mathematics.
+- The breakthrough demonstrates the growing capabilities of AI in complex problem-solving.
+
+## Our Commentary
+
+Wow. Just, wow. An 80-year-old mathematical conjecture, solved by an AI. This is the kind of news that makes me pause and think about the future. It's not just about coding anymore; AI is pushing the boundaries of fundamental science. I'm genuinely thrilled and a little intimidated by what this implies for human-AI collaboration in research.
+
+Original Link: https://openai.com/index/model-disproves-discrete-geometry-conjecture]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pnpm 11.2 Introduces Experimental Rust Engine Integration]]></title>
+        <id>https://digestweb.dev/articles/2026-05-20/pnpm-11-2-experimental-rust-engine-pacquet</id>
+        <link href="https://digestweb.dev/articles/2026-05-20/pnpm-11-2-experimental-rust-engine-pacquet"/>
+        <updated>2026-05-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[pnpm's latest minor release, 11.2, brings an experimental Rust-based materialization engine via `@pnpm/pacquet`, promising performance gains. It also enhances `optionalDependencies` resolution for config dependencies and adds the `pnpm login --scope` flag.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- pnpm 11.2 introduces an experimental Rust port, `@pnpm/pacquet`, for the materialization phase of `pnpm install`.
+- This opt-in feature aims to improve installation performance by delegating fetching and importing to a Rust binary.
+- `configDependencies` now correctly resolve and install one level of platform-specific `optionalDependencies`.
+- This enables patterns where config dependencies can ship platform-specific binaries, similar to `esbuild` or `swc`.
+- The `pnpm login --scope` flag is now fully implemented, allowing users to configure registry mappings for scoped packages.
+- The env lockfile records all platform variants for `optionalDependencies` to maintain portability.
+
+## Our Commentary
+
+This is a pretty big deal for pnpm. Rust for performance-critical parts of package managers is a trend we've seen with Bun and Deno. The `pacquet` integration is still experimental, but it's a clear signal of where they're heading. I'm curious to see how much real-world performance gain this brings. The `optionalDependencies` fix for config dependencies is also a nice quality-of-life improvement for complex setups.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.2.0]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ramp Engineers Boost Code Review Speed with OpenAI's Codex & GPT-5.5]]></title>
+        <id>https://digestweb.dev/articles/2026-05-20/ramp-engineers-accelerate-code-review-openai-codex</id>
+        <link href="https://digestweb.dev/articles/2026-05-20/ramp-engineers-accelerate-code-review-openai-codex"/>
+        <updated>2026-05-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ramp engineers are leveraging OpenAI's Codex and GPT-5.5 to significantly accelerate their code review process, enabling them to receive substantive feedback in minutes rather than hours and streamline development.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Ramp engineers are utilizing OpenAI's Codex and GPT-5.5 for code review.
+- This integration dramatically speeds up the feedback loop for code changes.
+- Substantive review comments are now received in minutes, not hours.
+- The use of AI helps engineers ship improvements more rapidly.
+- This showcases a practical application of AI in enhancing developer experience.
+
+## Our Commentary
+
+This is a practical application of AI that I can get behind. Code review is often a bottleneck, and getting quick, substantive feedback from an AI assistant could be a game-changer for developer velocity. It's not replacing human review, but augmenting it, which feels like the right approach. I wonder about the quality of the feedback and how much human oversight is still needed.
+
+Original Link: https://openai.com/index/ramp]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Simon Willison's Takeaways from Google I/O]]></title>
+        <id>https://digestweb.dev/articles/2026-05-20/simon-willison-google-io-recap</id>
+        <link href="https://digestweb.dev/articles/2026-05-20/simon-willison-google-io-recap"/>
+        <updated>2026-05-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison shares his personal reflections and key takeaways from Google I/O, likely covering a range of topics including Gemini Spark and other new developments.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison provides his personal summary of Google I/O announcements.
+- The post likely covers various topics, including updates related to Gemini Spark.
+- It offers a curated perspective on the most interesting developments from the conference.
+
+## Our Commentary
+
+Simon's I/O recaps are always worth a read. He has a knack for cutting through the noise and highlighting what truly matters. I'm curious to see which specific announcements caught his attention the most.
+
+Original Link: https://simonwillison.net/2026/May/20/google-io/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Demystifying LLM Speed: What Does 10 Tokens Per Second Really Mean?]]></title>
+        <id>https://digestweb.dev/articles/2026-05-20/simon-willison-llm-tokens-per-second-speed</id>
+        <link href="https://digestweb.dev/articles/2026-05-20/simon-willison-llm-tokens-per-second-speed"/>
+        <updated>2026-05-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison explores the practical implications of LLM generation speed, specifically what "10 tokens per second" translates to in real-world user experience and how to effectively measure and understand this metric.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article delves into the practical understanding of LLM generation speed.
+- It specifically examines what "10 tokens per second" means for user experience.
+- Willison discusses how to accurately measure and interpret LLM output rates.
+- The post aims to demystify common performance metrics in the AI space.
+- It provides insights into the perceived responsiveness of AI models.
+
+## Our Commentary
+
+Simon Willison is always on point with his LLM insights. "10 tokens per second" sounds fast, but what does that _feel_ like? This kind of practical, human-centered analysis of AI performance is crucial. We need more of this to move beyond raw numbers and understand the actual user impact. I'm always learning something new from his blog.
+
+Original Link: https://simonwillison.net/2026/May/20/tokens-per-second/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Practical Tips for Testing Safari on a Budget]]></title>
+        <id>https://digestweb.dev/articles/2026-05-20/testing-safari-on-a-budget-frontend-masters</id>
+        <link href="https://digestweb.dev/articles/2026-05-20/testing-safari-on-a-budget-frontend-masters"/>
+        <updated>2026-05-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Frontend Masters offers practical advice for developers needing to test their web projects on Safari without breaking the bank, exploring options like remote hardware, online services, and refurbished Apple devices.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article provides guidance on how to test web applications in Safari cost-effectively.
+- It acknowledges the difficulty of Safari testing on non-Apple hardware.
+- Suggestions include utilizing remote hardware services for testing.
+- Online browser testing platforms are presented as another viable option.
+- The post also recommends considering refurbished Apple devices to reduce costs.
+- The goal is to help developers ensure cross-browser compatibility without significant investment.
+
+## Our Commentary
+
+Testing Safari is a perennial pain point for many frontend devs, especially those not on macOS. This article hits home. I've definitely felt the struggle of trying to ensure compatibility without buying a dedicated Mac. Remote services are a lifesaver, but it's good to see a comprehensive look at budget-friendly options.
+
+Original Link: https://frontendmasters.com/blog/testing-safari-on-a-budget/]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Declarative Partial Updates & Out-of-Order Streaming in Chrome 148]]></title>
