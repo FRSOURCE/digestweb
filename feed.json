@@ -98,6 +98,15 @@
             }
         },
         {
+            "id": "https://digestweb.dev/articles/2026-05-20/stack-overflow-decline-dev-learning",
+            "content_html": "## Summary & Key Takeaways\n\n- Stack Overflow has experienced a significant decline in new questions.\n- This trend sparks discussion on evolving developer learning methods.\n- The article explores the implications for knowledge sharing within the industry.\n- It raises questions about the future of community-driven support and public knowledge bases.\n\n## Our Commentary\n\nI've felt this shift myself. The old reflex to hit SO is fading, replaced by a quick LLM query or a dive into official docs. There's something unsettling about losing that public, peer-reviewed knowledge base. We're gaining speed, but are we losing depth? I genuinely don't know how to feel about it. It's a messy transition.\n\nOriginal Link: https://css-tricks.com/stack-overflow-when-we-stop-asking/",
+            "url": "https://digestweb.dev/articles/2026-05-20/stack-overflow-decline-dev-learning",
+            "title": "Stack Overflow's Decline: What It Means for Dev Learning",
+            "summary": "The steep decline in Stack Overflow questions prompts reflection on how developers learn and share knowledge in the modern web industry.",
+            "image": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/04/newspaper-stack-scaled-1.png",
+            "date_modified": "2026-05-20T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-05-20/testing-safari-on-a-budget-frontend-masters",
             "content_html": "## Summary & Key Takeaways\n\n- The article provides guidance on how to test web applications in Safari cost-effectively.\n- It acknowledges the difficulty of Safari testing on non-Apple hardware.\n- Suggestions include utilizing remote hardware services for testing.\n- Online browser testing platforms are presented as another viable option.\n- The post also recommends considering refurbished Apple devices to reduce costs.\n- The goal is to help developers ensure cross-browser compatibility without significant investment.\n\n## Our Commentary\n\nTesting Safari is a perennial pain point for many frontend devs, especially those not on macOS. This article hits home. I've definitely felt the struggle of trying to ensure compatibility without buying a dedicated Mac. Remote services are a lifesaver, but it's good to see a comprehensive look at budget-friendly options.\n\nOriginal Link: https://frontendmasters.com/blog/testing-safari-on-a-budget/",
             "url": "https://digestweb.dev/articles/2026-05-20/testing-safari-on-a-budget-frontend-masters",

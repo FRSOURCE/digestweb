@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-05-21T05:10:32.663Z</updated>
+    <updated>2026-05-21T10:41:27.312Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -197,6 +197,25 @@ Original Link: https://simonwillison.net/2026/May/20/tokens-per-second/#atom-eve
         <author>
             <name>Simon Willison</name>
         </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stack Overflow's Decline: What It Means for Dev Learning]]></title>
+        <id>https://digestweb.dev/articles/2026-05-20/stack-overflow-decline-dev-learning</id>
+        <link href="https://digestweb.dev/articles/2026-05-20/stack-overflow-decline-dev-learning"/>
+        <updated>2026-05-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The steep decline in Stack Overflow questions prompts reflection on how developers learn and share knowledge in the modern web industry.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Stack Overflow has experienced a significant decline in new questions.
+- This trend sparks discussion on evolving developer learning methods.
+- The article explores the implications for knowledge sharing within the industry.
+- It raises questions about the future of community-driven support and public knowledge bases.
+
+## Our Commentary
+
+I've felt this shift myself. The old reflex to hit SO is fading, replaced by a quick LLM query or a dive into official docs. There's something unsettling about losing that public, peer-reviewed knowledge base. We're gaining speed, but are we losing depth? I genuinely don't know how to feel about it. It's a messy transition.
+
+Original Link: https://css-tricks.com/stack-overflow-when-we-stop-asking/]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Practical Tips for Testing Safari on a Budget]]></title>

@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Thu, 21 May 2026 05:10:32 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 21 May 2026 10:41:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -201,6 +201,26 @@ Simon Willison is always on point with his LLM insights. "10 tokens per second" 
 
 Original Link: https://simonwillison.net/2026/May/20/tokens-per-second/#atom-everything]]></content:encoded>
             <enclosure url="https://picsum.photos/id/440/800/450" length="0" type="image//id/440/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Stack Overflow's Decline: What It Means for Dev Learning]]></title>
+            <link>https://digestweb.dev/articles/2026-05-20/stack-overflow-decline-dev-learning</link>
+            <guid>https://digestweb.dev/articles/2026-05-20/stack-overflow-decline-dev-learning</guid>
+            <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The steep decline in Stack Overflow questions prompts reflection on how developers learn and share knowledge in the modern web industry.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Stack Overflow has experienced a significant decline in new questions.
+- This trend sparks discussion on evolving developer learning methods.
+- The article explores the implications for knowledge sharing within the industry.
+- It raises questions about the future of community-driven support and public knowledge bases.
+
+## Our Commentary
+
+I've felt this shift myself. The old reflex to hit SO is fading, replaced by a quick LLM query or a dive into official docs. There's something unsettling about losing that public, peer-reviewed knowledge base. We're gaining speed, but are we losing depth? I genuinely don't know how to feel about it. It's a messy transition.
+
+Original Link: https://css-tricks.com/stack-overflow-when-we-stop-asking/]]></content:encoded>
+            <enclosure url="https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/04/newspaper-stack-scaled-1.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Practical Tips for Testing Safari on a Budget]]></title>
