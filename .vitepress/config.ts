@@ -4,6 +4,7 @@ import matter from 'gray-matter';
 import { readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import tailwindcss from '@tailwindcss/vite';
+import { VitePWA } from 'vite-plugin-pwa';
 
 const siteUrl = 'https://digestweb.dev';
 const lang = 'en-US';
@@ -47,7 +48,63 @@ export default defineConfig({
   },
   srcExclude: skipArticles,
   vite: {
-    plugins: [tailwindcss()],
+    plugins: [
+      tailwindcss(),
+      VitePWA({
+        registerType: 'autoUpdate',
+        injectRegister: 'auto',
+        workbox: {
+          globPatterns: ['**/*.{js,css,html,svg,png,ico,woff2}'],
+          navigateFallback: null,
+          runtimeCaching: [
+            {
+              urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
+              handler: 'CacheFirst',
+              options: {
+                cacheName: 'google-fonts-cache',
+                expiration: {
+                  maxEntries: 10,
+                  maxAgeSeconds: 60 * 60 * 24 * 365,
+                },
+                cacheableResponse: { statuses: [0, 200] },
+              },
+            },
+            {
+              urlPattern: /^https:\/\/fonts\.gstatic\.com\/.*/i,
+              handler: 'CacheFirst',
+              options: {
+                cacheName: 'gstatic-fonts-cache',
+                expiration: {
+                  maxEntries: 10,
+                  maxAgeSeconds: 60 * 60 * 24 * 365,
+                },
+                cacheableResponse: { statuses: [0, 200] },
+              },
+            },
+          ],
+        },
+        manifest: {
+          name: 'digestweb.dev',
+          short_name: 'digestweb',
+          description: 'Daily curated web dev news by FRSOURCE',
+          theme_color: '#0B3D3F',
+          background_color: '#F2EDE4',
+          display: 'standalone',
+          start_url: '/',
+          icons: [
+            { src: 'pwa-64x64.png', sizes: '64x64', type: 'image/png' },
+            { src: 'pwa-192x192.png', sizes: '192x192', type: 'image/png' },
+            { src: 'pwa-512x512.png', sizes: '512x512', type: 'image/png' },
+            {
+              src: 'maskable-icon-512x512.png',
+              sizes: '512x512',
+              type: 'image/png',
+              purpose: 'maskable',
+            },
+          ],
+        },
+      }),
+    ],
     ...(isIncremental && { build: { emptyOutDir: false } }),
   },
   head: [
@@ -96,7 +153,12 @@ export default defineConfig({
         title: 'dailyweb JSON Feed',
       },
     ],
+    ['link', { rel: 'icon', href: base + 'favicon.ico', sizes: 'any' }],
     ['link', { rel: 'icon', type: 'image/svg+xml', href: base + 'logo.svg' }],
+    [
+      'link',
+      { rel: 'apple-touch-icon', href: base + 'apple-touch-icon-180x180.png' },
+    ],
     [
       'link',
       {
