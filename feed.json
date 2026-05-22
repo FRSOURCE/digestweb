@@ -11,6 +11,144 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-05-21/10-open-source-projects-shaping-game-development",
+            "content_html": "## Summary & Key Takeaways\n\n- The article highlights 10 open-source tools for game development.\n- These tools cover aspects like art creation, animation, and level design.\n- They also assist with audio, dialogue, and debug UI development.\n- The focus is on projects that complement, rather than replace, game engines.\n\n## Our Commentary\n\nIt's always cool to see the breadth of open-source, even in niches like game dev. I think it's easy to forget how many specialized tools exist outside the big engines. This list is a nice reminder that the open-source ethos extends everywhere.\n\nOriginal Link: https://github.blog/open-source/gaming/beyond-the-engine-10-open-source-projects-shaping-how-games-actually-get-made/",
+            "url": "https://digestweb.dev/articles/2026-05-21/10-open-source-projects-shaping-game-development",
+            "title": "10 Open Source Projects Shaping Game Development Beyond Engines",
+            "summary": "Explore a curated list of 10 open-source tools that empower game developers in areas like art, animation, audio, and level design, extending beyond core game engines.",
+            "image": "https://github.blog/wp-content/uploads/2026/05/639edd29983f2d6a8dcb40b053416b222505bf0835096dea18d4af01202d0646-2400x1260-1.png?fit=2400%2C1260",
+            "date_modified": "2026-05-21T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-21/antidote-expert-ai-evaluation-framework",
+            "content_html": "## Summary & Key Takeaways\n\n- Surge AI has launched Antidote, a new AI evaluation framework.\n- Antidote employs human experts to grade AI-generated content.\n- The framework emphasizes direct human assessment to ensure quality.\n- It aims to address the issue of low-quality or \"slop\" AI outputs.\n\n## Our Commentary\n\n\"Slop is a choice.\" I love that tagline. We've been so focused on automated metrics for AI evaluation, but sometimes you just need a human to _read_ the output. This feels like a necessary pushback against the race to the bottom on quality. I'm genuinely curious if this approach can scale and how it will influence AI development.\n\nOriginal Link: https://www.surgehq.ai/blog/introducing-antidote",
+            "url": "https://digestweb.dev/articles/2026-05-21/antidote-expert-ai-evaluation-framework",
+            "title": "Antidote: A New Expert-Driven AI Evaluation Framework",
+            "summary": "Surge AI introduces Antidote, an evaluation framework that grades AI outputs through human expert review. This \"old-fashioned\" approach aims to combat \"slop\" by ensuring quality through direct human assessment.",
+            "image": "https://cdn.prod.website-files.com/68dcd2ceb173c46fa029931c/6a0f6fd9b004b66a1ade5917_ant4.jpg",
+            "date_modified": "2026-05-21T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-21/better-browser-caching-no-vary-search-header",
+            "content_html": "## Summary & Key Takeaways\n\n- The article introduces the new `No-Vary-Search` HTTP header.\n- This header allows fine-grained control over browser caching.\n- It differentiates between query parameters that affect content (e.g., `product_id`).\n- It also identifies parameters that do not affect content (e.g., `utm_source`).\n- The goal is to improve cache efficiency and reduce unnecessary re-fetches.\n\n## Our Commentary\n\n`No-Vary-Search` is one of those quiet, powerful web platform additions that will make a huge difference for performance. I've seen so many caching headaches caused by analytics parameters or minor query strings. This header is a godsend for developers trying to optimize their sites. It's a small change with a big impact.\n\nOriginal Link: https://frontendmasters.com/blog/better-browser-caching-with-no-vary-search/",
+            "url": "https://digestweb.dev/articles/2026-05-21/better-browser-caching-no-vary-search-header",
+            "title": "Optimize Browser Caching with the New `No-Vary-Search` Header",
+            "summary": "Learn about the `No-Vary-Search` HTTP header, a new web platform feature that allows developers to precisely control browser caching behavior based on URL query parameters, improving performance and cache efficiency.",
+            "image": "https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/9755",
+            "date_modified": "2026-05-21T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-21/css-sibling-index-sibling-count-mathematical-layouts",
+            "content_html": "## Summary & Key Takeaways\n\n- New CSS functions `sibling-index()` and `sibling-count()` are introduced.\n- These functions enable mathematical layouts and staggered cascade effects.\n- They allow for complex styling with a single line of CSS.\n- The functions eliminate the need for `:nth-child()` rules or JavaScript workarounds.\n- They are scalable, working efficiently for any number of elements.\n\n## Our Commentary\n\nOkay, this is a game-changer for CSS. `sibling-index()` and `sibling-count()`? That's a paradigm shift for dynamic layouts and staggered effects. I've spent _so much time_ wrestling with `:nth-child` or resorting to JS for these kinds of things. This feels like a massive leap forward for what's possible with pure CSS. I'm genuinely excited to play with these.\n\nOriginal Link: https://smashingmagazine.com/2026/05/mathematical-layouts-sibling-index-sibling-count/",
+            "url": "https://digestweb.dev/articles/2026-05-21/css-sibling-index-sibling-count-mathematical-layouts",
+            "title": "New CSS Functions `sibling-index()` & `sibling-count()` Revolutionize Layouts",
+            "summary": "Discover `sibling-index()` and `sibling-count()`, powerful new CSS functions that enable mathematical layouts and staggered effects with a single line of code, eliminating the need for complex `:nth-child()` rules or JavaScript.",
+            "image": "https://files.smashing.media/articles/mathematical-layouts-sibling-index-sibling-count/mathematical-layouts-sibling-index-sibling-count.jpg",
+            "date_modified": "2026-05-21T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-21/dagster-adopts-ty-type-checker-bugs-found",
+            "content_html": "## Summary & Key Takeaways\n\n- Dagster adopted Astral's new Python type checker, `ty`.\n- The migration resulted in dramatic performance improvements for type checking.\n- `ty` unexpectedly identified real runtime bugs that Pyright had missed.\n- The article details lessons learned from incrementally migrating a large Python codebase.\n\n## Our Commentary\n\nThis is the kind of story I love to hear about new tooling. Not just \"it's faster,\" but \"it found _real bugs_.\" It makes me wonder what other hidden issues are lurking in codebases relying on older or less rigorous type checkers. It's a strong endorsement for `ty` and a reminder that good tooling isn't just about speed.\n\nOriginal Link: https://dagster.io/blog/we-tried-ty-for-performance-it-found-real-bugs",
+            "url": "https://digestweb.dev/articles/2026-05-21/dagster-adopts-ty-type-checker-bugs-found",
+            "title": "Dagster Adopts 'ty' Type Checker, Finds Bugs Pyright Missed",
+            "summary": "Dagster shares their experience migrating to Astral's new Python type checker, `ty`, reporting dramatic performance gains and the unexpected discovery of real runtime bugs that Pyright had overlooked.",
+            "image": "https://cdn.prod.website-files.com/681399f654933b29e12fb8e4/6a0dc19a128383c9cf589f1c_Dignified%20Python%20%2B%20Ty.png",
+            "date_modified": "2026-05-21T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-21/firefox-151-web-serial-api-support",
+            "content_html": "## Summary & Key Takeaways\n\n- Firefox 151 for Desktop now includes support for the Web Serial API.\n- This API allows web applications to communicate directly with serial-connected hardware.\n- Devices such as microcontrollers, 3D printers, and development boards are now accessible from the web.\n- The integration removes the requirement for native software to interact with these devices.\n\n## Our Commentary\n\nThis is a big one for the web platform! Web Serial in Firefox means much broader adoption and less reliance on Chrome-only features for hardware interaction. I've always felt the web should be able to talk to more things, and this pushes that boundary. It's exciting to think about the possibilities for web-based device control.\n\nOriginal Link: https://hacks.mozilla.org/2026/05/web-serial-support-in-firefox/",
+            "url": "https://digestweb.dev/articles/2026-05-21/firefox-151-web-serial-api-support",
+            "title": "Firefox 151 Adds Web Serial API Support for Hardware Connectivity",
+            "summary": "Firefox 151 for Desktop now supports the Web Serial API, enabling web applications to directly communicate with serial-connected hardware like microcontrollers and 3D printers. This eliminates the need for native software for device interaction.",
+            "image": "https://hacks.mozilla.org/wp-content/themes/Hax/img/hacks-meta-image.jpg",
+            "date_modified": "2026-05-21T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-21/framework-agnostic-design-systems-web-components",
+            "content_html": "## Summary & Key Takeaways\n\n- The article presents a practical guide to building design systems.\n- It strongly advocates for using web components to achieve framework agnosticism.\n- The author criticizes the trend of framework-specific component libraries.\n- The post emphasizes versatility, composability, and portability in design systems.\n- It covers managing, building, and packaging design system components.\n\n## Our Commentary\n\nYes! This is the kind of pragmatic advice I love. The idea of framework-specific component libraries has always felt like a step backward for the web. Web Components are _right there_ for building truly portable design systems. I'm glad someone is pushing back against the framework lock-in mentality. This is a crucial topic for long-term maintainability and flexibility.\n\nOriginal Link: https://piccalil.li/blog/framework-agnostic-design-systems-part-1/?ref=articles-rss-feed",
+            "url": "https://digestweb.dev/articles/2026-05-21/framework-agnostic-design-systems-web-components",
+            "title": "Building Framework-Agnostic Design Systems with Web Components",
+            "summary": "This practical guide advocates for and demonstrates building design systems using web components to achieve framework independence. It challenges the notion of framework-specific component libraries, emphasizing versatility and portability.",
+            "image": "https://piccalil.b-cdn.net/api/og-image?slug=framework-agnostic-design-systems-part-1/",
+            "date_modified": "2026-05-21T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-21/google-gemini-for-home-ai-native-smart-homes",
+            "content_html": "## Summary & Key Takeaways\n\n- Google is expanding its smart home ecosystem with a full-stack Gemini AI offering.\n- The program integrates advanced camera intelligence and natural language queries.\n- It provides daily activity summaries for users.\n- Service providers and hardware manufacturers receive turnkey reference designs and APIs.\n- The goal is to enable proactive, branded AI-native home services.\n- This moves beyond basic device control to context-aware home intelligence.\n\n## Our Commentary\n\nGemini for Home feels like a big step towards the \"smart home\" actually being smart. I've always found current smart home tech a bit clunky and reactive. A proactive, context-aware AI could genuinely change how we interact with our living spaces. I'm cautiously optimistic, but the potential for privacy concerns is also something I'm thinking about.\n\nOriginal Link: https://developers.googleblog.com/empowering-service-providers-and-hardware-partners-with-gemini-for-home/",
+            "url": "https://digestweb.dev/articles/2026-05-21/google-gemini-for-home-ai-native-smart-homes",
+            "title": "Google Launches Gemini for Home, Empowering AI-Native Smart Homes",
+            "summary": "Google introduces a full-stack Gemini AI offering for smart homes, providing service providers and hardware partners with turnkey solutions. This initiative aims to create AI-native homes that understand context and proactively cater to user needs.",
+            "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/preview_5.2e16d0ba.fill-1200x600.png",
+            "date_modified": "2026-05-21T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-21/lessons-building-cloud-agents",
+            "content_html": "## Summary & Key Takeaways\n\n- The article discusses insights gained from developing cloud agents.\n- It covers challenges and learnings in the field of AI agent deployment.\n- The post offers valuable perspectives for practitioners.\n\n## Our Commentary\n\nBuilding agents is hard, and building _cloud_ agents adds another layer of complexity. I appreciate when companies share their real-world learnings, especially in such a rapidly evolving space. It's a good reminder that the theoretical promise of agents often hits practical snags.\n\nOriginal Link: https://cursor.com/blog/cloud-agent-lessons",
+            "url": "https://digestweb.dev/articles/2026-05-21/lessons-building-cloud-agents",
+            "title": "Lessons Learned from Building Cloud Agents",
+            "summary": "Cursor shares insights and challenges encountered while developing and deploying cloud-based AI agents, offering valuable lessons for others in the field.",
+            "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/blog/og/cloud-agent-learning-og-image.png",
+            "date_modified": "2026-05-21T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-21/microsoft-research-ai-agents-small-models",
+            "content_html": "## Summary & Key Takeaways\n\n- Microsoft Research presents MagenticLite, an agentic system for small AI models.\n- The system functions across both browser and local file system environments.\n- It uses specialized models and orchestration for efficient agentic performance.\n- The goal is to optimize AI agents for everyday tasks.\n\n## Our Commentary\n\nThis is a smart move. The focus on small models and local/browser execution for agents is crucial for broader adoption and privacy. Not everything needs a massive cloud LLM. I'm excited about the potential for more localized, efficient AI agents that can run on less powerful hardware. It feels like a step towards truly personal AI.\n\nOriginal Link: https://www.microsoft.com/en-us/research/blog/magenticlite-magenticbrain-fara1-5-an-agentic-experience-optimized-for-small-models/",
+            "url": "https://digestweb.dev/articles/2026-05-21/microsoft-research-ai-agents-small-models",
+            "title": "Microsoft Research Optimizes AI Agents for Small Models",
+            "summary": "Microsoft Research introduces MagenticLite, an agentic system designed for small models that operates seamlessly across browsers and local file systems. It leverages specialized models and orchestration for efficient performance on daily tasks.",
+            "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/05/MagenticLite-TWLIFB-1200x627-1-scaled.jpg",
+            "date_modified": "2026-05-21T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-21/microsoft-research-vega-zero-knowledge-identity",
+            "content_html": "## Summary & Key Takeaways\n\n- Microsoft Research has developed Vega for zero-knowledge proofs.\n- Vega converts full digital credentials into concise proofs.\n- It ensures only essential information is shared, enhancing privacy.\n- The system is designed for practical performance in real-world applications.\n- This technology is particularly relevant for digital identity in the age of AI.\n\n## Our Commentary\n\nZero-knowledge proofs are one of those technologies that feel like they're always \"just around the corner\" for mainstream adoption. Vega sounds like a practical step towards making them usable for digital identity. In an AI-driven world, privacy and selective disclosure are more important than ever. I'm hopeful this pushes ZKPs further into the mainstream.\n\nOriginal Link: https://www.microsoft.com/en-us/research/blog/vega-zero-knowledge-proofs-for-digital-identity-in-the-age-of-ai/",
+            "url": "https://digestweb.dev/articles/2026-05-21/microsoft-research-vega-zero-knowledge-identity",
+            "title": "Microsoft Research Unveils Vega for Zero-Knowledge Digital Identity",
+            "summary": "Microsoft Research introduces Vega, a system for zero-knowledge proofs that transforms full credentials into single proofs, sharing only necessary information. It offers real-world application performance for digital identity in the AI era.",
+            "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/05/VEGA-TWLIFB-1200x627-1.jpg",
+            "date_modified": "2026-05-21T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-21/nodejs-24-16-0-lts-release",
+            "content_html": "## Summary & Key Takeaways\n\n- Node.js 24.16.0 is now available.\n- This release targets the Long Term Support (LTS) branch.\n- It includes stability improvements and minor updates.\n\n## Our Commentary\n\nAnother minor Node.js LTS update. It's good to see the continued maintenance, but these releases rarely bring anything groundbreaking. Just steady progress, which is fine for LTS.\n\nOriginal Link: https://nodejs.org/en/blog/release/v24.16.0",
+            "url": "https://digestweb.dev/articles/2026-05-21/nodejs-24-16-0-lts-release",
+            "title": "Node.js 24.16.0 Released for LTS Branch",
+            "summary": "Node.js 24.16.0 has been released, providing the latest updates and stability improvements for the long-term support branch.",
+            "image": "https://nodejs.org/en/next-data/og/release/Node.js%20%E2%80%94%20Node.js%2024.16.0%20(LTS)",
+            "date_modified": "2026-05-21T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-21/pnpm-11-2-2-experimental-rust-install-engine",
+            "content_html": "## Summary & Key Takeaways\n\n- pnpm 11.2.2 introduces an experimental Rust port of its install engine, `pacquet`.\n- `pacquet` handles the materialization phase of `pnpm install` when configured.\n- This feature is opt-in and requires adding `@pnpm/pacquet` to `configDependencies`.\n- pnpm still manages dependency resolution, with `pacquet` focusing on fetching and importing.\n- CLI flags like `--no-runtime` are now correctly forwarded to `pacquet`'s install subcommand.\n- Fixes were implemented for `pnpm up` and `add`/`remove` when `pacquet` is active.\n\n## Our Commentary\n\nThis is a big deal, even if it's experimental. A Rust port of a core part of pnpm? That's a serious performance play. I'm curious how this will evolve and if it will eventually become the default. It feels like a direct challenge to other package managers. We've seen Rust rewrite parts of other tools, and it usually means a speed boost.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v11.2.2",
+            "url": "https://digestweb.dev/articles/2026-05-21/pnpm-11-2-2-experimental-rust-install-engine",
+            "title": "pnpm 11.2.2 Introduces Experimental Rust Install Engine",
+            "summary": "pnpm's latest minor release, 11.2.2, unveils an experimental, opt-in Rust port of its install engine, `pacquet`. This aims to delegate the materialization phase for potential performance gains.",
+            "image": "https://opengraph.githubassets.com/8684894e460198f21e7644b154c7f4899c8e3b39f2bcd493a44566ab43b1cad0/pnpm/pnpm/releases/tag/v11.2.2",
+            "date_modified": "2026-05-21T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-21/scroll-driven-svg-map-animations-gsap",
+            "content_html": "## Summary & Key Takeaways\n\n- The tutorial demonstrates creating scroll-driven SVG map animations.\n- It utilizes the GSAP library for animation control.\n- Key techniques include path drawing and motion tracking.\n- The guide also covers implementing smooth camera movements.\n\n## Our Commentary\n\nCodrops always delivers on the visual front. Scroll-driven animations are still a bit of a dark art for many, and combining that with SVG maps and GSAP sounds like a fantastic deep dive. I'm always impressed by the creativity in web animation.\n\nOriginal Link: https://tympanus.net/codrops/2026/05/21/creating-scroll-driven-svg-map-animations-with-gsap/",
+            "url": "https://digestweb.dev/articles/2026-05-21/scroll-driven-svg-map-animations-gsap",
+            "title": "Build Scroll-Driven SVG Map Animations with GSAP",
+            "summary": "Learn to create cinematic scroll-driven SVG map animations using GSAP, covering techniques like path drawing, motion tracking, and smooth camera movements in this detailed tutorial.",
+            "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/05/MapAnimation.webp?x42294",
+            "date_modified": "2026-05-21T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-21/simon-willison-datasette-agent-llm-integration",
+            "content_html": "## Summary & Key Takeaways\n\n- Simon Willison has launched Datasette Agent.\n- The project aims to integrate large language models (LLMs) with Datasette.\n- It promises new methods for querying and interacting with data.\n- This initiative extends Datasette's capabilities with AI.\n\n## Our Commentary\n\nSimon Willison diving into LLM agents for Datasette is exactly the kind of practical, open-source AI work I love to see. Datasette is already a fantastic tool for data exploration, and adding LLM capabilities could make it incredibly powerful for non-technical users. I'm always impressed by his ability to build useful, focused tools.\n\nOriginal Link: https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-05-21/simon-willison-datasette-agent-llm-integration",
+            "title": "Simon Willison Unveils Datasette Agent for LLM Integration",
+            "summary": "Simon Willison introduces Datasette Agent, a new project designed to integrate large language models with Datasette, enabling powerful new ways to query and interact with data.",
+            "image": "https://static.simonwillison.net/static/2026/datasette-agent.jpg",
+            "date_modified": "2026-05-21T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-05-20/claude-code-html-unreasonable-effectiveness",
             "content_html": "## Summary & Key Takeaways\n\n- Claude Code demonstrates HTML's utility for structured output.\n- HTML's declarative nature simplifies AI-generated UI.\n- It provides a robust, widely understood format for AI agents.\n- The article showcases examples of AI generating complex HTML structures.\n- This approach reduces the need for custom UI frameworks in some AI applications.\n\n## Our Commentary\n\nThis is a fascinating angle. I've seen AI struggle with complex UI frameworks, but HTML? That's a solid, universal target. It makes me wonder if we're overcomplicating things sometimes. The idea of AI just spitting out clean HTML for a quick interface feels... right. It's a pragmatic approach.\n\nOriginal Link: https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html",
             "url": "https://digestweb.dev/articles/2026-05-20/claude-code-html-unreasonable-effectiveness",
