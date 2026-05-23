@@ -11,6 +11,81 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-05-22/anthropic-project-glasswing-initial-update",
+            "content_html": "## Summary & Key Takeaways\n\n- Anthropic Research has released an initial update on Project Glasswing.\n- The update provides early details and progress on this new research initiative.\n- Further specifics on Glasswing's goals or findings are expected.\n\n## Our Commentary\n\nAn \"initial update\" on a research project from Anthropic. This could be anything from a minor internal milestone to something genuinely groundbreaking. We'll have to keep an eye on \"Project Glasswing\" to see what it actually entails. I'm always intrigued by what these labs are cooking up behind the scenes.\n\nOriginal Link: https://www.anthropic.com/research/glasswing-initial-update",
+            "url": "https://digestweb.dev/articles/2026-05-22/anthropic-project-glasswing-initial-update",
+            "title": "Anthropic Provides Initial Update on Project Glasswing",
+            "summary": "Anthropic Research shares an initial update on \"Project Glasswing,\" detailing early progress and insights from their new research initiative.",
+            "image": "https://cdn.sanity.io/images/4zrzovbb/website/8831fc381f1087ce855b4fbb4f080b2685ea38ec-1200x630.jpg",
+            "date_modified": "2026-05-22T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-22/connect-ai-agent-live-cypress-test-session",
+            "content_html": "## Summary & Key Takeaways\n\n- Explains how to connect AI agents to local Cypress test sessions.\n- Utilizes Chrome DevTools MCP for direct agent access.\n- Allows agents to see the runner, DOM, and app state during test failures.\n- Aims to reduce manual context switching and relaying information to agents.\n\n## Our Commentary\n\nThis is a neat idea for anyone deep into test automation and AI. The thought of an agent seeing the DOM and app state directly during a local failure is pretty compelling. It feels like a step towards truly autonomous debugging, which I'm both excited and a little wary about. We're giving more and more control to these systems.\n\nOriginal Link: https://www.cypress.io/blog/connect-an-ai-agent-to-a-live-cypress-test-session/",
+            "url": "https://digestweb.dev/articles/2026-05-22/connect-ai-agent-live-cypress-test-session",
+            "title": "Integrate AI Agents with Live Cypress Test Sessions Locally",
+            "summary": "Learn how to connect AI agents directly to your local Cypress test sessions using Chrome DevTools, enabling agents to access the runner, DOM, and app state during failures.",
+            "image": "https://www.cypress.io/cypress_logo_social.png",
+            "date_modified": "2026-05-22T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-22/deno-2-8-0-dx-node-api-expansions",
+            "content_html": "## Summary & Key Takeaways\n\n- Introduces `deno bump-version` for managing project versions.\n- Adds `deno why` to inspect module dependencies.\n- Enables `--watch` flag for `deno check` for continuous type checking.\n- Defaults to npm registry for unprefixed packages in `deno add`/`install`.\n- Adds a progress bar for `deno compile` operations.\n- Expands Node.js compatibility with `node:wasi` and `module.registerHooks()`.\n- Implements Network CDP domain for inspector events in Node.js modules.\n- Supports `vm.SourceTextModule` and cross-thread messaging.\n\n## Our Commentary\n\nDeno keeps pushing forward with its Node.js compatibility story, which is genuinely impressive. The new `deno bump-version` and `deno why` commands are fantastic quality-of-life improvements for developers. We're seeing a runtime that's becoming increasingly versatile, blurring the lines between Deno-native and Node.js ecosystems. I'm curious to see how this continued convergence impacts the broader JavaScript runtime landscape.\n\nOriginal Link: https://github.com/denoland/deno/releases/tag/v2.8.0",
+            "url": "https://digestweb.dev/articles/2026-05-22/deno-2-8-0-dx-node-api-expansions",
+            "title": "Deno 2.8.0 Arrives with DX Boosts and Node.js API Expansions",
+            "summary": "Deno's latest minor release, v2.8.0, introduces new CLI commands like `deno bump-version` and `deno why`, enhances developer experience with a compile progress bar, and significantly expands Node.js compatibility.",
+            "image": "https://opengraph.githubassets.com/8a72abf81cd450b7c0075e0e939dcae2c103e6180bcaa120f643abaf88bfb9c5/denoland/deno/releases/tag/v2.8.0",
+            "date_modified": "2026-05-22T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-22/ftc-fines-firms-deceptive-ai-marketing",
+            "content_html": "## Summary & Key Takeaways\n\n- The FTC has imposed a nearly $1 million settlement on Cox Media Group and two other firms.\n- The charges relate to deceptive practices involving an \"Active Listening\" AI marketing service.\n- The settlement addresses misleading claims made to customers about the AI's capabilities.\n- This action underscores regulatory scrutiny on AI ethics and consumer protection.\n\n## Our Commentary\n\nThis is exactly the kind of real-world consequence we need to see when AI is misused. \"Active Listening\" sounds creepy enough on its own, but deceptive practices around it are just unacceptable. It's a stark reminder that the ethical implications of AI are not theoretical; they have tangible legal and financial repercussions. We need more of this.\n\nOriginal Link: https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-05-22/ftc-fines-firms-deceptive-ai-marketing",
+            "title": "FTC Fines Firms $1M for Deceptive \"Active Listening\" AI Marketing",
+            "summary": "The FTC has mandated Cox Media Group and two other companies to pay nearly $1 million to settle charges of deceiving customers with an \"Active Listening\" AI-powered marketing service.",
+            "image": "https://picsum.photos/id/400/800/450",
+            "date_modified": "2026-05-22T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-22/specialization-beats-scale-ai-procurement",
+            "content_html": "## Summary & Key Takeaways\n\n- The article discusses the strategic importance of specialization in AI procurement.\n- It posits that focusing on specialized AI solutions can be more effective than pursuing large-scale, generalist models.\n- Many organizations tend to overlook this variable in their AI decision-making processes.\n- The piece encourages a re-evaluation of current AI acquisition strategies.\n\n## Our Commentary\n\nThis is a really interesting take. We've been so focused on \"bigger is better\" with LLMs, but the argument for specialization makes a lot of sense. It reminds me of the early days of software development where bespoke solutions often outperformed off-the-shelf giants for specific problems. I wonder if this signals a shift in how we think about deploying AI in the real world.\n\nOriginal Link: https://huggingface.co/blog/Dharma-AI/specialization-beats-scale",
+            "url": "https://digestweb.dev/articles/2026-05-22/specialization-beats-scale-ai-procurement",
+            "title": "Specialization Over Scale: A Key AI Procurement Strategy",
+            "summary": "This article from Hugging Face argues that specialization often outperforms scale in AI procurement decisions, highlighting a strategic variable frequently overlooked by organizations.",
+            "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/Dharma-AI/specialization-beats-scale.png",
+            "date_modified": "2026-05-22T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-22/state-of-css-centering-2026",
+            "content_html": "## Summary & Key Takeaways\n\n- Provides an updated overview of CSS centering techniques for 2026.\n- Aims to clarify common misunderstandings surrounding centering elements.\n- Explores various modern CSS properties and methods for alignment.\n- Helps developers understand the underlying reasons why specific centering code works.\n\n## Our Commentary\n\nAh, the eternal quest for perfect CSS centering! It's almost a rite of passage for every web developer. I appreciate an updated guide because, let's be honest, even with Flexbox and Grid, there are still nuances. It's a testament to how much the web platform has evolved, yet some fundamental problems persist.\n\nOriginal Link: https://css-tricks.com/the-state-of-css-centering-in-2026/",
+            "url": "https://digestweb.dev/articles/2026-05-22/state-of-css-centering-2026",
+            "title": "The Definitive Guide to CSS Centering in 2026",
+            "summary": "This updated guide from CSS-Tricks explores the current best practices and various methods for centering elements with CSS in 2026, clarifying common confusions.",
+            "image": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/04/centered-text.webp",
+            "date_modified": "2026-05-22T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-22/the-batch-ai-news-agents-cybersecurity",
+            "content_html": "## Summary & Key Takeaways\n\n- Features a comparison between \"Hermes\" and \"OpenClaw\" AI models.\n- Discusses rising concerns regarding cybersecurity in AI.\n- Explores advancements in creating more interactive AI conversations.\n- Addresses the philosophical and practical question of AI agents performing human tasks.\n\n## Our Commentary\n\nThe Batch is always a solid source for a quick rundown of AI happenings. \"Hermes vs. OpenClaw\" sounds like a new model showdown, which is always exciting. The \"Can Agents Do Human Work?\" question is the one that keeps me up at night, honestly. It's not just about capability, but the societal implications. We're in uncharted territory.\n\nOriginal Link: https://www.deeplearning.ai/the-batch/issue-354",
+            "url": "https://digestweb.dev/articles/2026-05-22/the-batch-ai-news-agents-cybersecurity",
+            "title": "The Batch: AI News on Agents, Cybersecurity, and Model Debates",
+            "summary": "This issue of The Batch newsletter covers a range of AI topics, including new model comparisons like Hermes vs. OpenClaw, concerns about cybersecurity, advancements in interactive conversations, and the ongoing debate about AI agents performing human work.",
+            "image": "https://charonhub.deeplearning.ai/content/images/2026/05/Screenshot-2026-05-21-at-12.06.37---PM.png",
+            "date_modified": "2026-05-22T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-22/web-extensions-google-io-2026-recap",
+            "content_html": "## Summary & Key Takeaways\n\n- Summarizes key announcements for web extensions from Google I/O 2026.\n- Covers new features and improvements for extension developers.\n- Provides an overview of the future direction for the web extensions platform.\n\n## Our Commentary\n\nI/O recaps are always useful for getting a condensed view of what's new. Web extensions continue to be a powerful part of the browser ecosystem, and it's good to see continued investment. I'm always hoping for more cross-browser standardization, but any progress is good progress.\n\nOriginal Link: https://developer.chrome.com/blog/extensions-io-2026?hl=en",
+            "url": "https://digestweb.dev/articles/2026-05-22/web-extensions-google-io-2026-recap",
+            "title": "Web Extensions Updates from Google I/O 2026 Recap",
+            "summary": "Catch up on all the exciting new developments and announcements for web extensions that were unveiled during Google I/O 2026.",
+            "image": "https://developer.chrome.com/static/blog/extensions-io-2026/image/thumbnail.png",
+            "date_modified": "2026-05-22T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-05-21/10-open-source-projects-shaping-game-development",
             "content_html": "## Summary & Key Takeaways\n\n- The article highlights 10 open-source tools for game development.\n- These tools cover aspects like art creation, animation, and level design.\n- They also assist with audio, dialogue, and debug UI development.\n- The focus is on projects that complement, rather than replace, game engines.\n\n## Our Commentary\n\nIt's always cool to see the breadth of open-source, even in niches like game dev. I think it's easy to forget how many specialized tools exist outside the big engines. This list is a nice reminder that the open-source ethos extends everywhere.\n\nOriginal Link: https://github.blog/open-source/gaming/beyond-the-engine-10-open-source-projects-shaping-how-games-actually-get-made/",
             "url": "https://digestweb.dev/articles/2026-05-21/10-open-source-projects-shaping-game-development",
