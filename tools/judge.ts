@@ -21,10 +21,7 @@ Evaluate the "significance" of each article using this strict scale:
 4 = Headline: Landmark release, paradigm shift, Stage 4 TC39 proposal shipping, ecosystem-wide impact.
 </triage_scale>
 
-<schema_rules>
-If significance === 0, output exactly:
-{ "id": N, "significance": 0, "reason": "Explanation of why it was skipped" }
-
+<response_schema_rules>
 If significance >= 1, output exactly:
 { 
   "id": N, 
@@ -38,8 +35,11 @@ If significance >= 1, output exactly:
   "commentarySection": "Markdown format. Max 600 chars. Follow the Tone Guide precisely."
 }
 
+If significance === 0, output exactly:
+{ "id": N, "significance": 0, "reason": "Explanation of why it was skipped" }
+
 ALLOWED TAG VOCABULARY: ${TAG_VOCABULARY.join(', ')}
-</schema_rules>
+</response_schema_rules>
 
 <tone_guide>
 Apply these rules STRICTLY to the 'commentarySection':

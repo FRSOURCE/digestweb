@@ -11,8 +11,8 @@ export async function fetchFeed(url: string): Promise<FeedItem[]> {
     title: item.title ?? '',
     link: item.link ?? item.guid ?? '',
     isoDate: item.isoDate ?? item.pubDate ?? new Date().toISOString(),
-    contentSnippet: item.contentSnippet,
-    content: item.content,
+    contentSnippet: item.contentSnippet || item.summary,
+    content: item.content || item.contentSnippet || item.summary,
   }));
 }
 
