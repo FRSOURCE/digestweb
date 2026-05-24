@@ -965,6 +965,5 @@ export const sources: Source[] = [
     ],
     feed: 'https://www.frsource.org/blog/feed.atom',
     homeUrl: 'https://www.frsource.org/blog/',
-    authorName: [''],
   },
 ];

@@ -31,7 +31,7 @@ function buildLiteral(source: SubmittedSource & { id: string }): string {
     `    feed: ${source.feed ? JSON.stringify(source.feed) : 'null'},`,
   );
   lines.push(`    homeUrl: ${JSON.stringify(source.homeUrl)},`);
-  if (source.authorName)
+  if (source.authorName && typeof authorName === 'string')
     lines.push(`    authorName: ${JSON.stringify(source.authorName)},`);
   lines.push('  },');
   return lines.join('\n');
