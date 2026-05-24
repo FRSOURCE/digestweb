@@ -16,6 +16,7 @@ export default [
       'tools/imported.json',
       'tools/candidates-input.json',
       'tools/candidates-output.json',
+      'pnpm-lock.yarml',
     ],
   },
   {
