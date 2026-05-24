@@ -183,6 +183,16 @@ async function handleSubmit(e: SubmitEvent) {
     }
   }
 }
+
+onMounted(() => {
+  // "static" turnstile render won't kick in after SPA navigation
+  if (!document.querySelector('.cf-turnstile')?.children?.length) {
+    const { turnstile } = window as unknown as {
+      turnstile: { render: (query: string) => void };
+    };
+    turnstile.render('.cf-turnstile');
+  }
+});
 </script>
 
 <template>
