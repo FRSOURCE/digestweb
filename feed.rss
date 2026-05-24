@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Sun, 24 May 2026 22:22:59 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 24 May 2026 22:46:39 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,70 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[The AI-Generated Issue Report Problem: Armin Ronacher on Developer Frustration]]></title>
+            <link>https://digestweb.dev/articles/2026-05-24/ai-generated-issue-reports-armin-ronacher-developer-frustration</link>
+            <guid>https://digestweb.dev/articles/2026-05-24/ai-generated-issue-reports-armin-ronacher-developer-frustration</guid>
+            <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Armin Ronacher highlights the growing frustration with AI-generated issue reports in open-source, often inaccurate but confidently presented.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- AI-generated issue reports are a growing problem in open-source projects.
+- These reports are often reworded by AI, creating a "huge mess."
+- Conclusions produced by AI are frequently inaccurate but full of confidence.
+- This leads to guesswork on root causes and fake minimal reproductions.
+- Armin Ronacher advocates for human-observed reports: "I ran this command. I expected this to happen. This happened instead."
+- He stresses the importance of exact errors or logs from human observation.
+
+## Our Commentary
+
+This hits home. We've seen this ourselves, the confident inaccuracy of AI-generated bug reports. It's a real challenge for maintainers. I genuinely don't know how to feel about agents churning away at 3am while nobody's watching, generating these reports. It feels like we're adding a new layer of noise to an already noisy system.
+
+Original Link: https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/551/800/450" length="0" type="image//id/551/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Recreating 80s Usborne Computer Games with AI: Mad House in JavaScript]]></title>
+            <link>https://digestweb.dev/articles/2026-05-24/recreating-80s-usborne-computer-games-ai-mad-house-javascript</link>
+            <guid>https://digestweb.dev/articles/2026-05-24/recreating-80s-usborne-computer-games-ai-mad-house-javascript</guid>
+            <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison used Claude to recreate the classic 1983 "Mad House" game from Usborne's "Creepy Computer Games" book in vanilla JavaScript and HTML.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Usborne has released free PDFs of their 1980s Computer Books.
+- Simon Willison remembered the "Mad House" game from "Creepy Computer Games."
+- He used Claude to build an interactive JavaScript and HTML version of the game.
+- The AI-generated game is mobile-friendly and features a retro aesthetic.
+- The project credits the original Usborne book.
+
+## Our Commentary
+
+This is a delightful little project. It's a great example of how AI can be a creative assistant, not just a code generator. I love the idea of bringing these old games back to life with modern web tech, especially with a retro aesthetic. It makes me wonder what other forgotten gems could be resurrected.
+
+Original Link: https://simonwillison.net/2026/May/24/usborne-mad-house/#atom-everything]]></content:encoded>
+            <enclosure url="https://static.simonwillison.net/static/2026/mad-house.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Introducing `skills-npm`: Stable Versioning for AI Agent Capabilities]]></title>
+            <link>https://digestweb.dev/articles/2026-05-24/skills-npm-stable-versioning-ai-agent-capabilities</link>
+            <guid>https://digestweb.dev/articles/2026-05-24/skills-npm-stable-versioning-ai-agent-capabilities</guid>
+            <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[`skills-npm` offers professional-grade versioning and dependency management for AI agent capabilities, aiming to streamline agent development.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- `skills-npm` is a new tool for managing AI agent capabilities.
+- It aims to solve the problem of messy agent skill management.
+- The tool provides professional-grade versioning for agent skills.
+- It also offers dependency management for AI agent toolboxes.
+- The goal is to bring stability to AI agent development workflows.
+
+## Our Commentary
+
+This is exactly the kind of infrastructure we need as AI agents become more complex. Managing dependencies and versions for agent skills feels like a natural evolution, but it's easy to overlook until things get messy. I'm curious to see how this integrates with existing package managers and if it can truly simplify the agent development lifecycle.
+
+Original Link: https://www.frsource.org/blog/post/skills-npm-a-stable-way-to-manage-agent-skills/]]></content:encoded>
+            <enclosure url="https://www.frsource.org/blog/post/skills-npm-a-stable-way-to-manage-agent-skills/splash.webp" length="0" type="image/webp"/>
+        </item>
         <item>
             <title><![CDATA[Demystifying the HTML <dl> Element]]></title>
             <link>https://digestweb.dev/articles/2026-05-23/demystifying-html-dl-element-simon-willison</link>

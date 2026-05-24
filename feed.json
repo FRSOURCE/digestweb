@@ -11,6 +11,39 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-05-24/ai-generated-issue-reports-armin-ronacher-developer-frustration",
+            "content_html": "## Summary & Key Takeaways\n\n- AI-generated issue reports are a growing problem in open-source projects.\n- These reports are often reworded by AI, creating a \"huge mess.\"\n- Conclusions produced by AI are frequently inaccurate but full of confidence.\n- This leads to guesswork on root causes and fake minimal reproductions.\n- Armin Ronacher advocates for human-observed reports: \"I ran this command. I expected this to happen. This happened instead.\"\n- He stresses the importance of exact errors or logs from human observation.\n\n## Our Commentary\n\nThis hits home. We've seen this ourselves, the confident inaccuracy of AI-generated bug reports. It's a real challenge for maintainers. I genuinely don't know how to feel about agents churning away at 3am while nobody's watching, generating these reports. It feels like we're adding a new layer of noise to an already noisy system.\n\nOriginal Link: https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-05-24/ai-generated-issue-reports-armin-ronacher-developer-frustration",
+            "title": "The AI-Generated Issue Report Problem: Armin Ronacher on Developer Frustration",
+            "summary": "Armin Ronacher highlights the growing frustration with AI-generated issue reports in open-source, often inaccurate but confidently presented.",
+            "image": "https://picsum.photos/id/551/800/450",
+            "date_modified": "2026-05-24T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-24/recreating-80s-usborne-computer-games-ai-mad-house-javascript",
+            "content_html": "## Summary & Key Takeaways\n\n- Usborne has released free PDFs of their 1980s Computer Books.\n- Simon Willison remembered the \"Mad House\" game from \"Creepy Computer Games.\"\n- He used Claude to build an interactive JavaScript and HTML version of the game.\n- The AI-generated game is mobile-friendly and features a retro aesthetic.\n- The project credits the original Usborne book.\n\n## Our Commentary\n\nThis is a delightful little project. It's a great example of how AI can be a creative assistant, not just a code generator. I love the idea of bringing these old games back to life with modern web tech, especially with a retro aesthetic. It makes me wonder what other forgotten gems could be resurrected.\n\nOriginal Link: https://simonwillison.net/2026/May/24/usborne-mad-house/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-05-24/recreating-80s-usborne-computer-games-ai-mad-house-javascript",
+            "title": "Recreating 80s Usborne Computer Games with AI: Mad House in JavaScript",
+            "summary": "Simon Willison used Claude to recreate the classic 1983 \"Mad House\" game from Usborne's \"Creepy Computer Games\" book in vanilla JavaScript and HTML.",
+            "image": "https://static.simonwillison.net/static/2026/mad-house.jpg",
+            "date_modified": "2026-05-24T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-24/skills-npm-stable-versioning-ai-agent-capabilities",
+            "content_html": "## Summary & Key Takeaways\n\n- `skills-npm` is a new tool for managing AI agent capabilities.\n- It aims to solve the problem of messy agent skill management.\n- The tool provides professional-grade versioning for agent skills.\n- It also offers dependency management for AI agent toolboxes.\n- The goal is to bring stability to AI agent development workflows.\n\n## Our Commentary\n\nThis is exactly the kind of infrastructure we need as AI agents become more complex. Managing dependencies and versions for agent skills feels like a natural evolution, but it's easy to overlook until things get messy. I'm curious to see how this integrates with existing package managers and if it can truly simplify the agent development lifecycle.\n\nOriginal Link: https://www.frsource.org/blog/post/skills-npm-a-stable-way-to-manage-agent-skills/",
+            "url": "https://digestweb.dev/articles/2026-05-24/skills-npm-stable-versioning-ai-agent-capabilities",
+            "title": "Introducing `skills-npm`: Stable Versioning for AI Agent Capabilities",
+            "summary": "`skills-npm` offers professional-grade versioning and dependency management for AI agent capabilities, aiming to streamline agent development.",
+            "image": "https://www.frsource.org/blog/post/skills-npm-a-stable-way-to-manage-agent-skills/splash.webp",
+            "date_modified": "2026-05-24T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-05-23/demystifying-html-dl-element-simon-willison",
             "content_html": "## Summary & Key Takeaways\n\nThe `<dl>` element is designed for associating names with values, not exclusively for definitions.\nIt is ideal for metadata, dialogue transcripts, and other structured content where items have descriptive values.\nThe `<dt>` element represents the 'name' or 'term', and `<dd>` represents the 'value' or 'description'.\nMultiple `<dt>` elements can be associated with a single `<dd>`, and a single `<dt>` can have multiple `<dd>`s.\nProper semantic use of `<dl>` significantly improves accessibility and machine readability of content.\nCSS can be effectively used to style `<dl>` elements to achieve various layout presentations.\n\n## Our Commentary\n\nI've always had a soft spot for the `<dl>` element, but I admit I often default to `<ul>` or `<div>` for lists that aren't strictly definitions. Simon's piece is a great reminder of its power. We often forget how much semantic richness HTML offers beyond the basics. There's something unsettling about how quickly we reach for generic divs when a more specific, meaningful tag exists. This makes me want to audit some of our older components. It's a good nudge for better web hygiene.\n\nOriginal Link: https://simonwillison.net/2026/May/23/on-the-dl/#atom-everything",
             "url": "https://digestweb.dev/articles/2026-05-23/demystifying-html-dl-element-simon-willison",
