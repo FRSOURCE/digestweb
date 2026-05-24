@@ -956,4 +956,15 @@ export const sources: Source[] = [
     homeUrl: 'https://piccalil.li/blog',
     feed: 'https://piccalil.li/articles.xml',
   },
+  {
+    id: 'frspace',
+    name: 'FRSPACE',
+    category: 'person-blog',
+    tags: [
+      'javascript,typescript,css,html,browser,frameworks,react,vue,nodejs,tooling,build-tools,performance,dx,ux,accessibility,testing,tutorial,ai,open-source',
+    ],
+    feed: 'https://www.frsource.org/blog/feed.atom',
+    homeUrl: 'https://www.frsource.org/blog/',
+    authorName: [''],
+  },
 ];
