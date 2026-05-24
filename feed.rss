@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Sat, 23 May 2026 09:03:55 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 24 May 2026 05:03:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,28 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Demystifying the HTML <dl> Element]]></title>
+            <link>https://digestweb.dev/articles/2026-05-23/demystifying-html-dl-element-simon-willison</link>
+            <guid>https://digestweb.dev/articles/2026-05-23/demystifying-html-dl-element-simon-willison</guid>
+            <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison explores the often-misunderstood <dl> (description list) element, advocating for its proper use beyond simple key-value pairs and highlighting its versatility for structured content.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+The `<dl>` element is designed for associating names with values, not exclusively for definitions.
+It is ideal for metadata, dialogue transcripts, and other structured content where items have descriptive values.
+The `<dt>` element represents the 'name' or 'term', and `<dd>` represents the 'value' or 'description'.
+Multiple `<dt>` elements can be associated with a single `<dd>`, and a single `<dt>` can have multiple `<dd>`s.
+Proper semantic use of `<dl>` significantly improves accessibility and machine readability of content.
+CSS can be effectively used to style `<dl>` elements to achieve various layout presentations.
+
+## Our Commentary
+
+I've always had a soft spot for the `<dl>` element, but I admit I often default to `<ul>` or `<div>` for lists that aren't strictly definitions. Simon's piece is a great reminder of its power. We often forget how much semantic richness HTML offers beyond the basics. There's something unsettling about how quickly we reach for generic divs when a more specific, meaningful tag exists. This makes me want to audit some of our older components. It's a good nudge for better web hygiene.
+
+Original Link: https://simonwillison.net/2026/May/23/on-the-dl/#atom-everything]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/616/800/450" length="0" type="image//id/616/800/450"/>
+        </item>
         <item>
             <title><![CDATA[NVIDIA's Nemotron-Labs: Diffusion Models for 'Speed-of-Light' Text Gen]]></title>
             <link>https://digestweb.dev/articles/2026-05-23/nvidia-nemotron-labs-diffusion-models-speed-of-light-text-gen</link>
