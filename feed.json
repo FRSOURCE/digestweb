@@ -23,6 +23,18 @@
             }
         },
         {
+            "id": "https://digestweb.dev/articles/2026-05-24/datasette-1-0a30-customizable-jump-to-menu",
+            "content_html": "## Summary & Key Takeaways\n\nDatasette 1.0a30 introduces a new customizable \"Jump to...\" menu.\nUsers can activate this menu by hitting the `/` key.\nThe menu provides quick navigation within Datasette instances.\nA new `jump_items_sql()` plugin hook allows developers to extend the menu.\nThis enhances the discoverability and accessibility of data and features.\nThe feature is available for testing on `latest.datasette.io`.\n\n## Our Commentary\n\nI'm always impressed by the thoughtful DX in Datasette. This \"Jump to...\" menu feels like a small thing, but it's the kind of detail that makes a tool genuinely pleasant to use. We've seen similar patterns in IDEs and command palettes, and it just works. The plugin hook is the real kicker here, opening up so many possibilities for custom workflows. It's a smart move.\n\nOriginal Link: https://simonwillison.net/2026/May/24/datasette/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-05-24/datasette-1-0a30-customizable-jump-to-menu",
+            "title": "Datasette 1.0a30: Customizable 'Jump to...' Menu Enhances Navigation",
+            "summary": "Datasette's latest alpha release, 1.0a30, brings a new 'Jump to...' menu, significantly improving navigation. This feature is extensible via a new plugin hook.",
+            "image": "https://picsum.photos/id/240/800/450",
+            "date_modified": "2026-05-24T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-05-24/recreating-80s-usborne-computer-games-ai-mad-house-javascript",
             "content_html": "## Summary & Key Takeaways\n\n- Usborne has released free PDFs of their 1980s Computer Books.\n- Simon Willison remembered the \"Mad House\" game from \"Creepy Computer Games.\"\n- He used Claude to build an interactive JavaScript and HTML version of the game.\n- The AI-generated game is mobile-friendly and features a retro aesthetic.\n- The project credits the original Usborne book.\n\n## Our Commentary\n\nThis is a delightful little project. It's a great example of how AI can be a creative assistant, not just a code generator. I love the idea of bringing these old games back to life with modern web tech, especially with a retro aesthetic. It makes me wonder what other forgotten gems could be resurrected.\n\nOriginal Link: https://simonwillison.net/2026/May/24/usborne-mad-house/#atom-everything",
             "url": "https://digestweb.dev/articles/2026-05-24/recreating-80s-usborne-computer-games-ai-mad-house-javascript",

@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Sun, 24 May 2026 22:51:34 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 25 May 2026 11:11:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -36,6 +36,28 @@ This hits home. We've seen this ourselves, the confident inaccuracy of AI-genera
 
 Original Link: https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything]]></content:encoded>
             <enclosure url="https://picsum.photos/id/551/800/450" length="0" type="image//id/551/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Datasette 1.0a30: Customizable 'Jump to...' Menu Enhances Navigation]]></title>
+            <link>https://digestweb.dev/articles/2026-05-24/datasette-1-0a30-customizable-jump-to-menu</link>
+            <guid>https://digestweb.dev/articles/2026-05-24/datasette-1-0a30-customizable-jump-to-menu</guid>
+            <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Datasette's latest alpha release, 1.0a30, brings a new 'Jump to...' menu, significantly improving navigation. This feature is extensible via a new plugin hook.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+Datasette 1.0a30 introduces a new customizable "Jump to..." menu.
+Users can activate this menu by hitting the `/` key.
+The menu provides quick navigation within Datasette instances.
+A new `jump_items_sql()` plugin hook allows developers to extend the menu.
+This enhances the discoverability and accessibility of data and features.
+The feature is available for testing on `latest.datasette.io`.
+
+## Our Commentary
+
+I'm always impressed by the thoughtful DX in Datasette. This "Jump to..." menu feels like a small thing, but it's the kind of detail that makes a tool genuinely pleasant to use. We've seen similar patterns in IDEs and command palettes, and it just works. The plugin hook is the real kicker here, opening up so many possibilities for custom workflows. It's a smart move.
+
+Original Link: https://simonwillison.net/2026/May/24/datasette/#atom-everything]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/240/800/450" length="0" type="image//id/240/800/450"/>
         </item>
         <item>
             <title><![CDATA[Recreating 80s Usborne Computer Games with AI: Mad House in JavaScript]]></title>

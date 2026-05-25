@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-05-24T22:51:34.411Z</updated>
+    <updated>2026-05-25T11:11:44.458Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -34,6 +34,30 @@
 This hits home. We've seen this ourselves, the confident inaccuracy of AI-generated bug reports. It's a real challenge for maintainers. I genuinely don't know how to feel about agents churning away at 3am while nobody's watching, generating these reports. It feels like we're adding a new layer of noise to an already noisy system.
 
 Original Link: https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Datasette 1.0a30: Customizable 'Jump to...' Menu Enhances Navigation]]></title>
+        <id>https://digestweb.dev/articles/2026-05-24/datasette-1-0a30-customizable-jump-to-menu</id>
+        <link href="https://digestweb.dev/articles/2026-05-24/datasette-1-0a30-customizable-jump-to-menu"/>
+        <updated>2026-05-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Datasette's latest alpha release, 1.0a30, brings a new 'Jump to...' menu, significantly improving navigation. This feature is extensible via a new plugin hook.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+Datasette 1.0a30 introduces a new customizable "Jump to..." menu.
+Users can activate this menu by hitting the `/` key.
+The menu provides quick navigation within Datasette instances.
+A new `jump_items_sql()` plugin hook allows developers to extend the menu.
+This enhances the discoverability and accessibility of data and features.
+The feature is available for testing on `latest.datasette.io`.
+
+## Our Commentary
+
+I'm always impressed by the thoughtful DX in Datasette. This "Jump to..." menu feels like a small thing, but it's the kind of detail that makes a tool genuinely pleasant to use. We've seen similar patterns in IDEs and command palettes, and it just works. The plugin hook is the real kicker here, opening up so many possibilities for custom workflows. It's a smart move.
+
+Original Link: https://simonwillison.net/2026/May/24/datasette/#atom-everything]]></content>
         <author>
             <name>Simon Willison</name>
         </author>
