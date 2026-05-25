@@ -56,7 +56,7 @@ const pageUrl = computed(() =>
     </p>
 
     <!-- View original button -->
-    <div class="mb-7 flex justify-between gap-4">
+    <div class="mb-8 lg:mb-12 flex justify-between gap-4">
       <Button
         :href="frontmatter.original_url"
         target="_blank"
@@ -81,15 +81,21 @@ const pageUrl = computed(() =>
     </div>
 
     <!-- Summary content (prose) -->
-    <div class="dw-prose prose prose-neutral max-w-none mb-2">
+    <div class="dw-prose prose prose-neutral max-w-none mb-8 lg:mb-12">
       <Content />
     </div>
 
-    <!-- Social share row -->
-    <ShareBox
-      :url="pageUrl"
-      :title="frontmatter.title"
-      class="flex items-center gap-2.5 lg:gap-4 pt-6 mt-6"
-    />
+    <!-- View original button -->
+    <div class="mb-7 flex justify-between gap-4">
+      <Button
+        :href="frontmatter.original_url"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="bg-dw-primary-light! text-dw-text-invert! flex-grow justify-center max-w-80"
+        size="sm sm:md"
+        >View Original Article</Button
+      >
+      <ShareBox :url="pageUrl" :title="frontmatter.title" />
+    </div>
   </div>
 </template>
