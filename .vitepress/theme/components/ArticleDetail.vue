@@ -56,12 +56,12 @@ const pageUrl = computed(() =>
     </p>
 
     <!-- View original button -->
-    <div class="mb-7 flex justify-between">
+    <div class="mb-7 flex justify-between gap-4">
       <Button
         :href="frontmatter.original_url"
         target="_blank"
         rel="noopener noreferrer"
-        class="text-dw-primary-light!"
+        class="bg-dw-primary-light! text-dw-text-invert! flex-grow justify-center max-w-80"
         size="sm sm:md"
         >View Original Article</Button
       >
