@@ -11,6 +11,60 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-05-25/ai-agent-terminology-harness-scaffold",
+            "content_html": "## Summary & Key Takeaways\n\n- The article defines essential terms related to AI agents.\n- It aims to standardize vocabulary for better communication.\n- Concepts like \"harness\" and \"scaffold\" are explained in context.\n- Understanding these terms is crucial for developing and discussing AI agents.\n- The piece contributes to a clearer understanding of the AI agent landscape.\n\n## Our Commentary\n\nThe AI agent space is a wild west of jargon right now. Every new framework or paper invents its own terms. I appreciate any effort to bring some order to the chaos. We need a common language if we're going to build anything coherent. I'm always a little wary of new glossaries, though; sometimes they just add _more_ terms. Let's hope this one simplifies things.\n\nOriginal Link: https://huggingface.co/blog/agent-glossary",
+            "url": "https://digestweb.dev/articles/2026-05-25/ai-agent-terminology-harness-scaffold",
+            "title": "Demystifying AI Agent Terminology: Harness, Scaffold, and More",
+            "summary": "This article aims to clarify key terms used in the rapidly evolving field of AI agents, helping developers and researchers communicate more precisely.",
+            "image": "https://huggingface.co/blog/assets/agent-glossary/thumbnail.png",
+            "date_modified": "2026-05-25T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-25/chris-corner-finding-the-perfect-typeface",
+            "content_html": "## Summary & Key Takeaways\n\n- The article discusses the subjective process of choosing typefaces.\n- It suggests exploring many options and saving favorites.\n- The author shares a personal tool for managing fonts locally.\n- The piece emphasizes a \"you'll know it when you see it\" approach.\n- It offers practical advice for designers on font discovery.\n\n## Our Commentary\n\nFinding the right typeface _is_ a whole thing. I've spent hours down that rabbit hole, convinced the perfect font would magically solve all my design problems. It rarely does, but the hunt is still fun. I appreciate the personal touch here. It's a reminder that design isn't always about algorithms and frameworks; sometimes it's just about feeling it out.\n\nOriginal Link: https://blog.codepen.io/2026/05/25/chris-corner-finding-type/",
+            "url": "https://digestweb.dev/articles/2026-05-25/chris-corner-finding-the-perfect-typeface",
+            "title": "Chris' Corner: The Art of Finding the Perfect Typeface",
+            "summary": "A personal reflection on the process of selecting typefaces for design projects, offering tips on exploration and organization.",
+            "image": "https://blog.codepen.io/wp-content/uploads/2026/05/otbessivubeth7kkfefx.jpg",
+            "date_modified": "2026-05-25T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-25/cross-document-view-transitions-scaling-css",
+            "content_html": "## Summary & Key Takeaways\n\n- View Transitions require unique `view-transition-name` values for each element.\n- Scaling this to hundreds of elements leads to an explosion of CSS selectors.\n- The article addresses the complexity of managing these styles.\n- It focuses on strategies for cross-document view transitions.\n- Solutions aim to maintain manageable and performant animations.\n- The goal is to prevent an unmanageable wall of CSS.\n\n## Our Commentary\n\nView Transitions are fantastic, but I've always wondered about the practicalities of scaling them. This article hits on a very real pain point. The idea of an \"unmanageable wall of selectors\" for animations is enough to make me shudder. We need robust patterns for these modern CSS features, and I'm glad someone is tackling the hard parts. It's not just about the cool effect; it's about maintainability.\n\nOriginal Link: https://css-tricks.com/cross-document-view-transitions-part-2/",
+            "url": "https://digestweb.dev/articles/2026-05-25/cross-document-view-transitions-scaling-css",
+            "title": "Scaling Cross-Document View Transitions with Hundreds of Elements",
+            "summary": "This article explores the challenges of managing unique `view-transition-name` values and CSS selectors when implementing cross-document view transitions at scale. It offers strategies to prevent an unmanageable explosion of styles.",
+            "image": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2022/06/dots-loader.jpg",
+            "date_modified": "2026-05-25T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-25/git-github-vs-code-beginners-guide",
+            "content_html": "## Summary & Key Takeaways\n\n- The guide introduces fundamental Git and GitHub concepts.\n- It demonstrates how to perform common version control tasks within VS Code.\n- Users learn to clone repositories, commit changes, and push to GitHub.\n- The tutorial covers basic project management workflows.\n- It aims to help new developers get started with collaborative coding.\n\n## Our Commentary\n\nWe see a lot of these \"getting started\" guides. They're always welcome for new developers, but for us, it's familiar territory. It's good that GitHub is investing in clear onboarding. I remember how confusing Git was when I first started. Anything that lowers that barrier is a net positive, even if it's not a deep dive.\n\nOriginal Link: https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-git-and-github-in-vs-code/",
+            "url": "https://digestweb.dev/articles/2026-05-25/git-github-vs-code-beginners-guide",
+            "title": "Getting Started with Git & GitHub in VS Code for Beginners",
+            "summary": "A beginner's guide to integrating Git and GitHub directly within VS Code, covering essential workflows for project management and version control.",
+            "image": "https://github.blog/wp-content/uploads/2026/05/GIT901_THUMB_GFB_A-1.png?fit=1280%2C720",
+            "date_modified": "2026-05-25T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-25/nodejs-streams-memory-leaks-backpressure",
+            "content_html": "## Summary & Key Takeaways\n\n- Node.js streams do not inherently prevent memory exhaustion.\n- Improper backpressure handling can lead to silent memory leaks.\n- The article explains common pitfalls in streaming applications.\n- It highlights the complexity of memory management with streams.\n- Developers need to actively manage stream flow to prevent issues.\n- The piece provides insights into ensuring stable Node.js applications.\n\n## Our Commentary\n\nOh, this one hits home. I've definitely been bitten by silent memory leaks in Node.js streams before. It's one of those insidious problems that only shows up under load, and then you're scrambling. This is a crucial topic for anyone working with Node.js at scale. We need more articles like this that dive into the \"gotchas\" of fundamental technologies. It's a reminder that even seemingly simple abstractions can hide complex behaviors.\n\nOriginal Link: https://frontendmasters.com/blog/your-node-js-streams-arent-backpressuring-theyre-silently-eating-your-memory/",
+            "url": "https://digestweb.dev/articles/2026-05-25/nodejs-streams-memory-leaks-backpressure",
+            "title": "Node.js Streams: Beware of Silent Memory Leaks Without Backpressure",
+            "summary": "This article uncovers how Node.js streams can silently consume excessive memory without proper backpressure implementation, detailing common pitfalls and their solutions.",
+            "image": "https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/9683",
+            "date_modified": "2026-05-25T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-25/tanstack-virtual-chat-ai-stream-virtualization",
+            "content_html": "## Summary & Key Takeaways\n\n- TanStack Virtual now supports end-anchored virtualization.\n- This feature is designed for dynamic UIs like chat, AI streams, and logs.\n- It enables prepend-stable history, ensuring content doesn't jump when new items are added above.\n- Append-follow functionality keeps the view pinned to the bottom for new incoming data.\n- Streaming output remains pinned, providing a smooth user experience.\n- This addresses common challenges in virtualizing non-standard list behaviors.\n\n## Our Commentary\n\nThis is a genuinely clever solution to a problem I've personally wrestled with. Virtualizing chat UIs is a nightmare. The \"scroll to bottom, but also allow scrolling up for history\" dynamic is deceptively hard. We've all seen chat apps that jump around. This feels like a very practical, much-needed feature. I'm curious how robust it is in practice. It could save a lot of developer headaches.\n\nOriginal Link: https://tanstack.com/blog/tanstack-virtual-chat",
+            "url": "https://digestweb.dev/articles/2026-05-25/tanstack-virtual-chat-ai-stream-virtualization",
+            "title": "TanStack Virtual Tackles Complex Chat & AI Stream Virtualization",
+            "summary": "TanStack Virtual introduces end-anchored virtualization, enabling stable history, follow-on-append, and pinned streaming output for dynamic UIs. This update simplifies building performant chat interfaces and AI content streams.",
+            "image": "https://tanstack.com/assets/og-C0HGjoLl.png",
+            "date_modified": "2026-05-25T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-05-24/ai-generated-issue-reports-armin-ronacher-developer-frustration",
             "content_html": "## Summary & Key Takeaways\n\n- AI-generated issue reports are a growing problem in open-source projects.\n- These reports are often reworded by AI, creating a \"huge mess.\"\n- Conclusions produced by AI are frequently inaccurate but full of confidence.\n- This leads to guesswork on root causes and fake minimal reproductions.\n- Armin Ronacher advocates for human-observed reports: \"I ran this command. I expected this to happen. This happened instead.\"\n- He stresses the importance of exact errors or logs from human observation.\n\n## Our Commentary\n\nThis hits home. We've seen this ourselves, the confident inaccuracy of AI-generated bug reports. It's a real challenge for maintainers. I genuinely don't know how to feel about agents churning away at 3am while nobody's watching, generating these reports. It feels like we're adding a new layer of noise to an already noisy system.\n\nOriginal Link: https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything",
             "url": "https://digestweb.dev/articles/2026-05-24/ai-generated-issue-reports-armin-ronacher-developer-frustration",

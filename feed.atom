@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-05-25T14:38:00.628Z</updated>
+    <updated>2026-05-26T05:03:54.502Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,129 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Demystifying AI Agent Terminology: Harness, Scaffold, and More]]></title>
+        <id>https://digestweb.dev/articles/2026-05-25/ai-agent-terminology-harness-scaffold</id>
+        <link href="https://digestweb.dev/articles/2026-05-25/ai-agent-terminology-harness-scaffold"/>
+        <updated>2026-05-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article aims to clarify key terms used in the rapidly evolving field of AI agents, helping developers and researchers communicate more precisely.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article defines essential terms related to AI agents.
+- It aims to standardize vocabulary for better communication.
+- Concepts like "harness" and "scaffold" are explained in context.
+- Understanding these terms is crucial for developing and discussing AI agents.
+- The piece contributes to a clearer understanding of the AI agent landscape.
+
+## Our Commentary
+
+The AI agent space is a wild west of jargon right now. Every new framework or paper invents its own terms. I appreciate any effort to bring some order to the chaos. We need a common language if we're going to build anything coherent. I'm always a little wary of new glossaries, though; sometimes they just add _more_ terms. Let's hope this one simplifies things.
+
+Original Link: https://huggingface.co/blog/agent-glossary]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chris' Corner: The Art of Finding the Perfect Typeface]]></title>
+        <id>https://digestweb.dev/articles/2026-05-25/chris-corner-finding-the-perfect-typeface</id>
+        <link href="https://digestweb.dev/articles/2026-05-25/chris-corner-finding-the-perfect-typeface"/>
+        <updated>2026-05-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A personal reflection on the process of selecting typefaces for design projects, offering tips on exploration and organization.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article discusses the subjective process of choosing typefaces.
+- It suggests exploring many options and saving favorites.
+- The author shares a personal tool for managing fonts locally.
+- The piece emphasizes a "you'll know it when you see it" approach.
+- It offers practical advice for designers on font discovery.
+
+## Our Commentary
+
+Finding the right typeface _is_ a whole thing. I've spent hours down that rabbit hole, convinced the perfect font would magically solve all my design problems. It rarely does, but the hunt is still fun. I appreciate the personal touch here. It's a reminder that design isn't always about algorithms and frameworks; sometimes it's just about feeling it out.
+
+Original Link: https://blog.codepen.io/2026/05/25/chris-corner-finding-type/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scaling Cross-Document View Transitions with Hundreds of Elements]]></title>
+        <id>https://digestweb.dev/articles/2026-05-25/cross-document-view-transitions-scaling-css</id>
+        <link href="https://digestweb.dev/articles/2026-05-25/cross-document-view-transitions-scaling-css"/>
+        <updated>2026-05-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article explores the challenges of managing unique `view-transition-name` values and CSS selectors when implementing cross-document view transitions at scale. It offers strategies to prevent an unmanageable explosion of styles.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- View Transitions require unique `view-transition-name` values for each element.
+- Scaling this to hundreds of elements leads to an explosion of CSS selectors.
+- The article addresses the complexity of managing these styles.
+- It focuses on strategies for cross-document view transitions.
+- Solutions aim to maintain manageable and performant animations.
+- The goal is to prevent an unmanageable wall of CSS.
+
+## Our Commentary
+
+View Transitions are fantastic, but I've always wondered about the practicalities of scaling them. This article hits on a very real pain point. The idea of an "unmanageable wall of selectors" for animations is enough to make me shudder. We need robust patterns for these modern CSS features, and I'm glad someone is tackling the hard parts. It's not just about the cool effect; it's about maintainability.
+
+Original Link: https://css-tricks.com/cross-document-view-transitions-part-2/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Getting Started with Git & GitHub in VS Code for Beginners]]></title>
+        <id>https://digestweb.dev/articles/2026-05-25/git-github-vs-code-beginners-guide</id>
+        <link href="https://digestweb.dev/articles/2026-05-25/git-github-vs-code-beginners-guide"/>
+        <updated>2026-05-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A beginner's guide to integrating Git and GitHub directly within VS Code, covering essential workflows for project management and version control.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The guide introduces fundamental Git and GitHub concepts.
+- It demonstrates how to perform common version control tasks within VS Code.
+- Users learn to clone repositories, commit changes, and push to GitHub.
+- The tutorial covers basic project management workflows.
+- It aims to help new developers get started with collaborative coding.
+
+## Our Commentary
+
+We see a lot of these "getting started" guides. They're always welcome for new developers, but for us, it's familiar territory. It's good that GitHub is investing in clear onboarding. I remember how confusing Git was when I first started. Anything that lowers that barrier is a net positive, even if it's not a deep dive.
+
+Original Link: https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-git-and-github-in-vs-code/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Node.js Streams: Beware of Silent Memory Leaks Without Backpressure]]></title>
+        <id>https://digestweb.dev/articles/2026-05-25/nodejs-streams-memory-leaks-backpressure</id>
+        <link href="https://digestweb.dev/articles/2026-05-25/nodejs-streams-memory-leaks-backpressure"/>
+        <updated>2026-05-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article uncovers how Node.js streams can silently consume excessive memory without proper backpressure implementation, detailing common pitfalls and their solutions.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Node.js streams do not inherently prevent memory exhaustion.
+- Improper backpressure handling can lead to silent memory leaks.
+- The article explains common pitfalls in streaming applications.
+- It highlights the complexity of memory management with streams.
+- Developers need to actively manage stream flow to prevent issues.
+- The piece provides insights into ensuring stable Node.js applications.
+
+## Our Commentary
+
+Oh, this one hits home. I've definitely been bitten by silent memory leaks in Node.js streams before. It's one of those insidious problems that only shows up under load, and then you're scrambling. This is a crucial topic for anyone working with Node.js at scale. We need more articles like this that dive into the "gotchas" of fundamental technologies. It's a reminder that even seemingly simple abstractions can hide complex behaviors.
+
+Original Link: https://frontendmasters.com/blog/your-node-js-streams-arent-backpressuring-theyre-silently-eating-your-memory/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TanStack Virtual Tackles Complex Chat & AI Stream Virtualization]]></title>
+        <id>https://digestweb.dev/articles/2026-05-25/tanstack-virtual-chat-ai-stream-virtualization</id>
+        <link href="https://digestweb.dev/articles/2026-05-25/tanstack-virtual-chat-ai-stream-virtualization"/>
+        <updated>2026-05-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TanStack Virtual introduces end-anchored virtualization, enabling stable history, follow-on-append, and pinned streaming output for dynamic UIs. This update simplifies building performant chat interfaces and AI content streams.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- TanStack Virtual now supports end-anchored virtualization.
+- This feature is designed for dynamic UIs like chat, AI streams, and logs.
+- It enables prepend-stable history, ensuring content doesn't jump when new items are added above.
+- Append-follow functionality keeps the view pinned to the bottom for new incoming data.
+- Streaming output remains pinned, providing a smooth user experience.
+- This addresses common challenges in virtualizing non-standard list behaviors.
+
+## Our Commentary
+
+This is a genuinely clever solution to a problem I've personally wrestled with. Virtualizing chat UIs is a nightmare. The "scroll to bottom, but also allow scrolling up for history" dynamic is deceptively hard. We've all seen chat apps that jump around. This feels like a very practical, much-needed feature. I'm curious how robust it is in practice. It could save a lot of developer headaches.
+
+Original Link: https://tanstack.com/blog/tanstack-virtual-chat]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The AI-Generated Issue Report Problem: Armin Ronacher on Developer Frustration]]></title>
         <id>https://digestweb.dev/articles/2026-05-24/ai-generated-issue-reports-armin-ronacher-developer-frustration</id>
