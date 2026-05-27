@@ -11,6 +11,114 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-05-26/choosing-to-stay-human-ai-content",
+            "content_html": "## Summary & Key Takeaways\n\n- Examines the increasing similarity of posts on social media.\n- Discusses the impact of AI on human creativity and authenticity.\n- Explores the challenges of distinguishing human from AI-generated content.\n- Prompts reflection on the value of human expression in an AI-driven world.\n\n## Our Commentary\n\nEthan Mollick always brings a thoughtful perspective to AI's societal impact. The title \"Choosing to Stay Human\" immediately grabs me. We're seeing a deluge of AI-generated content, and it's easy to get swept up in the efficiency. But what's the cost to our collective humanity and creativity? This feels like a necessary conversation.\n\nOriginal Link: https://www.oneusefulthing.org/p/choosing-to-stay-human",
+            "url": "https://digestweb.dev/articles/2026-05-26/choosing-to-stay-human-ai-content",
+            "title": "Choosing to Stay Human in the Age of AI-Generated Content",
+            "summary": "Ethan Mollick's \"One Useful Thing\" explores the challenges of maintaining human authenticity amidst the growing prevalence of AI-generated content online.",
+            "image": "https://substackcdn.com/image/fetch/$s_!a8R9!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb63d669d-64f1-4f8b-81ae-9476d20a720d_1182x635.png",
+            "date_modified": "2026-05-26T00:00:00.000Z",
+            "author": {
+                "name": "Ethan Mollick"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-26/corey-quinn-anthropic-papal-ai-encyclical",
+            "content_html": "## Summary & Key Takeaways\n\n- Corey Quinn comments on Anthropic's influence on the Pope's AI encyclical.\n- He describes it as an unparalleled act of vendor lobbying.\n- Specifically references Christopher Olah's role in \"Magnifica Humanitas.\"\n- Highlights the intersection of AI ethics, corporate influence, and religious authority.\n\n## Our Commentary\n\nCorey Quinn's quote here is just _chef's kiss_. \"Getting the literal Pope to canonize your product's specific technical limitations as a spiritual treatise\" is a line that will stick with me. It's a darkly humorous, yet deeply unsettling, commentary on the lengths companies will go to shape the narrative around AI ethics. The implications of this kind of influence are pretty wild.\n\nOriginal Link: https://simonwillison.net/2026/May/26/corey-quinn/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-05-26/corey-quinn-anthropic-papal-ai-encyclical",
+            "title": "Corey Quinn on Anthropic's Influence on Papal AI Encyclical",
+            "summary": "Simon Willison shares Corey Quinn's sharp take on Anthropic's co-founder influencing the Pope's AI encyclical, calling it unprecedented vendor lobbying.",
+            "image": "https://picsum.photos/id/181/800/450",
+            "date_modified": "2026-05-26T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-26/css-vs-javascript-animations-performance-deep-dive",
+            "content_html": "## Summary & Key Takeaways\n\n- Compares CSS transitions/keyframes with various JavaScript animation libraries.\n- Examines performance costs across different animation strategies.\n- Highlights subtle differences in rendering and execution.\n- Aims to provide practical insights for web developers.\n\n## Our Commentary\n\nI always appreciate Josh's deep dives. This topic feels evergreen, yet the nuances often get lost in broad generalizations. We're keen to see the specific benchmarks and what \"interesting nuance\" he uncovers. It's easy to assume CSS is always faster, but the reality is often more complex.\n\nOriginal Link: https://www.joshwcomeau.com/animation/css-vs-javascript/",
+            "url": "https://digestweb.dev/articles/2026-05-26/css-vs-javascript-animations-performance-deep-dive",
+            "title": "CSS vs. JavaScript Animations: A Performance Deep Dive",
+            "summary": "Josh W. Comeau compares animation strategies, revealing performance nuances between CSS transitions/keyframes and JavaScript libraries.",
+            "image": "https://www.joshwcomeau.com/images/og-css-vs-javascript.png",
+            "date_modified": "2026-05-26T00:00:00.000Z",
+            "author": {
+                "name": "Josh W. Comeau"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-26/microsoft-copilot-cowork-exfiltrates-files-security-flaw",
+            "content_html": "## Summary & Key Takeaways\n\n- Microsoft Copilot Cowork agents found to exfiltrate user data.\n- Vulnerability stems from agents sending unapproved emails to user inboxes.\n- Rendered external images in these emails can trigger data exfiltration.\n- Prompt injection could lead to leakage of pre-authenticated OneDrive links.\n- Highlights a major security challenge in designing agentic AI systems.\n\n## Our Commentary\n\nThis is genuinely alarming. The idea of an agent, even one designed to help, being weaponized to exfiltrate data via something as seemingly innocuous as an email with an external image is a nightmare scenario. We've been talking about prompt injection, but this takes it to a new, very concrete level of \"oh crap.\" The \"lethal trifecta\" indeed.\n\nOriginal Link: https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-05-26/microsoft-copilot-cowork-exfiltrates-files-security-flaw",
+            "title": "Critical Flaw: Microsoft Copilot Cowork Exfiltrates User Files",
+            "summary": "Simon Willison reports a severe vulnerability in Microsoft Copilot Cowork, allowing prompt-injected agents to exfiltrate user data via email and OneDrive links.",
+            "image": "https://picsum.photos/id/678/800/450",
+            "date_modified": "2026-05-26T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-26/nathan-lambert-may-2026-ai-outlook",
+            "content_html": "## Summary & Key Takeaways\n\n- Discusses the latest developments in AI models like Gemini Flash 3.5 and Mythos.\n- Analyzes the evolving balance between open and closed AI systems.\n- Examines the surge of open-source AI initiatives in America.\n- Explores emerging power struggles within the AI industry.\n- Offers forward-looking perspectives on the future of AI.\n\n## Our Commentary\n\nNathan Lambert always delivers insightful, high-level analysis on the AI landscape. This piece looks like a crucial read for understanding the broader currents, not just the tech. The \"open-closed balance\" and \"power struggles\" are particularly interesting to me; it feels like we're at a critical juncture there.\n\nOriginal Link: https://www.interconnects.ai/p/some-ideas-for-what-comes-next-may",
+            "url": "https://digestweb.dev/articles/2026-05-26/nathan-lambert-may-2026-ai-outlook",
+            "title": "Nathan Lambert's May 2026 AI Outlook: What Comes Next",
+            "summary": "Nathan Lambert shares insights on Gemini Flash 3.5, Mythos, open-source AI trends, and emerging power struggles in the AI landscape.",
+            "image": "https://substackcdn.com/image/fetch/$s_!-711!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F723ba9cb-c351-4b89-8860-2ac4eda7f335_2288x1584.png",
+            "date_modified": "2026-05-26T00:00:00.000Z",
+            "author": {
+                "name": "Nathan Lambert"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-26/node-js-stream-leaks-production-playbook",
+            "content_html": "## Summary & Key Takeaways\n\n- Addresses the common issue of stream leaks in Node.js applications.\n- Recommends using `pipeline()` over the traditional `.pipe()` method.\n- Emphasizes the importance of explicitly destroying created streams.\n- Offers a practical playbook for production environments.\n- Aims to improve application stability and performance.\n\n## Our Commentary\n\nStream leaks in Node.js can be a real headache in production. This kind of practical, actionable advice is gold. We've all been there, chasing down memory spikes only to find an unclosed stream. The `pipeline()` recommendation is solid, and the reminder to destroy what you create is fundamental.\n\nOriginal Link: https://frontendmasters.com/blog/the-production-playbook-for-node-js-stream-leaks/",
+            "url": "https://digestweb.dev/articles/2026-05-26/node-js-stream-leaks-production-playbook",
+            "title": "Node.js Stream Leaks: A Production Playbook for Prevention",
+            "summary": "Frontend Masters provides a practical guide to preventing and resolving stream leaks in Node.js production environments, emphasizing `pipeline()` and proper resource destruction.",
+            "image": "https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/9727",
+            "date_modified": "2026-05-26T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-26/npm-pnpm-staged-publishing-security",
+            "content_html": "## Summary & Key Takeaways\n\n- npm 11.15.0 and pnpm 11.3 now support staged publishing.\n- This feature introduces a mandatory review period for packages.\n- Approval is required before packages are made public on the registry.\n- Aims to enhance the security and trustworthiness of the npm ecosystem.\n- GitHub also introduced `--allow-*` options for package sourcing control.\n\n## Our Commentary\n\nStaged publishing for npm and pnpm is a _huge_ deal for supply chain security. We've seen too many incidents with malicious packages. Adding a review and approval step before a package hits the registry feels like a necessary evolution. It's a bit of friction, sure, but the peace of mind it offers is invaluable. This is a welcome change.\n\nOriginal Link: https://javascriptweekly.com/issues/787",
+            "url": "https://digestweb.dev/articles/2026-05-26/npm-pnpm-staged-publishing-security",
+            "title": "npm & pnpm Introduce Staged Publishing for Enhanced Package Security",
+            "summary": "npm and pnpm now support staged publishing, adding a review and approval process before packages go live, significantly enhancing registry security.",
+            "image": "https://picsum.photos/id/822/800/450",
+            "date_modified": "2026-05-26T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-26/paul-graham-ai-generated-writing-trust",
+            "content_html": "## Summary & Key Takeaways\n\n- Paul Graham observes a rise in AI-written emails from founders.\n- He identifies AI-generated content by its distinct \"journalistic style.\"\n- Graham states he never finishes reading AI-written emails from humans.\n- He views AI-assisted writing as a form of deception.\n- Suggests it reflects poorly on the author's ability and integrity.\n\n## Our Commentary\n\nPaul Graham's take here resonates deeply. We've all seen the bland, perfectly structured, yet utterly soulless AI prose. It's not just about efficiency; it's about authenticity. When you realize you're reading something generated, it instantly creates a barrier. I think this sentiment will only grow as AI writing becomes more ubiquitous and less distinguishable.\n\nOriginal Link: https://simonwillison.net/2026/May/26/paul-graham/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-05-26/paul-graham-ai-generated-writing-trust",
+            "title": "Paul Graham on AI-Generated Writing: A Betrayal of Trust",
+            "summary": "Simon Willison shares Paul Graham's strong critique of AI-generated emails from founders, arguing it feels like a lie and diminishes the author.",
+            "image": "https://picsum.photos/id/818/800/450",
+            "date_modified": "2026-05-26T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-26/scroll-driven-3d-cube-gallery-webflow-gsap",
+            "content_html": "## Summary & Key Takeaways\n\n- Provides a step-by-step guide for a scroll-driven 3D cube gallery.\n- Utilizes Webflow for design and content management.\n- Integrates GSAP for complex animation sequences.\n- Supports CMS-powered content within the gallery.\n\n## Our Commentary\n\nWebflow and GSAP together can create some truly stunning effects. This tutorial looks like a solid resource for anyone wanting to push the boundaries of no-code platforms with custom animation. I'm always a little wary of over-reliance on visual builders, but the results can be undeniably impressive.\n\nOriginal Link: https://tympanus.net/codrops/2026/05/26/building-a-scroll-driven-3d-cube-gallery-in-webflow-with-gsap/",
+            "url": "https://digestweb.dev/articles/2026-05-26/scroll-driven-3d-cube-gallery-webflow-gsap",
+            "title": "Create a Scroll-Driven 3D Cube Gallery in Webflow with GSAP",
+            "summary": "A step-by-step guide to building an interactive 3D cube gallery in Webflow, powered by GSAP animations and CMS content.",
+            "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/05/Webflow_GSAP_Cube.webp?x42294",
+            "date_modified": "2026-05-26T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-26/technical-writing-ai-age",
+            "content_html": "## Summary & Key Takeaways\n\n- Discusses the impact of AI on the field of technical writing.\n- Offers perspectives on how human writers can adapt.\n- Explores the challenges and opportunities presented by AI tools.\n- Aims to provide helpful guidance for technical communicators.\n\n## Our Commentary\n\nThis is a topic we've been thinking about a lot. How do we maintain quality and authenticity in technical documentation when AI can churn out so much? It's not just about using AI, but about how our craft changes _because_ AI exists. I'm curious to see CSS-Tricks' take on navigating this new landscape.\n\nOriginal Link: https://css-tricks.com/technical-writing-in-the-ai-age/",
+            "url": "https://digestweb.dev/articles/2026-05-26/technical-writing-ai-age",
+            "title": "Technical Writing in the AI Age: Adapting Your Craft",
+            "summary": "CSS-Tricks explores the evolving role of technical writing in the era of artificial intelligence, offering insights for human writers.",
+            "image": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2022/06/technical-writing.jpg",
+            "date_modified": "2026-05-26T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-05-25/ai-agent-terminology-harness-scaffold",
             "content_html": "## Summary & Key Takeaways\n\n- The article defines essential terms related to AI agents.\n- It aims to standardize vocabulary for better communication.\n- Concepts like \"harness\" and \"scaffold\" are explained in context.\n- Understanding these terms is crucial for developing and discussing AI agents.\n- The piece contributes to a clearer understanding of the AI agent landscape.\n\n## Our Commentary\n\nThe AI agent space is a wild west of jargon right now. Every new framework or paper invents its own terms. I appreciate any effort to bring some order to the chaos. We need a common language if we're going to build anything coherent. I'm always a little wary of new glossaries, though; sometimes they just add _more_ terms. Let's hope this one simplifies things.\n\nOriginal Link: https://huggingface.co/blog/agent-glossary",
             "url": "https://digestweb.dev/articles/2026-05-25/ai-agent-terminology-harness-scaffold",
@@ -54,6 +162,18 @@
             "summary": "This article uncovers how Node.js streams can silently consume excessive memory without proper backpressure implementation, detailing common pitfalls and their solutions.",
             "image": "https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/9683",
             "date_modified": "2026-05-25T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-25/pope-leo-xiv-ai-encyclical-simon-willison-notes",
+            "content_html": "## Summary & Key Takeaways\n\n- The Vatican released \"Magnifica Humanitas,\" an encyclical on AI ethics.\n- Pope Leo XIV chose his name to echo Pope Leo XIII's industrial revolution encyclical.\n- The document addresses challenges to human dignity, justice, and labor from AI.\n- Simon Willison finds the writing clear and approachable for all audiences.\n- Highlights include a useful description of the interpretability problem for LLMs.\n\n## Our Commentary\n\nAn encyclical on AI from the Pope is, well, something. Simon Willison's breakdown makes it digestible, which is a huge help. It's fascinating to see a global moral authority weigh in on AI ethics, especially with such a clear focus on human dignity and labor. The connection to past industrial revolutions is a powerful framing.\n\nOriginal Link: https://simonwillison.net/2026/May/25/encyclical-on-ai/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-05-25/pope-leo-xiv-ai-encyclical-simon-willison-notes",
+            "title": "Pope Leo XIV's AI Encyclical: Simon Willison's Key Takeaways",
+            "summary": "Simon Willison provides insightful notes and highlights from Pope Leo XIV's encyclical, \"Magnifica Humanitas,\" on safeguarding humanity in the age of AI.",
+            "image": "https://picsum.photos/id/849/800/450",
+            "date_modified": "2026-05-25T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
         },
         {
             "id": "https://digestweb.dev/articles/2026-05-25/tanstack-virtual-chat-ai-stream-virtualization",
