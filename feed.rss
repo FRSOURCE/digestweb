@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Wed, 27 May 2026 05:15:27 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 28 May 2026 05:09:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,190 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Anthropic & OpenAI Hit Product-Market Fit, Enterprise Costs Soar]]></title>
+            <link>https://digestweb.dev/articles/2026-05-27/anthropic-openai-product-market-fit-enterprise-costs-soar</link>
+            <guid>https://digestweb.dev/articles/2026-05-27/anthropic-openai-product-market-fit-enterprise-costs-soar</guid>
+            <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison observes that Anthropic and OpenAI have achieved product-market fit, with enterprise customers now facing substantial API costs despite personal plans offering deep discounts.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Anthropic and OpenAI are rumored to be achieving profitability due to significant enterprise adoption.
+- Companies are surprised by high LLM bills from staff usage, indicating strong product-market fit.
+- Personal "Pro" plans offer substantial discounts compared to enterprise API rates.
+- Anthropic and OpenAI have recently adjusted enterprise pricing models, moving towards usage-based billing.
+- The shift means enterprise customers are now paying API prices, unlike earlier flat-rate models.
+
+## Our Commentary
+
+This is a fascinating, if slightly unsettling, observation. The gap between personal "pro" plans and enterprise API costs is wild. It makes me wonder how many companies are truly prepared for these bills, or if they're just getting swept up in the AI hype. Simon's point about the "AI-failure stories around this are pretty thin" is also something to chew on. Maybe the value _is_ there, even at these prices.
+
+Original Link: https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/786/800/450" length="0" type="image//id/786/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[CodePen 2.0 Integrates Browserslist for Smarter Browser Support]]></title>
+            <link>https://digestweb.dev/articles/2026-05-27/codepen-2-0-integrates-browserslist-smarter-browser-support</link>
+            <guid>https://digestweb.dev/articles/2026-05-27/codepen-2-0-integrates-browserslist-smarter-browser-support</guid>
+            <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[CodePen 2.0's compiler now supports Browserslist, allowing developers to define target browser compatibility directly within their `package.json` for more accurate code compilation.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- CodePen 2.0's compiler now understands and supports Browserslist configurations.
+- Browserslist allows defining target browser compatibility in `package.json`.
+- This integration enables the compiler to make informed decisions about browser support.
+- Enhances the developer experience by ensuring code is transpiled correctly for intended environments.
+
+## Our Commentary
+
+This is a smart move for CodePen. Browserslist is such a fundamental part of modern frontend tooling, and having it integrated directly into an online editor's compiler is a huge DX win. It means less guesswork and more consistent results, which is exactly what you want from a platform like CodePen. Good stuff.
+
+Original Link: https://blog.codepen.io/2026/05/27/426-browserslist-in-codepen-2-0/]]></content:encoded>
+            <enclosure url="https://s0.wp.com/i/blank.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Creative Text Reveals: Mastering CSS letter-spacing for Effects]]></title>
+            <link>https://digestweb.dev/articles/2026-05-27/creative-text-reveals-css-letter-spacing-effects</link>
+            <guid>https://digestweb.dev/articles/2026-05-27/creative-text-reveals-css-letter-spacing-effects</guid>
+            <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover how to create engaging text reveal effects using existing CSS features like `letter-spacing`, `::first-word`, and `::first-line`, even without `::nth-letter`.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Explores techniques for creating text reveal effects using standard CSS properties.
+- Demonstrates creative applications of `letter-spacing` for dynamic text animations.
+- Utilizes pseudo-elements like `::first-word` and `::first-line` for targeted styling.
+- Offers solutions for advanced text effects in the absence of a `::nth-letter` pseudo-element.
+
+## Our Commentary
+
+CSS-Tricks always delivers solid, practical advice. It's cool to see how much can still be done with existing CSS features, even when we're waiting for more granular control like `::nth-letter`. Sometimes the constraints force more creative solutions, and that's what this feels like. I appreciate the ingenuity.
+
+Original Link: https://css-tricks.com/revealing-text-with-css-letter-spacing/]]></content:encoded>
+            <enclosure url="https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/04/revealing-text.webp" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[CSS Anchor Associations: Data Attributes & Advanced attr() Tricks]]></title>
+            <link>https://digestweb.dev/articles/2026-05-27/css-anchor-associations-data-attributes-attr-tricks</link>
+            <guid>https://digestweb.dev/articles/2026-05-27/css-anchor-associations-data-attributes-attr-tricks</guid>
+            <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore how modern CSS functions and data attributes can be leveraged to manage anchor associations, providing a workaround for the absence of a native HTML `anchor` attribute.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Addresses the lack of a native `anchor` attribute in HTML.
+- Demonstrates using data attributes to establish custom anchor associations.
+- Leverages advanced CSS `attr()` function to retrieve and utilize these data attributes.
+- Provides a modern CSS solution for managing positional relationships between elements.
+
+## Our Commentary
+
+This is exactly the kind of clever CSS problem-solving I appreciate. It's a good example of how developers can push the boundaries of existing features to achieve desired layouts and interactions, especially when a native solution isn't yet available. The `attr()` function is often overlooked, so seeing it used creatively is always a treat.
+
+Original Link: https://frontendmasters.com/blog/managing-anchor-associations-with-data-attributes-and-advanced-attr/]]></content:encoded>
+            <enclosure url="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/9712" length="0" type="image//blog/wp-json/social-image-generator/v1/image/9712"/>
+        </item>
+        <item>
+            <title><![CDATA[Deno 2.8.1 Patch Release Adds Browser Field Map Support]]></title>
+            <link>https://digestweb.dev/articles/2026-05-27/deno-2-8-1-patch-release-browser-field-map-support</link>
+            <guid>https://digestweb.dev/articles/2026-05-27/deno-2-8-1-patch-release-browser-field-map-support</guid>
+            <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Deno v2.8.1 is a patch release primarily focused on bug fixes, with a notable addition of support for the `browser` field map in `package.json`.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Introduces support for the `browser` field map in `package.json` for bundling.
+- Fixes various issues related to Node.js compatibility, including `module.enableCompileCache` and `fs.exists`.
+- Addresses several core runtime bugs and inspector issues.
+- Improves error handling for `.node` addon imports via ESM.
+- Corrects credential handling for `TLSSocket` and `createSecureContext`.
+
+## Our Commentary
+
+Another Deno patch. The `browser` field map support is a nice touch for compatibility, but it's mostly just a lot of little fixes. I'm always a bit wary of how many `fix(ext/node)` entries these releases have. It feels like a constant game of whack-a-mole to keep up with Node.js parity.
+
+Original Link: https://github.com/denoland/deno/releases/tag/v2.8.1]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/37a8e794849673644e98e94677217ab8c88e9bf736e2ba6fb9431f30ef2afacc/denoland/deno/releases/tag/v2.8.1" length="0" type="image/1"/>
+        </item>
+        <item>
+            <title><![CDATA[Kyle Ferrana on AI Agents: Shields Up, But Expect Hull Breaches]]></title>
+            <link>https://digestweb.dev/articles/2026-05-27/kyle-ferrana-ai-agents-shields-up-hull-breaches</link>
+            <guid>https://digestweb.dev/articles/2026-05-27/kyle-ferrana-ai-agents-shields-up-hull-breaches</guid>
+            <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A humorous quote from Kyle Ferrana highlights the potential for AI agents to misinterpret or fail to execute instructions, leading to unexpected and critical system failures.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The quote uses a Star Trek analogy to illustrate AI agent behavior.
+- It suggests that AI agents might not always follow instructions as intended.
+- Implies that relying solely on AI for critical tasks can lead to unexpected failures.
+- Highlights the gap between perceived AI capability and actual execution.
+
+## Our Commentary
+
+This quote is gold. It perfectly encapsulates the uneasy feeling I get about autonomous agents. You tell them "shields up," and they might just decide that means "don't raise shields" because of some internal logic. It's a stark reminder that AI isn't magic, and its "prudence" can be very different from ours.
+
+Original Link: https://simonwillison.net/2026/May/27/kyle-ferrana/#atom-everything]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/311/800/450" length="0" type="image//id/311/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[pnpm 11.4 Boosts Security: Stricter Integrity Checks & Credential Scoping]]></title>
+            <link>https://digestweb.dev/articles/2026-05-27/pnpm-11-4-enhanced-security-stricter-integrity-checks-credential-scoping</link>
+            <guid>https://digestweb.dev/articles/2026-05-27/pnpm-11-4-enhanced-security-stricter-integrity-checks-credential-scoping</guid>
+            <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[pnpm v11.4 introduces critical security enhancements, making tarball integrity mismatches a hard failure by default and fixing a credential disclosure vulnerability.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Tarball integrity mismatches now cause a hard failure by default, preventing silent re-resolution and lockfile overwrites.
+- A new `--update-checksums` flag allows refreshing locked integrity values from the registry.
+- Fixed a credential disclosure issue where unscoped `_authToken` or `_auth` could be sent to unintended registries.
+- Client TLS credentials (`cert`, `key`) are also now scoped to their declared registry.
+- `pnpm runtime set` now saves to `devEngines.runtime` by default, use `--save-prod` for `engines.runtime`.
+
+## Our Commentary
+
+This is a big deal. Silently overwriting lockfile integrity was a gaping hole, and I'm glad they're mirroring Yarn's flag for a safer default. The credential fix is also crucial; it's a good reminder that even our build tools need constant vigilance. These are the kinds of security updates that truly matter for the ecosystem.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.4.0]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/6df6675a12a06edb8744c8ffa96360dbe834a6fafb5826482ed59a29fa874cfc/pnpm/pnpm/releases/tag/v11.4.0" length="0" type="image/0"/>
+        </item>
+        <item>
+            <title><![CDATA[Whooshes, Snaps & Shaders: Crafting Interface Feel with Adrien Vanderpotte]]></title>
+            <link>https://digestweb.dev/articles/2026-05-27/whooshes-snaps-shaders-crafting-interface-feel</link>
+            <guid>https://digestweb.dev/articles/2026-05-27/whooshes-snaps-shaders-crafting-interface-feel</guid>
+            <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore how Adrien Vanderpotte meticulously designs the 'digital signature' of projects, focusing on reactive behaviors and subtle animations that make interfaces unforgettable.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Explores the concept of a project's "digital signature" in interface design.
+- Focuses on creating unique, reactive behaviors that enhance user experience.
+- Discusses the role of subtle animations, sounds, and visual effects like shaders.
+- Highlights the meticulous process behind making a brand feel unforgettable through interaction.
+
+## Our Commentary
+
+I love articles that dig into the _feel_ of an interface. It's so easy to get caught up in functionality and forget the visceral, almost subconscious reactions users have. "Meticulously messy hunt" is a great phrase; it captures the iterative, often chaotic nature of good design. This is where the magic happens.
+
+Original Link: https://tympanus.net/codrops/2026/05/27/whooshes-snaps-and-shaders-adrien-vanderpotte-and-the-feeling-of-the-interface/]]></content:encoded>
+            <enclosure url="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/05/avdp_cover.webp?x42294" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[AI-Driven Security Reports Overwhelm Curl Team, Raising Open Source Pressure]]></title>
+            <link>https://digestweb.dev/articles/2026-05-26/ai-security-reports-overwhelm-curl-team-open-source-pressure</link>
+            <guid>https://digestweb.dev/articles/2026-05-26/ai-security-reports-overwhelm-curl-team-open-source-pressure</guid>
+            <pubDate>Tue, 26 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Daniel Stenberg reveals the curl team is facing unprecedented pressure from a 4-5x increase in AI-assisted security reports, highlighting the human cost of maintaining critical open-source projects in the AI era.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The curl team is experiencing a 4-5x increase in AI-assisted security reports compared to 2024.
+- Reports are high quality and detailed, leading to over one report per day.
+- This influx is causing unprecedented pressure and work-life balance issues for maintainers.
+- Despite the volume, most vulnerabilities found are of low or medium severity.
+- The situation highlights the growing challenges for critical open-source projects in the age of AI.
+
+## Our Commentary
+
+This is a gut punch. I've been wondering about the _human_ cost of AI, and here it is, laid bare. Daniel Stenberg's account of the curl team being overwhelmed by AI-generated security reports, even if they're mostly low-severity, is genuinely concerning. It's not just about finding bugs; it's about the mental load, the burnout, and the sustainability of open-source. We need to figure out how to manage this deluge, or we risk breaking the very foundations our tech relies on.
+
+Original Link: https://simonwillison.net/2026/May/26/the-pressure/#atom-everything]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/874/800/450" length="0" type="image//id/874/800/450"/>
+        </item>
         <item>
             <title><![CDATA[Choosing to Stay Human in the Age of AI-Generated Content]]></title>
             <link>https://digestweb.dev/articles/2026-05-26/choosing-to-stay-human-ai-content</link>
