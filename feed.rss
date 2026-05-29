@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Thu, 28 May 2026 05:09:27 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 29 May 2026 05:14:06 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,205 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Astro 6.4: Faster Markdown & Experimental Cloudflare Routing]]></title>
+            <link>https://digestweb.dev/articles/2026-05-28/astro-6-4-faster-markdown-cloudflare-routing</link>
+            <guid>https://digestweb.dev/articles/2026-05-28/astro-6-4-faster-markdown-cloudflare-routing</guid>
+            <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Astro's latest minor release brings a new pluggable Markdown processor API, a Rust-based processor for speed, and tools for advanced Cloudflare routing.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Astro 6.4 introduces a new pluggable Markdown processor API.
+- A Rust-based Markdown processor is included for faster build times.
+- Helpers are added to support experimental advanced routing with Cloudflare.
+
+## Our Commentary
+
+A minor release, but the Rust-based Markdown processor sounds like a solid DX win. We're always here for faster builds. The Cloudflare routing helpers are a nice nod to edge deployments, which we're seeing more of.
+
+Original Link: https://astro.build/blog/astro-640/]]></content:encoded>
+            <enclosure url="https://astro.build/_astro/og-astro-6.4.8xfZ20VE.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Claude Code Gains Dynamic Workflow Capabilities]]></title>
+            <link>https://digestweb.dev/articles/2026-05-28/claude-code-dynamic-workflows</link>
+            <guid>https://digestweb.dev/articles/2026-05-28/claude-code-dynamic-workflows</guid>
+            <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Anthropic introduces dynamic workflows within Claude Code, enhancing its ability to adapt and manage complex coding tasks.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Claude Code now features dynamic workflow capabilities.
+- This enhancement aims to improve the handling of complex coding tasks.
+- The update allows for more adaptive and flexible AI-driven development processes.
+
+## Our Commentary
+
+"Dynamic workflows" sounds like a step towards more autonomous agents, which is a direction we're all watching closely. For Claude Code, this could mean more sophisticated assistance for developers. We'll need to dig in to see how "dynamic" it truly is.
+
+Original Link: https://claude.com/blog/introducing-dynamic-workflows-in-claude-code]]></content:encoded>
+            <enclosure url="https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Styling Checkmarks with `::checkmark` & Progressive Enhancement]]></title>
+            <link>https://digestweb.dev/articles/2026-05-28/css-checkmark-progressive-enhancement</link>
+            <guid>https://digestweb.dev/articles/2026-05-28/css-checkmark-progressive-enhancement</guid>
+            <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This article explores the CSS `::checkmark` pseudo-element for UI styling, its current browser limitations, and how to approach custom checkmarks with progressive enhancement.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The `::checkmark` pseudo-element offers native CSS styling for checked input states.
+- Current browser support for `::checkmark` is limited, especially in Safari and Firefox.
+- The specification's intended support for checkboxes and radios is not yet fully implemented.
+- The article compares traditional custom checkmark solutions with the modern `::checkmark`.
+- It provides recommendations for implementing custom checkmarks using progressive enhancement.
+
+## Our Commentary
+
+Styling form controls has always been a pain point, and `::checkmark` promised to fix a lot of that. It's a shame to hear about the limited browser support, but this article does a great job of laying out the current state and how to approach it with progressive enhancement. It's a practical guide for a common UI challenge.
+
+Original Link: https://piccalil.li/blog/navigating-the-age-old-problem-of-checkmarks-in-ui-with-progressive-enhancement/?ref=articles-rss-feed]]></content:encoded>
+            <enclosure url="https://piccalil.b-cdn.net/api/og-image?slug=navigating-the-age-old-problem-of-checkmarks-in-ui-with-progressive-enhancement/" length="0" type="image//api/og-image"/>
+        </item>
+        <item>
+            <title><![CDATA[Self-Correcting Color Systems with CSS `contrast-color()`]]></title>
+            <link>https://digestweb.dev/articles/2026-05-28/css-contrast-color-algorithmic-theming</link>
+            <guid>https://digestweb.dev/articles/2026-05-28/css-contrast-color-algorithmic-theming</guid>
+            <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore how the new CSS `contrast-color()` function can enable algorithmic theming engines and build self-correcting color systems to improve web accessibility.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- 70% of websites still fail WCAG contrast checks, despite existing tools.
+- The article proposes `contrast-color()` as a native CSS solution to this problem.
+- It enables building algorithmic theming engines for self-correcting color systems.
+- This CSS feature aims to significantly improve web accessibility directly in the browser.
+
+## Our Commentary
+
+`contrast-color()` is exactly the kind of native CSS solution we need for accessibility. We've been hacking around contrast issues with JavaScript for too long. If this can genuinely move the needle on WCAG compliance, it's a huge win for the web platform. I'm excited to see this land in browsers.
+
+Original Link: https://smashingmagazine.com/2026/05/building-self-correcting-color-systems-contrast-color/]]></content:encoded>
+            <enclosure url="https://files.smashing.media/articles/building-self-correcting-color-systems-contrast-color/building-self-correcting-color-systems-contrast-color.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Community Trains Gemma to Reason with Tunix & TPUs]]></title>
+            <link>https://digestweb.dev/articles/2026-05-28/gemma-reasoning-tunix-tpus-community-training</link>
+            <guid>https://digestweb.dev/articles/2026-05-28/gemma-reasoning-tunix-tpus-community-training</guid>
+            <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A Kaggle hackathon demonstrated how community efforts, using Tunix and TPUs, can transform small Gemma models into capable reasoning engines via advanced fine-tuning.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- A Kaggle hackathon focused on transforming small Gemma models into reasoning engines.
+- Participants used Kaggle TPUs and a limited compute budget.
+- Winning teams employed multi-stage post-training pipelines, including SFT and alignment techniques.
+- The initiative proved that capable reasoning models can be trained by the community with open-source resources.
+
+## Our Commentary
+
+This is genuinely exciting. The idea that a community, with limited resources, can take a non-reasoning base model and turn it into a "thinking" engine is a huge step for democratizing AI. It shows that cutting-edge AI isn't just for the big labs anymore. I'm always here for open-source wins like this.
+
+Original Link: https://developers.googleblog.com/how-the-community-trained-gemma-to-think-with-tunix-and-tpus/]]></content:encoded>
+            <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-meta.2e16d0ba.fill-1200x600.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Google Pay & Wallet Developer MCP Server Enhances AI Workflows]]></title>
+            <link>https://digestweb.dev/articles/2026-05-28/google-pay-wallet-mcp-server-ai-workflows</link>
+            <guid>https://digestweb.dev/articles/2026-05-28/google-pay-wallet-mcp-server-ai-workflows</guid>
+            <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Google introduces an open-standard MCP server to connect AI assistants and IDEs with real-time Google Pay & Wallet API context, reducing developer friction.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Google launched the Google Pay & Wallet Developer MCP server.
+- This open-standard tool connects AI development assistants and IDEs.
+- It provides real-time API and account context within the development environment.
+- The goal is to reduce context switching and accelerate integration workflows with grounded AI support.
+
+## Our Commentary
+
+This is a very specific application of AI, but it's a smart one. Integrating AI directly into IDEs for documentation and validation, especially for something as complex as payment integrations, sounds like a genuine productivity boost. We're seeing more of these targeted AI tools, and I think that's where the real value lies for developers.
+
+Original Link: https://developers.googleblog.com/supercharge-your-integration-workflow-with-the-google-pay-wallet-developer-mcp-server/]]></content:encoded>
+            <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/pay-wallet-dev-mcp-thumb.2e16d0ba.fill-1200x600.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Microsoft's Data Formulator 0.7: AI Analytics for Enterprise]]></title>
+            <link>https://digestweb.dev/articles/2026-05-28/microsoft-data-formulator-ai-analytics</link>
+            <guid>https://digestweb.dev/articles/2026-05-28/microsoft-data-formulator-ai-analytics</guid>
+            <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Data Formulator 0.7 from Microsoft Research offers AI-powered analytics, enabling enterprise data teams to explore, analyze, and visualize data with AI agents.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Microsoft Research released Data Formulator 0.7.
+- It provides AI-powered analytics for enterprise data workflows.
+- Data teams can use an AI-ready workspace to explore and visualize data.
+- AI agents assist in transforming raw data into actionable insights.
+
+## Our Commentary
+
+Another example of AI being integrated into specific enterprise tools. While it's not directly web dev, it shows the pervasive nature of AI agents in data analysis. It's a 0.7 release, so still early, but the direction is clear: AI for everything.
+
+Original Link: https://www.microsoft.com/en-us/research/blog/data-formulator-0-7-ai-powered-data-analytics-for-enterprise-data/]]></content:encoded>
+            <enclosure url="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/05/DataFormulator-TWLIFB-1200x627-1-scaled.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Details Frontier Governance Framework for AI Safety]]></title>
+            <link>https://digestweb.dev/articles/2026-05-28/openai-frontier-governance-framework</link>
+            <guid>https://digestweb.dev/articles/2026-05-28/openai-frontier-governance-framework</guid>
+            <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI outlines its Frontier Governance Framework, detailing AI safety, security, and risk practices in alignment with EU and California regulations.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI has published its Frontier Governance Framework.
+- The framework details the company's approach to AI safety, security, and risk management.
+- It emphasizes alignment with emerging regulations in the EU and California.
+- The document provides insight into OpenAI's responsible AI development strategy.
+
+## Our Commentary
+
+Governance frameworks are becoming increasingly important as AI capabilities grow. It's good to see OpenAI addressing safety and regulation, especially with the EU AI Act looming. We need more transparency here, and this is a step in that direction, even if it's not a technical breakthrough.
+
+Original Link: https://openai.com/index/openai-frontier-governance-framework]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/15/800/450" length="0" type="image//id/15/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Crafting Seamless Infinite Scroll with GSAP & Lenis]]></title>
+            <link>https://digestweb.dev/articles/2026-05-28/seamless-infinite-scroll-gsap-lenis</link>
+            <guid>https://digestweb.dev/articles/2026-05-28/seamless-infinite-scroll-gsap-lenis</guid>
+            <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn to build a captivating infinite scroll experience featuring a layered parallax depth effect using GSAP and Lenis for smooth animations.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The tutorial demonstrates how to create a continuous, infinite scroll effect.
+- It utilizes GSAP for animation and Lenis for smooth scrolling.
+- The technique includes a layered parallax depth effect for visual engagement.
+- The article provides insights into advanced UI/UX implementation.
+
+## Our Commentary
+
+Infinite scroll can be a UX nightmare if not done right, but this tutorial from Codrops looks like it's tackling it with style. GSAP and Lenis are a powerful combo for smooth, performant animations. I'm always interested in seeing how these kinds of effects are built without sacrificing accessibility or performance.
+
+Original Link: https://tympanus.net/codrops/2026/05/28/the-never-ending-story-building-a-seamless-infinite-scroll-experience-with-gsap-lenis/]]></content:encoded>
+            <enclosure url="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/05/InfiniteScrollParallax.webp?x42294" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[TanStack AI Unveils Experimental Workflows & Orchestrators]]></title>
+            <link>https://digestweb.dev/articles/2026-05-28/tanstack-ai-experimental-workflows-orchestrators</link>
+            <guid>https://digestweb.dev/articles/2026-05-28/tanstack-ai-experimental-workflows-orchestrators</guid>
+            <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[TanStack AI introduces experimental orchestration features, including generator-based workflows, typed agent calls, SSE streaming, and React hooks for AI agents.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- TanStack AI is experimenting with new orchestration features for AI agents.
+- Key additions include generator-based workflows and typed agent calls.
+- The experimental build supports approvals, SSE streaming, and AG-UI events.
+- React hooks are provided for seamless integration into applications.
+
+## Our Commentary
+
+TanStack moving into AI orchestration is a big deal. We've seen them nail data fetching and state management, so their take on agentic workflows is something I'm genuinely curious about. The focus on typed calls and React hooks feels very on-brand for developer experience.
+
+Original Link: https://tanstack.com/blog/tanstack-ai-orchestration]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/918/800/450" length="0" type="image//id/918/800/450"/>
+        </item>
         <item>
             <title><![CDATA[Anthropic & OpenAI Hit Product-Market Fit, Enterprise Costs Soar]]></title>
             <link>https://digestweb.dev/articles/2026-05-27/anthropic-openai-product-market-fit-enterprise-costs-soar</link>
@@ -138,6 +337,26 @@ Original Link: https://simonwillison.net/2026/May/27/kyle-ferrana/#atom-everythi
             <enclosure url="https://picsum.photos/id/311/800/450" length="0" type="image//id/311/800/450"/>
         </item>
         <item>
+            <title><![CDATA[pnpm 10.34.1 Patches Critical Package Integrity Vulnerability]]></title>
+            <link>https://digestweb.dev/articles/2026-05-27/pnpm-10-34-1-security-patch</link>
+            <guid>https://digestweb.dev/articles/2026-05-27/pnpm-10-34-1-security-patch</guid>
+            <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[pnpm 10.34.1 addresses a critical security flaw where missing integrity fields in `pnpm-lock.yaml` could allow installation of tampered packages.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- pnpm 10.34.1 fixes a critical security vulnerability in package integrity verification.
+- Previously, missing integrity fields in `pnpm-lock.yaml` could lead to unverified package installations.
+- The update now rejects lockfile entries without an integrity field, preventing tampering.
+- This closes a potential attack vector where malicious content could be served.
+
+## Our Commentary
+
+A patch release, but a crucial one. We're seeing more and more supply chain attacks, so a fix that prevents tampered packages from being installed, even with a modified lockfile, is a big win for security. It's a good reminder to keep our package managers updated.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v10.34.1]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/50602f3623cd46721d51368549c1c5718574242299a7555a604ee2afcd9ede21/pnpm/pnpm/releases/tag/v10.34.1" length="0" type="image/1"/>
+        </item>
+        <item>
             <title><![CDATA[pnpm 11.4 Boosts Security: Stricter Integrity Checks & Credential Scoping]]></title>
             <link>https://digestweb.dev/articles/2026-05-27/pnpm-11-4-enhanced-security-stricter-integrity-checks-credential-scoping</link>
             <guid>https://digestweb.dev/articles/2026-05-27/pnpm-11-4-enhanced-security-stricter-integrity-checks-credential-scoping</guid>
@@ -157,6 +376,27 @@ This is a big deal. Silently overwriting lockfile integrity was a gaping hole, a
 
 Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.4.0]]></content:encoded>
             <enclosure url="https://opengraph.githubassets.com/6df6675a12a06edb8744c8ffa96360dbe834a6fafb5826482ed59a29fa874cfc/pnpm/pnpm/releases/tag/v11.4.0" length="0" type="image/0"/>
+        </item>
+        <item>
+            <title><![CDATA[SQLite Takes a Firm Stance Against AI Agent Code Contributions]]></title>
+            <link>https://digestweb.dev/articles/2026-05-27/sqlite-rejects-ai-agent-code-contributions</link>
+            <guid>https://digestweb.dev/articles/2026-05-27/sqlite-rejects-ai-agent-code-contributions</guid>
+            <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[SQLite has added an `AGENTS.md` file, explicitly stating it does not accept agentic code, while welcoming AI-generated bug reports, amidst a flood of AI-generated issues.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- SQLite introduced an `AGENTS.md` file to clarify its policy on AI contributions.
+- The project explicitly states it does not accept agentic code, strengthening this stance recently.
+- Human developers will review AI-generated pull requests only as proofs-of-concept.
+- SQLite welcomes AI-generated bug reports, provided they include reproducible test cases.
+- A new dedicated SQLite Bug Forum was created due to a high volume of AI-generated issues.
+
+## Our Commentary
+
+This is a big one. SQLite, a project that underpins so much of the web, explicitly saying "no agentic code" is a wake-up call. We've been talking about AI agents, but this is the first time I've seen a major project draw such a clear line in the sand. The fact they had to create a separate forum for AI-generated bug reports is both hilarious and terrifying. It makes me wonder how many other projects are silently dealing with this.
+
+Original Link: https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/117/800/450" length="0" type="image//id/117/800/450"/>
         </item>
         <item>
             <title><![CDATA[Whooshes, Snaps & Shaders: Crafting Interface Feel with Adrien Vanderpotte]]></title>
