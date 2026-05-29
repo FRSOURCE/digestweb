@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Fri, 29 May 2026 05:14:06 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 29 May 2026 10:46:34 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,27 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Datasette 1.0a31: Write Queries & Stored Queries Arrive]]></title>
+            <link>https://digestweb.dev/articles/2026-05-29/datasette-1-0a31-write-queries-stored-queries</link>
+            <guid>https://digestweb.dev/articles/2026-05-29/datasette-1-0a31-write-queries-stored-queries</guid>
+            <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Datasette's latest alpha introduces the ability to execute write queries and save stored queries, significantly expanding its data management capabilities.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Datasette 1.0a31 is a significant alpha release with new features.
+- Users can now execute write queries against their databases.
+- The release also introduces the ability to save stored queries.
+- Stored queries can be private or shared within a Datasette instance.
+- This expands Datasette's functionality beyond read-only data exploration.
+
+## Our Commentary
+
+This is a big step for Datasette. We've always appreciated its read-only data exploration, but adding write capabilities and stored queries really changes the game. It feels like it's evolving into a more comprehensive data management tool. I'm curious to see how this impacts its adoption. Simon Willison continues to impress with his focused, impactful open-source work.
+
+Original Link: https://simonwillison.net/2026/May/29/datasette/#atom-everything]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/65/800/450" length="0" type="image//id/65/800/450"/>
+        </item>
         <item>
             <title><![CDATA[Astro 6.4: Faster Markdown & Experimental Cloudflare Routing]]></title>
             <link>https://digestweb.dev/articles/2026-05-28/astro-6-4-faster-markdown-cloudflare-routing</link>
@@ -52,6 +73,28 @@ Original Link: https://astro.build/blog/astro-640/]]></content:encoded>
 
 Original Link: https://claude.com/blog/introducing-dynamic-workflows-in-claude-code]]></content:encoded>
             <enclosure url="https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Claude Opus 4.8 Focuses on "Honesty" & Reduced Hallucination]]></title>
+            <link>https://digestweb.dev/articles/2026-05-28/claude-opus-4-8-honesty-hallucination</link>
+            <guid>https://digestweb.dev/articles/2026-05-28/claude-opus-4-8-honesty-hallucination</guid>
+            <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Anthropic's latest Claude Opus 4.8 model emphasizes improved honesty, showing a fourfold reduction in unremarked code flaws and a higher tendency to abstain when uncertain.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Anthropic has released Claude Opus 4.8, described as a "modest but tangible improvement."
+- A key focus of this release is improved "honesty" in the model.
+- Opus 4.8 is four times less likely to allow flaws in its generated code to pass unremarked.
+- The model achieves this by abstaining on uncertain questions rather than providing incorrect answers.
+- Pricing remains consistent with previous Opus versions.
+- "Fast mode" pricing has been significantly reduced for organizations with access.
+
+## Our Commentary
+
+We genuinely appreciate Anthropic's candor here. Calling a release "modest but tangible" is refreshing in an industry often prone to hyperbole. The focus on "honesty" and abstention is a smart move. It's better for an LLM to say "I don't know" than to confidently hallucinate. This feels like a crucial step towards more trustworthy AI. I'm curious if this approach will become a standard for future model releases.
+
+Original Link: https://simonwillison.net/2026/May/28/claude-opus-4-8/#atom-everything]]></content:encoded>
+            <enclosure url="https://static.simonwillison.net/static/2026/opus-3-8-card.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Styling Checkmarks with `::checkmark` & Progressive Enhancement]]></title>
@@ -133,6 +176,48 @@ This is a very specific application of AI, but it's a smart one. Integrating AI 
 
 Original Link: https://developers.googleblog.com/supercharge-your-integration-workflow-with-the-google-pay-wallet-developer-mcp-server/]]></content:encoded>
             <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/pay-wallet-dev-mcp-thumb.2e16d0ba.fill-1200x600.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[llm-anthropic 0.25.1 Adds Claude Opus 4.8 Support]]></title>
+            <link>https://digestweb.dev/articles/2026-05-28/llm-anthropic-0-25-1-opus-4-8</link>
+            <guid>https://digestweb.dev/articles/2026-05-28/llm-anthropic-0-25-1-opus-4-8</guid>
+            <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The `llm-anthropic` tool receives an update, introducing support for the new Claude Opus 4.8 model and an option for fast mode.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- `llm-anthropic` version 0.25.1 has been released.
+- This update adds support for the new Claude Opus 4.8 model.
+- A new `-o fast 1` option is available for fast mode access.
+- Default `max_tokens` now aligns with each model's maximum output.
+- This release enhances interaction with Anthropic models via the `llm` CLI tool.
+
+## Our Commentary
+
+For those of us using Simon Willison's `llm` CLI, this is a welcome update. Seamless integration with new models like Opus 4.8 is exactly what we need. It keeps the workflow smooth. The `max_tokens` default change is a nice quality-of-life improvement too.
+
+Original Link: https://simonwillison.net/2026/May/28/llm-anthropic/#atom-everything]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/305/800/450" length="0" type="image//id/305/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[markdown-svg-renderer: Enhanced SVG in Markdown]]></title>
+            <link>https://digestweb.dev/articles/2026-05-28/markdown-svg-renderer-svg-markdown</link>
+            <guid>https://digestweb.dev/articles/2026-05-28/markdown-svg-renderer-svg-markdown</guid>
+            <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A new tool, `markdown-svg-renderer`, offers customized Markdown rendering with special treatment for fenced SVG code blocks, displaying both the image and its code.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- `markdown-svg-renderer` is a new, customized Markdown rendering tool.
+- It provides special treatment for fenced SVG code blocks.
+- The tool renders the SVG image and offers a tab to view its code.
+- Users can paste Markdown directly or provide a URL to a CORS-enabled file.
+- It's useful for displaying interactive SVG examples within Markdown documents.
+
+## Our Commentary
+
+This is a neat little utility. We've all struggled with how to best present SVG code alongside its visual output in documentation. This tool offers a clean solution. It's a specific problem, but a common one for developers. I appreciate these focused tools that solve a single pain point elegantly.
+
+Original Link: https://simonwillison.net/2026/May/28/markdown-svg-renderer/#atom-everything]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/202/800/450" length="0" type="image//id/202/800/450"/>
         </item>
         <item>
             <title><![CDATA[Microsoft's Data Formulator 0.7: AI Analytics for Enterprise]]></title>

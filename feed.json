@@ -11,6 +11,18 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-05-29/datasette-1-0a31-write-queries-stored-queries",
+            "content_html": "## Summary & Key Takeaways\n\n- Datasette 1.0a31 is a significant alpha release with new features.\n- Users can now execute write queries against their databases.\n- The release also introduces the ability to save stored queries.\n- Stored queries can be private or shared within a Datasette instance.\n- This expands Datasette's functionality beyond read-only data exploration.\n\n## Our Commentary\n\nThis is a big step for Datasette. We've always appreciated its read-only data exploration, but adding write capabilities and stored queries really changes the game. It feels like it's evolving into a more comprehensive data management tool. I'm curious to see how this impacts its adoption. Simon Willison continues to impress with his focused, impactful open-source work.\n\nOriginal Link: https://simonwillison.net/2026/May/29/datasette/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-05-29/datasette-1-0a31-write-queries-stored-queries",
+            "title": "Datasette 1.0a31: Write Queries & Stored Queries Arrive",
+            "summary": "Datasette's latest alpha introduces the ability to execute write queries and save stored queries, significantly expanding its data management capabilities.",
+            "image": "https://picsum.photos/id/65/800/450",
+            "date_modified": "2026-05-29T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-05-28/astro-6-4-faster-markdown-cloudflare-routing",
             "content_html": "## Summary & Key Takeaways\n\n- Astro 6.4 introduces a new pluggable Markdown processor API.\n- A Rust-based Markdown processor is included for faster build times.\n- Helpers are added to support experimental advanced routing with Cloudflare.\n\n## Our Commentary\n\nA minor release, but the Rust-based Markdown processor sounds like a solid DX win. We're always here for faster builds. The Cloudflare routing helpers are a nice nod to edge deployments, which we're seeing more of.\n\nOriginal Link: https://astro.build/blog/astro-640/",
             "url": "https://digestweb.dev/articles/2026-05-28/astro-6-4-faster-markdown-cloudflare-routing",
@@ -27,6 +39,18 @@
             "summary": "Anthropic introduces dynamic workflows within Claude Code, enhancing its ability to adapt and manage complex coding tasks.",
             "image": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg",
             "date_modified": "2026-05-28T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-28/claude-opus-4-8-honesty-hallucination",
+            "content_html": "## Summary & Key Takeaways\n\n- Anthropic has released Claude Opus 4.8, described as a \"modest but tangible improvement.\"\n- A key focus of this release is improved \"honesty\" in the model.\n- Opus 4.8 is four times less likely to allow flaws in its generated code to pass unremarked.\n- The model achieves this by abstaining on uncertain questions rather than providing incorrect answers.\n- Pricing remains consistent with previous Opus versions.\n- \"Fast mode\" pricing has been significantly reduced for organizations with access.\n\n## Our Commentary\n\nWe genuinely appreciate Anthropic's candor here. Calling a release \"modest but tangible\" is refreshing in an industry often prone to hyperbole. The focus on \"honesty\" and abstention is a smart move. It's better for an LLM to say \"I don't know\" than to confidently hallucinate. This feels like a crucial step towards more trustworthy AI. I'm curious if this approach will become a standard for future model releases.\n\nOriginal Link: https://simonwillison.net/2026/May/28/claude-opus-4-8/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-05-28/claude-opus-4-8-honesty-hallucination",
+            "title": "Claude Opus 4.8 Focuses on \"Honesty\" & Reduced Hallucination",
+            "summary": "Anthropic's latest Claude Opus 4.8 model emphasizes improved honesty, showing a fourfold reduction in unremarked code flaws and a higher tendency to abstain when uncertain.",
+            "image": "https://static.simonwillison.net/static/2026/opus-3-8-card.jpg",
+            "date_modified": "2026-05-28T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
         },
         {
             "id": "https://digestweb.dev/articles/2026-05-28/css-checkmark-progressive-enhancement",
@@ -63,6 +87,30 @@
             "summary": "Google introduces an open-standard MCP server to connect AI assistants and IDEs with real-time Google Pay & Wallet API context, reducing developer friction.",
             "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/pay-wallet-dev-mcp-thumb.2e16d0ba.fill-1200x600.jpg",
             "date_modified": "2026-05-28T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-28/llm-anthropic-0-25-1-opus-4-8",
+            "content_html": "## Summary & Key Takeaways\n\n- `llm-anthropic` version 0.25.1 has been released.\n- This update adds support for the new Claude Opus 4.8 model.\n- A new `-o fast 1` option is available for fast mode access.\n- Default `max_tokens` now aligns with each model's maximum output.\n- This release enhances interaction with Anthropic models via the `llm` CLI tool.\n\n## Our Commentary\n\nFor those of us using Simon Willison's `llm` CLI, this is a welcome update. Seamless integration with new models like Opus 4.8 is exactly what we need. It keeps the workflow smooth. The `max_tokens` default change is a nice quality-of-life improvement too.\n\nOriginal Link: https://simonwillison.net/2026/May/28/llm-anthropic/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-05-28/llm-anthropic-0-25-1-opus-4-8",
+            "title": "llm-anthropic 0.25.1 Adds Claude Opus 4.8 Support",
+            "summary": "The `llm-anthropic` tool receives an update, introducing support for the new Claude Opus 4.8 model and an option for fast mode.",
+            "image": "https://picsum.photos/id/305/800/450",
+            "date_modified": "2026-05-28T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-05-28/markdown-svg-renderer-svg-markdown",
+            "content_html": "## Summary & Key Takeaways\n\n- `markdown-svg-renderer` is a new, customized Markdown rendering tool.\n- It provides special treatment for fenced SVG code blocks.\n- The tool renders the SVG image and offers a tab to view its code.\n- Users can paste Markdown directly or provide a URL to a CORS-enabled file.\n- It's useful for displaying interactive SVG examples within Markdown documents.\n\n## Our Commentary\n\nThis is a neat little utility. We've all struggled with how to best present SVG code alongside its visual output in documentation. This tool offers a clean solution. It's a specific problem, but a common one for developers. I appreciate these focused tools that solve a single pain point elegantly.\n\nOriginal Link: https://simonwillison.net/2026/May/28/markdown-svg-renderer/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-05-28/markdown-svg-renderer-svg-markdown",
+            "title": "markdown-svg-renderer: Enhanced SVG in Markdown",
+            "summary": "A new tool, `markdown-svg-renderer`, offers customized Markdown rendering with special treatment for fenced SVG code blocks, displaying both the image and its code.",
+            "image": "https://picsum.photos/id/202/800/450",
+            "date_modified": "2026-05-28T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
         },
         {
             "id": "https://digestweb.dev/articles/2026-05-28/microsoft-data-formulator-ai-analytics",
