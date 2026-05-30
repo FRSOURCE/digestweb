@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-05-29T10:46:34.400Z</updated>
+    <updated>2026-05-30T04:53:49.738Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,82 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Boston Children's Hospital Leverages OpenAI for Rare Disease Diagnoses]]></title>
+        <id>https://digestweb.dev/articles/2026-05-29/boston-childrens-hospital-openai-rare-disease-diagnoses</id>
+        <link href="https://digestweb.dev/articles/2026-05-29/boston-childrens-hospital-openai-rare-disease-diagnoses"/>
+        <updated>2026-05-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Boston Children's Hospital is utilizing OpenAI technology to enhance patient care, streamline operations, and successfully diagnose over 40 rare disease cases.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Boston Children's Hospital is employing OpenAI technology to advance patient care.
+- The AI integration aims to reduce operational burdens within the hospital system.
+- OpenAI's tools have assisted in diagnosing more than 40 rare disease cases.
+- This initiative demonstrates a practical application of frontier AI in medical diagnostics.
+
+## Our Commentary
+
+This is the kind of AI application that genuinely excites me. Using these powerful models to tackle complex medical challenges, like diagnosing rare diseases, feels like a truly meaningful step forward. It's a stark contrast to some of the more trivial uses we see. I hope we see more of these focused, impactful deployments.
+
+Original Link: https://openai.com/index/boston-childrens-hospital]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Braintrust Engineers Use Codex to Accelerate Code Generation]]></title>
+        <id>https://digestweb.dev/articles/2026-05-29/braintrust-engineers-codex-code-generation</id>
+        <link href="https://digestweb.dev/articles/2026-05-29/braintrust-engineers-codex-code-generation"/>
+        <updated>2026-05-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Braintrust engineers are leveraging OpenAI's Codex, powered by GPT-5.5, to streamline their development process, run experiments, and generate code more rapidly from customer requests.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Braintrust engineers are utilizing OpenAI's Codex for their development workflows.
+- The technology, powered by GPT-5.5, helps convert customer requests into code.
+- This approach enables engineers to run experiments and develop software faster.
+- The article highlights a specific business application of AI in software engineering.
+
+## Our Commentary
+
+Another OpenAI showcase. It's interesting to see how companies are integrating these tools into their dev processes. "Turning customer requests into code" sounds like the dream, but I'm always a little skeptical about the quality and maintenance burden of AI-generated code. Still, it's a clear sign of where things are headed.
+
+Original Link: https://openai.com/index/braintrust]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Understanding CSS @function: Fundamentals and Dev Experience]]></title>
+        <id>https://digestweb.dev/articles/2026-05-29/css-at-function-fundamentals-dev-experience</id>
+        <link href="https://digestweb.dev/articles/2026-05-29/css-at-function-fundamentals-dev-experience"/>
+        <updated>2026-05-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article explores the fundamentals of the new CSS `@function` syntax, highlighting common "gotchas" and discussing improvements to the developer experience for this powerful feature.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article delves into the foundational concepts of the new CSS `@function` syntax.
+- It identifies and discusses common pitfalls or "gotchas" developers encounter.
+- The piece also covers aspects related to the developer experience of using `@function`.
+- It suggests that some of these developer challenges are actively being addressed.
+
+## Our Commentary
+
+CSS `@function` is one of those features that feels like it should have been there forever. It's a game-changer for creating truly dynamic and reusable styles. I'm glad to see articles diving into the "gotchas" and DX, because that's where the real learning happens. It's not just about _what_ you can do, but _how_ smoothly you can do it.
+
+Original Link: https://frontendmasters.com/blog/the-fundamentals-and-dev-experience-of-css-function/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS-Tricks: Safari Testing, ::checkmark, and HTML Anchor Positioning]]></title>
+        <id>https://digestweb.dev/articles/2026-05-29/css-tricks-safari-testing-checkmark-html-anchor-positioning</id>
+        <link href="https://digestweb.dev/articles/2026-05-29/css-tricks-safari-testing-checkmark-html-anchor-positioning"/>
+        <updated>2026-05-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This edition of "What's !important" from CSS-Tricks covers practical tips for Safari testing, the new `::checkmark` pseudo-element, and the evolving landscape of HTML Anchor Positioning.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article provides insights into testing websites in Safari without direct access to the browser.
+- It introduces the new `::checkmark` pseudo-element for styling checkbox and radio button checkmarks.
+- Discussions include the current state and usage of HTML Anchor Positioning.
+- The piece offers a general roundup of various web development tips and new features.
+
+## Our Commentary
+
+CSS-Tricks always delivers these little nuggets of wisdom. `::checkmark` is a small but mighty addition for custom styling, and HTML Anchor Positioning is something I've been eagerly awaiting. It's a constant reminder that the web platform is always evolving, even in subtle ways. And let's be real, who _hasn't_ struggled with Safari testing?
+
+Original Link: https://css-tricks.com/whats-important-12/]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Datasette 1.0a31: Write Queries & Stored Queries Arrive]]></title>
         <id>https://digestweb.dev/articles/2026-05-29/datasette-1-0a31-write-queries-stored-queries</id>
@@ -36,6 +112,87 @@ Original Link: https://simonwillison.net/2026/May/29/datasette/#atom-everything]
         <author>
             <name>Simon Willison</name>
         </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Launches Rosalind Biodefense for Public Health & Pandemic Prep]]></title>
+        <id>https://digestweb.dev/articles/2026-05-29/openai-launches-rosalind-biodefense-public-health-pandemic-prep</id>
+        <link href="https://digestweb.dev/articles/2026-05-29/openai-launches-rosalind-biodefense-public-health-pandemic-prep"/>
+        <updated>2026-05-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI introduces Rosalind Biodefense, a new platform expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners focused on biodefense, public health, and pandemic preparedness using frontier AI.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI has launched a new initiative called Rosalind Biodefense.
+- The platform provides trusted access to GPT-Rosalind for specific users.
+- Vetted developers and U.S. government partners are the target audience.
+- The focus is on advancing biodefense, public health, and pandemic preparedness.
+- This represents a strategic application of frontier AI in critical societal domains.
+
+## Our Commentary
+
+Rosalind Biodefense. That's a name that immediately grabs your attention. OpenAI is clearly pushing into highly sensitive, high-impact areas. "Trusted access for vetted developers and U.S. government partners" — that's a whole different ballgame than consumer-facing LLMs. The implications for public health and national security are massive. It's a fascinating, if slightly unnerving, development.
+
+Original Link: https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Publishes Playbook for Trustworthy Third-Party AI Evaluations]]></title>
+        <id>https://digestweb.dev/articles/2026-05-29/openai-playbook-trustworthy-third-party-ai-evaluations</id>
+        <link href="https://digestweb.dev/articles/2026-05-29/openai-playbook-trustworthy-third-party-ai-evaluations"/>
+        <updated>2026-05-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI has released comprehensive guidance for third-party AI evaluations, detailing how to assess model capabilities, safeguards, and validity for advanced frontier AI systems.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI has shared new guidance for conducting third-party AI evaluations.
+- The playbook covers methods for assessing model capabilities.
+- It also addresses the evaluation of AI system safeguards.
+- Guidance is provided for determining the validity of frontier AI systems.
+- This initiative aims to foster more trustworthy and standardized AI assessments.
+
+## Our Commentary
+
+This is a necessary step. As AI models become more powerful and pervasive, having a standardized "playbook" for evaluations is absolutely critical. We need transparency and robust methods to ensure these systems are safe and reliable. I'm glad to see OpenAI taking a lead here, though I'm sure the details of what constitutes "trustworthy" will be debated endlessly.
+
+Original Link: https://openai.com/index/trustworthy-third-party-evaluations-foundations]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pnpm 11.5 Introduces Hoisting Limits and UI Improvements]]></title>
+        <id>https://digestweb.dev/articles/2026-05-29/pnpm-11-5-hoisting-limits-ui-improvements</id>
+        <link href="https://digestweb.dev/articles/2026-05-29/pnpm-11-5-hoisting-limits-ui-improvements"/>
+        <updated>2026-05-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[pnpm's latest minor release brings a new `hoistingLimits` setting, significantly improves interactive prompt UI, and addresses several bugs.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Introduces a new `hoistingLimits` setting for `nodeLinker: hoisted` installs, offering `none`, `workspaces`, or `dependencies` options.
+- Replaces `enquirer` with `@inquirer/prompts` for all interactive prompts, enhancing user experience.
+- Fixes a scrolling overflow bug in `pnpm update -i` and `pnpm audit --fix -i` for long choice lists.
+- Updates interactive prompts across various commands like `pnpm patch`, `pnpm publish`, and `pnpm login`.
+- Adds support for Vim-style `j`/`k` keys for navigation in interactive prompts.
+- Recognizes staged publishes in the trust scale, treating them as the strongest trust evidence.
+- Resolves a bug where pnpm could hang during peer resolution with mutual peer cycles.
+
+## Our Commentary
+
+We're always here for DX improvements, and pnpm delivering better interactive prompts is a win. That `hoistingLimits` setting is a nice touch for fine-tuning dependency management. It's the little things that make a big difference in daily workflow. I'm curious how many users will actually dive into those limits, but having the option is great.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.5.0]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beginner's Guide to PyTorch Profiling with torch.profiler (Part 1)]]></title>
+        <id>https://digestweb.dev/articles/2026-05-29/pytorch-profiling-torch-profiler-beginners-guide-part-1</id>
+        <link href="https://digestweb.dev/articles/2026-05-29/pytorch-profiling-torch-profiler-beginners-guide-part-1"/>
+        <updated>2026-05-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This first part of a series offers a beginner-friendly introduction to profiling PyTorch models using `torch.profiler`, a crucial tool for optimizing AI model performance.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- This article serves as a beginner's introduction to profiling in PyTorch.
+- It specifically focuses on utilizing the `torch.profiler` tool.
+- Profiling is essential for understanding and optimizing AI model performance.
+- This is the first installment in a multi-part series on the topic.
+
+## Our Commentary
+
+Profiling is one of those things you _know_ you should do, but often put off. A beginner's guide to `torch.profiler` is genuinely helpful for anyone getting serious about optimizing their PyTorch models. It's not glamorous, but it's foundational work. I appreciate Hugging Face putting out these practical guides.
+
+Original Link: https://huggingface.co/blog/torch-profiler]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Astro 6.4: Faster Markdown & Experimental Cloudflare Routing]]></title>
