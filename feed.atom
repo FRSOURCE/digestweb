@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-06-01T00:38:29.649Z</updated>
+    <updated>2026-06-01T06:02:21.612Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,49 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Is AI a 'Thermonuclear ADHD Amplifier'? A Developer's Dilemma]]></title>
+        <id>https://digestweb.dev/articles/2026-05-31/ai-thermonuclear-adhd-amplifier-developer-dilemma</id>
+        <link href="https://digestweb.dev/articles/2026-05-31/ai-thermonuclear-adhd-amplifier-developer-dilemma"/>
+        <updated>2026-05-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison explores the argument that AI tools, while powerful, can fragment attention and lead to an unsustainable number of abandoned projects, questioning their true value.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The author questions the true value of constant AI tool usage.
+- AI can quickly generate numerous projects, but maintaining them becomes an issue.
+- The technology is described as a "thermonuclear ADHD amplifier" due to its impact on focus.
+- Many AI-generated "quick scripts" often fail to solve the original problem.
+- The critical skill for managing AI might be discipline, which is hard to cultivate.
+- Some users with ADHD, however, report AI helps them achieve focus and complete projects.
+
+## Our Commentary
+
+This hits hard. I've felt this exact pull, the endless rabbit hole of 'just one more prompt.' Simon Willison articulating the 'thermonuclear ADHD amplifier' effect is chillingly accurate. We're all building so much, so fast, but what are we actually _finishing_? And what are we truly _caring_ for? The idea that discipline is the solution... well, I'm right there with him, still trying to figure that out after decades. It's a messy problem, and I don't think there's an easy answer.
+
+Original Link: https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Astro's May Update: Advanced Routing & TinaCMS Adoption]]></title>
+        <id>https://digestweb.dev/articles/2026-05-31/astro-may-update-advanced-routing-tinacms-adoption</id>
+        <link href="https://digestweb.dev/articles/2026-05-31/astro-may-update-advanced-routing-tinacms-adoption"/>
+        <updated>2026-05-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Astro's latest update introduces experimental advanced routing features and announces TinaCMS's decision to make Astro their default template.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Astro's May 2026 update brings new features and ecosystem news.
+- Experimental advanced routing capabilities are now available for testing.
+- TinaCMS has chosen Astro as its default template for new projects.
+- A new Astro jobs board has been launched to connect developers.
+
+## Our Commentary
+
+We're always watching Astro. The experimental advanced routing is intriguing; it suggests they're pushing boundaries beyond static site generation. TinaCMS adopting Astro as default is a big win for the framework. It shows real-world confidence. I wonder what other CMS platforms will follow suit. This feels like a quiet but steady march forward.
+
+Original Link: https://astro.build/blog/whats-new-may-2026/]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Boston Children's Hospital Leverages OpenAI for Rare Disease Diagnoses]]></title>
         <id>https://digestweb.dev/articles/2026-05-29/boston-childrens-hospital-openai-rare-disease-diagnoses</id>

@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Mon, 01 Jun 2026 00:38:29 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 01 Jun 2026 06:02:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,48 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Is AI a 'Thermonuclear ADHD Amplifier'? A Developer's Dilemma]]></title>
+            <link>https://digestweb.dev/articles/2026-05-31/ai-thermonuclear-adhd-amplifier-developer-dilemma</link>
+            <guid>https://digestweb.dev/articles/2026-05-31/ai-thermonuclear-adhd-amplifier-developer-dilemma</guid>
+            <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison explores the argument that AI tools, while powerful, can fragment attention and lead to an unsustainable number of abandoned projects, questioning their true value.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The author questions the true value of constant AI tool usage.
+- AI can quickly generate numerous projects, but maintaining them becomes an issue.
+- The technology is described as a "thermonuclear ADHD amplifier" due to its impact on focus.
+- Many AI-generated "quick scripts" often fail to solve the original problem.
+- The critical skill for managing AI might be discipline, which is hard to cultivate.
+- Some users with ADHD, however, report AI helps them achieve focus and complete projects.
+
+## Our Commentary
+
+This hits hard. I've felt this exact pull, the endless rabbit hole of 'just one more prompt.' Simon Willison articulating the 'thermonuclear ADHD amplifier' effect is chillingly accurate. We're all building so much, so fast, but what are we actually _finishing_? And what are we truly _caring_ for? The idea that discipline is the solution... well, I'm right there with him, still trying to figure that out after decades. It's a messy problem, and I don't think there's an easy answer.
+
+Original Link: https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription/#atom-everything]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/509/800/450" length="0" type="image//id/509/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Astro's May Update: Advanced Routing & TinaCMS Adoption]]></title>
+            <link>https://digestweb.dev/articles/2026-05-31/astro-may-update-advanced-routing-tinacms-adoption</link>
+            <guid>https://digestweb.dev/articles/2026-05-31/astro-may-update-advanced-routing-tinacms-adoption</guid>
+            <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Astro's latest update introduces experimental advanced routing features and announces TinaCMS's decision to make Astro their default template.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Astro's May 2026 update brings new features and ecosystem news.
+- Experimental advanced routing capabilities are now available for testing.
+- TinaCMS has chosen Astro as its default template for new projects.
+- A new Astro jobs board has been launched to connect developers.
+
+## Our Commentary
+
+We're always watching Astro. The experimental advanced routing is intriguing; it suggests they're pushing boundaries beyond static site generation. TinaCMS adopting Astro as default is a big win for the framework. It shows real-world confidence. I wonder what other CMS platforms will follow suit. This feels like a quiet but steady march forward.
+
+Original Link: https://astro.build/blog/whats-new-may-2026/]]></content:encoded>
+            <enclosure url="https://astro.build/_astro/og.BQ5VrOBH.webp" length="0" type="image/webp"/>
+        </item>
         <item>
             <title><![CDATA[Boston Children's Hospital Leverages OpenAI for Rare Disease Diagnoses]]></title>
             <link>https://digestweb.dev/articles/2026-05-29/boston-childrens-hospital-openai-rare-disease-diagnoses</link>
