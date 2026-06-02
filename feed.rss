@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Mon, 01 Jun 2026 06:02:21 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 02 Jun 2026 05:30:49 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,278 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Astro Markdown Component Utility: Use Markdown Across Any Framework]]></title>
+            <link>https://digestweb.dev/articles/2026-06-01/astro-markdown-component-utility-any-framework</link>
+            <guid>https://digestweb.dev/articles/2026-06-01/astro-markdown-component-utility-any-framework</guid>
+            <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This tutorial from CSS-Tricks expands on using Markdown components in Astro, demonstrating how to make them framework-agnostic for broader utility in web development projects.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article builds on a previous tutorial about Markdown components in Astro.
+- It demonstrates how to make these components framework-agnostic.
+- The utility allows Markdown to be used consistently across different frontend frameworks.
+- This enhances developer experience and content portability.
+- It provides practical guidance for integrating Markdown into diverse projects.
+
+## Our Commentary
+
+This is a smart approach. Markdown components are incredibly useful, and making them framework-agnostic with Astro is a great way to maximize their utility. We're always looking for ways to reduce friction when mixing and matching technologies, and this kind of utility is exactly what helps. It's a practical solution to a common problem, and I appreciate the focus on interoperability.
+
+Original Link: https://css-tricks.com/astro-markdown-component-utility-any-framework/]]></content:encoded>
+            <enclosure url="https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/02/markdown-astro.webp" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[Beaucoup: Crafting Memorable Web Experiences with Branding and 3D]]></title>
+            <link>https://digestweb.dev/articles/2026-06-01/beaucoup-memorable-web-experiences-branding-3d</link>
+            <guid>https://digestweb.dev/articles/2026-06-01/beaucoup-memorable-web-experiences-branding-3d</guid>
+            <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Codrops showcases Beaucoup, a studio that leverages branding, immersive web experiences, and 3D design to create memorable digital interactions.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Beaucoup is a design studio focused on creating memorable brand experiences.
+- They achieve this through branding, immersive web experiences, and 3D design.
+- The article highlights their approach to making brands feel distinct and impactful.
+
+## Our Commentary
+
+It's always inspiring to see how design studios push the boundaries of web experiences. Beaucoup's focus on 'memorable' through immersive and 3D elements is a good reminder that the web isn't just about functionality; it's about feeling. We sometimes get too caught up in the technical weeds and forget the art.
+
+Original Link: https://tympanus.net/codrops/2026/06/01/beaucoup-and-the-pursuit-of-memorable-experiences/]]></content:encoded>
+            <enclosure url="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/05/Beaucoup_cover.jpg?x42294" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[IBM Research: Agent Logic is Key for Scalable Enterprise AI Adoption]]></title>
+            <link>https://digestweb.dev/articles/2026-06-01/ibm-research-agent-logic-scalable-enterprise-ai</link>
+            <guid>https://digestweb.dev/articles/2026-06-01/ibm-research-agent-logic-scalable-enterprise-ai</guid>
+            <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[IBM Research argues that scalable enterprise AI adoption will depend heavily on agent logic, moving beyond the capabilities of large language models alone to enable more robust and autonomous systems.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- IBM Research emphasizes the importance of agent logic for enterprise AI.
+- Scalable AI adoption requires capabilities beyond standalone LLMs.
+- Agent logic enables more robust and autonomous AI systems.
+- The article discusses the architectural shift needed for enterprise-grade AI.
+- It highlights the need for AI to perform complex, multi-step tasks reliably.
+
+## Our Commentary
+
+This is the direction I've been expecting AI to go. LLMs are powerful, but they're just one piece of the puzzle. The idea of 'agent logic' for scalable enterprise adoption feels right; it's about orchestrating these models to actually _do_ things reliably. There's something unsettling about agents churning away at 3am while nobody's watching, but the potential for automation is undeniable. We need to get the guardrails right.
+
+Original Link: https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption]]></content:encoded>
+            <enclosure url="https://cdn-uploads.huggingface.co/production/uploads/65b12ed52be9660f0b7e5f72/mu_IH3lDD1qGRQZptFmPP.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[In-N-Out Animations: Mastering Dialog Transitions (Part 1/3)]]></title>
+            <link>https://digestweb.dev/articles/2026-06-01/in-n-out-animations-dialogs-part-1</link>
+            <guid>https://digestweb.dev/articles/2026-06-01/in-n-out-animations-dialogs-part-1</guid>
+            <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Frontend Masters presents the first part of a tutorial series on 'In-N-Out Animations,' focusing on how to style elements moving to and from `display: none;` for smooth dialog transitions.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- This is the first part of a three-part series on 'In-N-Out Animations'.
+- The tutorial focuses on animating dialogs and elements with `display: none;`.
+- It teaches how to style elements during their 'on the way in' and 'on the way out' phases.
+- The techniques aim to create smooth and engaging UI transitions.
+- It addresses a common challenge in CSS animation for dynamic content.
+
+## Our Commentary
+
+Animating elements that go `display: none;` has always been a bit of a headache in CSS. This tutorial sounds like it's tackling that exact pain point head-on. Smooth dialog transitions are crucial for a good user experience, and finding elegant CSS-only solutions is always a win. I'm looking forward to seeing the rest of this series; it feels like a genuinely useful deep dive into a tricky animation problem.
+
+Original Link: https://frontendmasters.com/blog/in-n-out-animations-dialogs-part-1-3/]]></content:encoded>
+            <enclosure url="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/9651" length="0" type="image//blog/wp-json/social-image-generator/v1/image/9651"/>
+        </item>
+        <item>
+            <title><![CDATA[JetBrains Introduces Mellum2: A New 12B Mixture-of-Experts LLM]]></title>
+            <link>https://digestweb.dev/articles/2026-06-01/jetbrains-mellum2-12b-mixture-of-experts-llm</link>
+            <guid>https://digestweb.dev/articles/2026-06-01/jetbrains-mellum2-12b-mixture-of-experts-llm</guid>
+            <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[JetBrains has unveiled Mellum2, a 12-billion parameter Mixture-of-Experts (MoE) model, marking a new contribution to the open-source large language model landscape.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- JetBrains has released Mellum2, a new large language model.
+- Mellum2 is a 12-billion parameter Mixture-of-Experts (MoE) model.
+- This release contributes to the growing open-source LLM ecosystem.
+- MoE architectures are known for efficiency and performance.
+
+## Our Commentary
+
+JetBrains entering the open-source LLM space with a 12B MoE model is interesting. They're known for developer tools, so their perspective on what makes a useful model could be quite practical. I'm always happy to see more players contributing to open-source AI; it keeps the field dynamic and prevents too much centralization. Mellum2 could be a solid option for specific use cases.
+
+Original Link: https://huggingface.co/blog/JetBrains/mellum2-launch]]></content:encoded>
+            <enclosure url="https://cdn-uploads.huggingface.co/production/uploads/60ef2a438432bc401cd0abbe/tFjSaWUOM_pVsgKjHrAHt.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Meta AI Account Takeover: Hackers Exploited Bot for Instagram Access]]></title>
+            <link>https://digestweb.dev/articles/2026-06-01/meta-ai-account-takeover-instagram-hack</link>
+            <guid>https://digestweb.dev/articles/2026-06-01/meta-ai-account-takeover-instagram-hack</guid>
+            <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hackers successfully gained access to high-profile Instagram accounts by simply asking Meta's AI support bot to link new email addresses, exposing a critical security flaw in AI integration.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Hackers exploited Meta's AI support bot to gain access to Instagram accounts.
+- The bot allowed account linking to new email addresses with simple prompts.
+- This vulnerability enabled one-shot account takeovers.
+- The incident highlights severe risks of integrating AI with sensitive systems.
+- It serves as a stark warning about prompt injection and AI security.
+- Multiple sources have verified the exploit's authenticity.
+
+## Our Commentary
+
+I genuinely don't know how to feel about this, other than a deep sense of dread. Wiring a support system with account recovery capabilities directly into an AI chatbot that can be 'simply asked' to hand over accounts is a catastrophic failure. This isn't even a sophisticated prompt injection; it's a fundamental design flaw. It's a headline-level warning for anyone integrating AI into critical infrastructure. We need to be so much more careful.
+
+Original Link: https://simonwillison.net/2026/Jun/1/hackers-simply-asked-meta-ai/#atom-everything]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/348/800/450" length="0" type="image//id/348/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[NVIDIA Unveils Cosmos 3: The First Open Omni-model for Physical AI]]></title>
+            <link>https://digestweb.dev/articles/2026-06-01/nvidia-cosmos-3-open-omni-model-physical-ai</link>
+            <guid>https://digestweb.dev/articles/2026-06-01/nvidia-cosmos-3-open-omni-model-physical-ai</guid>
+            <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[NVIDIA introduces Cosmos 3, touted as the first open omni-model designed for physical AI reasoning and action, pushing the boundaries of embodied AI and robotics.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- NVIDIA has launched Cosmos 3, an 'open omni-model'.
+- It is designed for physical AI reasoning and action.
+- Cosmos 3 aims to advance embodied AI and robotics capabilities.
+- This model represents a significant step towards more intelligent physical systems.
+- It combines various modalities for comprehensive understanding and interaction.
+
+## Our Commentary
+
+NVIDIA is really leaning into the physical AI space, and 'omni-model' sounds incredibly ambitious. The idea of a single model for physical reasoning and action is a huge leap. We're moving beyond just text and images; this is about AI interacting with the real world. It's exciting and a little terrifying to imagine the implications for robotics and automation. The future is going to be very, very physical.
+
+Original Link: https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai]]></content:encoded>
+            <enclosure url="https://cdn-uploads.huggingface.co/production/uploads/6799309995f2227228bc38f3/js_kXqJrfpYZd1hZvwPug.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Open vs. Closed AI Models: Diverging Exponentials in Value Creation]]></title>
+            <link>https://digestweb.dev/articles/2026-06-01/open-vs-closed-ai-models-diverging-exponentials</link>
+            <guid>https://digestweb.dev/articles/2026-06-01/open-vs-closed-ai-models-diverging-exponentials</guid>
+            <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Nathan Lambert explores how open and closed AI models are evolving on different trajectories, impacting where marginal intelligence drives value in the AI landscape.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Open and closed AI models are following distinct growth patterns.
+- The article analyzes where incremental intelligence gains create significant value.
+- It discusses the implications of these diverging exponentials for the AI industry.
+- The piece offers insights into the strategic positioning of different model types.
+
+## Our Commentary
+
+This is a conversation we need to keep having. The idea that open and closed models are on 'different exponentials' is a powerful framing. I've been wondering if the open-source community can truly keep pace with the closed, well-funded labs. This article suggests it's not just about pace, but about where value is extracted. It's a nuanced take on a critical debate.
+
+Original Link: https://www.interconnects.ai/p/open-and-closed-models-are-on-different]]></content:encoded>
+            <enclosure url="https://substackcdn.com/image/fetch/$s_!WhS4!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6b994b97-89a2-4101-ad81-aa3ffe274b75_3182x1790.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Frontier Models & Codex Now Generally Available on AWS]]></title>
+            <link>https://digestweb.dev/articles/2026-06-01/openai-frontier-models-codex-aws-general-availability</link>
+            <guid>https://digestweb.dev/articles/2026-06-01/openai-frontier-models-codex-aws-general-availability</guid>
+            <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI's frontier models and Codex are now generally available on AWS, offering enterprises a streamlined path to integrate OpenAI technologies within their existing AWS environments and workflows.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI frontier models and Codex are now generally available on AWS.
+- This provides enterprises a new way to build with OpenAI.
+- Integration leverages existing AWS environments, controls, and procurement workflows.
+- Customers can accelerate from evaluation to production with OpenAI on AWS.
+- The move aims to simplify access and deployment for businesses.
+
+## Our Commentary
+
+This is a smart move for OpenAI. Enterprise adoption often hinges on ease of integration with existing cloud providers. Making their models available directly on AWS removes a lot of friction for big companies. It's less about groundbreaking tech and more about making the tech accessible. This will definitely accelerate the deployment of AI solutions in corporate environments. It's all about meeting customers where they are.
+
+Original Link: https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/741/800/450" length="0" type="image//id/741/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Breaks Ground on 1GW 'Stargate' Data Center in Michigan]]></title>
+            <link>https://digestweb.dev/articles/2026-06-01/openai-stargate-data-center-michigan</link>
+            <guid>https://digestweb.dev/articles/2026-06-01/openai-stargate-data-center-michigan</guid>
+            <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI has begun construction on a massive 1-gigawatt data center in Michigan, part of its 'Stargate' project, aimed at expanding AI infrastructure, creating jobs, and supporting local communities.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI is building a 1-gigawatt data center in Michigan.
+- The project is part of the larger 'Stargate' initiative.
+- It aims to expand AI infrastructure and compute capabilities.
+- The initiative is expected to create jobs and support local communities.
+- This represents a significant investment in future AI development.
+
+## Our Commentary
+
+A 1GW data center? That's just... staggering. It really puts the scale of OpenAI's ambitions into perspective. We talk about AI models, but the sheer physical infrastructure required to run them is immense. This isn't just about software anymore; it's about power grids and land. It makes me wonder about the environmental impact, but also the sheer compute potential this unlocks. The 'Intelligence Age' indeed.
+
+Original Link: https://openai.com/index/stargate-michigan-data-center]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/550/800/450" length="0" type="image//id/550/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Rollup v4.61.0: Deterministic Chunk Hashes for Consistent Builds]]></title>
+            <link>https://digestweb.dev/articles/2026-06-01/rollup-v4-61-0-deterministic-chunk-hashes</link>
+            <guid>https://digestweb.dev/articles/2026-06-01/rollup-v4-61-0-deterministic-chunk-hashes</guid>
+            <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Rollup's latest minor release introduces a feature to sort entry modules, ensuring deterministic chunk hashes for more consistent build outputs.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Rollup v4.61.0 features sorting of entry modules.
+- This change makes chunk hashes deterministic.
+- Deterministic hashes improve build consistency across environments.
+
+## Our Commentary
+
+Deterministic builds are one of those things you don't think about until they break. Then you really, really care. This is a small but important quality-of-life improvement for anyone dealing with caching or ensuring reproducible builds. It's not flashy, but it's solid engineering.
+
+Original Link: https://github.com/rollup/rollup/releases/tag/v4.61.0]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/5f1cd491d9d90a2e8239df89218bf733835b879fc94073aabd3c09cdd10b542d/rollup/rollup/releases/tag/v4.61.0" length="0" type="image/0"/>
+        </item>
+        <item>
+            <title><![CDATA[SvelteKit June 2026: Real-time Data, Enhanced Forms, and Breaking Changes]]></title>
+            <link>https://digestweb.dev/articles/2026-06-01/sveltekit-june-2026-realtime-data-enhanced-forms-breaking-changes</link>
+            <guid>https://digestweb.dev/articles/2026-06-01/sveltekit-june-2026-realtime-data-enhanced-forms-breaking-changes</guid>
+            <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[SvelteKit's latest update brings a new `query.live(...)` function for real-time data, significant improvements to forms and remote functions, alongside a few breaking changes.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- SvelteKit introduces `query.live(...)` for easier real-time data subscriptions, now async-iterable.
+- Form submissions now return a boolean for validity, enhancing remote form handling.
+- Remote form fields can directly accept booleans and numbers.
+- SvelteKit warns when remote form validation issues are unread, improving UX path detection.
+- Breaking changes include `requested(...)` requiring `limit` and `query.batch(...)` support.
+- The `.run()` method was removed from remote queries; use `await query()` directly.
+- Enhance callbacks now receive a copy of the form remote function instance, with a programmatic `submit()` API.
+
+## Our Commentary
+
+A monthly SvelteKit update is always welcome, and `query.live(...)` for real-time data sounds like a genuinely useful addition. We're seeing a lot of frameworks lean into server-side data fetching and reactivity, and SvelteKit is clearly pushing that boundary. The breaking changes are a bit of a bummer, but that's the nature of a rapidly evolving framework. I'm curious to see how the new form enhancements streamline complex interactions. It feels like SvelteKit is maturing its data story.
+
+Original Link: https://svelte.dev/blog/whats-new-in-svelte-june-2026]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/170/800/450" length="0" type="image//id/170/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Vitest v5.0.0-beta.4: Breaking Changes, Browser Trace View, and HTML Reporter]]></title>
+            <link>https://digestweb.dev/articles/2026-06-01/vitest-v5-beta-4-breaking-changes-browser-trace-html-reporter</link>
+            <guid>https://digestweb.dev/articles/2026-06-01/vitest-v5-beta-4-breaking-changes-browser-trace-html-reporter</guid>
+            <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Vitest's latest beta for v5 introduces significant breaking changes, new features like a browser trace view and single-file HTML reporter, plus performance enhancements.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Vitest v5.0.0-beta.4 includes several breaking changes, notably in `toHaveTextContent` and `benchmark` API.
+- Hoistable methods outside top-level scope now throw errors.
+- A new browser trace view step is available in the editor panel.
+- The HTML reporter now supports single-file output.
+- Performance improvements have been made in hot paths.
+- Browser mode now enables `locators.exact` by default.
+- `vi.defineHelper` callsite is preserved for async error stacks.
+
+## Our Commentary
+
+A beta for a major version always brings a mix of excitement and trepidation. The breaking changes are something to watch, but the new features sound genuinely useful. A browser trace view in the editor? Yes, please. And a single-file HTML reporter is a nice touch for sharing results. It's good to see continued investment in performance too. Vitest keeps pushing the envelope for modern JavaScript testing.
+
+Original Link: https://github.com/vitest-dev/vitest/releases/tag/v5.0.0-beta.4]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/b7d3fff45df909aafe30a4e5342a82d4cef996d9c450393070c6dfbcc0562e27/vitest-dev/vitest/releases/tag/v5.0.0-beta.4" length="0" type="image/4"/>
+        </item>
         <item>
             <title><![CDATA[Is AI a 'Thermonuclear ADHD Amplifier'? A Developer's Dilemma]]></title>
             <link>https://digestweb.dev/articles/2026-05-31/ai-thermonuclear-adhd-amplifier-developer-dilemma</link>

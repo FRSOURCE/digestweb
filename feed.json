@@ -11,6 +11,129 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-06-01/astro-markdown-component-utility-any-framework",
+            "content_html": "## Summary & Key Takeaways\n\n- The article builds on a previous tutorial about Markdown components in Astro.\n- It demonstrates how to make these components framework-agnostic.\n- The utility allows Markdown to be used consistently across different frontend frameworks.\n- This enhances developer experience and content portability.\n- It provides practical guidance for integrating Markdown into diverse projects.\n\n## Our Commentary\n\nThis is a smart approach. Markdown components are incredibly useful, and making them framework-agnostic with Astro is a great way to maximize their utility. We're always looking for ways to reduce friction when mixing and matching technologies, and this kind of utility is exactly what helps. It's a practical solution to a common problem, and I appreciate the focus on interoperability.\n\nOriginal Link: https://css-tricks.com/astro-markdown-component-utility-any-framework/",
+            "url": "https://digestweb.dev/articles/2026-06-01/astro-markdown-component-utility-any-framework",
+            "title": "Astro Markdown Component Utility: Use Markdown Across Any Framework",
+            "summary": "This tutorial from CSS-Tricks expands on using Markdown components in Astro, demonstrating how to make them framework-agnostic for broader utility in web development projects.",
+            "image": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/02/markdown-astro.webp",
+            "date_modified": "2026-06-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-01/beaucoup-memorable-web-experiences-branding-3d",
+            "content_html": "## Summary & Key Takeaways\n\n- Beaucoup is a design studio focused on creating memorable brand experiences.\n- They achieve this through branding, immersive web experiences, and 3D design.\n- The article highlights their approach to making brands feel distinct and impactful.\n\n## Our Commentary\n\nIt's always inspiring to see how design studios push the boundaries of web experiences. Beaucoup's focus on 'memorable' through immersive and 3D elements is a good reminder that the web isn't just about functionality; it's about feeling. We sometimes get too caught up in the technical weeds and forget the art.\n\nOriginal Link: https://tympanus.net/codrops/2026/06/01/beaucoup-and-the-pursuit-of-memorable-experiences/",
+            "url": "https://digestweb.dev/articles/2026-06-01/beaucoup-memorable-web-experiences-branding-3d",
+            "title": "Beaucoup: Crafting Memorable Web Experiences with Branding and 3D",
+            "summary": "Codrops showcases Beaucoup, a studio that leverages branding, immersive web experiences, and 3D design to create memorable digital interactions.",
+            "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/05/Beaucoup_cover.jpg?x42294",
+            "date_modified": "2026-06-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-01/ibm-research-agent-logic-scalable-enterprise-ai",
+            "content_html": "## Summary & Key Takeaways\n\n- IBM Research emphasizes the importance of agent logic for enterprise AI.\n- Scalable AI adoption requires capabilities beyond standalone LLMs.\n- Agent logic enables more robust and autonomous AI systems.\n- The article discusses the architectural shift needed for enterprise-grade AI.\n- It highlights the need for AI to perform complex, multi-step tasks reliably.\n\n## Our Commentary\n\nThis is the direction I've been expecting AI to go. LLMs are powerful, but they're just one piece of the puzzle. The idea of 'agent logic' for scalable enterprise adoption feels right; it's about orchestrating these models to actually _do_ things reliably. There's something unsettling about agents churning away at 3am while nobody's watching, but the potential for automation is undeniable. We need to get the guardrails right.\n\nOriginal Link: https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+            "url": "https://digestweb.dev/articles/2026-06-01/ibm-research-agent-logic-scalable-enterprise-ai",
+            "title": "IBM Research: Agent Logic is Key for Scalable Enterprise AI Adoption",
+            "summary": "IBM Research argues that scalable enterprise AI adoption will depend heavily on agent logic, moving beyond the capabilities of large language models alone to enable more robust and autonomous systems.",
+            "image": "https://cdn-uploads.huggingface.co/production/uploads/65b12ed52be9660f0b7e5f72/mu_IH3lDD1qGRQZptFmPP.png",
+            "date_modified": "2026-06-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-01/in-n-out-animations-dialogs-part-1",
+            "content_html": "## Summary & Key Takeaways\n\n- This is the first part of a three-part series on 'In-N-Out Animations'.\n- The tutorial focuses on animating dialogs and elements with `display: none;`.\n- It teaches how to style elements during their 'on the way in' and 'on the way out' phases.\n- The techniques aim to create smooth and engaging UI transitions.\n- It addresses a common challenge in CSS animation for dynamic content.\n\n## Our Commentary\n\nAnimating elements that go `display: none;` has always been a bit of a headache in CSS. This tutorial sounds like it's tackling that exact pain point head-on. Smooth dialog transitions are crucial for a good user experience, and finding elegant CSS-only solutions is always a win. I'm looking forward to seeing the rest of this series; it feels like a genuinely useful deep dive into a tricky animation problem.\n\nOriginal Link: https://frontendmasters.com/blog/in-n-out-animations-dialogs-part-1-3/",
+            "url": "https://digestweb.dev/articles/2026-06-01/in-n-out-animations-dialogs-part-1",
+            "title": "In-N-Out Animations: Mastering Dialog Transitions (Part 1/3)",
+            "summary": "Frontend Masters presents the first part of a tutorial series on 'In-N-Out Animations,' focusing on how to style elements moving to and from `display: none;` for smooth dialog transitions.",
+            "image": "https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/9651",
+            "date_modified": "2026-06-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-01/jetbrains-mellum2-12b-mixture-of-experts-llm",
+            "content_html": "## Summary & Key Takeaways\n\n- JetBrains has released Mellum2, a new large language model.\n- Mellum2 is a 12-billion parameter Mixture-of-Experts (MoE) model.\n- This release contributes to the growing open-source LLM ecosystem.\n- MoE architectures are known for efficiency and performance.\n\n## Our Commentary\n\nJetBrains entering the open-source LLM space with a 12B MoE model is interesting. They're known for developer tools, so their perspective on what makes a useful model could be quite practical. I'm always happy to see more players contributing to open-source AI; it keeps the field dynamic and prevents too much centralization. Mellum2 could be a solid option for specific use cases.\n\nOriginal Link: https://huggingface.co/blog/JetBrains/mellum2-launch",
+            "url": "https://digestweb.dev/articles/2026-06-01/jetbrains-mellum2-12b-mixture-of-experts-llm",
+            "title": "JetBrains Introduces Mellum2: A New 12B Mixture-of-Experts LLM",
+            "summary": "JetBrains has unveiled Mellum2, a 12-billion parameter Mixture-of-Experts (MoE) model, marking a new contribution to the open-source large language model landscape.",
+            "image": "https://cdn-uploads.huggingface.co/production/uploads/60ef2a438432bc401cd0abbe/tFjSaWUOM_pVsgKjHrAHt.png",
+            "date_modified": "2026-06-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-01/meta-ai-account-takeover-instagram-hack",
+            "content_html": "## Summary & Key Takeaways\n\n- Hackers exploited Meta's AI support bot to gain access to Instagram accounts.\n- The bot allowed account linking to new email addresses with simple prompts.\n- This vulnerability enabled one-shot account takeovers.\n- The incident highlights severe risks of integrating AI with sensitive systems.\n- It serves as a stark warning about prompt injection and AI security.\n- Multiple sources have verified the exploit's authenticity.\n\n## Our Commentary\n\nI genuinely don't know how to feel about this, other than a deep sense of dread. Wiring a support system with account recovery capabilities directly into an AI chatbot that can be 'simply asked' to hand over accounts is a catastrophic failure. This isn't even a sophisticated prompt injection; it's a fundamental design flaw. It's a headline-level warning for anyone integrating AI into critical infrastructure. We need to be so much more careful.\n\nOriginal Link: https://simonwillison.net/2026/Jun/1/hackers-simply-asked-meta-ai/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-06-01/meta-ai-account-takeover-instagram-hack",
+            "title": "Meta AI Account Takeover: Hackers Exploited Bot for Instagram Access",
+            "summary": "Hackers successfully gained access to high-profile Instagram accounts by simply asking Meta's AI support bot to link new email addresses, exposing a critical security flaw in AI integration.",
+            "image": "https://picsum.photos/id/348/800/450",
+            "date_modified": "2026-06-01T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-01/nvidia-cosmos-3-open-omni-model-physical-ai",
+            "content_html": "## Summary & Key Takeaways\n\n- NVIDIA has launched Cosmos 3, an 'open omni-model'.\n- It is designed for physical AI reasoning and action.\n- Cosmos 3 aims to advance embodied AI and robotics capabilities.\n- This model represents a significant step towards more intelligent physical systems.\n- It combines various modalities for comprehensive understanding and interaction.\n\n## Our Commentary\n\nNVIDIA is really leaning into the physical AI space, and 'omni-model' sounds incredibly ambitious. The idea of a single model for physical reasoning and action is a huge leap. We're moving beyond just text and images; this is about AI interacting with the real world. It's exciting and a little terrifying to imagine the implications for robotics and automation. The future is going to be very, very physical.\n\nOriginal Link: https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
+            "url": "https://digestweb.dev/articles/2026-06-01/nvidia-cosmos-3-open-omni-model-physical-ai",
+            "title": "NVIDIA Unveils Cosmos 3: The First Open Omni-model for Physical AI",
+            "summary": "NVIDIA introduces Cosmos 3, touted as the first open omni-model designed for physical AI reasoning and action, pushing the boundaries of embodied AI and robotics.",
+            "image": "https://cdn-uploads.huggingface.co/production/uploads/6799309995f2227228bc38f3/js_kXqJrfpYZd1hZvwPug.png",
+            "date_modified": "2026-06-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-01/open-vs-closed-ai-models-diverging-exponentials",
+            "content_html": "## Summary & Key Takeaways\n\n- Open and closed AI models are following distinct growth patterns.\n- The article analyzes where incremental intelligence gains create significant value.\n- It discusses the implications of these diverging exponentials for the AI industry.\n- The piece offers insights into the strategic positioning of different model types.\n\n## Our Commentary\n\nThis is a conversation we need to keep having. The idea that open and closed models are on 'different exponentials' is a powerful framing. I've been wondering if the open-source community can truly keep pace with the closed, well-funded labs. This article suggests it's not just about pace, but about where value is extracted. It's a nuanced take on a critical debate.\n\nOriginal Link: https://www.interconnects.ai/p/open-and-closed-models-are-on-different",
+            "url": "https://digestweb.dev/articles/2026-06-01/open-vs-closed-ai-models-diverging-exponentials",
+            "title": "Open vs. Closed AI Models: Diverging Exponentials in Value Creation",
+            "summary": "Nathan Lambert explores how open and closed AI models are evolving on different trajectories, impacting where marginal intelligence drives value in the AI landscape.",
+            "image": "https://substackcdn.com/image/fetch/$s_!WhS4!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6b994b97-89a2-4101-ad81-aa3ffe274b75_3182x1790.png",
+            "date_modified": "2026-06-01T00:00:00.000Z",
+            "author": {
+                "name": "Nathan Lambert"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-01/openai-frontier-models-codex-aws-general-availability",
+            "content_html": "## Summary & Key Takeaways\n\n- OpenAI frontier models and Codex are now generally available on AWS.\n- This provides enterprises a new way to build with OpenAI.\n- Integration leverages existing AWS environments, controls, and procurement workflows.\n- Customers can accelerate from evaluation to production with OpenAI on AWS.\n- The move aims to simplify access and deployment for businesses.\n\n## Our Commentary\n\nThis is a smart move for OpenAI. Enterprise adoption often hinges on ease of integration with existing cloud providers. Making their models available directly on AWS removes a lot of friction for big companies. It's less about groundbreaking tech and more about making the tech accessible. This will definitely accelerate the deployment of AI solutions in corporate environments. It's all about meeting customers where they are.\n\nOriginal Link: https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+            "url": "https://digestweb.dev/articles/2026-06-01/openai-frontier-models-codex-aws-general-availability",
+            "title": "OpenAI Frontier Models & Codex Now Generally Available on AWS",
+            "summary": "OpenAI's frontier models and Codex are now generally available on AWS, offering enterprises a streamlined path to integrate OpenAI technologies within their existing AWS environments and workflows.",
+            "image": "https://picsum.photos/id/741/800/450",
+            "date_modified": "2026-06-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-01/openai-stargate-data-center-michigan",
+            "content_html": "## Summary & Key Takeaways\n\n- OpenAI is building a 1-gigawatt data center in Michigan.\n- The project is part of the larger 'Stargate' initiative.\n- It aims to expand AI infrastructure and compute capabilities.\n- The initiative is expected to create jobs and support local communities.\n- This represents a significant investment in future AI development.\n\n## Our Commentary\n\nA 1GW data center? That's just... staggering. It really puts the scale of OpenAI's ambitions into perspective. We talk about AI models, but the sheer physical infrastructure required to run them is immense. This isn't just about software anymore; it's about power grids and land. It makes me wonder about the environmental impact, but also the sheer compute potential this unlocks. The 'Intelligence Age' indeed.\n\nOriginal Link: https://openai.com/index/stargate-michigan-data-center",
+            "url": "https://digestweb.dev/articles/2026-06-01/openai-stargate-data-center-michigan",
+            "title": "OpenAI Breaks Ground on 1GW 'Stargate' Data Center in Michigan",
+            "summary": "OpenAI has begun construction on a massive 1-gigawatt data center in Michigan, part of its 'Stargate' project, aimed at expanding AI infrastructure, creating jobs, and supporting local communities.",
+            "image": "https://picsum.photos/id/550/800/450",
+            "date_modified": "2026-06-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-01/rollup-v4-61-0-deterministic-chunk-hashes",
+            "content_html": "## Summary & Key Takeaways\n\n- Rollup v4.61.0 features sorting of entry modules.\n- This change makes chunk hashes deterministic.\n- Deterministic hashes improve build consistency across environments.\n\n## Our Commentary\n\nDeterministic builds are one of those things you don't think about until they break. Then you really, really care. This is a small but important quality-of-life improvement for anyone dealing with caching or ensuring reproducible builds. It's not flashy, but it's solid engineering.\n\nOriginal Link: https://github.com/rollup/rollup/releases/tag/v4.61.0",
+            "url": "https://digestweb.dev/articles/2026-06-01/rollup-v4-61-0-deterministic-chunk-hashes",
+            "title": "Rollup v4.61.0: Deterministic Chunk Hashes for Consistent Builds",
+            "summary": "Rollup's latest minor release introduces a feature to sort entry modules, ensuring deterministic chunk hashes for more consistent build outputs.",
+            "image": "https://opengraph.githubassets.com/5f1cd491d9d90a2e8239df89218bf733835b879fc94073aabd3c09cdd10b542d/rollup/rollup/releases/tag/v4.61.0",
+            "date_modified": "2026-06-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-01/sveltekit-june-2026-realtime-data-enhanced-forms-breaking-changes",
+            "content_html": "## Summary & Key Takeaways\n\n- SvelteKit introduces `query.live(...)` for easier real-time data subscriptions, now async-iterable.\n- Form submissions now return a boolean for validity, enhancing remote form handling.\n- Remote form fields can directly accept booleans and numbers.\n- SvelteKit warns when remote form validation issues are unread, improving UX path detection.\n- Breaking changes include `requested(...)` requiring `limit` and `query.batch(...)` support.\n- The `.run()` method was removed from remote queries; use `await query()` directly.\n- Enhance callbacks now receive a copy of the form remote function instance, with a programmatic `submit()` API.\n\n## Our Commentary\n\nA monthly SvelteKit update is always welcome, and `query.live(...)` for real-time data sounds like a genuinely useful addition. We're seeing a lot of frameworks lean into server-side data fetching and reactivity, and SvelteKit is clearly pushing that boundary. The breaking changes are a bit of a bummer, but that's the nature of a rapidly evolving framework. I'm curious to see how the new form enhancements streamline complex interactions. It feels like SvelteKit is maturing its data story.\n\nOriginal Link: https://svelte.dev/blog/whats-new-in-svelte-june-2026",
+            "url": "https://digestweb.dev/articles/2026-06-01/sveltekit-june-2026-realtime-data-enhanced-forms-breaking-changes",
+            "title": "SvelteKit June 2026: Real-time Data, Enhanced Forms, and Breaking Changes",
+            "summary": "SvelteKit's latest update brings a new `query.live(...)` function for real-time data, significant improvements to forms and remote functions, alongside a few breaking changes.",
+            "image": "https://picsum.photos/id/170/800/450",
+            "date_modified": "2026-06-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-01/vitest-v5-beta-4-breaking-changes-browser-trace-html-reporter",
+            "content_html": "## Summary & Key Takeaways\n\n- Vitest v5.0.0-beta.4 includes several breaking changes, notably in `toHaveTextContent` and `benchmark` API.\n- Hoistable methods outside top-level scope now throw errors.\n- A new browser trace view step is available in the editor panel.\n- The HTML reporter now supports single-file output.\n- Performance improvements have been made in hot paths.\n- Browser mode now enables `locators.exact` by default.\n- `vi.defineHelper` callsite is preserved for async error stacks.\n\n## Our Commentary\n\nA beta for a major version always brings a mix of excitement and trepidation. The breaking changes are something to watch, but the new features sound genuinely useful. A browser trace view in the editor? Yes, please. And a single-file HTML reporter is a nice touch for sharing results. It's good to see continued investment in performance too. Vitest keeps pushing the envelope for modern JavaScript testing.\n\nOriginal Link: https://github.com/vitest-dev/vitest/releases/tag/v5.0.0-beta.4",
+            "url": "https://digestweb.dev/articles/2026-06-01/vitest-v5-beta-4-breaking-changes-browser-trace-html-reporter",
+            "title": "Vitest v5.0.0-beta.4: Breaking Changes, Browser Trace View, and HTML Reporter",
+            "summary": "Vitest's latest beta for v5 introduces significant breaking changes, new features like a browser trace view and single-file HTML reporter, plus performance enhancements.",
+            "image": "https://opengraph.githubassets.com/b7d3fff45df909aafe30a4e5342a82d4cef996d9c450393070c6dfbcc0562e27/vitest-dev/vitest/releases/tag/v5.0.0-beta.4",
+            "date_modified": "2026-06-01T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-05-31/ai-thermonuclear-adhd-amplifier-developer-dilemma",
             "content_html": "## Summary & Key Takeaways\n\n- The author questions the true value of constant AI tool usage.\n- AI can quickly generate numerous projects, but maintaining them becomes an issue.\n- The technology is described as a \"thermonuclear ADHD amplifier\" due to its impact on focus.\n- Many AI-generated \"quick scripts\" often fail to solve the original problem.\n- The critical skill for managing AI might be discipline, which is hard to cultivate.\n- Some users with ADHD, however, report AI helps them achieve focus and complete projects.\n\n## Our Commentary\n\nThis hits hard. I've felt this exact pull, the endless rabbit hole of 'just one more prompt.' Simon Willison articulating the 'thermonuclear ADHD amplifier' effect is chillingly accurate. We're all building so much, so fast, but what are we actually _finishing_? And what are we truly _caring_ for? The idea that discipline is the solution... well, I'm right there with him, still trying to figure that out after decades. It's a messy problem, and I don't think there's an easy answer.\n\nOriginal Link: https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription/#atom-everything",
             "url": "https://digestweb.dev/articles/2026-05-31/ai-thermonuclear-adhd-amplifier-developer-dilemma",
