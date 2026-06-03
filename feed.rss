@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Tue, 02 Jun 2026 05:30:49 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Jun 2026 06:04:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,189 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Claude Code Introduces Dynamic Workflows for Enhanced Task Handling]]></title>
+            <link>https://digestweb.dev/articles/2026-06-02/claude-code-dynamic-workflows</link>
+            <guid>https://digestweb.dev/articles/2026-06-02/claude-code-dynamic-workflows</guid>
+            <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Claude Code now features dynamic workflows, allowing for more flexible and adaptable task execution within the AI coding environment.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Claude Code has launched dynamic workflows.
+- This feature aims to provide greater flexibility in task execution.
+- It allows the AI to adapt its approach based on the specific task.
+- The update enhances the utility of Claude Code for developers.
+
+## Our Commentary
+
+Dynamic workflows in an AI coding tool like Claude Code? That's interesting. It suggests a move towards more autonomous and context-aware agents. I'm curious how "dynamic" these workflows truly are in practice. It could be a real productivity booster or just another buzzword.
+
+Original Link: https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code]]></content:encoded>
+            <enclosure url="https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Holo3.1: Hugging Face Unveils Fast, Local Computer Use Agents]]></title>
+            <link>https://digestweb.dev/articles/2026-06-02/holo3-1-huggingface-local-ai-agents</link>
+            <guid>https://digestweb.dev/articles/2026-06-02/holo3-1-huggingface-local-ai-agents</guid>
+            <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hugging Face introduces Holo3.1, a new generation of AI agents designed for fast and local computer use, emphasizing efficiency and privacy.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Hugging Face has released Holo3.1, a new AI agent.
+- These agents are designed for fast and local computer use.
+- Local execution offers benefits in privacy and reduced latency.
+- The release focuses on efficient AI interaction with local systems.
+
+## Our Commentary
+
+Local AI agents are a game-changer. We've been talking about the privacy and performance benefits of running models on-device for ages. Holo3.1 sounds like a solid step in that direction. I'm genuinely excited to see how this impacts developer workflows and user experiences. The potential for offline AI is huge.
+
+Original Link: https://huggingface.co/blog/Hcompany/holo31]]></content:encoded>
+            <enclosure url="https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/Hcompany/holo31.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[How to Vet npm Packages in 2026: A Developer's Checklist]]></title>
+            <link>https://digestweb.dev/articles/2026-06-02/how-to-vet-npm-packages-2026-checklist</link>
+            <guid>https://digestweb.dev/articles/2026-06-02/how-to-vet-npm-packages-2026-checklist</guid>
+            <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A practical checklist for evaluating npm packages beyond star counts, covering security, provenance, CI quality, and maintainer responsiveness to spot red flags.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Provides a practical checklist for thoroughly evaluating npm packages.
+- Goes beyond simple metrics like star counts to assess quality.
+- Covers critical aspects such as provenance attestation and install scripts.
+- Emphasizes checking CI quality and maintainer responsiveness.
+- Aids developers in identifying potential red flags before installation.
+
+## Our Commentary
+
+Vetting npm packages is more critical than ever. We've seen too many supply chain attacks and abandoned projects. This kind of checklist is invaluable. I genuinely believe every developer should have a rigorous process for dependency selection. It's not just about functionality; it's about security and long-term maintainability.
+
+Original Link: https://javascriptweekly.com/issues/788]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/252/800/450" length="0" type="image//id/252/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Microsoft Unveils New MAI LLMs: Small, Powerful, and "Cleanly Licensed"]]></title>
+            <link>https://digestweb.dev/articles/2026-06-02/microsoft-new-mai-llms-clean-licensed-data</link>
+            <guid>https://digestweb.dev/articles/2026-06-02/microsoft-new-mai-llms-clean-licensed-data</guid>
+            <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Microsoft introduces MAI-Thinking-1 (35B) and MAI-Code-1-Flash (5B), new LLMs boasting impressive performance, low parameter counts, and a focus on commercially licensed training data.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Microsoft announced two new LLMs: MAI-Thinking-1 (35B) and MAI-Code-1-Flash (5B).
+- MAI-Thinking-1 is claimed to outperform Sonnet 4.6 in blind evaluations.
+- MAI-Code-1-Flash is purpose-built for GitHub Copilot and VS Code.
+- Both models were trained on "enterprise grade, clean and commercially licensed data."
+- The low parameter counts are notable given their claimed performance.
+
+## Our Commentary
+
+Okay, this is big. Microsoft releasing smaller LLMs that claim to punch above their weight, _and_ explicitly stating "commercially licensed data"? That's a direct shot at the current legal quagmire surrounding AI training data. If these models deliver on performance _and_ licensing, it could fundamentally shift the landscape. I'm skeptical but hopeful. The "appropriately licensed" part is what I'm really watching.
+
+Original Link: https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/268/800/450" length="0" type="image//id/268/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Next.js and the Evolving Journey of Server-Side Rendering]]></title>
+            <link>https://digestweb.dev/articles/2026-06-02/nextjs-journey-server-side-rendering</link>
+            <guid>https://digestweb.dev/articles/2026-06-02/nextjs-journey-server-side-rendering</guid>
+            <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This article delves into the importance and evolution of Server-Side Rendering (SSR) in web development, using Next.js as a key example of its benefits.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article discusses the benefits of Server-Side Rendering (SSR) for initial page loads.
+- SSR provides useful, renderable HTML to the browser immediately.
+- It is crucial for performance metrics like filmstrip view and SEO via meta tags.
+- Next.js is highlighted as a prominent framework utilizing SSR effectively.
+
+## Our Commentary
+
+SSR is one of those topics that keeps evolving, and Next.js has certainly been at the forefront. We've seen the pendulum swing back and forth on client-side vs. server-side rendering. It's a good reminder that a solid initial HTML response is still foundational for performance and SEO.
+
+Original Link: https://blog.codepen.io/2026/06/02/427-next-js-and-the-journey-of-ssr/]]></content:encoded>
+            <enclosure url="https://s0.wp.com/i/blank.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Pasted File Editor: A Claude-Inspired AI-Assisted Tool]]></title>
+            <link>https://digestweb.dev/articles/2026-06-02/pasted-file-editor-ai-assisted-tool</link>
+            <guid>https://digestweb.dev/articles/2026-06-02/pasted-file-editor-ai-assisted-tool</guid>
+            <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison showcases a prototype tool, built with AI assistance, that mimics Claude's ability to convert large text pastes into file attachments for editing.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The tool allows users to paste large text volumes, which are then treated as file attachments.
+- It mimics a feature found in Claude's AI interface.
+- Users can also open or drag files directly into the editor.
+- The prototype was built with the help of Codex desktop.
+
+## Our Commentary
+
+I love these kinds of practical, small-scale AI-assisted projects. It's a clever idea to replicate Claude's paste-to-file feature. It shows how AI can genuinely streamline developer workflows, even for seemingly minor conveniences. Sometimes the simplest tools make the biggest difference.
+
+Original Link: https://simonwillison.net/2026/Jun/2/pasted-file-editor/#atom-everything]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/575/800/450" length="0" type="image//id/575/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[pnpm 11.5.1 Improves Audit Performance and Fixes Integrity Issues]]></title>
+            <link>https://digestweb.dev/articles/2026-06-02/pnpm-11-5-1-audit-performance-integrity-fixes</link>
+            <guid>https://digestweb.dev/articles/2026-06-02/pnpm-11-5-1-audit-performance-integrity-fixes</guid>
+            <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[pnpm's latest patch release, 11.5.1, brings significant performance boosts to `pnpm audit` and resolves crucial integrity problems with remote tarball dependencies.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- `pnpm audit` performance is improved by pruning non-vulnerable lockfile subtrees.
+- Avoids crashes when the workspace state cache is partially written.
+- Preserves integrity field for remote tarball dependencies during lockfile rebuilds.
+- Normalizes string repository fields for `pnpm publish` to prevent registry errors.
+- Fixes inconsistent resolution of shared diamond peer dependencies.
+
+## Our Commentary
+
+A patch release, but those `pnpm audit` performance gains sound genuinely useful. Nobody wants to wait forever for security checks. And fixing those integrity issues? That's just good hygiene. We've all been there with weird dependency errors.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.5.1]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/57d75fd951a3f947461b8173f10a7893e0c3400138321db17771041598082871/pnpm/pnpm/releases/tag/v11.5.1" length="0" type="image/1"/>
+        </item>
+        <item>
+            <title><![CDATA[TanStack Start Integrates Rsbuild for Flexible Build Tooling]]></title>
+            <link>https://digestweb.dev/articles/2026-06-02/tanstack-start-integrates-rsbuild-build-tool</link>
+            <guid>https://digestweb.dev/articles/2026-06-02/tanstack-start-integrates-rsbuild-build-tool</guid>
+            <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[TanStack Start now offers first-class support for Rsbuild 2, alongside Vite, giving developers more options for their build pipeline.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- TanStack Start now officially supports Rsbuild 2.
+- This integration provides an alternative to Vite for build processes.
+- Developers can choose the build tool that best fits their project needs.
+- Rsbuild is a Rust-based build tool, known for its performance.
+
+## Our Commentary
+
+We're seeing more frameworks embrace build tool flexibility. It's a smart move. Locking into one tool can be a pain, especially as the ecosystem shifts. I appreciate the choice here; it feels like a nod to developer autonomy.
+
+Original Link: https://tanstack.com/blog/start-adds-rsbuild-support]]></content:encoded>
+            <enclosure url="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Fstart-adds-rsbuild-support%2Fheader.jpg&amp;w=1200&amp;h=630&amp;fit=cover&amp;fm=jpg&amp;q=80" length="0" type="image/netlify/images"/>
+        </item>
+        <item>
+            <title><![CDATA[Exploring the Gaps: What's Still Missing in CSS Layout?]]></title>
+            <link>https://digestweb.dev/articles/2026-06-02/whats-missing-css-layout</link>
+            <guid>https://digestweb.dev/articles/2026-06-02/whats-missing-css-layout</guid>
+            <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Despite CSS's extensive capabilities, this article provocatively asks what fundamental features might still be lacking in modern CSS layout techniques.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article questions if modern CSS layout still has missing features.
+- It acknowledges the vast improvements and capabilities of current CSS.
+- The author encourages a deeper look beyond common usage to identify gaps.
+- It prompts reflection on the future evolution of CSS layout.
+
+## Our Commentary
+
+"What's missing in CSS layout?" is a great question. I often feel like CSS has _too much_ these days, but then I hit a specific layout challenge and realize there's still a gap. It's a good prompt for reflection. We've come so far, but perfect layout is still an elusive beast.
+
+Original Link: https://frontendmasters.com/blog/whats-missing-in-css-layout/]]></content:encoded>
+            <enclosure url="https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/9919" length="0" type="image//blog/wp-json/social-image-generator/v1/image/9919"/>
+        </item>
         <item>
             <title><![CDATA[Astro Markdown Component Utility: Use Markdown Across Any Framework]]></title>
             <link>https://digestweb.dev/articles/2026-06-01/astro-markdown-component-utility-any-framework</link>
