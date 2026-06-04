@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-06-03T06:04:15.782Z</updated>
+    <updated>2026-06-04T05:57:04.911Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,238 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Announcing Angular v22: New Features and Improvements]]></title>
+        <id>https://digestweb.dev/articles/2026-06-03/announcing-angular-v22-new-features</id>
+        <link href="https://digestweb.dev/articles/2026-06-03/announcing-angular-v22-new-features"/>
+        <updated>2026-06-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Angular releases its latest major version, v22, bringing a suite of new features and performance enhancements to the framework. Developers can expect improved tooling and a more streamlined development experience.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Angular v22 introduces new features and performance optimizations.
+- The release aims to enhance developer experience and productivity.
+- Expect updates to core functionalities and tooling.
+
+## Our Commentary
+
+A new Angular release is always a big deal for its ecosystem. We're curious to see what specific new features are landing and how they'll impact existing projects. It's a constant evolution in the framework space, and Angular keeps pushing.
+
+Original Link: https://blog.angular.dev/announcing-angular-v22-c52bb83a4664?source=rss----447683c3d9a3---4]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lessons from Building Claude Code: Implementing AI Skills]]></title>
+        <id>https://digestweb.dev/articles/2026-06-03/claude-code-building-lessons-ai-skills</id>
+        <link href="https://digestweb.dev/articles/2026-06-03/claude-code-building-lessons-ai-skills"/>
+        <updated>2026-06-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Anthropic shares insights and lessons learned from the development of Claude Code, focusing on their approach to implementing and utilizing AI "skills" within the system.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article discusses the development process of Claude Code.
+- It focuses on how Anthropic implemented and leveraged "skills" in their AI coding tool.
+- Insights into the technical challenges and solutions are likely shared.
+
+## Our Commentary
+
+I'm always curious about the "how" behind these powerful AI tools. Understanding how Anthropic approaches "skills" in Claude Code could offer valuable patterns for anyone building agentic systems. It's easy to just use the tools, but seeing under the hood is where the real learning happens.
+
+Original Link: https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ComplexConstraints: A New Benchmark for LLM Instruction Following]]></title>
+        <id>https://digestweb.dev/articles/2026-06-03/complexconstraints-llm-instruction-following-benchmark</id>
+        <link href="https://digestweb.dev/articles/2026-06-03/complexconstraints-llm-instruction-following-benchmark"/>
+        <updated>2026-06-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Surge AI introduces ComplexConstraints, a novel benchmark designed to evaluate large language models' ability to follow intricate, context-dependent, and conditionally firing instructions.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- ComplexConstraints is a new benchmark for LLM evaluation.
+- It focuses on entangled instruction following.
+- The benchmark includes constraints that depend on each other.
+- Instructions can fire conditionally and require contextual inference.
+
+## Our Commentary
+
+Benchmarks are the unsung heroes of AI progress. Without them, we're just guessing. ComplexConstraints sounds like it's tackling a really hard problem: getting LLMs to handle nuanced, interconnected instructions. This is crucial for building reliable agents. I'm curious to see how current models perform against it.
+
+Original Link: https://www.surgehq.ai/blog/complexconstraints-a-benchmark-for-entangled-instruction-following]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Creative Text Obscuring with CSS @counter-style]]></title>
+        <id>https://digestweb.dev/articles/2026-06-03/css-counter-style-obscuring-text</id>
+        <link href="https://digestweb.dev/articles/2026-06-03/css-counter-style-obscuring-text"/>
+        <updated>2026-06-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Frontend Masters explores a creative and less common use case for the CSS `@counter-style` rule, demonstrating how it can be leveraged beyond list markers to obscure text.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article explores advanced uses of the CSS `@counter-style` rule.
+- It demonstrates how to obscure text using this property.
+- The technique extends beyond its typical application for list markers.
+
+## Our Commentary
+
+I love a good CSS trick! `@counter-style` is one of those properties that often gets overlooked, so seeing a creative application like this is always a treat. It's a reminder that there's still so much depth to CSS, even for seemingly niche features.
+
+Original Link: https://frontendmasters.com/blog/obscuring-text-with-counter-style/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deno 2.8.2 Lands with Post-Quantum Crypto & Enhanced Bundling]]></title>
+        <id>https://digestweb.dev/articles/2026-06-03/deno-2-8-2-post-quantum-crypto-bundling</id>
+        <link href="https://digestweb.dev/articles/2026-06-03/deno-2-8-2-post-quantum-crypto-bundling"/>
+        <updated>2026-06-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Deno's latest minor release, v2.8.2, introduces advanced post-quantum cryptographic algorithms, significant improvements to its `deno compile` bundling, and better Node.js compatibility.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Deno v2.8.2 adds post-quantum cryptographic algorithms like ML-DSA and ML-KEM.
+- The `deno compile` command now features improved bundling and minification.
+- Node.js compatibility is enhanced with better `node:http` and `node:https` support.
+- The Jupyter kernel has been rewritten in JavaScript, removing external dependencies.
+- LSP now offers autocomplete for `jsr:`, `npm:`, and `node:` imports.
+- New `--env-file` flag is available for Deno tasks.
+
+## Our Commentary
+
+Deno keeps pushing. Post-quantum crypto in a runtime is a big deal for future-proofing, even if it feels a bit ahead of its time for most web devs. The `deno compile` improvements are also genuinely useful for deployment. I'm always impressed by how quickly they iterate and integrate cutting-edge features. It makes me wonder if Node.js will ever catch up on some of these fronts.
+
+Original Link: https://github.com/denoland/deno/releases/tag/v2.8.2]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Making Your Design System AI-Ready: A Practical Guide]]></title>
+        <id>https://digestweb.dev/articles/2026-06-03/design-system-ai-ready-practical-guide</id>
+        <link href="https://digestweb.dev/articles/2026-06-03/design-system-ai-ready-practical-guide"/>
+        <updated>2026-06-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Smashing Magazine provides a practical guide on preparing design systems for AI integration, focusing on reducing drifts, minimizing mistakes, and enhancing the quality of AI-generated prototypes.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The guide offers practical steps for making design systems compatible with AI.
+- It focuses on reducing design drifts in AI-generated outputs.
+- Techniques to minimize mistakes and maintain context are discussed.
+- The article aims to improve the quality of AI-generated prototypes.
+
+## Our Commentary
+
+The intersection of AI and design systems is becoming increasingly important. We've seen a lot of talk about AI generating UIs, but the real challenge is making those outputs consistent and usable within an existing system. This guide sounds like it's tackling the practicalities, which is exactly what we need. It's about making AI a helpful assistant, not a rogue designer.
+
+Original Link: https://smashingmagazine.com/2026/06/how-make-design-system-ai-ready/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Direct Preference Optimization: Expanding Beyond Chatbots]]></title>
+        <id>https://digestweb.dev/articles/2026-06-03/direct-preference-optimization-beyond-chatbots</id>
+        <link href="https://digestweb.dev/articles/2026-06-03/direct-preference-optimization-beyond-chatbots"/>
+        <updated>2026-06-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hugging Face explores the broader applications of Direct Preference Optimization (DPO), a crucial technique for aligning LLMs, moving beyond its traditional use in chatbot development.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article investigates Direct Preference Optimization (DPO) applications.
+- It explores DPO's utility in contexts beyond traditional chatbots.
+- This suggests new frontiers for LLM alignment and fine-tuning.
+
+## Our Commentary
+
+DPO has been a game-changer for aligning LLMs, so seeing it applied in new domains is genuinely exciting. It hints at a future where preference-based learning could optimize a much wider array of AI systems. We're always looking for ways to make these models more useful and less "chatty" when the task demands it.
+
+Original Link: https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gemma 4 12B Unlocks Local, Agentic AI Workflows on Laptops]]></title>
+        <id>https://digestweb.dev/articles/2026-06-03/gemma-4-12b-local-agentic-ai-laptops-google-ai-edge</id>
+        <link href="https://digestweb.dev/articles/2026-06-03/gemma-4-12b-local-agentic-ai-laptops-google-ai-edge"/>
+        <updated>2026-06-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Google DeepMind's Gemma 4 12B model now brings powerful agentic and multimodal AI capabilities to consumer laptops, enabling local data processing and offline AI tools via Google AI Edge.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Gemma 4 12B enables agentic, multimodal AI on laptops with 16GB RAM.
+- It supports local data processing and visual insight generation.
+- Users can access the model on macOS via Google AI Edge Gallery for Python execution.
+- Google AI Edge Eloquent offers offline voice dictation and text editing.
+- The LiteRT-LM CLI's new `serve` command creates local endpoints for AI tools.
+- This facilitates fully-local AI agents and development workflows.
+
+## Our Commentary
+
+This is huge. Truly local, agentic, multimodal AI on a consumer laptop? That's a paradigm shift for how we think about AI accessibility and privacy. We've been talking about edge AI for ages, but this feels like a tangible step towards it becoming mainstream. The implications for developer workflows and offline capabilities are immense. I'm genuinely excited about the possibilities this opens up.
+
+Original Link: https://developers.googleblog.com/bringing-gemma-4-12b-to-your-laptop-unlocking-local-agentic-workflows-with-google-ai-edge/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gemma 4 12B: A Multimodal LLM for Local AI on Consumer Devices]]></title>
+        <id>https://digestweb.dev/articles/2026-06-03/gemma-4-12b-multimodal-local-ai-developer-guide</id>
+        <link href="https://digestweb.dev/articles/2026-06-03/gemma-4-12b-multimodal-local-ai-developer-guide"/>
+        <updated>2026-06-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Google introduces Gemma 4 12B, a new multimodal LLM engineered for high-performance local execution on consumer devices, featuring an innovative encoder-free architecture.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Gemma 4 12B is a new dense, multimodal LLM from Google.
+- It's optimized for high-performance local AI execution on consumer devices.
+- The model features a novel encoder-free architecture.
+- This architecture directly feeds multimodal data into the LLM backbone.
+
+## Our Commentary
+
+Local AI is where it's at for privacy and cost-efficiency. Gemma 4 12B sounds like a serious contender for running powerful multimodal models right on your laptop. The encoder-free architecture is a fascinating technical detail; it makes me wonder about the performance implications and how it simplifies the data pipeline. This is a big step for accessible, powerful AI.
+
+Original Link: https://developers.googleblog.com/gemma-4-12b-the-developer-guide/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GPT-Rosalind Gains Enhanced Life Sciences Capabilities]]></title>
+        <id>https://digestweb.dev/articles/2026-06-03/gpt-rosalind-life-sciences-capabilities</id>
+        <link href="https://digestweb.dev/articles/2026-06-03/gpt-rosalind-life-sciences-capabilities"/>
+        <updated>2026-06-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI's specialized GPT-Rosalind model receives new capabilities, including enhanced biological reasoning, medicinal chemistry expertise, and genomics analysis for life sciences research.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- GPT-Rosalind now features enhanced biological reasoning.
+- It includes new expertise in medicinal chemistry.
+- The model offers improved genomics analysis capabilities.
+- Experimental workflow support has been advanced.
+
+## Our Commentary
+
+It's fascinating to see how specialized AI models are emerging. GPT-Rosalind sounds like a powerful tool for life sciences, pushing the boundaries of what LLMs can do in specific domains. We're moving beyond general chat and into highly targeted scientific applications.
+
+Original Link: https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Houmahani Kane's Journey in Creative Development]]></title>
+        <id>https://digestweb.dev/articles/2026-06-03/houmahani-kane-creative-development-journey</id>
+        <link href="https://digestweb.dev/articles/2026-06-03/houmahani-kane-creative-development-journey"/>
+        <updated>2026-06-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Explore Houmahani Kane's path from self-taught beginnings to professional creative development, highlighting her projects and challenges in building interactive experiences.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article shares Houmahani Kane's personal journey in creative development.
+- It covers her transition from self-taught learning to client work.
+- Key projects and challenges in building interactive experiences are discussed.
+
+## Our Commentary
+
+I always appreciate hearing about individual journeys in our field. It's a good reminder that there are many paths into web development, and self-teaching remains a powerful route. It's easy to get caught up in the latest tech, but the human stories behind the code are just as important.
+
+Original Link: https://tympanus.net/codrops/2026/06/03/forging-her-own-path-houmahani-kanes-journey-in-creative-development/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Uber Caps AI Coding Tool Usage to Manage Costs: An Analysis]]></title>
+        <id>https://digestweb.dev/articles/2026-06-03/uber-caps-ai-coding-tool-costs-simon-willison-analysis</id>
+        <link href="https://digestweb.dev/articles/2026-06-03/uber-caps-ai-coding-tool-costs-simon-willison-analysis"/>
+        <updated>2026-06-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison analyzes Uber's new policy of capping employee spending on AI coding tools like Claude Code, exploring the financial implications and broader challenges of AI adoption in large enterprises.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Uber has implemented a $1,500 monthly cap per employee for AI coding tools.
+- This policy aims to manage significant cost overruns from AI tool usage.
+- The cap applies to agentic coding software like Cursor and Claude Code.
+- Simon Willison calculates the cap represents about 11% of a median Uber engineer's compensation.
+- The analysis highlights the real dollar value and cost challenges of AI adoption.
+- It contrasts with individual subsidized plans versus enterprise pricing.
+
+## Our Commentary
+
+This article hits hard. We've all been playing with these AI coding agents, but seeing the real-world cost implications for a company like Uber is a wake-up call. It makes me wonder about the true ROI and how many other companies are quietly facing similar budget blowouts. Simon's breakdown is spot on; it's not just about the tech, it's about the economics. This is the kind of messy reality we need to talk about.
+
+Original Link: https://simonwillison.net/2026/Jun/3/uber-caps-usage/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Claude Code Introduces Dynamic Workflows for Enhanced Task Handling]]></title>
         <id>https://digestweb.dev/articles/2026-06-02/claude-code-dynamic-workflows</id>
