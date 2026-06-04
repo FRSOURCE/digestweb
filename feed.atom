@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-06-04T05:57:04.911Z</updated>
+    <updated>2026-06-04T10:39:49.405Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -86,6 +86,46 @@ Original Link: https://www.surgehq.ai/blog/complexconstraints-a-benchmark-for-en
 I love a good CSS trick! `@counter-style` is one of those properties that often gets overlooked, so seeing a creative application like this is always a treat. It's a reminder that there's still so much depth to CSS, even for seemingly niche features.
 
 Original Link: https://frontendmasters.com/blog/obscuring-text-with-counter-style/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Simplify Responsive Design with CSS `@custom-media` At-Rule]]></title>
+        <id>https://digestweb.dev/articles/2026-06-03/css-custom-media-at-rule-responsive-design</id>
+        <link href="https://digestweb.dev/articles/2026-06-03/css-custom-media-at-rule-responsive-design"/>
+        <updated>2026-06-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn about the CSS `@custom-media` at-rule, a powerful feature that enables developers to create reusable aliases for complex media queries. This enhances readability and maintainability in responsive web design.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The `@custom-media` at-rule allows defining aliases for media queries in CSS.
+- It helps simplify complex and repetitive media query syntax.
+- Developers can create descriptive names for common breakpoints or conditions.
+- This improves the readability and maintainability of CSS stylesheets.
+- It's a proposal aimed at enhancing the developer experience for responsive design.
+
+## Our Commentary
+
+`@custom-media` is one of those features I've been waiting for. It's a small thing, but it cleans up CSS so much. No more repeating `(min-width: 768px) and (max-width: 1024px)` everywhere. Just define it once and use a semantic name. It's a huge win for developer experience and maintainability. I'm always a fan of anything that makes CSS less verbose and more readable.
+
+Original Link: https://css-tricks.com/almanac/rules/c/custom-media/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS `offset-path` Property: Defining Movement Paths for Animations]]></title>
+        <id>https://digestweb.dev/articles/2026-06-03/css-offset-path-property-animations</id>
+        <link href="https://digestweb.dev/articles/2026-06-03/css-offset-path-property-animations"/>
+        <updated>2026-06-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Explore the CSS `offset-path` property, which allows elements to follow defined movement paths during animations. This article notes the spec's renaming from `motion-path` to `offset-path` for related properties.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The `offset-path` CSS property defines a movement path for animated elements.
+- It allows elements to follow custom trajectories during animations.
+- This property was previously known as `motion-path` in earlier specifications.
+- All related `motion-*` properties are being renamed to `offset-*` in the CSS spec.
+- It's part of the broader CSS Motion Path module.
+
+## Our Commentary
+
+Ah, the ever-shifting sands of CSS spec names. `motion-path` to `offset-path` makes sense, I guess, but it's another little mental update we all have to make. It's a good reminder that even established features can see nomenclature changes. I appreciate CSS-Tricks for keeping these almanac entries updated. It's the kind of detail that saves me a quick search when I inevitably forget the latest naming convention.
+
+Original Link: https://css-tricks.com/almanac/properties/o/offset-path/]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Deno 2.8.2 Lands with Post-Quantum Crypto & Enhanced Bundling]]></title>
@@ -223,6 +263,27 @@ I always appreciate hearing about individual journeys in our field. It's a good 
 Original Link: https://tympanus.net/codrops/2026/06/03/forging-her-own-path-houmahani-kanes-journey-in-creative-development/]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Native CSS Custom Functions with the `@function` At-Rule]]></title>
+        <id>https://digestweb.dev/articles/2026-06-03/native-css-custom-functions-at-rule</id>
+        <link href="https://digestweb.dev/articles/2026-06-03/native-css-custom-functions-at-rule"/>
+        <updated>2026-06-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Discover the power of the CSS `@function` at-rule, enabling developers to define reusable custom functions directly within stylesheets. These functions can accept arguments, contain logic, and return values, bringing programmatic capabilities to CSS.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The `@function` at-rule allows defining custom functions directly in CSS.
+- These functions can accept arguments, enabling dynamic behavior.
+- They support complex logic, similar to functions in programming languages.
+- Custom functions return values, which can then be used in CSS properties.
+- This feature brings powerful programmatic capabilities natively to CSS.
+- It aims to reduce reliance on preprocessors for certain dynamic styling needs.
+
+## Our Commentary
+
+Okay, _this_ is a game-changer. Native CSS functions? We've been relying on preprocessors for this kind of logic for so long. To have it baked directly into the platform is huge. It means less build tooling, potentially faster parsing, and a more unified approach to styling. I'm excited to see how developers leverage this for truly dynamic and maintainable stylesheets. It feels like CSS is finally growing up in a really powerful way.
+
+Original Link: https://css-tricks.com/almanac/rules/f/function/]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Uber Caps AI Coding Tool Usage to Manage Costs: An Analysis]]></title>
         <id>https://digestweb.dev/articles/2026-06-03/uber-caps-ai-coding-tool-costs-simon-willison-analysis</id>
         <link href="https://digestweb.dev/articles/2026-06-03/uber-caps-ai-coding-tool-costs-simon-willison-analysis"/>
@@ -245,6 +306,26 @@ Original Link: https://simonwillison.net/2026/Jun/3/uber-caps-usage/#atom-everyt
         <author>
             <name>Simon Willison</name>
         </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wasmer Leverages OpenAI Codex for 10-20x Faster Edge Node.js Runtime Dev]]></title>
+        <id>https://digestweb.dev/articles/2026-06-03/wasmer-openai-codex-edge-nodejs-runtime-development</id>
+        <link href="https://digestweb.dev/articles/2026-06-03/wasmer-openai-codex-edge-nodejs-runtime-development"/>
+        <updated>2026-06-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Discover how Wasmer utilized OpenAI's Codex and GPT-5.5 to build a Node.js runtime for the edge, achieving a 10-20x acceleration in development time. This case study highlights the practical impact of AI on complex software projects.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Wasmer used OpenAI's Codex and GPT-5.5 to develop a Node.js runtime for the edge.
+- The AI tools accelerated development by 10 to 20 times.
+- This allowed the project to ship in weeks instead of months.
+- The runtime targets edge environments, optimizing for performance and resource usage.
+- It demonstrates AI's capability in generating complex code for specific architectural needs.
+
+## Our Commentary
+
+This is genuinely impressive. A 10-20x speedup for something as intricate as a Node.js runtime? That's not just incremental; it's a fundamental shift in how quickly complex software can be brought to market. I'm left wondering about the human oversight involved. How much did the developers _really_ have to guide and correct? Or was it more like a super-powered pair programmer? The implications for smaller teams tackling ambitious projects are huge. We're seeing AI move beyond simple scripts to foundational infrastructure.
+
+Original Link: https://openai.com/index/wasmer]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Claude Code Introduces Dynamic Workflows for Enhanced Task Handling]]></title>

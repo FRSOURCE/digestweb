@@ -47,6 +47,24 @@
             "date_modified": "2026-06-03T00:00:00.000Z"
         },
         {
+            "id": "https://digestweb.dev/articles/2026-06-03/css-custom-media-at-rule-responsive-design",
+            "content_html": "## Summary & Key Takeaways\n\n- The `@custom-media` at-rule allows defining aliases for media queries in CSS.\n- It helps simplify complex and repetitive media query syntax.\n- Developers can create descriptive names for common breakpoints or conditions.\n- This improves the readability and maintainability of CSS stylesheets.\n- It's a proposal aimed at enhancing the developer experience for responsive design.\n\n## Our Commentary\n\n`@custom-media` is one of those features I've been waiting for. It's a small thing, but it cleans up CSS so much. No more repeating `(min-width: 768px) and (max-width: 1024px)` everywhere. Just define it once and use a semantic name. It's a huge win for developer experience and maintainability. I'm always a fan of anything that makes CSS less verbose and more readable.\n\nOriginal Link: https://css-tricks.com/almanac/rules/c/custom-media/",
+            "url": "https://digestweb.dev/articles/2026-06-03/css-custom-media-at-rule-responsive-design",
+            "title": "Simplify Responsive Design with CSS `@custom-media` At-Rule",
+            "summary": "Learn about the CSS `@custom-media` at-rule, a powerful feature that enables developers to create reusable aliases for complex media queries. This enhances readability and maintainability in responsive web design.",
+            "image": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/12/default-social-css-tricks.png",
+            "date_modified": "2026-06-03T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-03/css-offset-path-property-animations",
+            "content_html": "## Summary & Key Takeaways\n\n- The `offset-path` CSS property defines a movement path for animated elements.\n- It allows elements to follow custom trajectories during animations.\n- This property was previously known as `motion-path` in earlier specifications.\n- All related `motion-*` properties are being renamed to `offset-*` in the CSS spec.\n- It's part of the broader CSS Motion Path module.\n\n## Our Commentary\n\nAh, the ever-shifting sands of CSS spec names. `motion-path` to `offset-path` makes sense, I guess, but it's another little mental update we all have to make. It's a good reminder that even established features can see nomenclature changes. I appreciate CSS-Tricks for keeping these almanac entries updated. It's the kind of detail that saves me a quick search when I inevitably forget the latest naming convention.\n\nOriginal Link: https://css-tricks.com/almanac/properties/o/offset-path/",
+            "url": "https://digestweb.dev/articles/2026-06-03/css-offset-path-property-animations",
+            "title": "CSS `offset-path` Property: Defining Movement Paths for Animations",
+            "summary": "Explore the CSS `offset-path` property, which allows elements to follow defined movement paths during animations. This article notes the spec's renaming from `motion-path` to `offset-path` for related properties.",
+            "image": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2016/07/funky-path.png",
+            "date_modified": "2026-06-03T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-06-03/deno-2-8-2-post-quantum-crypto-bundling",
             "content_html": "## Summary & Key Takeaways\n\n- Deno v2.8.2 adds post-quantum cryptographic algorithms like ML-DSA and ML-KEM.\n- The `deno compile` command now features improved bundling and minification.\n- Node.js compatibility is enhanced with better `node:http` and `node:https` support.\n- The Jupyter kernel has been rewritten in JavaScript, removing external dependencies.\n- LSP now offers autocomplete for `jsr:`, `npm:`, and `node:` imports.\n- New `--env-file` flag is available for Deno tasks.\n\n## Our Commentary\n\nDeno keeps pushing. Post-quantum crypto in a runtime is a big deal for future-proofing, even if it feels a bit ahead of its time for most web devs. The `deno compile` improvements are also genuinely useful for deployment. I'm always impressed by how quickly they iterate and integrate cutting-edge features. It makes me wonder if Node.js will ever catch up on some of these fronts.\n\nOriginal Link: https://github.com/denoland/deno/releases/tag/v2.8.2",
             "url": "https://digestweb.dev/articles/2026-06-03/deno-2-8-2-post-quantum-crypto-bundling",
@@ -110,6 +128,15 @@
             "date_modified": "2026-06-03T00:00:00.000Z"
         },
         {
+            "id": "https://digestweb.dev/articles/2026-06-03/native-css-custom-functions-at-rule",
+            "content_html": "## Summary & Key Takeaways\n\n- The `@function` at-rule allows defining custom functions directly in CSS.\n- These functions can accept arguments, enabling dynamic behavior.\n- They support complex logic, similar to functions in programming languages.\n- Custom functions return values, which can then be used in CSS properties.\n- This feature brings powerful programmatic capabilities natively to CSS.\n- It aims to reduce reliance on preprocessors for certain dynamic styling needs.\n\n## Our Commentary\n\nOkay, _this_ is a game-changer. Native CSS functions? We've been relying on preprocessors for this kind of logic for so long. To have it baked directly into the platform is huge. It means less build tooling, potentially faster parsing, and a more unified approach to styling. I'm excited to see how developers leverage this for truly dynamic and maintainable stylesheets. It feels like CSS is finally growing up in a really powerful way.\n\nOriginal Link: https://css-tricks.com/almanac/rules/f/function/",
+            "url": "https://digestweb.dev/articles/2026-06-03/native-css-custom-functions-at-rule",
+            "title": "Native CSS Custom Functions with the `@function` At-Rule",
+            "summary": "Discover the power of the CSS `@function` at-rule, enabling developers to define reusable custom functions directly within stylesheets. These functions can accept arguments, contain logic, and return values, bringing programmatic capabilities to CSS.",
+            "image": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/12/css-tricks-logo-gradient-outline.png",
+            "date_modified": "2026-06-03T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-06-03/uber-caps-ai-coding-tool-costs-simon-willison-analysis",
             "content_html": "## Summary & Key Takeaways\n\n- Uber has implemented a $1,500 monthly cap per employee for AI coding tools.\n- This policy aims to manage significant cost overruns from AI tool usage.\n- The cap applies to agentic coding software like Cursor and Claude Code.\n- Simon Willison calculates the cap represents about 11% of a median Uber engineer's compensation.\n- The analysis highlights the real dollar value and cost challenges of AI adoption.\n- It contrasts with individual subsidized plans versus enterprise pricing.\n\n## Our Commentary\n\nThis article hits hard. We've all been playing with these AI coding agents, but seeing the real-world cost implications for a company like Uber is a wake-up call. It makes me wonder about the true ROI and how many other companies are quietly facing similar budget blowouts. Simon's breakdown is spot on; it's not just about the tech, it's about the economics. This is the kind of messy reality we need to talk about.\n\nOriginal Link: https://simonwillison.net/2026/Jun/3/uber-caps-usage/#atom-everything",
             "url": "https://digestweb.dev/articles/2026-06-03/uber-caps-ai-coding-tool-costs-simon-willison-analysis",
@@ -120,6 +147,15 @@
             "author": {
                 "name": "Simon Willison"
             }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-03/wasmer-openai-codex-edge-nodejs-runtime-development",
+            "content_html": "## Summary & Key Takeaways\n\n- Wasmer used OpenAI's Codex and GPT-5.5 to develop a Node.js runtime for the edge.\n- The AI tools accelerated development by 10 to 20 times.\n- This allowed the project to ship in weeks instead of months.\n- The runtime targets edge environments, optimizing for performance and resource usage.\n- It demonstrates AI's capability in generating complex code for specific architectural needs.\n\n## Our Commentary\n\nThis is genuinely impressive. A 10-20x speedup for something as intricate as a Node.js runtime? That's not just incremental; it's a fundamental shift in how quickly complex software can be brought to market. I'm left wondering about the human oversight involved. How much did the developers _really_ have to guide and correct? Or was it more like a super-powered pair programmer? The implications for smaller teams tackling ambitious projects are huge. We're seeing AI move beyond simple scripts to foundational infrastructure.\n\nOriginal Link: https://openai.com/index/wasmer",
+            "url": "https://digestweb.dev/articles/2026-06-03/wasmer-openai-codex-edge-nodejs-runtime-development",
+            "title": "Wasmer Leverages OpenAI Codex for 10-20x Faster Edge Node.js Runtime Dev",
+            "summary": "Discover how Wasmer utilized OpenAI's Codex and GPT-5.5 to build a Node.js runtime for the edge, achieving a 10-20x acceleration in development time. This case study highlights the practical impact of AI on complex software projects.",
+            "image": "https://picsum.photos/id/777/800/450",
+            "date_modified": "2026-06-03T00:00:00.000Z"
         },
         {
             "id": "https://digestweb.dev/articles/2026-06-02/claude-code-dynamic-workflows",
