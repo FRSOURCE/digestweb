@@ -11,6 +11,120 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-06-05/andreas-kling-ai-impact-open-source-contributions",
+            "content_html": "## Summary & Key Takeaways\n\n- Simon Willison highlights Andreas Kling's decision regarding Ladybird's open-source policy.\n- Ladybird will no longer accept public pull requests.\n- The change is driven by concerns over AI-generated code and accountability.\n- Kling emphasizes that responsibility for code lies with those who decide it belongs in the project.\n- The move sparks a critical discussion on AI's influence on open-source development.\n\n## Our Commentary\n\nThis is a gut punch for the traditional open-source model. Kling's point about 'good faith' being eroded by AI-generated patches is chillingly accurate. We've been wondering how AI would reshape contribution models, and this is a stark answer. It forces us to confront who is truly 'responsible' for code when an AI is involved. I genuinely don't know how to feel about this, but it's a conversation we absolutely need to have.\n\nOriginal Link: https://simonwillison.net/2026/Jun/5/andreas-kling/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-06-05/andreas-kling-ai-impact-open-source-contributions",
+            "title": "Andreas Kling on AI's Impact on Open-Source Contributions",
+            "summary": "Simon Willison quotes Andreas Kling on Ladybird's decision to stop public pull requests, citing concerns about AI-generated code and accountability in open-source.",
+            "image": "https://picsum.photos/id/225/800/450",
+            "date_modified": "2026-06-05T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-05/angular-2026-vision-signals-ai-code-quality-reality-check",
+            "content_html": "## Summary & Key Takeaways\n\n- Angular provides a strategic overview for 2026, including a mid-year reality check.\n- The post delves into the continued evolution and impact of Signals within the framework.\n- Discussions include the integration of AI for enhancing code quality and developer experience.\n- It outlines key areas of focus and development priorities for the Angular team.\n\n## Our Commentary\n\nAngular's roadmap posts are always interesting, but this one feels particularly weighty. We're seeing Signals mature, which is a huge architectural shift. The mention of AI for code quality is intriguing; I'm curious if this is about internal tooling or something developers will directly interact with. It's good to see a major framework being transparent about its future and challenges.\n\nOriginal Link: https://blog.angular.dev/angular-in-2026-mid-year-reality-check-signals-and-ai-code-quality-ff37df480574?source=rss----447683c3d9a3---4",
+            "url": "https://digestweb.dev/articles/2026-06-05/angular-2026-vision-signals-ai-code-quality-reality-check",
+            "title": "Angular's 2026 Vision: Signals, AI Code Quality, and Reality Check",
+            "summary": "Angular shares its mid-year 2026 outlook, focusing on the evolution of Signals, AI integration for code quality, and a reality check on its roadmap.",
+            "image": "https://picsum.photos/id/890/800/450",
+            "date_modified": "2026-06-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-05/anthropic-research-making-claude-a-chemist",
+            "content_html": "## Summary & Key Takeaways\n\n- Anthropic's research focuses on enhancing Claude's capabilities in chemistry.\n- The article details methods used to train Claude for scientific applications.\n- It explores the potential for LLMs in complex chemical problem-solving.\n- This work demonstrates a specific advancement in Claude's domain expertise.\n\n## Our Commentary\n\nMaking an LLM a 'chemist' is a fascinating direction. It moves beyond general knowledge to specialized, domain-specific reasoning. We're seeing more of these targeted applications, and it makes me wonder how long until we have AI specialists across every scientific field. The implications for accelerating research are huge, but also a little daunting.\n\nOriginal Link: https://www.anthropic.com/research/making-claude-a-chemist",
+            "url": "https://digestweb.dev/articles/2026-06-05/anthropic-research-making-claude-a-chemist",
+            "title": "Anthropic Research: Making Claude a Chemist",
+            "summary": "Anthropic's latest research explores how Claude can be effectively applied to complex chemistry tasks, showcasing its evolving scientific capabilities.",
+            "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20HeadCube&amp;backgroundColor=cactus",
+            "date_modified": "2026-06-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-05/behavioral-economics-ux-uncovering-hidden-friction",
+            "content_html": "## Summary & Key Takeaways\n\n- The article introduces behavioral economics frameworks for UX design.\n- It explains how these frameworks help identify hidden friction points in user experiences.\n- The goal is to design UX solutions that better support user actions.\n- It provides a deeper understanding of user behavior beyond surface-level interactions.\n\n## Our Commentary\n\nNNGroup consistently delivers high-quality UX insights. Applying behavioral economics to UX is a powerful lens; it moves beyond just 'what users do' to 'why they do it.' We often overlook the subtle psychological nudges that impact user decisions. This is a great reminder to dig deeper into the 'hidden why' behind user interactions.\n\nOriginal Link: https://www.nngroup.com/articles/behavioral-economics-for-ux/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+            "url": "https://digestweb.dev/articles/2026-06-05/behavioral-economics-ux-uncovering-hidden-friction",
+            "title": "Behavioral Economics for UX: Uncovering Hidden Friction",
+            "summary": "NNGroup explores how behavioral economics frameworks can help uncover hidden friction in user experiences and design more effective UX solutions.",
+            "image": "https://media.nngroup.com/media/articles/opengraph_images/The_Hidden_Why__Behavioral_Economics_for_UX-1_TRWDwW2.png",
+            "date_modified": "2026-06-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-05/creative-word-rotation-css-counter-style",
+            "content_html": "## Summary & Key Takeaways\n\n- The tutorial demonstrates using `@counter-style` for unique visual effects.\n- It specifically covers creating word rotation and obfuscation effects.\n- The article provides a creative application of an often-overlooked CSS feature.\n- It offers insights into advanced CSS techniques for front-end developers.\n\n## Our Commentary\n\nWho knew `@counter-style` could be used for something so visually engaging? We love seeing creative uses of CSS that push the boundaries beyond its typical applications. This isn't just a neat trick; it's a reminder that there's still so much to explore in the web platform. It makes me want to dig into other 'niche' CSS features and see what else they can do.\n\nOriginal Link: https://frontendmasters.com/blog/word-rotator-with-counter-style/",
+            "url": "https://digestweb.dev/articles/2026-06-05/creative-word-rotation-css-counter-style",
+            "title": "Creative Word Rotation with CSS @counter-style",
+            "summary": "Learn how to create tricky visual effects like word rotation and obfuscation using the advanced CSS `@counter-style` rule in this Frontend Masters tutorial.",
+            "image": "https://frontendmasters.com/blog/wp-json/social-image-generator/v1/image/9947",
+            "date_modified": "2026-06-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-05/cursor-ide-visual-prompts-directing-ai-agents",
+            "content_html": "## Summary & Key Takeaways\n\n- Cursor IDE has launched 'Design Mode' with visual prompting capabilities.\n- This feature allows users to directly guide AI agents through visual cues.\n- It aims to make interaction with AI agents more intuitive and precise.\n- The update enhances the developer experience within the AI-native IDE.\n\n## Our Commentary\n\nVisual prompting for AI agents in an IDE like Cursor is a smart evolution. Text-based prompts can be ambiguous, so adding a visual layer could significantly improve clarity and control. We're always looking for better ways to 'talk' to our AI tools, and this feels like a step in the right direction for more precise agent direction.\n\nOriginal Link: https://cursor.com/blog/design-mode",
+            "url": "https://digestweb.dev/articles/2026-06-05/cursor-ide-visual-prompts-directing-ai-agents",
+            "title": "Cursor IDE: Visual Prompts for Directing AI Agents",
+            "summary": "Cursor introduces 'Design Mode' with visual prompts, allowing developers to directly guide AI agents within the IDE for more intuitive interaction.",
+            "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/blog/og/design-mode-og.png",
+            "date_modified": "2026-06-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-05/four-design-jobs-ai-created-so-far",
+            "content_html": "## Summary & Key Takeaways\n\n- The article identifies four new design jobs created by AI.\n- It explores how 'AI design' has branched into distinct types of work.\n- The piece analyzes the evolving landscape of design roles in the age of AI.\n- It provides insights into the future career paths for designers.\n\n## Our Commentary\n\nIt's fascinating to see how quickly AI is reshaping job roles, even in creative fields like design. This isn't just about tools; it's about entirely new ways of thinking and working. We've been talking about AI's impact on development, but its influence on design is equally profound. It makes me wonder what other specialized roles will emerge next year.\n\nOriginal Link: https://www.nngroup.com/articles/design-jobs-ai-created/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+            "url": "https://digestweb.dev/articles/2026-06-05/four-design-jobs-ai-created-so-far",
+            "title": "The Four Design Jobs AI Has Created (So Far)",
+            "summary": "NNGroup identifies and describes four distinct design roles that have emerged as a direct result of the integration and advancement of AI technologies.",
+            "image": "https://media.nngroup.com/media/articles/opengraph_images/The_Four_Design_Jobs_AI_Created-1.png",
+            "date_modified": "2026-06-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-05/google-introduces-colab-cli-seamless-ai-development",
+            "content_html": "## Summary & Key Takeaways\n\n- Google has released the new Colab Command-Line Interface (CLI).\n- The CLI enables connecting local terminals to remote Colab runtimes.\n- Users can easily request high-powered GPUs and run local Python scripts remotely.\n- It facilitates seamless retrieval of artifact logs and fine-tuned models.\n- The tool is highly programmable and designed for integration with AI agents.\n\n## Our Commentary\n\nThis Colab CLI is a game-changer for anyone wrestling with local dev and remote compute. The ability to seamlessly tap into Colab's GPUs from my terminal? Yes, please. And the explicit mention of AI agent integration is a nod to the future. We're seeing more tools designed with agents in mind, and it's both exciting and a little unnerving to imagine the pipelines they'll manage.\n\nOriginal Link: https://developers.googleblog.com/introducing-the-google-colab-cli/",
+            "url": "https://digestweb.dev/articles/2026-06-05/google-introduces-colab-cli-seamless-ai-development",
+            "title": "Google Introduces Colab CLI for Seamless AI Development",
+            "summary": "Google launches the Colab CLI, allowing developers and AI agents to connect local terminals to remote Colab runtimes for frictionless ML execution and GPU access.",
+            "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_7nbuzg7nbu.2e16d0ba.fill-1200x600.jpg",
+            "date_modified": "2026-06-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-05/ollama-0-30-enhanced-performance-gguf-model-support",
+            "content_html": "## Summary & Key Takeaways\n\n- Ollama 0.30 is now available, bringing improved performance.\n- It introduces enhanced GGUF model compatibility through llama.cpp.\n- This update augments Ollama's existing MLX engine on Apple silicon.\n- The changes enable support for more models across a wider range of hardware.\n\n## Our Commentary\n\nOllama continues to be a go-to for local LLM experimentation. Performance boosts and broader GGUF support are always welcome. It's great to see them leveraging llama.cpp and MLX to push the boundaries of what's possible on consumer hardware. We're all about making powerful AI accessible, and Ollama is doing just that.\n\nOriginal Link: https://ollama.com/blog/improved-performance-and-model-support-with-gguf",
+            "url": "https://digestweb.dev/articles/2026-06-05/ollama-0-30-enhanced-performance-gguf-model-support",
+            "title": "Ollama 0.30: Enhanced Performance & GGUF Model Support",
+            "summary": "Ollama 0.30 is released with significant performance improvements and expanded GGUF model compatibility via llama.cpp, augmenting its MLX engine.",
+            "image": "https://ollama.com/public/og.png",
+            "date_modified": "2026-06-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-05/rebuilding-lesse-studio-lessons-performance-intentionality",
+            "content_html": "## Summary & Key Takeaways\n\n- The article details the process of rebuilding the Lesse Studio website.\n- Key learnings include the benefits and challenges of self-hosting.\n- It emphasizes the importance of performance optimization in web development.\n- The piece highlights making intentional choices when selecting development tools.\n\n## Our Commentary\n\nWe always appreciate a good 'making of' article, especially from Codrops. The focus on intentionality and performance is something we preach constantly. It's easy to get caught up in the hype of new tools, but this reminds us to choose wisely and understand the 'why' behind our tech stack. A solid read for anyone building a new site.\n\nOriginal Link: https://tympanus.net/codrops/2026/06/05/the-making-of-the-new-lesse-studio-website-clarity-performance-and-intentionality/",
+            "url": "https://digestweb.dev/articles/2026-06-05/rebuilding-lesse-studio-lessons-performance-intentionality",
+            "title": "Rebuilding Lesse Studio: Lessons in Performance & Intentionality",
+            "summary": "Codrops shares insights from rebuilding the Lesse Studio website, focusing on self-hosting, performance optimization, and deliberate tool selection.",
+            "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/05/Lesse.webp?x42294",
+            "date_modified": "2026-06-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-05/tanstack-ai-introduces-model-context-protocol-mcp-support",
+            "content_html": "## Summary & Key Takeaways\n\n- TanStack AI now includes host-side Model Context Protocol (MCP) support.\n- Users can connect single MCP servers or a pool of them.\n- It offers choices for managed or manual lifecycle control.\n- The release provides flexible type-safety levels, from zero-config to fully generated types.\n\n## Our Commentary\n\nTanStack continues to impress with its modular approach. Bringing MCP support to TanStack AI with such flexibility, especially around type-safety, is a smart move. We appreciate the focus on developer choice, whether it's a simple setup or a fully type-safe, generated experience. It feels like they're really thinking about how developers will integrate AI into their existing workflows.\n\nOriginal Link: https://tanstack.com/blog/your-mcp-your-way",
+            "url": "https://digestweb.dev/articles/2026-06-05/tanstack-ai-introduces-model-context-protocol-mcp-support",
+            "title": "TanStack AI Introduces Model Context Protocol (MCP) Support",
+            "summary": "TanStack AI now supports the Model Context Protocol (MCP), offering flexible server connections, lifecycle management, and end-to-end type safety.",
+            "image": "https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Fyour-mcp-your-way%2Fheader.png&amp;w=1200&amp;h=630&amp;fit=cover&amp;fm=jpg&amp;q=80",
+            "date_modified": "2026-06-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-04/ai-enthusiasts-skeptics-race-time-entropy",
+            "content_html": "## Summary & Key Takeaways\n\n- The article discusses the contrasting perspectives of AI enthusiasts and skeptics in software development.\n- Enthusiasts face a 'race against time' to leverage AI before competitors.\n- Skeptics face a 'race against entropy' as rapid AI-driven development degrades systems.\n- Both groups are trying to build great software but face distinct existential threats.\n- The piece emphasizes the need for designing feedback loops to bridge the gap in shared reality.\n\n## Our Commentary\n\nThis piece perfectly captures the current tension in tech. We've all felt this push-pull between 'move fast and break things' with AI and the need for stability. The idea of designing feedback loops to 'mend the gap in shared reality' is brilliant. It's not about choosing a side, but about finding a way for these two essential forces to coexist without tearing teams apart. This is a must-read for any engineering leader right now.\n\nOriginal Link: https://simonwillison.net/2026/Jun/4/ai-enthusiasts-ai-skeptics/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-06-04/ai-enthusiasts-skeptics-race-time-entropy",
+            "title": "AI Enthusiasts vs. Skeptics: A Race Against Time & Entropy",
+            "summary": "Simon Willison explores the dynamic between AI enthusiasts and skeptics in software development, highlighting their respective existential threats and the need for feedback loops.",
+            "image": "https://picsum.photos/id/291/800/450",
+            "date_modified": "2026-06-04T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-06-03/announcing-angular-v22-new-features",
             "content_html": "## Summary & Key Takeaways\n\n- Angular v22 introduces new features and performance optimizations.\n- The release aims to enhance developer experience and productivity.\n- Expect updates to core functionalities and tooling.\n\n## Our Commentary\n\nA new Angular release is always a big deal for its ecosystem. We're curious to see what specific new features are landing and how they'll impact existing projects. It's a constant evolution in the framework space, and Angular keeps pushing.\n\nOriginal Link: https://blog.angular.dev/announcing-angular-v22-c52bb83a4664?source=rss----447683c3d9a3---4",
             "url": "https://digestweb.dev/articles/2026-06-03/announcing-angular-v22-new-features",
