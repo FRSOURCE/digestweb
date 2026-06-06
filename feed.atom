@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-06-06T04:54:46.725Z</updated>
+    <updated>2026-06-06T09:26:31.552Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,32 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Sandboxing Python with MicroPython & WASM for Secure Code Execution]]></title>
+        <id>https://digestweb.dev/articles/2026-06-06/sandboxing-python-micropython-wasm-secure-code-execution</id>
+        <link href="https://digestweb.dev/articles/2026-06-06/sandboxing-python-micropython-wasm-secure-code-execution"/>
+        <updated>2026-06-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Explore a new method for running Python code securely in a sandbox using MicroPython compiled to WebAssembly, enhancing plugin safety.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison introduces `micropython-wasm` for secure Python code execution.
+- The project aims to sandbox plugin code, preventing malicious or buggy behavior.
+- WebAssembly is identified as a promising technology for creating isolated execution environments.
+- The author's key open-source projects like Datasette rely heavily on plugins, necessitating robust security.
+- Traditional Python plugin systems execute with full privileges, posing significant risks.
+- `micropython-wasm` allows running Python code without network access or file system privileges.
+- This approach could enable new features like scheduled code execution for data transformation.
+- The article details the motivation, design, and initial implementation of the sandbox.
+
+## Our Commentary
+
+I've been waiting for something like this. Sandboxing Python has always felt like a dark art, full of `exec` and `eval` nightmares. Simon's approach with WASM feels genuinely robust. We're seeing WASM pop up everywhere, and this is another compelling use case. The implications for plugin architectures are huge. No more sleepless nights worrying about a rogue plugin deleting your database. This is a solid step forward for developer peace of mind.
+
+Original Link: https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Andreas Kling on AI's Impact on Open-Source Contributions]]></title>
         <id>https://digestweb.dev/articles/2026-06-05/andreas-kling-ai-impact-open-source-contributions</id>
@@ -189,6 +215,32 @@ Original Link: https://developers.googleblog.com/introducing-the-google-colab-cl
 Ollama continues to be a go-to for local LLM experimentation. Performance boosts and broader GGUF support are always welcome. It's great to see them leveraging llama.cpp and MLX to push the boundaries of what's possible on consumer hardware. We're all about making powerful AI accessible, and Ollama is doing just that.
 
 Original Link: https://ollama.com/blog/improved-performance-and-model-support-with-gguf]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Introduces 'Lockdown Mode' to Combat LLM Data Exfiltration]]></title>
+        <id>https://digestweb.dev/articles/2026-06-05/openai-lockdown-mode-llm-data-exfiltration-security</id>
+        <link href="https://digestweb.dev/articles/2026-06-05/openai-lockdown-mode-llm-data-exfiltration-security"/>
+        <updated>2026-06-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI rolls out 'Lockdown Mode' for ChatGPT, limiting outbound network requests to prevent sensitive data exfiltration from prompt injections.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI has launched "Lockdown Mode" for ChatGPT accounts.
+- This mode aims to prevent data exfiltration from prompt injection attacks.
+- It works by limiting outbound network requests from the LLM.
+- Lockdown Mode does not prevent prompt injections from occurring within the content.
+- The feature targets the "Lethal Trifecta" of LLM security vulnerabilities.
+- Specifically, it cuts off the data exfiltration vector, making attacks harder.
+- The mechanism relies on deterministic controls, not AI evaluation.
+- Its existence implies default ChatGPT settings may not fully protect against determined exfiltration.
+
+## Our Commentary
+
+This is a big deal. We've been talking about prompt injection security for ages, and data exfiltration is the scariest part. It's good to see OpenAI taking concrete steps, even if it's not a silver bullet. The fact that it's a deterministic control, not AI-driven, makes me feel a lot better. It's a stark reminder, though, that the default settings might not be as secure as some users assume. I wonder how many businesses will immediately enable this. It feels like a necessary, if belated, addition to the LLM security toolkit.
+
+Original Link: https://simonwillison.net/2026/Jun/5/openai-help-lockdown-mode/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Rebuilding Lesse Studio: Lessons in Performance & Intentionality]]></title>
