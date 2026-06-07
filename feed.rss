@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Sat, 06 Jun 2026 09:26:31 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 07 Jun 2026 05:23:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,46 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[LLM Research Papers: The 2026 List (January to May)]]></title>
+            <link>https://digestweb.dev/articles/2026-06-06/llm-research-papers-2026-jan-may</link>
+            <guid>https://digestweb.dev/articles/2026-06-06/llm-research-papers-2026-jan-may</guid>
+            <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Sebastian Raschka curates a comprehensive list of notable LLM research papers published from January to May 2026, offering a deep dive into recent advancements.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+This article provides a curated list of significant LLM research papers.
+It covers publications from January to May 2026.
+The list is compiled by Sebastian Raschka, a known AI researcher.
+It serves as a valuable resource for tracking recent advancements in LLMs.
+
+## Our Commentary
+
+Keeping up with LLM research feels like trying to drink from a firehose. I appreciate these curated lists so much. It's impossible to read everything, so having someone knowledgeable filter the noise is incredibly helpful. We need more of this.
+
+Original Link: https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1]]></content:encoded>
+            <enclosure url="https://substackcdn.com/image/fetch/$s_!yheE!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8630eb02-eeac-4411-bef3-1865c1920b03_2912x1632.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Multi-Model Finance Drama: Building with Small LLMs]]></title>
+            <link>https://digestweb.dev/articles/2026-06-06/multi-model-finance-drama-small-llms</link>
+            <guid>https://digestweb.dev/articles/2026-06-06/multi-model-finance-drama-small-llms</guid>
+            <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore a unique project where five labs collaborated to create a finance drama simulation using multiple small language models. This showcases practical applications of compact AI.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+Five labs collaborated on a unique multi-model finance drama simulation.
+The project specifically utilized small language models for efficiency.
+It demonstrates a practical application of AI in creating complex narratives.
+The simulation involved multiple AI agents interacting within a financial context.
+
+## Our Commentary
+
+This is genuinely fascinating. We've been so focused on scaling up, but seeing what can be achieved with smaller, specialized models working in concert feels like a breath of fresh air. It makes me wonder if this is where the real innovation lies for many practical applications. The idea of AI agents creating a "drama" is just wild.
+
+Original Link: https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2]]></content:encoded>
+            <enclosure url="https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/build-small-hackathon/thousand-token-wood-sim-v2.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Sandboxing Python with MicroPython & WASM for Secure Code Execution]]></title>
             <link>https://digestweb.dev/articles/2026-06-06/sandboxing-python-micropython-wasm-secure-code-execution</link>
