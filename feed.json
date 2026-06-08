@@ -11,6 +11,15 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-06-07/tanstack-table-v9-beta-architectural-shifts-form-learnings",
+            "content_html": "## Summary & Key Takeaways\n\n- TanStack Table V9 is now available in beta.\n- This version integrates insights gained from building TanStack Form.\n- The release introduces significant architectural changes to the library.\n- It aims to enhance developer experience and flexibility in data table management.\n\n## Our Commentary\n\nA new major version of TanStack Table is always a big deal for us. The mention of integrating learnings from TanStack Form is particularly intriguing. I'm genuinely curious how those architectural insights translate into a table component. Will it feel more opinionated? More integrated with form state? We're eager to dive in and see what this means for complex data UIs.\n\nOriginal Link: https://tanstack.com/blog/tanstack-table-v9-taking-form",
+            "url": "https://digestweb.dev/articles/2026-06-07/tanstack-table-v9-beta-architectural-shifts-form-learnings",
+            "title": "TanStack Table V9 Beta: Major Architectural Shifts & Form Learnings",
+            "summary": "TanStack Table V9 enters beta, incorporating key learnings from TanStack Form. This release promises significant architectural changes and an enhanced developer experience.",
+            "image": "https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Ftanstack-table-v9-taking-form%2Fheader.png&amp;w=1200&amp;h=630&amp;fit=cover&amp;fm=jpg&amp;q=80",
+            "date_modified": "2026-06-07T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-06-06/llm-research-papers-2026-jan-may",
             "content_html": "## Summary & Key Takeaways\n\nThis article provides a curated list of significant LLM research papers.\nIt covers publications from January to May 2026.\nThe list is compiled by Sebastian Raschka, a known AI researcher.\nIt serves as a valuable resource for tracking recent advancements in LLMs.\n\n## Our Commentary\n\nKeeping up with LLM research feels like trying to drink from a firehose. I appreciate these curated lists so much. It's impossible to read everything, so having someone knowledgeable filter the noise is incredibly helpful. We need more of this.\n\nOriginal Link: https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
             "url": "https://digestweb.dev/articles/2026-06-06/llm-research-papers-2026-jan-may",

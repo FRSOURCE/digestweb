@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-06-07T05:23:36.252Z</updated>
+    <updated>2026-06-08T05:31:18.486Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,25 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[TanStack Table V9 Beta: Major Architectural Shifts & Form Learnings]]></title>
+        <id>https://digestweb.dev/articles/2026-06-07/tanstack-table-v9-beta-architectural-shifts-form-learnings</id>
+        <link href="https://digestweb.dev/articles/2026-06-07/tanstack-table-v9-beta-architectural-shifts-form-learnings"/>
+        <updated>2026-06-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TanStack Table V9 enters beta, incorporating key learnings from TanStack Form. This release promises significant architectural changes and an enhanced developer experience.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- TanStack Table V9 is now available in beta.
+- This version integrates insights gained from building TanStack Form.
+- The release introduces significant architectural changes to the library.
+- It aims to enhance developer experience and flexibility in data table management.
+
+## Our Commentary
+
+A new major version of TanStack Table is always a big deal for us. The mention of integrating learnings from TanStack Form is particularly intriguing. I'm genuinely curious how those architectural insights translate into a table component. Will it feel more opinionated? More integrated with form state? We're eager to dive in and see what this means for complex data UIs.
+
+Original Link: https://tanstack.com/blog/tanstack-table-v9-taking-form]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[LLM Research Papers: The 2026 List (January to May)]]></title>
         <id>https://digestweb.dev/articles/2026-06-06/llm-research-papers-2026-jan-may</id>
