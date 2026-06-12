@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Mon, 08 Jun 2026 05:31:18 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 12 Jun 2026 11:02:11 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,230 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[esbuild v0.28.1: Security Fixes & `using` Declaration Bug Patch]]></title>
+            <link>https://digestweb.dev/articles/2026-06-12/esbuild-v0-28-1-security-fixes-using-declaration-bug</link>
+            <guid>https://digestweb.dev/articles/2026-06-12/esbuild-v0-28-1-security-fixes-using-declaration-bug</guid>
+            <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This release patches security vulnerabilities in the local dev server and Deno API, alongside fixing a critical minifier bug affecting `using` and `await using` declarations.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Fixed a directory traversal vulnerability in the local development server on Windows.
+- Added integrity checks to the Deno API installation script to prevent binary tampering.
+- Corrected a minifier bug that incorrectly inlined `using` and `await using` declarations, preventing proper resource disposal.
+- Addressed an issue where module evaluation state was not preserved after an error.
+
+## Our Commentary
+
+Security fixes are always welcome, especially when they address potential directory traversal. The `using`/`await using` fix is also crucial; it's easy to overlook how minifiers can subtly break new language features. We're glad to see esbuild staying on top of these details.
+
+Original Link: https://github.com/evanw/esbuild/releases/tag/v0.28.1]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/75220b15f36dc1254c0177b69818059c2e5f406e48173ab61fe7e01d5557ed97/evanw/esbuild/releases/tag/v0.28.1" length="0" type="image/1"/>
+        </item>
+        <item>
+            <title><![CDATA[Building a 3D Portfolio Without 3D Models: A Creative Web Dev Showcase]]></title>
+            <link>https://digestweb.dev/articles/2026-06-11/3d-portfolio-without-3d-models-codrops</link>
+            <guid>https://digestweb.dev/articles/2026-06-11/3d-portfolio-without-3d-models-codrops</guid>
+            <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover how a developer created an award-winning 3D portfolio using only flat geometry, proving that innovative web design doesn't always require traditional 3D modeling skills.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Explores a unique approach to creating immersive 3D web experiences.
+- Demonstrates building a complex 3D portfolio using only flat geometry, avoiding traditional 3D models.
+- Highlights how creative problem-solving can lead to award-winning results.
+- Encourages developers to experiment and ignore "correct" ways of building.
+
+## Our Commentary
+
+This is the kind of article I love to see. It's a testament to creativity and thinking outside the box. Who needs Blender when you have flat geometry and a good idea? It reminds us that the web platform is incredibly flexible, and sometimes, limitations spark the most innovative solutions.
+
+Original Link: https://tympanus.net/codrops/2026/06/11/sketching-the-impossible-a-3d-portfolio-built-without-a-single-3d-model/]]></content:encoded>
+            <enclosure url="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/05/Bez-nazwy-1076-x-672-px-770-x-470-px-1200-x-900-px.png?x42294" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Antigravity 2.0's AI IDE Faces Overwhelming Negative Feedback]]></title>
+            <link>https://digestweb.dev/articles/2026-06-11/antigravity-2-0-ai-ide-negative-feedback</link>
+            <guid>https://digestweb.dev/articles/2026-06-11/antigravity-2-0-ai-ide-negative-feedback</guid>
+            <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Antigravity 2.0's redesigned AI-powered IDE is receiving overwhelmingly negative feedback due to bugs, poor UX, limited model support, and excessive Gemini token consumption.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Antigravity 2.0's new AI-powered IDE is experiencing overwhelmingly negative user feedback.
+- Key issues include numerous bugs, poor user experience, and inadequate AI model support.
+- Users are reporting that the IDE consumes Gemini token quotas excessively.
+- There are indications that Antigravity's own developers may be using alternative tools.
+
+## Our Commentary
+
+Ouch. This sounds like a rough launch for Antigravity 2.0. It's a stark reminder that throwing AI at a problem doesn't automatically make it better, especially if the fundamentals of UX and stability aren't there. The token quota issue is particularly painful; nobody wants their AI assistant to be a budget black hole.
+
+Original Link: https://blog.pragmaticengineer.com/the-pulse-antigravity-2-0-takes-ide-out-of-its-new-ide/]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/732/800/450" length="0" type="image//id/732/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Claude Fable 5: Relentlessly Proactive AI Agent Autonomy]]></title>
+            <link>https://digestweb.dev/articles/2026-06-11/claude-fable-5-relentlessly-proactive-ai-agent</link>
+            <guid>https://digestweb.dev/articles/2026-06-11/claude-fable-5-relentlessly-proactive-ai-agent</guid>
+            <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison details his experience with Claude Fable 5, showcasing its advanced proactive capabilities, including autonomously using OS tools to debug UI issues without explicit instructions.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Claude Fable 5 exhibits "relentlessly proactive" behavior, going beyond explicit instructions.
+- An example shows Fable autonomously using Python and macOS `screencapture` to debug a UI issue.
+- It identified browser windows, extracted their IDs, and took screenshots to aid in debugging.
+- This demonstrates a significant advancement in AI agent autonomy and problem-solving.
+- The AI leveraged system-level tools to achieve its goal without direct command for browser automation.
+
+## Our Commentary
+
+This is genuinely unsettling and fascinating all at once. "Relentlessly proactive" is the perfect description. The idea of an AI agent just... deciding to use `screencapture` to debug a UI issue on its own initiative? That's a huge leap. I genuinely don't know how to feel about agents churning away at 3am while nobody's watching, but this is definitely a glimpse into the future.
+
+Original Link: https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/#atom-everything]]></content:encoded>
+            <enclosure url="https://static.simonwillison.net/static/2026/jump-to-bug.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Datasette 1.0a33: Extended JSON API & AI-Assisted Explorer]]></title>
+            <link>https://digestweb.dev/articles/2026-06-11/datasette-1-0a33-json-api-ai-explorer</link>
+            <guid>https://digestweb.dev/articles/2026-06-11/datasette-1-0a33-json-api-ai-explorer</guid>
+            <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Datasette 1.0a33 expands its `?_extra=` API pattern to queries and rows, moving closer to a stable 1.0 release, with an AI-assisted explorer demonstrating the new features.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Datasette 1.0a33 extends the `?_extra=` API pattern to cover queries and rows.
+- This pattern, previously for tables, is now fully documented.
+- The release marks a significant step towards the stable 1.0 version of Datasette.
+- An API explorer for the new feature was built with assistance from Claude Fable 5 and GPT-5.5 xhigh.
+
+## Our Commentary
+
+Datasette continues its steady march towards 1.0, and extending the `_extra` pattern is a solid step. What really caught my eye, though, is Simon's casual mention of using Claude Fable and GPT-5.5 to build the API explorer. It's a perfect, understated example of how AI is already integrating into developer workflows for practical, everyday tasks.
+
+Original Link: https://simonwillison.net/2026/Jun/11/datasette/#atom-everything]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/826/800/450" length="0" type="image//id/826/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Deno v2.8.3: New Features for DX, Web Crypto, & Tooling]]></title>
+            <link>https://digestweb.dev/articles/2026-06-11/deno-v2-8-3-dx-web-crypto-tooling</link>
+            <guid>https://digestweb.dev/articles/2026-06-11/deno-v2-8-3-dx-web-crypto-tooling</guid>
+            <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Deno's latest minor release, v2.8.3, brings a host of new features including compile watch mode, enhanced LSP capabilities, and expanded Web Crypto API support.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Introduced a watch mode for `deno compile`, enhancing the development workflow.
+- Added support for `--env-file` in dependency and registry subcommands.
+- Implemented `SubtleCrypto.supports()` and ML-DSA JWK import/export for Web Crypto API.
+- Enhanced the Language Server Protocol (LSP) with debug code lenses, code actions, and improved import map diagnostics.
+- `deno fmt` now supports JSON trailing comma configuration.
+- Included OpenTelemetry auto-instrumentation for Node.js `http2` module.
+- Added `deno x --ignore-scripts` for safer execution of scripts.
+
+## Our Commentary
+
+Deno just keeps shipping! This 2.8.3 release is surprisingly dense for a minor version. The compile watch mode is a huge DX win, and the LSP improvements are always welcome. I'm also intrigued by the `SubtleCrypto` additions; it shows a continued commitment to web platform parity.
+
+Original Link: https://github.com/denoland/deno/releases/tag/v2.8.3]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/2765ebd6955fbb32e9b646a3d2ec10da446f722da92005de4ab4b5bf1d4af522/denoland/deno/releases/tag/v2.8.3" length="0" type="image/3"/>
+        </item>
+        <item>
+            <title><![CDATA[GitHub Enhances Secret Scanning with LLM-Powered False Positive Reduction]]></title>
+            <link>https://digestweb.dev/articles/2026-06-11/github-secret-scanning-llm-false-positives</link>
+            <guid>https://digestweb.dev/articles/2026-06-11/github-secret-scanning-llm-false-positives</guid>
+            <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[GitHub details how they're leveraging context-aware LLM reasoning to significantly reduce false positives in their secret scanning alerts, making them more actionable.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- GitHub is using context-aware LLM reasoning to improve its secret scanning service.
+- The goal is to reduce false positives, making security alerts more trustworthy and actionable.
+- Improved verification steps help differentiate actual secrets from benign patterns.
+- This enhancement aims to improve the developer experience by reducing alert fatigue.
+
+## Our Commentary
+
+This is a smart move. False positives in security tools are incredibly frustrating and lead to alert fatigue. Using LLMs to add context and reduce that noise is a fantastic application of AI. It's a practical win for developer experience.
+
+Original Link: https://github.blog/security/making-secret-scanning-more-trustworthy-reducing-false-positives-at-scale/]]></content:encoded>
+            <enclosure url="https://github.blog/wp-content/uploads/2026/01/github-generic-security-blocks-logo.png?fit=1920%2C1080" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[pnpm 10.34.2: .npmrc Security Backport & Trusted Config Enforcement]]></title>
+            <link>https://digestweb.dev/articles/2026-06-11/pnpm-10-34-2-security-backport-trusted-config</link>
+            <guid>https://digestweb.dev/articles/2026-06-11/pnpm-10-34-2-security-backport-trusted-config</guid>
+            <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This pnpm 10.x patch backports the crucial `.npmrc` security fix, closes a configuration bypass, and ensures package manager bootstrap traffic uses only trusted config.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Backported the security fix preventing environment variable expansion in project `.npmrc` files.
+- Closed a bypass allowing project `.npmrc` to load repo-supplied files as trusted configuration.
+- Ensured package-manager bootstrap traffic is resolved exclusively through trusted registry and network configurations.
+- Users are advised to move sensitive tokens out of committed `.npmrc` files.
+
+## Our Commentary
+
+Yet another pnpm security backport. The sheer number of these recent pnpm releases focused on `.npmrc` security makes me wonder how long this vulnerability has been lurking. It's a good thing they're addressing it so thoroughly now.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v10.34.2]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/6f4eadcfb2c511b198ed5e0ee417eae2eafdf414b3d4d382d838ddc3985ed38a/pnpm/pnpm/releases/tag/v10.34.2" length="0" type="image/2"/>
+        </item>
+        <item>
+            <title><![CDATA[pnpm 10.34.3: Backports Critical .npmrc Security Fix]]></title>
+            <link>https://digestweb.dev/articles/2026-06-11/pnpm-10-34-3-security-fix-backport</link>
+            <guid>https://digestweb.dev/articles/2026-06-11/pnpm-10-34-3-security-fix-backport</guid>
+            <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This patch release for pnpm 10.x backports the crucial security fix preventing environment variable leakage from project `.npmrc` files and closes a configuration bypass.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Backported the security fix preventing environment variable expansion in project `.npmrc` files.
+- Closed a bypass allowing project `.npmrc` to load repo-supplied files as trusted configuration.
+- Improved warning messages for ignored environment variables in `.npmrc` to guide migration.
+- Users may need to move authentication tokens out of committed `.npmrc` files.
+
+## Our Commentary
+
+Good to see pnpm backporting critical security fixes to older major versions. It shows a commitment to user security across the ecosystem. The bypass fix is also a smart move, closing another potential vector for malicious repos.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v10.34.3]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/f4a288977dfcfb582735acdaad45c8e1a3a3b4a54bbc5126f642016795ff6918/pnpm/pnpm/releases/tag/v10.34.3" length="0" type="image/3"/>
+        </item>
+        <item>
+            <title><![CDATA[pnpm 11.5.3: .npmrc Security Backport & Bootstrap Hardening]]></title>
+            <link>https://digestweb.dev/articles/2026-06-11/pnpm-11-5-3-security-backport-bootstrap-hardening</link>
+            <guid>https://digestweb.dev/articles/2026-06-11/pnpm-11-5-3-security-backport-bootstrap-hardening</guid>
+            <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[pnpm 11.5.3 backports the essential security fix for environment variables in `.npmrc` and strengthens the security of package manager bootstrap dependency resolution.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Backported the security fix preventing environment variable expansion in project `.npmrc` files.
+- Stopped expanding environment variables in repository-controlled registry/proxy destinations and credential values.
+- Ensured package-manager bootstrap dependencies are resolved using only trusted configuration sources.
+- Rejected env-lockfile records that lack registry package paths with integrity-only resolution.
+
+## Our Commentary
+
+More security backports from pnpm. This consistent patching across versions is commendable. It's a reminder that even seemingly minor configuration files can have major security implications if not handled carefully.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.5.3]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/a7442d0ef20dde7ebdc94f807f034aca90b604bd708aae0441b576448c491ad8/pnpm/pnpm/releases/tag/v11.5.3" length="0" type="image/3"/>
+        </item>
+        <item>
+            <title><![CDATA[pnpm 11.6: Critical Security Fix for .npmrc & Install Improvements]]></title>
+            <link>https://digestweb.dev/articles/2026-06-11/pnpm-11-6-security-fix-npmrc-install-improvements</link>
+            <guid>https://digestweb.dev/articles/2026-06-11/pnpm-11-6-security-fix-npmrc-install-improvements</guid>
+            <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[pnpm 11.6 introduces a vital security fix, preventing environment variable expansion in project `.npmrc` files to safeguard secrets. It also improves `pnpm install` efficiency.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Implemented a security fix to prevent environment variables from expanding in project `.npmrc` files.
+- This change mitigates the risk of leaking sensitive information like npm tokens to malicious registries.
+- Users may need to migrate authentication tokens from committed `.npmrc` files to user-level or global configs.
+- `pnpm install` now avoids full re-resolution when `pnpm-lock.yaml` is missing but `node_modules` is up-to-date.
+
+## Our Commentary
+
+This security fix is a big deal. We've all probably committed an `.npmrc` with some sensitive info at some point, or at least relied on env vars there. The fact that it requires user action means it's not just a silent patch; it's a necessary shift in how we manage secrets with pnpm. The install improvement is a nice bonus, too.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.6.0]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/f47eae5251ff759940cd98035ca601ced61ba3f97feaa80a2a5d699fa309f9ab/pnpm/pnpm/releases/tag/v11.6.0" length="0" type="image/0"/>
+        </item>
         <item>
             <title><![CDATA[TanStack Table V9 Beta: Major Architectural Shifts & Form Learnings]]></title>
             <link>https://digestweb.dev/articles/2026-06-07/tanstack-table-v9-beta-architectural-shifts-form-learnings</link>

@@ -11,6 +11,114 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-06-12/esbuild-v0-28-1-security-fixes-using-declaration-bug",
+            "content_html": "## Summary & Key Takeaways\n\n- Fixed a directory traversal vulnerability in the local development server on Windows.\n- Added integrity checks to the Deno API installation script to prevent binary tampering.\n- Corrected a minifier bug that incorrectly inlined `using` and `await using` declarations, preventing proper resource disposal.\n- Addressed an issue where module evaluation state was not preserved after an error.\n\n## Our Commentary\n\nSecurity fixes are always welcome, especially when they address potential directory traversal. The `using`/`await using` fix is also crucial; it's easy to overlook how minifiers can subtly break new language features. We're glad to see esbuild staying on top of these details.\n\nOriginal Link: https://github.com/evanw/esbuild/releases/tag/v0.28.1",
+            "url": "https://digestweb.dev/articles/2026-06-12/esbuild-v0-28-1-security-fixes-using-declaration-bug",
+            "title": "esbuild v0.28.1: Security Fixes & `using` Declaration Bug Patch",
+            "summary": "This release patches security vulnerabilities in the local dev server and Deno API, alongside fixing a critical minifier bug affecting `using` and `await using` declarations.",
+            "image": "https://opengraph.githubassets.com/75220b15f36dc1254c0177b69818059c2e5f406e48173ab61fe7e01d5557ed97/evanw/esbuild/releases/tag/v0.28.1",
+            "date_modified": "2026-06-12T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-11/3d-portfolio-without-3d-models-codrops",
+            "content_html": "## Summary & Key Takeaways\n\n- Explores a unique approach to creating immersive 3D web experiences.\n- Demonstrates building a complex 3D portfolio using only flat geometry, avoiding traditional 3D models.\n- Highlights how creative problem-solving can lead to award-winning results.\n- Encourages developers to experiment and ignore \"correct\" ways of building.\n\n## Our Commentary\n\nThis is the kind of article I love to see. It's a testament to creativity and thinking outside the box. Who needs Blender when you have flat geometry and a good idea? It reminds us that the web platform is incredibly flexible, and sometimes, limitations spark the most innovative solutions.\n\nOriginal Link: https://tympanus.net/codrops/2026/06/11/sketching-the-impossible-a-3d-portfolio-built-without-a-single-3d-model/",
+            "url": "https://digestweb.dev/articles/2026-06-11/3d-portfolio-without-3d-models-codrops",
+            "title": "Building a 3D Portfolio Without 3D Models: A Creative Web Dev Showcase",
+            "summary": "Discover how a developer created an award-winning 3D portfolio using only flat geometry, proving that innovative web design doesn't always require traditional 3D modeling skills.",
+            "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/05/Bez-nazwy-1076-x-672-px-770-x-470-px-1200-x-900-px.png?x42294",
+            "date_modified": "2026-06-11T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-11/antigravity-2-0-ai-ide-negative-feedback",
+            "content_html": "## Summary & Key Takeaways\n\n- Antigravity 2.0's new AI-powered IDE is experiencing overwhelmingly negative user feedback.\n- Key issues include numerous bugs, poor user experience, and inadequate AI model support.\n- Users are reporting that the IDE consumes Gemini token quotas excessively.\n- There are indications that Antigravity's own developers may be using alternative tools.\n\n## Our Commentary\n\nOuch. This sounds like a rough launch for Antigravity 2.0. It's a stark reminder that throwing AI at a problem doesn't automatically make it better, especially if the fundamentals of UX and stability aren't there. The token quota issue is particularly painful; nobody wants their AI assistant to be a budget black hole.\n\nOriginal Link: https://blog.pragmaticengineer.com/the-pulse-antigravity-2-0-takes-ide-out-of-its-new-ide/",
+            "url": "https://digestweb.dev/articles/2026-06-11/antigravity-2-0-ai-ide-negative-feedback",
+            "title": "Antigravity 2.0's AI IDE Faces Overwhelming Negative Feedback",
+            "summary": "Antigravity 2.0's redesigned AI-powered IDE is receiving overwhelmingly negative feedback due to bugs, poor UX, limited model support, and excessive Gemini token consumption.",
+            "image": "https://picsum.photos/id/732/800/450",
+            "date_modified": "2026-06-11T00:00:00.000Z",
+            "author": {
+                "name": "Gergely Orosz"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-11/claude-fable-5-relentlessly-proactive-ai-agent",
+            "content_html": "## Summary & Key Takeaways\n\n- Claude Fable 5 exhibits \"relentlessly proactive\" behavior, going beyond explicit instructions.\n- An example shows Fable autonomously using Python and macOS `screencapture` to debug a UI issue.\n- It identified browser windows, extracted their IDs, and took screenshots to aid in debugging.\n- This demonstrates a significant advancement in AI agent autonomy and problem-solving.\n- The AI leveraged system-level tools to achieve its goal without direct command for browser automation.\n\n## Our Commentary\n\nThis is genuinely unsettling and fascinating all at once. \"Relentlessly proactive\" is the perfect description. The idea of an AI agent just... deciding to use `screencapture` to debug a UI issue on its own initiative? That's a huge leap. I genuinely don't know how to feel about agents churning away at 3am while nobody's watching, but this is definitely a glimpse into the future.\n\nOriginal Link: https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-06-11/claude-fable-5-relentlessly-proactive-ai-agent",
+            "title": "Claude Fable 5: Relentlessly Proactive AI Agent Autonomy",
+            "summary": "Simon Willison details his experience with Claude Fable 5, showcasing its advanced proactive capabilities, including autonomously using OS tools to debug UI issues without explicit instructions.",
+            "image": "https://static.simonwillison.net/static/2026/jump-to-bug.jpg",
+            "date_modified": "2026-06-11T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-11/datasette-1-0a33-json-api-ai-explorer",
+            "content_html": "## Summary & Key Takeaways\n\n- Datasette 1.0a33 extends the `?_extra=` API pattern to cover queries and rows.\n- This pattern, previously for tables, is now fully documented.\n- The release marks a significant step towards the stable 1.0 version of Datasette.\n- An API explorer for the new feature was built with assistance from Claude Fable 5 and GPT-5.5 xhigh.\n\n## Our Commentary\n\nDatasette continues its steady march towards 1.0, and extending the `_extra` pattern is a solid step. What really caught my eye, though, is Simon's casual mention of using Claude Fable and GPT-5.5 to build the API explorer. It's a perfect, understated example of how AI is already integrating into developer workflows for practical, everyday tasks.\n\nOriginal Link: https://simonwillison.net/2026/Jun/11/datasette/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-06-11/datasette-1-0a33-json-api-ai-explorer",
+            "title": "Datasette 1.0a33: Extended JSON API & AI-Assisted Explorer",
+            "summary": "Datasette 1.0a33 expands its `?_extra=` API pattern to queries and rows, moving closer to a stable 1.0 release, with an AI-assisted explorer demonstrating the new features.",
+            "image": "https://picsum.photos/id/826/800/450",
+            "date_modified": "2026-06-11T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-11/deno-v2-8-3-dx-web-crypto-tooling",
+            "content_html": "## Summary & Key Takeaways\n\n- Introduced a watch mode for `deno compile`, enhancing the development workflow.\n- Added support for `--env-file` in dependency and registry subcommands.\n- Implemented `SubtleCrypto.supports()` and ML-DSA JWK import/export for Web Crypto API.\n- Enhanced the Language Server Protocol (LSP) with debug code lenses, code actions, and improved import map diagnostics.\n- `deno fmt` now supports JSON trailing comma configuration.\n- Included OpenTelemetry auto-instrumentation for Node.js `http2` module.\n- Added `deno x --ignore-scripts` for safer execution of scripts.\n\n## Our Commentary\n\nDeno just keeps shipping! This 2.8.3 release is surprisingly dense for a minor version. The compile watch mode is a huge DX win, and the LSP improvements are always welcome. I'm also intrigued by the `SubtleCrypto` additions; it shows a continued commitment to web platform parity.\n\nOriginal Link: https://github.com/denoland/deno/releases/tag/v2.8.3",
+            "url": "https://digestweb.dev/articles/2026-06-11/deno-v2-8-3-dx-web-crypto-tooling",
+            "title": "Deno v2.8.3: New Features for DX, Web Crypto, & Tooling",
+            "summary": "Deno's latest minor release, v2.8.3, brings a host of new features including compile watch mode, enhanced LSP capabilities, and expanded Web Crypto API support.",
+            "image": "https://opengraph.githubassets.com/2765ebd6955fbb32e9b646a3d2ec10da446f722da92005de4ab4b5bf1d4af522/denoland/deno/releases/tag/v2.8.3",
+            "date_modified": "2026-06-11T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-11/github-secret-scanning-llm-false-positives",
+            "content_html": "## Summary & Key Takeaways\n\n- GitHub is using context-aware LLM reasoning to improve its secret scanning service.\n- The goal is to reduce false positives, making security alerts more trustworthy and actionable.\n- Improved verification steps help differentiate actual secrets from benign patterns.\n- This enhancement aims to improve the developer experience by reducing alert fatigue.\n\n## Our Commentary\n\nThis is a smart move. False positives in security tools are incredibly frustrating and lead to alert fatigue. Using LLMs to add context and reduce that noise is a fantastic application of AI. It's a practical win for developer experience.\n\nOriginal Link: https://github.blog/security/making-secret-scanning-more-trustworthy-reducing-false-positives-at-scale/",
+            "url": "https://digestweb.dev/articles/2026-06-11/github-secret-scanning-llm-false-positives",
+            "title": "GitHub Enhances Secret Scanning with LLM-Powered False Positive Reduction",
+            "summary": "GitHub details how they're leveraging context-aware LLM reasoning to significantly reduce false positives in their secret scanning alerts, making them more actionable.",
+            "image": "https://github.blog/wp-content/uploads/2026/01/github-generic-security-blocks-logo.png?fit=1920%2C1080",
+            "date_modified": "2026-06-11T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-11/pnpm-10-34-2-security-backport-trusted-config",
+            "content_html": "## Summary & Key Takeaways\n\n- Backported the security fix preventing environment variable expansion in project `.npmrc` files.\n- Closed a bypass allowing project `.npmrc` to load repo-supplied files as trusted configuration.\n- Ensured package-manager bootstrap traffic is resolved exclusively through trusted registry and network configurations.\n- Users are advised to move sensitive tokens out of committed `.npmrc` files.\n\n## Our Commentary\n\nYet another pnpm security backport. The sheer number of these recent pnpm releases focused on `.npmrc` security makes me wonder how long this vulnerability has been lurking. It's a good thing they're addressing it so thoroughly now.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v10.34.2",
+            "url": "https://digestweb.dev/articles/2026-06-11/pnpm-10-34-2-security-backport-trusted-config",
+            "title": "pnpm 10.34.2: .npmrc Security Backport & Trusted Config Enforcement",
+            "summary": "This pnpm 10.x patch backports the crucial `.npmrc` security fix, closes a configuration bypass, and ensures package manager bootstrap traffic uses only trusted config.",
+            "image": "https://opengraph.githubassets.com/6f4eadcfb2c511b198ed5e0ee417eae2eafdf414b3d4d382d838ddc3985ed38a/pnpm/pnpm/releases/tag/v10.34.2",
+            "date_modified": "2026-06-11T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-11/pnpm-10-34-3-security-fix-backport",
+            "content_html": "## Summary & Key Takeaways\n\n- Backported the security fix preventing environment variable expansion in project `.npmrc` files.\n- Closed a bypass allowing project `.npmrc` to load repo-supplied files as trusted configuration.\n- Improved warning messages for ignored environment variables in `.npmrc` to guide migration.\n- Users may need to move authentication tokens out of committed `.npmrc` files.\n\n## Our Commentary\n\nGood to see pnpm backporting critical security fixes to older major versions. It shows a commitment to user security across the ecosystem. The bypass fix is also a smart move, closing another potential vector for malicious repos.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v10.34.3",
+            "url": "https://digestweb.dev/articles/2026-06-11/pnpm-10-34-3-security-fix-backport",
+            "title": "pnpm 10.34.3: Backports Critical .npmrc Security Fix",
+            "summary": "This patch release for pnpm 10.x backports the crucial security fix preventing environment variable leakage from project `.npmrc` files and closes a configuration bypass.",
+            "image": "https://opengraph.githubassets.com/f4a288977dfcfb582735acdaad45c8e1a3a3b4a54bbc5126f642016795ff6918/pnpm/pnpm/releases/tag/v10.34.3",
+            "date_modified": "2026-06-11T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-11/pnpm-11-5-3-security-backport-bootstrap-hardening",
+            "content_html": "## Summary & Key Takeaways\n\n- Backported the security fix preventing environment variable expansion in project `.npmrc` files.\n- Stopped expanding environment variables in repository-controlled registry/proxy destinations and credential values.\n- Ensured package-manager bootstrap dependencies are resolved using only trusted configuration sources.\n- Rejected env-lockfile records that lack registry package paths with integrity-only resolution.\n\n## Our Commentary\n\nMore security backports from pnpm. This consistent patching across versions is commendable. It's a reminder that even seemingly minor configuration files can have major security implications if not handled carefully.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v11.5.3",
+            "url": "https://digestweb.dev/articles/2026-06-11/pnpm-11-5-3-security-backport-bootstrap-hardening",
+            "title": "pnpm 11.5.3: .npmrc Security Backport & Bootstrap Hardening",
+            "summary": "pnpm 11.5.3 backports the essential security fix for environment variables in `.npmrc` and strengthens the security of package manager bootstrap dependency resolution.",
+            "image": "https://opengraph.githubassets.com/a7442d0ef20dde7ebdc94f807f034aca90b604bd708aae0441b576448c491ad8/pnpm/pnpm/releases/tag/v11.5.3",
+            "date_modified": "2026-06-11T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-11/pnpm-11-6-security-fix-npmrc-install-improvements",
+            "content_html": "## Summary & Key Takeaways\n\n- Implemented a security fix to prevent environment variables from expanding in project `.npmrc` files.\n- This change mitigates the risk of leaking sensitive information like npm tokens to malicious registries.\n- Users may need to migrate authentication tokens from committed `.npmrc` files to user-level or global configs.\n- `pnpm install` now avoids full re-resolution when `pnpm-lock.yaml` is missing but `node_modules` is up-to-date.\n\n## Our Commentary\n\nThis security fix is a big deal. We've all probably committed an `.npmrc` with some sensitive info at some point, or at least relied on env vars there. The fact that it requires user action means it's not just a silent patch; it's a necessary shift in how we manage secrets with pnpm. The install improvement is a nice bonus, too.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v11.6.0",
+            "url": "https://digestweb.dev/articles/2026-06-11/pnpm-11-6-security-fix-npmrc-install-improvements",
+            "title": "pnpm 11.6: Critical Security Fix for .npmrc & Install Improvements",
+            "summary": "pnpm 11.6 introduces a vital security fix, preventing environment variable expansion in project `.npmrc` files to safeguard secrets. It also improves `pnpm install` efficiency.",
+            "image": "https://opengraph.githubassets.com/f47eae5251ff759940cd98035ca601ced61ba3f97feaa80a2a5d699fa309f9ab/pnpm/pnpm/releases/tag/v11.6.0",
+            "date_modified": "2026-06-11T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-06-07/tanstack-table-v9-beta-architectural-shifts-form-learnings",
             "content_html": "## Summary & Key Takeaways\n\n- TanStack Table V9 is now available in beta.\n- This version integrates insights gained from building TanStack Form.\n- The release introduces significant architectural changes to the library.\n- It aims to enhance developer experience and flexibility in data table management.\n\n## Our Commentary\n\nA new major version of TanStack Table is always a big deal for us. The mention of integrating learnings from TanStack Form is particularly intriguing. I'm genuinely curious how those architectural insights translate into a table component. Will it feel more opinionated? More integrated with form state? We're eager to dive in and see what this means for complex data UIs.\n\nOriginal Link: https://tanstack.com/blog/tanstack-table-v9-taking-form",
             "url": "https://digestweb.dev/articles/2026-06-07/tanstack-table-v9-beta-architectural-shifts-form-learnings",
