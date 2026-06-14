@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Sun, 14 Jun 2026 05:49:28 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 14 Jun 2026 10:25:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,49 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Pyodide Now Supports WASM Wheels on PyPI, Streamlining Package Distribution]]></title>
+            <link>https://digestweb.dev/articles/2026-06-13/pyodide-wasm-wheels-pypi-distribution</link>
+            <guid>https://digestweb.dev/articles/2026-06-13/pyodide-wasm-wheels-pypi-distribution</guid>
+            <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A long-awaited update allows Python packages compiled to WebAssembly for Pyodide to be published directly to PyPI. This significantly streamlines the distribution and installation of WASM-enabled Python libraries.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Pyodide now supports publishing WebAssembly (WASM) wheels directly to PyPI.
+- This eliminates a previous bottleneck where Pyodide maintainers manually hosted over 300 packages.
+- Package maintainers can now build and publish Pyodide wheels just like native wheels.
+- The change is based on PEP 783 and involved a pull request to PyPI itself.
+- Simon Willison demonstrates this by packaging a Luau WebAssembly project.
+- The `luau-wasm` package is now available on PyPI, installable via `micropip`.
+
+## Our Commentary
+
+This is a massive quality-of-life improvement for anyone working with Pyodide. We've heard the frustrations about package distribution for ages, and seeing this bottleneck finally cleared is genuinely exciting. It's a huge win for developer experience. Also, the mention of GPT-5.5 xhigh is a subtle nod to the future of dev workflows; I wonder how many of us will be using models like that for packaging tasks soon.
+
+Original Link: https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-everything]]></content:encoded>
+            <enclosure url="https://static.simonwillison.net/static/2026/luau-wasm.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Deep Dive: Tracing SQLite Columns Back to Their Source Tables]]></title>
+            <link>https://digestweb.dev/articles/2026-06-13/sqlite-column-provenance-mapping-research</link>
+            <guid>https://digestweb.dev/articles/2026-06-13/sqlite-column-provenance-mapping-research</guid>
+            <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore methods to programmatically map SQLite query result columns back to their original `table.column` identifiers, even with complex joins and CTEs, using Python.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article investigates how to identify the source `table.column` for each result in an arbitrary SQL query.
+- This capability would enhance Datasette by providing additional context for query results.
+- The challenge involves navigating complex SQL syntax like joins and Common Table Expressions (CTEs).
+- Claude Code (Opus 4.8) was used to explore potential solutions.
+- Promising approaches include using `apsw`, `ctypes` to access SQLite's C API, and interrogating `EXPLAIN` output.
+
+## Our Commentary
+
+Simon Willison is at it again, diving into the nitty-gritty of data. This kind of problem, tracing data provenance, is deceptively complex but so crucial for robust tooling like Datasette. I find it fascinating how he leverages AI, specifically Claude Code, as a research partner. It's not just about getting answers, but exploring possibilities. It makes me think about how our own research processes are evolving.
+
+Original Link: https://simonwillison.net/2026/Jun/13/sqlite-column-provenance/#atom-everything]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/677/800/450" length="0" type="image//id/677/800/450"/>
+        </item>
         <item>
             <title><![CDATA[US Government Suspends Access to Anthropic's Fable 5 and Mythos 5]]></title>
             <link>https://digestweb.dev/articles/2026-06-13/us-government-suspends-anthropic-fable-mythos-access</link>
