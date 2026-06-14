@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Fri, 12 Jun 2026 11:02:11 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 14 Jun 2026 05:49:28 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,29 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[US Government Suspends Access to Anthropic's Fable 5 and Mythos 5]]></title>
+            <link>https://digestweb.dev/articles/2026-06-13/us-government-suspends-anthropic-fable-mythos-access</link>
+            <guid>https://digestweb.dev/articles/2026-06-13/us-government-suspends-anthropic-fable-mythos-access</guid>
+            <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Anthropic has received a US government directive to suspend access to its Fable 5 and Mythos 5 models for foreign nationals. The order cites national security concerns over a potential 'jailbreak,' though Anthropic disputes the severity of the vulnerability.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The US government issued a directive to Anthropic to suspend access to Fable 5 and Mythos 5.
+- Access is to be suspended for all foreign nationals, both inside and outside the US.
+- The directive cites national security concerns regarding a potential "jailbreak" method.
+- Anthropic reviewed the alleged jailbreak and found it identifies minor, known vulnerabilities.
+- They state similar capabilities are widely available in other public models, including GPT-5.5.
+- The government provided only verbal evidence of the narrow, non-universal jailbreak.
+- Simon Willison confirmed his access to Fable 5 was cut off shortly after the directive.
+
+## Our Commentary
+
+This is genuinely unsettling. A government directive to suspend access to specific AI models, citing national security, feels like a new frontier. We're seeing the real-world implications of AI's power and the scramble for control. Anthropic's counter-argument that the 'jailbreak' is minor and widely available in other models is a critical detail. It makes me wonder if this is truly about security or something else entirely. The speed at which access was cut is also jarring. This is a big one, folks.
+
+Original Link: https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/#atom-everything]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/297/800/450" length="0" type="image//id/297/800/450"/>
+        </item>
         <item>
             <title><![CDATA[esbuild v0.28.1: Security Fixes & `using` Declaration Bug Patch]]></title>
             <link>https://digestweb.dev/articles/2026-06-12/esbuild-v0-28-1-security-fixes-using-declaration-bug</link>
@@ -34,6 +57,48 @@ Security fixes are always welcome, especially when they address potential direct
 
 Original Link: https://github.com/evanw/esbuild/releases/tag/v0.28.1]]></content:encoded>
             <enclosure url="https://opengraph.githubassets.com/75220b15f36dc1254c0177b69818059c2e5f406e48173ab61fe7e01d5557ed97/evanw/esbuild/releases/tag/v0.28.1" length="0" type="image/1"/>
+        </item>
+        <item>
+            <title><![CDATA[GitHub Copilot CLI: Smarter Delegation for Faster Progress]]></title>
+            <link>https://digestweb.dev/articles/2026-06-12/github-copilot-cli-smarter-delegation</link>
+            <guid>https://digestweb.dev/articles/2026-06-12/github-copilot-cli-smarter-delegation</guid>
+            <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[GitHub shares insights into how they've refined Copilot CLI's internal logic to improve task delegation. The goal is to achieve better orchestration and fewer manual handoffs without adding new configuration options.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- GitHub Copilot CLI has been optimized for more selective task delegation.
+- The improvements aim for better orchestration and fewer manual handoffs.
+- These enhancements were achieved without introducing new user-facing controls.
+- The focus is on internal logic refinements for faster progress.
+
+## Our Commentary
+
+I'm always curious about the 'how' behind these AI tools. This piece is a peek under the hood, showing that even advanced systems need constant tweaking to feel seamless. It's not about flashy new features, but the quiet, persistent work of making things _just work_ better. We appreciate that kind of dedication.
+
+Original Link: https://github.blog/ai-and-ml/how-we-made-github-copilot-cli-more-selective-about-delegation/]]></content:encoded>
+            <enclosure url="https://github.blog/wp-content/uploads/2026/01/generic-mona-invertocat-logo-1-e1767926414935.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI WebRTC Audio Tool Gains GPT-Realtime-2 and Document Context]]></title>
+            <link>https://digestweb.dev/articles/2026-06-12/openai-webrtc-audio-tool-gpt-realtime-document-context</link>
+            <guid>https://digestweb.dev/articles/2026-06-12/openai-webrtc-audio-tool-gpt-realtime-document-context</guid>
+            <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison has updated his OpenAI WebRTC audio tool, integrating the new GPT-Realtime-2 model for 'GPT-5-class reasoning.' The tool now also allows users to provide document context for more informed audio conversations.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The OpenAI WebRTC audio tool has been updated by Simon Willison.
+- It now supports the new GPT-Realtime-2 model, offering GPT-5-class reasoning.
+- The model has a knowledge cut-off of September 30, 2024.
+- A key new feature is the ability to paste document context for audio conversations.
+- This allows users to discuss specific information with the AI in real-time.
+- The GPT-Realtime-2 model is not yet available in the ChatGPT iPhone app.
+
+## Our Commentary
+
+I've been waiting for this kind of integration! The idea of feeding an AI a document and then having a real-time audio conversation about it is incredibly powerful. It feels like a step closer to truly interactive knowledge exploration. Simon Willison's work here is a fantastic example of how community developers push the boundaries of what's possible with new AI APIs. We're excited to see what people build with this.
+
+Original Link: https://simonwillison.net/2026/Jun/12/openai-webrtc/#atom-everything]]></content:encoded>
+            <enclosure url="https://static.simonwillison.net/static/2026/openai-webrtc-document-context-card.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Building a 3D Portfolio Without 3D Models: A Creative Web Dev Showcase]]></title>
