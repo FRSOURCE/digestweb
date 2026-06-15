@@ -11,6 +11,33 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-06-15/mdn-mcp-server-ide-llm-web-platform-data",
+            "content_html": "## Summary & Key Takeaways\n\n- The MDN MCP server provides direct access to MDN's documentation.\n- It also delivers up-to-date browser compatibility data.\n- This data is accessible within developers' editors and IDEs.\n- The server is designed to feed accurate information to LLMs and coding agents.\n- The goal is to enhance developer experience by bringing critical web platform data closer to the workflow.\n\n## Our Commentary\n\nThis is a genuinely smart move from MDN. We've all fumbled with browser tabs trying to find that one compatibility detail. Bringing it directly into the IDE, and especially making it accessible to LLMs, feels like a huge leap for developer productivity. I'm curious about the implementation details and how seamless the integration will be. It's a clear signal that MDN is thinking about the future of web development assistance.\n\nOriginal Link: https://developer.mozilla.org/en-US/blog/introducing-mdn-mcp-server/",
+            "url": "https://digestweb.dev/articles/2026-06-15/mdn-mcp-server-ide-llm-web-platform-data",
+            "title": "MDN Launches MCP Server for Direct IDE & LLM Web Platform Data Access",
+            "summary": "MDN's new MCP server integrates its comprehensive documentation and browser compatibility data directly into editors and IDEs, empowering LLMs and coding agents with accurate, real-time web platform information.",
+            "image": "https://picsum.photos/id/114/800/450",
+            "date_modified": "2026-06-15T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-15/pnpm-11-7-frozenstore-read-only-filesystems",
+            "content_html": "## Summary & Key Takeaways\n\n- The `frozenStore` setting allows pnpm to install packages from a read-only store, bypassing write operations.\n- This feature is particularly useful for environments with immutable filesystems, such as Nix or OCI layers.\n- It requires Node.js versions >=22.15.0, >=23.11.0, or >=24.0.0.\n- Bin-linking now tolerates read-only stores by skipping redundant chmod operations.\n- pnpm can delegate dependency resolution to `pacquet`, its Rust port, when configured.\n- The feature fails fast if the store is incomplete or if incompatible options like `--force` are used.\n\n## Our Commentary\n\nThis `frozenStore` feature is a big deal for anyone working with immutable infrastructure or containerized builds. We've seen so many headaches trying to get package managers to play nice with read-only layers. The explicit support for Nix-like environments is a smart move. It feels like pnpm is really doubling down on robustness for complex build pipelines. I'm curious how widely this will be adopted, but it definitely solves a pain point.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v11.7.0",
+            "url": "https://digestweb.dev/articles/2026-06-15/pnpm-11-7-frozenstore-read-only-filesystems",
+            "title": "pnpm 11.7 Introduces `frozenStore` for Read-Only Filesystems",
+            "summary": "pnpm 11.7 ships with a new `frozenStore` setting, enabling installations against read-only package stores, crucial for environments like Nix or OCI layers. It also improves bin-linking tolerance and delegates dependency resolution to `pacquet` when configured.",
+            "image": "https://opengraph.githubassets.com/6f799b0314cb85d696c8f38529972c3eca71d41714a7084e962af24adf337a9c/pnpm/pnpm/releases/tag/v11.7.0",
+            "date_modified": "2026-06-15T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-15/vitest-v5-beta-5-major-changes-new-features",
+            "content_html": "## Summary & Key Takeaways\n\n- Breaking changes include not looking up config files from ancestor directories and inlining the `@vitest/runner` package.\n- The `happy-dom`/`jsdom` window object can now be mutated.\n- New features for the browser UI include displaying nested mark traces.\n- A `--repeats` CLI option has been added for running tests multiple times.\n- Coverage thresholds can now be automatically updated with previous values as arguments.\n- Several bug fixes address issues with mixed stdout/stderr logs, importOriginal, and transform time calculations.\n- Browser testing improvements include waiting for orchestrator readiness and encoding iframe IDs.\n\n## Our Commentary\n\nVitest moving towards v5 is exciting, especially with the browser UI improvements. Breaking changes are always a bit of a pain, but they often pave the way for better architecture. I'm particularly interested in how the `happy-dom`/`jsdom` window mutation will impact testing strategies. It feels like Vitest is maturing rapidly, solidifying its position as a strong alternative in the JS testing landscape.\n\nOriginal Link: https://github.com/vitest-dev/vitest/releases/tag/v5.0.0-beta.5",
+            "url": "https://digestweb.dev/articles/2026-06-15/vitest-v5-beta-5-major-changes-new-features",
+            "title": "Vitest v5.0.0-beta.5 Previews Major Changes and New Features",
+            "summary": "Vitest's latest beta for v5.0.0 brings breaking changes like config file lookup adjustments and `runner` package inline, alongside new features such as browser UI trace display and a `--repeats` CLI option.",
+            "image": "https://opengraph.githubassets.com/53a8cad2710dac816c216043a43b000dcbadb90379a7c5201a79f0dd158022de/vitest-dev/vitest/releases/tag/v5.0.0-beta.5",
+            "date_modified": "2026-06-15T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-06-14/welcome-agi-era-ai-governance-new-frontier",
             "content_html": "## Summary & Key Takeaways\n\nThe author asserts that the world has now entered the AGI era.\nThis transition is characterized as an irreversible \"one-way door.\"\nExisting AI governance frameworks are deemed inadequate for this new reality.\nThere is an urgent need to develop new paradigms for AI control and guidance.\nThe piece emphasizes the profound and immediate implications for society.\n\n## Our Commentary\n\nNathan Lambert calling this the 'AGI era' hits different. We've been debating AGI's arrival for so long, but this feels like a definitive statement from someone deeply embedded in the field. I'm genuinely unsettled by the 'one-way door' analogy; it implies a point of no return we might have already passed. It makes me question if we've truly grasped the magnitude of what's happening. The thought of our current governance being 'unprepared' for AGI is frankly terrifying. We need to move beyond theoretical discussions and into concrete, actionable strategies, and fast. The clock is ticking, and I'm not sure we're ready for what's next.\n\nOriginal Link: https://www.interconnects.ai/p/welcome-to-the-agi-era-of-ai-governance",
             "url": "https://digestweb.dev/articles/2026-06-14/welcome-agi-era-ai-governance-new-frontier",
@@ -20,6 +47,18 @@
             "date_modified": "2026-06-14T00:00:00.000Z",
             "author": {
                 "name": "Nathan Lambert"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-14/why-ai-wont-replace-software-engineers",
+            "content_html": "## Summary & Key Takeaways\n\n- The article challenges the narrative that AI will lead to mass layoffs in software engineering.\n- Data from New York's WARN Act filings shows no AI-related job losses in the first year.\n- AI primarily speeds up the code-typing phase, which is not the main bottleneck in software engineering.\n- Real bottlenecks include deciding and specifying what to build.\n- Verifying and being accountable for delivered software is another critical human task.\n- Deep human understanding of the codebase, business, and environment remains irreplaceable.\n- AI assistance can help with decision-making and verification, but human understanding provides core value.\n\n## Our Commentary\n\nThis piece really resonates with me. We've all felt the hype around AI replacing jobs, but this article cuts through it with a clear, grounded perspective. It's not about typing speed; it's about the messy, human parts of problem-solving. I've found AI incredibly useful for boilerplate, but the strategic thinking, the \"why,\" and the accountability? That's still firmly in our court. It's a good reminder that our value isn't just in lines of code.\n\nOriginal Link: https://simonwillison.net/2026/Jun/14/why-ai-hasnt-replaced-software-engineers/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-06-14/why-ai-wont-replace-software-engineers",
+            "title": "Why AI Won't Replace Software Engineers: Beyond Just Writing Code",
+            "summary": "This essay argues that AI won't cause mass layoffs in software engineering, as the real bottlenecks lie in deciding what to build, verifying outcomes, and the deep human understanding of context, not just code generation.",
+            "image": "https://picsum.photos/id/911/800/450",
+            "date_modified": "2026-06-14T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
             }
         },
         {
