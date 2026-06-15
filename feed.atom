@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-06-14T10:25:24.719Z</updated>
+    <updated>2026-06-15T06:23:31.528Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,29 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Welcome to the AGI Era: A New Frontier for AI Governance]]></title>
+        <id>https://digestweb.dev/articles/2026-06-14/welcome-agi-era-ai-governance-new-frontier</id>
+        <link href="https://digestweb.dev/articles/2026-06-14/welcome-agi-era-ai-governance-new-frontier"/>
+        <updated>2026-06-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Nathan Lambert declares the arrival of the AGI era, warning it's a 'one-way door' for AI governance. He argues current frameworks are unprepared.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+The author asserts that the world has now entered the AGI era.
+This transition is characterized as an irreversible "one-way door."
+Existing AI governance frameworks are deemed inadequate for this new reality.
+There is an urgent need to develop new paradigms for AI control and guidance.
+The piece emphasizes the profound and immediate implications for society.
+
+## Our Commentary
+
+Nathan Lambert calling this the 'AGI era' hits different. We've been debating AGI's arrival for so long, but this feels like a definitive statement from someone deeply embedded in the field. I'm genuinely unsettled by the 'one-way door' analogy; it implies a point of no return we might have already passed. It makes me question if we've truly grasped the magnitude of what's happening. The thought of our current governance being 'unprepared' for AGI is frankly terrifying. We need to move beyond theoretical discussions and into concrete, actionable strategies, and fast. The clock is ticking, and I'm not sure we're ready for what's next.
+
+Original Link: https://www.interconnects.ai/p/welcome-to-the-agi-era-of-ai-governance]]></content>
+        <author>
+            <name>Nathan Lambert</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Pyodide Now Supports WASM Wheels on PyPI, Streamlining Package Distribution]]></title>
         <id>https://digestweb.dev/articles/2026-06-13/pyodide-wasm-wheels-pypi-distribution</id>

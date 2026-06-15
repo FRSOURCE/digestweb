@@ -11,6 +11,18 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-06-14/welcome-agi-era-ai-governance-new-frontier",
+            "content_html": "## Summary & Key Takeaways\n\nThe author asserts that the world has now entered the AGI era.\nThis transition is characterized as an irreversible \"one-way door.\"\nExisting AI governance frameworks are deemed inadequate for this new reality.\nThere is an urgent need to develop new paradigms for AI control and guidance.\nThe piece emphasizes the profound and immediate implications for society.\n\n## Our Commentary\n\nNathan Lambert calling this the 'AGI era' hits different. We've been debating AGI's arrival for so long, but this feels like a definitive statement from someone deeply embedded in the field. I'm genuinely unsettled by the 'one-way door' analogy; it implies a point of no return we might have already passed. It makes me question if we've truly grasped the magnitude of what's happening. The thought of our current governance being 'unprepared' for AGI is frankly terrifying. We need to move beyond theoretical discussions and into concrete, actionable strategies, and fast. The clock is ticking, and I'm not sure we're ready for what's next.\n\nOriginal Link: https://www.interconnects.ai/p/welcome-to-the-agi-era-of-ai-governance",
+            "url": "https://digestweb.dev/articles/2026-06-14/welcome-agi-era-ai-governance-new-frontier",
+            "title": "Welcome to the AGI Era: A New Frontier for AI Governance",
+            "summary": "Nathan Lambert declares the arrival of the AGI era, warning it's a 'one-way door' for AI governance. He argues current frameworks are unprepared.",
+            "image": "https://substackcdn.com/image/fetch/$s_!2v8V!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F74e1df37-06b8-444e-a5a4-fbc1ead00360_3182x1790.png",
+            "date_modified": "2026-06-14T00:00:00.000Z",
+            "author": {
+                "name": "Nathan Lambert"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-06-13/pyodide-wasm-wheels-pypi-distribution",
             "content_html": "## Summary & Key Takeaways\n\n- Pyodide now supports publishing WebAssembly (WASM) wheels directly to PyPI.\n- This eliminates a previous bottleneck where Pyodide maintainers manually hosted over 300 packages.\n- Package maintainers can now build and publish Pyodide wheels just like native wheels.\n- The change is based on PEP 783 and involved a pull request to PyPI itself.\n- Simon Willison demonstrates this by packaging a Luau WebAssembly project.\n- The `luau-wasm` package is now available on PyPI, installable via `micropip`.\n\n## Our Commentary\n\nThis is a massive quality-of-life improvement for anyone working with Pyodide. We've heard the frustrations about package distribution for ages, and seeing this bottleneck finally cleared is genuinely exciting. It's a huge win for developer experience. Also, the mention of GPT-5.5 xhigh is a subtle nod to the future of dev workflows; I wonder how many of us will be using models like that for packaging tasks soon.\n\nOriginal Link: https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-everything",
             "url": "https://digestweb.dev/articles/2026-06-13/pyodide-wasm-wheels-pypi-distribution",
