@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Mon, 15 Jun 2026 13:13:20 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 Jun 2026 06:34:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,106 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Agentic Code Review: Trusting AI-Generated Code]]></title>
+            <link>https://digestweb.dev/articles/2026-06-15/agentic-code-review-trusting-ai-code</link>
+            <guid>https://digestweb.dev/articles/2026-06-15/agentic-code-review-trusting-ai-code</guid>
+            <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Addy Osmani explores how AI agents are shifting the focus of engineering from writing code to critically reviewing and trusting AI-generated solutions.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- AI coding agents are rapidly improving in their code generation capabilities.
+- The challenge for engineers is shifting from writing to reviewing and trusting AI output.
+- Code review is becoming the most leveraged skill in software development.
+- The approach to review varies greatly based on project context and team size.
+
+## Our Commentary
+
+This is a genuinely fascinating take. I've felt this shift myself; it's less about 'how do I write this?' and more about 'can I trust this AI-generated solution?' The implications for developer workflows and skill sets are huge. We're entering a new era of engineering where critical evaluation is paramount.
+
+Original Link: https://addyosmani.com/blog/agentic-code-review/]]></content:encoded>
+            <enclosure url="https://addyosmani.com/assets/images/agentic-code-review.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Anthropic Models Offline Due to Internal Clashes & Gov't Scrutiny]]></title>
+            <link>https://digestweb.dev/articles/2026-06-15/anthropic-models-offline-internal-clashes-gov-scrutiny</link>
+            <guid>https://digestweb.dev/articles/2026-06-15/anthropic-models-offline-internal-clashes-gov-scrutiny</guid>
+            <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison reports on the Axios piece detailing personality clashes at Anthropic that led to models going offline and government export control issues.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Anthropic's models experienced downtime due to internal personality clashes.
+- The issues are tied to US government export control and "jailbreaking" concerns.
+- Key Anthropic figures are meeting with the Commerce Department.
+- The article questions the effectiveness of Anthropic's jailbreak resistance.
+
+## Our Commentary
+
+Wow. This is the kind of messy, human drama that reminds us even cutting-edge AI is built by people. 'They screwed us' is a hell of a quote. It's unsettling to think that personality clashes can take major AI models offline and trigger government intervention. The implications for trust and stability in the AI space are... a lot.
+
+Original Link: https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/261/800/450" length="0" type="image//id/261/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Frontend Masters Rebrands to Master.dev]]></title>
+            <link>https://digestweb.dev/articles/2026-06-15/frontend-masters-rebrands-to-master-dev</link>
+            <guid>https://digestweb.dev/articles/2026-06-15/frontend-masters-rebrands-to-master-dev</guid>
+            <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Frontend Masters, a popular developer learning platform, announces its rebranding to Master.dev, reflecting its expanded course offerings.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Frontend Masters has officially rebranded to Master.dev.
+- The change reflects an expansion beyond purely frontend topics.
+- Customers have reportedly requested the name change for some time.
+- The new name aims to encompass a broader range of developer education.
+
+## Our Commentary
+
+Frontend Masters becoming Master.dev makes a lot of sense. Their content has definitely grown beyond just 'frontend' for a while now. It's a smart move to reflect that broader scope. I'm curious to see how this rebrand influences their future course offerings.
+
+Original Link: https://master.dev/blog/today-frontend-masters-becomes-master-dev/]]></content:encoded>
+            <enclosure url="https://master.dev/blog/wp-json/social-image-generator/v1/image/9941" length="0" type="image//blog/wp-json/social-image-generator/v1/image/9941"/>
+        </item>
+        <item>
+            <title><![CDATA[GitHub Copilot CLI: Essential Slash Commands]]></title>
+            <link>https://digestweb.dev/articles/2026-06-15/github-copilot-cli-slash-commands-beginners</link>
+            <guid>https://digestweb.dev/articles/2026-06-15/github-copilot-cli-slash-commands-beginners</guid>
+            <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn to control your terminal AI agent with GitHub Copilot CLI's common slash commands, simplifying your command-line interactions.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- GitHub Copilot CLI offers AI assistance directly in the terminal.
+- Users interact with the AI agent using specific slash commands.
+- The article provides an overview of these common commands.
+- It aims to simplify command-line operations for developers.
+
+## Our Commentary
+
+I'm still trying to figure out where Copilot CLI fits into my workflow. It feels like a solution looking for a problem sometimes, but I'm open to being proven wrong. Maybe this beginner guide will click for someone.
+
+Original Link: https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands/]]></content:encoded>
+            <enclosure url="https://github.blog/wp-content/uploads/2026/06/Episode-3.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[New Open Dataset Boosts Multilingual AI Development]]></title>
+            <link>https://digestweb.dev/articles/2026-06-15/github-multilingual-ai-open-dataset</link>
+            <guid>https://digestweb.dev/articles/2026-06-15/github-multilingual-ai-open-dataset</guid>
+            <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[GitHub releases a new CC0-1.0 licensed dataset to help researchers and developers discover multilingual content across repositories.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- GitHub has published a new open dataset under a CC0-1.0 license.
+- The dataset focuses on multilingual developer content.
+- It includes data from READMEs, issues, and pull requests.
+- Aims to accelerate research and development in multilingual AI.
+
+## Our Commentary
+
+Open datasets are always a win for the community. This one feels particularly important for breaking down language barriers in AI development. We need more initiatives like this.
+
+Original Link: https://github.blog/ai-and-ml/llms/accelerating-researchers-and-developers-building-multilingual-ai-with-a-new-open-dataset/]]></content:encoded>
+            <enclosure url="https://github.blog/wp-content/uploads/2026/01/generic-invertocat-github-logo.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[MDN Launches MCP Server for Direct IDE & LLM Web Platform Data Access]]></title>
             <link>https://digestweb.dev/articles/2026-06-15/mdn-mcp-server-ide-llm-web-platform-data</link>
@@ -37,6 +137,27 @@ Original Link: https://developer.mozilla.org/en-US/blog/introducing-mdn-mcp-serv
             <enclosure url="https://picsum.photos/id/114/800/450" length="0" type="image//id/114/800/450"/>
         </item>
         <item>
+            <title><![CDATA[Playwright v1.61.0: WebAuthn Passkeys & Web Storage APIs]]></title>
+            <link>https://digestweb.dev/articles/2026-06-15/playwright-v1-61-webauthn-passkeys-webstorage</link>
+            <guid>https://digestweb.dev/articles/2026-06-15/playwright-v1-61-webauthn-passkeys-webstorage</guid>
+            <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Playwright v1.61.0 introduces new APIs for WebAuthn passkeys and Web Storage, significantly improving testing capabilities for modern web applications.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Introduces a new WebAuthn passkeys API via `browserContext.credentials`.
+- Allows tests to register and use virtual passkeys without real hardware.
+- Adds a new WebStorage API for `localStorage` and `sessionStorage` access.
+- New `apiResponse.securityDetails()` and `apiResponse.serverAddr()` mirror browser APIs.
+- Enhanced video recording options for the test runner.
+
+## Our Commentary
+
+Playwright just keeps delivering. The WebAuthn passkeys API is a game-changer for testing modern authentication flows; no more faking it. And direct Web Storage access? Yes, please. These are quality-of-life improvements that make a real difference for developers.
+
+Original Link: https://github.com/microsoft/playwright/releases/tag/v1.61.0]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/546cce7b60735d12da2bc41281a86f6a5d2687cf1dd2693fdf973fea9c3dcc0a/microsoft/playwright/releases/tag/v1.61.0" length="0" type="image/0"/>
+        </item>
+        <item>
             <title><![CDATA[pnpm 11.7 Introduces `frozenStore` for Read-Only Filesystems]]></title>
             <link>https://digestweb.dev/articles/2026-06-15/pnpm-11-7-frozenstore-read-only-filesystems</link>
             <guid>https://digestweb.dev/articles/2026-06-15/pnpm-11-7-frozenstore-read-only-filesystems</guid>
@@ -57,6 +178,26 @@ This `frozenStore` feature is a big deal for anyone working with immutable infra
 
 Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.7.0]]></content:encoded>
             <enclosure url="https://opengraph.githubassets.com/6f799b0314cb85d696c8f38529972c3eca71d41714a7084e962af24adf337a9c/pnpm/pnpm/releases/tag/v11.7.0" length="0" type="image/0"/>
+        </item>
+        <item>
+            <title><![CDATA[Safari 27 Brings Customizable Select Elements]]></title>
+            <link>https://digestweb.dev/articles/2026-06-15/safari-27-customizable-select-elements</link>
+            <guid>https://digestweb.dev/articles/2026-06-15/safari-27-customizable-select-elements</guid>
+            <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[WebKit announces that Safari 27 will finally support customizable select elements, addressing a long-standing challenge for web developers.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Safari 27 will introduce support for customizable select elements.
+- This feature aims to improve the flexibility and styling of `<select>` controls.
+- It addresses a long-standing request from web developers.
+- The article discusses the "golden rule" for implementing this functionality.
+
+## Our Commentary
+
+Finally! Customizable select elements in Safari. This has been a thorn in the side of web developers for ages. It's one of those small, foundational improvements that makes a huge difference for design systems and user experience. We've been waiting for this.
+
+Original Link: https://webkit.org/blog/18117/the-golden-rule-of-customizable-select/]]></content:encoded>
+            <enclosure url="https://webkit.org/wp-content/uploads/customizable-select-no-labels-LIGHT.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Vitest v5.0.0-beta.5 Previews Major Changes and New Features]]></title>

@@ -11,6 +11,57 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-06-15/agentic-code-review-trusting-ai-code",
+            "content_html": "## Summary & Key Takeaways\n\n- AI coding agents are rapidly improving in their code generation capabilities.\n- The challenge for engineers is shifting from writing to reviewing and trusting AI output.\n- Code review is becoming the most leveraged skill in software development.\n- The approach to review varies greatly based on project context and team size.\n\n## Our Commentary\n\nThis is a genuinely fascinating take. I've felt this shift myself; it's less about 'how do I write this?' and more about 'can I trust this AI-generated solution?' The implications for developer workflows and skill sets are huge. We're entering a new era of engineering where critical evaluation is paramount.\n\nOriginal Link: https://addyosmani.com/blog/agentic-code-review/",
+            "url": "https://digestweb.dev/articles/2026-06-15/agentic-code-review-trusting-ai-code",
+            "title": "Agentic Code Review: Trusting AI-Generated Code",
+            "summary": "Addy Osmani explores how AI agents are shifting the focus of engineering from writing code to critically reviewing and trusting AI-generated solutions.",
+            "image": "https://addyosmani.com/assets/images/agentic-code-review.jpg",
+            "date_modified": "2026-06-15T00:00:00.000Z",
+            "author": {
+                "name": "Addy Osmani"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-15/anthropic-models-offline-internal-clashes-gov-scrutiny",
+            "content_html": "## Summary & Key Takeaways\n\n- Anthropic's models experienced downtime due to internal personality clashes.\n- The issues are tied to US government export control and \"jailbreaking\" concerns.\n- Key Anthropic figures are meeting with the Commerce Department.\n- The article questions the effectiveness of Anthropic's jailbreak resistance.\n\n## Our Commentary\n\nWow. This is the kind of messy, human drama that reminds us even cutting-edge AI is built by people. 'They screwed us' is a hell of a quote. It's unsettling to think that personality clashes can take major AI models offline and trigger government intervention. The implications for trust and stability in the AI space are... a lot.\n\nOriginal Link: https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-06-15/anthropic-models-offline-internal-clashes-gov-scrutiny",
+            "title": "Anthropic Models Offline Due to Internal Clashes & Gov't Scrutiny",
+            "summary": "Simon Willison reports on the Axios piece detailing personality clashes at Anthropic that led to models going offline and government export control issues.",
+            "image": "https://picsum.photos/id/261/800/450",
+            "date_modified": "2026-06-15T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-15/frontend-masters-rebrands-to-master-dev",
+            "content_html": "## Summary & Key Takeaways\n\n- Frontend Masters has officially rebranded to Master.dev.\n- The change reflects an expansion beyond purely frontend topics.\n- Customers have reportedly requested the name change for some time.\n- The new name aims to encompass a broader range of developer education.\n\n## Our Commentary\n\nFrontend Masters becoming Master.dev makes a lot of sense. Their content has definitely grown beyond just 'frontend' for a while now. It's a smart move to reflect that broader scope. I'm curious to see how this rebrand influences their future course offerings.\n\nOriginal Link: https://master.dev/blog/today-frontend-masters-becomes-master-dev/",
+            "url": "https://digestweb.dev/articles/2026-06-15/frontend-masters-rebrands-to-master-dev",
+            "title": "Frontend Masters Rebrands to Master.dev",
+            "summary": "Frontend Masters, a popular developer learning platform, announces its rebranding to Master.dev, reflecting its expanded course offerings.",
+            "image": "https://master.dev/blog/wp-json/social-image-generator/v1/image/9941",
+            "date_modified": "2026-06-15T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-15/github-copilot-cli-slash-commands-beginners",
+            "content_html": "## Summary & Key Takeaways\n\n- GitHub Copilot CLI offers AI assistance directly in the terminal.\n- Users interact with the AI agent using specific slash commands.\n- The article provides an overview of these common commands.\n- It aims to simplify command-line operations for developers.\n\n## Our Commentary\n\nI'm still trying to figure out where Copilot CLI fits into my workflow. It feels like a solution looking for a problem sometimes, but I'm open to being proven wrong. Maybe this beginner guide will click for someone.\n\nOriginal Link: https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands/",
+            "url": "https://digestweb.dev/articles/2026-06-15/github-copilot-cli-slash-commands-beginners",
+            "title": "GitHub Copilot CLI: Essential Slash Commands",
+            "summary": "Learn to control your terminal AI agent with GitHub Copilot CLI's common slash commands, simplifying your command-line interactions.",
+            "image": "https://github.blog/wp-content/uploads/2026/06/Episode-3.png",
+            "date_modified": "2026-06-15T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-15/github-multilingual-ai-open-dataset",
+            "content_html": "## Summary & Key Takeaways\n\n- GitHub has published a new open dataset under a CC0-1.0 license.\n- The dataset focuses on multilingual developer content.\n- It includes data from READMEs, issues, and pull requests.\n- Aims to accelerate research and development in multilingual AI.\n\n## Our Commentary\n\nOpen datasets are always a win for the community. This one feels particularly important for breaking down language barriers in AI development. We need more initiatives like this.\n\nOriginal Link: https://github.blog/ai-and-ml/llms/accelerating-researchers-and-developers-building-multilingual-ai-with-a-new-open-dataset/",
+            "url": "https://digestweb.dev/articles/2026-06-15/github-multilingual-ai-open-dataset",
+            "title": "New Open Dataset Boosts Multilingual AI Development",
+            "summary": "GitHub releases a new CC0-1.0 licensed dataset to help researchers and developers discover multilingual content across repositories.",
+            "image": "https://github.blog/wp-content/uploads/2026/01/generic-invertocat-github-logo.png",
+            "date_modified": "2026-06-15T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-06-15/mdn-mcp-server-ide-llm-web-platform-data",
             "content_html": "## Summary & Key Takeaways\n\n- The MDN MCP server provides direct access to MDN's documentation.\n- It also delivers up-to-date browser compatibility data.\n- This data is accessible within developers' editors and IDEs.\n- The server is designed to feed accurate information to LLMs and coding agents.\n- The goal is to enhance developer experience by bringing critical web platform data closer to the workflow.\n\n## Our Commentary\n\nThis is a genuinely smart move from MDN. We've all fumbled with browser tabs trying to find that one compatibility detail. Bringing it directly into the IDE, and especially making it accessible to LLMs, feels like a huge leap for developer productivity. I'm curious about the implementation details and how seamless the integration will be. It's a clear signal that MDN is thinking about the future of web development assistance.\n\nOriginal Link: https://developer.mozilla.org/en-US/blog/introducing-mdn-mcp-server/",
             "url": "https://digestweb.dev/articles/2026-06-15/mdn-mcp-server-ide-llm-web-platform-data",
@@ -20,12 +71,30 @@
             "date_modified": "2026-06-15T00:00:00.000Z"
         },
         {
+            "id": "https://digestweb.dev/articles/2026-06-15/playwright-v1-61-webauthn-passkeys-webstorage",
+            "content_html": "## Summary & Key Takeaways\n\n- Introduces a new WebAuthn passkeys API via `browserContext.credentials`.\n- Allows tests to register and use virtual passkeys without real hardware.\n- Adds a new WebStorage API for `localStorage` and `sessionStorage` access.\n- New `apiResponse.securityDetails()` and `apiResponse.serverAddr()` mirror browser APIs.\n- Enhanced video recording options for the test runner.\n\n## Our Commentary\n\nPlaywright just keeps delivering. The WebAuthn passkeys API is a game-changer for testing modern authentication flows; no more faking it. And direct Web Storage access? Yes, please. These are quality-of-life improvements that make a real difference for developers.\n\nOriginal Link: https://github.com/microsoft/playwright/releases/tag/v1.61.0",
+            "url": "https://digestweb.dev/articles/2026-06-15/playwright-v1-61-webauthn-passkeys-webstorage",
+            "title": "Playwright v1.61.0: WebAuthn Passkeys & Web Storage APIs",
+            "summary": "Playwright v1.61.0 introduces new APIs for WebAuthn passkeys and Web Storage, significantly improving testing capabilities for modern web applications.",
+            "image": "https://opengraph.githubassets.com/546cce7b60735d12da2bc41281a86f6a5d2687cf1dd2693fdf973fea9c3dcc0a/microsoft/playwright/releases/tag/v1.61.0",
+            "date_modified": "2026-06-15T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-06-15/pnpm-11-7-frozenstore-read-only-filesystems",
             "content_html": "## Summary & Key Takeaways\n\n- The `frozenStore` setting allows pnpm to install packages from a read-only store, bypassing write operations.\n- This feature is particularly useful for environments with immutable filesystems, such as Nix or OCI layers.\n- It requires Node.js versions >=22.15.0, >=23.11.0, or >=24.0.0.\n- Bin-linking now tolerates read-only stores by skipping redundant chmod operations.\n- pnpm can delegate dependency resolution to `pacquet`, its Rust port, when configured.\n- The feature fails fast if the store is incomplete or if incompatible options like `--force` are used.\n\n## Our Commentary\n\nThis `frozenStore` feature is a big deal for anyone working with immutable infrastructure or containerized builds. We've seen so many headaches trying to get package managers to play nice with read-only layers. The explicit support for Nix-like environments is a smart move. It feels like pnpm is really doubling down on robustness for complex build pipelines. I'm curious how widely this will be adopted, but it definitely solves a pain point.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v11.7.0",
             "url": "https://digestweb.dev/articles/2026-06-15/pnpm-11-7-frozenstore-read-only-filesystems",
             "title": "pnpm 11.7 Introduces `frozenStore` for Read-Only Filesystems",
             "summary": "pnpm 11.7 ships with a new `frozenStore` setting, enabling installations against read-only package stores, crucial for environments like Nix or OCI layers. It also improves bin-linking tolerance and delegates dependency resolution to `pacquet` when configured.",
             "image": "https://opengraph.githubassets.com/6f799b0314cb85d696c8f38529972c3eca71d41714a7084e962af24adf337a9c/pnpm/pnpm/releases/tag/v11.7.0",
+            "date_modified": "2026-06-15T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-15/safari-27-customizable-select-elements",
+            "content_html": "## Summary & Key Takeaways\n\n- Safari 27 will introduce support for customizable select elements.\n- This feature aims to improve the flexibility and styling of `<select>` controls.\n- It addresses a long-standing request from web developers.\n- The article discusses the \"golden rule\" for implementing this functionality.\n\n## Our Commentary\n\nFinally! Customizable select elements in Safari. This has been a thorn in the side of web developers for ages. It's one of those small, foundational improvements that makes a huge difference for design systems and user experience. We've been waiting for this.\n\nOriginal Link: https://webkit.org/blog/18117/the-golden-rule-of-customizable-select/",
+            "url": "https://digestweb.dev/articles/2026-06-15/safari-27-customizable-select-elements",
+            "title": "Safari 27 Brings Customizable Select Elements",
+            "summary": "WebKit announces that Safari 27 will finally support customizable select elements, addressing a long-standing challenge for web developers.",
+            "image": "https://webkit.org/wp-content/uploads/customizable-select-no-labels-LIGHT.png",
             "date_modified": "2026-06-15T00:00:00.000Z"
         },
         {
