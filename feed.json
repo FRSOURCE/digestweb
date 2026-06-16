@@ -11,6 +11,39 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-06-16/ai-export-controls-harm-cyber-defense",
+            "content_html": "## Summary & Key Takeaways\n\n- US export controls on AI models like Claude Fable 5 are under scrutiny.\n- The 'jailbreak' that led to the ban was simply asking the model to 'fix this code'.\n- This capability is crucial for defensive security, allowing AI to identify and patch vulnerabilities.\n- Banning such models prevents them from performing their most valuable security function.\n- Non-technical decision-makers are misinterpreting AI's role in security.\n\n## Our Commentary\n\nThis whole situation is a mess. I genuinely don't know how to feel about policy makers misunderstanding basic AI capabilities to this degree. It's like banning hammers because they _could_ be used to break things, even though their primary purpose is construction. We need AI to fix bugs, especially security ones. This feels like a step backward for cyber defense.\n\nOriginal Link: https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-06-16/ai-export-controls-harm-cyber-defense",
+            "title": "AI Export Controls: Harming Cyber Defense by Misunderstanding 'Jailbreaks'",
+            "summary": "Simon Willison argues that US export controls on models like Claude Fable 5, based on 'jailbreaks' like 'fix this code,' are detrimental to cyber defense.",
+            "image": "https://picsum.photos/id/141/800/450",
+            "date_modified": "2026-06-16T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-16/cloudflare-waf-smarter-captcha-search",
+            "content_html": "## Summary & Key Takeaways\n\n- Discovers a specific Cloudflare WAF rule for CAPTCHA management.\n- The rule targets search URLs containing at least one ampersand.\n- Allows simple `?q=term` searches to bypass the CAPTCHA.\n- Improves user experience by reducing unnecessary challenges.\n- Mentions attempting to use Claude Code for rule editing, but it required switching to the Cloudflare API.\n\n## Our Commentary\n\nThis is a super niche tip, but I've definitely run into similar Cloudflare WAF frustrations. It's a good example of how small tweaks can significantly improve DX. The mention of Claude Code's limitations is also interesting; it reminds us that AI tools aren't magic bullets for every task, especially when dealing with proprietary APIs.\n\nOriginal Link: https://simonwillison.net/2026/Jun/16/captcha-on-at-least-one-ampersand/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-06-16/cloudflare-waf-smarter-captcha-search",
+            "title": "Cloudflare WAF: Smarter CAPTCHA for Search URLs",
+            "summary": "Learn a specific Cloudflare WAF rule to only trigger CAPTCHA for search URLs containing an ampersand, improving user experience for simple queries.",
+            "image": "https://picsum.photos/id/780/800/450",
+            "date_modified": "2026-06-16T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-16/designing-for-clarity-reducing-cognitive-load",
+            "content_html": "## Summary & Key Takeaways\n\n- Examines the design process for a healthcare platform called 'A Better Lou'.\n- Focuses on strategies to reduce cognitive load for users.\n- Covers decisions related to design, content, and underlying systems.\n- Aims to improve clarity and simplify complex information.\n\n## Our Commentary\n\nThis is a solid piece. We often talk about performance and DX, but UX, especially reducing cognitive load, is just as critical. I appreciate seeing a real-world application of these principles, especially in a domain as complex as healthcare. It's a good reminder that good design isn't just aesthetics; it's about making things genuinely easier to use.\n\nOriginal Link: https://tympanus.net/codrops/2026/06/16/designing-a-better-lou-reducing-cognitive-load-through-design-content-and-systems/",
+            "url": "https://digestweb.dev/articles/2026-06-16/designing-for-clarity-reducing-cognitive-load",
+            "title": "Designing for Clarity: Reducing Cognitive Load in Web Applications",
+            "summary": "Explore the design, content, and system decisions behind 'A Better Lou,' a healthcare platform focused on simplifying user experience.",
+            "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/06/abl_featured.webp?x42294",
+            "date_modified": "2026-06-16T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-06-15/agentic-code-review-trusting-ai-code",
             "content_html": "## Summary & Key Takeaways\n\n- AI coding agents are rapidly improving in their code generation capabilities.\n- The challenge for engineers is shifting from writing to reviewing and trusting AI output.\n- Code review is becoming the most leveraged skill in software development.\n- The approach to review varies greatly based on project context and team size.\n\n## Our Commentary\n\nThis is a genuinely fascinating take. I've felt this shift myself; it's less about 'how do I write this?' and more about 'can I trust this AI-generated solution?' The implications for developer workflows and skill sets are huge. We're entering a new era of engineering where critical evaluation is paramount.\n\nOriginal Link: https://addyosmani.com/blog/agentic-code-review/",
             "url": "https://digestweb.dev/articles/2026-06-15/agentic-code-review-trusting-ai-code",
@@ -29,6 +62,18 @@
             "title": "Anthropic Models Offline Due to Internal Clashes & Gov't Scrutiny",
             "summary": "Simon Willison reports on the Axios piece detailing personality clashes at Anthropic that led to models going offline and government export control issues.",
             "image": "https://picsum.photos/id/261/800/450",
+            "date_modified": "2026-06-15T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-15/datasette-agent-user-approval-ai-db-writes",
+            "content_html": "## Summary & Key Takeaways\n\n- `datasette-agent 0.3a0` has been released with new features.\n- A new `execute_write_sql` tool allows AI agents to write to databases.\n- This tool requires explicit user approval for all write operations.\n- The chat terminal mode now supports these approval requests.\n- New options include `--unsafe` for auto-approving actions and `--root` for elevated permissions.\n- Tools can now provide plain text alternatives for CLI display.\n\n## Our Commentary\n\nThis is a smart move. Giving AI agents direct write access to databases always felt a bit... dicey. The user approval mechanism is a crucial guardrail. I'm also intrigued by the `--unsafe` mode; it's a clear acknowledgment of the tension between convenience and control. We're still figuring out how much autonomy to give these things.\n\nOriginal Link: https://simonwillison.net/2026/Jun/15/datasette-agent/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-06-15/datasette-agent-user-approval-ai-db-writes",
+            "title": "Datasette-Agent 0.3a0: User Approval for AI Database Writes",
+            "summary": "Datasette-agent 0.3a0 introduces a new `execute_write_sql` tool requiring user approval for database modifications, alongside enhanced chat terminal features.",
+            "image": "https://picsum.photos/id/290/800/450",
             "date_modified": "2026-06-15T00:00:00.000Z",
             "author": {
                 "name": "Simon Willison"
