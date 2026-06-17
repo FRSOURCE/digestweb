@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-06-17T06:10:57.250Z</updated>
+    <updated>2026-06-17T11:47:54.813Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,52 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Lazy Load GIFs with <click-to-play> Web Component]]></title>
+        <id>https://digestweb.dev/articles/2026-06-17/lazy-load-gifs-click-to-play-web-component</id>
+        <link href="https://digestweb.dev/articles/2026-06-17/lazy-load-gifs-click-to-play-web-component"/>
+        <updated>2026-06-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Discover a new Web Component that transforms GIF links into click-to-play stills, improving page load performance by loading GIFs on demand.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Introduces `<click-to-play>`, a Web Component for lazy-loading GIFs.
+- It displays a still image with a play button, loading the GIF only on user interaction.
+- This component improves page performance by preventing large GIFs from loading automatically.
+- It's built with progressive enhancement in mind, ensuring accessibility.
+- The component was developed for use within Datasette's new row editing tools.
+
+## Our Commentary
+
+We've all been there, scrolling past a page that chugs because of a dozen auto-playing GIFs. This component is such a simple, elegant solution. I love how it leans into progressive enhancement. It's a small thing, but these small things add up to a much better web experience. It makes me wonder why this isn't a native browser feature already.
+
+Original Link: https://simonwillison.net/2026/Jun/17/click-to-play-component/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NetNewsWire: A Retirement Project Focused on Open-Source Excellence]]></title>
+        <id>https://digestweb.dev/articles/2026-06-17/netnewswire-retirement-open-source-excellence</id>
+        <link href="https://digestweb.dev/articles/2026-06-17/netnewswire-retirement-open-source-excellence"/>
+        <updated>2026-06-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Explore the inspiring story of Brent Simmons, who dedicated his retirement to perfecting NetNewsWire, an open-source RSS reader, free from commercial pressures.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Brent Simmons, creator of NetNewsWire, is now focusing on the RSS reader as a retirement project.
+- The project is free from commercial pressures, allowing for a focus on quality.
+- NetNewsWire, first released in 2002, became open source in 2018.
+- The author finds the application indispensable for reading news on Mac and iPhone.
+- This approach highlights a different model for software development.
+
+## Our Commentary
+
+There's something genuinely refreshing about this. Imagine having the freedom to just... make something really, really good, purely for the love of it. No deadlines, no VC pressure, just craft. It makes me think about what we could build if we all had that luxury. A beautiful vision for open source, really.
+
+Original Link: https://simonwillison.net/2026/Jun/17/netnewswire-status/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AI Export Controls: Harming Cyber Defense by Misunderstanding 'Jailbreaks']]></title>
         <id>https://digestweb.dev/articles/2026-06-16/ai-export-controls-harm-cyber-defense</id>
@@ -139,6 +185,29 @@ Original Link: https://blog.codepen.io/2026/06/16/429-why-codepen-rebuilt-its-re
 CSS `@function` is one of those features that feels like it should have been there forever. The ability to define reusable logic directly in CSS, with proper scoping, is a huge win for maintainability. I'm excited to see more practical examples of this.
 
 Original Link: https://master.dev/blog/the-scope-of-css-function/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Datasette 1.0a34 Introduces In-Browser Data Editing Capabilities]]></title>
+        <id>https://digestweb.dev/articles/2026-06-16/datasette-1-0a34-in-browser-data-editing</id>
+        <link href="https://digestweb.dev/articles/2026-06-16/datasette-1-0a34-in-browser-data-editing"/>
+        <updated>2026-06-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Datasette's latest alpha release, 1.0a34, brings long-awaited features for inserting, editing, and deleting rows directly within its web interface.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Datasette 1.0a34 introduces new tools for managing data directly in the interface.
+- Users can now insert, edit, and delete rows on table pages.
+- Row-specific actions are also available on individual row pages.
+- The feature was inspired by the ability to edit data via Datasette Agent's chat interface.
+- This update significantly enhances Datasette's utility as a data exploration and management tool.
+
+## Our Commentary
+
+This is a big one for Datasette users. We've always loved it for exploration, but the lack of direct editing was a bit of a friction point. It's almost funny that the AI agent got write access before the main UI! This update makes Datasette even more powerful. It feels like it's maturing into a full-fledged data workbench.
+
+Original Link: https://simonwillison.net/2026/Jun/16/datasette/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Designing for Clarity: Reducing Cognitive Load in Web Applications]]></title>

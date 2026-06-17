@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Wed, 17 Jun 2026 06:10:57 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 17 Jun 2026 11:47:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,48 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Lazy Load GIFs with <click-to-play> Web Component]]></title>
+            <link>https://digestweb.dev/articles/2026-06-17/lazy-load-gifs-click-to-play-web-component</link>
+            <guid>https://digestweb.dev/articles/2026-06-17/lazy-load-gifs-click-to-play-web-component</guid>
+            <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover a new Web Component that transforms GIF links into click-to-play stills, improving page load performance by loading GIFs on demand.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Introduces `<click-to-play>`, a Web Component for lazy-loading GIFs.
+- It displays a still image with a play button, loading the GIF only on user interaction.
+- This component improves page performance by preventing large GIFs from loading automatically.
+- It's built with progressive enhancement in mind, ensuring accessibility.
+- The component was developed for use within Datasette's new row editing tools.
+
+## Our Commentary
+
+We've all been there, scrolling past a page that chugs because of a dozen auto-playing GIFs. This component is such a simple, elegant solution. I love how it leans into progressive enhancement. It's a small thing, but these small things add up to a much better web experience. It makes me wonder why this isn't a native browser feature already.
+
+Original Link: https://simonwillison.net/2026/Jun/17/click-to-play-component/#atom-everything]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/749/800/450" length="0" type="image//id/749/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[NetNewsWire: A Retirement Project Focused on Open-Source Excellence]]></title>
+            <link>https://digestweb.dev/articles/2026-06-17/netnewswire-retirement-open-source-excellence</link>
+            <guid>https://digestweb.dev/articles/2026-06-17/netnewswire-retirement-open-source-excellence</guid>
+            <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore the inspiring story of Brent Simmons, who dedicated his retirement to perfecting NetNewsWire, an open-source RSS reader, free from commercial pressures.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Brent Simmons, creator of NetNewsWire, is now focusing on the RSS reader as a retirement project.
+- The project is free from commercial pressures, allowing for a focus on quality.
+- NetNewsWire, first released in 2002, became open source in 2018.
+- The author finds the application indispensable for reading news on Mac and iPhone.
+- This approach highlights a different model for software development.
+
+## Our Commentary
+
+There's something genuinely refreshing about this. Imagine having the freedom to just... make something really, really good, purely for the love of it. No deadlines, no VC pressure, just craft. It makes me think about what we could build if we all had that luxury. A beautiful vision for open source, really.
+
+Original Link: https://simonwillison.net/2026/Jun/17/netnewswire-status/#atom-everything]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/887/800/450" length="0" type="image//id/887/800/450"/>
+        </item>
         <item>
             <title><![CDATA[AI Export Controls: Harming Cyber Defense by Misunderstanding 'Jailbreaks']]></title>
             <link>https://digestweb.dev/articles/2026-06-16/ai-export-controls-harm-cyber-defense</link>
@@ -140,6 +182,27 @@ CSS `@function` is one of those features that feels like it should have been the
 
 Original Link: https://master.dev/blog/the-scope-of-css-function/]]></content:encoded>
             <enclosure url="https://master.dev/blog/wp-json/social-image-generator/v1/image/9932" length="0" type="image//blog/wp-json/social-image-generator/v1/image/9932"/>
+        </item>
+        <item>
+            <title><![CDATA[Datasette 1.0a34 Introduces In-Browser Data Editing Capabilities]]></title>
+            <link>https://digestweb.dev/articles/2026-06-16/datasette-1-0a34-in-browser-data-editing</link>
+            <guid>https://digestweb.dev/articles/2026-06-16/datasette-1-0a34-in-browser-data-editing</guid>
+            <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Datasette's latest alpha release, 1.0a34, brings long-awaited features for inserting, editing, and deleting rows directly within its web interface.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Datasette 1.0a34 introduces new tools for managing data directly in the interface.
+- Users can now insert, edit, and delete rows on table pages.
+- Row-specific actions are also available on individual row pages.
+- The feature was inspired by the ability to edit data via Datasette Agent's chat interface.
+- This update significantly enhances Datasette's utility as a data exploration and management tool.
+
+## Our Commentary
+
+This is a big one for Datasette users. We've always loved it for exploration, but the lack of direct editing was a bit of a friction point. It's almost funny that the AI agent got write access before the main UI! This update makes Datasette even more powerful. It feels like it's maturing into a full-fledged data workbench.
+
+Original Link: https://simonwillison.net/2026/Jun/16/datasette/#atom-everything]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/3/800/450" length="0" type="image//id/3/800/450"/>
         </item>
         <item>
             <title><![CDATA[Designing for Clarity: Reducing Cognitive Load in Web Applications]]></title>

@@ -11,6 +11,30 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-06-17/lazy-load-gifs-click-to-play-web-component",
+            "content_html": "## Summary & Key Takeaways\n\n- Introduces `<click-to-play>`, a Web Component for lazy-loading GIFs.\n- It displays a still image with a play button, loading the GIF only on user interaction.\n- This component improves page performance by preventing large GIFs from loading automatically.\n- It's built with progressive enhancement in mind, ensuring accessibility.\n- The component was developed for use within Datasette's new row editing tools.\n\n## Our Commentary\n\nWe've all been there, scrolling past a page that chugs because of a dozen auto-playing GIFs. This component is such a simple, elegant solution. I love how it leans into progressive enhancement. It's a small thing, but these small things add up to a much better web experience. It makes me wonder why this isn't a native browser feature already.\n\nOriginal Link: https://simonwillison.net/2026/Jun/17/click-to-play-component/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-06-17/lazy-load-gifs-click-to-play-web-component",
+            "title": "Lazy Load GIFs with <click-to-play> Web Component",
+            "summary": "Discover a new Web Component that transforms GIF links into click-to-play stills, improving page load performance by loading GIFs on demand.",
+            "image": "https://picsum.photos/id/749/800/450",
+            "date_modified": "2026-06-17T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-17/netnewswire-retirement-open-source-excellence",
+            "content_html": "## Summary & Key Takeaways\n\n- Brent Simmons, creator of NetNewsWire, is now focusing on the RSS reader as a retirement project.\n- The project is free from commercial pressures, allowing for a focus on quality.\n- NetNewsWire, first released in 2002, became open source in 2018.\n- The author finds the application indispensable for reading news on Mac and iPhone.\n- This approach highlights a different model for software development.\n\n## Our Commentary\n\nThere's something genuinely refreshing about this. Imagine having the freedom to just... make something really, really good, purely for the love of it. No deadlines, no VC pressure, just craft. It makes me think about what we could build if we all had that luxury. A beautiful vision for open source, really.\n\nOriginal Link: https://simonwillison.net/2026/Jun/17/netnewswire-status/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-06-17/netnewswire-retirement-open-source-excellence",
+            "title": "NetNewsWire: A Retirement Project Focused on Open-Source Excellence",
+            "summary": "Explore the inspiring story of Brent Simmons, who dedicated his retirement to perfecting NetNewsWire, an open-source RSS reader, free from commercial pressures.",
+            "image": "https://picsum.photos/id/887/800/450",
+            "date_modified": "2026-06-17T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-06-16/ai-export-controls-harm-cyber-defense",
             "content_html": "## Summary & Key Takeaways\n\n- US export controls on AI models like Claude Fable 5 are under scrutiny.\n- The 'jailbreak' that led to the ban was simply asking the model to 'fix this code'.\n- This capability is crucial for defensive security, allowing AI to identify and patch vulnerabilities.\n- Banning such models prevents them from performing their most valuable security function.\n- Non-technical decision-makers are misinterpreting AI's role in security.\n\n## Our Commentary\n\nThis whole situation is a mess. I genuinely don't know how to feel about policy makers misunderstanding basic AI capabilities to this degree. It's like banning hammers because they _could_ be used to break things, even though their primary purpose is construction. We need AI to fix bugs, especially security ones. This feels like a step backward for cyber defense.\n\nOriginal Link: https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything",
             "url": "https://digestweb.dev/articles/2026-06-16/ai-export-controls-harm-cyber-defense",
@@ -69,6 +93,18 @@
             "summary": "This article explores the advantages of variable and evaluation scope within CSS `@function` rules. It provides insights into how this powerful new feature enhances CSS capabilities and organization.",
             "image": "https://master.dev/blog/wp-json/social-image-generator/v1/image/9932",
             "date_modified": "2026-06-16T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-16/datasette-1-0a34-in-browser-data-editing",
+            "content_html": "## Summary & Key Takeaways\n\n- Datasette 1.0a34 introduces new tools for managing data directly in the interface.\n- Users can now insert, edit, and delete rows on table pages.\n- Row-specific actions are also available on individual row pages.\n- The feature was inspired by the ability to edit data via Datasette Agent's chat interface.\n- This update significantly enhances Datasette's utility as a data exploration and management tool.\n\n## Our Commentary\n\nThis is a big one for Datasette users. We've always loved it for exploration, but the lack of direct editing was a bit of a friction point. It's almost funny that the AI agent got write access before the main UI! This update makes Datasette even more powerful. It feels like it's maturing into a full-fledged data workbench.\n\nOriginal Link: https://simonwillison.net/2026/Jun/16/datasette/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-06-16/datasette-1-0a34-in-browser-data-editing",
+            "title": "Datasette 1.0a34 Introduces In-Browser Data Editing Capabilities",
+            "summary": "Datasette's latest alpha release, 1.0a34, brings long-awaited features for inserting, editing, and deleting rows directly within its web interface.",
+            "image": "https://picsum.photos/id/3/800/450",
+            "date_modified": "2026-06-16T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
         },
         {
             "id": "https://digestweb.dev/articles/2026-06-16/designing-for-clarity-reducing-cognitive-load",
