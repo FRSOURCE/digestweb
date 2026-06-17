@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-06-16T12:12:51.741Z</updated>
+    <updated>2026-06-17T06:10:57.250Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -38,6 +38,46 @@ Original Link: https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#at
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Anthropic Research: Agentic Coding & Returns to Expertise]]></title>
+        <id>https://digestweb.dev/articles/2026-06-16/anthropic-agentic-coding-expertise-returns</id>
+        <link href="https://digestweb.dev/articles/2026-06-16/anthropic-agentic-coding-expertise-returns"/>
+        <updated>2026-06-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Anthropic's latest research explores the economic implications of agentic coding and how human expertise continues to yield value alongside AI. It examines the evolving dynamics between AI agents and skilled developers.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Anthropic research investigates the economic impact of agentic coding systems.
+- The study analyzes how human expertise maintains value in an AI-augmented development landscape.
+- It explores the interplay between autonomous AI agents and skilled human programmers.
+- Findings suggest that specialized human knowledge continues to offer significant returns.
+- The paper likely provides insights into future workforce dynamics in software engineering.
+
+## Our Commentary
+
+This is fascinating. The idea that expertise still matters, even with agentic coding, is a relief. I've been wondering if we're all just going to become prompt engineers. It's good to see research pushing back on that narrative a bit.
+
+Original Link: https://www.anthropic.com/research/claude-code-expertise]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chris' Corner: Exploring Container Query Units for CSS Layouts]]></title>
+        <id>https://digestweb.dev/articles/2026-06-16/chris-coyier-container-query-units-css</id>
+        <link href="https://digestweb.dev/articles/2026-06-16/chris-coyier-container-query-units-css"/>
+        <updated>2026-06-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Chris Coyier discusses the power of CSS Container Query Units, reacting to Ryan Mulligan's article on dynamic element positioning. He explores the challenge of moving elements from left to right within unknown container sizes.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Chris Coyier reflects on the utility of CSS Container Query Units.
+- He discusses the challenge of dynamically positioning elements within unknown container sizes.
+- The post references Ryan Mulligan's article on 'Transition to the Other Wide.'
+- It highlights the flexibility and problem-solving potential of container queries.
+- This commentary offers a practical perspective on advanced CSS layout techniques.
+
+## Our Commentary
+
+Container query units are still blowing my mind a bit. The idea of elements reacting to their _parent's_ size, not just the viewport, feels like a superpower we've been waiting for. Chris's enthusiasm is infectious.
+
+Original Link: https://blog.codepen.io/2026/06/16/chris-corner-the-edge-man/]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Cloudflare WAF: Smarter CAPTCHA for Search URLs]]></title>
         <id>https://digestweb.dev/articles/2026-06-16/cloudflare-waf-smarter-captcha-search</id>
         <link href="https://digestweb.dev/articles/2026-06-16/cloudflare-waf-smarter-captcha-search"/>
@@ -61,6 +101,46 @@ Original Link: https://simonwillison.net/2026/Jun/16/captcha-on-at-least-one-amp
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[CodePen's Realtime Service Rebuild: Lessons Learned]]></title>
+        <id>https://digestweb.dev/articles/2026-06-16/codepen-realtime-service-rebuild-lessons</id>
+        <link href="https://digestweb.dev/articles/2026-06-16/codepen-realtime-service-rebuild-lessons"/>
+        <updated>2026-06-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CodePen details the extensive rebuild of its realtime service, sharing insights into the challenges and solutions encountered. The article covers the architectural decisions and technical hurdles involved in enhancing collaborative features.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- CodePen undertook a significant rebuild of its long-standing realtime service.
+- The article explains the motivations and technical challenges behind this overhaul.
+- It likely delves into architectural choices and scaling issues for collaborative features.
+- The rebuild aimed to improve reliability and performance for features like Collab Mode.
+- This post offers valuable engineering insights from a popular web development platform.
+
+## Our Commentary
+
+Rebuilding a core realtime service is no small feat. I'm always fascinated by these 'behind the scenes' engineering stories. It's a good reminder that even established platforms face complex scaling and reliability challenges.
+
+Original Link: https://blog.codepen.io/2026/06/16/429-why-codepen-rebuilt-its-realtime-service/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Understanding Variable Scope in CSS @function]]></title>
+        <id>https://digestweb.dev/articles/2026-06-16/css-at-function-variable-scope</id>
+        <link href="https://digestweb.dev/articles/2026-06-16/css-at-function-variable-scope"/>
+        <updated>2026-06-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article explores the advantages of variable and evaluation scope within CSS `@function` rules. It provides insights into how this powerful new feature enhances CSS capabilities and organization.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article delves into the concept of variable scope within CSS `@function`.
+- It highlights the benefits of evaluation scope provided by this feature.
+- Understanding `@function` scope can lead to more organized and powerful CSS.
+- This feature offers new ways to manage and reuse values in stylesheets.
+- It represents a significant addition to the capabilities of native CSS.
+
+## Our Commentary
+
+CSS `@function` is one of those features that feels like it should have been there forever. The ability to define reusable logic directly in CSS, with proper scoping, is a huge win for maintainability. I'm excited to see more practical examples of this.
+
+Original Link: https://master.dev/blog/the-scope-of-css-function/]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Designing for Clarity: Reducing Cognitive Load in Web Applications]]></title>
         <id>https://digestweb.dev/articles/2026-06-16/designing-for-clarity-reducing-cognitive-load</id>
         <link href="https://digestweb.dev/articles/2026-06-16/designing-for-clarity-reducing-cognitive-load"/>
@@ -78,6 +158,170 @@ Original Link: https://simonwillison.net/2026/Jun/16/captcha-on-at-least-one-amp
 This is a solid piece. We often talk about performance and DX, but UX, especially reducing cognitive load, is just as critical. I appreciate seeing a real-world application of these principles, especially in a domain as complex as healthcare. It's a good reminder that good design isn't just aesthetics; it's about making things genuinely easier to use.
 
 Original Link: https://tympanus.net/codrops/2026/06/16/designing-a-better-lou-reducing-cognitive-load-through-design-content-and-systems/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Interview: Frontier Post-Training Recipes for AI Models]]></title>
+        <id>https://digestweb.dev/articles/2026-06-16/frontier-ai-post-training-recipes-interview</id>
+        <link href="https://digestweb.dev/articles/2026-06-16/frontier-ai-post-training-recipes-interview"/>
+        <updated>2026-06-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Nathan Lambert interviews Finbarr Timbers on advanced post-training techniques for frontier AI models. This discussion delves into the intricate processes that refine and optimize large language models.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article presents an interview with Finbarr Timbers on frontier post-training recipes.
+- It explores advanced techniques used to refine and optimize large AI models.
+- The discussion likely covers specific methodologies and challenges in model development.
+- Insights are shared regarding the practical application of these post-training strategies.
+
+## Our Commentary
+
+I'm always curious about the nitty-gritty of model refinement. 'Post-training recipes' sounds like the kind of detail that separates good models from great ones. We need more transparency here, I think.
+
+Original Link: https://www.interconnects.ai/p/frontier-post-training-recipe-review]]></content>
+        <author>
+            <name>Nathan Lambert</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Georgi Gerganov on Qwen3.6-27B: A Capable Local LLM for Coding]]></title>
+        <id>https://digestweb.dev/articles/2026-06-16/georgi-gerganov-qwen-local-llm-coding</id>
+        <link href="https://digestweb.dev/articles/2026-06-16/georgi-gerganov-qwen-local-llm-coding"/>
+        <updated>2026-06-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison shares Georgi Gerganov's strong endorsement of Qwen3.6-27B as a highly capable local LLM for coding tasks. Gerganov details his daily use for mundane tasks and its utility as a maintainer's tool.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Georgi Gerganov highly recommends Qwen3.6-27B as an effective local LLM for coding.
+- He uses it daily for small, mundane programming tasks at ggml-org.
+- The model runs efficiently on his M2 Ultra and RTX 5090 setups.
+- Gerganov highlights its utility as a helpful tool for maintainers.
+- He employs a lightweight agent harness with a custom system prompt for alignment.
+
+## Our Commentary
+
+Georgi Gerganov's word carries weight in the local LLM scene. If he's saying Qwen3.6-27B is 'very capable' for coding, I'm paying attention. It's good to hear practical, real-world usage reports, not just benchmark numbers.
+
+Original Link: https://simonwillison.net/2026/Jun/16/georgi-gerganov/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Git Worktrees: Streamline Your Workflow with Multiple Branches]]></title>
+        <id>https://digestweb.dev/articles/2026-06-16/git-worktrees-streamline-workflow</id>
+        <link href="https://digestweb.dev/articles/2026-06-16/git-worktrees-streamline-workflow"/>
+        <updated>2026-06-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Git worktrees allow you to check out multiple branches of a single repository simultaneously. This guide explains how to leverage them for a more efficient development experience.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Git worktrees enable checking out multiple branches from one repository at once.
+- They help manage parallel development tasks without switching branches in your main working directory.
+- This feature is particularly useful for hotfixes, feature development, or experimenting with different versions.
+- Worktrees maintain separate working directories and Git histories, simplifying context switching.
+- The article covers setup, common use cases, and best practices for integration into your workflow.
+
+## Our Commentary
+
+I've always found worktrees incredibly useful for juggling multiple tasks. It's one of those Git features that feels like a secret weapon once you adopt it. We should all be using them; the context switching savings are real.
+
+Original Link: https://github.blog/ai-and-ml/github-copilot/what-are-git-worktrees-and-why-should-i-use-them/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google DeepMind & UK Gov Partner for AI-Accelerated Housing Planning]]></title>
+        <id>https://digestweb.dev/articles/2026-06-16/google-deepmind-uk-housing-ai-planning</id>
+        <link href="https://digestweb.dev/articles/2026-06-16/google-deepmind-uk-housing-ai-planning"/>
+        <updated>2026-06-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Google DeepMind is collaborating with the UK government to develop an AI prototype. This initiative aims to accelerate housing decisions and streamline the planning process across the UK.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Google DeepMind is partnering with the UK government on an AI initiative.
+- The project focuses on developing a prototype for accelerated housing planning.
+- The goal is to speed up decision-making processes for house-building in the UK.
+- This collaboration represents a specific application of AI in public policy.
+
+## Our Commentary
+
+It's always interesting to see AI applied to real-world, bureaucratic problems. Faster housing decisions? That sounds like a dream. I wonder how much 'AI-accelerated' actually means 'AI-assisted' in practice.
+
+Original Link: https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Launches TPU Developer Hub for AI Model Optimization]]></title>
+        <id>https://digestweb.dev/articles/2026-06-16/google-tpu-developer-hub-ai-optimization</id>
+        <link href="https://digestweb.dev/articles/2026-06-16/google-tpu-developer-hub-ai-optimization"/>
+        <updated>2026-06-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Google introduces a new Developer Hub dedicated to its TPU stack, offering comprehensive resources for AI model builders. The hub provides code-first guides, open-source recipes, and deep documentation to maximize TPU performance.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Google has launched a new Developer Hub for its TPU stack.
+- The hub provides centralized educational resources for AI model builders.
+- It includes code-first guides, open-source recipes, and deep documentation.
+- Topics cover hardware architecture, software optimization, and debugging.
+- The resources aim to maximize performance for large-scale training and inference workloads.
+
+## Our Commentary
+
+A dedicated hub for TPUs makes sense. These things are complex beasts, and any effort to simplify their use for developers is welcome. I'm curious if the 'AI-assisted tools' mentioned are actually useful or just marketing fluff.
+
+Original Link: https://developers.googleblog.com/unlocking-the-power-of-the-tpu-stack-introducing-our-new-developer-hub/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI's Deployment Simulation: Predicting AI Behavior for Safer Releases]]></title>
+        <id>https://digestweb.dev/articles/2026-06-16/openai-deployment-simulation-ai-safety</id>
+        <link href="https://digestweb.dev/articles/2026-06-16/openai-deployment-simulation-ai-safety"/>
+        <updated>2026-06-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI unveils Deployment Simulation, a novel method to forecast AI model behavior pre-release. This technique uses real conversation data to enhance safety and evaluation accuracy, aiming for more responsible AI deployment.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI introduces Deployment Simulation to predict AI model behavior before public release.
+- The method utilizes real conversation data for more accurate safety evaluations.
+- It aims to identify and mitigate potential risks and biases early in the development cycle.
+- This approach enhances the reliability and trustworthiness of new AI models.
+- The goal is to improve overall safety and evaluation accuracy for AI systems.
+
+## Our Commentary
+
+This is a crucial step for AI safety. We've all seen models go off the rails in unexpected ways. Simulating deployment with real data feels like a common-sense approach, but it's probably incredibly complex to execute. I'm glad they're investing in this.
+
+Original Link: https://openai.com/index/deployment-simulation]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Probabilistic Design: Embracing Uncertainty with AI in UX]]></title>
+        <id>https://digestweb.dev/articles/2026-06-16/probabilistic-design-ai-ux-uncertainty</id>
+        <link href="https://digestweb.dev/articles/2026-06-16/probabilistic-design-ai-ux-uncertainty"/>
+        <updated>2026-06-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article introduces 'Probabilistic Design,' a new mindset for UX and product teams working with AI. It advocates for accepting uncertainty, nuanced interpretation of AI outputs, and making adaptive decisions in an AI-informed design process.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article introduces the concept of 'Probabilistic Design' for AI-informed UX.
+- It encourages designers to embrace uncertainty in AI predictions, not certainty.
+- The mindset promotes nuanced interpretation of AI outputs for better decisions.
+- It helps UX and product teams make adaptive choices in an evolving AI landscape.
+- This approach aims to prevent mistaking AI predictions for absolute truths.
+
+## Our Commentary
+
+'Probabilistic Design' is a concept we absolutely need. The hype around AI often makes it sound like a crystal ball, but it's anything but. Teaching designers to think in probabilities and embrace the messiness of AI outputs is crucial for building truly resilient systems.
+
+Original Link: https://smashingmagazine.com/2026/06/designing-uncertainty-how-ai-supercharges-probabilistic-thinking/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Prop For That: Exposing Live Browser Data to CSS]]></title>
+        <id>https://digestweb.dev/articles/2026-06-16/prop-for-that-live-browser-data-css</id>
+        <link href="https://digestweb.dev/articles/2026-06-16/prop-for-that-live-browser-data-css"/>
+        <updated>2026-06-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA['Prop For That' is a tool that generates live CSS custom properties from dynamic browser states. It allows CSS to react to data like cursor position, scroll velocity, and form states, which are typically inaccessible.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- 'Prop For That' creates live CSS custom properties from dynamic browser information.
+- It exposes data points like cursor position, scroll velocity, and form states to CSS.
+- This utility enables more reactive and context-aware CSS styling.
+- It bridges the gap between JavaScript-driven browser events and pure CSS capabilities.
+- The tool offers a novel way to enhance interactive web design with CSS.
+
+## Our Commentary
+
+This is genuinely clever. We've all hit those walls where CSS just can't 'see' something happening in the DOM without JavaScript. Exposing these dynamic states as custom properties feels like a natural extension. I'm excited to play with this.
+
+Original Link: https://css-tricks.com/prop-for-that/]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Agentic Code Review: Trusting AI-Generated Code]]></title>
