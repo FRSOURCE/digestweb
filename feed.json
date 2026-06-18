@@ -11,6 +11,108 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-06-17/agentic-resource-discovery-ai-agents-search",
+            "content_html": "## Summary & Key Takeaways\n\n- The article introduces the concept of Agentic Resource Discovery for AI systems.\n- It focuses on enabling AI agents to autonomously search for and utilize resources.\n- This capability is crucial for developing more independent and capable AI systems.\n- It complements the broader initiative for an open specification in this area.\n\n## Our Commentary\n\nThe idea of agents actively _discovering_ resources rather than just being fed them is a huge leap. It moves us closer to truly autonomous systems. I'm fascinated by the implications for how we design and interact with AI.\n\nOriginal Link: https://huggingface.co/blog/agentic-resource-discovery-launch",
+            "url": "https://digestweb.dev/articles/2026-06-17/agentic-resource-discovery-ai-agents-search",
+            "title": "Agentic Resource Discovery: Empowering AI Agents to Search",
+            "summary": "This Hugging Face blog post explores the concept of Agentic Resource Discovery, detailing how AI agents can autonomously find and leverage resources across the web.",
+            "image": "https://huggingface.co/blog/assets/agentic-resource-discovery-launch/thumbnail.png",
+            "date_modified": "2026-06-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-17/charity-majors-ai-code-economics-discipline",
+            "content_html": "## Summary & Key Takeaways\n\n- Charity Majors observes a fundamental shift in code production economics due to AI.\n- Code generation has become effectively free and instant, changing its value proposition.\n- This transforms code from a treasured asset to a disposable, regenerable commodity.\n- Majors argues this shift necessitates _more_ engineering discipline, not less, from developers.\n\n## Our Commentary\n\nCharity Majors always cuts right to the chase. This quote perfectly encapsulates the unsettling, yet transformative, impact of AI on our craft. 'Disposable and regenerable' code is a concept I'm still grappling with. It feels like a profound re-evaluation of what 'engineering' even means in this new landscape.\n\nOriginal Link: https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-06-17/charity-majors-ai-code-economics-discipline",
+            "title": "Charity Majors: AI Transforms Code Economics, Demands Discipline",
+            "summary": "Simon Willison shares a powerful quote from Charity Majors, arguing that AI has made code generation 'free and instant,' fundamentally altering its value and requiring greater engineering discipline.",
+            "image": "https://picsum.photos/id/175/800/450",
+            "date_modified": "2026-06-17T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-17/claude-design-brand-consistency-feature",
+            "content_html": "## Summary & Key Takeaways\n\n- Claude has rolled out a new design-focused feature.\n- This update helps ensure brand consistency in daily creative and operational tasks.\n- It aims to streamline workflows for users needing on-brand outputs consistently.\n- The feature is integrated into the Claude platform for various design-related activities.\n\n## Our Commentary\n\nBrand consistency is a huge headache for many organizations. If Claude can genuinely help automate that, it's a powerful tool for designers and marketers. I'm always intrigued by how AI can tackle these seemingly 'soft' problems.\n\nOriginal Link: https://claude.com/blog/claude-design-stays-on-brand-for-daily-work",
+            "url": "https://digestweb.dev/articles/2026-06-17/claude-design-brand-consistency-feature",
+            "title": "Claude Design Feature Ensures Brand Consistency in Daily Work",
+            "summary": "Claude introduces a new design feature that helps users maintain brand consistency across their daily creative and operational tasks within the platform.",
+            "image": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg",
+            "date_modified": "2026-06-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-17/claude-opus-4-8-hackathon-winners",
+            "content_html": "## Summary & Key Takeaways\n\n- Anthropic has announced the winners of its Claude Opus 4.8 Build Day hackathon.\n- The event showcased various innovative projects built using the Claude platform.\n- Winning teams demonstrated creative applications and problem-solving with the AI model.\n- This highlights the community's engagement and the versatility of Claude Opus 4.8.\n\n## Our Commentary\n\nHackathons are always a great way to see what people can build when given a powerful tool. It's inspiring to see the creativity unleashed with Claude Opus 4.8. I'm always curious about the unexpected use cases that emerge from these events.\n\nOriginal Link: https://claude.com/blog/meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon",
+            "url": "https://digestweb.dev/articles/2026-06-17/claude-opus-4-8-hackathon-winners",
+            "title": "Claude Opus 4.8 Build Day Hackathon Winners Announced",
+            "summary": "Anthropic shares the winning projects from its recent Claude Opus 4.8 Build Day hackathon, highlighting innovative applications built on the Claude platform.",
+            "image": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg",
+            "date_modified": "2026-06-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-17/claude-platform-workload-identity-federation-security",
+            "content_html": "## Summary & Key Takeaways\n\n- Claude has implemented Workload Identity Federation for its platform.\n- This feature aims to provide more secure access for users and applications.\n- It streamlines authentication and authorization processes for cloud workloads.\n- The update is particularly beneficial for enterprise integrations and compliance.\n\n## Our Commentary\n\nSecurity is paramount, especially when dealing with AI platforms and sensitive data. Workload Identity Federation is a solid step for Claude to ensure robust access control. It's good to see these foundational elements being prioritized.\n\nOriginal Link: https://claude.com/blog/workload-identity-federation",
+            "url": "https://digestweb.dev/articles/2026-06-17/claude-platform-workload-identity-federation-security",
+            "title": "Claude Platform Enhances Security with Workload Identity Federation",
+            "summary": "Claude announces the integration of Workload Identity Federation, providing enhanced secure access to its AI platform for enterprise and cloud environments.",
+            "image": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg",
+            "date_modified": "2026-06-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-17/cyd-stumpel-web-journey-css-motion",
+            "content_html": "## Summary & Key Takeaways\n\n- Codrops presents an interview with prominent web developer Cyd Stumpel.\n- She discusses her career path, from award-winning client projects to educating new developers.\n- The interview emphasizes the role of curiosity and thoughtful motion in her creative practice.\n- Modern CSS techniques are central to her evolving approach to web design.\n\n## Our Commentary\n\nI always enjoy these deep dives into individual developer journeys. Cyd Stumpel's focus on thoughtful motion and modern CSS is inspiring. It's a good reminder that the web isn't just about frameworks and build tools; it's also about craft and creative expression.\n\nOriginal Link: https://tympanus.net/codrops/2026/06/17/always-building-always-learning-cyd-stumpels-journey-through-the-modern-web/",
+            "url": "https://digestweb.dev/articles/2026-06-17/cyd-stumpel-web-journey-css-motion",
+            "title": "Cyd Stumpel's Web Journey: Curiosity, Motion, and Modern CSS",
+            "summary": "Codrops features an interview with Cyd Stumpel, exploring her career from client work to teaching, highlighting her passion for thoughtful motion and modern CSS.",
+            "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/06/cydstumpel.webp?x13474",
+            "date_modified": "2026-06-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-17/github-copilot-token-context-efficiency",
+            "content_html": "## Summary & Key Takeaways\n\n- GitHub Copilot is enhancing its context handling and model routing mechanisms.\n- The goal is to maximize the utility of each token during AI-assisted coding sessions.\n- These improvements aim to make developer credits go further by reducing wasted computation.\n- The article explains the technical strategies behind these efficiency gains.\n\n## Our Commentary\n\nI appreciate the transparency here. It's easy to forget the engineering effort behind these AI tools. Making every token count is crucial for both performance and cost, especially as these models get larger. It's a good reminder that even 'magic' needs optimization.\n\nOriginal Link: https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/",
+            "url": "https://digestweb.dev/articles/2026-06-17/github-copilot-token-context-efficiency",
+            "title": "GitHub Copilot Boosts Efficiency: Smarter Token & Context Handling",
+            "summary": "GitHub Copilot details how it's optimizing token usage and model routing to make AI-assisted coding sessions more efficient and cost-effective for developers.",
+            "image": "https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo-stripe.png",
+            "date_modified": "2026-06-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-17/glm-5-2-llm-long-horizon-tasks",
+            "content_html": "## Summary & Key Takeaways\n\n- GLM-5.2 is a new large language model introduced by Hugging Face.\n- It is specifically engineered to excel at complex, long-horizon tasks.\n- This addresses a common challenge in existing LLMs regarding extended context and planning.\n- The model aims to improve performance on multi-step operations and sustained reasoning.\n\n## Our Commentary\n\nLong-horizon tasks are the holy grail for many LLM applications. If GLM-5.2 genuinely makes strides here, it could unlock a whole new class of AI agents and assistants. I'm always skeptical until I see it in action, but the promise is huge.\n\nOriginal Link: https://huggingface.co/blog/zai-org/glm-52-blog",
+            "url": "https://digestweb.dev/articles/2026-06-17/glm-5-2-llm-long-horizon-tasks",
+            "title": "GLM-5.2 LLM Unveiled: Optimized for Long-Horizon Tasks",
+            "summary": "Hugging Face announces GLM-5.2, a new large language model specifically designed and optimized to handle complex, long-horizon tasks more effectively than previous iterations.",
+            "image": "https://cdn-uploads.huggingface.co/production/uploads/67066ea38a79951d7b8d4195/iaTHtYOBgeY0C3Xx3vymr.png",
+            "date_modified": "2026-06-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-17/google-a2ui-mcp-apps-agentic-ui-architectures",
+            "content_html": "## Summary & Key Takeaways\n\n- Google introduces architectural patterns for building agentic user interfaces.\n- These patterns integrate Model Context Protocol (MCP) Apps and Agent-to-User Interface (A2UI).\n- The goal is to balance highly custom iframe environments with native, declarative rendering.\n- Developers can create secure, performant, and brand-consistent agentic UIs tailored to project needs.\n\n## Our Commentary\n\nBuilding UIs for AI agents is a whole new frontier. The tension between customizability and native feel is real, and these architectural patterns sound like a thoughtful approach to it. It's good to see Google thinking about the developer experience for this emerging paradigm.\n\nOriginal Link: https://developers.googleblog.com/a2ui-and-mcp-apps/",
+            "url": "https://digestweb.dev/articles/2026-06-17/google-a2ui-mcp-apps-agentic-ui-architectures",
+            "title": "Google's A2UI + MCP Apps: Hybrid Architectures for Agentic UIs",
+            "summary": "Google details new architectural patterns that combine A2UI and MCP Apps, offering developers flexible solutions for building secure, performant, and brand-consistent user interfaces for AI agents.",
+            "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_ec1a5jec1a.2e16d0ba.fill-1200x600.jpg",
+            "date_modified": "2026-06-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-17/google-agentic-resource-discovery-specification",
+            "content_html": "## Summary & Key Takeaways\n\n- Google has released an open specification for Agentic Resource Discovery.\n- This specification aims to standardize how AI agents locate and verify resources.\n- It covers finding tools, skills, and other agents across the web.\n- The initiative promotes interoperability and a more robust, open agent ecosystem.\n\n## Our Commentary\n\nThis is huge. An open specification for agentic resource discovery is exactly what we need to avoid a fragmented, proprietary agent landscape. It's a foundational piece for building a truly interoperable AI ecosystem. I'm cautiously optimistic that this could prevent some of the walled gardens we've seen in other tech sectors.\n\nOriginal Link: https://developers.googleblog.com/announcing-the-agentic-resource-discovery-specification/",
+            "url": "https://digestweb.dev/articles/2026-06-17/google-agentic-resource-discovery-specification",
+            "title": "Google Unveils Open Specification for Agentic Resource Discovery",
+            "summary": "Google announces an open specification for Agentic Resource Discovery, aiming to standardize how AI agents find, verify, and utilize tools and skills across the internet.",
+            "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_gzxwoagzxw.2e16d0ba.fill-1200x600.jpg",
+            "date_modified": "2026-06-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-17/huggingface-robot-hardware-strands-lerobot",
+            "content_html": "## Summary & Key Takeaways\n\n- The article outlines a method to deploy Hugging Face models to robot hardware.\n- It leverages specific tools like Strands Agents and LeRobot for this integration.\n- This workflow bridges the gap between AI research and practical robotics applications.\n- It enables real-world implementation of advanced AI models in physical systems.\n\n## Our Commentary\n\nThis is where the rubber meets the road for AI. Getting models from a research hub onto actual physical robots is a non-trivial engineering feat. It's exciting to see these practical pipelines emerge, making AI more tangible and less abstract. The future of robotics feels a little closer.\n\nOriginal Link: https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
+            "url": "https://digestweb.dev/articles/2026-06-17/huggingface-robot-hardware-strands-lerobot",
+            "title": "Hugging Face Models to Robot Hardware: Strands Agents & LeRobot",
+            "summary": "This article details a workflow for deploying AI models from the Hugging Face Hub directly onto robot hardware, utilizing Strands Agents and LeRobot for practical robotics applications.",
+            "image": "https://cdn-uploads.huggingface.co/production/uploads/6a1dc0f2b4238bb17ff94794/qvSGZ0tZsgr4U4BCx_bVX.png",
+            "date_modified": "2026-06-17T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-06-17/lazy-load-gifs-click-to-play-web-component",
             "content_html": "## Summary & Key Takeaways\n\n- Introduces `<click-to-play>`, a Web Component for lazy-loading GIFs.\n- It displays a still image with a play button, loading the GIF only on user interaction.\n- This component improves page performance by preventing large GIFs from loading automatically.\n- It's built with progressive enhancement in mind, ensuring accessibility.\n- The component was developed for use within Datasette's new row editing tools.\n\n## Our Commentary\n\nWe've all been there, scrolling past a page that chugs because of a dozen auto-playing GIFs. This component is such a simple, elegant solution. I love how it leans into progressive enhancement. It's a small thing, but these small things add up to a much better web experience. It makes me wonder why this isn't a native browser feature already.\n\nOriginal Link: https://simonwillison.net/2026/Jun/17/click-to-play-component/#atom-everything",
             "url": "https://digestweb.dev/articles/2026-06-17/lazy-load-gifs-click-to-play-web-component",
@@ -23,6 +125,15 @@
             }
         },
         {
+            "id": "https://digestweb.dev/articles/2026-06-17/molmomotion-language-guided-3d-motion-forecasting",
+            "content_html": "## Summary & Key Takeaways\n\n- MolmoMotion introduces a novel approach to language-guided 3D motion forecasting.\n- This research explores how AI can predict complex 3D movements from text descriptions.\n- It has potential applications in areas like robotics, animation, and virtual reality.\n- The project is featured on the Hugging Face blog, showcasing cutting-edge AI capabilities.\n\n## Our Commentary\n\nLanguage-guided anything is fascinating. The idea of telling a system what to do in plain English and having it generate complex 3D motion is a huge step for human-computer interaction. I'm picturing easier animation workflows or more intuitive robot control.\n\nOriginal Link: https://huggingface.co/blog/allenai/molmomotion",
+            "url": "https://digestweb.dev/articles/2026-06-17/molmomotion-language-guided-3d-motion-forecasting",
+            "title": "MolmoMotion: AI for Language-Guided 3D Motion Forecasting",
+            "summary": "Hugging Face highlights MolmoMotion, a new research development focused on enabling AI systems to forecast 3D motion based on natural language instructions.",
+            "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/wdq3AFZcDZAekGTb16VDy.png",
+            "date_modified": "2026-06-17T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-06-17/netnewswire-retirement-open-source-excellence",
             "content_html": "## Summary & Key Takeaways\n\n- Brent Simmons, creator of NetNewsWire, is now focusing on the RSS reader as a retirement project.\n- The project is free from commercial pressures, allowing for a focus on quality.\n- NetNewsWire, first released in 2002, became open source in 2018.\n- The author finds the application indispensable for reading news on Mac and iPhone.\n- This approach highlights a different model for software development.\n\n## Our Commentary\n\nThere's something genuinely refreshing about this. Imagine having the freedom to just... make something really, really good, purely for the love of it. No deadlines, no VC pressure, just craft. It makes me think about what we could build if we all had that luxury. A beautiful vision for open source, really.\n\nOriginal Link: https://simonwillison.net/2026/Jun/17/netnewswire-status/#atom-everything",
             "url": "https://digestweb.dev/articles/2026-06-17/netnewswire-retirement-open-source-excellence",
@@ -33,6 +144,51 @@
             "author": {
                 "name": "Simon Willison"
             }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-17/openai-ai-chemist-gpt5-4-drug-reaction-efficiency",
+            "content_html": "## Summary & Key Takeaways\n\n- OpenAI and Molecule.one developed a near-autonomous AI chemist system.\n- The AI, powered by GPT-5.4, improved a challenging medicinal chemistry reaction.\n- This advancement has significant implications for drug discovery and development processes.\n- The research showcases AI's growing capabilities in complex scientific domains, moving towards autonomy.\n\n## Our Commentary\n\nThis is genuinely mind-blowing. An AI chemist, near-autonomous, improving drug reactions? We're not just talking about code generation anymore; this is fundamental scientific discovery. I genuinely don't know how to feel about agents churning away at 3am while nobody's watching, but the potential here is immense. It's a paradigm shift.\n\nOriginal Link: https://openai.com/index/ai-chemist-improves-reaction",
+            "url": "https://digestweb.dev/articles/2026-06-17/openai-ai-chemist-gpt5-4-drug-reaction-efficiency",
+            "title": "OpenAI's AI Chemist, Powered by GPT-5.4, Boosts Drug Reaction Efficiency",
+            "summary": "OpenAI and Molecule.one unveil a near-autonomous AI chemist, leveraging GPT-5.4, that has successfully optimized a critical drug-making reaction, pushing the boundaries of medicinal chemistry.",
+            "image": "https://picsum.photos/id/225/800/450",
+            "date_modified": "2026-06-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-17/openai-lifescibench-ai-benchmark-life-sciences",
+            "content_html": "## Summary & Key Takeaways\n\n- OpenAI has launched LifeSciBench, a new benchmark for AI evaluation.\n- It is specifically designed to assess AI systems in real-world life science research tasks.\n- The benchmark is expert-authored and peer-reviewed, ensuring its rigor and relevance.\n- LifeSciBench aims to standardize and improve AI assessment in this critical scientific field.\n\n## Our Commentary\n\nBenchmarks are the unsung heroes of AI progress. Without robust evaluation, it's hard to know if we're actually moving forward or just generating more hype. LifeSciBench sounds like a serious effort to bring rigor to AI in life sciences, which is exactly what we need.\n\nOriginal Link: https://openai.com/index/introducing-life-sci-bench",
+            "url": "https://digestweb.dev/articles/2026-06-17/openai-lifescibench-ai-benchmark-life-sciences",
+            "title": "OpenAI Unveils LifeSciBench: A New AI Benchmark for Life Sciences",
+            "summary": "OpenAI introduces LifeSciBench, a rigorously designed benchmark for assessing AI systems' performance on complex, real-world tasks within life science research.",
+            "image": "https://picsum.photos/id/490/800/450",
+            "date_modified": "2026-06-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-17/react-router-v8-released-new-features",
+            "content_html": "## Summary & Key Takeaways\n\n- React Router v8 is now officially available.\n- This marks a significant update to the popular routing library for React applications.\n- Developers should review the release notes for new features and potential breaking changes.\n- The new version aims to enhance routing capabilities and developer experience.\n\n## Our Commentary\n\nA new major version of React Router is always a big deal for the React community. I'm curious to see what specific changes landed and how they impact existing applications. We've all spent countless hours with this library, so any evolution is worth paying attention to.\n\nOriginal Link: https://remix.run/blog/react-router-v8",
+            "url": "https://digestweb.dev/articles/2026-06-17/react-router-v8-released-new-features",
+            "title": "React Router v8 Released: What's New in the Core of React Apps",
+            "summary": "React Router, the foundational routing library for React, has released its eighth major version. This update brings new features and improvements for developers.",
+            "image": "http://remix.run/img/react-router-v8?title=React+Router+v8&amp;date=June+17%2C+2026&amp;authorName=Brooks+Lybrand&amp;authorTitle=Developer+Relations+Manager&amp;ogImage=%2Fblog-images%2Fheaders%2Freact-router-v8.jpg",
+            "date_modified": "2026-06-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-17/standard-site-atproto-bluesky-schema",
+            "content_html": "## Summary & Key Takeaways\n\n- The article explores `Standard.site`, a userland schema for content standardization.\n- It is designed for the `atproto` protocol, notably used by the Bluesky social network.\n- The schema aims to define consistent structures for content types like 'publication' and 'document.'\n- This initiative supports interoperability within decentralized social platforms.\n\n## Our Commentary\n\nThe decentralized web is still finding its footing, and efforts like `Standard.site` are crucial for building any kind of interoperability. It's a complex space, and I appreciate Mat's cautious optimism. We need more agreed-upon standards if these platforms are ever going to truly flourish.\n\nOriginal Link: https://master.dev/blog/implementing-standard-site/",
+            "url": "https://digestweb.dev/articles/2026-06-17/standard-site-atproto-bluesky-schema",
+            "title": "Exploring Standard.Site: A Userland Schema for Atproto/Bluesky",
+            "summary": "Frontend Masters delves into `Standard.site`, an emerging userland schema designed to standardize content structures like publications and documents within the decentralized `atproto` protocol used by Bluesky.",
+            "image": "https://master.dev/blog/wp-json/social-image-generator/v1/image/10126",
+            "date_modified": "2026-06-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-17/wai-aria-1-3-arianotify-programmatic-narration",
+            "content_html": "## Summary & Key Takeaways\n\n- WAI-ARIA 1.3 introduces a new method called `ariaNotify()`.\n- This method allows programmatic triggering of screen reader narration.\n- It provides a direct way to communicate dynamic content changes to assistive technologies.\n- This is a significant enhancement for improving web accessibility in complex applications.\n\n## Our Commentary\n\n`ariaNotify()` sounds like a game-changer for accessibility. Directly triggering screen reader narration programmatically? That's a level of control we've needed for complex, dynamic UIs. I'm excited to see how developers leverage this to create truly inclusive experiences.\n\nOriginal Link: https://css-tricks.com/the-siren-song-of-arianotify/",
+            "url": "https://digestweb.dev/articles/2026-06-17/wai-aria-1-3-arianotify-programmatic-narration",
+            "title": "WAI-ARIA 1.3 Introduces ariaNotify() for Programmatic Narration",
+            "summary": "CSS-Tricks explores the new `ariaNotify()` method from the WAI-ARIA 1.3 Specification, which offers developers a direct way to programmatically trigger screen reader announcements.",
+            "image": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/06/arianotify.jpg",
+            "date_modified": "2026-06-17T00:00:00.000Z"
         },
         {
             "id": "https://digestweb.dev/articles/2026-06-16/ai-export-controls-harm-cyber-defense",
