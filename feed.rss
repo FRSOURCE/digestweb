@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Thu, 18 Jun 2026 05:56:11 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 18 Jun 2026 11:10:03 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -174,6 +174,28 @@ Long-horizon tasks are the holy grail for many LLM applications. If GLM-5.2 genu
 
 Original Link: https://huggingface.co/blog/zai-org/glm-52-blog]]></content:encoded>
             <enclosure url="https://cdn-uploads.huggingface.co/production/uploads/67066ea38a79951d7b8d4195/iaTHtYOBgeY0C3Xx3vymr.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[GLM-5.2: New King of Open-Weights Text LLMs with 1M Context]]></title>
+            <link>https://digestweb.dev/articles/2026-06-17/glm-5-2-most-powerful-open-weights-text-llm</link>
+            <guid>https://digestweb.dev/articles/2026-06-17/glm-5-2-most-powerful-open-weights-text-llm</guid>
+            <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Z.ai's GLM-5.2, a 753B parameter model, is released with open weights and a 1 million token context window, setting new benchmarks for text-only LLMs.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Z.ai released GLM-5.2, a 753B parameter open-weights LLM under an MIT license.
+- It features a massive 1 million token context window, a significant increase from its predecessor.
+- GLM-5.2 leads the Artificial Analysis Intelligence Index for open-weights models.
+- It ranks second on the Code Arena WebDev leaderboard, despite being text-only.
+- The model is available via OpenRouter at competitive pricing compared to proprietary models.
+- It uses more output tokens per task than other leading open-weights models.
+
+## Our Commentary
+
+Okay, this is huge. A 753B parameter model with a 1 million token context window, _open weights_, and it's topping benchmarks? That's just wild. I'm genuinely impressed it's ranking so high on the Code Arena WebDev leaderboard without image input; I thought that was a prerequisite for good frontend coding. The token hunger is a bit of a bummer, but the sheer power and openness of this model are game-changers. We're seeing the open-source AI community push boundaries at an incredible pace. I'm excited to see what people build with this.
+
+Original Link: https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything]]></content:encoded>
+            <enclosure url="https://static.simonwillison.net/static/2026/glm-5.2-pelican-card.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Google's A2UI + MCP Apps: Hybrid Architectures for Agentic UIs]]></title>
@@ -356,6 +378,25 @@ A new major version of React Router is always a big deal for the React community
 
 Original Link: https://remix.run/blog/react-router-v8]]></content:encoded>
             <enclosure url="http://remix.run/img/react-router-v8?title=React+Router+v8&amp;date=June+17%2C+2026&amp;authorName=Brooks+Lybrand&amp;authorTitle=Developer+Relations+Manager&amp;ogImage=%2Fblog-images%2Fheaders%2Freact-router-v8.jpg" length="0" type="image//img/react-router-v8"/>
+        </item>
+        <item>
+            <title><![CDATA[Safari Technology Preview 246: Latest WebKit Updates]]></title>
+            <link>https://digestweb.dev/articles/2026-06-17/safari-technology-preview-246-webkit-updates</link>
+            <guid>https://digestweb.dev/articles/2026-06-17/safari-technology-preview-246-webkit-updates</guid>
+            <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[WebKit's latest Safari Technology Preview brings incremental updates and bug fixes, offering a glimpse into upcoming browser features.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Safari Technology Preview 246 is now available for macOS Golden Gate and Tahoe.
+- This release includes the latest WebKit updates and bug fixes.
+- It provides developers with an early look at features coming to Safari.
+
+## Our Commentary
+
+Another STP release. We always appreciate the transparency from WebKit, even if these are often just incremental steps. It's good to see the continuous churn, but I'm always looking for the big, juicy features to land. Sometimes these previews feel like watching paint dry, but it's important paint.
+
+Original Link: https://webkit.org/blog/18128/release-notes-for-safari-technology-preview-246/]]></content:encoded>
+            <enclosure url="https://webkit.org/wp-content/themes/webkit/images/preview-card.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Exploring Standard.Site: A Userland Schema for Atproto/Bluesky]]></title>

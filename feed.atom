@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-06-18T05:56:11.076Z</updated>
+    <updated>2026-06-18T11:10:03.870Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -168,6 +168,30 @@ Original Link: https://github.blog/ai-and-ml/github-copilot/getting-more-from-ea
 Long-horizon tasks are the holy grail for many LLM applications. If GLM-5.2 genuinely makes strides here, it could unlock a whole new class of AI agents and assistants. I'm always skeptical until I see it in action, but the promise is huge.
 
 Original Link: https://huggingface.co/blog/zai-org/glm-52-blog]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GLM-5.2: New King of Open-Weights Text LLMs with 1M Context]]></title>
+        <id>https://digestweb.dev/articles/2026-06-17/glm-5-2-most-powerful-open-weights-text-llm</id>
+        <link href="https://digestweb.dev/articles/2026-06-17/glm-5-2-most-powerful-open-weights-text-llm"/>
+        <updated>2026-06-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Z.ai's GLM-5.2, a 753B parameter model, is released with open weights and a 1 million token context window, setting new benchmarks for text-only LLMs.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Z.ai released GLM-5.2, a 753B parameter open-weights LLM under an MIT license.
+- It features a massive 1 million token context window, a significant increase from its predecessor.
+- GLM-5.2 leads the Artificial Analysis Intelligence Index for open-weights models.
+- It ranks second on the Code Arena WebDev leaderboard, despite being text-only.
+- The model is available via OpenRouter at competitive pricing compared to proprietary models.
+- It uses more output tokens per task than other leading open-weights models.
+
+## Our Commentary
+
+Okay, this is huge. A 753B parameter model with a 1 million token context window, _open weights_, and it's topping benchmarks? That's just wild. I'm genuinely impressed it's ranking so high on the Code Arena WebDev leaderboard without image input; I thought that was a prerequisite for good frontend coding. The token hunger is a bit of a bummer, but the sheer power and openness of this model are game-changers. We're seeing the open-source AI community push boundaries at an incredible pace. I'm excited to see what people build with this.
+
+Original Link: https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Google's A2UI + MCP Apps: Hybrid Architectures for Agentic UIs]]></title>
@@ -347,6 +371,24 @@ Original Link: https://openai.com/index/introducing-life-sci-bench]]></content>
 A new major version of React Router is always a big deal for the React community. I'm curious to see what specific changes landed and how they impact existing applications. We've all spent countless hours with this library, so any evolution is worth paying attention to.
 
 Original Link: https://remix.run/blog/react-router-v8]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Safari Technology Preview 246: Latest WebKit Updates]]></title>
+        <id>https://digestweb.dev/articles/2026-06-17/safari-technology-preview-246-webkit-updates</id>
+        <link href="https://digestweb.dev/articles/2026-06-17/safari-technology-preview-246-webkit-updates"/>
+        <updated>2026-06-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[WebKit's latest Safari Technology Preview brings incremental updates and bug fixes, offering a glimpse into upcoming browser features.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Safari Technology Preview 246 is now available for macOS Golden Gate and Tahoe.
+- This release includes the latest WebKit updates and bug fixes.
+- It provides developers with an early look at features coming to Safari.
+
+## Our Commentary
+
+Another STP release. We always appreciate the transparency from WebKit, even if these are often just incremental steps. It's good to see the continuous churn, but I'm always looking for the big, juicy features to land. Sometimes these previews feel like watching paint dry, but it's important paint.
+
+Original Link: https://webkit.org/blog/18128/release-notes-for-safari-technology-preview-246/]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Exploring Standard.Site: A Userland Schema for Atproto/Bluesky]]></title>

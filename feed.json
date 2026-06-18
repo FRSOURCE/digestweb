@@ -86,6 +86,18 @@
             "date_modified": "2026-06-17T00:00:00.000Z"
         },
         {
+            "id": "https://digestweb.dev/articles/2026-06-17/glm-5-2-most-powerful-open-weights-text-llm",
+            "content_html": "## Summary & Key Takeaways\n\n- Z.ai released GLM-5.2, a 753B parameter open-weights LLM under an MIT license.\n- It features a massive 1 million token context window, a significant increase from its predecessor.\n- GLM-5.2 leads the Artificial Analysis Intelligence Index for open-weights models.\n- It ranks second on the Code Arena WebDev leaderboard, despite being text-only.\n- The model is available via OpenRouter at competitive pricing compared to proprietary models.\n- It uses more output tokens per task than other leading open-weights models.\n\n## Our Commentary\n\nOkay, this is huge. A 753B parameter model with a 1 million token context window, _open weights_, and it's topping benchmarks? That's just wild. I'm genuinely impressed it's ranking so high on the Code Arena WebDev leaderboard without image input; I thought that was a prerequisite for good frontend coding. The token hunger is a bit of a bummer, but the sheer power and openness of this model are game-changers. We're seeing the open-source AI community push boundaries at an incredible pace. I'm excited to see what people build with this.\n\nOriginal Link: https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-06-17/glm-5-2-most-powerful-open-weights-text-llm",
+            "title": "GLM-5.2: New King of Open-Weights Text LLMs with 1M Context",
+            "summary": "Z.ai's GLM-5.2, a 753B parameter model, is released with open weights and a 1 million token context window, setting new benchmarks for text-only LLMs.",
+            "image": "https://static.simonwillison.net/static/2026/glm-5.2-pelican-card.jpg",
+            "date_modified": "2026-06-17T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-06-17/google-a2ui-mcp-apps-agentic-ui-architectures",
             "content_html": "## Summary & Key Takeaways\n\n- Google introduces architectural patterns for building agentic user interfaces.\n- These patterns integrate Model Context Protocol (MCP) Apps and Agent-to-User Interface (A2UI).\n- The goal is to balance highly custom iframe environments with native, declarative rendering.\n- Developers can create secure, performant, and brand-consistent agentic UIs tailored to project needs.\n\n## Our Commentary\n\nBuilding UIs for AI agents is a whole new frontier. The tension between customizability and native feel is real, and these architectural patterns sound like a thoughtful approach to it. It's good to see Google thinking about the developer experience for this emerging paradigm.\n\nOriginal Link: https://developers.googleblog.com/a2ui-and-mcp-apps/",
             "url": "https://digestweb.dev/articles/2026-06-17/google-a2ui-mcp-apps-agentic-ui-architectures",
@@ -170,6 +182,15 @@
             "title": "React Router v8 Released: What's New in the Core of React Apps",
             "summary": "React Router, the foundational routing library for React, has released its eighth major version. This update brings new features and improvements for developers.",
             "image": "http://remix.run/img/react-router-v8?title=React+Router+v8&amp;date=June+17%2C+2026&amp;authorName=Brooks+Lybrand&amp;authorTitle=Developer+Relations+Manager&amp;ogImage=%2Fblog-images%2Fheaders%2Freact-router-v8.jpg",
+            "date_modified": "2026-06-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-17/safari-technology-preview-246-webkit-updates",
+            "content_html": "## Summary & Key Takeaways\n\n- Safari Technology Preview 246 is now available for macOS Golden Gate and Tahoe.\n- This release includes the latest WebKit updates and bug fixes.\n- It provides developers with an early look at features coming to Safari.\n\n## Our Commentary\n\nAnother STP release. We always appreciate the transparency from WebKit, even if these are often just incremental steps. It's good to see the continuous churn, but I'm always looking for the big, juicy features to land. Sometimes these previews feel like watching paint dry, but it's important paint.\n\nOriginal Link: https://webkit.org/blog/18128/release-notes-for-safari-technology-preview-246/",
+            "url": "https://digestweb.dev/articles/2026-06-17/safari-technology-preview-246-webkit-updates",
+            "title": "Safari Technology Preview 246: Latest WebKit Updates",
+            "summary": "WebKit's latest Safari Technology Preview brings incremental updates and bug fixes, offering a glimpse into upcoming browser features.",
+            "image": "https://webkit.org/wp-content/themes/webkit/images/preview-card.jpg",
             "date_modified": "2026-06-17T00:00:00.000Z"
         },
         {
