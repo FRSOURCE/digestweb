@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-06-19T06:18:38.896Z</updated>
+    <updated>2026-06-19T11:22:26.479Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -173,6 +173,55 @@ Original Link: https://claude.com/blog/artifacts-in-claude-code]]></content>
 Codrops always delivers on the visual front. This exploration of 3D image rotations on scroll is exactly the kind of eye candy that makes me want to dive into CSS transforms again. It's a great reminder that web design can be truly artistic, not just functional. I'm already thinking about where I can sneak one of these effects into a project.
 
 Original Link: https://tympanus.net/codrops/2026/06/18/exploring-3d-image-rotations-on-scroll/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Datasette-ACL 0.6a0: Expanded Resource Permissions]]></title>
+        <id>https://digestweb.dev/articles/2026-06-18/datasette-acl-0-6a0-expanded-resource-permissions</id>
+        <link href="https://digestweb.dev/articles/2026-06-18/datasette-acl-0-6a0-expanded-resource-permissions"/>
+        <updated>2026-06-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The `datasette-acl` plugin for Datasette sees an alpha release, version 0.6a0, which extends its capabilities from table-only permissions to a more general resource-sharing system. This update aims to provide finer-grained access control for multi-user Datasette instances.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- `datasette-acl` 0.6a0 is an alpha release for the Datasette plugin.
+- The update expands permissions beyond table-only access.
+- It moves towards a general resource-sharing system.
+- This allows for finely-grained control over Datasette resources.
+- The goal is to enhance multi-user Datasette instances.
+
+## Our Commentary
+
+An alpha release for an existing plugin, but a necessary one. We've always felt that robust ACLs are crucial for any serious data platform, especially as Datasette gains traction in multi-user environments. It's good to see this area getting attention, even if it's an incremental step.
+
+Original Link: https://simonwillison.net/2026/Jun/18/datasette-acl/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Datasette Apps: Host Custom HTML Applications in a Secure Sandbox]]></title>
+        <id>https://digestweb.dev/articles/2026-06-18/datasette-apps-host-custom-html-applications-secure-sandbox</id>
+        <link href="https://digestweb.dev/articles/2026-06-18/datasette-apps-host-custom-html-applications-secure-sandbox"/>
+        <updated>2026-06-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Datasette introduces a new plugin, `datasette-apps`, allowing developers to embed sandboxed HTML+JavaScript applications directly within Datasette instances. These apps can interact with Datasette data via SQL queries, offering a powerful way to extend its UI.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Datasette Apps is a new plugin for the Datasette ecosystem.
+- It enables hosting self-contained HTML+JavaScript applications within Datasette.
+- Apps run in a tightly constrained `<iframe>` sandbox for security.
+- They can execute read-only SQL queries against Datasette data.
+- Write queries are possible with additional configuration using stored queries.
+- Security features include `sandbox` attributes and injected CSP headers.
+- This prevents access to cookies/localStorage and external HTTP requests.
+- The concept evolved from an attempt to build Claude Artifacts for Datasette Agent.
+
+## Our Commentary
+
+This is a genuinely clever move. We've seen the power of embedding custom UIs, but doing it with such a strong security model is impressive. I'm particularly intrigued by the origin story – starting as a way to integrate AI agent artifacts and then realizing its broader potential. It feels like a natural evolution for Datasette, turning it into an even more versatile platform.
+
+Original Link: https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[MosaicLeaks: Investigating AI Research Agent Secrecy]]></title>

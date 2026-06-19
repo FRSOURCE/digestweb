@@ -83,6 +83,30 @@
             "date_modified": "2026-06-18T00:00:00.000Z"
         },
         {
+            "id": "https://digestweb.dev/articles/2026-06-18/datasette-acl-0-6a0-expanded-resource-permissions",
+            "content_html": "## Summary & Key Takeaways\n\n- `datasette-acl` 0.6a0 is an alpha release for the Datasette plugin.\n- The update expands permissions beyond table-only access.\n- It moves towards a general resource-sharing system.\n- This allows for finely-grained control over Datasette resources.\n- The goal is to enhance multi-user Datasette instances.\n\n## Our Commentary\n\nAn alpha release for an existing plugin, but a necessary one. We've always felt that robust ACLs are crucial for any serious data platform, especially as Datasette gains traction in multi-user environments. It's good to see this area getting attention, even if it's an incremental step.\n\nOriginal Link: https://simonwillison.net/2026/Jun/18/datasette-acl/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-06-18/datasette-acl-0-6a0-expanded-resource-permissions",
+            "title": "Datasette-ACL 0.6a0: Expanded Resource Permissions",
+            "summary": "The `datasette-acl` plugin for Datasette sees an alpha release, version 0.6a0, which extends its capabilities from table-only permissions to a more general resource-sharing system. This update aims to provide finer-grained access control for multi-user Datasette instances.",
+            "image": "https://picsum.photos/id/206/800/450",
+            "date_modified": "2026-06-18T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-18/datasette-apps-host-custom-html-applications-secure-sandbox",
+            "content_html": "## Summary & Key Takeaways\n\n- Datasette Apps is a new plugin for the Datasette ecosystem.\n- It enables hosting self-contained HTML+JavaScript applications within Datasette.\n- Apps run in a tightly constrained `<iframe>` sandbox for security.\n- They can execute read-only SQL queries against Datasette data.\n- Write queries are possible with additional configuration using stored queries.\n- Security features include `sandbox` attributes and injected CSP headers.\n- This prevents access to cookies/localStorage and external HTTP requests.\n- The concept evolved from an attempt to build Claude Artifacts for Datasette Agent.\n\n## Our Commentary\n\nThis is a genuinely clever move. We've seen the power of embedding custom UIs, but doing it with such a strong security model is impressive. I'm particularly intrigued by the origin story – starting as a way to integrate AI agent artifacts and then realizing its broader potential. It feels like a natural evolution for Datasette, turning it into an even more versatile platform.\n\nOriginal Link: https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-06-18/datasette-apps-host-custom-html-applications-secure-sandbox",
+            "title": "Datasette Apps: Host Custom HTML Applications in a Secure Sandbox",
+            "summary": "Datasette introduces a new plugin, `datasette-apps`, allowing developers to embed sandboxed HTML+JavaScript applications directly within Datasette instances. These apps can interact with Datasette data via SQL queries, offering a powerful way to extend its UI.",
+            "image": "https://static.simonwillison.net/static/2026/datasette-apps-card.jpg",
+            "date_modified": "2026-06-18T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-06-18/mosaicleaks-ai-research-agent-secrecy",
             "content_html": "## Summary & Key Takeaways\n\n- Introduces the concept of \"MosaicLeaks\" in AI research.\n- Investigates the ability of AI agents to keep information confidential.\n- Explores potential vulnerabilities in agent privacy and data handling.\n- Highlights the importance of security in AI research workflows.\n- Raises questions about the trustworthiness of autonomous agents.\n\n## Our Commentary\n\n\"MosaicLeaks: Can your research agent keep a secret?\" is a title that immediately grabs my attention. The security and privacy of AI agents are going to be massive concerns as they become more integrated into our workflows. This kind of research is absolutely vital. I'm curious to see what vulnerabilities they uncovered.\n\nOriginal Link: https://huggingface.co/blog/ServiceNow/mosaicleaks",
             "url": "https://digestweb.dev/articles/2026-06-18/mosaicleaks-ai-research-agent-secrecy",
