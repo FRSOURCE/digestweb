@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Thu, 18 Jun 2026 11:10:03 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Jun 2026 06:18:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,258 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[A2A Protocol: Enabling a World of Collaborative AI Agents]]></title>
+            <link>https://digestweb.dev/articles/2026-06-18/a2a-protocol-collaborative-ai-agents</link>
+            <guid>https://digestweb.dev/articles/2026-06-18/a2a-protocol-collaborative-ai-agents</guid>
+            <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Celebrating its first anniversary, the Agent-to-Agent (A2A) protocol is fostering an ecosystem where autonomous AI agents securely collaborate and delegate complex tasks.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Celebrates the first anniversary of the Agent-to-Agent (A2A) protocol.
+- A2A enables autonomous AI agents to securely collaborate.
+- It allows agents to hand off tasks without traditional API rigidity.
+- The protocol prevents context pollution and ensures data privacy.
+- Showcases use cases like FoldRun for protein structure prediction and more.
+
+## Our Commentary
+
+The A2A protocol turning one year old is a huge milestone. The idea of autonomous AI agents securely collaborating and delegating tasks is, frankly, a paradigm shift. We're moving beyond single-agent systems to a truly distributed AI ecosystem. The use cases mentioned, especially FoldRun for protein prediction, are mind-blowing. This is where AI gets really interesting.
+
+Original Link: https://developers.googleblog.com/how-a2a-is-building-a-world-of-collaborative-agents/]]></content:encoded>
+            <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_damf5ydamf.2e16d0ba.fill-1200x600.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[AI Aids Physicians in Diagnosing Rare Childhood Genetic Diseases]]></title>
+            <link>https://digestweb.dev/articles/2026-06-18/ai-aids-physicians-diagnosing-rare-childhood-genetic-diseases</link>
+            <guid>https://digestweb.dev/articles/2026-06-18/ai-aids-physicians-diagnosing-rare-childhood-genetic-diseases</guid>
+            <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Researchers leveraged an OpenAI reasoning model to assist physicians in diagnosing rare genetic diseases in children, leading to 18 new diagnoses in previously unsolved cases.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- An OpenAI reasoning model was used to assist in diagnosing rare genetic diseases.
+- The AI helped physicians identify 18 new diagnoses.
+- These diagnoses were made in cases previously considered unsolved.
+- The application focuses on rare genetic diseases affecting children.
+- This demonstrates a significant real-world impact of AI in healthcare.
+
+## Our Commentary
+
+This is the kind of AI news that makes me genuinely hopeful. Using an OpenAI model to help diagnose rare genetic diseases in children, leading to 18 new diagnoses in previously unsolved cases? That's not just impressive; it's life-changing. This is a powerful example of AI augmenting human expertise in critical areas. It's a headline for a reason.
+
+Original Link: https://openai.com/index/diagnose-rare-childhood-diseases]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/0/800/450" length="0" type="image//id/0/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Anthropic's Project Fetch: Phase Two of Frontier Red Teaming]]></title>
+            <link>https://digestweb.dev/articles/2026-06-18/anthropic-project-fetch-phase-two-red-teaming</link>
+            <guid>https://digestweb.dev/articles/2026-06-18/anthropic-project-fetch-phase-two-red-teaming</guid>
+            <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Anthropic provides an update on "Project Fetch," detailing the second phase of their frontier red teaming efforts focused on AI safety and security research.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Anthropic announces the second phase of "Project Fetch."
+- This initiative is part of their ongoing frontier red teaming efforts.
+- The focus is on rigorously testing and improving AI safety and security.
+- Red teaming helps identify potential vulnerabilities and risks in advanced AI models.
+- This research contributes to the responsible development of AI.
+
+## Our Commentary
+
+Anthropic's "Project Fetch: Phase Two" sounds like serious business. Red teaming is absolutely crucial for AI safety, especially as models get more powerful. It's good to see them publicly documenting these efforts. We need more transparency around how these frontier models are being scrutinized for potential harms.
+
+Original Link: https://www.anthropic.com/research/project-fetch-phase-two]]></content:encoded>
+            <enclosure url="https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Knobs&amp;backgroundColor=cactus" length="0" type="image//api/opengraph-illustration"/>
+        </item>
+        <item>
+            <title><![CDATA[Benchmarking Open Models: Is Your Agentic AI Sufficient?]]></title>
+            <link>https://digestweb.dev/articles/2026-06-18/benchmarking-open-models-agentic-ai-sufficiency</link>
+            <guid>https://digestweb.dev/articles/2026-06-18/benchmarking-open-models-agentic-ai-sufficiency</guid>
+            <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This article explores methods for benchmarking open AI models using custom tooling to determine if their 'agentic' capabilities meet specific requirements.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Discusses the importance of benchmarking open AI models.
+- Focuses on evaluating the "agentic" capabilities of these models.
+- Emphasizes using custom tooling for tailored assessments.
+- Provides insights into determining if an AI agent is "sufficient."
+- Offers guidance for developers integrating AI agents into workflows.
+
+## Our Commentary
+
+"Is it agentic enough?" is the question we're all asking right now. Benchmarking open models with your own tooling is the only way to get real answers. This is a practical, no-nonsense approach to evaluating AI agents, and I appreciate that. We need more concrete methods for assessing these systems beyond just theoretical discussions.
+
+Original Link: https://huggingface.co/blog/is-it-agentic-enough]]></content:encoded>
+            <enclosure url="https://huggingface.co/blog/assets/is-it-agentic-enough/thumbnail.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Beyond LoRA: Exploring Advanced LLM Fine-Tuning Techniques]]></title>
+            <link>https://digestweb.dev/articles/2026-06-18/beyond-lora-advanced-llm-fine-tuning</link>
+            <guid>https://digestweb.dev/articles/2026-06-18/beyond-lora-advanced-llm-fine-tuning</guid>
+            <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This article delves into methods that aim to surpass LoRA, the widely adopted fine-tuning technique, for optimizing Large Language Models.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Explores fine-tuning techniques beyond the popular LoRA method.
+- Investigates new approaches to optimize Large Language Models.
+- Aims to identify methods that can outperform existing standards.
+- Discusses the challenges and opportunities in LLM fine-tuning.
+- Provides insights for researchers and practitioners in AI.
+
+## Our Commentary
+
+"Beyond LoRA" is a bold claim, and I'm here for it. LoRA has been a game-changer for fine-tuning LLMs, but the field moves so fast. If there are techniques that can genuinely beat it, that's a huge development. We're always looking for more efficient and effective ways to adapt these models. This is definitely one to watch.
+
+Original Link: https://huggingface.co/blog/peft-beyond-lora]]></content:encoded>
+            <enclosure url="https://huggingface.co/blog/assets/peft-beyond-lora/thumbnail.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[ChatGPT's Health Intelligence Boosted by GPT-5.5 Instant]]></title>
+            <link>https://digestweb.dev/articles/2026-06-18/chatgpt-health-intelligence-boosted-gpt-5-5-instant</link>
+            <guid>https://digestweb.dev/articles/2026-06-18/chatgpt-health-intelligence-boosted-gpt-5-5-instant</guid>
+            <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI details how GPT-5.5 Instant significantly enhances ChatGPT's health and wellness responses through improved reasoning, context, and physician-informed evaluations.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- ChatGPT's health and wellness responses are improved by GPT-5.5 Instant.
+- Enhancements include stronger reasoning capabilities.
+- Better contextual understanding leads to more accurate information.
+- Communication is clearer and more precise for health topics.
+- Physician-informed evaluations guide the model's improvements.
+
+## Our Commentary
+
+Improving health intelligence in ChatGPT with GPT-5.5 Instant is a big deal. The "physician-informed evaluations" part is what really catches my eye. It's one thing to have a powerful model, but grounding it in expert feedback for sensitive domains like health is absolutely critical. We need to be careful, but this is a step in the right direction for responsible AI.
+
+Original Link: https://openai.com/index/improving-health-intelligence-in-chatgpt]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/24/800/450" length="0" type="image//id/24/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Claude Code Now Supports Artifacts for Enhanced Workflows]]></title>
+            <link>https://digestweb.dev/articles/2026-06-18/claude-code-supports-artifacts-enhanced-workflows</link>
+            <guid>https://digestweb.dev/articles/2026-06-18/claude-code-supports-artifacts-enhanced-workflows</guid>
+            <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Claude Code introduces support for artifacts, allowing developers to manage and utilize persistent outputs and intermediate files within their AI agent workflows.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Claude Code has added support for managing "artifacts."
+- Artifacts likely represent persistent outputs or intermediate data.
+- This feature enhances the ability to build complex, multi-step AI workflows.
+- It improves the traceability and reusability of agent-generated content.
+- Developers can now better integrate Claude Code into existing pipelines.
+
+## Our Commentary
+
+Artifacts in Claude Code? Yes, please. This is a practical feature that makes AI agents much more useful for real-world development. No more losing track of intermediate outputs or having to manually save things. It's a small but mighty step towards more robust and reliable AI-assisted coding.
+
+Original Link: https://claude.com/blog/artifacts-in-claude-code]]></content:encoded>
+            <enclosure url="https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Creative 3D Image Rotations Driven by Scroll]]></title>
+            <link>https://digestweb.dev/articles/2026-06-18/creative-3d-image-rotations-scroll</link>
+            <guid>https://digestweb.dev/articles/2026-06-18/creative-3d-image-rotations-scroll</guid>
+            <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover innovative techniques for animating images in three dimensions, dynamically controlled by user scroll interactions.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Explores various methods for animating images in 3D space.
+- Demonstrates how scroll position can drive these 3D transformations.
+- Provides creative ideas for enhancing visual user experience.
+- Focuses on CSS and JavaScript techniques for interactive effects.
+- Offers practical examples for implementing dynamic image rotations.
+
+## Our Commentary
+
+Codrops always delivers on the visual front. This exploration of 3D image rotations on scroll is exactly the kind of eye candy that makes me want to dive into CSS transforms again. It's a great reminder that web design can be truly artistic, not just functional. I'm already thinking about where I can sneak one of these effects into a project.
+
+Original Link: https://tympanus.net/codrops/2026/06/18/exploring-3d-image-rotations-on-scroll/]]></content:encoded>
+            <enclosure url="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/06/RotatingOnScrolAnimation_featured.png?x13474" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[MosaicLeaks: Investigating AI Research Agent Secrecy]]></title>
+            <link>https://digestweb.dev/articles/2026-06-18/mosaicleaks-ai-research-agent-secrecy</link>
+            <guid>https://digestweb.dev/articles/2026-06-18/mosaicleaks-ai-research-agent-secrecy</guid>
+            <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This article explores the concept of "MosaicLeaks," examining whether AI research agents can maintain confidentiality and keep sensitive information secret.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Introduces the concept of "MosaicLeaks" in AI research.
+- Investigates the ability of AI agents to keep information confidential.
+- Explores potential vulnerabilities in agent privacy and data handling.
+- Highlights the importance of security in AI research workflows.
+- Raises questions about the trustworthiness of autonomous agents.
+
+## Our Commentary
+
+"MosaicLeaks: Can your research agent keep a secret?" is a title that immediately grabs my attention. The security and privacy of AI agents are going to be massive concerns as they become more integrated into our workflows. This kind of research is absolutely vital. I'm curious to see what vulnerabilities they uncovered.
+
+Original Link: https://huggingface.co/blog/ServiceNow/mosaicleaks]]></content:encoded>
+            <enclosure url="https://cdn-uploads.huggingface.co/production/uploads/680ba1729f7688275d2ce0f4/hGCO4pOyJjijLPCbRT07v.webp" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[pnpm 11.8: Dry Runs, Package Maps, and SBOM Enhancements]]></title>
+            <link>https://digestweb.dev/articles/2026-06-18/pnpm-11-8-dry-runs-package-maps-sbom-enhancements</link>
+            <guid>https://digestweb.dev/articles/2026-06-18/pnpm-11-8-dry-runs-package-maps-sbom-enhancements</guid>
+            <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[pnpm's latest minor release introduces a --dry-run option for installs, Node.js package map generation, and improved SBOM capabilities.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Adds a --dry-run option to `pnpm install` for previewing changes without disk writes.
+- Improves `pnpm run --no-bail` exit code consistency for failed scripts.
+- Supports generating Node.js package maps at `node_modules/.package-map.json`.
+- Enhances SBOM generation by marking `devDependencies` as "excluded" scope.
+- Introduces per-package SBOM generation with `--out` and `--split` flags.
+
+## Our Commentary
+
+The `--dry-run` for `pnpm install` is a long-awaited feature that will save so much time and anxiety. We've all been there, wondering what an install will _actually_ do. The SBOM improvements are also a big win for supply chain security, which is becoming increasingly critical.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.8.0]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/910bff01aeab90eb91e31cb890fcabd20c038fd03b58c3930110b78c8bf11db5/pnpm/pnpm/releases/tag/v11.8.0" length="0" type="image/0"/>
+        </item>
+        <item>
+            <title><![CDATA[Steering Claude Code: New Tools for Advanced Control]]></title>
+            <link>https://digestweb.dev/articles/2026-06-18/steering-claude-code-new-tools-advanced-control</link>
+            <guid>https://digestweb.dev/articles/2026-06-18/steering-claude-code-new-tools-advanced-control</guid>
+            <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Claude Code introduces `CLAUDE.md` files, skills, hooks, rules, and subagents, offering developers granular control over AI agent behavior and workflows.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Claude Code now supports `CLAUDE.md` files for configuration.
+- Developers can define custom skills and hooks for agents.
+- New rules allow for precise control over agent actions.
+- The introduction of subagents enables complex, modular AI workflows.
+- These features provide advanced customization for Claude Code users.
+
+## Our Commentary
+
+`CLAUDE.md` files, skills, hooks, subagents – this is exactly what I want to see from an AI platform. It's moving beyond simple prompts to actual programmatic control. The idea of subagents is particularly interesting; it hints at more robust, composable AI systems. This feels like a step towards making AI agents truly useful for complex development tasks.
+
+Original Link: https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more]]></content:encoded>
+            <enclosure url="https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[TypeScript 7.0 RC: A Major Rebuild on a New Foundation]]></title>
+            <link>https://digestweb.dev/articles/2026-06-18/typescript-7-0-rc-major-rebuild-new-foundation</link>
+            <guid>https://digestweb.dev/articles/2026-06-18/typescript-7-0-rc-major-rebuild-new-foundation</guid>
+            <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[TypeScript 7.0 Release Candidate is here, marking a significant milestone as the entire codebase has been ported to a new, bootstrapped foundation.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- TypeScript 7.0 Release Candidate has been officially announced.
+- The entire TypeScript codebase has been re-written and bootstrapped in TypeScript itself.
+- This foundational change promises future performance and maintainability benefits.
+- Developers are encouraged to test the RC and provide feedback.
+- This release paves the way for the stable TypeScript 7.0.
+
+## Our Commentary
+
+TypeScript 7.0 RC is out, and the big news is the complete rewrite of the compiler in TypeScript itself. I'm genuinely excited to see what this foundational shift means for performance and future features. It's a massive undertaking, and it speaks volumes about the team's commitment to the language's long-term health. We're talking about a whole new era for TypeScript.
+
+Original Link: https://devblogs.microsoft.com/typescript/announcing-typescript-7-0-rc/]]></content:encoded>
+            <enclosure url="https://devblogs.microsoft.com/typescript/wp-content/uploads/sites/11/2026/06/ts7-0-rc-1.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Agentic Resource Discovery: Empowering AI Agents to Search]]></title>
             <link>https://digestweb.dev/articles/2026-06-17/agentic-resource-discovery-ai-agents-search</link>
