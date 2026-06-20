@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-06-19T11:22:26.479Z</updated>
+    <updated>2026-06-20T05:13:30.456Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,129 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Angular 21.1: Smarter Signal Forms & Community Updates]]></title>
+        <id>https://digestweb.dev/articles/2026-06-19/angular-21-1-smarter-signal-forms-community-updates</id>
+        <link href="https://digestweb.dev/articles/2026-06-19/angular-21-1-smarter-signal-forms-community-updates"/>
+        <updated>2026-06-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Angular's latest minor release introduces enhancements to Signal Forms and shares community highlights.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Angular 21.1 brings new features and improvements to the framework.
+- Signal Forms receive smarter capabilities, enhancing developer experience.
+- The update also includes a roundup of recent community activities and contributions.
+
+## Our Commentary
+
+We're seeing a steady stream of updates from the Angular team. Signal Forms getting smarter is a good sign for DX. It's always nice to see community engagement highlighted.
+
+Original Link: https://blog.angular.dev/angular-community-weekly-14-25842ff36020?source=rss----447683c3d9a3---4]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why Banning Open Source AI Would Be a Mistake]]></title>
+        <id>https://digestweb.dev/articles/2026-06-19/banning-open-source-ai-would-be-a-mistake</id>
+        <link href="https://digestweb.dev/articles/2026-06-19/banning-open-source-ai-would-be-a-mistake"/>
+        <updated>2026-06-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[An op-ed argues against the prohibition of open-source AI, emphasizing its importance for innovation and accessibility in the AI ecosystem.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article argues against proposals to ban or heavily restrict open-source AI development.
+- Open-source AI fosters innovation, collaboration, and democratizes access to powerful tools.
+- Restricting it could concentrate power in a few large corporations.
+- It highlights the potential for open-source to drive responsible AI development through transparency.
+- The piece suggests that the benefits of open-source AI outweigh the perceived risks.
+
+## Our Commentary
+
+This is a debate I'm following closely. The idea of banning open-source AI feels like a knee-jerk reaction to fear, not a thoughtful policy. We need more transparency, not less. I genuinely believe open-source is how we keep the big players honest.
+
+Original Link: https://www.interconnects.ai/p/banning-open-source-ai-would-be-a]]></content>
+        <author>
+            <name>Nathan Lambert</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A First Look at CSS Scroll-Triggered Animations]]></title>
+        <id>https://digestweb.dev/articles/2026-06-19/css-scroll-triggered-animations-first-look</id>
+        <link href="https://digestweb.dev/articles/2026-06-19/css-scroll-triggered-animations-first-look"/>
+        <updated>2026-06-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Explore the differences between scroll-driven and scroll-triggered animations in CSS, with practical examples and insights.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article introduces the concept of scroll-triggered animations in CSS.
+- It differentiates between scroll-driven and scroll-triggered animation techniques.
+- Practical examples demonstrate how to implement these new animation types.
+- This feature allows for more native and performant scroll effects.
+- It provides a glimpse into the future of web animations directly in CSS.
+
+## Our Commentary
+
+Scroll-triggered animations directly in CSS? Yes, please. This is the kind of native browser capability that makes me excited. It means less JavaScript for common effects, which is always a win for performance and DX. I'm eager to play with this.
+
+Original Link: https://css-tricks.com/css-scroll-triggered-animations-first-look/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dan Abramov on atproto: No Instances, Just Data]]></title>
+        <id>https://digestweb.dev/articles/2026-06-19/dan-abramov-atproto-no-instances</id>
+        <link href="https://digestweb.dev/articles/2026-06-19/dan-abramov-atproto-no-instances"/>
+        <updated>2026-06-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dan Abramov explores the fundamental architecture of atproto, highlighting its unique approach to data and the absence of traditional "instances."]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The atproto protocol fundamentally differs from traditional social networks.
+- It operates without the concept of "instances" in the way Mastodon or other federated systems do.
+- Data portability and user control are central to its design philosophy.
+- This architectural choice has significant implications for decentralization and censorship resistance.
+
+## Our Commentary
+
+Dan Abramov always makes me think. The idea of "no instances" in a decentralized protocol is a fascinating distinction. It makes me wonder about the practical implications for scaling and moderation. This is a deep cut, but a good one.
+
+Original Link: https://overreacted.io/there-are-no-instances-in-atproto/]]></content>
+        <author>
+            <name>Dan Abramov</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vibe Architects: Non-Devs Building Agentic AI]]></title>
+        <id>https://digestweb.dev/articles/2026-06-19/vibe-architects-non-devs-agentic-ai</id>
+        <link href="https://digestweb.dev/articles/2026-06-19/vibe-architects-non-devs-agentic-ai"/>
+        <updated>2026-06-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The article examines how non-developers are intuitively creating complex agentic AI systems through experimentation and community learning.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Non-developers are increasingly building sophisticated agentic AI systems.
+- This phenomenon is driven by intuition, experimentation, and community resources.
+- They are often referred to as "Vibe Architects" or "Agentic Vibe Coders."
+- This trend highlights the evolving accessibility and user-friendliness of AI tools.
+- It suggests a shift in who can contribute to AI development.
+
+## Our Commentary
+
+"Vibe Architects" is such a perfect term. It's wild to see how quickly people are picking up AI concepts and building complex systems without traditional coding backgrounds. It makes me wonder what "developer" even means anymore. The barrier to entry for AI is just plummeting.
+
+Original Link: https://www.nngroup.com/articles/vibe-architects/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[View Transitions: Animating Elements Out of the DOM]]></title>
+        <id>https://digestweb.dev/articles/2026-06-19/view-transitions-animating-elements-out-of-dom</id>
+        <link href="https://digestweb.dev/articles/2026-06-19/view-transitions-animating-elements-out-of-dom"/>
+        <updated>2026-06-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This third part of a series explores how View Transitions can apply animations to elements even as they are removed from the DOM.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- View Transitions offer unique capabilities for animating DOM changes.
+- This installment focuses specifically on animating elements as they are removed.
+- It demonstrates how to apply smooth transitions during element removal.
+- The technique helps create more fluid and engaging user interfaces.
+- View Transitions simplify complex animation scenarios that previously required more JavaScript.
+
+## Our Commentary
+
+View Transitions are a game-changer for web animations. Animating elements _out_ of the DOM is a particularly tricky problem that this feature solves elegantly. I'm still wrapping my head around all the possibilities, but this series is definitely helping.
+
+Original Link: https://master.dev/blog/in-n-out-animations-view-transitions-part-3-3/]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A2A Protocol: Enabling a World of Collaborative AI Agents]]></title>
         <id>https://digestweb.dev/articles/2026-06-18/a2a-protocol-collaborative-ai-agents</id>

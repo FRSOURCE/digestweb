@@ -11,6 +11,66 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-06-19/angular-21-1-smarter-signal-forms-community-updates",
+            "content_html": "## Summary & Key Takeaways\n\n- Angular 21.1 brings new features and improvements to the framework.\n- Signal Forms receive smarter capabilities, enhancing developer experience.\n- The update also includes a roundup of recent community activities and contributions.\n\n## Our Commentary\n\nWe're seeing a steady stream of updates from the Angular team. Signal Forms getting smarter is a good sign for DX. It's always nice to see community engagement highlighted.\n\nOriginal Link: https://blog.angular.dev/angular-community-weekly-14-25842ff36020?source=rss----447683c3d9a3---4",
+            "url": "https://digestweb.dev/articles/2026-06-19/angular-21-1-smarter-signal-forms-community-updates",
+            "title": "Angular 21.1: Smarter Signal Forms & Community Updates",
+            "summary": "Angular's latest minor release introduces enhancements to Signal Forms and shares community highlights.",
+            "image": "https://picsum.photos/id/925/800/450",
+            "date_modified": "2026-06-19T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-19/banning-open-source-ai-would-be-a-mistake",
+            "content_html": "## Summary & Key Takeaways\n\n- The article argues against proposals to ban or heavily restrict open-source AI development.\n- Open-source AI fosters innovation, collaboration, and democratizes access to powerful tools.\n- Restricting it could concentrate power in a few large corporations.\n- It highlights the potential for open-source to drive responsible AI development through transparency.\n- The piece suggests that the benefits of open-source AI outweigh the perceived risks.\n\n## Our Commentary\n\nThis is a debate I'm following closely. The idea of banning open-source AI feels like a knee-jerk reaction to fear, not a thoughtful policy. We need more transparency, not less. I genuinely believe open-source is how we keep the big players honest.\n\nOriginal Link: https://www.interconnects.ai/p/banning-open-source-ai-would-be-a",
+            "url": "https://digestweb.dev/articles/2026-06-19/banning-open-source-ai-would-be-a-mistake",
+            "title": "Why Banning Open Source AI Would Be a Mistake",
+            "summary": "An op-ed argues against the prohibition of open-source AI, emphasizing its importance for innovation and accessibility in the AI ecosystem.",
+            "image": "https://substackcdn.com/image/fetch/$s_!gA_9!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2cf763f4-5f1e-47ec-b6e1-b14a69443d00_3182x1790.png",
+            "date_modified": "2026-06-19T00:00:00.000Z",
+            "author": {
+                "name": "Nathan Lambert"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-19/css-scroll-triggered-animations-first-look",
+            "content_html": "## Summary & Key Takeaways\n\n- The article introduces the concept of scroll-triggered animations in CSS.\n- It differentiates between scroll-driven and scroll-triggered animation techniques.\n- Practical examples demonstrate how to implement these new animation types.\n- This feature allows for more native and performant scroll effects.\n- It provides a glimpse into the future of web animations directly in CSS.\n\n## Our Commentary\n\nScroll-triggered animations directly in CSS? Yes, please. This is the kind of native browser capability that makes me excited. It means less JavaScript for common effects, which is always a win for performance and DX. I'm eager to play with this.\n\nOriginal Link: https://css-tricks.com/css-scroll-triggered-animations-first-look/",
+            "url": "https://digestweb.dev/articles/2026-06-19/css-scroll-triggered-animations-first-look",
+            "title": "A First Look at CSS Scroll-Triggered Animations",
+            "summary": "Explore the differences between scroll-driven and scroll-triggered animations in CSS, with practical examples and insights.",
+            "image": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/04/sceroll-triggered-squares.webp",
+            "date_modified": "2026-06-19T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-19/dan-abramov-atproto-no-instances",
+            "content_html": "## Summary & Key Takeaways\n\n- The atproto protocol fundamentally differs from traditional social networks.\n- It operates without the concept of \"instances\" in the way Mastodon or other federated systems do.\n- Data portability and user control are central to its design philosophy.\n- This architectural choice has significant implications for decentralization and censorship resistance.\n\n## Our Commentary\n\nDan Abramov always makes me think. The idea of \"no instances\" in a decentralized protocol is a fascinating distinction. It makes me wonder about the practical implications for scaling and moderation. This is a deep cut, but a good one.\n\nOriginal Link: https://overreacted.io/there-are-no-instances-in-atproto/",
+            "url": "https://digestweb.dev/articles/2026-06-19/dan-abramov-atproto-no-instances",
+            "title": "Dan Abramov on atproto: No Instances, Just Data",
+            "summary": "Dan Abramov explores the fundamental architecture of atproto, highlighting its unique approach to data and the absence of traditional \"instances.\"",
+            "image": "https://overreacted.io/there-are-no-instances-in-atproto/opengraph-image?5b0b970dfd19bb8c",
+            "date_modified": "2026-06-19T00:00:00.000Z",
+            "author": {
+                "name": "Dan Abramov"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-19/vibe-architects-non-devs-agentic-ai",
+            "content_html": "## Summary & Key Takeaways\n\n- Non-developers are increasingly building sophisticated agentic AI systems.\n- This phenomenon is driven by intuition, experimentation, and community resources.\n- They are often referred to as \"Vibe Architects\" or \"Agentic Vibe Coders.\"\n- This trend highlights the evolving accessibility and user-friendliness of AI tools.\n- It suggests a shift in who can contribute to AI development.\n\n## Our Commentary\n\n\"Vibe Architects\" is such a perfect term. It's wild to see how quickly people are picking up AI concepts and building complex systems without traditional coding backgrounds. It makes me wonder what \"developer\" even means anymore. The barrier to entry for AI is just plummeting.\n\nOriginal Link: https://www.nngroup.com/articles/vibe-architects/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+            "url": "https://digestweb.dev/articles/2026-06-19/vibe-architects-non-devs-agentic-ai",
+            "title": "Vibe Architects: Non-Devs Building Agentic AI",
+            "summary": "The article examines how non-developers are intuitively creating complex agentic AI systems through experimentation and community learning.",
+            "image": "https://media.nngroup.com/media/articles/opengraph_images/Vibe_Architects__Agentic_Vibe_Coders-1.png",
+            "date_modified": "2026-06-19T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-19/view-transitions-animating-elements-out-of-dom",
+            "content_html": "## Summary & Key Takeaways\n\n- View Transitions offer unique capabilities for animating DOM changes.\n- This installment focuses specifically on animating elements as they are removed.\n- It demonstrates how to apply smooth transitions during element removal.\n- The technique helps create more fluid and engaging user interfaces.\n- View Transitions simplify complex animation scenarios that previously required more JavaScript.\n\n## Our Commentary\n\nView Transitions are a game-changer for web animations. Animating elements _out_ of the DOM is a particularly tricky problem that this feature solves elegantly. I'm still wrapping my head around all the possibilities, but this series is definitely helping.\n\nOriginal Link: https://master.dev/blog/in-n-out-animations-view-transitions-part-3-3/",
+            "url": "https://digestweb.dev/articles/2026-06-19/view-transitions-animating-elements-out-of-dom",
+            "title": "View Transitions: Animating Elements Out of the DOM",
+            "summary": "This third part of a series explores how View Transitions can apply animations to elements even as they are removed from the DOM.",
+            "image": "https://master.dev/blog/wp-json/social-image-generator/v1/image/10088",
+            "date_modified": "2026-06-19T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-06-18/a2a-protocol-collaborative-ai-agents",
             "content_html": "## Summary & Key Takeaways\n\n- Celebrates the first anniversary of the Agent-to-Agent (A2A) protocol.\n- A2A enables autonomous AI agents to securely collaborate.\n- It allows agents to hand off tasks without traditional API rigidity.\n- The protocol prevents context pollution and ensures data privacy.\n- Showcases use cases like FoldRun for protein structure prediction and more.\n\n## Our Commentary\n\nThe A2A protocol turning one year old is a huge milestone. The idea of autonomous AI agents securely collaborating and delegating tasks is, frankly, a paradigm shift. We're moving beyond single-agent systems to a truly distributed AI ecosystem. The use cases mentioned, especially FoldRun for protein prediction, are mind-blowing. This is where AI gets really interesting.\n\nOriginal Link: https://developers.googleblog.com/how-a2a-is-building-a-world-of-collaborative-agents/",
             "url": "https://digestweb.dev/articles/2026-06-18/a2a-protocol-collaborative-ai-agents",
