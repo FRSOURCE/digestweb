@@ -11,6 +11,18 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-06-21/cloudflare-workers-temporary-deployments-quick-tests",
+            "content_html": "## Summary & Key Takeaways\n\nCloudflare Workers now support temporary deployments via `npx wrangler deploy --temporary`.\nThis feature allows deploying a Worker project for 60 minutes without requiring a Cloudflare account.\nThe primary use case is for quick tests, demos, or ephemeral AI agent tasks.\nUsers can claim the temporary project to extend its lifespan beyond 60 minutes.\nThis feature enhances developer experience by removing initial setup friction.\n\n## Our Commentary\n\nThis is genuinely cool. We've all been there, needing to quickly test a serverless function or demo a small idea without the overhead of account creation and project setup. Cloudflare just nailed that pain point. The `--temporary` flag for Wrangler is a fantastic DX win. I'm already thinking of a dozen little experiments I could spin up and tear down in minutes. It's a small change, but it feels like a big quality-of-life improvement for anyone dabbling with Workers.\n\nOriginal Link: https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-06-21/cloudflare-workers-temporary-deployments-quick-tests",
+            "title": "Cloudflare Workers Get Temporary Deployments for Quick Tests",
+            "summary": "Cloudflare introduces a new `wrangler deploy --temporary` command, allowing developers to deploy Workers for 60 minutes without needing an account. This streamlines testing and ephemeral project creation.",
+            "image": "https://picsum.photos/id/526/800/450",
+            "date_modified": "2026-06-21T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-06-19/angular-21-1-smarter-signal-forms-community-updates",
             "content_html": "## Summary & Key Takeaways\n\n- Angular 21.1 brings new features and improvements to the framework.\n- Signal Forms receive smarter capabilities, enhancing developer experience.\n- The update also includes a roundup of recent community activities and contributions.\n\n## Our Commentary\n\nWe're seeing a steady stream of updates from the Angular team. Signal Forms getting smarter is a good sign for DX. It's always nice to see community engagement highlighted.\n\nOriginal Link: https://blog.angular.dev/angular-community-weekly-14-25842ff36020?source=rss----447683c3d9a3---4",
             "url": "https://digestweb.dev/articles/2026-06-19/angular-21-1-smarter-signal-forms-community-updates",
