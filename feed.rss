@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Tue, 23 Jun 2026 21:49:19 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Jun 2026 05:03:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,272 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Automating My Job: A Leader's Journey to Efficiency]]></title>
+            <link>https://digestweb.dev/articles/2026-06-23/automating-my-job-a-leaders-journey-to-efficiency</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-23/automating-my-job-a-leaders-journey-to-efficiency</guid>
+            <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A senior leader shares how implementing 40 automations transformed their daily workflow, allowing them to focus on strategic leadership.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The author, a senior leader, has automated 40 aspects of their daily work.
+- This automation has freed up time, enabling a greater focus on strategic leadership tasks.
+- The article explores specific examples of automations used in their role.
+- The experience highlights how technology can empower leaders to be more effective.
+
+## Our Commentary
+
+I'm always fascinated by how people leverage automation to reclaim their time. Forty automations? That's a serious commitment. It makes me wonder how much of my own day could be streamlined. It's a good reminder that "developer experience" isn't just about coding; it's about optimizing the entire professional workflow. I'm a little skeptical about the "better leader" part, but I get the sentiment.
+
+Original Link: https://github.blog/developer-skills/github/i-automated-my-job-and-it-made-me-a-better-leader/]]></content:encoded>
+            <enclosure url="https://github.blog/wp-content/uploads/2026/06/MSFTBuild_Blog_Header_01.jpg?fit=2400%2C1260" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Babel 8.0, TypeScript 7.0 RC, and Deno Desktop Lead JavaScript News]]></title>
+            <link>https://digestweb.dev/articles/2026-06-23/babel-8-typescript-7-deno-desktop-javascript-news</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-23/babel-8-typescript-7-deno-desktop-javascript-news</guid>
+            <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[JavaScript Weekly highlights major updates including Babel 8.0's ESM-only modernization, TypeScript 7.0 Release Candidate promising 10x faster builds, and Deno's new desktop app capabilities.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Babel 8.0 has been released, marking a significant modernization with an ESM-only approach and targeting ES2023 by default.
+- TypeScript 7.0 Release Candidate is out, promising up to 10x faster build performance due to its Go-powered compiler.
+- Deno 2.9 introduces "Deno Desktop," enabling JavaScript projects to be packaged as self-contained apps for multiple operating systems.
+- Deno Desktop offers flexibility with WebView options, cross-compilation, and support for frameworks like Next.js and SvelteKit.
+- Other notable mentions include Cloudflare Workers for AI agents and a TC39 proposal for localized time formatting.
+- MDN has launched an official MCP server to provide up-to-date docs for coding agents.
+
+## Our Commentary
+
+Wow, what a week for JavaScript! Babel 8.0 finally going ESM-only after eight years is a huge, long-awaited step. And TypeScript 7.0 RC with 10x faster builds? That's not just an improvement; that's a game-changer for large projects. Deno Desktop also feels like a serious contender in the desktop app space, offering a compelling alternative to Electron. We're seeing foundational tools making massive leaps, and it's genuinely exciting. I'm particularly hyped for the TypeScript speedup; compile times can be a real drag.
+
+Original Link: https://javascriptweekly.com/issues/791]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/512/800/450" length="0" type="image//id/512/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Bridging JavaScript and CSS: Dynamic Styling with Props]]></title>
+            <link>https://digestweb.dev/articles/2026-06-23/bridging-javascript-css-dynamic-styling-props</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-23/bridging-javascript-css-dynamic-styling-props</guid>
+            <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Frontend Masters explores techniques for passing real-time JavaScript data, like input values or mouse coordinates, directly into CSS for dynamic styling.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article addresses the challenge of CSS lacking certain dynamic runtime information.
+- It demonstrates methods for passing JavaScript-derived data to CSS.
+- Examples include using current range input values or precise mouse coordinates.
+- This technique enables more interactive and context-aware styling.
+
+## Our Commentary
+
+This is a classic frontend problem, and it's always good to see fresh takes on solving it. Passing dynamic data from JS to CSS, usually via custom properties, unlocks so much potential for truly reactive UIs. It's a fundamental technique that every frontend developer should have in their toolkit. I appreciate articles that break down these practical patterns.
+
+Original Link: https://master.dev/blog/prop-for-that/]]></content:encoded>
+            <enclosure url="https://master.dev/blog/wp-json/social-image-generator/v1/image/10219" length="0" type="image//blog/wp-json/social-image-generator/v1/image/10219"/>
+        </item>
+        <item>
+            <title><![CDATA[Cross-Origin Storage API Experimentation in Transformers.js]]></title>
+            <link>https://digestweb.dev/articles/2026-06-23/cross-origin-storage-api-transformers-js-experiment</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-23/cross-origin-storage-api-transformers-js-experiment</guid>
+            <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hugging Face explores the potential of the proposed Cross-Origin Storage API to enhance Transformers.js, enabling more robust AI model storage and access in the browser.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Hugging Face is experimenting with the proposed Cross-Origin Storage API.
+- The focus is on integrating this API with their Transformers.js library.
+- This could enable more efficient and persistent storage for AI models directly in the browser.
+- The experimentation aims to understand the API's capabilities and limitations for web-based AI.
+
+## Our Commentary
+
+This is exactly the kind of forward-looking research we need. Running AI models in the browser is a huge performance and privacy win, but storage has always been a bottleneck. The Cross-Origin Storage API could be a game-changer for client-side AI. I'm excited to see Hugging Face pushing the boundaries here. It feels like we're on the cusp of a new era for web-native AI.
+
+Original Link: https://huggingface.co/blog/cross-origin-storage]]></content:encoded>
+            <enclosure url="https://huggingface.co/blog/assets/cross-origin-storage/thumbnail.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[CUGA: Build Agentic AI Apps with Two Dozen Working Examples]]></title>
+            <link>https://digestweb.dev/articles/2026-06-23/cuga-build-agentic-ai-apps-working-examples</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-23/cuga-build-agentic-ai-apps-working-examples</guid>
+            <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hugging Face and IBM Research unveil CUGA, a lightweight harness providing 24 working examples for developing real-world agentic AI applications.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- CUGA is a lightweight harness designed for building agentic AI applications.
+- It comes with two dozen practical, working examples to guide developers.
+- The project aims to simplify the development of complex AI agents.
+- This initiative is a collaboration between Hugging Face and IBM Research.
+
+## Our Commentary
+
+Agentic AI is still a bit of a wild west, so any framework or harness that provides concrete examples is incredibly valuable. Two dozen working examples? That's a serious head start for anyone looking to dive into building agents. I appreciate the focus on "real" apps; it moves beyond theoretical discussions to practical implementation. This is exactly what the community needs to push agent development forward.
+
+Original Link: https://huggingface.co/blog/ibm-research/cuga-apps]]></content:encoded>
+            <enclosure url="https://cdn-uploads.huggingface.co/production/uploads/649d9ad1500fd8d51a675a93/p9JwFYkZS7fB9g2PMFMft.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[GitHub Advocates for Open Source in California AI Transparency Act]]></title>
+            <link>https://digestweb.dev/articles/2026-06-23/github-advocates-open-source-california-ai-transparency-act</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-23/github-advocates-open-source-california-ai-transparency-act</guid>
+            <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[GitHub has joined a coalition pushing for amendments to California's AI Transparency Act to safeguard open-source licensing and align with global standards.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- GitHub is part of a coalition seeking amendments to the California AI Transparency Act.
+- The goal is to resolve conflicts with existing open-source licensing models.
+- The coalition also aims to align the act with international transparency frameworks.
+- The proposed changes intend to preserve the regulatory intent while protecting open-source principles.
+
+## Our Commentary
+
+AI policy is a minefield, and open source adds another layer of complexity. It's good to see GitHub stepping up to advocate for the open-source community here. We need clear, sensible regulations that don't stifle innovation or inadvertently harm the very communities that drive so much progress. I worry about unintended consequences when lawmakers, who often don't fully grasp the tech, try to regulate it.
+
+Original Link: https://github.blog/news-insights/policy-news-and-insights/github-joins-coalition-advocating-for-fixes-to-california-ai-transparency-act-to-protect-open-source/]]></content:encoded>
+            <enclosure url="https://github.blog/wp-content/uploads/2026/01/generic-github-logo-left.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[GPT-5 Pro Helps Immunologist Solve 3-Year Mystery in T Cell Research]]></title>
+            <link>https://digestweb.dev/articles/2026-06-23/gpt5-pro-helps-immunologist-solve-t-cell-mystery</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-23/gpt5-pro-helps-immunologist-solve-t-cell-mystery</guid>
+            <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI highlights how GPT-5 Pro assisted immunologist Derya Unutmaz in unraveling a long-standing mystery, potentially advancing cancer and autoimmune research.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- GPT-5 Pro was instrumental in helping immunologist Derya Unutmaz solve a complex, three-year-old mystery.
+- The AI provided critical insights into the behavior of T cells.
+- This breakthrough has potential implications for advancing research in cancer and autoimmune diseases.
+- The case demonstrates the practical application of advanced AI in scientific discovery.
+
+## Our Commentary
+
+This is the kind of AI story that genuinely excites me. Not just another chatbot, but a tool actively contributing to scientific breakthroughs. Solving a three-year-old immunology mystery? That's a serious impact. It makes me wonder how many other complex problems are just waiting for an AI-assisted nudge. This is where the real value of these models lies, far beyond generating marketing copy.
+
+Original Link: https://openai.com/index/gpt-5-immunology-mystery]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/14/800/450" length="0" type="image//id/14/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Hugging Face Hub: Weekly Shipping with AI and Human Oversight]]></title>
+            <link>https://digestweb.dev/articles/2026-06-23/huggingface-hub-weekly-shipping-ai-human-oversight</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-23/huggingface-hub-weekly-shipping-ai-human-oversight</guid>
+            <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hugging Face shares insights into their development process for `huggingface_hub`, emphasizing weekly releases driven by AI, open tools, and human-in-the-loop validation.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Hugging Face details their continuous integration and delivery pipeline for `huggingface_hub`.
+- The process involves weekly releases, ensuring rapid iteration and updates.
+- AI tools play a significant role in automating parts of their development workflow.
+- A "human in the loop" approach ensures quality control and strategic oversight.
+
+## Our Commentary
+
+Weekly shipping with AI and a human in the loop? That's a fascinating blend of automation and oversight. It makes me think about how we can integrate AI into our own CI/CD pipelines without losing that critical human touch. The balance between speed and quality is always a challenge, and this approach seems to be tackling it head-on. I'm curious about the specifics of where the AI truly shines in their process.
+
+Original Link: https://huggingface.co/blog/huggingface-hub-release-ci]]></content:encoded>
+            <enclosure url="https://huggingface.co/blog/assets/huggingface-hub-release-ci/thumbnail.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[OPFS + Pyodide Test Harness: Persistent SQLite in the Browser]]></title>
+            <link>https://digestweb.dev/articles/2026-06-23/opfs-pyodide-test-harness-persistent-sqlite-browser</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-23/opfs-pyodide-test-harness-persistent-sqlite-browser</guid>
+            <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison demonstrates a test harness for using the Origin Private File System (OPFS) with Pyodide to enable persistent SQLite file editing directly in the browser.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article introduces a test harness for exploring OPFS with Pyodide.
+- The goal is to enable Datasette Lite to edit persistent SQLite files in the browser.
+- OPFS provides a mechanism for web applications to store private files on the user's system.
+- The project leverages Pyodide to run Python applications, including SQLite, within the browser via WebAssembly.
+- Claude Code for web assisted in building the playground UI for cross-browser testing.
+
+## Our Commentary
+
+Simon Willison is always at the forefront of exploring what's possible on the web, and this OPFS + Pyodide harness is a prime example. Persistent SQLite in the browser? That's a huge step for local-first applications and data management. It really pushes the boundaries of what we expect from web apps. I'm genuinely excited about the implications for tools like Datasette Lite. This is the kind of innovation that makes me love the web platform.
+
+Original Link: https://simonwillison.net/2026/Jun/23/opfs-pyodide/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/198/800/450" length="0" type="image//id/198/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[PACT: Mozilla's Proposal for Anonymous Credentials on the Web]]></title>
+            <link>https://digestweb.dev/articles/2026-06-23/pact-mozilla-anonymous-credentials-web</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-23/pact-mozilla-anonymous-credentials-web</guid>
+            <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Mozilla introduces PACT, a technical design for anonymous credentials aimed at combating bots and enhancing user privacy across the web.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- PACT (Privacy-Preserving Anonymous Credentials for the Web) is a new proposal from Mozilla.
+- It aims to provide a mechanism for websites to verify users without compromising their privacy.
+- The initiative seeks to differentiate legitimate users from bots in a privacy-preserving manner.
+- The article delves into the problem space, the proposed design, and remaining challenges.
+- This is a technical companion to a broader discussion on "Keeping the web open and private in the bot era."
+
+## Our Commentary
+
+This is a fascinating and genuinely important proposal from Mozilla. The bot problem is only getting worse, and current solutions often feel like they're eroding user privacy. PACT sounds like a thoughtful approach to a very hard problem. I'm always a little wary of new "credentials" systems, but the privacy-preserving aspect here is key. We need more solutions that don't just throw the baby out with the bathwater when it comes to user data.
+
+Original Link: https://hacks.mozilla.org/2026/06/pact-anonymous-credentials-for-the-web/]]></content:encoded>
+            <enclosure url="https://hacks.mozilla.org/wp-content/themes/Hax/img/hacks-meta-image.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[pnpm 11.9 Enhances Package Integrity and SBOM Generation]]></title>
+            <link>https://digestweb.dev/articles/2026-06-23/pnpm-11-9-enhances-package-integrity-sbom-generation</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-23/pnpm-11-9-enhances-package-integrity-sbom-generation</guid>
+            <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The latest pnpm update introduces automatic integrity checksum computation for on-demand tarballs and a new flag to exclude peer dependencies from SBOMs.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- pnpm now computes and stores integrity checksums for tarballs from registries that don't provide them initially.
+- This ensures verifiability for all lockfile entries on subsequent installs.
+- A new `--exclude-peers` flag has been added to `pnpm sbom` for more accurate Software Bill of Materials.
+- The `pnpm audit --fix` now consolidates `minimumReleaseAgeExclude` entries for better readability.
+- Non-deterministic peer resolution issues, particularly with optional transitive peers, have been addressed.
+
+## Our Commentary
+
+This pnpm update is a solid win for reliability and security. The automatic integrity checksums are a big deal for ensuring consistent builds, especially with those tricky on-demand registries. And the SBOM improvements? Crucial for supply chain security. We're seeing more and more focus on these foundational aspects of tooling, and I'm here for it. It's the kind of work that often goes unnoticed but prevents major headaches down the line.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.9.0]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/e49dac4e239a55bca0024a4d8e7bb53892a54cb232e2f88a67750994c371b6db/pnpm/pnpm/releases/tag/v11.9.0" length="0" type="image/0"/>
+        </item>
+        <item>
+            <title><![CDATA[Podium: Crafting Cinematic Web Experiences Through Storytelling]]></title>
+            <link>https://digestweb.dev/articles/2026-06-23/podium-crafting-cinematic-web-experiences-storytelling</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-23/podium-crafting-cinematic-web-experiences-storytelling</guid>
+            <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Codrops showcases the design and build process of "Podium," a portfolio website that uses rhythm, motion, and restraint to create a cinematic storytelling experience.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article details the design and development of the "Podium" portfolio website.
+- It emphasizes cinematic storytelling through careful use of rhythm and motion.
+- The project demonstrates the power of design restraint in creating impactful user experiences.
+- Codrops provides insights into the creative process behind the unique website.
+
+## Our Commentary
+
+Codrops always delivers on the visual front, and this "Podium" showcase is no exception. I love the idea of "cinematic storytelling" in web design; it pushes beyond mere functionality into something more artful. It's a good reminder that the web can be a canvas for truly immersive experiences, not just a collection of forms and buttons. We should all be striving for this level of craft.
+
+Original Link: https://tympanus.net/codrops/2026/06/23/podium-building-a-website-where-running-becomes-storytelling/]]></content:encoded>
+            <enclosure url="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/05/Cover-Desktop-Podium-1.jpg?x68649" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Vite 8.1 Released: Enhancements for Modern Web Development]]></title>
+            <link>https://digestweb.dev/articles/2026-06-23/vite-8-1-released-enhancements-modern-web-development</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-23/vite-8-1-released-enhancements-modern-web-development</guid>
+            <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Vite, the next-generation frontend tooling, rolls out its 8.1 update, bringing performance improvements and new features to streamline development workflows.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Vite 8.1 introduces various performance optimizations for faster build times and development server startup.
+- New features aim to improve the developer experience and simplify configuration.
+- The update includes bug fixes and stability improvements across the core system.
+- Users are encouraged to review the official changelog for a comprehensive list of changes.
+
+## Our Commentary
+
+Vite just keeps chugging along, doesn't it? We're seeing a steady stream of updates, which is exactly what you want from a core piece of your build infrastructure. I'm always curious about the "developer experience" improvements in these minor releases. Sometimes they're subtle, sometimes they're game-changers. It's good to see the project maintaining its momentum.
+
+Original Link: https://vite.dev/blog/announcing-vite8-1]]></content:encoded>
+            <enclosure url="https://vite.dev/og-image-announcing-vite8-1.webp" length="0" type="image/webp"/>
+        </item>
         <item>
             <title><![CDATA[Astro 7.0: Faster Builds, Advanced Routing, and Rust Compiler]]></title>
             <link>https://digestweb.dev/articles/2026-06-22/astro-7-faster-builds-advanced-routing-rust-compiler</link>
@@ -175,6 +441,28 @@ Original Link: https://una.im/modern-css-theming/]]></content:encoded>
             <enclosure url="https://una.im/posts/modern-css-theming/og.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
+            <title><![CDATA[Moebius Image Inpainting AI Runs in Browser with WebGPU]]></title>
+            <link>https://digestweb.dev/articles/2026-06-22/moebius-image-inpainting-ai-webgpu-browser</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-22/moebius-image-inpainting-ai-webgpu-browser</guid>
+            <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison successfully ported the Moebius 0.2B image inpainting model to run directly in the browser using WebGPU, showcasing a powerful client-side AI application.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The Moebius 0.2B image inpainting model has been successfully ported to run in the browser.
+- The port leverages WebGPU for efficient execution of the AI model client-side.
+- The original model required PyTorch and NVIDIA CUDA, highlighting the achievement of web compatibility.
+- Simon Willison used Claude Code for web as an AI assistant during the porting process.
+- A live demo is available, allowing users to try the inpainting tool directly in their browser.
+
+## Our Commentary
+
+This is seriously impressive. Porting a PyTorch/CUDA model to WebGPU in the browser is no small feat, and doing it with the help of an AI coding assistant? That's a glimpse into the future of development. The demo is slick, and the performance is surprisingly good for a client-side AI. It makes me wonder how many other "desktop-only" AI tools could be brought to the web. This is a huge win for accessibility and privacy in AI.
+
+Original Link: https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://static.simonwillison.net/static/2026/inpainter.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
             <title><![CDATA[OpenAI Launches Daybreak: AI Tools for Global Cybersecurity]]></title>
             <link>https://digestweb.dev/articles/2026-06-22/openai-daybreak-ai-tools-global-cybersecurity</link>
             <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-22/openai-daybreak-ai-tools-global-cybersecurity</guid>
@@ -239,6 +527,28 @@ PP-OCRv6 supporting 50 languages and offering such a wide range of model sizes i
 
 Original Link: https://huggingface.co/blog/PaddlePaddle/pp-ocrv6]]></content:encoded>
             <enclosure url="https://cdn-uploads.huggingface.co/production/uploads/652b2e9166313ebb6197e706/l156KP0e5PRyDrE4woHoM.jpeg" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Prompt Injection as Role Confusion: A Critical LLM Vulnerability]]></title>
+            <link>https://digestweb.dev/articles/2026-06-22/prompt-injection-role-confusion-llm-vulnerability</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-22/prompt-injection-role-confusion-llm-vulnerability</guid>
+            <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison discusses new research revealing "role confusion" as a core mechanism behind prompt injection, where LLMs prioritize text style over content.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article summarizes research on prompt injection, identifying "role confusion" as a key mechanism.
+- LLMs struggle to distinguish privileged system instructions from untrusted user input.
+- Models appear to prioritize the _style_ of text over its actual content, leading to jailbreaks.
+- "Destyling" user input significantly reduces attack success rates.
+- The research suggests that prompt injection defense will remain a challenge until LLMs achieve genuine role perception.
+
+## Our Commentary
+
+This "role confusion" research is genuinely unsettling. The idea that LLMs are more swayed by the _style_ of text than its actual meaning for security purposes? That's a fundamental flaw. It feels like we're playing whack-a-mole with prompt injection because we don't understand the underlying cognitive processes of these models. I'm not sure how we move past this without a deeper architectural shift. It's a stark reminder of the fragility of current AI security.
+
+Original Link: https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/70/800/450" length="0" type="image//id/70/800/450"/>
         </item>
         <item>
             <title><![CDATA[Scroll-Driven Animations for Opposing Directions in CSS]]></title>
