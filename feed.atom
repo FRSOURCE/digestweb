@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-06-24T05:03:09.227Z</updated>
+    <updated>2026-06-24T10:23:31.338Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,47 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Claude Tag: New Access Model for Autonomous Team AI Agents]]></title>
+        <id>https://digestweb.dev/articles/2026-06-24/claude-tag-new-access-model-autonomous-team-ai-agents</id>
+        <link href="https://digestweb.dev/articles/2026-06-24/claude-tag-new-access-model-autonomous-team-ai-agents"/>
+        <link rel="enclosure" href="https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg" type="image/jpg"/>
+        <updated>2026-06-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Anthropic's Claude introduces 'Agent identity in Claude Tag,' a new access model designed for autonomous, team-wide AI. This model aims to enhance how AI agents operate and are managed within collaborative environments.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Claude introduces 'Agent identity in Claude Tag' for managing AI agents.
+- This new access model focuses on autonomous, team-wide AI deployments.
+- It aims to improve how AI agents are integrated and managed in collaborative settings.
+- The model addresses identity and operational control for AI within teams.
+- This could streamline AI adoption and governance in enterprise environments.
+
+## Our Commentary
+
+“Agent identity” for AI. This is a concept we're going to hear a lot more about. It feels like a necessary step for AI agents to move beyond novelty into actual, reliable team members. I'm curious about the implications for auditing and accountability. Who's responsible when an autonomous agent makes a mistake? The lines are blurring, and that's a little unsettling. We're building digital entities with agency, and the governance models need to keep pace.
+
+Original Link: https://claude.com/blog/agent-identity-access-model]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Operationalizing Data Orchestration: Best Practices for Data Platform Engineers]]></title>
+        <id>https://digestweb.dev/articles/2026-06-24/operationalizing-data-orchestration-best-practices-data-engineers</id>
+        <link href="https://digestweb.dev/articles/2026-06-24/operationalizing-data-orchestration-best-practices-data-engineers"/>
+        <link rel="enclosure" href="https://cdn.prod.website-files.com/681399f654933b29e12fb8e4/6a3ae5efa56c216bd2168a58_operationalizing.png" type="image/png"/>
+        <updated>2026-06-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This guide from Dagster provides insights, tips, and predictions for data platform engineers on operationalizing data orchestration. It covers best practices across DevOps, infrastructure, and code locations.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Dagster offers a comprehensive guide on operationalizing data orchestration.
+- It provides best practices for data platform engineers.
+- The guide covers aspects of DevOps, infrastructure, and code locations.
+- It includes insights, tips, and predictions relevant to daily data platform work.
+
+## Our Commentary
+
+Data orchestration is one of those areas that sounds simple until you're knee-deep in it. We appreciate a solid guide that cuts through the noise. It's easy to get lost in the tooling, but the operational side is where the real headaches live. I'm always looking for ways to make data pipelines less... temperamental. This looks like a good resource for anyone wrestling with complex data flows.
+
+Original Link: https://dagster.io/blog/the-dagster-almanack-operationalizing-data-orchestration]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Automating My Job: A Leader's Journey to Efficiency]]></title>
         <id>https://digestweb.dev/articles/2026-06-23/automating-my-job-a-leaders-journey-to-efficiency</id>
@@ -115,6 +156,31 @@ Original Link: https://huggingface.co/blog/cross-origin-storage]]></content>
 Agentic AI is still a bit of a wild west, so any framework or harness that provides concrete examples is incredibly valuable. Two dozen working examples? That's a serious head start for anyone looking to dive into building agents. I appreciate the focus on "real" apps; it moves beyond theoretical discussions to practical implementation. This is exactly what the community needs to push agent development forward.
 
 Original Link: https://huggingface.co/blog/ibm-research/cuga-apps]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Datasette 1.0a35: Major New Features for Database Management]]></title>
+        <id>https://digestweb.dev/articles/2026-06-23/datasette-1-0a35-major-new-features-database-management</id>
+        <link href="https://digestweb.dev/articles/2026-06-23/datasette-1-0a35-major-new-features-database-management"/>
+        <link rel="enclosure" href="https://static.simonwillison.net/static/2026/create-alter-demo-first-frame.jpg" type="image/jpg"/>
+        <updated>2026-06-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison announces Datasette 1.0a35, a significant alpha release introducing new 'Create table' and 'Alter table' interfaces. This update also brings stable template context documentation, enhancing Datasette's core functionality.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Datasette 1.0a35 introduces a new 'Create table' interface with JSON API backing.
+- Users can now define columns, primary keys, custom types, and foreign keys.
+- A new 'Alter table' action allows modifying existing tables, including column changes and renaming.
+- The alter table dialog also includes a 'Drop table' button.
+- Stable Template context documentation is now available for custom templates.
+- This documentation is generated from dataclass definitions and tested against actual contexts.
+
+## Our Commentary
+
+Datasette just keeps getting better. These new create/alter table features are huge. It's moving from a data exploration tool to something you can genuinely use for light database management. I've always loved how Simon builds in public, and seeing these capabilities land is exciting. It makes Datasette even more compelling for quick data projects. We're seeing a trend of powerful, lightweight tools that just _work_.
+
+Original Link: https://simonwillison.net/2026/Jun/23/datasette/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[GitHub Advocates for Open Source in California AI Transparency Act]]></title>

@@ -11,6 +11,24 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-06-24/claude-tag-new-access-model-autonomous-team-ai-agents",
+            "content_html": "## Summary & Key Takeaways\n\n- Claude introduces 'Agent identity in Claude Tag' for managing AI agents.\n- This new access model focuses on autonomous, team-wide AI deployments.\n- It aims to improve how AI agents are integrated and managed in collaborative settings.\n- The model addresses identity and operational control for AI within teams.\n- This could streamline AI adoption and governance in enterprise environments.\n\n## Our Commentary\n\n“Agent identity” for AI. This is a concept we're going to hear a lot more about. It feels like a necessary step for AI agents to move beyond novelty into actual, reliable team members. I'm curious about the implications for auditing and accountability. Who's responsible when an autonomous agent makes a mistake? The lines are blurring, and that's a little unsettling. We're building digital entities with agency, and the governance models need to keep pace.\n\nOriginal Link: https://claude.com/blog/agent-identity-access-model",
+            "url": "https://digestweb.dev/articles/2026-06-24/claude-tag-new-access-model-autonomous-team-ai-agents",
+            "title": "Claude Tag: New Access Model for Autonomous Team AI Agents",
+            "summary": "Anthropic's Claude introduces 'Agent identity in Claude Tag,' a new access model designed for autonomous, team-wide AI. This model aims to enhance how AI agents operate and are managed within collaborative environments.",
+            "image": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg",
+            "date_modified": "2026-06-24T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-24/operationalizing-data-orchestration-best-practices-data-engineers",
+            "content_html": "## Summary & Key Takeaways\n\n- Dagster offers a comprehensive guide on operationalizing data orchestration.\n- It provides best practices for data platform engineers.\n- The guide covers aspects of DevOps, infrastructure, and code locations.\n- It includes insights, tips, and predictions relevant to daily data platform work.\n\n## Our Commentary\n\nData orchestration is one of those areas that sounds simple until you're knee-deep in it. We appreciate a solid guide that cuts through the noise. It's easy to get lost in the tooling, but the operational side is where the real headaches live. I'm always looking for ways to make data pipelines less... temperamental. This looks like a good resource for anyone wrestling with complex data flows.\n\nOriginal Link: https://dagster.io/blog/the-dagster-almanack-operationalizing-data-orchestration",
+            "url": "https://digestweb.dev/articles/2026-06-24/operationalizing-data-orchestration-best-practices-data-engineers",
+            "title": "Operationalizing Data Orchestration: Best Practices for Data Platform Engineers",
+            "summary": "This guide from Dagster provides insights, tips, and predictions for data platform engineers on operationalizing data orchestration. It covers best practices across DevOps, infrastructure, and code locations.",
+            "image": "https://cdn.prod.website-files.com/681399f654933b29e12fb8e4/6a3ae5efa56c216bd2168a58_operationalizing.png",
+            "date_modified": "2026-06-24T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-06-23/automating-my-job-a-leaders-journey-to-efficiency",
             "content_html": "## Summary & Key Takeaways\n\n- The author, a senior leader, has automated 40 aspects of their daily work.\n- This automation has freed up time, enabling a greater focus on strategic leadership tasks.\n- The article explores specific examples of automations used in their role.\n- The experience highlights how technology can empower leaders to be more effective.\n\n## Our Commentary\n\nI'm always fascinated by how people leverage automation to reclaim their time. Forty automations? That's a serious commitment. It makes me wonder how much of my own day could be streamlined. It's a good reminder that \"developer experience\" isn't just about coding; it's about optimizing the entire professional workflow. I'm a little skeptical about the \"better leader\" part, but I get the sentiment.\n\nOriginal Link: https://github.blog/developer-skills/github/i-automated-my-job-and-it-made-me-a-better-leader/",
             "url": "https://digestweb.dev/articles/2026-06-23/automating-my-job-a-leaders-journey-to-efficiency",
@@ -54,6 +72,18 @@
             "summary": "Hugging Face and IBM Research unveil CUGA, a lightweight harness providing 24 working examples for developing real-world agentic AI applications.",
             "image": "https://cdn-uploads.huggingface.co/production/uploads/649d9ad1500fd8d51a675a93/p9JwFYkZS7fB9g2PMFMft.png",
             "date_modified": "2026-06-23T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-23/datasette-1-0a35-major-new-features-database-management",
+            "content_html": "## Summary & Key Takeaways\n\n- Datasette 1.0a35 introduces a new 'Create table' interface with JSON API backing.\n- Users can now define columns, primary keys, custom types, and foreign keys.\n- A new 'Alter table' action allows modifying existing tables, including column changes and renaming.\n- The alter table dialog also includes a 'Drop table' button.\n- Stable Template context documentation is now available for custom templates.\n- This documentation is generated from dataclass definitions and tested against actual contexts.\n\n## Our Commentary\n\nDatasette just keeps getting better. These new create/alter table features are huge. It's moving from a data exploration tool to something you can genuinely use for light database management. I've always loved how Simon builds in public, and seeing these capabilities land is exciting. It makes Datasette even more compelling for quick data projects. We're seeing a trend of powerful, lightweight tools that just _work_.\n\nOriginal Link: https://simonwillison.net/2026/Jun/23/datasette/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-06-23/datasette-1-0a35-major-new-features-database-management",
+            "title": "Datasette 1.0a35: Major New Features for Database Management",
+            "summary": "Simon Willison announces Datasette 1.0a35, a significant alpha release introducing new 'Create table' and 'Alter table' interfaces. This update also brings stable template context documentation, enhancing Datasette's core functionality.",
+            "image": "https://static.simonwillison.net/static/2026/create-alter-demo-first-frame.jpg",
+            "date_modified": "2026-06-23T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
         },
         {
             "id": "https://digestweb.dev/articles/2026-06-23/github-advocates-open-source-california-ai-transparency-act",
