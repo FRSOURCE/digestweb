@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Wed, 24 Jun 2026 10:23:31 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Jun 2026 05:05:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,48 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Accelerating Transformer Fine-Tuning with NVIDIA NeMo AutoModel]]></title>
+            <link>https://digestweb.dev/articles/2026-06-24/accelerating-transformer-fine-tuning-nvidia-nemo-automodel</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-24/accelerating-transformer-fine-tuning-nvidia-nemo-automodel</guid>
+            <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover how NVIDIA NeMo AutoModel can significantly speed up the fine-tuning process for transformer-based AI models.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Fine-tuning large transformer models can be a computationally intensive and time-consuming process.
+- NVIDIA NeMo AutoModel offers tools to accelerate and streamline this fine-tuning.
+- The integration aims to improve efficiency for AI developers working with transformers.
+- It likely provides optimized workflows and configurations for various models.
+- This can lead to faster iteration cycles and more efficient model development.
+
+## Our Commentary
+
+Fine-tuning transformers is a beast, so any tool that genuinely accelerates it is welcome. NVIDIA's ecosystem is powerful, but sometimes it feels like a walled garden. I wonder how much lock-in comes with using something like NeMo AutoModel. It's a practical tool, but I'm always thinking about the broader implications for open-source alternatives.
+
+Original Link: https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel]]></content:encoded>
+            <enclosure url="https://cdn-uploads.huggingface.co/production/uploads/690d0a6c2c5acfe0e1f4777d/1N4GjIYBsZ6RCReRx_qBB.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Strategies for Building Effective Human-Agent Collaboration Teams]]></title>
+            <link>https://digestweb.dev/articles/2026-06-24/building-effective-human-agent-collaboration-teams</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-24/building-effective-human-agent-collaboration-teams</guid>
+            <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore best practices and considerations for integrating AI agents seamlessly into human workflows to form productive teams.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article explores the growing importance of human-AI agent collaboration in various domains.
+- It outlines principles for designing systems where humans and agents work effectively together.
+- Key aspects include clear communication, defined roles, and mutual understanding of capabilities.
+- Emphasis is placed on agents augmenting human intelligence rather than replacing it.
+- Successful integration requires careful consideration of trust, transparency, and feedback loops.
+
+## Our Commentary
+
+"Human-agent teams" sounds like something out of a sci-fi novel, but here we are. I'm always a bit wary of these conceptual pieces; they often gloss over the messy reality of integrating AI into existing human processes. The devil is always in the details, and I want to know about the _friction_, not just the ideal state.
+
+Original Link: https://claude.com/blog/building-effective-human-agent-teams]]></content:encoded>
+            <enclosure url="https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg" length="0" type="image/jpg"/>
+        </item>
         <item>
             <title><![CDATA[Claude Tag: New Access Model for Autonomous Team AI Agents]]></title>
             <link>https://digestweb.dev/articles/2026-06-24/claude-tag-new-access-model-autonomous-team-ai-agents</link>
@@ -37,6 +79,133 @@ Original Link: https://claude.com/blog/agent-identity-access-model]]></content:e
             <enclosure url="https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/68c469d23594abeb9ab6ee48_70ed020ecf8fa028b9bc95fa819720b6_og_claude-generic.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
+            <title><![CDATA[Exploring New CSS Gap Decoration Properties for Layouts]]></title>
+            <link>https://digestweb.dev/articles/2026-06-24/exploring-new-css-gap-decoration-properties-layouts</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-24/exploring-new-css-gap-decoration-properties-layouts</guid>
+            <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dive into the experimental CSS `gap-decoration` properties, enabling developers to draw borders and markers within the gaps of grid and flex layouts.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article introduces new or experimental CSS properties for "gap decorations."
+- These properties allow developers to draw visual markers, like borders, within layout gaps.
+- They apply to gaps between columns, rows, and even flex items.
+- This feature offers enhanced control over the visual presentation of spaced elements.
+- It provides new creative possibilities for grid and flexbox-based designs.
+
+## Our Commentary
+
+"Gap decorations"? This is one of those small CSS features that feels like it should have existed forever. I've definitely hacked around this problem before with extra divs or pseudo-elements. If this is shipping, it's a welcome quality-of-life improvement for CSS authors. It's the little things that make a big difference in daily development.
+
+Original Link: https://master.dev/blog/lets-play-with-gap-decorations/]]></content:encoded>
+            <enclosure url="https://master.dev/blog/wp-json/social-image-generator/v1/image/10210" length="0" type="image//blog/wp-json/social-image-generator/v1/image/10210"/>
+        </item>
+        <item>
+            <title><![CDATA[Gemini 3.5 Flash Now Features Enhanced Computer Use Capabilities]]></title>
+            <link>https://digestweb.dev/articles/2026-06-24/gemini-3-5-flash-enhanced-computer-use-capabilities</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-24/gemini-3-5-flash-enhanced-computer-use-capabilities</guid>
+            <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Google DeepMind announces that Gemini 3.5 Flash now includes advanced "computer use" features, enabling it to interact with digital environments.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Gemini 3.5 Flash has been updated with new "computer use" capabilities.
+- This feature allows the AI model to interact with and utilize digital tools and environments.
+- It signifies a step towards more agentic behavior and complex task execution for LLMs.
+- The enhancement aims to broaden the range of problems Gemini 3.5 Flash can address.
+- This development could lead to more sophisticated AI applications and automation.
+
+## Our Commentary
+
+"Computer use" in an LLM is a polite way of saying "agentic capabilities," isn't it? This is a big deal. The ability for an AI to actually _use_ a computer, not just generate text, opens up a whole new can of worms. I'm genuinely fascinated and a little terrified by the implications. We're moving fast into a world where AIs aren't just assistants, but active participants.
+
+Original Link: https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/]]></content:encoded>
+            <enclosure url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5__keyword__blog-header__light_7VsKV.width-1300.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Hugging Face Launches FFASR Leaderboard for Real-World ASR Benchmarking]]></title>
+            <link>https://digestweb.dev/articles/2026-06-24/hugging-face-ffasr-leaderboard-real-world-asr-benchmarking</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-24/hugging-face-ffasr-leaderboard-real-world-asr-benchmarking</guid>
+            <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hugging Face introduces the FFASR Leaderboard, a new initiative to benchmark Automatic Speech Recognition (ASR) models in real-world scenarios.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Hugging Face has launched the FFASR Leaderboard for Automatic Speech Recognition (ASR).
+- The leaderboard focuses on evaluating ASR models based on their performance in real-world conditions.
+- It aims to provide a more accurate and practical assessment of ASR capabilities.
+- This initiative helps researchers and developers compare and improve ASR models.
+- The leaderboard contributes to advancing the state-of-the-art in speech recognition technology.
+
+## Our Commentary
+
+Benchmarking is crucial, especially in AI where "real-world performance" can be so elusive. I appreciate Hugging Face stepping up to provide a more robust way to evaluate ASR models. It's easy to get caught up in theoretical metrics, but what truly matters is how these models perform when faced with messy, noisy, actual human speech. This is a good step.
+
+Original Link: https://huggingface.co/blog/ffasr-leaderboard]]></content:encoded>
+            <enclosure url="https://huggingface.co/blog/assets/ffasr-leaderboard/thumbnail.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[The Impersonal Trap of LLM-Generated Job Applications]]></title>
+            <link>https://digestweb.dev/articles/2026-06-24/impersonal-trap-llm-generated-job-applications</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-24/impersonal-trap-llm-generated-job-applications</guid>
+            <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Tom MacWright, quoted by Simon Willison, critiques the rise of purely LLM-generated job applications and portfolios, highlighting the loss of genuine personal insight.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article highlights a growing trend of job applications entirely generated by LLMs.
+- This includes LLM-cowritten resumes, portfolio sites, GitHub projects, and commit messages.
+- Tom MacWright expresses concern over the resulting lack of personal insight and authenticity.
+- Such applications reveal nothing about the individual beyond their tool usage.
+- The perfected, generated resume becomes generic and impersonal, hindering genuine evaluation.
+
+## Our Commentary
+
+This hits hard. I've seen this trend myself, and it's genuinely unsettling. When everything is generated, what are we even evaluating? It strips away the human element, the unique voice, the _messiness_ that makes someone interesting. I don't know how we're going to navigate this in hiring. It feels like we're losing something fundamental about professional identity.
+
+Original Link: https://simonwillison.net/2026/Jun/24/tom-macwright/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/190/800/450" length="0" type="image//id/190/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Navigating the Complex World of Keyboard Shortcuts in Web Apps]]></title>
+            <link>https://digestweb.dev/articles/2026-06-24/navigating-complex-world-keyboard-shortcuts-web-apps</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-24/navigating-complex-world-keyboard-shortcuts-web-apps</guid>
+            <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[CodePen discusses the challenges and advancements in implementing effective keyboard shortcuts within web applications, balancing OS, browser, and editor conflicts.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Implementing keyboard shortcuts in web applications presents significant challenges due to various conflicts.
+- Conflicts arise from operating system, browser, and editor-specific (e.g., CodeMirror, Emmet) shortcuts.
+- Despite the complexity, the situation for web app shortcuts is improving.
+- Careful design is needed to offer useful shortcuts without overwhelming users or causing clashes.
+- The discussion highlights the importance of accessibility and efficient user interaction.
+
+## Our Commentary
+
+Keyboard shortcuts are one of those things you don't notice until they're broken or missing. It's a surprisingly complex problem space, especially with all the layers involved: OS, browser, extensions, and then the app itself. I appreciate CodePen sharing their insights; it's a constant balancing act between power-user features and avoiding frustrating conflicts. This is pure DX gold.
+
+Original Link: https://blog.codepen.io/2026/06/24/430-the-wild-world-of-keyboard-shortcuts-in-web-apps/]]></content:encoded>
+            <enclosure url="https://s0.wp.com/i/blank.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI & Broadcom Unveil Jalapeño: A Custom LLM Inference Chip]]></title>
+            <link>https://digestweb.dev/articles/2026-06-24/openai-broadcom-unveil-jalapeno-llm-inference-chip</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-24/openai-broadcom-unveil-jalapeno-llm-inference-chip</guid>
+            <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI and Broadcom introduce "Jalapeño," a new custom AI chip specifically designed to optimize large language model inference.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI and Broadcom have partnered to create a custom AI chip named "Jalapeño."
+- The chip is specifically optimized for large language model (LLM) inference tasks.
+- Its primary goal is to enhance performance, efficiency, and scalability for AI systems.
+- This hardware innovation aims to reduce the computational cost of running LLMs.
+- The development could significantly impact the accessibility and deployment of advanced AI models.
+
+## Our Commentary
+
+Okay, this is big. Custom silicon for LLM inference is a clear signal of where things are headed. "Jalapeño" is a surprisingly playful name for something that could fundamentally alter the economics of AI. I'm curious about the real-world performance gains and how this will affect the broader AI hardware market. It feels like a move to control the stack even further.
+
+Original Link: https://openai.com/index/openai-broadcom-jalapeno-inference-chip]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/538/800/450" length="0" type="image//id/538/800/450"/>
+        </item>
+        <item>
             <title><![CDATA[Operationalizing Data Orchestration: Best Practices for Data Platform Engineers]]></title>
             <link>https://digestweb.dev/articles/2026-06-24/operationalizing-data-orchestration-best-practices-data-engineers</link>
             <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-24/operationalizing-data-orchestration-best-practices-data-engineers</guid>
@@ -55,6 +224,69 @@ Data orchestration is one of those areas that sounds simple until you're knee-de
 
 Original Link: https://dagster.io/blog/the-dagster-almanack-operationalizing-data-orchestration]]></content:encoded>
             <enclosure url="https://cdn.prod.website-files.com/681399f654933b29e12fb8e4/6a3ae5efa56c216bd2168a58_operationalizing.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Scaling Cypress E2E Tests with Harness CI Smart Orchestration]]></title>
+            <link>https://digestweb.dev/articles/2026-06-24/scaling-cypress-e2e-tests-harness-ci-smart-orchestration</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-24/scaling-cypress-e2e-tests-harness-ci-smart-orchestration</guid>
+            <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how to optimize large Cypress end-to-end test suites by integrating with Harness CI's smart orchestration features.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Large Cypress E2E test suites can experience significant run time increases, impacting developer velocity.
+- Harness CI's Smart Orchestration aims to reduce test execution times for growing suites.
+- It identifies and runs only relevant tests based on code changes, prioritizing critical paths.
+- The system can distribute tests across multiple runners for parallel execution.
+- This approach helps maintain fast feedback loops even as test coverage expands.
+
+## Our Commentary
+
+We've all been there: the test suite that starts fast and then slowly becomes a behemoth. The idea of "smart orchestration" to only run relevant tests is compelling. I wonder how effective these systems truly are in practice, especially with complex dependency graphs. It feels like a constant battle to keep CI fast.
+
+Original Link: https://www.cypress.io/blog/run-cypress-at-scale-in-harness-ci-with-smart-orchestration/]]></content:encoded>
+            <enclosure url="https://storage.ghost.io/c/12/89/12899ca1-4786-4eea-b7e1-9c5268baa48a/content/images/2026/06/Harness-Cypress.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Talos AI System Accelerates Rare Disease Genomic Diagnosis]]></title>
+            <link>https://digestweb.dev/articles/2026-06-24/talos-ai-system-accelerates-rare-disease-genomic-diagnosis</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-24/talos-ai-system-accelerates-rare-disease-genomic-diagnosis</guid>
+            <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Microsoft Research introduces Talos, an open-source AI system designed to automate and scale the reanalysis of genomic data for rare disease diagnosis.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Talos is an open-source AI system developed by Microsoft Research.
+- It addresses the bottleneck of human review time in genomic medicine for rare diseases.
+- The system automates iterative genomic reanalysis to identify potential diagnoses.
+- Talos successfully recovered 90% of in-scope diagnoses.
+- It significantly reduces the number of candidate variants requiring expert human review.
+
+## Our Commentary
+
+This is a fantastic application of AI for a critical problem. Reducing human review time in genomic medicine is huge. It's a reminder that AI's most profound impacts might be in these highly specialized, life-saving domains, far from the general-purpose chatbots we often discuss. I love seeing AI used for genuine good like this.
+
+Original Link: https://www.microsoft.com/en-us/research/blog/talos-scaling-rare-disease-diagnosis-with-automated-iterative-genomic-reanalysis/]]></content:encoded>
+            <enclosure url="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/06/Talos-TWLIFB-1200x627-1-scaled.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Visual Testing with Vitest and Chromatic for Accurate UI Verification]]></title>
+            <link>https://digestweb.dev/articles/2026-06-24/visual-testing-vitest-chromatic-ui-verification</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-24/visual-testing-vitest-chromatic-ui-verification</guid>
+            <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore how to integrate Chromatic for visual regression testing directly into your Vitest component test suite.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Visual testing ensures that UI components render as expected across different environments.
+- The article demonstrates setting up Chromatic for visual regression within Vitest component tests.
+- Chromatic captures snapshots of components and flags visual discrepancies.
+- This integration helps catch unintended UI changes early in the development cycle.
+- It focuses on testing what users actually see, enhancing confidence in UI stability.
+
+## Our Commentary
+
+Visual regression testing is one of those things that sounds great on paper, but I've seen teams struggle to maintain it. False positives can be a nightmare. This combination of Vitest and Chromatic seems like a solid approach, though. It's about time we got better at verifying the _actual_ user experience, not just the logic.
+
+Original Link: https://tympanus.net/codrops/2026/06/24/testing-what-users-actually-see-with-vitest-and-chromatic/]]></content:encoded>
+            <enclosure url="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/06/intro-chromatic-and-vitest.jpg?x68649" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Automating My Job: A Leader's Journey to Efficiency]]></title>
