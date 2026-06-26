@@ -11,12 +11,42 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-06-26/deploy-vllm-huggingface-jobs-one-command",
+            "content_html": "## Summary & Key Takeaways\n\n- Hugging Face now allows deploying vLLM servers on HF Jobs.\n- The deployment process is simplified to a single command.\n- This enables users to quickly set up high-performance LLM inference.\n- It streamlines the operational aspect of working with large language models.\n\n## Our Commentary\n\nThis is a genuinely useful development. Getting LLMs deployed efficiently can be a real pain point, so anything that simplifies that process is a massive win in my book. I'm always looking for ways to reduce friction in the AI workflow, and this definitely does that.\n\nOriginal Link: https://huggingface.co/blog/vllm-jobs",
+            "url": "https://digestweb.dev/articles/2026-06-26/deploy-vllm-huggingface-jobs-one-command",
+            "title": "Deploy vLLM Servers on Hugging Face Jobs with a Single Command",
+            "summary": "Hugging Face introduces a streamlined method to deploy vLLM servers on their Jobs platform using just one command. This significantly simplifies the process of getting high-performance LLM inference running.",
+            "image": "https://huggingface.co/blog/assets/vllm-jobs/thumbnail.png",
+            "date_modified": "2026-06-26T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-25/ai-liability-bruce-schneier-google-ruling",
+            "content_html": "## Summary & Key Takeaways\n\n- Simon Willison discusses AI liability, referencing Bruce Schneier's views.\n- A recent German ruling held Google liable for errors in its AI overviews.\n- Schneier argues AI agents should be treated as agents of their deployers.\n- Companies should be held accountable for AI inaccuracies, similar to human errors.\n- Allowing companies to evade liability for AI mistakes could incentivize corporate misbehavior.\n\n## Our Commentary\n\nThis is the conversation we _need_ to be having. The idea that companies can deploy powerful, error-prone AI and then shrug off responsibility is genuinely unsettling. I'm glad to see legal systems starting to grapple with this. It's a messy problem, but accountability is non-negotiable. This will shape how AI is developed and deployed.\n\nOriginal Link: https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-06-25/ai-liability-bruce-schneier-google-ruling",
+            "title": "AI and Liability: Bruce Schneier on Holding Companies Accountable for AI Errors",
+            "summary": "Simon Willison discusses Bruce Schneier's perspective on AI liability, prompted by a German ruling holding Google accountable for AI overview errors. The piece argues that companies deploying AI agents should be legally responsible for their outputs.",
+            "image": "https://picsum.photos/id/684/800/450",
+            "date_modified": "2026-06-25T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-06-25/deno-2-9-0-new-cli-desktop-features",
             "content_html": "## Summary & Key Takeaways\n\n- Introduces new CLI subcommands: `deno link`, `deno unlink`, `deno watch`, and `deno list`.\n- Adds comprehensive desktop application features, including various installer formats and Vite framework autodetection.\n- Enhances Node.js compatibility with `node:test` mock implementations and providing Node on PATH.\n- Implements the Web Locks API and expands WebCrypto algorithm support.\n- Adds new formatting options and infers configuration from `.editorconfig`.\n- Improves package management by seeding `deno.lock` from `bun.lock` and `package-lock.json`.\n- Allows persistence of Web Storage and KV in compiled desktop applications.\n- Disables Deno.serve automatic compression by default for better control.\n\n## Our Commentary\n\nDeno keeps pushing. The sheer volume of `feat` commits here is wild. I'm particularly interested in the desktop app features; it feels like Deno is carving out a unique niche there. Also, `deno watch` is a long-awaited addition. The Node.js compatibility efforts are relentless, which is good for adoption, but I wonder if it dilutes Deno's original vision.\n\nOriginal Link: https://github.com/denoland/deno/releases/tag/v2.9.0",
             "url": "https://digestweb.dev/articles/2026-06-25/deno-2-9-0-new-cli-desktop-features",
             "title": "Deno 2.9.0 Ships with New CLI Tools, Desktop Features & More",
             "summary": "Deno's latest release, 2.9.0, introduces a suite of new CLI commands like `deno watch` and `deno link`, alongside robust desktop application features and improved Node.js compatibility. It also enhances web platform API support and developer tooling.",
             "image": "https://opengraph.githubassets.com/a6a381738ad2912f6239929520e714b4847f8565ed8f86cdfcc98e9ad0c6bd50/denoland/deno/releases/tag/v2.9.0",
+            "date_modified": "2026-06-25T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-25/github-copilot-agentic-harness-performance-efficiency",
+            "content_html": "## Summary & Key Takeaways\n\n- GitHub evaluated the performance and efficiency of its Copilot agentic harness.\n- The harness demonstrated strong results across multiple benchmarks.\n- It achieved leading token efficiency in its operations.\n- The system maintains flexibility, supporting over 20 different AI models.\n\n## Our Commentary\n\nIt's always good to see the underlying tech explained, especially for something as widely used as Copilot. I wonder how much of this internal efficiency translates directly to a better developer experience. Token efficiency is crucial for cost, but what about the quality and relevance of the suggestions? That's the real metric for me.\n\nOriginal Link: https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/",
+            "url": "https://digestweb.dev/articles/2026-06-25/github-copilot-agentic-harness-performance-efficiency",
+            "title": "GitHub Copilot's Agentic Harness: Performance & Efficiency Across Models",
+            "summary": "GitHub details the performance and efficiency of its Copilot agentic harness, showcasing strong benchmark results and token efficiency. The system offers flexibility across over 20 different AI models.",
+            "image": "https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo-stripe.png",
             "date_modified": "2026-06-25T00:00:00.000Z"
         },
         {
@@ -53,6 +83,15 @@
             "title": "Microsoft Research: AI Explains Brain Responses to Language",
             "summary": "Microsoft researchers introduce generative causal testing, an AI-driven method that translates black-box models into verifiable hypotheses, revealing how specific brain regions respond to language.",
             "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/06/UnderstandingtheBrain-TWLIFB-1200x627-1-scaled.jpg",
+            "date_modified": "2026-06-25T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-25/nextjs-16-3-instant-navigations-spa-responsiveness",
+            "content_html": "## Summary & Key Takeaways\n\n- Next.js 16.3 introduces a new suite of tools for instant navigations.\n- These tools aim to bring single-page application responsiveness to the server-centric Next.js model.\n- The update focuses on enhancing user experience through faster page transitions.\n- It represents a significant step in blending server-side rendering with client-side fluidity.\n\n## Our Commentary\n\nThis is a big one for Next.js. We've seen this push for SPA-like feel in SSR frameworks for a while now. I'm genuinely curious how seamless it truly is in practice. The developer experience around implementing and optimizing these instant navigations will be absolutely key. It feels like a necessary evolution.\n\nOriginal Link: https://nextjs.org/blog/next-16-3-instant-navigations",
+            "url": "https://digestweb.dev/articles/2026-06-25/nextjs-16-3-instant-navigations-spa-responsiveness",
+            "title": "Next.js 16.3 Introduces Instant Navigations for SPA-like Responsiveness",
+            "summary": "Next.js 16.3 rolls out a new set of tools designed to bring single-page application responsiveness to its server-centric model. This update aims to significantly enhance user experience with faster navigations.",
+            "image": "https://h8dxkfmaphn8o0p3.public.blob.vercel-storage.com/static/blog/next-16-3-instant-navigations/twitter-card.png",
             "date_modified": "2026-06-25T00:00:00.000Z"
         },
         {

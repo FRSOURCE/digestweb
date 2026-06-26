@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Fri, 26 Jun 2026 05:08:37 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 Jun 2026 10:23:45 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,48 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Deploy vLLM Servers on Hugging Face Jobs with a Single Command]]></title>
+            <link>https://digestweb.dev/articles/2026-06-26/deploy-vllm-huggingface-jobs-one-command</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-26/deploy-vllm-huggingface-jobs-one-command</guid>
+            <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hugging Face introduces a streamlined method to deploy vLLM servers on their Jobs platform using just one command. This significantly simplifies the process of getting high-performance LLM inference running.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Hugging Face now allows deploying vLLM servers on HF Jobs.
+- The deployment process is simplified to a single command.
+- This enables users to quickly set up high-performance LLM inference.
+- It streamlines the operational aspect of working with large language models.
+
+## Our Commentary
+
+This is a genuinely useful development. Getting LLMs deployed efficiently can be a real pain point, so anything that simplifies that process is a massive win in my book. I'm always looking for ways to reduce friction in the AI workflow, and this definitely does that.
+
+Original Link: https://huggingface.co/blog/vllm-jobs]]></content:encoded>
+            <enclosure url="https://huggingface.co/blog/assets/vllm-jobs/thumbnail.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[AI and Liability: Bruce Schneier on Holding Companies Accountable for AI Errors]]></title>
+            <link>https://digestweb.dev/articles/2026-06-25/ai-liability-bruce-schneier-google-ruling</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-25/ai-liability-bruce-schneier-google-ruling</guid>
+            <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison discusses Bruce Schneier's perspective on AI liability, prompted by a German ruling holding Google accountable for AI overview errors. The piece argues that companies deploying AI agents should be legally responsible for their outputs.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison discusses AI liability, referencing Bruce Schneier's views.
+- A recent German ruling held Google liable for errors in its AI overviews.
+- Schneier argues AI agents should be treated as agents of their deployers.
+- Companies should be held accountable for AI inaccuracies, similar to human errors.
+- Allowing companies to evade liability for AI mistakes could incentivize corporate misbehavior.
+
+## Our Commentary
+
+This is the conversation we _need_ to be having. The idea that companies can deploy powerful, error-prone AI and then shrug off responsibility is genuinely unsettling. I'm glad to see legal systems starting to grapple with this. It's a messy problem, but accountability is non-negotiable. This will shape how AI is developed and deployed.
+
+Original Link: https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/684/800/450" length="0" type="image//id/684/800/450"/>
+        </item>
         <item>
             <title><![CDATA[Deno 2.9.0 Ships with New CLI Tools, Desktop Features & More]]></title>
             <link>https://digestweb.dev/articles/2026-06-25/deno-2-9-0-new-cli-desktop-features</link>
@@ -38,6 +80,26 @@ Deno keeps pushing. The sheer volume of `feat` commits here is wild. I'm particu
 
 Original Link: https://github.com/denoland/deno/releases/tag/v2.9.0]]></content:encoded>
             <enclosure url="https://opengraph.githubassets.com/a6a381738ad2912f6239929520e714b4847f8565ed8f86cdfcc98e9ad0c6bd50/denoland/deno/releases/tag/v2.9.0" length="0" type="image/0"/>
+        </item>
+        <item>
+            <title><![CDATA[GitHub Copilot's Agentic Harness: Performance & Efficiency Across Models]]></title>
+            <link>https://digestweb.dev/articles/2026-06-25/github-copilot-agentic-harness-performance-efficiency</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-25/github-copilot-agentic-harness-performance-efficiency</guid>
+            <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[GitHub details the performance and efficiency of its Copilot agentic harness, showcasing strong benchmark results and token efficiency. The system offers flexibility across over 20 different AI models.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- GitHub evaluated the performance and efficiency of its Copilot agentic harness.
+- The harness demonstrated strong results across multiple benchmarks.
+- It achieved leading token efficiency in its operations.
+- The system maintains flexibility, supporting over 20 different AI models.
+
+## Our Commentary
+
+It's always good to see the underlying tech explained, especially for something as widely used as Copilot. I wonder how much of this internal efficiency translates directly to a better developer experience. Token efficiency is crucial for cost, but what about the quality and relevance of the suggestions? That's the real metric for me.
+
+Original Link: https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/]]></content:encoded>
+            <enclosure url="https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo-stripe.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Google's "Modern Web Guidance" AI Skill for Web Dev Agents]]></title>
@@ -118,6 +180,26 @@ This is the kind of AI application that excites me. Using AI to unravel the myst
 
 Original Link: https://www.microsoft.com/en-us/research/blog/understanding-the-brain-with-ai-driven-explanations-and-experiments/]]></content:encoded>
             <enclosure url="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/06/UnderstandingtheBrain-TWLIFB-1200x627-1-scaled.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Next.js 16.3 Introduces Instant Navigations for SPA-like Responsiveness]]></title>
+            <link>https://digestweb.dev/articles/2026-06-25/nextjs-16-3-instant-navigations-spa-responsiveness</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-25/nextjs-16-3-instant-navigations-spa-responsiveness</guid>
+            <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Next.js 16.3 rolls out a new set of tools designed to bring single-page application responsiveness to its server-centric model. This update aims to significantly enhance user experience with faster navigations.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Next.js 16.3 introduces a new suite of tools for instant navigations.
+- These tools aim to bring single-page application responsiveness to the server-centric Next.js model.
+- The update focuses on enhancing user experience through faster page transitions.
+- It represents a significant step in blending server-side rendering with client-side fluidity.
+
+## Our Commentary
+
+This is a big one for Next.js. We've seen this push for SPA-like feel in SSR frameworks for a while now. I'm genuinely curious how seamless it truly is in practice. The developer experience around implementing and optimizing these instant navigations will be absolutely key. It feels like a necessary evolution.
+
+Original Link: https://nextjs.org/blog/next-16-3-instant-navigations]]></content:encoded>
+            <enclosure url="https://h8dxkfmaphn8o0p3.public.blob.vercel-storage.com/static/blog/next-16-3-instant-navigations/twitter-card.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Notion Integrates Coding Agents via Cursor SDK for Enhanced Dev Workflow]]></title>
