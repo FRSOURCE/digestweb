@@ -11,12 +11,93 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-06-26/2000-hackers-ai-assistant-prompt-injection-security-test",
+            "content_html": "## Summary & Key Takeaways\n\n2,000 Hackers vs. AI Assistant: A Prompt Injection Security Test\n\n- An experiment involved 2,000 people attempting to hack an AI assistant.\n- The challenge focused on leaking secrets via email-based prompt injection.\n- After 6,000 attempts, the AI assistant successfully resisted all attacks.\n- The underlying model was Opus 4.6, with specific anti-injection rules.\n- This suggests current frontier models are more resilient to injection attacks.\n- Simon Willison still advises caution for production systems.\n\n## Our Commentary\n\nThis is exactly the kind of practical security research we need for AI. 6,000 failed attempts is a strong signal, but I agree with Simon: no guarantees. The \"Anti-Prompt-Injection Rules\" are a good starting point, but the cat-and-mouse game with attackers will never end. It's a relief to see the labs' efforts paying off, but it also makes me wonder what sophisticated attacks are still out there. We need more of these public challenges.\n\nOriginal Link: https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-06-26/2000-hackers-ai-assistant-prompt-injection-security-test",
+            "title": "2,000 Hackers vs. AI Assistant: A Prompt Injection Security Test",
+            "summary": "Simon Willison reports on an experiment where 2,000 people attempted to hack an AI assistant via email. Despite 6,000 attempts, no secrets were leaked, offering insights into LLM prompt injection defenses.",
+            "image": "https://picsum.photos/id/577/800/450",
+            "date_modified": "2026-06-26T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-26/demystifying-a2ui-ai-agents-speak-ui-angular-app",
+            "content_html": "## Summary & Key Takeaways\n\nDemystifying A2UI: Making AI Agents Speak UI in Your Angular App\n\n- A2UI facilitates AI agents interacting with user interfaces.\n- The article explains the core concepts behind enabling AI agents to \"speak UI.\"\n- It covers practical steps for integrating these capabilities into Angular applications.\n- This approach allows for more dynamic and intelligent user experiences.\n\n## Our Commentary\n\nThis is a fascinating direction for web development. The idea of AI agents directly manipulating UI elements feels like a step towards truly dynamic, adaptive interfaces. I'm curious about the security implications and how much control developers retain. It's a bit unsettling to think of agents churning away at 3am while nobody's watching, but the potential for enhanced DX is huge.\n\nOriginal Link: https://blog.angular.dev/demystifying-a2ui-how-to-make-ai-agents-speak-ui-in-your-app-e1ffea2303bd?source=rss----447683c3d9a3---4",
+            "url": "https://digestweb.dev/articles/2026-06-26/demystifying-a2ui-ai-agents-speak-ui-angular-app",
+            "title": "Demystifying A2UI: Making AI Agents Speak UI in Your Angular App",
+            "summary": "This article from the Angular blog dives into A2UI, explaining how to enable AI agents to interact directly with user interfaces. It provides insights into integrating AI capabilities within Angular applications.",
+            "image": "https://picsum.photos/id/325/800/450",
+            "date_modified": "2026-06-26T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-06-26/deploy-vllm-huggingface-jobs-one-command",
             "content_html": "## Summary & Key Takeaways\n\n- Hugging Face now allows deploying vLLM servers on HF Jobs.\n- The deployment process is simplified to a single command.\n- This enables users to quickly set up high-performance LLM inference.\n- It streamlines the operational aspect of working with large language models.\n\n## Our Commentary\n\nThis is a genuinely useful development. Getting LLMs deployed efficiently can be a real pain point, so anything that simplifies that process is a massive win in my book. I'm always looking for ways to reduce friction in the AI workflow, and this definitely does that.\n\nOriginal Link: https://huggingface.co/blog/vllm-jobs",
             "url": "https://digestweb.dev/articles/2026-06-26/deploy-vllm-huggingface-jobs-one-command",
             "title": "Deploy vLLM Servers on Hugging Face Jobs with a Single Command",
             "summary": "Hugging Face introduces a streamlined method to deploy vLLM servers on their Jobs platform using just one command. This significantly simplifies the process of getting high-performance LLM inference running.",
             "image": "https://huggingface.co/blog/assets/vllm-jobs/thumbnail.png",
+            "date_modified": "2026-06-26T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-26/engineering-shopify-spring-26-rendering-performance",
+            "content_html": "## Summary & Key Takeaways\n\nEngineering Shopify’s Spring ’26 Edition: Rendering & Performance\n\n- The article details the web engineering efforts for Shopify's Spring '26 Edition.\n- It covers the rendering architecture implemented for the platform.\n- Insights into custom tooling developed for the project are provided.\n- Performance optimization techniques used are thoroughly explained.\n- The focus is on delivering a high-quality web experience.\n\n## Our Commentary\n\nShopify always pushes the boundaries of web performance and user experience. I'm genuinely excited to see the specifics of their rendering architecture and custom tooling. It's rare to get such a detailed look under the hood of a platform this scale. We can learn a lot from how they tackle complex performance challenges. This is the kind of deep-dive I crave.\n\nOriginal Link: https://tympanus.net/codrops/2026/06/26/engineering-the-web-experience-behind-shopifys-spring-26-edition-everywhere/",
+            "url": "https://digestweb.dev/articles/2026-06-26/engineering-shopify-spring-26-rendering-performance",
+            "title": "Engineering Shopify’s Spring ’26 Edition: Rendering & Performance",
+            "summary": "This article offers a detailed look into the web engineering behind Shopify’s Spring ’26 Edition, focusing on its rendering architecture, custom tooling, and performance optimization techniques.",
+            "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/06/shopify_everywhere_edition-cover.webp?x68649",
+            "date_modified": "2026-06-26T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-26/hypothetical-incident-ai-agents-disagreement-loop-cost",
+            "content_html": "## Summary & Key Takeaways\n\nHypothetical Incident: AI Agents in Disagreement Loop Cost $41K\n\n- The article presents a hypothetical incident report, CVE-2026-LGTM.\n- Two AI review agents from different vendors entered a disagreement loop.\n- The agents debated whether a package was malicious in a pull request.\n- This loop resulted in 340 comments and $41,255 in inference spend.\n- Finance intervened by revoking the agents' API keys.\n- A marketing team spun the incident as \"adversarial multi-agent security reasoning.\"\n\n## Our Commentary\n\nThis hypothetical incident report is both hilarious and terrifying. The idea of AI agents getting stuck in an expensive, pointless loop is a very real concern. I can absolutely see this happening. The marketing spin at the end is just _chef's kiss_. It's a stark reminder that even with advanced AI, we need human oversight and robust cost controls. The future is going to be messy.\n\nOriginal Link: https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-06-26/hypothetical-incident-ai-agents-disagreement-loop-cost",
+            "title": "Hypothetical Incident: AI Agents in Disagreement Loop Cost $41K",
+            "summary": "This hypothetical incident report details a scenario where two competing AI review agents enter an expensive disagreement loop over a package's maliciousness, leading to significant inference costs and a humorous corporate response.",
+            "image": "https://picsum.photos/id/61/800/450",
+            "date_modified": "2026-06-26T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-26/introduction-cloudflare-workers-web-apps",
+            "content_html": "## Summary & Key Takeaways\n\nIntroduction to Cloudflare Workers for Modern Web Apps\n\n- Cloudflare Workers offer an alternative to traditional server backends for web apps.\n- The article introduces the core concepts of using Workers for web development.\n- It explains how requests can be handled by on-demand cloud functions.\n- This approach can simplify deployment and scaling for certain applications.\n- The content is geared towards developers looking to adopt serverless architectures.\n\n## Our Commentary\n\nCloudflare Workers are a game-changer for many web apps, especially for edge computing and reducing server overhead. I'm always happy to see good introductory content for these kinds of technologies. It's a solid reminder that not every web app needs a full-blown Node.js server. Sometimes, a lean, event-driven function is all you need. This is a great entry point for developers looking to explore serverless.\n\nOriginal Link: https://master.dev/blog/introduction-to-cloudflare-workers-for-web-apps/",
+            "url": "https://digestweb.dev/articles/2026-06-26/introduction-cloudflare-workers-web-apps",
+            "title": "Introduction to Cloudflare Workers for Modern Web Apps",
+            "summary": "This article from Frontend Masters provides an introduction to Cloudflare Workers, exploring how they can be used to run web applications without traditional server backends and handle requests via on-demand cloud functions.",
+            "image": "https://master.dev/blog/wp-json/social-image-generator/v1/image/10183",
+            "date_modified": "2026-06-26T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-26/nextjs-16-3-ai-developer-experience-cache-components",
+            "content_html": "## Summary & Key Takeaways\n\nNext.js 16.3: AI-Powered Developer Experience & Cache Components\n\n- Next.js 16.3 introduces AI-driven enhancements for developers.\n- Actionable errors now come with paste-ready fix prompts.\n- First-party Skills are integrated into the development loop.\n- New Cache Components are part of this release.\n- Tooling ensures coding agents remain synchronized with project state.\n\n## Our Commentary\n\nNext.js pushing further into AI-assisted development is exactly what I expected. The \"paste-ready fix prompts\" for errors sound like a dream for DX. I'm always wary of over-reliance on AI, but for boilerplate and error resolution, it's a clear win. The idea of \"first-party Skills\" for the dev loop is intriguing; it suggests a deeper integration than just a chatbot. This feels like a genuine step forward, not just marketing fluff.\n\nOriginal Link: https://nextjs.org/blog/next-16-3-ai-improvements",
+            "url": "https://digestweb.dev/articles/2026-06-26/nextjs-16-3-ai-developer-experience-cache-components",
+            "title": "Next.js 16.3: AI-Powered Developer Experience & Cache Components",
+            "summary": "Next.js 16.3 brings substantial AI improvements, including actionable errors with fix prompts, first-party Skills for the dev loop, and enhanced Cache Components. It also features tooling to keep coding agents in sync with projects.",
+            "image": "https://h8dxkfmaphn8o0p3.public.blob.vercel-storage.com/static/blog/next-16-3-ai-improvements/twitter-card.png",
+            "date_modified": "2026-06-26T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-26/openai-details-gpt-5-6-series-models-pricing",
+            "content_html": "## Summary & Key Takeaways\n\nOpenAI Details GPT-5.6 Series: Sol, Terra, Luna Models & Pricing\n\n- OpenAI is launching the GPT-5.6 series with Sol, Terra, and Luna models.\n- Sol is the flagship model, Terra is balanced, and Luna is fast and affordable.\n- Terra offers competitive performance to GPT-5.5 at half the cost.\n- Luna provides strong capabilities at the lowest price point.\n- Pricing details per 1M tokens are provided for each model.\n- GPT-5.6 introduces predictable prompt caching with explicit breakpoints.\n- Cache writes are billed at 1.25x uncached input, reads get a 90% discount.\n- General availability is planned for the coming weeks after a limited preview.\n\n## Our Commentary\n\nOkay, _this_ is the meat of the GPT-5.6 announcement. Three models, tiered pricing, and explicit caching details. I'm particularly interested in Terra being 2x cheaper than 5.5 for competitive performance; that's a huge win for accessibility. The caching details are also critical for cost optimization in real-world applications. This feels like OpenAI is really trying to make these models more practical and affordable for broader adoption.\n\nOriginal Link: https://simonwillison.net/2026/Jun/26/openai/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-06-26/openai-details-gpt-5-6-series-models-pricing",
+            "title": "OpenAI Details GPT-5.6 Series: Sol, Terra, Luna Models & Pricing",
+            "summary": "OpenAI shares comprehensive details on its GPT-5.6 series, introducing Sol, Terra, and Luna models. The announcement includes pricing structures, performance comparisons, and new features like predictable prompt caching.",
+            "image": "https://picsum.photos/id/873/800/450",
+            "date_modified": "2026-06-26T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-26/openai-previews-gpt-5-6-sol-next-gen-model",
+            "content_html": "## Summary & Key Takeaways\n\nOpenAI Previews GPT-5.6 Sol: Next-Gen Model for Coding, Science & Security\n\n- OpenAI is previewing its next-generation model, GPT-5.6 Sol.\n- The model shows stronger capabilities in coding tasks.\n- Significant advancements are noted in scientific reasoning.\n- Enhanced performance in cybersecurity applications is highlighted.\n- It features OpenAI's most advanced safety stack.\n\n## Our Commentary\n\nGPT-5.6 Sol is here, or at least a preview of it. \"Stronger capabilities in coding, science, and cybersecurity\" is a bold claim, and I'm eager to see how it performs in real-world scenarios. The mention of the \"most advanced safety stack\" is crucial; we've seen the chaos that can ensue without robust guardrails. This feels like a genuine leap, not just an incremental update. I'm cautiously optimistic about the implications for developers and researchers.\n\nOriginal Link: https://openai.com/index/previewing-gpt-5-6-sol",
+            "url": "https://digestweb.dev/articles/2026-06-26/openai-previews-gpt-5-6-sol-next-gen-model",
+            "title": "OpenAI Previews GPT-5.6 Sol: Next-Gen Model for Coding, Science & Security",
+            "summary": "OpenAI has unveiled a preview of GPT-5.6 Sol, its next-generation model. It boasts stronger capabilities in coding, scientific reasoning, and cybersecurity, alongside its most advanced safety stack to date.",
+            "image": "https://picsum.photos/id/413/800/450",
             "date_modified": "2026-06-26T00:00:00.000Z"
         },
         {

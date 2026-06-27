@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Fri, 26 Jun 2026 10:23:45 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 27 Jun 2026 04:53:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,53 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[2,000 Hackers vs. AI Assistant: A Prompt Injection Security Test]]></title>
+            <link>https://digestweb.dev/articles/2026-06-26/2000-hackers-ai-assistant-prompt-injection-security-test</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-26/2000-hackers-ai-assistant-prompt-injection-security-test</guid>
+            <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison reports on an experiment where 2,000 people attempted to hack an AI assistant via email. Despite 6,000 attempts, no secrets were leaked, offering insights into LLM prompt injection defenses.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+2,000 Hackers vs. AI Assistant: A Prompt Injection Security Test
+
+- An experiment involved 2,000 people attempting to hack an AI assistant.
+- The challenge focused on leaking secrets via email-based prompt injection.
+- After 6,000 attempts, the AI assistant successfully resisted all attacks.
+- The underlying model was Opus 4.6, with specific anti-injection rules.
+- This suggests current frontier models are more resilient to injection attacks.
+- Simon Willison still advises caution for production systems.
+
+## Our Commentary
+
+This is exactly the kind of practical security research we need for AI. 6,000 failed attempts is a strong signal, but I agree with Simon: no guarantees. The "Anti-Prompt-Injection Rules" are a good starting point, but the cat-and-mouse game with attackers will never end. It's a relief to see the labs' efforts paying off, but it also makes me wonder what sophisticated attacks are still out there. We need more of these public challenges.
+
+Original Link: https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/577/800/450" length="0" type="image//id/577/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Demystifying A2UI: Making AI Agents Speak UI in Your Angular App]]></title>
+            <link>https://digestweb.dev/articles/2026-06-26/demystifying-a2ui-ai-agents-speak-ui-angular-app</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-26/demystifying-a2ui-ai-agents-speak-ui-angular-app</guid>
+            <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This article from the Angular blog dives into A2UI, explaining how to enable AI agents to interact directly with user interfaces. It provides insights into integrating AI capabilities within Angular applications.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+Demystifying A2UI: Making AI Agents Speak UI in Your Angular App
+
+- A2UI facilitates AI agents interacting with user interfaces.
+- The article explains the core concepts behind enabling AI agents to "speak UI."
+- It covers practical steps for integrating these capabilities into Angular applications.
+- This approach allows for more dynamic and intelligent user experiences.
+
+## Our Commentary
+
+This is a fascinating direction for web development. The idea of AI agents directly manipulating UI elements feels like a step towards truly dynamic, adaptive interfaces. I'm curious about the security implications and how much control developers retain. It's a bit unsettling to think of agents churning away at 3am while nobody's watching, but the potential for enhanced DX is huge.
+
+Original Link: https://blog.angular.dev/demystifying-a2ui-how-to-make-ai-agents-speak-ui-in-your-app-e1ffea2303bd?source=rss----447683c3d9a3---4]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/325/800/450" length="0" type="image//id/325/800/450"/>
+        </item>
         <item>
             <title><![CDATA[Deploy vLLM Servers on Hugging Face Jobs with a Single Command]]></title>
             <link>https://digestweb.dev/articles/2026-06-26/deploy-vllm-huggingface-jobs-one-command</link>
@@ -34,6 +81,150 @@ This is a genuinely useful development. Getting LLMs deployed efficiently can be
 
 Original Link: https://huggingface.co/blog/vllm-jobs]]></content:encoded>
             <enclosure url="https://huggingface.co/blog/assets/vllm-jobs/thumbnail.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Engineering Shopify’s Spring ’26 Edition: Rendering & Performance]]></title>
+            <link>https://digestweb.dev/articles/2026-06-26/engineering-shopify-spring-26-rendering-performance</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-26/engineering-shopify-spring-26-rendering-performance</guid>
+            <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This article offers a detailed look into the web engineering behind Shopify’s Spring ’26 Edition, focusing on its rendering architecture, custom tooling, and performance optimization techniques.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+Engineering Shopify’s Spring ’26 Edition: Rendering & Performance
+
+- The article details the web engineering efforts for Shopify's Spring '26 Edition.
+- It covers the rendering architecture implemented for the platform.
+- Insights into custom tooling developed for the project are provided.
+- Performance optimization techniques used are thoroughly explained.
+- The focus is on delivering a high-quality web experience.
+
+## Our Commentary
+
+Shopify always pushes the boundaries of web performance and user experience. I'm genuinely excited to see the specifics of their rendering architecture and custom tooling. It's rare to get such a detailed look under the hood of a platform this scale. We can learn a lot from how they tackle complex performance challenges. This is the kind of deep-dive I crave.
+
+Original Link: https://tympanus.net/codrops/2026/06/26/engineering-the-web-experience-behind-shopifys-spring-26-edition-everywhere/]]></content:encoded>
+            <enclosure url="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/06/shopify_everywhere_edition-cover.webp?x68649" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[Hypothetical Incident: AI Agents in Disagreement Loop Cost $41K]]></title>
+            <link>https://digestweb.dev/articles/2026-06-26/hypothetical-incident-ai-agents-disagreement-loop-cost</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-26/hypothetical-incident-ai-agents-disagreement-loop-cost</guid>
+            <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This hypothetical incident report details a scenario where two competing AI review agents enter an expensive disagreement loop over a package's maliciousness, leading to significant inference costs and a humorous corporate response.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+Hypothetical Incident: AI Agents in Disagreement Loop Cost $41K
+
+- The article presents a hypothetical incident report, CVE-2026-LGTM.
+- Two AI review agents from different vendors entered a disagreement loop.
+- The agents debated whether a package was malicious in a pull request.
+- This loop resulted in 340 comments and $41,255 in inference spend.
+- Finance intervened by revoking the agents' API keys.
+- A marketing team spun the incident as "adversarial multi-agent security reasoning."
+
+## Our Commentary
+
+This hypothetical incident report is both hilarious and terrifying. The idea of AI agents getting stuck in an expensive, pointless loop is a very real concern. I can absolutely see this happening. The marketing spin at the end is just _chef's kiss_. It's a stark reminder that even with advanced AI, we need human oversight and robust cost controls. The future is going to be messy.
+
+Original Link: https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/61/800/450" length="0" type="image//id/61/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Introduction to Cloudflare Workers for Modern Web Apps]]></title>
+            <link>https://digestweb.dev/articles/2026-06-26/introduction-cloudflare-workers-web-apps</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-26/introduction-cloudflare-workers-web-apps</guid>
+            <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This article from Frontend Masters provides an introduction to Cloudflare Workers, exploring how they can be used to run web applications without traditional server backends and handle requests via on-demand cloud functions.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+Introduction to Cloudflare Workers for Modern Web Apps
+
+- Cloudflare Workers offer an alternative to traditional server backends for web apps.
+- The article introduces the core concepts of using Workers for web development.
+- It explains how requests can be handled by on-demand cloud functions.
+- This approach can simplify deployment and scaling for certain applications.
+- The content is geared towards developers looking to adopt serverless architectures.
+
+## Our Commentary
+
+Cloudflare Workers are a game-changer for many web apps, especially for edge computing and reducing server overhead. I'm always happy to see good introductory content for these kinds of technologies. It's a solid reminder that not every web app needs a full-blown Node.js server. Sometimes, a lean, event-driven function is all you need. This is a great entry point for developers looking to explore serverless.
+
+Original Link: https://master.dev/blog/introduction-to-cloudflare-workers-for-web-apps/]]></content:encoded>
+            <enclosure url="https://master.dev/blog/wp-json/social-image-generator/v1/image/10183" length="0" type="image//blog/wp-json/social-image-generator/v1/image/10183"/>
+        </item>
+        <item>
+            <title><![CDATA[Next.js 16.3: AI-Powered Developer Experience & Cache Components]]></title>
+            <link>https://digestweb.dev/articles/2026-06-26/nextjs-16-3-ai-developer-experience-cache-components</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-26/nextjs-16-3-ai-developer-experience-cache-components</guid>
+            <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Next.js 16.3 brings substantial AI improvements, including actionable errors with fix prompts, first-party Skills for the dev loop, and enhanced Cache Components. It also features tooling to keep coding agents in sync with projects.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+Next.js 16.3: AI-Powered Developer Experience & Cache Components
+
+- Next.js 16.3 introduces AI-driven enhancements for developers.
+- Actionable errors now come with paste-ready fix prompts.
+- First-party Skills are integrated into the development loop.
+- New Cache Components are part of this release.
+- Tooling ensures coding agents remain synchronized with project state.
+
+## Our Commentary
+
+Next.js pushing further into AI-assisted development is exactly what I expected. The "paste-ready fix prompts" for errors sound like a dream for DX. I'm always wary of over-reliance on AI, but for boilerplate and error resolution, it's a clear win. The idea of "first-party Skills" for the dev loop is intriguing; it suggests a deeper integration than just a chatbot. This feels like a genuine step forward, not just marketing fluff.
+
+Original Link: https://nextjs.org/blog/next-16-3-ai-improvements]]></content:encoded>
+            <enclosure url="https://h8dxkfmaphn8o0p3.public.blob.vercel-storage.com/static/blog/next-16-3-ai-improvements/twitter-card.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Details GPT-5.6 Series: Sol, Terra, Luna Models & Pricing]]></title>
+            <link>https://digestweb.dev/articles/2026-06-26/openai-details-gpt-5-6-series-models-pricing</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-26/openai-details-gpt-5-6-series-models-pricing</guid>
+            <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI shares comprehensive details on its GPT-5.6 series, introducing Sol, Terra, and Luna models. The announcement includes pricing structures, performance comparisons, and new features like predictable prompt caching.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+OpenAI Details GPT-5.6 Series: Sol, Terra, Luna Models & Pricing
+
+- OpenAI is launching the GPT-5.6 series with Sol, Terra, and Luna models.
+- Sol is the flagship model, Terra is balanced, and Luna is fast and affordable.
+- Terra offers competitive performance to GPT-5.5 at half the cost.
+- Luna provides strong capabilities at the lowest price point.
+- Pricing details per 1M tokens are provided for each model.
+- GPT-5.6 introduces predictable prompt caching with explicit breakpoints.
+- Cache writes are billed at 1.25x uncached input, reads get a 90% discount.
+- General availability is planned for the coming weeks after a limited preview.
+
+## Our Commentary
+
+Okay, _this_ is the meat of the GPT-5.6 announcement. Three models, tiered pricing, and explicit caching details. I'm particularly interested in Terra being 2x cheaper than 5.5 for competitive performance; that's a huge win for accessibility. The caching details are also critical for cost optimization in real-world applications. This feels like OpenAI is really trying to make these models more practical and affordable for broader adoption.
+
+Original Link: https://simonwillison.net/2026/Jun/26/openai/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/873/800/450" length="0" type="image//id/873/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Previews GPT-5.6 Sol: Next-Gen Model for Coding, Science & Security]]></title>
+            <link>https://digestweb.dev/articles/2026-06-26/openai-previews-gpt-5-6-sol-next-gen-model</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-26/openai-previews-gpt-5-6-sol-next-gen-model</guid>
+            <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI has unveiled a preview of GPT-5.6 Sol, its next-generation model. It boasts stronger capabilities in coding, scientific reasoning, and cybersecurity, alongside its most advanced safety stack to date.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+OpenAI Previews GPT-5.6 Sol: Next-Gen Model for Coding, Science & Security
+
+- OpenAI is previewing its next-generation model, GPT-5.6 Sol.
+- The model shows stronger capabilities in coding tasks.
+- Significant advancements are noted in scientific reasoning.
+- Enhanced performance in cybersecurity applications is highlighted.
+- It features OpenAI's most advanced safety stack.
+
+## Our Commentary
+
+GPT-5.6 Sol is here, or at least a preview of it. "Stronger capabilities in coding, science, and cybersecurity" is a bold claim, and I'm eager to see how it performs in real-world scenarios. The mention of the "most advanced safety stack" is crucial; we've seen the chaos that can ensue without robust guardrails. This feels like a genuine leap, not just an incremental update. I'm cautiously optimistic about the implications for developers and researchers.
+
+Original Link: https://openai.com/index/previewing-gpt-5-6-sol]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/413/800/450" length="0" type="image//id/413/800/450"/>
         </item>
         <item>
             <title><![CDATA[AI and Liability: Bruce Schneier on Holding Companies Accountable for AI Errors]]></title>
