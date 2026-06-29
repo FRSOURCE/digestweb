@@ -26,10 +26,10 @@ importers:
         version: 4.12.1(playwright-core@1.61.1)
       '@frsource/eslint-config':
         specifier: ^1.73.0
-        version: 1.85.0(eslint@10.5.0(jiti@2.7.0))(typescript@5.9.3)
+        version: 1.85.2(eslint@10.5.0(jiti@2.7.0))(typescript@5.9.3)
       '@frsource/prettier-config':
         specifier: ^1.41.0
-        version: 1.47.0(prettier@3.8.4)
+        version: 1.47.2(prettier@3.8.4)
       '@google/generative-ai':
         specifier: ^0.24.0
         version: 0.24.1
@@ -812,14 +812,14 @@ packages:
   '@frsource/autoresize-textarea@2.0.205':
     resolution: {integrity: sha512-N1h/ZWYgjIwgTRUy78Jyjhya7l0XwVTk8obrqPTi869YNlnj1kzoJ/zVffCopPwjXCkTAYzsIWMQMZrGi/kkdg==}
 
-  '@frsource/eslint-config@1.85.0':
-    resolution: {integrity: sha512-MmUZe8/JzXn5kfLbkGetr0WG8lV7YLtzdwrwod9NYQet9xRnH0+a9uI4IOPQNv4h4cDvq345D23dZJg9Yb0hrQ==}
+  '@frsource/eslint-config@1.85.2':
+    resolution: {integrity: sha512-S2HUsu+ygMRmhV+rvbKvn3wG0WN1U9Lhi2MCvudy1q6WiccAq+q/qHHxMTVabJM3hpU9lEDg5UnjCWthLaMg/Q==}
     peerDependencies:
       eslint: '>= 10'
       typescript: '>= 5.0.0'
 
-  '@frsource/prettier-config@1.47.0':
-    resolution: {integrity: sha512-2QN5pBIGppQWl1GceOk82oVNkRSSr1bS3iQBaZUSGq3mAYffNogi73B48kQIwtSuUdLrEJP3NR3hUEZ17OuLSw==}
+  '@frsource/prettier-config@1.47.2':
+    resolution: {integrity: sha512-kT7ecpF0rEYhWnbM2pNcCUpD89X3x7rt6ZlmtEj/8e40Qi8CgmuFSUnzhkKeCPAsznXs8RadkNqfbSj3f9NlDg==}
     peerDependencies:
       prettier: '>= 3'
 
@@ -4215,7 +4215,7 @@ snapshots:
 
   '@frsource/autoresize-textarea@2.0.205': {}
 
-  '@frsource/eslint-config@1.85.0(eslint@10.5.0(jiti@2.7.0))(typescript@5.9.3)':
+  '@frsource/eslint-config@1.85.2(eslint@10.5.0(jiti@2.7.0))(typescript@5.9.3)':
     dependencies:
       '@eslint/js': 10.0.1(eslint@10.5.0(jiti@2.7.0))
       '@typescript-eslint/eslint-plugin': 8.62.0(@typescript-eslint/parser@8.62.0(eslint@10.5.0(jiti@2.7.0))(typescript@5.9.3))(eslint@10.5.0(jiti@2.7.0))(typescript@5.9.3)
@@ -4228,7 +4228,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@frsource/prettier-config@1.47.0(prettier@3.8.4)':
+  '@frsource/prettier-config@1.47.2(prettier@3.8.4)':
     dependencies:
       prettier: 3.8.4
 
