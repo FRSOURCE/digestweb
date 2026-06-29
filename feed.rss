@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Mon, 29 Jun 2026 04:15:15 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 29 Jun 2026 05:50:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,49 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Open AI Ecosystem: New Players & Release Motivations]]></title>
+            <link>https://digestweb.dev/articles/2026-06-28/open-ai-ecosystem-new-players-release-motivations</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-28/open-ai-ecosystem-new-players-release-motivations</guid>
+            <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Nathan Lambert's latest 'Interconnects' analyzes the motivations behind new model releases from Zyphra, Cohere, and Poolside, assessing their impact on the open AI ecosystem.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Nathan Lambert's 'Interconnects' series provides an assessment of the open AI ecosystem.
+- The article focuses on new entrants like Zyphra, Cohere, and Poolside.
+- It explores the strategic motivations behind releasing new AI models.
+- The analysis considers how these players are broadening the ecosystem's scope.
+
+## Our Commentary
+
+We're always trying to keep tabs on the open AI space, and this piece from Nathan Lambert is a solid check-in. It's not just about who's releasing what, but _why_. I find the motivations behind open-sourcing models fascinating; sometimes it feels like a genuine push for collaboration, other times a strategic play. It's a messy mix, and I appreciate the attempt to untangle it.
+
+Original Link: https://www.interconnects.ai/p/artifacts-22-zyphra-cohere-and-poolside]]></content:encoded>
+            <author>Nathan Lambert</author>
+            <enclosure url="https://substackcdn.com/image/fetch/$s_!Yzio!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2f6a1684-d8af-4a82-a0fc-ba65d6a6dde0_1024x576.jpeg" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Reframing AI: It's Our Loop, We Invite Agents In]]></title>
+            <link>https://digestweb.dev/articles/2026-06-28/reframing-ai-our-loop-we-invite-agents-in</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-28/reframing-ai-our-loop-we-invite-agents-in</guid>
+            <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison quotes Jon Udell on a crucial shift in perspective: instead of 'human in the loop,' we should view it as 'our loop' where we invite AI agents to assist us.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Jon Udell critiques the common phrase "human in the loop" for ceding authority to machines.
+- He proposes reframing the concept to "our loop," where humans maintain agency.
+- AI agents are then invited into this human-controlled process as assistants.
+- This perspective applies to agentic software development, avoiding black-box scenarios.
+- The goal is agent-assisted processes, not human exclusion from a machine-driven loop.
+
+## Our Commentary
+
+This really resonates with me. The language we use around AI matters so much, and 'human in the loop' always felt a bit... subservient. I love the idea of flipping the script, asserting that it's _our_ process, and we're just bringing in some very smart tools. It feels more empowering, less like we're just babysitting an autonomous system. It's a subtle but powerful mental shift for how we approach agentic development.
+
+Original Link: https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/346/800/450" length="0" type="image//id/346/800/450"/>
+        </item>
         <item>
             <title><![CDATA[Local Coding Agents: Open-Weight AI for Your Dev Workflow]]></title>
             <link>https://digestweb.dev/articles/2026-06-27/local-coding-agents-open-weight-ai-dev-workflow</link>

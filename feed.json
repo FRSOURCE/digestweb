@@ -11,6 +11,30 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-06-28/open-ai-ecosystem-new-players-release-motivations",
+            "content_html": "## Summary & Key Takeaways\n\n- Nathan Lambert's 'Interconnects' series provides an assessment of the open AI ecosystem.\n- The article focuses on new entrants like Zyphra, Cohere, and Poolside.\n- It explores the strategic motivations behind releasing new AI models.\n- The analysis considers how these players are broadening the ecosystem's scope.\n\n## Our Commentary\n\nWe're always trying to keep tabs on the open AI space, and this piece from Nathan Lambert is a solid check-in. It's not just about who's releasing what, but _why_. I find the motivations behind open-sourcing models fascinating; sometimes it feels like a genuine push for collaboration, other times a strategic play. It's a messy mix, and I appreciate the attempt to untangle it.\n\nOriginal Link: https://www.interconnects.ai/p/artifacts-22-zyphra-cohere-and-poolside",
+            "url": "https://digestweb.dev/articles/2026-06-28/open-ai-ecosystem-new-players-release-motivations",
+            "title": "Open AI Ecosystem: New Players & Release Motivations",
+            "summary": "Nathan Lambert's latest 'Interconnects' analyzes the motivations behind new model releases from Zyphra, Cohere, and Poolside, assessing their impact on the open AI ecosystem.",
+            "image": "https://substackcdn.com/image/fetch/$s_!Yzio!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2f6a1684-d8af-4a82-a0fc-ba65d6a6dde0_1024x576.jpeg",
+            "date_modified": "2026-06-28T00:00:00.000Z",
+            "author": {
+                "name": "Nathan Lambert"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-28/reframing-ai-our-loop-we-invite-agents-in",
+            "content_html": "## Summary & Key Takeaways\n\n- Jon Udell critiques the common phrase \"human in the loop\" for ceding authority to machines.\n- He proposes reframing the concept to \"our loop,\" where humans maintain agency.\n- AI agents are then invited into this human-controlled process as assistants.\n- This perspective applies to agentic software development, avoiding black-box scenarios.\n- The goal is agent-assisted processes, not human exclusion from a machine-driven loop.\n\n## Our Commentary\n\nThis really resonates with me. The language we use around AI matters so much, and 'human in the loop' always felt a bit... subservient. I love the idea of flipping the script, asserting that it's _our_ process, and we're just bringing in some very smart tools. It feels more empowering, less like we're just babysitting an autonomous system. It's a subtle but powerful mental shift for how we approach agentic development.\n\nOriginal Link: https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-06-28/reframing-ai-our-loop-we-invite-agents-in",
+            "title": "Reframing AI: It's Our Loop, We Invite Agents In",
+            "summary": "Simon Willison quotes Jon Udell on a crucial shift in perspective: instead of 'human in the loop,' we should view it as 'our loop' where we invite AI agents to assist us.",
+            "image": "https://picsum.photos/id/346/800/450",
+            "date_modified": "2026-06-28T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-06-27/local-coding-agents-open-weight-ai-dev-workflow",
             "content_html": "## Summary & Key Takeaways\n\n• Open-weight models provide a viable foundation for local coding agents.\n• This approach serves as an alternative to commercial cloud-based AI subscriptions.\n• Key advantages include potential cost reductions and improved data privacy.\n• Running agents locally grants developers greater control and customization options.\n• The article explores the practical implementation of these local AI harnesses.\n\n## Our Commentary\n\nWe've been watching the local AI space with keen interest. The idea of running powerful coding agents right on your machine, free from subscription fees and data concerns, is incredibly appealing. I mean, who _doesn't_ want more control? There's something deeply satisfying about owning your tools, especially when they're as complex as an LLM. It's a bit of a wild west out there with all the different models and harnesses, but the potential for developer autonomy is huge. We're curious to see how performance stacks up against the big cloud players in real-world scenarios.\n\nOriginal Link: https://magazine.sebastianraschka.com/p/using-local-coding-agents",
             "url": "https://digestweb.dev/articles/2026-06-27/local-coding-agents-open-weight-ai-dev-workflow",
