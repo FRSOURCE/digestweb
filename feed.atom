@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-06-30T05:02:49.646Z</updated>
+    <updated>2026-06-30T10:32:09.451Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -197,6 +197,31 @@ Oh, the `<select>` element. A true nemesis for anyone trying to build custom UIs
 Original Link: https://jakearchibald.com/2026/goldilocks-select-height/]]></content>
         <author>
             <name>Jake Archibald</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HTML Table Extractor: Convert Rich Text Tables to Multiple Formats]]></title>
+        <id>https://digestweb.dev/articles/2026-06-29/html-table-extractor-convert-rich-text-tables</id>
+        <link href="https://digestweb.dev/articles/2026-06-29/html-table-extractor-convert-rich-text-tables"/>
+        <link rel="enclosure" href="https://static.simonwillison.net/static/2026/html-table.jpg" type="image/jpg"/>
+        <updated>2026-06-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison releases a new tool to extract HTML tables from pasted rich text, converting them into various formats like Markdown, CSV, or JSON. It also integrates with Wikipedia's CORS API for direct page import.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Introduces a new web tool for extracting HTML tables from rich text.
+- Supports conversion to HTML, Markdown, CSV, TSV, and JSON formats.
+- Designed for easy data extraction from browser-pasted content.
+- Features integration with Wikipedia's CORS API for direct page content import.
+- Builds on previous work, like the Rich text to Markdown tool.
+- Aims to simplify data handling from web pages.
+
+## Our Commentary
+
+Simon Willison just dropped another one of his incredibly useful, hyper-focused tools. We're always impressed by how he spots these little friction points in web workflows and just... builds a solution. This HTML table extractor is exactly that – a simple, effective answer to a common data-wrangling headache. The Wikipedia CORS API integration is a particularly clever touch; it's the kind of practical, no-fuss feature that makes a tool genuinely indispensable for certain tasks. I mean, who hasn't wrestled with copying tables from a webpage? This just makes it _work_.
+
+Original Link: https://simonwillison.net/2026/Jun/29/html-table-extractor/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
         </author>
     </entry>
     <entry>
