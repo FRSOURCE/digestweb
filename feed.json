@@ -11,6 +11,129 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-06-29/claude-apps-gateway-amazon-bedrock-google-cloud",
+            "content_html": "## Summary & Key Takeaways\n\n- Anthropic has launched the Claude apps gateway.\n- This gateway supports Amazon Bedrock and Google Cloud.\n- It aims to simplify Claude integration across multiple cloud providers.\n- The tool enhances management for Claude applications.\n\n## Our Commentary\n\nAnother strategic move from Anthropic. An \"apps gateway\" for Bedrock and Google Cloud? That's about making Claude sticky and easy to deploy wherever you are. It's a smart play in the multi-cloud LLM world. We're seeing the tooling around these models mature rapidly.\n\nOriginal Link: https://claude.com/blog/introducing-the-claude-apps-gateway",
+            "url": "https://digestweb.dev/articles/2026-06-29/claude-apps-gateway-amazon-bedrock-google-cloud",
+            "title": "Claude Apps Gateway Launched for Amazon Bedrock & Google Cloud",
+            "summary": "Anthropic introduces the Claude apps gateway, simplifying integration and management of Claude across Amazon Bedrock and Google Cloud platforms.",
+            "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42ca36bd163af206c90df2_claude-gateway.jpg",
+            "date_modified": "2026-06-29T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-29/claude-llm-microsoft-foundry-ga",
+            "content_html": "## Summary & Key Takeaways\n\n- Anthropic's Claude LLM is now generally available.\n- It is accessible through Microsoft Foundry.\n- This expands Claude's availability for enterprise applications.\n- The move increases its reach within cloud environments.\n\n## Our Commentary\n\nClaude hitting GA on Microsoft Foundry is a big deal for enterprise adoption. It means more developers and businesses can easily integrate it. The LLM space is a battleground, and platform availability is a key front. We're seeing these models become infrastructure.\n\nOriginal Link: https://claude.com/blog/claude-in-microsoft-foundry",
+            "url": "https://digestweb.dev/articles/2026-06-29/claude-llm-microsoft-foundry-ga",
+            "title": "Claude LLM Now Generally Available on Microsoft Foundry Platform",
+            "summary": "Anthropic's Claude large language model has reached general availability on Microsoft Foundry, expanding its reach for enterprise and cloud users.",
+            "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a42c288d13c54e4096c7bb3_microsoft-foundry.jpg",
+            "date_modified": "2026-06-29T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-29/css-stacking-contexts-z-index-mastery",
+            "content_html": "## Summary & Key Takeaways\n\n- `z-index` behavior is governed by CSS stacking contexts.\n- Understanding stacking contexts is crucial for element layering.\n- Elements within a lower stacking context cannot appear above elements in a higher one.\n- The article explains common pitfalls and how to avoid them.\n\n## Our Commentary\n\nStacking contexts. Oh, the memories of debugging `z-index` issues for hours. This is one of those fundamental CSS concepts that trips up everyone at some point. A good, clear explanation is always welcome. We need more articles that demystify these core web platform behaviors.\n\nOriginal Link: https://blog.codepen.io/2026/06/29/chris-corner-layers-of-layers/",
+            "url": "https://digestweb.dev/articles/2026-06-29/css-stacking-contexts-z-index-mastery",
+            "title": "Understanding CSS Stacking Contexts for Z-Index Mastery",
+            "summary": "A deep dive into CSS stacking contexts, explaining how they govern `z-index` behavior and why understanding them is crucial for element layering.",
+            "image": "https://blog.codepen.io/wp-content/uploads/2026/06/Screenshot-2026-06-29-at-9.38.55-AM.png",
+            "date_modified": "2026-06-29T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-29/css-states-javascript-events-blurring-line",
+            "content_html": "## Summary & Key Takeaways\n\n- CSS pseudo-classes have long handled user interaction styling.\n- New CSS features are expanding its ability to \"listen\" for states.\n- This development blurs the traditional boundary with JavaScript events.\n- CSS is becoming a more capable tool for interactive web experiences.\n- It offers potential alternatives to JavaScript for certain UI behaviors.\n\n## Our Commentary\n\nThe idea of CSS taking on more interactive states is something we've been watching closely. Every time CSS can handle something that used to require JavaScript, it's a win for performance and simplicity. This article sounds like a good exploration of that evolving boundary. I'm all for less JavaScript where CSS can do the job.\n\nOriginal Link: https://css-tricks.com/css-states-and-javascript-events/",
+            "url": "https://digestweb.dev/articles/2026-06-29/css-states-javascript-events-blurring-line",
+            "title": "CSS States & JavaScript Events: A Blurring Line in Web Interactions",
+            "summary": "CSS-Tricks explores how modern CSS features are increasingly handling interactive states, offering alternatives to traditional JavaScript event listeners.",
+            "image": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2018/07/state-management.jpg",
+            "date_modified": "2026-06-29T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-29/cursor-ai-ide-ios-mobile-app",
+            "content_html": "## Summary & Key Takeaways\n\n- The Cursor AI-powered IDE has launched an iOS application.\n- This allows developers to code and build on mobile devices.\n- The release enhances the flexibility and accessibility of the tool.\n- It supports a \"build from anywhere\" development workflow.\n\n## Our Commentary\n\nCursor on iOS? That's... interesting. I'm not sure how much serious coding I'd do on a phone, but for quick edits or reviewing AI-generated code, it could be surprisingly useful. It's a bold move, and I'm curious to see how the UX holds up.\n\nOriginal Link: https://cursor.com/blog/ios-mobile-app",
+            "url": "https://digestweb.dev/articles/2026-06-29/cursor-ai-ide-ios-mobile-app",
+            "title": "Cursor AI-Powered IDE Now Available on iOS for Mobile Development",
+            "summary": "The AI-powered code editor, Cursor, expands its platform availability with a new iOS app, enabling developers to build from anywhere.",
+            "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/blog/mobile-og-image-final-1-.png",
+            "date_modified": "2026-06-29T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-29/discoformer-unified-transformer-density-score",
+            "content_html": "## Summary & Key Takeaways\n\n- DiScoFormer is a new transformer model.\n- It is designed to handle both density and score functions.\n- The model operates across different data distributions.\n- This represents a step in unified AI modeling.\n\n## Our Commentary\n\nA new transformer architecture from Hugging Face is always worth a look. \"One transformer for density and score\" sounds like a step towards more generalized models. We're seeing a lot of these specialized architectures emerge, and it's hard to keep up, but this one sounds promising for research.\n\nOriginal Link: https://huggingface.co/blog/allenai/discoformer",
+            "url": "https://digestweb.dev/articles/2026-06-29/discoformer-unified-transformer-density-score",
+            "title": "DiScoFormer: A Unified Transformer for Density and Score Modeling",
+            "summary": "Hugging Face introduces DiScoFormer, a novel transformer architecture designed to model both density and score functions across various data distributions.",
+            "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/AnOX0pzQm-Hep_CLFOVM7.png",
+            "date_modified": "2026-06-29T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-29/fluid-typography-css-progress-function",
+            "content_html": "## Summary & Key Takeaways\n\n- The `progress()` function is a new CSS feature.\n- It provides a novel method for calculating fluid typography sizes.\n- This function addresses previous challenges in responsive type scaling.\n- It allows type size to adapt smoothly based on the viewport.\n- The article demonstrates how to implement this modern technique.\n\n## Our Commentary\n\nFluid typography has been a bit of a hacky mess for too long. The `progress()` function sounds like a proper, native solution to a persistent problem. This is exactly the kind of web platform improvement we love to see. It makes responsive design genuinely easier and more robust.\n\nOriginal Link: https://master.dev/blog/fluid-typography-with-progress/",
+            "url": "https://digestweb.dev/articles/2026-06-29/fluid-typography-css-progress-function",
+            "title": "Fluid Typography Made Easy with CSS `progress()` Function",
+            "summary": "Explore how the new CSS `progress()` function simplifies fluid typography, enabling responsive type sizing based on the viewport without past complexities.",
+            "image": "https://master.dev/blog/wp-json/social-image-generator/v1/image/10250",
+            "date_modified": "2026-06-29T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-29/git-2-55-release-highlights",
+            "content_html": "## Summary & Key Takeaways\n\n- Git 2.55 has been officially released.\n- The update includes various new features and changes.\n- GitHub provides an overview of the most interesting additions.\n\n## Our Commentary\n\nGit updates are always good, but 2.55 sounds like a routine bump. We'll keep an eye on the details, but I don't expect any major shifts in workflow from this one.\n\nOriginal Link: https://github.blog/open-source/git/highlights-from-git-2-55/",
+            "url": "https://digestweb.dev/articles/2026-06-29/git-2-55-release-highlights",
+            "title": "Git 2.55 Released: A Look at the Latest Features and Changes",
+            "summary": "The open-source Git project unveils version 2.55, bringing a collection of new features and changes to the popular version control system.",
+            "image": "https://github.blog/wp-content/uploads/2026/06/git255.png",
+            "date_modified": "2026-06-29T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-29/goldilocks-customizable-select-height-css",
+            "content_html": "## Summary & Key Takeaways\n\n- Customizing `<select>` element height has historically been challenging.\n- Jake Archibald shares a CSS pattern for ideal sizing.\n- The solution leverages newer CSS features like `anchor-size` and `position-area`.\n- It addresses a common pain point for web developers.\n- The article provides a practical approach to a complex styling problem.\n\n## Our Commentary\n\nOh, the `<select>` element. A true nemesis for anyone trying to build custom UIs. I'm genuinely intrigued by this \"Goldilocks\" solution. If Jake Archibald struggled, it means it's a real problem, and I'm always here for clever CSS that solves old headaches. This is exactly the kind of deep dive we love.\n\nOriginal Link: https://jakearchibald.com/2026/goldilocks-select-height/",
+            "url": "https://digestweb.dev/articles/2026-06-29/goldilocks-customizable-select-height-css",
+            "title": "Achieving Goldilocks Height for Customizable Select Elements with CSS",
+            "summary": "Jake Archibald explores the elusive 'just right' height for custom `<select>` elements, revealing a CSS solution using modern features like `anchor-size` and `position-area`.",
+            "image": "https://jakearchibald.com/c/img-CxMtxBGV.png",
+            "date_modified": "2026-06-29T00:00:00.000Z",
+            "author": {
+                "name": "Jake Archibald"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-29/llm-deeper-instructions-broader-generalization",
+            "content_html": "## Summary & Key Takeaways\n\n- A 4B parameter model was trained on 1,000 expert rubrics.\n- This training used the ComplexConstraints instruction-following benchmark.\n- The smaller model achieved performance parity with a 60x larger model.\n- The improvements generalized to unseen external benchmarks.\n- This suggests instruction quality can significantly boost LLM efficiency.\n\n## Our Commentary\n\nThis is genuinely exciting. A 4B model matching a 60x larger one just by better instruction following? That's a huge win for efficiency and accessibility. It means we might not always need monstrous models for top-tier performance, which is a relief for anyone worried about compute costs.\n\nOriginal Link: https://www.surgehq.ai/blog/training-on-complexconstraints",
+            "url": "https://digestweb.dev/articles/2026-06-29/llm-deeper-instructions-broader-generalization",
+            "title": "Smaller LLM Achieves Parity with Larger Models via Deeper Instructions",
+            "summary": "Research shows a 4B model, trained on expert-written rubrics, matched a 60x larger LLM in instruction following, demonstrating gains in generalization.",
+            "image": "https://cdn.prod.website-files.com/68dcd2ceb173c46fa029931c/6a41f689c758e10a5cd7b267_cc.jpg",
+            "date_modified": "2026-06-29T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-29/memora-scalable-memory-ai-agents",
+            "content_html": "## Summary & Key Takeaways\n\n- AI agents struggle with remembering past conversations efficiently.\n- Memora is a new scalable memory system from Microsoft Research.\n- It addresses inefficiencies in context reloading for agents.\n- The system separates how information is stored from how it's retrieved.\n- Memora aims to improve performance for long and complex AI tasks.\n\n## Our Commentary\n\nAI agent memory is a huge bottleneck. Memora sounds like a really smart approach to that problem, separating storage from retrieval. This could unlock much more capable and persistent agents. We've been waiting for better memory solutions, and this looks like a solid step forward.\n\nOriginal Link: https://www.microsoft.com/en-us/research/blog/memora-a-harmonic-memory-representation-balancing-abstraction-and-specificity/",
+            "url": "https://digestweb.dev/articles/2026-06-29/memora-scalable-memory-ai-agents",
+            "title": "Memora: A Scalable Memory System for Efficient AI Agent Context",
+            "summary": "Microsoft Research introduces Memora, a novel memory system for AI agents that separates storage from retrieval, enhancing efficiency for complex, long-running tasks.",
+            "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/06/Memora-TWLIFB-1200x627-1.jpg",
+            "date_modified": "2026-06-29T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-29/nextjs-16-3-turbopack-rust-react-compiler-features",
+            "content_html": "## Summary & Key Takeaways\n\n- Next.js 16.3 ships with several Turbopack improvements.\n- New features include development memory eviction for better performance.\n- Persistent file cache is added for faster builds.\n- An experimental Rust React Compiler is now available.\n- `import.meta.glob` support enhances module importing capabilities.\n\n## Our Commentary\n\nThis is a solid update. The Rust React Compiler is the real headline here; we've been waiting for that to land in a more official capacity. Persistent caching and memory eviction are just good hygiene. It feels like Next.js is really leaning into the performance angle, which is always welcome.\n\nOriginal Link: https://nextjs.org/blog/next-16-3-turbopack",
+            "url": "https://digestweb.dev/articles/2026-06-29/nextjs-16-3-turbopack-rust-react-compiler-features",
+            "title": "Next.js 16.3 Boosts Turbopack with Rust React Compiler & New Features",
+            "summary": "Next.js 16.3 introduces significant Turbopack enhancements, including development memory eviction, persistent file caching, and an experimental Rust React Compiler.",
+            "image": "https://h8dxkfmaphn8o0p3.public.blob.vercel-storage.com/static/blog/next-16-3-turbopack/twitter-card.png",
+            "date_modified": "2026-06-29T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-06-29/ornith-1-0-open-source-llm-agentic-coding",
+            "content_html": "## Summary & Key Takeaways\n\n- Ornith-1.0 is a new open-weights LLM from DeepReinforce.\n- It is designed for agentic coding tasks.\n- The model is built upon Gemma 4 and Qwen 3.5.\n- It achieves state-of-the-art performance among comparable open-source models.\n- Ornith-1.0 is MIT licensed, promoting broad usage.\n- Initial impressions suggest proficiency in handling multiple tool calls.\n\n## Our Commentary\n\nOrnith-1.0 sounds like a game-changer for open-source coding agents. SOTA performance for its size, built on solid foundations, and MIT licensed? Yes, please. We're seeing these models get incredibly good at understanding and executing code, and this pushes that boundary further. I'm excited to try this out with LM Studio.\n\nOriginal Link: https://simonwillison.net/2026/Jun/29/ornith/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-06-29/ornith-1-0-open-source-llm-agentic-coding",
+            "title": "Ornith-1.0: New Open-Source LLM Excels at Agentic Coding Tasks",
+            "summary": "DeepReinforce releases Ornith-1.0, an MIT-licensed LLM built on Gemma 4 and Qwen 3.5, achieving state-of-the-art performance for agentic coding.",
+            "image": "https://static.simonwillison.net/static/2024/ornith-1-pelican.png",
+            "date_modified": "2026-06-29T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-06-28/open-ai-ecosystem-new-players-release-motivations",
             "content_html": "## Summary & Key Takeaways\n\n- Nathan Lambert's 'Interconnects' series provides an assessment of the open AI ecosystem.\n- The article focuses on new entrants like Zyphra, Cohere, and Poolside.\n- It explores the strategic motivations behind releasing new AI models.\n- The analysis considers how these players are broadening the ecosystem's scope.\n\n## Our Commentary\n\nWe're always trying to keep tabs on the open AI space, and this piece from Nathan Lambert is a solid check-in. It's not just about who's releasing what, but _why_. I find the motivations behind open-sourcing models fascinating; sometimes it feels like a genuine push for collaboration, other times a strategic play. It's a messy mix, and I appreciate the attempt to untangle it.\n\nOriginal Link: https://www.interconnects.ai/p/artifacts-22-zyphra-cohere-and-poolside",
             "url": "https://digestweb.dev/articles/2026-06-28/open-ai-ecosystem-new-players-release-motivations",
