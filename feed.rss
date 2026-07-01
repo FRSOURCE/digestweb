@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Tue, 30 Jun 2026 10:32:09 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 01 Jul 2026 10:42:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,90 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[SvelteKit Streamlines Config, Adds Explicit Env Vars & Remote Data Features]]></title>
+            <link>https://digestweb.dev/articles/2026-07-01/sveltekit-streamlines-config-explicit-env-vars-remote-data-features</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-01/sveltekit-streamlines-config-explicit-env-vars-remote-data-features</guid>
+            <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[SvelteKit's July update introduces the ability to configure projects directly in vite.config.js, previews explicit environment variables, and enhances remote function and query capabilities. These changes pave the way for SvelteKit 3.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+• SvelteKit projects can now define their configuration directly within `vite.config.js`, removing the need for a separate `svelte.config.js`.
+• A preview of explicit environment variables is available, intended to replace `$env/*` modules in SvelteKit 3.
+• Remote function commands can now directly receive `File` objects, simplifying file uploads.
+• Remote queries gain the ability to refresh other queries, improving data invalidation workflows.
+• Prerendered `.md` and `.mdx` files are now precompressed for faster delivery.
+• SvelteKit warns about optional boolean fields in remote form schemas to prevent silent failures.
+• The `prerender.handleInvalidUrl` option allows customizing how invalid URLs are reported during crawling.
+• New types `RemoteFormEnhanceInstance` and `RemoteFormEnhanceCallback` are exported for better type safety.
+
+## Our Commentary
+
+This `vite.config.js` integration for SvelteKit is a huge DX win. I've always found the separate config file a bit redundant when Vite is already the core. The explicit env vars are also a welcome move towards clarity. We're seeing a lot of quality-of-life improvements here that make SvelteKit feel even more polished. It's good to see the toolchain catching up with new Svelte features too.
+
+Original Link: https://svelte.dev/blog/whats-new-in-svelte-july-2026]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/295/800/450" length="0" type="image//id/295/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Anthropic's Claude Fable 5 & Mythos 5 Export Controls Lifted]]></title>
+            <link>https://digestweb.dev/articles/2026-06-30/anthropic-claude-fable-mythos-export-controls-lifted</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-30/anthropic-claude-fable-mythos-export-controls-lifted</guid>
+            <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Anthropic announced via Twitter that the Department of Commerce has lifted export controls on their Claude Fable 5 and Mythos 5 models, with access restoration beginning soon.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+• Anthropic announced that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5.
+• Access to these models will begin to be restored soon.
+
+## Our Commentary
+
+This is a quick update, but it's a big deal for Anthropic. Export controls can really stifle global adoption. I'm curious to see how quickly they can re-establish access and what impact this has on their market share. It's a reminder of the geopolitical complexities surrounding advanced AI.
+
+Original Link: https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/124/800/450" length="0" type="image//id/124/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[CSS-Tricks: Gap Decorations, random(), & Select Field Sizing in What's !important #14]]></title>
+            <link>https://digestweb.dev/articles/2026-06-30/css-tricks-gap-decorations-random-select-field-sizing</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-30/css-tricks-gap-decorations-random-select-field-sizing</guid>
+            <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This edition of "What's !important" from CSS-Tricks covers intriguing CSS topics such as Gap Decorations, the `random()` function, and advancements in `<select>` field sizing.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+• The article covers recent developments in CSS, including "CSS Quake."
+• It introduces the concept of "CSS Gap Decorations."
+• Discussions around the `random()` CSS function are highlighted.
+• Improvements and considerations for `<select>` field sizing are also featured.
+
+## Our Commentary
+
+CSS-Tricks always delivers solid roundups. "Gap Decorations" sounds like a really interesting concept for layout, and `random()` could open up some wild possibilities for dynamic styling. I'm always here for anything that makes `<select>` elements less of a pain. It's a good reminder that CSS is constantly evolving, even without huge browser updates.
+
+Original Link: https://css-tricks.com/whats-important-14/]]></content:encoded>
+            <enclosure url="https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/06/wi14.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Google's Nano Banana 2 Lite: A Quick Look at Gemini 3.1 Flash Lite Image]]></title>
+            <link>https://digestweb.dev/articles/2026-06-30/google-nano-banana-2-lite-gemini-3-1-flash-lite-image-test</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-06-30/google-nano-banana-2-lite-gemini-3-1-flash-lite-image-test</guid>
+            <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison shares his initial impressions of Google's new "Nano Banana 2 Lite" (Gemini 3.1 Flash Lite Image), noting its speed and affordability for image generation, despite minor spelling issues.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+• Google has released "Nano Banana 2 Lite," also known as Gemini 3.1 Flash Lite Image.
+• This model is marketed as the "fastest and cheapest Gemini image model."
+• Simon Willison tested it with a "Where's Waldo" style prompt and found the results promising.
+• He noted that the model still made spelling errors in the generated image.
+
+## Our Commentary
+
+"Nano Banana 2 Lite" is a fun name. It's good to see Google pushing for faster, cheaper image models. The spelling errors are a classic AI quirk, though. It makes me wonder how much "lite" models sacrifice in terms of accuracy for speed and cost. I'm always a bit wary of "lite" versions; sometimes they're just not quite there.
+
+Original Link: https://simonwillison.net/2026/Jun/30/nano-banana-2-lite/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://static.simonwillison.net/static/2026/nano-banana-2-lite-raccoon.jpg" length="0" type="image/jpg"/>
+        </item>
         <item>
             <title><![CDATA[Claude Apps Gateway Launched for Amazon Bedrock & Google Cloud]]></title>
             <link>https://digestweb.dev/articles/2026-06-29/claude-apps-gateway-amazon-bedrock-google-cloud</link>
