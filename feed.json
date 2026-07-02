@@ -11,6 +11,69 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-07-01/deno-v2-9-1-desktop-enhancements-core-fixes",
+            "content_html": "## Summary & Key Takeaways\n\n- Deno v2.9.1 introduces new features and fixes across the runtime.\n- The `--desktop` flag is added for type-checking Deno Desktop projects.\n- Deep-link URL schemes can now be registered at bundle time for desktop apps.\n- Improved detection and error handling for SvelteKit adapter-node in desktop builds.\n- Various fixes address caching, configuration, core runtime, and Node.js compatibility.\n- Desktop-specific fixes include window titles, user directory handling, and launcher issues.\n- Updates to Laufey (0.5.0) enhance webview and raw backends on Windows.\n\n## Our Commentary\n\nWe're seeing Deno continue to push hard on the desktop story. It's a fascinating direction, blurring the lines between web tech and native apps. I wonder if this focus will pay off in broader adoption. The constant stream of fixes shows active development, which is always good to see.\n\nOriginal Link: https://github.com/denoland/deno/releases/tag/v2.9.1",
+            "url": "https://digestweb.dev/articles/2026-07-01/deno-v2-9-1-desktop-enhancements-core-fixes",
+            "title": "Deno v2.9.1 Ships with Desktop Enhancements and Core Fixes",
+            "summary": "Deno's latest patch release, v2.9.1, introduces new features for Deno Desktop, including deep-link URL scheme registration and improved SvelteKit adapter support. It also brings various core fixes and updates.",
+            "image": "https://opengraph.githubassets.com/31ebebf8383861bc057bc8689c5aaf122d085dc1a8be95eb02cbecc4cbaf0fdd/denoland/deno/releases/tag/v2.9.1",
+            "date_modified": "2026-07-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-01/free-frontend-masters-course-claude-code",
+            "content_html": "## Summary & Key Takeaways\n\n- Frontend Masters released a free course focused on Claude Code.\n- Lydia Hallie from Anthropic leads the course.\n- Learn to customize Claude Code using CLAUDE.md and plan mode.\n- The course covers setting permissions to adhere to team standards.\n- Developers will learn to build reusable skills tailored to their processes.\n- It also teaches how to wire up hooks for specific Claude behaviors.\n\n## Our Commentary\n\nA free course on Claude Code from Frontend Masters, taught by someone from Anthropic? That's a solid offering. We're always looking for practical ways to integrate AI into our workflows, and a structured course like this could be incredibly helpful. It's good to see more resources emerging for developers to truly leverage these tools beyond basic prompts.\n\nOriginal Link: https://master.dev/blog/totally-free-course-claude-code/",
+            "url": "https://digestweb.dev/articles/2026-07-01/free-frontend-masters-course-claude-code",
+            "title": "Free Frontend Masters Course: Level Up with Claude Code",
+            "summary": "Frontend Masters offers a new free course with Lydia Hallie from Anthropic, teaching developers how to customize Claude Code for their codebase, build reusable skills, and integrate it into team workflows.",
+            "image": "https://master.dev/blog/wp-json/social-image-generator/v1/image/10286",
+            "date_modified": "2026-07-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-01/genkit-agents-api-full-stack-ai-apps",
+            "content_html": "## Summary & Key Takeaways\n\n- Genkit framework introduces the new Agents API for building agentic full-stack applications.\n- The API simplifies complex conversational AI plumbing, handling message history and tool loops.\n- It supports flexible server- or client-managed state persistence for advanced workflows.\n- Seamlessly connects backends to frontends via a unified wire protocol.\n- Currently available in preview for TypeScript and Go developers.\n- Integrates with the Genkit Developer UI for testing, debugging, and inspecting agent snapshots.\n\n## Our Commentary\n\nGenkit's Agents API sounds like a serious attempt to tame the chaos of agentic AI development. The idea of a unified wire protocol and integrated Dev UI for debugging agent snapshots is genuinely appealing. We've seen how quickly these systems can become opaque. This could be a game-changer for building more robust and understandable AI agents.\n\nOriginal Link: https://developers.googleblog.com/build-agentic-full-stack-apps-with-genkit/",
+            "url": "https://digestweb.dev/articles/2026-07-01/genkit-agents-api-full-stack-ai-apps",
+            "title": "Genkit Introduces Agents API for Full-Stack Agentic AI Apps",
+            "summary": "Google's open-source Genkit framework unveils its new Agents API, a full-stack tool designed to streamline the development of conversational AI applications by managing message history, tool loops, and streaming.",
+            "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-meta.2e16d0ba.fill-1200x600.png",
+            "date_modified": "2026-07-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-01/google-cloud-workbench-extension-vs-code-ml",
+            "content_html": "## Summary & Key Takeaways\n\n- Google Cloud Workbench Notebooks extension for VS Code has officially launched.\n- It connects local VS Code IDEs to scalable, cloud-based Jupyter environments.\n- Aims to streamline the machine learning lifecycle by reducing context switching.\n- Provides direct access to high-performance Google Cloud infrastructure.\n- The extension is fully open-sourced and available on GitHub and the VS Code Marketplace.\n\n## Our Commentary\n\nThis is a smart move. Bringing cloud-powered Jupyter environments directly into VS Code is a huge win for ML developers. We've all felt the pain of context switching between local and remote environments. Making it open-source is also a good sign, fostering community contributions. It's about time these workflows got smoother.\n\nOriginal Link: https://developers.googleblog.com/ml-development-in-vs-code-with-google-cloud-power-workbench-extension-now-available/",
+            "url": "https://digestweb.dev/articles/2026-07-01/google-cloud-workbench-extension-vs-code-ml",
+            "title": "Google Cloud Workbench Extension Brings Cloud ML to VS Code",
+            "summary": "The Google Cloud Workbench Notebooks extension for VS Code is now available, allowing ML developers to connect their local IDE to powerful, scalable cloud-based Jupyter environments and streamline their workflow.",
+            "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/VS_code_blogpost_banner.2e16d0ba.fill-1200x600.jpg",
+            "date_modified": "2026-07-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-01/hugging-face-cerebras-gemma-4-real-time-voice-ai",
+            "content_html": "## Summary & Key Takeaways\n\n- Hugging Face and Cerebras are collaborating on real-time voice AI.\n- The initiative integrates the Gemma 4 large language model.\n- This partnership aims to enhance performance and accessibility in voice AI.\n- It represents a significant step in applying advanced LLMs to practical, real-time scenarios.\n\n## Our Commentary\n\nGemma 4 for real-time voice AI? This is a big deal. The latency requirements for real-time voice are brutal, so any progress here is genuinely exciting. It makes me wonder about the hardware implications and how accessible this will be for smaller teams. The potential for more natural human-computer interaction is huge, but the engineering challenge is immense.\n\nOriginal Link: https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+            "url": "https://digestweb.dev/articles/2026-07-01/hugging-face-cerebras-gemma-4-real-time-voice-ai",
+            "title": "Hugging Face & Cerebras Power Real-Time Voice AI with Gemma 4",
+            "summary": "Hugging Face and Cerebras announce their collaboration to bring the Gemma 4 model to real-time voice AI applications, pushing the boundaries of conversational AI performance and accessibility.",
+            "image": "https://huggingface.co/blog/assets/cerebras-gemma4-voice-ai/thumbnail.png",
+            "date_modified": "2026-07-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-01/safari-technology-preview-247-mcp-server-web-dev",
+            "content_html": "## Summary & Key Takeaways\n\n- Safari Technology Preview 247 introduces the new Safari MCP server.\n- MCP stands for Model Context Protocol, designed for web developers.\n- The server aims to make web development and debugging faster and more powerful.\n- This is a new tool specifically for enhancing the Safari development workflow.\n\n## Our Commentary\n\nA new server for debugging in Safari? This sounds like a genuine effort to improve the developer experience, which is something we've been asking for. I'm curious about the specifics of \"Model Context Protocol\" and how it will integrate with existing tools. Any improvement to browser dev tools is a win in my book.\n\nOriginal Link: https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers/",
+            "url": "https://digestweb.dev/articles/2026-07-01/safari-technology-preview-247-mcp-server-web-dev",
+            "title": "Safari Technology Preview 247 Introduces New MCP Server for Web Devs",
+            "summary": "WebKit announces the Safari MCP server in STP 247, a Model Context Protocol server designed to accelerate and empower web development and debugging workflows within Safari.",
+            "image": "https://webkit.org/wp-content/themes/webkit/images/preview-card.jpg",
+            "date_modified": "2026-07-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-01/sculpting-digital-athlete-advanced-3d-workflow-webgl",
+            "content_html": "## Summary & Key Takeaways\n\n- The article explores the full 3D workflow for creating a digital athlete.\n- It covers initial stages like photogrammetry for capturing real-world data.\n- Rigging and animation techniques are detailed for bringing the character to life.\n- Significant focus is placed on WebGL optimization for web deployment.\n- The process demonstrates advanced techniques for interactive 3D on the web.\n\n## Our Commentary\n\nThis is the kind of deep dive into creative web tech that we love to see. The blend of photogrammetry and WebGL optimization is particularly interesting. It reminds us that the web can be a canvas for truly complex and visually rich experiences, not just forms and data. I'm always impressed by the ingenuity in these kinds of projects.\n\nOriginal Link: https://tympanus.net/codrops/2026/07/01/sculpting-a-digital-athlete-capturing-stefanos-tsitsipas-beyond-the-court/",
+            "url": "https://digestweb.dev/articles/2026-07-01/sculpting-digital-athlete-advanced-3d-workflow-webgl",
+            "title": "Sculpting a Digital Athlete: Advanced 3D Workflow with WebGL",
+            "summary": "This article from Codrops details the comprehensive 3D workflow behind creating a digital athlete, covering everything from photogrammetry and rigging to animation and WebGL optimization for the web.",
+            "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/06/Stefanos.png?x68649",
+            "date_modified": "2026-07-01T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-07-01/sveltekit-streamlines-config-explicit-env-vars-remote-data-features",
             "content_html": "## Summary & Key Takeaways\n\n• SvelteKit projects can now define their configuration directly within `vite.config.js`, removing the need for a separate `svelte.config.js`.\n• A preview of explicit environment variables is available, intended to replace `$env/*` modules in SvelteKit 3.\n• Remote function commands can now directly receive `File` objects, simplifying file uploads.\n• Remote queries gain the ability to refresh other queries, improving data invalidation workflows.\n• Prerendered `.md` and `.mdx` files are now precompressed for faster delivery.\n• SvelteKit warns about optional boolean fields in remote form schemas to prevent silent failures.\n• The `prerender.handleInvalidUrl` option allows customizing how invalid URLs are reported during crawling.\n• New types `RemoteFormEnhanceInstance` and `RemoteFormEnhanceCallback` are exported for better type safety.\n\n## Our Commentary\n\nThis `vite.config.js` integration for SvelteKit is a huge DX win. I've always found the separate config file a bit redundant when Vite is already the core. The explicit env vars are also a welcome move towards clarity. We're seeing a lot of quality-of-life improvements here that make SvelteKit feel even more polished. It's good to see the toolchain catching up with new Svelte features too.\n\nOriginal Link: https://svelte.dev/blog/whats-new-in-svelte-july-2026",
             "url": "https://digestweb.dev/articles/2026-07-01/sveltekit-streamlines-config-explicit-env-vars-remote-data-features",
