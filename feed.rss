@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Fri, 03 Jul 2026 04:42:19 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Jul 2026 09:57:52 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -117,6 +117,29 @@ I appreciate seeing how seasoned developers distill their experience into reusab
 
 Original Link: https://tympanus.net/codrops/2026/07/02/from-years-of-client-work-to-a-next-js-sanity-starter-kit/]]></content:encoded>
             <enclosure url="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/06/tca-codrops-cover-scaled.jpg?x68649" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Simon Willison Unveils llm-coding-agent 0.1a0]]></title>
+            <link>https://digestweb.dev/articles/2026-07-02/simon-willison-llm-coding-agent-0-1a0</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-02/simon-willison-llm-coding-agent-0-1a0</guid>
+            <pubDate>Thu, 02 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison releases an experimental LLM-powered coding agent, built on his `llm` framework, capable of reading, editing files, and executing commands.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- `llm-coding-agent 0.1a0` is an experimental coding agent built on Simon Willison's `llm` library.
+- It functions as a Claude code style agent, equipped with file manipulation and command execution tools.
+- The agent was developed using LLM prompts to generate its specification and then build it via TDD.
+- It includes tools like `CodingTools_edit_file` for string replacement and `CodingTools_execute_command` for shell commands.
+- A Python API `CodingAgent(...).run(...)` was also implemented, allowing programmatic interaction.
+- The project is available as a "slop-alpha" on PyPI and can be run via `uvx`.
+
+## Our Commentary
+
+I'm always fascinated by Simon Willison's experiments. This `llm-coding-agent` feels like a peek into a future where our dev environments are far more autonomous. The idea of an agent writing its own spec and then building itself via TDD is just... wild. We're seeing these tools get genuinely useful, not just theoretical. But it also makes me wonder about the edge cases, the unexpected loops. What happens when it gets stuck? We're still figuring out how much control we want to cede.
+
+Original Link: https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/522/800/450" length="0" type="image//id/522/800/450"/>
         </item>
         <item>
             <title><![CDATA[Smart Model Routing: A New Trend in AI]]></title>

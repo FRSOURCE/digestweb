@@ -59,6 +59,18 @@
             "date_modified": "2026-07-02T00:00:00.000Z"
         },
         {
+            "id": "https://digestweb.dev/articles/2026-07-02/simon-willison-llm-coding-agent-0-1a0",
+            "content_html": "## Summary & Key Takeaways\n\n- `llm-coding-agent 0.1a0` is an experimental coding agent built on Simon Willison's `llm` library.\n- It functions as a Claude code style agent, equipped with file manipulation and command execution tools.\n- The agent was developed using LLM prompts to generate its specification and then build it via TDD.\n- It includes tools like `CodingTools_edit_file` for string replacement and `CodingTools_execute_command` for shell commands.\n- A Python API `CodingAgent(...).run(...)` was also implemented, allowing programmatic interaction.\n- The project is available as a \"slop-alpha\" on PyPI and can be run via `uvx`.\n\n## Our Commentary\n\nI'm always fascinated by Simon Willison's experiments. This `llm-coding-agent` feels like a peek into a future where our dev environments are far more autonomous. The idea of an agent writing its own spec and then building itself via TDD is just... wild. We're seeing these tools get genuinely useful, not just theoretical. But it also makes me wonder about the edge cases, the unexpected loops. What happens when it gets stuck? We're still figuring out how much control we want to cede.\n\nOriginal Link: https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-02/simon-willison-llm-coding-agent-0-1a0",
+            "title": "Simon Willison Unveils llm-coding-agent 0.1a0",
+            "summary": "Simon Willison releases an experimental LLM-powered coding agent, built on his `llm` framework, capable of reading, editing files, and executing commands.",
+            "image": "https://picsum.photos/id/522/800/450",
+            "date_modified": "2026-07-02T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-07-02/smart-model-routing-new-trend-ai",
             "content_html": "## Summary & Key Takeaways\n\n- The article identifies \"smart model routing\" as a new trend in AI development.\n- It investigates solutions designed to select the most appropriate AI model for a specific task.\n- The author explores various existing options in this emerging field.\n- The goal of smart routing is to optimize performance and resource usage.\n\n## Our Commentary\n\nSmart model routing feels like an inevitable evolution as the LLM landscape fragments into specialized models. Why use a massive, expensive model for a simple task? This kind of intelligent orchestration is going to be crucial for cost-effectiveness and performance. I'm glad someone's surveying the field; it's a complex problem with many potential solutions.\n\nOriginal Link: https://blog.pragmaticengineer.com/the-pulse-a-new-trend-smart-model-routing/",
             "url": "https://digestweb.dev/articles/2026-07-02/smart-model-routing-new-trend-ai",

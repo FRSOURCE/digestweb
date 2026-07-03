@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-07-03T04:42:19.253Z</updated>
+    <updated>2026-07-03T09:57:52.110Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -118,6 +118,31 @@ Original Link: https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts
 I appreciate seeing how seasoned developers distill their experience into reusable tools. A Next.js + Sanity starter kit isn't groundbreaking, but the value often lies in the specific workflow optimizations and architectural decisions made by someone who's been in the trenches. It's a practical piece, and sometimes, those are the most useful.
 
 Original Link: https://tympanus.net/codrops/2026/07/02/from-years-of-client-work-to-a-next-js-sanity-starter-kit/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Simon Willison Unveils llm-coding-agent 0.1a0]]></title>
+        <id>https://digestweb.dev/articles/2026-07-02/simon-willison-llm-coding-agent-0-1a0</id>
+        <link href="https://digestweb.dev/articles/2026-07-02/simon-willison-llm-coding-agent-0-1a0"/>
+        <link rel="enclosure" href="https://picsum.photos/id/522/800/450" type="image//id/522/800/450"/>
+        <updated>2026-07-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison releases an experimental LLM-powered coding agent, built on his `llm` framework, capable of reading, editing files, and executing commands.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- `llm-coding-agent 0.1a0` is an experimental coding agent built on Simon Willison's `llm` library.
+- It functions as a Claude code style agent, equipped with file manipulation and command execution tools.
+- The agent was developed using LLM prompts to generate its specification and then build it via TDD.
+- It includes tools like `CodingTools_edit_file` for string replacement and `CodingTools_execute_command` for shell commands.
+- A Python API `CodingAgent(...).run(...)` was also implemented, allowing programmatic interaction.
+- The project is available as a "slop-alpha" on PyPI and can be run via `uvx`.
+
+## Our Commentary
+
+I'm always fascinated by Simon Willison's experiments. This `llm-coding-agent` feels like a peek into a future where our dev environments are far more autonomous. The idea of an agent writing its own spec and then building itself via TDD is just... wild. We're seeing these tools get genuinely useful, not just theoretical. But it also makes me wonder about the edge cases, the unexpected loops. What happens when it gets stuck? We're still figuring out how much control we want to cede.
+
+Original Link: https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Smart Model Routing: A New Trend in AI]]></title>
