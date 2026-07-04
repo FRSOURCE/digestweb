@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Fri, 03 Jul 2026 09:57:52 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 04 Jul 2026 09:22:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,165 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[CodePen's 2026 Web Development Trends: CSS Shapes, Timelines & More]]></title>
+            <link>https://digestweb.dev/articles/2026-07-03/codepen-2026-web-development-trends-css-shapes-timelines</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-03/codepen-2026-web-development-trends-css-shapes-timelines</guid>
+            <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[CodePen highlights key web development trends for 2026, including innovative CSS features like `shape()`, `border-shape`, `corner-shape`, and new timeline-based animations, alongside custom select elements.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+CodePen identifies several popular web development trends for 2026.
+"Galleries" are a notable trend, appearing in various directions.
+Custom Select elements are gaining popularity.
+New CSS shape functions like `shape()`, `border-shape`, and `corner-shape` are being adopted.
+CSS timeline features, `scroll-timeline` and `animation-timeline`, are seeing increased use.
+General CSS Functions are also a growing area of interest.
+Notion's Custom Agents are mentioned as a collaborative AI workspace tool.
+
+## Our Commentary
+
+We love seeing these trend roundups. It's a quick pulse check on what's actually being used and explored in the wild. Those new CSS shape functions and timeline animations are genuinely exciting; they open up so many creative possibilities without relying on JavaScript. It's a good reminder that CSS is still evolving rapidly.
+
+Original Link: https://blog.codepen.io/2026/07/03/432-trends-of-2026-so-far/]]></content:encoded>
+            <enclosure url="https://s0.wp.com/i/blank.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Crafting Tailored AI Explanations for Diverse Enterprise Roles]]></title>
+            <link>https://digestweb.dev/articles/2026-07-03/crafting-tailored-ai-explanations-diverse-enterprise-roles</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-03/crafting-tailored-ai-explanations-diverse-enterprise-roles</guid>
+            <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This article explores the necessity of customizing AI output explanations to suit the specific needs and understanding of various roles within an enterprise, enhancing clarity and trust.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+Different roles within an enterprise require distinct types of AI explanations.
+Explanations should be tailored to the specific context and needs of the user.
+This customization helps improve understanding and trust in AI systems.
+A one-size-fits-all approach to AI explanations is ineffective.
+Consider the user's technical background and decision-making responsibilities.
+
+## Our Commentary
+
+This is a good point, and one we often overlook when building AI systems. It's not enough to just _have_ an explanation; it needs to be _understandable_ and _relevant_ to the person receiving it. The challenge is designing those dynamic explanations without adding too much cognitive load to the system itself. It's a tricky balance.
+
+Original Link: https://www.nngroup.com/articles/crafting-ai-explanations/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication]]></content:encoded>
+            <enclosure url="https://media.nngroup.com/media/articles/opengraph_images/Crafting_AI_6.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Josh W. Comeau: AI's Impact on Developer Education & Course Sales]]></title>
+            <link>https://digestweb.dev/articles/2026-07-03/josh-w-comeau-ai-impact-developer-education-course-sales</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-03/josh-w-comeau-ai-impact-developer-education-course-sales</guid>
+            <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Josh W. Comeau reports a 50%+ drop in course sales, attributing it to AI-driven job uncertainty and LLMs providing free "tutoring" by consuming creator content without compensation. This highlights a critical challenge for content creators.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+Josh W. Comeau reports a significant decline in sales for his developer courses.
+Sales are down by roughly one-third for new courses and 50%+ for existing ones.
+He attributes this trend primarily to the rise of AI.
+Developers are hesitant to invest in new skills due to uncertainty about future job availability.
+LLMs offer personalized tutoring, reducing the incentive to purchase paid courses.
+LLMs often regurgitate creator content without consent or compensation.
+Other course creators are reporting similar revenue declines and reduced engagement.
+
+## Our Commentary
+
+This hits hard. I've been wondering about the long-term viability of independent content creation in the age of LLMs, and Josh's experience is a stark confirmation of my fears. There's something deeply unsettling about agents churning away at 3am while nobody's watching, consuming human effort without a clear path for compensation. We need to figure this out, fast. The "free tutoring" aspect is a double-edged sword.
+
+Original Link: https://simonwillison.net/2026/Jul/3/josh-w-comeau/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/248/800/450" length="0" type="image//id/248/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Open Source AI Gap Map: Indexing the Ecosystem]]></title>
+            <link>https://digestweb.dev/articles/2026-07-03/open-source-ai-gap-map-indexing-ecosystem</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-03/open-source-ai-gap-map-indexing-ecosystem</guid>
+            <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A new "Gap Map" indexes 421 open-source AI products across models, tools, datasets, and hardware. The underlying data is released under an MIT license, offering a valuable resource for the community.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+The "Gap Map" is a new initiative by Current AI, a non-profit, to index the open-source AI ecosystem.
+Version 0.1 details 421 products: 266 software tools, 85 models, 50 datasets, and 20 hardware projects.
+These products are organized into 14 categories across three layers of the AI stack.
+The project tracks 24,400 additional uncategorized artifacts.
+The underlying data is released under an MIT license on GitHub.
+The data includes 1,184 YAML files, notebooks, schemas, and scripts.
+Datasette Lite can be used to explore the tracked GitHub repositories.
+
+## Our Commentary
+
+This is exactly the kind of structured resource we need in the chaotic open-source AI space. I'm genuinely excited about the MIT-licensed data. It feels like a foundational piece for future analysis and development. We've been drowning in individual projects; a map like this helps us see the forest.
+
+Original Link: https://simonwillison.net/2026/Jul/3/open-source-ai-gap-map/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/376/800/450" length="0" type="image//id/376/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Optimizing LLM Usage: Trusting Fable's Judgment for Efficiency]]></title>
+            <link>https://digestweb.dev/articles/2026-07-03/optimizing-llm-usage-trusting-fables-judgment-for-efficiency</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-03/optimizing-llm-usage-trusting-fables-judgment-for-efficiency</guid>
+            <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how to optimize Claude Fable and Opus usage by allowing them to exercise judgment in tasks like testing or delegating to lower-power models. This strategy can significantly reduce token consumption and improve workflow.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+It's more effective to let advanced LLMs like Claude Fable and Opus use their own judgment for tasks.
+Instead of strict instructions, allow the model to decide when to run tests or use specific tools.
+This approach can help save valuable tokens, especially with rising LLM prices.
+An example shows prompting Claude to use its judgment for coding tasks.
+Claude can be instructed to delegate coding to subagents using lower-power models like Sonnet or Haiku.
+The main loop then reviews the results from these subagents.
+This strategy aims to optimize cost and efficiency for implementation work.
+
+## Our Commentary
+
+This is a smart move. We're all token-maxxing right now, and letting the model decide which sub-model to use for specific tasks feels like a natural evolution of agentic workflows. It's a subtle shift in prompting, but the implications for cost and efficiency are huge. I'm definitely trying this with my own Claude projects.
+
+Original Link: https://simonwillison.net/2026/Jul/3/judgement/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/412/800/450" length="0" type="image//id/412/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[UX Focus: Users Need Seamless Integrations, Not More Tools]]></title>
+            <link>https://digestweb.dev/articles/2026-07-03/ux-focus-users-need-seamless-integrations-not-more-tools</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-03/ux-focus-users-need-seamless-integrations-not-more-tools</guid>
+            <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This article argues that the focus for user experience should shift from creating new tools to seamlessly integrating useful features into existing user workflows and mental models.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+The article posits that users are overwhelmed by too many standalone tools.
+The real need is for seamless integrations of useful features.
+Integrations should align with users' already established mental models.
+This approach aims to enhance daily workflows rather than disrupt them.
+The piece is brought to you by a video course on UX and design patterns.
+
+## Our Commentary
+
+I mean, yes, obviously. This feels like a fundamental UX principle that's been around forever. It's not wrong, but it's not exactly groundbreaking either. The promotional aspect for the course makes it feel a bit less like a pure thought piece. We've been saying "less friction, more flow" for decades.
+
+Original Link: https://smashingmagazine.com/2026/07/users-dont-need-more-tools-need-seamless-integrations/]]></content:encoded>
+            <enclosure url="https://files.smashing.media/articles/ux-impact-seamless-integrations/users-dont-need-more-tools-need-seamless-integrations.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[WebKit's `display: grid-lanes;` Brings Native Masonry Layouts to CSS]]></title>
+            <link>https://digestweb.dev/articles/2026-07-03/webkit-display-grid-lanes-native-masonry-layouts-css</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-03/webkit-display-grid-lanes-native-masonry-layouts-css</guid>
+            <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[WebKit introduces `display: grid-lanes;`, a powerful new CSS feature that enables native Masonry layouts with arbitrary column widths and correct tabbing order, all achievable with just HTML and CSS.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+WebKit has introduced `display: grid-lanes;` for advanced grid layouts.
+This new CSS feature enables native Masonry layouts.
+It supports arbitrary column widths within the Masonry grid.
+Crucially, it maintains proper tabbing order for accessibility.
+The layout is achievable using only HTML and CSS, without JavaScript.
+This represents a significant progressive enhancement for web design.
+
+## Our Commentary
+
+Finally! Masonry layout without JavaScript hacks or complex grid-template-rows trickery. This is a huge win for the web platform and accessibility. We've been waiting for a native solution for ages. It's these kinds of foundational CSS additions that genuinely move the needle for front-end development. I'm already thinking about where we can use this.
+
+Original Link: https://master.dev/blog/the-field-guide-to-grid-lanes/]]></content:encoded>
+            <enclosure url="https://master.dev/blog/wp-json/social-image-generator/v1/image/10333" length="0" type="image//blog/wp-json/social-image-generator/v1/image/10333"/>
+        </item>
         <item>
             <title><![CDATA[Announcing Vite+ Beta: A Unified Web Dev Workflow]]></title>
             <link>https://digestweb.dev/articles/2026-07-02/announcing-vite-plus-beta-unified-web-dev-workflow</link>

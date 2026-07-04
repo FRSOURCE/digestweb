@@ -11,6 +11,78 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-07-03/codepen-2026-web-development-trends-css-shapes-timelines",
+            "content_html": "## Summary & Key Takeaways\n\nCodePen identifies several popular web development trends for 2026.\n\"Galleries\" are a notable trend, appearing in various directions.\nCustom Select elements are gaining popularity.\nNew CSS shape functions like `shape()`, `border-shape`, and `corner-shape` are being adopted.\nCSS timeline features, `scroll-timeline` and `animation-timeline`, are seeing increased use.\nGeneral CSS Functions are also a growing area of interest.\nNotion's Custom Agents are mentioned as a collaborative AI workspace tool.\n\n## Our Commentary\n\nWe love seeing these trend roundups. It's a quick pulse check on what's actually being used and explored in the wild. Those new CSS shape functions and timeline animations are genuinely exciting; they open up so many creative possibilities without relying on JavaScript. It's a good reminder that CSS is still evolving rapidly.\n\nOriginal Link: https://blog.codepen.io/2026/07/03/432-trends-of-2026-so-far/",
+            "url": "https://digestweb.dev/articles/2026-07-03/codepen-2026-web-development-trends-css-shapes-timelines",
+            "title": "CodePen's 2026 Web Development Trends: CSS Shapes, Timelines & More",
+            "summary": "CodePen highlights key web development trends for 2026, including innovative CSS features like `shape()`, `border-shape`, `corner-shape`, and new timeline-based animations, alongside custom select elements.",
+            "image": "https://s0.wp.com/i/blank.jpg",
+            "date_modified": "2026-07-03T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-03/crafting-tailored-ai-explanations-diverse-enterprise-roles",
+            "content_html": "## Summary & Key Takeaways\n\nDifferent roles within an enterprise require distinct types of AI explanations.\nExplanations should be tailored to the specific context and needs of the user.\nThis customization helps improve understanding and trust in AI systems.\nA one-size-fits-all approach to AI explanations is ineffective.\nConsider the user's technical background and decision-making responsibilities.\n\n## Our Commentary\n\nThis is a good point, and one we often overlook when building AI systems. It's not enough to just _have_ an explanation; it needs to be _understandable_ and _relevant_ to the person receiving it. The challenge is designing those dynamic explanations without adding too much cognitive load to the system itself. It's a tricky balance.\n\nOriginal Link: https://www.nngroup.com/articles/crafting-ai-explanations/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+            "url": "https://digestweb.dev/articles/2026-07-03/crafting-tailored-ai-explanations-diverse-enterprise-roles",
+            "title": "Crafting Tailored AI Explanations for Diverse Enterprise Roles",
+            "summary": "This article explores the necessity of customizing AI output explanations to suit the specific needs and understanding of various roles within an enterprise, enhancing clarity and trust.",
+            "image": "https://media.nngroup.com/media/articles/opengraph_images/Crafting_AI_6.png",
+            "date_modified": "2026-07-03T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-03/josh-w-comeau-ai-impact-developer-education-course-sales",
+            "content_html": "## Summary & Key Takeaways\n\nJosh W. Comeau reports a significant decline in sales for his developer courses.\nSales are down by roughly one-third for new courses and 50%+ for existing ones.\nHe attributes this trend primarily to the rise of AI.\nDevelopers are hesitant to invest in new skills due to uncertainty about future job availability.\nLLMs offer personalized tutoring, reducing the incentive to purchase paid courses.\nLLMs often regurgitate creator content without consent or compensation.\nOther course creators are reporting similar revenue declines and reduced engagement.\n\n## Our Commentary\n\nThis hits hard. I've been wondering about the long-term viability of independent content creation in the age of LLMs, and Josh's experience is a stark confirmation of my fears. There's something deeply unsettling about agents churning away at 3am while nobody's watching, consuming human effort without a clear path for compensation. We need to figure this out, fast. The \"free tutoring\" aspect is a double-edged sword.\n\nOriginal Link: https://simonwillison.net/2026/Jul/3/josh-w-comeau/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-03/josh-w-comeau-ai-impact-developer-education-course-sales",
+            "title": "Josh W. Comeau: AI's Impact on Developer Education & Course Sales",
+            "summary": "Josh W. Comeau reports a 50%+ drop in course sales, attributing it to AI-driven job uncertainty and LLMs providing free \"tutoring\" by consuming creator content without compensation. This highlights a critical challenge for content creators.",
+            "image": "https://picsum.photos/id/248/800/450",
+            "date_modified": "2026-07-03T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-03/open-source-ai-gap-map-indexing-ecosystem",
+            "content_html": "## Summary & Key Takeaways\n\nThe \"Gap Map\" is a new initiative by Current AI, a non-profit, to index the open-source AI ecosystem.\nVersion 0.1 details 421 products: 266 software tools, 85 models, 50 datasets, and 20 hardware projects.\nThese products are organized into 14 categories across three layers of the AI stack.\nThe project tracks 24,400 additional uncategorized artifacts.\nThe underlying data is released under an MIT license on GitHub.\nThe data includes 1,184 YAML files, notebooks, schemas, and scripts.\nDatasette Lite can be used to explore the tracked GitHub repositories.\n\n## Our Commentary\n\nThis is exactly the kind of structured resource we need in the chaotic open-source AI space. I'm genuinely excited about the MIT-licensed data. It feels like a foundational piece for future analysis and development. We've been drowning in individual projects; a map like this helps us see the forest.\n\nOriginal Link: https://simonwillison.net/2026/Jul/3/open-source-ai-gap-map/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-03/open-source-ai-gap-map-indexing-ecosystem",
+            "title": "Open Source AI Gap Map: Indexing the Ecosystem",
+            "summary": "A new \"Gap Map\" indexes 421 open-source AI products across models, tools, datasets, and hardware. The underlying data is released under an MIT license, offering a valuable resource for the community.",
+            "image": "https://picsum.photos/id/376/800/450",
+            "date_modified": "2026-07-03T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-03/optimizing-llm-usage-trusting-fables-judgment-for-efficiency",
+            "content_html": "## Summary & Key Takeaways\n\nIt's more effective to let advanced LLMs like Claude Fable and Opus use their own judgment for tasks.\nInstead of strict instructions, allow the model to decide when to run tests or use specific tools.\nThis approach can help save valuable tokens, especially with rising LLM prices.\nAn example shows prompting Claude to use its judgment for coding tasks.\nClaude can be instructed to delegate coding to subagents using lower-power models like Sonnet or Haiku.\nThe main loop then reviews the results from these subagents.\nThis strategy aims to optimize cost and efficiency for implementation work.\n\n## Our Commentary\n\nThis is a smart move. We're all token-maxxing right now, and letting the model decide which sub-model to use for specific tasks feels like a natural evolution of agentic workflows. It's a subtle shift in prompting, but the implications for cost and efficiency are huge. I'm definitely trying this with my own Claude projects.\n\nOriginal Link: https://simonwillison.net/2026/Jul/3/judgement/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-03/optimizing-llm-usage-trusting-fables-judgment-for-efficiency",
+            "title": "Optimizing LLM Usage: Trusting Fable's Judgment for Efficiency",
+            "summary": "Learn how to optimize Claude Fable and Opus usage by allowing them to exercise judgment in tasks like testing or delegating to lower-power models. This strategy can significantly reduce token consumption and improve workflow.",
+            "image": "https://picsum.photos/id/412/800/450",
+            "date_modified": "2026-07-03T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-03/ux-focus-users-need-seamless-integrations-not-more-tools",
+            "content_html": "## Summary & Key Takeaways\n\nThe article posits that users are overwhelmed by too many standalone tools.\nThe real need is for seamless integrations of useful features.\nIntegrations should align with users' already established mental models.\nThis approach aims to enhance daily workflows rather than disrupt them.\nThe piece is brought to you by a video course on UX and design patterns.\n\n## Our Commentary\n\nI mean, yes, obviously. This feels like a fundamental UX principle that's been around forever. It's not wrong, but it's not exactly groundbreaking either. The promotional aspect for the course makes it feel a bit less like a pure thought piece. We've been saying \"less friction, more flow\" for decades.\n\nOriginal Link: https://smashingmagazine.com/2026/07/users-dont-need-more-tools-need-seamless-integrations/",
+            "url": "https://digestweb.dev/articles/2026-07-03/ux-focus-users-need-seamless-integrations-not-more-tools",
+            "title": "UX Focus: Users Need Seamless Integrations, Not More Tools",
+            "summary": "This article argues that the focus for user experience should shift from creating new tools to seamlessly integrating useful features into existing user workflows and mental models.",
+            "image": "https://files.smashing.media/articles/ux-impact-seamless-integrations/users-dont-need-more-tools-need-seamless-integrations.jpg",
+            "date_modified": "2026-07-03T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-03/webkit-display-grid-lanes-native-masonry-layouts-css",
+            "content_html": "## Summary & Key Takeaways\n\nWebKit has introduced `display: grid-lanes;` for advanced grid layouts.\nThis new CSS feature enables native Masonry layouts.\nIt supports arbitrary column widths within the Masonry grid.\nCrucially, it maintains proper tabbing order for accessibility.\nThe layout is achievable using only HTML and CSS, without JavaScript.\nThis represents a significant progressive enhancement for web design.\n\n## Our Commentary\n\nFinally! Masonry layout without JavaScript hacks or complex grid-template-rows trickery. This is a huge win for the web platform and accessibility. We've been waiting for a native solution for ages. It's these kinds of foundational CSS additions that genuinely move the needle for front-end development. I'm already thinking about where we can use this.\n\nOriginal Link: https://master.dev/blog/the-field-guide-to-grid-lanes/",
+            "url": "https://digestweb.dev/articles/2026-07-03/webkit-display-grid-lanes-native-masonry-layouts-css",
+            "title": "WebKit's `display: grid-lanes;` Brings Native Masonry Layouts to CSS",
+            "summary": "WebKit introduces `display: grid-lanes;`, a powerful new CSS feature that enables native Masonry layouts with arbitrary column widths and correct tabbing order, all achievable with just HTML and CSS.",
+            "image": "https://master.dev/blog/wp-json/social-image-generator/v1/image/10333",
+            "date_modified": "2026-07-03T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-07-02/announcing-vite-plus-beta-unified-web-dev-workflow",
             "content_html": "## Summary & Key Takeaways\n\n- Vite+ is now available in beta, offering a unified development experience.\n- It integrates the runtime, package manager, and frontend tools into one system.\n- The goal is to provide a fast and consistent workflow for all web projects.\n- Users can start new projects with `vp create` or migrate existing ones with `vp migrate`.\n\n## Our Commentary\n\nThis is a bold move. A unified runtime, package manager, and frontend tool? We've seen attempts at this before, but the promise of a truly consistent workflow is alluring. I'm genuinely curious if Vite+ can deliver on this vision without becoming overly opinionated or complex. The web dev landscape is already so fragmented; a strong contender for unification could be a game-changer. Or it could just add another layer of abstraction. We'll be watching this one closely.\n\nOriginal Link: https://voidzero.dev/posts/announcing-vite-plus-beta",
             "url": "https://digestweb.dev/articles/2026-07-02/announcing-vite-plus-beta-unified-web-dev-workflow",
