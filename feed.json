@@ -11,6 +11,42 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-07-05/ai-agent-claude-fable-finds-critical-bug-sqlite-utils-4",
+            "content_html": "## Summary & Key Takeaways\n\n- Simon Willison leveraged Claude Fable to review `sqlite-utils 4.0rc1` for release blockers.\n- Claude Fable identified a critical data loss bug in `Table.delete_where()` that prevented commits.\n- The AI agent's review process involved 37 prompts, 34 commits, and extensive code changes.\n- The total cost for Claude Fable's assistance in this project was approximately $149.25.\n- The collaboration led to several design improvements beyond just bug fixes.\n- This intervention prevented a major bug from shipping in a stable release.\n\n## Our Commentary\n\nThis is genuinely fascinating. I'm always a bit skeptical about AI coding agents, but preventing a data loss bug in a major release? That's a huge win. The cost is also surprisingly low for such a critical intervention. It makes me wonder how many other projects could benefit from this kind of AI-assisted QA. We're seeing AI move beyond just generating code to actively improving its quality in ways humans might miss.\n\nOriginal Link: https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-05/ai-agent-claude-fable-finds-critical-bug-sqlite-utils-4",
+            "title": "AI Agent Claude Fable Finds Critical Bug in sqlite-utils 4.0 Release",
+            "summary": "Simon Willison details how an AI agent, Claude Fable, was instrumental in identifying and fixing a severe data loss bug in sqlite-utils 4.0, costing $149.25.",
+            "image": "https://static.simonwillison.net/static/2026/fable-plan-usage.webp",
+            "date_modified": "2026-07-05T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-04/generate-ascii-world-map-500-bytes-javascript",
+            "content_html": "## Summary & Key Takeaways\n\n- Iwo Kadziela created an ASCII world map using only 445 bytes of data.\n- The technique relies on deflate compression for data efficiency.\n- A concise JavaScript snippet decompresses and renders the map in the browser.\n- It demonstrates using `fetch()` with `data:` URIs for loading compressed data.\n- The `DecompressionStream` API is central to the decompression process.\n\n## Our Commentary\n\nThis is just pure web magic. I love seeing these kinds of highly optimized, almost \"code golf\" solutions that push the boundaries of what's possible with minimal resources. The `fetch('data:;base64,...')` trick combined with `DecompressionStream` is something I genuinely didn't know was possible. It's a fantastic reminder that there's always more to learn about browser capabilities.\n\nOriginal Link: https://simonwillison.net/2026/Jul/4/building-a-world-map-with-only-500-bytes/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-04/generate-ascii-world-map-500-bytes-javascript",
+            "title": "Generate an ASCII World Map in 500 Bytes with JavaScript",
+            "summary": "Discover a clever technique to render a credible ASCII world map using only 445 bytes of data, leveraging deflate compression and a concise JavaScript snippet.",
+            "image": "https://static.simonwillison.net/static/2026/world-map-ascii.png",
+            "date_modified": "2026-07-04T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-04/newer-llms-worsen-tool-use-custom-schemas",
+            "content_html": "## Summary & Key Takeaways\n\n- Newer Claude models (Opus 4.8, Sonnet 5) exhibit degraded performance with custom tool schemas.\n- These models invent extra fields in tool calls, leading to schema validation failures.\n- Armin theorizes this issue stems from specialized training on Claude Code's internal edit tools.\n- This training may make models less generalizable to external or custom tool definitions.\n- OpenAI models are trained on an `apply_patch` mechanism, suggesting different approaches.\n- The problem raises questions about the need for multiple tool implementations in third-party harnesses.\n\n## Our Commentary\n\nThis is a genuinely concerning trend. We're seeing these models get \"smarter\" in some ways, but at the cost of generalizability for tool use. It feels like a step backward for developer experience. If every LLM requires its own specific tool implementation, the dream of interchangeable AI agents becomes a nightmare of bespoke integrations. I really hope this isn't a sign of things to come, where model providers optimize for their own ecosystems at the expense of broader utility.\n\nOriginal Link: https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-04/newer-llms-worsen-tool-use-custom-schemas",
+            "title": "Newer LLMs Worsen Tool Use with Custom Schemas",
+            "summary": "Armin reports that advanced Claude models are less effective at using custom tool schemas, inventing extra fields due to specialized training on first-party tools.",
+            "image": "https://picsum.photos/id/596/800/450",
+            "date_modified": "2026-07-04T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-07-04/pnpm-11-10-improves-auth-ci-cd-utility-commands",
             "content_html": "## Summary & Key Takeaways\n\n- pnpm 11.10 introduces a new `_auth` setting for configuring registry authentication.\n- This setting uses a structured, URL-keyed value, improving security and clarity.\n- It addresses limitations with environment variables in CI/CD, especially for GitHub Actions.\n- The `_auth` value is honored only from global config or environment variables, not project files.\n- New `issues` command opens the package's bug tracker URL in the browser.\n- New `prefix` command prints the current package prefix directory.\n\n## Our Commentary\n\nThis `_auth` change is a quiet but significant win for anyone wrestling with CI/CD secrets. I've definitely hit those silent environment variable drops before, and it's infuriating. The explicit URL-keyed structure feels much more robust. It's a good example of a build tool focusing on developer experience beyond just speed. The new commands are nice quality-of-life additions, but the auth fix is where the real value is. We appreciate the attention to detail here.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v11.10.0",
             "url": "https://digestweb.dev/articles/2026-07-04/pnpm-11-10-improves-auth-ci-cd-utility-commands",

@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Sun, 05 Jul 2026 04:57:10 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 05 Jul 2026 09:42:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,74 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[AI Agent Claude Fable Finds Critical Bug in sqlite-utils 4.0 Release]]></title>
+            <link>https://digestweb.dev/articles/2026-07-05/ai-agent-claude-fable-finds-critical-bug-sqlite-utils-4</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-05/ai-agent-claude-fable-finds-critical-bug-sqlite-utils-4</guid>
+            <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison details how an AI agent, Claude Fable, was instrumental in identifying and fixing a severe data loss bug in sqlite-utils 4.0, costing $149.25.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison leveraged Claude Fable to review `sqlite-utils 4.0rc1` for release blockers.
+- Claude Fable identified a critical data loss bug in `Table.delete_where()` that prevented commits.
+- The AI agent's review process involved 37 prompts, 34 commits, and extensive code changes.
+- The total cost for Claude Fable's assistance in this project was approximately $149.25.
+- The collaboration led to several design improvements beyond just bug fixes.
+- This intervention prevented a major bug from shipping in a stable release.
+
+## Our Commentary
+
+This is genuinely fascinating. I'm always a bit skeptical about AI coding agents, but preventing a data loss bug in a major release? That's a huge win. The cost is also surprisingly low for such a critical intervention. It makes me wonder how many other projects could benefit from this kind of AI-assisted QA. We're seeing AI move beyond just generating code to actively improving its quality in ways humans might miss.
+
+Original Link: https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://static.simonwillison.net/static/2026/fable-plan-usage.webp" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[Generate an ASCII World Map in 500 Bytes with JavaScript]]></title>
+            <link>https://digestweb.dev/articles/2026-07-04/generate-ascii-world-map-500-bytes-javascript</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-04/generate-ascii-world-map-500-bytes-javascript</guid>
+            <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover a clever technique to render a credible ASCII world map using only 445 bytes of data, leveraging deflate compression and a concise JavaScript snippet.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Iwo Kadziela created an ASCII world map using only 445 bytes of data.
+- The technique relies on deflate compression for data efficiency.
+- A concise JavaScript snippet decompresses and renders the map in the browser.
+- It demonstrates using `fetch()` with `data:` URIs for loading compressed data.
+- The `DecompressionStream` API is central to the decompression process.
+
+## Our Commentary
+
+This is just pure web magic. I love seeing these kinds of highly optimized, almost "code golf" solutions that push the boundaries of what's possible with minimal resources. The `fetch('data:;base64,...')` trick combined with `DecompressionStream` is something I genuinely didn't know was possible. It's a fantastic reminder that there's always more to learn about browser capabilities.
+
+Original Link: https://simonwillison.net/2026/Jul/4/building-a-world-map-with-only-500-bytes/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://static.simonwillison.net/static/2026/world-map-ascii.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Newer LLMs Worsen Tool Use with Custom Schemas]]></title>
+            <link>https://digestweb.dev/articles/2026-07-04/newer-llms-worsen-tool-use-custom-schemas</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-04/newer-llms-worsen-tool-use-custom-schemas</guid>
+            <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Armin reports that advanced Claude models are less effective at using custom tool schemas, inventing extra fields due to specialized training on first-party tools.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Newer Claude models (Opus 4.8, Sonnet 5) exhibit degraded performance with custom tool schemas.
+- These models invent extra fields in tool calls, leading to schema validation failures.
+- Armin theorizes this issue stems from specialized training on Claude Code's internal edit tools.
+- This training may make models less generalizable to external or custom tool definitions.
+- OpenAI models are trained on an `apply_patch` mechanism, suggesting different approaches.
+- The problem raises questions about the need for multiple tool implementations in third-party harnesses.
+
+## Our Commentary
+
+This is a genuinely concerning trend. We're seeing these models get "smarter" in some ways, but at the cost of generalizability for tool use. It feels like a step backward for developer experience. If every LLM requires its own specific tool implementation, the dream of interchangeable AI agents becomes a nightmare of bespoke integrations. I really hope this isn't a sign of things to come, where model providers optimize for their own ecosystems at the expense of broader utility.
+
+Original Link: https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/596/800/450" length="0" type="image//id/596/800/450"/>
+        </item>
         <item>
             <title><![CDATA[pnpm 11.10 Improves Auth for CI/CD, Adds New Utility Commands]]></title>
             <link>https://digestweb.dev/articles/2026-07-04/pnpm-11-10-improves-auth-ci-cd-utility-commands</link>
