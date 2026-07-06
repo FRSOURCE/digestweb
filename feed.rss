@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Mon, 06 Jul 2026 09:47:37 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 06 Jul 2026 11:28:03 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,53 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[sqlite-utils 4.0rc3: Compound Foreign Keys & Breaking Changes]]></title>
+            <link>https://digestweb.dev/articles/2026-07-06/sqlite-utils-4-0rc3-compound-foreign-keys</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-06/sqlite-utils-4-0rc3-compound-foreign-keys</guid>
+            <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison announces the latest release candidate for sqlite-utils 4.0, featuring compound foreign key support and adjustments for case-insensitive column names.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- This is release candidate 3 for `sqlite-utils` version 4.0.
+- The primary new feature is support for introspecting and creating compound foreign keys.
+- This feature introduces a subtle breaking change to `table.foreign_keys`.
+- `sqlite-utils` now aligns with SQLite's convention for case-insensitive column names.
+- The changelog grew significantly since rc2, delaying the stable release.
+- Simon Willison used Claude Fable 5 and GPT-5.5 to help process the backlog of issues and PRs.
+
+## Our Commentary
+
+Simon Willison's `sqlite-utils` is one of those tools you don't realize you need until you use it. Compound foreign keys are a big deal for anyone working with more complex database schemas. I'm always fascinated by how Simon integrates AI into his workflow, using Claude Fable 5 and GPT-5.5 to manage changelogs. It makes me wonder about the future of developer tooling and how much AI will assist in these mundane but critical tasks. The breaking change is something to watch out for, but it seems necessary for the new features.
+
+Original Link: https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/731/800/450" length="0" type="image//id/731/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Vitest v5 Beta: Major Changes & New Features Land]]></title>
+            <link>https://digestweb.dev/articles/2026-07-06/vitest-v5-beta-major-changes-new-features</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-06/vitest-v5-beta-major-changes-new-features</guid>
+            <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The latest beta for Vitest v5.0.0 brings significant updates, including breaking changes, new mocking capabilities, and improved reporter configurations.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Introduces `vi.when()` for more flexible mocking.
+- Adds `screenshotDirectory` configuration for browser testing.
+- Updates `@sinonjs/fake-timers` to support Temporal API mocking.
+- Clears mocks by default before each test, a notable breaking change.
+- Changes default output directories for JSON, JUnit, and HTML reporters to `.vitest`.
+- Removes the `webdriverio` package, streamlining dependencies.
+- Hardens UI API access for improved security.
+- Includes various bug fixes and stability improvements.
+
+## Our Commentary
+
+Vitest v5 is shaping up to be a big one. Clearing mocks by default before each test? That's a bold move, but probably the right one for consistency. I'm genuinely curious how the community will adapt to some of these breaking changes. Supporting Temporal API mocking is a nice touch, showing they're keeping pace with modern JS. We're watching this beta closely.
+
+Original Link: https://github.com/vitest-dev/vitest/releases/tag/v5.0.0-beta.6]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/0d5d11713b74f652766cd8a0185ede27ce02f8c98df4528356327583c11ca9ab/vitest-dev/vitest/releases/tag/v5.0.0-beta.6" length="0" type="image/6"/>
+        </item>
         <item>
             <title><![CDATA[AI Agent Claude Fable Finds Critical Bug in sqlite-utils 4.0 Release]]></title>
             <link>https://digestweb.dev/articles/2026-07-05/ai-agent-claude-fable-finds-critical-bug-sqlite-utils-4</link>
