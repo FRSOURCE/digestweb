@@ -11,6 +11,78 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-07-06/alex-russell-critiques-apple-safari-27-progress-marketing",
+            "content_html": "## Summary & Key Takeaways\n\n- Alex Russell challenges the praise given to Apple's Safari 27 release.\n- He argues Safari's release cycle is achingly slow compared to competitors.\n- Many Safari 27 fixes address issues not present in other engines.\n- Safari barely meets the 90% Web Platform Tests pass rate required for competitors in the EU.\n- Apple's rate of improvement in WPTs lags behind Mozilla and Chromium due to slower release cadence.\n\n## Our Commentary\n\nAlex Russell never pulls punches, and we appreciate that. This piece is a much-needed dose of reality. It's frustrating to see Apple get credit for what feels like table scraps when other browsers are sprinting. We need more transparency and less marketing spin from all browser vendors, frankly. The WPT data is damning.\n\nOriginal Link: https://infrequently.org/2026/07/abject-praise/",
+            "url": "https://digestweb.dev/articles/2026-07-06/alex-russell-critiques-apple-safari-27-progress-marketing",
+            "title": "Alex Russell Critiques Apple's Safari 27 Progress and Marketing",
+            "summary": "Alex Russell sharply criticizes Apple's slow Safari release cycle and minimal feature improvements, arguing against undue praise for doing 'less than the minimum'.",
+            "image": "https://infrequently.org/2026/07/abject-praise/overall-pass-rates.jpg",
+            "date_modified": "2026-07-06T00:00:00.000Z",
+            "author": {
+                "name": "Alex Russell"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-06/anthropic-research-global-workspaces-language-models",
+            "content_html": "## Summary & Key Takeaways\n\n- Anthropic research explores the concept of a global workspace in LLMs.\n- This work aims to understand how information is processed and shared internally.\n- It provides insights into the fundamental architecture of language models.\n- The research could lead to more robust and interpretable AI systems.\n\n## Our Commentary\n\nThis is the kind of deep dive we crave. Understanding the internal workings of LLMs, like a \"global workspace,\" feels like peering into the brain of a new species. It's complex, but crucial for anyone serious about AI development. We need more of this foundational research.\n\nOriginal Link: https://www.anthropic.com/research/global-workspace",
+            "url": "https://digestweb.dev/articles/2026-07-06/anthropic-research-global-workspaces-language-models",
+            "title": "Anthropic Research: Exploring Global Workspaces in Language Models",
+            "summary": "Anthropic's new research delves into the concept of a 'global workspace' within language models, offering insights into their internal mechanisms and capabilities.",
+            "image": "https://cdn.sanity.io/images/4zrzovbb/website/fbdc967f9f3d88566f25b21cce7ef523b3fabbbb-1280x720.jpg",
+            "date_modified": "2026-07-06T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-06/elastic-ai-training-tpus-recover-mid-training-seconds-maxtext",
+            "content_html": "## Summary & Key Takeaways\n\n- Distributed AI training is typically fragile, with single machine failures crashing jobs.\n- Google's JAX ecosystem now uses elastic training via Pathways.\n- Hardware failures are converted into catchable Python exceptions.\n- The system automatically replaces broken workers and restores checkpoints.\n- Downtime is minimized to under two minutes without restarting the main controller.\n\n## Our Commentary\n\nThis is huge for anyone doing serious distributed AI training. The fragility of these systems is a nightmare. Recovering in seconds from a TPU failure? That's not just an improvement; it's a fundamental shift in reliability. We've all lost hours to crashed jobs. This is a genuine relief.\n\nOriginal Link: https://developers.googleblog.com/we-terminated-a-tpu-mid-training-and-it-recovered-in-seconds-introduction-to-elastic-training-with-maxtext/",
+            "url": "https://digestweb.dev/articles/2026-07-06/elastic-ai-training-tpus-recover-mid-training-seconds-maxtext",
+            "title": "Elastic AI Training: TPUs Recover Mid-Training in Seconds with MaxText",
+            "summary": "Google introduces elastic training with MaxText and JAX, allowing TPUs to recover from mid-training terminations in seconds, drastically improving distributed AI resilience.",
+            "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_oo897doo89.2e16d0ba.fill-1200x600.jpg",
+            "date_modified": "2026-07-06T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-06/field-guide-claude-fable-uncovering-unknowns",
+            "content_html": "## Summary & Key Takeaways\n\n- This guide provides practical strategies for using Claude Fable.\n- It focuses on techniques for identifying and exploring unknown variables.\n- The article aims to help users uncover new insights with the model.\n- It serves as a resource for optimizing interactions with Claude Fable.\n\n## Our Commentary\n\nA field guide for Claude Fable. Useful for those deep in the Anthropic ecosystem, I suppose. We're always looking for practical applications, but this feels a bit too specific to one product. Still, knowing how to \"find your unknowns\" with any LLM is a valuable skill.\n\nOriginal Link: https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns",
+            "url": "https://digestweb.dev/articles/2026-07-06/field-guide-claude-fable-uncovering-unknowns",
+            "title": "A Field Guide to Claude Fable: Uncovering Your Unknowns",
+            "summary": "Explore a practical guide to using Claude Fable, focusing on strategies and techniques for discovering new insights and addressing unknown variables.",
+            "image": "https://picsum.photos/id/335/800/450",
+            "date_modified": "2026-07-06T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-06/hugging-face-prx-project-data-strategy-deep-dive",
+            "content_html": "## Summary & Key Takeaways\n\n- This article is the fourth part of the Hugging Face PRX series.\n- It details the comprehensive data strategy employed for the PRX project.\n- The post covers approaches to data collection and curation.\n- It explains how data is utilized to achieve project goals.\n\n## Our Commentary\n\nData strategy is everything in AI, so this is important. But it's part four of a series, which means it's pretty deep in the weeds of a specific project. We appreciate the transparency from Hugging Face, though. Open-source data practices are crucial.\n\nOriginal Link: https://huggingface.co/blog/Photoroom/prx-part4-data",
+            "url": "https://digestweb.dev/articles/2026-07-06/hugging-face-prx-project-data-strategy-deep-dive",
+            "title": "Hugging Face: PRX Project's Data Strategy Deep Dive",
+            "summary": "Part four of the PRX series from Hugging Face details their comprehensive data strategy, outlining approaches to data collection, curation, and utilization.",
+            "image": "https://cdn-uploads.huggingface.co/production/uploads/680a58121b2c7c159d2bd481/hJldzOsDg5kYWJC_vyj09.png",
+            "date_modified": "2026-07-06T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-06/mastering-css-anchor-positioning-dynamic-ui-elements",
+            "content_html": "## Summary & Key Takeaways\n\n- CSS Anchor Positioning solves the problem of attaching one element to another.\n- It's a new first-class CSS feature, simplifying complex UI interactions.\n- The tutorial covers the most useful parts of this modern CSS capability.\n- This feature is designed for elements like tooltips, nested menus, and popovers.\n\n## Our Commentary\n\nThis is a game-changer. We've all wrestled with JavaScript-based positioning for years, and it's always felt like a hack. A native CSS solution? Yes, please. I'm genuinely excited to see this land and simplify so many common UI patterns. It's about time.\n\nOriginal Link: https://www.joshwcomeau.com/css/anchor-positioning/",
+            "url": "https://digestweb.dev/articles/2026-07-06/mastering-css-anchor-positioning-dynamic-ui-elements",
+            "title": "Mastering CSS Anchor Positioning for Dynamic UI Elements",
+            "summary": "Explore the new CSS Anchor Positioning feature, a first-class solution for attaching elements like tooltips and menus, simplifying complex UI layouts.",
+            "image": "https://www.joshwcomeau.com/images/og-anchor-positioning.png",
+            "date_modified": "2026-07-06T00:00:00.000Z",
+            "author": {
+                "name": "Josh W. Comeau"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-06/navigating-career-age-ai-agents",
+            "content_html": "## Summary & Key Takeaways\n\n- AI excels at tasks with clear, definable answer keys.\n- Human careers will increasingly focus on areas without predetermined solutions.\n- The article encourages focusing on creativity and problem-solving beyond automation.\n- It prompts reflection on the unique value humans bring in an AI-driven world.\n\n## Our Commentary\n\nAddy always makes me think. This isn't just about AI taking jobs; it's about what _kind_ of work remains uniquely human. I find myself wondering if \"no answer key\" is truly the differentiator, or if AI will just generate its own answer keys. It's a bit unsettling, honestly, but a necessary conversation.\n\nOriginal Link: https://addyosmani.com/blog/career-advice-age-of-agents/",
+            "url": "https://digestweb.dev/articles/2026-07-06/navigating-career-age-ai-agents",
+            "title": "Navigating Your Career in the Age of AI Agents",
+            "summary": "Addy Osmani reflects on the evolving nature of careers as AI agents become more capable, emphasizing human creativity over tasks with 'answer keys'.",
+            "image": "https://addyosmani.com/assets/images/agent-career.jpg",
+            "date_modified": "2026-07-06T00:00:00.000Z",
+            "author": {
+                "name": "Addy Osmani"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-07-06/sqlite-utils-4-0rc3-compound-foreign-keys",
             "content_html": "## Summary & Key Takeaways\n\n- This is release candidate 3 for `sqlite-utils` version 4.0.\n- The primary new feature is support for introspecting and creating compound foreign keys.\n- This feature introduces a subtle breaking change to `table.foreign_keys`.\n- `sqlite-utils` now aligns with SQLite's convention for case-insensitive column names.\n- The changelog grew significantly since rc2, delaying the stable release.\n- Simon Willison used Claude Fable 5 and GPT-5.5 to help process the backlog of issues and PRs.\n\n## Our Commentary\n\nSimon Willison's `sqlite-utils` is one of those tools you don't realize you need until you use it. Compound foreign keys are a big deal for anyone working with more complex database schemas. I'm always fascinated by how Simon integrates AI into his workflow, using Claude Fable 5 and GPT-5.5 to manage changelogs. It makes me wonder about the future of developer tooling and how much AI will assist in these mundane but critical tasks. The breaking change is something to watch out for, but it seems necessary for the new features.\n\nOriginal Link: https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything",
             "url": "https://digestweb.dev/articles/2026-07-06/sqlite-utils-4-0rc3-compound-foreign-keys",
