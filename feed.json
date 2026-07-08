@@ -11,6 +11,102 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-07-07/angular-explores-agentic-coding-real-user-component-testing",
+            "content_html": "## Summary & Key Takeaways\n\n- Angular is focusing on community engineering efforts.\n- The team is exploring the potential of agentic coding in development workflows.\n- Real-user component testing is highlighted as a key area of interest.\n- This involves testing components in actual user environments.\n- The article suggests future directions for framework development.\n- It touches upon how AI agents might assist developers.\n\n## Our Commentary\n\nThis is interesting. Angular talking about agentic coding means it's becoming mainstream for major frameworks. I wonder how they envision agents integrating without completely abstracting away the developer. Real-user testing is always a good focus, but the agentic part is what really catches my eye here. It feels like a glimpse into how our dev processes might fundamentally change.\n\nOriginal Link: https://blog.angular.dev/community-engineering-agentic-coding-and-real-user-component-testing-%EF%B8%8F-15c768142043?source=rss----447683c3d9a3---4",
+            "url": "https://digestweb.dev/articles/2026-07-07/angular-explores-agentic-coding-real-user-component-testing",
+            "title": "Angular Explores Agentic Coding and Real-User Component Testing",
+            "summary": "Angular's blog discusses their focus on community engineering, the emerging field of agentic coding, and practical real-user component testing. This signals a forward-looking approach to development workflows and quality assurance.",
+            "image": "https://miro.medium.com/v2/resize:fill:960:505/g:fp:0.5:1/1*6II9hmgXvvC_G4olWegCog.png",
+            "date_modified": "2026-07-07T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-07/boundary-aware-styling-css-view-function",
+            "content_html": "## Summary & Key Takeaways\n\n- The article explores 'boundary-aware styling' in CSS.\n- It focuses on the functionality of the `view()` function.\n- `view()` pairs `@keyframes` animations with element scroll positions.\n- This enables powerful scroll-driven animations.\n- The piece clarifies common misconceptions about `view()`.\n- It provides insights into effective implementation.\n- This technique enhances interactive user experiences.\n\n## Our Commentary\n\nBoundary-aware styling is a great way to think about scroll-driven animations. The `view()` function is incredibly powerful, and I think many developers are still just scratching the surface of what's possible. A good deep dive into this is always welcome, especially from Frontend Masters. It's a subtle but impactful way to enhance user experience, and I'm glad to see more resources on it.\n\nOriginal Link: https://master.dev/blog/boundary-aware-styling-in-css/",
+            "url": "https://digestweb.dev/articles/2026-07-07/boundary-aware-styling-css-view-function",
+            "title": "Understanding Boundary-Aware Styling in CSS with view()",
+            "summary": "Frontend Masters explores 'boundary-aware styling' in CSS, focusing on the `view()` function. The article clarifies how `view()` effectively pairs `@keyframes` animations with an element's scroll position.",
+            "image": "https://master.dev/blog/wp-json/social-image-generator/v1/image/10341",
+            "date_modified": "2026-07-07T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-07/css-border-shape-property-preview",
+            "content_html": "## Summary & Key Takeaways\n\n- The upcoming `border-shape` CSS property is introduced.\n- It aims to expand existing CSS shape functionalities.\n- This property will enable more complex border designs.\n- It builds upon recent additions like `shape()` and `corner-shape`.\n- The article positions it as a powerful tool for advanced styling.\n- It promises greater creative control over element borders.\n\n## Our Commentary\n\nOh, another CSS shape property? We just got `shape()` and `corner-shape`, and now `border-shape`? I'm excited for the creative possibilities, but also a little overwhelmed. CSS is becoming incredibly powerful for design, but keeping up with all these new properties is a challenge. Still, more control over borders is always welcome; it's a subtle but impactful way to enhance visual design.\n\nOriginal Link: https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
+            "url": "https://digestweb.dev/articles/2026-07-07/css-border-shape-property-preview",
+            "title": "Get Ready for the Powerful CSS border-shape Property!",
+            "summary": "CSS-Tricks introduces the upcoming `border-shape` property, promising to expand CSS shaping capabilities beyond `shape()` and `corner-shape`. This new property will enable more complex and creative border designs.",
+            "image": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/06/css-border-shape-examples.jpg",
+            "date_modified": "2026-07-07T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-07/github-code-ai-web-component-snippets",
+            "content_html": "## Summary & Key Takeaways\n\n- An experimental `github-code` Web Component has been released.\n- It was built using GPT-5.5 with a specific prompt.\n- The component embeds code snippets directly from GitHub.\n- It takes GitHub URLs and fetches raw content.\n- Users can specify a range of lines to display.\n- This showcases practical AI assistance in development.\n- It's a useful utility for documentation or tutorials.\n\n## Our Commentary\n\nSimon Willison building a Web Component with GPT-5.5 is just cool. It's a neat little utility, but the real story here is the AI-assisted development. We're seeing more and more of this, and it makes me wonder how much of our future tooling will be co-authored with LLMs. It's a practical example of AI enhancing DX, and it feels like a glimpse into the future of how we build things.\n\nOriginal Link: https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-07/github-code-ai-web-component-snippets",
+            "title": "github-code: An AI-Built Web Component for GitHub Snippets",
+            "summary": "Simon Willison introduces an experimental `github-code` Web Component, built using GPT-5.5, for embedding GitHub code snippets. It fetches raw code and displays specified line ranges.",
+            "image": "https://picsum.photos/id/145/800/450",
+            "date_modified": "2026-07-07T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-07/hugging-face-models-foundry-managed-compute",
+            "content_html": "## Summary & Key Takeaways\n\n- Hugging Face models are now supported on Foundry Managed Compute.\n- This expands the deployment options for AI models.\n- The integration aims to improve model accessibility.\n- It also seeks to enhance scalability for developers.\n- This provides more choices for hosting and running models.\n- It reflects a broader trend of platform interoperability.\n\n## Our Commentary\n\nMore platform integrations for Hugging Face. It's a clear strategy to embed their models everywhere. This is good for adoption, but it also fragments the ecosystem a bit. I wonder if we'll ever see a truly universal AI deployment standard, or if this proliferation of integrations is the new normal.\n\nOriginal Link: https://huggingface.co/blog/microsoft/foundry-managed-compute",
+            "url": "https://digestweb.dev/articles/2026-07-07/hugging-face-models-foundry-managed-compute",
+            "title": "Hugging Face Models Available on Foundry Managed Compute",
+            "summary": "Hugging Face models are now available on Foundry Managed Compute, providing a new deployment option for AI models. This integration aims to enhance accessibility and scalability for developers.",
+            "image": "https://cdn-uploads.huggingface.co/production/uploads/688797c1629e0ef013c2556c/Dn2wmfWGM83ZhuQ-C5jPo.png",
+            "date_modified": "2026-07-07T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-07/hugging-face-sagemaker-studio-one-click-deploy",
+            "content_html": "## Summary & Key Takeaways\n\n- Hugging Face models can now be deployed to Amazon SageMaker Studio with one click.\n- This integration simplifies the model deployment process.\n- It aims to streamline AI development workflows.\n- The feature benefits users of both Hugging Face and SageMaker.\n- It enhances accessibility for deploying open-source models.\n- This reduces friction in moving from model development to production.\n\n## Our Commentary\n\nAnother integration, another step towards making AI models more accessible. It's good to see these platforms playing nice, but I'm always a little wary of \"one-click\" solutions. They often hide complexity that bites you later. Still, for many, this will be a welcome convenience, especially for those already deep in the AWS ecosystem.\n\nOriginal Link: https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
+            "url": "https://digestweb.dev/articles/2026-07-07/hugging-face-sagemaker-studio-one-click-deploy",
+            "title": "Hugging Face Models Now One-Click Deployable to SageMaker Studio",
+            "summary": "Hugging Face announces a new one-click integration, allowing seamless deployment of their models directly into Amazon SageMaker Studio. This aims to streamline AI development workflows for users of both platforms.",
+            "image": "https://cdn-uploads.huggingface.co/production/uploads/68abb71b13d7773ad97e9035/f1nX3dXVmvJcQzJfgfpnJ.webp",
+            "date_modified": "2026-07-07T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-07/intelligence-free-data-systems-agents",
+            "content_html": "## Summary & Key Takeaways\n\n- AI inference costs are rapidly approaching zero, leading to 'virtually free intelligence.'\n- This shift has profound implications for data systems.\n- The article introduces the concept of 'Data Systems For Agents.'\n- It also discusses 'Data Systems Of Agents' and 'Data Systems By Agents.'\n- Agents are predicted to become the dominant workload for future data systems.\n- The piece explores new challenges and opportunities in this era.\n- It suggests a fundamental redesign of how data systems operate.\n- This perspective comes from UC Berkeley's BAIR Lab.\n\n## Our Commentary\n\nThis article is a mind-bender. \"Intelligence is Free, Now What?\" is a question we all need to be asking. The idea of data systems being designed _for_, _of_, and _by_ agents is a massive shift. I genuinely don't know how to feel about agents churning away at 3 am while nobody's watching, managing our data. It's exciting, terrifying, and utterly inevitable all at once. We're entering uncharted territory here, and it feels like the ground is shifting beneath our feet.\n\nOriginal Link: http://bair.berkeley.edu/blog/2026/07/07/intelligence-is-free-now-what/",
+            "url": "https://digestweb.dev/articles/2026-07-07/intelligence-free-data-systems-agents",
+            "title": "Intelligence is Free, Now What? Data Systems for, of, and by Agents",
+            "summary": "This BAIR blog post explores the profound implications of rapidly decreasing AI inference costs, leading to 'virtually free intelligence.' It discusses how data systems must fundamentally evolve to support agent-centric workloads.",
+            "image": "https://bair.berkeley.edu/static/blog/intelligence-is-free-now-what/image6.png",
+            "date_modified": "2026-07-07T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-07/kirki-wordpress-visual-builder-infinite-canvas",
+            "content_html": "## Summary & Key Takeaways\n\n- Kirki is introduced as a new visual builder for WordPress.\n- It features an innovative infinite canvas for design.\n- The builder promises cleaner performance.\n- It aims to offer full design freedom.\n- A key feature is its zero plugin dependency.\n- This redefines the WordPress website building experience.\n- It moves beyond traditional box-based layouts.\n\n## Our Commentary\n\nAn infinite canvas for WordPress? That's a pretty bold claim for a visual builder. We've been stuck in boxes for so long, so the idea of true freeform design is appealing. I'm always skeptical of \"zero plugin dependency\" claims, but if it delivers on performance and freedom, it could be a game-changer for WordPress developers. It's a niche tool, but the concept is broadly interesting.\n\nOriginal Link: https://smashingmagazine.com/2026/07/kirki-wordpress-visual-builder-infinite-canvas/",
+            "url": "https://digestweb.dev/articles/2026-07-07/kirki-wordpress-visual-builder-infinite-canvas",
+            "title": "Kirki: WordPress's First Visual Builder with an Infinite Canvas",
+            "summary": "Smashing Magazine introduces Kirki, a new freeform visual builder for WordPress featuring an infinite canvas. It promises cleaner performance, full design freedom, and zero plugin dependency.",
+            "image": "https://files.smashing.media/articles/kirki-freeform-visual-website-builder-wordpress/kirki-wordpress-visual-builder-infinite-canvas.jpg",
+            "date_modified": "2026-07-07T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-07/scroll-driven-3d-gallery-blender-threejs-gsap",
+            "content_html": "## Summary & Key Takeaways\n\n- Learn to build a cinematic, scroll-driven 3D gallery.\n- The tutorial utilizes a camera path designed in Blender.\n- Three.js is used for rendering the 3D scene.\n- GSAP handles the animation of scroll interactions.\n- This project combines 3D modeling with web development.\n- It offers advanced techniques for interactive web experiences.\n\n## Our Commentary\n\nCodrops always delivers on the visual front. Combining Blender with Three.js and GSAP for scroll-driven experiences is a powerful combo. I'm always impressed by the creativity in these kinds of interactive demos. It pushes the boundaries of what we expect from web experiences, and I love seeing these kinds of showcases.\n\nOriginal Link: https://tympanus.net/codrops/2026/07/07/building-a-scroll-driven-3d-gallery-using-a-blender-camera-path-with-three-js-and-gsap/",
+            "url": "https://digestweb.dev/articles/2026-07-07/scroll-driven-3d-gallery-blender-threejs-gsap",
+            "title": "Build a Scroll-Driven 3D Gallery with Blender, Three.js, and GSAP",
+            "summary": "Learn to create a cinematic, scroll-driven 3D gallery by leveraging a camera path authored in Blender. This tutorial uses Three.js for rendering and GSAP for smooth animations.",
+            "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/07/curvegallery_cover.png?x68649",
+            "date_modified": "2026-07-07T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-07/sqlite-utils-4-0-database-schema-migrations",
+            "content_html": "## Summary & Key Takeaways\n\n- `sqlite-utils 4.0` has been released, a major version update.\n- The key new feature is robust database schema migrations.\n- It also introduces support for nested transactions.\n- Compound foreign keys are now supported.\n- The `table.transform()` method enables advanced schema changes.\n- Migrations are defined in Python files.\n- This release significantly enhances SQLite database management.\n- It's the first major version bump since 2020.\n\n## Our Commentary\n\nSimon Willison just keeps delivering essential tools. `sqlite-utils` getting schema migrations in 4.0 is a huge deal for anyone working with SQLite. We've all wrestled with schema changes, and having a solid, Python-based solution built into such a reliable tool is fantastic. This is a significant DX improvement, making SQLite even more powerful for complex projects. I'm genuinely excited about this.\n\nOriginal Link: https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-07/sqlite-utils-4-0-database-schema-migrations",
+            "title": "sqlite-utils 4.0 Released with Database Schema Migrations",
+            "summary": "Simon Willison announces `sqlite-utils 4.0`, a major update introducing robust database schema migration capabilities. This version also adds nested transactions and support for compound foreign keys.",
+            "image": "https://picsum.photos/id/729/800/450",
+            "date_modified": "2026-07-07T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-07-06/alex-russell-critiques-apple-safari-27-progress-marketing",
             "content_html": "## Summary & Key Takeaways\n\n- Alex Russell challenges the praise given to Apple's Safari 27 release.\n- He argues Safari's release cycle is achingly slow compared to competitors.\n- Many Safari 27 fixes address issues not present in other engines.\n- Safari barely meets the 90% Web Platform Tests pass rate required for competitors in the EU.\n- Apple's rate of improvement in WPTs lags behind Mozilla and Chromium due to slower release cadence.\n\n## Our Commentary\n\nAlex Russell never pulls punches, and we appreciate that. This piece is a much-needed dose of reality. It's frustrating to see Apple get credit for what feels like table scraps when other browsers are sprinting. We need more transparency and less marketing spin from all browser vendors, frankly. The WPT data is damning.\n\nOriginal Link: https://infrequently.org/2026/07/abject-praise/",
             "url": "https://digestweb.dev/articles/2026-07-06/alex-russell-critiques-apple-safari-27-progress-marketing",
