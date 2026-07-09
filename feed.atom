@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-07-09T05:03:01.820Z</updated>
+    <updated>2026-07-09T10:40:01.059Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,32 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Bun's Core Rewritten in Rust with AI Agents: A Paradigm Shift]]></title>
+        <id>https://digestweb.dev/articles/2026-07-08/bun-core-rewritten-rust-ai-agents-paradigm-shift</id>
+        <link href="https://digestweb.dev/articles/2026-07-08/bun-core-rewritten-rust-ai-agents-paradigm-shift"/>
+        <link rel="enclosure" href="https://picsum.photos/id/756/800/450" type="image//id/756/800/450"/>
+        <updated>2026-07-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Jarred Sumner details Bun's ambitious rewrite from Zig to Rust, driven by memory safety concerns and powered by sophisticated AI agents.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Bun's core has been rewritten from Zig to Rust due to persistent memory management bugs.
+- Rust's memory safety features were a primary driver for the language switch.
+- The rewrite was largely facilitated by advanced AI agents (Mythos/Fable).
+- Bun's existing TypeScript test suite served as a crucial conformance suite for the AI-driven port.
+- This project challenges the long-held "never rewrite" adage in software development.
+- The AI agents performed dynamic workflows, trial runs, and adversarial review.
+- The initial experiment with AI agents quickly yielded a high percentage of passing tests.
+
+## Our Commentary
+
+This is wild. I genuinely don't know how to feel about agents churning away at 3am while nobody's watching, rewriting a core runtime. It's a massive technical feat, sure, but also a bit unsettling. We've always said "never rewrite," and now AI just... does it? The implications for DX and project longevity are immense, but I'm still processing the "how."
+
+Original Link: https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bun's Core Rewritten in Rust for Enhanced Performance & Stability]]></title>
         <id>https://digestweb.dev/articles/2026-07-08/bun-core-rewritten-rust-performance-stability</id>
@@ -260,6 +286,32 @@ Original Link: https://openai.com/index/government-national-security-partnership
 GPT-Live sounds like a big step towards truly natural voice interaction. The current voice models are good, but there's always room for improvement in fluidity and nuance. I'm curious how much closer this gets us to conversations that feel genuinely human-like. The implications for accessibility and hands-free interaction are huge.
 
 Original Link: https://openai.com/index/introducing-gpt-live]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Launches GPT-Live: ChatGPT Voice Mode Gets Major Upgrade]]></title>
+        <id>https://digestweb.dev/articles/2026-07-08/openai-launches-gpt-live-chatgpt-voice-mode-upgrade</id>
+        <link href="https://digestweb.dev/articles/2026-07-08/openai-launches-gpt-live-chatgpt-voice-mode-upgrade"/>
+        <link rel="enclosure" href="https://picsum.photos/id/358/800/450" type="image//id/358/800/450"/>
+        <updated>2026-07-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ChatGPT's voice mode is now GPT-Live, featuring a new model and the ability to delegate complex tasks to GPT-5.5 while maintaining conversation flow.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI has upgraded ChatGPT's voice mode to "GPT-Live."
+- GPT-Live uses a new, more impressive model for real-time conversation.
+- It can delegate complex tasks requiring web search or deeper reasoning to GPT-5.5.
+- The system maintains conversation flow even when delegating tasks.
+- The previous voice mode was based on an older GPT-4o era model.
+- A reported bug where the model would "laugh" inappropriately has been addressed.
+- The upgrade significantly enhances the utility of ChatGPT's voice interface.
+
+## Our Commentary
+
+This is a solid step forward for conversational AI. The ability to delegate to a more powerful model in the background without breaking flow is a huge UX win. I'm glad they fixed the "interrupting laugh" bug; that sounds genuinely awkward. It's these subtle interaction improvements that really make AI feel more natural, less like a tool.
+
+Original Link: https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[OpenAI Reveals Flaws in SWE-Bench Pro Coding Benchmark]]></title>
