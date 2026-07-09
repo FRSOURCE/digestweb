@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Wed, 08 Jul 2026 09:26:29 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 09 Jul 2026 05:03:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,289 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Bun's Core Rewritten in Rust for Enhanced Performance & Stability]]></title>
+            <link>https://digestweb.dev/articles/2026-07-08/bun-core-rewritten-rust-performance-stability</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-08/bun-core-rewritten-rust-performance-stability</guid>
+            <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Bun, the fast all-in-one JavaScript runtime, has undergone a complete rewrite of its core from Zig to Rust, promising significant performance and stability improvements.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Bun's core has been entirely rewritten from Zig to Rust.
+- This architectural shift aims to deliver substantial performance gains.
+- The rewrite also targets improved stability and maintainability for the runtime.
+- This is a major engineering effort for the popular JavaScript toolkit.
+
+## Our Commentary
+
+This is a huge move. I'm genuinely curious about the motivations beyond the obvious performance and safety. Was Zig not scaling as expected for their long-term vision? Or is Rust just a better fit for the team's expertise? Either way, this is a bold bet.
+
+Original Link: https://bun.com/blog/bun-in-rust]]></content:encoded>
+            <author>Jarred Sumner</author>
+            <enclosure url="https://picsum.photos/id/840/800/450" length="0" type="image//id/840/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Cursor Introduces Grok 4.5: Beyond Software Engineering]]></title>
+            <link>https://digestweb.dev/articles/2026-07-08/cursor-introduces-grok-4-5-beyond-software-engineering</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-08/cursor-introduces-grok-4-5-beyond-software-engineering</guid>
+            <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Cursor announces Grok 4.5, their most intelligent AI model to date, expanding its capabilities beyond software engineering to address a broader range of applications.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Cursor has released Grok 4.5, their latest AI model.
+- It is touted as their most intelligent model yet.
+- Grok 4.5 expands its focus beyond software engineering tasks.
+- This marks a significant broadening of the model's application scope.
+
+## Our Commentary
+
+Grok 4.5 moving beyond just software engineering is an interesting pivot. It suggests a maturation of the model's general reasoning capabilities. I'm always curious about how these models perform in new domains. The "most intelligent" claim is standard, but the expanded scope is what catches my eye.
+
+Original Link: https://cursor.com/blog/grok-4-5]]></content:encoded>
+            <enclosure url="https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/blog/grok-4.5-og-image.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Deno 2.9.2 Adds Desktop Features & HMR Improvements]]></title>
+            <link>https://digestweb.dev/articles/2026-07-08/deno-2-9-2-desktop-hmr-features</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-08/deno-2-9-2-desktop-hmr-features</guid>
+            <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Deno v2.9.2 introduces new features for Deno Desktop, including React Router autodection and HMR support for Vite and Nuxt, alongside various fixes and enhancements.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Deno v2.9.2 includes new features for Deno Desktop.
+- It now autodetects React Router framework for desktop apps.
+- HMR is enabled for Vite and Nuxt within Deno Desktop.
+- New window opacity and transparency APIs are available for desktop.
+- Various fixes and minor enhancements are also part of this release.
+
+## Our Commentary
+
+Deno Desktop is quietly getting some really interesting features. HMR for Vite and Nuxt is a big win for developer experience. I'm seeing Deno lean into the desktop space more and more, which is a fascinating direction for a JavaScript runtime.
+
+Original Link: https://github.com/denoland/deno/releases/tag/v2.9.2]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/aebdb071e65e4bba1ca64c2573e515fe0a032b3a070df11607c0d7c4ff24b4fc/denoland/deno/releases/tag/v2.9.2" length="0" type="image/2"/>
+        </item>
+        <item>
+            <title><![CDATA[Designing 'Ten Years Away': An Interactive WebGL Comic]]></title>
+            <link>https://digestweb.dev/articles/2026-07-08/designing-ten-years-away-interactive-webgl-comic</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-08/designing-ten-years-away-interactive-webgl-comic</guid>
+            <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore the design and WebGL implementation behind 'Ten Years Away,' an interactive, scroll-driven comic created to celebrate Studio375's tenth anniversary.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article details the creation of "Ten Years Away," an interactive comic.
+- It's a scroll-driven experience built for Studio375's anniversary.
+- The piece covers the journey from print origins to WebGL implementation.
+- It serves as a showcase for creative web development and design.
+
+## Our Commentary
+
+Codrops always delivers on these kinds of deep dives. Interactive comics are a fantastic way to push the boundaries of web storytelling. I'm always impressed by the technical artistry involved in blending narrative with complex WebGL animations. It's a reminder of what the web can truly achieve.
+
+Original Link: https://tympanus.net/codrops/2026/07/08/ten-years-away-designing-an-interactive-comic-for-studio375s-tenth-anniversary/]]></content:encoded>
+            <enclosure url="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/06/cover_tya_tympanus.jpg?x68649" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[GitHub Agentic Workflows Automate Cross-Repo Documentation]]></title>
+            <link>https://digestweb.dev/articles/2026-07-08/github-agentic-workflows-automate-documentation</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-08/github-agentic-workflows-automate-documentation</guid>
+            <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[GitHub's Aspire team showcases how AI agentic workflows can automate documentation updates across repositories, bridging the gap between code changes and published docs.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- GitHub's Aspire team uses AI agentic workflows for documentation.
+- The system automates creating SME-reviewed documentation pull requests.
+- It aims to close the gap between product releases and updated documentation.
+- This streamlines the process of keeping docs current across multiple repositories.
+
+## Our Commentary
+
+This is a smart application of agents. Documentation is often an afterthought, and automating it with AI could be a game-changer for developer experience. I wonder how much human oversight is still needed for "SME-reviewed" docs. The promise of "zero-effort" docs is always alluring.
+
+Original Link: https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows/]]></content:encoded>
+            <enclosure url="https://github.blog/wp-content/uploads/2026/01/generic-mona-copilot-logo.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[GitHub Copilot Simplifies Pages DNS Configuration to Zero]]></title>
+            <link>https://digestweb.dev/articles/2026-07-08/github-copilot-zero-dns-github-pages</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-08/github-copilot-zero-dns-github-pages</guid>
+            <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[GitHub Copilot now enables users to deploy GitHub Pages with custom domains and HTTPS in minutes, eliminating the need for manual DNS record configuration.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- GitHub Copilot now automates DNS configuration for GitHub Pages.
+- Users can go from empty repo to live custom domain with HTTPS in minutes.
+- This eliminates the need for manual DNS record editing.
+- The feature significantly streamlines the deployment process for web projects.
+
+## Our Commentary
+
+Zero DNS configuration? That's a dream for many developers. DNS can be such a pain point. If Copilot can genuinely handle this reliably, it's a huge quality-of-life improvement. I'm always skeptical of "zero config" claims, but this sounds genuinely useful.
+
+Original Link: https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages/]]></content:encoded>
+            <enclosure url="https://github.blog/wp-content/uploads/2026/01/generic-mona-github.png?fit=1920%2C1080" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Hugging Face Introduces Native-Speed vLLM Transformers Backend]]></title>
+            <link>https://digestweb.dev/articles/2026-07-08/huggingface-native-speed-vllm-transformers-backend</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-08/huggingface-native-speed-vllm-transformers-backend</guid>
+            <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hugging Face announces a new native-speed backend for vLLM transformers, promising significant performance enhancements for large language model inference and deployment.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Hugging Face has released a native-speed backend for vLLM transformers.
+- This aims to deliver substantial performance improvements.
+- The enhancement targets large language model inference.
+- It will benefit the deployment and efficiency of AI models.
+
+## Our Commentary
+
+Performance is everything in the LLM space. A "native-speed" backend for vLLM transformers could mean a noticeable difference in inference costs and latency. This is the kind of foundational work that makes AI more accessible and practical for real-world applications.
+
+Original Link: https://huggingface.co/blog/native-speed-vllm-transformers-backend]]></content:encoded>
+            <enclosure url="https://huggingface.co/blog/assets/native-speed-vllm-transformers-backend/thumbnail.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Invisible Yet Accessible: HTML's `hidden="until-found"` & CSS]]></title>
+            <link>https://digestweb.dev/articles/2026-07-08/invisible-accessible-html-hidden-until-found-css</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-08/invisible-accessible-html-hidden-until-found-css</guid>
+            <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how to make interactive elements invisible but fully accessible using the `hidden="until-found"` attribute in HTML, combined with a clever CSS trick to reserve space.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article explains how to create invisible yet accessible interactive elements.
+- It utilizes the `hidden="until-found"` HTML attribute.
+- An unexpected CSS technique is employed to ensure space reservation.
+- This method is crucial for maintaining user experience and accessibility standards.
+
+## Our Commentary
+
+Accessibility is often overlooked, so a tutorial like this is always welcome. The `hidden="until-found"` attribute is a powerful tool, and combining it with CSS for layout preservation is a neat trick. It's these small, specific techniques that make a big difference in building inclusive web experiences.
+
+Original Link: https://master.dev/blog/how-to-make-an-interactive-element-invisible-but-accessible/]]></content:encoded>
+            <enclosure url="https://master.dev/blog/wp-json/social-image-generator/v1/image/10331" length="0" type="image//blog/wp-json/social-image-generator/v1/image/10331"/>
+        </item>
+        <item>
+            <title><![CDATA[Kenton Varda on the Pitfalls of AI-Written Change Descriptions]]></title>
+            <link>https://digestweb.dev/articles/2026-07-08/kenton-varda-ai-written-change-descriptions-pitfalls</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-08/kenton-varda-ai-written-change-descriptions-pitfalls</guid>
+            <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Kenton Varda expresses concerns about AI-generated change descriptions, noting they often lack the high-level framing needed for effective code reviews, making them 'worse than useless'.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Kenton Varda has declared a moratorium on AI-written change descriptions.
+- He finds AI-generated messages often focus on code details, not high-level context.
+- This makes them unhelpful for understanding the broader purpose of changes.
+- The sentiment highlights a current limitation of AI in developer workflows.
+
+## Our Commentary
+
+I completely get this. AI-generated commit messages often feel like they're just regurgitating the diff. The human element of explaining _why_ a change was made, or the architectural implications, is still crucial. It's a good reminder that AI is a tool, not a replacement for human insight in critical communication.
+
+Original Link: https://simonwillison.net/2026/Jul/8/kenton-varda/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/719/800/450" length="0" type="image//id/719/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Microsoft Research Unveils Flint: AI-Era Visualization Language]]></title>
+            <link>https://digestweb.dev/articles/2026-07-08/microsoft-research-flint-ai-visualization-language</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-08/microsoft-research-flint-ai-visualization-language</guid>
+            <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Microsoft Research introduces Flint, an open-source visualization language that enables AI agents to create expressive charts from compact, human-editable specifications.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Microsoft Research has launched Flint, an open-source visualization language.
+- Flint is designed for the AI era, simplifying chart creation.
+- It allows AI agents to generate expressive charts from concise specifications.
+- The language aims to bridge the gap between simple and inspiring visualizations.
+
+## Our Commentary
+
+This is a smart idea. Chart specifications can be tedious, and having AI agents generate them from high-level prompts could be a huge productivity boost. The "middle path" between simple and expressive is exactly what's needed. I'm curious about the learning curve for Flint itself.
+
+Original Link: https://www.microsoft.com/en-us/research/blog/flint-a-visualization-language-for-the-ai-era/]]></content:encoded>
+            <enclosure url="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/07/Flint-TWLIFB-1200x627-1.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Details Approach to Government & National Security AI]]></title>
+            <link>https://digestweb.dev/articles/2026-07-08/openai-government-national-security-ai-approach</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-08/openai-government-national-security-ai-approach</guid>
+            <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI outlines its principles for engaging with government and national security partnerships, focusing on responsible AI use, democratic accountability, and public safety.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI has published its framework for government and national security partnerships.
+- The approach emphasizes responsible AI deployment and use.
+- Principles include democratic accountability and ensuring public safety.
+- This outlines OpenAI's stance on high-stakes AI applications.
+
+## Our Commentary
+
+This is a necessary conversation. The intersection of AI, government, and national security is fraught with ethical dilemmas. I appreciate OpenAI being transparent about their principles, but the real test is always in the implementation. It's a complex space, and I don't envy the teams navigating it.
+
+Original Link: https://openai.com/index/government-national-security-partnerships]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/713/800/450" length="0" type="image//id/713/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Unveils GPT-Live: New Voice Models for ChatGPT]]></title>
+            <link>https://digestweb.dev/articles/2026-07-08/openai-introduces-gpt-live-new-voice-models</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-08/openai-introduces-gpt-live-new-voice-models</guid>
+            <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI introduces GPT-Live, a new generation of advanced voice models designed to power more natural and fluid human-AI interactions within ChatGPT Voice.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI has launched GPT-Live, a new generation of voice models.
+- These models are designed for more natural human-AI interaction.
+- GPT-Live now powers the ChatGPT Voice feature.
+- This aims to enhance the conversational experience with AI.
+
+## Our Commentary
+
+GPT-Live sounds like a big step towards truly natural voice interaction. The current voice models are good, but there's always room for improvement in fluidity and nuance. I'm curious how much closer this gets us to conversations that feel genuinely human-like. The implications for accessibility and hands-free interaction are huge.
+
+Original Link: https://openai.com/index/introducing-gpt-live]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/390/800/450" length="0" type="image//id/390/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Reveals Flaws in SWE-Bench Pro Coding Benchmark]]></title>
+            <link>https://digestweb.dev/articles/2026-07-08/openai-swe-bench-pro-coding-benchmark-flaws</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-08/openai-swe-bench-pro-coding-benchmark-flaws</guid>
+            <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI's new analysis uncovers significant issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about the reliability and accuracy of AI model evaluations.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI conducted a new analysis of the SWE-Bench Pro coding benchmark.
+- The analysis revealed significant issues within the benchmark.
+- Concerns are raised about the reliability and accuracy of AI model evaluations.
+- This research impacts how AI coding capabilities are assessed.
+
+## Our Commentary
+
+This is a crucial piece of research. If our benchmarks for AI coding are flawed, then our understanding of AI capabilities is flawed too. I've always felt that evaluating code generation is incredibly difficult, and this just confirms those suspicions. We need robust, transparent evaluation methods.
+
+Original Link: https://openai.com/index/separating-signal-from-noise-coding-evaluations]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/330/800/450" length="0" type="image//id/330/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[TypeScript 7.0 Released: A 10x Faster Native Port]]></title>
+            <link>https://digestweb.dev/articles/2026-07-08/typescript-7-0-released-10x-faster-native-port</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-08/typescript-7-0-released-10x-faster-native-port</guid>
+            <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[TypeScript 7.0 is now available, featuring a groundbreaking 10x faster native port that promises to dramatically improve type-checking and tooling performance for JavaScript developers.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- TypeScript 7.0 has been officially released.
+- The new version boasts a 10x faster native port.
+- This significant performance boost will impact type-checking and tooling.
+- TypeScript continues its mission to scale JavaScript development.
+
+## Our Commentary
+
+A 10x speedup for TypeScript? That's absolutely massive. We've all felt the compile times on larger projects. If this holds true, it's a game-changer for developer productivity and could push even more projects towards TypeScript. I'm eager to see the real-world benchmarks.
+
+Original Link: https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/]]></content:encoded>
+            <enclosure url="https://devblogs.microsoft.com/typescript/wp-content/uploads/sites/11/2026/07/ts7-0-stable-1-1.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Angular Explores Agentic Coding and Real-User Component Testing]]></title>
             <link>https://digestweb.dev/articles/2026-07-07/angular-explores-agentic-coding-real-user-component-testing</link>
