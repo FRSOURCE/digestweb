@@ -11,6 +11,18 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-07-10/untangling-openai-chatgpt-work-cloud-desktop-data",
+            "content_html": "## Summary & Key Takeaways\n\n- OpenAI attempted to clarify data handling for ChatGPT Work.\n- The clarification addresses how cloud and desktop conversations interact.\n- Cloud Work conversations do not appear in desktop Work at launch.\n- Desktop Work threads and local files remain on the local computer.\n- This distinction impacts user expectations regarding data privacy and access.\n\n## Our Commentary\n\nWe're always watching how these AI giants communicate. This particular clarification from OpenAI feels... well, it feels like they're trying to untangle a knot they tied themselves. I genuinely wonder if the average user grasps these nuances. It's a lot of detail to parse for something that should ideally be seamless. There's a slight unease when data boundaries aren't crystal clear from the get-go. It makes you question the underlying architecture.\n\nOriginal Link: https://simonwillison.net/2026/Jul/10/openai/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-10/untangling-openai-chatgpt-work-cloud-desktop-data",
+            "title": "Untangling OpenAI's ChatGPT Work: Cloud vs. Desktop Data",
+            "summary": "Simon Willison dissects OpenAI's attempt to clarify how data and conversations are handled between cloud and desktop versions of ChatGPT Work.",
+            "image": "https://picsum.photos/id/329/800/450",
+            "date_modified": "2026-07-10T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-07-09/ai-coding-stats-cursor-power-users-token-spend",
             "content_html": "## Summary & Key Takeaways\n\n- Power users of AI coding tools generate ten times more lines of code than median users.\n- The majority of AI expenditure comes from input tokens rather than output tokens.\n- Almost 50% of AI-generated code changes are accepted by developers without manual review.\n- These statistics offer insights into developer productivity and trust in AI tools.\n\n## Our Commentary\n\nThese stats from Cursor are genuinely eye-opening. 10x code generation for power users? And nearly half of AI changes accepted without review? That's a level of trust and efficiency I didn't expect so soon. It makes me wonder about the quality of the code being generated and the potential for subtle bugs to slip through. We're definitely in a new era of development.\n\nOriginal Link: https://blog.pragmaticengineer.com/the-pulse-interesting-ai-coding-stats-from-cursor/",
             "url": "https://digestweb.dev/articles/2026-07-09/ai-coding-stats-cursor-power-users-token-spend",

@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Fri, 10 Jul 2026 04:51:42 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Jul 2026 10:23:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,28 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Untangling OpenAI's ChatGPT Work: Cloud vs. Desktop Data]]></title>
+            <link>https://digestweb.dev/articles/2026-07-10/untangling-openai-chatgpt-work-cloud-desktop-data</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-10/untangling-openai-chatgpt-work-cloud-desktop-data</guid>
+            <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison dissects OpenAI's attempt to clarify how data and conversations are handled between cloud and desktop versions of ChatGPT Work.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI attempted to clarify data handling for ChatGPT Work.
+- The clarification addresses how cloud and desktop conversations interact.
+- Cloud Work conversations do not appear in desktop Work at launch.
+- Desktop Work threads and local files remain on the local computer.
+- This distinction impacts user expectations regarding data privacy and access.
+
+## Our Commentary
+
+We're always watching how these AI giants communicate. This particular clarification from OpenAI feels... well, it feels like they're trying to untangle a knot they tied themselves. I genuinely wonder if the average user grasps these nuances. It's a lot of detail to parse for something that should ideally be seamless. There's a slight unease when data boundaries aren't crystal clear from the get-go. It makes you question the underlying architecture.
+
+Original Link: https://simonwillison.net/2026/Jul/10/openai/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/329/800/450" length="0" type="image//id/329/800/450"/>
+        </item>
         <item>
             <title><![CDATA[AI Coding Stats from Cursor: Power Users, Token Spend, & Trust]]></title>
             <link>https://digestweb.dev/articles/2026-07-09/ai-coding-stats-cursor-power-users-token-spend</link>
