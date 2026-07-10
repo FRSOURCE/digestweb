@@ -11,6 +11,162 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-07-09/ai-coding-stats-cursor-power-users-token-spend",
+            "content_html": "## Summary & Key Takeaways\n\n- Power users of AI coding tools generate ten times more lines of code than median users.\n- The majority of AI expenditure comes from input tokens rather than output tokens.\n- Almost 50% of AI-generated code changes are accepted by developers without manual review.\n- These statistics offer insights into developer productivity and trust in AI tools.\n\n## Our Commentary\n\nThese stats from Cursor are genuinely eye-opening. 10x code generation for power users? And nearly half of AI changes accepted without review? That's a level of trust and efficiency I didn't expect so soon. It makes me wonder about the quality of the code being generated and the potential for subtle bugs to slip through. We're definitely in a new era of development.\n\nOriginal Link: https://blog.pragmaticengineer.com/the-pulse-interesting-ai-coding-stats-from-cursor/",
+            "url": "https://digestweb.dev/articles/2026-07-09/ai-coding-stats-cursor-power-users-token-spend",
+            "title": "AI Coding Stats from Cursor: Power Users, Token Spend, & Trust",
+            "summary": "New data from Cursor reveals that AI power users generate 10x more code, most AI spend is on input tokens, and nearly half of AI-generated changes are accepted without review.",
+            "image": "https://picsum.photos/id/482/800/450",
+            "date_modified": "2026-07-09T00:00:00.000Z",
+            "author": {
+                "name": "Gergely Orosz"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-09/aurora-1-5-enhanced-open-foundation-model-earth-systems",
+            "content_html": "## Summary & Key Takeaways\n\n- Aurora 1.5 is an update to an open foundation model for weather and Earth systems.\n- It introduces 22 additional variables for more comprehensive data analysis.\n- The model now supports hourly temporal resolution.\n- Probabilistic ensemble forecasting has been added to improve prediction accuracy.\n- These enhancements make it more useful for real-world climate and energy applications.\n\n## Our Commentary\n\nAurora 1.5 is a fascinating example of AI being applied to complex scientific domains. While it's niche for our audience, the progress in Earth-system modeling is genuinely important. It's a good reminder that AI isn't just about chatbots and code generation; it's tackling some of the biggest global challenges.\n\nOriginal Link: https://www.microsoft.com/en-us/research/blog/aurora-1-5-extending-open-foundation-models-for-weather-and-earth-system-applications/",
+            "url": "https://digestweb.dev/articles/2026-07-09/aurora-1-5-enhanced-open-foundation-model-earth-systems",
+            "title": "Aurora 1.5: Enhanced Open Foundation Model for Earth Systems",
+            "summary": "Microsoft Research updates Aurora to version 1.5, adding 22 variables, hourly resolution, and probabilistic forecasting for advanced weather and Earth-system applications.",
+            "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/05/AuroraUpdate-TWLIFB-1200x627-1.jpg",
+            "date_modified": "2026-07-09T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-09/chatgpt-work-autonomous-agent-ambitious-projects",
+            "content_html": "## Summary & Key Takeaways\n\n- ChatGPT Work is introduced as an agent designed for complex, ambitious tasks.\n- It can execute actions across various applications and user files.\n- The agent is capable of staying engaged with a project for extended periods.\n- Its core function is to convert high-level goals into completed work.\n\n## Our Commentary\n\nThis is the agentic future we've been talking about. ChatGPT Work sounds like a significant leap, moving beyond simple prompts to actual multi-step, long-duration project execution. I genuinely don't know how to feel about agents churning away at 3am while nobody's watching. It's exciting, but also a little unsettling. The implications for productivity are massive, but so are the potential for unexpected outcomes.\n\nOriginal Link: https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+            "url": "https://digestweb.dev/articles/2026-07-09/chatgpt-work-autonomous-agent-ambitious-projects",
+            "title": "ChatGPT Work: An Autonomous Agent for Ambitious Projects",
+            "summary": "OpenAI introduces ChatGPT Work, an agent capable of taking action across applications and files, managing long-running projects, and transforming goals into finished work.",
+            "image": "https://picsum.photos/id/11/800/450",
+            "date_modified": "2026-07-09T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-09/cypress-reduce-output-bloat-ai-agents",
+            "content_html": "## Summary & Key Takeaways\n\n- Cypress has reduced its output footprint by 75% for AI agents.\n- This optimization helps manage the context window when AI agents interact with Cypress.\n- The reduction was achieved by leveraging two existing CLI flags.\n- Less bloat means more efficient processing for AI-driven testing workflows.\n\n## Our Commentary\n\nThis is a smart move. As AI agents become more integrated into dev workflows, optimizing their input is crucial. I'm curious if this is a sign of more AI-focused features coming to Cypress, or just a general efficiency play. Either way, less noise for agents is always a good thing.\n\nOriginal Link: https://www.cypress.io/blog/75-less-cypress-bloat-in-your-agents-context/",
+            "url": "https://digestweb.dev/articles/2026-07-09/cypress-reduce-output-bloat-ai-agents",
+            "title": "Reduce Cypress Output Bloat by 75% for AI Agents",
+            "summary": "Discover how Cypress significantly reduced its output footprint by 75% using existing CLI flags, optimizing context windows for AI agents.",
+            "image": "https://storage.ghost.io/c/12/89/12899ca1-4786-4eea-b7e1-9c5268baa48a/content/images/2026/07/Reduce-Cypress-context-bloat.png",
+            "date_modified": "2026-07-09T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-09/designing-distressed-users-mental-health-apps-ui-trends",
+            "content_html": "## Summary & Key Takeaways\n\n- UI trends often conflict with the specific needs of mental health applications.\n- Mental health apps require designs that reduce cognitive strain and build trust.\n- The article introduces an evaluation framework for assessing UI patterns.\n- It emphasizes creating a sense of refuge for distressed users.\n- Designers are encouraged to prioritize user well-being over fleeting UI fashions.\n\n## Our Commentary\n\nThis Smashing Magazine piece is a crucial read for anyone in product design. It's a powerful reminder that design isn't just about aesthetics or innovation; it's about empathy and functionality, especially for vulnerable users. I think we often get caught up in chasing the next big UI thing, and articles like this force us to step back and consider the human impact. It's a good gut check.\n\nOriginal Link: https://smashingmagazine.com/2026/07/designing-distressed-users-mental-health-apps-ui/",
+            "url": "https://digestweb.dev/articles/2026-07-09/designing-distressed-users-mental-health-apps-ui-trends",
+            "title": "Designing for Distressed Users: UI Trends vs. Mental Health Apps",
+            "summary": "This article explores why mental health apps should prioritize reducing cognitive strain and fostering trust over trendy UI patterns, offering an evaluation framework for designers.",
+            "image": "https://files.smashing.media/articles/designing-distressed-users-mental-health-apps-ui/designing-distressed-users-mental-health-apps-ui.jpg",
+            "date_modified": "2026-07-09T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-09/gpt-5-6-microsoft-365-copilot-preferred-model",
+            "content_html": "## Summary & Key Takeaways\n\n- GPT-5.6 has been designated as the preferred model for Microsoft 365 Copilot.\n- The integration enhances AI capabilities across Word, Excel, PowerPoint, and Chat.\n- Users can expect faster and higher-quality work output.\n- This marks a significant update to the AI powering Microsoft's productivity suite.\n\n## Our Commentary\n\nOkay, so GPT-5.6 is here, and it's already baked into Microsoft 365 Copilot. This is a big deal for mainstream AI adoption. I'm curious to see how much of a tangible difference users feel. \"Faster, higher-quality work\" is the promise, but the real test is in daily use.\n\nOriginal Link: https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+            "url": "https://digestweb.dev/articles/2026-07-09/gpt-5-6-microsoft-365-copilot-preferred-model",
+            "title": "GPT-5.6 Powers Microsoft 365 Copilot with Enhanced AI Capabilities",
+            "summary": "OpenAI's GPT-5.6 is now the preferred model for Microsoft 365 Copilot, bringing stronger AI capabilities to Word, Excel, PowerPoint, and Chat for improved productivity.",
+            "image": "https://picsum.photos/id/724/800/450",
+            "date_modified": "2026-07-09T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-09/interactive-wave-propagation-cube-grid-threejs",
+            "content_html": "## Summary & Key Takeaways\n\n- Provides a tutorial for creating a 3D wave propagation cube grid.\n- Utilizes the Three.js library for rendering interactive 3D graphics.\n- Focuses on building a minimalistic and customizable background effect.\n- Offers insights into implementing dynamic visual elements on the web.\n\n## Our Commentary\n\nCodrops always delivers on the visual front. This Three.js tutorial looks like a fun way to explore interactive 3D on the web. I appreciate the focus on customization; it means developers can actually adapt this to their own projects rather than just copying a demo.\n\nOriginal Link: https://tympanus.net/codrops/2026/07/09/building-an-interactive-wave-propagation-cube-grid-with-three-js/",
+            "url": "https://digestweb.dev/articles/2026-07-09/interactive-wave-propagation-cube-grid-threejs",
+            "title": "Interactive Wave Propagation Cube Grid with Three.js Tutorial",
+            "summary": "Learn to build a minimalistic and customizable 3D wave grid background using Three.js, perfect for adding dynamic visuals to web projects.",
+            "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/06/franky_cover.png?x23502",
+            "date_modified": "2026-07-09T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-09/javascript-proxy-reflect-deep-dive",
+            "content_html": "## Summary & Key Takeaways\n\n- Explores the `Proxy` constructor and `Reflect` object in JavaScript.\n- Explains how these features interact with an object's internal properties and methods.\n- Details the internal `[[Get]]` operation triggered by property access.\n- Provides insights into fundamental JavaScript language mechanisms.\n- Aims to deepen understanding for developers moving from junior to senior roles.\n\n## Our Commentary\n\nMat from Piccalil always delivers solid JavaScript content. `Proxy` and `Reflect` are powerful but often misunderstood parts of the language. This kind of deep dive into the \"how\" and \"why\" of JavaScript's internal workings is exactly what helps developers level up. I appreciate the focus on understanding the underlying mechanisms, not just the syntax.\n\nOriginal Link: https://piccalil.li/blog/proxy-and-reflect/?ref=articles-rss-feed",
+            "url": "https://digestweb.dev/articles/2026-07-09/javascript-proxy-reflect-deep-dive",
+            "title": "Deep Dive into JavaScript's Proxy and Reflect Objects",
+            "summary": "Explore the advanced JavaScript `Proxy` constructor and `Reflect` object, understanding their internal mechanisms and how they enable powerful interactions with object properties.",
+            "image": "https://piccalil.b-cdn.net/api/og-image?slug=proxy-and-reflect/",
+            "date_modified": "2026-07-09T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-09/litertjs-googles-high-performance-web-ai-inference",
+            "content_html": "## Summary & Key Takeaways\n\n- Google has launched LiteRT.js for high-performance AI inference in the browser.\n- It extends Google's cross-platform edge AI runtime to the web.\n- The library is optimized for JavaScript developers.\n- It leverages WebGPU and WebNN for state-of-the-art performance, with WebAssembly fallback.\n\n## Our Commentary\n\nGoogle dropping LiteRT.js for browser-based AI inference is a huge deal. WebGPU and WebNN are finally getting some serious traction, and this could really push the boundaries of what's possible client-side. I'm excited to see how this impacts privacy-preserving AI and offline capabilities. This feels like a direct challenge to server-side inference for many use cases.\n\nOriginal Link: https://developers.googleblog.com/litertjs-googles-high-performance-web-ai-inference/",
+            "url": "https://digestweb.dev/articles/2026-07-09/litertjs-googles-high-performance-web-ai-inference",
+            "title": "LiteRT.js: Google's High-Performance Web AI Inference Library",
+            "summary": "Google introduces LiteRT.js, a powerful new library for running machine learning models directly in the browser with state-of-the-art performance via WebGPU, WebNN, and WebAssembly.",
+            "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_9xjum29xju.2e16d0ba.fill-1200x600.jpg",
+            "date_modified": "2026-07-09T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-09/llm-meta-ai-0-1-muse-spark-1-1-plugin",
+            "content_html": "## Summary & Key Takeaways\n\n- `llm-meta-ai 0.1` is a new plugin for the LLM command-line tool.\n- It allows users to run prompts against Meta's recently released Muse Spark 1.1 model.\n- The plugin provides convenient CLI and Python library access to the model.\n- This facilitates easier experimentation and integration with Muse Spark 1.1.\n\n## Our Commentary\n\nSimon Willison is fast! Releasing `llm-meta-ai` so quickly after Muse Spark 1.1's announcement is impressive. This kind of rapid tooling development is what makes the open-source AI ecosystem so vibrant. It lowers the barrier to entry for experimenting with new models, which I always appreciate.\n\nOriginal Link: https://simonwillison.net/2026/Jul/9/llm-meta-ai/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-09/llm-meta-ai-0-1-muse-spark-1-1-plugin",
+            "title": "llm-meta-ai 0.1 Plugin Released for Muse Spark 1.1 Integration",
+            "summary": "Simon Willison releases `llm-meta-ai 0.1`, a new plugin for the LLM CLI tool, enabling direct prompting of Meta's Muse Spark 1.1 model.",
+            "image": "https://picsum.photos/id/872/800/450",
+            "date_modified": "2026-07-09T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-09/meta-muse-spark-1-1-api-agentic-improvements",
+            "content_html": "## Summary & Key Takeaways\n\n- Meta has released Muse Spark 1.1, now with an official API.\n- The model boasts significant improvements in agentic tool calling and computer use.\n- Simon Willison highlights \"Attractor States in Self-Conversation\" as a notable feature.\n- A new `llm-meta-ai` plugin is available for CLI and Python access to the model.\n- The release includes an evaluation report detailing its capabilities.\n\n## Our Commentary\n\nMeta's Muse Spark 1.1 with an API is a welcome addition to the open-source LLM landscape. Simon Willison's quick integration with `llm-meta-ai` is a testament to the power of community tooling. The \"Attractor States in Self-Conversation\" sounds like a wild concept; I'm genuinely intrigued by what happens when models talk to themselves. This is a good step for Meta in the agentic space.\n\nOriginal Link: https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-09/meta-muse-spark-1-1-api-agentic-improvements",
+            "title": "Meta Introduces Muse Spark 1.1 with API Access & Agentic Improvements",
+            "summary": "Simon Willison announces Meta's Muse Spark 1.1, featuring the first Spark model API, significant improvements in agentic tool calling, and a new `llm-meta-ai` plugin.",
+            "image": "https://picsum.photos/id/154/800/450",
+            "date_modified": "2026-07-09T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-09/openai-gpt-5-5-bio-bug-bounty-program",
+            "content_html": "## Summary & Key Takeaways\n\n- OpenAI has launched a new Bio Bug Bounty program.\n- The program focuses on identifying potential biological misuse of their AI models.\n- It invites researchers to find and report vulnerabilities.\n- This initiative aims to enhance the safety and security of advanced AI systems.\n\n## Our Commentary\n\nA bio bug bounty program for AI models? That's a sentence I didn't expect to write a few years ago. It's a stark reminder of the serious, real-world implications of advanced AI. I appreciate the proactive approach, but it also makes me wonder what capabilities they're already seeing that necessitate such a program.\n\nOriginal Link: https://openai.com/index/bio-bug-bounty",
+            "url": "https://digestweb.dev/articles/2026-07-09/openai-gpt-5-5-bio-bug-bounty-program",
+            "title": "OpenAI Launches GPT-5.5 Bio Bug Bounty Program",
+            "summary": "OpenAI announces its Bio Bug Bounty program, inviting researchers to identify and report vulnerabilities related to biological misuse of their advanced AI models.",
+            "image": "https://picsum.photos/id/311/800/450",
+            "date_modified": "2026-07-09T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-09/openai-unveils-gpt-5-6-frontier-intelligence",
+            "content_html": "## Summary & Key Takeaways\n\n- OpenAI has officially released its new flagship model, GPT-5.6.\n- The model offers increased intelligence and efficiency per token.\n- It delivers stronger performance relative to its cost.\n- GPT-5.6 provides enhanced capabilities for tackling challenging workloads.\n\n## Our Commentary\n\nHere it is, the big one: GPT-5.6. \"Frontier intelligence that scales with your ambition\" is a bold claim, but given the agentic capabilities mentioned elsewhere, I'm inclined to believe it. The efficiency gains are always welcome, but the real story is the raw power. This feels like a significant step forward in what LLMs can actually _do_.\n\nOriginal Link: https://openai.com/index/gpt-5-6",
+            "url": "https://digestweb.dev/articles/2026-07-09/openai-unveils-gpt-5-6-frontier-intelligence",
+            "title": "OpenAI Unveils GPT-5.6: Frontier Intelligence for Ambitious Work",
+            "summary": "OpenAI officially releases GPT-5.6, promising more intelligence per token, improved performance-to-cost ratio, and enhanced capabilities for complex tasks.",
+            "image": "https://picsum.photos/id/26/800/450",
+            "date_modified": "2026-07-09T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-09/pnpm-11-11-access-command-memory-security",
+            "content_html": "## Summary & Key Takeaways\n\n- Introduces the `pnpm access` command for managing package access and visibility on the registry.\n- Allows `allowBuilds` entries for git-hosted packages to match by repository URL.\n- Reduces peak memory usage during cold-cache dependency resolution by approximately 30%.\n- Prevents crafted `pnpm-lock.yaml` files from writing package content outside the virtual store.\n- Rejects symlinked `pnpm-lock.yaml` files to enhance security.\n\n## Our Commentary\n\nThis is a solid minor release. The memory optimization is a big win for large projects, and the security fixes are absolutely critical. I'm always a fan of tools that prioritize both performance and hardening. The `pnpm access` command also seems like a useful addition for managing private packages.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v11.11.0",
+            "url": "https://digestweb.dev/articles/2026-07-09/pnpm-11-11-access-command-memory-security",
+            "title": "pnpm 11.11: New Access Command, Memory Optimizations & Security Fixes",
+            "summary": "pnpm's latest minor release introduces a new `pnpm access` command for registry management, significantly reduces memory usage, and patches critical security vulnerabilities.",
+            "image": "https://opengraph.githubassets.com/120ebf1a2abe592294bd3814bd4c09eda8ef4735f264cc9df856504a1616977a/pnpm/pnpm/releases/tag/v11.11.0",
+            "date_modified": "2026-07-09T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-09/simon-willison-gpt-5-6-luna-terra-sol-breakdown",
+            "content_html": "## Summary & Key Takeaways\n\n- OpenAI's new GPT-5.6 models are named Luna, Terra, and Sol, varying in size and cost.\n- The models show significant improvements in long-running agentic performance, outperforming Claude Fable 5.\n- Pricing is detailed per 1M input/output tokens for each model.\n- OpenAI audited SWE-Bench Pro, finding ~30% of tasks broken, which may explain benchmark discrepancies.\n- Simon Willison shares early access impressions, noting competence but not necessarily superiority for complex coding tasks.\n- The release includes new API features for developers to explore.\n\n## Our Commentary\n\nSimon Willison's breakdown of GPT-5.6 is exactly what we needed. Official announcements are one thing, but an independent, critical look at pricing, benchmarks, and real-world performance is invaluable. The agentic performance claims are huge, and the context around SWE-Bench Pro is a fascinating peek behind the curtain of AI evaluation. I'm still processing the implications of these models.\n\nOriginal Link: https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-09/simon-willison-gpt-5-6-luna-terra-sol-breakdown",
+            "title": "Simon Willison Breaks Down the New GPT-5.6 Family: Luna, Terra, Sol",
+            "summary": "Simon Willison offers an in-depth analysis of OpenAI's GPT-5.6 models, comparing their performance, pricing, and agentic capabilities against competitors like Claude Fable 5.",
+            "image": "https://static.simonwillison.net/static/2026/gpt-5.6-pelicans.webp",
+            "date_modified": "2026-07-09T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-09/thinking-horizontally-css-at-layer-overrides",
+            "content_html": "## Summary & Key Takeaways\n\n- The article proposes a strategy for using CSS `@layer` with custom properties.\n- Placing component-specific custom properties within an `@layer` simplifies overrides.\n- This approach aims to reduce specificity battles in CSS.\n- It offers a method for more maintainable and predictable styling.\n\n## Our Commentary\n\nThis is a clever use of `@layer` that I hadn't explicitly considered. The idea of \"thinking horizontally\" for custom properties makes a lot of sense for managing complexity in large CSS codebases. I'm always looking for ways to make CSS less of a fight, and this seems like a solid pattern to adopt.\n\nOriginal Link: https://master.dev/blog/thinking-horizontally-in-css-layer/",
+            "url": "https://digestweb.dev/articles/2026-07-09/thinking-horizontally-css-at-layer-overrides",
+            "title": "Thinking Horizontally with CSS @layer for Easier Overrides",
+            "summary": "Learn a CSS technique where placing custom properties for components within an `@layer` simplifies overrides and improves maintainability.",
+            "image": "https://master.dev/blog/wp-json/social-image-generator/v1/image/10360",
+            "date_modified": "2026-07-09T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-07-08/bun-core-rewritten-rust-ai-agents-paradigm-shift",
             "content_html": "## Summary & Key Takeaways\n\n- Bun's core has been rewritten from Zig to Rust due to persistent memory management bugs.\n- Rust's memory safety features were a primary driver for the language switch.\n- The rewrite was largely facilitated by advanced AI agents (Mythos/Fable).\n- Bun's existing TypeScript test suite served as a crucial conformance suite for the AI-driven port.\n- This project challenges the long-held \"never rewrite\" adage in software development.\n- The AI agents performed dynamic workflows, trial runs, and adversarial review.\n- The initial experiment with AI agents quickly yielded a high percentage of passing tests.\n\n## Our Commentary\n\nThis is wild. I genuinely don't know how to feel about agents churning away at 3am while nobody's watching, rewriting a core runtime. It's a massive technical feat, sure, but also a bit unsettling. We've always said \"never rewrite,\" and now AI just... does it? The implications for DX and project longevity are immense, but I'm still processing the \"how.\"\n\nOriginal Link: https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything",
             "url": "https://digestweb.dev/articles/2026-07-08/bun-core-rewritten-rust-ai-agents-paradigm-shift",

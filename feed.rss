@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Thu, 09 Jul 2026 10:40:01 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Jul 2026 04:51:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,337 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[AI Coding Stats from Cursor: Power Users, Token Spend, & Trust]]></title>
+            <link>https://digestweb.dev/articles/2026-07-09/ai-coding-stats-cursor-power-users-token-spend</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-09/ai-coding-stats-cursor-power-users-token-spend</guid>
+            <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[New data from Cursor reveals that AI power users generate 10x more code, most AI spend is on input tokens, and nearly half of AI-generated changes are accepted without review.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Power users of AI coding tools generate ten times more lines of code than median users.
+- The majority of AI expenditure comes from input tokens rather than output tokens.
+- Almost 50% of AI-generated code changes are accepted by developers without manual review.
+- These statistics offer insights into developer productivity and trust in AI tools.
+
+## Our Commentary
+
+These stats from Cursor are genuinely eye-opening. 10x code generation for power users? And nearly half of AI changes accepted without review? That's a level of trust and efficiency I didn't expect so soon. It makes me wonder about the quality of the code being generated and the potential for subtle bugs to slip through. We're definitely in a new era of development.
+
+Original Link: https://blog.pragmaticengineer.com/the-pulse-interesting-ai-coding-stats-from-cursor/]]></content:encoded>
+            <author>Gergely Orosz</author>
+            <enclosure url="https://picsum.photos/id/482/800/450" length="0" type="image//id/482/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Aurora 1.5: Enhanced Open Foundation Model for Earth Systems]]></title>
+            <link>https://digestweb.dev/articles/2026-07-09/aurora-1-5-enhanced-open-foundation-model-earth-systems</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-09/aurora-1-5-enhanced-open-foundation-model-earth-systems</guid>
+            <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Microsoft Research updates Aurora to version 1.5, adding 22 variables, hourly resolution, and probabilistic forecasting for advanced weather and Earth-system applications.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Aurora 1.5 is an update to an open foundation model for weather and Earth systems.
+- It introduces 22 additional variables for more comprehensive data analysis.
+- The model now supports hourly temporal resolution.
+- Probabilistic ensemble forecasting has been added to improve prediction accuracy.
+- These enhancements make it more useful for real-world climate and energy applications.
+
+## Our Commentary
+
+Aurora 1.5 is a fascinating example of AI being applied to complex scientific domains. While it's niche for our audience, the progress in Earth-system modeling is genuinely important. It's a good reminder that AI isn't just about chatbots and code generation; it's tackling some of the biggest global challenges.
+
+Original Link: https://www.microsoft.com/en-us/research/blog/aurora-1-5-extending-open-foundation-models-for-weather-and-earth-system-applications/]]></content:encoded>
+            <enclosure url="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/05/AuroraUpdate-TWLIFB-1200x627-1.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[ChatGPT Work: An Autonomous Agent for Ambitious Projects]]></title>
+            <link>https://digestweb.dev/articles/2026-07-09/chatgpt-work-autonomous-agent-ambitious-projects</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-09/chatgpt-work-autonomous-agent-ambitious-projects</guid>
+            <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI introduces ChatGPT Work, an agent capable of taking action across applications and files, managing long-running projects, and transforming goals into finished work.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- ChatGPT Work is introduced as an agent designed for complex, ambitious tasks.
+- It can execute actions across various applications and user files.
+- The agent is capable of staying engaged with a project for extended periods.
+- Its core function is to convert high-level goals into completed work.
+
+## Our Commentary
+
+This is the agentic future we've been talking about. ChatGPT Work sounds like a significant leap, moving beyond simple prompts to actual multi-step, long-duration project execution. I genuinely don't know how to feel about agents churning away at 3am while nobody's watching. It's exciting, but also a little unsettling. The implications for productivity are massive, but so are the potential for unexpected outcomes.
+
+Original Link: https://openai.com/index/chatgpt-for-your-most-ambitious-work]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/11/800/450" length="0" type="image//id/11/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Reduce Cypress Output Bloat by 75% for AI Agents]]></title>
+            <link>https://digestweb.dev/articles/2026-07-09/cypress-reduce-output-bloat-ai-agents</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-09/cypress-reduce-output-bloat-ai-agents</guid>
+            <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover how Cypress significantly reduced its output footprint by 75% using existing CLI flags, optimizing context windows for AI agents.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Cypress has reduced its output footprint by 75% for AI agents.
+- This optimization helps manage the context window when AI agents interact with Cypress.
+- The reduction was achieved by leveraging two existing CLI flags.
+- Less bloat means more efficient processing for AI-driven testing workflows.
+
+## Our Commentary
+
+This is a smart move. As AI agents become more integrated into dev workflows, optimizing their input is crucial. I'm curious if this is a sign of more AI-focused features coming to Cypress, or just a general efficiency play. Either way, less noise for agents is always a good thing.
+
+Original Link: https://www.cypress.io/blog/75-less-cypress-bloat-in-your-agents-context/]]></content:encoded>
+            <enclosure url="https://storage.ghost.io/c/12/89/12899ca1-4786-4eea-b7e1-9c5268baa48a/content/images/2026/07/Reduce-Cypress-context-bloat.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Designing for Distressed Users: UI Trends vs. Mental Health Apps]]></title>
+            <link>https://digestweb.dev/articles/2026-07-09/designing-distressed-users-mental-health-apps-ui-trends</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-09/designing-distressed-users-mental-health-apps-ui-trends</guid>
+            <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This article explores why mental health apps should prioritize reducing cognitive strain and fostering trust over trendy UI patterns, offering an evaluation framework for designers.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- UI trends often conflict with the specific needs of mental health applications.
+- Mental health apps require designs that reduce cognitive strain and build trust.
+- The article introduces an evaluation framework for assessing UI patterns.
+- It emphasizes creating a sense of refuge for distressed users.
+- Designers are encouraged to prioritize user well-being over fleeting UI fashions.
+
+## Our Commentary
+
+This Smashing Magazine piece is a crucial read for anyone in product design. It's a powerful reminder that design isn't just about aesthetics or innovation; it's about empathy and functionality, especially for vulnerable users. I think we often get caught up in chasing the next big UI thing, and articles like this force us to step back and consider the human impact. It's a good gut check.
+
+Original Link: https://smashingmagazine.com/2026/07/designing-distressed-users-mental-health-apps-ui/]]></content:encoded>
+            <enclosure url="https://files.smashing.media/articles/designing-distressed-users-mental-health-apps-ui/designing-distressed-users-mental-health-apps-ui.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[GPT-5.6 Powers Microsoft 365 Copilot with Enhanced AI Capabilities]]></title>
+            <link>https://digestweb.dev/articles/2026-07-09/gpt-5-6-microsoft-365-copilot-preferred-model</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-09/gpt-5-6-microsoft-365-copilot-preferred-model</guid>
+            <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI's GPT-5.6 is now the preferred model for Microsoft 365 Copilot, bringing stronger AI capabilities to Word, Excel, PowerPoint, and Chat for improved productivity.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- GPT-5.6 has been designated as the preferred model for Microsoft 365 Copilot.
+- The integration enhances AI capabilities across Word, Excel, PowerPoint, and Chat.
+- Users can expect faster and higher-quality work output.
+- This marks a significant update to the AI powering Microsoft's productivity suite.
+
+## Our Commentary
+
+Okay, so GPT-5.6 is here, and it's already baked into Microsoft 365 Copilot. This is a big deal for mainstream AI adoption. I'm curious to see how much of a tangible difference users feel. "Faster, higher-quality work" is the promise, but the real test is in daily use.
+
+Original Link: https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/724/800/450" length="0" type="image//id/724/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Interactive Wave Propagation Cube Grid with Three.js Tutorial]]></title>
+            <link>https://digestweb.dev/articles/2026-07-09/interactive-wave-propagation-cube-grid-threejs</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-09/interactive-wave-propagation-cube-grid-threejs</guid>
+            <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn to build a minimalistic and customizable 3D wave grid background using Three.js, perfect for adding dynamic visuals to web projects.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Provides a tutorial for creating a 3D wave propagation cube grid.
+- Utilizes the Three.js library for rendering interactive 3D graphics.
+- Focuses on building a minimalistic and customizable background effect.
+- Offers insights into implementing dynamic visual elements on the web.
+
+## Our Commentary
+
+Codrops always delivers on the visual front. This Three.js tutorial looks like a fun way to explore interactive 3D on the web. I appreciate the focus on customization; it means developers can actually adapt this to their own projects rather than just copying a demo.
+
+Original Link: https://tympanus.net/codrops/2026/07/09/building-an-interactive-wave-propagation-cube-grid-with-three-js/]]></content:encoded>
+            <enclosure url="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/06/franky_cover.png?x23502" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Deep Dive into JavaScript's Proxy and Reflect Objects]]></title>
+            <link>https://digestweb.dev/articles/2026-07-09/javascript-proxy-reflect-deep-dive</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-09/javascript-proxy-reflect-deep-dive</guid>
+            <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore the advanced JavaScript `Proxy` constructor and `Reflect` object, understanding their internal mechanisms and how they enable powerful interactions with object properties.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Explores the `Proxy` constructor and `Reflect` object in JavaScript.
+- Explains how these features interact with an object's internal properties and methods.
+- Details the internal `[[Get]]` operation triggered by property access.
+- Provides insights into fundamental JavaScript language mechanisms.
+- Aims to deepen understanding for developers moving from junior to senior roles.
+
+## Our Commentary
+
+Mat from Piccalil always delivers solid JavaScript content. `Proxy` and `Reflect` are powerful but often misunderstood parts of the language. This kind of deep dive into the "how" and "why" of JavaScript's internal workings is exactly what helps developers level up. I appreciate the focus on understanding the underlying mechanisms, not just the syntax.
+
+Original Link: https://piccalil.li/blog/proxy-and-reflect/?ref=articles-rss-feed]]></content:encoded>
+            <enclosure url="https://piccalil.b-cdn.net/api/og-image?slug=proxy-and-reflect/" length="0" type="image//api/og-image"/>
+        </item>
+        <item>
+            <title><![CDATA[LiteRT.js: Google's High-Performance Web AI Inference Library]]></title>
+            <link>https://digestweb.dev/articles/2026-07-09/litertjs-googles-high-performance-web-ai-inference</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-09/litertjs-googles-high-performance-web-ai-inference</guid>
+            <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Google introduces LiteRT.js, a powerful new library for running machine learning models directly in the browser with state-of-the-art performance via WebGPU, WebNN, and WebAssembly.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Google has launched LiteRT.js for high-performance AI inference in the browser.
+- It extends Google's cross-platform edge AI runtime to the web.
+- The library is optimized for JavaScript developers.
+- It leverages WebGPU and WebNN for state-of-the-art performance, with WebAssembly fallback.
+
+## Our Commentary
+
+Google dropping LiteRT.js for browser-based AI inference is a huge deal. WebGPU and WebNN are finally getting some serious traction, and this could really push the boundaries of what's possible client-side. I'm excited to see how this impacts privacy-preserving AI and offline capabilities. This feels like a direct challenge to server-side inference for many use cases.
+
+Original Link: https://developers.googleblog.com/litertjs-googles-high-performance-web-ai-inference/]]></content:encoded>
+            <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_9xjum29xju.2e16d0ba.fill-1200x600.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[llm-meta-ai 0.1 Plugin Released for Muse Spark 1.1 Integration]]></title>
+            <link>https://digestweb.dev/articles/2026-07-09/llm-meta-ai-0-1-muse-spark-1-1-plugin</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-09/llm-meta-ai-0-1-muse-spark-1-1-plugin</guid>
+            <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison releases `llm-meta-ai 0.1`, a new plugin for the LLM CLI tool, enabling direct prompting of Meta's Muse Spark 1.1 model.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- `llm-meta-ai 0.1` is a new plugin for the LLM command-line tool.
+- It allows users to run prompts against Meta's recently released Muse Spark 1.1 model.
+- The plugin provides convenient CLI and Python library access to the model.
+- This facilitates easier experimentation and integration with Muse Spark 1.1.
+
+## Our Commentary
+
+Simon Willison is fast! Releasing `llm-meta-ai` so quickly after Muse Spark 1.1's announcement is impressive. This kind of rapid tooling development is what makes the open-source AI ecosystem so vibrant. It lowers the barrier to entry for experimenting with new models, which I always appreciate.
+
+Original Link: https://simonwillison.net/2026/Jul/9/llm-meta-ai/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/872/800/450" length="0" type="image//id/872/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Meta Introduces Muse Spark 1.1 with API Access & Agentic Improvements]]></title>
+            <link>https://digestweb.dev/articles/2026-07-09/meta-muse-spark-1-1-api-agentic-improvements</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-09/meta-muse-spark-1-1-api-agentic-improvements</guid>
+            <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison announces Meta's Muse Spark 1.1, featuring the first Spark model API, significant improvements in agentic tool calling, and a new `llm-meta-ai` plugin.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Meta has released Muse Spark 1.1, now with an official API.
+- The model boasts significant improvements in agentic tool calling and computer use.
+- Simon Willison highlights "Attractor States in Self-Conversation" as a notable feature.
+- A new `llm-meta-ai` plugin is available for CLI and Python access to the model.
+- The release includes an evaluation report detailing its capabilities.
+
+## Our Commentary
+
+Meta's Muse Spark 1.1 with an API is a welcome addition to the open-source LLM landscape. Simon Willison's quick integration with `llm-meta-ai` is a testament to the power of community tooling. The "Attractor States in Self-Conversation" sounds like a wild concept; I'm genuinely intrigued by what happens when models talk to themselves. This is a good step for Meta in the agentic space.
+
+Original Link: https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/154/800/450" length="0" type="image//id/154/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Launches GPT-5.5 Bio Bug Bounty Program]]></title>
+            <link>https://digestweb.dev/articles/2026-07-09/openai-gpt-5-5-bio-bug-bounty-program</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-09/openai-gpt-5-5-bio-bug-bounty-program</guid>
+            <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI announces its Bio Bug Bounty program, inviting researchers to identify and report vulnerabilities related to biological misuse of their advanced AI models.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI has launched a new Bio Bug Bounty program.
+- The program focuses on identifying potential biological misuse of their AI models.
+- It invites researchers to find and report vulnerabilities.
+- This initiative aims to enhance the safety and security of advanced AI systems.
+
+## Our Commentary
+
+A bio bug bounty program for AI models? That's a sentence I didn't expect to write a few years ago. It's a stark reminder of the serious, real-world implications of advanced AI. I appreciate the proactive approach, but it also makes me wonder what capabilities they're already seeing that necessitate such a program.
+
+Original Link: https://openai.com/index/bio-bug-bounty]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/311/800/450" length="0" type="image//id/311/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Unveils GPT-5.6: Frontier Intelligence for Ambitious Work]]></title>
+            <link>https://digestweb.dev/articles/2026-07-09/openai-unveils-gpt-5-6-frontier-intelligence</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-09/openai-unveils-gpt-5-6-frontier-intelligence</guid>
+            <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI officially releases GPT-5.6, promising more intelligence per token, improved performance-to-cost ratio, and enhanced capabilities for complex tasks.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI has officially released its new flagship model, GPT-5.6.
+- The model offers increased intelligence and efficiency per token.
+- It delivers stronger performance relative to its cost.
+- GPT-5.6 provides enhanced capabilities for tackling challenging workloads.
+
+## Our Commentary
+
+Here it is, the big one: GPT-5.6. "Frontier intelligence that scales with your ambition" is a bold claim, but given the agentic capabilities mentioned elsewhere, I'm inclined to believe it. The efficiency gains are always welcome, but the real story is the raw power. This feels like a significant step forward in what LLMs can actually _do_.
+
+Original Link: https://openai.com/index/gpt-5-6]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/26/800/450" length="0" type="image//id/26/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[pnpm 11.11: New Access Command, Memory Optimizations & Security Fixes]]></title>
+            <link>https://digestweb.dev/articles/2026-07-09/pnpm-11-11-access-command-memory-security</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-09/pnpm-11-11-access-command-memory-security</guid>
+            <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[pnpm's latest minor release introduces a new `pnpm access` command for registry management, significantly reduces memory usage, and patches critical security vulnerabilities.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Introduces the `pnpm access` command for managing package access and visibility on the registry.
+- Allows `allowBuilds` entries for git-hosted packages to match by repository URL.
+- Reduces peak memory usage during cold-cache dependency resolution by approximately 30%.
+- Prevents crafted `pnpm-lock.yaml` files from writing package content outside the virtual store.
+- Rejects symlinked `pnpm-lock.yaml` files to enhance security.
+
+## Our Commentary
+
+This is a solid minor release. The memory optimization is a big win for large projects, and the security fixes are absolutely critical. I'm always a fan of tools that prioritize both performance and hardening. The `pnpm access` command also seems like a useful addition for managing private packages.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.11.0]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/120ebf1a2abe592294bd3814bd4c09eda8ef4735f264cc9df856504a1616977a/pnpm/pnpm/releases/tag/v11.11.0" length="0" type="image/0"/>
+        </item>
+        <item>
+            <title><![CDATA[Simon Willison Breaks Down the New GPT-5.6 Family: Luna, Terra, Sol]]></title>
+            <link>https://digestweb.dev/articles/2026-07-09/simon-willison-gpt-5-6-luna-terra-sol-breakdown</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-09/simon-willison-gpt-5-6-luna-terra-sol-breakdown</guid>
+            <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison offers an in-depth analysis of OpenAI's GPT-5.6 models, comparing their performance, pricing, and agentic capabilities against competitors like Claude Fable 5.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI's new GPT-5.6 models are named Luna, Terra, and Sol, varying in size and cost.
+- The models show significant improvements in long-running agentic performance, outperforming Claude Fable 5.
+- Pricing is detailed per 1M input/output tokens for each model.
+- OpenAI audited SWE-Bench Pro, finding ~30% of tasks broken, which may explain benchmark discrepancies.
+- Simon Willison shares early access impressions, noting competence but not necessarily superiority for complex coding tasks.
+- The release includes new API features for developers to explore.
+
+## Our Commentary
+
+Simon Willison's breakdown of GPT-5.6 is exactly what we needed. Official announcements are one thing, but an independent, critical look at pricing, benchmarks, and real-world performance is invaluable. The agentic performance claims are huge, and the context around SWE-Bench Pro is a fascinating peek behind the curtain of AI evaluation. I'm still processing the implications of these models.
+
+Original Link: https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://static.simonwillison.net/static/2026/gpt-5.6-pelicans.webp" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[Thinking Horizontally with CSS @layer for Easier Overrides]]></title>
+            <link>https://digestweb.dev/articles/2026-07-09/thinking-horizontally-css-at-layer-overrides</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-09/thinking-horizontally-css-at-layer-overrides</guid>
+            <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn a CSS technique where placing custom properties for components within an `@layer` simplifies overrides and improves maintainability.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article proposes a strategy for using CSS `@layer` with custom properties.
+- Placing component-specific custom properties within an `@layer` simplifies overrides.
+- This approach aims to reduce specificity battles in CSS.
+- It offers a method for more maintainable and predictable styling.
+
+## Our Commentary
+
+This is a clever use of `@layer` that I hadn't explicitly considered. The idea of "thinking horizontally" for custom properties makes a lot of sense for managing complexity in large CSS codebases. I'm always looking for ways to make CSS less of a fight, and this seems like a solid pattern to adopt.
+
+Original Link: https://master.dev/blog/thinking-horizontally-in-css-layer/]]></content:encoded>
+            <enclosure url="https://master.dev/blog/wp-json/social-image-generator/v1/image/10360" length="0" type="image//blog/wp-json/social-image-generator/v1/image/10360"/>
+        </item>
         <item>
             <title><![CDATA[Bun's Core Rewritten in Rust with AI Agents: A Paradigm Shift]]></title>
             <link>https://digestweb.dev/articles/2026-07-08/bun-core-rewritten-rust-ai-agents-paradigm-shift</link>
