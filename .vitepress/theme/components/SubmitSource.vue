@@ -98,8 +98,7 @@ const errors = computed(() => ({
 const isValid = computed(() => Object.values(errors.value).every((e) => !e));
 
 const turnstileSitekey = import.meta.env.VITE_TURNSTILE_SITEKEY as
-  | string
-  | undefined;
+  string | undefined;
 
 async function sendFormData(form: HTMLFormElement, attempt: number = 0) {
   try {
