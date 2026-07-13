@@ -2,8 +2,7 @@
 export type SizeWithPrefix =
   `${'' | 'sm:' | 'md:' | 'lg:' | 'xl:' | '2xl:'}${'sm' | 'md' | 'lg'}`;
 export type AlmostInfinitelyDeepSizeProp =
-  | SizeWithPrefix
-  | `${SizeWithPrefix} ${string}`;
+  SizeWithPrefix | `${SizeWithPrefix} ${string}`;
 
 const sizeClassesMap = {
   sm: (active: boolean) => [
