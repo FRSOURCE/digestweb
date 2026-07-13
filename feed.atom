@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-07-13T03:41:54.731Z</updated>
+    <updated>2026-07-13T04:30:30.800Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,98 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Anthropic's Fable Access Extended Again Amidst OpenAI Competition]]></title>
+        <id>https://digestweb.dev/articles/2026-07-12/anthropic-fable-access-extended-openai-competition</id>
+        <link href="https://digestweb.dev/articles/2026-07-12/anthropic-fable-access-extended-openai-competition"/>
+        <link rel="enclosure" href="https://picsum.photos/id/120/800/450" type="image//id/120/800/450"/>
+        <updated>2026-07-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Anthropic has once more extended access to Claude Fable 5, prompting Simon Willison to suggest permanent availability is needed to compete effectively with OpenAI's unrestricted GPT-5.6 Sol.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Anthropic has extended access to Claude Fable 5 for paid plans until July 19.
+- This extension is attributed to ongoing compute constraints.
+- Users can utilize up to half their weekly limit on Fable 5, then switch models or use credits.
+- OpenAI's GPT-5.6 Sol appears to have unrestricted access, creating a competitive disadvantage for Anthropic.
+- Simon Willison advocates for Anthropic to make Fable permanently available to retain users.
+
+## Our Commentary
+
+Another Fable bump. This back-and-forth with Anthropic's access policies is starting to feel a bit like a game of chicken. I get the compute constraints, I really do, but the uncertainty is a killer for developers trying to build on these platforms. OpenAI's confidence with GPT-5.6 Sol access just makes Anthropic's position look shakier. We need stability, not these constant extensions. It makes me wonder if they're truly struggling with capacity or if it's a strategic play that's backfiring.
+
+Original Link: https://simonwillison.net/2026/Jul/12/bump/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The EP-1320 Medieval: A Programmer's Musical Analogy]]></title>
+        <id>https://digestweb.dev/articles/2026-07-12/ep1320-medieval-a-programmers-musical-analogy</id>
+        <link href="https://digestweb.dev/articles/2026-07-12/ep1320-medieval-a-programmers-musical-analogy"/>
+        <link rel="enclosure" href="https://picsum.photos/id/395/800/450" type="image//id/395/800/450"/>
+        <updated>2026-07-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Robin Rendle reflects on a quirky medieval sampler, drawing parallels between its complex, mode-driven interface and the process of learning programming and command-line tools.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The author acquired an EP-1320 Medieval sampler, featuring unique medieval sounds.
+- Its complex, mode-based interface is compared to learning programming and command-line tools.
+- The machine's "stubbornness" and specific way of thinking required for its use are highlighted.
+- Learning its unique language opens up new possibilities and ways of thinking, similar to programming.
+- The article suggests that machines can program us as much as we program them.
+
+## Our Commentary
+
+I love these kinds of reflections. It's easy to get caught up in the latest framework or tool, but stepping back to think about _how_ we interact with complex systems, whether it's a medieval sampler or a CLI, is genuinely refreshing. The idea that "you program the machine, and the machine programs you" really resonates. It makes me wonder how much our current dev tools are subtly shaping our thought processes. Are we becoming more "mode-less" in our thinking, or just swapping one set of modes for another?
+
+Original Link: https://robinrendle.com/notes/ep1320-medieval/]]></content>
+        <author>
+            <name>Robin Rendle</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is Open-Source AI Facing an Existential Threat?]]></title>
+        <id>https://digestweb.dev/articles/2026-07-12/is-open-source-ai-facing-an-existential-threat</id>
+        <link href="https://digestweb.dev/articles/2026-07-12/is-open-source-ai-facing-an-existential-threat"/>
+        <link rel="enclosure" href="https://substackcdn.com/image/fetch/$s_!UW3o!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e40ce14-a532-4db6-a855-caee778250f7_3182x1790.png" type="image/png"/>
+        <updated>2026-07-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Nathan Lambert of Interconnects posits that open-source AI models are currently undergoing their most severe test, suggesting a critical period for their long-term viability.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article suggests that open-source AI models are at a critical juncture.
+- It implies that the next six months will be crucial for their survival and growth.
+- This period represents the most serious challenge to date for open-source AI's viability.
+- The author, Nathan Lambert, is a recognized voice in the AI research community.
+
+## Our Commentary
+
+"6 months to live for open models" — that's a headline designed to grab you, isn't it? I genuinely don't know how to feel about this. On one hand, the pace of closed-source development is insane, and the resources behind it are vast. On the other, the open-source community has a way of defying expectations. Is this a wake-up call, or a prediction of doom? We've seen open-source triumph in web dev, but AI feels like a different beast entirely. The stakes feel incredibly high.
+
+Original Link: https://www.interconnects.ai/p/6-months-to-live-for-open-models]]></content>
+        <author>
+            <name>Nathan Lambert</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pnpm 12 Alpha 9: Refined Package Manifest Handling]]></title>
+        <id>https://digestweb.dev/articles/2026-07-12/pnpm-12-alpha-9-refined-package-manifest-handling</id>
+        <link href="https://digestweb.dev/articles/2026-07-12/pnpm-12-alpha-9-refined-package-manifest-handling"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/c71b2d87563087852191de726eda3f815522bbc9b4558ae11b1ca3a24aa72393/pnpm/pnpm/releases/tag/v12.0.0-alpha.9" type="image/9"/>
+        <updated>2026-07-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This alpha release of pnpm 12 focuses on internal fixes for `pacquet`, improving Node runtime pinning, and ensuring consistent `package.json` formatting and dependency management.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Addresses `pacquet` issues related to Node runtime version pinning.
+- Ensures `package.json` formatting, including indentation and final newlines, is preserved.
+- Normalizes dependency fields by sorting entries and removing empty ones.
+- Skips writing `package.json` if no changes are detected, preventing unnecessary file churn.
+- Improves consistency in how manifest files are read and saved.
+
+## Our Commentary
+
+Alpha releases are always interesting to peek into. We're seeing a lot of focus on the nitty-gritty details here, like `package.json` formatting and avoiding unnecessary file writes. It's the kind of work that makes a tool feel solid, even if it's not flashy. I appreciate the attention to developer experience, especially the small things that prevent git diff noise.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.9]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[pnpm 11.12: Custom Fetchers & Peer Dependency Fixes]]></title>
         <id>https://digestweb.dev/articles/2026-07-11/pnpm-11-12-custom-fetchers-peer-dependency-fixes</id>
