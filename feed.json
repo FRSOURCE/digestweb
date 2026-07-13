@@ -11,6 +11,66 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-07-13/anthropic-claude-values-models-languages-research",
+            "content_html": "## Summary & Key Takeaways\n\n- Anthropic conducted research on Claude's values.\n- The study examines how these values are consistent across different AI models.\n- It also investigates value alignment across various human languages.\n- This research falls under the category of societal impacts of AI.\n\n## Our Commentary\n\nThis is the kind of AI research we need more of. Understanding how \"values\" translate across models and languages is incredibly complex. It's not just about performance, it's about alignment and safety. I'm curious about the methodologies here. How do you even measure \"values\" in an LLM? It feels like we're still figuring out the right questions to ask.\n\nOriginal Link: https://www.anthropic.com/research/claude-values-models-languages",
+            "url": "https://digestweb.dev/articles/2026-07-13/anthropic-claude-values-models-languages-research",
+            "title": "Anthropic Research: Claude's Values Across Models & Languages",
+            "summary": "Anthropic explores how Claude's core values manifest and are maintained across different AI models and various human languages.",
+            "image": "https://picsum.photos/id/736/800/450",
+            "date_modified": "2026-07-13T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-13/css-in-n-out-animation-sibling-index-view-transitions",
+            "content_html": "## Summary & Key Takeaways\n\n- The article demonstrates an \"In-N-Out\" animation technique.\n- It mimics native View Transitions using CSS.\n- The method involves placing items based on their `sibling-index()`.\n- Translations are used to achieve the animation effect.\n- Changes in index trigger animation opportunities.\n\n## Our Commentary\n\nOkay, this is a neat trick! `sibling-index()` is one of those CSS features that feels like a superpower when you find the right use case. Mimicking View Transitions without the actual API is a clever workaround for broader browser support. I love seeing these creative approaches to push what CSS can do. It's a good reminder that sometimes the simplest ideas yield the most elegant solutions.\n\nOriginal Link: https://master.dev/blog/in-n-out-animation-using-sibling-index/",
+            "url": "https://digestweb.dev/articles/2026-07-13/css-in-n-out-animation-sibling-index-view-transitions",
+            "title": "Mimicking View Transitions with CSS sibling-index() for Animations",
+            "summary": "Learn a clever CSS technique to create \"In-N-Out\" animations by leveraging `sibling-index()` to mimic native View Transitions.",
+            "image": "https://master.dev/blog/wp-json/social-image-generator/v1/image/10379",
+            "date_modified": "2026-07-13T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-13/makemepulse-interactive-web-xr-experiences",
+            "content_html": "## Summary & Key Takeaways\n\n- makemepulse has over 15 years of experience in digital experience creation.\n- They combine creative storytelling with technical innovation.\n- Their work spans web, immersive media, and interactive installations.\n- They are known for crafting award-winning digital experiences.\n\n## Our Commentary\n\nThis is a cool look at what's possible when you push the boundaries of web tech. I always appreciate seeing agencies that aren't afraid to get weird with it. It's a good reminder that the web isn't just about forms and CRUD apps. There's still so much room for pure creative expression.\n\nOriginal Link: https://tympanus.net/codrops/2026/07/13/where-stories-become-interactive-worlds-how-makemepulse-brings-ideas-to-life-across-web-xr-and-beyond/",
+            "url": "https://digestweb.dev/articles/2026-07-13/makemepulse-interactive-web-xr-experiences",
+            "title": "makemepulse: Crafting Interactive Worlds Across Web & XR",
+            "summary": "Explore how makemepulse blends creative storytelling with technical innovation to build award-winning digital experiences.",
+            "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/07/codrops_article_cover.png?x72090",
+            "date_modified": "2026-07-13T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-13/microsoft-research-verifying-rust-cryptography-symcrypt",
+            "content_html": "## Summary & Key Takeaways\n\n- Cryptographic code is essential for modern computing system protections.\n- Microsoft Research developed a new method for code verification.\n- This method helps verify code as developers write it.\n- It aims to preserve speed and adaptability during implementation and evolution.\n- The research focuses on Rust cryptography within SymCrypt.\n\n## Our Commentary\n\nCryptographic verification is a nightmare, so any new method here is worth a look. Rust's type system already helps a ton, but formal verification is another beast entirely. I'm always a bit skeptical about \"preserving speed and adaptability\" claims in this domain, but if anyone can pull it off, it's Microsoft Research. This is deep, important work.\n\nOriginal Link: https://www.microsoft.com/en-us/research/blog/verifying-rust-cryptography-in-symcrypt-from-standards-to-code/",
+            "url": "https://digestweb.dev/articles/2026-07-13/microsoft-research-verifying-rust-cryptography-symcrypt",
+            "title": "Microsoft Research: Verifying Rust Cryptography in SymCrypt",
+            "summary": "Discover a new method from Microsoft Research for verifying Rust cryptographic code in SymCrypt, ensuring security, speed, and adaptability.",
+            "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/07/RustSymCrypt-TWLIFB-1200x627-1-scaled.jpg",
+            "date_modified": "2026-07-13T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-13/simon-willison-ai-impact-datasette-code-frequency",
+            "content_html": "## Summary & Key Takeaways\n\n- Simon Willison investigated the impact of AI coding agents on his output.\n- He used a GitHub code frequency chart for his Datasette project.\n- The chart shows a significant spike in code activity.\n- This spike correlates with the use of advanced AI models like Opus 4.8 and GPT-5.5.\n- The observation provides real-world insight into AI-assisted programming.\n\n## Our Commentary\n\nThis is fascinating. We talk a lot about AI's potential, but seeing a concrete, personal example like this really drives it home. A \"big spike in activity\" directly tied to new models? That's not just a productivity boost; it's a fundamental shift in how we interact with code. I wonder how many other developers are seeing similar patterns. It's a bit unsettling, honestly, how quickly these tools are changing our workflows.\n\nOriginal Link: https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-13/simon-willison-ai-impact-datasette-code-frequency",
+            "title": "Simon Willison on AI's Impact: Datasette Code Frequency Spike",
+            "summary": "Simon Willison shares a GitHub code frequency chart for Datasette, illustrating a significant spike in activity linked to advanced AI coding agents.",
+            "image": "https://picsum.photos/id/21/800/450",
+            "date_modified": "2026-07-13T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-13/why-i-stopped-destructuring-everything-javascript",
+            "content_html": "## Summary & Key Takeaways\n\n- The author previously destructured every JavaScript object.\n- They now advocate for keeping objects intact in many scenarios.\n- This approach can lead to easier-to-read code.\n- It can also simplify debugging processes.\n- Maintaining code becomes more straightforward without excessive destructuring.\n\n## Our Commentary\n\nI've been there, destructuring everything in sight. It feels so clean at first, right? But then you're debugging and you have no idea where `id` came from. This article hits home. Sometimes, a little verbosity is a good thing for clarity. We get so caught up in \"concise\" that we forget \"understandable.\"\n\nOriginal Link: https://allthingssmitty.com/2026/07/13/i-stopped-destructuring-everything/",
+            "url": "https://digestweb.dev/articles/2026-07-13/why-i-stopped-destructuring-everything-javascript",
+            "title": "Why I Stopped Destructuring Everything in JavaScript",
+            "summary": "An experienced developer explains why keeping objects intact, rather than destructuring, can improve code readability and maintainability.",
+            "image": "https://allthingssmitty.com/img/posts/sunset-home-office-min.jpg",
+            "date_modified": "2026-07-13T00:00:00.000Z",
+            "author": {
+                "name": "Matt Smith"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-07-12/anthropic-fable-access-extended-openai-competition",
             "content_html": "## Summary & Key Takeaways\n\n- Anthropic has extended access to Claude Fable 5 for paid plans until July 19.\n- This extension is attributed to ongoing compute constraints.\n- Users can utilize up to half their weekly limit on Fable 5, then switch models or use credits.\n- OpenAI's GPT-5.6 Sol appears to have unrestricted access, creating a competitive disadvantage for Anthropic.\n- Simon Willison advocates for Anthropic to make Fable permanently available to retain users.\n\n## Our Commentary\n\nAnother Fable bump. This back-and-forth with Anthropic's access policies is starting to feel a bit like a game of chicken. I get the compute constraints, I really do, but the uncertainty is a killer for developers trying to build on these platforms. OpenAI's confidence with GPT-5.6 Sol access just makes Anthropic's position look shakier. We need stability, not these constant extensions. It makes me wonder if they're truly struggling with capacity or if it's a strategic play that's backfiring.\n\nOriginal Link: https://simonwillison.net/2026/Jul/12/bump/#atom-everything",
             "url": "https://digestweb.dev/articles/2026-07-12/anthropic-fable-access-extended-openai-competition",
