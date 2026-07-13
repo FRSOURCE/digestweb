@@ -23,6 +23,18 @@
             }
         },
         {
+            "id": "https://digestweb.dev/articles/2026-07-12/directly-responsible-individuals-ai-agents-accountability",
+            "content_html": "## Summary & Key Takeaways\n\n- The concept of Directly Responsible Individuals (DRI) originated at Apple, defining the person ultimately accountable for a project's success or failure.\n- Simon Willison applies the DRI concept to LLM-powered agents within human organizations.\n- He argues that AI agents should never be considered DRIs because accountability is a uniquely human trait.\n- An IBM slide from 1979 is cited: \"A computer can never be held accountable, therefore a computer must never make a management decision.\"\n\n## Our Commentary\n\nThis is a crucial discussion. We've been wrestling with the implications of AI agents taking on more complex tasks. The idea that accountability remains firmly human is a grounding thought. It makes me wonder about the legal frameworks that will inevitably need to catch up. There's something unsettling about agents churning away at 3am while nobody's watching, and this piece helps articulate why.\n\nOriginal Link: https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-12/directly-responsible-individuals-ai-agents-accountability",
+            "title": "Directly Responsible Individuals: Why AI Agents Can't Be Accountable",
+            "summary": "Simon Willison explores the concept of Directly Responsible Individuals (DRI) and argues why AI agents, unlike humans, cannot fulfill this role due to their inability to take accountability.",
+            "image": "https://picsum.photos/id/928/800/450",
+            "date_modified": "2026-07-12T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-07-12/ep1320-medieval-a-programmers-musical-analogy",
             "content_html": "## Summary & Key Takeaways\n\n- The author acquired an EP-1320 Medieval sampler, featuring unique medieval sounds.\n- Its complex, mode-based interface is compared to learning programming and command-line tools.\n- The machine's \"stubbornness\" and specific way of thinking required for its use are highlighted.\n- Learning its unique language opens up new possibilities and ways of thinking, similar to programming.\n- The article suggests that machines can program us as much as we program them.\n\n## Our Commentary\n\nI love these kinds of reflections. It's easy to get caught up in the latest framework or tool, but stepping back to think about _how_ we interact with complex systems, whether it's a medieval sampler or a CLI, is genuinely refreshing. The idea that \"you program the machine, and the machine programs you\" really resonates. It makes me wonder how much our current dev tools are subtly shaping our thought processes. Are we becoming more \"mode-less\" in our thinking, or just swapping one set of modes for another?\n\nOriginal Link: https://robinrendle.com/notes/ep1320-medieval/",
             "url": "https://digestweb.dev/articles/2026-07-12/ep1320-medieval-a-programmers-musical-analogy",
@@ -54,6 +66,18 @@
             "summary": "This alpha release of pnpm 12 focuses on internal fixes for `pacquet`, improving Node runtime pinning, and ensuring consistent `package.json` formatting and dependency management.",
             "image": "https://opengraph.githubassets.com/c71b2d87563087852191de726eda3f815522bbc9b4558ae11b1ca3a24aa72393/pnpm/pnpm/releases/tag/v12.0.0-alpha.9",
             "date_modified": "2026-07-12T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-12/shot-scraper-1-11-release-improvements",
+            "content_html": "## Summary & Key Takeaways\n\n- `shot-scraper` 1.11 brings minor improvements to the command-line tool.\n- The `server:` mechanism for `shot-scraper video` and `shot-scraper multi` now waits up to 30 seconds for the target URL.\n- A new `--js-file` option is available for loading JavaScript from a file, stdin, or a GitHub script.\n- The `javascript` and `html` commands now include a `--timeout` option for consistency.\n\n## Our Commentary\n\n`shot-scraper` is a neat utility, and these quality-of-life updates are always welcome. We appreciate the attention to detail, especially the improved server startup logic. It's those small frustrations that can really add up, so ironing them out is a win.\n\nOriginal Link: https://simonwillison.net/2026/Jul/12/shot-scraper/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-12/shot-scraper-1-11-release-improvements",
+            "title": "shot-scraper 1.11 Improves Command Consistency and Server Startup",
+            "summary": "`shot-scraper` version 1.11 introduces minor enhancements, including a new `--js-file` option and more robust server startup waiting for video and multi-shot commands.",
+            "image": "https://picsum.photos/id/296/800/450",
+            "date_modified": "2026-07-12T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
         },
         {
             "id": "https://digestweb.dev/articles/2026-07-11/pnpm-11-12-custom-fetchers-peer-dependency-fixes",

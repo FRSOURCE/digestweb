@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Mon, 13 Jul 2026 04:37:18 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 13 Jul 2026 10:25:32 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -36,6 +36,27 @@ Another Fable bump. This back-and-forth with Anthropic's access policies is star
 Original Link: https://simonwillison.net/2026/Jul/12/bump/#atom-everything]]></content:encoded>
             <author>Simon Willison</author>
             <enclosure url="https://picsum.photos/id/120/800/450" length="0" type="image//id/120/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Directly Responsible Individuals: Why AI Agents Can't Be Accountable]]></title>
+            <link>https://digestweb.dev/articles/2026-07-12/directly-responsible-individuals-ai-agents-accountability</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-12/directly-responsible-individuals-ai-agents-accountability</guid>
+            <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison explores the concept of Directly Responsible Individuals (DRI) and argues why AI agents, unlike humans, cannot fulfill this role due to their inability to take accountability.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The concept of Directly Responsible Individuals (DRI) originated at Apple, defining the person ultimately accountable for a project's success or failure.
+- Simon Willison applies the DRI concept to LLM-powered agents within human organizations.
+- He argues that AI agents should never be considered DRIs because accountability is a uniquely human trait.
+- An IBM slide from 1979 is cited: "A computer can never be held accountable, therefore a computer must never make a management decision."
+
+## Our Commentary
+
+This is a crucial discussion. We've been wrestling with the implications of AI agents taking on more complex tasks. The idea that accountability remains firmly human is a grounding thought. It makes me wonder about the legal frameworks that will inevitably need to catch up. There's something unsettling about agents churning away at 3am while nobody's watching, and this piece helps articulate why.
+
+Original Link: https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/928/800/450" length="0" type="image//id/928/800/450"/>
         </item>
         <item>
             <title><![CDATA[The EP-1320 Medieval: A Programmer's Musical Analogy]]></title>
@@ -100,6 +121,27 @@ Alpha releases are always interesting to peek into. We're seeing a lot of focus 
 
 Original Link: https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.9]]></content:encoded>
             <enclosure url="https://opengraph.githubassets.com/c71b2d87563087852191de726eda3f815522bbc9b4558ae11b1ca3a24aa72393/pnpm/pnpm/releases/tag/v12.0.0-alpha.9" length="0" type="image/9"/>
+        </item>
+        <item>
+            <title><![CDATA[shot-scraper 1.11 Improves Command Consistency and Server Startup]]></title>
+            <link>https://digestweb.dev/articles/2026-07-12/shot-scraper-1-11-release-improvements</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-12/shot-scraper-1-11-release-improvements</guid>
+            <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[`shot-scraper` version 1.11 introduces minor enhancements, including a new `--js-file` option and more robust server startup waiting for video and multi-shot commands.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- `shot-scraper` 1.11 brings minor improvements to the command-line tool.
+- The `server:` mechanism for `shot-scraper video` and `shot-scraper multi` now waits up to 30 seconds for the target URL.
+- A new `--js-file` option is available for loading JavaScript from a file, stdin, or a GitHub script.
+- The `javascript` and `html` commands now include a `--timeout` option for consistency.
+
+## Our Commentary
+
+`shot-scraper` is a neat utility, and these quality-of-life updates are always welcome. We appreciate the attention to detail, especially the improved server startup logic. It's those small frustrations that can really add up, so ironing them out is a win.
+
+Original Link: https://simonwillison.net/2026/Jul/12/shot-scraper/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/296/800/450" length="0" type="image//id/296/800/450"/>
         </item>
         <item>
             <title><![CDATA[pnpm 11.12: Custom Fetchers & Peer Dependency Fixes]]></title>
