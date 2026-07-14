@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-07-13T22:33:51.212Z</updated>
+    <updated>2026-07-14T09:05:02.524Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,30 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Cache-Friendly `uvx` in GitHub Actions: A Practical Guide]]></title>
+        <id>https://digestweb.dev/articles/2026-07-14/cache-friendly-uvx-github-actions</id>
+        <link href="https://digestweb.dev/articles/2026-07-14/cache-friendly-uvx-github-actions"/>
+        <link rel="enclosure" href="https://picsum.photos/id/628/800/450" type="image//id/628/800/450"/>
+        <updated>2026-07-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn a clever trick to optimize `uvx` usage in GitHub Actions by leveraging `UV_EXCLUDE_NEWER` for efficient caching. This method prevents repeated PyPI downloads, speeding up your CI/CD.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- `uvx` can be made cache-friendly in GitHub Actions by setting `UV_EXCLUDE_NEWER`.
+- This environment variable pins tool versions to a specific date, improving cache hit rates.
+- The date can be included in the GitHub Actions cache key to bust the cache when needed.
+- The primary goal is to avoid re-downloading Python tools and their dependencies from PyPI on every workflow run.
+- An existing issue requests `setup-uv` to default to caching rather than purging wheels.
+
+## Our Commentary
+
+I've seen so many CI pipelines struggle with dependency resolution and caching. This `UV_EXCLUDE_NEWER` trick for `uvx` is genuinely smart. It's a simple, effective pattern that I think could be adapted for other package managers too. We're always looking for ways to shave seconds off builds, and this is a solid win for developer experience.
+
+Original Link: https://simonwillison.net/2026/Jul/14/uvx-github-actions-cache/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Anthropic Research: Claude's Values Across Models & Languages]]></title>
         <id>https://digestweb.dev/articles/2026-07-13/anthropic-claude-values-models-languages-research</id>
@@ -54,6 +78,31 @@ Original Link: https://www.anthropic.com/research/claude-values-models-languages
 Okay, this is a neat trick! `sibling-index()` is one of those CSS features that feels like a superpower when you find the right use case. Mimicking View Transitions without the actual API is a clever workaround for broader browser support. I love seeing these creative approaches to push what CSS can do. It's a good reminder that sometimes the simplest ideas yield the most elegant solutions.
 
 Original Link: https://master.dev/blog/in-n-out-animation-using-sibling-index/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DOOMQL: Running a Ray-Traced Game Engine Entirely in SQLite]]></title>
+        <id>https://digestweb.dev/articles/2026-07-13/doomql-sqlite-game-engine-ai</id>
+        <link href="https://digestweb.dev/articles/2026-07-13/doomql-sqlite-game-engine-ai"/>
+        <link rel="enclosure" href="https://static.simonwillison.net/static/2026/doomql-datasette-app.png" type="image/png"/>
+        <updated>2026-07-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Explore DOOMQL, a unique project where SQLite powers a Doom-like terminal game, handling everything from movement to pixel rendering with SQL queries. Built with AI, it redefines database capabilities.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- DOOMQL is a Doom-like terminal game where SQLite functions as the entire game engine.
+- SQL queries manage game logic, including movement, collision detection, enemies, and combat.
+- A massive recursive CTE in SQL implements a full ray tracer for rendering pixels.
+- The project was built with assistance from GPT-5.6 Sol, highlighting AI's role in novel development.
+- It integrates with Datasette Apps to display a live minimap and screen state via a web interface.
+- The project challenges conventional notions of database usage beyond data storage.
+
+## Our Commentary
+
+This is just wild. I mean, SQLite as a game engine? And a ray tracer in SQL? My brain genuinely struggles to parse how someone even starts thinking this way. The AI assistance is interesting, but the core idea is pure human ingenuity. It's a fantastic showcase of pushing boundaries, and it makes me wonder what other 'unreasonable questions' we should be asking about our tools.
+
+Original Link: https://simonwillison.net/2026/Jul/13/doomql/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[makemepulse: Crafting Interactive Worlds Across Web & XR]]></title>

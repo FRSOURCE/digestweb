@@ -11,6 +11,18 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-07-14/cache-friendly-uvx-github-actions",
+            "content_html": "## Summary & Key Takeaways\n\n- `uvx` can be made cache-friendly in GitHub Actions by setting `UV_EXCLUDE_NEWER`.\n- This environment variable pins tool versions to a specific date, improving cache hit rates.\n- The date can be included in the GitHub Actions cache key to bust the cache when needed.\n- The primary goal is to avoid re-downloading Python tools and their dependencies from PyPI on every workflow run.\n- An existing issue requests `setup-uv` to default to caching rather than purging wheels.\n\n## Our Commentary\n\nI've seen so many CI pipelines struggle with dependency resolution and caching. This `UV_EXCLUDE_NEWER` trick for `uvx` is genuinely smart. It's a simple, effective pattern that I think could be adapted for other package managers too. We're always looking for ways to shave seconds off builds, and this is a solid win for developer experience.\n\nOriginal Link: https://simonwillison.net/2026/Jul/14/uvx-github-actions-cache/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-14/cache-friendly-uvx-github-actions",
+            "title": "Cache-Friendly `uvx` in GitHub Actions: A Practical Guide",
+            "summary": "Learn a clever trick to optimize `uvx` usage in GitHub Actions by leveraging `UV_EXCLUDE_NEWER` for efficient caching. This method prevents repeated PyPI downloads, speeding up your CI/CD.",
+            "image": "https://picsum.photos/id/628/800/450",
+            "date_modified": "2026-07-14T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-07-13/anthropic-claude-values-models-languages-research",
             "content_html": "## Summary & Key Takeaways\n\n- Anthropic conducted research on Claude's values.\n- The study examines how these values are consistent across different AI models.\n- It also investigates value alignment across various human languages.\n- This research falls under the category of societal impacts of AI.\n\n## Our Commentary\n\nThis is the kind of AI research we need more of. Understanding how \"values\" translate across models and languages is incredibly complex. It's not just about performance, it's about alignment and safety. I'm curious about the methodologies here. How do you even measure \"values\" in an LLM? It feels like we're still figuring out the right questions to ask.\n\nOriginal Link: https://www.anthropic.com/research/claude-values-models-languages",
             "url": "https://digestweb.dev/articles/2026-07-13/anthropic-claude-values-models-languages-research",
@@ -27,6 +39,18 @@
             "summary": "Learn a clever CSS technique to create \"In-N-Out\" animations by leveraging `sibling-index()` to mimic native View Transitions.",
             "image": "https://master.dev/blog/wp-json/social-image-generator/v1/image/10379",
             "date_modified": "2026-07-13T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-13/doomql-sqlite-game-engine-ai",
+            "content_html": "## Summary & Key Takeaways\n\n- DOOMQL is a Doom-like terminal game where SQLite functions as the entire game engine.\n- SQL queries manage game logic, including movement, collision detection, enemies, and combat.\n- A massive recursive CTE in SQL implements a full ray tracer for rendering pixels.\n- The project was built with assistance from GPT-5.6 Sol, highlighting AI's role in novel development.\n- It integrates with Datasette Apps to display a live minimap and screen state via a web interface.\n- The project challenges conventional notions of database usage beyond data storage.\n\n## Our Commentary\n\nThis is just wild. I mean, SQLite as a game engine? And a ray tracer in SQL? My brain genuinely struggles to parse how someone even starts thinking this way. The AI assistance is interesting, but the core idea is pure human ingenuity. It's a fantastic showcase of pushing boundaries, and it makes me wonder what other 'unreasonable questions' we should be asking about our tools.\n\nOriginal Link: https://simonwillison.net/2026/Jul/13/doomql/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-13/doomql-sqlite-game-engine-ai",
+            "title": "DOOMQL: Running a Ray-Traced Game Engine Entirely in SQLite",
+            "summary": "Explore DOOMQL, a unique project where SQLite powers a Doom-like terminal game, handling everything from movement to pixel rendering with SQL queries. Built with AI, it redefines database capabilities.",
+            "image": "https://static.simonwillison.net/static/2026/doomql-datasette-app.png",
+            "date_modified": "2026-07-13T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
         },
         {
             "id": "https://digestweb.dev/articles/2026-07-13/makemepulse-interactive-web-xr-experiences",
