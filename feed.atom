@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-07-15T03:58:39.537Z</updated>
+    <updated>2026-07-15T09:09:43.018Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,53 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Rethinking CSS: Addressing Historical Design Mistakes]]></title>
+        <id>https://digestweb.dev/articles/2026-07-15/rethinking-css-historical-design-mistakes</id>
+        <link href="https://digestweb.dev/articles/2026-07-15/rethinking-css-historical-design-mistakes"/>
+        <link rel="enclosure" href="https://master.dev/blog/wp-json/social-image-generator/v1/image/10410" type="image//blog/wp-json/social-image-generator/v1/image/10410"/>
+        <updated>2026-07-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[An article from Frontend Masters delves into the historical design flaws of CSS, such as the default `box-sizing` behavior, and explores efforts to address these foundational issues.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The CSS Working Group has documented historical design mistakes within CSS.
+- A prominent example is the default behavior of `box-sizing`, where `border-box` is often preferred.
+- Many developers include `box-sizing: border-box;` in their starter stylesheets due to this.
+- Declan Chidlow is exploring steps to address these long-standing issues.
+- The article likely discusses potential solutions or improvements to CSS fundamentals.
+
+## Our Commentary
+
+Oh, `box-sizing: border-box;` – the eternal starter stylesheet line. It's a classic example of a design choice that, in hindsight, probably wasn't the best default. I'm always interested in discussions that dig into the foundational aspects of CSS. It's easy to just accept things as they are, but questioning these historical decisions can lead to real improvements in developer experience. I'm curious to see what "steps" Declan Chidlow is taking.
+
+Original Link: https://master.dev/blog/fixcss/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Creating Custom AI-Generated Desktop Pets with OpenAI's Codex]]></title>
+        <id>https://digestweb.dev/articles/2026-07-14/ai-generated-desktop-pets-openai-codex-pedalican</id>
+        <link href="https://digestweb.dev/articles/2026-07-14/ai-generated-desktop-pets-openai-codex-pedalican"/>
+        <link rel="enclosure" href="https://static.simonwillison.net/static/2026/pedalican-card.jpg" type="image/jpg"/>
+        <updated>2026-07-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison details how he used GPT-5.6 Sol xhigh and gpt-image-2 to create "Pedalican," a custom animated desktop pet, highlighting the underlying open-source skills.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison created a custom animated desktop pet named "Pedalican" using OpenAI's Codex Desktop.
+- GPT-5.6 Sol xhigh generated the pet's concept and orchestrated the asset creation.
+- GPT-image-2 was used to generate the necessary sprite assets for animation.
+- The process involved multiple rounds of image generation and prompt refinement.
+- Key implementation details, including `hatch-pet` and `imagegen` skills, are open source.
+- The article includes all generated images, sprite sheets, and animation GIFs.
+- This demonstrates AI's capability in generating game-ready assets from text prompts.
+
+## Our Commentary
+
+This is just delightful. I love seeing AI used for genuinely fun, creative projects like this, rather than just optimizing ad spend. The detailed breakdown of the prompt engineering and image generation steps is super valuable. It makes me wonder what other small, quirky tools we could build with these capabilities. The open-source aspect is a huge win, too.
+
+Original Link: https://simonwillison.net/2026/Jul/14/pedalican/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Armin Ronacher on AI Agents, Friction, & Shared Understanding in Software]]></title>
         <id>https://digestweb.dev/articles/2026-07-14/armin-ronacher-ai-agents-friction-shared-understanding</id>
@@ -83,6 +130,29 @@ Original Link: https://simonwillison.net/2026/Jul/14/uvx-github-actions-cache/#a
 It's good to see Simon Willison prioritizing stability and plugin compatibility even in alpha releases. Reverting a breaking change, even a cosmetic one, shows a real commitment to the ecosystem. We appreciate that kind of careful stewardship.
 
 Original Link: https://simonwillison.net/2026/Jul/14/datasette/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dependabot Introduces 3-Day Cooldown for Version Updates]]></title>
+        <id>https://digestweb.dev/articles/2026-07-14/dependabot-3-day-cooldown-version-updates</id>
+        <link href="https://digestweb.dev/articles/2026-07-14/dependabot-3-day-cooldown-version-updates"/>
+        <link rel="enclosure" href="https://picsum.photos/id/338/800/450" type="image//id/338/800/450"/>
+        <updated>2026-07-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[GitHub's Dependabot now defaults to a three-day cooldown period before opening version update pull requests, improving stability and reducing noise.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Dependabot now waits three days after a new release before creating a version update pull request.
+- This cooldown period is now enabled by default for all repositories.
+- The feature aims to prevent premature updates to unstable or broken new releases.
+- It requires no additional configuration from developers.
+
+## Our Commentary
+
+This is a small but genuinely smart move. How many times have we seen Dependabot PRs for a broken new version, only to have to revert or wait for a patch? This simple cooldown should save a lot of headaches. I'm surprised it wasn't a default sooner.
+
+Original Link: https://simonwillison.net/2026/Jul/14/github-changeling/#atom-everything]]></content>
         <author>
             <name>Simon Willison</name>
         </author>
