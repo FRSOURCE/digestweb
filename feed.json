@@ -11,6 +11,18 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-07-14/armin-ronacher-ai-agents-friction-shared-understanding",
+            "content_html": "## Summary & Key Takeaways\n\n- Armin Ronacher defines a project's 'shared language' as the common understanding of its concepts and structure.\n- This language lives in code, documentation, reviews, conversations, and the act of explaining changes.\n- Historically, 'friction' in development, like asking questions or coordinating, helped synchronize understanding.\n- While some friction is wasteful, a crucial part of it facilitates human learning and agreement.\n- Ronacher raises concerns that AI agents, by reducing this friction, might erode shared human understanding.\n- The piece prompts reflection on how AI will alter the social dynamics of software development.\n\n## Our Commentary\n\nThis quote from Armin Ronacher hit me hard. We're all chasing efficiency, trying to eliminate \"friction\" from our workflows. But what if some of that friction is actually the glue that holds our teams and our understanding together? I genuinely don't know how to feel about agents churning away at 3am while nobody's watching, potentially bypassing the very human processes that build collective knowledge. It's a thought that keeps me up.\n\nOriginal Link: https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-14/armin-ronacher-ai-agents-friction-shared-understanding",
+            "title": "Armin Ronacher on AI Agents, Friction, & Shared Understanding in Software",
+            "summary": "Armin Ronacher's insights, shared by Simon Willison, delve into the unwritten \"shared language\" of software projects and how the friction of human interaction is essential for maintaining it. He questions the impact of AI agents on this crucial synchronization process.",
+            "image": "https://picsum.photos/id/377/800/450",
+            "date_modified": "2026-07-14T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-07-14/cache-friendly-uvx-github-actions",
             "content_html": "## Summary & Key Takeaways\n\n- `uvx` can be made cache-friendly in GitHub Actions by setting `UV_EXCLUDE_NEWER`.\n- This environment variable pins tool versions to a specific date, improving cache hit rates.\n- The date can be included in the GitHub Actions cache key to bust the cache when needed.\n- The primary goal is to avoid re-downloading Python tools and their dependencies from PyPI on every workflow run.\n- An existing issue requests `setup-uv` to default to caching rather than purging wheels.\n\n## Our Commentary\n\nI've seen so many CI pipelines struggle with dependency resolution and caching. This `UV_EXCLUDE_NEWER` trick for `uvx` is genuinely smart. It's a simple, effective pattern that I think could be adapted for other package managers too. We're always looking for ways to shave seconds off builds, and this is a solid win for developer experience.\n\nOriginal Link: https://simonwillison.net/2026/Jul/14/uvx-github-actions-cache/#atom-everything",
             "url": "https://digestweb.dev/articles/2026-07-14/cache-friendly-uvx-github-actions",
@@ -21,6 +33,39 @@
             "author": {
                 "name": "Simon Willison"
             }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-14/datasette-1-0a37-permissions-plugin-fixes",
+            "content_html": "## Summary & Key Takeaways\n\n- Datasette 1.0a37 is a minor alpha release.\n- It includes performance optimizations for the permissions system.\n- Documentation for permissions has also been improved.\n- A cosmetic API change was reverted to avoid breaking plugin test suites.\n- This release focuses on stability and compatibility for the upcoming 1.0 version.\n\n## Our Commentary\n\nIt's good to see Simon Willison prioritizing stability and plugin compatibility even in alpha releases. Reverting a breaking change, even a cosmetic one, shows a real commitment to the ecosystem. We appreciate that kind of careful stewardship.\n\nOriginal Link: https://simonwillison.net/2026/Jul/14/datasette/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-14/datasette-1-0a37-permissions-plugin-fixes",
+            "title": "Datasette 1.0a37 Released with Permissions & Plugin Fixes",
+            "summary": "Datasette's latest alpha release, 1.0a37, brings performance and documentation enhancements to its permissions system. It also reverts a cosmetic API change to prevent breaking existing plugin test suites.",
+            "image": "https://picsum.photos/id/376/800/450",
+            "date_modified": "2026-07-14T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-14/lobsters-migrates-to-sqlite-performance-cost-gains",
+            "content_html": "## Summary & Key Takeaways\n\n- Lobsters, a popular community site, completed its migration from MariaDB to SQLite.\n- The migration resulted in significant reductions in CPU and memory usage.\n- The site is reportedly snappier, and VPS costs are expected to be halved.\n- The primary content database is 3.8GB, with additional databases for cache, queue, and abuse prevention.\n- This migration serves as a compelling case study for SQLite's production viability.\n- It reinforces the idea that a single server with SQLite can handle substantial workloads in 2026.\n\n## Our Commentary\n\nI love seeing these kinds of real-world migrations. It's easy to get caught up in the hype of distributed systems and complex database setups. But then something like this comes along and reminds us that sometimes, the simplest solution is the best. We often forget how powerful a single, well-optimized server can be. The cost savings alone are enough to make me rethink some of our own architectural choices. This is a win for pragmatism.\n\nOriginal Link: https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-14/lobsters-migrates-to-sqlite-performance-cost-gains",
+            "title": "Lobste.rs Migrates to SQLite, Sees Major Performance & Cost Gains",
+            "summary": "The community site Lobsters has successfully migrated its backend from MariaDB to SQLite, reporting reduced CPU/memory usage and halved VPS costs. This case study highlights SQLite's surprising capabilities for production web applications.",
+            "image": "https://picsum.photos/id/611/800/450",
+            "date_modified": "2026-07-14T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-14/npm-12-typescript-7-bun-rust-rewrite-javascript-ecosystem",
+            "content_html": "## Summary & Key Takeaways\n\n- npm v12 has been released, notably disabling lifecycle scripts by default and introducing breaking changes.\n- TypeScript 7.0 is now generally available, featuring a Go-powered compiler that claims to be 10x faster.\n- Bun's creator detailed the extensive rewrite of the JavaScript runtime from Zig to Rust, with AI assistance.\n- The Rust rewrite forms the foundation for the upcoming Bun 1.4 release.\n- TC39's next meeting agenda includes Await Dictionary aiming for Stage 3.\n- Next.js has launched a formal security release program with monthly updates.\n- A supply chain attack on the jscrambler npm package was detected quickly by Socket.\n\n## Our Commentary\n\nWow, this is a packed week! npm 12 turning off install scripts by default is a huge security win, but I'm bracing for the inevitable \"why isn't my package working?\" issues. TypeScript 7.0 being 10x faster? That's a game-changer for large codebases. And Bun's Rust rewrite, with Claude's help, is just wild. It feels like the JavaScript ecosystem is in a constant state of exhilarating, slightly terrifying, evolution. We're all just trying to keep up.\n\nOriginal Link: https://javascriptweekly.com/issues/794",
+            "url": "https://digestweb.dev/articles/2026-07-14/npm-12-typescript-7-bun-rust-rewrite-javascript-ecosystem",
+            "title": "npm 12, TypeScript 7.0, & Bun's Rust Rewrite Shake Up JavaScript Ecosystem",
+            "summary": "Major updates hit the JavaScript world: npm 12 ships with lifecycle scripts off by default, TypeScript 7.0 promises 10x faster compilation, and Bun' reveals its complete rewrite in Rust, signaling significant shifts for developers.",
+            "image": "https://picsum.photos/id/636/800/450",
+            "date_modified": "2026-07-14T00:00:00.000Z"
         },
         {
             "id": "https://digestweb.dev/articles/2026-07-13/anthropic-claude-values-models-languages-research",
