@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-07-15T09:09:43.018Z</updated>
+    <updated>2026-07-16T04:08:59.397Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,209 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[CodePen Still Uses WordPress for Blog, Podcast & Docs]]></title>
+        <id>https://digestweb.dev/articles/2026-07-15/codepen-still-uses-wordpress-blog-podcast-docs</id>
+        <link href="https://digestweb.dev/articles/2026-07-15/codepen-still-uses-wordpress-blog-podcast-docs"/>
+        <link rel="enclosure" href="https://s0.wp.com/i/blank.jpg" type="image/jpg"/>
+        <updated>2026-07-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CodePen shares why they continue to happily use WordPress for their blog, podcast, and documentation, detailing their hosting setup and deployment process separate from their main monorepo.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- CodePen continues to utilize WordPress for its blog, podcast, and documentation.
+- Their WordPress instance is hosted on a subdomain with a dedicated plan.
+- It operates with its own distinct deployment process.
+- The setup is separate from their main monorepo.
+
+## Our Commentary
+
+In an era where everyone seems to be chasing the latest headless CMS or static site generator, it's almost refreshing to hear a company like CodePen openly embrace WordPress. It just goes to show that sometimes the "boring" tech is the right tech for the job.
+
+Original Link: https://blog.codepen.io/2026/07/15/434-still-proudly-on-wordpress-for-our-blog-podcast-and-documentation/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Critical Flaw: Claude's `web_fetch` Leaks User Data via Nested Links]]></title>
+        <id>https://digestweb.dev/articles/2026-07-15/critical-flaw-claude-web-fetch-leaks-user-data</id>
+        <link href="https://digestweb.dev/articles/2026-07-15/critical-flaw-claude-web-fetch-leaks-user-data"/>
+        <link rel="enclosure" href="https://picsum.photos/id/877/800/450" type="image//id/877/800/450"/>
+        <updated>2026-07-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A security researcher uncovered a critical vulnerability in Claude's `web_fetch` tool, allowing data exfiltration through a clever sequence of nested generated links, bypassing Anthropic's intended protections.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- A vulnerability was found in Claude's `web_fetch` tool.
+- The flaw allowed data exfiltration despite Anthropic's security measures.
+- Attackers could create honeypot sites with nested generated links.
+- Claude's agent was tricked into following these links to exfiltrate user data.
+- The attack successfully extracted user names, locations, and employers.
+- Anthropic claimed prior internal discovery, not issuing a bug bounty.
+
+## Our Commentary
+
+This is a chilling reminder of how fragile LLM security can be. Anthropic's `web_fetch` design was clever, but the "nested generated links" loophole is a brilliant, terrifying exploit. It makes me genuinely wonder how many other subtle vectors exist for data exfiltration. We're building these incredibly powerful, yet incredibly naive, agents. The fact that Anthropic didn't pay a bounty because they "already knew" feels a bit... convenient.
+
+Original Link: https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deno 2.9.3 Released: New CLI Features & HTTP Client Options]]></title>
+        <id>https://digestweb.dev/articles/2026-07-15/deno-2-9-3-released-new-cli-features-http-client-options</id>
+        <link href="https://digestweb.dev/articles/2026-07-15/deno-2-9-3-released-new-cli-features-http-client-options"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/f96e6b24915a8c248c3c121b86d61cdf21230de45bd413217753b2679796c70a/denoland/deno/releases/tag/v2.9.3" type="image/3"/>
+        <updated>2026-07-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Deno's latest minor release, 2.9.3, brings new CLI flags like `--no-save` and `--min-dep-age`, adds AArch64 Windows compile support, and enhances HTTP client configuration. It also includes a wide array of bug fixes.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Introduces `deno add --no-save` and `--save-optional` CLI flags.
+- Adds `--min-dep-age` alias for managing dependency versions.
+- Supports AArch64-pc-windows-msvc as a new compile target.
+- Allows `http2MaxHeaderListSize` configuration for `Deno.createHttpClient`.
+- Includes numerous bug fixes across core, extensions, and Node.js compatibility.
+
+## Our Commentary
+
+Deno keeps chugging along with consistent updates. The `--no-save` and `--save-optional` flags are nice quality-of-life additions for CLI users. It's good to see continued focus on Windows support and HTTP client configurability. The sheer volume of fixes in this minor release is impressive, showing active development.
+
+Original Link: https://github.com/denoland/deno/releases/tag/v2.9.3]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Do People Really Want More AI? A Critical UX Perspective]]></title>
+        <id>https://digestweb.dev/articles/2026-07-15/do-people-really-want-more-ai-critical-ux-perspective</id>
+        <link href="https://digestweb.dev/articles/2026-07-15/do-people-really-want-more-ai-critical-ux-perspective"/>
+        <link rel="enclosure" href="https://files.smashing.media/articles/people-dont-want-more-ai/people-dont-want-more-ai.jpg" type="image/jpg"/>
+        <updated>2026-07-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article challenges the widespread assumption that users crave more AI features, arguing that most people don't want AI in the way many leaders envision it, prompting a re-evaluation of AI integration in products.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Challenges the common belief that users desire more AI features.
+- Argues that current AI integration often misses user needs.
+- Suggests a disconnect between industry vision and user preference.
+- Implies a need for more thoughtful and user-centric AI design.
+
+## Our Commentary
+
+This is a much-needed dose of reality. We in tech often get caught up in the hype, assuming every new capability is a desired feature. But the truth is, users care about solving problems, not about the underlying tech. I've been feeling this for a while; sometimes, AI just adds complexity or creepiness. It's a good reminder to focus on genuine user value.
+
+Original Link: https://smashingmagazine.com/2026/07/people-dont-want-more-ai/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub for Beginners: Mastering the Essentials]]></title>
+        <id>https://digestweb.dev/articles/2026-07-15/github-for-beginners-mastering-essentials</id>
+        <link href="https://digestweb.dev/articles/2026-07-15/github-for-beginners-mastering-essentials"/>
+        <link rel="enclosure" href="https://github.blog/wp-content/uploads/2024/05/GitHub-for-beginners.png" type="image/png"/>
+        <updated>2026-07-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This guide covers version control, repositories, and pull requests, helping new users confidently navigate GitHub. It's a solid starting point for anyone new to the platform.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Introduces fundamental GitHub concepts like version control.
+- Explains how to work with repositories and pull requests.
+- Aims to build confidence for new users on the platform.
+
+## Our Commentary
+
+We see a lot of "beginner" content, but GitHub itself publishing a roadmap is a nice touch. It's a good resource for onboarding new developers, and honestly, sometimes we all need a refresher on the basics.
+
+Original Link: https://github.blog/developer-skills/github/github-for-beginners-your-roadmap-to-mastering-the-github-essentials/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lessons from Building Shippy: Insights into AI Agent Development]]></title>
+        <id>https://digestweb.dev/articles/2026-07-15/lessons-from-building-shippy-ai-agent-development</id>
+        <link href="https://digestweb.dev/articles/2026-07-15/lessons-from-building-shippy-ai-agent-development"/>
+        <link rel="enclosure" href="https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/2Ncq9fY3Po30QjlACoYTY.png" type="image/png"/>
+        <updated>2026-07-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article shares practical insights and key takeaways from the experience of building Shippy, offering valuable lessons for anyone involved in developing AI agents.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Provides practical insights gained from developing the AI agent "Shippy."
+- Offers lessons applicable to the broader field of AI agent construction.
+- Likely covers challenges, successes, and architectural decisions.
+
+## Our Commentary
+
+Building agents is still a wild west, so any practical lessons from the trenches are gold. We're all trying to figure out the best patterns and pitfalls. I'm curious to see what specific challenges they encountered and how they navigated them.
+
+Original Link: https://huggingface.co/blog/allenai/shippy-tech-blog]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Model Routing: Simple in Theory, Complex in Practice]]></title>
+        <id>https://digestweb.dev/articles/2026-07-15/model-routing-simple-in-theory-complex-in-practice</id>
+        <link href="https://digestweb.dev/articles/2026-07-15/model-routing-simple-in-theory-complex-in-practice"/>
+        <link rel="enclosure" href="https://cdn-uploads.huggingface.co/production/uploads/642ee6f6ffd6084c6a620985/ibA2XHLJsqDH9VAL-3ou-.png" type="image/png"/>
+        <updated>2026-07-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article delves into the often-underestimated complexities of model routing in AI systems, highlighting why a seemingly simple task can quickly become challenging in real-world applications.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Examines the concept of model routing in AI.
+- Highlights the hidden complexities that arise in practical implementation.
+- Likely discusses challenges related to efficiency, cost, and performance.
+- Offers insights for developers deploying AI models.
+
+## Our Commentary
+
+"Simple until it isn't" is the story of so much in tech, and model routing for AI is definitely one of those areas. We've seen this with microservices, and now it's coming for AI. It's a crucial topic for anyone trying to optimize costs and performance in production AI systems.
+
+Original Link: https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI's GPT-Red: Self-Improving AI for Robustness & Safety]]></title>
+        <id>https://digestweb.dev/articles/2026-07-15/openai-gpt-red-self-improving-ai-robustness-safety</id>
+        <link href="https://digestweb.dev/articles/2026-07-15/openai-gpt-red-self-improving-ai-robustness-safety"/>
+        <link rel="enclosure" href="https://picsum.photos/id/572/800/450" type="image//id/572/800/450"/>
+        <updated>2026-07-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI unveils GPT-Red, an automated red teaming system that leverages self-play to significantly improve AI safety, alignment, and resistance to prompt injection attacks.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Introduces GPT-Red, an automated red teaming system by OpenAI.
+- Utilizes self-play to identify and mitigate AI vulnerabilities.
+- Aims to improve AI safety and alignment.
+- Specifically targets prompt injection robustness.
+
+## Our Commentary
+
+This is genuinely exciting. Prompt injection is a persistent headache, and an automated, self-improving red teaming system like GPT-Red could be a game-changer. It's a proactive step towards more robust AI, which we desperately need as these models become more integrated into critical systems.
+
+Original Link: https://openai.com/index/unlocking-self-improvement-gpt-red]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI on US AI Safety: A "Reverse Federalism" Approach]]></title>
+        <id>https://digestweb.dev/articles/2026-07-15/openai-us-ai-safety-reverse-federalism</id>
+        <link href="https://digestweb.dev/articles/2026-07-15/openai-us-ai-safety-reverse-federalism"/>
+        <link rel="enclosure" href="https://picsum.photos/id/324/800/450" type="image//id/324/800/450"/>
+        <updated>2026-07-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI proposes a "reverse federalism" model for AI governance in the US, suggesting state laws can contribute to a national framework for safe and democratic AI development.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI outlines a "reverse federalism" strategy for AI governance.
+- Suggests state-level laws can inform a broader national AI safety framework.
+- Aims to foster safe and democratic AI development.
+
+## Our Commentary
+
+"Reverse federalism" is an interesting concept for AI governance. It feels like a pragmatic approach to a complex problem, allowing for experimentation at the state level before national mandates. We're going to need all hands on deck to figure out how to regulate this stuff without stifling innovation.
+
+Original Link: https://openai.com/index/advancing-ai-safety-through-state-and-federal-action]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Real World VoiceEQ: Measuring Human Quality in Voice AI]]></title>
+        <id>https://digestweb.dev/articles/2026-07-15/real-world-voiceeq-measuring-human-quality-voice-ai</id>
+        <link href="https://digestweb.dev/articles/2026-07-15/real-world-voiceeq-measuring-human-quality-voice-ai"/>
+        <link rel="enclosure" href="https://huggingface.co/blog/assets/real-world-voiceeq/thumbnail.png" type="image/png"/>
+        <updated>2026-07-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article introduces VoiceEQ, a new framework designed to measure the human quality and naturalness of voice AI, providing a more nuanced evaluation beyond traditional metrics.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Introduces VoiceEQ, a new metric for evaluating voice AI.
+- Focuses on measuring the "human quality" of AI-generated voices.
+- Aims to provide a more comprehensive assessment than existing methods.
+- Likely discusses the methodology and implications for voice AI development.
+
+## Our Commentary
+
+Measuring the "human quality" of voice AI is a fascinating and critical challenge. It's not just about accuracy; it's about naturalness and emotional resonance. VoiceEQ sounds like a step in the right direction for pushing voice AI beyond mere functionality.
+
+Original Link: https://huggingface.co/blog/real-world-voiceeq]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Rethinking CSS: Addressing Historical Design Mistakes]]></title>
         <id>https://digestweb.dev/articles/2026-07-15/rethinking-css-historical-design-mistakes</id>
@@ -34,6 +237,28 @@
 Oh, `box-sizing: border-box;` – the eternal starter stylesheet line. It's a classic example of a design choice that, in hindsight, probably wasn't the best default. I'm always interested in discussions that dig into the foundational aspects of CSS. It's easy to just accept things as they are, but questioning these historical decisions can lead to real improvements in developer experience. I'm curious to see what "steps" Declan Chidlow is taking.
 
 Original Link: https://master.dev/blog/fixcss/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trionn's Architecture: Orchestrating GSAP, Three.js, Lenis & Web Audio]]></title>
+        <id>https://digestweb.dev/articles/2026-07-15/trionn-architecture-gsap-threejs-lenis-web-audio</id>
+        <link href="https://digestweb.dev/articles/2026-07-15/trionn-architecture-gsap-threejs-lenis-web-audio"/>
+        <link rel="enclosure" href="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/07/trionn.png?x69753" type="image/png"/>
+        <updated>2026-07-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article provides a behind-the-scenes look at how a performant web experience was built by unifying multiple animation, rendering, and interaction layers using GSAP, Three.js, Lenis, and Web Audio.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Explores the architectural decisions for a complex web experience.
+- Details the coordination of GSAP for animation.
+- Covers the integration of Three.js for 3D rendering.
+- Discusses the use of Lenis for smooth scrolling.
+- Explains how Web Audio was incorporated for interactive soundscapes.
+- Focuses on achieving a unified and performant user experience.
+
+## Our Commentary
+
+This is the kind of deep dive we love to see. Getting these libraries to play nice together, especially for a performant experience, is no small feat. I'm always fascinated by how developers orchestrate such intricate interactions. It's a masterclass in web engineering.
+
+Original Link: https://tympanus.net/codrops/2026/07/15/the-architecture-behind-trionn-coordinating-gsap-three-js-lenis-and-web-audio/]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Creating Custom AI-Generated Desktop Pets with OpenAI's Codex]]></title>
