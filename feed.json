@@ -11,6 +11,18 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-07-17/ai-water-use-golf-courses-parks",
+            "content_html": "## Summary & Key Takeaways\n\n• Hyperscalers face increasing pressure over data center water usage.\n• Google alone used 10.9 billion gallons in 2025, averaging 30 million gallons daily.\n• The Coachella Valley's 120 golf courses consume approximately 750,000 gallons per day each.\n• A proposal suggests hyperscalers buy and convert golf courses into public parks.\n• This could offset significant water consumption and promote sustainable hobbies like birdwatching.\n\n## Our Commentary\n\nThis is such a Simon Willison take, and I love it. We've been talking about AI's energy consumption, but the water usage often gets overlooked. The idea of converting golf courses is brilliantly provocative. It makes me wonder if there's a serious kernel of truth in this whimsical suggestion. It's a stark reminder of the real-world resources these digital behemoths consume.\n\nOriginal Link: https://simonwillison.net/2026/Jul/17/spot-birds-not-golf/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-17/ai-water-use-golf-courses-parks",
+            "title": "AI Water Use: Convert Golf Courses to Parks?",
+            "summary": "Simon Willison proposes a creative, if satirical, solution for hyperscalers to reduce their massive water consumption by converting golf courses into public parks. This idea links AI's environmental impact to sustainable land use.",
+            "image": "https://picsum.photos/id/811/800/450",
+            "date_modified": "2026-07-17T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-07-16/anthropic-large-scale-code-migrations-claude-code",
             "content_html": "## Summary & Key Takeaways\n\n- Anthropic details its internal process for code migrations.\n- Explains the role of Claude Code AI in these large-scale efforts.\n- Showcases practical application of AI for developer operations.\n- Provides a real-world example of AI-assisted refactoring.\n\n## Our Commentary\n\nIt's always fascinating to see how AI companies eat their own dog food. Using Claude Code for large-scale migrations sounds like a dream, or a nightmare, depending on the day. I'm genuinely curious about the error rates and human oversight involved. This is where the rubber meets the road for AI in dev.\n\nOriginal Link: https://claude.com/blog/ai-code-migration",
             "url": "https://digestweb.dev/articles/2026-07-16/anthropic-large-scale-code-migrations-claude-code",
@@ -75,6 +87,18 @@
             "summary": "Conductor transforms into a portable plugin, enabling conversational Spec-Driven Development across Antigravity CLI and Claude, streamlining AI-assisted workflows.",
             "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/adk-gemini-cli-agent-building.2e16d0ba.fill-1200x600.png",
             "date_modified": "2026-07-16T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-16/firefox-in-webassembly-browser-inside-browser",
+            "content_html": "## Summary & Key Takeaways\n\n• Puter successfully compiled Firefox/Gecko to WebAssembly.\n• This allows a full browser to run within another browser environment.\n• Firefox/Gecko was chosen due to its strong single-process support.\n• The project utilized AI, specifically Claude Opus and Fable, for development.\n• All traffic is funneled over a WebSocket protocol (Wisp) through Puter's server.\n• This proxying is necessary as browsers cannot open arbitrary network connections.\n• The implementation supports end-to-end encryption for HTTPS traffic.\n• A similar project, WebkitWasm, also compiles WebKit to WASM.\n\n## Our Commentary\n\nThis is absolutely wild. We've seen WASM push boundaries, but a full browser running _inside_ another browser? My mind is genuinely blown. The implications for sandboxing, cloud streaming, and even development environments are immense. I'm also fascinated by the use of Claude Opus and Fable for this; it feels like a glimpse into the future of AI-assisted engineering. The engineering challenge of proxying all traffic via WebSockets must have been immense. This is a true \"what if\" moment for the web.\n\nOriginal Link: https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-16/firefox-in-webassembly-browser-inside-browser",
+            "title": "Firefox in WebAssembly: A Browser Running Inside Your Browser",
+            "summary": "Puter has successfully compiled Firefox to WebAssembly, enabling an entire browser to run within another browser. This incredible feat showcases the power of WASM and opens new possibilities for web applications.",
+            "image": "https://static.simonwillison.net/static/2026/firefox-wasm.webp",
+            "date_modified": "2026-07-16T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
         },
         {
             "id": "https://digestweb.dev/articles/2026-07-16/first-threejs-conference-meet-speakers",
@@ -149,6 +173,15 @@
             }
         },
         {
+            "id": "https://digestweb.dev/articles/2026-07-16/lumis-tree-sitter-syntax-highlighter",
+            "content_html": "## Summary & Key Takeaways\n\n• Lumis is a new syntax highlighter tool.\n• It is powered by Tree-sitter, known for its speed and accuracy.\n• The tool supports a wide variety of runtimes.\n• Its design encourages server-side usage for optimal performance.\n\n## Our Commentary\n\nWe're always on the lookout for better developer experience tools, and a new syntax highlighter powered by Tree-sitter definitely catches our eye. Tree-sitter is a fantastic piece of tech, so seeing it applied here gives Lumis a strong foundation. The emphasis on server-side use is smart; offloading that work can really improve client-side performance. I'm curious to see how it stacks up against existing solutions.\n\nOriginal Link: https://master.dev/blog/lumis-syntax-highlighter-powered-by-tree-sitter/",
+            "url": "https://digestweb.dev/articles/2026-07-16/lumis-tree-sitter-syntax-highlighter",
+            "title": "Lumis: A New Tree-sitter Powered Syntax Highlighter",
+            "summary": "Lumis emerges as a new syntax highlighter, harnessing the speed and power of Tree-sitter. Its extensive runtime support makes it ideal for server-side implementation, offering a robust solution for code presentation.",
+            "image": "https://master.dev/blog/wp-json/social-image-generator/v1/image/10442",
+            "date_modified": "2026-07-16T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-07-16/mastering-aria-expanded-use-cases-accessibility",
             "content_html": "## Summary & Key Takeaways\n\n- Explores the correct use cases for the `aria-expanded` attribute.\n- Addresses challenges in determining appropriate ARIA usage for collapsible elements.\n- Differentiates between collapsible sections and interactive elements.\n- Emphasizes the importance of context for assistive technologies.\n- Provides guidance on when `aria-expanded` is necessary or can be replaced.\n- Refers to the ARIA Authoring Practices Guide (APG) for further context.\n\n## Our Commentary\n\nAccessibility is not just a checkbox; it's a fundamental part of web development. This deep dive into `aria-expanded` is incredibly valuable because these attributes are so often misused. We appreciate the nuance and the emphasis on understanding context for assistive technologies. It's a reminder that good communication extends beyond human-to-human interaction.\n\nOriginal Link: https://piccalil.li/blog/use-cases-for-aria-expanded/?ref=articles-rss-feed",
             "url": "https://digestweb.dev/articles/2026-07-16/mastering-aria-expanded-use-cases-accessibility",
@@ -156,6 +189,18 @@
             "summary": "A comprehensive guide to understanding and correctly applying the `aria-expanded` attribute for accessible collapsible widgets, distinguishing between various patterns and their appropriate ARIA usage.",
             "image": "https://piccalil.b-cdn.net/api/og-image?slug=use-cases-for-aria-expanded/",
             "date_modified": "2026-07-16T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-16/mermaid-to-ascii-art-wasm-ai-tools",
+            "content_html": "## Summary & Key Takeaways\n\n• Simon Willison previously built a Mermaid to ASCII tool based on Rust code.\n• He discovered AlexanderGrooff/mermaid-ascii, a more fully-featured Go library.\n• Claude Fable 5 was used to compile the Go library to WebAssembly.\n• This allowed for a direct comparison of the two Mermaid to ASCII tools.\n• The Go-based tool compiled to WASM includes support for colors.\n\n## Our Commentary\n\nI appreciate seeing these smaller, practical applications of WebAssembly and AI. It's not always about the headline-grabbing, browser-in-browser stuff. Sometimes it's just about making a useful little tool. The fact that Claude Fable 5 was used to compile the Go library to WASM is a neat detail; it shows how AI is becoming a quiet assistant in everyday dev tasks. We're seeing more and more of this.\n\nOriginal Link: https://simonwillison.net/2026/Jul/16/mermaid-ascii/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-16/mermaid-to-ascii-art-wasm-ai-tools",
+            "title": "Mermaid to ASCII Art: Comparing WASM-Compiled Tools",
+            "summary": "Simon Willison explores two tools for converting Mermaid diagrams to ASCII art, including a Go library compiled to WebAssembly with AI assistance. This highlights practical applications of WASM and AI in tooling.",
+            "image": "https://picsum.photos/id/460/800/450",
+            "date_modified": "2026-07-16T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
         },
         {
             "id": "https://digestweb.dev/articles/2026-07-16/mira-murati-thinking-machines-inkling-open-weights-model",
