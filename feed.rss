@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Thu, 16 Jul 2026 04:08:59 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Jul 2026 04:00:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,454 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Anthropic Leverages Claude Code for Large-Scale Migrations]]></title>
+            <link>https://digestweb.dev/articles/2026-07-16/anthropic-large-scale-code-migrations-claude-code</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-16/anthropic-large-scale-code-migrations-claude-code</guid>
+            <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Anthropic shares insights into how they utilize their own Claude Code AI to manage and execute complex, large-scale code migrations internally.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Anthropic details its internal process for code migrations.
+- Explains the role of Claude Code AI in these large-scale efforts.
+- Showcases practical application of AI for developer operations.
+- Provides a real-world example of AI-assisted refactoring.
+
+## Our Commentary
+
+It's always fascinating to see how AI companies eat their own dog food. Using Claude Code for large-scale migrations sounds like a dream, or a nightmare, depending on the day. I'm genuinely curious about the error rates and human oversight involved. This is where the rubber meets the road for AI in dev.
+
+Original Link: https://claude.com/blog/ai-code-migration]]></content:encoded>
+            <enclosure url="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a5909b6d772e7da001ff28f_og_ai-code-migration.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Astro 7.1: Enhanced Control for CSP, Pagination, and Dev Server]]></title>
+            <link>https://digestweb.dev/articles/2026-07-16/astro-7-1-enhanced-control-csp-pagination-dev-server</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-16/astro-7-1-enhanced-control-csp-pagination-dev-server</guid>
+            <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Astro's latest update, 7.1, brings finer control over Content Security Policy, pagination, and the development server, alongside improvements to content collections.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Introduces enhanced control for Content Security Policy (CSP).
+- Improves pagination capabilities for content.
+- Offers more control over the development server.
+- Brings updates and refinements to content collections.
+
+## Our Commentary
+
+Astro keeps iterating, which is great to see. We appreciate the focus on developer experience and security with CSP controls. It's these incremental improvements that make a framework truly robust. I'm always a fan of more control over the dev server; it just makes life easier.
+
+Original Link: https://astro.build/blog/astro-710/]]></content:encoded>
+            <enclosure url="https://astro.build/_astro/og-astro-7.1._rR0wJqb.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Bun's Rapid Rust Rewrite with AI: Lessons from a $165K, 11-Day Migration]]></title>
+            <link>https://digestweb.dev/articles/2026-07-16/bun-rapid-rust-rewrite-ai-lessons</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-16/bun-rapid-rust-rewrite-ai-lessons</guid>
+            <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore the implications of Bun's swift migration from Zig to Rust, completed in just 11 days with AI assistance for $165K, and the lessons learned about accelerating complex engineering projects.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Examines Bun's rapid migration from Zig to Rust.
+- The rewrite was completed in an astonishing 11 days.
+- AI played a significant role in accelerating the process.
+- The project cost approximately $165,000.
+- Highlights the potential for AI to drastically shorten development timelines.
+- Emphasizes the necessity of thorough testing for such rapid changes.
+
+## Our Commentary
+
+Bun's 11-day Rust rewrite with AI assistance is absolutely mind-boggling. $165K might sound like a lot, but for shortening a multi-year project to mere days? That's an incredible ROI. It makes me wonder what other massive refactors are now on the table for teams. This is a powerful demonstration of AI's potential to transform engineering velocity, but I'm also thinking about the quality assurance needed to pull this off.
+
+Original Link: https://blog.pragmaticengineer.com/the-pulse-what-can-we-learn-from-buns-rapid-rust-rewrite-with-ai/]]></content:encoded>
+            <author>Gergely Orosz</author>
+            <enclosure url="https://picsum.photos/id/260/800/450" length="0" type="image//id/260/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Cars24 Scales Customer Interactions with OpenAI Agents]]></title>
+            <link>https://digestweb.dev/articles/2026-07-16/cars24-scales-conversations-openai-agents</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-16/cars24-scales-conversations-openai-agents</guid>
+            <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Cars24 details its success using OpenAI-powered voice and chat agents to manage over a million monthly conversation minutes and recover lost leads.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Cars24 leverages OpenAI for high-volume customer conversations.
+- Utilizes AI-powered voice and chat agents for support.
+- Reports recovering 12% of previously lost sales leads.
+- Integrates agentic workflows across various internal teams.
+
+## Our Commentary
+
+Another impressive case study from OpenAI. The numbers are certainly eye-catching – 1M+ conversation minutes and recovering 12% of lost leads is no small feat. It really shows the tangible business impact these agentic workflows can have. I wonder about the initial setup cost and ongoing maintenance for such a system.
+
+Original Link: https://openai.com/index/cars24]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/969/800/450" length="0" type="image//id/969/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Chartography: A New Benchmark for Professional Chart Understanding]]></title>
+            <link>https://digestweb.dev/articles/2026-07-16/chartography-benchmark-professional-chart-understanding</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-16/chartography-benchmark-professional-chart-understanding</guid>
+            <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Surge AI introduces Chartography, a benchmark designed to evaluate AI models' professional chart reasoning across complex visualizations like Kaplan-Meier curves and candlesticks.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Introduces "Chartography," a new benchmark for AI.
+- Focuses on professional chart understanding and reasoning.
+- Includes complex chart types like Kaplan-Meier curves and candlesticks.
+- Benchmarks are written and graded by domain experts.
+- Aims to evaluate multimodal AI models' visual comprehension.
+
+## Our Commentary
+
+This is a much-needed benchmark. AI's ability to understand complex charts, especially domain-specific ones, is a huge gap. We've all seen models struggle with simple graphs, let alone Kaplan-Meier curves. Having domain experts grade these is the right approach. It's about real-world utility, not just synthetic scores.
+
+Original Link: https://www.surgehq.ai/blog/chartography]]></content:encoded>
+            <enclosure url="https://cdn.prod.website-files.com/68dcd2ceb173c46fa029931c/6a5871c63562b54a758c3ecb_chartography-thumbnail.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Solo Dev Classifies 1M Snowflake Columns in 9 Days with Dagster]]></title>
+            <link>https://digestweb.dev/articles/2026-07-16/classify-million-snowflake-columns-dagster-solo</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-16/classify-million-snowflake-columns-dagster-solo</guid>
+            <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A developer details how they built a tiered AI classification system and human review workflow, orchestrating it with Dagster to classify a million Snowflake columns in just nine days.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- A solo developer classified one million Snowflake columns.
+- The project was completed in an impressive nine days.
+- Involved building a tiered AI classification system.
+- Included a human review workflow for accuracy.
+- Dagster was used for orchestrating the entire production system.
+- Highlights rapid development and AI-driven data governance.
+
+## Our Commentary
+
+Classifying a million Snowflake columns in nine days, solo? That's an insane pace. It really shows the power of combining AI with robust orchestration tools like Dagster. I'm always impressed by what a single, focused developer can achieve with the right tech. This is a great example of leveraging AI for serious data governance.
+
+Original Link: https://dagster.io/blog/classifying-a-million-snowflake-columns-in-9-days-solo-with-dagster]]></content:encoded>
+            <enclosure url="https://cdn.prod.website-files.com/681399f654933b29e12fb8e4/6a50f5da07d7217c96b8a8d4_FINAL_Snowflake%20Goverance.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Conductor Evolves: Conversational Spec-Driven Dev with Antigravity & Claude]]></title>
+            <link>https://digestweb.dev/articles/2026-07-16/conductor-conversational-spec-driven-development-ai</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-16/conductor-conversational-spec-driven-development-ai</guid>
+            <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Conductor transforms into a portable plugin, enabling conversational Spec-Driven Development across Antigravity CLI and Claude, streamlining AI-assisted workflows.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Conductor is now a portable plugin, moving beyond a Gemini CLI extension.
+- It introduces conversational Spec-Driven Development (SDD) to new ecosystems.
+- Developers can interact naturally with AI assistants for project specs.
+- The tool dynamically manages markdown artifacts like `spec.md` and `plan.md`.
+- Aims to reduce workflow friction and maintain a single source of truth.
+- Ensures version-controlled project architecture across AI tools.
+
+## Our Commentary
+
+This is genuinely exciting. Conversational Spec-Driven Development sounds like a huge leap for DX. The idea of an AI assistant dynamically managing documentation in the background, keeping it version-controlled? That's a game-changer. We're seeing AI move from code generation to workflow orchestration, and I'm here for it.
+
+Original Link: https://developers.googleblog.com/evolving-spec-driven-development-conductor-now-supports-antigravity/]]></content:encoded>
+            <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/adk-gemini-cli-agent-building.2e16d0ba.fill-1200x600.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[First Three.js Conference: Meet the Speakers and Their Visions]]></title>
+            <link>https://digestweb.dev/articles/2026-07-16/first-threejs-conference-meet-speakers</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-16/first-threejs-conference-meet-speakers</guid>
+            <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Get a sneak peek at what speakers for the inaugural Three.js Conference in Paris are building and exploring, offering insights into the future of 3D web.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Introduces a selection of speakers for the first Three.js Conference.
+- Provides insights into what speakers are currently building and exploring.
+- Highlights their excitement for the upcoming event in Paris.
+- Offers a preview of topics and innovations in the Three.js ecosystem.
+
+## Our Commentary
+
+A Three.js conference? That's pretty cool. It's always good to see specific communities gather and share. I'm curious what kind of wild 3D experiences people are cooking up these days. The web is getting wilder.
+
+Original Link: https://tympanus.net/codrops/2026/07/16/meet-the-speakers-of-the-first-three-js-conference/]]></content:encoded>
+            <enclosure url="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/07/speakers_threejs_conference.png?x45349" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Gemini Enterprise Agents Gain Grounding with Parallel Web Search]]></title>
+            <link>https://digestweb.dev/articles/2026-07-16/gemini-enterprise-agents-parallel-web-search-grounding</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-16/gemini-enterprise-agents-parallel-web-search-grounding</guid>
+            <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Google Cloud integrates Parallel Web Systems' search infrastructure into the Gemini Enterprise Agent Platform, enhancing AI agent factual accuracy with real-time web grounding.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Google Cloud partners with Parallel Web Systems.
+- Integrates Parallel's search infrastructure into Gemini Enterprise Agent Platform.
+- Enables AI agents to be grounded in verifiable, real-time web results.
+- Significantly improves factual accuracy for enterprise workflows.
+- Offers architectural flexibility for data extraction and caching.
+- Allows processing web data alongside other large language models.
+
+## Our Commentary
+
+Grounding AI agents in real-time web results is absolutely crucial for enterprise applications. We've seen too many hallucinations. This partnership with Parallel Web Systems sounds like a solid move to boost factual accuracy on the Gemini platform. It's all about trust, isn't it? And verifiable data builds trust.
+
+Original Link: https://developers.googleblog.com/expanding-choice-in-gemini-enterprise-agent-platform-introducing-grounding-with-parallel-web-search/]]></content:encoded>
+            <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_oh9jw0oh9j.2e16d0ba.fill-1200x600.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Google DeepMind & Isomorphic Labs Detail Bioresilience Approach]]></title>
+            <link>https://digestweb.dev/articles/2026-07-16/google-deepmind-isomorphic-bioresilience-ai</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-16/google-deepmind-isomorphic-bioresilience-ai</guid>
+            <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Google DeepMind and Isomorphic Labs jointly present their strategy and research into bioresilience in the context of advanced AI models.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Google DeepMind and Isomorphic Labs outline their joint strategy.
+- Focuses on the concept of bioresilience in AI development.
+- Shares their research approach to this critical area.
+- Aims to address potential risks associated with advanced AI models.
+
+## Our Commentary
+
+Bioresilience is one of those terms that sounds incredibly important but also a bit abstract. It's good to see DeepMind and Isomorphic Labs tackling these complex, long-term AI safety challenges. We need these conversations happening now, not when it's too late.
+
+Original Link: https://deepmind.google/blog/our-approach-to-bioresilience/]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/230/800/450" length="0" type="image//id/230/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[GPT-5.6 Codex Bug: AI Agents Accidentally Deleting User Files]]></title>
+            <link>https://digestweb.dev/articles/2026-07-16/gpt-5-6-codex-bug-ai-deleting-files</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-16/gpt-5-6-codex-bug-ai-deleting-files</guid>
+            <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Thibault Sottiaux reports a 'gnarly' bug in GPT-5.6 Codex where AI agents, when given full access without sandboxing, can accidentally delete users' home directories.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- GPT-5.6 Codex has been reported to unexpectedly delete user files.
+- This bug primarily occurs when full access mode is enabled without sandboxing.
+- The model attempts to override the `$HOME` environment variable.
+- It can mistakenly delete the `$HOME` directory instead of a temporary one.
+- Highlights critical safety and reliability concerns for coding agents.
+
+## Our Commentary
+
+Okay, this is genuinely unsettling. An AI agent accidentally deleting `$HOME`? That's a nightmare scenario for any developer. It underscores the absolute necessity of robust sandboxing and review processes when giving AI agents any kind of file system access. 'Honest mistake' doesn't quite cut it when your entire home directory vanishes. We need to be incredibly careful here.
+
+Original Link: https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/417/800/450" length="0" type="image//id/417/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Grok-Mermaid: Convert Mermaid Diagrams to Unicode Box Art via WASM]]></title>
+            <link>https://digestweb.dev/articles/2026-07-16/grok-mermaid-unicode-box-art-wasm</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-16/grok-mermaid-unicode-box-art-wasm</guid>
+            <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison explores a Rust-based Mermaid terminal renderer from the Grok CLI codebase, adapting it into a WebAssembly tool to convert Mermaid diagrams into Unicode box art.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Introduces "grok-mermaid," a tool for converting Mermaid diagrams.
+- Transforms Mermaid syntax into Unicode box art.
+- Inspired by a Rust-based terminal renderer found in Grok CLI.
+- Showcases the use of Rust and WebAssembly for browser tools.
+- Demonstrates practical application of AI-related codebase components.
+
+## Our Commentary
+
+This is a neat little tool! Taking a Rust component from Grok and porting it to WebAssembly for the browser is a fantastic demonstration of interoperability. I love seeing these kinds of creative, niche tools emerge. It's a small thing, but converting Mermaid to Unicode box art could be surprisingly useful for terminal-based documentation or quick previews.
+
+Original Link: https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://static.simonwillison.net/static/2026/grok-mermaid-card.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Hugging Face Discloses July 2026 Security Incident]]></title>
+            <link>https://digestweb.dev/articles/2026-07-16/hugging-face-security-incident-july-2026</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-16/hugging-face-security-incident-july-2026</guid>
+            <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hugging Face has released a disclosure regarding a security incident that occurred in July 2026, providing transparency to its user base.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Hugging Face has published details about a security incident.
+- The incident occurred in July 2026, prompting the disclosure.
+- The company aims to provide transparency to its community.
+- Users are encouraged to review the full disclosure for details.
+
+## Our Commentary
+
+Security incidents are never fun, but transparency is key. We appreciate Hugging Face being upfront about this. It's a stark reminder that even the most robust platforms can face challenges. I hope they provide clear steps for users to protect themselves.
+
+Original Link: https://huggingface.co/blog/security-incident-july-2026]]></content:encoded>
+            <enclosure url="https://huggingface.co/blog/assets/security-incident-july-2026/thumbnail.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Linus Torvalds: Linux is Not Anti-AI, It's a Useful Tool]]></title>
+            <link>https://digestweb.dev/articles/2026-07-16/linus-torvalds-linux-not-anti-ai-useful-tool</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-16/linus-torvalds-linux-not-anti-ai-useful-tool</guid>
+            <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Linus Torvalds issues a definitive statement, asserting that Linux embraces AI as a valuable tool and challenging those who disagree to 'fork it or walk away,' emphasizing AI's undeniable utility.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Linus Torvalds made a strong statement regarding AI in Linux.
+- He asserts that Linux is not an "anti-AI" project.
+- Views AI as a useful tool, comparable to other development tools.
+- Challenges dissenters to "fork it or just walk away."
+- Emphasizes that AI's utility is no longer debatable.
+- His stance is highly influential for the open-source community.
+
+## Our Commentary
+
+When Linus Torvalds puts his foot down, the open-source world listens. His declaration that 'Linux is not one of those anti-AI projects' is a massive endorsement. It's a clear signal that AI is here to stay, even in the most foundational software. I appreciate his bluntness; it cuts through a lot of the hand-wringing. 'Fork it or just walk away' – classic Linus.
+
+Original Link: https://simonwillison.net/2026/Jul/16/linus-torvalds/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/396/800/450" length="0" type="image//id/396/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Mastering `aria-expanded`: Use Cases for Accessible Collapsible Widgets]]></title>
+            <link>https://digestweb.dev/articles/2026-07-16/mastering-aria-expanded-use-cases-accessibility</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-16/mastering-aria-expanded-use-cases-accessibility</guid>
+            <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A comprehensive guide to understanding and correctly applying the `aria-expanded` attribute for accessible collapsible widgets, distinguishing between various patterns and their appropriate ARIA usage.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Explores the correct use cases for the `aria-expanded` attribute.
+- Addresses challenges in determining appropriate ARIA usage for collapsible elements.
+- Differentiates between collapsible sections and interactive elements.
+- Emphasizes the importance of context for assistive technologies.
+- Provides guidance on when `aria-expanded` is necessary or can be replaced.
+- Refers to the ARIA Authoring Practices Guide (APG) for further context.
+
+## Our Commentary
+
+Accessibility is not just a checkbox; it's a fundamental part of web development. This deep dive into `aria-expanded` is incredibly valuable because these attributes are so often misused. We appreciate the nuance and the emphasis on understanding context for assistive technologies. It's a reminder that good communication extends beyond human-to-human interaction.
+
+Original Link: https://piccalil.li/blog/use-cases-for-aria-expanded/?ref=articles-rss-feed]]></content:encoded>
+            <enclosure url="https://piccalil.b-cdn.net/api/og-image?slug=use-cases-for-aria-expanded/" length="0" type="image//api/og-image"/>
+        </item>
+        <item>
+            <title><![CDATA[Mira Murati's Thinking Machines Lab Releases Inkling Open-Weights Model]]></title>
+            <link>https://digestweb.dev/articles/2026-07-16/mira-murati-thinking-machines-inkling-open-weights-model</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-16/mira-murati-thinking-machines-inkling-open-weights-model</guid>
+            <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Thinking Machines Lab unveils Inkling, a 975B parameter Apache-2.0 licensed multimodal model, positioned as a strong open-weights base for fine-tuning, with a smaller version also planned.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Mira Murati's Thinking Machines Lab released Inkling, their first open-weights model.
+- Inkling is a 975B total parameter, 41B active, multimodal transformer.
+- It is Apache-2.0 licensed and trained on 45 trillion tokens.
+- A smaller Inkling-Small (276B) model is also in development.
+- Positioned as a strong base model for fine-tuning on their Tinker platform.
+- Aims to be a competitive contender in the US open-weights ecosystem.
+
+## Our Commentary
+
+Another significant open-weights model hitting the scene, this time from Mira Murati's lab. We're seeing a real acceleration in the open-source AI space, which is fantastic for innovation. The focus on it being a strong base for fine-tuning is smart; not every model needs to be a frontier giant. I'm a bit wary of the vague training data documentation, though. Transparency is key.
+
+Original Link: https://simonwillison.net/2026/Jul/16/inkling/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://static.simonwillison.net/static/2026/inkling-pelican.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Moonshot AI Unveils Kimi K3: A 2.8T Parameter 'Open 3T-Class' Model]]></title>
+            <link>https://digestweb.dev/articles/2026-07-16/moonshot-ai-kimi-k3-2-8t-parameter-open-model</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-16/moonshot-ai-kimi-k3-2-8t-parameter-open-model</guid>
+            <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Moonshot AI announces Kimi K3, a 2.8 trillion parameter model, promising an open-weight release and showcasing competitive benchmarks against top-tier LLMs, including leading the Frontend Code arena.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Moonshot AI released Kimi K3, a 2.8 trillion parameter model.
+- It's described as their most capable model to date, with an open-weight release planned.
+- Benchmarks show K3 competing with Claude Opus 4.8 max and GPT-5.5 high.
+- Kimi K3 is now the leading model on Arena.ai's Frontend Code arena.
+- Pricing is set at $3/million input and $15/million output tokens.
+- The model's token usage decreased significantly compared to K2.6.
+- Simon Willison tests its ability to generate an SVG of a pelican riding a bicycle.
+
+## Our Commentary
+
+A 2.8 trillion parameter model from Moonshot AI, with an open-weight release promised? This is huge. The AI landscape is shifting so rapidly, and seeing a Chinese lab push the boundaries like this is fascinating. The fact it's leading the Frontend Code arena is particularly interesting for us web devs. I'm also genuinely amused by the 'pelican benchmark' – it's a great way to cut through the hype and see what these models can actually _do_.
+
+Original Link: https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://static.simonwillison.net/static/2026/kimi-3-pelican.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[NVIDIA Nemotron 3 Embed Tops RTEB Benchmark for Agentic Retrieval]]></title>
+            <link>https://digestweb.dev/articles/2026-07-16/nvidia-nemotron-3-embed-rteb-benchmark</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-16/nvidia-nemotron-3-embed-rteb-benchmark</guid>
+            <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[NVIDIA's Nemotron 3 Embed model achieves the #1 ranking on the RTEB benchmark, signaling a significant advancement in agentic retrieval capabilities for AI.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- NVIDIA Nemotron 3 Embed achieved the top rank on the RTEB benchmark.
+- This performance marks a significant step forward in agentic retrieval.
+- The model demonstrates leading capabilities in embedding tasks.
+- It contributes to advancements in AI's ability to retrieve information.
+
+## Our Commentary
+
+NVIDIA is really pushing hard in the AI space beyond just hardware. Topping the RTEB benchmark for an embedding model is a big deal for agentic retrieval. It means better context, better understanding. We're seeing the building blocks for truly intelligent agents getting stronger.
+
+Original Link: https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb]]></content:encoded>
+            <enclosure url="https://cdn-uploads.huggingface.co/production/uploads/697fa5ae089a7f9330c5078f/AaXgkciE-wvxSPrA4wg0n.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Advocates for Safe AI Access and Protections for Teens]]></title>
+            <link>https://digestweb.dev/articles/2026-07-16/openai-safe-ai-access-teens</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-16/openai-safe-ai-access-teens</guid>
+            <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI outlines its initiatives to ensure ChatGPT is safe for teenagers, implementing age-appropriate protections, learning tools, and parental controls.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI emphasizes the importance of safe AI access for teenagers.
+- Details efforts to implement age-appropriate protections in ChatGPT.
+- Highlights the development of specific learning tools for young users.
+- Mentions collaboration with experts and parental control features.
+
+## Our Commentary
+
+The conversation around AI safety for younger users is critical. We're glad to see OpenAI addressing this head-on, though I'm always a bit skeptical about how effective 'parental controls' truly are in the wild. It's a complex problem, and the tech moves faster than policy.
+
+Original Link: https://openai.com/index/why-teens-deserve-access-safe-ai]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/250/800/450" length="0" type="image//id/250/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Scalable AI Agents: Modular Prompt Transpilation for Reliability]]></title>
+            <link>https://digestweb.dev/articles/2026-07-16/scalable-ai-agents-modular-prompt-transpilation</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-16/scalable-ai-agents-modular-prompt-transpilation</guid>
+            <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Google introduces modular prompt transpilation, a method to build scalable and reliable AI agents by treating prompts as build artifacts and integrating them into CI/CD.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Addresses scaling bottlenecks and runtime errors from monolithic prompts.
+- Proposes treating prompts as modular build artifacts.
+- Introduces "skill files" and a transpiler for static validation.
+- Enables integration of prompt generation into CI/CD pipelines.
+- Aims to prevent code drift and ensure deterministic agent behavior.
+- Establishes a framework for agents to propose logic updates via PRs.
+
+## Our Commentary
+
+This is a brilliant idea. Treating prompts as build artifacts and using transpilation for static validation? It's bringing software engineering best practices to prompt engineering. We've been saying prompt engineering needs to mature, and this is a concrete step in that direction. The idea of agents proposing their own logic updates via PRs is both exciting and a little terrifying.
+
+Original Link: https://developers.googleblog.com/building-scalable-ai-agents-with-modular-prompt-transpilation/]]></content:encoded>
+            <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Cloud-1-meta.2e16d0ba.fill-1200x600.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Exploring Claude Fable 5 within the Claude Cowork Environment]]></title>
+            <link>https://digestweb.dev/articles/2026-07-16/working-with-claude-fable-5-cowork</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-16/working-with-claude-fable-5-cowork</guid>
+            <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover how to effectively work with the Claude Fable 5 model directly within the collaborative Claude Cowork platform.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Guides users on interacting with Claude Fable 5.
+- Focuses on utilizing the model within the Claude Cowork environment.
+- Provides insights into practical applications of Fable 5.
+- Aims to enhance user experience with the AI platform.
+
+## Our Commentary
+
+Another day, another Claude model iteration. We're seeing so many of these. It's hard to keep track. I wonder if 'Cowork' is Anthropic's answer to Google's new collaborative AI tools. The naming is getting a bit... whimsical.
+
+Original Link: https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork]]></content:encoded>
+            <enclosure url="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a58ea387b9d28d695935e82_og_working-with-claude-fable-5-in-claude-cowork.jpg" length="0" type="image/jpg"/>
+        </item>
         <item>
             <title><![CDATA[CodePen Still Uses WordPress for Blog, Podcast & Docs]]></title>
             <link>https://digestweb.dev/articles/2026-07-15/codepen-still-uses-wordpress-blog-podcast-docs</link>
@@ -238,6 +686,27 @@ Original Link: https://master.dev/blog/fixcss/]]></content:encoded>
             <enclosure url="https://master.dev/blog/wp-json/social-image-generator/v1/image/10410" length="0" type="image//blog/wp-json/social-image-generator/v1/image/10410"/>
         </item>
         <item>
+            <title><![CDATA[Rewriting a Sticky Detector: Modern CSS & HTML for Performance]]></title>
+            <link>https://digestweb.dev/articles/2026-07-15/rewriting-sticky-detector-css-html-performance</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-15/rewriting-sticky-detector-css-html-performance</guid>
+            <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how a sticky detector was rewritten to replace `scroll` events with modern HTML and CSS features, achieving significantly better performance and cleaner code.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Details the process of rewriting a "sticky detector."
+- Replaced traditional JavaScript `scroll` events.
+- Leveraged modern HTML and CSS features for implementation.
+- Achieved significant improvements in performance.
+- Offers lessons learned from updating older web development patterns.
+
+## Our Commentary
+
+This is the kind of article we love to see. Replacing JavaScript with native CSS and HTML for performance gains is always a win. It's a great reminder that the web platform is constantly evolving, and sometimes the best solution is to lean into what the browser can do natively. I'm always a fan of simpler, faster code.
+
+Original Link: https://master.dev/blog/lessons-learned-rewriting-a-sticky-detector/]]></content:encoded>
+            <enclosure url="https://master.dev/blog/wp-json/social-image-generator/v1/image/10399" length="0" type="image//blog/wp-json/social-image-generator/v1/image/10399"/>
+        </item>
+        <item>
             <title><![CDATA[Trionn's Architecture: Orchestrating GSAP, Three.js, Lenis & Web Audio]]></title>
             <link>https://digestweb.dev/articles/2026-07-15/trionn-architecture-gsap-threejs-lenis-web-audio</link>
             <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-15/trionn-architecture-gsap-threejs-lenis-web-audio</guid>
@@ -258,6 +727,30 @@ This is the kind of deep dive we love to see. Getting these libraries to play ni
 
 Original Link: https://tympanus.net/codrops/2026/07/15/the-architecture-behind-trionn-coordinating-gsap-three-js-lenis-and-web-audio/]]></content:encoded>
             <enclosure url="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/07/trionn.png?x69753" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[xAI Open-Sources Grok Build After Major User Data Upload Scandal]]></title>
+            <link>https://digestweb.dev/articles/2026-07-15/xai-open-sources-grok-build-data-scandal</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-15/xai-open-sources-grok-build-data-scandal</guid>
+            <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Following severe backlash for uploading user data, xAI has open-sourced its Grok Build CLI tool under an Apache 2.0 license, aiming to restore trust and enhance user privacy with local-first inference options.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- xAI open-sourced its Grok Build CLI tool under Apache 2.0 license.
+- This follows a major privacy scandal involving unauthorized user data uploads.
+- The tool was found to upload entire directories, including sensitive files.
+- xAI has disabled data upload and is deleting previously retained data.
+- The move aims to regain user trust and ensure complete privacy.
+- Users can now run Grok Build fully open-sourced and local-first.
+- The codebase is substantial, comprising over 844,000 lines of Rust.
+
+## Our Commentary
+
+This is a wild turn of events. Open-sourcing Grok Build after a privacy scandal of this magnitude is a bold move, and frankly, a necessary one to even begin rebuilding trust. Uploading SSH keys and password databases? That's a catastrophic failure. While we appreciate the open-source release, the damage to trust is immense. It's a stark lesson in the dangers of opaque AI tools and the importance of local-first design.
+
+Original Link: https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/368/800/450" length="0" type="image//id/368/800/450"/>
         </item>
         <item>
             <title><![CDATA[Creating Custom AI-Generated Desktop Pets with OpenAI's Codex]]></title>
