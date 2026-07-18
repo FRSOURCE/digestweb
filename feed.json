@@ -23,6 +23,72 @@
             }
         },
         {
+            "id": "https://digestweb.dev/articles/2026-07-17/animated-masonry-layouts-pure-css",
+            "content_html": "## Summary & Key Takeaways\n\nThe article demonstrates how to create Masonry layouts using native CSS.\nIt specifically covers adding animation to these fluid grids.\nThis approach offers an alternative to traditional JavaScript libraries like Masonry.js.\nLeveraging pure CSS can improve performance and simplify implementation.\nThe tutorial provides practical steps for frontend developers.\n\n## Our Commentary\n\nMasonry.js was a staple for so long, but seeing these kinds of layouts and animations become native CSS is just _chef's kiss_. We're all about pushing the boundaries of what CSS can do. This is a great example of the web platform evolving to handle complex UI patterns without extra JavaScript.\n\nOriginal Link: https://master.dev/blog/masonry-with-animation-in-css/",
+            "url": "https://digestweb.dev/articles/2026-07-17/animated-masonry-layouts-pure-css",
+            "title": "Animated Masonry Layouts with Pure CSS",
+            "summary": "This tutorial shows how to create animated Masonry layouts using only native CSS. It offers a modern alternative to JavaScript libraries like Masonry.js for fluid grid animations.",
+            "image": "https://master.dev/blog/wp-json/social-image-generator/v1/image/10445",
+            "date_modified": "2026-07-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-17/llm-cliche-highlighter-spotting-ai-generated-patterns",
+            "content_html": "## Summary & Key Takeaways\n\nSimon Willison developed a tool to identify clichés in LLM-generated text.\nThe tool was created out of frustration with repetitive AI writing styles.\nIt highlights ten common patterns found in such content.\nThe app helps users spot \"no fluff, no filler, no jargon\" type phrases.\nThis utility offers a way to critique and improve AI-assisted writing.\n\n## Our Commentary\n\nOh, I _feel_ this one. The sheer volume of bland, cliché-ridden AI content is getting exhausting. Simon Willison building a tool to call it out? Brilliant. We need more of this. It's a small thing, but it's a necessary pushback against the homogenization of online writing.\n\nOriginal Link: https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-17/llm-cliche-highlighter-spotting-ai-generated-patterns",
+            "title": "LLM Cliché Highlighter: Spotting AI-Generated Patterns",
+            "summary": "Frustrated by repetitive AI-generated prose, Simon Willison created a tool to highlight common clichés. This app identifies ten patterns frequently found in LLM-written content.",
+            "image": "https://picsum.photos/id/40/800/450",
+            "date_modified": "2026-07-17T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-17/openai-ai-scorecard-measuring-roi-dependability",
+            "content_html": "## Summary & Key Takeaways\n\nOpenAI introduces a new AI scorecard for practical measurement.\nThe scorecard aims to quantify the return on investment (ROI) of AI initiatives.\nKey metrics include useful work completed by AI systems.\nIt also tracks the cost associated with each successful AI task.\nDependability of AI outputs is a core component of the evaluation.\nThe framework considers the return generated per unit of compute resources.\n\n## Our Commentary\n\nA scorecard for AI ROI? I'm cautiously optimistic. We've all been trying to figure out how to quantify the real impact of AI beyond \"it's cool.\" This framework from OpenAI, especially coming from their CFO, feels like a step towards more grounded discussions. It's not just about the tech, it's about the tangible value.\n\nOriginal Link: https://openai.com/index/a-scorecard-for-the-ai-age",
+            "url": "https://digestweb.dev/articles/2026-07-17/openai-ai-scorecard-measuring-roi-dependability",
+            "title": "OpenAI's AI Scorecard: Measuring ROI and Dependability",
+            "summary": "OpenAI's CFO, Sarah Friar, presents a practical AI scorecard. It helps measure return on investment through metrics like useful work, cost per successful task, dependability, and return on compute.",
+            "image": "https://picsum.photos/id/218/800/450",
+            "date_modified": "2026-07-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-17/scale-video-image-model-fine-tuning-nvidia-nemo-diffusers",
+            "content_html": "## Summary & Key Takeaways\n\nHugging Face Diffusers now integrates with NVIDIA NeMo Automodel.\nThis integration enables scalable fine-tuning of video and image AI models.\nDevelopers can leverage both platforms for enhanced model training.\nThe collaboration aims to simplify and accelerate large-scale AI development.\n\n## Our Commentary\n\nThis is a big deal for anyone in the generative AI space. Fine-tuning models, especially video, is a resource-intensive beast. Hugging Face and NVIDIA teaming up to make it more scalable? That's a win. We're always looking for ways to make these powerful tools more accessible and efficient.\n\nOriginal Link: https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
+            "url": "https://digestweb.dev/articles/2026-07-17/scale-video-image-model-fine-tuning-nvidia-nemo-diffusers",
+            "title": "Scale Video & Image Model Fine-Tuning with NVIDIA NeMo & Diffusers",
+            "summary": "Hugging Face and NVIDIA announce an integration allowing developers to fine-tune video and image models at scale. This combines NVIDIA NeMo Automodel with Hugging Face Diffusers for enhanced capabilities.",
+            "image": "https://cdn-uploads.huggingface.co/production/uploads/67e44a92b96703c8b0e5a805/VGYINP_TZGLSkx2zW8uIa.png",
+            "date_modified": "2026-07-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-17/the-cost-of-saying-yes-software-ownership-ai-era",
+            "content_html": "## Summary & Key Takeaways\n\nAI has significantly reduced the cost of writing new code.\nThe cost of owning and maintaining code, however, remains high.\nThis creates a new challenge for engineering teams in the AI era.\nA framework is introduced to help teams decide which changes are truly \"cheap.\"\nThe framework considers factors beyond initial development, like maintenance and future adaptability.\n\n## Our Commentary\n\nThis is a conversation we need to have. I've seen so much \"AI makes coding faster!\" talk, but the ownership part is always glossed over. GitHub bringing this up feels like a necessary dose of reality. We're all about shipping, but what about the debt we're accumulating? It's a good gut check.\n\nOriginal Link: https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
+            "url": "https://digestweb.dev/articles/2026-07-17/the-cost-of-saying-yes-software-ownership-ai-era",
+            "title": "The Cost of Saying Yes: Software Ownership in the AI Era",
+            "summary": "GitHub explores how the ease of generating code with AI impacts the long-term cost of software ownership. It proposes a framework for evaluating \"cheap\" changes.",
+            "image": "https://github.blog/wp-content/uploads/2025/11/GithubStockIllos_Sketch_ripple.jpg",
+            "date_modified": "2026-07-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-17/when-it-makes-sense-to-block-main-thread-javascript",
+            "content_html": "## Summary & Key Takeaways\n\nThe article questions the absolute rule of never blocking the browser's main thread.\nIt presents a specific use case involving a screenshot extension.\nThe author argues that blocking the main thread was the correct decision in this scenario.\nThe piece provides detailed reasoning for making an exception to the common best practice.\nIt encourages a nuanced understanding of web performance rules.\n\n## Our Commentary\n\nThis is the kind of article we love. Challenging dogma with real-world scenarios. \"Never block the main thread\" is a great rule of thumb, but sometimes, just sometimes, you have to break it. It's about understanding the _why_ behind the rules, not just blindly following them. I'm genuinely curious about this specific use case.\n\nOriginal Link: https://smashingmagazine.com/2026/07/when-makes-sense-block-main-thread/",
+            "url": "https://digestweb.dev/articles/2026-07-17/when-it-makes-sense-to-block-main-thread-javascript",
+            "title": "When It Makes Sense to Block the Main Thread in JavaScript",
+            "summary": "Challenging a core web performance rule, this article explores a specific use case where blocking the browser's main thread with JavaScript was the optimal solution. It details the reasoning behind this exception.",
+            "image": "https://files.smashing.media/articles/when-makes-sense-block-main-thread/when-makes-sense-block-main-thread.jpg",
+            "date_modified": "2026-07-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-17/zero-engineering-immersive-webgl-interactive-narrative",
+            "content_html": "## Summary & Key Takeaways\n\nThe article details the technical engineering behind the \"ZERO\" interactive narrative.\nIt explores the rendering pipeline used for the immersive WebGL experience.\nVarious advanced rendering techniques are discussed.\nPerformance optimizations for both desktop and mobile platforms are covered.\nThe experience is scroll-driven, adding a unique interaction layer.\n\n## Our Commentary\n\nCodrops always delivers on these deep dives. We love seeing the boundaries of the web pushed like this. The idea of a \"defiant interactive narrative\" is intriguing, and the technical breakdown is exactly what we look for. It's a reminder of what's possible with the web platform when you really lean into it.\n\nOriginal Link: https://tympanus.net/codrops/2026/07/17/zero-the-engineering-behind-a-defiant-interactive-narrative/",
+            "url": "https://digestweb.dev/articles/2026-07-17/zero-engineering-immersive-webgl-interactive-narrative",
+            "title": "ZERO: Engineering an Immersive WebGL Interactive Narrative",
+            "summary": "Codrops provides a technical deep-dive into the creation of \"ZERO,\" a scroll-driven WebGL experience. It covers the rendering pipeline, techniques, and performance optimizations for both desktop and mobile.",
+            "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/07/coverzero.jpeg?x45349",
+            "date_modified": "2026-07-17T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-07-16/anthropic-large-scale-code-migrations-claude-code",
             "content_html": "## Summary & Key Takeaways\n\n- Anthropic details its internal process for code migrations.\n- Explains the role of Claude Code AI in these large-scale efforts.\n- Showcases practical application of AI for developer operations.\n- Provides a real-world example of AI-assisted refactoring.\n\n## Our Commentary\n\nIt's always fascinating to see how AI companies eat their own dog food. Using Claude Code for large-scale migrations sounds like a dream, or a nightmare, depending on the day. I'm genuinely curious about the error rates and human oversight involved. This is where the rubber meets the road for AI in dev.\n\nOriginal Link: https://claude.com/blog/ai-code-migration",
             "url": "https://digestweb.dev/articles/2026-07-16/anthropic-large-scale-code-migrations-claude-code",
