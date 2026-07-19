@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Sat, 18 Jul 2026 03:55:07 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 19 Jul 2026 04:22:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,140 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Anthropic Makes Claude Fable 5 Permanent for Premium Subscribers]]></title>
+            <link>https://digestweb.dev/articles/2026-07-18/anthropic-claude-fable-5-permanent-premium-subscribers</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-18/anthropic-claude-fable-5-permanent-premium-subscribers</guid>
+            <pubDate>Sat, 18 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Anthropic has announced that its powerful Claude Fable 5 model will be permanently included in Max and Team Premium subscription plans, reversing an earlier decision to restrict its availability, likely due to competitive pressures.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Claude Fable 5 will be permanently included in Max and Team Premium plans.
+- Access will be at 50% of the usual usage limits for these plans.
+- Pro and Team Standard users retain access via usage credits and receive a $100 credit.
+- This decision reverses Anthropic's previous plan to remove Fable 5 from subscriptions.
+- Market competition from models like GPT-5.6 Sol is cited as a likely factor.
+- The change addresses user concerns about Fable 5's future availability.
+- Users on the $20/month plan will still not have access to Fable 5.
+
+## Our Commentary
+
+Well, this is a relief for many, I imagine. Anthropic's initial plan to pull Fable 5 from subscriptions felt like a misstep, especially with the competition heating up. It's a clear sign that the LLM market is fiercely competitive, and companies are having to adapt quickly. I'm glad they listened to user feedback, even if it means they had to re-evaluate their compute strategy.
+
+Original Link: https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/387/800/450" length="0" type="image//id/387/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Controlling Reasoning Effort in LLMs: Exploring Learning Modes]]></title>
+            <link>https://digestweb.dev/articles/2026-07-18/controlling-reasoning-effort-llms-learning-modes</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-18/controlling-reasoning-effort-llms-learning-modes</guid>
+            <pubDate>Sat, 18 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This article explores the mechanisms by which Large Language Models learn and exhibit different levels of reasoning effort, from low to high, offering insights into their cognitive processes.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article investigates how LLMs manage their reasoning processes.
+- It explores the concept of "reasoning effort" within LLMs.
+- LLMs can learn to operate in low-, medium-, and high-effort reasoning modes.
+- Understanding these modes is crucial for developing more efficient and capable AI.
+- The research aims to provide insights into the internal workings of LLM cognition.
+
+## Our Commentary
+
+This is the kind of AI research that really gets me thinking. The idea of "controlling reasoning effort" in LLMs feels like a step towards more deliberate and less black-box AI. We're still so early in understanding how these models "think," and articles like this, exploring different reasoning modes, are crucial. It's a fascinating peek behind the curtain.
+
+Original Link: https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms]]></content:encoded>
+            <author>Sebastian Raschka</author>
+            <enclosure url="https://substackcdn.com/image/fetch/$s_!jWb-!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F286a0beb-32b2-41fc-8bcf-6bae189b53f2_1488x840.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Nuxt 4.5 Ships Vite 8, SSR Streaming, & Preps for Nuxt 5; Nuxt 3 EOL Announced]]></title>
+            <link>https://digestweb.dev/articles/2026-07-18/nuxt-4-5-vite-8-ssr-streaming-nuxt-5-prep-nuxt-3-eol</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-18/nuxt-4-5-vite-8-ssr-streaming-nuxt-5-prep-nuxt-3-eol</guid>
+            <pubDate>Sat, 18 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Nuxt 4.5 arrives with significant upgrades including Vite 8 and Rspack 2, an experimental SSR streaming mode, and foundational work for Nuxt 5. The team also confirms Nuxt 3's end-of-life on July 31, 2026.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Nuxt 4.5.0 is a minor release with major internal upgrades.
+- It now runs on Vite 8 and Rspack 2, bringing performance improvements.
+- An experimental SSR streaming mode is introduced for enhanced server-side rendering.
+- The release includes new composables and conventions for developers.
+- Significant groundwork has been laid to prepare for the upcoming Nuxt 5.
+- Nuxt 3 will reach its end-of-life on July 31, 2026.
+- Users are encouraged to migrate from Nuxt 3 to Nuxt 4 soon.
+- A compatibility option `future.compatibilityVersion: 5` is available for testing Nuxt 5 breaking changes.
+
+## Our Commentary
+
+This is a chunky release, and we're seeing Nuxt really push forward. Vite 8 and Rspack 2 are big under-the-hood wins for performance. The experimental SSR streaming mode is intriguing; I'm always looking for ways to squeeze more out of server rendering. The Nuxt 3 EOL isn't a surprise, but it's a firm deadline for those still clinging on. It feels like the team is doing a lot of heavy lifting to make the Nuxt 5 transition as painless as possible, which I appreciate.
+
+Original Link: https://github.com/nuxt/nuxt/releases/tag/v4.5.0]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/5f1f0c36b6dda2566b45c6792520190b77bfc324c4910edf6fd04cc502102f1e/nuxt/nuxt/releases/tag/v4.5.0" length="0" type="image/0"/>
+        </item>
+        <item>
+            <title><![CDATA[pnpm 11.15 Improves Peer Deps & Patches Security Vulnerability]]></title>
+            <link>https://digestweb.dev/articles/2026-07-18/pnpm-11-15-peer-deps-security-patch</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-18/pnpm-11-15-peer-deps-security-patch</guid>
+            <pubDate>Sat, 18 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[pnpm 11.15 enhances how optional peer dependencies are resolved and includes a crucial security update for `adm-zip` to mitigate excessive memory allocation risks from crafted ZIP archives.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Optional peer dependencies declared via `peerDependenciesMeta` now resolve more effectively.
+- The resolution mechanism now prioritizes satisfying versions already in the dependency graph.
+- `adm-zip` has been updated to prevent excessive memory allocation from malicious ZIP archives.
+- Fixed an issue where `pnpm version -r` could write invalid versioning-ledger entries.
+
+## Our Commentary
+
+Another pnpm release, and this one has a security fix, which is always good to see. The peer dependency resolution improvement is a recurring theme across these pnpm updates, suggesting it's a focus area. It's a solid minor release, nothing groundbreaking, but important for stability and security.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.15.0]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/7b21623fac866fc0b13d200d679fbbb73fc7adc33470096aed367b9c43253c30/pnpm/pnpm/releases/tag/v11.15.0" length="0" type="image/0"/>
+        </item>
+        <item>
+            <title><![CDATA[pnpm 12 Alpha 15: Improved Peer Deps & New Licenses Command]]></title>
+            <link>https://digestweb.dev/articles/2026-07-18/pnpm-12-alpha-15-peer-deps-licenses-command</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-18/pnpm-12-alpha-15-peer-deps-licenses-command</guid>
+            <pubDate>Sat, 18 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[pnpm 12 Alpha 15 brings enhancements to optional peer dependency resolution, introduces a `pnpm licenses` command, and addresses several critical bugs related to lockfile integrity and workspace command execution.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Optional peer dependencies declared via `peerDependenciesMeta` now resolve more consistently.
+- The `pnpm licenses` command has been added to the Rust `pacquet` port for listing package licenses.
+- Fixed an issue where `pnpm version -r` could write invalid versioning-ledger entries.
+- Resolved incorrect failures of `pnpm install --frozen-lockfile` with auto-install-peers enabled.
+- Pacquet workspace commands now correctly honor project filters.
+- Addressed a lockfile corruption issue during non-frozen re-installs.
+
+## Our Commentary
+
+An alpha release, but these are some solid improvements for pnpm. The peer dependency resolution fix sounds like a quality-of-life win, and a dedicated `pnpm licenses` command is genuinely useful for compliance. We've all been burned by lockfile issues, so those fixes are always welcome. It's good to see the Rust `pacquet` port getting more features too.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.15-1]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/fde520b1db8ca5fd7719acab2cd0327d34d3cf1617f593c5511405559b694100/pnpm/pnpm/releases/tag/v12.0.0-alpha.15-1" length="0" type="image/15-1"/>
+        </item>
+        <item>
+            <title><![CDATA[Interactive SQLite Query Explainer Tool by Simon Willison]]></title>
+            <link>https://digestweb.dev/articles/2026-07-18/sqlite-query-explainer-tool-simon-willison</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-18/sqlite-query-explainer-tool-simon-willison</guid>
+            <pubDate>Sat, 18 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison has released an interactive SQLite Query Explainer tool, powered by Pyodide and Web Assembly, which provides AI-generated explanations for `EXPLAIN` and `EXPLAIN QUERY PLAN` outputs directly in the browser.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison created an interactive SQLite Query Explainer tool.
+- The tool helps users understand `EXPLAIN` and `EXPLAIN QUERY PLAN` outputs.
+- It runs SQLite in Python via Pyodide and Web Assembly directly in the browser.
+- AI (Fable) adds a layer of explanation to the query plan results.
+- The tool aims to demystify complex SQLite query optimization.
+
+## Our Commentary
+
+This is brilliant. I've stared at `EXPLAIN` outputs more times than I care to admit, wishing for a clearer explanation. Using Pyodide and WASM to run SQLite in the browser is already cool, but adding an AI layer for explanations? That's just next-level developer experience. I'm genuinely excited to try this out.
+
+Original Link: https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/633/800/450" length="0" type="image//id/633/800/450"/>
+        </item>
         <item>
             <title><![CDATA[AI Water Use: Convert Golf Courses to Parks?]]></title>
             <link>https://digestweb.dev/articles/2026-07-17/ai-water-use-golf-courses-parks</link>
@@ -101,6 +235,28 @@ A scorecard for AI ROI? I'm cautiously optimistic. We've all been trying to figu
 
 Original Link: https://openai.com/index/a-scorecard-for-the-ai-age]]></content:encoded>
             <enclosure url="https://picsum.photos/id/218/800/450" length="0" type="image//id/218/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[pnpm 11.14 Introduces `pnpm doctor` & Enhanced Peer Dependency Support]]></title>
+            <link>https://digestweb.dev/articles/2026-07-17/pnpm-11-14-pnpm-doctor-peer-deps-run-enhancements</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-17/pnpm-11-14-pnpm-doctor-peer-deps-run-enhancements</guid>
+            <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[pnpm 11.14 ships with a new `pnpm doctor` command to diagnose installation issues, expands peer dependency specifier support, and enhances `pnpm run` with RegExp matching and a restored `--sequential` option.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- `peerDependencies` now accept dependency specifiers with schemes (e.g., `npm:`, `git:`).
+- A new `pnpm doctor` command helps diagnose pnpm installations and environment issues.
+- `pnpm doctor` checks PATH, store writability, link strategies, and registry connectivity.
+- `pnpm run` now supports executing multiple scripts matching a regular expression.
+- The `--sequential` (`-s`) CLI option for `pnpm run` has been restored.
+- Fixed `pnpm install` failing when `pnpm-lock.yaml` is a symlink.
+
+## Our Commentary
+
+Okay, `pnpm doctor` is a huge win for developer experience. We've all spent too much time debugging environment issues, and a built-in diagnostic tool is just smart. The expanded peer dependency support is also a nice touch, making things more flexible. It's these kinds of DX improvements that really make a difference in daily workflow.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.14.0]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/732b2f8f0ecb146748ee0e5c9848999be3870a727945d28beed03b03db5e0abd/pnpm/pnpm/releases/tag/v11.14.0" length="0" type="image/0"/>
         </item>
         <item>
             <title><![CDATA[Scale Video & Image Model Fine-Tuning with NVIDIA NeMo & Diffusers]]></title>
