@@ -11,6 +11,30 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-07-19/ai-mania-corporate-hype-eviscerates-global-decision-making",
+            "content_html": "## Summary & Key Takeaways\n\n- Nik Suresh's perspective highlights the overwhelming AI mania in large companies.\n- Executives are crafting AI strategies for multi-billion dollar organizations without ever using AI tools themselves.\n- Engineers are resorting to rewriting entire codebases in different languages to meet internal \"token leaderboards.\"\n- Vendor executives are pressured to validate absurd 100x productivity claims from customers to avoid contract cancellations.\n- This dynamic creates an environment where honesty about AI's true capabilities is suppressed.\n- The article suggests a systemic issue where fear of undermining customer credibility drives irrational decisions.\n\n## Our Commentary\n\nThis piece is a gut punch. I genuinely don't know how to feel about executives making multi-billion dollar AI strategies without ever touching ChatGPT. It's a wild west out there, and the anecdotes about engineers rewriting code just to hit a \"token leaderboard\" are just... wow. We're seeing a dangerous feedback loop where hype feeds more hype, and nobody wants to be the one to say the emperor has no clothes. It's unsettling to think about the long-term consequences of this kind of decision-making.\n\nOriginal Link: https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-19/ai-mania-corporate-hype-eviscerates-global-decision-making",
+            "title": "AI Mania: Corporate Hype Eviscerates Global Decision-Making",
+            "summary": "A scathing look at how AI hype is leading to irrational decision-making in large corporations, with executives pushing AI strategies they don't understand.",
+            "image": "https://picsum.photos/id/424/800/450",
+            "date_modified": "2026-07-19T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-19/claude-code-runs-on-bun-rust-port-performance-boost",
+            "content_html": "## Summary & Key Takeaways\n\n- Jarred Sumner announced that Claude Code v2.1.181 and later versions utilize the Rust port of Bun.\n- Simon Willison verified this claim by inspecting his local Claude Code installation.\n- Evidence includes the presence of \"Bun v1.4.0,\" a version not yet publicly released.\n- The binary also contained numerous `.rs` filenames, confirming the Rust implementation.\n- The migration resulted in a 10% faster startup time on Linux.\n- Despite the performance gain, the change was largely unnoticeable to users, aligning with Bun's \"boring is good\" philosophy.\n\n## Our Commentary\n\nThis is a neat little confirmation. We knew Bun was moving to Rust, but seeing it deployed in a major AI product like Claude Code, and getting a 10% speed bump with \"barely anyone noticed,\" that's just solid engineering. It speaks volumes about Bun's stability and the power of Rust. It's the kind of quiet win that makes me happy.\n\nOriginal Link: https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-19/claude-code-runs-on-bun-rust-port-performance-boost",
+            "title": "Claude Code Now Runs on Bun's Rust Port, Boosting Performance",
+            "summary": "Simon Willison confirms that Claude Code has migrated to the Rust-rewritten Bun runtime, resulting in a 10% startup speed increase on Linux.",
+            "image": "https://picsum.photos/id/432/800/450",
+            "date_modified": "2026-07-19T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-07-18/anthropic-claude-fable-5-permanent-premium-subscribers",
             "content_html": "## Summary & Key Takeaways\n\n- Claude Fable 5 will be permanently included in Max and Team Premium plans.\n- Access will be at 50% of the usual usage limits for these plans.\n- Pro and Team Standard users retain access via usage credits and receive a $100 credit.\n- This decision reverses Anthropic's previous plan to remove Fable 5 from subscriptions.\n- Market competition from models like GPT-5.6 Sol is cited as a likely factor.\n- The change addresses user concerns about Fable 5's future availability.\n- Users on the $20/month plan will still not have access to Fable 5.\n\n## Our Commentary\n\nWell, this is a relief for many, I imagine. Anthropic's initial plan to pull Fable 5 from subscriptions felt like a misstep, especially with the competition heating up. It's a clear sign that the LLM market is fiercely competitive, and companies are having to adapt quickly. I'm glad they listened to user feedback, even if it means they had to re-evaluate their compute strategy.\n\nOriginal Link: https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything",
             "url": "https://digestweb.dev/articles/2026-07-18/anthropic-claude-fable-5-permanent-premium-subscribers",

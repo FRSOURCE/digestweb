@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Sun, 19 Jul 2026 04:22:15 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 19 Jul 2026 09:05:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,52 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[AI Mania: Corporate Hype Eviscerates Global Decision-Making]]></title>
+            <link>https://digestweb.dev/articles/2026-07-19/ai-mania-corporate-hype-eviscerates-global-decision-making</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-19/ai-mania-corporate-hype-eviscerates-global-decision-making</guid>
+            <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A scathing look at how AI hype is leading to irrational decision-making in large corporations, with executives pushing AI strategies they don't understand.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Nik Suresh's perspective highlights the overwhelming AI mania in large companies.
+- Executives are crafting AI strategies for multi-billion dollar organizations without ever using AI tools themselves.
+- Engineers are resorting to rewriting entire codebases in different languages to meet internal "token leaderboards."
+- Vendor executives are pressured to validate absurd 100x productivity claims from customers to avoid contract cancellations.
+- This dynamic creates an environment where honesty about AI's true capabilities is suppressed.
+- The article suggests a systemic issue where fear of undermining customer credibility drives irrational decisions.
+
+## Our Commentary
+
+This piece is a gut punch. I genuinely don't know how to feel about executives making multi-billion dollar AI strategies without ever touching ChatGPT. It's a wild west out there, and the anecdotes about engineers rewriting code just to hit a "token leaderboard" are just... wow. We're seeing a dangerous feedback loop where hype feeds more hype, and nobody wants to be the one to say the emperor has no clothes. It's unsettling to think about the long-term consequences of this kind of decision-making.
+
+Original Link: https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/424/800/450" length="0" type="image//id/424/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Claude Code Now Runs on Bun's Rust Port, Boosting Performance]]></title>
+            <link>https://digestweb.dev/articles/2026-07-19/claude-code-runs-on-bun-rust-port-performance-boost</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-19/claude-code-runs-on-bun-rust-port-performance-boost</guid>
+            <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison confirms that Claude Code has migrated to the Rust-rewritten Bun runtime, resulting in a 10% startup speed increase on Linux.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Jarred Sumner announced that Claude Code v2.1.181 and later versions utilize the Rust port of Bun.
+- Simon Willison verified this claim by inspecting his local Claude Code installation.
+- Evidence includes the presence of "Bun v1.4.0," a version not yet publicly released.
+- The binary also contained numerous `.rs` filenames, confirming the Rust implementation.
+- The migration resulted in a 10% faster startup time on Linux.
+- Despite the performance gain, the change was largely unnoticeable to users, aligning with Bun's "boring is good" philosophy.
+
+## Our Commentary
+
+This is a neat little confirmation. We knew Bun was moving to Rust, but seeing it deployed in a major AI product like Claude Code, and getting a 10% speed bump with "barely anyone noticed," that's just solid engineering. It speaks volumes about Bun's stability and the power of Rust. It's the kind of quiet win that makes me happy.
+
+Original Link: https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/432/800/450" length="0" type="image//id/432/800/450"/>
+        </item>
         <item>
             <title><![CDATA[Anthropic Makes Claude Fable 5 Permanent for Premium Subscribers]]></title>
             <link>https://digestweb.dev/articles/2026-07-18/anthropic-claude-fable-5-permanent-premium-subscribers</link>
