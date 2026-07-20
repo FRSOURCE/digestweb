@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Daily curated web dev news",
   "type": "module",
-  "packageManager": "pnpm@10.34.4",
+  "packageManager": "pnpm@10.34.5",
   "scripts": {
     "dev": "vitepress dev .",
     "build": "pnpm generate-icons && vitepress build .",
@@ -20,7 +20,7 @@
   "dependencies": {
     "@frsource/autoresize-textarea": "^2.0.188",
     "@storefront-ui/tw-plugin-peer-next": "^3.1.0",
-    "vitepress": "2.0.0-alpha.17",
+    "vitepress": "2.0.0-alpha.18",
     "vue": "^3.5.27"
   },
   "devDependencies": {
