@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-07-20T08:34:45.504Z</updated>
+    <updated>2026-07-20T10:00:12.299Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,58 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Lightning CSS v1.33.0: New CSS Features Supported]]></title>
+        <id>https://digestweb.dev/articles/2026-07-20/lightning-css-v1-33-0-new-css-features-supported</id>
+        <link href="https://digestweb.dev/articles/2026-07-20/lightning-css-v1-33-0-new-css-features-supported"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/7da8db68e4b35200488ad3bc7bf5c15cf8a601a6cdd4e59169d672638fadcfcc/parcel-bundler/lightningcss/releases/tag/v1.33.0" type="image/0"/>
+        <updated>2026-07-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Lightning CSS now supports several modern CSS features, including `::highlight`, `@position-try`, `::search-text`, and the `alpha()` relative color function.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+### Key Additions
+
+- Adds support for the `::highlight` pseudo-element.
+- Introduces support for the `@position-try` at-rule.
+- Now supports `::search-text` and `:current::search-text` pseudo-classes.
+- Collapses `light-dark(x, x)` to `x` for optimization.
+- Includes support for `:target-before/after/current` pseudo-classes.
+- Adds support for the `alpha()` relative color function.
+- Fixes various bugs, including `rrggbbaa` support on older Android versions.
+
+## Our Commentary
+
+Lightning CSS continues its relentless march forward, adding support for a slew of cutting-edge CSS features. We're particularly keen on `@position-try` and the `alpha()` relative color function. It's a good reminder that the CSS spec is always evolving, and tools like this are crucial for adopting new capabilities early. This is a solid update for anyone pushing the boundaries of CSS.
+
+Original Link: https://github.com/parcel-bundler/lightningcss/releases/tag/v1.33.0]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sam Altman's Strategy: Release Local GPT-3 to Stifle Open Source]]></title>
+        <id>https://digestweb.dev/articles/2026-07-20/sam-altman-strategy-local-gpt3-stifle-open-source</id>
+        <link href="https://digestweb.dev/articles/2026-07-20/sam-altman-strategy-local-gpt3-stifle-open-source"/>
+        <link rel="enclosure" href="https://picsum.photos/id/173/800/450" type="image//id/173/800/450"/>
+        <updated>2026-07-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A newly revealed email from Sam Altman outlines OpenAI's strategy to release a local GPT-3-level model to discourage competitors and hinder funding for new open-source AI efforts.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+### Key Revelations
+
+- Sam Altman's email to OpenAI's board from October 2022 was exposed in the Musk v. Altman lawsuit.
+- The email discusses OpenAI's open-source strategy.
+- Altman states a desire to release a GPT-3-level model runnable locally on consumer hardware.
+- The goal is to do this "soon, before Stability or someone else does."
+- This move is intended to discourage others from releasing similar models.
+- It also aims to make it harder for new AI efforts to secure funding.
+
+## Our Commentary
+
+This quote from Sam Altman is... something else. We've always suspected the 'open' in OpenAI was more of a marketing term, but to see it laid out so explicitly – a strategy to release a model _specifically_ to stifle competition and funding for open-source efforts – is jarring. It makes me question the entire narrative around democratizing AI. This isn't just business; it's a calculated move to control the ecosystem. I genuinely don't know how to feel about this, but it certainly paints a clearer picture of the competitive landscape.
+
+Original Link: https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AI Mania: Corporate Hype Eviscerates Global Decision-Making]]></title>
         <id>https://digestweb.dev/articles/2026-07-19/ai-mania-corporate-hype-eviscerates-global-decision-making</id>
@@ -63,6 +115,31 @@ Original Link: https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/
         <author>
             <name>Simon Willison</name>
         </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pnpm 12 Alpha 16: Major Improvements for Node.js, Deno, and Bun]]></title>
+        <id>https://digestweb.dev/articles/2026-07-19/pnpm-12-alpha-16-major-improvements-node-deno-bun</id>
+        <link href="https://digestweb.dev/articles/2026-07-19/pnpm-12-alpha-16-major-improvements-node-deno-bun"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/3a8152beb3100557b73ca8426c6afc0d3be48fd70a2b43dc69ce846c07cba572/pnpm/pnpm/releases/tag/v12.0.0-alpha.16" type="image/16"/>
+        <updated>2026-07-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[pnpm's latest alpha introduces a Rust-powered CLI, enhanced runtime parity across runtimes, and a new `virtualStoreOnly` setting for flexible dependency management.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+### Key Updates
+
+- Achieves runtime installation parity across Node.js, Deno, and Bun.
+- Reports deprecated packages during installation with clear warnings.
+- Introduces native `install-test`, `recursive`, `multi`, and `m` commands in the Rust CLI.
+- Adds a `virtualStoreOnly` setting for populating the virtual store without post-import linking.
+- Improves repeat install reconciliation for `node_modules` consistency.
+- `enableModulesDir` can now be read from `pnpm-workspace.yaml`.
+- `pnpm install --ignore-scripts` now records skipped builds.
+
+## Our Commentary
+
+An alpha release, but wow, the feature list here is substantial. The Rust CLI commands and the `virtualStoreOnly` setting are particularly interesting. We're seeing a trend of build tools rewriting core parts in Rust for performance, and pnpm is clearly leaning into that. The improved reconciliation logic also sounds like a huge DX win. I'm genuinely excited to see how this stabilizes.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.16]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Rebuilding FIFA Standings Layout with CSS Subgrid]]></title>

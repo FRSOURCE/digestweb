@@ -11,6 +11,27 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-07-20/lightning-css-v1-33-0-new-css-features-supported",
+            "content_html": "## Summary & Key Takeaways\n\n### Key Additions\n\n- Adds support for the `::highlight` pseudo-element.\n- Introduces support for the `@position-try` at-rule.\n- Now supports `::search-text` and `:current::search-text` pseudo-classes.\n- Collapses `light-dark(x, x)` to `x` for optimization.\n- Includes support for `:target-before/after/current` pseudo-classes.\n- Adds support for the `alpha()` relative color function.\n- Fixes various bugs, including `rrggbbaa` support on older Android versions.\n\n## Our Commentary\n\nLightning CSS continues its relentless march forward, adding support for a slew of cutting-edge CSS features. We're particularly keen on `@position-try` and the `alpha()` relative color function. It's a good reminder that the CSS spec is always evolving, and tools like this are crucial for adopting new capabilities early. This is a solid update for anyone pushing the boundaries of CSS.\n\nOriginal Link: https://github.com/parcel-bundler/lightningcss/releases/tag/v1.33.0",
+            "url": "https://digestweb.dev/articles/2026-07-20/lightning-css-v1-33-0-new-css-features-supported",
+            "title": "Lightning CSS v1.33.0: New CSS Features Supported",
+            "summary": "Lightning CSS now supports several modern CSS features, including `::highlight`, `@position-try`, `::search-text`, and the `alpha()` relative color function.",
+            "image": "https://opengraph.githubassets.com/7da8db68e4b35200488ad3bc7bf5c15cf8a601a6cdd4e59169d672638fadcfcc/parcel-bundler/lightningcss/releases/tag/v1.33.0",
+            "date_modified": "2026-07-20T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-20/sam-altman-strategy-local-gpt3-stifle-open-source",
+            "content_html": "## Summary & Key Takeaways\n\n### Key Revelations\n\n- Sam Altman's email to OpenAI's board from October 2022 was exposed in the Musk v. Altman lawsuit.\n- The email discusses OpenAI's open-source strategy.\n- Altman states a desire to release a GPT-3-level model runnable locally on consumer hardware.\n- The goal is to do this \"soon, before Stability or someone else does.\"\n- This move is intended to discourage others from releasing similar models.\n- It also aims to make it harder for new AI efforts to secure funding.\n\n## Our Commentary\n\nThis quote from Sam Altman is... something else. We've always suspected the 'open' in OpenAI was more of a marketing term, but to see it laid out so explicitly – a strategy to release a model _specifically_ to stifle competition and funding for open-source efforts – is jarring. It makes me question the entire narrative around democratizing AI. This isn't just business; it's a calculated move to control the ecosystem. I genuinely don't know how to feel about this, but it certainly paints a clearer picture of the competitive landscape.\n\nOriginal Link: https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-20/sam-altman-strategy-local-gpt3-stifle-open-source",
+            "title": "Sam Altman's Strategy: Release Local GPT-3 to Stifle Open Source",
+            "summary": "A newly revealed email from Sam Altman outlines OpenAI's strategy to release a local GPT-3-level model to discourage competitors and hinder funding for new open-source AI efforts.",
+            "image": "https://picsum.photos/id/173/800/450",
+            "date_modified": "2026-07-20T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-07-19/ai-mania-corporate-hype-eviscerates-global-decision-making",
             "content_html": "## Summary & Key Takeaways\n\n- Nik Suresh's perspective highlights the overwhelming AI mania in large companies.\n- Executives are crafting AI strategies for multi-billion dollar organizations without ever using AI tools themselves.\n- Engineers are resorting to rewriting entire codebases in different languages to meet internal \"token leaderboards.\"\n- Vendor executives are pressured to validate absurd 100x productivity claims from customers to avoid contract cancellations.\n- This dynamic creates an environment where honesty about AI's true capabilities is suppressed.\n- The article suggests a systemic issue where fear of undermining customer credibility drives irrational decisions.\n\n## Our Commentary\n\nThis piece is a gut punch. I genuinely don't know how to feel about executives making multi-billion dollar AI strategies without ever touching ChatGPT. It's a wild west out there, and the anecdotes about engineers rewriting code just to hit a \"token leaderboard\" are just... wow. We're seeing a dangerous feedback loop where hype feeds more hype, and nobody wants to be the one to say the emperor has no clothes. It's unsettling to think about the long-term consequences of this kind of decision-making.\n\nOriginal Link: https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything",
             "url": "https://digestweb.dev/articles/2026-07-19/ai-mania-corporate-hype-eviscerates-global-decision-making",
@@ -33,6 +54,15 @@
             "author": {
                 "name": "Simon Willison"
             }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-19/pnpm-12-alpha-16-major-improvements-node-deno-bun",
+            "content_html": "## Summary & Key Takeaways\n\n### Key Updates\n\n- Achieves runtime installation parity across Node.js, Deno, and Bun.\n- Reports deprecated packages during installation with clear warnings.\n- Introduces native `install-test`, `recursive`, `multi`, and `m` commands in the Rust CLI.\n- Adds a `virtualStoreOnly` setting for populating the virtual store without post-import linking.\n- Improves repeat install reconciliation for `node_modules` consistency.\n- `enableModulesDir` can now be read from `pnpm-workspace.yaml`.\n- `pnpm install --ignore-scripts` now records skipped builds.\n\n## Our Commentary\n\nAn alpha release, but wow, the feature list here is substantial. The Rust CLI commands and the `virtualStoreOnly` setting are particularly interesting. We're seeing a trend of build tools rewriting core parts in Rust for performance, and pnpm is clearly leaning into that. The improved reconciliation logic also sounds like a huge DX win. I'm genuinely excited to see how this stabilizes.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.16",
+            "url": "https://digestweb.dev/articles/2026-07-19/pnpm-12-alpha-16-major-improvements-node-deno-bun",
+            "title": "pnpm 12 Alpha 16: Major Improvements for Node.js, Deno, and Bun",
+            "summary": "pnpm's latest alpha introduces a Rust-powered CLI, enhanced runtime parity across runtimes, and a new `virtualStoreOnly` setting for flexible dependency management.",
+            "image": "https://opengraph.githubassets.com/3a8152beb3100557b73ca8426c6afc0d3be48fd70a2b43dc69ce846c07cba572/pnpm/pnpm/releases/tag/v12.0.0-alpha.16",
+            "date_modified": "2026-07-19T00:00:00.000Z"
         },
         {
             "id": "https://digestweb.dev/articles/2026-07-19/rebuilding-fifa-standings-layout-css-subgrid",
