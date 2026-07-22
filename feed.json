@@ -11,6 +11,120 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-07-21/anthropic-claude-code-ai-workflows-insights",
+            "content_html": "## Summary & Key Takeaways\n\n- Claude Tag now handles 65% of product engineering PRs for the Claude Code team.\n- Automated code review is increasingly used for \"outer layers\" of the product.\n- Best practices for prompt engineering have evolved, with smaller, less restrictive prompts.\n- Anthropic's \"ant fooding\" culture drives internal tool adoption and feature validation.\n- Fable, their AI, is competent at video editing, even for its own launch video.\n- The team emphasizes \"auto mode\" as an enabling technology for collaboration.\n- Working in public internally is key to their success.\n\n## Our Commentary\n\nThis fireside chat is an absolute goldmine. The insights into how Anthropic uses its own AI tools are mind-blowing. 65% of PRs by an AI? Prompt engineering becoming _simpler_? This isn't just theory; it's real-world application from a leading AI lab. We're seeing a genuine paradigm shift in how software is built, and this article pulls back the curtain.\n\nOriginal Link: https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-21/anthropic-claude-code-ai-workflows-insights",
+            "title": "Anthropic's Claude Code Team: Inside Their AI-Driven Workflows",
+            "summary": "A deep dive into how Anthropic's Claude Code team uses their own AI tools, revealing insights into prompt engineering, automated code review, and internal development culture.",
+            "image": "https://img.youtube.com/vi/uU5Gv2h8-9g/maxresdefault.jpg",
+            "date_modified": "2026-07-21T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-21/anthropic-secure-ai-native-sdlc",
+            "content_html": "## Summary & Key Takeaways\n\n- Anthropic details its approach to securing an AI-native SDLC.\n- The article provides insights into their internal security practices.\n- It covers how they integrate security throughout the development process.\n\n## Our Commentary\n\nSecurity in AI development is paramount, and seeing how a major player like Anthropic handles it is genuinely valuable. We're still in the early days of 'AI-native' everything, so these foundational security practices are crucial. It's good to see them sharing this.\n\nOriginal Link: https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle",
+            "url": "https://digestweb.dev/articles/2026-07-21/anthropic-secure-ai-native-sdlc",
+            "title": "Anthropic's Secure AI-Native SDLC Practices",
+            "summary": "Explore how Anthropic approaches security within its AI-native software development lifecycle, sharing insights into their internal processes.",
+            "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a5faa4b748d179725b5376e_og_how-anthropic-secures-its-ai-native-software-development-lifecycle.jpg",
+            "date_modified": "2026-07-21T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-21/datadog-universal-machine-tool-claude-code",
+            "content_html": "## Summary & Key Takeaways\n\n- Datadog developed a \"universal machine tool\" using Claude Code.\n- This tool aims to streamline development workflows.\n- It showcases a practical application of Claude's AI capabilities.\n\n## Our Commentary\n\nCase studies like this are always interesting, showing how companies are actually integrating AI into their daily operations. It's less about the tech itself and more about the practical application. I'm always curious about the real-world impact beyond the hype.\n\nOriginal Link: https://claude.com/blog/how-datadog-built-a-universal-machine-tool-for-claude-code",
+            "url": "https://digestweb.dev/articles/2026-07-21/datadog-universal-machine-tool-claude-code",
+            "title": "Datadog's 'Universal Machine Tool' for Claude Code",
+            "summary": "Learn how Datadog leveraged Claude Code to build a 'universal machine tool,' streamlining their development workflows with AI assistance.",
+            "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a306fcfc8a37e6eafa4dce3_og_meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon.jpg",
+            "date_modified": "2026-07-21T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-21/github-copilot-canvases-interactive-ai-workspaces",
+            "content_html": "## Summary & Key Takeaways\n\n- Canvases enable interactive AI workspaces within GitHub Copilot.\n- Users can visualize information and explore workflows.\n- The feature helps take action across complex development tasks.\n\n## Our Commentary\n\nWe're always looking for ways to make AI more tangible and less like a black box. Canvases sound like a step in the right direction, turning abstract AI suggestions into something you can actually manipulate. I'm curious how intuitive these 'interactive workspaces' truly are in practice.\n\nOriginal Link: https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
+            "url": "https://digestweb.dev/articles/2026-07-21/github-copilot-canvases-interactive-ai-workspaces",
+            "title": "GitHub Copilot Canvases: Interactive AI Workspaces",
+            "summary": "Explore GitHub Copilot's new Canvases feature, transforming AI into interactive workspaces for visualizing information and streamlining complex tasks.",
+            "image": "https://github.blog/wp-content/uploads/2026/06/MSFTBuild_Blog_Header_01.jpg?fit=2400%2C1260",
+            "date_modified": "2026-07-21T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-21/google-deepmind-gemini-flash-models",
+            "content_html": "## Summary & Key Takeaways\n\n- Google DeepMind announced new Gemini models.\n- The releases include Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber.\n- These models likely offer specialized capabilities or improved efficiency.\n\n## Our Commentary\n\nMore Gemini models from DeepMind. It's a constant stream of updates in the LLM space, and 'Flash' usually implies speed and efficiency. We'll be watching to see how these new versions perform and what new use cases they unlock. The 'Cyber' variant sounds particularly intriguing.\n\nOriginal Link: https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
+            "url": "https://digestweb.dev/articles/2026-07-21/google-deepmind-gemini-flash-models",
+            "title": "Google DeepMind Unveils New Gemini Flash Models",
+            "summary": "Google DeepMind introduces Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber, expanding their suite of efficient and specialized AI models.",
+            "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5_3-6_3-5-Cyber__key-art__statement_.width-1300.jpg",
+            "date_modified": "2026-07-21T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-21/grabette-open-system-robot-manipulation-data",
+            "content_html": "## Summary & Key Takeaways\n\n- Grabette is an open system for recording robot-manipulation data.\n- It aims to facilitate research in physical AI and robotics.\n- The system provides a standardized way to collect and manage data.\n\n## Our Commentary\n\nThis is pretty niche, but for anyone working in robotics or physical AI, an open system for data collection is a big deal. It's the kind of foundational tooling that can accelerate research. We're always happy to see more open-source initiatives in AI.\n\nOriginal Link: https://huggingface.co/blog/grabette",
+            "url": "https://digestweb.dev/articles/2026-07-21/grabette-open-system-robot-manipulation-data",
+            "title": "Grabette: Open System for Robot Manipulation Data",
+            "summary": "Introducing Grabette, an open system designed to record and manage robot-manipulation data, facilitating research in physical AI and robotics.",
+            "image": "https://huggingface.co/blog/assets/grabette/thumbnail_grabette.png",
+            "date_modified": "2026-07-21T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-21/huggingface-simulation-physical-ai-overview",
+            "content_html": "## Summary & Key Takeaways\n\n- The article offers an overview of simulation in physical AI.\n- It covers the current state and challenges in this domain.\n- Hugging Face explores the role of simulation in developing AI for physical robots.\n\n## Our Commentary\n\nPhysical AI is a fascinating, if sometimes unsettling, frontier. This overview from Hugging Face is a good way to get up to speed on the role of simulation in that space. It's a niche, but important, area of AI research that we should keep an eye on.\n\nOriginal Link: https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
+            "url": "https://digestweb.dev/articles/2026-07-21/huggingface-simulation-physical-ai-overview",
+            "title": "The State of Simulation for Physical AI: An Overview",
+            "summary": "Hugging Face provides a comprehensive overview of the current landscape and challenges in using simulation for developing physical AI systems.",
+            "image": "https://cdn-uploads.huggingface.co/production/uploads/6994dc99f850a10f03fd0b21/qW-EiAM1rpPTBCzGK-Cbx.png",
+            "date_modified": "2026-07-21T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-21/javascript-weekly-nuxt-vue-framework-benchmarks-security",
+            "content_html": "## Summary & Key Takeaways\n\n- Nuxt 4.5 is released with Vite 8, Rspack 2, and SSR streaming.\n- Vue 3.6 is in Release Candidate, featuring the long-awaited Vapor Mode.\n- Comprehensive frontend framework benchmarks compare performance and UX metrics.\n- Angular is shifting to a yearly release cadence, with v23 scheduled for June 2027.\n- ESLint now provides official codemods for automated version migrations.\n- A security article details how fake coding challenges can steal credentials.\n- WebStorm 2026.2 adds TypeScript 7 support and enhanced Svelte/Vue support.\n\n## Our Commentary\n\nThis week's JavaScript Weekly is packed! Nuxt 4.5 and Vue 3.6 RC with Vapor Mode are huge for their respective communities. The framework benchmarks are always a hot topic, and a security warning about fake coding challenges is a timely reminder for everyone. It's a solid digest of what's moving in the frontend world.\n\nOriginal Link: https://javascriptweekly.com/issues/795",
+            "url": "https://digestweb.dev/articles/2026-07-21/javascript-weekly-nuxt-vue-framework-benchmarks-security",
+            "title": "JavaScript Weekly: Nuxt 4.5, Vue 3.6 RC, Framework Benchmarks & More",
+            "summary": "This week's JavaScript digest features major updates like Nuxt 4.5, Vue 3.6 RC with Vapor Mode, comprehensive frontend framework benchmarks, and a critical security alert.",
+            "image": "https://picsum.photos/id/672/800/450",
+            "date_modified": "2026-07-21T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-21/magnetic-commerce-dash-creative-website-webgl",
+            "content_html": "## Summary & Key Takeaways\n\n- The article details the creation of the Dash Creative website.\n- It focuses on how branding shaped interaction design and animation.\n- WebGL implementation was a core part of the site's visual experience.\n\n## Our Commentary\n\nCodrops always delivers on the visual front. This deep dive into a specific site's design and technical execution, especially with WebGL, is a treat. It's a good reminder that the web can be a truly artistic medium, not just a functional one. We love seeing these kinds of showcases.\n\nOriginal Link: https://tympanus.net/codrops/2026/07/21/magnetic-commerce-building-the-dash-creative-website/",
+            "url": "https://digestweb.dev/articles/2026-07-21/magnetic-commerce-dash-creative-website-webgl",
+            "title": "Magnetic Commerce: Crafting Dash Creative's WebGL Site",
+            "summary": "Discover how branding concepts influenced the interaction design, animation, and WebGL implementation of the visually stunning Dash Creative website.",
+            "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/07/DashCreative_Cover.png?x36066",
+            "date_modified": "2026-07-21T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-21/nativ-run-ai-models-locally-mac",
+            "content_html": "## Summary & Key Takeaways\n\n- Nativ is a new macOS app for running AI models locally.\n- Developed by Prince Canuma, creator of MLX-VLM.\n- It provides a user-friendly chat interface and a localhost API server.\n- The app integrates with existing Hugging Face MLX model caches.\n\n## Our Commentary\n\nLocal AI is where it's at for privacy and control. Nativ looks like a fantastic step forward for Mac users, making it genuinely easy to experiment with models without cloud dependencies. Simon Willison's endorsement is a strong signal. I'm excited to try this out.\n\nOriginal Link: https://simonwillison.net/2026/Jul/21/nativ/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-21/nativ-run-ai-models-locally-mac",
+            "title": "Nativ: Run AI Models Locally on Your Mac with Ease",
+            "summary": "Discover Nativ, a new macOS desktop application by Prince Canuma that simplifies running AI models locally, offering a chat interface and API server.",
+            "image": "https://picsum.photos/id/65/800/450",
+            "date_modified": "2026-07-21T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-21/openai-huggingface-ai-security-incident",
+            "content_html": "## Summary & Key Takeaways\n\n- OpenAI and Hugging Face collaborated on a security incident investigation.\n- The incident occurred during AI model evaluation.\n- Findings highlight advanced cyber capabilities targeting AI systems.\n- The report provides crucial lessons for AI security defenders.\n\n## Our Commentary\n\nA security incident involving two giants like OpenAI and Hugging Face is a big deal. It's a stark reminder that AI systems are not immune to sophisticated attacks. We need to pay close attention to these findings; the lessons learned here are critical for the entire AI ecosystem.\n\nOriginal Link: https://openai.com/index/hugging-face-model-evaluation-security-incident",
+            "url": "https://digestweb.dev/articles/2026-07-21/openai-huggingface-ai-security-incident",
+            "title": "OpenAI & Hugging Face Detail AI Model Security Incident",
+            "summary": "OpenAI and Hugging Face share findings from a security incident during AI model evaluation, offering lessons for defenders against advanced cyber threats.",
+            "image": "https://picsum.photos/id/362/800/450",
+            "date_modified": "2026-07-21T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-21/react-flight-protocol-deserialization-vulnerability-rsc",
+            "content_html": "## Summary & Key Takeaways\n\n- A CVSS 10.0 vulnerability, \"React2Shell,\" affects React Server Components (RSCs).\n- The vulnerability stems from deserialization sinks in the custom Flight protocol.\n- Attackers can exploit protocol manipulation to achieve remote code execution.\n- The article breaks down the mechanics of this critical security flaw.\n\n## Our Commentary\n\nA CVSS 10.0 vulnerability in React Server Components is a seismic event for the React ecosystem. This isn't just a bug; it's a fundamental flaw in the Flight protocol that allows remote code execution. Every React developer needs to understand this immediately. We're talking about a critical security issue that could have widespread implications.\n\nOriginal Link: https://smashingmagazine.com/2026/07/weaponizing-defending-react-flight-protocol/",
+            "url": "https://digestweb.dev/articles/2026-07-21/react-flight-protocol-deserialization-vulnerability-rsc",
+            "title": "Critical React Flight Protocol Vulnerability: Deserialization Sinks in RSCs",
+            "summary": "A CVSS 10.0 'React2Shell' vulnerability in React Server Components' Flight protocol exposes deserialization sinks, enabling remote code execution.",
+            "image": "https://files.smashing.media/articles/weaponizing-defending-react-flight-protocol/weaponizing-defending-react-flight-protocol.jpg",
+            "date_modified": "2026-07-21T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-07-20/agent-swarms-new-ai-model-economics",
             "content_html": "## Summary & Key Takeaways\n\n- The article delves into the concept and implications of \"agent swarms\" in AI.\n- It analyzes how these autonomous systems are influencing the economic structure of AI model deployment and usage.\n- The piece likely discusses new business models and value propositions arising from agent-driven automation.\n- Potential shifts in resource allocation and operational costs for AI development are explored.\n- It examines the broader impact on industries adopting or developing AI agent technologies.\n\n## Our Commentary\n\n\"Agent swarms\" – the phrase itself is a little unsettling, isn't it? But the \"new model economics\" part is what really grabs me. We're moving beyond just inference costs; now it's about orchestrating these things. I'm curious if this means more distributed compute or if it centralizes power even further. It's a complex topic, and I'm eager to see their take.\n\nOriginal Link: https://cursor.com/blog/agent-swarm-model-economics",
             "url": "https://digestweb.dev/articles/2026-07-20/agent-swarms-new-ai-model-economics",
