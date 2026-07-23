@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-07-22T04:17:10.500Z</updated>
+    <updated>2026-07-23T04:15:45.044Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,188 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Building Verification Loops in Claude Code with Skills]]></title>
+        <id>https://digestweb.dev/articles/2026-07-22/building-verification-loops-claude-code-skills</id>
+        <link href="https://digestweb.dev/articles/2026-07-22/building-verification-loops-claude-code-skills"/>
+        <link rel="enclosure" href="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a60f49903c39ea9ca321312_og_building-verification-loops-in-claude-code-with-skills.jpg" type="image/jpg"/>
+        <updated>2026-07-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Explore how to implement robust verification loops in Claude Code using its "skills" feature, enhancing the reliability of AI-generated code.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Explains how to build verification loops within Claude Code.
+- Utilizes Claude's "skills" feature to improve code generation.
+- Aims to enhance the reliability and correctness of AI-generated code.
+- Provides insights into practical AI agent development.
+
+## Our Commentary
+
+This is a solid technical piece. Verification loops are crucial for making AI-generated code reliable, and seeing how Claude's "skills" feature facilitates this is valuable. It's a step towards more robust AI-assisted development, which we desperately need.
+
+Original Link: https://claude.com/blog/building-verification-loops-in-claude-code-with-skills]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cursor Introduces Router for Enhanced AI Coding]]></title>
+        <id>https://digestweb.dev/articles/2026-07-22/cursor-introduces-router-enhanced-ai-coding</id>
+        <link href="https://digestweb.dev/articles/2026-07-22/cursor-introduces-router-enhanced-ai-coding"/>
+        <link rel="enclosure" href="https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/blog/cursor-router-og.gif" type="image/gif"/>
+        <updated>2026-07-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cursor unveils its new Router feature, designed to enhance AI coding by intelligently directing requests to the most suitable AI models for specific tasks.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Cursor has introduced a new feature called "Router."
+- The Router aims to enhance AI coding capabilities.
+- It intelligently directs coding requests to optimal AI models.
+- This could significantly improve the efficiency and accuracy of AI-assisted development.
+
+## Our Commentary
+
+A "Router" for an AI coding tool is intriguing. It suggests a more sophisticated approach to leveraging multiple models, which is a smart move. I've often wondered about the optimal model for different coding tasks, and if Cursor can abstract that away, it's a huge DX win. This could make AI coding assistants much more powerful and adaptable.
+
+Original Link: https://cursor.com/blog/router]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Engineering a Real-Time 3D Experience in Webflow]]></title>
+        <id>https://digestweb.dev/articles/2026-07-22/engineering-realtime-3d-experience-webflow</id>
+        <link href="https://digestweb.dev/articles/2026-07-22/engineering-realtime-3d-experience-webflow"/>
+        <link rel="enclosure" href="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/07/filip.jpg?x36066" type="image/jpg"/>
+        <updated>2026-07-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A deep dive into the architectural decisions, Webflow integration, and performance optimizations behind Ridgeline, a cinematic 3D web experience.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Explores the engineering behind Ridgeline, a real-time 3D web experience.
+- Covers architectural decisions and Webflow integration strategies.
+- Details real-time terrain rendering and animation techniques.
+- Discusses performance optimizations crucial for a cinematic 3D experience.
+
+## Our Commentary
+
+This is the kind of article I love to see. Taking a complex 3D experience and breaking down the engineering behind it, especially with Webflow integration, is super valuable. It shows what's possible when you push the web platform. I'm always curious about how these high-fidelity experiences manage performance.
+
+Original Link: https://tympanus.net/codrops/2026/07/22/building-ridgeline-engineering-a-real-time-3d-experience-in-webflow/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Open Models Recap: Kimi K3, Qwen 3.8, and More]]></title>
+        <id>https://digestweb.dev/articles/2026-07-22/open-models-recap-kimi-k3-qwen-3-8</id>
+        <link href="https://digestweb.dev/articles/2026-07-22/open-models-recap-kimi-k3-qwen-3-8"/>
+        <link rel="enclosure" href="https://substackcdn.com/image/fetch/$s_!v7es!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F207969620%2F7456517c-1b8e-47fc-815b-cfa3d76dcaa6%2Ftranscoded-1784683917.png" type="image/png"/>
+        <updated>2026-07-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This recap covers recent developments in open models, including Kimi K3, Qwen 3.8, and discussions on distillation and the open-closed gap in AI.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Provides a recap of recent developments in open AI models.
+- Discusses models like Kimi K3 and Qwen 3.8.
+- Touches on topics such as distillation and the open-closed gap in AI.
+- Features a podcast with Florian Brand.
+
+## Our Commentary
+
+Nathan Lambert's recaps are always insightful for keeping up with the open-source AI landscape. It's a good way to get a pulse on what's happening with models like Kimi K3 and Qwen 3.8, especially the ongoing debate around open vs. closed AI.
+
+Original Link: https://www.interconnects.ai/p/open-models-recap-more-on-kimi-k3]]></content>
+        <author>
+            <name>Nathan Lambert</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Introduces Presence: An Enterprise AI Agent Platform]]></title>
+        <id>https://digestweb.dev/articles/2026-07-22/openai-introduces-presence-enterprise-ai-agent-platform</id>
+        <link href="https://digestweb.dev/articles/2026-07-22/openai-introduces-presence-enterprise-ai-agent-platform"/>
+        <link rel="enclosure" href="https://picsum.photos/id/646/800/450" type="image//id/646/800/450"/>
+        <updated>2026-07-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI unveils Presence, a new enterprise AI agent platform designed to help organizations deploy trusted voice and chat agents for various workflows.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI has launched Presence, a new enterprise AI agent platform.
+- It enables organizations to deploy trusted voice and chat agents.
+- Presence is designed for both customer and internal workflows.
+- This marks a significant step into enterprise-grade AI agent solutions.
+
+## Our Commentary
+
+OpenAI Presence sounds like a big move into the enterprise agent space. "Trusted voice and chat agents" is a bold claim, and I'm curious about the underlying architecture and guardrails. This could be a game-changer for how businesses interact with AI, or it could be another platform that struggles with real-world complexity. We'll be watching this closely.
+
+Original Link: https://openai.com/index/introducing-openai-presence]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Outtake Builds Cyber Investigator on Claude]]></title>
+        <id>https://digestweb.dev/articles/2026-07-22/outtake-builds-cyber-investigator-on-claude</id>
+        <link href="https://digestweb.dev/articles/2026-07-22/outtake-builds-cyber-investigator-on-claude"/>
+        <link rel="enclosure" href="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a171e63d2dd3d5300703e8c_og_how-coderabbit-used-claude-to-build-an-agent-orchestration-system.jpg" type="image/jpg"/>
+        <updated>2026-07-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn how Outtake leveraged Claude to develop a cyber investigator, showcasing practical applications of the AI model in security workflows.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Details how Outtake developed a cyber investigator using Claude.
+- Highlights a practical application of Claude in the security domain.
+- Demonstrates the model's capabilities for complex investigative tasks.
+
+## Our Commentary
+
+Another application showcase for Claude. It's always interesting to see how companies are deploying these models in specific, high-stakes domains like cybersecurity. It makes me wonder about the specific challenges and safeguards needed for such an agent.
+
+Original Link: https://claude.com/blog/how-outtake-built-a-cyber-investigator-on-claude]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pnpm 11.16: New Versioning, Changesets & Workspace Settings]]></title>
+        <id>https://digestweb.dev/articles/2026-07-22/pnpm-11-16-new-versioning-changesets-workspace-settings</id>
+        <link href="https://digestweb.dev/articles/2026-07-22/pnpm-11-16-new-versioning-changesets-workspace-settings"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/2d3f48836791702005bd8eb04cfb45cb178282856893695f7843c814b99b5f95/pnpm/pnpm/releases/tag/v11.16.0" type="image/0"/>
+        <updated>2026-07-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This minor release introduces a new verbatim versioning approach, a `--changeset` flag for automated updates, and enhanced configuration options for workspaces.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Packages now publish their manifest version verbatim on first release.
+- A `--changeset` flag automates patch/major bumps for updated workspace packages.
+- GitHub Actions dependencies are now supported in `pnpm outdated` and interactive `pnpm update`.
+- New `update` and `audit` settings sections are added to `pnpm-workspace.yaml`.
+
+## Our Commentary
+
+It's interesting to see these features land in a stable 11.x release while also being part of the 12 alpha. This suggests a rapid iteration cycle. The `--changeset` flag is a standout feature, making dependency management in monorepos much smoother. I appreciate the continued focus on improving the developer experience for complex setups.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.16.0]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pnpm 12 Alpha 18: Enhanced Versioning & Workspace Tools]]></title>
+        <id>https://digestweb.dev/articles/2026-07-22/pnpm-12-alpha-18-enhanced-versioning-workspace-tools</id>
+        <link href="https://digestweb.dev/articles/2026-07-22/pnpm-12-alpha-18-enhanced-versioning-workspace-tools"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/6a2e938a804a98de6b361d14678e50a0adaca8b12e3739fd6c3ad7a83c7f3a55/pnpm/pnpm/releases/tag/v12.0.0-alpha.18" type="image/18"/>
+        <updated>2026-07-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This alpha release brings major updates to pnpm's versioning logic, introduces npm-style bump forms, and significantly improves recursive workspace support.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- First package releases now publish the manifest version verbatim, not bumped.
+- `pnpm version` now supports npm-style bump forms and lifecycle scripts.
+- Recursive workspace support is added to `pnpm outdated`, `list`, `ll`, `rebuild`, `why`, and `peers`.
+- A new `--changeset` flag automates patch/major bumps for updated workspace packages.
+- Changesets are generated for dependency, optionalDependency, and peerDependency changes.
+
+## Our Commentary
+
+I'm genuinely impressed by the continued evolution of pnpm. The new versioning logic and the `--changeset` flag feel like a huge win for monorepo maintainers. Automating those patch/major bumps based on dependency changes? That's just smart. We've all been there, manually figuring out what needs a bump. This is a solid DX improvement.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.18]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Safari Technology Preview 248 Released]]></title>
+        <id>https://digestweb.dev/articles/2026-07-22/safari-technology-preview-248-released</id>
+        <link href="https://digestweb.dev/articles/2026-07-22/safari-technology-preview-248-released"/>
+        <link rel="enclosure" href="https://webkit.org/wp-content/themes/webkit/images/preview-card.jpg" type="image/jpg"/>
+        <updated>2026-07-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[WebKit's latest Safari Technology Preview 248 is now available, bringing incremental updates and bug fixes for macOS Golden Gate and Tahoe.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Safari Technology Preview Release 248 is now available for download.
+- It supports macOS Golden Gate and macOS Tahoe.
+- Refer to the full release notes for detailed changes.
+
+## Our Commentary
+
+Another STP release. These are always good to see, indicating continuous development. We're always watching for those subtle web platform improvements that eventually make it to stable Safari.
+
+Original Link: https://webkit.org/blog/18162/release-notes-for-safari-technology-preview-248/]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Anthropic's Claude Code Team: Inside Their AI-Driven Workflows]]></title>
         <id>https://digestweb.dev/articles/2026-07-21/anthropic-claude-code-ai-workflows-insights</id>
@@ -218,6 +400,26 @@ Original Link: https://simonwillison.net/2026/Jul/21/nativ/#atom-everything]]></
         <author>
             <name>Simon Willison</name>
         </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nub: A New Performance Toolchain for Node.js]]></title>
+        <id>https://digestweb.dev/articles/2026-07-21/nub-new-performance-toolchain-nodejs</id>
+        <link href="https://digestweb.dev/articles/2026-07-21/nub-new-performance-toolchain-nodejs"/>
+        <link rel="enclosure" href="https://master.dev/blog/wp-json/social-image-generator/v1/image/10476" type="image//blog/wp-json/social-image-generator/v1/image/10476"/>
+        <updated>2026-07-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Discover Nub, an interesting new toolchain for Node.js that promises to significantly speed up common development tasks like installing and running scripts.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Introduces Nub, a new toolchain designed for Node.js.
+- Aims to accelerate existing Node.js development workflows.
+- Promises faster installation and script execution.
+- Positioned as a potential de facto way to optimize Node.js apps.
+
+## Our Commentary
+
+A new Node.js toolchain promising "everything faster" always catches my eye. We've seen a lot of innovation in this space lately with runtimes like Bun and Deno. If Nub can deliver on its promise of significant speedups for common tasks, it could become a very popular addition to the Node.js ecosystem. I'm curious about its underlying tech.
+
+Original Link: https://master.dev/blog/nub/]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[OpenAI & Hugging Face Detail AI Model Security Incident]]></title>
