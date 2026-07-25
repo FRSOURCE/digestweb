@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Sat, 25 Jul 2026 04:10:01 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 25 Jul 2026 09:01:41 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -33,6 +33,29 @@ AI controlling drones? This is the kind of research that makes me sit up straigh
 
 Original Link: https://www.anthropic.com/research/project-pilot]]></content:encoded>
             <enclosure url="https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Anthropic Unveils Claude Opus 5: A New Frontier in LLM Intelligence]]></title>
+            <link>https://digestweb.dev/articles/2026-07-24/anthropic-unveils-claude-opus-5-new-frontier-llm-intelligence</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-24/anthropic-unveils-claude-opus-5-new-frontier-llm-intelligence</guid>
+            <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Anthropic introduces Claude Opus 5, a "thoughtful and proactive" LLM that leads benchmarks, offers advanced problem-solving, and improves vulnerability detection without exploitation training.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Anthropic has released Claude Opus 5, a new large language model.
+- Opus 5 is described as "thoughtful and proactive," approaching the intelligence of Claude Fable 5 at half the price.
+- It currently leads the Artificial Analysis leaderboard, surpassing Fable 5.
+- The model demonstrated advanced problem-solving by creating a computer vision pipeline to reconstruct a 3D model from a drawing it couldn't directly view.
+- Opus 5 shows improved capability in finding cybersecurity vulnerabilities but is not trained to exploit them.
+- Anthropic has published a prompting guide for the new model.
+
+## Our Commentary
+
+Okay, Opus 5. This is big. The anecdote about it building its own computer vision pipeline to solve a task it wasn't explicitly given the tools for? That's genuinely unsettling and fascinating all at once. It feels like a leap in emergent capabilities. The focus on finding vulnerabilities without training for exploitation is a smart move, but I'm still left with a knot in my stomach about how quickly these models are advancing. We're seeing intelligence that adapts and creates its own tools. It's a lot to process.
+
+Original Link: https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/463/800/450" length="0" type="image//id/463/800/450"/>
         </item>
         <item>
             <title><![CDATA[Claude Design: How Its Creator Uses AI for Idea Exploration]]></title>
@@ -90,6 +113,26 @@ Conic gradients for triangles? I love these kinds of creative CSS hacks. It's no
 
 Original Link: https://master.dev/blog/when-you-need-to-make-a-triangle-think-conic-gradients/]]></content:encoded>
             <enclosure url="https://master.dev/blog/wp-json/social-image-generator/v1/image/10485" length="0" type="image//blog/wp-json/social-image-generator/v1/image/10485"/>
+        </item>
+        <item>
+            <title><![CDATA[Introducing TanStack Markdown and Highlight: Tiny, Synchronous Content Tools]]></title>
+            <link>https://digestweb.dev/articles/2026-07-24/introducing-tanstack-markdown-highlight-content-tools</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-24/introducing-tanstack-markdown-highlight-content-tools</guid>
+            <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[TanStack unveils two new libraries, Markdown and Highlight, designed for deterministic, themeable technical content rendering without a full publishing system.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- TanStack released two new libraries: TanStack Markdown and TanStack Highlight.
+- These are tiny, synchronous tools for rendering technical content.
+- They enable deterministic and themeable webpages.
+- The goal is to avoid shipping a general-purpose publishing system.
+
+## Our Commentary
+
+This is interesting. We've seen a lot of complexity around content rendering, especially with server components. The idea of "tiny, synchronous" tools for this specific problem feels like a breath of fresh air. I appreciate the focus on determinism and themeability without the overhead of a full CMS. It's a niche problem, but a common one for documentation sites.
+
+Original Link: https://tanstack.com/blog/introducing-tanstack-markdown-and-highlight]]></content:encoded>
+            <enclosure url="https://tanstack.com/cdn-cgi/image/width=1200,height=630,fit=cover,quality=80,format=auto/blog-assets/introducing-tanstack-markdown-and-highlight/header.webp" length="0" type="image/webp"/>
         </item>
         <item>
             <title><![CDATA[New Context Engineering Rules for Claude 5 Generation Models]]></title>
@@ -190,6 +233,26 @@ We appreciate the continued focus on developer experience, especially with CI/CD
 
 Original Link: https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.21]]></content:encoded>
             <enclosure url="https://opengraph.githubassets.com/3986a8896131f86fc86dc1e26013b5c0cd99e01680d89f154e4be777070ca0ec/pnpm/pnpm/releases/tag/v12.0.0-alpha.21" length="0" type="image/21"/>
+        </item>
+        <item>
+            <title><![CDATA[TanStack Removes React Server Components from TanStack.com]]></title>
+            <link>https://digestweb.dev/articles/2026-07-24/tanstack-removes-react-server-components-from-tanstack-com</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-24/tanstack-removes-react-server-components-from-tanstack-com</guid>
+            <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[TanStack explains why they removed React Server Components from their website, citing unwanted runtime and code-shape tradeoffs after optimizing their markdown and highlighting stack.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- TanStack removed React Server Components (RSC) from their official website.
+- RSCs initially solved a performance problem for tanstack.com.
+- After optimizing their markdown and highlighting stack, RSCs introduced unwanted runtime and code-shape tradeoffs.
+- The decision reflects a re-evaluation of RSC benefits versus their practical implications in a highly optimized environment.
+
+## Our Commentary
+
+This is a big one. We've been watching the RSC story unfold, and hearing a major player like TanStack explicitly state they _removed_ them due to tradeoffs, even after initial performance gains, is incredibly telling. It really makes you wonder about the true cost-benefit analysis for many projects. It's not a blanket condemnation, but it certainly adds weight to the argument that RSCs aren't a silver bullet and come with their own set of complexities that might not always pay off. I'm genuinely curious how many other teams will reach similar conclusions as their stacks mature.
+
+Original Link: https://tanstack.com/blog/we-removed-rsc-from-tanstack-com]]></content:encoded>
+            <enclosure url="https://tanstack.com/assets/og-C0HGjoLl.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[UX-Context Design: Guiding AI-Generated Interfaces with UX Knowledge]]></title>

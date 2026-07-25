@@ -20,6 +20,18 @@
             "date_modified": "2026-07-24T00:00:00.000Z"
         },
         {
+            "id": "https://digestweb.dev/articles/2026-07-24/anthropic-unveils-claude-opus-5-new-frontier-llm-intelligence",
+            "content_html": "## Summary & Key Takeaways\n\n- Anthropic has released Claude Opus 5, a new large language model.\n- Opus 5 is described as \"thoughtful and proactive,\" approaching the intelligence of Claude Fable 5 at half the price.\n- It currently leads the Artificial Analysis leaderboard, surpassing Fable 5.\n- The model demonstrated advanced problem-solving by creating a computer vision pipeline to reconstruct a 3D model from a drawing it couldn't directly view.\n- Opus 5 shows improved capability in finding cybersecurity vulnerabilities but is not trained to exploit them.\n- Anthropic has published a prompting guide for the new model.\n\n## Our Commentary\n\nOkay, Opus 5. This is big. The anecdote about it building its own computer vision pipeline to solve a task it wasn't explicitly given the tools for? That's genuinely unsettling and fascinating all at once. It feels like a leap in emergent capabilities. The focus on finding vulnerabilities without training for exploitation is a smart move, but I'm still left with a knot in my stomach about how quickly these models are advancing. We're seeing intelligence that adapts and creates its own tools. It's a lot to process.\n\nOriginal Link: https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-24/anthropic-unveils-claude-opus-5-new-frontier-llm-intelligence",
+            "title": "Anthropic Unveils Claude Opus 5: A New Frontier in LLM Intelligence",
+            "summary": "Anthropic introduces Claude Opus 5, a \"thoughtful and proactive\" LLM that leads benchmarks, offers advanced problem-solving, and improves vulnerability detection without exploitation training.",
+            "image": "https://picsum.photos/id/463/800/450",
+            "date_modified": "2026-07-24T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-07-24/claude-design-creator-uses-ai-for-ideas",
             "content_html": "## Summary & Key Takeaways\n\n- The article details how Claude Design's creator uses the AI tool.\n- It focuses on using AI for exploring and refining design ideas.\n- This provides a practical example of AI integration into a design workflow.\n\n## Our Commentary\n\nIt's always cool to see how the creators use their own tools. This kind of dogfooding often reveals interesting workflows and potential. We're seeing more and more AI integration into creative processes, and this is a neat example of that in action.\n\nOriginal Link: https://claude.com/blog/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them",
             "url": "https://digestweb.dev/articles/2026-07-24/claude-design-creator-uses-ai-for-ideas",
@@ -44,6 +56,15 @@
             "title": "Creative CSS: Crafting Triangles with Conic Gradients",
             "summary": "Explore an alternative and fun method for creating triangles in CSS using `conic-gradient()`. This tutorial highlights the angular control offered by conic gradients for unique design elements.",
             "image": "https://master.dev/blog/wp-json/social-image-generator/v1/image/10485",
+            "date_modified": "2026-07-24T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-24/introducing-tanstack-markdown-highlight-content-tools",
+            "content_html": "## Summary & Key Takeaways\n\n- TanStack released two new libraries: TanStack Markdown and TanStack Highlight.\n- These are tiny, synchronous tools for rendering technical content.\n- They enable deterministic and themeable webpages.\n- The goal is to avoid shipping a general-purpose publishing system.\n\n## Our Commentary\n\nThis is interesting. We've seen a lot of complexity around content rendering, especially with server components. The idea of \"tiny, synchronous\" tools for this specific problem feels like a breath of fresh air. I appreciate the focus on determinism and themeability without the overhead of a full CMS. It's a niche problem, but a common one for documentation sites.\n\nOriginal Link: https://tanstack.com/blog/introducing-tanstack-markdown-and-highlight",
+            "url": "https://digestweb.dev/articles/2026-07-24/introducing-tanstack-markdown-highlight-content-tools",
+            "title": "Introducing TanStack Markdown and Highlight: Tiny, Synchronous Content Tools",
+            "summary": "TanStack unveils two new libraries, Markdown and Highlight, designed for deterministic, themeable technical content rendering without a full publishing system.",
+            "image": "https://tanstack.com/cdn-cgi/image/width=1200,height=630,fit=cover,quality=80,format=auto/blog-assets/introducing-tanstack-markdown-and-highlight/header.webp",
             "date_modified": "2026-07-24T00:00:00.000Z"
         },
         {
@@ -89,6 +110,15 @@
             "title": "pnpm 12 Alpha 21: GitHub Actions & Dependency Update Enhancements",
             "summary": "This alpha release of pnpm 12 brings improved GitHub Actions integration, ensuring global commands work seamlessly. It also refines `pnpm update --latest` to better handle non-registry dependencies.",
             "image": "https://opengraph.githubassets.com/3986a8896131f86fc86dc1e26013b5c0cd99e01680d89f154e4be777070ca0ec/pnpm/pnpm/releases/tag/v12.0.0-alpha.21",
+            "date_modified": "2026-07-24T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-24/tanstack-removes-react-server-components-from-tanstack-com",
+            "content_html": "## Summary & Key Takeaways\n\n- TanStack removed React Server Components (RSC) from their official website.\n- RSCs initially solved a performance problem for tanstack.com.\n- After optimizing their markdown and highlighting stack, RSCs introduced unwanted runtime and code-shape tradeoffs.\n- The decision reflects a re-evaluation of RSC benefits versus their practical implications in a highly optimized environment.\n\n## Our Commentary\n\nThis is a big one. We've been watching the RSC story unfold, and hearing a major player like TanStack explicitly state they _removed_ them due to tradeoffs, even after initial performance gains, is incredibly telling. It really makes you wonder about the true cost-benefit analysis for many projects. It's not a blanket condemnation, but it certainly adds weight to the argument that RSCs aren't a silver bullet and come with their own set of complexities that might not always pay off. I'm genuinely curious how many other teams will reach similar conclusions as their stacks mature.\n\nOriginal Link: https://tanstack.com/blog/we-removed-rsc-from-tanstack-com",
+            "url": "https://digestweb.dev/articles/2026-07-24/tanstack-removes-react-server-components-from-tanstack-com",
+            "title": "TanStack Removes React Server Components from TanStack.com",
+            "summary": "TanStack explains why they removed React Server Components from their website, citing unwanted runtime and code-shape tradeoffs after optimizing their markdown and highlighting stack.",
+            "image": "https://tanstack.com/assets/og-C0HGjoLl.png",
             "date_modified": "2026-07-24T00:00:00.000Z"
         },
         {
