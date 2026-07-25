@@ -11,6 +11,105 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-07-24/anthropic-project-pilot-ai-drone-control",
+            "content_html": "## Summary & Key Takeaways\n\n- Anthropic's Frontier Red Team conducted \"Project Pilot\" research.\n- The project investigates whether AI can effectively control a drone.\n- This research is crucial for understanding AI's real-world capabilities and safety implications.\n\n## Our Commentary\n\nAI controlling drones? This is the kind of research that makes me sit up straight. It's not just about capability; it's about the ethical and safety implications. Anthropic's red team approach is exactly what we need here. I'm genuinely curious about the findings and what guardrails they're exploring. This feels like a step into a very real future.\n\nOriginal Link: https://www.anthropic.com/research/project-pilot",
+            "url": "https://digestweb.dev/articles/2026-07-24/anthropic-project-pilot-ai-drone-control",
+            "title": "Anthropic's Project Pilot: Can AI Control a Drone?",
+            "summary": "Anthropic's Frontier Red Team investigates the capabilities of AI in controlling drones, a critical area for understanding AI safety and real-world interaction. This research explores the practical limits and implications of such systems.",
+            "image": "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+            "date_modified": "2026-07-24T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-24/claude-design-creator-uses-ai-for-ideas",
+            "content_html": "## Summary & Key Takeaways\n\n- The article details how Claude Design's creator uses the AI tool.\n- It focuses on using AI for exploring and refining design ideas.\n- This provides a practical example of AI integration into a design workflow.\n\n## Our Commentary\n\nIt's always cool to see how the creators use their own tools. This kind of dogfooding often reveals interesting workflows and potential. We're seeing more and more AI integration into creative processes, and this is a neat example of that in action.\n\nOriginal Link: https://claude.com/blog/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them",
+            "url": "https://digestweb.dev/articles/2026-07-24/claude-design-creator-uses-ai-for-ideas",
+            "title": "Claude Design: How Its Creator Uses AI for Idea Exploration",
+            "summary": "Discover how the product designer behind Claude Design leverages the AI tool to explore and refine ideas before committing to development. This article offers a practical look at AI-assisted design workflows.",
+            "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a63a82fefafebcd8e7014b1_og_how-the-product-designer-who-built-claude-design-uses-it.jpg",
+            "date_modified": "2026-07-24T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-24/claude-models-explained-choosing-best-for-use-case",
+            "content_html": "## Summary & Key Takeaways\n\n- The article provides an explanation of the various Claude AI models.\n- It offers guidance on selecting the optimal model for different use cases.\n- The goal is to help users effectively leverage Claude's capabilities.\n\n## Our Commentary\n\nWith so many models and tiers, a guide like this is genuinely helpful. It's easy to get lost in the options, and understanding the nuances between them can save a lot of prompt engineering headaches. We appreciate the clarity.\n\nOriginal Link: https://claude.com/blog/claude-models-explained-choosing-the-best-model-for-your-use-case",
+            "url": "https://digestweb.dev/articles/2026-07-24/claude-models-explained-choosing-best-for-use-case",
+            "title": "Claude Models Explained: Choosing the Right AI for Your Task",
+            "summary": "This guide from Claude explains the different models available and provides insights on how to select the most suitable one for various AI use cases. It aims to help users optimize their interactions with Claude.",
+            "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a639bdab734de5ebb484e76_og_claude-models-explained-choosing-the-best-model-for-your-use-case.jpg",
+            "date_modified": "2026-07-24T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-24/creative-css-triangles-conic-gradients",
+            "content_html": "## Summary & Key Takeaways\n\n- The article presents `conic-gradient()` as a method for creating triangles in CSS.\n- It emphasizes the angular control available with conic gradients.\n- This technique offers a creative and enjoyable approach to CSS shape creation.\n\n## Our Commentary\n\nConic gradients for triangles? I love these kinds of creative CSS hacks. It's not always the most performant or semantic way, but it definitely sparks joy and pushes the boundaries of what we think CSS can do. We're always here for a good \"think outside the box\" moment.\n\nOriginal Link: https://master.dev/blog/when-you-need-to-make-a-triangle-think-conic-gradients/",
+            "url": "https://digestweb.dev/articles/2026-07-24/creative-css-triangles-conic-gradients",
+            "title": "Creative CSS: Crafting Triangles with Conic Gradients",
+            "summary": "Explore an alternative and fun method for creating triangles in CSS using `conic-gradient()`. This tutorial highlights the angular control offered by conic gradients for unique design elements.",
+            "image": "https://master.dev/blog/wp-json/social-image-generator/v1/image/10485",
+            "date_modified": "2026-07-24T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-24/new-context-engineering-rules-claude-5",
+            "content_html": "## Summary & Key Takeaways\n\n- Claude has published new guidelines for context engineering.\n- These rules are specifically designed for the Claude 5 generation models.\n- The update is important for optimizing interactions and performance with the new AI.\n\n## Our Commentary\n\n\"New rules of context engineering for Claude 5\"? This is big. It implies Claude 5 is out or imminent, and that it behaves differently enough to warrant new prompting strategies. We're always trying to keep up with the rapid pace of LLM evolution, and this kind of specific guidance is invaluable. I'm eager to dive into these changes.\n\nOriginal Link: https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+            "url": "https://digestweb.dev/articles/2026-07-24/new-context-engineering-rules-claude-5",
+            "title": "New Context Engineering Rules for Claude 5 Generation Models",
+            "summary": "Claude has released new guidelines for context engineering, specifically tailored for its Claude 5 generation models. This update is crucial for developers and users looking to optimize performance and interaction with the latest AI.",
+            "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a639c6b2e881afef80764c6_og_the-new-rules-of-context-engineering-for-claude-5-generation-models.jpg",
+            "date_modified": "2026-07-24T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-24/nodejs-new-api-documentation-preview",
+            "content_html": "## Summary & Key Takeaways\n\n- Node.js has announced a preview of its redesigned API documentation.\n- The new documentation aims to improve user-friendliness and comprehensiveness.\n- This update is expected to enhance the developer experience for Node.js users.\n\n## Our Commentary\n\nNew Node.js docs? Yes, please. The existing ones are functional, but a refresh could make a huge difference for onboarding and daily lookups. We're always here for anything that smooths out the developer journey. I'm curious to see the new structure and search capabilities.\n\nOriginal Link: https://nodejs.org/en/blog/announcements/new-api-docs-beta",
+            "url": "https://digestweb.dev/articles/2026-07-24/nodejs-new-api-documentation-preview",
+            "title": "Node.js Unveils New API Documentation Preview",
+            "summary": "Node.js has released a preview of its updated API documentation, promising a more user-friendly and comprehensive resource for developers. This initiative aims to enhance the overall developer experience.",
+            "image": "https://nodejs.org/en/next-data/og/announcements/Node.js%20%E2%80%94%20Check%20out%20the%20New%20Node.js%20API%20Documentation%20Preview",
+            "date_modified": "2026-07-24T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-24/optimizing-ray-ai-libraries-google-tpus",
+            "content_html": "## Summary & Key Takeaways\n\n- The article is the second part of a series on running Ray on TPUs.\n- It focuses on how Ray's Serve, Data, and Train libraries abstract AI workload complexities.\n- Ray Serve enables gang-scheduling for large multi-host models.\n- Ray Data optimizes data loading by feeding accelerators with native JAX batches.\n- JaxTrainer streamlines distributed training across TPUs with automated coordination and fault tolerance.\n\n## Our Commentary\n\nRunning Ray on TPUs is definitely a niche, but for those in that niche, this kind of deep-dive is gold. We're seeing more and more specialized guides for optimizing AI workloads on specific hardware. It's a reminder that the infrastructure layer for AI is getting incredibly complex, and these abstractions are vital.\n\nOriginal Link: https://developers.googleblog.com/run-ray-on-tpu-part-2-ray-ai-libraries/",
+            "url": "https://digestweb.dev/articles/2026-07-24/optimizing-ray-ai-libraries-google-tpus",
+            "title": "Optimizing Ray AI Libraries on Google TPUs: A Deep Dive",
+            "summary": "This article explores how Ray's higher-level libraries—Serve, Data, and Train—abstract the complexities of running AI workloads on Google's TPU slices. It details optimizations for gang-scheduling, data loading, and distributed training.",
+            "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header.2e16d0ba.fill-1200x600_0WAoq50.png",
+            "date_modified": "2026-07-24T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-24/playwright-v1-62-component-testing-abortsignal-webp",
+            "content_html": "## Summary & Key Takeaways\n\n- A new component testing model is introduced, utilizing stories and galleries.\n- The `fixtures.mount()` fixture now mounts stories by ID and returns a scoped locator.\n- Most Playwright operations and web-first assertions now accept an `AbortSignal` for cancellation.\n- Screenshot assertions (`toHaveScreenshot()`) and standalone screenshots (`page.screenshot()`) support the WebP format.\n- WebP screenshots can be lossless or lossy, allowing for quality-size trade-offs.\n\n## Our Commentary\n\nPlaywright just keeps delivering. The new component testing model sounds like a huge step towards more integrated and efficient UI testing. And `AbortSignal` support? That's a game-changer for handling flaky tests or long-running operations gracefully. We've been waiting for better screenshot formats too, so WebP is a welcome addition. This release feels incredibly polished.\n\nOriginal Link: https://github.com/microsoft/playwright/releases/tag/v1.62.0",
+            "url": "https://digestweb.dev/articles/2026-07-24/playwright-v1-62-component-testing-abortsignal-webp",
+            "title": "Playwright v1.62.0: Component Testing, AbortSignal, & WebP Screenshots",
+            "summary": "Playwright v1.62.0 introduces a new story-based component testing model, adds `AbortSignal` support for canceling operations, and enables WebP format for screenshots. These updates enhance testing flexibility and efficiency.",
+            "image": "https://opengraph.githubassets.com/0da105530f7163f7ce9d920b60d877b53de0a08252a6c89c30c03a45a671db76/microsoft/playwright/releases/tag/v1.62.0",
+            "date_modified": "2026-07-24T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-24/pnpm-12-alpha-21-github-actions-dependency-updates",
+            "content_html": "## Summary & Key Takeaways\n\n- pnpm setup now appends `PNPM_HOME` and global bin directory to GitHub Actions environment files.\n- GitHub Actions dependency checking is now opt-in for `pnpm outdated` and `pnpm update`.\n- `pnpm update --latest` no longer overwrites non-registry dependencies with unrelated package versions.\n- `pnpm update --latest` avoids rewriting `package.json` if dependencies are already at their latest.\n\n## Our Commentary\n\nWe appreciate the continued focus on developer experience, especially with CI/CD. Making GitHub Actions dependency checks opt-in is a smart move; those `git ls-remote` calls can be a real pain in restricted environments. And fixing `pnpm update --latest` to respect non-registry dependencies? That's just good hygiene.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.21",
+            "url": "https://digestweb.dev/articles/2026-07-24/pnpm-12-alpha-21-github-actions-dependency-updates",
+            "title": "pnpm 12 Alpha 21: GitHub Actions & Dependency Update Enhancements",
+            "summary": "This alpha release of pnpm 12 brings improved GitHub Actions integration, ensuring global commands work seamlessly. It also refines `pnpm update --latest` to better handle non-registry dependencies.",
+            "image": "https://opengraph.githubassets.com/3986a8896131f86fc86dc1e26013b5c0cd99e01680d89f154e4be777070ca0ec/pnpm/pnpm/releases/tag/v12.0.0-alpha.21",
+            "date_modified": "2026-07-24T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-24/ux-context-design-ai-generated-interfaces",
+            "content_html": "## Summary & Key Takeaways\n\n- The article introduces the concept of UX-Context Design.\n- It discusses the shift in UX research output from human-readable documents to AI-guiding context.\n- The focus is on using UX knowledge to inform and shape AI-generated interfaces.\n- This represents a new paradigm in the design process driven by AI integration.\n\n## Our Commentary\n\nThis is the kind of article that makes me pause and think about the future of our craft. The idea that UX designers will be \"curating context\" for AI rather than just designing for humans is a profound shift. We're going to need new skill sets, new ways of thinking. I'm not sure if I'm excited or terrified, but it's definitely happening.\n\nOriginal Link: https://www.nngroup.com/articles/ux-context-design/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+            "url": "https://digestweb.dev/articles/2026-07-24/ux-context-design-ai-generated-interfaces",
+            "title": "UX-Context Design: Guiding AI-Generated Interfaces with UX Knowledge",
+            "summary": "This article from NNGroup discusses the evolving role of UX design, where traditional research outputs shift to curated context that informs and guides AI in generating user interfaces. It highlights a new paradigm for design.",
+            "image": "https://media.nngroup.com/media/articles/opengraph_images/UX_Context_Design_1.png",
+            "date_modified": "2026-07-24T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-24/vitest-v5-beta-7-benchmarking-api-performance",
+            "content_html": "## Summary & Key Takeaways\n\n- Config resolution is now separated from server creation, introducing breaking changes.\n- A new togglable `injectCjsGlobals` option has been added.\n- `fsModuleCache` is promoted to a top-level configuration option.\n- The benchmark system now features a pluggable provider API.\n- Performance is improved by serving warm modules to workers and enabling a Node compile cache.\n- The Node compile cache is now opt-in and worker caches persist on teardown.\n\n## Our Commentary\n\nVitest keeps pushing. A pluggable benchmark API in a testing framework is a really interesting direction; it feels like they're building a comprehensive dev tool, not just a test runner. And the performance gains from the Node compile cache? That's just good news for everyone. We're seeing a lot of focus on speed in the tooling space, and Vitest is clearly leading the charge here.\n\nOriginal Link: https://github.com/vitest-dev/vitest/releases/tag/v5.0.0-beta.7",
+            "url": "https://digestweb.dev/articles/2026-07-24/vitest-v5-beta-7-benchmarking-api-performance",
+            "title": "Vitest v5.0.0-beta.7: Benchmarking API & Performance Boosts",
+            "summary": "Vitest's latest beta introduces a pluggable benchmark provider API and crucial performance optimizations like a Node compile cache. It also includes breaking changes and various bug fixes.",
+            "image": "https://opengraph.githubassets.com/513e9cea1d6d7d613e87a40cb0b73adadd4d70c539457d9f7e09ca30c4609f79/vitest-dev/vitest/releases/tag/v5.0.0-beta.7",
+            "date_modified": "2026-07-24T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-07-23/alex-russell-absolute-state-of-management-react",
             "content_html": "## Summary & Key Takeaways\n\n- The article questions the widespread use of 'state management' libraries in React, given React's own state management capabilities.\n- It points out the linguistic confusion and redundancy when multiple 'state management' systems are used in a single application.\n- Russell argues that either React's state management is sufficient, or it's inadequate, leading to unnecessary dependencies.\n- The piece encourages developers to critically evaluate their choices and avoid over-engineering with duplicative solutions.\n\n## Our Commentary\n\nAlex Russell always brings the heat, and this piece is no exception. 'State management' in React is a mess, and I'm glad someone is calling it out. We've all been there, staring at a project with Redux, Zustand, and Jotai all trying to manage 'state.' It's absurd. His Socratic dialogue perfectly captures the confusion. It makes me wonder if we've collectively lost the plot on what 'state' even means anymore. This is a necessary gut-check for the React community.\n\nOriginal Link: https://infrequently.org/2026/07/state-management/",
             "url": "https://digestweb.dev/articles/2026-07-23/alex-russell-absolute-state-of-management-react",
