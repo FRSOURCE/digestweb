@@ -11,6 +11,15 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-07-28/cloudflare-workers-hyperdrive-sveltekit-integration",
+            "content_html": "## Summary & Key Takeaways\n\n- The article details the integration of Cloudflare Workers and Hyperdrive with SvelteKit.\n- It provides a guide on setting up these technologies together.\n- The author discusses specific challenges encountered during the integration process.\n- Comparisons are drawn to a previous TanStack setup, highlighting differences.\n\n## Our Commentary\n\nWe've been keeping an eye on Cloudflare's ecosystem, and Hyperdrive is a neat piece of the puzzle for data access. SvelteKit's popularity keeps growing, so a solid guide like this is always welcome. It's good to see the practicalities, especially the \"challenges\" part. Too many tutorials gloss over the rough edges. I appreciate the honesty here; it helps set realistic expectations for developers diving into these integrations.\n\nOriginal Link: https://master.dev/blog/cloudflare-workers-and-hyperdrive-with-sveltekit/",
+            "url": "https://digestweb.dev/articles/2026-07-28/cloudflare-workers-hyperdrive-sveltekit-integration",
+            "title": "Integrating Cloudflare Workers & Hyperdrive with SvelteKit",
+            "summary": "Explore the integration process of Cloudflare Workers and Hyperdrive with SvelteKit, including insights into potential challenges.",
+            "image": "https://master.dev/blog/wp-json/social-image-generator/v1/image/10517",
+            "date_modified": "2026-07-28T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-07-27/chris-corner-simple-click-interactions-html-css",
             "content_html": "## Summary & Key Takeaways\n\n- Chris Coyier reflects on the inherent appeal of basic click interactions on the web.\n- He emphasizes the elegance of achieving functionality with only HTML and CSS.\n- The article covers simple actions like navigating to another page.\n- It suggests that even fundamental web interactions can feel sophisticated.\n\n## Our Commentary\n\nSometimes it's good to go back to basics. Chris Coyier has a knack for reminding us of the simple magic of the web. We get so caught up in complex frameworks and build tools that we forget how powerful just HTML and CSS can be. I genuinely agree; there's something inherently satisfying about making something \"do something\" with minimal fuss. It's a nice palate cleanser.\n\nOriginal Link: https://blog.codepen.io/2026/07/27/chris-corner-click-something-do-something/",
             "url": "https://digestweb.dev/articles/2026-07-27/chris-corner-simple-click-interactions-html-css",
@@ -36,6 +45,18 @@
             "summary": "Explore how FLOT NOIR reimagined MERSI’s digital presence, creating an immersive space that combines architectural print with interactive web design using Webflow.",
             "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/07/Aw-Main.jpg?x48895",
             "date_modified": "2026-07-27T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-27/moonshot-ai-kimi-k3-2-8t-model-restrictive-license",
+            "content_html": "## Summary & Key Takeaways\n\n- Moonshot AI has released the weights for their 2.8 trillion parameter Kimi K3 model.\n- The model weights are a substantial 1.56TB and are available on Hugging Face.\n- Kimi K3 uses an \"open weight\" license, not an \"open source\" license.\n- The license requires prominent attribution for commercial products exceeding 100 million monthly active users or $20 million monthly revenue.\n- A separate agreement with Moonshot AI is mandatory for Model as a Service businesses with over $20 million in aggregate revenue over 12 months.\n- Moonshot AI explicitly avoids calling their license \"open source,\" consistently using \"open weight.\"\n- Kimi K3 is already available through OpenRouter from multiple providers.\n\n## Our Commentary\n\nThis Kimi K3 release is a big deal, not just for the model's size, but for that license. \"Open weight\" is becoming a common dodge, and this one is particularly aggressive with its commercial restrictions. We're seeing a clear trend here: companies want the community to help improve their models, but they want to control the monetization. It feels like a new frontier for licensing battles. I genuinely wonder how sustainable this model is for true innovation. It's a fascinating, if slightly unsettling, development.\n\nOriginal Link: https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-27/moonshot-ai-kimi-k3-2-8t-model-restrictive-license",
+            "title": "Moonshot AI Releases Kimi K3: A 2.8T Parameter Model with Restrictive Licensing",
+            "summary": "Moonshot AI unveils its massive Kimi K3 model, but its \"open weight\" license introduces significant commercial use restrictions, sparking debate in the AI community.",
+            "image": "https://picsum.photos/id/392/800/450",
+            "date_modified": "2026-07-27T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
         },
         {
             "id": "https://digestweb.dev/articles/2026-07-27/nuxt-v3-21-10-urgent-security-update-rce-dos-bypass",

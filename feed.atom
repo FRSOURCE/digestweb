@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-07-28T04:01:16.364Z</updated>
+    <updated>2026-07-28T09:37:18.716Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,26 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Integrating Cloudflare Workers & Hyperdrive with SvelteKit]]></title>
+        <id>https://digestweb.dev/articles/2026-07-28/cloudflare-workers-hyperdrive-sveltekit-integration</id>
+        <link href="https://digestweb.dev/articles/2026-07-28/cloudflare-workers-hyperdrive-sveltekit-integration"/>
+        <link rel="enclosure" href="https://master.dev/blog/wp-json/social-image-generator/v1/image/10517" type="image//blog/wp-json/social-image-generator/v1/image/10517"/>
+        <updated>2026-07-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Explore the integration process of Cloudflare Workers and Hyperdrive with SvelteKit, including insights into potential challenges.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article details the integration of Cloudflare Workers and Hyperdrive with SvelteKit.
+- It provides a guide on setting up these technologies together.
+- The author discusses specific challenges encountered during the integration process.
+- Comparisons are drawn to a previous TanStack setup, highlighting differences.
+
+## Our Commentary
+
+We've been keeping an eye on Cloudflare's ecosystem, and Hyperdrive is a neat piece of the puzzle for data access. SvelteKit's popularity keeps growing, so a solid guide like this is always welcome. It's good to see the practicalities, especially the "challenges" part. Too many tutorials gloss over the rough edges. I appreciate the honesty here; it helps set realistic expectations for developers diving into these integrations.
+
+Original Link: https://master.dev/blog/cloudflare-workers-and-hyperdrive-with-sveltekit/]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Chris’ Corner: Simple Click Interactions with HTML and CSS]]></title>
         <id>https://digestweb.dev/articles/2026-07-27/chris-corner-simple-click-interactions-html-css</id>
@@ -75,6 +95,32 @@ Original Link: https://github.blog/ai-and-ml/github-copilot/github-copilot-app-f
 Codrops always delivers on the visual front. This kind of deep dive into a specific design project is fascinating, especially when it bridges traditional media with the web. It's a good reminder that the web isn't just about frameworks and performance; it's also a canvas for art and experience. I love seeing the craft behind these unique sites.
 
 Original Link: https://tympanus.net/codrops/2026/07/27/between-print-and-digital-the-making-of-mersis-website/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Moonshot AI Releases Kimi K3: A 2.8T Parameter Model with Restrictive Licensing]]></title>
+        <id>https://digestweb.dev/articles/2026-07-27/moonshot-ai-kimi-k3-2-8t-model-restrictive-license</id>
+        <link href="https://digestweb.dev/articles/2026-07-27/moonshot-ai-kimi-k3-2-8t-model-restrictive-license"/>
+        <link rel="enclosure" href="https://picsum.photos/id/392/800/450" type="image//id/392/800/450"/>
+        <updated>2026-07-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Moonshot AI unveils its massive Kimi K3 model, but its "open weight" license introduces significant commercial use restrictions, sparking debate in the AI community.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Moonshot AI has released the weights for their 2.8 trillion parameter Kimi K3 model.
+- The model weights are a substantial 1.56TB and are available on Hugging Face.
+- Kimi K3 uses an "open weight" license, not an "open source" license.
+- The license requires prominent attribution for commercial products exceeding 100 million monthly active users or $20 million monthly revenue.
+- A separate agreement with Moonshot AI is mandatory for Model as a Service businesses with over $20 million in aggregate revenue over 12 months.
+- Moonshot AI explicitly avoids calling their license "open source," consistently using "open weight."
+- Kimi K3 is already available through OpenRouter from multiple providers.
+
+## Our Commentary
+
+This Kimi K3 release is a big deal, not just for the model's size, but for that license. "Open weight" is becoming a common dodge, and this one is particularly aggressive with its commercial restrictions. We're seeing a clear trend here: companies want the community to help improve their models, but they want to control the monetization. It feels like a new frontier for licensing battles. I genuinely wonder how sustainable this model is for true innovation. It's a fascinating, if slightly unsettling, development.
+
+Original Link: https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Nuxt v3.21.10: Urgent Security Update Patches RCE, DoS, and Bypass Issues]]></title>
