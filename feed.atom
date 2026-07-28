@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-07-27T13:24:48.007Z</updated>
+    <updated>2026-07-28T04:01:16.364Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,202 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Chris’ Corner: Simple Click Interactions with HTML and CSS]]></title>
+        <id>https://digestweb.dev/articles/2026-07-27/chris-corner-simple-click-interactions-html-css</id>
+        <link href="https://digestweb.dev/articles/2026-07-27/chris-corner-simple-click-interactions-html-css"/>
+        <link rel="enclosure" href="https://s0.wp.com/i/blank.jpg" type="image/jpg"/>
+        <updated>2026-07-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Chris Coyier explores the fundamental coolness of making things happen with a click using just HTML and CSS, from basic navigation to more complex interactions.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Chris Coyier reflects on the inherent appeal of basic click interactions on the web.
+- He emphasizes the elegance of achieving functionality with only HTML and CSS.
+- The article covers simple actions like navigating to another page.
+- It suggests that even fundamental web interactions can feel sophisticated.
+
+## Our Commentary
+
+Sometimes it's good to go back to basics. Chris Coyier has a knack for reminding us of the simple magic of the web. We get so caught up in complex frameworks and build tools that we forget how powerful just HTML and CSS can be. I genuinely agree; there's something inherently satisfying about making something "do something" with minimal fuss. It's a nice palate cleanser.
+
+Original Link: https://blog.codepen.io/2026/07/27/chris-corner-click-something-do-something/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Copilot App for Beginners: Your First Steps with AI Agents]]></title>
+        <id>https://digestweb.dev/articles/2026-07-27/github-copilot-app-beginners-getting-started</id>
+        <link href="https://digestweb.dev/articles/2026-07-27/github-copilot-app-beginners-getting-started"/>
+        <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/07/GIT1050_THUMB_CFB_C.png?fit=1280%2C720" type="image/png"/>
+        <updated>2026-07-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[New to the GitHub Copilot app? Learn how to start projects, work with AI agents, explore canvases, and streamline your development workflow.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- This guide introduces beginners to the GitHub Copilot app.
+- It covers how to initiate new projects using the app.
+- Users will learn to interact with AI agents within the Copilot environment.
+- The article explains how to explore and utilize canvases for development.
+- It aims to help streamline the overall development workflow for new users.
+
+## Our Commentary
+
+A beginner's guide is always welcome, especially for a tool like Copilot that's rapidly evolving. It's good to see resources that help lower the barrier to entry. I just hope it keeps up with the pace of change; these "getting started" guides can become outdated so quickly in the AI space.
+
+Original Link: https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Making of MERSI’s Website: Blending Print and Digital Aesthetics]]></title>
+        <id>https://digestweb.dev/articles/2026-07-27/making-mersi-website-print-digital-aesthetics</id>
+        <link href="https://digestweb.dev/articles/2026-07-27/making-mersi-website-print-digital-aesthetics"/>
+        <link rel="enclosure" href="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/07/Aw-Main.jpg?x48895" type="image/jpg"/>
+        <updated>2026-07-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Explore how FLOT NOIR reimagined MERSI’s digital presence, creating an immersive space that combines architectural print with interactive web design using Webflow.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article details the creation of MERSI's website by FLOT NOIR.
+- It focuses on blending architectural print aesthetics with interactive web design.
+- The goal was to create a quiet, immersive digital experience.
+- The project utilized a tailored Webflow build.
+- Precise motion and editorial storytelling were key elements of the design.
+
+## Our Commentary
+
+Codrops always delivers on the visual front. This kind of deep dive into a specific design project is fascinating, especially when it bridges traditional media with the web. It's a good reminder that the web isn't just about frameworks and performance; it's also a canvas for art and experience. I love seeing the craft behind these unique sites.
+
+Original Link: https://tympanus.net/codrops/2026/07/27/between-print-and-digital-the-making-of-mersis-website/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nuxt v3.21.10: Urgent Security Update Patches RCE, DoS, and Bypass Issues]]></title>
+        <id>https://digestweb.dev/articles/2026-07-27/nuxt-v3-21-10-urgent-security-update-rce-dos-bypass</id>
+        <link href="https://digestweb.dev/articles/2026-07-27/nuxt-v3-21-10-urgent-security-update-rce-dos-bypass"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/4b002584f266df89f4e490fe5bc448bc028dc7f83975987e82cc84bf844e1dce/nuxt/nuxt/releases/tag/v3.21.10" type="image/10"/>
+        <updated>2026-07-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Nuxt has released v3.21.10, a critical security update for its v3 branch, addressing multiple severe vulnerabilities including server-side RCE, DoS, and authorization bypasses. Immediate upgrade is recommended.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- This is a critical security release for Nuxt v3.21.10.
+- It fixes server-side RCE and unauthorized component instantiation via server island props.
+- A route rule authorization bypass and server component DoS are also addressed.
+- Dev server path disclosure is patched in this release.
+- @nuxt/devtools@3.3.1 also fixes a separate critical development-only RCE.
+- Users who upgraded for CVE-2026-53721 still need this release due to a regression fix.
+- Various other fixes include clearing hide/reset timeouts and preserving NuxtLink trailing slashes.
+- Vite-related SSR and HMR issues are also resolved.
+
+## Our Commentary
+
+Another Nuxt security release, this time for the v3 branch. It's almost identical to the v4 patch, which tells us these vulnerabilities were pretty fundamental. We're seeing a pattern here that makes me wonder about the underlying architecture's resilience. It's good they're patching quickly, but the sheer volume and severity of these issues are a bit jarring. Developers need to be hyper-vigilant with their Nuxt dependencies right now.
+
+Original Link: https://github.com/nuxt/nuxt/releases/tag/v3.21.10]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nuxt v4.5.1: Critical Security Patch Addresses RCE, DoS, and Data Leaks]]></title>
+        <id>https://digestweb.dev/articles/2026-07-27/nuxt-v4-5-1-critical-security-patch-rce-dos-data-leaks</id>
+        <link href="https://digestweb.dev/articles/2026-07-27/nuxt-v4-5-1-critical-security-patch-rce-dos-data-leaks"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/bf49798ba47e176c98a8dfc88cf924bfe12008e2ea7f29b4a0b7ee5370972412/nuxt/nuxt/releases/tag/v4.5.1" type="image/1"/>
+        <updated>2026-07-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Nuxt has released a critical security update, v4.5.1, addressing multiple severe vulnerabilities including server-side RCE, DoS, and cross-user payload disclosure. Users are urged to upgrade immediately.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- This is a critical security release for Nuxt v4.5.1.
+- It fixes server-side RCE and unauthorized component instantiation.
+- An authorization bypass in route rules and server component DoS are also addressed.
+- Cross-user payload disclosure on cached pages and dev server path disclosure are patched.
+- @nuxt/devtools@3.3.1 also fixes a separate critical development-only RCE.
+- Users who upgraded for CVE-2026-53721 still need this release due to a regression fix.
+- Purge CDN/edge caches if using `cache`, `swr`, or `isr` route rules.
+- Performance improvements include replacing island teleports in a single HTML pass.
+
+## Our Commentary
+
+This is a big one. We've seen a lot of security patches lately, but multiple RCEs, DoS, and data leaks in one go? That's a serious wake-up call for the Nuxt ecosystem. The fact that a previous fix introduced a regression is just... _chef's kiss_ for the chaos. I'm genuinely concerned about the implications for projects that aren't on top of their updates. This isn't just a "patch and forget" situation; it demands immediate attention and cache purging.
+
+Original Link: https://github.com/nuxt/nuxt/releases/tag/v4.5.1]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NVIDIA Cosmos-H-Dreams: Real-Time Generative Simulation for Surgical Robotics]]></title>
+        <id>https://digestweb.dev/articles/2026-07-27/nvidia-cosmos-h-dreams-surgical-robotics-simulation</id>
+        <link href="https://digestweb.dev/articles/2026-07-27/nvidia-cosmos-h-dreams-surgical-robotics-simulation"/>
+        <link rel="enclosure" href="https://cdn-uploads.huggingface.co/production/uploads/68c1279544f671330c604f4c/Cj0RZwvOSUhFGFEFKgyDw.png" type="image/png"/>
+        <updated>2026-07-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Discover NVIDIA Cosmos-H-Dreams, a project bringing real-time generative simulation capabilities to the specialized field of surgical robotics.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- NVIDIA Cosmos-H-Dreams introduces real-time generative simulation.
+- This technology is specifically applied to surgical robotics.
+- The project aims to enhance simulation capabilities in this specialized field.
+
+## Our Commentary
+
+Surgical robotics is a fascinating application of AI, but it's definitely a niche. It's incredible to see how far simulation has come, especially with generative models. I'm always a bit awestruck by the precision and complexity involved in these medical applications. It makes me think about the ethical considerations, though; the stakes are incredibly high here.
+
+Original Link: https://huggingface.co/blog/nvidia/cosmos-h-dreams]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Research: How AI is Expanding Human Roles at Work]]></title>
+        <id>https://digestweb.dev/articles/2026-07-27/openai-research-ai-expanding-human-roles-work</id>
+        <link href="https://digestweb.dev/articles/2026-07-27/openai-research-ai-expanding-human-roles-work"/>
+        <link rel="enclosure" href="https://picsum.photos/id/415/800/450" type="image//id/415/800/450"/>
+        <updated>2026-07-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[New OpenAI research reveals how ChatGPT users are taking on diverse tasks across roles, reshaping job boundaries and expanding what workers do.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- New OpenAI research investigates AI's impact on the workplace.
+- It shows how AI is expanding the scope of tasks workers perform.
+- ChatGPT users are reportedly taking on responsibilities across various job roles.
+- The research suggests AI is actively reshaping traditional job boundaries.
+
+## Our Commentary
+
+This is the kind of research that makes me pause. "Expanding what workers do" sounds positive, but I can't help but wonder about the flip side. Are these expanded roles genuinely empowering, or are they just adding more to an already overloaded plate? The reshaping of job boundaries is a huge deal, and I'm not sure we're ready for the full implications. It feels like we're in the middle of a massive, uncontrolled experiment.
+
+Original Link: https://openai.com/index/how-ai-is-expanding-what-people-do-at-work]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Simon Willison's Opinionated Guide to Navigating the AI Tool Landscape]]></title>
+        <id>https://digestweb.dev/articles/2026-07-27/simon-willison-opinionated-guide-ai-tools</id>
+        <link href="https://digestweb.dev/articles/2026-07-27/simon-willison-opinionated-guide-ai-tools"/>
+        <link rel="enclosure" href="https://picsum.photos/id/416/800/450" type="image//id/416/800/450"/>
+        <updated>2026-07-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison offers an evolving, opinionated guide on selecting AI tools, focusing on agentic systems like ChatGPT Work and Claude Cowork, and their desktop app capabilities.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison provides an evolving, opinionated guide on choosing AI tools.
+- The guide notes a shift from chat-focused models to agentic systems.
+- It highlights tools like ChatGPT Work and Claude Cowork for their advanced capabilities.
+- Willison explains how AI companies provide computer access via modes like ChatGPT Work and Claude Cowork.
+- He clarifies the distinction between mobile and desktop app functionalities for these modes.
+- The article points out the unintuitive naming conventions and feature differences across platforms.
+- It emphasizes that desktop apps offer more features due to direct computer access.
+- ChatGPT mobile's "Work" mode allows its Code Interpreter to access the internet.
+
+## Our Commentary
+
+Simon Willison always cuts through the noise. This guide is exactly what we need right now: a clear, opinionated take on the bewildering array of AI tools. The distinction between mobile and desktop app modes, and the internet access for Code Interpreter in ChatGPT Work on mobile – that's the kind of specific, practical insight that's so hard to find. I'm still scratching my head over the naming conventions, though. It feels like these companies are actively trying to confuse us.
+
+Original Link: https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Harness is All You Need (Mostly): A Practical GitHub Copilot Workflow]]></title>
+        <id>https://digestweb.dev/articles/2026-07-27/the-harness-is-all-you-need-github-copilot-workflow</id>
+        <link href="https://digestweb.dev/articles/2026-07-27/the-harness-is-all-you-need-github-copilot-workflow"/>
+        <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-commit-logo.png" type="image/png"/>
+        <updated>2026-07-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Explore a practical GitHub Copilot workflow for prototyping, planning, implementing, and reviewing software without chasing every new AI tool.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article presents a practical workflow for using GitHub Copilot.
+- It focuses on prototyping, planning, implementing, and reviewing software.
+- The approach emphasizes leveraging existing AI tools effectively rather than constantly adopting new ones.
+- It aims to streamline the development process with Copilot.
+
+## Our Commentary
+
+I appreciate the sentiment here. "Don't chase every new AI tool" is advice I wish more people would take to heart. It's easy to get caught up in the hype cycle, but sometimes just mastering one or two tools deeply is far more productive. This feels like a grounded perspective in a very chaotic AI landscape. We need more of this.
+
+Original Link: https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Anthropic's Project Pilot: Can AI Control a Drone?]]></title>
         <id>https://digestweb.dev/articles/2026-07-24/anthropic-project-pilot-ai-drone-control</id>
