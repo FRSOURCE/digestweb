@@ -29,6 +29,18 @@
             "date_modified": "2026-07-28T00:00:00.000Z"
         },
         {
+            "id": "https://digestweb.dev/articles/2026-07-28/claude-mythos-cryptographic-weaknesses-prompts",
+            "content_html": "## Summary & Key Takeaways\n\nAnthropic's Claude Mythos identified mathematical flaws in HAWK and a weaker AES version.\nThe research involved 60 hours of Mythos Preview, costing an estimated $100,000 in API usage.\nKey human intervention focused on encouraging the model not to give up and to find publishable results.\nThe paper \"CryptanalysisBench: Can LLMs do Cryptanalysis?\" describes a new evaluation framework.\nResearchers shared the specific, often misspelled, prompts used to guide Claude.\nThe findings currently have no practical impact on existing computer systems.\n\n## Our Commentary\n\nThis is fascinating. We've been wondering about LLMs' ability to do genuine research. The prompts are gold; they show how much coaxing these models still need. It's a bit unsettling to think about the cost, but the potential is clear. I'm genuinely curious how this evolves.\n\nOriginal Link: https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-28/claude-mythos-cryptographic-weaknesses-prompts",
+            "title": "Claude Mythos Uncovers Crypto Flaws, Prompts Revealed",
+            "summary": "Anthropic researchers used Claude Mythos to find mathematical flaws in cryptographic algorithms, sharing the specific prompts that guided the AI.",
+            "image": "https://picsum.photos/id/923/800/450",
+            "date_modified": "2026-07-28T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-07-28/cloudflare-workers-hyperdrive-sveltekit-integration",
             "content_html": "## Summary & Key Takeaways\n\n- The article details the integration of Cloudflare Workers and Hyperdrive with SvelteKit.\n- It provides a guide on setting up these technologies together.\n- The author discusses specific challenges encountered during the integration process.\n- Comparisons are drawn to a previous TanStack setup, highlighting differences.\n\n## Our Commentary\n\nWe've been keeping an eye on Cloudflare's ecosystem, and Hyperdrive is a neat piece of the puzzle for data access. SvelteKit's popularity keeps growing, so a solid guide like this is always welcome. It's good to see the practicalities, especially the \"challenges\" part. Too many tutorials gloss over the rough edges. I appreciate the honesty here; it helps set realistic expectations for developers diving into these integrations.\n\nOriginal Link: https://master.dev/blog/cloudflare-workers-and-hyperdrive-with-sveltekit/",
             "url": "https://digestweb.dev/articles/2026-07-28/cloudflare-workers-hyperdrive-sveltekit-integration",
@@ -104,6 +116,15 @@
             "title": "OpenAI: Scientific Computing Transformed by Agentic AI",
             "summary": "OpenAI's new field report explores how AI coding agents are modernizing scientific computing, speeding up software development and discovery in fields like genomics.",
             "image": "https://picsum.photos/id/120/800/450",
+            "date_modified": "2026-07-28T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-28/optimize-ux-no-loading-states-strategy",
+            "content_html": "## Summary & Key Takeaways\n\nThe core principle is to improve preload strategies to eliminate the need for visible loading states.\nThe author suggests focusing on techniques like Route Transitions to achieve seamless page loads.\nPreloading data is highlighted as a key method to ensure content is ready before display.\nThe goal is to mimic the instant loading experience of static websites.\nThis approach enhances user experience by reducing perceived wait times.\n\n## Our Commentary\n\nWe've all been there, staring at spinners. This article's premise resonates deeply. It's a constant battle to make the web feel instant. I think the focus on proactive preloading rather than reactive loading states is the right mindset. It's a good reminder that sometimes the best design is the one you don't see.\n\nOriginal Link: https://master.dev/blog/the-best-loading-states-are-no-loading-states/",
+            "url": "https://digestweb.dev/articles/2026-07-28/optimize-ux-no-loading-states-strategy",
+            "title": "Optimize UX: The Best Loading States Are No Loading States",
+            "summary": "This article advocates for eliminating visible loading states by optimizing preload strategies and utilizing techniques like route transitions for a smoother user experience.",
+            "image": "https://master.dev/blog/wp-json/social-image-generator/v1/image/10564",
             "date_modified": "2026-07-28T00:00:00.000Z"
         },
         {

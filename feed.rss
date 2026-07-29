@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Wed, 29 Jul 2026 04:12:10 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 29 Jul 2026 09:37:32 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -57,6 +57,29 @@ This is both fascinating and a little terrifying. On one hand, AI assisting in f
 
 Original Link: https://www.anthropic.com/research/discovering-cryptographic-weaknesses]]></content:encoded>
             <enclosure url="https://www.anthropic.com/api/opengraph-illustration?name=Object-LaptopSecure&amp;backgroundColor=sky" length="0" type="image//api/opengraph-illustration"/>
+        </item>
+        <item>
+            <title><![CDATA[Claude Mythos Uncovers Crypto Flaws, Prompts Revealed]]></title>
+            <link>https://digestweb.dev/articles/2026-07-28/claude-mythos-cryptographic-weaknesses-prompts</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-28/claude-mythos-cryptographic-weaknesses-prompts</guid>
+            <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Anthropic researchers used Claude Mythos to find mathematical flaws in cryptographic algorithms, sharing the specific prompts that guided the AI.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+Anthropic's Claude Mythos identified mathematical flaws in HAWK and a weaker AES version.
+The research involved 60 hours of Mythos Preview, costing an estimated $100,000 in API usage.
+Key human intervention focused on encouraging the model not to give up and to find publishable results.
+The paper "CryptanalysisBench: Can LLMs do Cryptanalysis?" describes a new evaluation framework.
+Researchers shared the specific, often misspelled, prompts used to guide Claude.
+The findings currently have no practical impact on existing computer systems.
+
+## Our Commentary
+
+This is fascinating. We've been wondering about LLMs' ability to do genuine research. The prompts are gold; they show how much coaxing these models still need. It's a bit unsettling to think about the cost, but the potential is clear. I'm genuinely curious how this evolves.
+
+Original Link: https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/923/800/450" length="0" type="image//id/923/800/450"/>
         </item>
         <item>
             <title><![CDATA[Integrating Cloudflare Workers & Hyperdrive with SvelteKit]]></title>
@@ -221,6 +244,27 @@ The idea of AI agents autonomously handling scientific computing tasks is huge. 
 
 Original Link: https://openai.com/index/scientific-computing-agentic-ai]]></content:encoded>
             <enclosure url="https://picsum.photos/id/120/800/450" length="0" type="image//id/120/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Optimize UX: The Best Loading States Are No Loading States]]></title>
+            <link>https://digestweb.dev/articles/2026-07-28/optimize-ux-no-loading-states-strategy</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-28/optimize-ux-no-loading-states-strategy</guid>
+            <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This article advocates for eliminating visible loading states by optimizing preload strategies and utilizing techniques like route transitions for a smoother user experience.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+The core principle is to improve preload strategies to eliminate the need for visible loading states.
+The author suggests focusing on techniques like Route Transitions to achieve seamless page loads.
+Preloading data is highlighted as a key method to ensure content is ready before display.
+The goal is to mimic the instant loading experience of static websites.
+This approach enhances user experience by reducing perceived wait times.
+
+## Our Commentary
+
+We've all been there, staring at spinners. This article's premise resonates deeply. It's a constant battle to make the web feel instant. I think the focus on proactive preloading rather than reactive loading states is the right mindset. It's a good reminder that sometimes the best design is the one you don't see.
+
+Original Link: https://master.dev/blog/the-best-loading-states-are-no-loading-states/]]></content:encoded>
+            <enclosure url="https://master.dev/blog/wp-json/social-image-generator/v1/image/10564" length="0" type="image//blog/wp-json/social-image-generator/v1/image/10564"/>
         </item>
         <item>
             <title><![CDATA[uv 0.12.0: Significant Changes to Project Initialization and `src/` Layout]]></title>
