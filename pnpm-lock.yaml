@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@frsource/autoresize-textarea':
         specifier: ^2.0.188
-        version: 2.0.209
+        version: 2.0.211
       '@storefront-ui/tw-plugin-peer-next':
         specifier: ^3.1.0
         version: 3.1.0(tailwindcss@4.3.3)
@@ -818,8 +818,8 @@ packages:
     resolution: {integrity: sha512-+CNAzxglkrpNf/kKywqQfk74QjtceuOE7Qm+AF8miRvPF/wmmK5+OJOgVh3AVTT3RP2mH3+FOaxlE5v72owk0A==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
 
-  '@frsource/autoresize-textarea@2.0.209':
-    resolution: {integrity: sha512-JOQ6jAe/Qbtw1hEgCn6xawsZAWPln24Km1XsTG7g4IqAyjdXr97YrKs2jyi4HYgl76bVRvPOF5eyQz0DmU0o0g==}
+  '@frsource/autoresize-textarea@2.0.211':
+    resolution: {integrity: sha512-9IdsoJOVQBOw9u00JigBpT6ktFIkrWatgbrHunixpHx/iIAqOZ+VpSIRU1XQ0NouXLHcu2ZNdbaDqi6qKtwbDQ==}
 
   '@frsource/eslint-config@1.85.7':
     resolution: {integrity: sha512-4zKF8Bi/P0lUDCHGchCSi7D+yIjdf3+p5O9h7J6hz1fYPUrKgj2FOC7f7pI2fN531Gj0VQ8kv12yzvIh7dSLHA==}
@@ -4125,7 +4125,7 @@ snapshots:
       '@eslint/core': 1.2.1
       levn: 0.4.1
 
-  '@frsource/autoresize-textarea@2.0.209': {}
+  '@frsource/autoresize-textarea@2.0.211': {}
 
   '@frsource/eslint-config@1.85.7(eslint@10.8.0(jiti@2.7.0))(typescript@5.9.3)':
     dependencies:
