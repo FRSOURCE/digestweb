@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-07-30T11:38:09.712Z</updated>
+    <updated>2026-07-30T11:38:28.160Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -295,7 +295,7 @@ Original Link: https://javascriptweekly.com/issues/796]]></content>
         <title type="html"><![CDATA[Claude Discovers Cryptographic Weaknesses in Anthropic Red Team Research]]></title>
         <id>https://digestweb.dev/articles/2026-07-28/claude-discovers-cryptographic-weaknesses-anthropic-research</id>
         <link href="https://digestweb.dev/articles/2026-07-28/claude-discovers-cryptographic-weaknesses-anthropic-research"/>
-        <link rel="enclosure" href="https://www.anthropic.com/api/opengraph-illustration?name=Object-LaptopSecure&amp;backgroundColor=sky" type="image//api/opengraph-illustration"/>
+        <link rel="enclosure" href="https://www.anthropic.com/api/opengraph-illustration?name=Object-LaptopSecure&amp;amp;backgroundColor=sky" type="image//api/opengraph-illustration"/>
         <updated>2026-07-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Anthropic's Frontier Red Team research reveals that Claude can identify cryptographic weaknesses, showcasing advanced AI capabilities in security analysis.]]></summary>
         <content type="html"><![CDATA[## Summary & Key Takeaways
@@ -7570,7 +7570,7 @@ Original Link: https://css-tricks.com/scroll-driven-animations-opposing-scroll-d
         <title type="html"><![CDATA[TanStack Table V9: 90% Memory Reduction Through Prototype Refactor]]></title>
         <id>https://digestweb.dev/articles/2026-06-22/tanstack-table-v9-memory-reduction-prototype-refactor</id>
         <link href="https://digestweb.dev/articles/2026-06-22/tanstack-table-v9-memory-reduction-prototype-refactor"/>
-        <link rel="enclosure" href="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Ftanstack-table-v9-memory-performance%2Fheader.png&amp;w=1200&amp;h=630&amp;fit=cover&amp;fm=jpg&amp;q=80" type="image/netlify/images"/>
+        <link rel="enclosure" href="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Ftanstack-table-v9-memory-performance%2Fheader.png&amp;amp;w=1200&amp;amp;h=630&amp;amp;fit=cover&amp;amp;fm=jpg&amp;amp;q=80" type="image/netlify/images"/>
         <updated>2026-06-22T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[TanStack Table V9 dramatically reduces memory usage in large tables by moving API methods to shared prototypes, a clever optimization detailed in this post.]]></summary>
         <content type="html"><![CDATA[## Summary & Key Takeaways
@@ -7813,7 +7813,7 @@ Original Link: https://openai.com/index/diagnose-rare-childhood-diseases]]></con
         <title type="html"><![CDATA[Anthropic's Project Fetch: Phase Two of Frontier Red Teaming]]></title>
         <id>https://digestweb.dev/articles/2026-06-18/anthropic-project-fetch-phase-two-red-teaming</id>
         <link href="https://digestweb.dev/articles/2026-06-18/anthropic-project-fetch-phase-two-red-teaming"/>
-        <link rel="enclosure" href="https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Knobs&amp;backgroundColor=cactus" type="image//api/opengraph-illustration"/>
+        <link rel="enclosure" href="https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Knobs&amp;amp;backgroundColor=cactus" type="image//api/opengraph-illustration"/>
         <updated>2026-06-18T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Anthropic provides an update on "Project Fetch," detailing the second phase of their frontier red teaming efforts focused on AI safety and security research.]]></summary>
         <content type="html"><![CDATA[## Summary & Key Takeaways
@@ -8430,7 +8430,7 @@ Original Link: https://openai.com/index/introducing-life-sci-bench]]></content>
         <title type="html"><![CDATA[React Router v8 Released: What's New in the Core of React Apps]]></title>
         <id>https://digestweb.dev/articles/2026-06-17/react-router-v8-released-new-features</id>
         <link href="https://digestweb.dev/articles/2026-06-17/react-router-v8-released-new-features"/>
-        <link rel="enclosure" href="http://remix.run/img/react-router-v8?title=React+Router+v8&amp;date=June+17%2C+2026&amp;authorName=Brooks+Lybrand&amp;authorTitle=Developer+Relations+Manager&amp;ogImage=%2Fblog-images%2Fheaders%2Freact-router-v8.jpg" type="image//img/react-router-v8"/>
+        <link rel="enclosure" href="http://remix.run/img/react-router-v8?title=React+Router+v8&amp;amp;date=June+17%2C+2026&amp;amp;authorName=Brooks+Lybrand&amp;amp;authorTitle=Developer+Relations+Manager&amp;amp;ogImage=%2Fblog-images%2Fheaders%2Freact-router-v8.jpg" type="image//img/react-router-v8"/>
         <updated>2026-06-17T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[React Router, the foundational routing library for React, has released its eighth major version. This update brings new features and improvements for developers.]]></summary>
         <content type="html"><![CDATA[## Summary & Key Takeaways
@@ -8533,7 +8533,7 @@ Original Link: https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#at
         <title type="html"><![CDATA[Anthropic Research: Agentic Coding & Returns to Expertise]]></title>
         <id>https://digestweb.dev/articles/2026-06-16/anthropic-agentic-coding-expertise-returns</id>
         <link href="https://digestweb.dev/articles/2026-06-16/anthropic-agentic-coding-expertise-returns"/>
-        <link rel="enclosure" href="https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Abacus&amp;backgroundColor=cactus" type="image//api/opengraph-illustration"/>
+        <link rel="enclosure" href="https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Abacus&amp;amp;backgroundColor=cactus" type="image//api/opengraph-illustration"/>
         <updated>2026-06-16T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Anthropic's latest research explores the economic implications of agentic coding and how human expertise continues to yield value alongside AI. It examines the evolving dynamics between AI agents and skilled developers.]]></summary>
         <content type="html"><![CDATA[## Summary & Key Takeaways
@@ -9498,7 +9498,7 @@ Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.6.0]]></content>
         <title type="html"><![CDATA[TanStack Table V9 Beta: Major Architectural Shifts & Form Learnings]]></title>
         <id>https://digestweb.dev/articles/2026-06-07/tanstack-table-v9-beta-architectural-shifts-form-learnings</id>
         <link href="https://digestweb.dev/articles/2026-06-07/tanstack-table-v9-beta-architectural-shifts-form-learnings"/>
-        <link rel="enclosure" href="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Ftanstack-table-v9-taking-form%2Fheader.png&amp;w=1200&amp;h=630&amp;fit=cover&amp;fm=jpg&amp;q=80" type="image/netlify/images"/>
+        <link rel="enclosure" href="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Ftanstack-table-v9-taking-form%2Fheader.png&amp;amp;w=1200&amp;amp;h=630&amp;amp;fit=cover&amp;amp;fm=jpg&amp;amp;q=80" type="image/netlify/images"/>
         <updated>2026-06-07T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[TanStack Table V9 enters beta, incorporating key learnings from TanStack Form. This release promises significant architectural changes and an enhanced developer experience.]]></summary>
         <content type="html"><![CDATA[## Summary & Key Takeaways
@@ -9632,7 +9632,7 @@ Original Link: https://blog.angular.dev/angular-in-2026-mid-year-reality-check-s
         <title type="html"><![CDATA[Anthropic Research: Making Claude a Chemist]]></title>
         <id>https://digestweb.dev/articles/2026-06-05/anthropic-research-making-claude-a-chemist</id>
         <link href="https://digestweb.dev/articles/2026-06-05/anthropic-research-making-claude-a-chemist"/>
-        <link rel="enclosure" href="https://www.anthropic.com/api/opengraph-illustration?name=Hand%20HeadCube&amp;backgroundColor=cactus" type="image//api/opengraph-illustration"/>
+        <link rel="enclosure" href="https://www.anthropic.com/api/opengraph-illustration?name=Hand%20HeadCube&amp;amp;backgroundColor=cactus" type="image//api/opengraph-illustration"/>
         <updated>2026-06-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Anthropic's latest research explores how Claude can be effectively applied to complex chemistry tasks, showcasing its evolving scientific capabilities.]]></summary>
         <content type="html"><![CDATA[## Summary & Key Takeaways
@@ -9820,7 +9820,7 @@ Original Link: https://tympanus.net/codrops/2026/06/05/the-making-of-the-new-les
         <title type="html"><![CDATA[TanStack AI Introduces Model Context Protocol (MCP) Support]]></title>
         <id>https://digestweb.dev/articles/2026-06-05/tanstack-ai-introduces-model-context-protocol-mcp-support</id>
         <link href="https://digestweb.dev/articles/2026-06-05/tanstack-ai-introduces-model-context-protocol-mcp-support"/>
-        <link rel="enclosure" href="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Fyour-mcp-your-way%2Fheader.png&amp;w=1200&amp;h=630&amp;fit=cover&amp;fm=jpg&amp;q=80" type="image/netlify/images"/>
+        <link rel="enclosure" href="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Fyour-mcp-your-way%2Fheader.png&amp;amp;w=1200&amp;amp;h=630&amp;amp;fit=cover&amp;amp;fm=jpg&amp;amp;q=80" type="image/netlify/images"/>
         <updated>2026-06-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[TanStack AI now supports the Model Context Protocol (MCP), offering flexible server connections, lifecycle management, and end-to-end type safety.]]></summary>
         <content type="html"><![CDATA[## Summary & Key Takeaways
@@ -10342,7 +10342,7 @@ Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.5.1]]></content>
         <title type="html"><![CDATA[TanStack Start Integrates Rsbuild for Flexible Build Tooling]]></title>
         <id>https://digestweb.dev/articles/2026-06-02/tanstack-start-integrates-rsbuild-build-tool</id>
         <link href="https://digestweb.dev/articles/2026-06-02/tanstack-start-integrates-rsbuild-build-tool"/>
-        <link rel="enclosure" href="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Fstart-adds-rsbuild-support%2Fheader.jpg&amp;w=1200&amp;h=630&amp;fit=cover&amp;fm=jpg&amp;q=80" type="image/netlify/images"/>
+        <link rel="enclosure" href="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Fstart-adds-rsbuild-support%2Fheader.jpg&amp;amp;w=1200&amp;amp;h=630&amp;amp;fit=cover&amp;amp;fm=jpg&amp;amp;q=80" type="image/netlify/images"/>
         <updated>2026-06-02T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[TanStack Start now offers first-class support for Rsbuild 2, alongside Vite, giving developers more options for their build pipeline.]]></summary>
         <content type="html"><![CDATA[## Summary & Key Takeaways
@@ -13308,7 +13308,7 @@ Original Link: https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everyth
         <title type="html"><![CDATA[TanStack AI Achieves Full AG-UI Compliance for Bidirectional Communication]]></title>
         <id>https://digestweb.dev/articles/2026-05-17/tanstack-ai-full-ag-ui-compliance-bidirectional-communication</id>
         <link href="https://digestweb.dev/articles/2026-05-17/tanstack-ai-full-ag-ui-compliance-bidirectional-communication"/>
-        <link rel="enclosure" href="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Fag-ui-compliance%2Fheader.png&amp;w=1200&amp;h=630&amp;fit=cover&amp;fm=jpg&amp;q=80" type="image/netlify/images"/>
+        <link rel="enclosure" href="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Fag-ui-compliance%2Fheader.png&amp;amp;w=1200&amp;amp;h=630&amp;amp;fit=cover&amp;amp;fm=jpg&amp;amp;q=80" type="image/netlify/images"/>
         <updated>2026-05-17T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[TanStack AI now supports full client-to-server AG-UI compliance, completing the round trip for server-to-client events and ensuring robust bidirectional communication.]]></summary>
         <content type="html"><![CDATA[## Summary & Key Takeaways
@@ -14798,7 +14798,7 @@ Original Link: https://github.blog/news-insights/policy-news-and-insights/why-ag
         <title type="html"><![CDATA[Anthropic Explores "Teaching Claude Why" for Enhanced AI Reasoning]]></title>
         <id>https://digestweb.dev/articles/2026-05-08/anthropic-teaching-claude-why-reasoning</id>
         <link href="https://digestweb.dev/articles/2026-05-08/anthropic-teaching-claude-why-reasoning"/>
-        <link rel="enclosure" href="https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Knot&amp;backgroundColor=cactus" type="image//api/opengraph-illustration"/>
+        <link rel="enclosure" href="https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Knot&amp;amp;backgroundColor=cactus" type="image//api/opengraph-illustration"/>
         <updated>2026-05-08T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Anthropic's latest research delves into methods for improving Claude's ability to explain its reasoning, a critical step towards more transparent and reliable AI systems.]]></summary>
         <content type="html"><![CDATA[## Summary & Key Takeaways
@@ -16804,7 +16804,7 @@ Original Link: https://blog.codepen.io/2026/04/21/423-2-0-templates/]]></content
         <title type="html"><![CDATA[Dagster: Operational Context is Key for Reliable AI Agents]]></title>
         <id>https://digestweb.dev/articles/2026-04-22/dagster-operational-context-ai-agents</id>
         <link href="https://digestweb.dev/articles/2026-04-22/dagster-operational-context-ai-agents"/>
-        <link rel="enclosure" href="https://1Sz0wSAzPg.flowdrivecdn.com/Ga8gchphBrTUTxdiWS3Sl" type="image//Ga8gchphBrTUTxdiWS3Sl"/>
+        <link rel="enclosure" href="https://1sz0wsazpg.flowdrivecdn.com/Ga8gchphBrTUTxdiWS3Sl" type="image//Ga8gchphBrTUTxdiWS3Sl"/>
         <updated>2026-04-22T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Dagster argues that AI agents often fail by lacking operational context from orchestrators, leading to incorrect decisions. The article emphasizes that understanding underlying pipeline success is crucial, not just business definitions.]]></summary>
         <content type="html"><![CDATA[## Summary & Key Takeaways
@@ -17005,7 +17005,7 @@ Original Link: https://frontendmasters.com/blog/the-incredible-overcomplexity-of
         <title type="html"><![CDATA[TanStack AI Gets Comprehensive Debug Logging]]></title>
         <id>https://digestweb.dev/articles/2026-04-22/tanstack-ai-comprehensive-debug-logging</id>
         <link href="https://digestweb.dev/articles/2026-04-22/tanstack-ai-comprehensive-debug-logging"/>
-        <link rel="enclosure" href="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Fdebug-logging-for-tanstack-ai%2Fheader.png&amp;w=1200&amp;h=630&amp;fit=cover&amp;fm=jpg&amp;q=80" type="image/netlify/images"/>
+        <link rel="enclosure" href="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Fdebug-logging-for-tanstack-ai%2Fheader.png&amp;amp;w=1200&amp;amp;h=630&amp;amp;fit=cover&amp;amp;fm=jpg&amp;amp;q=80" type="image/netlify/images"/>
         <updated>2026-04-22T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[TanStack AI now includes pluggable, category-toggleable debug logging across all activities and adapters. This new feature allows developers to easily trace their AI pipelines with a single flag.]]></summary>
         <content type="html"><![CDATA[## Summary & Key Takeaways
@@ -17025,7 +17025,7 @@ Original Link: https://tanstack.com/blog/debug-logging-for-tanstack-ai]]></conte
         <title type="html"><![CDATA[TanStack AI Ensures Type-Safe Tool Calls, Preventing Runtime Failures]]></title>
         <id>https://digestweb.dev/articles/2026-04-22/tanstack-ai-type-safe-tool-calls</id>
         <link href="https://digestweb.dev/articles/2026-04-22/tanstack-ai-type-safe-tool-calls"/>
-        <link rel="enclosure" href="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Ftype-safe-provider-tools-tanstack-ai%2Fheader.png&amp;w=1200&amp;h=630&amp;fit=cover&amp;fm=jpg&amp;q=80" type="image/netlify/images"/>
+        <link rel="enclosure" href="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Ftype-safe-provider-tools-tanstack-ai%2Fheader.png&amp;amp;w=1200&amp;amp;h=630&amp;amp;fit=cover&amp;amp;fm=jpg&amp;amp;q=80" type="image/netlify/images"/>
         <updated>2026-04-22T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[TanStack AI now implements type-level gating for provider tools, ensuring that incompatible tool-model pairings fail at compile time. This prevents silent failures in production environments.]]></summary>
         <content type="html"><![CDATA[## Summary & Key Takeaways
@@ -18385,7 +18385,7 @@ Original Link: https://windsurf.com/blog/windsurf-2-0]]></content>
         <title type="html"><![CDATA[Anthropic Research: Automated Alignment Researchers Using LLMs]]></title>
         <id>https://digestweb.dev/articles/2026-04-14/anthropic-automated-alignment-researchers-llms</id>
         <link href="https://digestweb.dev/articles/2026-04-14/anthropic-automated-alignment-researchers-llms"/>
-        <link rel="enclosure" href="https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Abacus&amp;backgroundColor=olive" type="image//api/opengraph-illustration"/>
+        <link rel="enclosure" href="https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Abacus&amp;amp;backgroundColor=olive" type="image//api/opengraph-illustration"/>
         <updated>2026-04-14T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Anthropic's latest research explores the concept of "Automated Alignment Researchers," leveraging large language models to scale scalable oversight in AI systems. This work aims to address critical challenges in AI safety and alignment.]]></summary>
         <content type="html"><![CDATA[## Summary & Key Takeaways
@@ -19029,7 +19029,7 @@ Original Link: https://simonwillison.net/2026/Apr/10/voice-mode-is-weaker/#atom-
         <title type="html"><![CDATA[TanStack Libraries Embrace Solid 2.0 Beta]]></title>
         <id>https://digestweb.dev/articles/2026-04-10/tanstack-libraries-embrace-solid-2-0-beta</id>
         <link href="https://digestweb.dev/articles/2026-04-10/tanstack-libraries-embrace-solid-2-0-beta"/>
-        <link rel="enclosure" href="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Ftanstack-start-solid-v2%2Fheader.png&amp;w=1200&amp;h=630&amp;fit=cover&amp;fm=jpg&amp;q=80" type="image/netlify/images"/>
+        <link rel="enclosure" href="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Ftanstack-start-solid-v2%2Fheader.png&amp;amp;w=1200&amp;amp;h=630&amp;amp;fit=cover&amp;amp;fm=jpg&amp;amp;q=80" type="image/netlify/images"/>
         <updated>2026-04-10T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[TanStack Router, Start, and Query now offer beta support for Solid 2.0, enabling developers to integrate Solid's next major release into their applications.]]></summary>
         <content type="html"><![CDATA[## Summary & Key Takeaways
@@ -19046,7 +19046,7 @@ Original Link: https://tanstack.com/blog/tanstack-start-solid-v2]]></content>
         <title type="html"><![CDATA[Anthropic Research: Trustworthy AI Agents in Practice]]></title>
         <id>https://digestweb.dev/articles/2026-04-09/anthropic-research-trustworthy-ai-agents-in-practice</id>
         <link href="https://digestweb.dev/articles/2026-04-09/anthropic-research-trustworthy-ai-agents-in-practice"/>
-        <link rel="enclosure" href="https://www.anthropic.com/api/opengraph-illustration?name=Object%20Desktop&amp;backgroundColor=coral" type="image//api/opengraph-illustration"/>
+        <link rel="enclosure" href="https://www.anthropic.com/api/opengraph-illustration?name=Object%20Desktop&amp;amp;backgroundColor=coral" type="image//api/opengraph-illustration"/>
         <updated>2026-04-09T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Anthropic's latest research explores the practical challenges and solutions for developing and deploying trustworthy AI agents, focusing on policy and real-world application.]]></summary>
         <content type="html"><![CDATA[## Summary & Key Takeaways
@@ -19169,7 +19169,7 @@ Original Link: https://openai.com/index/cyber-agent]]></content>
         <title type="html"><![CDATA[Dagster 1.13 "Octopus's Garden" Brings New Features]]></title>
         <id>https://digestweb.dev/articles/2026-04-09/dagster-1-13-octopuss-garden-new-features</id>
         <link href="https://digestweb.dev/articles/2026-04-09/dagster-1-13-octopuss-garden-new-features"/>
-        <link rel="enclosure" href="https://1Sz0wSAzPg.flowdrivecdn.com/I8msmQd0KFDcHAVvOnwsX" type="image//I8msmQd0KFDcHAVvOnwsX"/>
+        <link rel="enclosure" href="https://1sz0wsazpg.flowdrivecdn.com/I8msmQd0KFDcHAVvOnwsX" type="image//I8msmQd0KFDcHAVvOnwsX"/>
         <updated>2026-04-09T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Dagster 1.13, codenamed "Octopus's Garden," introduces significant new features including Dagster skills, partitioned asset checks, state-backed components, and virtual assets, alongside stronger integrations for data orchestration.]]></summary>
         <content type="html"><![CDATA[## Summary & Key Takeaways
@@ -20973,7 +20973,7 @@ Original Link: https://javascriptweekly.com/issues/779]]></content>
         <title type="html"><![CDATA[TanStack Router Adopts Signal Graph for Reactive Core, Boosting Performance]]></title>
         <id>https://digestweb.dev/articles/2026-03-31/tanstack-router-signal-graph-reactive-core-performance</id>
         <link href="https://digestweb.dev/articles/2026-03-31/tanstack-router-signal-graph-reactive-core-performance"/>
-        <link rel="enclosure" href="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Ftanstack-router-signal-graph%2Fheader.jpg&amp;w=1200&amp;h=630&amp;fit=cover&amp;fm=jpg&amp;q=80" type="image/netlify/images"/>
+        <link rel="enclosure" href="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Ftanstack-router-signal-graph%2Fheader.jpg&amp;amp;w=1200&amp;amp;h=630&amp;amp;fit=cover&amp;amp;fm=jpg&amp;amp;q=80" type="image/netlify/images"/>
         <updated>2026-03-31T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[TanStack Router has re-architected its reactive core to use a granular signal graph, leading to narrower change propagation and faster client-side navigation. This update aims to improve the overall performance and responsiveness of applications using the router.]]></summary>
         <content type="html"><![CDATA[## Summary & Key Takeaways
@@ -21698,7 +21698,7 @@ Original Link: https://openai.com/index/safety-bug-bounty]]></content>
         <title type="html"><![CDATA[TanStack DB 0.6: Persistence, Offline Support, and Hierarchical Data]]></title>
         <id>https://digestweb.dev/articles/2026-03-25/tanstack-db-0-6-persistence-offline-hierarchical-data</id>
         <link href="https://digestweb.dev/articles/2026-03-25/tanstack-db-0-6-persistence-offline-hierarchical-data"/>
-        <link rel="enclosure" href="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Ftanstack-db-0.6-app-ready-with-persistence-and-includes%2Fheader.jpg&amp;w=1200&amp;h=630&amp;fit=cover&amp;fm=jpg&amp;q=80" type="image/netlify/images"/>
+        <link rel="enclosure" href="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Ftanstack-db-0.6-app-ready-with-persistence-and-includes%2Fheader.jpg&amp;amp;w=1200&amp;amp;h=630&amp;amp;fit=cover&amp;amp;fm=jpg&amp;amp;q=80" type="image/netlify/images"/>
         <updated>2026-03-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[TanStack DB 0.6 introduces SQLite-backed persistence across runtimes, enabling robust offline capabilities. It also adds hierarchical includes for projecting normalized data into UI-shaped trees.]]></summary>
         <content type="html"><![CDATA[## Summary & Key Takeaways
@@ -21968,7 +21968,7 @@ Original Link: https://webkit.org/blog/17862/webkit-features-for-safari-26-4/]]>
         <title type="html"><![CDATA[Anthropic Enables Long-Running Claude for Scientific Computing]]></title>
         <id>https://digestweb.dev/articles/2026-03-23/anthropic-long-running-claude-scientific-computing</id>
         <link href="https://digestweb.dev/articles/2026-03-23/anthropic-long-running-claude-scientific-computing"/>
-        <link rel="enclosure" href="https://www.anthropic.com/api/opengraph-illustration?name=Object%20Hourglass%20Cosmic&amp;backgroundColor=heather" type="image//api/opengraph-illustration"/>
+        <link rel="enclosure" href="https://www.anthropic.com/api/opengraph-illustration?name=Object%20Hourglass%20Cosmic&amp;amp;backgroundColor=heather" type="image//api/opengraph-illustration"/>
         <updated>2026-03-23T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Anthropic's latest research focuses on enabling Claude to perform long-running tasks for scientific computing. This advancement addresses challenges related to sustained context and complex, multi-step operations in AI models.]]></summary>
         <content type="html"><![CDATA[## Summary & Key Takeaways
@@ -21987,7 +21987,7 @@ Original Link: https://www.anthropic.com/research/long-running-Claude]]></conten
         <title type="html"><![CDATA[Anthropic's "Vibe Physics": AI as a Grad Student]]></title>
         <id>https://digestweb.dev/articles/2026-03-23/anthropic-vibe-physics-ai-grad-student</id>
         <link href="https://digestweb.dev/articles/2026-03-23/anthropic-vibe-physics-ai-grad-student"/>
-        <link rel="enclosure" href="https://www.anthropic.com/api/opengraph-illustration?name=Hand%20HeadNodeThink&amp;backgroundColor=cactus" type="image//api/opengraph-illustration"/>
+        <link rel="enclosure" href="https://www.anthropic.com/api/opengraph-illustration?name=Hand%20HeadNodeThink&amp;amp;backgroundColor=cactus" type="image//api/opengraph-illustration"/>
         <updated>2026-03-23T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Anthropic introduces "Vibe Physics," a research initiative exploring AI's capability to function as a "grad student" in physics. This work delves into advanced AI reasoning and problem-solving in scientific domains.]]></summary>
         <content type="html"><![CDATA[## Summary & Key Takeaways
@@ -22776,7 +22776,7 @@ Original Link: https://github.blog/security/supply-chain-security/investing-in-t
         <title type="html"><![CDATA[TanStack Start Achieves 5.5x SSR Throughput Boost Through Profiling]]></title>
         <id>https://digestweb.dev/articles/2026-03-17/tanstack-start-5x-ssr-throughput-boost-profiling</id>
         <link href="https://digestweb.dev/articles/2026-03-17/tanstack-start-5x-ssr-throughput-boost-profiling"/>
-        <link rel="enclosure" href="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Ftanstack-start-5x-ssr-throughput%2Fheader.png&amp;w=1200&amp;h=630&amp;fit=cover&amp;fm=jpg&amp;q=80" type="image/netlify/images"/>
+        <link rel="enclosure" href="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Ftanstack-start-5x-ssr-throughput%2Fheader.png&amp;amp;w=1200&amp;amp;h=630&amp;amp;fit=cover&amp;amp;fm=jpg&amp;amp;q=80" type="image/netlify/images"/>
         <updated>2026-03-17T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Discover how profiling under sustained load helped identify and eliminate SSR hot paths in TanStack Start, resulting in a remarkable 5.5x increase in server-side rendering throughput. This article details the optimization process and its impact.]]></summary>
         <content type="html"><![CDATA[## Summary & Key Takeaways

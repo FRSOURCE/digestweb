@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Thu, 30 Jul 2026 11:38:09 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Jul 2026 11:38:28 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -306,7 +306,7 @@ Original Link: https://javascriptweekly.com/issues/796]]></content:encoded>
 This is both fascinating and a little terrifying. On one hand, AI assisting in finding vulnerabilities could be a huge boon for security. On the other, the implications of an AI _generating_ such weaknesses are... unsettling. We're entering a new era of digital cat-and-mouse, and I'm not sure who's going to win.
 
 Original Link: https://www.anthropic.com/research/discovering-cryptographic-weaknesses]]></content:encoded>
-            <enclosure url="https://www.anthropic.com/api/opengraph-illustration?name=Object-LaptopSecure&amp;backgroundColor=sky" length="0" type="image//api/opengraph-illustration"/>
+            <enclosure url="https://www.anthropic.com/api/opengraph-illustration?name=Object-LaptopSecure&amp;amp;backgroundColor=sky" length="0" type="image//api/opengraph-illustration"/>
         </item>
         <item>
             <title><![CDATA[Claude Mythos Uncovers Crypto Flaws, Prompts Revealed]]></title>
@@ -7381,7 +7381,7 @@ Original Link: https://css-tricks.com/scroll-driven-animations-opposing-scroll-d
 This is the kind of deep-dive optimization we love to see. A 90% memory reduction is no small feat, especially for a library as fundamental as TanStack Table. It's a brilliant reminder that sometimes the most impactful performance gains come from fundamental architectural decisions, not just micro-optimizations. I'm always impressed by the TanStack team's commitment to pushing the envelope.
 
 Original Link: https://tanstack.com/blog/tanstack-table-v9-memory-performance]]></content:encoded>
-            <enclosure url="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Ftanstack-table-v9-memory-performance%2Fheader.png&amp;w=1200&amp;h=630&amp;fit=cover&amp;fm=jpg&amp;q=80" length="0" type="image/netlify/images"/>
+            <enclosure url="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Ftanstack-table-v9-memory-performance%2Fheader.png&amp;amp;w=1200&amp;amp;h=630&amp;amp;fit=cover&amp;amp;fm=jpg&amp;amp;q=80" length="0" type="image/netlify/images"/>
         </item>
         <item>
             <title><![CDATA[Cloudflare Workers Get Temporary Deployments for Quick Tests]]></title>
@@ -7615,7 +7615,7 @@ Original Link: https://openai.com/index/diagnose-rare-childhood-diseases]]></con
 Anthropic's "Project Fetch: Phase Two" sounds like serious business. Red teaming is absolutely crucial for AI safety, especially as models get more powerful. It's good to see them publicly documenting these efforts. We need more transparency around how these frontier models are being scrutinized for potential harms.
 
 Original Link: https://www.anthropic.com/research/project-fetch-phase-two]]></content:encoded>
-            <enclosure url="https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Knobs&amp;backgroundColor=cactus" length="0" type="image//api/opengraph-illustration"/>
+            <enclosure url="https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Knobs&amp;amp;backgroundColor=cactus" length="0" type="image//api/opengraph-illustration"/>
         </item>
         <item>
             <title><![CDATA[Benchmarking Open Models: Is Your Agentic AI Sufficient?]]></title>
@@ -8219,7 +8219,7 @@ Original Link: https://openai.com/index/introducing-life-sci-bench]]></content:e
 A new major version of React Router is always a big deal for the React community. I'm curious to see what specific changes landed and how they impact existing applications. We've all spent countless hours with this library, so any evolution is worth paying attention to.
 
 Original Link: https://remix.run/blog/react-router-v8]]></content:encoded>
-            <enclosure url="http://remix.run/img/react-router-v8?title=React+Router+v8&amp;date=June+17%2C+2026&amp;authorName=Brooks+Lybrand&amp;authorTitle=Developer+Relations+Manager&amp;ogImage=%2Fblog-images%2Fheaders%2Freact-router-v8.jpg" length="0" type="image//img/react-router-v8"/>
+            <enclosure url="http://remix.run/img/react-router-v8?title=React+Router+v8&amp;amp;date=June+17%2C+2026&amp;amp;authorName=Brooks+Lybrand&amp;amp;authorTitle=Developer+Relations+Manager&amp;amp;ogImage=%2Fblog-images%2Fheaders%2Freact-router-v8.jpg" length="0" type="image//img/react-router-v8"/>
         </item>
         <item>
             <title><![CDATA[Safari Technology Preview 246: Latest WebKit Updates]]></title>
@@ -8321,7 +8321,7 @@ Original Link: https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#at
 This is fascinating. The idea that expertise still matters, even with agentic coding, is a relief. I've been wondering if we're all just going to become prompt engineers. It's good to see research pushing back on that narrative a bit.
 
 Original Link: https://www.anthropic.com/research/claude-code-expertise]]></content:encoded>
-            <enclosure url="https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Abacus&amp;backgroundColor=cactus" length="0" type="image//api/opengraph-illustration"/>
+            <enclosure url="https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Abacus&amp;amp;backgroundColor=cactus" length="0" type="image//api/opengraph-illustration"/>
         </item>
         <item>
             <title><![CDATA[Chris' Corner: Exploring Container Query Units for CSS Layouts]]></title>
@@ -9253,7 +9253,7 @@ Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.6.0]]></content:enc
 A new major version of TanStack Table is always a big deal for us. The mention of integrating learnings from TanStack Form is particularly intriguing. I'm genuinely curious how those architectural insights translate into a table component. Will it feel more opinionated? More integrated with form state? We're eager to dive in and see what this means for complex data UIs.
 
 Original Link: https://tanstack.com/blog/tanstack-table-v9-taking-form]]></content:encoded>
-            <enclosure url="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Ftanstack-table-v9-taking-form%2Fheader.png&amp;w=1200&amp;h=630&amp;fit=cover&amp;fm=jpg&amp;q=80" length="0" type="image/netlify/images"/>
+            <enclosure url="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Ftanstack-table-v9-taking-form%2Fheader.png&amp;amp;w=1200&amp;amp;h=630&amp;amp;fit=cover&amp;amp;fm=jpg&amp;amp;q=80" length="0" type="image/netlify/images"/>
         </item>
         <item>
             <title><![CDATA[LLM Research Papers: The 2026 List (January to May)]]></title>
@@ -9381,7 +9381,7 @@ Original Link: https://blog.angular.dev/angular-in-2026-mid-year-reality-check-s
 Making an LLM a 'chemist' is a fascinating direction. It moves beyond general knowledge to specialized, domain-specific reasoning. We're seeing more of these targeted applications, and it makes me wonder how long until we have AI specialists across every scientific field. The implications for accelerating research are huge, but also a little daunting.
 
 Original Link: https://www.anthropic.com/research/making-claude-a-chemist]]></content:encoded>
-            <enclosure url="https://www.anthropic.com/api/opengraph-illustration?name=Hand%20HeadCube&amp;backgroundColor=cactus" length="0" type="image//api/opengraph-illustration"/>
+            <enclosure url="https://www.anthropic.com/api/opengraph-illustration?name=Hand%20HeadCube&amp;amp;backgroundColor=cactus" length="0" type="image//api/opengraph-illustration"/>
         </item>
         <item>
             <title><![CDATA[Behavioral Economics for UX: Uncovering Hidden Friction]]></title>
@@ -9567,7 +9567,7 @@ Original Link: https://tympanus.net/codrops/2026/06/05/the-making-of-the-new-les
 TanStack continues to impress with its modular approach. Bringing MCP support to TanStack AI with such flexibility, especially around type-safety, is a smart move. We appreciate the focus on developer choice, whether it's a simple setup or a fully type-safe, generated experience. It feels like they're really thinking about how developers will integrate AI into their existing workflows.
 
 Original Link: https://tanstack.com/blog/your-mcp-your-way]]></content:encoded>
-            <enclosure url="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Fyour-mcp-your-way%2Fheader.png&amp;w=1200&amp;h=630&amp;fit=cover&amp;fm=jpg&amp;q=80" length="0" type="image/netlify/images"/>
+            <enclosure url="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Fyour-mcp-your-way%2Fheader.png&amp;amp;w=1200&amp;amp;h=630&amp;amp;fit=cover&amp;amp;fm=jpg&amp;amp;q=80" length="0" type="image/netlify/images"/>
         </item>
         <item>
             <title><![CDATA[AI Enthusiasts vs. Skeptics: A Race Against Time & Entropy]]></title>
@@ -10081,7 +10081,7 @@ Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.5.1]]></content:enc
 We're seeing more frameworks embrace build tool flexibility. It's a smart move. Locking into one tool can be a pain, especially as the ecosystem shifts. I appreciate the choice here; it feels like a nod to developer autonomy.
 
 Original Link: https://tanstack.com/blog/start-adds-rsbuild-support]]></content:encoded>
-            <enclosure url="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Fstart-adds-rsbuild-support%2Fheader.jpg&amp;w=1200&amp;h=630&amp;fit=cover&amp;fm=jpg&amp;q=80" length="0" type="image/netlify/images"/>
+            <enclosure url="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Fstart-adds-rsbuild-support%2Fheader.jpg&amp;amp;w=1200&amp;amp;h=630&amp;amp;fit=cover&amp;amp;fm=jpg&amp;amp;q=80" length="0" type="image/netlify/images"/>
         </item>
         <item>
             <title><![CDATA[Exploring the Gaps: What's Still Missing in CSS Layout?]]></title>
@@ -12987,7 +12987,7 @@ Original Link: https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everyth
 This is a significant step for TanStack AI, completing the loop for AG-UI. While the specifics of AG-UI aren't detailed here, achieving full bidirectional compliance suggests a more mature and capable framework for building AI-powered user interfaces. We're seeing more and more frameworks bake AI capabilities directly into their core offerings, and TanStack's commitment here is a strong signal. It makes us wonder how quickly AG-UI will become a de-facto standard for AI-driven UI interactions. The backward compatibility is a welcome detail, making adoption easier.
 
 Original Link: https://tanstack.com/blog/ag-ui-compliance]]></content:encoded>
-            <enclosure url="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Fag-ui-compliance%2Fheader.png&amp;w=1200&amp;h=630&amp;fit=cover&amp;fm=jpg&amp;q=80" length="0" type="image/netlify/images"/>
+            <enclosure url="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Fag-ui-compliance%2Fheader.png&amp;amp;w=1200&amp;amp;h=630&amp;amp;fit=cover&amp;amp;fm=jpg&amp;amp;q=80" length="0" type="image/netlify/images"/>
         </item>
         <item>
             <title><![CDATA[Recent LLM Architecture Developments: Reducing Long-Context Costs]]></title>
@@ -14456,7 +14456,7 @@ Original Link: https://github.blog/news-insights/policy-news-and-insights/why-ag
 This is a big deal. Explainable AI (XAI) isn't just a buzzword; it's fundamental to trust and safety, especially as LLMs become more integrated into critical applications. If Claude can genuinely explain its reasoning, it moves us closer to AI that's not just powerful, but also accountable and debuggable. I'm genuinely excited to see how this research progresses.
 
 Original Link: https://www.anthropic.com/research/teaching-claude-why]]></content:encoded>
-            <enclosure url="https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Knot&amp;backgroundColor=cactus" length="0" type="image//api/opengraph-illustration"/>
+            <enclosure url="https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Knot&amp;amp;backgroundColor=cactus" length="0" type="image//api/opengraph-illustration"/>
         </item>
         <item>
             <title><![CDATA[Leveraging Claude for Code: The Unreasonable Effectiveness of HTML]]></title>
@@ -16427,7 +16427,7 @@ Original Link: https://blog.codepen.io/2026/04/21/423-2-0-templates/]]></content
 This article hits on a fundamental challenge in building reliable AI systems. The "confidently wrong" agent is a nightmare scenario, and Dagster's point about the missing operational context from orchestrators is spot on. It's not enough for agents to understand _what_ to do; they need to understand _if_ it was done successfully. This highlights the growing importance of robust data and workflow orchestration in the age of AI. We need to think beyond just the models and consider the entire operational stack.
 
 Original Link: https://dagster.io/blog/the-missing-half-of-the-enterprise-context-layer]]></content:encoded>
-            <enclosure url="https://1Sz0wSAzPg.flowdrivecdn.com/Ga8gchphBrTUTxdiWS3Sl" length="0" type="image//Ga8gchphBrTUTxdiWS3Sl"/>
+            <enclosure url="https://1sz0wsazpg.flowdrivecdn.com/Ga8gchphBrTUTxdiWS3Sl" length="0" type="image//Ga8gchphBrTUTxdiWS3Sl"/>
         </item>
         <item>
             <title><![CDATA[GitHub Copilot Updates Individual Plans and Features]]></title>
@@ -16626,7 +16626,7 @@ Original Link: https://frontendmasters.com/blog/the-incredible-overcomplexity-of
 Debugging AI pipelines can be notoriously difficult, often feeling like peering into a black box. This release from TanStack AI is a welcome addition, directly addressing a common pain point for developers. We appreciate the focus on developer experience, making complex AI workflows more transparent and manageable. It's a smart move to integrate this directly into the framework.
 
 Original Link: https://tanstack.com/blog/debug-logging-for-tanstack-ai]]></content:encoded>
-            <enclosure url="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Fdebug-logging-for-tanstack-ai%2Fheader.png&amp;w=1200&amp;h=630&amp;fit=cover&amp;fm=jpg&amp;q=80" length="0" type="image/netlify/images"/>
+            <enclosure url="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Fdebug-logging-for-tanstack-ai%2Fheader.png&amp;amp;w=1200&amp;amp;h=630&amp;amp;fit=cover&amp;amp;fm=jpg&amp;amp;q=80" length="0" type="image/netlify/images"/>
         </item>
         <item>
             <title><![CDATA[TanStack AI Ensures Type-Safe Tool Calls, Preventing Runtime Failures]]></title>
@@ -16646,7 +16646,7 @@ Original Link: https://tanstack.com/blog/debug-logging-for-tanstack-ai]]></conte
 This is a fantastic quality-of-life improvement for anyone building with AI tools. The idea of "failing fast" at compile time rather than discovering silent production errors is a core principle of robust software development. We've all been there, chasing down elusive bugs that only manifest in specific environments. TanStack AI's move to type-level gating for provider tools is a testament to their commitment to developer experience and reliability in the AI space. It's the kind of feature that saves countless hours of frustration.
 
 Original Link: https://tanstack.com/blog/type-safe-provider-tools-tanstack-ai]]></content:encoded>
-            <enclosure url="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Ftype-safe-provider-tools-tanstack-ai%2Fheader.png&amp;w=1200&amp;h=630&amp;fit=cover&amp;fm=jpg&amp;q=80" length="0" type="image/netlify/images"/>
+            <enclosure url="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Ftype-safe-provider-tools-tanstack-ai%2Fheader.png&amp;amp;w=1200&amp;amp;h=630&amp;amp;fit=cover&amp;amp;fm=jpg&amp;amp;q=80" length="0" type="image/netlify/images"/>
         </item>
         <item>
             <title><![CDATA[Unlock Structured Clone for Chrome Extension Messaging]]></title>
@@ -17982,7 +17982,7 @@ Original Link: https://windsurf.com/blog/windsurf-2-0]]></content:encoded>
 This is exactly the kind of deep, foundational research we need from companies like Anthropic. The idea of using LLMs to _scale_ alignment oversight is fascinating and, frankly, a bit meta. It suggests a future where AI itself plays a crucial role in ensuring its own safety and ethical behavior. I'm genuinely curious about the practical implications and potential pitfalls of such a system. It feels like a necessary step, but also one that requires immense scrutiny. The implications for future AI development are huge.
 
 Original Link: https://www.anthropic.com/research/automated-alignment-researchers]]></content:encoded>
-            <enclosure url="https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Abacus&amp;backgroundColor=olive" length="0" type="image//api/opengraph-illustration"/>
+            <enclosure url="https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Abacus&amp;amp;backgroundColor=olive" length="0" type="image//api/opengraph-illustration"/>
         </item>
         <item>
             <title><![CDATA[Claude Code Desktop Redesigned for Parallel Agents]]></title>
@@ -18609,7 +18609,7 @@ Original Link: https://simonwillison.net/2026/Apr/10/voice-mode-is-weaker/#atom-
 This is great news for the SolidJS community! TanStack libraries are foundational for many web applications, and getting early beta support for Solid 2.0 means developers can start testing and providing feedback on the next iteration of SolidJS. It's a strong signal of confidence in Solid's future and will help ensure a smoother transition when 2.0 officially drops.
 
 Original Link: https://tanstack.com/blog/tanstack-start-solid-v2]]></content:encoded>
-            <enclosure url="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Ftanstack-start-solid-v2%2Fheader.png&amp;w=1200&amp;h=630&amp;fit=cover&amp;fm=jpg&amp;q=80" length="0" type="image/netlify/images"/>
+            <enclosure url="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Ftanstack-start-solid-v2%2Fheader.png&amp;amp;w=1200&amp;amp;h=630&amp;amp;fit=cover&amp;amp;fm=jpg&amp;amp;q=80" length="0" type="image/netlify/images"/>
         </item>
         <item>
             <title><![CDATA[Anthropic Research: Trustworthy AI Agents in Practice]]></title>
@@ -18629,7 +18629,7 @@ Original Link: https://tanstack.com/blog/tanstack-start-solid-v2]]></content:enc
 This is exactly the kind of research we need from leading AI labs. The theoretical discussions around AI safety are important, but bringing it down to "in practice" is where the rubber meets the road. We're particularly interested in what specific policies and practical frameworks Anthropic is proposing to ensure agents are trustworthy. This isn't just about preventing harm; it's about building user confidence and enabling broader, safer adoption of AI.
 
 Original Link: https://www.anthropic.com/research/trustworthy-agents]]></content:encoded>
-            <enclosure url="https://www.anthropic.com/api/opengraph-illustration?name=Object%20Desktop&amp;backgroundColor=coral" length="0" type="image//api/opengraph-illustration"/>
+            <enclosure url="https://www.anthropic.com/api/opengraph-illustration?name=Object%20Desktop&amp;amp;backgroundColor=coral" length="0" type="image//api/opengraph-illustration"/>
         </item>
         <item>
             <title><![CDATA[The Advisor Strategy: Boosting AI Agent Intelligence]]></title>
@@ -18751,7 +18751,7 @@ Original Link: https://openai.com/index/cyber-agent]]></content:encoded>
 Dagster continues to evolve as a critical piece of the MLOps puzzle. "Octopus's Garden" sounds like a delightful name for a release packed with features that address real pain points for data engineers and ML practitioners. We're particularly intrigued by "Dagster skills" and "virtual assets" – these could significantly streamline complex data pipelines and make them more manageable. It's great to see continued innovation in the tooling space that supports the broader AI ecosystem.
 
 Original Link: https://dagster.io/blog/dagster-1-13-octopuss-garden]]></content:encoded>
-            <enclosure url="https://1Sz0wSAzPg.flowdrivecdn.com/I8msmQd0KFDcHAVvOnwsX" length="0" type="image//I8msmQd0KFDcHAVvOnwsX"/>
+            <enclosure url="https://1sz0wsazpg.flowdrivecdn.com/I8msmQd0KFDcHAVvOnwsX" length="0" type="image//I8msmQd0KFDcHAVvOnwsX"/>
         </item>
         <item>
             <title><![CDATA[Deno v2.7.12: Continued Node.js Compatibility & Core Improvements]]></title>
@@ -20508,7 +20508,7 @@ Original Link: https://javascriptweekly.com/issues/779]]></content:encoded>
 This is a genuinely exciting development for TanStack Router. The move to a signal graph for its reactive core feels like a natural evolution, especially given the industry's increasing focus on fine-grained reactivity. Faster client-side navigation is a huge win for user experience, and I appreciate the transparency in their benchmarks.
 
 Original Link: https://tanstack.com/blog/tanstack-router-signal-graph]]></content:encoded>
-            <enclosure url="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Ftanstack-router-signal-graph%2Fheader.jpg&amp;w=1200&amp;h=630&amp;fit=cover&amp;fm=jpg&amp;q=80" length="0" type="image/netlify/images"/>
+            <enclosure url="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Ftanstack-router-signal-graph%2Fheader.jpg&amp;amp;w=1200&amp;amp;h=630&amp;amp;fit=cover&amp;amp;fm=jpg&amp;amp;q=80" length="0" type="image/netlify/images"/>
         </item>
         <item>
             <title><![CDATA[What’s !important #8: Light/Dark Favicons, @mixin, object-view-box, and More]]></title>
@@ -21215,7 +21215,7 @@ Original Link: https://openai.com/index/safety-bug-bounty]]></content:encoded>
 This is a solid update for TanStack DB. Adding SQLite persistence and offline capabilities is a huge win for building resilient applications. It feels like TanStack is really maturing its offerings beyond just query management.
 
 Original Link: https://tanstack.com/blog/tanstack-db-0.6-app-ready-with-persistence-and-includes]]></content:encoded>
-            <enclosure url="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Ftanstack-db-0.6-app-ready-with-persistence-and-includes%2Fheader.jpg&amp;w=1200&amp;h=630&amp;fit=cover&amp;fm=jpg&amp;q=80" length="0" type="image/netlify/images"/>
+            <enclosure url="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Ftanstack-db-0.6-app-ready-with-persistence-and-includes%2Fheader.jpg&amp;amp;w=1200&amp;amp;h=630&amp;amp;fit=cover&amp;amp;fm=jpg&amp;amp;q=80" length="0" type="image/netlify/images"/>
         </item>
         <item>
             <title><![CDATA[AI-Powered GitHub Issue Triage with Copilot SDK]]></title>
@@ -21482,7 +21482,7 @@ Original Link: https://webkit.org/blog/17862/webkit-features-for-safari-26-4/]]>
 The ability for an AI like Claude to handle "long-running" tasks, especially in scientific computing, is a huge leap forward. One of the biggest frustrations with current LLMs is their limited context window and stateless nature, making complex, multi-step processes difficult. If Claude can maintain state and context over extended periods, it unlocks entirely new possibilities for research, simulation, and data analysis. We're talking about AI that can truly "work" on a problem for hours or days, rather than just responding to isolated prompts. This feels like a foundational improvement that will enable many future AI applications.
 
 Original Link: https://www.anthropic.com/research/long-running-Claude]]></content:encoded>
-            <enclosure url="https://www.anthropic.com/api/opengraph-illustration?name=Object%20Hourglass%20Cosmic&amp;backgroundColor=heather" length="0" type="image//api/opengraph-illustration"/>
+            <enclosure url="https://www.anthropic.com/api/opengraph-illustration?name=Object%20Hourglass%20Cosmic&amp;amp;backgroundColor=heather" length="0" type="image//api/opengraph-illustration"/>
         </item>
         <item>
             <title><![CDATA[Anthropic's "Vibe Physics": AI as a Grad Student]]></title>
@@ -21501,7 +21501,7 @@ Original Link: https://www.anthropic.com/research/long-running-Claude]]></conten
 The idea of an AI acting as a "grad student" in physics is both fascinating and a little unsettling. On one hand, it promises to accelerate scientific discovery by offloading tedious or complex analytical tasks to highly capable models. Imagine the breakthroughs if AI could autonomously explore hypotheses and process data at speeds humans can't match. On the other hand, it raises questions about the future role of human researchers and the nature of scientific intuition. We're moving beyond AI as a tool and towards AI as a collaborator, or even an independent agent. It's a significant step in AI's journey towards more autonomous and creative roles.
 
 Original Link: https://www.anthropic.com/research/vibe-physics]]></content:encoded>
-            <enclosure url="https://www.anthropic.com/api/opengraph-illustration?name=Hand%20HeadNodeThink&amp;backgroundColor=cactus" length="0" type="image//api/opengraph-illustration"/>
+            <enclosure url="https://www.anthropic.com/api/opengraph-illustration?name=Hand%20HeadNodeThink&amp;amp;backgroundColor=cactus" length="0" type="image//api/opengraph-illustration"/>
         </item>
         <item>
             <title><![CDATA[Claude Can Now Work Directly on Your Computer]]></title>
@@ -22269,7 +22269,7 @@ Whoah! This article from TanStack is a fantastic case study in the power of dili
 Developers, regardless of their framework choice, can glean valuable insights from their methodology for identifying and tackling performance hot spots.
 
 Original Link: https://tanstack.com/blog/tanstack-start-5x-ssr-throughput]]></content:encoded>
-            <enclosure url="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Ftanstack-start-5x-ssr-throughput%2Fheader.png&amp;w=1200&amp;h=630&amp;fit=cover&amp;fm=jpg&amp;q=80" length="0" type="image/netlify/images"/>
+            <enclosure url="https://tanstack.com/.netlify/images?url=%2Fblog-assets%2Ftanstack-start-5x-ssr-throughput%2Fheader.png&amp;amp;w=1200&amp;amp;h=630&amp;amp;fit=cover&amp;amp;fm=jpg&amp;amp;q=80" length="0" type="image/netlify/images"/>
         </item>
         <item>
             <title><![CDATA[Vite 8.0 Ships with Rolldown, Wasm SSR, & Major Performance Boosts]]></title>
