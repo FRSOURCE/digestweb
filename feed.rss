@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Thu, 30 Jul 2026 03:56:52 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Jul 2026 09:31:11 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -99,6 +99,68 @@ GPT-5.6. Wow. The focus on "frontier efficiency" alongside intelligence is exact
 
 Original Link: https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency]]></content:encoded>
             <enclosure url="https://picsum.photos/id/43/800/450" length="0" type="image//id/43/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[GPT-5.6 Performance Triples on ARC-AGI-3 with Two API Settings]]></title>
+            <link>https://digestweb.dev/articles/2026-07-29/gpt-5-6-performance-triples-arc-agi-3-api-settings</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-29/gpt-5-6-performance-triples-arc-agi-3-api-settings</guid>
+            <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI reveals how two specific API settings dramatically boosted GPT-5.6's scores and efficiency on the ARC-AGI-3 benchmark.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI achieved a threefold increase in GPT-5.6's ARC-AGI-3 benchmark scores.
+- This improvement was due to enabling two specific API settings.
+- The settings enhanced performance by retaining reasoning capabilities.
+- They also improved efficiency through a compaction mechanism.
+
+## Our Commentary
+
+This is a classic OpenAI move, isn't it? A quiet blog post about a massive performance jump. "Tripled scores" sounds huge, but it's always about the specific benchmark. I wonder what these "two settings" actually are. It feels like a peek behind the curtain, but only just.
+
+Original Link: https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/825/800/450" length="0" type="image//id/825/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[HTML & CSS Only: Simulating a Random Post Button]]></title>
+            <link>https://digestweb.dev/articles/2026-07-29/html-css-only-random-post-button-simulation</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-29/html-css-only-random-post-button-simulation</guid>
+            <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover a clever, pure HTML and CSS technique to create a button that appears to link to a random post, achieved without any JavaScript.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article explores creating a "random post" button using only HTML and CSS.
+- It achieves this effect by cleverly manipulating multiple links.
+- The technique avoids the use of JavaScript entirely.
+- It's presented as a theoretical exercise rather than a practical solution.
+
+## Our Commentary
+
+I'm always fascinated by what people can pull off with just HTML and CSS. "50 links in a trenchcoat" is a brilliant description. While this isn't something we'd ever recommend for production, it's a fantastic thought experiment for understanding browser rendering and CSS capabilities. It reminds me of those pure CSS games – impressive, but ultimately a demonstration of ingenuity over practicality.
+
+Original Link: https://master.dev/blog/a-button-that-links-to-a-random-post-in-html-css-only/]]></content:encoded>
+            <enclosure url="https://master.dev/blog/wp-json/social-image-generator/v1/image/10561" length="0" type="image//blog/wp-json/social-image-generator/v1/image/10561"/>
+        </item>
+        <item>
+            <title><![CDATA[K-Search Bridges CUDA Expertise to Apple Silicon MLX for AI Kernel Optimization]]></title>
+            <link>https://digestweb.dev/articles/2026-07-29/k-search-bridges-cuda-expertise-apple-silicon-mlx-ai-kernel-optimization</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-29/k-search-bridges-cuda-expertise-apple-silicon-mlx-ai-kernel-optimization</guid>
+            <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Researchers developed K-Search, an AI-powered framework, to automatically translate decades of CUDA kernel optimization knowledge to Apple Silicon's MLX, achieving near-expert performance.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- K-Search is an AI-powered framework for optimizing GPU kernels.
+- It translates existing CUDA kernel expertise to Apple Silicon's MLX framework.
+- This addresses the challenge of porting highly optimized AI operations to new hardware.
+- The approach achieves near-expert level performance on Apple Silicon.
+- It offers up to a 20x prefill speedup over native MLX Attention kernels.
+- The method avoids rebuilding optimizations from scratch for new architectures.
+
+## Our Commentary
+
+This is genuinely exciting. The idea of automatically translating decades of CUDA optimization to new hardware like Apple Silicon is a game-changer for hardware diversity in AI. We've been so locked into NVIDIA, and anything that democratizes high-performance AI compute is a win. I'm curious how broadly applicable this "translation layer" concept is. It feels like a big step towards hardware agnosticism for AI workloads.
+
+Original Link: http://bair.berkeley.edu/blog/2026/07/29/cuda-to-mlx-k-search/]]></content:encoded>
+            <enclosure url="https://bair.berkeley.edu/static/blog/cuda-to-mlx-k-search/cover.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[OpenAI Offers Free ChatGPT Access to 100K Academic Researchers]]></title>

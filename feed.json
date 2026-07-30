@@ -53,6 +53,33 @@
             "date_modified": "2026-07-29T00:00:00.000Z"
         },
         {
+            "id": "https://digestweb.dev/articles/2026-07-29/gpt-5-6-performance-triples-arc-agi-3-api-settings",
+            "content_html": "## Summary & Key Takeaways\n\n- OpenAI achieved a threefold increase in GPT-5.6's ARC-AGI-3 benchmark scores.\n- This improvement was due to enabling two specific API settings.\n- The settings enhanced performance by retaining reasoning capabilities.\n- They also improved efficiency through a compaction mechanism.\n\n## Our Commentary\n\nThis is a classic OpenAI move, isn't it? A quiet blog post about a massive performance jump. \"Tripled scores\" sounds huge, but it's always about the specific benchmark. I wonder what these \"two settings\" actually are. It feels like a peek behind the curtain, but only just.\n\nOriginal Link: https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+            "url": "https://digestweb.dev/articles/2026-07-29/gpt-5-6-performance-triples-arc-agi-3-api-settings",
+            "title": "GPT-5.6 Performance Triples on ARC-AGI-3 with Two API Settings",
+            "summary": "OpenAI reveals how two specific API settings dramatically boosted GPT-5.6's scores and efficiency on the ARC-AGI-3 benchmark.",
+            "image": "https://picsum.photos/id/825/800/450",
+            "date_modified": "2026-07-29T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-29/html-css-only-random-post-button-simulation",
+            "content_html": "## Summary & Key Takeaways\n\n- The article explores creating a \"random post\" button using only HTML and CSS.\n- It achieves this effect by cleverly manipulating multiple links.\n- The technique avoids the use of JavaScript entirely.\n- It's presented as a theoretical exercise rather than a practical solution.\n\n## Our Commentary\n\nI'm always fascinated by what people can pull off with just HTML and CSS. \"50 links in a trenchcoat\" is a brilliant description. While this isn't something we'd ever recommend for production, it's a fantastic thought experiment for understanding browser rendering and CSS capabilities. It reminds me of those pure CSS games – impressive, but ultimately a demonstration of ingenuity over practicality.\n\nOriginal Link: https://master.dev/blog/a-button-that-links-to-a-random-post-in-html-css-only/",
+            "url": "https://digestweb.dev/articles/2026-07-29/html-css-only-random-post-button-simulation",
+            "title": "HTML & CSS Only: Simulating a Random Post Button",
+            "summary": "Discover a clever, pure HTML and CSS technique to create a button that appears to link to a random post, achieved without any JavaScript.",
+            "image": "https://master.dev/blog/wp-json/social-image-generator/v1/image/10561",
+            "date_modified": "2026-07-29T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-29/k-search-bridges-cuda-expertise-apple-silicon-mlx-ai-kernel-optimization",
+            "content_html": "## Summary & Key Takeaways\n\n- K-Search is an AI-powered framework for optimizing GPU kernels.\n- It translates existing CUDA kernel expertise to Apple Silicon's MLX framework.\n- This addresses the challenge of porting highly optimized AI operations to new hardware.\n- The approach achieves near-expert level performance on Apple Silicon.\n- It offers up to a 20x prefill speedup over native MLX Attention kernels.\n- The method avoids rebuilding optimizations from scratch for new architectures.\n\n## Our Commentary\n\nThis is genuinely exciting. The idea of automatically translating decades of CUDA optimization to new hardware like Apple Silicon is a game-changer for hardware diversity in AI. We've been so locked into NVIDIA, and anything that democratizes high-performance AI compute is a win. I'm curious how broadly applicable this \"translation layer\" concept is. It feels like a big step towards hardware agnosticism for AI workloads.\n\nOriginal Link: http://bair.berkeley.edu/blog/2026/07/29/cuda-to-mlx-k-search/",
+            "url": "https://digestweb.dev/articles/2026-07-29/k-search-bridges-cuda-expertise-apple-silicon-mlx-ai-kernel-optimization",
+            "title": "K-Search Bridges CUDA Expertise to Apple Silicon MLX for AI Kernel Optimization",
+            "summary": "Researchers developed K-Search, an AI-powered framework, to automatically translate decades of CUDA kernel optimization knowledge to Apple Silicon's MLX, achieving near-expert performance.",
+            "image": "https://bair.berkeley.edu/static/blog/cuda-to-mlx-k-search/cover.png",
+            "date_modified": "2026-07-29T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-07-29/openai-free-chatgpt-for-academic-researchers",
             "content_html": "## Summary & Key Takeaways\n\n- OpenAI is granting free access to its advanced ChatGPT models.\n- The initiative targets 100,000 academic researchers globally.\n- The goal is to accelerate scientific research, collaboration, and discovery.\n- This move aims to democratize access to frontier AI for the academic community.\n\n## Our Commentary\n\nThis is a huge move from OpenAI. Giving 100,000 researchers free access to their top models could genuinely accelerate scientific progress across countless fields. It's a smart play for both impact and data collection, I think. It also raises questions about equitable access long-term, but for now, it's a net positive.\n\nOriginal Link: https://openai.com/index/chatgpt-for-academic-researchers",
             "url": "https://digestweb.dev/articles/2026-07-29/openai-free-chatgpt-for-academic-researchers",
