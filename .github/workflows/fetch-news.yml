@@ -26,7 +26,7 @@ jobs:
       - run: pnpm i
 
       # Restore imported.json from cache so we don't re-process old articles
-      - uses: actions/cache@v5
+      - uses: actions/cache@v6
         with:
           path: tools/imported.json
           key: fetch-news-imported-${{ github.run_id }}
