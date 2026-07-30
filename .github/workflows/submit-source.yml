@@ -31,7 +31,7 @@ jobs:
       - run: pnpm fix
 
       - name: Open PR
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ secrets.GH_PAT }}
           branch: submit-source/${{ github.run_id }}
