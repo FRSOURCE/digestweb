@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Wed, 29 Jul 2026 09:37:32 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Jul 2026 03:56:52 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,194 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[AI Worming Through Word: A Self-Replicating Prompt Injection Attack]]></title>
+            <link>https://digestweb.dev/articles/2026-07-29/ai-worming-through-word-prompt-injection</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-29/ai-worming-through-word-prompt-injection</guid>
+            <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A new prompt injection variant allows hidden instructions in Word documents to self-replicate via Copilot, creating a novel and concerning AI security vulnerability.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- A new prompt injection attack targets Microsoft Word and Copilot.
+- Hidden instructions in a document can be interpreted by Copilot as user requests.
+- Copilot may then manipulate the document and copy the hidden instructions into it.
+- This creates a self-replicating "worm" that propagates without the original attacker's document.
+- The vulnerability was responsibly disclosed, but a full mitigation is not yet available.
+
+## Our Commentary
+
+This "AI worming through Word" attack is genuinely unsettling. We've seen prompt injection, but self-replication? That's a whole new level of concern. It highlights the inherent fragility of current LLM security and the unpredictable ways these systems can be exploited. I don't know how you fully patch something like this without fundamentally changing how LLMs process context.
+
+Original Link: https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/992/800/450" length="0" type="image//id/992/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Integrating a Custom MCP Server with Claude and ChatGPT]]></title>
+            <link>https://digestweb.dev/articles/2026-07-29/custom-mcp-server-claude-chatgpt</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-29/custom-mcp-server-claude-chatgpt</guid>
+            <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover how to connect a custom Model Context Protocol (MCP) server to the standard chat interfaces of Claude and ChatGPT, a process that involves several technical steps.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- It is possible to integrate a custom MCP server with Claude and ChatGPT.
+- The process involves multiple steps to configure the connection.
+- This allows for more controlled or specialized context management with LLMs.
+- The article serves as a "Today I Learned" style technical exploration.
+
+## Our Commentary
+
+Connecting a custom MCP server to Claude and ChatGPT sounds like a deep dive for those really pushing the boundaries of LLM interaction. It's not for the faint of heart, but for researchers or advanced users, this kind of granular control over context could unlock some interesting possibilities.
+
+Original Link: https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/969/800/450" length="0" type="image//id/969/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Google DeepMind Launches Lyria 3.5 for Enhanced AI Music Creation]]></title>
+            <link>https://digestweb.dev/articles/2026-07-29/google-deepmind-lyria-3-5-ai-music</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-29/google-deepmind-lyria-3-5-ai-music</guid>
+            <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Google DeepMind introduces Lyria 3.5, integrated into Google Flow Music, featuring significant advancements in musicality, lyrics, vocals, and creative control for AI-generated music.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Google DeepMind has launched Lyria 3.5, an updated AI music generation model.
+- It is integrated into Google Flow Music, enhancing its capabilities.
+- Key advancements include improved musicality, more coherent lyrics, and better vocals.
+- Users gain greater creative control over the generated music.
+- This release pushes the boundaries of AI in the music production space.
+
+## Our Commentary
+
+Lyria 3.5 from Google DeepMind is a fascinating development. AI music generation is still a wild frontier, and improvements in "musicality, lyrics, vocals, and creative control" are exactly what's needed to make these tools truly useful. I'm curious how much "creative control" they've actually managed to bake in.
+
+Original Link: https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/]]></content:encoded>
+            <enclosure url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Lyria3.5_social.max-1440x810.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[GPT-5.6 Unveiled: Fusing Frontier Intelligence with Efficiency]]></title>
+            <link>https://digestweb.dev/articles/2026-07-29/gpt-5-6-frontier-intelligence-efficiency</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-29/gpt-5-6-frontier-intelligence-efficiency</guid>
+            <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI announces GPT-5.6, a new model that significantly improves AI efficiency across models, inference, and agentic workflows, delivering more intelligence per dollar.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI has released GPT-5.6, a new iteration of its foundational AI model.
+- The focus is on achieving a balance between frontier intelligence and efficiency.
+- Improvements span across model architecture, inference processes, and agentic workflows.
+- The update aims to provide more useful intelligence at a lower cost.
+- This release signifies a continued push for practical, scalable AI solutions.
+
+## Our Commentary
+
+GPT-5.6. Wow. The focus on "frontier efficiency" alongside intelligence is exactly what the industry needs right now. It's not just about bigger models, but smarter, more cost-effective ones. This could have a massive impact on the viability and scalability of AI applications across the board. I'm genuinely excited to see the benchmarks.
+
+Original Link: https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/43/800/450" length="0" type="image//id/43/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Offers Free ChatGPT Access to 100K Academic Researchers]]></title>
+            <link>https://digestweb.dev/articles/2026-07-29/openai-free-chatgpt-for-academic-researchers</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-29/openai-free-chatgpt-for-academic-researchers</guid>
+            <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI is providing 100,000 academic researchers with free access to its most advanced ChatGPT models to accelerate scientific discovery and collaboration.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI is granting free access to its advanced ChatGPT models.
+- The initiative targets 100,000 academic researchers globally.
+- The goal is to accelerate scientific research, collaboration, and discovery.
+- This move aims to democratize access to frontier AI for the academic community.
+
+## Our Commentary
+
+This is a huge move from OpenAI. Giving 100,000 researchers free access to their top models could genuinely accelerate scientific progress across countless fields. It's a smart play for both impact and data collection, I think. It also raises questions about equitable access long-term, but for now, it's a net positive.
+
+Original Link: https://openai.com/index/chatgpt-for-academic-researchers]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/881/800/450" length="0" type="image//id/881/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[pnpm 11.18: Optional Dependency Fixes & Publish Config Support]]></title>
+            <link>https://digestweb.dev/articles/2026-07-29/pnpm-11-18-optional-dependency-fixes-publish-config</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-29/pnpm-11-18-optional-dependency-fixes-publish-config</guid>
+            <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[pnpm 11.18 addresses optional dependency issues, enhances GitHub Actions integration, and adds support for `publishConfig.name` for flexible package publishing.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Fixed an issue where optional dependencies could be left without their own required dependencies.
+- `pnpm setup` now appends `PNPM_HOME` to GitHub Actions environment files for better CI integration.
+- Added support for `publishConfig.name` to publish packages under a different name than their manifest.
+- `pnpm self-update` no longer takes instructions from the project, enhancing security.
+
+## Our Commentary
+
+It's good to see pnpm continuing to refine its core. The fix for optional dependencies is crucial for reliability, and the `publishConfig.name` feature is a clever solution for monorepos with naming conflicts. The `pnpm self-update` hardening is also a smart move for supply chain security.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.18.0]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/f17b3db6b529371087a7b20703c89d65ce43de5ba55db87f79e6cdadaf40c88b/pnpm/pnpm/releases/tag/v11.18.0" length="0" type="image/0"/>
+        </item>
+        <item>
+            <title><![CDATA[pnpm 12 Beta 0: Enhanced Workspace Management & Configuration]]></title>
+            <link>https://digestweb.dev/articles/2026-07-29/pnpm-12-beta-0-enhanced-workspace-management</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-29/pnpm-12-beta-0-enhanced-workspace-management</guid>
+            <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The latest pnpm beta introduces robust workspace protocol handling, improved update commands, and expanded configuration options for its Rust engine.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The Rust engine now reads more settings from `pnpm-workspace.yaml` and environment variables.
+- `frozenLockfile` and `savePrefix` can now be configured via `pnpm-workspace.yaml`.
+- `savePeer` and `saveCatalogName` settings are also supported by the Rust engine.
+- `saveWorkspaceProtocol` setting is now fully supported, allowing flexible workspace specifier handling.
+- `pnpm update --workspace` is now supported for re-pointing dependencies to local copies.
+- `pnpm update --depth <number>` now applies depth per dependency for more granular updates.
+
+## Our Commentary
+
+This beta release for pnpm 12 is packed with some really thoughtful improvements. I'm particularly interested in the `saveWorkspaceProtocol` enhancements; managing workspace dependencies can be a real pain point, and more granular control here is a win. The `pnpm update --workspace` command also feels like a long-awaited feature for monorepo users.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v12.0.0-beta.0]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/1107879bc7e5d4e394f9d59a19068f4928c576e3e0aae76a116ad9868233b6d1/pnpm/pnpm/releases/tag/v12.0.0-beta.0" length="0" type="image/0"/>
+        </item>
+        <item>
+            <title><![CDATA[Safari Technology Preview 249 Released with Latest WebKit Updates]]></title>
+            <link>https://digestweb.dev/articles/2026-07-29/safari-technology-preview-249-released</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-29/safari-technology-preview-249-released</guid>
+            <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Safari Technology Preview 249 is now available, bringing the newest WebKit features and bug fixes to developers for testing on macOS.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Safari Technology Preview 249 is now available for download.
+- This release includes the latest updates and improvements from WebKit.
+- It targets macOS Golden Gate and macOS Tahoe users.
+- Developers can use it to test upcoming web platform features and bug fixes.
+
+## Our Commentary
+
+Another Safari Technology Preview release. These are always good to keep an eye on for early glimpses of what's coming to the web platform. It's a steady drumbeat of progress, even if individual releases are often incremental.
+
+Original Link: https://webkit.org/blog/18182/release-notes-for-safari-technology-preview-249/]]></content:encoded>
+            <enclosure url="https://webkit.org/wp-content/themes/webkit/images/preview-card.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Tame Dependabot: Strategies for Quieter Dependency Updates]]></title>
+            <link>https://digestweb.dev/articles/2026-07-29/tame-dependabot-quieter-dependency-updates</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-29/tame-dependabot-quieter-dependency-updates</guid>
+            <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how to configure Dependabot to reduce pull request noise by grouping updates, controlling cadence, and prioritizing security fixes.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Dependabot's default settings can lead to an overwhelming number of pull requests.
+- Strategies include grouping updates to consolidate related changes.
+- Adjusting the update cadence can slow down the frequency of PRs.
+- Prioritizing security fixes ensures critical updates are still delivered quickly.
+- These configurations help maintain a cleaner repository and reduce developer fatigue.
+
+## Our Commentary
+
+Dependabot can be a double-edged sword, keeping things fresh but also flooding your PRs. We've all felt that pain. This article offers practical, actionable advice for taming the beast. Grouping updates is a game-changer for larger projects, and I appreciate the emphasis on keeping security fixes fast.
+
+Original Link: https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/]]></content:encoded>
+            <enclosure url="https://github.blog/wp-content/uploads/2026/01/generic-security-logo-github-blocks.png?fit=1920%2C1080" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Anders Hejlsberg Demos TypeScript 7's 10x Speedup, Boosting DX]]></title>
             <link>https://digestweb.dev/articles/2026-07-28/anders-hejlsberg-typescript-7-10x-speedup-demo</link>
