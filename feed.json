@@ -11,6 +11,126 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-07-30/bruce-schneier-ai-writing-critical-thinking-skills",
+            "content_html": "## Summary & Key Takeaways\n\n- The post quotes Bruce Schneier on the purpose of writing assignments.\n- Schneier views writing as \"gym tasks\" for developing critical thinking.\n- He argues that constant mental exercise is vital to prevent skill atrophy.\n- The piece implicitly questions AI's role in potentially undermining these developmental tasks.\n\n## Our Commentary\n\nSchneier always cuts right to the core. The \"gym tasks, not work tasks\" analogy for writing is brilliant, and it perfectly frames my own anxieties about AI. If we outsource all the thinking, what happens to our ability to think? It's a question we all need to grapple with, and I genuinely don't know how to feel about the long-term implications.\n\nOriginal Link: https://simonwillison.net/2026/Jul/30/bruce-schneier/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-30/bruce-schneier-ai-writing-critical-thinking-skills",
+            "title": "Bruce Schneier on AI, Writing, and Critical Thinking Skills",
+            "summary": "Simon Willison shares a powerful quote from Bruce Schneier, reflecting on how AI might diminish the \"gym tasks\" of writing that are crucial for developing critical thinking skills.",
+            "image": "https://picsum.photos/id/366/800/450",
+            "date_modified": "2026-07-30T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-30/dagster-community-showcase-part-3-creative-projects",
+            "content_html": "## Summary & Key Takeaways\n\n- This post is the third installment of Dagster's community showcase series.\n- It features a variety of creative projects developed by the Dagster community.\n- The showcase highlights diverse applications of the Dagster platform.\n- It aims to inspire and demonstrate the platform's versatility.\n\n## Our Commentary\n\nCommunity showcases are always a good way to see what people are actually _doing_ with a tool. It's easy to get lost in the theoretical, but seeing real-world applications, especially creative ones, is inspiring. We love seeing open-source communities thrive.\n\nOriginal Link: https://dagster.io/blog/community-showcase-part-3",
+            "url": "https://digestweb.dev/articles/2026-07-30/dagster-community-showcase-part-3-creative-projects",
+            "title": "Dagster Community Showcase Part 3: Creative Projects",
+            "summary": "Dagster highlights a selection of creative and interesting projects built by its community, showcasing diverse applications of the data orchestration platform.",
+            "image": "https://cdn.prod.website-files.com/681399f654933b29e12fb8e4/6a6a017b4b1e81be312b1a1d_FINAL_Community%203.png",
+            "date_modified": "2026-07-30T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-30/echoverse-evolving-environments-computer-use-ai-agents",
+            "content_html": "## Summary & Key Takeaways\n\n- Echoverse addresses the challenge of AI agents struggling with multi-step computer workflows.\n- It trains agents in deep, evolving, and realistic environments.\n- The approach moves beyond simply providing more training tasks.\n- Agents improve as tasks, tests, and environments dynamically change.\n- This aims to enhance agent performance in complex scenarios like email and customer support.\n\n## Our Commentary\n\nThis is a fascinating direction for agent training. The idea of \"evolving environments\" rather than just more data feels like a more natural path to robust AI. I've seen agents stumble on surprisingly simple multi-step tasks, so a system like Echoverse could be a game-changer. It's a step towards agents that can truly adapt.\n\nOriginal Link: https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents/",
+            "url": "https://digestweb.dev/articles/2026-07-30/echoverse-evolving-environments-computer-use-ai-agents",
+            "title": "Echoverse: Evolving Environments for Computer-Use AI Agents",
+            "summary": "Microsoft Research unveils Echoverse, a new framework designed to train AI agents in dynamic, realistic environments, enabling them to master complex, multi-step computer-use workflows more effectively.",
+            "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/07/PraxisWorld-TWLIFB-1200x627-1.jpg",
+            "date_modified": "2026-07-30T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-30/evaluating-tpu-performance-google-microbenchmarks",
+            "content_html": "## Summary & Key Takeaways\n\n- Google offers an open-source TPU microbenchmark suite for developers.\n- The suite provides granular performance metrics across various hardware components.\n- It helps establish a Roofline model to diagnose workload bottlenecks.\n- Engineers can identify if workloads are compute-, memory-, or network-bound.\n- The benchmarks guide targeted software optimizations for maximum hardware utilization.\n\n## Our Commentary\n\nFor anyone deep in the trenches of ML infrastructure, this is gold. Understanding and optimizing TPU performance is a dark art, and having Google's own microbenchmarks and a clear methodology for using them is incredibly helpful. We need more practical guides like this for specialized hardware.\n\nOriginal Link: https://developers.googleblog.com/how-to-use-google-microbenchmarks-for-evaluating-tpu-performance/",
+            "url": "https://digestweb.dev/articles/2026-07-30/evaluating-tpu-performance-google-microbenchmarks",
+            "title": "Evaluating TPU Performance with Google Microbenchmarks",
+            "summary": "Learn how to leverage Google's open-source TPU microbenchmark suite to gain granular performance metrics, diagnose workload bottlenecks, and guide software optimizations for maximizing hardware utilization.",
+            "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_ozwg7vozwg.2e16d0ba.fill-1200x600.jpg",
+            "date_modified": "2026-07-30T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-30/evolib-enabling-llms-learn-adapt-post-deployment",
+            "content_html": "## Summary & Key Takeaways\n\n- EvoLib addresses the limitation of LLMs not getting smarter by just remembering more.\n- It converts model experience into evolving, reusable knowledge.\n- The system helps models learn and adapt across various tasks.\n- This adaptation occurs continuously, even long after initial deployment.\n- EvoLib aims to enhance LLM intelligence beyond static training data.\n\n## Our Commentary\n\nThis is a crucial piece of the puzzle for truly intelligent LLMs. The idea that models can _evolve_ their knowledge post-deployment, rather than just being static snapshots, is a huge step forward. It tackles the \"LLMs don't get smarter just by remembering more\" problem head-on. I'm excited about the implications for long-term agent capabilities.\n\nOriginal Link: https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge/",
+            "url": "https://digestweb.dev/articles/2026-07-30/evolib-enabling-llms-learn-adapt-post-deployment",
+            "title": "EvoLib: Enabling LLMs to Learn and Adapt Post-Deployment",
+            "summary": "Microsoft Research presents EvoLib, a novel framework that transforms LLM experience into evolving knowledge, allowing models to acquire reusable skills and adapt across tasks long after initial deployment.",
+            "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/07/EvoLib-TWLIFB-1200x627-1-scaled.jpg",
+            "date_modified": "2026-07-30T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-30/gemini-robotics-er-2-advancing-ai-multi-robot-collaboration",
+            "content_html": "## Summary & Key Takeaways\n\n- Gemini Robotics ER 2 enhances robots' ability to reason and solve real-world tasks.\n- It represents a step change in video understanding for robotic applications.\n- The system improves tool orchestration capabilities for complex tasks.\n- It facilitates advanced multi-robot collaboration, allowing robots to work together.\n\n## Our Commentary\n\nThis is huge. Multi-robot collaboration, video understanding, task orchestration – these are the building blocks for truly autonomous and capable robotic systems. DeepMind continues to push the boundaries, and I'm genuinely excited (and a little terrified) to see where this leads. The implications for logistics, manufacturing, and even domestic applications are immense.\n\nOriginal Link: https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+            "url": "https://digestweb.dev/articles/2026-07-30/gemini-robotics-er-2-advancing-ai-multi-robot-collaboration",
+            "title": "Gemini Robotics ER 2: Advancing AI for Multi-Robot Collaboration",
+            "summary": "Google DeepMind's Gemini Robotics ER 2 introduces a significant leap in robotic capabilities, enabling enhanced video understanding, sophisticated task orchestration, and seamless multi-robot collaboration for real-world applications.",
+            "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-robotics-2__blog__cover.width-1300.png",
+            "date_modified": "2026-07-30T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-30/gpu-management-cost-idle-ai-compute-resources",
+            "content_html": "## Summary & Key Takeaways\n\n- The article highlights the high cost and inefficiency of underutilized GPUs in AI.\n- It draws an analogy between idle GPUs and grounded aircraft to emphasize resource waste.\n- Efficient GPU management is presented as a crucial operational challenge for AI development.\n- Optimizing compute resource allocation is essential for cost-effective AI deployment.\n\n## Our Commentary\n\nThe title alone is enough to grab my attention. \"Idle GPUs are the new grounded aircraft\" — what a perfect analogy. We're all scrambling for compute, and the idea of it sitting unused is just painful. This is a fundamental problem in the AI infrastructure space, and I'm eager to see what solutions Hugging Face proposes.\n\nOriginal Link: https://huggingface.co/blog/Dharma-AI/gpu-management",
+            "url": "https://digestweb.dev/articles/2026-07-30/gpu-management-cost-idle-ai-compute-resources",
+            "title": "GPU Management: The Cost of Idle AI Compute Resources",
+            "summary": "This article from Hugging Face explores the critical importance of efficient GPU management, likening idle GPUs to grounded aircraft due to their significant operational cost.",
+            "image": "https://cdn-uploads.huggingface.co/production/uploads/69d815b52c6db28cfdfdd422/Ih3Nn6Wc1U_w_QpvEMXRY.png",
+            "date_modified": "2026-07-30T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-30/infinite-gsap-scroll-gallery-parallax-flip-transitions",
+            "content_html": "## Summary & Key Takeaways\n\n- The tutorial guides users through creating an infinite scrolling image gallery.\n- It incorporates parallax scrolling for depth and visual interest.\n- Reveal animations are used to introduce elements dynamically.\n- GSAP's Flip plugin powers smooth fullscreen transitions.\n- The article provides a detailed walkthrough of advanced animation techniques.\n\n## Our Commentary\n\nCodrops always delivers on the visual front, and this tutorial looks like another gem. GSAP is a powerhouse, and combining parallax with Flip transitions for an infinite scroll is just _chef's kiss_. I'm always impressed by the creativity in these showcases; it pushes what we think is possible on the web.\n\nOriginal Link: https://tympanus.net/codrops/2026/07/30/building-an-infinite-gsap-scroll-gallery-with-parallax-and-flip-transitions/",
+            "url": "https://digestweb.dev/articles/2026-07-30/infinite-gsap-scroll-gallery-parallax-flip-transitions",
+            "title": "Infinite GSAP Scroll Gallery with Parallax & Flip Transitions",
+            "summary": "Discover how to craft a captivating infinite scroll gallery featuring parallax effects, reveal animations, and seamless Flip-powered fullscreen transitions using GSAP.",
+            "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/07/infinitescrollGSAP.png?x48895",
+            "date_modified": "2026-07-30T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-30/modernizing-codebases-github-copilot-stacked-sessions",
+            "content_html": "## Summary & Key Takeaways\n\n- The article demonstrates modernizing an old codebase using GitHub Copilot.\n- It focuses on utilizing stacked sessions for managing changes.\n- Pull request features within the Copilot app are also highlighted.\n\n## Our Commentary\n\nCopilot is becoming an indispensable tool for many, and seeing practical applications like this is always helpful. I'm still trying to figure out the best way to integrate AI into my own workflow without feeling like I'm just delegating my brain. Stacked sessions are a good feature, but the real magic is in how you _use_ them.\n\nOriginal Link: https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/",
+            "url": "https://digestweb.dev/articles/2026-07-30/modernizing-codebases-github-copilot-stacked-sessions",
+            "title": "Modernizing Codebases with GitHub Copilot's Stacked Sessions",
+            "summary": "Learn how to leverage GitHub Copilot's stacked sessions and pull request features to streamline the modernization of legacy codebases.",
+            "image": "https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo-stripe.png",
+            "date_modified": "2026-07-30T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-30/openai-gpt-5-6-enhanced-price-performance",
+            "content_html": "## Summary & Key Takeaways\n\n- OpenAI has released GPT-5.6, focusing on price-performance improvements.\n- Lower pricing is available for the Luna and Terra models.\n- The update aims to help enterprises deploy AI workflows more efficiently.\n- More efficient models facilitate AI adoption at scale.\n\n## Our Commentary\n\nAnother incremental GPT release, but the focus on price-performance is what really matters for widespread adoption. It's not just about raw power anymore; it's about making these models economically viable for real-world applications. We're seeing a clear trend towards optimization and efficiency, which is a good thing for everyone.\n\nOriginal Link: https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+            "url": "https://digestweb.dev/articles/2026-07-30/openai-gpt-5-6-enhanced-price-performance",
+            "title": "OpenAI Introduces GPT-5.6: Enhanced Price-Performance for Enterprises",
+            "summary": "OpenAI unveils GPT-5.6, offering lower pricing for its Luna and Terra models, designed to enable more efficient and scalable AI workflow deployments for enterprises.",
+            "image": "https://picsum.photos/id/9/800/450",
+            "date_modified": "2026-07-30T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-30/pnpm-12-beta-1-faster-peer-resolution-enhanced-dx",
+            "content_html": "## Summary & Key Takeaways\n\n- Peer resolution is significantly faster in large multi-importer workspaces, dropping resolution times by over 50%.\n- The resolver's internal hash maps now utilize a faster hashing mechanism.\n- `pnpm login` supports web-based authentication without an interactive terminal.\n- A new `projects[].dependencyManifest` option enhances NAPI install configurations.\n- The `save-prefix` setting now accepts `=` for explicit dependency versioning.\n- `allowBuilds` entries can approve git-hosted packages by repository URL.\n\n## Our Commentary\n\nThis is a solid beta release. We're always here for performance improvements, especially in large workspaces where every second counts. The non-interactive web login is a nice touch for CI/CD environments. I'm curious to see how the `save-prefix` change impacts existing workflows, but it feels like a move towards more explicit control.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v12.0.0-beta.1",
+            "url": "https://digestweb.dev/articles/2026-07-30/pnpm-12-beta-1-faster-peer-resolution-enhanced-dx",
+            "title": "pnpm 12 Beta 1: Faster Peer Resolution & Enhanced DX",
+            "summary": "The first beta for pnpm v12 arrives with substantial speedups for peer dependency resolution in large workspaces and new features for web-based login and manifest configuration.",
+            "image": "https://opengraph.githubassets.com/1240d6fd4ccc6f6e78500c22c6a8387b8333dbb6332f8a51650356604adde1f7/pnpm/pnpm/releases/tag/v12.0.0-beta.1",
+            "date_modified": "2026-07-30T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-30/scoped-custom-element-registries-chrome-146",
+            "content_html": "## Summary & Key Takeaways\n\n- Chrome 146 has introduced support for Scoped Custom Element Registries.\n- This feature allows multiple versions of custom elements to share the same tag name.\n- It eliminates conflicts within the global custom element namespace.\n- The registry significantly improves component reuse and modularity.\n- This is a major enhancement for web component development and micro-frontends.\n\n## Our Commentary\n\nThis is a _huge_ win for web components and modular frontends. The global namespace collision problem has been a real headache, especially in micro-frontend architectures. Scoped registries finally provide a clean solution. We've been waiting for this for a long time, and it's going to unlock a lot of potential.\n\nOriginal Link: https://master.dev/blog/same-name-different-component-with-scoped-custom-element-registries/",
+            "url": "https://digestweb.dev/articles/2026-07-30/scoped-custom-element-registries-chrome-146",
+            "title": "Scoped Custom Element Registries Land in Chrome 146",
+            "summary": "Chrome 146 now supports Scoped Custom Element Registries, enabling developers to use the same tag names for different custom element versions without global namespace conflicts, greatly improving component modularity.",
+            "image": "https://master.dev/blog/wp-json/social-image-generator/v1/image/10479",
+            "date_modified": "2026-07-30T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-30/setting-up-cloud-agent-environment-cursor-approach",
+            "content_html": "## Summary & Key Takeaways\n\n- The article details Cursor's process for configuring a cloud agent environment.\n- It likely covers infrastructure choices and deployment strategies.\n- The setup is tailored for the specific needs of AI agents.\n- It offers practical insights for developers building similar systems.\n\n## Our Commentary\n\nI'm always interested in how companies actually _build_ these things. The \"cloud agent environment\" is a buzzword right now, but the practicalities of setting it up are often glossed over. I appreciate Cursor sharing their approach; it helps demystify some of the operational challenges.\n\nOriginal Link: https://cursor.com/blog/cloud-agent-environment",
+            "url": "https://digestweb.dev/articles/2026-07-30/setting-up-cloud-agent-environment-cursor-approach",
+            "title": "Setting Up a Cloud Agent Environment: Cursor's Approach",
+            "summary": "Cursor shares insights into their methodology for establishing and configuring a robust cloud environment specifically designed for AI agents.",
+            "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/blog/cloud-doctor-og-image-qdUY8KOyE2blkHEZhJjThiJJXlVNO4.png",
+            "date_modified": "2026-07-30T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-07-29/ai-worming-through-word-prompt-injection",
             "content_html": "## Summary & Key Takeaways\n\n- A new prompt injection attack targets Microsoft Word and Copilot.\n- Hidden instructions in a document can be interpreted by Copilot as user requests.\n- Copilot may then manipulate the document and copy the hidden instructions into it.\n- This creates a self-replicating \"worm\" that propagates without the original attacker's document.\n- The vulnerability was responsibly disclosed, but a full mitigation is not yet available.\n\n## Our Commentary\n\nThis \"AI worming through Word\" attack is genuinely unsettling. We've seen prompt injection, but self-replication? That's a whole new level of concern. It highlights the inherent fragility of current LLM security and the unpredictable ways these systems can be exploited. I don't know how you fully patch something like this without fundamentally changing how LLMs process context.\n\nOriginal Link: https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything",
             "url": "https://digestweb.dev/articles/2026-07-29/ai-worming-through-word-prompt-injection",
