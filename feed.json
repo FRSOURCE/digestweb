@@ -11,6 +11,48 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-08-01/sveltekit-3-previews-shallow-routing-api-overhauls",
+            "content_html": "## Summary & Key Takeaways\n\n• SvelteKit 3's first @next releases are now available for preview.\n• Key changes include new $app/manifest and $app/service-worker modules.\n• Shallow routing is now built into goto via a new state option.\n• refreshAll replaces the deprecated invalidateAll function.\n• error(status, {...}) is deprecated, requiring a message.\n• Stable SvelteKit releases added a submitted property for remote forms.\n• defineEnvVars moved to a dedicated @sveltejs/kit/env subpath.\n• Svelte Summit Ljubljana 2026 is scheduled for November 19-20.\n\n## Our Commentary\n\nWe're seeing the first glimpses of SvelteKit 3, and it's a lot to take in. Shallow routing baked into `goto` is a big one, simplifying navigation state. The deprecations like `invalidateAll` and the `error` signature change feel like necessary evolutions, but I'm always a little wary of breaking changes, even in previews. It's exciting to see the framework push forward, but also a reminder that keeping up can be a full-time job.\n\nOriginal Link: https://svelte.dev/blog/whats-new-in-svelte-august-2026",
+            "url": "https://digestweb.dev/articles/2026-08-01/sveltekit-3-previews-shallow-routing-api-overhauls",
+            "title": "SvelteKit 3 Previews Land with Shallow Routing & API Overhauls",
+            "summary": "SvelteKit 3's first @next releases introduce significant changes, including shallow routing, new $app modules, and API updates, offering a glimpse into the framework's future.",
+            "image": "https://picsum.photos/id/461/800/450",
+            "date_modified": "2026-08-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-31/css-tricks-roundup-sibling-index-animations-infinity-stuck-queries",
+            "content_html": "## Summary & Key Takeaways\n\n• The sibling-index() function for animations is nearing Baseline status.\n• New use cases for the infinity keyword in CSS are being explored.\n• Container \"stuck\" queries offer new possibilities for responsive design.\n• The article covers various other CSS developments.\n• These features aim to enhance web animations and layout capabilities.\n\n## Our Commentary\n\nI always appreciate these CSS roundups from CSS-Tricks. `sibling-index()` for animations sounds like it could unlock some really dynamic UI patterns without needing JavaScript. And \"container stuck queries\"? That's a concept I didn't know I needed until now. It feels like CSS is constantly evolving, giving us more power directly in the stylesheet, which is a direction we love.\n\nOriginal Link: https://css-tricks.com/whats-important-16/",
+            "url": "https://digestweb.dev/articles/2026-07-31/css-tricks-roundup-sibling-index-animations-infinity-stuck-queries",
+            "title": "CSS-Tricks Roundup: Sibling-Index Animations, Infinity Keyword, & Stuck Queries",
+            "summary": "This CSS-Tricks roundup explores upcoming CSS features like the sibling-index() function for animations, practical uses for the infinity keyword, and the concept of container \"stuck\" queries.",
+            "image": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/07/wi16.jpg",
+            "date_modified": "2026-07-31T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-31/datasette-agent-browser-task-execution-llm-tools",
+            "content_html": "## Summary & Key Takeaways\n\n• Datasette Agent 0.4a0 has been released.\n• It introduces a new await context.browser_task() mechanism.\n• This allows agent tools to run code directly in the user's browser.\n• Plugins can now execute custom JavaScript on the client side.\n• This capability significantly expands the interactive potential of LLM agents.\n\n## Our Commentary\n\nThis is a fascinating development. The idea of an LLM agent being able to directly manipulate the browser environment via JavaScript is both powerful and a little unsettling. We're moving closer to truly autonomous agents, and the implications for web interaction are huge. I'm curious to see the creative (and perhaps chaotic) ways developers will leverage this.\n\nOriginal Link: https://simonwillison.net/2026/Jul/31/datasette-agent/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-31/datasette-agent-browser-task-execution-llm-tools",
+            "title": "Datasette Agent Gains Browser Task Execution for LLM Tools",
+            "summary": "Datasette Agent 0.4a0 introduces context.browser_task(), allowing LLM agent plugins to execute custom JavaScript directly within the user's browser, opening new possibilities for interactive agent tools.",
+            "image": "https://picsum.photos/id/969/800/450",
+            "date_modified": "2026-07-31T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-31/deepseek-v4-flash-0731-cost-effective-agentic-llm",
+            "content_html": "## Summary & Key Takeaways\n\n• DeepSeek-V4-Flash-0731 is a new 304 billion parameter LLM.\n• It boasts substantially enhanced agentic capabilities.\n• Artificial Analysis ranks it ahead of the larger MiniMax M3 model.\n• Its pricing suggests it might be the best value-per-intelligence model available.\n• Initial tests show improved results when using higher reasoning levels.\n• The model is available on Hugging Face and OpenRouter.\n\n## Our Commentary\n\nAnother day, another massive LLM. What really catches my eye here is the \"value-per-intelligence\" aspect. We're seeing these models get incredibly powerful, but the cost often makes them prohibitive for smaller projects. If DeepSeek can genuinely deliver top-tier performance at a lower price point, that's a game-changer for accessibility. I'm also intrigued by the \"enhanced agentic capabilities\" – that's where the real innovation is happening right now.\n\nOriginal Link: https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-31/deepseek-v4-flash-0731-cost-effective-agentic-llm",
+            "title": "DeepSeek-V4-Flash-0731: A Cost-Effective LLM with Enhanced Agentic Power",
+            "summary": "DeepSeek's latest 304B parameter model, V4-Flash-0731, shows impressive agentic capabilities and performance, potentially offering the best value-per-intelligence in the current market.",
+            "image": "https://static.simonwillison.net/static/2026/deepseek-flash-chart.webp",
+            "date_modified": "2026-07-31T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-07-31/ending-responsive-images-sizes-auto-nears",
             "content_html": "## Summary & Key Takeaways\n\n- The `sizes` attribute for `<img>` has historically been complex and hard to sync with CSS.\n- `sizes=\"auto\"` support is nearing readiness for prime time.\n- Jason Grigsby suggests going further by removing `srcset` entirely.\n- This would significantly simplify responsive image implementation for developers.\n- The goal is to reduce the cognitive load and error surface for responsive images.\n\n## Our Commentary\n\nResponsive images have been a persistent headache for web developers for years. The `sizes` attribute, in particular, has always felt like a hack. The idea that `sizes=\"auto\"` is almost here, and that we might even be able to ditch `srcset` entirely, is incredibly exciting. This would be a massive win for developer experience and a long-overdue simplification of a core web platform feature. We're ready for this complexity to end.\n\nOriginal Link: https://master.dev/blog/ending-responsive-images/",
             "url": "https://digestweb.dev/articles/2026-07-31/ending-responsive-images-sizes-auto-nears",
@@ -83,6 +125,18 @@
             "title": "Introducing smevals: A New LLM Evaluation Suite by Simon Willison",
             "summary": "Simon Willison unveils `smevals`, a new open-source tool designed to simplify the evaluation of LLMs, prompts, and harnesses through small, configurable eval suites and report generation.",
             "image": "https://static.simonwillison.net/static/2026/smevals-report.webp",
+            "date_modified": "2026-07-31T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-07-31/stateless-mcp-2-0-llm-agent-protocol-simpler-design",
+            "content_html": "## Summary & Key Takeaways\n\n• MCP 2.0, or the 2026-07-28 Model Context Protocol, has been rolled out.\n• The new specification introduces a stateless design, simplifying client and server implementations.\n• Stateless MCP reduces complexity compared to the older stateful version.\n• It makes MCP tools easier to audit and control, improving security.\n• Smaller models can now drive MCP tools more effectively.\n• Simon Willison developed mcp-explorer and datasette-mcp based on the new spec.\n• The protocol provides a standard way to expose tools to LLM agent frameworks.\n\n## Our Commentary\n\nI'm genuinely excited about this shift to stateless MCP. Giving agents a full shell environment is a security nightmare, and this move makes tool integration much safer and more manageable. It feels like a step towards more robust and auditable agent systems, which is exactly what we need as these technologies mature. Simon's immediate dive into building tools around it really shows its potential.\n\nOriginal Link: https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-07-31/stateless-mcp-2-0-llm-agent-protocol-simpler-design",
+            "title": "Stateless MCP 2.0 Revitalizes LLM Agent Protocol with Simpler Design",
+            "summary": "The Model Context Protocol (MCP) 2.0 introduces a stateless specification, simplifying agent tool implementation, enhancing security, and reigniting interest in standardized LLM agent interactions.",
+            "image": "https://raw.githubusercontent.com/simonw/til/refs/heads/main/llms/claude-add-custom-connector-dialog.webp",
             "date_modified": "2026-07-31T00:00:00.000Z",
             "author": {
                 "name": "Simon Willison"

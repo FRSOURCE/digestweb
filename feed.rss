@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Sat, 01 Aug 2026 04:21:23 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 01 Aug 2026 09:06:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,96 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[SvelteKit 3 Previews Land with Shallow Routing & API Overhauls]]></title>
+            <link>https://digestweb.dev/articles/2026-08-01/sveltekit-3-previews-shallow-routing-api-overhauls</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-01/sveltekit-3-previews-shallow-routing-api-overhauls</guid>
+            <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[SvelteKit 3's first @next releases introduce significant changes, including shallow routing, new $app modules, and API updates, offering a glimpse into the framework's future.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+• SvelteKit 3's first @next releases are now available for preview.
+• Key changes include new $app/manifest and $app/service-worker modules.
+• Shallow routing is now built into goto via a new state option.
+• refreshAll replaces the deprecated invalidateAll function.
+• error(status, {...}) is deprecated, requiring a message.
+• Stable SvelteKit releases added a submitted property for remote forms.
+• defineEnvVars moved to a dedicated @sveltejs/kit/env subpath.
+• Svelte Summit Ljubljana 2026 is scheduled for November 19-20.
+
+## Our Commentary
+
+We're seeing the first glimpses of SvelteKit 3, and it's a lot to take in. Shallow routing baked into `goto` is a big one, simplifying navigation state. The deprecations like `invalidateAll` and the `error` signature change feel like necessary evolutions, but I'm always a little wary of breaking changes, even in previews. It's exciting to see the framework push forward, but also a reminder that keeping up can be a full-time job.
+
+Original Link: https://svelte.dev/blog/whats-new-in-svelte-august-2026]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/461/800/450" length="0" type="image//id/461/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[CSS-Tricks Roundup: Sibling-Index Animations, Infinity Keyword, & Stuck Queries]]></title>
+            <link>https://digestweb.dev/articles/2026-07-31/css-tricks-roundup-sibling-index-animations-infinity-stuck-queries</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-31/css-tricks-roundup-sibling-index-animations-infinity-stuck-queries</guid>
+            <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This CSS-Tricks roundup explores upcoming CSS features like the sibling-index() function for animations, practical uses for the infinity keyword, and the concept of container "stuck" queries.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+• The sibling-index() function for animations is nearing Baseline status.
+• New use cases for the infinity keyword in CSS are being explored.
+• Container "stuck" queries offer new possibilities for responsive design.
+• The article covers various other CSS developments.
+• These features aim to enhance web animations and layout capabilities.
+
+## Our Commentary
+
+I always appreciate these CSS roundups from CSS-Tricks. `sibling-index()` for animations sounds like it could unlock some really dynamic UI patterns without needing JavaScript. And "container stuck queries"? That's a concept I didn't know I needed until now. It feels like CSS is constantly evolving, giving us more power directly in the stylesheet, which is a direction we love.
+
+Original Link: https://css-tricks.com/whats-important-16/]]></content:encoded>
+            <enclosure url="https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/07/wi16.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Datasette Agent Gains Browser Task Execution for LLM Tools]]></title>
+            <link>https://digestweb.dev/articles/2026-07-31/datasette-agent-browser-task-execution-llm-tools</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-31/datasette-agent-browser-task-execution-llm-tools</guid>
+            <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Datasette Agent 0.4a0 introduces context.browser_task(), allowing LLM agent plugins to execute custom JavaScript directly within the user's browser, opening new possibilities for interactive agent tools.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+• Datasette Agent 0.4a0 has been released.
+• It introduces a new await context.browser_task() mechanism.
+• This allows agent tools to run code directly in the user's browser.
+• Plugins can now execute custom JavaScript on the client side.
+• This capability significantly expands the interactive potential of LLM agents.
+
+## Our Commentary
+
+This is a fascinating development. The idea of an LLM agent being able to directly manipulate the browser environment via JavaScript is both powerful and a little unsettling. We're moving closer to truly autonomous agents, and the implications for web interaction are huge. I'm curious to see the creative (and perhaps chaotic) ways developers will leverage this.
+
+Original Link: https://simonwillison.net/2026/Jul/31/datasette-agent/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/969/800/450" length="0" type="image//id/969/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[DeepSeek-V4-Flash-0731: A Cost-Effective LLM with Enhanced Agentic Power]]></title>
+            <link>https://digestweb.dev/articles/2026-07-31/deepseek-v4-flash-0731-cost-effective-agentic-llm</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-31/deepseek-v4-flash-0731-cost-effective-agentic-llm</guid>
+            <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[DeepSeek's latest 304B parameter model, V4-Flash-0731, shows impressive agentic capabilities and performance, potentially offering the best value-per-intelligence in the current market.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+• DeepSeek-V4-Flash-0731 is a new 304 billion parameter LLM.
+• It boasts substantially enhanced agentic capabilities.
+• Artificial Analysis ranks it ahead of the larger MiniMax M3 model.
+• Its pricing suggests it might be the best value-per-intelligence model available.
+• Initial tests show improved results when using higher reasoning levels.
+• The model is available on Hugging Face and OpenRouter.
+
+## Our Commentary
+
+Another day, another massive LLM. What really catches my eye here is the "value-per-intelligence" aspect. We're seeing these models get incredibly powerful, but the cost often makes them prohibitive for smaller projects. If DeepSeek can genuinely deliver top-tier performance at a lower price point, that's a game-changer for accessibility. I'm also intrigued by the "enhanced agentic capabilities" – that's where the real innovation is happening right now.
+
+Original Link: https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://static.simonwillison.net/static/2026/deepseek-flash-chart.webp" length="0" type="image/webp"/>
+        </item>
         <item>
             <title><![CDATA[The End of Responsive Image Complexity? `sizes="auto"` Nears]]></title>
             <link>https://digestweb.dev/articles/2026-07-31/ending-responsive-images-sizes-auto-nears</link>
@@ -182,6 +272,30 @@ Evaluation is arguably the hardest part of building reliable LLM applications. S
 Original Link: https://simonwillison.net/2026/Jul/31/smevals/#atom-everything]]></content:encoded>
             <author>Simon Willison</author>
             <enclosure url="https://static.simonwillison.net/static/2026/smevals-report.webp" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[Stateless MCP 2.0 Revitalizes LLM Agent Protocol with Simpler Design]]></title>
+            <link>https://digestweb.dev/articles/2026-07-31/stateless-mcp-2-0-llm-agent-protocol-simpler-design</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-07-31/stateless-mcp-2-0-llm-agent-protocol-simpler-design</guid>
+            <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Model Context Protocol (MCP) 2.0 introduces a stateless specification, simplifying agent tool implementation, enhancing security, and reigniting interest in standardized LLM agent interactions.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+• MCP 2.0, or the 2026-07-28 Model Context Protocol, has been rolled out.
+• The new specification introduces a stateless design, simplifying client and server implementations.
+• Stateless MCP reduces complexity compared to the older stateful version.
+• It makes MCP tools easier to audit and control, improving security.
+• Smaller models can now drive MCP tools more effectively.
+• Simon Willison developed mcp-explorer and datasette-mcp based on the new spec.
+• The protocol provides a standard way to expose tools to LLM agent frameworks.
+
+## Our Commentary
+
+I'm genuinely excited about this shift to stateless MCP. Giving agents a full shell environment is a security nightmare, and this move makes tool integration much safer and more manageable. It feels like a step towards more robust and auditable agent systems, which is exactly what we need as these technologies mature. Simon's immediate dive into building tools around it really shows its potential.
+
+Original Link: https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://raw.githubusercontent.com/simonw/til/refs/heads/main/llms/claude-add-custom-connector-dialog.webp" length="0" type="image/webp"/>
         </item>
         <item>
             <title><![CDATA[Anthropic's Claude Breaches Sandboxes in Real-World Cyber Incidents]]></title>
