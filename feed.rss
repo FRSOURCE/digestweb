@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Sat, 01 Aug 2026 09:06:38 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 02 Aug 2026 04:24:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,112 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Datasette Apps 0.2a0: AI Agents Can Now Debug Web Apps]]></title>
+            <link>https://digestweb.dev/articles/2026-08-01/datasette-apps-0-2a0-ai-agent-debug-web-apps</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-01/datasette-apps-0-2a0-ai-agent-debug-web-apps</guid>
+            <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Datasette Apps 0.2a0 introduces a novel `app_debug()` tool, enabling AI agents to invisibly test web applications by executing JavaScript within sandboxed iframes.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Datasette Apps 0.2a0 is released, improving interaction with Datasette Agent.
+- A new `app_debug()` tool allows agents to open and test apps invisibly using JavaScript.
+- The tool utilizes an `opacity: 0` iframe with `pointer-events: none` for sandboxed execution.
+- Agents can now perform smoke tests and measure element dimensions within the app.
+- An `app_list()` tool is also added for agents to list editable applications.
+
+## Our Commentary
+
+This `app_debug()` tool is genuinely clever. The idea of an AI agent invisibly interacting with a web app via a sandboxed iframe and JavaScript is a fascinating approach to automated testing and agent-driven development. It feels like a glimpse into a future where agents are far more integrated into our dev workflows. We're seeing some really creative uses of browser capabilities here.
+
+Original Link: https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/946/800/450" length="0" type="image//id/946/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Claims Breakthroughs in Mathematics & Theoretical Computer Science]]></title>
+            <link>https://digestweb.dev/articles/2026-08-01/openai-ai-advances-mathematics-theoretical-computer-science</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-01/openai-ai-advances-mathematics-theoretical-computer-science</guid>
+            <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI announces that its AI models have achieved new results on ten long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI reports its AI has solved ten long-standing open problems in mathematics and theoretical computer science.
+- The advances span areas like geometry, cryptography, and complexity theory.
+- This demonstrates a significant leap in AI's ability to tackle complex, abstract reasoning challenges.
+- The announcement suggests a new frontier for AI in scientific discovery and problem-solving.
+
+## Our Commentary
+
+This is a bombshell. If these claims hold up under scrutiny, we're looking at a genuine shift in what AI is capable of. Solving "long-standing open problems" isn't just about crunching numbers; it implies a level of abstract reasoning that many thought was years away. I'm both thrilled and a little unnerved by the speed of these advancements. The implications for scientific research are immense.
+
+Original Link: https://openai.com/index/ten-advances-in-mathematics]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/527/800/450" length="0" type="image//id/527/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[pnpm 12 Beta 3: Faster Dependency Resolution & Reduced Memory Use]]></title>
+            <link>https://digestweb.dev/articles/2026-08-01/pnpm-12-beta-3-faster-dependency-resolution-reduced-memory</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-01/pnpm-12-beta-3-faster-dependency-resolution-reduced-memory</guid>
+            <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This beta release of pnpm brings notable performance enhancements, including faster dependency resolution and reduced memory consumption for complex dependency graphs.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- pnpm 12 Beta 3 introduces several patch changes and performance optimizations.
+- Dependency resolution is now faster due to improved metadata filtering and semver parsing.
+- Memory usage has been reduced, especially for peer-heavy dependency graphs.
+- Injected workspace dependencies are no longer affected by `excludeLinksFromLockfile`.
+- Registry dependencies are consistently recorded with integrity hashes in `pnpm-lock.yaml`.
+
+## Our Commentary
+
+We're always happy to see performance gains in core tooling. The improvements to dependency resolution speed and memory usage in pnpm 12 Beta 3 are genuinely welcome. It's the kind of iterative refinement that makes a real difference in daily development workflows. I'm particularly interested in how much the memory reduction impacts large monorepos.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v12.0.0-beta.3]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/4f8ce50742b10e08249fd9f9bacc85e8db19765fde4152b46c00fe01e89a8444/pnpm/pnpm/releases/tag/v12.0.0-beta.3" length="0" type="image/3"/>
+        </item>
+        <item>
+            <title><![CDATA[Robin Rendle: Focus on the Work, Not the Job Title]]></title>
+            <link>https://digestweb.dev/articles/2026-08-01/robin-rendle-focus-on-work-not-job-title</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-01/robin-rendle-focus-on-work-not-job-title</guid>
+            <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Robin Rendle critiques the obsession with elaborate job titles in software design, advocating for a focus on meaningful work and impact over positional ambition.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The author expresses disdain for overly complex or self-important job titles in the software industry.
+- He draws inspiration from AOC's perspective on ambition, which prioritizes impact over positional titles.
+- Many other professional fields do not exhibit the same level of title inflation as software design.
+- Focusing on the work itself, rather than vying for attention or glory, leads to more fulfilling outcomes.
+
+## Our Commentary
+
+I've felt this exact sentiment so many times. The sheer absurdity of some job titles in tech is genuinely baffling. It's a refreshing take to hear someone articulate that ambition should be about the _change_ you want to make, not the label you want to wear. We need more of this perspective.
+
+Original Link: https://robinrendle.com/notes/show-me-the-work/]]></content:encoded>
+            <author>Robin Rendle</author>
+            <enclosure url="https://picsum.photos/id/313/800/450" length="0" type="image//id/313/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Simon Willison on OpenAI's Math Breakthroughs & AI's Future]]></title>
+            <link>https://digestweb.dev/articles/2026-08-01/simon-willison-openai-math-breakthroughs-ai-future</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-01/simon-willison-openai-math-breakthroughs-ai-future</guid>
+            <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison offers insightful commentary on OpenAI's claims of solving ten mathematical problems, discussing the methodology, cost, transparency, and broader implications for "big mathematics."]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison provides commentary on OpenAI's announcement regarding AI solving mathematical problems.
+- He notes Anthropic's prior similar efforts and compares OpenAI's claimed costs.
+- OpenAI used an internal model, Astra, and spent less than $2,000 per problem solved.
+- The results include Lean 4 formalizations and an LLM-generated PDF reconstructing proof traces.
+- Willison highlights Terence Tao's concept of "big mathematics" and human-machine collaboration.
+
+## Our Commentary
+
+This is the kind of analysis we need after a big AI announcement. Simon Willison always cuts through the hype and gives us the specifics: the costs, the transparency (or lack thereof regarding prompts), and the broader context. The comparison to Anthropic's work is crucial. I'm particularly struck by Terence Tao's "big mathematics" concept; it feels like we're truly entering that era of human-machine collaboration. It's a lot to process.
+
+Original Link: https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/887/800/450" length="0" type="image//id/887/800/450"/>
+        </item>
         <item>
             <title><![CDATA[SvelteKit 3 Previews Land with Shallow Routing & API Overhauls]]></title>
             <link>https://digestweb.dev/articles/2026-08-01/sveltekit-3-previews-shallow-routing-api-overhauls</link>
