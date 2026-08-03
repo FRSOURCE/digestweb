@@ -11,12 +11,48 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-08-02/ai-open-debate-microsoft-openai-anthropic-open-weights",
+            "content_html": "## Summary & Key Takeaways\n\n- Simon Willison summarizes recent open letters concerning AI development.\n- One letter, backed by Microsoft, NVIDIA, and OpenAI, advocates for open-weight models and distillation.\n- This letter aims to counter government instincts to ban or limit open-weight models due to safety concerns.\n- It argues that relying solely on closed models creates single points of failure and weakens competition.\n- Open-weight models allow broader community examination, vulnerability identification, and safeguard development.\n- The letter supports distillation, using one model's outputs to train another, as a legitimate technique.\n- Anthropic published a counter-response, notably absent from the first letter's signatories.\n- The \"Claude Fable 5\" incident is referenced as a backdrop to these safety discussions.\n\n## Our Commentary\n\nThis is the kind of foundational debate that keeps me up at night. The tension between open innovation and perceived safety risks is palpable. I genuinely don't know how to feel about distillation being framed as \"legitimate\" when it's essentially learning from proprietary outputs. It feels like a legal grey area that could explode. We're watching the future of AI regulation unfold in real-time.\n\nOriginal Link: https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-08-02/ai-open-debate-microsoft-openai-anthropic-open-weights",
+            "title": "AI's Open Debate: Microsoft, OpenAI vs. Anthropic on Open Weights",
+            "summary": "Simon Willison dissects the recent open letters from major AI players, highlighting the clash between advocates for open-weight models and those, like Anthropic, who favor a more cautious, closed approach. The debate covers safety, competition, and distillation.",
+            "image": "https://picsum.photos/id/357/800/450",
+            "date_modified": "2026-08-02T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-02/open-models-proliferate-laguna-inkling-kimi-k3-utility",
+            "content_html": "## Summary & Key Takeaways\n\n- The article highlights Laguna S2.1, Inkling, and Kimi K3 as recent open-source AI artifacts.\n- These models collectively demonstrate the increasing utility of open models.\n- The capacity to train strong AI models is rapidly expanding.\n- The \"Pareto frontier\" suggests these models offer good performance for their computational cost.\n\n## Our Commentary\n\nThis is a good pulse check on the open-source AI scene. I'm always curious to see what new models are pushing the boundaries, especially when they're accessible. It feels like every week brings a new wave of capabilities. We're seeing a real democratization of powerful AI.\n\nOriginal Link: https://www.interconnects.ai/p/latest-open-artifacts-23-laguna-s21",
+            "url": "https://digestweb.dev/articles/2026-08-02/open-models-proliferate-laguna-inkling-kimi-k3-utility",
+            "title": "Open Models Proliferate: Laguna S2.1, Inkling, Kimi K3 Show Utility",
+            "summary": "Nathan Lambert's latest update showcases several new open-source AI models, demonstrating their increasing utility and the growing capacity to train powerful models. It points to a vibrant open-source ecosystem.",
+            "image": "https://substackcdn.com/image/fetch/$s_!RSM6!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a71a4f9-5ac5-447e-82ff-899915627512_2048x1152.jpeg",
+            "date_modified": "2026-08-02T00:00:00.000Z",
+            "author": {
+                "name": "Nathan Lambert"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-08-01/datasette-apps-0-2a0-ai-agent-debug-web-apps",
             "content_html": "## Summary & Key Takeaways\n\n- Datasette Apps 0.2a0 is released, improving interaction with Datasette Agent.\n- A new `app_debug()` tool allows agents to open and test apps invisibly using JavaScript.\n- The tool utilizes an `opacity: 0` iframe with `pointer-events: none` for sandboxed execution.\n- Agents can now perform smoke tests and measure element dimensions within the app.\n- An `app_list()` tool is also added for agents to list editable applications.\n\n## Our Commentary\n\nThis `app_debug()` tool is genuinely clever. The idea of an AI agent invisibly interacting with a web app via a sandboxed iframe and JavaScript is a fascinating approach to automated testing and agent-driven development. It feels like a glimpse into a future where agents are far more integrated into our dev workflows. We're seeing some really creative uses of browser capabilities here.\n\nOriginal Link: https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything",
             "url": "https://digestweb.dev/articles/2026-08-01/datasette-apps-0-2a0-ai-agent-debug-web-apps",
             "title": "Datasette Apps 0.2a0: AI Agents Can Now Debug Web Apps",
             "summary": "Datasette Apps 0.2a0 introduces a novel `app_debug()` tool, enabling AI agents to invisibly test web applications by executing JavaScript within sandboxed iframes.",
             "image": "https://picsum.photos/id/946/800/450",
+            "date_modified": "2026-08-01T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-01/greg-brockman-ai-enhance-human-interaction",
+            "content_html": "## Summary & Key Takeaways\n\n- Greg Brockman notes that people dislike being contacted by a coworker's ChatGPT.\n- This aversion exists even if they would happily help the human coworker directly.\n- The observation reinforces the value people place on human relationships.\n- Brockman suggests AI should give time back or enhance human interaction.\n- AI should not become a layer that separates people.\n\n## Our Commentary\n\nThis quote really resonates. We've all felt that slight disconnect when an automated system tries to \"help.\" It's a subtle but crucial point about AI's integration into our social fabric. I think it speaks to a deeper need for agency and direct human connection. We need to design AI that understands these nuances, not just efficiency.\n\nOriginal Link: https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-08-01/greg-brockman-ai-enhance-human-interaction",
+            "title": "Greg Brockman: AI Should Enhance, Not Separate Human Interaction",
+            "summary": "OpenAI President Greg Brockman observes that people dislike AI contacting them directly, even for tasks they'd do for a human colleague. He emphasizes AI's role in enhancing human connection, not replacing it.",
+            "image": "https://picsum.photos/id/153/800/450",
             "date_modified": "2026-08-01T00:00:00.000Z",
             "author": {
                 "name": "Simon Willison"
