@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Mon, 03 Aug 2026 12:57:55 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 04 Aug 2026 04:13:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,241 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Automating Software Updates with AI Agents: A Powerful Prompt]]></title>
+            <link>https://digestweb.dev/articles/2026-08-03/automating-software-updates-ai-agents-prompt</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-03/automating-software-updates-ai-agents-prompt</guid>
+            <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison highlights David Crawshaw's prompt for an AI agent to automatically fetch, rebase, test, and update software, demonstrating a practical application of coding agents.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article quotes David Crawshaw's prompt for an AI agent.
+- The prompt instructs the agent to automate software updates nightly.
+- Tasks include fetching upstream changes, rebasing local modifications, and testing.
+- The agent is then to replace the current software version if successful.
+- This showcases a practical application of AI in developer workflows.
+
+## Our Commentary
+
+This prompt is genuinely thought-provoking. The idea of an AI agent handling routine software updates, including rebasing and testing, is both exciting and a little terrifying. It's a glimpse into a future where developer workflows are heavily augmented, but I can't help but wonder about the edge cases and potential for unexpected breakage.
+
+Original Link: https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/813/800/450" length="0" type="image//id/813/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Bonhomme: Crafting Immersive Digital Experiences for Luxury Brands]]></title>
+            <link>https://digestweb.dev/articles/2026-08-03/bonhomme-immersive-digital-experiences-luxury-brands</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-03/bonhomme-immersive-digital-experiences-luxury-brands</guid>
+            <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore how Bonhomme transforms design and technology into captivating digital stories, bringing luxury brands to life through interactive experiences.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Bonhomme specializes in creating immersive digital experiences for luxury brands.
+- They focus on turning design and technology into compelling interactive stories.
+- The article showcases how brands can come alive through unique digital interactions.
+- It highlights the importance of storytelling in digital design.
+
+## Our Commentary
+
+We always appreciate a good showcase of what's possible on the web. Luxury brands often push the boundaries of design and interaction, and it's inspiring to see the creative applications of web technologies. It's a good reminder that the web isn't just about functionality; it's about experience.
+
+Original Link: https://tympanus.net/codrops/2026/08/03/the-story-is-in-the-interaction-bonhommes-digital-experiences-for-luxury-brands/]]></content:encoded>
+            <enclosure url="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/07/Photo-1-1.jpg?x48895" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[CSS Gap Decorations Now Fully Supported in Chrome & Edge]]></title>
+            <link>https://digestweb.dev/articles/2026-08-03/css-gap-decorations-chrome-edge-support</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-03/css-gap-decorations-chrome-edge-support</guid>
+            <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[CSS gap decorations are now fully supported in Chrome and Edge (v149+), offering developers new capabilities to easily style gaps in layouts with enhanced control.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- CSS gap decorations have achieved full support in Chrome and Edge.
+- This feature is available starting with browser version 149.
+- Developers can now easily style gaps within their CSS layouts.
+- The new capabilities offer a lot of control over gap appearance.
+- This marks a significant addition to the web platform's styling options.
+
+## Our Commentary
+
+Finally! Styling gaps has always felt like a hacky workaround, so native `gap-decorations` are a welcome addition. It's one of those small but mighty CSS features that will streamline a lot of layout work. We're always happy to see more native browser capabilities reduce the need for custom solutions.
+
+Original Link: https://css-tricks.com/css-gap-decorations-now-available/]]></content:encoded>
+            <enclosure url="https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/07/gap-decorations-thumb.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Scaling Real-time AI Agents with Session-Aware Load Balancing]]></title>
+            <link>https://digestweb.dev/articles/2026-08-03/google-scaling-realtime-ai-agents-load-balancing</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-03/google-scaling-realtime-ai-agents-load-balancing</guid>
+            <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Google discusses the challenges of load balancing stateful, real-time AI agents and proposes a solution using application-level session tracking and hybrid routing algorithms.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Real-time AI agents pose challenges for traditional request-response load balancing.
+- They rely on long-lived, stateful bidirectional streams that obscure server capacity.
+- The solution involves implementing application-level session tracking within the runtime.
+- This tracking accurately measures the concurrent workload of active conversations.
+- Hybrid routing algorithms use session counts and CPU metrics to distribute stateful AI traffic.
+- This approach helps prevent backend bottlenecks and ensures effective scaling.
+
+## Our Commentary
+
+This is a fascinating problem space. The shift from stateless request-response to long-lived, stateful AI agent interactions fundamentally changes how we think about infrastructure. We've been grappling with similar issues in real-time web applications for years, but the scale and complexity with AI agents feel like a whole new beast. It's good to see Google sharing their approach.
+
+Original Link: https://developers.googleblog.com/scaling-real-time-ai-agents-with-session-aware-load-balancing/]]></content:encoded>
+            <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-meta_2_1.2e16d0ba.fill-1200x600.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[The Image Element Can Overflow: A Hidden CSS/HTML Behavior]]></title>
+            <link>https://digestweb.dev/articles/2026-08-03/image-element-can-overflow-css-html-behavior</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-03/image-element-can-overflow-css-html-behavior</guid>
+            <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A Frontend Masters article uncovers a surprising behavior of the HTML `<img>` element, demonstrating how it can overflow despite common assumptions, offering a valuable CSS insight.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article explores a surprising behavior of the HTML `<img>` element.
+- It reveals that images can, in fact, overflow themselves.
+- This contradicts the common assumption that images cannot contain or overflow content.
+- The post likely provides examples and explanations of how this occurs.
+- This insight offers a deeper understanding of CSS layout and image rendering.
+
+## Our Commentary
+
+"The image element can overflow!" — I genuinely didn't expect to read that today. This is exactly the kind of obscure but useful CSS/HTML tidbit we love. It's a good reminder that even the most fundamental elements can hold surprises. I'm curious to dive into the specifics of _how_ this happens.
+
+Original Link: https://master.dev/blog/something-nobody-told-you-about-the-image-element-it-can-overflow/]]></content:encoded>
+            <enclosure url="https://master.dev/blog/wp-json/social-image-generator/v1/image/10580" length="0" type="image//blog/wp-json/social-image-generator/v1/image/10580"/>
+        </item>
+        <item>
+            <title><![CDATA[LLMs Make Open Source Devtools Truly Modifiable for Everyone]]></title>
+            <link>https://digestweb.dev/articles/2026-08-03/llms-open-source-devtools-modifiable</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-03/llms-open-source-devtools-modifiable</guid>
+            <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison argues that LLMs are democratizing the ability to examine and modify open-source software, significantly lowering the barrier to entry for understanding and hacking on tools.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison comments on the necessity of open-source devtools.
+- He argues that LLMs are changing the accessibility of modifying open-source software.
+- Previously, examining and modifying code was often too time-consuming for most.
+- LLMs now reduce the friction of understanding and compiling unfamiliar codebases.
+- Developers can use AI to quickly grasp how software works and even build it.
+- This shift makes the original promise of open-source freedom more feasible for many.
+
+## Our Commentary
+
+This is a perspective I hadn't fully articulated myself, but it resonates deeply. The friction of getting a new codebase to compile or even just understanding its architecture has always been a huge barrier. If LLMs can genuinely reduce that to "zero time investment," as Simon suggests, it's a paradigm shift for open-source contribution and developer empowerment. I'm cautiously optimistic about this.
+
+Original Link: https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/438/800/450" length="0" type="image//id/438/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Microsoft Research Unveils Orchard: Open Framework for Scalable Agentic AI]]></title>
+            <link>https://digestweb.dev/articles/2026-08-03/microsoft-research-orchard-open-framework-scalable-agentic-ai</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-03/microsoft-research-orchard-open-framework-scalable-agentic-ai</guid>
+            <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Microsoft Research introduces Orchard, an open-source framework designed to simplify training and evaluation of scalable AI agents, enabling strong performance from smaller models.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Microsoft Research has released Orchard, an open-source framework for AI agents.
+- Orchard is designed to help the research community train and evaluate AI agents.
+- It aims to reduce complexity in agent development across various task types.
+- The framework supports strong performance even from smaller AI models.
+- Researchers can reuse the same infrastructure, streamlining their work.
+
+## Our Commentary
+
+An open-source framework for agentic AI from Microsoft Research is a welcome addition. The focus on "reducing complexity" and "strong performance from smaller models" is particularly appealing. We've seen a lot of hype around agents, but practical, scalable tools are what the community truly needs to move forward.
+
+Original Link: https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/]]></content:encoded>
+            <enclosure url="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/08/Orchard-TWLIFB-1200x627_NEW.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Next.js 16.3: Instant Navigations, Faster Builds, and AI Agent Tooling]]></title>
+            <link>https://digestweb.dev/articles/2026-08-03/nextjs-16-3-instant-navigations-ai-agents</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-03/nextjs-16-3-instant-navigations-ai-agents</guid>
+            <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Next.js 16.3 ships with "Instant Navigations" for enhanced SPA responsiveness, alongside performance boosts for dev servers and builds. It also includes improved tooling for AI agents.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Next.js 16.3 introduces "Instant Navigations" to enhance single-page application responsiveness.
+- The update includes a faster development server and improved build times.
+- New tooling is provided to better support AI agents within Next.js applications.
+- These features aim to improve both developer experience and end-user performance.
+
+## Our Commentary
+
+Next.js keeps pushing. "Instant Navigations" sounds like a big deal for perceived performance, and we're always here for faster dev servers. The AI agent tooling is interesting; it feels like every framework is trying to figure out its place in the AI landscape right now. I wonder how deeply integrated these agent tools are.
+
+Original Link: https://nextjs.org/blog/next-16-3]]></content:encoded>
+            <enclosure url="https://h8dxkfmaphn8o0p3.public.blob.vercel-storage.com/static/blog/next-16-3/twitter-card.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI: Building Real-time, Responsive Voice AI with GPT-Live]]></title>
+            <link>https://digestweb.dev/articles/2026-08-03/openai-realtime-responsive-voice-ai-gpt-live</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-03/openai-realtime-responsive-voice-ai-gpt-live</guid>
+            <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI details the engineering behind GPT-Live, their real-time voice AI system, which enables continuous, natural conversations through a turnless speech model and low-latency architecture.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI shares insights into the development of their real-time voice AI system, GPT-Live.
+- GPT-Live facilitates continuous voice interaction using a turnless speech model.
+- The system employs a low-latency architecture for faster and more natural conversations.
+- The article explains the engineering challenges and solutions implemented over six months.
+- This advancement aims to make AI voice interactions feel more fluid and human-like.
+
+## Our Commentary
+
+This is the kind of engineering deep-dive we love to see from OpenAI. Building truly real-time voice AI is incredibly complex, and the "turnless speech model" sounds like a game-changer for natural interaction. It makes me wonder about the underlying compute costs for such a system. The latency challenges alone are immense.
+
+Original Link: https://openai.com/index/continuous-voice-interaction-with-gpt-live]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/415/800/450" length="0" type="image//id/415/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[pnpm 11.20: Critical Security Fix for Named Registries]]></title>
+            <link>https://digestweb.dev/articles/2026-08-03/pnpm-11-20-security-fix-named-registries</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-03/pnpm-11-20-security-fix-named-registries</guid>
+            <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[pnpm 11.20 delivers a crucial security fix for projects using named registries, preventing package substitution risks and enhancing supply chain integrity.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- pnpm 11.20 provides a vital security update for users of named registries.
+- The fix resolves a vulnerability where packages could be substituted from unintended sources.
+- Lockfiles now include registry-qualified keys to ensure packages are sourced correctly.
+- This update is essential for mitigating package-substitution risks in the supply chain.
+- Projects using named registries will see lockfile changes that need to be committed.
+- Ensure all collaborators are on this version or newer to maintain lockfile consistency.
+
+## Our Commentary
+
+Good to see this critical security fix land in the stable 11.x branch as well. It's a reminder that even seemingly minor version bumps can carry crucial updates. If you're on pnpm 11.x and use named registries, this is an immediate update.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.20.0]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/0b61b1a6e8d896282427abd6352736dbe4c4578b2e4d36f6e224d770feff0a03/pnpm/pnpm/releases/tag/v11.20.0" length="0" type="image/0"/>
+        </item>
+        <item>
+            <title><![CDATA[pnpm 12 Beta 4: Critical Security Fix for Named Registries]]></title>
+            <link>https://digestweb.dev/articles/2026-08-03/pnpm-12-beta-4-security-fix-named-registries</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-03/pnpm-12-beta-4-security-fix-named-registries</guid>
+            <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[pnpm 12 Beta 4 addresses a critical security vulnerability where packages from named registries could be substituted, enhancing supply chain security. Users of named registries should update.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- pnpm 12 Beta 4 includes a crucial security fix for projects utilizing named registries.
+- The vulnerability allowed for potential package substitution from unintended registries.
+- Lockfiles now record registry-qualified keys to pin packages to their correct source.
+- This change prevents a package-substitution risk, improving supply chain security.
+- Users of named registries will see a lockfile diff upon updating, which should be committed.
+- All team members should update to this version or newer to maintain lockfile consistency.
+
+## Our Commentary
+
+This is a big deal for anyone relying on private registries. The idea that a package could be swapped out from a different source is genuinely unsettling. We've seen enough supply chain attacks to know this kind of fix is absolutely essential. It's a beta, but the security implications make it a must-mention.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v12.0.0-beta.4]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/b063c209a5b0802139bc59321da6cf9bd6e50af170a3f0b60776380a1911da5b/pnpm/pnpm/releases/tag/v12.0.0-beta.4" length="0" type="image/4"/>
+        </item>
         <item>
             <title><![CDATA[AI's Open Debate: Microsoft, OpenAI vs. Anthropic on Open Weights]]></title>
             <link>https://digestweb.dev/articles/2026-08-02/ai-open-debate-microsoft-openai-anthropic-open-weights</link>
@@ -39,6 +274,28 @@ This is the kind of foundational debate that keeps me up at night. The tension b
 Original Link: https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything]]></content:encoded>
             <author>Simon Willison</author>
             <enclosure url="https://picsum.photos/id/357/800/450" length="0" type="image//id/357/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[condense-json 1.0: Optimize JSON Storage for LLM Logs]]></title>
+            <link>https://digestweb.dev/articles/2026-08-02/condense-json-1-0-optimize-llm-logs</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-02/condense-json-1-0-optimize-llm-logs</guid>
+            <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison releases `condense-json` 1.0, a Python library designed to save space in JSON data by replacing duplicated strings with a condensed syntax, ideal for LLM-generated logs.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison announces the 1.0 release of his `condense-json` Python library.
+- The library optimizes JSON storage by condensing duplicated string data.
+- It replaces common substrings with a special `$r` syntax.
+- The process can be reversed using `uncondense_json`.
+- This tool is particularly useful for saving space in SQLite logs generated by LLMs.
+
+## Our Commentary
+
+We appreciate Simon Willison's commitment to shipping 1.0 versions! This `condense-json` library is a clever solution to a specific problem: reducing redundancy in JSON, especially for verbose LLM outputs. It's a niche tool, but for those dealing with large volumes of structured data, especially from AI, this could be a real lifesaver for storage and transfer costs.
+
+Original Link: https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/884/800/450" length="0" type="image//id/884/800/450"/>
         </item>
         <item>
             <title><![CDATA[Open Models Proliferate: Laguna S2.1, Inkling, Kimi K3 Show Utility]]></title>
