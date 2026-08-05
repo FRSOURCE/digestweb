@@ -65,6 +65,30 @@
             "date_modified": "2026-08-04T00:00:00.000Z"
         },
         {
+            "id": "https://digestweb.dev/articles/2026-08-04/llm-0-32-reasoning-traces-server-side-tools-smarter-logging",
+            "content_html": "## Summary & Key Takeaways\n\nLLM 0.32 introduces visible reasoning traces, showing how models \"think\" during execution.\nNew server-side tools like OpenAI's CodeInterpreter and WebSearch are now supported.\nThe default model for `llm prompt` is now the cost-effective GPT-5.6 Luna.\nContent-addressable SQLite logs have been redesigned for better data management.\nThe `llm-anthropic` plugin also received substantial updates, including new Claude 5 models and server-side tools.\nA new `llm openai endpoint` command allows one-off prompts against any OpenAI-compatible API.\nThis release significantly enhances the developer experience for interacting with LLMs locally and via various APIs.\n\n## Our Commentary\n\nThis is a big one for anyone wrangling LLMs locally. I'm genuinely excited about the reasoning traces; seeing the model's \"thought process\" directly in the terminal is a game-changer for debugging and understanding. The server-side tools integration feels like a natural evolution, pushing the boundaries of what a CLI can do with these powerful models. We've been waiting for more robust tooling in this space, and Simon consistently delivers.\n\nOriginal Link: https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-08-04/llm-0-32-reasoning-traces-server-side-tools-smarter-logging",
+            "title": "LLM 0.32: Reasoning Traces, Server-Side Tools, and Smarter Logging",
+            "summary": "Simon Willison's LLM CLI tool gets a major update, introducing visible reasoning traces, server-side tools for code execution and web search, and enhanced logging.",
+            "image": "https://static.simonwillison.net/static/2026/best-thing-pelicans-card.jpg",
+            "date_modified": "2026-08-04T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-04/llm-anthropic-0-26-new-claude-5-models-server-side-tools",
+            "content_html": "## Summary & Key Takeaways\n\n`llm-anthropic 0.26` introduces support for new Claude 5 models: Fable, Sonnet, and Opus.\nIt adds server-side tools like WebSearch, WebFetch, CodeExecution, and AnthropicMCP.\nReasoning, tool calls, and results now stream as typed events.\nReasoning for CLI prompts displays to standard error by default.\nThe plugin requires `llm>=0.32` to function correctly.\n\n## Our Commentary\n\nThis is a solid update for Claude users, bringing the latest models and server-side capabilities to the `llm` ecosystem. It's good to see the plugins keeping pace with the core tool's advancements. I appreciate the consistent effort to integrate new model features as they become available.\n\nOriginal Link: https://simonwillison.net/2026/Aug/4/llm-anthropic/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-08-04/llm-anthropic-0-26-new-claude-5-models-server-side-tools",
+            "title": "llm-anthropic 0.26: New Claude 5 Models and Server-Side Tools",
+            "summary": "The `llm-anthropic` plugin updates to version 0.26, adding support for new Claude 5 models and server-side tools, leveraging features from LLM 0.32.",
+            "image": "https://picsum.photos/id/740/800/450",
+            "date_modified": "2026-08-04T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-08-04/minimax-h3-omni-modal-ai-mlx-apple-silicon",
             "content_html": "## Summary & Key Takeaways\n\n- MiniMax-H3 is a new general-purpose, omni-modal generative system.\n- It accepts text, images, audio, and video inputs.\n- The system can generate up to 15-second video clips with audio.\n- A Python package ports MiniMax-H3 to MLX for Apple Silicon.\n- Simon Willison successfully ran the model on an M5 Max MacBook Pro.\n- The local video generation process took approximately 45 minutes.\n- The generated video was impressive, though audio quality varied without specific prompts.\n\n## Our Commentary\n\nThis is exactly the kind of hands-on exploration we love to see. Getting a cutting-edge omni-modal model like MiniMax-H3 running locally on Apple Silicon is a big win for accessibility. The 115GB download and 45-minute generation time are stark reminders of the computational demands, but the results are genuinely impressive. I'm always fascinated by how these models handle complex prompts.\n\nOriginal Link: https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything",
             "url": "https://digestweb.dev/articles/2026-08-04/minimax-h3-omni-modal-ai-mlx-apple-silicon",

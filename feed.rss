@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Wed, 05 Aug 2026 04:10:02 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 05 Aug 2026 09:47:53 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -137,6 +137,52 @@ Local AI agents are a big deal for privacy and performance, so a new model from 
 
 Original Link: https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b]]></content:encoded>
             <enclosure url="https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/DsoMk3kqhMYedjPiZINKv.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[LLM 0.32: Reasoning Traces, Server-Side Tools, and Smarter Logging]]></title>
+            <link>https://digestweb.dev/articles/2026-08-04/llm-0-32-reasoning-traces-server-side-tools-smarter-logging</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-04/llm-0-32-reasoning-traces-server-side-tools-smarter-logging</guid>
+            <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison's LLM CLI tool gets a major update, introducing visible reasoning traces, server-side tools for code execution and web search, and enhanced logging.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+LLM 0.32 introduces visible reasoning traces, showing how models "think" during execution.
+New server-side tools like OpenAI's CodeInterpreter and WebSearch are now supported.
+The default model for `llm prompt` is now the cost-effective GPT-5.6 Luna.
+Content-addressable SQLite logs have been redesigned for better data management.
+The `llm-anthropic` plugin also received substantial updates, including new Claude 5 models and server-side tools.
+A new `llm openai endpoint` command allows one-off prompts against any OpenAI-compatible API.
+This release significantly enhances the developer experience for interacting with LLMs locally and via various APIs.
+
+## Our Commentary
+
+This is a big one for anyone wrangling LLMs locally. I'm genuinely excited about the reasoning traces; seeing the model's "thought process" directly in the terminal is a game-changer for debugging and understanding. The server-side tools integration feels like a natural evolution, pushing the boundaries of what a CLI can do with these powerful models. We've been waiting for more robust tooling in this space, and Simon consistently delivers.
+
+Original Link: https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://static.simonwillison.net/static/2026/best-thing-pelicans-card.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[llm-anthropic 0.26: New Claude 5 Models and Server-Side Tools]]></title>
+            <link>https://digestweb.dev/articles/2026-08-04/llm-anthropic-0-26-new-claude-5-models-server-side-tools</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-04/llm-anthropic-0-26-new-claude-5-models-server-side-tools</guid>
+            <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The `llm-anthropic` plugin updates to version 0.26, adding support for new Claude 5 models and server-side tools, leveraging features from LLM 0.32.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+`llm-anthropic 0.26` introduces support for new Claude 5 models: Fable, Sonnet, and Opus.
+It adds server-side tools like WebSearch, WebFetch, CodeExecution, and AnthropicMCP.
+Reasoning, tool calls, and results now stream as typed events.
+Reasoning for CLI prompts displays to standard error by default.
+The plugin requires `llm>=0.32` to function correctly.
+
+## Our Commentary
+
+This is a solid update for Claude users, bringing the latest models and server-side capabilities to the `llm` ecosystem. It's good to see the plugins keeping pace with the core tool's advancements. I appreciate the consistent effort to integrate new model features as they become available.
+
+Original Link: https://simonwillison.net/2026/Aug/4/llm-anthropic/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/740/800/450" length="0" type="image//id/740/800/450"/>
         </item>
         <item>
             <title><![CDATA[MiniMax-H3 Omni-Modal AI Ported to MLX for Apple Silicon]]></title>
