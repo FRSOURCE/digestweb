@@ -11,6 +11,120 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-08-04/cursor-open-source-mixture-of-kittens-moe-megakernel",
+            "content_html": "## Summary & Key Takeaways\n\n- Cursor has open-sourced a new MoE megakernel named \"Mixture-of-Kittens.\"\n- It is specifically designed for Mixture-of-Experts (MoE) models.\n- The megakernel targets NVL72s hardware.\n- This release provides specialized infrastructure for high-performance AI.\n\n## Our Commentary\n\n\"Mixture-of-Kittens\" is a fantastic name, first off. An open-source MoE megakernel for NVL72s sounds like a deep dive into the hardware-software co-design for large AI models. This is the kind of foundational work that enables future breakthroughs. It's not for everyone, but for those pushing the limits of AI performance, this is a big deal.\n\nOriginal Link: https://cursor.com/blog/mixture-of-kittens",
+            "url": "https://digestweb.dev/articles/2026-08-04/cursor-open-source-mixture-of-kittens-moe-megakernel",
+            "title": "Cursor Releases Open-Source Mixture-of-Kittens MoE Megakernel",
+            "summary": "Cursor has open-sourced \"Mixture-of-Kittens,\" a Mixture-of-Experts (MoE) megakernel. This release targets NVL72s, offering specialized infrastructure for advanced AI models.",
+            "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/blog/mok-kernel-v9.mp4-C142FCHiWIfuoxAnR8BjFLUOP9sfRq.png",
+            "date_modified": "2026-08-04T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-04/decompose-ai-generated-prs-github-stacked-prs",
+            "content_html": "## Summary & Key Takeaways\n\n- AI-generated code often results in large, difficult-to-review pull requests.\n- The article proposes teaching coding agents to decompose work.\n- This decomposition creates clean, ordered stacks of pull requests.\n- Utilizing GitHub's stacked pull requests feature enhances reviewability.\n\n## Our Commentary\n\nThis is a practical piece of advice for anyone working with AI-generated code. We've all seen those monstrous PRs, and adding AI to the mix just amplifies the problem. The idea of training agents to think in smaller, reviewable chunks is smart. It feels like a necessary step in making AI a truly collaborative coding partner, rather than just a code-spewing machine.\n\nOriginal Link: https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/",
+            "url": "https://digestweb.dev/articles/2026-08-04/decompose-ai-generated-prs-github-stacked-prs",
+            "title": "Decompose Giant AI-Generated PRs into Reviewable Stacks on GitHub",
+            "summary": "Learn how to guide coding agents to break down large, unreviewable AI-generated pull requests into smaller, ordered stacks. This improves code review efficiency on GitHub.",
+            "image": "https://github.blog/wp-content/uploads/2026/01/generic-mona-github.png",
+            "date_modified": "2026-08-04T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-04/endless-interactive-glass-xylophone-threejs",
+            "content_html": "## Summary & Key Takeaways\n\n- The project creates an endless, interactive glass xylophone experience.\n- It utilizes Three.js for 3D rendering in the browser.\n- Advanced techniques like instancing are used for performance.\n- A fluid simulation adds dynamic visual effects.\n- Glass rendering is achieved entirely through custom shaders.\n\n## Our Commentary\n\nCodrops always delivers on the visual front, and this Three.js xylophone is no exception. The technical details, especially faking glass entirely in the shader, are genuinely fascinating. It's a great example of pushing the boundaries of what's possible with web graphics. I love seeing these kinds of creative, deep dives into browser capabilities.\n\nOriginal Link: https://tympanus.net/codrops/2026/08/04/building-an-endless-interactive-glass-xylophone-with-three-js/",
+            "url": "https://digestweb.dev/articles/2026-08-04/endless-interactive-glass-xylophone-threejs",
+            "title": "Crafting an Endless Interactive Glass Xylophone with Three.js",
+            "summary": "Explore building a scrolling helix of interactive glass bars using Three.js. This project features instancing, fluid simulation, and shader-based glass effects.",
+            "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/08/xylophone_cover.png?x48895",
+            "date_modified": "2026-08-04T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-04/github-legal-team-copilot-cli-workflows",
+            "content_html": "## Summary & Key Takeaways\n\n- GitHub's legal team utilized Copilot CLI to automate tasks.\n- They built custom tools to streamline their internal workflows.\n- The process required no traditional coding, focusing on natural language prompts.\n- This showcases AI's potential beyond software development.\n\n## Our Commentary\n\nIt's always fascinating to see AI tools applied in unexpected domains. The idea of a legal team building tools without code using Copilot CLI is a neat demonstration of accessibility. I wonder how much hand-holding was involved, or if it truly was \"no code\" for the end-users. It feels like a glimpse into a future where domain experts can craft their own solutions.\n\nOriginal Link: https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/",
+            "url": "https://digestweb.dev/articles/2026-08-04/github-legal-team-copilot-cli-workflows",
+            "title": "GitHub Legal Team Streamlines Workflows with Copilot CLI",
+            "summary": "GitHub's legal team leveraged Copilot CLI to create tools that simplify their workflows. This case study demonstrates building solutions without writing traditional code.",
+            "image": "https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-smiling-flying-logo.png",
+            "date_modified": "2026-08-04T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-04/google-cloud-api-gateway-unified-ai-model-routing",
+            "content_html": "## Summary & Key Takeaways\n\n- Google Cloud API Gateway now includes an AI model routing feature.\n- It allows dynamic traffic routing to multiple AI models from different providers.\n- Developers can configure routing rules within OpenAPI 3.x specifications.\n- The gateway handles payload transcoding to the target model's native schema.\n- It accepts standard OpenAI-compatible requests as a serverless ingress layer.\n- This simplifies integration and management of diverse AI models.\n\n## Our Commentary\n\nThis is a huge quality-of-life improvement for anyone juggling multiple AI models. We've been waiting for something like this. The ability to route and transcode requests on the fly, all through a unified API, removes so much boilerplate. It feels like Google is really listening to developer pain points here. This could genuinely accelerate multi-model AI application development.\n\nOriginal Link: https://developers.googleblog.com/a-unified-api-for-ai-model-routing/",
+            "url": "https://digestweb.dev/articles/2026-08-04/google-cloud-api-gateway-unified-ai-model-routing",
+            "title": "Google Cloud API Gateway Offers Unified AI Model Routing",
+            "summary": "Google Cloud API Gateway now provides a model routing feature in Public Preview. It allows dynamic traffic routing to various AI models like Gemini, Claude, or OpenAI OSS-GPT via a unified API.",
+            "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Model_Routing_via_API_Gateway___M.2e16d0ba.fill-1200x600.jpg",
+            "date_modified": "2026-08-04T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-04/huggingface-lfm2-5-2-6b-local-ai-agents",
+            "content_html": "## Summary & Key Takeaways\n\n- Hugging Face has released the LFM2.5-2.6B model.\n- This model is designed for deploying AI agents locally.\n- It enables AI capabilities to run directly on edge devices.\n- The release supports broader accessibility and privacy for AI applications.\n\n## Our Commentary\n\nLocal AI agents are a big deal for privacy and performance, so a new model from Hugging Face focused on this is always welcome. We're seeing a clear trend towards decentralizing AI, and models like LFM2.5-2.6B are crucial for that. I'm curious about its specific capabilities and how it balances size with effectiveness.\n\nOriginal Link: https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+            "url": "https://digestweb.dev/articles/2026-08-04/huggingface-lfm2-5-2-6b-local-ai-agents",
+            "title": "Hugging Face Releases LFM2.5-2.6B for Local AI Agent Deployment",
+            "summary": "Hugging Face introduces LFM2.5-2.6B, a new model designed to facilitate the deployment of local AI agents. This enables AI capabilities to run directly on devices.",
+            "image": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/DsoMk3kqhMYedjPiZINKv.png",
+            "date_modified": "2026-08-04T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-04/minimax-h3-omni-modal-ai-mlx-apple-silicon",
+            "content_html": "## Summary & Key Takeaways\n\n- MiniMax-H3 is a new general-purpose, omni-modal generative system.\n- It accepts text, images, audio, and video inputs.\n- The system can generate up to 15-second video clips with audio.\n- A Python package ports MiniMax-H3 to MLX for Apple Silicon.\n- Simon Willison successfully ran the model on an M5 Max MacBook Pro.\n- The local video generation process took approximately 45 minutes.\n- The generated video was impressive, though audio quality varied without specific prompts.\n\n## Our Commentary\n\nThis is exactly the kind of hands-on exploration we love to see. Getting a cutting-edge omni-modal model like MiniMax-H3 running locally on Apple Silicon is a big win for accessibility. The 115GB download and 45-minute generation time are stark reminders of the computational demands, but the results are genuinely impressive. I'm always fascinated by how these models handle complex prompts.\n\nOriginal Link: https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-08-04/minimax-h3-omni-modal-ai-mlx-apple-silicon",
+            "title": "MiniMax-H3 Omni-Modal AI Ported to MLX for Apple Silicon",
+            "summary": "Simon Willison demonstrates running MiniMax-H3, an omni-modal generative AI system, on Apple Silicon using an MLX port. The article includes a personal test of video generation.",
+            "image": "https://static.simonwillison.net/static/2026/skunk.jpg",
+            "date_modified": "2026-08-04T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-04/openai-cyber-evaluations-safeguards-ai-models",
+            "content_html": "## Summary & Key Takeaways\n\n- OpenAI is addressing recent third-party cybersecurity evaluation incidents.\n- The company is outlining new safeguards to enhance model security.\n- Efforts focus on strengthening AI model testing and evaluation.\n- This initiative aims to improve the overall safety and robustness of AI systems.\n\n## Our Commentary\n\nIt's good to see OpenAI being transparent about cybersecurity incidents and actively working on safeguards. The rapid deployment of AI means we're constantly discovering new vulnerabilities, and proactive evaluation is crucial. I'm always a bit wary of these \"we're doing better now\" announcements, but the commitment to third-party evaluations is a positive step.\n\nOriginal Link: https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+            "url": "https://digestweb.dev/articles/2026-08-04/openai-cyber-evaluations-safeguards-ai-models",
+            "title": "OpenAI Details Cyber Evaluations & New Safeguards for AI Models",
+            "summary": "OpenAI discusses recent third-party cybersecurity evaluation incidents and outlines new safeguards. The company aims to strengthen AI model testing and evaluation processes.",
+            "image": "https://picsum.photos/id/750/800/450",
+            "date_modified": "2026-08-04T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-04/openai-education-plugins-chatgpt-codex",
+            "content_html": "## Summary & Key Takeaways\n\n- OpenAI has released new education-focused plugins.\n- These plugins are available for ChatGPT Work and Codex.\n- They aim to support K–12 teachers, college educators, and students.\n- The tools facilitate learning, teaching, research, and building activities.\n\n## Our Commentary\n\nEducation is a massive frontier for AI, and these plugins feel like a natural progression. I'm curious about the actual utility beyond basic Q&A. The potential for personalized learning is huge, but I also worry about over-reliance and the impact on critical thinking. It's a double-edged sword, and we need to be thoughtful about how these tools are integrated.\n\nOriginal Link: https://openai.com/index/learn-teach-chatgpt-work-codex",
+            "url": "https://digestweb.dev/articles/2026-08-04/openai-education-plugins-chatgpt-codex",
+            "title": "OpenAI Introduces New Education Plugins for ChatGPT Work & Codex",
+            "summary": "OpenAI is rolling out new education plugins for ChatGPT Work and Codex. These tools are designed to assist K–12 teachers, college educators, and students in learning, teaching, and research.",
+            "image": "https://picsum.photos/id/168/800/450",
+            "date_modified": "2026-08-04T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-04/steve-yegge-project-failure-two-more-things",
+            "content_html": "## Summary & Key Takeaways\n\n- Steve Yegge's \"Gas Town\" project ultimately failed.\n- The failure is attributed to a \"just two more things\" development tic.\n- This tic prevented the project from ever reaching a stable, usable state.\n- The anecdote offers a cautionary tale about scope creep in software development.\n- The quote is presented in the context of coding agents and generative AI.\n\n## Our Commentary\n\nYegge's \"just two more things\" syndrome is a classic. It's a trap we've all fallen into, and it's even more insidious when you're building complex systems, especially with AI agents. The lesson here is timeless: sometimes you just need to ship. I appreciate Simon Willison bringing these nuggets of wisdom back into the conversation.\n\nOriginal Link: https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-08-04/steve-yegge-project-failure-two-more-things",
+            "title": "Steve Yegge on Project Failure and the \"Just Two More Things\" Syndrome",
+            "summary": "Simon Willison shares a quote from Steve Yegge discussing the downfall of his \"Gas Town\" project. Yegge attributes its failure to continuous scope creep and the \"just two more things\" development tic.",
+            "image": "https://picsum.photos/id/535/800/450",
+            "date_modified": "2026-08-04T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-04/tanstack-table-v9-tree-shakable-architecture-performance",
+            "content_html": "## Summary & Key Takeaways\n\n- Version 9 features a new tree-shakable architecture for smaller bundles.\n- It now includes fine-grained reactivity for more efficient updates.\n- Developers will experience improved overall performance.\n- First-class support has been extended to additional frameworks.\n\n## Our Commentary\n\nTanStack continues to impress with its commitment to framework-agnostic utilities. V9's focus on tree-shaking and fine-grained reactivity is exactly what we need for modern web applications. I'm particularly interested in how the performance gains translate to real-world complex tables. This library is a workhorse for so many projects, and these updates feel genuinely impactful.\n\nOriginal Link: https://tanstack.com/blog/announcing-tanstack-table-v9",
+            "url": "https://digestweb.dev/articles/2026-08-04/tanstack-table-v9-tree-shakable-architecture-performance",
+            "title": "TanStack Table V9 Arrives with Tree-Shakable Architecture & Enhanced Performance",
+            "summary": "TanStack Table V9 introduces a tree-shakable feature architecture, fine-grained reactivity, and improved performance. It also expands first-class support for more frameworks.",
+            "image": "https://tanstack.com/cdn-cgi/image/width=1200,height=630,fit=cover,quality=80,format=auto/blog-assets/announcing-tanstack-table-v9/header.png",
+            "date_modified": "2026-08-04T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-04/web-platform-status-notification-emails",
+            "content_html": "## Summary & Key Takeaways\n\n- The Web Platform Status website offers email notification services.\n- Users can sign up to receive alerts for specific web features.\n- Notifications are sent when a feature's support status changes.\n- An example given is tracking when a feature becomes \"Baseline Newly Available.\"\n- This tool helps developers stay updated on web platform evolution.\n\n## Our Commentary\n\nThis is one of those \"why didn't I know about this sooner?\" moments. We're constantly trying to keep up with the web platform, and having email alerts for specific feature changes is incredibly useful. I'm signing up for a few things right after this. It feels like a small but mighty tool for staying informed without constant manual checking.\n\nOriginal Link: https://master.dev/blog/web-platform-status-notification-emails/",
+            "url": "https://digestweb.dev/articles/2026-08-04/web-platform-status-notification-emails",
+            "title": "Get Email Alerts for Web Platform Feature Status Changes",
+            "summary": "Discover how to receive email notifications from the Web Platform Status website. These alerts inform you when chosen web features change their support status, like becoming Baseline Newly Available.",
+            "image": "https://master.dev/blog/wp-json/social-image-generator/v1/image/10614",
+            "date_modified": "2026-08-04T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-08-03/automating-software-updates-ai-agents-prompt",
             "content_html": "## Summary & Key Takeaways\n\n- The article quotes David Crawshaw's prompt for an AI agent.\n- The prompt instructs the agent to automate software updates nightly.\n- Tasks include fetching upstream changes, rebasing local modifications, and testing.\n- The agent is then to replace the current software version if successful.\n- This showcases a practical application of AI in developer workflows.\n\n## Our Commentary\n\nThis prompt is genuinely thought-provoking. The idea of an AI agent handling routine software updates, including rebasing and testing, is both exciting and a little terrifying. It's a glimpse into a future where developer workflows are heavily augmented, but I can't help but wonder about the edge cases and potential for unexpected breakage.\n\nOriginal Link: https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything",
             "url": "https://digestweb.dev/articles/2026-08-03/automating-software-updates-ai-agents-prompt",
@@ -39,6 +153,18 @@
             "summary": "CSS gap decorations are now fully supported in Chrome and Edge (v149+), offering developers new capabilities to easily style gaps in layouts with enhanced control.",
             "image": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/07/gap-decorations-thumb.jpg",
             "date_modified": "2026-08-03T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-03/dont-be-a-meat-proxy-responsible-ai-use",
+            "content_html": "## Summary & Key Takeaways\n\n- The term \"meat proxy\" describes people who blindly copy AI outputs.\n- It emphasizes the importance of human validation and understanding of AI content.\n- Users should read, comprehend, and verify AI-generated information.\n- The advice encourages rephrasing AI outputs in one's own words.\n- This practice adds value and demonstrates critical engagement with AI tools.\n\n## Our Commentary\n\n\"Meat proxy\" is a brilliant term, and I'm absolutely stealing it. This is such a critical point as AI becomes more ubiquitous. We've seen the dangers of uncritical copy-pasting. The human element of understanding and validating AI output is where the real value lies. It's not about replacing thought, but augmenting it.\n\nOriginal Link: https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-08-03/dont-be-a-meat-proxy-responsible-ai-use",
+            "title": "“Don't Be a Meat Proxy”: Responsible AI Use in Practice",
+            "summary": "Niklas Gruhn coins the term \"meat proxy\" for those who blindly relay AI outputs. The article advocates for understanding, validating, and rephrasing AI-generated content in one's own words.",
+            "image": "https://picsum.photos/id/268/800/450",
+            "date_modified": "2026-08-03T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
         },
         {
             "id": "https://digestweb.dev/articles/2026-08-03/google-scaling-realtime-ai-agents-load-balancing",
