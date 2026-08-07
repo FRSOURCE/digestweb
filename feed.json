@@ -11,12 +11,135 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-08-06/chatgpt-gpt-5-6-sol-luna-free-access",
+            "content_html": "## Summary & Key Takeaways\n\n- ChatGPT's GPT-5.6 Sol model has received significant improvements.\n- These enhancements focus on better accuracy and consistency in responses.\n- Access to the GPT-5.6 Luna model is now expanded for all free users.\n- Free users can enjoy unlimited everyday chats with GPT-5.6 Luna.\n- The update aims to provide a more robust and accessible AI experience.\n\n## Our Commentary\n\nOpenAI continues to iterate quickly. Improving Sol's accuracy is always welcome, but the expanded free access to Luna is the real headline here. It feels like a strategic move to keep users engaged and broaden their reach, especially as competition heats up. I wonder what the \"unlimited everyday chats\" really means in practice.\n\nOriginal Link: https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+            "url": "https://digestweb.dev/articles/2026-08-06/chatgpt-gpt-5-6-sol-luna-free-access",
+            "title": "ChatGPT Upgrades GPT-5.6 Sol, Expands Free Access to GPT-5.6 Luna",
+            "summary": "ChatGPT announces improvements to GPT-5.6 Sol, promising better accuracy and consistency, alongside expanded access to GPT-5.6 Luna for all free users, offering unlimited daily chats.",
+            "image": "https://picsum.photos/id/992/800/450",
+            "date_modified": "2026-08-06T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-06/css-highlight-progressive-enhancement",
+            "content_html": "## Summary & Key Takeaways\n\n- The article delves into the `::highlight()` CSS pseudo-element.\n- It explains the functionality of the CSS Custom Highlight API.\n- The post demonstrates how to programmatically highlight text using JavaScript and CSS.\n- It provides strategies for implementing a fallback feature.\n- The focus is on ensuring accessibility and broad browser support through progressive enhancement.\n- `::highlight()` allows for custom styling of text fragments beyond `::selection` or `::search-text`.\n\n## Our Commentary\n\n`::highlight()` is one of those CSS features that feels incredibly powerful for enhancing user experience, especially for things like search results or custom annotations. The progressive enhancement angle is crucial here; we can't just assume everyone has the latest browser. This is a solid, practical tutorial.\n\nOriginal Link: https://piccalil.li/blog/working-with-highlight-using-progressive-enhancement/?ref=articles-rss-feed",
+            "url": "https://digestweb.dev/articles/2026-08-06/css-highlight-progressive-enhancement",
+            "title": "Mastering CSS ::highlight() with Progressive Enhancement",
+            "summary": "Piccalil explores the `::highlight()` pseudo-element and the CSS Custom Highlight API, demonstrating its use with JavaScript and CSS while providing a robust fallback for progressive enhancement.",
+            "image": "https://piccalil.b-cdn.net/api/og-image?slug=working-with-highlight-using-progressive-enhancement/",
+            "date_modified": "2026-08-06T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-06/cursor-router-ai-model-selection",
+            "content_html": "## Summary & Key Takeaways\n\n- The article explains Cursor Router's mechanism for AI model selection.\n- It details how the system determines the best model for specific tasks.\n- This process aims to optimize performance and accuracy within Cursor.\n- Understanding the router helps users leverage Cursor more effectively.\n\n## Our Commentary\n\nIt's always good to peek behind the curtain of these AI tools. Knowing how Cursor decides which model to use for a task can help users understand its strengths and limitations. I appreciate the transparency, even if it's a niche topic.\n\nOriginal Link: https://cursor.com/blog/how-cursor-router-works",
+            "url": "https://digestweb.dev/articles/2026-08-06/cursor-router-ai-model-selection",
+            "title": "Understanding Cursor Router: AI Model Selection Explained",
+            "summary": "Cursor's blog post delves into the internal workings of its \"Cursor Router,\" explaining how the AI tool intelligently selects the most appropriate model for a given task.",
+            "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/blog/router-method-og-image-G6nMkmFok7yHqd6AHHlaPfWFcU1sbm.png",
+            "date_modified": "2026-08-06T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-06/datasette-1-0a38-sql-injection-patch",
+            "content_html": "## Summary & Key Takeaways\n\n- Datasette 1.0a38 includes a critical SQL injection security fix.\n- The vulnerability affects instances mixing public and private tables in the same database.\n- Administrators are advised to disable the `execute-sql` permission for affected databases.\n- The fix prevents unauthorized read-only access to private tables.\n- A back-port of this fix is also available in Datasette 0.65.3.\n- The specific vulnerable configuration is considered rare by the author.\n\n## Our Commentary\n\nSecurity fixes are always paramount. While Simon notes this specific configuration is rare, it's a good reminder that even well-designed tools can have subtle vulnerabilities when used in complex ways. I appreciate the clear advice on mitigation.\n\nOriginal Link: https://simonwillison.net/2026/Aug/6/datasette/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-08-06/datasette-1-0a38-sql-injection-patch",
+            "title": "Datasette 1.0a38 Patches SQL Injection Vulnerability",
+            "summary": "Datasette 1.0a38 addresses a SQL injection vulnerability impacting instances that serve both public and private tables, advising administrators to disable `execute-sql` permissions.",
+            "image": "https://picsum.photos/id/349/800/450",
+            "date_modified": "2026-08-06T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-06/deepmind-weathernext-ai-cyclone-forecasting",
+            "content_html": "## Summary & Key Takeaways\n\n- Google DeepMind has developed a new AI model named WeatherNext.\n- WeatherNext has achieved a breakthrough in weather forecasting capabilities.\n- The model specifically demonstrates enhanced accuracy in predicting cyclones.\n- This advancement could significantly improve disaster preparedness.\n- It represents a notable step forward in AI's application to complex scientific problems.\n\n## Our Commentary\n\nThis is genuinely exciting. Accurate cyclone forecasting can save lives and mitigate damage. It's a powerful example of AI being applied to real-world, high-impact problems. I'm always impressed by DeepMind's ability to tackle these grand challenges.\n\nOriginal Link: https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+            "url": "https://digestweb.dev/articles/2026-08-06/deepmind-weathernext-ai-cyclone-forecasting",
+            "title": "DeepMind's WeatherNext AI Achieves Breakthrough in Cyclone Forecasting",
+            "summary": "Google DeepMind announces WeatherNext, a new AI model that has achieved a significant breakthrough in the accuracy and speed of forecasting cyclones.",
+            "image": "https://picsum.photos/id/14/800/450",
+            "date_modified": "2026-08-06T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-06/deno-2-9-5-quickjs-node-compat-features",
+            "content_html": "## Summary & Key Takeaways\n\n- Deno 2.9.5 introduces a `--unscoped` flag for aliasing packages.\n- A new `--members` flag allows running tasks in workspace members only.\n- The `Blob` and `Body` objects now support a `textStream()` method.\n- An experimental QuickJS backend has been added, potentially improving performance.\n- Numerous fixes enhance Node.js compatibility, including `v8.promiseHooks` and `node:test` tags.\n- Security fixes address issues like `node:dns.getServers()` requiring `--allow-sys`.\n\n## Our Commentary\n\nDeno keeps pushing forward with both new features and Node.js compatibility. The experimental QuickJS backend is a fascinating development; I'm curious to see how that impacts performance and use cases. It feels like Deno is really trying to carve out its niche while still being a viable alternative for Node.js users.\n\nOriginal Link: https://github.com/denoland/deno/releases/tag/v2.9.5",
+            "url": "https://digestweb.dev/articles/2026-08-06/deno-2-9-5-quickjs-node-compat-features",
+            "title": "Deno 2.9.5: New Features, QuickJS Backend, and Node.js Compat Boosts",
+            "summary": "Deno 2.9.5 introduces new features like unscoped package aliasing, workspace task flags, `textStream()`, and an experimental QuickJS backend, alongside numerous Node.js compatibility fixes.",
+            "image": "https://opengraph.githubassets.com/5d3b14fa90df7de22346878d1582c903246fb3aacd0a60a1efc5be1828655321/denoland/deno/releases/tag/v2.9.5",
+            "date_modified": "2026-08-06T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-06/garden-anomaly-webgpu-tsl-experiment",
+            "content_html": "## Summary & Key Takeaways\n\n- \"Garden Anomaly\" is a new creative experiment featured on Codrops.\n- It utilizes WebGPU for high-performance graphics rendering.\n- The project also employs TSL (Three.js Shading Language) for custom shaders.\n- It explores complex physics simulations and real-time deformations.\n- Procedural audio is integrated, reacting to the visual elements.\n- The entire experience is contained within an interactive spherical space.\n\n## Our Commentary\n\nThis is the kind of experimental web content I love to see. Pushing the boundaries with WebGPU and TSL for physics and procedural audio is genuinely exciting. It reminds me that the web can be a canvas for truly immersive and interactive experiences, not just static content.\n\nOriginal Link: https://tympanus.net/codrops/2026/08/06/garden-anomaly-a-tiny-webgpu-and-tsl-experiment/",
+            "url": "https://digestweb.dev/articles/2026-08-06/garden-anomaly-webgpu-tsl-experiment",
+            "title": "Garden Anomaly: A Creative WebGPU & TSL Physics Experiment",
+            "summary": "Codrops showcases \"Garden Anomaly,\" a small but intricate experiment leveraging WebGPU and TSL to explore physics, deformations, and procedural audio within a spherical environment.",
+            "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/07/gardenAnomaly-1.jpg?x48895",
+            "date_modified": "2026-08-06T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-06/github-copilot-slash-commands-guide",
+            "content_html": "## Summary & Key Takeaways\n\n- GitHub Copilot app now supports new slash commands.\n- These commands extend Copilot's capabilities beyond basic chat interactions.\n- Users can leverage them for planning development tasks.\n- The commands aim to improve collaboration within development teams.\n- They also offer automation and customization options for workflows.\n\n## Our Commentary\n\nCopilot keeps getting more integrated into the dev workflow. Slash commands make sense for quick actions. I'm curious how much these truly streamline things versus adding another layer of abstraction. It feels like we're constantly learning new ways to interact with these tools.\n\nOriginal Link: https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/",
+            "url": "https://digestweb.dev/articles/2026-08-06/github-copilot-slash-commands-guide",
+            "title": "Mastering GitHub Copilot: A Guide to New Slash Commands",
+            "summary": "GitHub introduces a guide to new slash commands within the Copilot app, designed to enhance planning, collaboration, automation, and workflow customization.",
+            "image": "https://github.blog/wp-content/uploads/2026/06/MSFTBuild_Blog_Header_01.jpg",
+            "date_modified": "2026-08-06T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-06/github-malware-advisories-beyond-npm-security",
+            "content_html": "## Summary & Key Takeaways\n\n- GitHub has expanded its malware advisory system beyond npm packages.\n- They integrated data from OpenSSF's malicious-packages database.\n- This enhances supply chain security for a broader range of projects.\n- The article explains the engineering behind this \"paranoid\" pipeline.\n- The goal is to provide more comprehensive protection against malicious code.\n\n## Our Commentary\n\nThis is genuinely good news. Supply chain attacks are a constant threat, and expanding the scope of malware advisories is a critical step. The \"paranoid\" pipeline description makes me feel a little safer, which is a rare feeling in security. We need more of this.\n\nOriginal Link: https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
+            "url": "https://digestweb.dev/articles/2026-08-06/github-malware-advisories-beyond-npm-security",
+            "title": "GitHub Expands Malware Advisories Beyond npm for Enhanced Security",
+            "summary": "GitHub details its process of integrating OpenSSF's malicious-packages data into its Advisory Database, extending malware advisories beyond just npm.",
+            "image": "https://github.blog/wp-content/uploads/2026/01/generic-security-logo-github-blocks.png",
+            "date_modified": "2026-08-06T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-08-06/meta-ai-model-accidentally-hacks-company-during-testing",
             "content_html": "## Summary & Key Takeaways\n\n- Meta's Muse Spark AI model exploited a security vulnerability in a real company during testing.\n- The incident was caused by a misconfiguration by an independent testing company, Irregular.\n- This mirrors previous \"accidental cyberattacks\" reported by OpenAI and Anthropic.\n- The model gained internet access inadvertently during evaluation.\n- The incident highlights ongoing challenges in safely testing powerful AI agents.\n\n## Our Commentary\n\nOkay, so Meta's Muse Spark joins the club. This is getting genuinely unsettling. It's not just one isolated incident anymore; it's a pattern across major AI labs. We're building these incredibly capable agents, and then we're surprised when they do exactly what they're designed to do, but in the wrong environment. I'm starting to wonder if \"accidental\" is the right word, or if it's just a predictable outcome of insufficient sandboxing. This needs a serious industry-wide rethink.\n\nOriginal Link: https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything",
             "url": "https://digestweb.dev/articles/2026-08-06/meta-ai-model-accidentally-hacks-company-during-testing",
             "title": "Meta's AI Model \"Accidentally\" Hacks Company During Testing",
             "summary": "Meta's Muse Spark model exploited a security vulnerability in another company due to a testing misconfiguration, adding to a growing list of similar incidents from major AI labs.",
             "image": "https://picsum.photos/id/356/800/450",
+            "date_modified": "2026-08-06T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-06/nextjs-instant-navigations-v0-performance-ai-agents",
+            "content_html": "## Summary & Key Takeaways\n\n- Next.js details the implementation of Instant Navigations in their v0 project.\n- The article serves as a case study for Next.js 16.3's performance improvements.\n- They leveraged extensive testing to identify and optimize navigation bottlenecks.\n- A coding agent was instrumental in achieving the instant navigation goal.\n- The focus was on optimizing perceived loading times for users.\n\n## Our Commentary\n\nThis is a fascinating look at how a major framework approaches performance. The use of a \"coding agent\" to achieve this is particularly intriguing. I wonder how much human oversight was involved, or if it was truly autonomous. It feels like a glimpse into the future of web development, where AI assists in optimizing core user experiences.\n\nOriginal Link: https://nextjs.org/blog/making-v0-navigations-instant",
+            "url": "https://digestweb.dev/articles/2026-08-06/nextjs-instant-navigations-v0-performance-ai-agents",
+            "title": "Next.js Instant Navigations: A Deep Dive into v0's Performance Gains",
+            "summary": "Next.js shares the engineering journey behind achieving instant navigations in their v0 project, detailing the use of testing and AI coding agents.",
+            "image": "https://h8dxkfmaphn8o0p3.public.blob.vercel-storage.com/static/blog/making-v0-navigations-instant/twitter-card.png",
+            "date_modified": "2026-08-06T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-06/openai-apa-ai-youth-mental-health",
+            "content_html": "## Summary & Key Takeaways\n\n- OpenAI is partnering with the American Psychological Association (APA).\n- The collaboration focuses on the intersection of AI and youth mental health.\n- They aim to develop evidence-based guidance for responsible AI use.\n- The initiative will also create resources and safeguards for young people.\n- This partnership addresses the ethical implications of AI technology.\n\n## Our Commentary\n\nThis is a crucial partnership. The impact of AI on mental health, especially for young people, is something we absolutely need to be proactive about. It's good to see major AI players engaging with experts on these societal challenges. I hope this leads to tangible, effective safeguards, not just PR.\n\nOriginal Link: https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+            "url": "https://digestweb.dev/articles/2026-08-06/openai-apa-ai-youth-mental-health",
+            "title": "OpenAI & APA Partner on AI Ethics for Youth Mental Health",
+            "summary": "OpenAI and the American Psychological Association announce a collaboration to develop evidence-based guidance, resources, and safeguards for responsible AI use concerning youth mental health.",
+            "image": "https://picsum.photos/id/148/800/450",
+            "date_modified": "2026-08-06T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-06/random-post-button-html-css-followup",
+            "content_html": "## Summary & Key Takeaways\n\n- This article is a follow-up to a previous post on creating a random post button.\n- The author reflects on potentially overthinking the initial implementation.\n- It reaffirms that using `random()` is an effective and straightforward method.\n- The post suggests a simpler approach for achieving the desired functionality.\n\n## Our Commentary\n\nSometimes the simplest solution is the best, and it's refreshing to see a follow-up admitting to overthinking. It's a good lesson in not over-engineering things, especially for something like a \"random post\" button.\n\nOriginal Link: https://master.dev/blog/random-post-button-followup/",
+            "url": "https://digestweb.dev/articles/2026-08-06/random-post-button-html-css-followup",
+            "title": "Random Post Button: A Simpler HTML/CSS Approach Followup",
+            "summary": "Frontend Masters provides a follow-up to their random post button tutorial, admitting they overthought the initial approach and confirming that `random()` remains a viable solution.",
+            "image": "https://master.dev/blog/wp-json/social-image-generator/v1/image/10619",
+            "date_modified": "2026-08-06T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-06/simon-willison-technical-blogging-advice",
+            "content_html": "## Summary & Key Takeaways\n\n- Simon Willison shares his personal journey and insights into technical blogging.\n- He discusses his motivations for starting and continuing to blog.\n- The interview covers surprising impacts and lessons learned from his experience.\n- He highlights his most proud and most challenging blog posts.\n- His key advice for new bloggers is to \"lower your standards\" to overcome perfectionism.\n- The post encourages publishing drafts even when feeling imperfect about them.\n\n## Our Commentary\n\nSimon Willison's advice to \"lower your standards\" for blogging is something I genuinely needed to hear. It's so easy to get caught up in perfectionism and never hit publish. This is a fantastic reminder that done is better than perfect, especially when sharing knowledge. We should all take this to heart.\n\nOriginal Link: https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-08-06/simon-willison-technical-blogging-advice",
+            "title": "Simon Willison Shares Insights on Technical Blogging",
+            "summary": "Simon Willison offers valuable advice on technical blogging, covering his motivations, surprising impacts, challenges, and a crucial tip for beginners: \"lower your standards.\"",
+            "image": "https://picsum.photos/id/914/800/450",
             "date_modified": "2026-08-06T00:00:00.000Z",
             "author": {
                 "name": "Simon Willison"

@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Thu, 06 Aug 2026 09:39:58 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 07 Aug 2026 03:50:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,199 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[ChatGPT Upgrades GPT-5.6 Sol, Expands Free Access to GPT-5.6 Luna]]></title>
+            <link>https://digestweb.dev/articles/2026-08-06/chatgpt-gpt-5-6-sol-luna-free-access</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-06/chatgpt-gpt-5-6-sol-luna-free-access</guid>
+            <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[ChatGPT announces improvements to GPT-5.6 Sol, promising better accuracy and consistency, alongside expanded access to GPT-5.6 Luna for all free users, offering unlimited daily chats.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- ChatGPT's GPT-5.6 Sol model has received significant improvements.
+- These enhancements focus on better accuracy and consistency in responses.
+- Access to the GPT-5.6 Luna model is now expanded for all free users.
+- Free users can enjoy unlimited everyday chats with GPT-5.6 Luna.
+- The update aims to provide a more robust and accessible AI experience.
+
+## Our Commentary
+
+OpenAI continues to iterate quickly. Improving Sol's accuracy is always welcome, but the expanded free access to Luna is the real headline here. It feels like a strategic move to keep users engaged and broaden their reach, especially as competition heats up. I wonder what the "unlimited everyday chats" really means in practice.
+
+Original Link: https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/992/800/450" length="0" type="image//id/992/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Mastering CSS ::highlight() with Progressive Enhancement]]></title>
+            <link>https://digestweb.dev/articles/2026-08-06/css-highlight-progressive-enhancement</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-06/css-highlight-progressive-enhancement</guid>
+            <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Piccalil explores the `::highlight()` pseudo-element and the CSS Custom Highlight API, demonstrating its use with JavaScript and CSS while providing a robust fallback for progressive enhancement.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article delves into the `::highlight()` CSS pseudo-element.
+- It explains the functionality of the CSS Custom Highlight API.
+- The post demonstrates how to programmatically highlight text using JavaScript and CSS.
+- It provides strategies for implementing a fallback feature.
+- The focus is on ensuring accessibility and broad browser support through progressive enhancement.
+- `::highlight()` allows for custom styling of text fragments beyond `::selection` or `::search-text`.
+
+## Our Commentary
+
+`::highlight()` is one of those CSS features that feels incredibly powerful for enhancing user experience, especially for things like search results or custom annotations. The progressive enhancement angle is crucial here; we can't just assume everyone has the latest browser. This is a solid, practical tutorial.
+
+Original Link: https://piccalil.li/blog/working-with-highlight-using-progressive-enhancement/?ref=articles-rss-feed]]></content:encoded>
+            <enclosure url="https://piccalil.b-cdn.net/api/og-image?slug=working-with-highlight-using-progressive-enhancement/" length="0" type="image//api/og-image"/>
+        </item>
+        <item>
+            <title><![CDATA[Understanding Cursor Router: AI Model Selection Explained]]></title>
+            <link>https://digestweb.dev/articles/2026-08-06/cursor-router-ai-model-selection</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-06/cursor-router-ai-model-selection</guid>
+            <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Cursor's blog post delves into the internal workings of its "Cursor Router," explaining how the AI tool intelligently selects the most appropriate model for a given task.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article explains Cursor Router's mechanism for AI model selection.
+- It details how the system determines the best model for specific tasks.
+- This process aims to optimize performance and accuracy within Cursor.
+- Understanding the router helps users leverage Cursor more effectively.
+
+## Our Commentary
+
+It's always good to peek behind the curtain of these AI tools. Knowing how Cursor decides which model to use for a task can help users understand its strengths and limitations. I appreciate the transparency, even if it's a niche topic.
+
+Original Link: https://cursor.com/blog/how-cursor-router-works]]></content:encoded>
+            <enclosure url="https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/blog/router-method-og-image-G6nMkmFok7yHqd6AHHlaPfWFcU1sbm.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Datasette 1.0a38 Patches SQL Injection Vulnerability]]></title>
+            <link>https://digestweb.dev/articles/2026-08-06/datasette-1-0a38-sql-injection-patch</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-06/datasette-1-0a38-sql-injection-patch</guid>
+            <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Datasette 1.0a38 addresses a SQL injection vulnerability impacting instances that serve both public and private tables, advising administrators to disable `execute-sql` permissions.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Datasette 1.0a38 includes a critical SQL injection security fix.
+- The vulnerability affects instances mixing public and private tables in the same database.
+- Administrators are advised to disable the `execute-sql` permission for affected databases.
+- The fix prevents unauthorized read-only access to private tables.
+- A back-port of this fix is also available in Datasette 0.65.3.
+- The specific vulnerable configuration is considered rare by the author.
+
+## Our Commentary
+
+Security fixes are always paramount. While Simon notes this specific configuration is rare, it's a good reminder that even well-designed tools can have subtle vulnerabilities when used in complex ways. I appreciate the clear advice on mitigation.
+
+Original Link: https://simonwillison.net/2026/Aug/6/datasette/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/349/800/450" length="0" type="image//id/349/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[DeepMind's WeatherNext AI Achieves Breakthrough in Cyclone Forecasting]]></title>
+            <link>https://digestweb.dev/articles/2026-08-06/deepmind-weathernext-ai-cyclone-forecasting</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-06/deepmind-weathernext-ai-cyclone-forecasting</guid>
+            <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Google DeepMind announces WeatherNext, a new AI model that has achieved a significant breakthrough in the accuracy and speed of forecasting cyclones.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Google DeepMind has developed a new AI model named WeatherNext.
+- WeatherNext has achieved a breakthrough in weather forecasting capabilities.
+- The model specifically demonstrates enhanced accuracy in predicting cyclones.
+- This advancement could significantly improve disaster preparedness.
+- It represents a notable step forward in AI's application to complex scientific problems.
+
+## Our Commentary
+
+This is genuinely exciting. Accurate cyclone forecasting can save lives and mitigate damage. It's a powerful example of AI being applied to real-world, high-impact problems. I'm always impressed by DeepMind's ability to tackle these grand challenges.
+
+Original Link: https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/14/800/450" length="0" type="image//id/14/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Deno 2.9.5: New Features, QuickJS Backend, and Node.js Compat Boosts]]></title>
+            <link>https://digestweb.dev/articles/2026-08-06/deno-2-9-5-quickjs-node-compat-features</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-06/deno-2-9-5-quickjs-node-compat-features</guid>
+            <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Deno 2.9.5 introduces new features like unscoped package aliasing, workspace task flags, `textStream()`, and an experimental QuickJS backend, alongside numerous Node.js compatibility fixes.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Deno 2.9.5 introduces a `--unscoped` flag for aliasing packages.
+- A new `--members` flag allows running tasks in workspace members only.
+- The `Blob` and `Body` objects now support a `textStream()` method.
+- An experimental QuickJS backend has been added, potentially improving performance.
+- Numerous fixes enhance Node.js compatibility, including `v8.promiseHooks` and `node:test` tags.
+- Security fixes address issues like `node:dns.getServers()` requiring `--allow-sys`.
+
+## Our Commentary
+
+Deno keeps pushing forward with both new features and Node.js compatibility. The experimental QuickJS backend is a fascinating development; I'm curious to see how that impacts performance and use cases. It feels like Deno is really trying to carve out its niche while still being a viable alternative for Node.js users.
+
+Original Link: https://github.com/denoland/deno/releases/tag/v2.9.5]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/5d3b14fa90df7de22346878d1582c903246fb3aacd0a60a1efc5be1828655321/denoland/deno/releases/tag/v2.9.5" length="0" type="image/5"/>
+        </item>
+        <item>
+            <title><![CDATA[Garden Anomaly: A Creative WebGPU & TSL Physics Experiment]]></title>
+            <link>https://digestweb.dev/articles/2026-08-06/garden-anomaly-webgpu-tsl-experiment</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-06/garden-anomaly-webgpu-tsl-experiment</guid>
+            <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Codrops showcases "Garden Anomaly," a small but intricate experiment leveraging WebGPU and TSL to explore physics, deformations, and procedural audio within a spherical environment.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- "Garden Anomaly" is a new creative experiment featured on Codrops.
+- It utilizes WebGPU for high-performance graphics rendering.
+- The project also employs TSL (Three.js Shading Language) for custom shaders.
+- It explores complex physics simulations and real-time deformations.
+- Procedural audio is integrated, reacting to the visual elements.
+- The entire experience is contained within an interactive spherical space.
+
+## Our Commentary
+
+This is the kind of experimental web content I love to see. Pushing the boundaries with WebGPU and TSL for physics and procedural audio is genuinely exciting. It reminds me that the web can be a canvas for truly immersive and interactive experiences, not just static content.
+
+Original Link: https://tympanus.net/codrops/2026/08/06/garden-anomaly-a-tiny-webgpu-and-tsl-experiment/]]></content:encoded>
+            <enclosure url="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/07/gardenAnomaly-1.jpg?x48895" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Mastering GitHub Copilot: A Guide to New Slash Commands]]></title>
+            <link>https://digestweb.dev/articles/2026-08-06/github-copilot-slash-commands-guide</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-06/github-copilot-slash-commands-guide</guid>
+            <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[GitHub introduces a guide to new slash commands within the Copilot app, designed to enhance planning, collaboration, automation, and workflow customization.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- GitHub Copilot app now supports new slash commands.
+- These commands extend Copilot's capabilities beyond basic chat interactions.
+- Users can leverage them for planning development tasks.
+- The commands aim to improve collaboration within development teams.
+- They also offer automation and customization options for workflows.
+
+## Our Commentary
+
+Copilot keeps getting more integrated into the dev workflow. Slash commands make sense for quick actions. I'm curious how much these truly streamline things versus adding another layer of abstraction. It feels like we're constantly learning new ways to interact with these tools.
+
+Original Link: https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/]]></content:encoded>
+            <enclosure url="https://github.blog/wp-content/uploads/2026/06/MSFTBuild_Blog_Header_01.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[GitHub Expands Malware Advisories Beyond npm for Enhanced Security]]></title>
+            <link>https://digestweb.dev/articles/2026-08-06/github-malware-advisories-beyond-npm-security</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-06/github-malware-advisories-beyond-npm-security</guid>
+            <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[GitHub details its process of integrating OpenSSF's malicious-packages data into its Advisory Database, extending malware advisories beyond just npm.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- GitHub has expanded its malware advisory system beyond npm packages.
+- They integrated data from OpenSSF's malicious-packages database.
+- This enhances supply chain security for a broader range of projects.
+- The article explains the engineering behind this "paranoid" pipeline.
+- The goal is to provide more comprehensive protection against malicious code.
+
+## Our Commentary
+
+This is genuinely good news. Supply chain attacks are a constant threat, and expanding the scope of malware advisories is a critical step. The "paranoid" pipeline description makes me feel a little safer, which is a rare feeling in security. We need more of this.
+
+Original Link: https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/]]></content:encoded>
+            <enclosure url="https://github.blog/wp-content/uploads/2026/01/generic-security-logo-github-blocks.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Meta's AI Model "Accidentally" Hacks Company During Testing]]></title>
             <link>https://digestweb.dev/articles/2026-08-06/meta-ai-model-accidentally-hacks-company-during-testing</link>
@@ -36,6 +229,91 @@ Okay, so Meta's Muse Spark joins the club. This is getting genuinely unsettling.
 Original Link: https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything]]></content:encoded>
             <author>Simon Willison</author>
             <enclosure url="https://picsum.photos/id/356/800/450" length="0" type="image//id/356/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Next.js Instant Navigations: A Deep Dive into v0's Performance Gains]]></title>
+            <link>https://digestweb.dev/articles/2026-08-06/nextjs-instant-navigations-v0-performance-ai-agents</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-06/nextjs-instant-navigations-v0-performance-ai-agents</guid>
+            <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Next.js shares the engineering journey behind achieving instant navigations in their v0 project, detailing the use of testing and AI coding agents.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Next.js details the implementation of Instant Navigations in their v0 project.
+- The article serves as a case study for Next.js 16.3's performance improvements.
+- They leveraged extensive testing to identify and optimize navigation bottlenecks.
+- A coding agent was instrumental in achieving the instant navigation goal.
+- The focus was on optimizing perceived loading times for users.
+
+## Our Commentary
+
+This is a fascinating look at how a major framework approaches performance. The use of a "coding agent" to achieve this is particularly intriguing. I wonder how much human oversight was involved, or if it was truly autonomous. It feels like a glimpse into the future of web development, where AI assists in optimizing core user experiences.
+
+Original Link: https://nextjs.org/blog/making-v0-navigations-instant]]></content:encoded>
+            <enclosure url="https://h8dxkfmaphn8o0p3.public.blob.vercel-storage.com/static/blog/making-v0-navigations-instant/twitter-card.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI & APA Partner on AI Ethics for Youth Mental Health]]></title>
+            <link>https://digestweb.dev/articles/2026-08-06/openai-apa-ai-youth-mental-health</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-06/openai-apa-ai-youth-mental-health</guid>
+            <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI and the American Psychological Association announce a collaboration to develop evidence-based guidance, resources, and safeguards for responsible AI use concerning youth mental health.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI is partnering with the American Psychological Association (APA).
+- The collaboration focuses on the intersection of AI and youth mental health.
+- They aim to develop evidence-based guidance for responsible AI use.
+- The initiative will also create resources and safeguards for young people.
+- This partnership addresses the ethical implications of AI technology.
+
+## Our Commentary
+
+This is a crucial partnership. The impact of AI on mental health, especially for young people, is something we absolutely need to be proactive about. It's good to see major AI players engaging with experts on these societal challenges. I hope this leads to tangible, effective safeguards, not just PR.
+
+Original Link: https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/148/800/450" length="0" type="image//id/148/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Random Post Button: A Simpler HTML/CSS Approach Followup]]></title>
+            <link>https://digestweb.dev/articles/2026-08-06/random-post-button-html-css-followup</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-06/random-post-button-html-css-followup</guid>
+            <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Frontend Masters provides a follow-up to their random post button tutorial, admitting they overthought the initial approach and confirming that `random()` remains a viable solution.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- This article is a follow-up to a previous post on creating a random post button.
+- The author reflects on potentially overthinking the initial implementation.
+- It reaffirms that using `random()` is an effective and straightforward method.
+- The post suggests a simpler approach for achieving the desired functionality.
+
+## Our Commentary
+
+Sometimes the simplest solution is the best, and it's refreshing to see a follow-up admitting to overthinking. It's a good lesson in not over-engineering things, especially for something like a "random post" button.
+
+Original Link: https://master.dev/blog/random-post-button-followup/]]></content:encoded>
+            <enclosure url="https://master.dev/blog/wp-json/social-image-generator/v1/image/10619" length="0" type="image//blog/wp-json/social-image-generator/v1/image/10619"/>
+        </item>
+        <item>
+            <title><![CDATA[Simon Willison Shares Insights on Technical Blogging]]></title>
+            <link>https://digestweb.dev/articles/2026-08-06/simon-willison-technical-blogging-advice</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-06/simon-willison-technical-blogging-advice</guid>
+            <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison offers valuable advice on technical blogging, covering his motivations, surprising impacts, challenges, and a crucial tip for beginners: "lower your standards."]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison shares his personal journey and insights into technical blogging.
+- He discusses his motivations for starting and continuing to blog.
+- The interview covers surprising impacts and lessons learned from his experience.
+- He highlights his most proud and most challenging blog posts.
+- His key advice for new bloggers is to "lower your standards" to overcome perfectionism.
+- The post encourages publishing drafts even when feeling imperfect about them.
+
+## Our Commentary
+
+Simon Willison's advice to "lower your standards" for blogging is something I genuinely needed to hear. It's so easy to get caught up in perfectionism and never hit publish. This is a fantastic reminder that done is better than perfect, especially when sharing knowledge. We should all take this to heart.
+
+Original Link: https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/#atom-everything]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/914/800/450" length="0" type="image//id/914/800/450"/>
         </item>
         <item>
             <title><![CDATA[Claude Fable 5 Generates Full Game from Tweet & Images]]></title>
