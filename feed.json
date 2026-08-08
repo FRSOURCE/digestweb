@@ -11,6 +11,111 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-08-07/building-px-push-nuxt-threejs-website",
+            "content_html": "## Summary & Key Takeaways\n\n- The article details the creation of the PX PUSH website.\n- The site's core concept revolves around an old, always-on machine.\n- It utilizes a modern tech stack including Nuxt.js and Three.js.\n- The piece explores how a design subscription studio approached its online presence.\n\n## Our Commentary\n\nWe love seeing these kinds of creative deep dives into specific website builds. It's not just about the tech stack, but how a unique concept can drive the entire design and development process. The \"always-on machine\" idea sounds like a fantastic creative constraint. It makes me wonder what other abstract concepts could inspire web projects.\n\nOriginal Link: https://tympanus.net/codrops/2026/08/07/the-department-is-open-building-the-px-push-website/",
+            "url": "https://digestweb.dev/articles/2026-08-07/building-px-push-nuxt-threejs-website",
+            "title": "Building PX PUSH: A Nuxt & Three.js Site with an \"Always-On\" Concept",
+            "summary": "Explore the creative process behind the PX PUSH website, a design studio's online presence built with Nuxt and Three.js, centered around the unique concept of an old, always-on machine.",
+            "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/07/PXPUSH-Codrops.jpg?x48895",
+            "date_modified": "2026-08-07T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-07/dogfooding-qa-user-research-roles",
+            "content_html": "## Summary & Key Takeaways\n\n- Dogfooding involves internal teams using their own products.\n- It is effective for catching bugs and internal usability issues.\n- Dogfooding cannot, however, replace comprehensive user research.\n- Internal teams possess too much product knowledge to represent real users.\n- The article differentiates these three crucial product development activities.\n\n## Our Commentary\n\nThis is a classic distinction that still gets blurred far too often. We've seen countless projects where \"we use it ourselves, so it must be good!\" leads to blind spots. NNGroup always delivers on these foundational UX principles. It's a vital reminder that empathy for the user requires stepping outside our own expert bubbles.\n\nOriginal Link: https://www.nngroup.com/articles/dogfooding/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+            "url": "https://digestweb.dev/articles/2026-08-07/dogfooding-qa-user-research-roles",
+            "title": "Dogfooding, QA, and User Research: Understanding Their Roles",
+            "summary": "This article clarifies the distinct purposes of dogfooding, quality assurance, and user research, explaining why internal product usage, while helpful for bug detection, cannot replace genuine user insights.",
+            "image": "https://media.nngroup.com/media/articles/opengraph_images/Dogfooding1.png",
+            "date_modified": "2026-08-07T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-07/mastering-html-dialog-element-styling",
+            "content_html": "## Summary & Key Takeaways\n\n- The article provides a detailed guide on the HTML `<dialog>` element.\n- It covers the proper implementation and behavior of native dialogs.\n- Various styling techniques for the `<dialog>` element are explored.\n- The piece delves into the subtle complexities and best practices for its use.\n\n## Our Commentary\n\nThe `<dialog>` element is one of those native web platform features that we really want to see more widely adopted. It handles so much of the accessibility and focus management boilerplate for you. This kind of deep dive is incredibly valuable for encouraging developers to ditch custom modal solutions and embrace the platform. It's not always straightforward, so a good guide is essential.\n\nOriginal Link: https://css-tricks.com/using-and-styling-the-dialog-element/",
+            "url": "https://digestweb.dev/articles/2026-08-07/mastering-html-dialog-element-styling",
+            "title": "Mastering the HTML <dialog> Element: Usage and Styling",
+            "summary": "Dive into the nuances of the native HTML `<dialog>` element, exploring its proper usage, styling techniques, and the often-overlooked complexities of this seemingly simple piece of web architecture.",
+            "image": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2024/10/dialog-pop.jpg",
+            "date_modified": "2026-08-07T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-07/openai-astra-cybersecurity-evaluations",
+            "content_html": "## Summary & Key Takeaways\n\n- OpenAI is sharing initial cybersecurity evaluations for its Astra model.\n- The evaluations focus on the next frontier of critical cyber capabilities.\n- OpenAI is implementing steps to strengthen safeguards and security controls.\n- This initiative aims to address potential security risks associated with advanced AI.\n\n## Our Commentary\n\nIt's good to see OpenAI being proactive about cybersecurity, especially with new models like Astra. The implications of powerful AI in cyber warfare are genuinely unsettling, and we appreciate transparency around these evaluations. It's a reminder that the ethical and safety aspects of AI are just as complex as the technical ones.\n\nOriginal Link: https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+            "url": "https://digestweb.dev/articles/2026-08-07/openai-astra-cybersecurity-evaluations",
+            "title": "OpenAI Shares Preliminary Cybersecurity Evaluations for Astra",
+            "summary": "OpenAI has released preliminary cybersecurity evaluations for its Astra model, detailing the steps being taken to enhance safeguards and security controls.",
+            "image": "https://picsum.photos/id/321/800/450",
+            "date_modified": "2026-08-07T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-07/pnpm-12-rc-1-git-dependency-overhaul",
+            "content_html": "## Summary & Key Takeaways\n\n- Git dependencies on known hosts (GitHub, GitLab, Bitbucket) are now treated as identities.\n- All representations of the same repository resolve through the host's canonical HTTPS URL.\n- Lockfiles will no longer record SSH URLs for these known hosts.\n- Network probing for HTTPS vs. SSH at resolution time has been removed.\n- Users can configure Git's URL rewriting for private hosted repositories over SSH.\n- Interactive group selection added to `pnpm update --global --interactive`.\n- `pnpm root -g` and `pnpm bin -g` now print warnings to stderr.\n\n## Our Commentary\n\nThis is a big one for anyone dealing with complex monorepos or private Git dependencies. The previous behavior of `pnpm` sometimes recording SSH URLs that only worked on specific machines was a real pain point for CI/CD. We're genuinely excited about this change. It feels like a solid step towards more robust and predictable dependency management.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.1",
+            "url": "https://digestweb.dev/articles/2026-08-07/pnpm-12-rc-1-git-dependency-overhaul",
+            "title": "pnpm 12 RC 1: Major Git Dependency Handling Overhaul",
+            "summary": "pnpm's latest release candidate introduces significant changes to how Git dependencies are resolved, aiming for more consistent and reliable package management. It also includes minor CLI improvements.",
+            "image": "https://opengraph.githubassets.com/2b5e26a5bd4561e978111f5ad821b40af8d3e3bdf6060c54eb84eec8721c4957/pnpm/pnpm/releases/tag/v12.0.0-rc.1",
+            "date_modified": "2026-08-07T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-07/prove-framework-evaluating-ai-tools",
+            "content_html": "## Summary & Key Takeaways\n\n- The article presents the PROVE framework for evaluating AI tools.\n- It emphasizes that adoption pressure doesn't equate to utility.\n- The framework tests one AI tool against a single, defined task.\n- It aims to produce a defensible, provisional decision on an AI tool's worth.\n- This helps cut through AI hype to find practical value.\n\n## Our Commentary\n\nWe're seeing so much AI hype right now, and it's easy to get swept up in it. This PROVE framework from NNGroup is exactly what we need: a grounded, practical approach to evaluating whether an AI tool actually solves a problem or just adds complexity. It's a good reminder that not every shiny new thing is a silver bullet. We appreciate the focus on defensible decisions over blind adoption.\n\nOriginal Link: https://www.nngroup.com/articles/prove-framework/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+            "url": "https://digestweb.dev/articles/2026-08-07/prove-framework-evaluating-ai-tools",
+            "title": "PROVE Framework: Evaluating AI Tools for Practical Value",
+            "summary": "The NNGroup introduces the PROVE framework, a structured approach to evaluate AI tools by testing them against specific tasks, helping organizations decide if an AI solution genuinely adds value beyond the hype.",
+            "image": "https://media.nngroup.com/media/articles/opengraph_images/How_to_Decide_When_an_AI_Tool_Is_Worth_Keeping_1.png",
+            "date_modified": "2026-08-07T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-07/raccoon-heist-codex-gpt-sol-ultra-game-generation",
+            "content_html": "## Summary & Key Takeaways\n\n- Simon Willison tasked Codex Desktop (GPT-5.6 Sol Ultra) with generating a game from a prompt.\n- The AI produced \"Moonlight & Mayhem,\" a more complex and \"heisty\" game than a previous attempt with Claude Fable 5.\n- The initial AI-generated game had a bug (giant raccoon eyeballs) that required a follow-up prompt to fix.\n- The article shares the GitHub repository, including textures, prompts, and the full Codex transcript.\n- It also provides an estimated API cost for the session.\n\n## Our Commentary\n\nThis is exactly the kind of practical, hands-on AI exploration we crave. Seeing GPT-5.6 Sol Ultra in action, especially with its sub-agents, is genuinely impressive, even with the giant eyeball bug. It really drives home that these tools are powerful co-pilots, not magic wands. The iterative prompting to fix issues is a crucial part of the workflow, and we appreciate Simon sharing the full transcript.\n\nOriginal Link: https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-08-07/raccoon-heist-codex-gpt-sol-ultra-game-generation",
+            "title": "Raccoon Heist: Codex + GPT-5.6 Sol Ultra Generates a Game",
+            "summary": "Simon Willison pits Codex with GPT-5.6 Sol Ultra against Claude Fable 5 to generate a game from a prompt, showcasing the advanced agent's capabilities, its quirks, and the iterative process of AI-assisted creation.",
+            "image": "https://static.simonwillison.net/static/2026/raccoon-heist-codex-poster.jpg",
+            "date_modified": "2026-08-07T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-07/ship-less-javascript-baseline-web-platform",
+            "content_html": "## Summary & Key Takeaways\n\n- The article explains how \"Baseline\" web platform features can reduce JavaScript usage.\n- It highlights the shrinking gap between library needs and native browser capabilities.\n- A practical guide is offered for auditing existing dependencies.\n- The goal is to identify tasks the web platform can now handle natively.\n- Leveraging Baseline leads to improved performance and developer experience.\n\n## Our Commentary\n\nWe've been championing the \"Baseline\" concept for a while now. It's a mindset shift that can dramatically improve performance and reduce complexity. Every time we see a new browser feature hit Baseline, it's a small victory for the open web. This article feels like a timely reminder to constantly re-evaluate our dependency trees and ask, \"Can the browser do this now?\" It's a powerful way to build more resilient and faster experiences.\n\nOriginal Link: https://smashingmagazine.com/2026/08/how-baseline-can-help-ship-less-javascript/",
+            "url": "https://digestweb.dev/articles/2026-08-07/ship-less-javascript-baseline-web-platform",
+            "title": "Ship Less JavaScript: Leveraging Baseline Web Platform Features",
+            "summary": "Discover how the \"Baseline\" concept helps developers reduce JavaScript payload by identifying and utilizing widely supported native web platform features, offering a practical guide to auditing dependencies.",
+            "image": "https://files.smashing.media/articles/how-baseline-can-help-ship-less-javascript/how-baseline-can-help-ship-less-javascript.jpg",
+            "date_modified": "2026-08-07T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-07/tokenpocalypse-companies-scramble-ai-costs",
+            "content_html": "## Summary & Key Takeaways\n\n- Companies are facing a \"Tokenpocalypse\" due to high AI consumption costs.\n- An Accenture anecdote reveals non-engineers are major drivers of token usage.\n- Converting PDFs to images and then to markdown is cited as a \"big token chewer.\"\n- The article highlights the need for better understanding and management of AI resource usage.\n- It suggests that PDFs are a terrible medium for communicating information efficiently with AI.\n\n## Our Commentary\n\n\"Tokenpocalypse\" – we love it. This is such a real problem that many organizations are just starting to grasp. It's not just about the raw compute; it's about the sheer inefficiency of how people interact with these models. The PDF example is painfully relatable. We've seen similar patterns, and it's a stark reminder that user education and thoughtful integration are just as important as the models themselves.\n\nOriginal Link: https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-08-07/tokenpocalypse-companies-scramble-ai-costs",
+            "title": "The Tokenpocalypse: Companies Grapple with Soaring AI Costs",
+            "summary": "Simon Willison reports on the \"Tokenpocalypse,\" where companies like Accenture are scrambling to control spiraling AI costs, often driven by non-engineers' inefficient use of LLMs, such as converting PDFs to markdown.",
+            "image": "https://picsum.photos/id/139/800/450",
+            "date_modified": "2026-08-07T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-07/tutormoments-ai-tutors-intervention",
+            "content_html": "## Summary & Key Takeaways\n\n- The article investigates the concept of \"TutorMoments\" in AI education.\n- It questions the ability of AI tutors to discern optimal intervention points.\n- The research explores the balance between helping and allowing productive struggle.\n- This is a key challenge in developing effective and adaptive AI learning tools.\n\n## Our Commentary\n\nThis is a fascinating question. The best human tutors know exactly when to step in and when to let you wrestle with a problem. Replicating that intuition in an AI is a huge challenge, and it's something we've been thinking about a lot. It's not just about correctness; it's about pedagogy. We're eager to see what insights this research provides.\n\nOriginal Link: https://huggingface.co/blog/allenai/tutormoments",
+            "url": "https://digestweb.dev/articles/2026-08-07/tutormoments-ai-tutors-intervention",
+            "title": "TutorMoments: Do AI Tutors Understand When to Intervene?",
+            "summary": "This article explores the critical question of whether AI tutors possess the nuanced understanding to know when to offer assistance and when to allow students to struggle productively.",
+            "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/j9L73K19mkz-n8Rr8ZI_B.png",
+            "date_modified": "2026-08-07T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-07/view-transitions-avoid-unclickable-elements",
+            "content_html": "## Summary & Key Takeaways\n\n- View Transitions can inadvertently block user interactivity, such as clicks.\n- This occurs while the transition animation is actively running.\n- The article warns developers about this potential UX issue.\n- It offers advice on how to manage or prevent elements from becoming unclickable.\n\n## Our Commentary\n\nView Transitions are fantastic for creating smooth, app-like experiences on the web, but this is exactly the kind of subtle gotcha that can trip up developers. We've definitely seen similar issues with other animations. It's a good reminder that performance and perceived performance are two different things, and blocking user input, even for a moment, can be incredibly frustrating. Always test your transitions for interactivity!\n\nOriginal Link: https://master.dev/blog/view-transitions-careful-not-to-make-stuff-unclickable/",
+            "url": "https://digestweb.dev/articles/2026-08-07/view-transitions-avoid-unclickable-elements",
+            "title": "View Transitions: Avoiding Unclickable Elements During Animations",
+            "summary": "Learn about a crucial pitfall when implementing View Transitions: they can block interactivity during their animation. This article provides guidance on how to prevent elements from becoming unclickable.",
+            "image": "https://master.dev/blog/wp-json/social-image-generator/v1/image/10617",
+            "date_modified": "2026-08-07T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-08-06/chatgpt-gpt-5-6-sol-luna-free-access",
             "content_html": "## Summary & Key Takeaways\n\n- ChatGPT's GPT-5.6 Sol model has received significant improvements.\n- These enhancements focus on better accuracy and consistency in responses.\n- Access to the GPT-5.6 Luna model is now expanded for all free users.\n- Free users can enjoy unlimited everyday chats with GPT-5.6 Luna.\n- The update aims to provide a more robust and accessible AI experience.\n\n## Our Commentary\n\nOpenAI continues to iterate quickly. Improving Sol's accuracy is always welcome, but the expanded free access to Luna is the real headline here. It feels like a strategic move to keep users engaged and broaden their reach, especially as competition heats up. I wonder what the \"unlimited everyday chats\" really means in practice.\n\nOriginal Link: https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
             "url": "https://digestweb.dev/articles/2026-08-06/chatgpt-gpt-5-6-sol-luna-free-access",
