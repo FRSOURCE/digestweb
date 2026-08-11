@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-08-11T03:05:31.081Z</updated>
+    <updated>2026-08-11T08:10:51.742Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -114,6 +114,33 @@ Original Link: https://github.blog/engineering/using-the-github-copilot-sdk-for-
 Meta dropping a 30B multimodal model for _local coding agents_ under Apache 2.0? This is a huge deal. We've been waiting for more powerful, truly open models that can run locally, and this feels like a significant step. The focus on coding agents is particularly exciting for developers. This could really shake up the local AI tooling landscape.
 
 Original Link: https://ollama.com/blog/muse-glimmer]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meta's Muse Glimmer: New 30B Open-Weights Model for Local AI Agents]]></title>
+        <id>https://digestweb.dev/articles/2026-08-10/metas-muse-glimmer-new-30b-open-weights-model-for-local-ai-agents</id>
+        <link href="https://digestweb.dev/articles/2026-08-10/metas-muse-glimmer-new-30b-open-weights-model-for-local-ai-agents"/>
+        <link rel="enclosure" href="https://static.simonwillison.net/static/2026/glimmer-pelican.png" type="image/png"/>
+        <updated>2026-08-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Meta releases Muse Glimmer, a 30B open-weights model under Apache 2.0. It's optimized for agentic task completion, reliable tool use, and multi-step reasoning, making it ideal for local AI development.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+Meta introduces Muse Glimmer, a 30B open-weights model with an Apache 2.0 license.
+The model is specifically optimized for end-to-end agentic task completion.
+It demonstrates strong performance in reliable tool use and multi-step reasoning.
+Simon Willison tested Glimmer locally using LM Studio and his `llm-coding-agent` plugin.
+The 30B size is practical for local machines with 32GB+ RAM, leaving room for other applications.
+Glimmer also functions as a vision model, capable of describing images.
+Its clean Apache 2.0 license is a notable improvement over previous Meta model licenses.
+Benchmarks show strong success rates on full-task benchmarks like SWE-Bench.
+
+## Our Commentary
+
+Okay, Meta is back in the open-weights game with a proper Apache 2.0 license. That's a huge win for the community. We've been waiting for something like this, especially for local agentic workflows. The 30B size feels like a sweet spot for many of our machines. I'm genuinely excited to see how developers leverage Glimmer for complex, multi-step tasks. The focus on reliable tool use is exactly what we need to move beyond simple prompt-response loops. This could really accelerate local AI agent development.
+
+Original Link: https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Model ML Boosts Finance Efficiency with GPT-5.6 Sol]]></title>

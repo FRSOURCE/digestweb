@@ -56,6 +56,18 @@
             "date_modified": "2026-08-10T00:00:00.000Z"
         },
         {
+            "id": "https://digestweb.dev/articles/2026-08-10/metas-muse-glimmer-new-30b-open-weights-model-for-local-ai-agents",
+            "content_html": "## Summary & Key Takeaways\n\nMeta introduces Muse Glimmer, a 30B open-weights model with an Apache 2.0 license.\nThe model is specifically optimized for end-to-end agentic task completion.\nIt demonstrates strong performance in reliable tool use and multi-step reasoning.\nSimon Willison tested Glimmer locally using LM Studio and his `llm-coding-agent` plugin.\nThe 30B size is practical for local machines with 32GB+ RAM, leaving room for other applications.\nGlimmer also functions as a vision model, capable of describing images.\nIts clean Apache 2.0 license is a notable improvement over previous Meta model licenses.\nBenchmarks show strong success rates on full-task benchmarks like SWE-Bench.\n\n## Our Commentary\n\nOkay, Meta is back in the open-weights game with a proper Apache 2.0 license. That's a huge win for the community. We've been waiting for something like this, especially for local agentic workflows. The 30B size feels like a sweet spot for many of our machines. I'm genuinely excited to see how developers leverage Glimmer for complex, multi-step tasks. The focus on reliable tool use is exactly what we need to move beyond simple prompt-response loops. This could really accelerate local AI agent development.\n\nOriginal Link: https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-08-10/metas-muse-glimmer-new-30b-open-weights-model-for-local-ai-agents",
+            "title": "Meta's Muse Glimmer: New 30B Open-Weights Model for Local AI Agents",
+            "summary": "Meta releases Muse Glimmer, a 30B open-weights model under Apache 2.0. It's optimized for agentic task completion, reliable tool use, and multi-step reasoning, making it ideal for local AI development.",
+            "image": "https://static.simonwillison.net/static/2026/glimmer-pelican.png",
+            "date_modified": "2026-08-10T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-08-10/model-ml-finance-efficiency-gpt-5-6-sol",
             "content_html": "## Summary & Key Takeaways\n\n- Model ML utilizes GPT-5.6 Sol for various finance tasks.\n- The AI assists with research, analysis, and report generation.\n- It can produce editable PowerPoint decks and Excel workbooks.\n- Aims to enhance efficiency in financial operations.\n\n## Our Commentary\n\nAnother day, another vertical being \"revolutionized\" by LLMs. Finance is a natural fit for automation, but the \"editable, traceable\" part is what really catches my eye. That's where the rubber meets the road for enterprise adoption. We'll see how much human oversight is still truly needed.\n\nOriginal Link: https://openai.com/index/model-ml",
             "url": "https://digestweb.dev/articles/2026-08-10/model-ml-finance-efficiency-gpt-5-6-sol",
