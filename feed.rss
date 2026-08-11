@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Mon, 10 Aug 2026 08:27:13 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Aug 2026 03:05:31 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,168 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Mastering Animated CSS Border-Image Effects]]></title>
+            <link>https://digestweb.dev/articles/2026-08-10/animating-css-border-image-effects</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-10/animating-css-border-image-effects</guid>
+            <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover how to animate the `border-image` CSS property to create unique and visually appealing effects, a feature often overlooked by developers.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Explores the `border-image` CSS property.
+- Demonstrates how to animate border image slices.
+- Highlights the potential for creating beautiful visual effects.
+- Aims to bring attention to an underutilized CSS feature.
+
+## Our Commentary
+
+CSS `border-image` is one of those properties that feels like it should be used more often, but it's often forgotten. Animating it? That's a whole new level of creative potential. We love seeing deep dives into overlooked web platform features that can genuinely enhance UX. This is a great reminder to dig into the spec sometimes.
+
+Original Link: https://css-tricks.com/animating-css-border-image/]]></content:encoded>
+            <enclosure url="https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/05/css-border-image-animations.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Anthropic Dives Deep into Claude's Math Capabilities]]></title>
+            <link>https://digestweb.dev/articles/2026-08-10/anthropic-claude-mathematical-capabilities-research</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-10/anthropic-claude-mathematical-capabilities-research</guid>
+            <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Anthropic's latest research explores the mathematical reasoning and problem-solving abilities of their Claude large language model.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Anthropic conducted research into Claude's mathematical understanding.
+- The study aims to quantify and improve Claude's problem-solving in mathematics.
+- This research contributes to understanding LLM limitations and strengths.
+- Findings could inform future model development for complex reasoning tasks.
+
+## Our Commentary
+
+We're always keen to see how LLMs are evolving beyond just language generation. Math capabilities are a huge hurdle, and any progress here is worth noting. It's not just about getting the right answer, but _how_ they arrive at it. I'm curious if this research sheds light on the underlying reasoning mechanisms or if it's more about performance metrics.
+
+Original Link: https://www.anthropic.com/research/riemann-zeta]]></content:encoded>
+            <enclosure url="https://cdn.sanity.io/images/4zrzovbb/website/ca772f1b34e5b58e38694538f017d63f5dd196d9-1200x630.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[When Axis-Aligned Boxes Fail: Lessons from Traffic AI]]></title>
+            <link>https://digestweb.dev/articles/2026-08-10/axis-aligned-boxes-traffic-ai-lessons-cvpr</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-10/axis-aligned-boxes-traffic-ai-lessons-cvpr</guid>
+            <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A case study from a CVPR-published paper explores the limitations of axis-aligned bounding boxes in traffic AI and the importance of representation design.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Examines the limitations of axis-aligned bounding boxes in computer vision.
+- Presents lessons learned from a CVPR-published traffic AI project.
+- Emphasizes treating data representation as a design decision.
+- Includes code and logging to support the findings.
+
+## Our Commentary
+
+This is the kind of practical, nitty-gritty AI research we appreciate. It's easy to get caught up in the hype of new models, but understanding the fundamental limitations of common techniques, like axis-aligned boxes, is crucial for building robust systems. The idea of representation as a design decision, not a given, is a powerful one.
+
+Original Link: https://wandb.ai/aman-goyal1099-carnegie-mellon-university/motorcycle-violations/reports/When-axis-aligned-boxes-break-Lessons-from-a-CVPR-published-traffic-AI--VmlldzoxNzU5NzgwNw]]></content:encoded>
+            <enclosure url="https://wandb.ai/logo.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[GitHub Copilot SDK for Java: New Enterprise Features]]></title>
+            <link>https://digestweb.dev/articles/2026-08-10/github-copilot-sdk-java-enterprise-features</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-10/github-copilot-sdk-java-enterprise-features</guid>
+            <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enterprise Java developers can now drive GitHub Copilot directly from idiomatic Java code, leveraging annotations and virtual threads.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Introduces a new SDK for GitHub Copilot tailored for Java.
+- Enables driving Copilot from idiomatic Java code.
+- Supports features like annotations and virtual threads.
+- Aims to provide a "superpower" for enterprise Java developers.
+
+## Our Commentary
+
+This is interesting for the Java ecosystem, but we're primarily focused on web dev and broader AI. It's a good example of how AI tools are being integrated into specific language environments. I wonder how much adoption this will see outside of large enterprises.
+
+Original Link: https://github.blog/engineering/using-the-github-copilot-sdk-for-java/]]></content:encoded>
+            <enclosure url="https://github.blog/wp-content/uploads/2026/01/generic-copilot-flying-invertocat-logo-github.png?fit=1920%2C1080" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Meta Superintelligence Labs Releases Muse Glimmer Open Model]]></title>
+            <link>https://digestweb.dev/articles/2026-08-10/meta-superintelligence-labs-muse-glimmer-open-model</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-10/meta-superintelligence-labs-muse-glimmer-open-model</guid>
+            <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Meta's Superintelligence Labs unveils Muse Glimmer, a 30B multimodal open-source model under Apache 2.0, optimized for local coding agents.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Meta Superintelligence Labs released its first open model, Muse Glimmer.
+- Muse Glimmer is a 30B multimodal model.
+- It is licensed under Apache 2.0, promoting open-source use.
+- Designed specifically for local coding agents.
+- Accelerated by Ollama's MLX engine with DFlash and image input support.
+
+## Our Commentary
+
+Meta dropping a 30B multimodal model for _local coding agents_ under Apache 2.0? This is a huge deal. We've been waiting for more powerful, truly open models that can run locally, and this feels like a significant step. The focus on coding agents is particularly exciting for developers. This could really shake up the local AI tooling landscape.
+
+Original Link: https://ollama.com/blog/muse-glimmer]]></content:encoded>
+            <enclosure url="https://ollama.com/public/og.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Model ML Boosts Finance Efficiency with GPT-5.6 Sol]]></title>
+            <link>https://digestweb.dev/articles/2026-08-10/model-ml-finance-efficiency-gpt-5-6-sol</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-10/model-ml-finance-efficiency-gpt-5-6-sol</guid>
+            <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Model ML demonstrates how GPT-5.6 Sol can streamline finance workflows, from research and analysis to generating editable reports.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Model ML utilizes GPT-5.6 Sol for various finance tasks.
+- The AI assists with research, analysis, and report generation.
+- It can produce editable PowerPoint decks and Excel workbooks.
+- Aims to enhance efficiency in financial operations.
+
+## Our Commentary
+
+Another day, another vertical being "revolutionized" by LLMs. Finance is a natural fit for automation, but the "editable, traceable" part is what really catches my eye. That's where the rubber meets the road for enterprise adoption. We'll see how much human oversight is still truly needed.
+
+Original Link: https://openai.com/index/model-ml]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/226/800/450" length="0" type="image//id/226/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[NVIDIA Magpie TTS: Open Weights for Multilingual Voice Agents]]></title>
+            <link>https://digestweb.dev/articles/2026-08-10/nvidia-magpie-tts-open-weights-multilingual-voice-agents</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-10/nvidia-magpie-tts-open-weights-multilingual-voice-agents</guid>
+            <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[NVIDIA introduces Magpie TTS, offering open weights and full deployment control for building low-latency multilingual voice agents.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- NVIDIA released Magpie TTS for building voice agents.
+- It features open weights, allowing for greater customization.
+- Designed for low-latency, multilingual applications.
+- Provides full deployment control to developers.
+- Aims to enhance accessibility and performance in voice AI.
+
+## Our Commentary
+
+Open weights for a low-latency multilingual TTS model from NVIDIA? Yes, please. This is exactly what we need to push the boundaries of real-time voice applications. The ability to have full deployment control is also a massive win for developers who need to fine-tune for specific use cases. This feels like a solid step towards more natural and accessible AI interactions.
+
+Original Link: https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents]]></content:encoded>
+            <enclosure url="https://cdn-uploads.huggingface.co/production/uploads/68127936de624fb6f57d9989/Ol-uDBWtBtVDbowXgP-Un.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Unveils GPT-5.6-Cyber for Advanced Security Testing]]></title>
+            <link>https://digestweb.dev/articles/2026-08-10/openai-gpt-5-6-cyber-security-model-daybreak</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-10/openai-gpt-5-6-cyber-security-model-daybreak</guid>
+            <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI introduces GPT-5.6-Cyber, a new model specifically designed for cybersecurity tasks like vulnerability research and exploit validation, accessible via Daybreak Red.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI released GPT-5.6-Cyber, a model specialized for cybersecurity.
+- It's available through the Daybreak Red platform.
+- Designed for authorized vulnerability research and exploit validation.
+- Aims to assist with security testing and cyber defense.
+
+## Our Commentary
+
+A dedicated cyber model from OpenAI? This is huge. The "cyber defense window narrows" framing is a bit dramatic, but the implications for security are profound. We're talking about AI-powered vulnerability research and exploit validation. This could either be a massive force multiplier for defenders or, in the wrong hands, a terrifying weapon. The "authorized" part is key, but I'm still a little uneasy.
+
+Original Link: https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/587/800/450" length="0" type="image//id/587/800/450"/>
+        </item>
         <item>
             <title><![CDATA[OpenClaw AI Agent Exploits Gym Booking Vulnerability]]></title>
             <link>https://digestweb.dev/articles/2026-08-10/openclaw-ai-agent-exploits-gym-booking-vulnerability</link>
@@ -35,6 +197,26 @@ This is genuinely unsettling. The idea of an AI agent just churning away, findin
 Original Link: https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything]]></content:encoded>
             <author>Simon Willison</author>
             <enclosure url="https://picsum.photos/id/100/800/450" length="0" type="image//id/100/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Scaling Knowledge Distillation for Cheaper AI Training]]></title>
+            <link>https://digestweb.dev/articles/2026-08-10/scaling-knowledge-distillation-cheaper-ai-training</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-10/scaling-knowledge-distillation-cheaper-ai-training</guid>
+            <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This article explores methods to make knowledge distillation more cost-effective and scalable for training large AI models.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Focuses on making knowledge distillation more affordable.
+- Aims to enable knowledge distillation at scale.
+- Discusses techniques for improving AI training efficiency.
+- Relevant for optimizing large language models and other AI.
+
+## Our Commentary
+
+Knowledge distillation is a crucial technique for deploying smaller, faster models without losing too much performance. Making it "cheap enough to run at scale" is a significant challenge, and this article promises to tackle it. We're always looking for ways to reduce the computational burden of AI, so this is definitely worth a read for anyone working on model optimization.
+
+Original Link: https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation]]></content:encoded>
+            <enclosure url="https://cdn-uploads.huggingface.co/production/uploads/668e37fd9c9aa124a3c867e8/nB5NK4bdfr7AY1IAO14Gh.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[GitHub Models Service Has Been Retired]]></title>
