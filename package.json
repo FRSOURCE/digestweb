@@ -47,11 +47,5 @@
     "vite-plugin-pwa": "^1.3.0"
   },
   "author": "Jakub Freisler",
-  "repository": "https://github.com/FRSOURCE/dailyweb.git",
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "esbuild",
-      "sharp"
-    ]
-  }
+  "repository": "https://github.com/FRSOURCE/dailyweb.git"
 }
