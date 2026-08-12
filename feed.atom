@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-08-11T08:10:51.742Z</updated>
+    <updated>2026-08-12T03:24:05.404Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,155 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Building Tactile UX: Intentional Design with Lottie]]></title>
+        <id>https://digestweb.dev/articles/2026-08-11/building-tactile-ux-lottie-intentional-design</id>
+        <link href="https://digestweb.dev/articles/2026-08-11/building-tactile-ux-lottie-intentional-design"/>
+        <link rel="enclosure" href="https://files.smashing.media/articles/building-tactile-ux-honoring-intentional-design-lottie/building-tactile-ux-honoring-intentional-design-lottie.jpg" type="image/jpg"/>
+        <updated>2026-08-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Explore architectural rationale for creating highly interactive, tactile web experiences using Lottie animations, DOM events, and precise math.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Focus on architecture serving art direction for interactive web experiences.
+- Learn to build a digital stress-relief squeeze toy game as a case study.
+- Utilize Lottie animations for complex motion graphics.
+- Integrate DOM events for user interaction.
+- Apply distance-based math for precise control over motion.
+- Maintain absolute control over designers' intentional motion.
+
+## Our Commentary
+
+Smashing Magazine always delivers on practical, in-depth articles. This piece on tactile UX with Lottie sounds like a masterclass in marrying design intent with technical execution. We often talk about performance, but the _feel_ of an application is just as crucial. I appreciate the focus on maintaining control over the designer's vision, which can be a real challenge with complex animations.
+
+Original Link: https://smashingmagazine.com/2026/08/building-tactile-ux-honoring-intentional-design-lottie/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exploring Procedural Geometry with Three.js & WebGPU]]></title>
+        <id>https://digestweb.dev/articles/2026-08-11/exploring-procedural-geometry-threejs-webgpu</id>
+        <link href="https://digestweb.dev/articles/2026-08-11/exploring-procedural-geometry-threejs-webgpu"/>
+        <link rel="enclosure" href="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/08/wCsL2dRakO.jpg?x57826" type="image/jpg"/>
+        <updated>2026-08-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dive into building a flexible Three.js Geometry Painter, leveraging WebGPU and TSL for advanced real-time 3D graphics.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Learn to create a Three.js Geometry Painter for dynamic 3D models.
+- Utilize WebGPU and TSL for high-performance rendering and custom shaders.
+- Explore techniques for surface picking and generating procedural geometry.
+- Implement live controls, custom lighting, and post-processing effects.
+- Understand the architectural choices for building complex interactive web experiences.
+
+## Our Commentary
+
+This is the kind of deep technical dive we love to see. WebGPU is still relatively new, and seeing it applied in practical, creative ways with Three.js is genuinely exciting. I'm always impressed by the visual fidelity and performance gains these new APIs unlock. It makes me wonder what other interactive experiences are just around the corner.
+
+Original Link: https://tympanus.net/codrops/2026/08/11/exploring-procedural-geometry-with-three-js-and-webgpu/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mastering Edge AI on Raspberry Pi with LiteRT & Gemma]]></title>
+        <id>https://digestweb.dev/articles/2026-08-11/mastering-edge-ai-raspberry-pi-litert-gemma</id>
+        <link href="https://digestweb.dev/articles/2026-08-11/mastering-edge-ai-raspberry-pi-litert-gemma"/>
+        <link rel="enclosure" href="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Banner.2e16d0ba.fill-1200x600.png" type="image/png"/>
+        <updated>2026-08-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simplify real-time Edge AI deployment on Raspberry Pi using LiteRT and lightweight Gemma models, optimizing performance for local reasoning.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Deploy secure, real-time Edge AI on Raspberry Pi using LiteRT.
+- Leverage lightweight Gemma open models for efficient local processing.
+- LiteRT optimizes CPU and GPU performance for fast token speeds.
+- Enables real-time local reasoning, ideal for robotics applications.
+- Developers can use the LiteRT CLI for model conversion and quantization.
+- Future support for Hailo AI accelerators is planned.
+
+## Our Commentary
+
+Edge AI on a Raspberry Pi? This is genuinely cool. We've been waiting for more accessible ways to get powerful AI models running on low-cost hardware. LiteRT and Gemma seem like a potent combination for anyone looking to build local, real-time AI applications. The potential for robotics and embedded systems here is immense. I'm already thinking about what I could build.
+
+Original Link: https://developers.googleblog.com/mastering-edge-ai-on-raspberry-pi-with-litert-and-gemma/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NVIDIA Nemotron 3.5 Lightning Lands on Ollama]]></title>
+        <id>https://digestweb.dev/articles/2026-08-11/nvidia-nemotron-3-5-lightning-ollama</id>
+        <link href="https://digestweb.dev/articles/2026-08-11/nvidia-nemotron-3-5-lightning-ollama"/>
+        <link rel="enclosure" href="https://ollama.com/public/og.png" type="image/png"/>
+        <updated>2026-08-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[NVIDIA's new 30B parameter Nemotron 3.5 Lightning, an open model optimized for AI agents, is now available on Ollama for local deployment.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- NVIDIA Nemotron 3.5 Lightning is now available on Ollama.
+- It's a 30 billion parameter open model, with 3B active parameters.
+- The model is specifically designed for AI agents.
+- It excels at continuous operation, context gathering, tool calling, and multi-step tasks.
+- Users can run this powerful model on their own hardware via Ollama.
+
+## Our Commentary
+
+This is a big one for the local AI scene. An open, agent-focused model from NVIDIA, easily runnable via Ollama? Yes, please. We're seeing a clear push towards more capable, locally deployable agents. The idea of an agent "staying running, gathering context" on my own hardware is both exciting and a little bit terrifying. The future is here, and it's on your GPU.
+
+Original Link: https://ollama.com/blog/nemotron-3-5-lightning]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Daybreak Cybersecurity Models Now on AWS Bedrock]]></title>
+        <id>https://digestweb.dev/articles/2026-08-11/openai-daybreak-models-aws-bedrock</id>
+        <link href="https://digestweb.dev/articles/2026-08-11/openai-daybreak-models-aws-bedrock"/>
+        <link rel="enclosure" href="https://picsum.photos/id/497/800/450" type="image//id/497/800/450"/>
+        <updated>2026-08-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI's Daybreak cybersecurity capabilities are now accessible via Amazon Bedrock, enhancing enterprise security workflows.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI's Daybreak cybersecurity models are now integrated with Amazon Bedrock.
+- This partnership aims to bolster enterprise security workflows.
+- Daybreak capabilities focus on advanced cybersecurity applications.
+- Availability on Bedrock simplifies deployment for AWS users.
+
+## Our Commentary
+
+Another day, another AI model landing on a cloud platform. This is a solid move for enterprise security, making specialized AI more accessible. We see this trend accelerating, with more niche models finding their homes in major cloud ecosystems. It's less about groundbreaking tech and more about practical deployment.
+
+Original Link: https://openai.com/index/daybreak-models-are-now-available-on-aws]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Begins Testing Ads in ChatGPT to Support Free Access]]></title>
+        <id>https://digestweb.dev/articles/2026-08-11/openai-testing-ads-chatgpt-free-access</id>
+        <link href="https://digestweb.dev/articles/2026-08-11/openai-testing-ads-chatgpt-free-access"/>
+        <link rel="enclosure" href="https://picsum.photos/id/284/800/450" type="image//id/284/800/450"/>
+        <updated>2026-08-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI is introducing ads in ChatGPT to sustain free access, promising clear labeling, answer independence, and user control.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI is testing advertisements within ChatGPT to support its free tier.
+- Ads will be clearly labeled to distinguish them from AI-generated content.
+- The company states that ads will not influence the independence of ChatGPT's answers.
+- Strong privacy protections are promised for user data.
+- Users will reportedly have control over their ad experience.
+
+## Our Commentary
+
+Well, this was inevitable, wasn't it? Free access to powerful AI models comes at a cost, and ads are the classic solution. We're curious to see how "answer independence" holds up in practice. There's something unsettling about agents churning away at 3am while nobody's watching, and now they'll be serving ads too. I genuinely don't know how to feel about this.
+
+Original Link: https://openai.com/index/testing-ads-in-chatgpt]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why Go Excels in AI-Assisted Software Engineering]]></title>
+        <id>https://digestweb.dev/articles/2026-08-11/why-go-ideal-ai-assisted-software-engineering</id>
+        <link href="https://digestweb.dev/articles/2026-08-11/why-go-ideal-ai-assisted-software-engineering"/>
+        <link rel="enclosure" href="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Go_Logo_-_Blue.2e16d0ba.fill-1200x600.png" type="image/png"/>
+        <updated>2026-08-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Google argues Go's strict compiler, integrated toolchain, and readability make it ideal for maintaining quality in AI-generated code.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- AI coding assistants are shifting developer roles from coding to reviewing and maintaining systems.
+- Language choice is crucial for long-term architectural integrity in this new paradigm.
+- Go's strict compiler and integrated toolchain provide deterministic guardrails for AI models.
+- Its uncompromising readability helps AI models self-correct and generate standardized code.
+- Go's ecosystem-wide consistency and backward compatibility aid in verifying and optimizing AI output.
+- Empowers engineering teams to efficiently manage high-velocity, AI-generated code in production.
+
+## Our Commentary
+
+This is a fascinating perspective from Google. We've all seen AI-generated code, and the consistency issue is real. Go's design principles—simplicity, strong typing, opinionated tooling—do seem well-suited to taming the wild west of AI-generated output. It makes me wonder if other languages will start emphasizing similar "guardrail" features. It's a smart argument for Go's continued relevance.
+
+Original Link: https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Mastering Animated CSS Border-Image Effects]]></title>
         <id>https://digestweb.dev/articles/2026-08-10/animating-css-border-image-effects</id>
