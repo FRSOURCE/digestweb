@@ -11,6 +11,18 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-08-11/ai-writing-no-lossless-transformations-natural-language",
+            "content_html": "## Summary & Key Takeaways\n\nThe article discusses Sophie Alpert's policy on acceptable AI writing use by engineers.\nEngineers must fully stand behind every idea and sentence in their AI-assisted documentation.\nIt is unacceptable to blame AI for unclear or incorrect statements.\nAny rewrite or rephrase by an LLM changes the original meaning.\nInformation is lost when an AI, lacking full human context, transforms text.\nThe author stresses the importance of human oversight and responsibility in AI-generated content.\n\n## Our Commentary\n\nThis hits home. The idea that there are \"no lossless transformations\" when AI rewrites text is something we all need to internalize. I've felt that subtle shift in meaning myself when using LLMs for drafting. Simon's point about engineers owning every word, even AI-generated ones, is spot on. It's not just about accuracy; it's about intent and nuance. This isn't just a policy; it's a fundamental truth about language and AI.\n\nOriginal Link: https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-08-11/ai-writing-no-lossless-transformations-natural-language",
+            "title": "AI Writing: No Lossless Transformations of Natural Language",
+            "summary": "Simon Willison explores the critical idea that AI-driven rewrites of natural language inevitably lose meaning, urging engineers to take full responsibility for AI-assisted text.",
+            "image": "https://picsum.photos/id/0/800/450",
+            "date_modified": "2026-08-11T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-08-11/building-tactile-ux-lottie-intentional-design",
             "content_html": "## Summary & Key Takeaways\n\n- Focus on architecture serving art direction for interactive web experiences.\n- Learn to build a digital stress-relief squeeze toy game as a case study.\n- Utilize Lottie animations for complex motion graphics.\n- Integrate DOM events for user interaction.\n- Apply distance-based math for precise control over motion.\n- Maintain absolute control over designers' intentional motion.\n\n## Our Commentary\n\nSmashing Magazine always delivers on practical, in-depth articles. This piece on tactile UX with Lottie sounds like a masterclass in marrying design intent with technical execution. We often talk about performance, but the _feel_ of an application is just as crucial. I appreciate the focus on maintaining control over the designer's vision, which can be a real challenge with complex animations.\n\nOriginal Link: https://smashingmagazine.com/2026/08/building-tactile-ux-honoring-intentional-design-lottie/",
             "url": "https://digestweb.dev/articles/2026-08-11/building-tactile-ux-lottie-intentional-design",
@@ -62,6 +74,36 @@
             "title": "OpenAI Begins Testing Ads in ChatGPT to Support Free Access",
             "summary": "OpenAI is introducing ads in ChatGPT to sustain free access, promising clear labeling, answer independence, and user control.",
             "image": "https://picsum.photos/id/284/800/450",
+            "date_modified": "2026-08-11T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-11/quick-tip-embrace-system-ui-native-font-stacks",
+            "content_html": "## Summary & Key Takeaways\n\nThe `system-ui` CSS font value is widely supported across modern browsers.\nUsing `system-ui` provides the native system font for the user's operating system.\nOn macOS, this defaults to San Francisco, which is a variable font.\nVariable font support offers enhanced typographic flexibility and performance.\nThe fallback fonts for `system-ui` are generally robust and well-chosen.\nIt's a simple way to achieve a native look and feel for web applications.\n\n## Our Commentary\n\nI'm always surprised how many developers still don't default to `system-ui`. It's such a simple win for performance and native feel. The variable font aspect on macOS is a nice bonus that often goes unmentioned. We should all be using this more often. It's a small detail that makes a big difference in user experience.\n\nOriginal Link: https://master.dev/blog/system-ui-san-francisco-fun/",
+            "url": "https://digestweb.dev/articles/2026-08-11/quick-tip-embrace-system-ui-native-font-stacks",
+            "title": "Quick Tip: Embrace `system-ui` for Native Font Stacks",
+            "summary": "A brief reminder that the `system-ui` CSS value is well-supported, offering native system fonts like San Francisco on macOS with variable font capabilities and robust fallbacks.",
+            "image": "https://master.dev/blog/wp-json/social-image-generator/v1/image/10643",
+            "date_modified": "2026-08-11T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-11/researchers-stole-llm-reasoning-traces-proprietary-apis",
+            "content_html": "## Summary & Key Takeaways\n\nA paper details how researchers extracted encrypted chain-of-thought blocks from proprietary LLM APIs.\nAnthropic, OpenAI, and Google models were found to return these encrypted reasoning traces.\nResearchers discovered that models within the same family shared encryption keys.\nThis allowed them to replay traces into weaker models and jailbreak them.\nThe jailbreaking process recovered the stronger model's hidden reasoning in plaintext.\nThe vulnerability has since been acknowledged and fixed by the model providers.\nThe paper provides extensive details of extracted reasoning traces in its appendix.\n\n## Our Commentary\n\nThis is wild. The idea that you could \"steal\" an LLM's internal reasoning, even if encrypted, is a fascinating peek behind the curtain. It makes me wonder what other hidden mechanisms are at play in these black-box models. The fact that it's fixed is good, but the implications for XAI and understanding how these systems \"think\" are huge. It's a reminder that even proprietary systems have exploitable surfaces, and transparency, even accidental, can be incredibly insightful.\n\nOriginal Link: https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything",
+            "url": "https://digestweb.dev/articles/2026-08-11/researchers-stole-llm-reasoning-traces-proprietary-apis",
+            "title": "Researchers Stole LLM Reasoning Traces from Proprietary APIs",
+            "summary": "A new paper revealed how researchers extracted encrypted chain-of-thought blocks from major LLM APIs, exposing a vulnerability that allowed them to recover hidden reasoning.",
+            "image": "https://picsum.photos/id/914/800/450",
+            "date_modified": "2026-08-11T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-11/vitest-v5-rc1-major-updates-testing-framework",
+            "content_html": "## Summary & Key Takeaways\n\nVitest v5.0.0-rc.1 is a release candidate with numerous breaking changes and new features.\nInline projects now extend the root configuration by default.\nSupport for nested projects has been added, improving monorepo compatibility.\nBrowser testing now includes saving failure screenshots to `attachmentsDir`.\nThe test runner can now report duration breakdowns as percentages.\nVM pools now support `require(esm)`, expanding module compatibility.\nAsynchronous assertions that are not awaited will now cause tests to fail.\nMocking of Temporal objects is now possible without fake timers.\n\n## Our Commentary\n\nVitest keeps pushing. A v5 release candidate already? It feels like v4 just landed. We're seeing some serious breaking changes here, especially around inline projects and how they extend configs. I'm particularly interested in the browser screenshot saving; that's a nice touch for debugging. The `require(esm)` in VM pools is also a big deal for broader compatibility. It's a lot to digest, but it shows a commitment to evolving the testing landscape.\n\nOriginal Link: https://github.com/vitest-dev/vitest/releases/tag/v5.0.0-rc.1",
+            "url": "https://digestweb.dev/articles/2026-08-11/vitest-v5-rc1-major-updates-testing-framework",
+            "title": "Vitest v5.0.0-rc.1: Major Updates for Testing Framework",
+            "summary": "The latest release candidate for Vitest brings substantial changes, enhancing project configuration, browser testing, and VM pool functionality. Expect breaking changes and powerful new features.",
+            "image": "https://opengraph.githubassets.com/b6eef1a0b74559314d589f61a14c138f477bfa4b15f647355ce7bc3084394df1/vitest-dev/vitest/releases/tag/v5.0.0-rc.1",
             "date_modified": "2026-08-11T00:00:00.000Z"
         },
         {

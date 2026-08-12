@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-08-12T03:24:05.404Z</updated>
+    <updated>2026-08-12T08:17:15.006Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,31 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[AI Writing: No Lossless Transformations of Natural Language]]></title>
+        <id>https://digestweb.dev/articles/2026-08-11/ai-writing-no-lossless-transformations-natural-language</id>
+        <link href="https://digestweb.dev/articles/2026-08-11/ai-writing-no-lossless-transformations-natural-language"/>
+        <link rel="enclosure" href="https://picsum.photos/id/0/800/450" type="image//id/0/800/450"/>
+        <updated>2026-08-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison explores the critical idea that AI-driven rewrites of natural language inevitably lose meaning, urging engineers to take full responsibility for AI-assisted text.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+The article discusses Sophie Alpert's policy on acceptable AI writing use by engineers.
+Engineers must fully stand behind every idea and sentence in their AI-assisted documentation.
+It is unacceptable to blame AI for unclear or incorrect statements.
+Any rewrite or rephrase by an LLM changes the original meaning.
+Information is lost when an AI, lacking full human context, transforms text.
+The author stresses the importance of human oversight and responsibility in AI-generated content.
+
+## Our Commentary
+
+This hits home. The idea that there are "no lossless transformations" when AI rewrites text is something we all need to internalize. I've felt that subtle shift in meaning myself when using LLMs for drafting. Simon's point about engineers owning every word, even AI-generated ones, is spot on. It's not just about accuracy; it's about intent and nuance. This isn't just a policy; it's a fundamental truth about language and AI.
+
+Original Link: https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Building Tactile UX: Intentional Design with Lottie]]></title>
         <id>https://digestweb.dev/articles/2026-08-11/building-tactile-ux-lottie-intentional-design</id>
@@ -140,6 +165,78 @@ Original Link: https://openai.com/index/daybreak-models-are-now-available-on-aws
 Well, this was inevitable, wasn't it? Free access to powerful AI models comes at a cost, and ads are the classic solution. We're curious to see how "answer independence" holds up in practice. There's something unsettling about agents churning away at 3am while nobody's watching, and now they'll be serving ads too. I genuinely don't know how to feel about this.
 
 Original Link: https://openai.com/index/testing-ads-in-chatgpt]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quick Tip: Embrace `system-ui` for Native Font Stacks]]></title>
+        <id>https://digestweb.dev/articles/2026-08-11/quick-tip-embrace-system-ui-native-font-stacks</id>
+        <link href="https://digestweb.dev/articles/2026-08-11/quick-tip-embrace-system-ui-native-font-stacks"/>
+        <link rel="enclosure" href="https://master.dev/blog/wp-json/social-image-generator/v1/image/10643" type="image//blog/wp-json/social-image-generator/v1/image/10643"/>
+        <updated>2026-08-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A brief reminder that the `system-ui` CSS value is well-supported, offering native system fonts like San Francisco on macOS with variable font capabilities and robust fallbacks.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+The `system-ui` CSS font value is widely supported across modern browsers.
+Using `system-ui` provides the native system font for the user's operating system.
+On macOS, this defaults to San Francisco, which is a variable font.
+Variable font support offers enhanced typographic flexibility and performance.
+The fallback fonts for `system-ui` are generally robust and well-chosen.
+It's a simple way to achieve a native look and feel for web applications.
+
+## Our Commentary
+
+I'm always surprised how many developers still don't default to `system-ui`. It's such a simple win for performance and native feel. The variable font aspect on macOS is a nice bonus that often goes unmentioned. We should all be using this more often. It's a small detail that makes a big difference in user experience.
+
+Original Link: https://master.dev/blog/system-ui-san-francisco-fun/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Researchers Stole LLM Reasoning Traces from Proprietary APIs]]></title>
+        <id>https://digestweb.dev/articles/2026-08-11/researchers-stole-llm-reasoning-traces-proprietary-apis</id>
+        <link href="https://digestweb.dev/articles/2026-08-11/researchers-stole-llm-reasoning-traces-proprietary-apis"/>
+        <link rel="enclosure" href="https://picsum.photos/id/914/800/450" type="image//id/914/800/450"/>
+        <updated>2026-08-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A new paper revealed how researchers extracted encrypted chain-of-thought blocks from major LLM APIs, exposing a vulnerability that allowed them to recover hidden reasoning.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+A paper details how researchers extracted encrypted chain-of-thought blocks from proprietary LLM APIs.
+Anthropic, OpenAI, and Google models were found to return these encrypted reasoning traces.
+Researchers discovered that models within the same family shared encryption keys.
+This allowed them to replay traces into weaker models and jailbreak them.
+The jailbreaking process recovered the stronger model's hidden reasoning in plaintext.
+The vulnerability has since been acknowledged and fixed by the model providers.
+The paper provides extensive details of extracted reasoning traces in its appendix.
+
+## Our Commentary
+
+This is wild. The idea that you could "steal" an LLM's internal reasoning, even if encrypted, is a fascinating peek behind the curtain. It makes me wonder what other hidden mechanisms are at play in these black-box models. The fact that it's fixed is good, but the implications for XAI and understanding how these systems "think" are huge. It's a reminder that even proprietary systems have exploitable surfaces, and transparency, even accidental, can be incredibly insightful.
+
+Original Link: https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vitest v5.0.0-rc.1: Major Updates for Testing Framework]]></title>
+        <id>https://digestweb.dev/articles/2026-08-11/vitest-v5-rc1-major-updates-testing-framework</id>
+        <link href="https://digestweb.dev/articles/2026-08-11/vitest-v5-rc1-major-updates-testing-framework"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/b6eef1a0b74559314d589f61a14c138f477bfa4b15f647355ce7bc3084394df1/vitest-dev/vitest/releases/tag/v5.0.0-rc.1" type="image/1"/>
+        <updated>2026-08-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The latest release candidate for Vitest brings substantial changes, enhancing project configuration, browser testing, and VM pool functionality. Expect breaking changes and powerful new features.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+Vitest v5.0.0-rc.1 is a release candidate with numerous breaking changes and new features.
+Inline projects now extend the root configuration by default.
+Support for nested projects has been added, improving monorepo compatibility.
+Browser testing now includes saving failure screenshots to `attachmentsDir`.
+The test runner can now report duration breakdowns as percentages.
+VM pools now support `require(esm)`, expanding module compatibility.
+Asynchronous assertions that are not awaited will now cause tests to fail.
+Mocking of Temporal objects is now possible without fake timers.
+
+## Our Commentary
+
+Vitest keeps pushing. A v5 release candidate already? It feels like v4 just landed. We're seeing some serious breaking changes here, especially around inline projects and how they extend configs. I'm particularly interested in the browser screenshot saving; that's a nice touch for debugging. The `require(esm)` in VM pools is also a big deal for broader compatibility. It's a lot to digest, but it shows a commitment to evolving the testing landscape.
+
+Original Link: https://github.com/vitest-dev/vitest/releases/tag/v5.0.0-rc.1]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Why Go Excels in AI-Assisted Software Engineering]]></title>
