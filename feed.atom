@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-08-13T08:21:00.753Z</updated>
+    <updated>2026-08-14T03:25:25.854Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,68 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[AI Era Security: Lessons from 50 Open Source Projects]]></title>
+        <id>https://digestweb.dev/articles/2026-08-13/ai-era-security-lessons-open-source-projects</id>
+        <link href="https://digestweb.dev/articles/2026-08-13/ai-era-security-lessons-open-source-projects"/>
+        <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/02/header.jpg" type="image/jpg"/>
+        <updated>2026-08-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A report on how 50 open source projects improved security using AI-assisted workflows, maintainer expertise, GitHub tools, and funding from the Secure Open Source Fund.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The report examines how 50 open source projects enhanced their security posture.
+- Projects leveraged a combination of AI-assisted workflows and maintainer expertise.
+- GitHub security tools and expert guidance also played a crucial role.
+- Funding from the GitHub Secure Open Source Fund supported these initiatives.
+- The findings offer insights into practical security improvements in the AI era.
+
+## Our Commentary
+
+This is a fascinating look at practical AI application in security. It's not just about building AI, but securing the tools that build AI. I'm always curious about how these funds actually translate into tangible improvements. It's good to see a focus on real-world impact.
+
+Original Link: https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building an AI Research Agent & Integrating it with a Wiki]]></title>
+        <id>https://digestweb.dev/articles/2026-08-13/ai-research-agent-wiki-integration</id>
+        <link href="https://digestweb.dev/articles/2026-08-13/ai-research-agent-wiki-integration"/>
+        <link rel="enclosure" href="https://wandb.ai/logo.png" type="image/png"/>
+        <updated>2026-08-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A developer shares their journey of building an AI research agent that autonomously reads the internet and integrates its findings directly into a personal wiki.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The author developed an AI agent designed to autonomously conduct internet research.
+- This agent aims to summarize information, reducing manual research effort.
+- The findings from the agent are then integrated into a personal wiki system.
+- The article details the process of training the AI for research tasks.
+- It provides a practical example of leveraging AI for personal knowledge management.
+
+## Our Commentary
+
+This is exactly the kind of practical, "eat your own dog food" AI application I love. Building an agent to read the internet for you and then plugging it into your wiki? That's a dream for anyone drowning in information. I'm genuinely curious about the implementation details and how well it handles nuance.
+
+Original Link: https://wandb.ai/Lorenzo-Team/can-it-run-doom/reports/I-built-a-research-agent-that-reads-the-internet-so-I-don-t-have-to-Then-I-plugged-it-into-my-wiki---VmlldzoxNzY3NjY2MA]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Anthropic's Claude Tag for Self-Service Data Analytics in Slack]]></title>
+        <id>https://digestweb.dev/articles/2026-08-13/anthropic-claude-tag-slack-data-analytics</id>
+        <link href="https://digestweb.dev/articles/2026-08-13/anthropic-claude-tag-slack-data-analytics"/>
+        <link rel="enclosure" href="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a7e057ca14740a012d1d11d_og_self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions.jpg" type="image/jpg"/>
+        <updated>2026-08-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn how Anthropic leverages Claude Tag to enable self-service data analytics within Slack, allowing teams to answer ad-hoc questions efficiently.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Anthropic uses Claude Tag to facilitate self-service data analytics.
+- The integration allows users to ask ad-hoc questions directly within Slack.
+- This deployment aims to improve efficiency for data-related queries.
+- It showcases a practical application of AI for internal business intelligence.
+
+## Our Commentary
+
+This is a neat internal use case for an LLM. I'm always interested in how companies actually deploy these tools for practical, everyday problems. Self-service analytics in Slack sounds like a dream for many teams, cutting down on friction.
+
+Original Link: https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Anthropic Red Team Explores Multiagent AI System Problems]]></title>
         <id>https://digestweb.dev/articles/2026-08-13/anthropic-red-team-multiagent-ai-system-problems</id>
@@ -33,6 +95,297 @@
 Anthropic's red team diving into multiagent systems is exactly what we need. The complexity of these systems means we're going to see emergent behaviors, and not all of them will be good. I'm glad someone is actively looking for the "problems" before they become widespread. It's a proactive approach to AI safety that I deeply appreciate.
 
 Original Link: https://www.anthropic.com/research/multiagent-systems]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cursor Cloud Agents Start 3x Faster with New Builds]]></title>
+        <id>https://digestweb.dev/articles/2026-08-13/cursor-cloud-agents-3x-faster-builds</id>
+        <link href="https://digestweb.dev/articles/2026-08-13/cursor-cloud-agents-3x-faster-builds"/>
+        <link rel="enclosure" href="https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/blog/builds-og-3-NuyGQslgxr6V6gDBaw0io2du12JmZW.gif" type="image/gif"/>
+        <updated>2026-08-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cursor announces that its cloud agents now start up to 3x faster thanks to new build optimizations, improving developer experience and efficiency.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Cursor's cloud agents now boast a 3x faster startup time.
+- This improvement is attributed to recent build optimizations.
+- The faster startup enhances the overall developer experience.
+- It aims to boost efficiency for users working with Cursor's AI agents.
+
+## Our Commentary
+
+Faster startup times for dev tools are always welcome. 3x is a noticeable improvement, and anything that reduces waiting around is a win for developer experience. It's a small but impactful change for Cursor users.
+
+Original Link: https://cursor.com/blog/builds]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Denis Avramenko's Approach to Interactive Design & Motion]]></title>
+        <id>https://digestweb.dev/articles/2026-08-13/denis-avramenko-interactive-design-motion</id>
+        <link href="https://digestweb.dev/articles/2026-08-13/denis-avramenko-interactive-design-motion"/>
+        <link rel="enclosure" href="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/08/cover-1-1.png?x57826" type="image/png"/>
+        <updated>2026-08-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Explore Denis Avramenko's creative process, focusing on his unique approach to motion, typography, interaction, and technology in digital projects.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article provides a behind-the-scenes look at Denis Avramenko's creative workflow.
+- It highlights his distinctive approach to incorporating motion into interactive designs.
+- Typography and user interaction are central themes in his digital projects.
+- The piece explores how he integrates technology to achieve meaningful experiences.
+- A selection of his work is presented to illustrate his design philosophy.
+
+## Our Commentary
+
+Codrops always delivers on the visual inspiration. Avramenko's work looks stunning, and I'm always keen to peek behind the curtain of designers who really push the boundaries of interactive experiences. It's a good reminder that the "web" isn't just about code.
+
+Original Link: https://tympanus.net/codrops/2026/08/13/from-motion-to-meaning-denis-avramenkos-approach-to-interactive-design/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New EU Guidelines for AI Labelling: What Developers Need to Know]]></title>
+        <id>https://digestweb.dev/articles/2026-08-13/eu-guidelines-ai-labelling-developers-impact</id>
+        <link href="https://digestweb.dev/articles/2026-08-13/eu-guidelines-ai-labelling-developers-impact"/>
+        <link rel="enclosure" href="https://files.smashing.media/articles/eu-guidelines-ai-labelling/eu-guidelines-ai-labelling.jpg" type="image/jpg"/>
+        <updated>2026-08-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Smashing Magazine breaks down the new EU guidelines for AI labelling, explaining when and why AI labels are required and their implications for AI-powered features and products.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- New EU guidelines for AI labelling have been introduced.
+- The article clarifies when AI labels are mandatory for products and features.
+- It discusses the implications of these rules for AI development and user experience.
+- The guidelines aim to ensure transparency regarding AI-generated content.
+- The piece emphasizes that simple "AI sparkles" are insufficient for compliance.
+
+## Our Commentary
+
+Regulatory frameworks for AI are coming, and the EU is often at the forefront. This is a critical piece for anyone building AI products, especially those targeting European markets. "AI sparkles aren't enough" is a great, blunt statement. We need clear, consistent standards for AI transparency.
+
+Original Link: https://smashingmagazine.com/2026/08/eu-guidelines-ai-labelling/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Releases Credentio: Open Source C++ Library for C2PA]]></title>
+        <id>https://digestweb.dev/articles/2026-08-13/google-credentio-open-source-c2pa-library</id>
+        <link href="https://digestweb.dev/articles/2026-08-13/google-credentio-open-source-c2pa-library"/>
+        <link rel="enclosure" href="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/credentio-hero-updated.2e16d0ba.fill-1200x600.png" type="image/png"/>
+        <updated>2026-08-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Google introduces Credentio, an open-source C++ library for high-performance, local-first validation of C2PA Content Credentials, ensuring instant verification of media provenance.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Google has released Credentio, an open-source C++ library.
+- It enables high-performance, local-first validation of C2PA Content Credentials.
+- The library processes assets locally, avoiding cloud latency and privacy risks.
+- It offers instant validation for multi-gigabyte media files.
+- Current features include deep manifest parsing and configurable trust list integration.
+
+## Our Commentary
+
+This is a big deal for content provenance in the age of generative AI. C2PA is becoming increasingly important, and an open-source, high-performance C++ library from Google could really accelerate adoption. The focus on local-first validation is smart; it addresses privacy and performance concerns head-on. We need more tools like this.
+
+Original Link: https://developers.googleblog.com/introducing-credentio-open-source-c-library-for-c2pa-content-credentials-from-google/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google DeepMind Introduces Gemini 3.7 Flash Model]]></title>
+        <id>https://digestweb.dev/articles/2026-08-13/google-deepmind-gemini-3-7-flash-introduction</id>
+        <link href="https://digestweb.dev/articles/2026-08-13/google-deepmind-gemini-3-7-flash-introduction"/>
+        <link rel="enclosure" href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash.width-1300.png" type="image/png"/>
+        <updated>2026-08-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Google DeepMind announces Gemini 3.7 Flash, a new model in the Gemini series, expanding its capabilities and offering new options for developers and researchers.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Google DeepMind has officially introduced Gemini 3.7 Flash.
+- This new model expands the Gemini series with enhanced capabilities.
+- It aims to provide developers and researchers with additional options.
+- The release signifies continued advancements in Google's AI offerings.
+
+## Our Commentary
+
+Another Gemini model, this time "Flash." The naming implies speed or efficiency, which is a welcome direction. It's a constant race between OpenAI, Anthropic, and Google, and these incremental releases keep the pressure on. I'm curious how "Flash" differentiates itself from other Gemini variants.
+
+Original Link: https://deepmind.google/blog/introducing-gemini-3-7-flash/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HeyGen's Avatar IV on Google Cloud TPUs: 1.86x Speedup]]></title>
+        <id>https://digestweb.dev/articles/2026-08-13/heygen-avatar-iv-google-cloud-tpus-optimization</id>
+        <link href="https://digestweb.dev/articles/2026-08-13/heygen-avatar-iv-google-cloud-tpus-optimization"/>
+        <link rel="enclosure" href="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_r23vqnr23v.2e16d0ba.fill-1200x600.jpg" type="image/jpg"/>
+        <updated>2026-08-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[HeyGen successfully ported their 18B+ parameter Avatar IV video generation model to Google Cloud's Trillium TPUs, achieving a 1.86x speedup for real-time streaming through custom optimizations.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- HeyGen ported their Avatar IV video generation model to Google Cloud Trillium TPUs.
+- The 18B+ parameter model achieved a 1.86x speedup for real-time streaming.
+- Optimizations included pipelining all-to-all collectives and aligning sparse attention block sizes.
+- Custom Pallas kernel and compiler optimizations were deployed.
+- Rigorous two-tier quality gates ensured pixel-identical or mathematically equivalent outputs.
+
+## Our Commentary
+
+This is the kind of deep-dive I love to see. Optimizing an 18B+ parameter model for a 1.86x speedup on TPUs is no small feat. The details about custom Pallas kernels and compiler optimizations are fascinating. It shows the incredible engineering effort behind pushing the boundaries of AI performance.
+
+Original Link: https://developers.googleblog.com/heygen-x-google-cloud-bringing-avatar-iv-to-tpus/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pure HTML & CSS: Delayed-Then-Instant Tooltips]]></title>
+        <id>https://digestweb.dev/articles/2026-08-13/html-css-delayed-instant-tooltips</id>
+        <link href="https://digestweb.dev/articles/2026-08-13/html-css-delayed-instant-tooltips"/>
+        <link rel="enclosure" href="https://master.dev/blog/wp-json/social-image-generator/v1/image/10678" type="image//blog/wp-json/social-image-generator/v1/image/10678"/>
+        <updated>2026-08-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Discover how to implement sophisticated delayed-then-instant tooltips using only modern HTML and CSS, eliminating the need for JavaScript and providing robust fallbacks.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article demonstrates creating advanced tooltips with only HTML and CSS.
+- It achieves a "delayed-then-instant" behavior without JavaScript.
+- Modern CSS features are leveraged for this UI pattern.
+- The approach ensures successful fallbacks for broader compatibility.
+- This method simplifies tooltip implementation and reduces dependency on scripting.
+
+## Our Commentary
+
+This is the kind of article that makes me smile. Pushing the boundaries of what HTML and CSS can do without JavaScript is always impressive. Tooltips are a common pattern, and a pure CSS solution for this specific behavior is a fantastic win for performance and simplicity. I'm excited to dig into the code.
+
+Original Link: https://master.dev/blog/delayed-then-instant-tooltips-with-html-css-alone/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reproducing 2,200 ICML Papers: Key Learnings & Insights]]></title>
+        <id>https://digestweb.dev/articles/2026-08-13/huggingface-reproducing-icml-papers-learnings</id>
+        <link href="https://digestweb.dev/articles/2026-08-13/huggingface-reproducing-icml-papers-learnings"/>
+        <link rel="enclosure" href="https://huggingface.co/blog/assets/icml-2026-open-reproductions/thumbnail.png" type="image/png"/>
+        <updated>2026-08-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hugging Face shares insights from reproducing 2,200 papers from ICML, offering valuable lessons on the state of reproducibility in machine learning research.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Hugging Face undertook a massive effort to reproduce 2,200 ICML papers.
+- The initiative aimed to assess the reproducibility of machine learning research.
+- The article shares key learnings and insights from this extensive project.
+- It provides valuable data on the challenges and successes of replicating scientific results.
+
+## Our Commentary
+
+Reproducibility is a massive problem in AI research, and this kind of large-scale effort from Hugging Face is incredibly important. 2,200 papers is no small feat. I'm eager to dig into their findings; I suspect it will confirm some of my own anxieties about the state of academic rigor in the field.
+
+Original Link: https://huggingface.co/blog/icml-2026-open-reproductions]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Streamlined AI Development: Strands Agents, LeRobot & HF Buckets]]></title>
+        <id>https://digestweb.dev/articles/2026-08-13/huggingface-strands-lerobot-storage-buckets-ai-workflow</id>
+        <link href="https://digestweb.dev/articles/2026-08-13/huggingface-strands-lerobot-storage-buckets-ai-workflow"/>
+        <link rel="enclosure" href="https://cdn-uploads.huggingface.co/production/uploads/6a1dc0f2b4238bb17ff94794/St00mBynNYpgz93MpL17G.png" type="image/png"/>
+        <updated>2026-08-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hugging Face announces an integrated workflow for AI development, combining Strands Agents, LeRobot, and Hugging Face Storage Buckets for recording, training, and deployment.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Hugging Face introduces a unified platform for AI development.
+- It integrates Strands Agents, LeRobot, and Hugging Face Storage Buckets.
+- The workflow covers the entire AI lifecycle: recording, training, and deployment.
+- This aims to simplify and streamline the development process for AI models.
+
+## Our Commentary
+
+Hugging Face continues to build out its ecosystem, and this integration sounds like a solid step towards a more cohesive AI development experience. Anything that reduces friction in the record-train-deploy loop is a win. I appreciate the focus on developer experience here.
+
+Original Link: https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Builder's Guide to GPT-5.6: Smarter Agents & New APIs]]></title>
+        <id>https://digestweb.dev/articles/2026-08-13/openai-builders-guide-gpt-5-6</id>
+        <link href="https://digestweb.dev/articles/2026-08-13/openai-builders-guide-gpt-5-6"/>
+        <link rel="enclosure" href="https://picsum.photos/id/398/800/450" type="image//id/398/800/450"/>
+        <updated>2026-08-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI releases a builder's guide for GPT-5.6, detailing how startups can leverage it for faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI has published a guide for developers building with GPT-5.6.
+- The guide focuses on creating faster and more cost-efficient AI agents.
+- It covers strategies for smarter model selection within GPT-5.6.
+- New capabilities of the Responses API are also highlighted.
+- Startups are shown how to maximize the value of the new model.
+
+## Our Commentary
+
+A new GPT version is always a big deal. The focus on "faster, more cost-efficient AI agents" and "smarter model selection" is exactly what developers need right now. It feels like OpenAI is really listening to the pain points of building with LLMs. I'm curious about the specifics of the new Responses API.
+
+Original Link: https://openai.com/index/builders-guide-to-gpt-5-6]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Previews Ultrafast Mode: GPT-5.6 Sol Up to 14x Faster]]></title>
+        <id>https://digestweb.dev/articles/2026-08-13/openai-ultrafast-mode-gpt-5-6-sol-14x-speed</id>
+        <link href="https://digestweb.dev/articles/2026-08-13/openai-ultrafast-mode-gpt-5-6-sol-14x-speed"/>
+        <link rel="enclosure" href="https://picsum.photos/id/670/800/450" type="image//id/670/800/450"/>
+        <updated>2026-08-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI introduces Ultrafast, a new API service tier for GPT-5.6 Sol, delivering up to 14x speed improvement and 750 output tokens per second, powered by Cerebras.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI is previewing "Ultrafast," a new API service tier.
+- This mode boosts GPT-5.6 Sol's speed by up to 14 times.
+- It achieves an output rate of up to 750 tokens per second.
+- The performance gains are powered by Cerebras hardware.
+- This significantly enhances the real-time capabilities of GPT-5.6 Sol.
+
+## Our Commentary
+
+14x faster? That's not just an improvement; that's a game-changer for real-time AI applications. The speed of inference has been a bottleneck for so many use cases. This could unlock entirely new categories of AI products. I'm genuinely excited to see what developers build with this kind of throughput.
+
+Original Link: https://openai.com/index/previewing-ultrafast]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pnpm 12 RC 5: Canonical Cycle Breaking & Faster Peer Resolution]]></title>
+        <id>https://digestweb.dev/articles/2026-08-13/pnpm-12-rc5-canonical-cycle-breaking-faster-resolution</id>
+        <link href="https://digestweb.dev/articles/2026-08-13/pnpm-12-rc5-canonical-cycle-breaking-faster-resolution"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/8599024c0420925c272be58296a54ba9a8b96e0b9ae572cf83d663cf8ba4658f/pnpm/pnpm/releases/tag/v12.0.0-rc.5" type="image/5"/>
+        <updated>2026-08-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[pnpm 12 RC 5 introduces canonical cycle breaking for peer dependency resolution, leading to faster installs, less memory usage, and smaller, byte-identical lockfiles.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- pnpm 12 RC 5 introduces canonical cycle breaking for peer dependency resolution.
+- This change ensures lockfiles are a pure function of the dependency graph, producing byte-identical results.
+- Peer resolution on large, cycle-heavy workspaces is 2-3x faster and uses 25% less memory.
+- Lockfiles are substantially smaller due to fewer redundant peer variants.
+- Existing lockfiles remain compatible with headless installs.
+- Auto-installed peer dependencies now resolve to the highest satisfying version, not the lowest.
+
+## Our Commentary
+
+This is a huge win for pnpm users. Canonical cycle breaking means more reliable and consistent builds, which is something I've personally struggled with in other package managers. The performance gains are just icing on the cake. It's a solid step forward for deterministic dependency management.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.5]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SvelteKit 3 RC: Configuration Moves to Vite, $lib to #lib]]></title>
+        <id>https://digestweb.dev/articles/2026-08-13/sveltekit-3-release-candidate-config-migration</id>
+        <link href="https://digestweb.dev/articles/2026-08-13/sveltekit-3-release-candidate-config-migration"/>
+        <link rel="enclosure" href="https://picsum.photos/id/274/800/450" type="image//id/274/800/450"/>
+        <updated>2026-08-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[SvelteKit 3 enters Release Candidate phase, introducing breaking changes like moving config to vite.config.ts and changing the $lib alias to #lib. A migration tool is available.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- SvelteKit 3 is now in Release Candidate, with a stable release expected soon.
+- Breaking changes include moving configuration from `svelte.config.js` to `vite.config.ts`.
+- The `$lib` alias for `src/lib` is now `#lib` to align with modern project practices.
+- A migration tool, `npx sv@next migrate sveltekit-3`, is available to automate updates.
+- The full list of changes and migration guide are on `next.svelte.dev`.
+
+## Our Commentary
+
+This is a big one for Svelte developers. Moving config to `vite.config.ts` makes so much sense; it always felt a bit disjointed having two config files. The `$lib` to `#lib` change is also a good move for consistency. We're excited to see the stable release soon.
+
+Original Link: https://svelte.dev/blog/sveltekit-3-release-candidate]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UX: Why Tooltips Need a Delay, Then Instant Skip]]></title>
+        <id>https://digestweb.dev/articles/2026-08-13/ux-tooltips-delay-then-skip</id>
+        <link href="https://digestweb.dev/articles/2026-08-13/ux-tooltips-delay-then-skip"/>
+        <link rel="enclosure" href="https://master.dev/blog/wp-json/social-image-generator/v1/image/10635" type="image//blog/wp-json/social-image-generator/v1/image/10635"/>
+        <updated>2026-08-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A discussion on tooltip UX, arguing for an initial delay to prevent accidental triggers, followed by an instant display for related tooltips to improve user flow.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article discusses optimal UX for tooltips.
+- It advocates for a slight initial delay to prevent accidental triggers.
+- For nearby or related tooltips, the delay should then be skipped for fluidity.
+- This approach aims to balance discoverability with avoiding annoyance.
+- The piece emphasizes thoughtful design for common UI elements.
+
+## Our Commentary
+
+This is a great companion piece to the pure CSS tooltip article. It's easy to overlook the subtle UX considerations for something as common as a tooltip, but these small details make a huge difference in user experience. I appreciate the focus on intentional design choices.
+
+Original Link: https://master.dev/blog/tooltips-need-a-delay-and-then-they-need-to-skip-it/]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[AI and Cognitive Debt: A Warning for Software Engineering]]></title>
