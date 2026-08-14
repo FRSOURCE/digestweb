@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Fri, 14 Aug 2026 03:25:25 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 14 Aug 2026 08:16:06 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -283,6 +283,28 @@ Original Link: https://huggingface.co/blog/amazon/strands-lerobot-streaming-data
             <enclosure url="https://cdn-uploads.huggingface.co/production/uploads/6a1dc0f2b4238bb17ff94794/St00mBynNYpgz93MpL17G.png" length="0" type="image/png"/>
         </item>
         <item>
+            <title><![CDATA[llm-gemini 0.33: New Gemini Models & Advanced AI Features]]></title>
+            <link>https://digestweb.dev/articles/2026-08-13/llm-gemini-0-33-new-gemini-models-advanced-ai-features</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-13/llm-gemini-0-33-new-gemini-models-advanced-ai-features</guid>
+            <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The latest llm-gemini plugin release adds support for Gemini 3.7 Flash and other new models, alongside compatibility updates enabling reasoning traces and server-side tools.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The plugin now supports Gemini 3.7 Flash, 3.6 Flash, and 3.5 Flash Lite models.
+- Two new embedding models, `gemini-embedding-2` and `gemini-embedding-001`, are also supported.
+- Compatibility with LLM 0.32 enables reasoning traces for model outputs.
+- Server-side tools can now be activated using a specific pattern.
+- An interesting SVG rendering discrepancy for AI-generated images was noted across browsers.
+
+## Our Commentary
+
+Integrating with the latest Gemini Flash models is a big deal for anyone using `llm-gemini`. The speed improvements from Flash models are often quite noticeable. What really caught my eye, though, was the detail about the SVG rendering differences between Safari, Firefox, and Chrome for AI-generated images. It's a stark reminder that even with advanced AI, the web platform's quirks can still throw a wrench in things. I genuinely don't know how many times I've seen something render perfectly in one browser only to break in another. It's a classic web dev problem, now with an AI twist.
+
+Original Link: https://simonwillison.net/2026/Aug/13/llm-gemini/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://static.simonwillison.net/static/2026/gemini-3.7-flash-high-pelican.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
             <title><![CDATA[The Builder's Guide to GPT-5.6: Smarter Agents & New APIs]]></title>
             <link>https://digestweb.dev/articles/2026-08-13/openai-builders-guide-gpt-5-6</link>
             <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-13/openai-builders-guide-gpt-5-6</guid>
@@ -345,6 +367,28 @@ This is a huge win for pnpm users. Canonical cycle breaking means more reliable 
 
 Original Link: https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.5]]></content:encoded>
             <enclosure url="https://opengraph.githubassets.com/8599024c0420925c272be58296a54ba9a8b96e0b9ae572cf83d663cf8ba4658f/pnpm/pnpm/releases/tag/v12.0.0-rc.5" length="0" type="image/5"/>
+        </item>
+        <item>
+            <title><![CDATA[sqlite-utils 4.2: Enhanced Table Transformations & Schema Preservation]]></title>
+            <link>https://digestweb.dev/articles/2026-08-13/sqlite-utils-4-2-enhanced-table-transformations-schema-preservation</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-13/sqlite-utils-4-2-enhanced-table-transformations-schema-preservation</guid>
+            <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This release of sqlite-utils significantly improves the `table.transform()` feature, allowing for more robust schema alterations and better preservation of constraints.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- `table.transform()` now supports complex alter table operations.
+- It preserves a wider array of schema definitions, including check and unique constraints.
+- Column comments are also maintained during transformations.
+- New introspection properties for check constraints have been added.
+- The release includes contributions from multiple developers.
+
+## Our Commentary
+
+We've always appreciated the utility of `sqlite-utils` for managing SQLite databases. This update to `table.transform()` feels like a solid step forward. Preserving schema details like check constraints during transformations is a huge quality-of-life improvement. I've definitely run into situations where such details were lost, causing headaches. It's the kind of careful, incremental improvement that makes a tool truly reliable.
+
+Original Link: https://simonwillison.net/2026/Aug/13/sqlite-utils/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/673/800/450" length="0" type="image//id/673/800/450"/>
         </item>
         <item>
             <title><![CDATA[SvelteKit 3 RC: Configuration Moves to Vite, $lib to #lib]]></title>
