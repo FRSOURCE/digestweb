@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Sat, 15 Aug 2026 02:14:58 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 15 Aug 2026 07:30:20 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,28 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[AI Evaluation: One Output Is an Example, Not a Verdict]]></title>
+            <link>https://digestweb.dev/articles/2026-08-14/ai-evaluation-one-output-example-not-verdict</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-14/ai-evaluation-one-output-example-not-verdict</guid>
+            <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn why a single AI output is insufficient for evaluating system performance. Proper assessment requires multiple representative inputs, repeated runs, and confidence intervals.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- A single AI output only serves as an example, not a reliable performance evaluation.
+- Effective AI evaluation demands multiple, representative inputs.
+- Repeated runs are necessary to account for variability in AI responses.
+- Confidence intervals should be used to quantify the reliability of results.
+- This rigorous approach helps avoid misinterpreting AI system capabilities.
+- It's crucial for understanding an AI's true performance and limitations.
+
+## Our Commentary
+
+This is one of those 'duh' moments that still needs to be said, loudly. We see so many demos where one perfect output is presented as proof of concept. It's a trap. The variability in LLMs alone makes single-shot evaluations meaningless. I've fallen for it myself, getting excited by a perfect response, only to find the next ten are garbage. This article is a good, solid reminder to be disciplined.
+
+Original Link: https://www.nngroup.com/articles/eval-ai-output/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication]]></content:encoded>
+            <enclosure url="https://media.nngroup.com/media/articles/opengraph_images/One_AI_Output1_2JVhrNe.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Angular's Future: Forms, Web AI, and Architectural Vision Unveiled]]></title>
             <link>https://digestweb.dev/articles/2026-08-14/angulars-future-forms-web-ai-architectural-vision</link>
@@ -120,6 +142,29 @@ A "State of Open Models" report from Hugging Face is always a must-read. They're
 
 Original Link: https://huggingface.co/blog/state-of-open-models-summer-2026]]></content:encoded>
             <enclosure url="https://huggingface.co/blog/assets/state-of-open-models-summer-2026/thumbnail.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[LLMs for Tagging: Hallucinate, Then Embed]]></title>
+            <link>https://digestweb.dev/articles/2026-08-14/llms-for-tagging-hallucinate-then-embed</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-14/llms-for-tagging-hallucinate-then-embed</guid>
+            <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover a novel approach to content tagging using LLMs. Instead of classifying against a fixed vocabulary, let models hallucinate tags and then map them to existing ones via vector embeddings.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Traditional LLM tagging struggles with large, predefined tag vocabularies.
+- Doug Turnbull's method suggests letting the LLM generate novel, "hallucinated" tags.
+- These imagined tags are then mapped to existing concrete tags using vector embeddings.
+- This approach avoids overwhelming the LLM with a massive tag list.
+- It leverages the LLM's generative capabilities for better tag suggestions.
+- An example prompt demonstrates how to guide the model's output format.
+
+## Our Commentary
+
+I've been wrestling with old blog content and its lack of proper tags for ages. This idea of letting the LLM just _imagine_ tags, then using embeddings to find the closest match in my existing vocabulary? That's genuinely brilliant. It sidesteps the context window limits and feels so much more organic than trying to force a classification. We're definitely trying this out for our own archives. It's a smart hack.
+
+Original Link: https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/331/800/450" length="0" type="image//id/331/800/450"/>
         </item>
         <item>
             <title><![CDATA[Unlock Claude Code's Full Potential: Maximize Your Sessions]]></title>
