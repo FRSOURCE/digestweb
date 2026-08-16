@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Sat, 15 Aug 2026 07:30:20 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 16 Aug 2026 02:22:06 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,93 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Build an AI Text Detector: From Data to Deployment]]></title>
+            <link>https://digestweb.dev/articles/2026-08-15/build-ai-text-detector-from-data-to-deployment</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-15/build-ai-text-detector-from-data-to-deployment</guid>
+            <pubDate>Sat, 15 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This end-to-end tutorial guides you through building an AI text detector, covering dataset construction, model training, local deployment, and RLVR.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The tutorial provides an end-to-end guide for creating an AI text detector.
+- It covers the crucial step of constructing a suitable dataset.
+- Instructions for training the AI model are included.
+- The process of deploying the model locally is detailed.
+- It also explores the concept of Reinforcement Learning from Verbose Reasoning (RLVR).
+- This project offers practical experience across the entire AI development pipeline.
+
+## Our Commentary
+
+Okay, this is exactly the kind of hands-on content I love to see. Building an AI text detector from scratch, covering the whole shebang from data to deployment? Yes, please. It's easy to get lost in the high-level discussions around AI, but diving into the nitty-gritty of dataset construction and model training is where the real learning happens. I'm particularly interested in the RLVR aspect; that's a nuanced area that often gets overlooked in simpler tutorials. This feels like a solid weekend project.
+
+Original Link: https://magazine.sebastianraschka.com/p/ai-detector-from-scratch]]></content:encoded>
+            <author>Sebastian Raschka</author>
+            <enclosure url="https://substackcdn.com/image/fetch/$s_!Om23!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F875b5076-19a9-4ffe-91d4-cafa156f650a_5343x5696.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[HAOQI.DESIGN: Blending DOM & WebGL for Retro-Futurist UI]]></title>
+            <link>https://digestweb.dev/articles/2026-08-15/haoqi-design-blending-dom-webgl-retro-futurist-ui</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-15/haoqi-design-blending-dom-webgl-retro-futurist-ui</guid>
+            <pubDate>Sat, 15 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore the technical making of HAOQI.DESIGN, a portfolio site that masterfully combines DOM, CSS, and WebGL for scroll sync and glass shaders.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article provides a technical breakdown of the HAOQI.DESIGN website.
+- It details how DOM, CSS, and WebGL are integrated for a retro-futurist aesthetic.
+- Key techniques include scroll synchronization between different rendering layers.
+- The implementation of glass shaders is explored in depth.
+- It offers insights into creating complex interactive web experiences.
+
+## Our Commentary
+
+Codrops always delivers on the eye candy, but this piece goes beyond just looking pretty. We're talking about serious technical chops here, blending DOM and WebGL in a way that feels seamless. I'm always fascinated by how developers push the boundaries of what's possible with web technologies, and this retro-futurist vibe is just _chef's kiss_. It's a great reminder that the web can be a canvas for truly artistic and technically challenging work.
+
+Original Link: https://tympanus.net/codrops/2026/08/15/inside-haoqi-design-letting-dom-and-webgl-share-a-retro-futurist-stage/]]></content:encoded>
+            <enclosure url="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/08/Cover.png?x57826" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[pnpm 11.22: Cache Path & Config Refinements]]></title>
+            <link>https://digestweb.dev/articles/2026-08-15/pnpm-11-22-cache-path-config-refinements</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-15/pnpm-11-22-cache-path-config-refinements</guid>
+            <pubDate>Sat, 15 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This minor pnpm release exposes the cache path for CI setups and refines how configuration settings are handled, preventing unsupported writes.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- `pnpm cache path` is added, printing the metadata cache directory for CI use.
+- `--config.config-dir` and similar flags no longer read from `pnpm-workspace.yaml`.
+- `pnpm config set` now prevents writing unsupported settings to `pnpm-workspace.yaml`.
+- A new setting, `minimumReleaseAgeExcludePrune`, helps prune old lockfile entries.
+
+## Our Commentary
+
+This is a solid maintenance release. The `pnpm cache path` is a small but mighty addition for anyone dealing with CI pipelines; caching that lockfile verification log could save some precious seconds. I appreciate the stricter config handling too; it's always better when tools guide you away from misconfigurations rather than letting you shoot yourself in the foot. Not flashy, but important for stability.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.22.0]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/4c92b6cff37f2eeb9324062afccc3ba8c4b3e8e46309cb4fd8df355fee209785/pnpm/pnpm/releases/tag/v11.22.0" length="0" type="image/0"/>
+        </item>
+        <item>
+            <title><![CDATA[pnpm 12 RC 6: Manage All Your Package Managers & Runtimes]]></title>
+            <link>https://digestweb.dev/articles/2026-08-15/pnpm-12-rc-6-manage-all-your-package-managers-runtimes</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-15/pnpm-12-rc-6-manage-all-your-package-managers-runtimes</guid>
+            <pubDate>Sat, 15 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This release candidate for pnpm 12 introduces groundbreaking features, allowing it to install and run npm, Yarn, and Bun, alongside Node.js and Deno.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- `pnpm cache path` now prints the metadata cache directory, useful for CI caching.
+- pnpm can now install and manage other package managers like npm, Yarn, and Bun.
+- It respects `packageManager` pins in `package.json` for git-hosted dependencies.
+- `pnpm dlx` (pnx) can now run specific versions of package managers or runtimes directly.
+- `pnx yarn@4 install` will now correctly provision Yarn 4, not an npm package.
+- The `--package` flag allows specifying which package manager's command to run.
+- `pnpm shim add yarn` links a `yarn` command to the project's pinned version.
+
+## Our Commentary
+
+Okay, this is a genuinely wild move from pnpm. I mean, `pnpm dlx bun@1.3.0 install`? That's just... _chef's kiss_. We've been juggling so many package managers and runtime versions, and the idea of pnpm becoming this universal orchestrator is both terrifying and incredibly appealing. I'm not sure if it's a power grab or a genuine attempt at simplifying the dev experience, but I'm here for the chaos. The implications for CI/CD are huge, too. No more `nvm use` then `npm install` then `yarn install` then `bun install`? Just `pnpm dlx` everything? My brain is buzzing with the possibilities.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.6]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/22171531daa7163c40601bb3c9d60c1e0b03eafdfc2e56182b4382104f520903/pnpm/pnpm/releases/tag/v12.0.0-rc.6" length="0" type="image/6"/>
+        </item>
         <item>
             <title><![CDATA[AI Evaluation: One Output Is an Example, Not a Verdict]]></title>
             <link>https://digestweb.dev/articles/2026-08-14/ai-evaluation-one-output-example-not-verdict</link>
