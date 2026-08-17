@@ -23,6 +23,30 @@
             }
         },
         {
+            "id": "https://digestweb.dev/articles/2026-08-16/markdown-svg-renderer-mp4-export-webassembly",
+            "content_html": "## Summary & Key Takeaways\n\n• The tool renders Markdown with embedded SVGs, transforming raw SVG blocks into interactive displays.\n• New features include PNG and JPEG export for static image sharing.\n• A significant addition is MP4 video export for animated SVGs.\n• MP4 conversion leverages `ffmpeg.wasm` running entirely within the browser.\n• This enables easy sharing of animated SVGs on platforms without native SVG animation support.\n• The tool attempts to guess animation loop duration for video generation.\n\n## Our Commentary\n\nThis is genuinely cool. We've all hit that wall trying to share an animated SVG somewhere that just doesn't support it. Simon's solution, pulling in ffmpeg.wasm to do the heavy lifting right in the browser, is just _chef's kiss_. It's a perfect example of how WebAssembly can unlock serious desktop-app-level functionality on the web. I'm always impressed by these kinds of practical, elegant solutions to common web dev frustrations. It makes me wonder what other media conversions could live entirely client-side.\n\nOriginal Link: https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/",
+            "url": "https://digestweb.dev/articles/2026-08-16/markdown-svg-renderer-mp4-export-webassembly",
+            "title": "Markdown SVG Renderer Gets MP4 Export via WebAssembly",
+            "summary": "Simon Willison updates his markdown-svg-renderer tool, adding the ability to convert animated SVGs to MP4 videos directly in the browser using ffmpeg.wasm. This simplifies sharing dynamic SVGs on various platforms.",
+            "image": "https://static.simonwillison.net/static/2026/rendered-svg.webp",
+            "date_modified": "2026-08-16T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-16/qwen-3-8-27b-llm-overthinking-default",
+            "content_html": "## Summary & Key Takeaways\n\n• Qwen 3.8 27B is a new Apache 2 licensed, vision-capable LLM from Alibaba.\n• It's an excellent size for running on reasonably specced laptops.\n• Benchmarks from Qwen show significant improvements over previous versions.\n• The model defaults to an \"xhigh\" reasoning effort, leading to extensive internal thought processes.\n• This default causes the model to \"wildly overthink\" even simple prompts.\n• Overthinking results in high token usage and significantly longer generation times.\n• Increasing the context length can mitigate issues caused by the default reasoning effort.\n\n## Our Commentary\n\nThis is such a classic LLM quirk, and Simon nails it. We've seen models that are _too_ eager to please, but 'wildly overthinking' is a new level of hilarious frustration. It's a crucial heads-up for anyone looking to deploy Qwen 3.8 locally; that default setting could burn through context windows and compute cycles faster than you can say 'pelican riding a bicycle.' It makes me wonder how many other models have similar hidden 'personality traits' that aren't immediately obvious from benchmarks alone. This kind of practical, hands-on testing is invaluable.\n\nOriginal Link: https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+            "url": "https://digestweb.dev/articles/2026-08-16/qwen-3-8-27b-llm-overthinking-default",
+            "title": "Qwen 3.8 27B LLM: Excellent, But Defaults to Overthinking",
+            "summary": "Simon Willison reviews Alibaba's new Qwen 3.8 27B LLM, praising its capabilities for its size but pointing out a default 'xhigh' reasoning effort that leads to excessive token consumption and slow generation for simple tasks.",
+            "image": "https://static.simonwillison.net/static/2026/qwen-thinking-bicycle-27b.jpg",
+            "date_modified": "2026-08-16T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-08-15/build-ai-text-detector-from-data-to-deployment",
             "content_html": "## Summary & Key Takeaways\n\n- The tutorial provides an end-to-end guide for creating an AI text detector.\n- It covers the crucial step of constructing a suitable dataset.\n- Instructions for training the AI model are included.\n- The process of deploying the model locally is detailed.\n- It also explores the concept of Reinforcement Learning from Verbose Reasoning (RLVR).\n- This project offers practical experience across the entire AI development pipeline.\n\n## Our Commentary\n\nOkay, this is exactly the kind of hands-on content I love to see. Building an AI text detector from scratch, covering the whole shebang from data to deployment? Yes, please. It's easy to get lost in the high-level discussions around AI, but diving into the nitty-gritty of dataset construction and model training is where the real learning happens. I'm particularly interested in the RLVR aspect; that's a nuanced area that often gets overlooked in simpler tutorials. This feels like a solid weekend project.\n\nOriginal Link: https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
             "url": "https://digestweb.dev/articles/2026-08-15/build-ai-text-detector-from-data-to-deployment",

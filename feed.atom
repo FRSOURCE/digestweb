@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-08-17T02:25:03.290Z</updated>
+    <updated>2026-08-17T07:52:57.161Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -35,6 +35,57 @@
 I genuinely appreciate Amodei's candor here. It's refreshing to hear an AI leader admit that the industry hasn't delivered on its grand promises. We've seen so much hype, so many 'AI will cure everything' pronouncements, and frankly, it's exhausting. The idea that trust isn't built through marketing but through tangible, beneficial outcomes feels like a fundamental truth that often gets lost in the race for funding and headlines. There's something unsettling about the constant push for positive spin when the underlying tech is still so nascent and its societal impact so uncertain. This isn't just about AI; it's about the tech industry's long-standing relationship with the public. We've been here before, haven't we?
 
 Original Link: https://simonwillison.net/2026/Aug/16/dario-amodei/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Markdown SVG Renderer Gets MP4 Export via WebAssembly]]></title>
+        <id>https://digestweb.dev/articles/2026-08-16/markdown-svg-renderer-mp4-export-webassembly</id>
+        <link href="https://digestweb.dev/articles/2026-08-16/markdown-svg-renderer-mp4-export-webassembly"/>
+        <link rel="enclosure" href="https://static.simonwillison.net/static/2026/rendered-svg.webp" type="image/webp"/>
+        <updated>2026-08-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison updates his markdown-svg-renderer tool, adding the ability to convert animated SVGs to MP4 videos directly in the browser using ffmpeg.wasm. This simplifies sharing dynamic SVGs on various platforms.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+• The tool renders Markdown with embedded SVGs, transforming raw SVG blocks into interactive displays.
+• New features include PNG and JPEG export for static image sharing.
+• A significant addition is MP4 video export for animated SVGs.
+• MP4 conversion leverages `ffmpeg.wasm` running entirely within the browser.
+• This enables easy sharing of animated SVGs on platforms without native SVG animation support.
+• The tool attempts to guess animation loop duration for video generation.
+
+## Our Commentary
+
+This is genuinely cool. We've all hit that wall trying to share an animated SVG somewhere that just doesn't support it. Simon's solution, pulling in ffmpeg.wasm to do the heavy lifting right in the browser, is just _chef's kiss_. It's a perfect example of how WebAssembly can unlock serious desktop-app-level functionality on the web. I'm always impressed by these kinds of practical, elegant solutions to common web dev frustrations. It makes me wonder what other media conversions could live entirely client-side.
+
+Original Link: https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Qwen 3.8 27B LLM: Excellent, But Defaults to Overthinking]]></title>
+        <id>https://digestweb.dev/articles/2026-08-16/qwen-3-8-27b-llm-overthinking-default</id>
+        <link href="https://digestweb.dev/articles/2026-08-16/qwen-3-8-27b-llm-overthinking-default"/>
+        <link rel="enclosure" href="https://static.simonwillison.net/static/2026/qwen-thinking-bicycle-27b.jpg" type="image/jpg"/>
+        <updated>2026-08-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison reviews Alibaba's new Qwen 3.8 27B LLM, praising its capabilities for its size but pointing out a default 'xhigh' reasoning effort that leads to excessive token consumption and slow generation for simple tasks.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+• Qwen 3.8 27B is a new Apache 2 licensed, vision-capable LLM from Alibaba.
+• It's an excellent size for running on reasonably specced laptops.
+• Benchmarks from Qwen show significant improvements over previous versions.
+• The model defaults to an "xhigh" reasoning effort, leading to extensive internal thought processes.
+• This default causes the model to "wildly overthink" even simple prompts.
+• Overthinking results in high token usage and significantly longer generation times.
+• Increasing the context length can mitigate issues caused by the default reasoning effort.
+
+## Our Commentary
+
+This is such a classic LLM quirk, and Simon nails it. We've seen models that are _too_ eager to please, but 'wildly overthinking' is a new level of hilarious frustration. It's a crucial heads-up for anyone looking to deploy Qwen 3.8 locally; that default setting could burn through context windows and compute cycles faster than you can say 'pelican riding a bicycle.' It makes me wonder how many other models have similar hidden 'personality traits' that aren't immediately obvious from benchmarks alone. This kind of practical, hands-on testing is invaluable.
+
+Original Link: https://simonwillison.net/2026/Aug/16/qwen-38-27b/]]></content>
         <author>
             <name>Simon Willison</name>
         </author>
