@@ -11,6 +11,18 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-08-16/anthropic-ceo-dario-amodei-ai-trust-we-havent-delivered",
+            "content_html": "## Summary & Key Takeaways\n\n- Dario Amodei believes public distrust in AI is a crisis of trust, not just a messaging problem.\n- He attributes this distrust to a broader skepticism towards tech companies and governments.\n- Amodei states that glitzy marketing campaigns are ineffective for winning back public trust.\n- He argues that the most accurate criticism of AI companies is their failure to deliver on big promises.\n- Actual societal benefits, like curing cancer, are what will genuinely rebuild trust.\n- He suggests focusing on tangible results rather than marketing narratives.\n\n## Our Commentary\n\nI genuinely appreciate Amodei's candor here. It's refreshing to hear an AI leader admit that the industry hasn't delivered on its grand promises. We've seen so much hype, so many 'AI will cure everything' pronouncements, and frankly, it's exhausting. The idea that trust isn't built through marketing but through tangible, beneficial outcomes feels like a fundamental truth that often gets lost in the race for funding and headlines. There's something unsettling about the constant push for positive spin when the underlying tech is still so nascent and its societal impact so uncertain. This isn't just about AI; it's about the tech industry's long-standing relationship with the public. We've been here before, haven't we?\n\nOriginal Link: https://simonwillison.net/2026/Aug/16/dario-amodei/",
+            "url": "https://digestweb.dev/articles/2026-08-16/anthropic-ceo-dario-amodei-ai-trust-we-havent-delivered",
+            "title": "Anthropic CEO Dario Amodei on AI Trust: \"We Haven't Delivered\"",
+            "summary": "Anthropic CEO Dario Amodei argues that public distrust in AI stems from a broader lack of trust in tech and a failure by AI companies to deliver on big promises, not just negative messaging. He emphasizes that actual societal benefits, not marketing, will rebuild trust.",
+            "image": "https://picsum.photos/id/538/800/450",
+            "date_modified": "2026-08-16T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-08-15/build-ai-text-detector-from-data-to-deployment",
             "content_html": "## Summary & Key Takeaways\n\n- The tutorial provides an end-to-end guide for creating an AI text detector.\n- It covers the crucial step of constructing a suitable dataset.\n- Instructions for training the AI model are included.\n- The process of deploying the model locally is detailed.\n- It also explores the concept of Reinforcement Learning from Verbose Reasoning (RLVR).\n- This project offers practical experience across the entire AI development pipeline.\n\n## Our Commentary\n\nOkay, this is exactly the kind of hands-on content I love to see. Building an AI text detector from scratch, covering the whole shebang from data to deployment? Yes, please. It's easy to get lost in the high-level discussions around AI, but diving into the nitty-gritty of dataset construction and model training is where the real learning happens. I'm particularly interested in the RLVR aspect; that's a nuanced area that often gets overlooked in simpler tutorials. This feels like a solid weekend project.\n\nOriginal Link: https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
             "url": "https://digestweb.dev/articles/2026-08-15/build-ai-text-detector-from-data-to-deployment",
