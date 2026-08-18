@@ -71,6 +71,18 @@
             "date_modified": "2026-08-17T00:00:00.000Z"
         },
         {
+            "id": "https://digestweb.dev/articles/2026-08-17/qwen-3-8-27b-rivals-gpt-5-6-luna-ai-index",
+            "content_html": "## Summary & Key Takeaways\n\n- Qwen 3.8 27B achieved a score of 52 on the Artificial Analysis Intelligence Index.\n- This score matches GPT-5.6 Luna (max) and is just one point behind GLM-5.2 (753B) and DeepSeek V4 Pro 0813 (1.6B).\n- The Qwen model has significantly fewer parameters (27B) compared to its high-performing peers.\n- This performance suggests remarkable efficiency and capability for a model of its size.\n\n## Our Commentary\n\nI'm genuinely floored by this. A 27B model keeping pace with GPT-5.6 Luna? And nearly matching models hundreds of times its size? This is the kind of efficiency leap that changes everything. We've been watching the parameter count explode, but maybe the real game is in getting more out of less. It makes me wonder what's under the hood of Qwen 3.8. Is it architectural genius, or just incredibly well-tuned? Either way, it's a huge win for accessible, powerful AI.\n\nOriginal Link: https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
+            "url": "https://digestweb.dev/articles/2026-08-17/qwen-3-8-27b-rivals-gpt-5-6-luna-ai-index",
+            "title": "Qwen 3.8 27B Rivals GPT-5.6 Luna on AI Intelligence Index",
+            "summary": "A 27B parameter model, Qwen 3.8, scores 52 on the Artificial Analysis Intelligence Index, matching GPT-5.6 Luna and nearly equaling much larger models. This performance from a relatively small model is astonishing.",
+            "image": "https://picsum.photos/id/130/800/450",
+            "date_modified": "2026-08-17T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-08-17/react-compiler-linting-rust-oxlint-speedup",
             "content_html": "## Summary & Key Takeaways\n\n- React Compiler linting now benefits from a Rust-native speedup via Oxlint.\n- This integration significantly improves the performance of linting operations for React projects.\n- The React team recently announced a Rust rewrite of the React Compiler as the new canonical version.\n- Faster linting contributes to a smoother and more efficient developer experience.\n- This move aligns with the broader trend of adopting Rust for performance-critical web tooling.\n\n## Our Commentary\n\nRust-native speedups for React Compiler linting via Oxlint? Yes, please. We've been watching the React Compiler's evolution with keen interest, and seeing these performance gains trickle down to tooling is fantastic. Faster linting means less waiting, more coding, and generally a happier developer experience. It's another win for Rust in the web ecosystem, and it makes us wonder what other parts of the dev toolchain could benefit from a similar rewrite. This is a solid step forward for React DX.\n\nOriginal Link: https://master.dev/blog/react-compiler-linting-just-got-a-rust-native-speedup-in-oxlint/",
             "url": "https://digestweb.dev/articles/2026-08-17/react-compiler-linting-rust-oxlint-speedup",

@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Tue, 18 Aug 2026 02:16:32 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Aug 2026 07:38:03 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -143,6 +143,27 @@ AI in cybersecurity is a double-edged sword, and OpenAI's take on 'The Defender'
 
 Original Link: https://openai.com/index/the-defenders-window]]></content:encoded>
             <enclosure url="https://picsum.photos/id/506/800/450" length="0" type="image//id/506/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Qwen 3.8 27B Rivals GPT-5.6 Luna on AI Intelligence Index]]></title>
+            <link>https://digestweb.dev/articles/2026-08-17/qwen-3-8-27b-rivals-gpt-5-6-luna-ai-index</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-17/qwen-3-8-27b-rivals-gpt-5-6-luna-ai-index</guid>
+            <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A 27B parameter model, Qwen 3.8, scores 52 on the Artificial Analysis Intelligence Index, matching GPT-5.6 Luna and nearly equaling much larger models. This performance from a relatively small model is astonishing.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Qwen 3.8 27B achieved a score of 52 on the Artificial Analysis Intelligence Index.
+- This score matches GPT-5.6 Luna (max) and is just one point behind GLM-5.2 (753B) and DeepSeek V4 Pro 0813 (1.6B).
+- The Qwen model has significantly fewer parameters (27B) compared to its high-performing peers.
+- This performance suggests remarkable efficiency and capability for a model of its size.
+
+## Our Commentary
+
+I'm genuinely floored by this. A 27B model keeping pace with GPT-5.6 Luna? And nearly matching models hundreds of times its size? This is the kind of efficiency leap that changes everything. We've been watching the parameter count explode, but maybe the real game is in getting more out of less. It makes me wonder what's under the hood of Qwen 3.8. Is it architectural genius, or just incredibly well-tuned? Either way, it's a huge win for accessible, powerful AI.
+
+Original Link: https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/130/800/450" length="0" type="image//id/130/800/450"/>
         </item>
         <item>
             <title><![CDATA[React Compiler Linting Gets Rust-Native Speedup with Oxlint Integration]]></title>
