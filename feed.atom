@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-08-17T09:27:01.366Z</updated>
+    <updated>2026-08-18T02:16:32.980Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,207 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Making AI Agent Workflows Visible, Steerable, and Cost-Efficient with Canvases]]></title>
+        <id>https://digestweb.dev/articles/2026-08-17/ai-agent-workflows-canvases-visibility-cost-efficiency</id>
+        <link href="https://digestweb.dev/articles/2026-08-17/ai-agent-workflows-canvases-visibility-cost-efficiency"/>
+        <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo-stripe.png?fit=1920%2C1080" type="image/png"/>
+        <updated>2026-08-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Explore how visual canvases can transform chaotic AI agent chat logs into structured, manageable workflows, enhancing visibility and control.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Traditional chat interfaces obscure the progress of AI agents, making complex tasks hard to follow.
+- Canvases provide a visual, structured environment to track and manage agentic workflows.
+- This approach improves the steerability of agents, allowing for better intervention and guidance.
+- Visualizing workflows helps in identifying inefficiencies and optimizing resource usage.
+- The article advocates for integrating canvases into agent development for clearer oversight.
+
+## Our Commentary
+
+We've all been there, watching an AI agent churn through tasks, wondering what it's actually doing. The idea of using canvases to visualize these workflows feels like a breath of fresh air. I mean, how many times have I scrolled endlessly through a chat log trying to debug an agent's thought process? This is a practical step towards making AI agents less of a black box and more of a collaborative partner. It's about bringing clarity to the chaos, and we're here for it.
+
+Original Link: https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Investigative Report: Amazon AI Training Facility Linked to Rare Book Shipments]]></title>
+        <id>https://digestweb.dev/articles/2026-08-17/amazon-ai-training-rare-books-investigation</id>
+        <link href="https://digestweb.dev/articles/2026-08-17/amazon-ai-training-rare-books-investigation"/>
+        <link rel="enclosure" href="https://picsum.photos/id/795/800/450" type="image//id/795/800/450"/>
+        <updated>2026-08-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[An investigation tracked a shipment of rare books to an Amazon AI training facility, exposing the secretive methods used to acquire data for large language models.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- An investigative report tracked a shipment of rare books to an Amazon AI training facility in Las Vegas.
+- The books were ordered by apparently price-insensitive, anonymous customers, suspected to be AI companies.
+- An AirTag placed in one of the books confirmed its destination at an Amazon facility (VGT3/LAS8).
+- Online forum discussions among Amazon workers corroborate that VGT3 destructively scans large volumes of books.
+- This investigation sheds light on the opaque practices of AI companies acquiring training data.
+- The findings raise significant ethical questions about data sourcing for large language models.
+
+## Our Commentary
+
+Okay, this is a headline. We tracked a shipment of rare books with an AirTag, and it ended up at an Amazon AI training facility? That's some next-level investigative journalism. I've heard the whispers about AI companies hoovering up books, but seeing it confirmed like this is unsettling. It makes you wonder what other data is being acquired through these opaque channels. There's something deeply uncomfortable about the destructive scanning of books for AI. This isn't just about data; it's about the ethics of how we feed these models. We need more transparency, now.
+
+Original Link: https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dark Mode Toggles: Why Two States Are Enough for User Preference]]></title>
+        <id>https://digestweb.dev/articles/2026-08-17/dark-mode-toggles-two-states-enough</id>
+        <link href="https://digestweb.dev/articles/2026-08-17/dark-mode-toggles-two-states-enough"/>
+        <link rel="enclosure" href="https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/08/lea-verou-color-scheme-scenarios.png" type="image/png"/>
+        <updated>2026-08-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Lea Verou argues against three-state dark mode toggles, advocating for a simpler two-state system (light/dark) for better user experience.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article challenges the common practice of offering three states for dark mode toggles: light, dark, and system.
+- Lea Verou argues that a two-state toggle (light/dark) is sufficient and less confusing for users.
+- The 'system' preference can be handled implicitly without needing an explicit toggle option.
+- Simplifying the toggle reduces cognitive load and streamlines the user experience.
+- This perspective encourages designers to reconsider default UI patterns for theme switching.
+
+## Our Commentary
+
+Lea Verou coming in hot with the dark mode toggle debate! We've all seen the three-state toggles, and I've definitely felt that slight hesitation when choosing. Is 'system' really a distinct choice, or just a default? I lean towards Lea's argument here; simplicity often wins in UX. It's a small detail, but these small details add up to a better web. It's a good reminder to question even widely adopted patterns.
+
+Original Link: https://css-tricks.com/dark-mode-toggles-two-states-are-enough/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GPU Cluster Optimization: 33% More Utilization by Changing Job Order]]></title>
+        <id>https://digestweb.dev/articles/2026-08-17/gpu-cluster-optimization-job-order-utilization</id>
+        <link href="https://digestweb.dev/articles/2026-08-17/gpu-cluster-optimization-job-order-utilization"/>
+        <link rel="enclosure" href="https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/wOnyrU6-UQAM5hOwpaw3-.jpeg" type="image/jpeg"/>
+        <updated>2026-08-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Discover how a simple change in job scheduling order can dramatically increase GPU cluster utilization by 33 points, optimizing AI training infrastructure.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Optimizing GPU cluster utilization is crucial for efficient AI development and cost management.
+- The article demonstrates a significant 33-point increase in utilization by reordering job submissions.
+- This improvement highlights the impact of scheduling strategies on hardware efficiency.
+- Even minor adjustments to workflow can yield substantial performance gains in large-scale AI training.
+- The findings suggest a need for smarter resource management in AI infrastructure.
+
+## Our Commentary
+
+Thirty-three points more utilization just by changing the order? That's wild. We're always looking for ways to squeeze more performance out of our hardware, especially with the cost of GPUs these days. This isn't some magic new algorithm; it's just smart resource management. It makes you wonder how much untapped potential is sitting in existing clusters, waiting for someone to rethink the obvious. I'm definitely going to be looking into our own job scheduling after reading this.
+
+Original Link: https://huggingface.co/blog/Dharma-AI/gpu-management-pt2]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nvidia's Strategy: Empowering Everyone to Build Their Own AI Models]]></title>
+        <id>https://digestweb.dev/articles/2026-08-17/nvidia-strategy-build-your-own-ai-models</id>
+        <link href="https://digestweb.dev/articles/2026-08-17/nvidia-strategy-build-your-own-ai-models"/>
+        <link rel="enclosure" href="https://substackcdn.com/image/fetch/$s_!JGky!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb8608bb9-bf33-46e6-8ffe-dcf75a851f9b_3182x1790.png" type="image/png"/>
+        <updated>2026-08-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Nathan Lambert explores Nvidia's push for developers to build custom AI models, challenging the dominance of API-first providers like Anthropic and OpenAI.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Nvidia is actively encouraging developers to build and train their own AI models.
+- This strategy aims to reduce reliance on large language model APIs from companies like Anthropic and OpenAI.
+- The shift could democratize AI development, giving more control to individual developers and enterprises.
+- It suggests a future where custom, specialized models become more prevalent.
+- This move could foster innovation and competition in the AI ecosystem.
+
+## Our Commentary
+
+This is a fascinating take on the evolving AI landscape. Nvidia pushing for custom model building? It makes sense, but it also feels like a direct challenge to the API-first giants. I wonder if this will truly democratize AI or just shift the power dynamics. We've seen this play out in other tech sectors, where infrastructure providers eventually want a bigger piece of the application layer. It's a strategic chess move, and I'm genuinely curious to see how Anthropic and OpenAI respond.
+
+Original Link: https://www.interconnects.ai/p/teaching-everyone-to-fish-for-tokens]]></content>
+        <author>
+            <name>Nathan Lambert</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Defender's Window: OpenAI on AI's Role in Cybersecurity]]></title>
+        <id>https://digestweb.dev/articles/2026-08-17/openai-ai-cybersecurity-defenders-window</id>
+        <link href="https://digestweb.dev/articles/2026-08-17/openai-ai-cybersecurity-defenders-window"/>
+        <link rel="enclosure" href="https://picsum.photos/id/506/800/450" type="image//id/506/800/450"/>
+        <updated>2026-08-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI shares insights on how AI is transforming cybersecurity for both attackers and defenders, detailing their efforts to strengthen defenses.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- AI is fundamentally changing the landscape of cybersecurity for both offensive and defensive operations.
+- OpenAI is actively working to enhance its own security measures against AI-powered threats.
+- The article provides recommendations for security teams to bolster their defenses against evolving AI risks.
+- It highlights the dual-use nature of AI in cybersecurity, creating new vulnerabilities and protection methods.
+- OpenAI emphasizes the importance of proactive strategies in the 'Intelligence Age' of cyber warfare.
+
+## Our Commentary
+
+AI in cybersecurity is a double-edged sword, and OpenAI's take on 'The Defender's Window' is a necessary read. It's good to see them addressing how AI reshapes both attack and defense. We're all grappling with this. I mean, the idea of AI-powered attacks is terrifying, but AI-powered defense offers a glimmer of hope. It's a constant arms race, and I just hope the defenders can keep up.
+
+Original Link: https://openai.com/index/the-defenders-window]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React Compiler Linting Gets Rust-Native Speedup with Oxlint Integration]]></title>
+        <id>https://digestweb.dev/articles/2026-08-17/react-compiler-linting-rust-oxlint-speedup</id>
+        <link href="https://digestweb.dev/articles/2026-08-17/react-compiler-linting-rust-oxlint-speedup"/>
+        <link rel="enclosure" href="https://master.dev/blog/wp-json/social-image-generator/v1/image/10691" type="image//blog/wp-json/social-image-generator/v1/image/10691"/>
+        <updated>2026-08-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The React Compiler's linting capabilities receive a major performance boost through a Rust-native rewrite in Oxlint, enhancing developer experience.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- React Compiler linting now benefits from a Rust-native speedup via Oxlint.
+- This integration significantly improves the performance of linting operations for React projects.
+- The React team recently announced a Rust rewrite of the React Compiler as the new canonical version.
+- Faster linting contributes to a smoother and more efficient developer experience.
+- This move aligns with the broader trend of adopting Rust for performance-critical web tooling.
+
+## Our Commentary
+
+Rust-native speedups for React Compiler linting via Oxlint? Yes, please. We've been watching the React Compiler's evolution with keen interest, and seeing these performance gains trickle down to tooling is fantastic. Faster linting means less waiting, more coding, and generally a happier developer experience. It's another win for Rust in the web ecosystem, and it makes us wonder what other parts of the dev toolchain could benefit from a similar rewrite. This is a solid step forward for React DX.
+
+Original Link: https://master.dev/blog/react-compiler-linting-just-got-a-rust-native-speedup-in-oxlint/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Returning to AI: A Personal Reflection from fast.ai's Co-founder]]></title>
+        <id>https://digestweb.dev/articles/2026-08-17/returning-to-ai-fastai-co-founder-reflection</id>
+        <link href="https://digestweb.dev/articles/2026-08-17/returning-to-ai-fastai-co-founder-reflection"/>
+        <link rel="enclosure" href="https://www.fast.ai/posts/2026-08-18-returning-to-AI/alexnet-3.jpg" type="image/jpg"/>
+        <updated>2026-08-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A fast.ai co-founder shares their personal journey back into the AI field, reflecting on the industry's evolution and public perception.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- A co-founder of fast.ai reflects on their decision to return to the AI field after a decade.
+- The article touches on the evolving public sentiment towards AI, including skepticism and apprehension.
+- It offers a personal perspective on the challenges and opportunities within the current AI landscape.
+- The author's return signals continued belief in the transformative potential of AI.
+- This piece provides insight into the motivations of experienced researchers re-engaging with the field.
+
+## Our Commentary
+
+It's always interesting to hear from the OGs of a field, especially when they're returning after some time away. 'My friends all hate AI; I just joined an AI startup' is a title that immediately grabs you. We've all felt that tension, right? The public perception of AI is so polarized. It's a good reminder that behind all the hype and fear, there are still people genuinely trying to build something meaningful. I appreciate the honesty in this piece.
+
+Original Link: https://www.fast.ai/posts/2026-08-18-returning-to-AI/]]></content>
+        <author>
+            <name>Jeremy Howard</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vitest v5.0.0-rc.2 Released with GitHub Actions Reporter & Browser Fixes]]></title>
+        <id>https://digestweb.dev/articles/2026-08-17/vitest-v5-rc2-github-actions-browser-fixes</id>
+        <link href="https://digestweb.dev/articles/2026-08-17/vitest-v5-rc2-github-actions-browser-fixes"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/ae84c0dea27f97dc33040d2d137fe77a80635f2c563c8a5ecbc18f21448cd8ed/vitest-dev/vitest/releases/tag/v5.0.0-rc.2" type="image/2"/>
+        <updated>2026-08-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Vitest's latest release candidate introduces a custom GitHub Actions summary title and crucial bug fixes for browser testing and concurrency.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Vitest v5.0.0-rc.2 introduces a custom GitHub Actions summary title for improved reporting.
+- It revives the global concurrency limit for the test lifecycle, enhancing stability.
+- Several bug fixes address issues with browser testing, including graceful exits and GC triggers.
+- The release improves handling of post-restart reruns and process exit in workers.
+- Snapshot evaluation now supports no-unsafe-eval CSP by processing files on the server.
+- UI improvements include fixes for code editor errors and layout shifts.
+- Security enhancements require authentication for coverage reports and UI subtree requests.
+
+## Our Commentary
+
+A release candidate for Vitest v5 is out, and it's packed with some solid improvements. We're particularly interested in the GitHub Actions reporter enhancements; better CI/CD integration is always a win. The browser testing fixes are also crucial, as flaky browser tests are a nightmare. It's good to see them tightening up security around coverage reports too. This feels like a strong step towards a stable v5, and we're eager to see the final release.
+
+Original Link: https://github.com/vitest-dev/vitest/releases/tag/v5.0.0-rc.2]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Anthropic CEO Dario Amodei on AI Trust: "We Haven't Delivered"]]></title>
         <id>https://digestweb.dev/articles/2026-08-16/anthropic-ceo-dario-amodei-ai-trust-we-havent-delivered</id>
