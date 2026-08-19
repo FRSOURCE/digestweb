@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-08-18T07:38:03.307Z</updated>
+    <updated>2026-08-19T02:22:46.039Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,132 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Animated Testimonial Hero with GSAP, JS, and CMS Data]]></title>
+        <id>https://digestweb.dev/articles/2026-08-18/animated-testimonial-hero-gsap-js-cms-webflow</id>
+        <link href="https://digestweb.dev/articles/2026-08-18/animated-testimonial-hero-gsap-js-cms-webflow"/>
+        <link rel="enclosure" href="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/08/Animated-Testimonial-teaser-16-9.jpg?x57826" type="image/jpg"/>
+        <updated>2026-08-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn to create a dynamic and animated testimonial hero section using GSAP's timeline, custom JavaScript, and data from a CMS, specifically within a Webflow environment.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The tutorial focuses on building an animated testimonial hero section.
+- It leverages GSAP's timeline for complex animations.
+- Dynamic content is pulled from a CMS.
+- Custom JavaScript is used for interactive elements like counters.
+- The example is implemented within Webflow.
+
+## Our Commentary
+
+Codrops always delivers on the visual front. This tutorial looks like a great way to get hands-on with GSAP and see how it integrates with dynamic data. I appreciate the focus on a practical UI component. It's a good reminder that even with all the framework churn, core web animations and data binding remain fundamental.
+
+Original Link: https://tympanus.net/codrops/2026/08/18/building-an-animated-testimonial-hero-using-the-gsap-timeline-and-dynamic-cms-data/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CodePen 2.0: Navigating UI Changes and User Reactions]]></title>
+        <id>https://digestweb.dev/articles/2026-08-18/codepen-2-0-ui-changes-user-reactions</id>
+        <link href="https://digestweb.dev/articles/2026-08-18/codepen-2-0-ui-changes-user-reactions"/>
+        <link rel="enclosure" href="https://s0.wp.com/i/blank.jpg" type="image/jpg"/>
+        <updated>2026-08-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A discussion on the CodePen blog about the user experience and reactions to UI changes introduced in the platform's 2.0 launch, highlighting how users adapt to new layouts.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article discusses the period following CodePen's 2.0 launch.
+- It addresses changes in UI element locations.
+- User reactions to the new interface are explored.
+- Some users adapt easily, while others find it challenging.
+- The post reflects on the impact of significant platform updates.
+
+## Our Commentary
+
+Ah, the classic "moved my cheese" scenario. It's a universal truth that any UI change, no matter how well-intentioned, will ruffle some feathers. I've been there, both as a user and a developer. It's a good reminder that even small tweaks can have a big impact on muscle memory. It's tough balancing innovation with user familiarity.
+
+Original Link: https://blog.codepen.io/2026/08/18/437-the-cheese-it-has-been-moved/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cypress Tap: Empowering AI Agents with Cypress App Context]]></title>
+        <id>https://digestweb.dev/articles/2026-08-18/cypress-tap-ai-agents-testing-context</id>
+        <link href="https://digestweb.dev/articles/2026-08-18/cypress-tap-ai-agents-testing-context"/>
+        <link rel="enclosure" href="https://storage.ghost.io/c/12/89/12899ca1-4786-4eea-b7e1-9c5268baa48a/content/images/2026/08/Cypress-App-CLI-Release-v2.png" type="image/png"/>
+        <updated>2026-08-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cypress introduces `cypress tap`, a new CLI tool that provides AI agents with direct access to Cypress app context, allowing them to author, extend, and debug tests more effectively.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- `cypress tap` is a new set of CLI commands for Cypress.
+- It pulls Cypress app context directly into the terminal.
+- This enables AI agents to drive Cypress open sessions.
+- AI can now author new tests and extend existing ones.
+- Agents can read test failures with the same context as the Cypress app.
+
+## Our Commentary
+
+Okay, this is genuinely interesting. Giving AI agents the _visual context_ of the Cypress app is a smart move. It's one thing for an AI to generate code, but understanding the _state_ of the application during a test run is a whole other level. I'm a little skeptical about how well AI will "author" new tests without human guidance, but for debugging and extending existing ones, this could be a game-changer. It feels like a step towards truly autonomous testing agents, and that's both exciting and a little unsettling.
+
+Original Link: https://www.cypress.io/blog/cypress-tap-cli/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js 16.3: Instant Navigations & Optimistic Updates for App-like UX]]></title>
+        <id>https://digestweb.dev/articles/2026-08-18/nextjs-16-3-instant-navigations-optimistic-updates</id>
+        <link href="https://digestweb.dev/articles/2026-08-18/nextjs-16-3-instant-navigations-optimistic-updates"/>
+        <link rel="enclosure" href="https://h8dxkfmaphn8o0p3.public.blob.vercel-storage.com/static/blog/building-app-like-experiences-with-nextjs-16-3/twitter-card.png" type="image/png"/>
+        <updated>2026-08-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Next.js 16.3 introduces features like Instant Navigations, server-rendered data, and optimistic updates to help developers build more dynamic and responsive app-like user experiences.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Next.js 16.3 focuses on building app-like experiences.
+- New Instant Navigations provide faster page transitions.
+- Server-rendered data capabilities are enhanced.
+- Optimistic updates improve perceived performance and responsiveness.
+- Live client state management is integrated for dynamic UIs.
+
+## Our Commentary
+
+This is a solid update. Instant Navigations and optimistic updates are huge for perceived performance. I'm always a little wary of how much "magic" Next.js tries to abstract away, but these features directly address common pain points in building truly dynamic web apps. It feels like they're really pushing the boundaries of what a server-rendered framework can do for client-side UX.
+
+Original Link: https://nextjs.org/blog/building-app-like-experiences-with-nextjs-16-3]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pnpm 12 RC 7: Enhancements to Dependency Resolution and Virtual Store]]></title>
+        <id>https://digestweb.dev/articles/2026-08-18/pnpm-12-rc-7-dependency-resolution-virtual-store-enhancements</id>
+        <link href="https://digestweb.dev/articles/2026-08-18/pnpm-12-rc-7-dependency-resolution-virtual-store-enhancements"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/b2da0d5270ba579d04cf3635a3b91817a74f72c0c7e2b29d821019af0dc6e81d/pnpm/pnpm/releases/tag/v12.0.0-rc.7" type="image/7"/>
+        <updated>2026-08-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[pnpm 12 RC 7 brings technical refinements to dependency resolution, virtual store behavior, and registry metadata handling, preparing for the upcoming major release.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- `node_modules/.modules.yaml` no longer records old registry information.
+- `pnpm list` and `pnpm why` now use configured registries.
+- `enableGlobalVirtualStore` now correctly sets `NODE_PATH` and `NODE_OPTIONS` for spawned processes.
+- Phantom dependencies resolve correctly under the global virtual store for CommonJS and ESM.
+- Registries can declare `supportsTimeField` for more efficient time-based resolution.
+
+## Our Commentary
+
+RC 7, huh? It's good to see the continued refinement of pnpm. The `NODE_PATH` and `NODE_OPTIONS` changes for the global virtual store are a big deal for consistency, especially with ESM. I'm always a little nervous about how many subtle ways package managers can break things, so these kinds of fixes are crucial. The registry `supportsTimeField` is a nice optimization for those using time-based resolution.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.7]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pnpr 0.1.0-alpha.7: Protocol Updates for Package Resolution]]></title>
+        <id>https://digestweb.dev/articles/2026-08-18/pnpr-0-1-0-alpha-7-package-resolution-protocol-updates</id>
+        <link href="https://digestweb.dev/articles/2026-08-18/pnpr-0-1-0-alpha-7-package-resolution-protocol-updates"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/cc504caa6157b8d568a19176af7d1ea667b9817dc671c42f7a3abcd9963104f0/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.7" type="image/7"/>
+        <updated>2026-08-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[pnpr 0.1.0-alpha.7 introduces updates to its package resolution protocol, including changes to Packument responses and how client registry configurations are handled by the server.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Packument responses now include a `Last-Modified` header for efficient release-age checks.
+- `pnpr resolve` requests carry client registries more comprehensively.
+- The server now correctly routes scoped dependencies based on client configuration.
+- `serverType` declarations are now respected by the server.
+- Resolution mode (`time-based`, `lowest-direct`) is now passed to the `pnpr` server.
+
+## Our Commentary
+
+This `pnpr` project is still very much in alpha, and these are deep protocol changes. It's interesting to see the evolution of package management infrastructure, but this is definitely for the power users and maintainers. I'm curious to see how this integrates with the broader pnpm ecosystem once it matures. For now, it's a peek behind the curtain.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.7]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Making AI Agent Workflows Visible, Steerable, and Cost-Efficient with Canvases]]></title>
         <id>https://digestweb.dev/articles/2026-08-17/ai-agent-workflows-canvases-visibility-cost-efficiency</id>

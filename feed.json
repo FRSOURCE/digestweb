@@ -11,6 +11,60 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-08-18/animated-testimonial-hero-gsap-js-cms-webflow",
+            "content_html": "## Summary & Key Takeaways\n\n- The tutorial focuses on building an animated testimonial hero section.\n- It leverages GSAP's timeline for complex animations.\n- Dynamic content is pulled from a CMS.\n- Custom JavaScript is used for interactive elements like counters.\n- The example is implemented within Webflow.\n\n## Our Commentary\n\nCodrops always delivers on the visual front. This tutorial looks like a great way to get hands-on with GSAP and see how it integrates with dynamic data. I appreciate the focus on a practical UI component. It's a good reminder that even with all the framework churn, core web animations and data binding remain fundamental.\n\nOriginal Link: https://tympanus.net/codrops/2026/08/18/building-an-animated-testimonial-hero-using-the-gsap-timeline-and-dynamic-cms-data/",
+            "url": "https://digestweb.dev/articles/2026-08-18/animated-testimonial-hero-gsap-js-cms-webflow",
+            "title": "Animated Testimonial Hero with GSAP, JS, and CMS Data",
+            "summary": "Learn to create a dynamic and animated testimonial hero section using GSAP's timeline, custom JavaScript, and data from a CMS, specifically within a Webflow environment.",
+            "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/08/Animated-Testimonial-teaser-16-9.jpg?x57826",
+            "date_modified": "2026-08-18T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-18/codepen-2-0-ui-changes-user-reactions",
+            "content_html": "## Summary & Key Takeaways\n\n- The article discusses the period following CodePen's 2.0 launch.\n- It addresses changes in UI element locations.\n- User reactions to the new interface are explored.\n- Some users adapt easily, while others find it challenging.\n- The post reflects on the impact of significant platform updates.\n\n## Our Commentary\n\nAh, the classic \"moved my cheese\" scenario. It's a universal truth that any UI change, no matter how well-intentioned, will ruffle some feathers. I've been there, both as a user and a developer. It's a good reminder that even small tweaks can have a big impact on muscle memory. It's tough balancing innovation with user familiarity.\n\nOriginal Link: https://blog.codepen.io/2026/08/18/437-the-cheese-it-has-been-moved/",
+            "url": "https://digestweb.dev/articles/2026-08-18/codepen-2-0-ui-changes-user-reactions",
+            "title": "CodePen 2.0: Navigating UI Changes and User Reactions",
+            "summary": "A discussion on the CodePen blog about the user experience and reactions to UI changes introduced in the platform's 2.0 launch, highlighting how users adapt to new layouts.",
+            "image": "https://s0.wp.com/i/blank.jpg",
+            "date_modified": "2026-08-18T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-18/cypress-tap-ai-agents-testing-context",
+            "content_html": "## Summary & Key Takeaways\n\n- `cypress tap` is a new set of CLI commands for Cypress.\n- It pulls Cypress app context directly into the terminal.\n- This enables AI agents to drive Cypress open sessions.\n- AI can now author new tests and extend existing ones.\n- Agents can read test failures with the same context as the Cypress app.\n\n## Our Commentary\n\nOkay, this is genuinely interesting. Giving AI agents the _visual context_ of the Cypress app is a smart move. It's one thing for an AI to generate code, but understanding the _state_ of the application during a test run is a whole other level. I'm a little skeptical about how well AI will \"author\" new tests without human guidance, but for debugging and extending existing ones, this could be a game-changer. It feels like a step towards truly autonomous testing agents, and that's both exciting and a little unsettling.\n\nOriginal Link: https://www.cypress.io/blog/cypress-tap-cli/",
+            "url": "https://digestweb.dev/articles/2026-08-18/cypress-tap-ai-agents-testing-context",
+            "title": "Cypress Tap: Empowering AI Agents with Cypress App Context",
+            "summary": "Cypress introduces `cypress tap`, a new CLI tool that provides AI agents with direct access to Cypress app context, allowing them to author, extend, and debug tests more effectively.",
+            "image": "https://storage.ghost.io/c/12/89/12899ca1-4786-4eea-b7e1-9c5268baa48a/content/images/2026/08/Cypress-App-CLI-Release-v2.png",
+            "date_modified": "2026-08-18T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-18/nextjs-16-3-instant-navigations-optimistic-updates",
+            "content_html": "## Summary & Key Takeaways\n\n- Next.js 16.3 focuses on building app-like experiences.\n- New Instant Navigations provide faster page transitions.\n- Server-rendered data capabilities are enhanced.\n- Optimistic updates improve perceived performance and responsiveness.\n- Live client state management is integrated for dynamic UIs.\n\n## Our Commentary\n\nThis is a solid update. Instant Navigations and optimistic updates are huge for perceived performance. I'm always a little wary of how much \"magic\" Next.js tries to abstract away, but these features directly address common pain points in building truly dynamic web apps. It feels like they're really pushing the boundaries of what a server-rendered framework can do for client-side UX.\n\nOriginal Link: https://nextjs.org/blog/building-app-like-experiences-with-nextjs-16-3",
+            "url": "https://digestweb.dev/articles/2026-08-18/nextjs-16-3-instant-navigations-optimistic-updates",
+            "title": "Next.js 16.3: Instant Navigations & Optimistic Updates for App-like UX",
+            "summary": "Next.js 16.3 introduces features like Instant Navigations, server-rendered data, and optimistic updates to help developers build more dynamic and responsive app-like user experiences.",
+            "image": "https://h8dxkfmaphn8o0p3.public.blob.vercel-storage.com/static/blog/building-app-like-experiences-with-nextjs-16-3/twitter-card.png",
+            "date_modified": "2026-08-18T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-18/pnpm-12-rc-7-dependency-resolution-virtual-store-enhancements",
+            "content_html": "## Summary & Key Takeaways\n\n- `node_modules/.modules.yaml` no longer records old registry information.\n- `pnpm list` and `pnpm why` now use configured registries.\n- `enableGlobalVirtualStore` now correctly sets `NODE_PATH` and `NODE_OPTIONS` for spawned processes.\n- Phantom dependencies resolve correctly under the global virtual store for CommonJS and ESM.\n- Registries can declare `supportsTimeField` for more efficient time-based resolution.\n\n## Our Commentary\n\nRC 7, huh? It's good to see the continued refinement of pnpm. The `NODE_PATH` and `NODE_OPTIONS` changes for the global virtual store are a big deal for consistency, especially with ESM. I'm always a little nervous about how many subtle ways package managers can break things, so these kinds of fixes are crucial. The registry `supportsTimeField` is a nice optimization for those using time-based resolution.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.7",
+            "url": "https://digestweb.dev/articles/2026-08-18/pnpm-12-rc-7-dependency-resolution-virtual-store-enhancements",
+            "title": "pnpm 12 RC 7: Enhancements to Dependency Resolution and Virtual Store",
+            "summary": "pnpm 12 RC 7 brings technical refinements to dependency resolution, virtual store behavior, and registry metadata handling, preparing for the upcoming major release.",
+            "image": "https://opengraph.githubassets.com/b2da0d5270ba579d04cf3635a3b91817a74f72c0c7e2b29d821019af0dc6e81d/pnpm/pnpm/releases/tag/v12.0.0-rc.7",
+            "date_modified": "2026-08-18T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-18/pnpr-0-1-0-alpha-7-package-resolution-protocol-updates",
+            "content_html": "## Summary & Key Takeaways\n\n- Packument responses now include a `Last-Modified` header for efficient release-age checks.\n- `pnpr resolve` requests carry client registries more comprehensively.\n- The server now correctly routes scoped dependencies based on client configuration.\n- `serverType` declarations are now respected by the server.\n- Resolution mode (`time-based`, `lowest-direct`) is now passed to the `pnpr` server.\n\n## Our Commentary\n\nThis `pnpr` project is still very much in alpha, and these are deep protocol changes. It's interesting to see the evolution of package management infrastructure, but this is definitely for the power users and maintainers. I'm curious to see how this integrates with the broader pnpm ecosystem once it matures. For now, it's a peek behind the curtain.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.7",
+            "url": "https://digestweb.dev/articles/2026-08-18/pnpr-0-1-0-alpha-7-package-resolution-protocol-updates",
+            "title": "pnpr 0.1.0-alpha.7: Protocol Updates for Package Resolution",
+            "summary": "pnpr 0.1.0-alpha.7 introduces updates to its package resolution protocol, including changes to Packument responses and how client registry configurations are handled by the server.",
+            "image": "https://opengraph.githubassets.com/cc504caa6157b8d568a19176af7d1ea667b9817dc671c42f7a3abcd9963104f0/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.7",
+            "date_modified": "2026-08-18T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-08-17/ai-agent-workflows-canvases-visibility-cost-efficiency",
             "content_html": "## Summary & Key Takeaways\n\n- Traditional chat interfaces obscure the progress of AI agents, making complex tasks hard to follow.\n- Canvases provide a visual, structured environment to track and manage agentic workflows.\n- This approach improves the steerability of agents, allowing for better intervention and guidance.\n- Visualizing workflows helps in identifying inefficiencies and optimizing resource usage.\n- The article advocates for integrating canvases into agent development for clearer oversight.\n\n## Our Commentary\n\nWe've all been there, watching an AI agent churn through tasks, wondering what it's actually doing. The idea of using canvases to visualize these workflows feels like a breath of fresh air. I mean, how many times have I scrolled endlessly through a chat log trying to debug an agent's thought process? This is a practical step towards making AI agents less of a black box and more of a collaborative partner. It's about bringing clarity to the chaos, and we're here for it.\n\nOriginal Link: https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/",
             "url": "https://digestweb.dev/articles/2026-08-17/ai-agent-workflows-canvases-visibility-cost-efficiency",
