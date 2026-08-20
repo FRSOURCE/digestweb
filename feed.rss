@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Thu, 20 Aug 2026 02:18:11 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 20 Aug 2026 07:40:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,28 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[AI & Dev Productivity: Re-evaluating LOC and Cognitive Capacity]]></title>
+            <link>https://digestweb.dev/articles/2026-08-19/ai-dev-productivity-loc-cognitive-capacity</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-19/ai-dev-productivity-loc-cognitive-capacity</guid>
+            <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison discusses how AI agents challenge traditional productivity metrics like lines of code and introduces cognitive capacity as a new limiting factor.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- AI agents can significantly increase the volume of production-ready code a developer produces.
+- Simon Willison argues that lines of code can be a valid productivity metric with AI, given quality.
+- The new limiting factor in AI-assisted development becomes cognitive capacity, not code output.
+- Teams are still essential for load-balancing this cognitive burden.
+- The concept of "conceptual integrity" in software design remains crucial.
+
+## Our Commentary
+
+I've always been told LOC is a terrible metric, but Simon's argument here makes a lot of sense in the age of AI. The idea that our _brains_ are now the bottleneck, not our typing speed, is a profound shift. It makes me wonder if we'll see new roles emerge focused purely on maintaining conceptual integrity across vast, AI-generated codebases. The Winchester Mystery House analogy for lack of conceptual integrity is just perfect.
+
+Original Link: https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/790/800/450" length="0" type="image//id/790/800/450"/>
+        </item>
         <item>
             <title><![CDATA[CSS Navigation Matching: Declarative View Transitions]]></title>
             <link>https://digestweb.dev/articles/2026-08-19/css-navigation-matching-declarative-view-transitions</link>
@@ -34,6 +56,28 @@ This is exactly the kind of web platform evolution we love to see. Moving comple
 
 Original Link: https://css-tricks.com/css-navigation-matching-early-days/]]></content:encoded>
             <enclosure url="https://i0.wp.com/css-tricks.com/wp-content/uploads/2018/04/higher-order-components.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Extensible Software: LLMs & Sandboxes Powering User Extensions]]></title>
+            <link>https://digestweb.dev/articles/2026-08-19/extensible-software-llms-sandboxes-user-extensions</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-19/extensible-software-llms-sandboxes-user-extensions</guid>
+            <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Jeremy Morrell posits a new era for extensible web software, where LLMs simplify extension authoring and sandboxes ensure secure deployment.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Jeremy Morrell proposes a new opportunity for extensible web software.
+- LLMs significantly reduce the cost of authoring software extensions.
+- Modern sandbox primitives lower deployment costs and enhance security.
+- This combination allows users to safely extend applications.
+- The core app remains accountable while users gain "superpowers."
+
+## Our Commentary
+
+This idea feels like it's been bubbling for a while, but the LLM angle genuinely changes the game. The thought of users just _describing_ an extension and having an agent build it within a secure sandbox is wild. It's a future I'm both excited and slightly terrified by. The implications for user empowerment are huge, but so are the potential complexities.
+
+Original Link: https://simonwillison.net/2026/Aug/19/jeremy-morrell/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/128/800/450" length="0" type="image//id/128/800/450"/>
         </item>
         <item>
             <title><![CDATA[GitHub Copilot: Managing Your Work as a Beginner]]></title>
@@ -134,6 +178,29 @@ A free tier for AI-powered coding? This is huge for accessibility. We've seen so
 
 Original Link: https://openai.com/index/replit]]></content:encoded>
             <enclosure url="https://picsum.photos/id/512/800/450" length="0" type="image//id/512/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Smolmachines & Smolvm: Secure Sandboxing for Untrusted Python/JS Code]]></title>
+            <link>https://digestweb.dev/articles/2026-08-19/smolmachines-smolvm-secure-python-javascript-sandbox</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-19/smolmachines-smolvm-secure-python-javascript-sandbox</guid>
+            <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore how smolmachines and smolvm provide a secure sandbox for untrusted Python and JavaScript, showcasing an AI agent's creative problem-solving.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- smolmachines and smolvm offer a secure sandbox for untrusted Python and JavaScript code.
+- The goal is to limit RAM/CPU, prevent network access, and restrict filesystem access.
+- Claude Fable 5 was tasked with testing the sandbox for data transformations.
+- The AI agent creatively used GitHub Actions to bypass environment limitations.
+- This demonstrates proactive problem-solving by advanced AI models.
+- The technology is relevant for executing user-provided tasks securely.
+
+## Our Commentary
+
+This is a fascinating intersection of secure execution and AI capabilities. The AI agent's ability to adapt and find a workaround is genuinely impressive. It makes me wonder about the future of dev environments and how much more autonomous these systems will become. We're seeing AI not just generate, but actively troubleshoot its own operational constraints.
+
+Original Link: https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/696/800/450" length="0" type="image//id/696/800/450"/>
         </item>
         <item>
             <title><![CDATA[Animated Testimonial Hero with GSAP, JS, and CMS Data]]></title>
