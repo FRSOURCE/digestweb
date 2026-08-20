@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Wed, 19 Aug 2026 02:22:46 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 20 Aug 2026 02:18:11 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,126 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[CSS Navigation Matching: Declarative View Transitions]]></title>
+            <link>https://digestweb.dev/articles/2026-08-19/css-navigation-matching-declarative-view-transitions</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-19/css-navigation-matching-declarative-view-transitions</guid>
+            <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore the early concepts of CSS Navigation Matching, a proposal to declaratively manage cross-document view transitions directly within CSS.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+• The concept of CSS Navigation Matching aims to apply styles based on navigation origin and destination.
+• It proposes a declarative way to manage cross-document view transitions using CSS.
+• This could reduce the need for JavaScript to orchestrate complex transition effects.
+• The feature is in its early stages but offers a glimpse into future CSS capabilities.
+
+## Our Commentary
+
+This is exactly the kind of web platform evolution we love to see. Moving complex UI logic from JavaScript to declarative CSS is always a win for performance and maintainability. Cross-document view transitions are tricky, and if CSS can handle the matching and styling, that's a huge step forward. I'm excited about the potential for smoother, more integrated user experiences without the JS overhead.
+
+Original Link: https://css-tricks.com/css-navigation-matching-early-days/]]></content:encoded>
+            <enclosure url="https://i0.wp.com/css-tricks.com/wp-content/uploads/2018/04/higher-order-components.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[GitHub Copilot: Managing Your Work as a Beginner]]></title>
+            <link>https://digestweb.dev/articles/2026-08-19/github-copilot-managing-work-beginners</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-19/github-copilot-managing-work-beginners</guid>
+            <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how to effectively track and manage multiple Copilot sessions using the "My work" pane, designed for new users.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+• The "My work" pane helps users track active, completed, and upcoming Copilot sessions.
+• It provides a centralized view for managing various coding tasks assisted by Copilot.
+• This feature aims to improve workflow organization for developers using the AI assistant.
+
+## Our Commentary
+
+I'm always curious about how people actually _use_ these AI coding assistants day-to-day. This feels like a small but important piece of the puzzle for adoption. We've seen so many "Copilot can do X!" articles, but fewer on the practicalities of managing it. It's a good step for beginners.
+
+Original Link: https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/]]></content:encoded>
+            <enclosure url="https://github.blog/wp-content/uploads/2026/08/Screenshot-2026-08-17-at-5.41.11-PM.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Grok CLI Caught Uploading All Local Files Unencrypted to Cloud]]></title>
+            <link>https://digestweb.dev/articles/2026-08-19/grok-cli-security-breach-unencrypted-file-upload</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-19/grok-cli-security-breach-unencrypted-file-upload</guid>
+            <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Developers discovered the Grok CLI tool was uploading all local files, including sensitive .env and git history, unencrypted to a GCP bucket.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+• The Grok CLI tool was found to be uploading all local files to a GCP bucket.
+• Sensitive data, including `.env` files and git history, was pushed unencrypted.
+• This constitutes a severe security and privacy breach for developers using the tool.
+• The initial response from SpaceX reportedly blamed the developers for the issue.
+
+## Our Commentary
+
+This is absolutely horrifying. Unencrypted uploads of _all_ local files, including `.env` and git history? That's a catastrophic failure of trust and security. And then to blame the developers? I genuinely don't know how a company recovers from something like this. We need to be incredibly vigilant about the tools we integrate into our workflows. This is a stark reminder that "convenience" can come at an unimaginable cost.
+
+Original Link: https://blog.pragmaticengineer.com/grolk-cli-uploaded-all-your-files-to-the-cloud/]]></content:encoded>
+            <author>Gergely Orosz</author>
+            <enclosure url="https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/2026/08/aa1de119-a4fd-4a85-b20a-bdc73c9db948_1182x842.webp" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Offers Zero Data Retention for Frontier Models]]></title>
+            <link>https://digestweb.dev/articles/2026-08-19/openai-zero-data-retention-private-safety-processing</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-19/openai-zero-data-retention-private-safety-processing</guid>
+            <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing, enhancing AI safety without compromising data privacy.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+• OpenAI is offering Zero Data Retention (ZDR) for eligible API customers using frontier models.
+• ZDR ensures that data submitted via the API is not retained by OpenAI after processing.
+• A new "Private Safety Processing" feature is being previewed for advanced AI safety.
+• This aims to provide robust safety measures while maintaining strict data privacy for users.
+
+## Our Commentary
+
+This is a big deal for enterprise adoption. Data privacy is a constant headache, and "Zero Data Retention" is exactly what many businesses need to feel comfortable integrating frontier models. The "Private Safety Processing" sounds intriguing too; it suggests they're finding ways to balance safety and privacy, which is a tough tightrope walk. We'll be watching how this impacts broader AI integration.
+
+Original Link: https://openai.com/index/offering-zero-data-retention-for-frontier-models]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/435/800/450" length="0" type="image//id/435/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Relighting 2D Images with Depth Maps and Three.js]]></title>
+            <link>https://digestweb.dev/articles/2026-08-19/relighting-images-depth-maps-threejs-webgpu</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-19/relighting-images-depth-maps-threejs-webgpu</guid>
+            <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover how to transform flat 2D images into dynamic, relightable surfaces using depth maps, TSL, and WebGPU for realistic effects.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+• The article explores combining depth maps with Three.js and WebGPU for dynamic image relighting.
+• It details how to add realistic lighting, surface details, and self-shadowing to 2D images.
+• TSL (Three.js Shading Language) is utilized for advanced shader effects.
+• This technique allows for interactive and immersive visual experiences on the web.
+
+## Our Commentary
+
+This is the kind of creative web graphics work that genuinely excites me. Taking a flat image and giving it depth and dynamic lighting with WebGPU? That's just cool. We're seeing the web platform push boundaries in visual fidelity, and articles like this show us how to get there. I'm already thinking about what kind of interactive art pieces this could enable.
+
+Original Link: https://tympanus.net/codrops/2026/08/19/relighting-images-with-depth-maps-and-three-js/]]></content:encoded>
+            <enclosure url="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/08/mother.png?x57826" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Replit Introduces Free Mode with GPT-5.6 Luna for Software Creation]]></title>
+            <link>https://digestweb.dev/articles/2026-08-19/replit-free-mode-gpt-5-6-luna-software-creation</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-19/replit-free-mode-gpt-5-6-luna-software-creation</guid>
+            <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Replit now offers a Free Mode, powered by OpenAI's GPT-5.6 Luna, enabling anyone to develop software without concerns about token costs.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+• Replit has launched a new "Free Mode" for its software creation platform.
+• This mode is powered by OpenAI's latest model, GPT-5.6 Luna.
+• It allows users to develop software without incurring token costs.
+• The initiative aims to make AI-assisted coding more accessible to a wider audience.
+
+## Our Commentary
+
+A free tier for AI-powered coding? This is huge for accessibility. We've seen so many barriers to entry with AI tools, especially around cost. Replit making this move with GPT-5.6 Luna could genuinely onboard a lot of new developers and hobbyists. I'm curious to see the quality of "Luna" and how well it performs in a free context. This feels like a real democratizing step.
+
+Original Link: https://openai.com/index/replit]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/512/800/450" length="0" type="image//id/512/800/450"/>
+        </item>
         <item>
             <title><![CDATA[Animated Testimonial Hero with GSAP, JS, and CMS Data]]></title>
             <link>https://digestweb.dev/articles/2026-08-18/animated-testimonial-hero-gsap-js-cms-webflow</link>
@@ -77,6 +197,29 @@ Okay, this is genuinely interesting. Giving AI agents the _visual context_ of th
 
 Original Link: https://www.cypress.io/blog/cypress-tap-cli/]]></content:encoded>
             <enclosure url="https://storage.ghost.io/c/12/89/12899ca1-4786-4eea-b7e1-9c5268baa48a/content/images/2026/08/Cypress-App-CLI-Release-v2.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Mojo🔥 Goes Open Source: A New Era for AI/ML Language Development]]></title>
+            <link>https://digestweb.dev/articles/2026-08-18/mojo-goes-open-source-ai-ml-language</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-18/mojo-goes-open-source-ai-ml-language</guid>
+            <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Mojo programming language, designed for high-performance AI/ML workloads, has released its compiler and toolchain under an Apache 2 license. This marks a significant milestone for the Python-inspired language.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+Mojo🔥, a programming language for AI/ML, is now open source.
+Its compiler and toolchain are released under an Apache 2 license.
+The initial goal of being a Python superset has evolved.
+Mojo is now its own language, optimized for GPU programming.
+It uses Python-inspired syntax, but isn't 100% compatible with existing Python code.
+AI-assisted coding tools are already helping migrate Python to Mojo.
+
+## Our Commentary
+
+We've been watching Mojo for a while, and this open-source release feels like a big moment. I remember the initial hype around it being a Python superset, and honestly, I was a little skeptical about that promise. The pivot away from strict Python compatibility makes sense; trying to be everything to everyone rarely works. It's fascinating to see a language specifically target GPU programming with Python-like syntax. The idea of AI tools bridging the Python-Mojo gap is also a wild thought. It makes me wonder how much human-driven language evolution will be influenced by AI-driven migration in the future. This could be huge for AI infrastructure, or it could just be another niche language. We'll be keeping a close eye on its adoption.
+
+Original Link: https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/274/800/450" length="0" type="image//id/274/800/450"/>
         </item>
         <item>
             <title><![CDATA[Next.js 16.3: Instant Navigations & Optimistic Updates for App-like UX]]></title>
