@@ -11,6 +11,18 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-08-20/bun-1-4-bun-webview-browser-automation-api",
+            "content_html": "## Summary & Key Takeaways\n\n• Bun 1.4 has been released, featuring a significant Rust rewrite under the hood.\n• The release includes numerous new features, bug fixes, and performance improvements.\n• `Bun.WebView` is a standout addition, offering first-class browser automation.\n• It supports both macOS WebKit and local Chromium via the Chrome DevTools Protocol.\n• A prototype JSON API was built to demonstrate `Bun.WebView`'s capabilities for executing JavaScript against web pages.\n• The prototype service required 192MB-256MB of RAM for full Chrome operation.\n• Other new features include `Bun.Image`, `Bun.markdown`, `Bun.cron()`, and parallel test/run commands.\n\n## Our Commentary\n\nBun 1.4 is a beast of a release. We're still reeling from the Rust rewrite news, and now they drop `Bun.WebView`? This is huge for anyone doing web scraping, testing, or even just generating screenshots. The idea of having browser automation baked directly into the runtime, without external dependencies like Playwright or Puppeteer, is incredibly appealing. I'm excited to see how this impacts the tooling ecosystem. The memory footprint for a full Chrome instance is something to watch, but the convenience might outweigh it for many use cases.\n\nOriginal Link: https://simonwillison.net/2026/Aug/20/bun-webview-json-api/",
+            "url": "https://digestweb.dev/articles/2026-08-20/bun-1-4-bun-webview-browser-automation-api",
+            "title": "Bun 1.4 Unleashes `Bun.WebView` for Browser Automation",
+            "summary": "Bun 1.4 introduces `Bun.WebView`, enabling powerful browser automation directly within the runtime, opening new possibilities for web scraping and testing.",
+            "image": "https://picsum.photos/id/905/800/450",
+            "date_modified": "2026-08-20T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-08-20/bun-1-4-rust-rewrite-headless-browser-faster-installs",
             "content_html": "## Summary & Key Takeaways\n\n- Bun 1.4 has been rewritten in Rust, enhancing its core performance and stability.\n- It introduces built-in headless browser automation via `Bun.WebView`.\n- New APIs for image manipulation (`Bun.Image`), Markdown parsing (`Bun.markdown`), JSON5, JSONL, Terminal, and cron are now available.\n- Node.js 26.3.0 compatibility has been significantly improved with 1,517 new passing tests.\n- The release includes parallel test and run capabilities.\n- Windows ARM64 is now supported.\n- An opt-in global virtual store can lead to up to 7x faster package installs.\n\n## Our Commentary\n\nOkay, Bun 1.4 is just _wild_. A full rewrite in Rust? That's a massive undertaking. We're talking about a fundamental shift here.\nAnd then they just casually drop \"built-in headless browser automation.\" That's a game-changer for testing and scraping, potentially cutting out a whole dependency layer.\nThe speed claims are always impressive with Bun, but 7x faster installs with a global virtual store? I'm genuinely curious how that plays out in real-world dev workflows.\nIt feels like Bun is trying to be _everything_ for JavaScript developers, and honestly, I'm here for it. The ambition is palpable.\n\nOriginal Link: https://bun.com/blog/bun-v1.4",
             "url": "https://digestweb.dev/articles/2026-08-20/bun-1-4-rust-rewrite-headless-browser-faster-installs",
@@ -20,6 +32,18 @@
             "date_modified": "2026-08-20T00:00:00.000Z",
             "author": {
                 "name": "Jarred Sumner"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-20/chatgpt-search-site-operator-scale-geo",
+            "content_html": "## Summary & Key Takeaways\n\n• Promptwatch data indicates a sharp increase in ChatGPT's use of the `site:` operator in its internal search queries.\n• This change aligns with OpenAI's recent GPT-5.6 update, promising more reliable and focused answers.\n• The shift suggests a move towards more targeted web sourcing by the AI.\n• The article introduces \"Generative Engine Optimization\" (GEO) as a new field akin to SEO for chatbots.\n• Promptwatch also observed a significant reduction in Reddit being used as a source in these searches.\n• OpenAI's system prompts remain largely obscured, making direct verification difficult.\n\n## Our Commentary\n\nThis is fascinating. The idea of \"Generative Engine Optimization\" is already here, and we're seeing the first real-world data points. The `site:` operator usage is a clear signal of more controlled, perhaps curated, information retrieval. I'm genuinely curious about the implications for content creators. Will we see a new wave of AI-specific SEO tactics? The Reddit reduction is also telling; it feels like a move towards more authoritative sources, or at least away from the noise.\n\nOriginal Link: https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
+            "url": "https://digestweb.dev/articles/2026-08-20/chatgpt-search-site-operator-scale-geo",
+            "title": "ChatGPT's Search Now Leverages `site:` Operator at Scale",
+            "summary": "New data suggests ChatGPT's internal search is extensively using the `site:` operator, a shift with implications for how AI models source web content.",
+            "image": "https://picsum.photos/id/663/800/450",
+            "date_modified": "2026-08-20T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
             }
         },
         {
