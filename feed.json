@@ -11,6 +11,72 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-08-20/bun-1-4-rust-rewrite-headless-browser-faster-installs",
+            "content_html": "## Summary & Key Takeaways\n\n- Bun 1.4 has been rewritten in Rust, enhancing its core performance and stability.\n- It introduces built-in headless browser automation via `Bun.WebView`.\n- New APIs for image manipulation (`Bun.Image`), Markdown parsing (`Bun.markdown`), JSON5, JSONL, Terminal, and cron are now available.\n- Node.js 26.3.0 compatibility has been significantly improved with 1,517 new passing tests.\n- The release includes parallel test and run capabilities.\n- Windows ARM64 is now supported.\n- An opt-in global virtual store can lead to up to 7x faster package installs.\n\n## Our Commentary\n\nOkay, Bun 1.4 is just _wild_. A full rewrite in Rust? That's a massive undertaking. We're talking about a fundamental shift here.\nAnd then they just casually drop \"built-in headless browser automation.\" That's a game-changer for testing and scraping, potentially cutting out a whole dependency layer.\nThe speed claims are always impressive with Bun, but 7x faster installs with a global virtual store? I'm genuinely curious how that plays out in real-world dev workflows.\nIt feels like Bun is trying to be _everything_ for JavaScript developers, and honestly, I'm here for it. The ambition is palpable.\n\nOriginal Link: https://bun.com/blog/bun-v1.4",
+            "url": "https://digestweb.dev/articles/2026-08-20/bun-1-4-rust-rewrite-headless-browser-faster-installs",
+            "title": "Bun 1.4: Rewritten in Rust, Headless Browser, & 7x Faster Installs",
+            "summary": "Bun 1.4 ships with a Rust rewrite, built-in headless browser automation, new APIs, and improved Node.js compatibility, promising up to 7x faster installs.",
+            "image": "https://bun.com/og/blog/bun-v1.4.png",
+            "date_modified": "2026-08-20T00:00:00.000Z",
+            "author": {
+                "name": "Jarred Sumner"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-20/exploring-css-infinity-creative-use-cases",
+            "content_html": "## Summary & Key Takeaways\n\n- The article explores the use of `infinity` in CSS.\n- It must be used within a `calc()` function, e.g., `border-radius: calc(infinity * 1px);`.\n- The author presents various creative ideas for its application.\n- It highlights a less common but interesting CSS capability.\n\n## Our Commentary\n\n`infinity` in CSS? I genuinely didn't know this was a thing. My brain is already spinning with all the weird, wonderful, and probably terrible things I could do with this.\nIt's a fun little quirk of the language. Not something you'd reach for every day, but it's cool to know it's there for those truly unique design challenges.\nWe love these kinds of deep dives into the more obscure corners of CSS.\n\nOriginal Link: https://master.dev/blog/css-infinity-use-cases/",
+            "url": "https://digestweb.dev/articles/2026-08-20/exploring-css-infinity-creative-use-cases",
+            "title": "Exploring CSS Infinity: Creative Use Cases",
+            "summary": "Discover the intriguing possibilities of using `infinity` within CSS `calc()` functions, such as `border-radius: calc(infinity * 1px);`, for unique design applications.",
+            "image": "https://master.dev/blog/wp-json/social-image-generator/v1/image/10772",
+            "date_modified": "2026-08-20T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-20/music-reactive-3d-goo-threejs-webgpu-deep-dive",
+            "content_html": "## Summary & Key Takeaways\n\n- The article details building an audio-reactive 3D scene.\n- It covers custom geometry deformation techniques.\n- Music analysis is used to drive visual effects.\n- Scroll-driven morphing and damping effects are implemented.\n- Performance optimization strategies for complex 3D scenes are discussed.\n- The project leverages both Three.js and WebGPU for rendering.\n\n## Our Commentary\n\nThis is the kind of article that makes me want to drop everything and just build something visually stunning. The combination of Three.js and WebGPU for audio-reactive goo sounds incredibly cool.\nI'm always fascinated by how developers push the boundaries of what's possible in the browser. The techniques for geometry deformation and music analysis here are next-level.\nIt's a reminder that the web platform is a canvas for truly artistic and performant experiences. We love seeing these kinds of showcases.\n\nOriginal Link: https://tympanus.net/codrops/2026/08/20/run-rob-run-building-a-music-reactive-goo-with-three-js-and-webgpu/",
+            "url": "https://digestweb.dev/articles/2026-08-20/music-reactive-3d-goo-threejs-webgpu-deep-dive",
+            "title": "Music-Reactive 3D Goo with Three.js & WebGPU: A Deep Dive",
+            "summary": "Explore the intricate techniques behind creating an audio-reactive 3D scene, covering custom geometry, music analysis, scroll-driven morphing, and performance optimization with Three.js and WebGPU.",
+            "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/08/runrobrun.png?x57826",
+            "date_modified": "2026-08-20T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-20/new-geolocation-html-element-better-location-ux",
+            "content_html": "## Summary & Key Takeaways\n\n- The `<geolocation>` HTML element is a new dedicated tag for obtaining user location.\n- It simplifies geolocation by using HTML attributes for options instead of extensive JavaScript.\n- The element offers superior error handling and user-controlled permission prompting.\n- Users can recover from denied permissions more easily than with the older JavaScript API.\n- It supports an `accuracymode` attribute for approximate or precise location.\n- A `:granted` CSS pseudo-class allows styling based on permission status.\n- Browser support currently requires Chrome 144+, but the article suggests a progressive enhancement approach.\n\n## Our Commentary\n\nA new HTML element for geolocation? This is genuinely exciting. The current Geolocation API is a bit clunky, especially with permission handling.\nThe idea of user-controlled permission prompts and better error recovery is a huge win for UX. We've all seen users get stuck in permission hell.\nWhile browser support is limited right now, this feels like a significant step forward for the web platform. We're eager to see this gain wider adoption.\n\nOriginal Link: https://piccalil.li/blog/a-look-at-the-geolocation-html-element-and-how-it-works/?ref=articles-rss-feed",
+            "url": "https://digestweb.dev/articles/2026-08-20/new-geolocation-html-element-better-location-ux",
+            "title": "New `<geolocation>` HTML Element: Better Location UX & Dev Ergonomics",
+            "summary": "Discover the `<geolocation>` HTML element, a dedicated tag for user location that simplifies API usage, provides better error handling, and offers improved user-controlled permission prompting.",
+            "image": "https://piccalil.b-cdn.net/api/og-image?slug=a-look-at-the-geolocation-html-element-and-how-it-works/",
+            "date_modified": "2026-08-20T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-20/pnpm-12-rc-8-faster-linux-installs-smarter-audit",
+            "content_html": "## Summary & Key Takeaways\n\n- `packageImportMethod: auto` on Linux now attempts hardlinks before cloning, improving install times.\n- This change can roughly halve the time spent materializing `node_modules` from a warm store on btrfs.\n- `pnpm approve-builds` now correctly removes deprecated build settings from `pnpm-workspace.yaml`.\n- `pnpm audit` no longer reports patched versions that were never published or are deprecated.\n- The audit fix command is improved to prevent adding overrides for non-existent patches.\n\n## Our Commentary\n\nIt's always good to see package managers squeezing out more performance. That hardlink optimization for Linux users is a solid win.\nThe `pnpm audit` improvements are also a welcome change. Dealing with phantom patches or deprecated versions in audit reports is just noise.\nThis RC feels like a thoughtful refinement of the pnpm experience. We appreciate the attention to detail here.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.8",
+            "url": "https://digestweb.dev/articles/2026-08-20/pnpm-12-rc-8-faster-linux-installs-smarter-audit",
+            "title": "pnpm 12 RC 8: Faster Linux Installs & Smarter Audit Fixes",
+            "summary": "pnpm 12 RC 8 optimizes Linux package installs by prioritizing hardlinks, potentially halving materialization time, and refines `pnpm audit` to prevent reporting non-existent patches.",
+            "image": "https://opengraph.githubassets.com/206876e570e18d773e07a8eb5818f3530c30cc0de18c88c96593932519f864cc/pnpm/pnpm/releases/tag/v12.0.0-rc.8",
+            "date_modified": "2026-08-20T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-20/skala-1-1-faster-predictive-dft-ai-model",
+            "content_html": "## Summary & Key Takeaways\n\n- Skala 1.1 is an updated deep-learning exchange-correlation functional.\n- It comes from Microsoft Research.\n- The update provides greater accuracy in its predictions.\n- Accessibility across the computational chemistry ecosystem has been expanded.\n- It also serves as a living benchmark for tracking computational performance.\n\n## Our Commentary\n\nIt's always interesting to see AI applied to highly specialized scientific fields like computational chemistry. Skala 1.1 sounds like a solid step forward for that community.\nWe appreciate the focus on both accuracy and accessibility. Making powerful tools easier to use is a win for everyone.\n\nOriginal Link: https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft/",
+            "url": "https://digestweb.dev/articles/2026-08-20/skala-1-1-faster-predictive-dft-ai-model",
+            "title": "Skala 1.1: Faster Predictive DFT with Enhanced AI Model",
+            "summary": "Microsoft Research updates Skala 1.1, a deep-learning exchange-correlation functional, providing greater accuracy and expanded accessibility within the computational chemistry ecosystem.",
+            "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/08/Skala-TWLIFB-1200x627-1.jpg",
+            "date_modified": "2026-08-20T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-20/smil-animations-javascript-free-svg-motion",
+            "content_html": "## Summary & Key Takeaways\n\n- SMIL is a method for animating SVGs directly within the `<svg>` element.\n- It allows for complex animations without the need for JavaScript.\n- The article serves as a blueprint for understanding and implementing SMIL animations.\n- SMIL is described as an often-overlooked but powerful web platform feature.\n\n## Our Commentary\n\nSMIL! I genuinely forgot this existed. It's one of those web platform features that just sits there, quietly powerful, while everyone reaches for JavaScript.\nIt's a good reminder that sometimes the \"old\" ways are still perfectly valid, and often more performant for specific tasks.\nWe appreciate Smashing Magazine digging into these less-trodden paths. It's a valuable addition to any web developer's toolkit.\n\nOriginal Link: https://smashingmagazine.com/2026/08/timing-charts-blueprint-smil-animations/",
+            "url": "https://digestweb.dev/articles/2026-08-20/smil-animations-javascript-free-svg-motion",
+            "title": "SMIL Animations: A Blueprint for JavaScript-Free SVG Motion",
+            "summary": "Learn about SMIL, an often-overlooked method for animating SVGs directly within `<svg>` tags, enabling full animation control without relying on JavaScript.",
+            "image": "https:null",
+            "date_modified": "2026-08-20T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-08-19/ai-dev-productivity-loc-cognitive-capacity",
             "content_html": "## Summary & Key Takeaways\n\n- AI agents can significantly increase the volume of production-ready code a developer produces.\n- Simon Willison argues that lines of code can be a valid productivity metric with AI, given quality.\n- The new limiting factor in AI-assisted development becomes cognitive capacity, not code output.\n- Teams are still essential for load-balancing this cognitive burden.\n- The concept of \"conceptual integrity\" in software design remains crucial.\n\n## Our Commentary\n\nI've always been told LOC is a terrible metric, but Simon's argument here makes a lot of sense in the age of AI. The idea that our _brains_ are now the bottleneck, not our typing speed, is a profound shift. It makes me wonder if we'll see new roles emerge focused purely on maintaining conceptual integrity across vast, AI-generated codebases. The Winchester Mystery House analogy for lack of conceptual integrity is just perfect.\n\nOriginal Link: https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/",
             "url": "https://digestweb.dev/articles/2026-08-19/ai-dev-productivity-loc-cognitive-capacity",

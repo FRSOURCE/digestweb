@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-08-20T07:40:51.506Z</updated>
+    <updated>2026-08-21T02:24:22.900Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,173 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Bun 1.4: Rewritten in Rust, Headless Browser, & 7x Faster Installs]]></title>
+        <id>https://digestweb.dev/articles/2026-08-20/bun-1-4-rust-rewrite-headless-browser-faster-installs</id>
+        <link href="https://digestweb.dev/articles/2026-08-20/bun-1-4-rust-rewrite-headless-browser-faster-installs"/>
+        <link rel="enclosure" href="https://bun.com/og/blog/bun-v1.4.png" type="image/png"/>
+        <updated>2026-08-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Bun 1.4 ships with a Rust rewrite, built-in headless browser automation, new APIs, and improved Node.js compatibility, promising up to 7x faster installs.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Bun 1.4 has been rewritten in Rust, enhancing its core performance and stability.
+- It introduces built-in headless browser automation via `Bun.WebView`.
+- New APIs for image manipulation (`Bun.Image`), Markdown parsing (`Bun.markdown`), JSON5, JSONL, Terminal, and cron are now available.
+- Node.js 26.3.0 compatibility has been significantly improved with 1,517 new passing tests.
+- The release includes parallel test and run capabilities.
+- Windows ARM64 is now supported.
+- An opt-in global virtual store can lead to up to 7x faster package installs.
+
+## Our Commentary
+
+Okay, Bun 1.4 is just _wild_. A full rewrite in Rust? That's a massive undertaking. We're talking about a fundamental shift here.
+And then they just casually drop "built-in headless browser automation." That's a game-changer for testing and scraping, potentially cutting out a whole dependency layer.
+The speed claims are always impressive with Bun, but 7x faster installs with a global virtual store? I'm genuinely curious how that plays out in real-world dev workflows.
+It feels like Bun is trying to be _everything_ for JavaScript developers, and honestly, I'm here for it. The ambition is palpable.
+
+Original Link: https://bun.com/blog/bun-v1.4]]></content>
+        <author>
+            <name>Jarred Sumner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exploring CSS Infinity: Creative Use Cases]]></title>
+        <id>https://digestweb.dev/articles/2026-08-20/exploring-css-infinity-creative-use-cases</id>
+        <link href="https://digestweb.dev/articles/2026-08-20/exploring-css-infinity-creative-use-cases"/>
+        <link rel="enclosure" href="https://master.dev/blog/wp-json/social-image-generator/v1/image/10772" type="image//blog/wp-json/social-image-generator/v1/image/10772"/>
+        <updated>2026-08-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Discover the intriguing possibilities of using `infinity` within CSS `calc()` functions, such as `border-radius: calc(infinity * 1px);`, for unique design applications.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article explores the use of `infinity` in CSS.
+- It must be used within a `calc()` function, e.g., `border-radius: calc(infinity * 1px);`.
+- The author presents various creative ideas for its application.
+- It highlights a less common but interesting CSS capability.
+
+## Our Commentary
+
+`infinity` in CSS? I genuinely didn't know this was a thing. My brain is already spinning with all the weird, wonderful, and probably terrible things I could do with this.
+It's a fun little quirk of the language. Not something you'd reach for every day, but it's cool to know it's there for those truly unique design challenges.
+We love these kinds of deep dives into the more obscure corners of CSS.
+
+Original Link: https://master.dev/blog/css-infinity-use-cases/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Music-Reactive 3D Goo with Three.js & WebGPU: A Deep Dive]]></title>
+        <id>https://digestweb.dev/articles/2026-08-20/music-reactive-3d-goo-threejs-webgpu-deep-dive</id>
+        <link href="https://digestweb.dev/articles/2026-08-20/music-reactive-3d-goo-threejs-webgpu-deep-dive"/>
+        <link rel="enclosure" href="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/08/runrobrun.png?x57826" type="image/png"/>
+        <updated>2026-08-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Explore the intricate techniques behind creating an audio-reactive 3D scene, covering custom geometry, music analysis, scroll-driven morphing, and performance optimization with Three.js and WebGPU.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article details building an audio-reactive 3D scene.
+- It covers custom geometry deformation techniques.
+- Music analysis is used to drive visual effects.
+- Scroll-driven morphing and damping effects are implemented.
+- Performance optimization strategies for complex 3D scenes are discussed.
+- The project leverages both Three.js and WebGPU for rendering.
+
+## Our Commentary
+
+This is the kind of article that makes me want to drop everything and just build something visually stunning. The combination of Three.js and WebGPU for audio-reactive goo sounds incredibly cool.
+I'm always fascinated by how developers push the boundaries of what's possible in the browser. The techniques for geometry deformation and music analysis here are next-level.
+It's a reminder that the web platform is a canvas for truly artistic and performant experiences. We love seeing these kinds of showcases.
+
+Original Link: https://tympanus.net/codrops/2026/08/20/run-rob-run-building-a-music-reactive-goo-with-three-js-and-webgpu/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New `<geolocation>` HTML Element: Better Location UX & Dev Ergonomics]]></title>
+        <id>https://digestweb.dev/articles/2026-08-20/new-geolocation-html-element-better-location-ux</id>
+        <link href="https://digestweb.dev/articles/2026-08-20/new-geolocation-html-element-better-location-ux"/>
+        <link rel="enclosure" href="https://piccalil.b-cdn.net/api/og-image?slug=a-look-at-the-geolocation-html-element-and-how-it-works/" type="image//api/og-image"/>
+        <updated>2026-08-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Discover the `<geolocation>` HTML element, a dedicated tag for user location that simplifies API usage, provides better error handling, and offers improved user-controlled permission prompting.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The `<geolocation>` HTML element is a new dedicated tag for obtaining user location.
+- It simplifies geolocation by using HTML attributes for options instead of extensive JavaScript.
+- The element offers superior error handling and user-controlled permission prompting.
+- Users can recover from denied permissions more easily than with the older JavaScript API.
+- It supports an `accuracymode` attribute for approximate or precise location.
+- A `:granted` CSS pseudo-class allows styling based on permission status.
+- Browser support currently requires Chrome 144+, but the article suggests a progressive enhancement approach.
+
+## Our Commentary
+
+A new HTML element for geolocation? This is genuinely exciting. The current Geolocation API is a bit clunky, especially with permission handling.
+The idea of user-controlled permission prompts and better error recovery is a huge win for UX. We've all seen users get stuck in permission hell.
+While browser support is limited right now, this feels like a significant step forward for the web platform. We're eager to see this gain wider adoption.
+
+Original Link: https://piccalil.li/blog/a-look-at-the-geolocation-html-element-and-how-it-works/?ref=articles-rss-feed]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pnpm 12 RC 8: Faster Linux Installs & Smarter Audit Fixes]]></title>
+        <id>https://digestweb.dev/articles/2026-08-20/pnpm-12-rc-8-faster-linux-installs-smarter-audit</id>
+        <link href="https://digestweb.dev/articles/2026-08-20/pnpm-12-rc-8-faster-linux-installs-smarter-audit"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/206876e570e18d773e07a8eb5818f3530c30cc0de18c88c96593932519f864cc/pnpm/pnpm/releases/tag/v12.0.0-rc.8" type="image/8"/>
+        <updated>2026-08-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[pnpm 12 RC 8 optimizes Linux package installs by prioritizing hardlinks, potentially halving materialization time, and refines `pnpm audit` to prevent reporting non-existent patches.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- `packageImportMethod: auto` on Linux now attempts hardlinks before cloning, improving install times.
+- This change can roughly halve the time spent materializing `node_modules` from a warm store on btrfs.
+- `pnpm approve-builds` now correctly removes deprecated build settings from `pnpm-workspace.yaml`.
+- `pnpm audit` no longer reports patched versions that were never published or are deprecated.
+- The audit fix command is improved to prevent adding overrides for non-existent patches.
+
+## Our Commentary
+
+It's always good to see package managers squeezing out more performance. That hardlink optimization for Linux users is a solid win.
+The `pnpm audit` improvements are also a welcome change. Dealing with phantom patches or deprecated versions in audit reports is just noise.
+This RC feels like a thoughtful refinement of the pnpm experience. We appreciate the attention to detail here.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.8]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Skala 1.1: Faster Predictive DFT with Enhanced AI Model]]></title>
+        <id>https://digestweb.dev/articles/2026-08-20/skala-1-1-faster-predictive-dft-ai-model</id>
+        <link href="https://digestweb.dev/articles/2026-08-20/skala-1-1-faster-predictive-dft-ai-model"/>
+        <link rel="enclosure" href="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/08/Skala-TWLIFB-1200x627-1.jpg" type="image/jpg"/>
+        <updated>2026-08-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft Research updates Skala 1.1, a deep-learning exchange-correlation functional, providing greater accuracy and expanded accessibility within the computational chemistry ecosystem.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Skala 1.1 is an updated deep-learning exchange-correlation functional.
+- It comes from Microsoft Research.
+- The update provides greater accuracy in its predictions.
+- Accessibility across the computational chemistry ecosystem has been expanded.
+- It also serves as a living benchmark for tracking computational performance.
+
+## Our Commentary
+
+It's always interesting to see AI applied to highly specialized scientific fields like computational chemistry. Skala 1.1 sounds like a solid step forward for that community.
+We appreciate the focus on both accuracy and accessibility. Making powerful tools easier to use is a win for everyone.
+
+Original Link: https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMIL Animations: A Blueprint for JavaScript-Free SVG Motion]]></title>
+        <id>https://digestweb.dev/articles/2026-08-20/smil-animations-javascript-free-svg-motion</id>
+        <link href="https://digestweb.dev/articles/2026-08-20/smil-animations-javascript-free-svg-motion"/>
+        <link rel="enclosure" href="https://null/" type="image//"/>
+        <updated>2026-08-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn about SMIL, an often-overlooked method for animating SVGs directly within `<svg>` tags, enabling full animation control without relying on JavaScript.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- SMIL is a method for animating SVGs directly within the `<svg>` element.
+- It allows for complex animations without the need for JavaScript.
+- The article serves as a blueprint for understanding and implementing SMIL animations.
+- SMIL is described as an often-overlooked but powerful web platform feature.
+
+## Our Commentary
+
+SMIL! I genuinely forgot this existed. It's one of those web platform features that just sits there, quietly powerful, while everyone reaches for JavaScript.
+It's a good reminder that sometimes the "old" ways are still perfectly valid, and often more performant for specific tasks.
+We appreciate Smashing Magazine digging into these less-trodden paths. It's a valuable addition to any web developer's toolkit.
+
+Original Link: https://smashingmagazine.com/2026/08/timing-charts-blueprint-smil-animations/]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AI & Dev Productivity: Re-evaluating LOC and Cognitive Capacity]]></title>
         <id>https://digestweb.dev/articles/2026-08-19/ai-dev-productivity-loc-cognitive-capacity</id>
