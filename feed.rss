@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Fri, 21 Aug 2026 07:42:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 22 Aug 2026 02:17:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,195 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[AI as a Tutor: Learning Quaternions with ChatGPT]]></title>
+            <link>https://digestweb.dev/articles/2026-08-21/ai-as-tutor-learning-quaternions-chatgpt</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-21/ai-as-tutor-learning-quaternions-chatgpt</guid>
+            <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Matt Webb shares his experience using ChatGPT not to write code, but to learn complex mathematical concepts like quaternions, demonstrating AI's potential as a patient, interactive educational tool.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Matt Webb used ChatGPT to learn about quaternions for his app, Galactic Compass 2.
+- He found ChatGPT to be a patient and interactive tutor.
+- This allowed him to grasp concepts he struggled with through traditional methods.
+- The experience suggests AI can push individuals to learn more, not less.
+- AI's role extends beyond code generation to personalized education.
+
+## Our Commentary
+
+This is a refreshing perspective. So much talk focuses on AI replacing coders, but this shows it augmenting our learning capabilities. I've definitely used LLMs to quickly grasp concepts I'd otherwise spend hours Googling or sifting through documentation for. It's like having a super-patient expert on call.
+
+Original Link: https://simonwillison.net/2026/Aug/21/matt-webb/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/4/800/450" length="0" type="image//id/4/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[DeepMind's 15 Years of AI in Games: From Atari to EVE Online]]></title>
+            <link>https://digestweb.dev/articles/2026-08-21/deepmind-ai-games-atari-eve-online-15-years</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-21/deepmind-ai-games-atari-eve-online-15-years</guid>
+            <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Google DeepMind reflects on 15 years of AI research in games, highlighting their journey from mastering Atari to prototyping breakthrough AI gameplay in complex titles like EVE Online.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Google DeepMind celebrates 15 years of AI research applied to gaming.
+- The journey began with mastering classic Atari games.
+- Current efforts involve prototyping advanced AI gameplay in complex environments like EVE Online.
+- Partnerships with game studios aim to push the boundaries of AI in interactive entertainment.
+
+## Our Commentary
+
+DeepMind's trajectory in games is always fascinating. Moving from Atari to EVE Online is a massive leap in complexity. I'm curious how much of this translates to general-purpose AI agents versus highly specialized game-playing AI. It's a good showcase of what's possible.
+
+Original Link: https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/105/800/450" length="0" type="image//id/105/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Display OS-Specific Keyboard Shortcuts for Better UX]]></title>
+            <link>https://digestweb.dev/articles/2026-08-21/display-os-specific-keyboard-shortcuts</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-21/display-os-specific-keyboard-shortcuts</guid>
+            <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how to dynamically display the correct modifier key (e.g., ⌘ for Mac, Ctrl for Windows) for keyboard shortcuts on your website, enhancing user experience and avoiding confusion across different operating systems.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Websites often hardcode Mac-specific keyboard shortcuts, confusing Windows users.
+- The article provides methods to detect the user's operating system.
+- It demonstrates how to dynamically display the appropriate modifier key.
+- This approach improves the user experience for cross-platform users.
+- Implementing this enhances the accessibility and clarity of web applications.
+
+## Our Commentary
+
+This is one of those small details that makes a huge difference in user experience. I've definitely been frustrated by sites that assume everyone is on a Mac. It's a simple fix, but it shows a real commitment to cross-platform usability. We should all be doing this.
+
+Original Link: https://blog.master.dev/keyboard-shortcuts-that-display-the-correct-modifier-key-per-os/]]></content:encoded>
+            <enclosure url="https://blog.master.dev/wp-json/social-image-generator/v1/image/10743" length="0" type="image//wp-json/social-image-generator/v1/image/10743"/>
+        </item>
+        <item>
+            <title><![CDATA[llm-openrouter 0.7 Adds Shell, WebFetch, and WebSearch Tools]]></title>
+            <link>https://digestweb.dev/articles/2026-08-21/llm-openrouter-0-7-new-tools-shell-webfetch-websearch</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-21/llm-openrouter-0-7-new-tools-shell-webfetch-websearch</guid>
+            <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The `llm-openrouter` plugin for Simon Willison's `llm` tool receives an update, introducing powerful new server-side tools like Shell, WebFetch, and WebSearch for enhanced local AI interactions.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- `llm-openrouter` plugin updates to version 0.7, compatible with `LLM 0.32`.
+- It now leverages OpenRouter's Responses API for improved model interactions.
+- Three new server-side tools are introduced: Shell, WebFetch, and WebSearch.
+- These tools allow `llm` to interact with the local environment and the web.
+- Users can enable these new capabilities via command-line options.
+
+## Our Commentary
+
+This is a pretty big deal for anyone using `llm` locally. Giving an LLM access to a shell, web fetch, and web search? That's a significant step towards more capable local agents. I'm both excited and a little terrified by the implications. The power of local AI just got a serious boost.
+
+Original Link: https://simonwillison.net/2026/Aug/21/llm-openrouter/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/91/800/450" length="0" type="image//id/91/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Measuring Benchmark Optimization in Speech Recognition]]></title>
+            <link>https://digestweb.dev/articles/2026-08-21/measuring-benchmark-optimization-speech-recognition</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-21/measuring-benchmark-optimization-speech-recognition</guid>
+            <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A deep dive into optimizing benchmarks for speech recognition models, exploring methods to improve efficiency and accuracy in performance measurement.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Explores methods for improving the efficiency of speech recognition benchmarks.
+- Discusses the challenges in accurately measuring performance gains.
+- Proposes new techniques for more robust evaluation.
+
+## Our Commentary
+
+This is pretty deep in the weeds for us. While important for the field, it's not something I expect most of our readers to immediately grasp or apply. We'll mention it, but it's definitely for the specialists.
+
+Original Link: https://huggingface.co/blog/asr-benchmark-optimization]]></content:encoded>
+            <enclosure url="https://huggingface.co/blog/assets/asr-benchmark-optimization/thumbnail.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[New CSS Class Prefix Selector `.prefix-*` Resolved]]></title>
+            <link>https://digestweb.dev/articles/2026-08-21/new-css-class-prefix-selector-resolved</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-21/new-css-class-prefix-selector-resolved</guid>
+            <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A newly resolved CSS proposal introduces a powerful class prefix selector, allowing developers to target classes with a wildcard like `.prefix-*`, which promises to streamline styling for component variations and utility-first approaches.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- A new CSS proposal for a class prefix selector has reached "resolved" status.
+- This selector will enable targeting classes using a wildcard, e.g., `.prefix-*`.
+- It offers a more flexible way to style component variations.
+- The feature is expected to benefit utility-first CSS methodologies.
+- This addition enhances the expressiveness and power of CSS.
+
+## Our Commentary
+
+Oh, this is huge! We've been wanting something like this for ages. The ability to target `.prefix-*` directly in CSS is going to clean up so much of our component styling. I can already imagine the refactors. It feels like a long-overdue quality-of-life improvement for CSS authors.
+
+Original Link: https://css-tricks.com/resolved-css-class-prefix-selector/]]></content:encoded>
+            <enclosure url="https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/08/css-prefix-selector.webp" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[NNGroup's Plain-Language AI Glossary for Product & Design]]></title>
+            <link>https://digestweb.dev/articles/2026-08-21/nngroup-ai-glossary-product-design</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-21/nngroup-ai-glossary-product-design</guid>
+            <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Nielsen Norman Group publishes a comprehensive glossary offering plain-language definitions for key AI terms, from tokens and context windows to agents and prompt injection, tailored for product and design professionals.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- NNGroup released a glossary of Artificial Intelligence terms.
+- Definitions are presented in plain language for clarity.
+- It covers terms relevant to product development and design work.
+- Examples include tokens, context windows, agents, and prompt injection.
+- The resource aims to help professionals understand AI concepts better.
+
+## Our Commentary
+
+NNGroup always delivers solid, practical insights. An AI glossary specifically for product and design is incredibly useful. The terminology in AI can be a minefield, and having a trusted source break it down in plain language is a huge win for cross-functional teams. We need more resources like this.
+
+Original Link: https://www.nngroup.com/articles/artificial-intelligence-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication]]></content:encoded>
+            <enclosure url="https://media.nngroup.com/media/articles/opengraph_images/Artificial__Intelligence__Glossary_1.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[NNGroup: AI-Generated Images Match Stock Photo Performance]]></title>
+            <link>https://digestweb.dev/articles/2026-08-21/nngroup-ai-images-match-stock-photos</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-21/nngroup-ai-images-match-stock-photos</guid>
+            <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[New research from the Nielsen Norman Group reveals that AI-generated images perform comparably to traditional stock photography in user perception, provided users are unaware of the image's origin, impacting design and content strategies.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- NNGroup conducted research on user perception of AI-generated images.
+- When users were unaware of the source, AI images performed as well as stock photos.
+- There was no "perception penalty" for AI-generated content in these tests.
+- This finding has implications for content creation and design workflows.
+- The study suggests AI images can be a viable alternative to traditional stock.
+
+## Our Commentary
+
+This is a big one. If users can't tell the difference, or don't care, then the floodgates for AI-generated visuals are truly open. I'm genuinely conflicted. On one hand, it's incredible efficiency. On the other, it raises so many questions about authenticity, artist compensation, and the sheer volume of synthetic media we're about to drown in. It's a wild future we're building.
+
+Original Link: https://www.nngroup.com/articles/ai-generated-images/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication]]></content:encoded>
+            <enclosure url="https://media.nngroup.com/media/articles/opengraph_images/AI-Generated_Images_1.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Stop Making TUIs: AI Agents Make Native GUIs Trivial]]></title>
+            <link>https://digestweb.dev/articles/2026-08-21/stop-making-tuis-ai-agents-native-guis</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-21/stop-making-tuis-ai-agents-native-guis</guid>
+            <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison echoes Thomas Ptacek's call to abandon Text User Interfaces (TUIs) for native GUIs, arguing that AI coding agents have drastically lowered the barrier to creating usable graphical interfaces for even small personal tools.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Thomas Ptacek advocates for building native user interfaces instead of TUIs.
+- AI coding agents have significantly reduced the cost and effort of creating GUIs.
+- Simon Willison shares his experience with "vibe-coded" macOS taskbar apps.
+- The argument is that developers are running out of excuses not to build native UIs.
+- Building native UIs can fundamentally change a developer's approach to tools.
+
+## Our Commentary
+
+This is a really interesting take. I've always been a fan of CLI tools, but the idea that AI can make native GUIs almost as easy to spin up is genuinely thought-provoking. We've seen the rise of "vibe-coding" for quick scripts; applying that to UI feels like a natural progression. It makes me wonder if the next generation of developer tools will be far more visually rich, even for personal use.
+
+Original Link: https://simonwillison.net/2026/Aug/21/stop-making-tuis/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/298/800/450" length="0" type="image//id/298/800/450"/>
+        </item>
         <item>
             <title><![CDATA[Bun 1.4 Unleashes `Bun.WebView` for Browser Automation]]></title>
             <link>https://digestweb.dev/articles/2026-08-20/bun-1-4-bun-webview-browser-automation-api</link>
