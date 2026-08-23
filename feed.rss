@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Sat, 22 Aug 2026 02:17:08 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 23 Aug 2026 07:33:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,95 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Beyond Code Review: Effectively Using AI Coding Agents]]></title>
+            <link>https://digestweb.dev/articles/2026-08-22/ai-coding-agents-beyond-code-review</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-22/ai-coding-agents-beyond-code-review</guid>
+            <pubDate>Sat, 22 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Productively using AI coding agents requires confident instruction and verification, moving beyond traditional line-by-line code review.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article discusses the key skill for productive use of coding agents: confident instruction. - It emphasizes the importance of confidently verifying changes made by AI agents. - The author suggests that reviewing every line of AI-generated code isn't always the most effective method. - Alternative validation strategies are proposed for ensuring correct software changes.
+
+## Our Commentary
+
+This is a really important point. We're all still figuring out how to work with these AI agents, and the old ways of doing things don't always translate. The idea that 'eyeballing every line' isn't the best validation method for AI-generated code feels right. It's about trust, verification, and knowing _what_ to verify. I think we're going to see a lot more discussion around these new 'agentic engineering' workflows.
+
+Original Link: https://simonwillison.net/2026/Aug/22/more-than-just-code-review/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/443/800/450" length="0" type="image//id/443/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Deep Dive: How Claude Watermarks AI-Generated Text]]></title>
+            <link>https://digestweb.dev/articles/2026-08-22/claude-ai-text-watermarking-deep-dive</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-22/claude-ai-text-watermarking-deep-dive</guid>
+            <pubDate>Sat, 22 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A comprehensive video explores the technical mechanisms behind Claude's AI text watermarking, covering sampling, detection, and removal.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article provides a 48-minute video walkthrough explaining Claude's text watermarking process. - It covers the technical details of token sampling used in AI text generation. - The video demonstrates methods for detecting these embedded watermarks. - It also explores techniques and challenges associated with watermark removal.
+
+## Our Commentary
+
+Watermarking AI output feels like a necessary evil, doesn't it? On one hand, attribution and provenance are crucial. On the other, it's another layer of control, another potential for detection and, inevitably, circumvention. I'm genuinely curious how robust these methods will prove to be in the long run. It's a cat-and-mouse game we're just starting to play.
+
+Original Link: https://magazine.sebastianraschka.com/p/claude-watermarking]]></content:encoded>
+            <author>Sebastian Raschka</author>
+            <enclosure url="https://substackcdn.com/image/fetch/$s_!2E7U!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffb73bfb5-0291-4e5e-b425-6c3be054276e_1914x1076.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Linus Torvalds on AI-Assisted Debugging: Stubborn but Helpful]]></title>
+            <link>https://digestweb.dev/articles/2026-08-22/linus-torvalds-ai-assisted-debugging</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-22/linus-torvalds-ai-assisted-debugging</guid>
+            <pubDate>Sat, 22 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Linus Torvalds shares his experience using AI for a 'debug session from hell,' highlighting its persistence despite initial 'impossible' claims.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Linus Torvalds recounts a challenging debug session significantly aided by an AI. - The AI initially declared the problem 'impossible and unsolvable' multiple times. - Despite its reluctance, the AI continued to add debug code and analyze it when prompted. - Torvalds credits the AI for its faithful assistance, even letting it write the commit message.
+
+## Our Commentary
+
+This quote from Linus Torvalds is just gold. It perfectly encapsulates the current state of AI in development: incredibly helpful for grunt work, but still prone to giving up when a human's stubbornness is required. It's a good reminder that the 'human in the loop' isn't going anywhere, at least not yet. I love the idea of an AI writing a commit message, though. That's peak developer experience right there.
+
+Original Link: https://simonwillison.net/2026/Aug/22/linus-torvalds/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/169/800/450" length="0" type="image//id/169/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[llm 0.33 Released: OpenAI Library Update & Template Improvements]]></title>
+            <link>https://digestweb.dev/articles/2026-08-22/llm-0-33-release-openai-templates</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-22/llm-0-33-release-openai-templates</guid>
+            <pubDate>Sat, 22 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison's `llm` tool updates to 0.33, featuring OpenAI Python library 3.x support, improved embedding key handling, and template combining.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- `llm` 0.33 upgrades to the OpenAI Python library 3.x, switching HTTP client dependencies. - The release introduces `--key` support for `llm embed` and `llm embed-multi` commands. - Embedding models now use a consistent pattern for keys, mirroring regular LLM models. - The `llm prompt -t/--template` option can now be repeated to combine multiple templates. - Reasoning-capable Responses API models now support a `reasoning_summary` option.
+
+## Our Commentary
+
+Simon Willison's `llm` tool continues to be a quiet workhorse for local AI experimentation. This 0.33 release, while not flashy, brings some solid quality-of-life improvements. The ability to combine templates is particularly neat; it feels like a step towards more modular and reusable AI workflows. We appreciate the continuous refinement of these essential developer tools.
+
+Original Link: https://simonwillison.net/2026/Aug/22/llm/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/816/800/450" length="0" type="image//id/816/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Sixty Frames for the Record: A Three.js Game & CRT Wall]]></title>
+            <link>https://digestweb.dev/articles/2026-08-22/sixty-frames-threejs-game-crt-wall</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-22/sixty-frames-threejs-game-crt-wall</guid>
+            <pubDate>Sat, 22 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore a unique Three.js project combining music, game design, and retro aesthetics, offering insights into renderer optimization.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- This project details building a Three.js lab centered around original music compositions. - It explores the intricacies of the Three.js renderer through a game, seven fly-throughs, and a wall of CRTs. - The article shares lessons learned about optimizing and utilizing the renderer effectively. - It serves as a practical example of combining creative vision with web graphics technology.
+
+## Our Commentary
+
+I love seeing these kinds of creative projects. It's not just about the tech, it's about what people _do_ with the tech. The idea of building a whole visual experience around music is just chef's kiss. We often get caught up in frameworks and tooling, but this is a solid reminder of the raw power of the web platform for artistic expression.
+
+Original Link: https://tympanus.net/codrops/2026/08/22/sixty-frames-for-the-record-a-three-js-game-seven-fly-throughs-and-a-wall-of-crts/]]></content:encoded>
+            <enclosure url="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/08/sixty-frames-main-1.jpg?x57826" length="0" type="image/jpg"/>
+        </item>
         <item>
             <title><![CDATA[AI as a Tutor: Learning Quaternions with ChatGPT]]></title>
             <link>https://digestweb.dev/articles/2026-08-21/ai-as-tutor-learning-quaternions-chatgpt</link>

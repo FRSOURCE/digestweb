@@ -11,6 +11,63 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-08-22/ai-coding-agents-beyond-code-review",
+            "content_html": "## Summary & Key Takeaways\n\n- The article discusses the key skill for productive use of coding agents: confident instruction. - It emphasizes the importance of confidently verifying changes made by AI agents. - The author suggests that reviewing every line of AI-generated code isn't always the most effective method. - Alternative validation strategies are proposed for ensuring correct software changes.\n\n## Our Commentary\n\nThis is a really important point. We're all still figuring out how to work with these AI agents, and the old ways of doing things don't always translate. The idea that 'eyeballing every line' isn't the best validation method for AI-generated code feels right. It's about trust, verification, and knowing _what_ to verify. I think we're going to see a lot more discussion around these new 'agentic engineering' workflows.\n\nOriginal Link: https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
+            "url": "https://digestweb.dev/articles/2026-08-22/ai-coding-agents-beyond-code-review",
+            "title": "Beyond Code Review: Effectively Using AI Coding Agents",
+            "summary": "Productively using AI coding agents requires confident instruction and verification, moving beyond traditional line-by-line code review.",
+            "image": "https://picsum.photos/id/443/800/450",
+            "date_modified": "2026-08-22T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-22/claude-ai-text-watermarking-deep-dive",
+            "content_html": "## Summary & Key Takeaways\n\n- The article provides a 48-minute video walkthrough explaining Claude's text watermarking process. - It covers the technical details of token sampling used in AI text generation. - The video demonstrates methods for detecting these embedded watermarks. - It also explores techniques and challenges associated with watermark removal.\n\n## Our Commentary\n\nWatermarking AI output feels like a necessary evil, doesn't it? On one hand, attribution and provenance are crucial. On the other, it's another layer of control, another potential for detection and, inevitably, circumvention. I'm genuinely curious how robust these methods will prove to be in the long run. It's a cat-and-mouse game we're just starting to play.\n\nOriginal Link: https://magazine.sebastianraschka.com/p/claude-watermarking",
+            "url": "https://digestweb.dev/articles/2026-08-22/claude-ai-text-watermarking-deep-dive",
+            "title": "Deep Dive: How Claude Watermarks AI-Generated Text",
+            "summary": "A comprehensive video explores the technical mechanisms behind Claude's AI text watermarking, covering sampling, detection, and removal.",
+            "image": "https://substackcdn.com/image/fetch/$s_!2E7U!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffb73bfb5-0291-4e5e-b425-6c3be054276e_1914x1076.png",
+            "date_modified": "2026-08-22T00:00:00.000Z",
+            "author": {
+                "name": "Sebastian Raschka"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-22/linus-torvalds-ai-assisted-debugging",
+            "content_html": "## Summary & Key Takeaways\n\n- Linus Torvalds recounts a challenging debug session significantly aided by an AI. - The AI initially declared the problem 'impossible and unsolvable' multiple times. - Despite its reluctance, the AI continued to add debug code and analyze it when prompted. - Torvalds credits the AI for its faithful assistance, even letting it write the commit message.\n\n## Our Commentary\n\nThis quote from Linus Torvalds is just gold. It perfectly encapsulates the current state of AI in development: incredibly helpful for grunt work, but still prone to giving up when a human's stubbornness is required. It's a good reminder that the 'human in the loop' isn't going anywhere, at least not yet. I love the idea of an AI writing a commit message, though. That's peak developer experience right there.\n\nOriginal Link: https://simonwillison.net/2026/Aug/22/linus-torvalds/",
+            "url": "https://digestweb.dev/articles/2026-08-22/linus-torvalds-ai-assisted-debugging",
+            "title": "Linus Torvalds on AI-Assisted Debugging: Stubborn but Helpful",
+            "summary": "Linus Torvalds shares his experience using AI for a 'debug session from hell,' highlighting its persistence despite initial 'impossible' claims.",
+            "image": "https://picsum.photos/id/169/800/450",
+            "date_modified": "2026-08-22T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-22/llm-0-33-release-openai-templates",
+            "content_html": "## Summary & Key Takeaways\n\n- `llm` 0.33 upgrades to the OpenAI Python library 3.x, switching HTTP client dependencies. - The release introduces `--key` support for `llm embed` and `llm embed-multi` commands. - Embedding models now use a consistent pattern for keys, mirroring regular LLM models. - The `llm prompt -t/--template` option can now be repeated to combine multiple templates. - Reasoning-capable Responses API models now support a `reasoning_summary` option.\n\n## Our Commentary\n\nSimon Willison's `llm` tool continues to be a quiet workhorse for local AI experimentation. This 0.33 release, while not flashy, brings some solid quality-of-life improvements. The ability to combine templates is particularly neat; it feels like a step towards more modular and reusable AI workflows. We appreciate the continuous refinement of these essential developer tools.\n\nOriginal Link: https://simonwillison.net/2026/Aug/22/llm/",
+            "url": "https://digestweb.dev/articles/2026-08-22/llm-0-33-release-openai-templates",
+            "title": "llm 0.33 Released: OpenAI Library Update & Template Improvements",
+            "summary": "Simon Willison's `llm` tool updates to 0.33, featuring OpenAI Python library 3.x support, improved embedding key handling, and template combining.",
+            "image": "https://picsum.photos/id/816/800/450",
+            "date_modified": "2026-08-22T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-22/sixty-frames-threejs-game-crt-wall",
+            "content_html": "## Summary & Key Takeaways\n\n- This project details building a Three.js lab centered around original music compositions. - It explores the intricacies of the Three.js renderer through a game, seven fly-throughs, and a wall of CRTs. - The article shares lessons learned about optimizing and utilizing the renderer effectively. - It serves as a practical example of combining creative vision with web graphics technology.\n\n## Our Commentary\n\nI love seeing these kinds of creative projects. It's not just about the tech, it's about what people _do_ with the tech. The idea of building a whole visual experience around music is just chef's kiss. We often get caught up in frameworks and tooling, but this is a solid reminder of the raw power of the web platform for artistic expression.\n\nOriginal Link: https://tympanus.net/codrops/2026/08/22/sixty-frames-for-the-record-a-three-js-game-seven-fly-throughs-and-a-wall-of-crts/",
+            "url": "https://digestweb.dev/articles/2026-08-22/sixty-frames-threejs-game-crt-wall",
+            "title": "Sixty Frames for the Record: A Three.js Game & CRT Wall",
+            "summary": "Explore a unique Three.js project combining music, game design, and retro aesthetics, offering insights into renderer optimization.",
+            "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/08/sixty-frames-main-1.jpg?x57826",
+            "date_modified": "2026-08-22T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-08-21/ai-as-tutor-learning-quaternions-chatgpt",
             "content_html": "## Summary & Key Takeaways\n\n- Matt Webb used ChatGPT to learn about quaternions for his app, Galactic Compass 2.\n- He found ChatGPT to be a patient and interactive tutor.\n- This allowed him to grasp concepts he struggled with through traditional methods.\n- The experience suggests AI can push individuals to learn more, not less.\n- AI's role extends beyond code generation to personalized education.\n\n## Our Commentary\n\nThis is a refreshing perspective. So much talk focuses on AI replacing coders, but this shows it augmenting our learning capabilities. I've definitely used LLMs to quickly grasp concepts I'd otherwise spend hours Googling or sifting through documentation for. It's like having a super-patient expert on call.\n\nOriginal Link: https://simonwillison.net/2026/Aug/21/matt-webb/",
             "url": "https://digestweb.dev/articles/2026-08-21/ai-as-tutor-learning-quaternions-chatgpt",
