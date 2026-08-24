@@ -44,6 +44,15 @@
             "date_modified": "2026-08-23T00:00:00.000Z"
         },
         {
+            "id": "https://digestweb.dev/articles/2026-08-23/pnpm-12-rc-9-stricter-config-better-dx",
+            "content_html": "## Summary & Key Takeaways\n\n- Unrecognized workspace settings are now reported as errors or warnings.\n- Misspelled configuration keys are suggested with the closest real setting names.\n- Global build approvals have been added to the tool.\n- Recursive global outdated checks are now supported.\n- `pnpm config get` and `list` commands show settings under their documented names.\n- The `registries` setting now displays merged sources and built-in routes.\n- Deprecated internal spellings for `update` and `audit` are no longer listed.\n- The complete resolved catalog set is now visible via `catalogs`.\n\n## Our Commentary\n\nWe're always a little wary of RCs, but pnpm 12 is shaping up nicely. The stricter config validation is a huge win for DX. How many times have I misspelled a setting and spent an hour debugging? Too many. And finally, `pnpm config get registries` actually shows something useful. It's the small things, really. But these small things add up to a much smoother workflow. I'm genuinely excited for the stable release.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.9",
+            "url": "https://digestweb.dev/articles/2026-08-23/pnpm-12-rc-9-stricter-config-better-dx",
+            "title": "pnpm 12 RC 9: Stricter Config, Better DX",
+            "summary": "The latest Release Candidate for pnpm 12 introduces stricter workspace configuration validation and enhanced `pnpm config` output for improved developer experience.",
+            "image": "https://opengraph.githubassets.com/6eb74436a40ae2bc8080671da0f2f4add426eb6745baa62a3780e1eba14203b4/pnpm/pnpm/releases/tag/v12.0.0-rc.9",
+            "date_modified": "2026-08-23T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-08-22/ai-coding-agents-beyond-code-review",
             "content_html": "## Summary & Key Takeaways\n\n- The article discusses the key skill for productive use of coding agents: confident instruction. - It emphasizes the importance of confidently verifying changes made by AI agents. - The author suggests that reviewing every line of AI-generated code isn't always the most effective method. - Alternative validation strategies are proposed for ensuring correct software changes.\n\n## Our Commentary\n\nThis is a really important point. We're all still figuring out how to work with these AI agents, and the old ways of doing things don't always translate. The idea that 'eyeballing every line' isn't the best validation method for AI-generated code feels right. It's about trust, verification, and knowing _what_ to verify. I think we're going to see a lot more discussion around these new 'agentic engineering' workflows.\n\nOriginal Link: https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
             "url": "https://digestweb.dev/articles/2026-08-22/ai-coding-agents-beyond-code-review",
