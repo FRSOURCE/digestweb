@@ -11,6 +11,39 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-08-23/anthropic-fable-5-struggles-adoption-cheaper-ai-models-thrive",
+            "content_html": "## Summary & Key Takeaways\n\n- Anthropic's annualized revenue reached $65bn in July, up from $47bn in May.\n- The company expects Q3 to be profitable, similar to Q2.\n- Anthropic has 6,000 customers spending over $100,000 annually.\n- OpenAI's annualized revenue jumped 35% this quarter, exceeding $40bn, boosted by GPT 5.6.\n- Ramp AI index data shows Anthropic's Fable 5 model has low adoption (8.0%) compared to Opus 4.8 (28.0%).\n- The high cost of Fable 5 is cited as a primary reason for its limited user attraction.\n\n## Our Commentary\n\nThis is fascinating, and honestly, not entirely surprising. The AI market is clearly hitting a point where cost-effectiveness is becoming a huge differentiator. I've seen this play out in other tech sectors; premium products need to justify their price with truly unparalleled performance, or users will flock to \"good enough\" cheaper alternatives. It makes me wonder if we'll see a race to the bottom on pricing, or if the high-end models will find their niche in highly specialized, high-value applications.\n\nOriginal Link: https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
+            "url": "https://digestweb.dev/articles/2026-08-23/anthropic-fable-5-struggles-adoption-cheaper-ai-models-thrive",
+            "title": "Anthropic's Fable 5 Struggles for Adoption as Cheaper AI Models Thrive",
+            "summary": "New data suggests Anthropic's premium Fable 5 model is struggling to attract users due to its high cost, while more affordable AI tools gain traction, impacting market share.",
+            "image": "https://picsum.photos/id/852/800/450",
+            "date_modified": "2026-08-23T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-23/calvinos-1967-vision-cybernetics-ghosts-future-literature",
+            "content_html": "## Summary & Key Takeaways\n\n- The article discusses Italo Calvino's 1967 lecture \"Cybernetics and Ghosts.\"\n- Calvino pondered if machines could replace poets and authors, conceiving novels and poems.\n- He expressed relief at the idea of machines systematizing the \"messiness\" of writing.\n- The author reacts to Calvino's perspective, feeling a need to defend human creativity.\n- It explores the historical intersection of technology, literature, and human expression.\n\n## Our Commentary\n\nCalvino's take here is genuinely surprising. I always thought of him as someone who'd champion the messy, human element of storytelling, not find \"relief\" in its systematization. It makes me wonder if we're just constantly re-litigating the same arguments about technology and art, just with shinier tools. My hackles definitely go up when I hear about machines removing the \"dark magic\" from literature.\n\nOriginal Link: https://robinrendle.com/notes/cybernetics-and-ghosts/",
+            "url": "https://digestweb.dev/articles/2026-08-23/calvinos-1967-vision-cybernetics-ghosts-future-literature",
+            "title": "Calvino's 1967 Vision: Cybernetics, Ghosts, and the Future of Literature",
+            "summary": "Robin Rendle revisits Italo Calvino's 1967 lecture on writing machines, exploring historical perspectives on AI's role in creativity and the author's personal reflections.",
+            "image": "https://picsum.photos/id/551/800/450",
+            "date_modified": "2026-08-23T00:00:00.000Z",
+            "author": {
+                "name": "Robin Rendle"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-23/pnpm-11-23-improves-config-visibility-deprecates-import-package-hook",
+            "content_html": "## Summary & Key Takeaways\n\n- `pnpm config get` and `pnpm config list` now show settings under their documented names.\n- Registries, update/audit sections, and catalogs are displayed more accurately.\n- Unrecognized configuration keys now provide more helpful warnings.\n- The `importPackage` pnpmfile hook is deprecated and will be removed in the next major version.\n\n## Our Commentary\n\nThis is a solid quality-of-life update for pnpm users. I appreciate the improved clarity around config settings; it's always a pain when a tool's internal config doesn't match what you expect. Deprecating `importPackage` is a clear signal for future major versions, which is good for planning.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v11.23.0",
+            "url": "https://digestweb.dev/articles/2026-08-23/pnpm-11-23-improves-config-visibility-deprecates-import-package-hook",
+            "title": "pnpm 11.23 Improves Config Visibility, Deprecates `importPackage` Hook",
+            "summary": "The latest pnpm release enhances how configuration settings are displayed and deprecates the `importPackage` pnpmfile hook, signaling its removal in the next major version.",
+            "image": "https://opengraph.githubassets.com/e92e6c158a1fd533aefffc9ce2ad48dde8ef2fb9aa3fabce31f369fd496b0b26/pnpm/pnpm/releases/tag/v11.23.0",
+            "date_modified": "2026-08-23T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-08-22/ai-coding-agents-beyond-code-review",
             "content_html": "## Summary & Key Takeaways\n\n- The article discusses the key skill for productive use of coding agents: confident instruction. - It emphasizes the importance of confidently verifying changes made by AI agents. - The author suggests that reviewing every line of AI-generated code isn't always the most effective method. - Alternative validation strategies are proposed for ensuring correct software changes.\n\n## Our Commentary\n\nThis is a really important point. We're all still figuring out how to work with these AI agents, and the old ways of doing things don't always translate. The idea that 'eyeballing every line' isn't the best validation method for AI-generated code feels right. It's about trust, verification, and knowing _what_ to verify. I think we're going to see a lot more discussion around these new 'agentic engineering' workflows.\n\nOriginal Link: https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
             "url": "https://digestweb.dev/articles/2026-08-22/ai-coding-agents-beyond-code-review",

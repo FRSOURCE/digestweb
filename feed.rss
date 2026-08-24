@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Sun, 23 Aug 2026 07:33:29 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Aug 2026 02:24:03 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,71 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Anthropic's Fable 5 Struggles for Adoption as Cheaper AI Models Thrive]]></title>
+            <link>https://digestweb.dev/articles/2026-08-23/anthropic-fable-5-struggles-adoption-cheaper-ai-models-thrive</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-23/anthropic-fable-5-struggles-adoption-cheaper-ai-models-thrive</guid>
+            <pubDate>Sun, 23 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[New data suggests Anthropic's premium Fable 5 model is struggling to attract users due to its high cost, while more affordable AI tools gain traction, impacting market share.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Anthropic's annualized revenue reached $65bn in July, up from $47bn in May.
+- The company expects Q3 to be profitable, similar to Q2.
+- Anthropic has 6,000 customers spending over $100,000 annually.
+- OpenAI's annualized revenue jumped 35% this quarter, exceeding $40bn, boosted by GPT 5.6.
+- Ramp AI index data shows Anthropic's Fable 5 model has low adoption (8.0%) compared to Opus 4.8 (28.0%).
+- The high cost of Fable 5 is cited as a primary reason for its limited user attraction.
+
+## Our Commentary
+
+This is fascinating, and honestly, not entirely surprising. The AI market is clearly hitting a point where cost-effectiveness is becoming a huge differentiator. I've seen this play out in other tech sectors; premium products need to justify their price with truly unparalleled performance, or users will flock to "good enough" cheaper alternatives. It makes me wonder if we'll see a race to the bottom on pricing, or if the high-end models will find their niche in highly specialized, high-value applications.
+
+Original Link: https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/852/800/450" length="0" type="image//id/852/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Calvino's 1967 Vision: Cybernetics, Ghosts, and the Future of Literature]]></title>
+            <link>https://digestweb.dev/articles/2026-08-23/calvinos-1967-vision-cybernetics-ghosts-future-literature</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-23/calvinos-1967-vision-cybernetics-ghosts-future-literature</guid>
+            <pubDate>Sun, 23 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Robin Rendle revisits Italo Calvino's 1967 lecture on writing machines, exploring historical perspectives on AI's role in creativity and the author's personal reflections.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article discusses Italo Calvino's 1967 lecture "Cybernetics and Ghosts."
+- Calvino pondered if machines could replace poets and authors, conceiving novels and poems.
+- He expressed relief at the idea of machines systematizing the "messiness" of writing.
+- The author reacts to Calvino's perspective, feeling a need to defend human creativity.
+- It explores the historical intersection of technology, literature, and human expression.
+
+## Our Commentary
+
+Calvino's take here is genuinely surprising. I always thought of him as someone who'd champion the messy, human element of storytelling, not find "relief" in its systematization. It makes me wonder if we're just constantly re-litigating the same arguments about technology and art, just with shinier tools. My hackles definitely go up when I hear about machines removing the "dark magic" from literature.
+
+Original Link: https://robinrendle.com/notes/cybernetics-and-ghosts/]]></content:encoded>
+            <author>Robin Rendle</author>
+            <enclosure url="https://picsum.photos/id/551/800/450" length="0" type="image//id/551/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[pnpm 11.23 Improves Config Visibility, Deprecates `importPackage` Hook]]></title>
+            <link>https://digestweb.dev/articles/2026-08-23/pnpm-11-23-improves-config-visibility-deprecates-import-package-hook</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-23/pnpm-11-23-improves-config-visibility-deprecates-import-package-hook</guid>
+            <pubDate>Sun, 23 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The latest pnpm release enhances how configuration settings are displayed and deprecates the `importPackage` pnpmfile hook, signaling its removal in the next major version.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- `pnpm config get` and `pnpm config list` now show settings under their documented names.
+- Registries, update/audit sections, and catalogs are displayed more accurately.
+- Unrecognized configuration keys now provide more helpful warnings.
+- The `importPackage` pnpmfile hook is deprecated and will be removed in the next major version.
+
+## Our Commentary
+
+This is a solid quality-of-life update for pnpm users. I appreciate the improved clarity around config settings; it's always a pain when a tool's internal config doesn't match what you expect. Deprecating `importPackage` is a clear signal for future major versions, which is good for planning.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.23.0]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/e92e6c158a1fd533aefffc9ce2ad48dde8ef2fb9aa3fabce31f369fd496b0b26/pnpm/pnpm/releases/tag/v11.23.0" length="0" type="image/0"/>
+        </item>
         <item>
             <title><![CDATA[Beyond Code Review: Effectively Using AI Coding Agents]]></title>
             <link>https://digestweb.dev/articles/2026-08-22/ai-coding-agents-beyond-code-review</link>
