@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-08-24T08:02:33.248Z</updated>
+    <updated>2026-08-25T07:43:52.882Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,219 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Streamlining AI Workflows: A Guide to Gradio for Rapid Deployment]]></title>
+        <id>https://digestweb.dev/articles/2026-08-25/ai-workflows-gradio-deployment-guide</id>
+        <link href="https://digestweb.dev/articles/2026-08-25/ai-workflows-gradio-deployment-guide"/>
+        <link rel="enclosure" href="https://huggingface.co/blog/assets/gradio-workflow-guide/thumbnail.png" type="image/png"/>
+        <updated>2026-08-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Explore how Gradio simplifies the process of wiring, running, and deploying AI models. This guide offers insights into creating efficient AI workflows for quick prototyping and sharing.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Gradio provides a user-friendly interface for building and sharing AI demos.
+- The article likely guides users through setting up AI workflows within Gradio.
+- It covers the steps from connecting models to running and deploying them.
+- Gradio is known for its ability to quickly prototype and visualize AI outputs.
+- This resource aims to help developers streamline their AI project deployment.
+
+## Our Commentary
+
+Gradio is a fantastic tool for quickly getting AI models into a shareable UI. This guide sounds like a solid resource for anyone looking to streamline their AI prototyping and deployment. I've used Gradio myself for quick demos, and it really cuts down on the boilerplate. It's a good entry point for developers wanting to showcase their AI work without diving deep into frontend frameworks.
+
+Original Link: https://huggingface.co/blog/gradio-workflow-guide]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blender to Three.js Workflow: 10 Tips for AI-Enhanced 3D Development]]></title>
+        <id>https://digestweb.dev/articles/2026-08-24/blender-threejs-ai-workflow-tips</id>
+        <link href="https://digestweb.dev/articles/2026-08-24/blender-threejs-ai-workflow-tips"/>
+        <link rel="enclosure" href="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/08/og-image.webp?x57826" type="image/webp"/>
+        <updated>2026-08-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Streamline your 3D web development with practical tips for integrating Blender, Blender MCP, and AI into your Three.js workflow. Enhance efficiency and creativity in your projects.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article provides 10 practical tips for optimizing a Blender to Three.js workflow.
+- It explores how AI tools can be integrated to streamline 3D asset creation and export.
+- Blender MCP (Material Conversion Pipeline) is highlighted for improving material handling.
+- Tips cover various stages from modeling in Blender to rendering in Three.js.
+- The goal is to enhance efficiency and quality in web-based 3D projects.
+
+## Our Commentary
+
+This is exactly the kind of practical, cross-disciplinary content we love. Combining Blender, Three.js, and AI for 3D web development? Yes, please. I'm always looking for ways to make these complex workflows smoother. The mention of AI here is intriguing; I wonder how deeply it's integrated beyond just "helping."
+
+Original Link: https://tympanus.net/codrops/2026/08/24/blender-to-three-js-and-back-10-tips-for-a-better-workflow/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scaling Design Systems with Horizontal CSS @layer and Build Pipelines]]></title>
+        <id>https://digestweb.dev/articles/2026-08-24/design-systems-horizontal-css-layer-build-pipelines</id>
+        <link href="https://digestweb.dev/articles/2026-08-24/design-systems-horizontal-css-layer-build-pipelines"/>
+        <link rel="enclosure" href="https://blog.master.dev/wp-json/social-image-generator/v1/image/10814" type="image//wp-json/social-image-generator/v1/image/10814"/>
+        <updated>2026-08-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Delve into advanced CSS `@layer` strategies for design systems, focusing on horizontal layering. This article explores integrating design tokens and build pipelines to manage styles at an enterprise scale.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article explores applying horizontal CSS `@layer` to large-scale design systems.
+- It addresses challenges when design tokens originate from build pipelines.
+- The discussion extends previous concepts of "thinking horizontally" in CSS.
+- It considers how to manage component styles effectively within a layered structure.
+- The goal is to provide robust and maintainable styling for enterprise design systems.
+
+## Our Commentary
+
+CSS `@layer` is still something I'm wrapping my head around for large projects. This article, linking it to design systems and build pipelines, feels incredibly relevant. We're all trying to figure out the best way to manage CSS at scale, and these discussions are crucial. I appreciate the focus on practical application rather than just theoretical concepts. It's a good reminder that CSS architecture is a complex beast.
+
+Original Link: https://blog.master.dev/design-systems-horizontal-layer/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Firefox Signals Intent to Ship JPEG XL: A New Era for Web Images]]></title>
+        <id>https://digestweb.dev/articles/2026-08-24/firefox-intent-to-ship-jpeg-xl-image-format</id>
+        <link href="https://digestweb.dev/articles/2026-08-24/firefox-intent-to-ship-jpeg-xl-image-format"/>
+        <link rel="enclosure" href="https://hacks.mozilla.org/wp-content/uploads/2026/08/4.jpg" type="image/jpg"/>
+        <updated>2026-08-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Mozilla announces its intent to ship JPEG XL, marking a significant step for a new, advanced image format in Firefox. This could bring substantial improvements in web image quality and compression.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Firefox has announced its intent to ship support for the JPEG XL image format.
+- JPEG XL offers significant improvements over older formats like JPEG and WebP.
+- It provides better compression and quality, enhancing web performance and user experience.
+- This move follows the introduction of AVIF as another advanced image format in browsers.
+- The adoption of JPEG XL could lead to a new standard for web imagery.
+
+## Our Commentary
+
+JPEG XL! Finally. We've been waiting for this one. AVIF was a good start, but JPEG XL feels like the true successor to JPEG. The potential for better compression _and_ quality is huge for web performance. I'm curious to see how quickly other browsers follow suit. This is a big win for the web platform.
+
+Original Link: https://hacks.mozilla.org/2026/08/intent-to-ship-jpeg-xl/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Automated Alt Text Checks Aren't Enough: GitHub's New Scanner Plugin]]></title>
+        <id>https://digestweb.dev/articles/2026-08-24/github-alt-text-scanner-plugin-accessibility</id>
+        <link href="https://digestweb.dev/articles/2026-08-24/github-alt-text-scanner-plugin-accessibility"/>
+        <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/08/header-1.png" type="image/png"/>
+        <updated>2026-08-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[GitHub introduces a new plugin for its Accessibility Scanner, aiming to improve alt text quality beyond basic automated validation. Learn how it helps ensure truly accessible image descriptions.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Automated alt text checks often miss crucial context and quality issues.
+- GitHub developed a new plugin for its Accessibility Scanner to address this gap.
+- The plugin focuses on evaluating the _quality_ and _usefulness_ of alt text, not just its presence.
+- It aims to help developers write alt text that provides meaningful information to users.
+- The article explains the plugin's functionality and how it improves accessibility.
+
+## Our Commentary
+
+This is a fantastic move. We've all seen those "image" alt texts that pass automated checks but tell you nothing. I'm genuinely excited to see tools pushing for _meaningful_ accessibility, not just checkbox compliance. It's a small step, but it's in the right direction for better user experiences.
+
+Original Link: https://github.blog/engineering/user-experience/your-alt-text-passes-automated-checks-that-doesnt-mean-its-any-good/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Sandcastle: A New Tool for Parallel Development]]></title>
+        <id>https://digestweb.dev/articles/2026-08-24/introducing-sandcastle-parallel-development-tool</id>
+        <link href="https://digestweb.dev/articles/2026-08-24/introducing-sandcastle-parallel-development-tool"/>
+        <link rel="enclosure" href="https://blog.master.dev/wp-json/social-image-generator/v1/image/10787" type="image//wp-json/social-image-generator/v1/image/10787"/>
+        <updated>2026-08-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Frontend Masters unveils Sandcastle, a new tool designed to streamline development workflows by enabling the simultaneous implementation of multiple issues. Explore how it aims to boost team productivity.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Frontend Masters has introduced a new tool named Sandcastle.
+- Sandcastle is designed to facilitate parallel development efforts.
+- It aims to allow teams to work on multiple issues concurrently.
+- The tool seeks to improve overall development workflow efficiency.
+- Further details are expected to elaborate on its specific features and benefits.
+
+## Our Commentary
+
+"Introducing Sandcastle" with such a cryptic quote. My first thought is, "Is this a new dev environment, a project management tool, or something else entirely?" The idea of tackling multiple issues simultaneously is appealing, but I need more than a single sentence to get excited. I'm cautiously optimistic, but also a little frustrated by the lack of immediate detail.
+
+Original Link: https://blog.master.dev/introducing-sandcastle/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Releases GPT-5.6 in Kiro: Enhanced Price-Performance for Devs]]></title>
+        <id>https://digestweb.dev/articles/2026-08-24/openai-gpt-5-6-kiro-developer-price-performance</id>
+        <link href="https://digestweb.dev/articles/2026-08-24/openai-gpt-5-6-kiro-developer-price-performance"/>
+        <link rel="enclosure" href="https://picsum.photos/id/600/800/450" type="image//id/600/800/450"/>
+        <updated>2026-08-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI introduces GPT-5.6, now available in Kiro, offering developers improved price-performance for software planning, building, reviewing, and testing. This release aims to make advanced AI more accessible and efficient for development workflows.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI has released GPT-5.6, now accessible through Kiro.
+- The new model focuses on delivering better price-performance for developers.
+- It is designed to assist across the entire software development lifecycle.
+- Tasks include planning, building, code review, and testing.
+- This release aims to make advanced AI capabilities more efficient and cost-effective for dev teams.
+
+## Our Commentary
+
+Another GPT release, this time with a focus on "price-performance" for developers. That's the magic phrase, isn't it? We're all looking for more bang for our buck with these models. I'm curious if "Kiro" is a new platform or just a codename. The promise of better efficiency for dev tasks is always welcome, but I'm a little wary of the constant version bumps without clear, tangible breakthroughs.
+
+Original Link: https://openai.com/index/gpt-5-6-in-kiro]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beyond the Database: Running Executables Directly from SQLite Files]]></title>
+        <id>https://digestweb.dev/articles/2026-08-24/sqlite-database-as-executable-binary-linux</id>
+        <link href="https://digestweb.dev/articles/2026-08-24/sqlite-database-as-executable-binary-linux"/>
+        <link rel="enclosure" href="https://picsum.photos/id/255/800/450" type="image//id/255/800/450"/>
+        <updated>2026-08-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Discover a clever Linux pattern that allows SQLite database files to function as executable binaries. This technique leverages SQLite's application ID field to embed and execute ELF components directly from the database.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- A novel Linux pattern enables SQLite database files to be directly executed as binaries.
+- This method involves setting SQLite's application ID to "SELF" (Structured Executable & Linkable Format).
+- ELF executable components are stored within SQLite tables using a specific schema.
+- A custom `self-exec` interpreter extracts and runs these components.
+- Linux's `binfmt_misc` mechanism can be configured to recognize and execute these special SQLite files.
+
+## Our Commentary
+
+This is one of those "wait, what?" moments. Using a SQLite database _as_ an executable? That's just wild. It's a deep dive into system-level trickery that I find incredibly fascinating, even if it's not directly applicable to my daily web dev work. It makes me think about the hidden potential in seemingly mundane file formats. Simon Willison always finds the coolest stuff.
+
+Original Link: https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Remember <me>: A Web Component Idea for Saving Form Progress]]></title>
+        <id>https://digestweb.dev/articles/2026-08-24/web-component-form-saver-localstorage-ux</id>
+        <link href="https://digestweb.dev/articles/2026-08-24/web-component-form-saver-localstorage-ux"/>
+        <link rel="enclosure" href="https://blog.codepen.io/wp-content/uploads/2026/08/CleanShot-2026-08-03-at-14.31.57.gif" type="image/gif"/>
+        <updated>2026-08-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Explore the concept of a `<form-saver>` Web Component designed to automatically save user input to localStorage. This simple yet powerful idea aims to prevent data loss and enhance the user experience on web forms.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article discusses a Web Component concept called `<form-saver>`.
+- This component would wrap HTML forms to automatically save input to localStorage.
+- The primary goal is to prevent users from losing form progress due to navigation or crashes.
+- It aims to significantly improve the user experience on long or complex forms.
+- The idea draws inspiration from existing solutions for data persistence.
+
+## Our Commentary
+
+Oh, this is such a simple yet brilliant idea. How many times have I lost form data because of a refresh or accidental navigation? A `<form-saver>` Web Component feels like a no-brainer for improving UX. It's the kind of practical, thoughtful solution that makes the web a little bit better. I'm surprised this isn't a more common pattern or built-in browser feature.
+
+Original Link: https://blog.codepen.io/2026/08/24/chris-corner-remember-me/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WordPress Simplifies Block Dev: PHP-Only Registration Arrives]]></title>
+        <id>https://digestweb.dev/articles/2026-08-24/wordpress-php-only-block-registration</id>
+        <link href="https://digestweb.dev/articles/2026-08-24/wordpress-php-only-block-registration"/>
+        <link rel="enclosure" href="https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/06/wordpress-blocks-php.jpg" type="image/jpg"/>
+        <updated>2026-08-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[WordPress now allows developers to register blocks using only PHP, eliminating the need for React and complex build pipelines. This change significantly streamlines block development for many users.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- WordPress has introduced a new method for registering blocks using only PHP.
+- This eliminates the previous requirement for React and associated build pipelines.
+- The change aims to simplify block development, making it more accessible.
+- Developers can now create custom blocks with just server-side PHP code.
+- This update is a significant shift for the WordPress ecosystem.
+
+## Our Commentary
+
+This is a huge deal for the WordPress community, especially for those who prefer a simpler, PHP-centric workflow. Ditching React and build pipelines for basic block registration? That's a massive DX improvement for a large segment of developers. It feels like WordPress is acknowledging its roots while still moving forward. I'm genuinely happy to see this kind of flexibility.
+
+Original Link: https://css-tricks.com/wordpress-php-block-registration/]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Anthropic's Fable 5 Struggles for Adoption as Cheaper AI Models Thrive]]></title>
         <id>https://digestweb.dev/articles/2026-08-23/anthropic-fable-5-struggles-adoption-cheaper-ai-models-thrive</id>
