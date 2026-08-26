@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Tue, 25 Aug 2026 07:43:52 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Aug 2026 07:45:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -35,6 +35,248 @@ Gradio is a fantastic tool for quickly getting AI models into a shareable UI. Th
 
 Original Link: https://huggingface.co/blog/gradio-workflow-guide]]></content:encoded>
             <enclosure url="https://huggingface.co/blog/assets/gradio-workflow-guide/thumbnail.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[The Case for Autonomous Websites: AI Agents for Continuous Optimization]]></title>
+            <link>https://digestweb.dev/articles/2026-08-25/autonomous-websites-ai-agents-continuous-optimization</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-25/autonomous-websites-ai-agents-continuous-optimization</guid>
+            <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore the concept of autonomous websites, where AI agents continuously optimize and update a site post-launch, addressing the challenge of keeping web content current.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article argues websites should continuously evolve post-launch.
+- It introduces "autonomous websites" optimized by AI agents.
+- This approach aims to combat website stagnation due to lack of maintenance time.
+- Pierre Burgy shares insights from building for full website autonomy.
+
+## Our Commentary
+
+"Autonomous websites, continuously optimized by agents after launch." This is both exciting and a little terrifying. On one hand, the idea of a website that never stagnates is incredibly appealing. On the other, the thought of agents churning away at 3 AM, making changes without human oversight... I genuinely don't know how to feel about this. It's a huge shift in how we think about web development and maintenance.
+
+Original Link: https://smashingmagazine.com/2026/08/why-website-should-never-stop-changing/]]></content:encoded>
+            <enclosure url="https://files.smashing.media/articles/why-website-should-never-stop-changing/why-website-should-never-stop-changing.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Create a Mouse-Following Square Lens Effect with Three.js and GLSL]]></title>
+            <link>https://digestweb.dev/articles/2026-08-25/create-mouse-following-square-lens-effect-threejs-glsl</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-25/create-mouse-following-square-lens-effect-threejs-glsl</guid>
+            <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn to build an interactive mouse-following square lens effect using Three.js and GLSL shaders. This tutorial covers image distortion, RGB shifting, and animated effects.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- This tutorial guides users through building a unique visual effect.
+- It uses Three.js and GLSL for a mouse-following square lens.
+- Techniques include image distortion and RGB shifting.
+- The article also covers animated shader effects.
+
+## Our Commentary
+
+Codrops always delivers on the visual front. This kind of tutorial is fantastic for pushing the boundaries of what's possible in the browser. I love seeing how these complex shader effects are broken down. It's a great way to learn GLSL and Three.js by doing something genuinely cool.
+
+Original Link: https://tympanus.net/codrops/2026/08/25/building-a-mouse-following-square-lens-effect-with-three-js-and-glsl/]]></content:encoded>
+            <enclosure url="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/08/pointer-square-lens-distortion-with-rgb-Shift.webp?x57826" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[Deep Dive: How IBM's Granite 4.2 LLMs Are Constructed]]></title>
+            <link>https://digestweb.dev/articles/2026-08-25/deep-dive-ibm-granite-4-2-llms-construction</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-25/deep-dive-ibm-granite-4-2-llms-construction</guid>
+            <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This article explores the architectural and development processes behind IBM's Granite 4.2 Large Language Models, offering insights into their construction.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article provides insights into IBM's Granite 4.2 LLMs.
+- It details the methods and processes used in their construction.
+- Readers can learn about the underlying architecture.
+- The focus is on how these specific models are built.
+
+## Our Commentary
+
+I'm always eager for more transparency on how these massive models are actually built. IBM's Granite series is a significant player, and understanding their methodology is crucial for anyone working with or evaluating LLMs. It helps demystify the "black box" a little, which I think is essential for responsible AI development.
+
+Original Link: https://huggingface.co/blog/ibm-granite/granite-4-2]]></content:encoded>
+            <enclosure url="https://cdn-uploads.huggingface.co/production/uploads/65cc2c288ebd392213e58899/XHWV2L_wZsFe3ekksCgvQ.webp" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[Diffusion Models vs. LLMs: Which is Better for Web Design?]]></title>
+            <link>https://digestweb.dev/articles/2026-08-25/diffusion-models-vs-llms-web-design</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-25/diffusion-models-vs-llms-web-design</guid>
+            <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This discussion explores whether diffusion models, like those used in DiffUI, offer a more creative and visually detailed approach to prompt-to-website design than traditional LLMs.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article discusses using AI for prompt-to-website design.
+- It compares diffusion models to Large Language Models for this task.
+- Jacob Miller's DiffUI tool uses a diffusion model for design.
+- Diffusion models are suggested to be more creative and visually detailed.
+
+## Our Commentary
+
+This is a fascinating question. I've seen some incredible visual output from diffusion models, and the idea of applying that directly to web design, focusing on the visual first, makes a lot of sense. LLMs are great for code, but design is inherently visual. I'm genuinely curious if this approach will yield more innovative and aesthetically pleasing results. It feels like a natural fit.
+
+Original Link: https://blog.codepen.io/2026/08/25/438-are-diffusion-models-better-than-llms-at-web-design/]]></content:encoded>
+            <enclosure url="https://s0.wp.com/i/blank.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[EVE Online Begins Monumental Migration from Python 2 to Python 3]]></title>
+            <link>https://digestweb.dev/articles/2026-08-25/eve-online-begins-monumental-python-2-to-3-migration</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-25/eve-online-begins-monumental-python-2-to-3-migration</guid>
+            <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[EVE Online, a game running on Python for over two decades, embarks on a challenging migration of 2.4 million lines of code from Stackless Python 2.7 to Python 3.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- EVE Online is commencing its migration from Python 2 to Python 3.
+- The game has run on Stackless Python since 2003.
+- The migration involves 2.4 million lines of code and manual review of 20,000 differences.
+- They previously replaced Stackless in their Carbon engine with an open-source scheduler.
+
+## Our Commentary
+
+Wow, EVE Online still running on Stackless Python 2.7? That's a relic! This migration is going to be an absolute beast. 2.4 million lines of code, 20,000 manual reviews... I can only imagine the war stories that will come out of this. It's a stark reminder of the long-term technical debt in large systems. Good luck to them, they'll need it.
+
+Original Link: https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/391/800/450" length="0" type="image//id/391/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[GitHub Shares Lessons on Evaluating LLMs for Production Readiness]]></title>
+            <link>https://digestweb.dev/articles/2026-08-25/github-lessons-evaluating-llms-production-readiness</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-25/github-lessons-evaluating-llms-production-readiness</guid>
+            <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[GitHub's engineering team shares their insights and lessons learned from evaluating Large Language Models for real-world applications, specifically in secret scanning.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- GitHub shares their experience evaluating LLMs for production.
+- The focus is on real-world secret scanning applications.
+- The article details lessons learned during the evaluation process.
+- It offers practical guidance for deploying LLMs reliably.
+
+## Our Commentary
+
+This is exactly the kind of practical, battle-tested advice we need. Moving LLMs from research to production is still a wild west, and hearing how GitHub tackles it, especially for something as sensitive as secret scanning, is invaluable. We're all trying to figure out the best practices here.
+
+Original Link: https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/]]></content:encoded>
+            <enclosure url="https://github.blog/wp-content/uploads/2026/01/4ba0cd42388a255e04c78e5143548f22e577d68e0f15f68e6a3c76c18b927981-1920x1080-1.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Introducing MicroLighter: A Lightweight Syntax Highlighter]]></title>
+            <link>https://digestweb.dev/articles/2026-08-25/introducing-microlighter-lightweight-syntax-highlighter</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-25/introducing-microlighter-lightweight-syntax-highlighter</guid>
+            <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover MicroLighter, a new syntax highlighter designed to offer efficient code block highlighting without the need for complicated markup or excessive JavaScript.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- MicroLighter is a new, lightweight syntax highlighter.
+- It aims to simplify code block highlighting.
+- The tool avoids complicated markup, spans, and classes.
+- It is designed to be efficient and not use bloated JavaScript.
+
+## Our Commentary
+
+Another syntax highlighter? My first thought was "do we really need another one?" But "without the complicated markup, spans, classes, and bloated JavaScript" definitely caught my eye. If it truly delivers on that promise, it could be a fantastic option for performance-conscious sites. I'm always here for tools that simplify things.
+
+Original Link: https://css-tricks.com/microlighter-syntax-highlighter/]]></content:encoded>
+            <enclosure url="https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/09/custom-properties-code-block.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[MicroLighter: A 2KB Client-Side Syntax Highlighter with Web Components]]></title>
+            <link>https://digestweb.dev/articles/2026-08-25/microlighter-2kb-client-side-syntax-highlighter-web-components</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-25/microlighter-2kb-client-side-syntax-highlighter-web-components</guid>
+            <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover MicroLighter, a new 2KB client-side syntax highlighter that leverages the Highlight API and TextMate grammars, offering easy integration via web components.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- MicroLighter is a new 2KB client-side syntax highlighter.
+- It includes a web component for straightforward usage.
+- The tool utilizes the Highlight API for text colorization.
+- It supports TextMate grammars, similar to VS Code.
+- A key feature is that it does not directly manipulate the DOM.
+
+## Our Commentary
+
+Okay, this follow-up article gives us more juicy details on MicroLighter. 2KB _and_ it uses the Highlight API and TextMate grammars? That's genuinely impressive. The fact that it doesn't touch the DOM is a huge win for performance. This isn't just another highlighter; it's a smart, modern approach. I'm definitely keeping an eye on this one.
+
+Original Link: https://blog.master.dev/microlighter/]]></content:encoded>
+            <enclosure url="https://blog.master.dev/wp-json/social-image-generator/v1/image/10822" length="0" type="image//wp-json/social-image-generator/v1/image/10822"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI CFO on the Full Stack Driving Abundant Intelligence]]></title>
+            <link>https://digestweb.dev/articles/2026-08-25/openai-cfo-full-stack-abundant-intelligence</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-25/openai-cfo-full-stack-abundant-intelligence</guid>
+            <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI's CFO, Sarah Friar, discusses how advancements in chips, compute, models, and products are converging to deliver more scalable and cost-effective AI.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI's CFO outlines the "full stack" enabling abundant intelligence.
+- Advances in chips, compute, models, and products are key drivers.
+- These factors compound to deliver more useful AI.
+- The goal is greater scale and lower cost for AI solutions.
+
+## Our Commentary
+
+It's interesting to hear the CFO's perspective on the AI stack. We often focus on the models, but the underlying infrastructure — chips, compute — is just as critical for scaling. "Abundant intelligence" is a bold vision, and it makes me wonder about the societal implications of such widespread, cheap AI. It's a lot to unpack.
+
+Original Link: https://openai.com/index/the-full-stack-behind-abundant-intelligence]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/204/800/450" length="0" type="image//id/204/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Unveils Jalapeño: Custom Chip for Industry-Leading AI Inference]]></title>
+            <link>https://digestweb.dev/articles/2026-08-25/openai-unveils-jalapeno-custom-chip-ai-inference</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-25/openai-unveils-jalapeno-custom-chip-ai-inference</guid>
+            <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI introduces Jalapeño, their custom inference chip, demonstrating industry-leading speed, power efficiency, higher throughput, and lower latency for AI models.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI has unveiled its custom inference chip, named Jalapeño.
+- First results indicate industry-leading speed and efficiency.
+- The chip aims for faster and more power-efficient AI inference.
+- It promises higher throughput and lower latency for modern models.
+
+## Our Commentary
+
+Okay, _this_ is a big deal. OpenAI building its own silicon? That's a serious commitment to controlling the entire stack, from models to hardware. It makes sense, given the compute demands, but it also feels like a further consolidation of power. I'm genuinely curious about the long-term implications for the broader AI hardware market.
+
+Original Link: https://openai.com/index/jalapeno-first-results]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/700/800/450" length="0" type="image//id/700/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Quantization-Aware Healing: 4-bit Model Outperforms Full-Precision Original]]></title>
+            <link>https://digestweb.dev/articles/2026-08-25/quantization-aware-healing-4-bit-model-outperforms-original</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-25/quantization-aware-healing-4-bit-model-outperforms-original</guid>
+            <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A new technique, "Quantization-Aware Healing," enables a compressed 4-bit AI model to surpass the performance of its larger, full-precision original.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- A new technique called "Quantization-Aware Healing" is introduced.
+- It allows for the creation of highly compressed 4-bit models.
+- These compressed models reportedly outperform their full-precision originals.
+- This could significantly improve AI efficiency and deployment on limited hardware.
+
+## Our Commentary
+
+This is genuinely mind-blowing. A 4-bit model _outperforming_ its full-precision counterpart? That's a paradigm shift for efficiency and accessibility in AI. If this holds up, it could unlock so many new applications for LLMs on edge devices or in cost-sensitive environments. I'm skeptical, but also incredibly excited.
+
+Original Link: https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing]]></content:encoded>
+            <enclosure url="https://cdn-uploads.huggingface.co/production/uploads/668e37fd9c9aa124a3c867e8/2DSE26PMq2hJqKqEDOLIn.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Rollup v4.63.0 Improves Function Return Value Tracking]]></title>
+            <link>https://digestweb.dev/articles/2026-08-25/rollup-v4-63-improves-function-return-value-tracking</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-25/rollup-v4-63-improves-function-return-value-tracking</guid>
+            <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Rollup's latest minor release, v4.63.0, introduces enhanced function return value tracking. This update aims to improve analysis capabilities within the build process.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Rollup v4.63.0 has been released.
+- The primary new feature is improved tracking of function return values.
+- This enhancement allows for better analysis in various scenarios.
+- The release also includes dependency updates and maintenance fixes.
+
+## Our Commentary
+
+Rollup keeps chugging along. I appreciate these incremental improvements to core tooling. Better function return value tracking sounds like a subtle win for static analysis and optimization. It's not flashy, but these are the kinds of updates that make our lives a little easier over time.
+
+Original Link: https://github.com/rollup/rollup/releases/tag/v4.63.0]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/c3e86dee9c6dfce6125db581287afdd11b910f0359813b538fe1719c8aec57a8/rollup/rollup/releases/tag/v4.63.0" length="0" type="image/0"/>
         </item>
         <item>
             <title><![CDATA[Blender to Three.js Workflow: 10 Tips for AI-Enhanced 3D Development]]></title>
