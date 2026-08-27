@@ -11,6 +11,141 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-08-26/automate-dependabot-pr-triage-github-copilot",
+            "content_html": "## Summary & Key Takeaways\n\n- The article provides a beginner's guide to automating Dependabot pull request triage.\n- It leverages the GitHub Copilot app to handle repetitive dependency update tasks.\n- Automating this process can save developers time and reduce manual effort.\n- The tutorial focuses on practical application of AI for workflow efficiency.\n\n## Our Commentary\n\nAutomating Dependabot PRs with Copilot is a smart move. We all know how quickly those can pile up. It's a good example of how AI can tackle the mundane parts of development, freeing us up for more complex work.\n\nOriginal Link: https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage/",
+            "url": "https://digestweb.dev/articles/2026-08-26/automate-dependabot-pr-triage-github-copilot",
+            "title": "Automate Dependabot PR Triage with GitHub Copilot",
+            "summary": "Learn how to use the GitHub Copilot app to automate the tedious task of triaging Dependabot pull requests, streamlining your dependency management workflow.",
+            "image": "https://github.blog/wp-content/uploads/2026/08/Screenshot-2026-08-26-at-12.57.57-PM.png",
+            "date_modified": "2026-08-26T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-26/css-custom-property-computation-timing",
+            "content_html": "## Summary & Key Takeaways\n\n- CSS custom properties can be computed at different times, affecting their final value.\n- The article demonstrates how `var()` substitution and evaluation context play a role.\n- It uses `sibling-index()` as an example to illustrate the default computation behavior.\n- `getComputedStyle()` can show the token stream value before final computation.\n- Understanding these timings is crucial for predictable and performant CSS.\n\n## Our Commentary\n\nJake Archibald always delivers. This deep dive into CSS custom property computation is exactly the kind of nuanced detail that can trip up even experienced developers. Knowing _when_ things are computed, not just _what_, is essential for writing robust and performant styles. I appreciate the clarity here.\n\nOriginal Link: https://jakearchibald.com/2026/css-custom-property-compute-time/",
+            "url": "https://digestweb.dev/articles/2026-08-26/css-custom-property-computation-timing",
+            "title": "Understanding CSS Custom Property Computation Timing",
+            "summary": "Jake Archibald explores the nuanced behavior of CSS custom properties, revealing how their computation timing can significantly impact styles and performance.",
+            "image": "https://jakearchibald.com/c/img-7bxD1M_W.png",
+            "date_modified": "2026-08-26T00:00:00.000Z",
+            "author": {
+                "name": "Jake Archibald"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-26/cypress-cloud-run-completion-api-faster-runs",
+            "content_html": "## Summary & Key Takeaways\n\n- The new Run Completion API is available for all Cypress Cloud plans.\n- It allows Cypress Cloud runs to finalize immediately after test recording.\n- This prevents runs from staying open for new tests, improving efficiency.\n- The API is particularly beneficial for runs with multiple groups of tests, such as parallel machines or different browsers.\n- It aims to save time by reducing the overall duration of test execution in the cloud.\n\n## Our Commentary\n\nFaster Cypress Cloud runs are always a good thing. The Run Completion API sounds like a solid improvement for anyone running large, parallel test suites. We've definitely felt the pain of runs lingering longer than necessary, so this is a welcome optimization.\n\nOriginal Link: https://www.cypress.io/blog/new-finish-cypress-cloud-runs-faster-with-the-run-completion-api/",
+            "url": "https://digestweb.dev/articles/2026-08-26/cypress-cloud-run-completion-api-faster-runs",
+            "title": "Cypress Cloud Speeds Up Runs with New Completion API",
+            "summary": "Cypress Cloud introduces a new Run Completion API, allowing test runs to finalize immediately after recording, significantly speeding up parallel and grouped test executions.",
+            "image": "https://storage.ghost.io/c/12/89/12899ca1-4786-4eea-b7e1-9c5268baa48a/content/images/2026/08/run-completion-api-blog-image.png",
+            "date_modified": "2026-08-26T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-26/google-deepmind-gemini-3-5-transcribe",
+            "content_html": "## Summary & Key Takeaways\n\n- Google DeepMind has launched Gemini 3.5 Transcribe.\n- This new service provides enhanced speech-to-text transcription.\n- It aims to deliver more intelligent and accurate transcription results.\n- The release expands Google's Gemini AI capabilities into audio processing.\n\n## Our Commentary\n\nGemini 3.5 Transcribe sounds like a solid step forward for speech-to-text. We've all dealt with transcription tools that struggle with nuance, so \"intelligent transcription\" from DeepMind is definitely something to watch. Accuracy in this space is a huge differentiator.\n\nOriginal Link: https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+            "url": "https://digestweb.dev/articles/2026-08-26/google-deepmind-gemini-3-5-transcribe",
+            "title": "Google DeepMind Unveils Gemini 3.5 Transcribe for Intelligent Transcription",
+            "summary": "Google DeepMind introduces Gemini 3.5 Transcribe, a new service offering more intelligent and advanced speech-to-text transcription capabilities.",
+            "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_3-5_transcribe.width-1300.jpg",
+            "date_modified": "2026-08-26T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-26/hover-proximity-modern-css",
+            "content_html": "## Summary & Key Takeaways\n\n- The tutorial explores styling elements based on the hover state of nearby items.\n- It covers techniques for applying styles to previous, next, or multiple adjacent elements.\n- Modern CSS capabilities are leveraged to achieve these dynamic effects.\n- This approach enhances user experience by providing richer interactive feedback.\n\n## Our Commentary\n\nThis is a neat CSS trick! Going beyond simple `:hover` to affect adjacent elements based on proximity opens up some really interesting UX possibilities. It's a good reminder of how powerful modern CSS has become.\n\nOriginal Link: https://blog.master.dev/hover-proximity-using-modern-css/",
+            "url": "https://digestweb.dev/articles/2026-08-26/hover-proximity-modern-css",
+            "title": "Achieve Hover Proximity Effects with Modern CSS",
+            "summary": "Frontend Masters demonstrates how to create advanced hover proximity effects using modern CSS, allowing styling of adjacent elements based on hover state.",
+            "image": "https://blog.master.dev/wp-json/social-image-generator/v1/image/10732",
+            "date_modified": "2026-08-26T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-26/nodejs-26-8-0-current-release",
+            "content_html": "## Summary & Key Takeaways\n\n- Node.js 26.8.0 is released as the latest \"Current\" version.\n- This release typically includes minor updates, performance improvements, and bug fixes.\n- Users on the current release line are encouraged to update for the latest features and stability.\n\n## Our Commentary\n\nAnother Node.js current release. We always appreciate the continuous improvements, even if the details aren't always headline-grabbing. Keeping up with these minor versions is just part of the game.\n\nOriginal Link: https://nodejs.org/en/blog/release/v26.8.0",
+            "url": "https://digestweb.dev/articles/2026-08-26/nodejs-26-8-0-current-release",
+            "title": "Node.js 26.8.0 Current Release Available",
+            "summary": "Node.js 26.8.0, the latest current release, is now available, bringing minor updates and bug fixes to the JavaScript runtime.",
+            "image": "https://nodejs.org/en/next-data/og/release/Node.js%20%E2%80%94%20Node.js%2026.8.0%20(Current)",
+            "date_modified": "2026-08-26T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-26/paul-dix-ai-impact-on-programming",
+            "content_html": "## Summary & Key Takeaways\n\n- Paul Dix highlights AI's capability to write and refine millions of lines of code.\n- He references Bun's transpiler as a concrete example of AI-generated, reliable software.\n- Dix argues that having an \"oracle\" for comparison doesn't diminish AI's achievement.\n- He suggests that with proper direction and verification, AI can produce highly sophisticated software.\n- The commentary explores the profound implications of AI for the future of programming.\n\n## Our Commentary\n\nPaul Dix's take on AI's impact, especially referencing Bun's transpiler, is thought-provoking. I agree that having a verification system doesn't make the achievement less impressive; it just changes the nature of the engineering problem. It makes me wonder how much of our future code will be \"written\" by AI and merely guided by us.\n\nOriginal Link: https://simonwillison.net/2026/Aug/26/paul-dix/",
+            "url": "https://digestweb.dev/articles/2026-08-26/paul-dix-ai-impact-on-programming",
+            "title": "Paul Dix on AI's Mind-Blowing Impact on Programming",
+            "summary": "Simon Willison quotes Paul Dix, reflecting on how AI's ability to generate and refine complex software, like Bun's transpiler, is fundamentally changing the landscape of programming.",
+            "image": "https://picsum.photos/id/32/800/450",
+            "date_modified": "2026-08-26T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-26/pnpm-12-git-dependencies-workspace-config",
+            "content_html": "## Summary & Key Takeaways\n\n- Git dependencies on known hosts now resolve through canonical HTTPS URLs, removing SSH from lockfiles.\n- This change eliminates network probing during resolution, preventing transport mismatches across environments.\n- `pnpm-workspace.yaml` no longer silently ignores unrecognized settings; it now reports them as errors or warnings.\n- Unrecognized settings suggest closest real names for typos, improving configuration reliability.\n- Users can configure Git's URL rewriting globally for private hosted repositories over SSH.\n\n## Our Commentary\n\nThis pnpm 12 release tackles a real pain point with Git dependencies. We've all been there, where a lockfile generated on one machine breaks CI because of an SSH URL. Forcing canonical HTTPS and allowing global Git config for SSH is a smart, pragmatic solution. The stricter workspace config validation is also a welcome change; silent failures are the worst.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v12.0.0",
+            "url": "https://digestweb.dev/articles/2026-08-26/pnpm-12-git-dependencies-workspace-config",
+            "title": "pnpm 12 Released: Major Changes to Git Dependencies and Workspace Config",
+            "summary": "pnpm 12 introduces significant changes to how Git dependencies are resolved and enforces stricter validation for `pnpm-workspace.yaml` settings.",
+            "image": "https://opengraph.githubassets.com/3142518108d6c0390f0b234f6b57fb9cd74d8ab3bd136b9ea64027aaaed6ccae/pnpm/pnpm/releases/tag/v12.0.0",
+            "date_modified": "2026-08-26T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-26/pnpr-alpha-cross-machine-build-output-reuse",
+            "content_html": "## Summary & Key Takeaways\n\n- New opt-in proof-of-concept allows reusing dependency build outputs across different machines.\n- This is achieved by publishing and restoring signed, organization-scoped artifacts through pnpr.\n- Configuration for `remoteSideEffectsCache` is introduced, with signing details from global config.\n- Hosted pnpr registries now serve new artifacts from registry-scoped SHA-512 digest URLs.\n- `pnpm update --patches` can now refresh registry revisions via a configured pnpr server.\n- Explicit registry revision selection with `<version>+rN` and `pnpm update --patches` is supported.\n\n## Our Commentary\n\nThis `pnpr` alpha is genuinely exciting. Reusing build outputs across machines could be a massive performance win for large monorepos and CI pipelines. The idea of signed, organization-scoped artifacts feels like a robust approach to security and provenance. I'm curious to see how this evolves and if it becomes a standard practice in the ecosystem.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.8",
+            "url": "https://digestweb.dev/articles/2026-08-26/pnpr-alpha-cross-machine-build-output-reuse",
+            "title": "pnpr Alpha Introduces Cross-Machine Build Output Reuse",
+            "summary": "pnpr 0.1.0-alpha.8 unveils an opt-in proof-of-concept for reusing dependency build outputs across machines via signed, organization-scoped artifacts.",
+            "image": "https://opengraph.githubassets.com/4fea935d10aa66e9be10781172c47ea60348b5fdeee16c7a20f215dea81db01b/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.8",
+            "date_modified": "2026-08-26T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-26/qwen-3-8-flash-next-multimodal-moe-model",
+            "content_html": "## Summary & Key Takeaways\n\n- Qwen3.8-Flash-Next is a new open-weights multimodal Mixture-of-Experts (MoE) model.\n- It serves as an early preview of the architecture planned for Qwen4.\n- The model is large (125B tokens) but has only 6B active parameters, boosting performance.\n- Simon Willison shares his initial experiences trying out quantized versions of the model.\n- This release is significant for the open-source AI community and model architecture research.\n\n## Our Commentary\n\nA new open-weights multimodal MoE model from Qwen, and an early peek at Qwen4's architecture? That's big news for the AI community. The 125B total, 6B active parameter count is intriguing for performance. Simon Willison's early explorations are always a good sign of something interesting brewing.\n\nOriginal Link: https://simonwillison.net/2026/Aug/26/qwen38-flash-next/",
+            "url": "https://digestweb.dev/articles/2026-08-26/qwen-3-8-flash-next-multimodal-moe-model",
+            "title": "Qwen3.8-Flash-Next: A New Multimodal MoE Model Preview",
+            "summary": "Simon Willison explores Qwen3.8-Flash-Next, a new open-weights multimodal Mixture-of-Experts (MoE) model from Qwen, offering an early look at the Qwen4 architecture.",
+            "image": "https://picsum.photos/id/586/800/450",
+            "date_modified": "2026-08-26T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-26/rethinking-data-visualization-ux-dashboards",
+            "content_html": "## Summary & Key Takeaways\n\n- The article advocates for integrating structured UX thinking into data visualization.\n- It emphasizes asking the right questions before tool selection to ensure insights land effectively.\n- The piece explores the intersection of data and design disciplines.\n- The goal is to create dashboards that actively support decision-making.\n\n## Our Commentary\n\nData visualization is often an afterthought in many projects, so a UX-first approach is something we can definitely get behind. It's not just about pretty charts; it's about making data actionable.\n\nOriginal Link: https://smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/",
+            "url": "https://digestweb.dev/articles/2026-08-26/rethinking-data-visualization-ux-dashboards",
+            "title": "Rethinking Data Visualization: A UX Approach for Dashboards",
+            "summary": "Smashing Magazine explores how applying structured UX thinking to data visualization can create dashboards that truly drive decisions, bridging the gap between data and design.",
+            "image": "https://files.smashing.media/articles/rethinking-data-visualisation-ux-approach-dashboards/rethinking-data-visualisation-ux-approach-dashboards.jpg",
+            "date_modified": "2026-08-26T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-26/safari-technology-preview-251-release-notes",
+            "content_html": "## Summary & Key Takeaways\n\n- Safari Technology Preview Release 251 is now available for download.\n- It includes the latest experimental features and improvements for the WebKit engine.\n- This preview helps developers test upcoming web platform capabilities.\n- The release supports macOS Golden Gate and macOS Tahoe.\n\n## Our Commentary\n\nAnother Safari Technology Preview. We always keep an eye on these to see what's brewing in WebKit. It's where we get a glimpse of future browser capabilities.\n\nOriginal Link: https://webkit.org/blog/18194/release-notes-for-safari-technology-preview-251/",
+            "url": "https://digestweb.dev/articles/2026-08-26/safari-technology-preview-251-release-notes",
+            "title": "Safari Technology Preview 251 Release Notes",
+            "summary": "Safari Technology Preview 251 is now available, bringing the latest experimental web platform features and bug fixes to macOS Golden Gate and Tahoe.",
+            "image": "https://webkit.org/wp-content/themes/webkit/images/preview-card.jpg",
+            "date_modified": "2026-08-26T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-26/solidjs-2-rc3-core-updates-ssr-fixes-server-write-deprecation",
+            "content_html": "## Summary & Key Takeaways\n\n- Setter writes on the server are now deprecated with a `[SERVER_WRITE]` warning, aiming for pure server renders.\n- Fixes address async-generator projections and memos freezing after SSR hydration.\n- The new `@solidjs/diagnostics` package is now part of the `solid-js` ecosystem.\n- Internal refactoring includes collapsing expressions dump and lifting compilers.\n- Performance improvements include reusing text nodes for dynamic text in multi-slots.\n\n## Our Commentary\n\nSolidJS 2.0 is shaping up to be a robust release. The deprecation of server-side setter writes is a strong move towards purity, which I appreciate for predictable SSR. The SSR hydration fixes for async generators are also crucial; those kinds of subtle bugs can be a nightmare to track down. It's good to see the core framework getting these foundational improvements.\n\nOriginal Link: https://github.com/solidjs/solid/releases/tag/solid-js%402.0.0-rc.3",
+            "url": "https://digestweb.dev/articles/2026-08-26/solidjs-2-rc3-core-updates-ssr-fixes-server-write-deprecation",
+            "title": "SolidJS 2.0 RC.3: Core Updates, SSR Fixes, and Server Write Deprecation",
+            "summary": "SolidJS 2.0 Release Candidate 3 brings core framework updates, critical SSR hydration fixes, and deprecates setter writes on the server for improved purity.",
+            "image": "https://opengraph.githubassets.com/e29bc48ac58932a41b4247ff3d40d9b77ad43257efea132736829c4b38bbabf9/solidjs/solid/releases/tag/solid-js%402.0.0-rc.3",
+            "date_modified": "2026-08-26T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-26/solidjs-2-rc3-new-diagnostics-package",
+            "content_html": "## Summary & Key Takeaways\n\n- New `@solidjs/diagnostics` package provides a harness for dev-mode diagnostics and attribution.\n- `captureArtifact()` runs scenarios with open diagnostic channels, folding results into serializable artifacts.\n- Assertion helpers like `expectNoDiagnostics` and `expectRerunBudget` gate correctness and update granularity.\n- Vitest matchers are available via `@solidjs/diagnostics/vitest` for integrated testing.\n- Browser and Playwright adapters enable artifact capture from real pages with live queries.\n- A `skills/reactivity-diagnostics` repair guide maps diagnostic codes to fixes.\n\n## Our Commentary\n\nThis is a huge win for SolidJS developers. Debugging reactivity graphs can be notoriously tricky, and a dedicated diagnostics package with assertion helpers and browser integration feels like a game-changer. We've seen similar tools in other ecosystems, but Solid's approach here looks incredibly thorough. I'm genuinely excited to see how this improves the developer experience.\n\nOriginal Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fdiagnostics%402.0.0-rc.3",
+            "url": "https://digestweb.dev/articles/2026-08-26/solidjs-2-rc3-new-diagnostics-package",
+            "title": "SolidJS 2.0 RC.3 Introduces New Diagnostics Package",
+            "summary": "A new @solidjs/diagnostics package ships with SolidJS 2.0 RC.3, offering a comprehensive suite for reactivity debugging and performance analysis.",
+            "image": "https://opengraph.githubassets.com/9e88c6bec7d8ea42788664df64ab75d88bf605ed17763142e186f9f8d129b326/solidjs/solid/releases/tag/%40solidjs/diagnostics%402.0.0-rc.3",
+            "date_modified": "2026-08-26T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-08-25/ai-workflows-gradio-deployment-guide",
             "content_html": "## Summary & Key Takeaways\n\n- Gradio provides a user-friendly interface for building and sharing AI demos.\n- The article likely guides users through setting up AI workflows within Gradio.\n- It covers the steps from connecting models to running and deploying them.\n- Gradio is known for its ability to quickly prototype and visualize AI outputs.\n- This resource aims to help developers streamline their AI project deployment.\n\n## Our Commentary\n\nGradio is a fantastic tool for quickly getting AI models into a shareable UI. This guide sounds like a solid resource for anyone looking to streamline their AI prototyping and deployment. I've used Gradio myself for quick demos, and it really cuts down on the boilerplate. It's a good entry point for developers wanting to showcase their AI work without diving deep into frontend frameworks.\n\nOriginal Link: https://huggingface.co/blog/gradio-workflow-guide",
             "url": "https://digestweb.dev/articles/2026-08-25/ai-workflows-gradio-deployment-guide",
