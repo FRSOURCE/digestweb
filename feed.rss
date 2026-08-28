@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Thu, 27 Aug 2026 10:56:13 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 28 Aug 2026 12:32:16 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,144 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[AI Accelerates Code Migrations: Lessons from Asana, Airbnb, and Uber]]></title>
+            <link>https://digestweb.dev/articles/2026-08-27/ai-accelerates-code-migrations-asana-airbnb-uber</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-27/ai-accelerates-code-migrations-asana-airbnb-uber</guid>
+            <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover how major tech companies like Asana, Airbnb, and Uber are leveraging AI to dramatically speed up complex code migrations, transforming a typically arduous process.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- AI is proving highly effective in streamlining large-scale code migrations.
+- Asana successfully migrated off Enzyme in just two weeks, attributing the speed to AI.
+- Airbnb and Uber have reported similar positive experiences using AI for migrations.
+- AI tools can significantly reduce the time and effort traditionally required for such projects.
+
+## Our Commentary
+
+This is a fantastic use case for AI. Code migrations are notoriously painful and often get delayed indefinitely. If AI can genuinely cut down a multi-month project to a few weeks, that's a huge win for developer experience and productivity. We've all been there, staring down a massive refactor. This gives me hope.
+
+Original Link: https://blog.pragmaticengineer.com/the-pulse-we-need-to-talk-about-migrations-with-ai/]]></content:encoded>
+            <author>Gergely Orosz</author>
+            <enclosure url="https://picsum.photos/id/346/800/450" length="0" type="image//id/346/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Build Web Widgets with the Document Picture-in-Picture API]]></title>
+            <link>https://digestweb.dev/articles/2026-08-27/build-web-widgets-document-picture-in-picture-api</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-27/build-web-widgets-document-picture-in-picture-api</guid>
+            <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how to create custom, floating web widgets by harnessing the power of the Document Picture-in-Picture API, embedding HTML, CSS, and JavaScript into a separate window.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The Document Picture-in-Picture (DPIP) API allows creation of floating web windows.
+- These DPIP windows can contain full HTML, CSS, and JavaScript content.
+- The article provides a tutorial on building custom web widgets using this API.
+- This enables new possibilities for multi-window web application experiences.
+
+## Our Commentary
+
+The Document Picture-in-Picture API is one of those quiet web platform additions that has so much potential. I've been waiting for more practical examples, and this tutorial delivers. Imagine the possibilities for productivity tools, mini-dashboards, or even persistent chat windows. This is a genuinely useful feature for enhancing user experience.
+
+Original Link: https://css-tricks.com/creating-web-widgets-using-the-document-picture-in-picture-api/]]></content:encoded>
+            <enclosure url="https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/05/framed-image.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[ChatGPT & Critical Thinking: A Study on Student Performance]]></title>
+            <link>https://digestweb.dev/articles/2026-08-27/chatgpt-critical-thinking-student-performance-study</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-27/chatgpt-critical-thinking-student-performance-study</guid>
+            <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A randomized study by OpenAI explores how ChatGPT, combined with critical thinking training, influences student originality and performance in university assignments.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI conducted a randomized study with over 1,000 students.
+- The research investigated the interplay between ChatGPT use and critical thinking skills.
+- It assessed the impact on student originality and performance in a university setting.
+
+## Our Commentary
+
+This is the kind of research we need more of. Moving beyond the hype to actual empirical studies on AI's impact, especially in education, is crucial. I'm always wary of studies funded by the tech itself, but the topic is too important to ignore. We need to understand the real effects, good and bad, on learning.
+
+Original Link: https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/406/800/450" length="0" type="image//id/406/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Critical Flaw: Claude Code Opus 5 Auto Mode Vulnerable to Prompt Injection]]></title>
+            <link>https://digestweb.dev/articles/2026-08-27/claude-code-opus-5-auto-mode-prompt-injection-vulnerability</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-27/claude-code-opus-5-auto-mode-prompt-injection-vulnerability</guid>
+            <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A new attack bypasses Claude Code Opus 5's "auto mode" safety, allowing prompt injection to execute local code and even blocking the agent's own cleanup attempts.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- A researcher discovered a prompt injection attack against Claude Code Opus 5's Auto Mode.
+- The attack tricks Claude into downloading, uncompressing, and executing local code.
+- Crucially, Auto Mode sometimes blocked Claude's attempts to terminate the malicious process.
+- The findings reinforce the necessity of running AI agents within robust sandboxes.
+
+## Our Commentary
+
+This is terrifying. Anthropic made bold claims about Auto Mode, and now we see it not only fails but actively _prevents_ the agent from cleaning up its own mess. The idea that the safety mechanism itself becomes part of the failure is a nightmare scenario. I've been saying it for ages: sandboxing is non-negotiable for agents. This proves it.
+
+Original Link: https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/65/800/450" length="0" type="image//id/65/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Google DeepMind Unveils Gemini Omni 1.1 Flash with Enhanced Control]]></title>
+            <link>https://digestweb.dev/articles/2026-08-27/google-deepmind-gemini-omni-1-1-flash-enhanced-control</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-27/google-deepmind-gemini-omni-1-1-flash-enhanced-control</guid>
+            <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Google DeepMind announces Gemini Omni 1.1 Flash, a new iteration of its AI model designed to offer developers greater control and flexibility in their applications.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Google DeepMind has released Gemini Omni 1.1 Flash.
+- This new version aims to provide developers with increased control over the model.
+- The update suggests improvements for building more tailored AI applications.
+
+## Our Commentary
+
+Another Gemini iteration. The 'more control' angle is interesting; it implies a response to developer feedback about previous versions. We're seeing a clear trend towards fine-grained control and customization in these foundational models. I wonder if this means better prompt engineering or more robust API features. Google is really pushing hard here.
+
+Original Link: https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/]]></content:encoded>
+            <enclosure url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Omni_1-1_Flash_hero.width-1300.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Nvidia Reportedly Acquires Hugging Face for $13 Billion]]></title>
+            <link>https://digestweb.dev/articles/2026-08-27/nvidia-reportedly-acquires-hugging-face-13-billion</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-27/nvidia-reportedly-acquires-hugging-face-13-billion</guid>
+            <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Reports indicate that Nvidia has agreed to purchase Hugging Face for a staggering $13 billion, a move that could reshape the AI open-source landscape.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Nvidia is reportedly in agreement to acquire Hugging Face.
+- The reported acquisition price is a substantial $13 billion.
+- This potential deal could significantly impact the open-source AI ecosystem.
+
+## Our Commentary
+
+Whoa. If this is true, it's absolutely massive. Hugging Face is the heart of open-source AI for so many. Nvidia buying them for $13B? That's a statement. I genuinely don't know how to feel about this. It could mean incredible resources for HF, or it could mean a shift away from their open-source ethos. This is a huge one to watch.
+
+Original Link: https://wandb.ai/wandb_fc/mlnews/reports/Nvidia-reportedly-agrees-to-purchase-Hugging-Face-for-13B---VmlldzoxNzgxODg4Mw]]></content:encoded>
+            <enclosure url="https://storage.googleapis.com/wandb-production.appspot.com/wandb_fc/images/views/17818883/preview.png?md5=7d799f6ef8a731a2d98721e2171ddff5" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenClaw's Viral Journey: Lessons from GitHub's Fastest-Growing Project]]></title>
+            <link>https://digestweb.dev/articles/2026-08-27/openclaw-viral-journey-maintainer-lessons</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-27/openclaw-viral-journey-maintainer-lessons</guid>
+            <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn from the maintainers behind OpenClaw, the fastest-growing project in GitHub history, as they share insights from its first six months.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenClaw achieved unprecedented growth, becoming GitHub's fastest-growing project.
+- Maintainers share their experiences and challenges from the project's initial six months.
+- The article focuses on the human aspect of managing a rapidly scaling open-source project.
+
+## Our Commentary
+
+We're always fascinated by the human stories behind viral projects. It's easy to forget the sheer effort involved in scaling an open-source project, especially one that explodes in popularity. I wonder what specific challenges they faced beyond the usual. The 'fastest-growing' claim is a big one; I'm curious about the metrics.
+
+Original Link: https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it/]]></content:encoded>
+            <enclosure url="https://github.blog/wp-content/uploads/2026/08/OpenClaw-1.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Automate Dependabot PR Triage with GitHub Copilot]]></title>
             <link>https://digestweb.dev/articles/2026-08-26/automate-dependabot-pr-triage-github-copilot</link>
