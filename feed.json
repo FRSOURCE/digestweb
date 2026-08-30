@@ -209,6 +209,24 @@
             }
         },
         {
+            "id": "https://digestweb.dev/articles/2026-08-27/deepmind-pilots-double-blind-ai-evaluations",
+            "content_html": "## Summary & Key Takeaways\n\n- Google DeepMind is initiating a pilot program for double-blind AI evaluations.\n- This methodology aims to reduce bias in assessing AI model performance.\n- It represents a new approach to rigorous testing within AI research.\n- The goal is to establish more objective standards for AI system assessment.\n\n## Our Commentary\n\nDouble-blind studies are the gold standard in many scientific fields, and it's genuinely exciting to see DeepMind bringing this rigor to AI. We've seen so many claims about AI performance that lack robust, unbiased verification. This feels like a necessary step towards more trustworthy AI development. I'm curious about the practical challenges of implementing this for complex AI systems.\n\nOriginal Link: https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+            "url": "https://digestweb.dev/articles/2026-08-27/deepmind-pilots-double-blind-ai-evaluations",
+            "title": "DeepMind Pilots World's First Double-Blind AI Evaluations",
+            "summary": "Google DeepMind is pioneering double-blind evaluation methods for AI, aiming to set new standards for unbiased assessment of AI models and their capabilities.",
+            "image": "https://picsum.photos/id/78/800/450",
+            "date_modified": "2026-08-27T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-27/goodgrowth-deconstructing-console-inspired-portfolio",
+            "content_html": "## Summary & Key Takeaways\n\n- The article details the creation of the Goodgrowth portfolio website.\n- It draws inspiration from retro console boot sequences and spinning discs.\n- The piece covers 3D modeling, motion graphics, and sound design integration.\n- Technical implementation details are explored, bringing the interactive experience to life.\n\n## Our Commentary\n\nThis is the kind of deep dive into creative web development I love. It's not just about the final product, but the _process_. We often forget how much intricate work goes into these seemingly simple, yet highly polished, experiences. I'm always fascinated by how developers blend nostalgia with modern web capabilities.\n\nOriginal Link: https://tympanus.net/codrops/2026/08/27/goodgrowth-boot-sequences-spinning-discs-and-the-art-of-the-portfolio/",
+            "url": "https://digestweb.dev/articles/2026-08-27/goodgrowth-deconstructing-console-inspired-portfolio",
+            "title": "Goodgrowth: Deconstructing a Console-Inspired Portfolio Experience",
+            "summary": "Dive into the technical and creative process behind Goodgrowth, a unique portfolio site. Explore its 3D, motion, and sound design, inspired by retro boot sequences.",
+            "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/08/goodgrowth_01.png?x57826",
+            "date_modified": "2026-08-27T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-08-27/google-deepmind-gemini-omni-1-1-flash-enhanced-control",
             "content_html": "## Summary & Key Takeaways\n\n- Google DeepMind has released Gemini Omni 1.1 Flash.\n- This new version aims to provide developers with increased control over the model.\n- The update suggests improvements for building more tailored AI applications.\n\n## Our Commentary\n\nAnother Gemini iteration. The 'more control' angle is interesting; it implies a response to developer feedback about previous versions. We're seeing a clear trend towards fine-grained control and customization in these foundational models. I wonder if this means better prompt engineering or more robust API features. Google is really pushing hard here.\n\nOriginal Link: https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
             "url": "https://digestweb.dev/articles/2026-08-27/google-deepmind-gemini-omni-1-1-flash-enhanced-control",
@@ -263,6 +281,15 @@
             "title": "Cypress Cloud Speeds Up Runs with New Completion API",
             "summary": "Cypress Cloud introduces a new Run Completion API, allowing test runs to finalize immediately after recording, significantly speeding up parallel and grouped test executions.",
             "image": "https://storage.ghost.io/c/12/89/12899ca1-4786-4eea-b7e1-9c5268baa48a/content/images/2026/08/run-completion-api-blog-image.png",
+            "date_modified": "2026-08-26T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-26/exploring-css-animation-trigger-event-driven-animations",
+            "content_html": "## Summary & Key Takeaways\n\n- The `animation-trigger` CSS property is introduced.\n- It allows delaying the start of a CSS animation.\n- Animations can be initiated based on specific trigger events.\n- This property offers more granular control over animation timing and user interaction.\n\n## Our Commentary\n\nA dedicated `animation-trigger` property in CSS? This is genuinely exciting. We've all hacked around with JavaScript to get precise animation timing based on events. If this lands widely, it could significantly clean up our animation code and improve performance by keeping more logic in CSS. I'm eager to see its browser support and how it integrates with existing animation APIs.\n\nOriginal Link: https://css-tricks.com/almanac/properties/a/animation-trigger/",
+            "url": "https://digestweb.dev/articles/2026-08-26/exploring-css-animation-trigger-event-driven-animations",
+            "title": "Exploring CSS `animation-trigger` for Event-Driven Animations",
+            "summary": "Discover the new CSS `animation-trigger` property, enabling developers to precisely control when animations begin based on specific user interactions or events.",
+            "image": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/12/css-tricks-logo-gradient-outline.png",
             "date_modified": "2026-08-26T00:00:00.000Z"
         },
         {

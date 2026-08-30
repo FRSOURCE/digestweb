@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-08-29T07:42:01.057Z</updated>
+    <updated>2026-08-30T06:16:00.574Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -484,6 +484,46 @@ Original Link: https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[DeepMind Pilots World's First Double-Blind AI Evaluations]]></title>
+        <id>https://digestweb.dev/articles/2026-08-27/deepmind-pilots-double-blind-ai-evaluations</id>
+        <link href="https://digestweb.dev/articles/2026-08-27/deepmind-pilots-double-blind-ai-evaluations"/>
+        <link rel="enclosure" href="https://picsum.photos/id/78/800/450" type="image//id/78/800/450"/>
+        <updated>2026-08-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Google DeepMind is pioneering double-blind evaluation methods for AI, aiming to set new standards for unbiased assessment of AI models and their capabilities.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Google DeepMind is initiating a pilot program for double-blind AI evaluations.
+- This methodology aims to reduce bias in assessing AI model performance.
+- It represents a new approach to rigorous testing within AI research.
+- The goal is to establish more objective standards for AI system assessment.
+
+## Our Commentary
+
+Double-blind studies are the gold standard in many scientific fields, and it's genuinely exciting to see DeepMind bringing this rigor to AI. We've seen so many claims about AI performance that lack robust, unbiased verification. This feels like a necessary step towards more trustworthy AI development. I'm curious about the practical challenges of implementing this for complex AI systems.
+
+Original Link: https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Goodgrowth: Deconstructing a Console-Inspired Portfolio Experience]]></title>
+        <id>https://digestweb.dev/articles/2026-08-27/goodgrowth-deconstructing-console-inspired-portfolio</id>
+        <link href="https://digestweb.dev/articles/2026-08-27/goodgrowth-deconstructing-console-inspired-portfolio"/>
+        <link rel="enclosure" href="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/08/goodgrowth_01.png?x57826" type="image/png"/>
+        <updated>2026-08-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dive into the technical and creative process behind Goodgrowth, a unique portfolio site. Explore its 3D, motion, and sound design, inspired by retro boot sequences.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article details the creation of the Goodgrowth portfolio website.
+- It draws inspiration from retro console boot sequences and spinning discs.
+- The piece covers 3D modeling, motion graphics, and sound design integration.
+- Technical implementation details are explored, bringing the interactive experience to life.
+
+## Our Commentary
+
+This is the kind of deep dive into creative web development I love. It's not just about the final product, but the _process_. We often forget how much intricate work goes into these seemingly simple, yet highly polished, experiences. I'm always fascinated by how developers blend nostalgia with modern web capabilities.
+
+Original Link: https://tympanus.net/codrops/2026/08/27/goodgrowth-boot-sequences-spinning-discs-and-the-art-of-the-portfolio/]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Google DeepMind Unveils Gemini Omni 1.1 Flash with Enhanced Control]]></title>
         <id>https://digestweb.dev/articles/2026-08-27/google-deepmind-gemini-omni-1-1-flash-enhanced-control</id>
         <link href="https://digestweb.dev/articles/2026-08-27/google-deepmind-gemini-omni-1-1-flash-enhanced-control"/>
@@ -604,6 +644,26 @@ Original Link: https://jakearchibald.com/2026/css-custom-property-compute-time/]
 Faster Cypress Cloud runs are always a good thing. The Run Completion API sounds like a solid improvement for anyone running large, parallel test suites. We've definitely felt the pain of runs lingering longer than necessary, so this is a welcome optimization.
 
 Original Link: https://www.cypress.io/blog/new-finish-cypress-cloud-runs-faster-with-the-run-completion-api/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exploring CSS `animation-trigger` for Event-Driven Animations]]></title>
+        <id>https://digestweb.dev/articles/2026-08-26/exploring-css-animation-trigger-event-driven-animations</id>
+        <link href="https://digestweb.dev/articles/2026-08-26/exploring-css-animation-trigger-event-driven-animations"/>
+        <link rel="enclosure" href="https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/12/css-tricks-logo-gradient-outline.png" type="image/png"/>
+        <updated>2026-08-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Discover the new CSS `animation-trigger` property, enabling developers to precisely control when animations begin based on specific user interactions or events.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The `animation-trigger` CSS property is introduced.
+- It allows delaying the start of a CSS animation.
+- Animations can be initiated based on specific trigger events.
+- This property offers more granular control over animation timing and user interaction.
+
+## Our Commentary
+
+A dedicated `animation-trigger` property in CSS? This is genuinely exciting. We've all hacked around with JavaScript to get precise animation timing based on events. If this lands widely, it could significantly clean up our animation code and improve performance by keeping more logic in CSS. I'm eager to see its browser support and how it integrates with existing animation APIs.
+
+Original Link: https://css-tricks.com/almanac/properties/a/animation-trigger/]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Google DeepMind Unveils Gemini 3.5 Transcribe for Intelligent Transcription]]></title>
