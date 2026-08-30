@@ -11,6 +11,45 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-08-29/pnpm-11-25-cross-machine-build-output-init-improvements",
+            "content_html": "## Summary & Key Takeaways\n\n- An opt-in proof of concept allows installs to reuse a dependency's build output across machines via pnpr.\n- macOS and Windows x64 and arm64 support has been added for remote shared build artifacts.\n- The audit.ignorePrune setting allows pnpm audit --fix to remove ignored GHSA entries no longer in reports.\n- The experimental shared-artifact protocol is generalized to identify discriminated subjects.\n- pnpm init now pins the latest pnpm version by default, instead of the version that ran the command.\n- The version lookup for pnpm init is resilient to network issues or slow registries, falling back to the running version.\n\n## Our Commentary\n\nundefined\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v11.25.0",
+            "url": "https://digestweb.dev/articles/2026-08-29/pnpm-11-25-cross-machine-build-output-init-improvements",
+            "title": "pnpm 11.25: Cross-Machine Build Output & Init Improvements",
+            "summary": "pnpm 11.25 introduces an experimental feature for reusing build output across machines and improves how 'pnpm init' pins the latest pnpm version.",
+            "image": "https://opengraph.githubassets.com/0bfed8b892e40c0ab150afb332c570993e40b054f9a9ebfe8fdff5760985db87/pnpm/pnpm/releases/tag/v11.25.0",
+            "date_modified": "2026-08-29T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-29/pnpm-12-1-enhanced-artifacts-task-concurrency-login",
+            "content_html": "## Summary & Key Takeaways\n\n- pnpm login and adduser now record tokens in the global config.yaml under _auth, with scope routing.\n- Verified remote build artifacts are persisted in the shared store with signed origin metadata.\n- Later installs reverify artifacts against current trust, policy, platform, and source before reuse.\n- Completed recursive tasks are now persisted, allowing --resume-from to skip passed work.\n- Workspace install, rebuild, pack, publish, stage, and lifecycle work starts as soon as dependencies finish.\n- Per-task concurrency limits can be set in pnpm-workspace.yaml for workspace tasks.\n- The sideEffectsCache now declares how a package's build output is reused, saved, and shared remotely.\n\n## Our Commentary\n\npnpm keeps pushing the envelope on package management, and this release is no exception. The verified remote build artifacts and per-task concurrency are genuinely exciting for large monorepos. We've all been there, waiting for a massive workspace build to finish, and these features promise some real relief. I'm particularly intrigued by the sideEffectsCache declaration; it feels like a step towards truly intelligent build systems. It's a solid release, making the developer experience smoother and more robust.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v12.1.0",
+            "url": "https://digestweb.dev/articles/2026-08-29/pnpm-12-1-enhanced-artifacts-task-concurrency-login",
+            "title": "pnpm 12.1: Enhanced Artifacts, Task Concurrency, and Login Flow",
+            "summary": "pnpm 12.1 introduces verified remote build artifact persistence, per-task concurrency limits for workspaces, and improved login token management.",
+            "image": "https://opengraph.githubassets.com/c60af119df2b8d6be6b8f2276da716abf61ba521380e92f8f637b9eae69d960c/pnpm/pnpm/releases/tag/v12.1.0",
+            "date_modified": "2026-08-29T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-29/pnpr-0-1-0-alpha-9-scalable-immutable-shared-artifacts",
+            "content_html": "## Summary & Key Takeaways\n\n- The signed shared-artifact cache is now horizontally scalable with S3-compatible storage.\n- The experimental shared-artifact protocol is generalized to identify discriminated subjects.\n- Published build artifacts are now immutable; publishing a different one over an existing key results in a 409 Conflict.\n- Immutability applies to every consumer an artifact can reach, preventing later builds from taking precedence.\n- pnpr reclaims unreferenced shared artifact blobs after ambiguous object-storage write failures.\n- pnpm install --fix-lockfile now regenerates broken lockfile metadata while preserving compatible locked versions.\n\n## Our Commentary\n\nundefined\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.9",
+            "url": "https://digestweb.dev/articles/2026-08-29/pnpr-0-1-0-alpha-9-scalable-immutable-shared-artifacts",
+            "title": "pnpr 0.1.0-alpha.9: Scalable & Immutable Shared Artifacts",
+            "summary": "pnpr 0.1.0-alpha.9 introduces S3-compatible horizontal scalability and immutability for signed shared build artifacts.",
+            "image": "https://opengraph.githubassets.com/522cd0cfe7ebe47a0b861b34670f7a1d2fa6e46a020ac92256430e636917ba4a/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.9",
+            "date_modified": "2026-08-29T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-29/tencent-hy4-preview-770b-parameter-open-weight-llm",
+            "content_html": "## Summary & Key Takeaways\n\n- Tencent has released Hy4 Preview, a new open-weight text input LLM.\n- It boasts 770 billion total parameters, 49 billion active parameters, and a 1 million token context window.\n- The model's size is a significant increase from its predecessor, Hy3.\n- Hy4 includes a chat template with two 'reasoning effort' levels: 'high' (default) and 'no_think'.\n- The reasoning trace shows internal thought processes, often using truncated English for efficiency.\n- The model's weights are available on Hugging Face, totaling 1.56TB.\n\n## Our Commentary\n\nAnother day, another massive LLM. Tencent's Hy4 is genuinely impressive, especially the 1M token context window and the sheer scale of its parameters. What really caught my eye, though, is the 'reasoning effort' concept. It's a fascinating glimpse into how these models are being engineered to think, or at least simulate thinking, more deliberately. The truncated English in the reasoning trace is a neat detail; it makes me wonder about the internal language models use. We're seeing a clear trend towards larger, more nuanced open-weight models, and Hy4 is a strong contender in that space. It's a lot to take in, but exciting nonetheless.\n\nOriginal Link: https://simonwillison.net/2026/Aug/29/hy4/",
+            "url": "https://digestweb.dev/articles/2026-08-29/tencent-hy4-preview-770b-parameter-open-weight-llm",
+            "title": "Tencent Unveils Hy4 Preview: A Massive 770B Parameter Open-Weight LLM",
+            "summary": "Tencent's Hy4 Preview is a new 770B parameter, 1M token context open-weight LLM, featuring distinct 'reasoning effort' levels for generation.",
+            "image": "https://static.simonwillison.net/static/2026-08-29/IMG_7725.jpeg",
+            "date_modified": "2026-08-29T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-08-28/ai-agents-exploit-bug-rumors-open-source-security",
             "content_html": "## Summary & Key Takeaways\n\n- AI coding agents are reportedly finding security exploits within minutes of patches being shared publicly.\n- This rapid discovery rate is incompatible with traditional open-source embargo practices for new issues.\n- Professor Anil Madhavapeddy demonstrated this using his own agents, even after Claude Fable refused the task.\n- The rclone project has seen a massive increase in security disclosures, from 20 in 10 years to over 40 in one month.\n- GitHub's CVE assignment process is now backlogged, taking weeks instead of days.\n- The effectiveness of AI in finding flaws necessitates new processes for community safety.\n\n## Our Commentary\n\nThis is genuinely unsettling. The idea that a \"rumour of a bug\" is enough for an AI to weaponize it in minutes? That's a paradigm shift for open-source security. We've always relied on a bit of a grace period, but that's gone now. I don't know how we adapt to this without fundamentally changing how we disclose and patch vulnerabilities. It feels like a race against the machines, and we're already behind.\n\nOriginal Link: https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
             "url": "https://digestweb.dev/articles/2026-08-28/ai-agents-exploit-bug-rumors-open-source-security",

@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Sun, 30 Aug 2026 06:16:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 30 Aug 2026 12:38:03 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,96 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[pnpm 11.25: Cross-Machine Build Output & Init Improvements]]></title>
+            <link>https://digestweb.dev/articles/2026-08-29/pnpm-11-25-cross-machine-build-output-init-improvements</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-29/pnpm-11-25-cross-machine-build-output-init-improvements</guid>
+            <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[pnpm 11.25 introduces an experimental feature for reusing build output across machines and improves how 'pnpm init' pins the latest pnpm version.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- An opt-in proof of concept allows installs to reuse a dependency's build output across machines via pnpr.
+- macOS and Windows x64 and arm64 support has been added for remote shared build artifacts.
+- The audit.ignorePrune setting allows pnpm audit --fix to remove ignored GHSA entries no longer in reports.
+- The experimental shared-artifact protocol is generalized to identify discriminated subjects.
+- pnpm init now pins the latest pnpm version by default, instead of the version that ran the command.
+- The version lookup for pnpm init is resilient to network issues or slow registries, falling back to the running version.
+
+## Our Commentary
+
+undefined
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.25.0]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/0bfed8b892e40c0ab150afb332c570993e40b054f9a9ebfe8fdff5760985db87/pnpm/pnpm/releases/tag/v11.25.0" length="0" type="image/0"/>
+        </item>
+        <item>
+            <title><![CDATA[pnpm 12.1: Enhanced Artifacts, Task Concurrency, and Login Flow]]></title>
+            <link>https://digestweb.dev/articles/2026-08-29/pnpm-12-1-enhanced-artifacts-task-concurrency-login</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-29/pnpm-12-1-enhanced-artifacts-task-concurrency-login</guid>
+            <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[pnpm 12.1 introduces verified remote build artifact persistence, per-task concurrency limits for workspaces, and improved login token management.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- pnpm login and adduser now record tokens in the global config.yaml under _auth, with scope routing.
+- Verified remote build artifacts are persisted in the shared store with signed origin metadata.
+- Later installs reverify artifacts against current trust, policy, platform, and source before reuse.
+- Completed recursive tasks are now persisted, allowing --resume-from to skip passed work.
+- Workspace install, rebuild, pack, publish, stage, and lifecycle work starts as soon as dependencies finish.
+- Per-task concurrency limits can be set in pnpm-workspace.yaml for workspace tasks.
+- The sideEffectsCache now declares how a package's build output is reused, saved, and shared remotely.
+
+## Our Commentary
+
+pnpm keeps pushing the envelope on package management, and this release is no exception. The verified remote build artifacts and per-task concurrency are genuinely exciting for large monorepos. We've all been there, waiting for a massive workspace build to finish, and these features promise some real relief. I'm particularly intrigued by the sideEffectsCache declaration; it feels like a step towards truly intelligent build systems. It's a solid release, making the developer experience smoother and more robust.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v12.1.0]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/c60af119df2b8d6be6b8f2276da716abf61ba521380e92f8f637b9eae69d960c/pnpm/pnpm/releases/tag/v12.1.0" length="0" type="image/0"/>
+        </item>
+        <item>
+            <title><![CDATA[pnpr 0.1.0-alpha.9: Scalable & Immutable Shared Artifacts]]></title>
+            <link>https://digestweb.dev/articles/2026-08-29/pnpr-0-1-0-alpha-9-scalable-immutable-shared-artifacts</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-29/pnpr-0-1-0-alpha-9-scalable-immutable-shared-artifacts</guid>
+            <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[pnpr 0.1.0-alpha.9 introduces S3-compatible horizontal scalability and immutability for signed shared build artifacts.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The signed shared-artifact cache is now horizontally scalable with S3-compatible storage.
+- The experimental shared-artifact protocol is generalized to identify discriminated subjects.
+- Published build artifacts are now immutable; publishing a different one over an existing key results in a 409 Conflict.
+- Immutability applies to every consumer an artifact can reach, preventing later builds from taking precedence.
+- pnpr reclaims unreferenced shared artifact blobs after ambiguous object-storage write failures.
+- pnpm install --fix-lockfile now regenerates broken lockfile metadata while preserving compatible locked versions.
+
+## Our Commentary
+
+undefined
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.9]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/522cd0cfe7ebe47a0b861b34670f7a1d2fa6e46a020ac92256430e636917ba4a/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.9" length="0" type="image/9"/>
+        </item>
+        <item>
+            <title><![CDATA[Tencent Unveils Hy4 Preview: A Massive 770B Parameter Open-Weight LLM]]></title>
+            <link>https://digestweb.dev/articles/2026-08-29/tencent-hy4-preview-770b-parameter-open-weight-llm</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-08-29/tencent-hy4-preview-770b-parameter-open-weight-llm</guid>
+            <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Tencent's Hy4 Preview is a new 770B parameter, 1M token context open-weight LLM, featuring distinct 'reasoning effort' levels for generation.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Tencent has released Hy4 Preview, a new open-weight text input LLM.
+- It boasts 770 billion total parameters, 49 billion active parameters, and a 1 million token context window.
+- The model's size is a significant increase from its predecessor, Hy3.
+- Hy4 includes a chat template with two 'reasoning effort' levels: 'high' (default) and 'no_think'.
+- The reasoning trace shows internal thought processes, often using truncated English for efficiency.
+- The model's weights are available on Hugging Face, totaling 1.56TB.
+
+## Our Commentary
+
+Another day, another massive LLM. Tencent's Hy4 is genuinely impressive, especially the 1M token context window and the sheer scale of its parameters. What really caught my eye, though, is the 'reasoning effort' concept. It's a fascinating glimpse into how these models are being engineered to think, or at least simulate thinking, more deliberately. The truncated English in the reasoning trace is a neat detail; it makes me wonder about the internal language models use. We're seeing a clear trend towards larger, more nuanced open-weight models, and Hy4 is a strong contender in that space. It's a lot to take in, but exciting nonetheless.
+
+Original Link: https://simonwillison.net/2026/Aug/29/hy4/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://static.simonwillison.net/static/2026-08-29/IMG_7725.jpeg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[AI Agents Find Exploits from Bug Rumors in Minutes, Shaking Open Source Security]]></title>
             <link>https://digestweb.dev/articles/2026-08-28/ai-agents-exploit-bug-rumors-open-source-security</link>
