@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-08-31T14:12:34.851Z</updated>
+    <updated>2026-08-31T14:55:58.184Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,55 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Agency and Agents: From Hugging Face to Twilight Factories]]></title>
+        <id>https://digestweb.dev/articles/2026-08-31/agency-and-agents-hugging-face-twilight-factories</id>
+        <link href="https://digestweb.dev/articles/2026-08-31/agency-and-agents-hugging-face-twilight-factories"/>
+        <link rel="enclosure" href="https://substackcdn.com/image/fetch/$s_!LzPL!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F94cee090-1da6-4c8d-a043-01d835708104_1456x816.png" type="image/png"/>
+        <updated>2026-08-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article delves into the evolving concept of AI agency and the implications of autonomous agents, drawing connections from specific incidents to broader societal shifts.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article discusses the concept of "agency" in the context of AI and autonomous agents.
+- It references the "Hugging Face Incident," suggesting a real-world event related to agent behavior.
+- The phrase "Twilight Factories" hints at potential societal or economic impacts of agent proliferation.
+- The piece likely explores the ethical, operational, and philosophical dimensions of AI agents.
+- It aims to provide a deeper understanding of the implications of increasingly autonomous AI systems.
+
+## Our Commentary
+
+The title alone is enough to pique our interest. "Twilight Factories" sounds like something out of a cyberpunk novel, and it's a potent image for the potential future of AI-driven automation. We're seeing more and more discussions around AI agency, and it's a topic that genuinely keeps me up at night. There's something unsettling about agents churning away at 3am while nobody's watching. This feels like a necessary, perhaps uncomfortable, conversation.
+
+Original Link: https://www.oneusefulthing.org/p/agency-and-agents]]></content>
+        <author>
+            <name>Ethan Mollick</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Understanding ChatGPT Work: Cloud vs. Local, Features, and Use Cases]]></title>
+        <id>https://digestweb.dev/articles/2026-08-30/understanding-chatgpt-work-cloud-local-features</id>
+        <link href="https://digestweb.dev/articles/2026-08-30/understanding-chatgpt-work-cloud-local-features"/>
+        <link rel="enclosure" href="https://static.simonwillison.net/static/2026/chatgpt-work-card.jpg" type="image/jpg"/>
+        <updated>2026-08-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison demystifies OpenAI's new ChatGPT Work, detailing its cloud and local versions, exclusive features like code execution and persistent storage, and who can access it.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- ChatGPT Work is a new, powerful product from OpenAI, available to paid subscribers.
+- It exists in two forms: Work Cloud (web/mobile) and Work Local (desktop app, formerly Codex).
+- Work Cloud offers advanced features like Luna and Terra models, a code execution environment, and a headless Chrome browser.
+- It also includes a persistent filesystem shared across sessions and the ability to publish ChatGPT outputs.
+- The distinction from regular ChatGPT Chat lies in its task-completion focus with clear outcomes.
+- Simon Willison provides a clear explanation of its capabilities and when to use it.
+
+## Our Commentary
+
+This is a classic Simon Willison deep dive. We appreciate his clarity on what feels like an intentionally confusing product. The idea of a persistent filesystem and headless Chrome within ChatGPT Work is genuinely fascinating. It hints at a future where AI agents have more autonomy and memory. I'm still trying to wrap my head around the implications for developer workflows.
+
+Original Link: https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[pnpm 11.25: Cross-Machine Build Output & Init Improvements]]></title>
         <id>https://digestweb.dev/articles/2026-08-29/pnpm-11-25-cross-machine-build-output-init-improvements</id>

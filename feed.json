@@ -11,6 +11,30 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-08-31/agency-and-agents-hugging-face-twilight-factories",
+            "content_html": "## Summary & Key Takeaways\n\n- The article discusses the concept of \"agency\" in the context of AI and autonomous agents.\n- It references the \"Hugging Face Incident,\" suggesting a real-world event related to agent behavior.\n- The phrase \"Twilight Factories\" hints at potential societal or economic impacts of agent proliferation.\n- The piece likely explores the ethical, operational, and philosophical dimensions of AI agents.\n- It aims to provide a deeper understanding of the implications of increasingly autonomous AI systems.\n\n## Our Commentary\n\nThe title alone is enough to pique our interest. \"Twilight Factories\" sounds like something out of a cyberpunk novel, and it's a potent image for the potential future of AI-driven automation. We're seeing more and more discussions around AI agency, and it's a topic that genuinely keeps me up at night. There's something unsettling about agents churning away at 3am while nobody's watching. This feels like a necessary, perhaps uncomfortable, conversation.\n\nOriginal Link: https://www.oneusefulthing.org/p/agency-and-agents",
+            "url": "https://digestweb.dev/articles/2026-08-31/agency-and-agents-hugging-face-twilight-factories",
+            "title": "Agency and Agents: From Hugging Face to Twilight Factories",
+            "summary": "This article delves into the evolving concept of AI agency and the implications of autonomous agents, drawing connections from specific incidents to broader societal shifts.",
+            "image": "https://substackcdn.com/image/fetch/$s_!LzPL!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F94cee090-1da6-4c8d-a043-01d835708104_1456x816.png",
+            "date_modified": "2026-08-31T00:00:00.000Z",
+            "author": {
+                "name": "Ethan Mollick"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-30/understanding-chatgpt-work-cloud-local-features",
+            "content_html": "## Summary & Key Takeaways\n\n- ChatGPT Work is a new, powerful product from OpenAI, available to paid subscribers.\n- It exists in two forms: Work Cloud (web/mobile) and Work Local (desktop app, formerly Codex).\n- Work Cloud offers advanced features like Luna and Terra models, a code execution environment, and a headless Chrome browser.\n- It also includes a persistent filesystem shared across sessions and the ability to publish ChatGPT outputs.\n- The distinction from regular ChatGPT Chat lies in its task-completion focus with clear outcomes.\n- Simon Willison provides a clear explanation of its capabilities and when to use it.\n\n## Our Commentary\n\nThis is a classic Simon Willison deep dive. We appreciate his clarity on what feels like an intentionally confusing product. The idea of a persistent filesystem and headless Chrome within ChatGPT Work is genuinely fascinating. It hints at a future where AI agents have more autonomy and memory. I'm still trying to wrap my head around the implications for developer workflows.\n\nOriginal Link: https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
+            "url": "https://digestweb.dev/articles/2026-08-30/understanding-chatgpt-work-cloud-local-features",
+            "title": "Understanding ChatGPT Work: Cloud vs. Local, Features, and Use Cases",
+            "summary": "Simon Willison demystifies OpenAI's new ChatGPT Work, detailing its cloud and local versions, exclusive features like code execution and persistent storage, and who can access it.",
+            "image": "https://static.simonwillison.net/static/2026/chatgpt-work-card.jpg",
+            "date_modified": "2026-08-30T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-08-29/pnpm-11-25-cross-machine-build-output-init-improvements",
             "content_html": "## Summary & Key Takeaways\n\n- An opt-in proof of concept allows installs to reuse a dependency's build output across machines via pnpr.\n- macOS and Windows x64 and arm64 support has been added for remote shared build artifacts.\n- The audit.ignorePrune setting allows pnpm audit --fix to remove ignored GHSA entries no longer in reports.\n- The experimental shared-artifact protocol is generalized to identify discriminated subjects.\n- pnpm init now pins the latest pnpm version by default, instead of the version that ran the command.\n- The version lookup for pnpm init is resilient to network issues or slow registries, falling back to the running version.\n\n## Our Commentary\n\nundefined\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v11.25.0",
             "url": "https://digestweb.dev/articles/2026-08-29/pnpm-11-25-cross-machine-build-output-init-improvements",
