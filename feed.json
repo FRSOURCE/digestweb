@@ -11,6 +11,24 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-09-01/pnpm-12-2-workspace-performance-fixes",
+            "content_html": "## Summary & Key Takeaways\n\n- pnpm 12.2 allows catalogs to resolve workspace dependencies using the `workspace:` protocol.\n- Installs in large workspaces are now significantly faster due to optimized dependency resolution.\n- Fixes were implemented for `pnpm audit --fix` when used without a value or with other flags.\n- The `pnpm audit --fix=override` command now respects `saveExact` and `savePrefix` settings.\n- Node.js runtime downloads are now authenticated with URL-scoped npm registry credentials.\n- Detached child processes on Windows are no longer terminated after successful commands.\n- `pnpm deploy` no longer strictly requires `injectWorkspacePackages` to be enabled.\n- Improved error messaging for ambiguous peer dependency bindings during deployment.\n\n## Our Commentary\n\nWe're always happy to see performance improvements, especially for large workspaces. That's a real pain point for many teams. The `pnpm deploy` changes also seem to address some tricky edge cases, which is good. It's these kinds of iterative refinements that make developer tools so much more robust over time.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v12.2.0",
+            "url": "https://digestweb.dev/articles/2026-09-01/pnpm-12-2-workspace-performance-fixes",
+            "title": "pnpm 12.2 Boosts Workspace Performance, Fixes Audit & Deploy Issues",
+            "summary": "pnpm 12.2 introduces faster installs for large workspaces and resolves several bugs related to `audit --fix` and `pnpm deploy`. Workspace dependencies can now be resolved via the `workspace:` protocol in catalogs.",
+            "image": "https://opengraph.githubassets.com/6bdb13b77926cbfad1f0391ae03d87adefdb66acf71ec223e84cb9299fad6ce7/pnpm/pnpm/releases/tag/v12.2.0",
+            "date_modified": "2026-09-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-01/sveltekit-3-release-candidate-svelte-5-57-updates",
+            "content_html": "## Summary & Key Takeaways\n\n- SvelteKit 3 has reached Release Candidate status, indicating its imminent stable release.\n- Enhanced cross-page form actions now align with native form behavior.\n- Adapter Vite plugins can now be split into pre and post groups for better pipeline control.\n- Svelte 5.57 introduces `getOrInsert` and `getOrInsertComputed` methods for SvelteMap.\n- The `createContext` function now returns a `has` function to check context existence without errors.\n- The `<select>` element now supports the `defaultValue` attribute for form resets.\n- The `sv` CLI includes a new `ai-tools` add-on, replacing the older `mcp` one.\n- SvelteKit 3 now supports a `QUERY` HTTP method handler in `+server.js` files.\n\n## Our Commentary\n\nThis is a big one for Svelte users. SvelteKit 3 RC means the finish line is truly in sight, and those enhanced form actions sound like a real quality-of-life improvement. I'm also intrigued by the `sv ai-tools` add-on; it feels like every framework is integrating AI now, and I wonder what specific problems it aims to solve for developers. We're seeing a lot of thoughtful API refinements here.\n\nOriginal Link: https://svelte.dev/blog/whats-new-in-svelte-september-2026",
+            "url": "https://digestweb.dev/articles/2026-09-01/sveltekit-3-release-candidate-svelte-5-57-updates",
+            "title": "SvelteKit 3 Nears Release with RC, Svelte 5.57 Adds New Features",
+            "summary": "SvelteKit 3 enters Release Candidate phase, bringing enhanced form actions and adapter improvements. Svelte 5.57 introduces new SvelteMap methods and context utilities.",
+            "image": "https://picsum.photos/id/72/800/450",
+            "date_modified": "2026-09-01T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-08-31/agency-and-agents-hugging-face-twilight-factories",
             "content_html": "## Summary & Key Takeaways\n\n- The article discusses the concept of \"agency\" in the context of AI and autonomous agents.\n- It references the \"Hugging Face Incident,\" suggesting a real-world event related to agent behavior.\n- The phrase \"Twilight Factories\" hints at potential societal or economic impacts of agent proliferation.\n- The piece likely explores the ethical, operational, and philosophical dimensions of AI agents.\n- It aims to provide a deeper understanding of the implications of increasingly autonomous AI systems.\n\n## Our Commentary\n\nThe title alone is enough to pique our interest. \"Twilight Factories\" sounds like something out of a cyberpunk novel, and it's a potent image for the potential future of AI-driven automation. We're seeing more and more discussions around AI agency, and it's a topic that genuinely keeps me up at night. There's something unsettling about agents churning away at 3am while nobody's watching. This feels like a necessary, perhaps uncomfortable, conversation.\n\nOriginal Link: https://www.oneusefulthing.org/p/agency-and-agents",
             "url": "https://digestweb.dev/articles/2026-08-31/agency-and-agents-hugging-face-twilight-factories",
@@ -20,6 +38,90 @@
             "date_modified": "2026-08-31T00:00:00.000Z",
             "author": {
                 "name": "Ethan Mollick"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-31/css-random-function-polyfill-cross-browser",
+            "content_html": "## Summary & Key Takeaways\n\n- The article focuses on the emergent CSS `random()` function.\n- It describes the journey to create a polyfill for this function.\n- The polyfill aims to ensure cross-browser compatibility.\n- It allows developers to use the `random()` function before native implementation.\n- The post provides insights into implementing future CSS features today.\n\n## Our Commentary\n\nWe love seeing articles that tackle emergent web platform features head-on. The CSS `random()` function has so much potential for dynamic designs, and a polyfill means we don't have to wait. It's a great example of how the community pushes the boundaries and makes new capabilities accessible sooner.\n\nOriginal Link: https://css-tricks.com/css-random-function-polyfill/",
+            "url": "https://digestweb.dev/articles/2026-08-31/css-random-function-polyfill-cross-browser",
+            "title": "Polyfilling the Emergent CSS random() Function for All Browsers",
+            "summary": "This article details the process of creating a polyfill for the upcoming CSS `random()` function, enabling its use across all browsers even before native support.",
+            "image": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/08/random-stars-shuffle.webp",
+            "date_modified": "2026-08-31T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-31/cypress-test-replay-sensitive-data-redaction",
+            "content_html": "## Summary & Key Takeaways\n\n- Cypress Test Replay now automatically redacts sensitive network data.\n- Redaction occurs locally on the user's machine before data is uploaded to Cypress Cloud.\n- This feature aims to alleviate privacy concerns for teams.\n- It allows teams who previously disabled Test Replay due to data sensitivity to re-enable it.\n- Redaction is enabled by default but can be turned off per project.\n- The change maintains full CI debugging capabilities while protecting sensitive information.\n\n## Our Commentary\n\nThis is a genuinely smart move from Cypress. Privacy and data security are paramount, and redacting sensitive data _before_ it leaves your machine is the right way to do it. I imagine this will be a huge relief for many teams who wanted the benefits of Test Replay but couldn't justify the data exposure. It's a good example of listening to user feedback and addressing real-world blockers.\n\nOriginal Link: https://www.cypress.io/blog/test-replay-now-redacts-sensitive-network-data-before-upload/",
+            "url": "https://digestweb.dev/articles/2026-08-31/cypress-test-replay-sensitive-data-redaction",
+            "title": "Cypress Test Replay Now Redacts Sensitive Network Data Locally",
+            "summary": "Cypress Test Replay now automatically redacts sensitive values from network logs on the user's machine before uploading to Cypress Cloud, addressing privacy concerns and enabling wider adoption.",
+            "image": "https://www.cypress.io/cypress_logo_social.png",
+            "date_modified": "2026-08-31T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-31/html-email-paste-gmail-trick",
+            "content_html": "## Summary & Key Takeaways\n\n- The article shares a trick for handling HTML emails.\n- It demonstrates how to paste HTML email content directly into Gmail.\n- MJML-generated emails are used as an example.\n- This method simplifies testing and sending custom HTML emails.\n- It offers a quick way to preview visual output in a real email client.\n\n## Our Commentary\n\nThis is one of those little workflow hacks that can save a surprising amount of time. We've all wrestled with HTML emails, and anything that streamlines the testing process is a win. It's a simple trick, but sometimes those are the most valuable.\n\nOriginal Link: https://blog.codepen.io/2026/08/31/chris-corner-what-do-you-do-with-an-html-email/",
+            "url": "https://digestweb.dev/articles/2026-08-31/html-email-paste-gmail-trick",
+            "title": "Quick Tip: Pasting HTML Emails Directly into Gmail",
+            "summary": "Discover a simple trick for directly pasting HTML email code, such as those generated with MJML, into Gmail's compose window for easy sending and testing.",
+            "image": "https://blog.codepen.io/wp-content/uploads/2026/08/example-mjml-scaled.png",
+            "date_modified": "2026-08-31T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-31/microsoft-research-gigapath-gigatime-flash-pathology-ai",
+            "content_html": "## Summary & Key Takeaways\n\n- Microsoft Research developed GigaPath-Flash and GigaTIME-Flash.\n- These are efficient pathology foundation models.\n- They significantly reduce computational demands.\n- The models maintain strong performance despite efficiency gains.\n- This innovation enables larger population-scale studies in pathology.\n- It opens doors for broader exploration in medical AI.\n\n## Our Commentary\n\nThis is a fascinating piece of specialized AI research. The idea of cutting computational demands while maintaining performance for foundation models is a holy grail, especially in fields like pathology where data sets are massive. It's a reminder that AI's impact extends far beyond chatbots, into critical areas like medical discovery.\n\nOriginal Link: https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models/",
+            "url": "https://digestweb.dev/articles/2026-08-31/microsoft-research-gigapath-gigatime-flash-pathology-ai",
+            "title": "Microsoft Research Introduces Efficient Pathology Foundation Models",
+            "summary": "Microsoft Research unveils GigaPath-Flash and GigaTIME-Flash, new pathology foundation models designed to reduce computational demands while maintaining strong performance for population-scale discovery.",
+            "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/08/GigaPathFlash-TWLIFB-1200x627_NEW.jpg",
+            "date_modified": "2026-08-31T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-31/polimill-openai-japan-public-ai-infrastructure",
+            "content_html": "## Summary & Key Takeaways\n\n- Polimill is developing Japan's next-generation public AI infrastructure.\n- The initiative utilizes OpenAI's GPT models and Codex.\n- It aims to help municipalities search and use administrative knowledge.\n- The project also focuses on accelerating development processes.\n- This represents a practical application of large language models in public service.\n\n## Our Commentary\n\nIt's always interesting to see how LLMs are being deployed in specific, real-world scenarios beyond the typical chatbot. Using them for administrative knowledge in municipalities feels like a solid use case, though I always wonder about the accuracy and verification layers needed for such critical information. Still, a good example of practical AI integration.\n\nOriginal Link: https://openai.com/index/polimill",
+            "url": "https://digestweb.dev/articles/2026-08-31/polimill-openai-japan-public-ai-infrastructure",
+            "title": "Polimill Leverages OpenAI Models for Japan's Public AI Infrastructure",
+            "summary": "Polimill is utilizing OpenAI's GPT models and Codex to develop next-generation public AI infrastructure in Japan, assisting municipalities with administrative knowledge and accelerating development.",
+            "image": "https://picsum.photos/id/884/800/450",
+            "date_modified": "2026-08-31T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-31/threejs-volatile-nexus-glass-caustics-sound",
+            "content_html": "## Summary & Key Takeaways\n\n- The \"Volatile Nexus\" is an interactive Three.js experiment.\n- It features realistic glass rendering with caustics and refractions.\n- Wandering cubes interact within the 3D environment.\n- The scene incorporates sound for an immersive experience.\n- The experiment demonstrates advanced 3D rendering techniques in the browser.\n- It creates a fluid and visually captivating interactive scene.\n\n## Our Commentary\n\nCodrops always delivers on the visual front, and this Three.js experiment looks absolutely stunning. The combination of glass, caustics, and sound creates a truly immersive experience. It's a fantastic showcase of what's possible with web graphics and a great source of inspiration for pushing the boundaries of browser-based visuals.\n\nOriginal Link: https://tympanus.net/codrops/2026/08/31/volatile-nexus-tinkering-with-glass-caustics-cubes-and-sound-in-three-js/",
+            "url": "https://digestweb.dev/articles/2026-08-31/threejs-volatile-nexus-glass-caustics-sound",
+            "title": "Three.js Experiment: Volatile Nexus Explores Glass, Caustics, Sound",
+            "summary": "Explore a mesmerizing Three.js experiment, \"Volatile Nexus,\" which combines glass, wandering cubes, caustics, refractions, and sound into a fluid, interactive 3D scene.",
+            "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/08/volatileNexus.jpg?x57826",
+            "date_modified": "2026-08-31T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-31/vercel-ai-sdk-gateway-zod-tutorial",
+            "content_html": "## Summary & Key Takeaways\n\n- The article provides a tutorial on Vercel's AI SDK and AI Gateway.\n- It covers the installation and usage of these tools with different AI models.\n- The tutorial guides readers through building a practical application.\n- It incorporates Zod for enhanced type safety in AI integrations.\n- The post explains the benefits and practical applications of Vercel's AI tools.\n\n## Our Commentary\n\nVercel's AI SDK and Gateway are becoming increasingly popular for integrating AI into frontend applications, so a solid tutorial like this is very welcome. We particularly appreciate the inclusion of Zod for type safety; it's a crucial detail for building robust AI-powered features. It's good to see practical guides for these emerging tools.\n\nOriginal Link: https://blog.master.dev/having-fun-with-vercels-ai-sdk-and-ai-gateway/",
+            "url": "https://digestweb.dev/articles/2026-08-31/vercel-ai-sdk-gateway-zod-tutorial",
+            "title": "Exploring Vercel’s AI SDK & AI Gateway with Zod Type Safety",
+            "summary": "This tutorial dives into Vercel's AI SDK and AI Gateway, explaining how to install and use them with various AI models, and demonstrates building a project with added Zod type safety.",
+            "image": "https://blog.master.dev/wp-json/social-image-generator/v1/image/10841",
+            "date_modified": "2026-08-31T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-31/vitest-v5-rc4-breaking-change-features",
+            "content_html": "## Summary & Key Takeaways\n\n- Vitest v5.0.0-rc.4 introduces a breaking change by statically parsing files in `vitest list` by default.\n- The `clearCache` functionality has been promoted out of experimental status.\n- The UI now includes a direct link to open Playwright traces for easier debugging.\n- Bug fixes address issues like `oxc.target` duplication and `maxWorkers` propagation.\n- Browser-based testing now reports action errors when a task times out.\n- A new suite-level report view has been added to the UI.\n- Performance improvements include lazily formatting spy matcher failures.\n\n## Our Commentary\n\nAnother RC, another step closer to a stable major release. The static file parsing change sounds like it could be a subtle but impactful breaking change for some workflows. We appreciate the continued focus on performance and debugging tools, especially the Playwright trace link – that's a nice touch for DX.\n\nOriginal Link: https://github.com/vitest-dev/vitest/releases/tag/v5.0.0-rc.4",
+            "url": "https://digestweb.dev/articles/2026-08-31/vitest-v5-rc4-breaking-change-features",
+            "title": "Vitest v5.0.0-rc.4 Introduces Breaking Change, New Features",
+            "summary": "Vitest's latest Release Candidate, v5.0.0-rc.4, includes a breaking change to static file parsing, promotes `clearCache` out of experimental, and adds a new UI link for Playwright traces.",
+            "image": "https://opengraph.githubassets.com/0bd8c499e7c53b589061d0f52fc605abccb4db6db817e95f2c50a77bf13e1d47/vitest-dev/vitest/releases/tag/v5.0.0-rc.4",
+            "date_modified": "2026-08-31T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-08-31/wrapture-python-library-ai-generated-code",
+            "content_html": "## Summary & Key Takeaways\n\n- `wrapture` is a new Python library for wrapping functions and methods.\n- It extends `wrapt` ideas for testing and tracing purposes.\n- The library serves as an alternative to Python's `unittest.mock`.\n- It includes built-in OpenTelemetry support for tracing.\n- A configuration-based mechanism allows adding tracing to existing Python projects.\n- The entire codebase and documentation for `wrapture` were written by an AI assistant.\n- The author emphasizes careful engineering and human direction over \"vibe coding.\"\n- The project is still young but shows promising potential for observation and testing.\n\n## Our Commentary\n\nThis is genuinely fascinating. A new Python library for tracing and testing is cool, but the fact that it was _entirely_ written by an AI assistant under human direction? That's a headline. It challenges a lot of assumptions about AI's role in coding. I'm not sure if this is the future or just a very skilled prompt engineer, but it definitely makes me think about our own workflows. We're watching this space closely.\n\nOriginal Link: https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
+            "url": "https://digestweb.dev/articles/2026-08-31/wrapture-python-library-ai-generated-code",
+            "title": "Wrapture: A New Python Library for Tracing & Testing, Built Entirely by AI",
+            "summary": "Graham Dumpleton introduces `wrapture`, a Python library for function wrapping, tracing, and testing, offering an alternative to `unittest.mock` with OpenTelemetry support. Uniquely, the entire project was developed by an AI assistant under human guidance.",
+            "image": "https://picsum.photos/id/672/800/450",
+            "date_modified": "2026-08-31T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
             }
         },
         {
