@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Tue, 01 Sep 2026 06:03:23 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 02 Sep 2026 05:29:04 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,169 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[BenchMIRT: What Do LLM Benchmarks Really Measure?]]></title>
+            <link>https://digestweb.dev/articles/2026-09-01/benchmirt-llm-benchmarks-measurement</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-01/benchmirt-llm-benchmarks-measurement</guid>
+            <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hugging Face introduces BenchMIRT, a new research initiative questioning the true efficacy and scope of current LLM benchmarks.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- BenchMIRT is a research effort to critically examine existing LLM benchmarks.
+- It aims to understand what capabilities these benchmarks truly measure.
+- The initiative seeks to identify limitations and potential biases in current evaluation methods.
+- This research is crucial for developing more accurate and comprehensive LLM assessments.
+
+## Our Commentary
+
+This is a question I've been asking myself for a while. Benchmarks are essential, but if we don't understand what they're _actually_ measuring, we're just optimizing for a number. It's easy to game a benchmark, and it's even easier to misunderstand what a high score truly implies about a model's real-world capabilities. This kind of meta-research is vital for the healthy progression of AI.
+
+Original Link: https://huggingface.co/blog/allenai/benchmirt]]></content:encoded>
+            <enclosure url="https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/c_Rnu4DRj6Djxk1IT0gKu.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[ChatGPT Now Connects to Healthcare Data for Clinicians]]></title>
+            <link>https://digestweb.dev/articles/2026-09-01/chatgpt-connects-healthcare-data</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-01/chatgpt-connects-healthcare-data</guid>
+            <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[ChatGPT can now securely connect to trusted healthcare data, enabling clinicians to access patient context and medical research more efficiently.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- ChatGPT can now integrate with trusted healthcare data sources.
+- This allows clinicians to securely access patient context and medical research.
+- The feature aims to improve efficiency and information access in healthcare settings.
+- It represents a specialized application of ChatGPT's capabilities for a specific industry.
+
+## Our Commentary
+
+Connecting LLMs to sensitive data like health records is a huge step, but also a massive responsibility. The 'securely access' part is doing a lot of heavy lifting here. While the potential benefits for clinicians are clear, I can't help but feel a knot in my stomach about the privacy implications. We've seen how these systems can hallucinate; in healthcare, that's not just inconvenient, it's dangerous.
+
+Original Link: https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/709/800/450" length="0" type="image//id/709/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Cypress 16 Boosts Test Speed with HTTP/2 Support]]></title>
+            <link>https://digestweb.dev/articles/2026-09-01/cypress-16-faster-tests-http2-support</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-01/cypress-16-faster-tests-http2-support</guid>
+            <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Cypress 16 delivers substantial performance gains for test suites, introducing HTTP/2 support, zero-delay typing, and faster visibility checks.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Cypress 16 introduces native HTTP/2 support for faster network interactions during tests.
+- Zero-delay typing significantly speeds up input simulation in test scripts.
+- Visibility checks are now faster, reducing test execution time.
+- Cookie commands can now be retried, improving test reliability.
+- Automatic memory management enhancements contribute to overall faster test runs.
+
+## Our Commentary
+
+Faster tests are always a win, and Cypress 16 seems to be delivering on that front from every angle. HTTP/2 support is a big deal for modern web apps, and zero-delay typing sounds like a dream for reducing flaky tests. We're always looking for ways to shave seconds off our CI/CD pipelines, and this release looks like it could make a real impact.
+
+Original Link: https://www.cypress.io/blog/cypress-16-faster-tests-starting-with-http2-support/]]></content:encoded>
+            <enclosure url="https://storage.ghost.io/c/12/89/12899ca1-4786-4eea-b7e1-9c5268baa48a/content/images/2026/08/cypress-16-feature.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Eiffel Tower Catapult: A Playful Three.js Experiment]]></title>
+            <link>https://digestweb.dev/articles/2026-09-01/eiffel-tower-catapult-threejs-experiment</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-01/eiffel-tower-catapult-threejs-experiment</guid>
+            <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore a whimsical Three.js experiment that transforms the Eiffel Tower into an interactive catapult, launching objects across a 3D Paris cityscape.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The experiment uses Three.js to create an interactive 3D scene.
+- It integrates real-world 3D data from Cesium ion for the Paris environment.
+- Users can manipulate the Eiffel Tower as a catapult with physics-based interactions.
+- The project showcases creative application of 3D web technologies and interactive design.
+
+## Our Commentary
+
+This is just pure fun. I love seeing creative, playful uses of web technologies like Three.js. It's not just a technical demo; it's an experience. Combining interactive physics with real-world data is a smart move, and it really makes you think about the possibilities for immersive web experiences. Sometimes, we just need to fling an Eiffel Tower.
+
+Original Link: https://tympanus.net/codrops/2026/09/01/bend-aim-fling-turning-the-eiffel-tower-into-a-catapult-with-three-js/]]></content:encoded>
+            <enclosure url="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/08/EiffelTowerCataputl_cover.png?x57826" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Google DeepMind Introduces Agentic Video Understanding in Gemini]]></title>
+            <link>https://digestweb.dev/articles/2026-09-01/google-deepmind-gemini-agentic-video</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-01/google-deepmind-gemini-agentic-video</guid>
+            <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Google DeepMind unveils new agentic video understanding capabilities for Gemini, allowing the AI to process and interpret complex video content.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Gemini now features agentic video understanding capabilities.
+- This allows the AI to interpret and reason about complex actions and events within video.
+- The new feature represents a significant advancement in multimodal AI.
+- It enables more sophisticated analysis and interaction with video content.
+
+## Our Commentary
+
+Agentic video understanding in Gemini sounds incredibly powerful, and honestly, a little unsettling. The idea of an AI not just seeing, but _understanding_ and reasoning about video content opens up so many possibilities, both good and potentially... less good. We're moving into a world where AI can interpret our visual world with increasing sophistication. I'm excited, but also cautiously watching.
+
+Original Link: https://deepmind.google/blog/introducing-agentic-video-in-gemini/]]></content:encoded>
+            <enclosure url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/agentic-video___keyword__blog-header.width-1300.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Hugging Face Launches 200+ WebGPU Kernels for Local AI]]></title>
+            <link>https://digestweb.dev/articles/2026-09-01/huggingface-webgpu-kernels-local-ai</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-01/huggingface-webgpu-kernels-local-ai</guid>
+            <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hugging Face introduces `@huggingface/kernels`, a collection of over 200 WebGPU kernels, enabling efficient local AI inference directly within the browser.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Hugging Face has released `@huggingface/kernels`, a library of 200+ WebGPU kernels.
+- These kernels enable high-performance local AI inference directly in web browsers.
+- This significantly reduces reliance on server-side processing for AI tasks.
+- It opens up new possibilities for privacy-preserving and offline AI applications on the web.
+- The initiative leverages WebGPU for GPU-accelerated computations in the browser.
+
+## Our Commentary
+
+This is a game-changer. Local AI in the browser, powered by WebGPU? Yes, please! We've been talking about the potential of WebGPU for ages, and this is exactly the kind of application that proves its worth. The implications for privacy, offline capabilities, and reducing server costs are massive. I genuinely believe this is a foundational piece for the next generation of web applications. It's a headline moment.
+
+Original Link: https://huggingface.co/blog/webgpu-kernels]]></content:encoded>
+            <enclosure url="https://huggingface.co/blog/assets/webgpu-kernels/thumbnail.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI's Astra Model Meets Critical Cybersecurity Threshold]]></title>
+            <link>https://digestweb.dev/articles/2026-09-01/openai-astra-cybersecurity-threshold</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-01/openai-astra-cybersecurity-threshold</guid>
+            <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI announces that its Astra model is the first to meet the Critical cybersecurity capability threshold under their Preparedness Framework, featuring enhanced safeguards.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Astra is the first OpenAI model to achieve the Critical cybersecurity capability threshold.
+- This milestone is part of OpenAI's Preparedness Framework for AI safety.
+- The model incorporates stronger safeguards for its release and deployment.
+- This indicates a focus on security and responsible AI development for frontier models.
+
+## Our Commentary
+
+AI safety and cybersecurity are undeniably important, especially as models become more powerful. It's good to see OpenAI putting frameworks in place. However, I'm always a bit wary of these announcements; they often feel more like PR than deep technical dives. We need to see the actual mechanisms, not just the claims. Still, it's a step in the right direction, I suppose.
+
+Original Link: https://openai.com/index/path-to-astra]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/518/800/450" length="0" type="image//id/518/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Codex Desktop App Bundles LibreOffice, Python]]></title>
+            <link>https://digestweb.dev/articles/2026-09-01/openai-codex-bundles-libreoffice-python</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-01/openai-codex-bundles-libreoffice-python</guid>
+            <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison discovers that the OpenAI Codex desktop app (now ChatGPT) bundles full installations of LibreOffice, Python, and Node.js, revealing its operational complexity.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The OpenAI Codex desktop app (now ChatGPT) includes full installations of Python, Node.js, and LibreOffice.
+- These components are found within the app's cache directory.
+- The app uses 'skills' to leverage these native binaries for various tasks.
+- This highlights the complex, multi-component nature of modern AI desktop applications.
+
+## Our Commentary
+
+This is a fascinating peek behind the curtain of how these 'AI-native' desktop apps actually work. Bundling entire runtimes and even an office suite just to get things done is... something. It really underscores the 'glue code' nature of many AI applications, where the LLM is just one piece of a much larger, often surprisingly conventional, software stack. It's a messy reality, and I appreciate Simon for digging it up.
+
+Original Link: https://simonwillison.net/2026/Sep/1/codex-libreoffice/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/462/800/450" length="0" type="image//id/462/800/450"/>
+        </item>
         <item>
             <title><![CDATA[pnpm 12.2 Boosts Workspace Performance, Fixes Audit & Deploy Issues]]></title>
             <link>https://digestweb.dev/articles/2026-09-01/pnpm-12-2-workspace-performance-fixes</link>
@@ -38,6 +201,168 @@ We're always happy to see performance improvements, especially for large workspa
 
 Original Link: https://github.com/pnpm/pnpm/releases/tag/v12.2.0]]></content:encoded>
             <enclosure url="https://opengraph.githubassets.com/6bdb13b77926cbfad1f0391ae03d87adefdb66acf71ec223e84cb9299fad6ce7/pnpm/pnpm/releases/tag/v12.2.0" length="0" type="image/0"/>
+        </item>
+        <item>
+            <title><![CDATA[Python 3.15.0 Release Candidate 2 Now Available]]></title>
+            <link>https://digestweb.dev/articles/2026-09-01/python-3-15-rc2-available</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-01/python-3-15-rc2-available</guid>
+            <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The second release candidate for Python 3.15.0 is out, encouraging maintainers to test their projects before the final October release.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Python 3.15.0 Release Candidate 2 has been announced.
+- This is the final RC before the stable release in October.
+- Maintainers of third-party Python projects are encouraged to test compatibility.
+- Binary wheels built against this RC will be compatible with the final 3.15.0 release.
+
+## Our Commentary
+
+It's always good practice to test against release candidates, and Simon's anecdote about finding a bug in Python 3.10 after it shipped is a stark reminder of why. While Python isn't strictly 'web dev,' it underpins so much of our tooling and backend infrastructure that keeping an eye on these releases is just smart. We'll be updating our CI to include this RC soon.
+
+Original Link: https://simonwillison.net/2026/Sep/1/python-315-rc-2/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/209/800/450" length="0" type="image//id/209/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Remix 3 RC Drops React Dependency, pnpm 12 Rewritten in Rust]]></title>
+            <link>https://digestweb.dev/articles/2026-09-01/remix-3-rc-drops-react-pnpm-12-rust</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-01/remix-3-rc-drops-react-pnpm-12-rust</guid>
+            <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Remix 3 Release Candidate marks a major architectural shift, becoming a full-stack framework independent of React, while pnpm 12 delivers significant performance gains with a Rust rewrite.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Remix 3 RC is now a full-stack framework that no longer requires React.
+- This architectural rewrite allows developers to use Remix with any UI library or none at all.
+- pnpm 12 has been rewritten in Rust, promising significant performance improvements.
+- TypeScript now supports `import-attribute-aware` ambient modules.
+- An impressive 247-byte Minesweeper implementation in JavaScript is analyzed.
+
+## Our Commentary
+
+Remix 3 dropping its React dependency is a monumental shift. We've seen frameworks try to decouple from their UI layers before, but for Remix, this feels like a true re-invention. It opens up so many possibilities for developers who love Remix's conventions but prefer other UI libraries. And pnpm 12 in Rust? Yes, please! Faster package management is always welcome. It's a good day for web tooling.
+
+Original Link: https://javascriptweekly.com/issues/800]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/19/800/450" length="0" type="image//id/19/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[SolidJS 2.0 RC.5 Fixes Hydration, Enhances Signals]]></title>
+            <link>https://digestweb.dev/articles/2026-09-01/solidjs-2-rc5-hydration-signals-refresh</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-01/solidjs-2-rc5-hydration-signals-refresh</guid>
+            <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[SolidJS 2.0 RC.5 addresses a critical hydration desync bug with `<For>` components and integrates the new promise-based `refresh` for signals.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- A critical hydration desync bug affecting `<For>` components followed by siblings has been fixed.
+- The `refresh(target)` function now returns a promise for the target's quiescent state, allowing async operations to await reactivity settlement.
+- This promise-based refresh improves control over async data flows within Solid's reactivity system.
+- `updateIfNecessary` now correctly handles disposed nodes, preventing certain runtime errors.
+
+## Our Commentary
+
+The `<For>` hydration fix is a big one; desyncs are notoriously hard to debug and can lead to subtle, frustrating bugs. Combining that with the new promise-based `refresh` for signals makes this a really solid RC. It feels like Solid is tightening up its core, making it even more robust for complex applications. We're seeing a lot of maturity in these RC releases.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/solid-js%402.0.0-rc.5]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/535dd29ee24bdb574c5b7af682f439d420ddc9a1ba0a395490302bea43e242df/solidjs/solid/releases/tag/solid-js%402.0.0-rc.5" length="0" type="image/5"/>
+        </item>
+        <item>
+            <title><![CDATA[SolidJS Babel Plugin 2.0 RC.5 Improves Markup Validation]]></title>
+            <link>https://digestweb.dev/articles/2026-09-01/solidjs-babel-plugin-2-rc5-markup-validation</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-01/solidjs-babel-plugin-2-rc5-markup-validation</guid>
+            <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[SolidJS Babel Plugin RC.5 now fails compilation when JSX markup would be restructured by the browser's HTML parser, preventing runtime issues.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The validator now fails compilation instead of warning when a template's markup would be restructured by the browser.
+- This prevents desynced hydration and silently misplaced bindings in the DOM.
+- Errors now provide a clear code frame pointing to the offending JSX.
+- Universal text handling and hydration ID fixes from the compiler are also included.
+
+## Our Commentary
+
+I love this change. Silently shipping broken hydration or misaligned bindings because of a warning buried in server logs is a nightmare. Forcing a compile-time error for invalid HTML markup is a huge win for developer experience. It's a clear signal that something is wrong, right when you write the code, which is exactly what we need from our tooling.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fbabel-plugin%402.0.0-rc.5]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/e1df50b7513cff17ed7c4b35d36ac9018722265ec953eb5dc086a1810be412f8/solidjs/solid/releases/tag/%40solidjs/babel-plugin%402.0.0-rc.5" length="0" type="image/5"/>
+        </item>
+        <item>
+            <title><![CDATA[SolidJS Compiler 2.0 RC.5 Stabilizes Server Function IDs]]></title>
+            <link>https://digestweb.dev/articles/2026-09-01/solidjs-compiler-2-rc5-stable-server-ids</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-01/solidjs-compiler-2-rc5-stable-server-ids</guid>
+            <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[SolidJS Compiler RC.5 introduces stable server-function IDs, fixes hydration desyncs, and improves universal text handling for more robust applications.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Server-function IDs are now keyed on identity (`<name>-<xxhash32(path)>`) instead of position, preventing silent misdispatches on code changes.
+- Hydration IDs no longer drift after reactive lone spreads, ensuring correct client-side rehydration.
+- Universal text handling is fixed, allowing static values to pass unescaped and JSX entities to decode correctly.
+- Development and production environments now share the exact same server-function ID format.
+
+## Our Commentary
+
+The server-function ID fix is a big deal. We've all been there, chasing down weird production bugs that only appear after a seemingly innocuous code change. Preventing silent misdispatches is crucial for reliable server-side logic. This, combined with the hydration fixes, makes for a much more stable and predictable development experience. It's the kind of fix that prevents future headaches.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fcompiler%402.0.0-rc.5]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/a80ecffdaf020982634c16723a87a7f8437a4277c29da6f1a495c886f5d8265e/solidjs/solid/releases/tag/%40solidjs/compiler%402.0.0-rc.5" length="0" type="image/5"/>
+        </item>
+        <item>
+            <title><![CDATA[SolidJS H 2.0 RC.5 Adds Typed Preload Links]]></title>
+            <link>https://digestweb.dev/articles/2026-09-01/solidjs-h-2-rc5-typed-preload-links</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-01/solidjs-h-2-rc5-typed-preload-links</guid>
+            <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This SolidJS H release candidate introduces typed preload links to the server asset pipeline, improving asset management and performance for SSR.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Typed preload links are now supported in the server asset pipeline.
+- Static manifests and resolver results can attach `PreloadLink[]` for framework integrations.
+- The runtime preserves `as`, MIME type, CORS mode, and other attributes across various render types.
+- Development builds now warn when font or fetch preloads omit `crossorigin` for better caching.
+
+## Our Commentary
+
+Asset preloading is one of those things that can make a huge difference in perceived performance, especially for SSR applications. We're always looking for ways to make the web feel faster, and explicit, typed preload links are a solid step in that direction. It's a good DX win, too, making it easier to get those critical assets loaded efficiently.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fh%402.0.0-rc.5]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/80bbcf1cf9c1284e8cccb3ab0934569c2b9d3818094cbddc21e3d9293e1afc24/solidjs/solid/releases/tag/%40solidjs/h%402.0.0-rc.5" length="0" type="image/5"/>
+        </item>
+        <item>
+            <title><![CDATA[SolidJS Signals 2.0 RC.5 Introduces Promise-Based Refresh]]></title>
+            <link>https://digestweb.dev/articles/2026-09-01/solidjs-signals-2-rc5-promise-refresh</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-01/solidjs-signals-2-rc5-promise-refresh</guid>
+            <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The latest SolidJS Signals release candidate allows `refresh(target)` to return a promise for the target's quiescent state, enhancing async reactivity control.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- `refresh(target)` now returns a promise that resolves when the target's re-ask has settled.
+- This allows for awaiting the completion of a refresh operation, improving async flow control.
+- Failed re-asks now reject the promise, enabling better error handling in actions.
+- Disposed nodes are now explicitly refused by `updateIfNecessary`, preventing certain bug classes.
+
+## Our Commentary
+
+This `refresh` promise is a subtle but powerful addition to Solid's reactivity model. It gives developers more granular control over async operations, which is always welcome. I appreciate the focus on ensuring quiescence, not just flight identity. It feels like a natural evolution for a framework so deeply rooted in fine-grained reactivity.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fsignals%402.0.0-rc.5]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/b201378149251c9de1d102f3c37ccca2c9f901a1e4f2d92629145687b0691427/solidjs/solid/releases/tag/%40solidjs/signals%402.0.0-rc.5" length="0" type="image/5"/>
+        </item>
+        <item>
+            <title><![CDATA[SolidJS Web 2.0 RC.5 Enhances Server Functions & Serialization]]></title>
+            <link>https://digestweb.dev/articles/2026-09-01/solidjs-web-2-rc5-server-functions-serialization</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-01/solidjs-web-2-rc5-server-functions-serialization</guid>
+            <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This release candidate for SolidJS's web package introduces server function argument limits, improved error stack serialization, and better header bounds enforcement.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Server functions now have configurable `bodySizeLimit` and `maxArguments` to prevent oversized payloads.
+- Error stack disclosure can be explicitly controlled with `serializeErrorStacks` regardless of `NODE_ENV`.
+- The `selectedcontent` HTML element is added to JSX intrinsic element types.
+- Redirect and revalidate helpers now enforce `Location` and `X-Revalidate` header bounds at the transport edge.
+
+## Our Commentary
+
+SolidJS continues to refine its server-side story, and these RC updates are all about robustness and security. I'm particularly glad to see the explicit control over error stack serialization; that's a common footgun. The argument limits for server functions are also a smart move to prevent abuse or accidental resource exhaustion. It's all about making the framework more resilient in production.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fweb%402.0.0-rc.5]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/1759a0314a55c90c4c3272ff25fe3b90e4c419d32acb91fa4b6b057d311268aa/solidjs/solid/releases/tag/%40solidjs/web%402.0.0-rc.5" length="0" type="image/5"/>
         </item>
         <item>
             <title><![CDATA[SvelteKit 3 Nears Release with RC, Svelte 5.57 Adds New Features]]></title>
