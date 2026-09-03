@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Wed, 02 Sep 2026 05:29:04 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 05:30:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,562 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Building Effective Commerce Agents with Claude]]></title>
+            <link>https://digestweb.dev/articles/2026-09-02/building-effective-commerce-agents-claude-2</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-02/building-effective-commerce-agents-claude-2</guid>
+            <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Anthropic's Claude blog offers a two-part series on building and understanding the anatomy of effective AI-powered commerce agents using Claude.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Anthropic published a series on developing AI commerce agents with Claude.
+- The articles cover both the practical building process and the underlying structure.
+- They aim to guide users in creating effective AI agents for commercial applications.
+- The content is specific to the Claude platform and its capabilities.
+
+## Our Commentary
+
+Claude is pushing into commerce agents, which makes sense. I'm always curious about how these models are being applied in specific verticals. It's a good sign of LLMs moving beyond general chat into more specialized, task-oriented roles. We'll see how effective these agents become in real-world commerce.
+
+Original Link: https://claude.com/blog/the-anatomy-of-effective-commerce-agents]]></content:encoded>
+            <enclosure url="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a9739f4dbe753c78e6e136d_og_the-anatomy-of-effective-commerce-agents.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Building Effective Commerce Agents with Claude]]></title>
+            <link>https://digestweb.dev/articles/2026-09-02/building-effective-commerce-agents-claude</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-02/building-effective-commerce-agents-claude</guid>
+            <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Anthropic's Claude blog offers a two-part series on building and understanding the anatomy of effective AI-powered commerce agents using Claude.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Anthropic published a series on developing AI commerce agents with Claude.
+- The articles cover both the practical building process and the underlying structure.
+- They aim to guide users in creating effective AI agents for commercial applications.
+- The content is specific to the Claude platform and its capabilities.
+
+## Our Commentary
+
+Claude is pushing into commerce agents, which makes sense. I'm always curious about how these models are being applied in specific verticals. It's a good sign of LLMs moving beyond general chat into more specialized, task-oriented roles. We'll see how effective these agents become in real-world commerce.
+
+Original Link: https://claude.com/blog/claude-for-commerce-agents]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/360/800/450" length="0" type="image//id/360/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Claude's New System Prompt: No More Song Lyrics]]></title>
+            <link>https://digestweb.dev/articles/2026-09-02/claudes-new-system-prompt-no-song-lyrics</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-02/claudes-new-system-prompt-no-song-lyrics</guid>
+            <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison details Anthropic's updated system prompts for Claude, revealing a strict new policy against reproducing song lyrics, poems, and copyrighted content.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Anthropic has updated the system prompts for Claude.ai and mobile apps.
+- A significant new section prohibits Claude from reproducing song lyrics, poems, or copyrighted material.
+- The policy extends to partial reproductions and reworded requests.
+- Claude's documentation site (`platform.claude.com/docs`) is designed to be LLM-friendly.
+- Users can access documentation content as Markdown by appending `.md` to URLs.
+
+## Our Commentary
+
+Claude's new system prompt is fascinating. The explicit ban on reproducing song lyrics and copyrighted content shows how seriously LLM providers are taking copyright issues. I also love that Anthropic's docs are LLM-friendly; that's a brilliant move for discoverability and integration. It's a subtle but important shift in how these models are governed.
+
+Original Link: https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://static.simonwillison.net/static/2026-09-01/IMG_7797.jpeg" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Customizing Angular ARIA Tabs with Antigravity CLI]]></title>
+            <link>https://digestweb.dev/articles/2026-09-02/customizing-angular-aria-tabs-antigravity-cli</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-02/customizing-angular-aria-tabs-antigravity-cli</guid>
+            <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how to quickly customize Angular ARIA tabs using the Google Antigravity CLI for enhanced accessibility.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article focuses on customizing ARIA tabs within Angular applications.
+- It leverages the Google Antigravity CLI for streamlined customization.
+- The goal is to improve accessibility and user experience for tabbed interfaces.
+
+## Our Commentary
+
+This feels like a very specific Angular tutorial. I'm always a bit wary of tools with names like "Antigravity CLI" – it sounds either super cool and innovative or like something very internal to Google that might not have broad adoption. We'll keep an eye on it.
+
+Original Link: https://blog.angular.dev/customizing-angular-aria-tabs-quickly-with-google-antigravity-cli-39ff8e0271a4?source=rss----447683c3d9a3---4]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/713/800/450" length="0" type="image//id/713/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Decoding New AI Lingo: Loops, Harnesses, Squads, Hill Climbing]]></title>
+            <link>https://digestweb.dev/articles/2026-09-02/decoding-new-ai-lingo-loops-harnesses-squads</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-02/decoding-new-ai-lingo-loops-harnesses-squads</guid>
+            <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The GitHub Podcast breaks down the emerging AI terminology like loops, harnesses, squads, and hill climbing that are becoming common in developer discussions.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article decodes new AI terms prevalent in developer conversations.
+- It covers concepts such as loop engineering, harnesses, and AI squads.
+- The content originates from a GitHub Podcast episode.
+- It aims to improve understanding of the evolving AI landscape.
+
+## Our Commentary
+
+AI lingo is exploding, and honestly, it's hard to keep up. "Loops, harnesses, squads, hill climbing"—it sounds like a sci-fi novel. I appreciate GitHub trying to demystify some of this. We need more resources like this to help developers navigate the increasingly complex world of AI.
+
+Original Link: https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/]]></content:encoded>
+            <enclosure url="https://github.blog/wp-content/uploads/2025/07/LinkedIn-Light-Mode-16x9-1.png?fit=1920%2C1080" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Google DeepMind Introduces Gemini 3.8 Flash Models]]></title>
+            <link>https://digestweb.dev/articles/2026-09-02/google-deepmind-gemini-3-8-flash-models</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-02/google-deepmind-gemini-3-8-flash-models</guid>
+            <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Google DeepMind announces the release of Gemini 3.8 Flash and Gemini 3.8 Flash Cyber, expanding its suite of efficient and powerful AI models.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Google DeepMind has introduced the new Gemini 3.8 Flash models.
+- This release includes both Gemini 3.8 Flash and 3.8 Flash Cyber.
+- Flash models are typically optimized for speed and cost-efficiency.
+- These models expand Google's offerings for various AI applications.
+
+## Our Commentary
+
+Gemini 3.8 Flash is out! I'm always interested in the "Flash" versions of these models because they often hit that sweet spot of performance and cost. It's a good move by Google DeepMind to keep iterating on these more accessible versions. The "Cyber" variant sounds intriguing, though likely for specialized use.
+
+Original Link: https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/]]></content:encoded>
+            <enclosure url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8_flash__blog__header__16-9__light.width-1300.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[llm-gemini 0.34: Hands-on with Gemini 3.8 Flash for Web Dev]]></title>
+            <link>https://digestweb.dev/articles/2026-09-02/llm-gemini-0-34-gemini-3-8-flash-web-dev</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-02/llm-gemini-0-34-gemini-3-8-flash-web-dev</guid>
+            <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison releases llm-gemini 0.34, showcasing the new Gemini 3.8 Flash model's speed, cost-effectiveness, and competence in generating HTML and JavaScript.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- `llm-gemini 0.34` now supports the newly released Gemini 3.8 Flash model.
+- Simon Willison highlights Gemini 3.8 Flash's speed, low cost, and proficiency in HTML/JavaScript.
+- He demonstrates the model generating a "cool thing in HTML" in 13 seconds for 1.8 cents.
+- The model was used to add sandboxed HTML rendering to his `markdown-svg-renderer` tool.
+- The post includes a transcript of the interaction with the AI for this development.
+
+## Our Commentary
+
+Simon Willison always delivers the goods with his practical LLM explorations. Seeing Gemini 3.8 Flash praised for its HTML/JS competence, speed, and low cost is genuinely exciting. I love that he immediately put it to work improving his `markdown-svg-renderer`. This is the kind of real-world validation that makes me want to dive in and try it myself.
+
+Original Link: https://simonwillison.net/2026/Sep/2/llm-gemini/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://static.simonwillison.net/static/2026-09-02/image.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[New HTML Features You Should Know in Mid-2026]]></title>
+            <link>https://digestweb.dev/articles/2026-09-02/new-html-features-mid-2026</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-02/new-html-features-mid-2026</guid>
+            <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Frontend Masters highlights several new and emerging HTML features, including permissions elements, custom element registries, HTML includes, and HTML-in-Canvas.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article covers new and upcoming features in HTML as of mid-2026.
+- It discusses the introduction of permissions elements for enhanced control.
+- Custom element registries are highlighted for better component management.
+- A potential future for HTML includes is explored.
+- The concept of rendering HTML directly within a Canvas element is presented.
+- The post aims to keep developers updated on the evolving HTML landscape.
+
+## Our Commentary
+
+"New Things You Should Know About HTML Here in Mid 2026" — this is exactly the kind of overview I need. Permissions elements, custom element registries, HTML-in-Canvas... it feels like HTML is quietly getting a lot more powerful. I'm particularly intrigued by HTML-in-Canvas; that could unlock some really creative possibilities.
+
+Original Link: https://blog.master.dev/new-things-you-should-know-about-html-here-in-mid-2026/]]></content:encoded>
+            <enclosure url="https://blog.master.dev/wp-json/social-image-generator/v1/image/10467" length="0" type="image//wp-json/social-image-generator/v1/image/10467"/>
+        </item>
+        <item>
+            <title><![CDATA[Paint.NET's Direct2D Rewrite: Claude's 180k Lines of "Vibe Code"]]></title>
+            <link>https://digestweb.dev/articles/2026-09-02/paint-net-direct2d-rewrite-claude-vibe-code</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-02/paint-net-direct2d-rewrite-claude-vibe-code</guid>
+            <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Rick Brewster, author of Paint.NET, shares a candid account of how Claude AI helped him rewrite 180,000 lines of Direct2D for WINE, detailing the triumphs and challenges of "vibe coding."]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Paint.NET's author, Rick Brewster, used Claude AI to rewrite Direct2D for WINE.
+- Claude generated approximately 180,000 lines of C# code for this complex task.
+- Brewster describes the code as "vibe coded" and requiring significant "babysitting."
+- The AI demonstrated both incredible speed and clever reverse engineering capabilities.
+- It also exhibited challenges with resource management and design decisions.
+- This project highlights the potential and current limitations of AI coding agents for large-scale work.
+
+## Our Commentary
+
+This quote from Rick Brewster about using Claude to rewrite Direct2D for Paint.NET is just incredible. "Vibe coded" C# and 180,000 lines of it! It's such a raw, honest look at the reality of working with AI for complex engineering tasks. The "fury of 10 freshly unshackled Einstein genius-level 10x coders" balanced with the need to "babysit Claude quite a bit" perfectly captures the current state of AI coding. I genuinely don't know how to feel about agents churning away at 3am while nobody's watching.
+
+Original Link: https://simonwillison.net/2026/Sep/2/rick-brewster/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/505/800/450" length="0" type="image//id/505/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[pnpm 12.3: Native Global Commands & Lockfile Trust]]></title>
+            <link>https://digestweb.dev/articles/2026-09-02/pnpm-12-3-native-global-commands-lockfile-trust</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-02/pnpm-12-3-native-global-commands-lockfile-trust</guid>
+            <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[pnpm 12.3 enhances its package manager with native executables for global commands and extends lockfile trust options to `remove` and `update` commands.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Context-aware global commands (node, deno, bun) are now native executables on all platforms.
+- This change improves environment variable handling for global commands.
+- `pnpm remove` and `pnpm update` now support `--trust-lockfile` and related supply-chain flags.
+- Several bug fixes address issues with local package additions and lockfile generation.
+- `pnpm config` now accepts global and location flags before subcommands.
+- `pnpm dedupe` is improved to converge in a single pass.
+
+## Our Commentary
+
+pnpm 12.3 is a solid minor update. Making global commands native executables is a nice touch for consistency and reliability, especially on Windows. Extending the `--trust-lockfile` options to `remove` and `update` is also a welcome improvement for supply-chain management. It's these kinds of continuous refinements that make pnpm such a robust tool.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v12.3.0]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/6348e07ae1bd9abe1a30c31800d3ef3c5a5f1f2af199195e513fcdf4636eabfd/pnpm/pnpm/releases/tag/v12.3.0" length="0" type="image/0"/>
+        </item>
+        <item>
+            <title><![CDATA[React Compiler Lands in Vite 8 via Oxc, Ditching Babel]]></title>
+            <link>https://digestweb.dev/articles/2026-09-02/react-compiler-vite-8-oxc-babel-replacement</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-02/react-compiler-vite-8-oxc-babel-replacement</guid>
+            <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[VoidZero's August recap reveals a major update: React Compiler is now supported in Vite 8 through Oxc, eliminating the need for Babel and boosting performance.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The React Compiler is now available in Vite 8, powered by Oxc.
+- This integration allows memoizing components and hooks at build time.
+- It eliminates the need for manual `useMemo` and `useCallback` calls.
+- `oxc-transform-react` replaces Babel in the Vite pipeline for React Compiler.
+- Preliminary benchmarks show significant performance gains over Babel.
+- The update promises fewer re-renders and improved developer experience.
+
+## Our Commentary
+
+This is huge! React Compiler support in Vite 8 via Oxc, finally ditching Babel for that step. I've been waiting for this kind of integration. The benchmark numbers are compelling, and the idea of getting automatic memoization without manual `useMemo` and `useCallback` is a dream for DX. This feels like a real step forward for the React ecosystem.
+
+Original Link: https://voidzero.dev/posts/whats-new-aug-2026]]></content:encoded>
+            <enclosure url="https://voidzero.dev/covers/update-2026-aug.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Real-Time Datamosh Effect with Three.js and Shaders]]></title>
+            <link>https://digestweb.dev/articles/2026-09-02/real-time-datamosh-effect-threejs-shaders</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-02/real-time-datamosh-effect-threejs-shaders</guid>
+            <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore a hands-on tutorial from Codrops on building a convincing real-time datamosh effect using Three.js, shaders, and codec-inspired techniques for scene transitions.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The tutorial demonstrates building a real-time datamosh effect.
+- It leverages Three.js for 3D rendering and custom shaders.
+- Codec-inspired techniques are used to achieve the visual distortion.
+- The effect is applied to scene transitions for a unique visual experience.
+- It's a hands-on exploration of advanced creative web development.
+
+## Our Commentary
+
+A real-time datamosh effect with Three.js? Yes, please! Codrops always delivers on these visually stunning, technically challenging tutorials. I love seeing how shaders and creative coding can push the boundaries of what's possible in the browser. This is definitely going on my "must-try" list.
+
+Original Link: https://tympanus.net/codrops/2026/09/02/breaking-the-frame-building-a-real-time-datamosh-effect-with-three-js/]]></content:encoded>
+            <enclosure url="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/08/datamoch_cover.png?x57826" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Safari 27 Achieves Full Top-Level Await Spec Compliance]]></title>
+            <link>https://digestweb.dev/articles/2026-09-02/safari-27-top-level-await-spec-compliance</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-02/safari-27-top-level-await-spec-compliance</guid>
+            <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[WebKit for Safari 27 now fully complies with the specification for top-level `await`, enhancing JavaScript module capabilities across browsers.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- WebKit for Safari 27 now fully supports top-level `await`.
+- This update brings Safari into full compliance with the JavaScript specification.
+- Top-level `await` allows using `await` outside of async functions in modules.
+- It simplifies asynchronous module initialization and resource loading.
+- This improves consistency and developer experience across modern browsers.
+
+## Our Commentary
+
+Finally, full spec compliance for top-level `await` in Safari 27! This is one of those features that just makes writing modern JavaScript modules so much cleaner. I've been waiting for this kind of consistency across all major browsers. It's a small but mighty win for the web platform.
+
+Original Link: https://webkit.org/blog/18227/fixing-top-level-await-in-safari/]]></content:encoded>
+            <enclosure url="https://webkit.org/wp-content/uploads/top-level-await-diagram-dark-scaled.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[SolidJS 2.0.0-rc.6: Compiler, Signals, and Hydration Enhancements]]></title>
+            <link>https://digestweb.dev/articles/2026-09-02/solidjs-2-0-0-rc6-compiler-signals-hydration-10</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-02/solidjs-2-0-0-rc6-compiler-signals-hydration-10</guid>
+            <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[SolidJS releases its sixth release candidate for version 2.0.0, bringing advancements in compiler capabilities, signal attribution, and hydration reliability.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- SolidJS 2.0.0-rc.6 introduces a typed semantic IR stage and TSRX typecheck projection in the compiler.
+- New dev hooks for signal attribution and async waterfall detection improve debugging.
+- Hydration logic is enhanced to handle eager JSX evaluation and prevent overwriting user input.
+- Improved error handling for server function calls and unrecognized client transport responses.
+- Consistent handling of primitive class values across static, dynamic, and array forms.
+- Optimistic store truth-flights now own their transaction for better consistency.
+- The Babel plugin gains an experimental TSRX syntax frontend for new control flow.
+- Diagnostic names are exposed for renderer-owned effects to aid development.
+
+## Our Commentary
+
+SolidJS 2.0.0-rc.6 is here, and it's packed with some serious under-the-hood work. I'm particularly intrigued by the new TSRX syntax frontend in the compiler and Babel plugin. It feels like Solid is really pushing the boundaries of what a compiler can do for DX. The signal attribution and async waterfall detection are also huge for debugging complex reactive graphs. This is the kind of deep engineering that makes Solid so compelling.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/solid-js%402.0.0-rc.6]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/6d4ac47c81891508920a18972fdc36083db6a766acc6071224ea65de9dbcf64b/solidjs/solid/releases/tag/solid-js%402.0.0-rc.6" length="0" type="image/6"/>
+        </item>
+        <item>
+            <title><![CDATA[SolidJS 2.0.0-rc.6: Compiler, Signals, and Hydration Enhancements]]></title>
+            <link>https://digestweb.dev/articles/2026-09-02/solidjs-2-0-0-rc6-compiler-signals-hydration-2</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-02/solidjs-2-0-0-rc6-compiler-signals-hydration-2</guid>
+            <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[SolidJS releases its sixth release candidate for version 2.0.0, bringing advancements in compiler capabilities, signal attribution, and hydration reliability.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- SolidJS 2.0.0-rc.6 introduces a typed semantic IR stage and TSRX typecheck projection in the compiler.
+- New dev hooks for signal attribution and async waterfall detection improve debugging.
+- Hydration logic is enhanced to handle eager JSX evaluation and prevent overwriting user input.
+- Improved error handling for server function calls and unrecognized client transport responses.
+- Consistent handling of primitive class values across static, dynamic, and array forms.
+- Optimistic store truth-flights now own their transaction for better consistency.
+- The Babel plugin gains an experimental TSRX syntax frontend for new control flow.
+- Diagnostic names are exposed for renderer-owned effects to aid development.
+
+## Our Commentary
+
+SolidJS 2.0.0-rc.6 is here, and it's packed with some serious under-the-hood work. I'm particularly intrigued by the new TSRX syntax frontend in the compiler and Babel plugin. It feels like Solid is really pushing the boundaries of what a compiler can do for DX. The signal attribution and async waterfall detection are also huge for debugging complex reactive graphs. This is the kind of deep engineering that makes Solid so compelling.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Funiversal%402.0.0-rc.6]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/2dffa193084cefe3918912ce236e485f4b58d1350b233f615cd06c0be089e8ae/solidjs/solid/releases/tag/%40solidjs/universal%402.0.0-rc.6" length="0" type="image/6"/>
+        </item>
+        <item>
+            <title><![CDATA[SolidJS 2.0.0-rc.6: Compiler, Signals, and Hydration Enhancements]]></title>
+            <link>https://digestweb.dev/articles/2026-09-02/solidjs-2-0-0-rc6-compiler-signals-hydration-3</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-02/solidjs-2-0-0-rc6-compiler-signals-hydration-3</guid>
+            <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[SolidJS releases its sixth release candidate for version 2.0.0, bringing advancements in compiler capabilities, signal attribution, and hydration reliability.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- SolidJS 2.0.0-rc.6 introduces a typed semantic IR stage and TSRX typecheck projection in the compiler.
+- New dev hooks for signal attribution and async waterfall detection improve debugging.
+- Hydration logic is enhanced to handle eager JSX evaluation and prevent overwriting user input.
+- Improved error handling for server function calls and unrecognized client transport responses.
+- Consistent handling of primitive class values across static, dynamic, and array forms.
+- Optimistic store truth-flights now own their transaction for better consistency.
+- The Babel plugin gains an experimental TSRX syntax frontend for new control flow.
+- Diagnostic names are exposed for renderer-owned effects to aid development.
+
+## Our Commentary
+
+SolidJS 2.0.0-rc.6 is here, and it's packed with some serious under-the-hood work. I'm particularly intrigued by the new TSRX syntax frontend in the compiler and Babel plugin. It feels like Solid is really pushing the boundaries of what a compiler can do for DX. The signal attribution and async waterfall detection are also huge for debugging complex reactive graphs. This is the kind of deep engineering that makes Solid so compelling.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fsignals%402.0.0-rc.6]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/19bc0038ec437c128b526bd49f80a49fe97bf96e0972d510a4854fe68989b88a/solidjs/solid/releases/tag/%40solidjs/signals%402.0.0-rc.6" length="0" type="image/6"/>
+        </item>
+        <item>
+            <title><![CDATA[SolidJS 2.0.0-rc.6: Compiler, Signals, and Hydration Enhancements]]></title>
+            <link>https://digestweb.dev/articles/2026-09-02/solidjs-2-0-0-rc6-compiler-signals-hydration-4</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-02/solidjs-2-0-0-rc6-compiler-signals-hydration-4</guid>
+            <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[SolidJS releases its sixth release candidate for version 2.0.0, bringing advancements in compiler capabilities, signal attribution, and hydration reliability.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- SolidJS 2.0.0-rc.6 introduces a typed semantic IR stage and TSRX typecheck projection in the compiler.
+- New dev hooks for signal attribution and async waterfall detection improve debugging.
+- Hydration logic is enhanced to handle eager JSX evaluation and prevent overwriting user input.
+- Improved error handling for server function calls and unrecognized client transport responses.
+- Consistent handling of primitive class values across static, dynamic, and array forms.
+- Optimistic store truth-flights now own their transaction for better consistency.
+- The Babel plugin gains an experimental TSRX syntax frontend for new control flow.
+- Diagnostic names are exposed for renderer-owned effects to aid development.
+
+## Our Commentary
+
+SolidJS 2.0.0-rc.6 is here, and it's packed with some serious under-the-hood work. I'm particularly intrigued by the new TSRX syntax frontend in the compiler and Babel plugin. It feels like Solid is really pushing the boundaries of what a compiler can do for DX. The signal attribution and async waterfall detection are also huge for debugging complex reactive graphs. This is the kind of deep engineering that makes Solid so compelling.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fhtml%402.0.0-rc.6]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/66bfa49dcaa725a57997bfa66a7b77927db3a8d9e3c742d6576895189e254bde/solidjs/solid/releases/tag/%40solidjs/html%402.0.0-rc.6" length="0" type="image/6"/>
+        </item>
+        <item>
+            <title><![CDATA[SolidJS 2.0.0-rc.6: Compiler, Signals, and Hydration Enhancements]]></title>
+            <link>https://digestweb.dev/articles/2026-09-02/solidjs-2-0-0-rc6-compiler-signals-hydration-5</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-02/solidjs-2-0-0-rc6-compiler-signals-hydration-5</guid>
+            <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[SolidJS releases its sixth release candidate for version 2.0.0, bringing advancements in compiler capabilities, signal attribution, and hydration reliability.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- SolidJS 2.0.0-rc.6 introduces a typed semantic IR stage and TSRX typecheck projection in the compiler.
+- New dev hooks for signal attribution and async waterfall detection improve debugging.
+- Hydration logic is enhanced to handle eager JSX evaluation and prevent overwriting user input.
+- Improved error handling for server function calls and unrecognized client transport responses.
+- Consistent handling of primitive class values across static, dynamic, and array forms.
+- Optimistic store truth-flights now own their transaction for better consistency.
+- The Babel plugin gains an experimental TSRX syntax frontend for new control flow.
+- Diagnostic names are exposed for renderer-owned effects to aid development.
+
+## Our Commentary
+
+SolidJS 2.0.0-rc.6 is here, and it's packed with some serious under-the-hood work. I'm particularly intrigued by the new TSRX syntax frontend in the compiler and Babel plugin. It feels like Solid is really pushing the boundaries of what a compiler can do for DX. The signal attribution and async waterfall detection are also huge for debugging complex reactive graphs. This is the kind of deep engineering that makes Solid so compelling.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fh%402.0.0-rc.6]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/a4384a9381901c14f74a2d88cebf775d1ad3116e6b350934cf21843fe20b0e56/solidjs/solid/releases/tag/%40solidjs/h%402.0.0-rc.6" length="0" type="image/6"/>
+        </item>
+        <item>
+            <title><![CDATA[SolidJS 2.0.0-rc.6: Compiler, Signals, and Hydration Enhancements]]></title>
+            <link>https://digestweb.dev/articles/2026-09-02/solidjs-2-0-0-rc6-compiler-signals-hydration-6</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-02/solidjs-2-0-0-rc6-compiler-signals-hydration-6</guid>
+            <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[SolidJS releases its sixth release candidate for version 2.0.0, bringing advancements in compiler capabilities, signal attribution, and hydration reliability.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- SolidJS 2.0.0-rc.6 introduces a typed semantic IR stage and TSRX typecheck projection in the compiler.
+- New dev hooks for signal attribution and async waterfall detection improve debugging.
+- Hydration logic is enhanced to handle eager JSX evaluation and prevent overwriting user input.
+- Improved error handling for server function calls and unrecognized client transport responses.
+- Consistent handling of primitive class values across static, dynamic, and array forms.
+- Optimistic store truth-flights now own their transaction for better consistency.
+- The Babel plugin gains an experimental TSRX syntax frontend for new control flow.
+- Diagnostic names are exposed for renderer-owned effects to aid development.
+
+## Our Commentary
+
+SolidJS 2.0.0-rc.6 is here, and it's packed with some serious under-the-hood work. I'm particularly intrigued by the new TSRX syntax frontend in the compiler and Babel plugin. It feels like Solid is really pushing the boundaries of what a compiler can do for DX. The signal attribution and async waterfall detection are also huge for debugging complex reactive graphs. This is the kind of deep engineering that makes Solid so compelling.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Felement%402.0.0-rc.6]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/e2e8965eaf698759d5461f206358712f63465f660fe323abfdb34ca615aa3d1a/solidjs/solid/releases/tag/%40solidjs/element%402.0.0-rc.6" length="0" type="image/6"/>
+        </item>
+        <item>
+            <title><![CDATA[SolidJS 2.0.0-rc.6: Compiler, Signals, and Hydration Enhancements]]></title>
+            <link>https://digestweb.dev/articles/2026-09-02/solidjs-2-0-0-rc6-compiler-signals-hydration-7</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-02/solidjs-2-0-0-rc6-compiler-signals-hydration-7</guid>
+            <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[SolidJS releases its sixth release candidate for version 2.0.0, bringing advancements in compiler capabilities, signal attribution, and hydration reliability.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- SolidJS 2.0.0-rc.6 introduces a typed semantic IR stage and TSRX typecheck projection in the compiler.
+- New dev hooks for signal attribution and async waterfall detection improve debugging.
+- Hydration logic is enhanced to handle eager JSX evaluation and prevent overwriting user input.
+- Improved error handling for server function calls and unrecognized client transport responses.
+- Consistent handling of primitive class values across static, dynamic, and array forms.
+- Optimistic store truth-flights now own their transaction for better consistency.
+- The Babel plugin gains an experimental TSRX syntax frontend for new control flow.
+- Diagnostic names are exposed for renderer-owned effects to aid development.
+
+## Our Commentary
+
+SolidJS 2.0.0-rc.6 is here, and it's packed with some serious under-the-hood work. I'm particularly intrigued by the new TSRX syntax frontend in the compiler and Babel plugin. It feels like Solid is really pushing the boundaries of what a compiler can do for DX. The signal attribution and async waterfall detection are also huge for debugging complex reactive graphs. This is the kind of deep engineering that makes Solid so compelling.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fdiagnostics%402.0.0-rc.6]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/af9411ee563dfb11d549232e004191cdf24967f81037092be63b31ff8583c8cd/solidjs/solid/releases/tag/%40solidjs/diagnostics%402.0.0-rc.6" length="0" type="image/6"/>
+        </item>
+        <item>
+            <title><![CDATA[SolidJS 2.0.0-rc.6: Compiler, Signals, and Hydration Enhancements]]></title>
+            <link>https://digestweb.dev/articles/2026-09-02/solidjs-2-0-0-rc6-compiler-signals-hydration-8</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-02/solidjs-2-0-0-rc6-compiler-signals-hydration-8</guid>
+            <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[SolidJS releases its sixth release candidate for version 2.0.0, bringing advancements in compiler capabilities, signal attribution, and hydration reliability.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- SolidJS 2.0.0-rc.6 introduces a typed semantic IR stage and TSRX typecheck projection in the compiler.
+- New dev hooks for signal attribution and async waterfall detection improve debugging.
+- Hydration logic is enhanced to handle eager JSX evaluation and prevent overwriting user input.
+- Improved error handling for server function calls and unrecognized client transport responses.
+- Consistent handling of primitive class values across static, dynamic, and array forms.
+- Optimistic store truth-flights now own their transaction for better consistency.
+- The Babel plugin gains an experimental TSRX syntax frontend for new control flow.
+- Diagnostic names are exposed for renderer-owned effects to aid development.
+
+## Our Commentary
+
+SolidJS 2.0.0-rc.6 is here, and it's packed with some serious under-the-hood work. I'm particularly intrigued by the new TSRX syntax frontend in the compiler and Babel plugin. It feels like Solid is really pushing the boundaries of what a compiler can do for DX. The signal attribution and async waterfall detection are also huge for debugging complex reactive graphs. This is the kind of deep engineering that makes Solid so compelling.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fcompiler%402.0.0-rc.6]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/0ce18b758582c7cfcf86ebc3f6d65daa910af772aac425d332a5793bccb24751/solidjs/solid/releases/tag/%40solidjs/compiler%402.0.0-rc.6" length="0" type="image/6"/>
+        </item>
+        <item>
+            <title><![CDATA[SolidJS 2.0.0-rc.6: Compiler, Signals, and Hydration Enhancements]]></title>
+            <link>https://digestweb.dev/articles/2026-09-02/solidjs-2-0-0-rc6-compiler-signals-hydration-9</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-02/solidjs-2-0-0-rc6-compiler-signals-hydration-9</guid>
+            <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[SolidJS releases its sixth release candidate for version 2.0.0, bringing advancements in compiler capabilities, signal attribution, and hydration reliability.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- SolidJS 2.0.0-rc.6 introduces a typed semantic IR stage and TSRX typecheck projection in the compiler.
+- New dev hooks for signal attribution and async waterfall detection improve debugging.
+- Hydration logic is enhanced to handle eager JSX evaluation and prevent overwriting user input.
+- Improved error handling for server function calls and unrecognized client transport responses.
+- Consistent handling of primitive class values across static, dynamic, and array forms.
+- Optimistic store truth-flights now own their transaction for better consistency.
+- The Babel plugin gains an experimental TSRX syntax frontend for new control flow.
+- Diagnostic names are exposed for renderer-owned effects to aid development.
+
+## Our Commentary
+
+SolidJS 2.0.0-rc.6 is here, and it's packed with some serious under-the-hood work. I'm particularly intrigued by the new TSRX syntax frontend in the compiler and Babel plugin. It feels like Solid is really pushing the boundaries of what a compiler can do for DX. The signal attribution and async waterfall detection are also huge for debugging complex reactive graphs. This is the kind of deep engineering that makes Solid so compelling.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fbabel-plugin%402.0.0-rc.6]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/31efa48a0bafeb0aa44c958132f89d862b5a1c708a27b87f010b3fb213236d4e/solidjs/solid/releases/tag/%40solidjs/babel-plugin%402.0.0-rc.6" length="0" type="image/6"/>
+        </item>
+        <item>
+            <title><![CDATA[SolidJS 2.0.0-rc.6: Compiler, Signals, and Hydration Enhancements]]></title>
+            <link>https://digestweb.dev/articles/2026-09-02/solidjs-2-0-0-rc6-compiler-signals-hydration</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-02/solidjs-2-0-0-rc6-compiler-signals-hydration</guid>
+            <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[SolidJS releases its sixth release candidate for version 2.0.0, bringing advancements in compiler capabilities, signal attribution, and hydration reliability.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- SolidJS 2.0.0-rc.6 introduces a typed semantic IR stage and TSRX typecheck projection in the compiler.
+- New dev hooks for signal attribution and async waterfall detection improve debugging.
+- Hydration logic is enhanced to handle eager JSX evaluation and prevent overwriting user input.
+- Improved error handling for server function calls and unrecognized client transport responses.
+- Consistent handling of primitive class values across static, dynamic, and array forms.
+- Optimistic store truth-flights now own their transaction for better consistency.
+- The Babel plugin gains an experimental TSRX syntax frontend for new control flow.
+- Diagnostic names are exposed for renderer-owned effects to aid development.
+
+## Our Commentary
+
+SolidJS 2.0.0-rc.6 is here, and it's packed with some serious under-the-hood work. I'm particularly intrigued by the new TSRX syntax frontend in the compiler and Babel plugin. It feels like Solid is really pushing the boundaries of what a compiler can do for DX. The signal attribution and async waterfall detection are also huge for debugging complex reactive graphs. This is the kind of deep engineering that makes Solid so compelling.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fweb%402.0.0-rc.6]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/092db10281b554ddfeb99177b5a11993509199ff5c94ce33853c5736fb459374/solidjs/solid/releases/tag/%40solidjs/web%402.0.0-rc.6" length="0" type="image/6"/>
+        </item>
+        <item>
+            <title><![CDATA[Starlight 0.42: Less JavaScript, More JavaScript]]></title>
+            <link>https://digestweb.dev/articles/2026-09-02/starlight-0-42-less-more-javascript</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-02/starlight-0-42-less-more-javascript</guid>
+            <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Astro's Starlight documentation framework releases version 0.42, promising an intriguing balance of reduced and enhanced JavaScript features.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Starlight, Astro's documentation framework, has released version 0.42.
+- The release focuses on a dual approach to JavaScript usage.
+- It aims to optimize JavaScript where possible while adding new JS-powered features.
+
+## Our Commentary
+
+"Less JavaScript, and more JavaScript, all in one release." That's a fun tagline for Starlight 0.42. It makes me wonder what kind of clever optimizations and new interactive elements they've managed to squeeze in. Astro continues to impress with its focus on developer experience and performance.
+
+Original Link: https://astro.build/blog/starlight-042/]]></content:encoded>
+            <enclosure url="https://astro.build/_astro/og-starlight-042.Czw4Xmrh.webp" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[Vite 8.3.0-beta.0: Rolldown Integration & New Hooks]]></title>
+            <link>https://digestweb.dev/articles/2026-09-02/vite-8-3-0-beta-0-rolldown-hooks</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-02/vite-8-3-0-beta-0-rolldown-hooks</guid>
+            <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Vite releases its 8.3.0 beta, featuring new Rolldown watch options, server lifecycle hooks, top-level tsconfig support, and CSS style tag minification.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Vite 8.3.0-beta.0 introduces Rolldown watch options in `server.watch`.
+- New `closeServer` and `closePreviewServer` hooks are now available.
+- A top-level `tsconfig` option simplifies configuration.
+- CSS style tags are now minified for improved performance.
+- Support for subpath imports in dynamic import statements is added.
+- Assets in JavaScript now use `import.meta.ROLLDOWN_FILE_URL_*`.
+- Warnings are added for unsupported hooks in plugins.
+
+## Our Commentary
+
+Vite 8.3.0-beta.0 is looking solid. The Rolldown integration continues to deepen, which is exciting for performance. I'm also a fan of the new `closeServer` and `closePreviewServer` hooks; these kinds of lifecycle events are always welcome for more robust tooling. It's good to see Vite keep pushing forward.
+
+Original Link: https://github.com/vitejs/vite/releases/tag/v8.3.0-beta.0]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/eca1495defbdcb08b4eceae237736dab1e62e5e0679ce7e163d5cac3f77a5eb5/vitejs/vite/releases/tag/v8.3.0-beta.0" length="0" type="image/0"/>
+        </item>
         <item>
             <title><![CDATA[BenchMIRT: What Do LLM Benchmarks Really Measure?]]></title>
             <link>https://digestweb.dev/articles/2026-09-01/benchmirt-llm-benchmarks-measurement</link>
@@ -54,6 +610,28 @@ Connecting LLMs to sensitive data like health records is a huge step, but also a
 
 Original Link: https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources]]></content:encoded>
             <enclosure url="https://picsum.photos/id/709/800/450" length="0" type="image//id/709/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Claude Fable 5.1: Pelican Benchmarks & Reasoning Levels]]></title>
+            <link>https://digestweb.dev/articles/2026-09-01/claude-fable-5-1-pelican-benchmarks-reasoning</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-01/claude-fable-5-1-pelican-benchmarks-reasoning</guid>
+            <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison tests the new Claude Fable 5.1 model with his "pelican benchmark" across various reasoning levels, offering insights into its performance and capabilities.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Anthropic released Claude Fable 5.1, claiming new standards for coding and problem-solving.
+- Simon Willison tested Fable 5.1 using his "pelican benchmark" at different reasoning levels.
+- The model showed improved scores on the Terminal-Bench-Science 0.1 benchmark.
+- Simon observed varying behaviors and token counts across reasoning levels for the pelican prompt.
+- The post includes the generated pelican SVGs and reasoning transcripts for analysis.
+
+## Our Commentary
+
+Claude Fable 5.1 day! Simon's "pelican benchmark" is always a fun way to get a feel for these new models. It's interesting to see how the different reasoning levels affect the output and token counts. The scientific benchmark scores are impressive, but I'm more drawn to the quirky, real-world tests. It's a good reminder that these models still have their quirks, even with all the advancements.
+
+Original Link: https://simonwillison.net/2026/Sep/1/claude-fable-5-1/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://static.simonwillison.net/static/2026/fable-5.1-max.webp" length="0" type="image/webp"/>
         </item>
         <item>
             <title><![CDATA[Cypress 16 Boosts Test Speed with HTTP/2 Support]]></title>
