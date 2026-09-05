@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-09-05T05:17:20.349Z</updated>
+    <updated>2026-09-05T11:10:02.583Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -80,6 +80,31 @@ Original Link: https://bun.com/blog/bun-v1.4.1]]></content>
 Multi-model orchestration for code quality in Copilot? This is exactly where we expected AI coding assistants to go. The idea of reducing costs while improving quality is the holy grail. I'm curious about the practical implications for developers. Will it make code reviews obsolete? Or just shift the focus? We're seeing AI move beyond simple suggestions to more complex, orchestrated tasks. It's a bit unsettling how quickly these systems are evolving.
 
 Original Link: https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GPT-6 Astra: A Deep Dive into Pelican-Generating Prowess]]></title>
+        <id>https://digestweb.dev/articles/2026-09-04/gpt-6-astra-pelican-comparison-grid</id>
+        <link href="https://digestweb.dev/articles/2026-09-04/gpt-6-astra-pelican-comparison-grid"/>
+        <link rel="enclosure" href="https://static.simonwillison.net/static/2026/astra-social-2.jpg" type="image/jpg"/>
+        <updated>2026-09-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison puts GPT-6 Astra to the test, comparing its image generation quality and cost-efficiency against previous models.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison evaluated GPT-6 Astra's image generation capabilities.
+- Astra was compared against GPT-5.6 Sol, Terra, and Luna using pelican-on-bicycle prompts.
+- GPT-6 Astra produced significantly better images across all reasoning levels.
+- Even Astra's "low" reasoning level outperformed the best GPT-5.6 Sol results.
+- Astra appears more cost-effective due to lower token usage, despite higher per-token pricing.
+- Input token counts suggest a potential closer relationship between Astra and Luna models.
+
+## Our Commentary
+
+I'm genuinely impressed by the leap in quality with GPT-6 Astra. The idea that 'low' reasoning on Astra beats 'max' on Sol is wild. It makes me wonder about the underlying architectural changes. And the token count similarity between Astra and Luna? That's a juicy tidbit. We're seeing rapid, tangible improvements here, and it's both exciting and a little dizzying to keep up.
+
+Original Link: https://simonwillison.net/2026/Sep/4/astra-pelicans/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Next.js Team Uses AI Agent to Clear 1,500 GitHub Issues]]></title>

@@ -41,6 +41,18 @@
             "date_modified": "2026-09-04T00:00:00.000Z"
         },
         {
+            "id": "https://digestweb.dev/articles/2026-09-04/gpt-6-astra-pelican-comparison-grid",
+            "content_html": "## Summary & Key Takeaways\n\n- Simon Willison evaluated GPT-6 Astra's image generation capabilities.\n- Astra was compared against GPT-5.6 Sol, Terra, and Luna using pelican-on-bicycle prompts.\n- GPT-6 Astra produced significantly better images across all reasoning levels.\n- Even Astra's \"low\" reasoning level outperformed the best GPT-5.6 Sol results.\n- Astra appears more cost-effective due to lower token usage, despite higher per-token pricing.\n- Input token counts suggest a potential closer relationship between Astra and Luna models.\n\n## Our Commentary\n\nI'm genuinely impressed by the leap in quality with GPT-6 Astra. The idea that 'low' reasoning on Astra beats 'max' on Sol is wild. It makes me wonder about the underlying architectural changes. And the token count similarity between Astra and Luna? That's a juicy tidbit. We're seeing rapid, tangible improvements here, and it's both exciting and a little dizzying to keep up.\n\nOriginal Link: https://simonwillison.net/2026/Sep/4/astra-pelicans/",
+            "url": "https://digestweb.dev/articles/2026-09-04/gpt-6-astra-pelican-comparison-grid",
+            "title": "GPT-6 Astra: A Deep Dive into Pelican-Generating Prowess",
+            "summary": "Simon Willison puts GPT-6 Astra to the test, comparing its image generation quality and cost-efficiency against previous models.",
+            "image": "https://static.simonwillison.net/static/2026/astra-social-2.jpg",
+            "date_modified": "2026-09-04T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-09-04/nextjs-ai-agent-closes-1500-github-issues",
             "content_html": "## Summary & Key Takeaways\n\n• The Next.js team deployed an AI agent to manage their extensive GitHub issue backlog.\n• The agent was tasked with researching old reports and assisting in issue resolution.\n• This initiative led to the closure of 1,500 GitHub issues within a single month.\n• The approach demonstrates practical AI application in developer workflow optimization.\n\n## Our Commentary\n\nThis is a fascinating use case for AI. We've all seen those massive issue backlogs. The idea of an agent just churning through them, doing the grunt work of research, feels like a genuine productivity leap. I wonder about the false positive rate, though. How many issues were \"closed\" but not truly resolved? Still, it's a glimpse into a future where AI handles more of the tedious dev ops.\n\nOriginal Link: https://nextjs.org/blog/how-we-closed-1500-github-issues",
             "url": "https://digestweb.dev/articles/2026-09-04/nextjs-ai-agent-closes-1500-github-issues",
