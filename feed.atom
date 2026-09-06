@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-09-05T11:10:02.583Z</updated>
+    <updated>2026-09-06T05:31:54.249Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,50 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Blender & AI Agents: Generating 3D Scenes on macOS with ChatGPT Codex]]></title>
+        <id>https://digestweb.dev/articles/2026-09-05/blender-ai-agents-macos-chatgpt-codex</id>
+        <link href="https://digestweb.dev/articles/2026-09-05/blender-ai-agents-macos-chatgpt-codex"/>
+        <link rel="enclosure" href="https://static.simonwillison.net/static/2026/astra-blender-pelican.jpg" type="image/jpg"/>
+        <updated>2026-09-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison explores using ChatGPT Codex to control Blender on macOS, generating 3D scenes with simple prompts. This showcases AI agents interacting with local applications.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Learn how to integrate ChatGPT Codex with Blender on macOS.
+- Discover the ease of using AI agents to control local applications.
+- Generate complex 3D scenes with simple natural language prompts.
+- Understand the potential of AI agents interacting via Python APIs.
+- See a practical example of a pelican riding a bicycle rendered by AI.
+
+## Our Commentary
+
+This is exactly the kind of practical AI application I love to see. The idea of agents just... running Blender for you? It's wild. I'm picturing a future where I just tell my computer to 'make me a cool animation' and it just does it. There's something unsettling about agents churning away at 3am while nobody's watching, but also, the sheer convenience is undeniable. We're definitely moving towards a world where local APIs become prime targets for AI orchestration.
+
+Original Link: https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Infinite Loom: Unravelling Images into Threads with Three.js]]></title>
+        <id>https://digestweb.dev/articles/2026-09-05/infinite-loom-unravelling-images-threejs</id>
+        <link href="https://digestweb.dev/articles/2026-09-05/infinite-loom-unravelling-images-threejs"/>
+        <link rel="enclosure" href="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/09/unvowen_cover.png?x57826" type="image/png"/>
+        <updated>2026-09-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Explore an experimental Three.js demo that transforms images into flowing ribbons, weaving and unraveling them across the screen. Learn advanced web graphics techniques.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Discover how to create dynamic image transformations using Three.js.
+- Learn to render images as flowing ribbons and threads.
+- Explore techniques for weaving and unraveling visual elements.
+- Understand the experimental approach to web graphics development.
+
+## Our Commentary
+
+Codrops always delivers on the visual front. This Three.js experiment is just stunning. I'm genuinely curious about the performance implications of such intricate animations. We've seen a lot of generative art, but this 'unravelling' concept feels fresh. It's a good reminder of what's possible when you push the boundaries of browser rendering.
+
+Original Link: https://tympanus.net/codrops/2026/09/05/building-an-infinite-loom-unravelling-images-into-threads-with-three-js/]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Anthropic Research: Formalizing Fermat's Last Theorem]]></title>
         <id>https://digestweb.dev/articles/2026-09-04/anthropic-research-fermat-last-theorem</id>

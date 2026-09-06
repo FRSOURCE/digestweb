@@ -11,6 +11,27 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-09-05/blender-ai-agents-macos-chatgpt-codex",
+            "content_html": "## Summary & Key Takeaways\n\n- Learn how to integrate ChatGPT Codex with Blender on macOS.\n- Discover the ease of using AI agents to control local applications.\n- Generate complex 3D scenes with simple natural language prompts.\n- Understand the potential of AI agents interacting via Python APIs.\n- See a practical example of a pelican riding a bicycle rendered by AI.\n\n## Our Commentary\n\nThis is exactly the kind of practical AI application I love to see. The idea of agents just... running Blender for you? It's wild. I'm picturing a future where I just tell my computer to 'make me a cool animation' and it just does it. There's something unsettling about agents churning away at 3am while nobody's watching, but also, the sheer convenience is undeniable. We're definitely moving towards a world where local APIs become prime targets for AI orchestration.\n\nOriginal Link: https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
+            "url": "https://digestweb.dev/articles/2026-09-05/blender-ai-agents-macos-chatgpt-codex",
+            "title": "Blender & AI Agents: Generating 3D Scenes on macOS with ChatGPT Codex",
+            "summary": "Simon Willison explores using ChatGPT Codex to control Blender on macOS, generating 3D scenes with simple prompts. This showcases AI agents interacting with local applications.",
+            "image": "https://static.simonwillison.net/static/2026/astra-blender-pelican.jpg",
+            "date_modified": "2026-09-05T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-05/infinite-loom-unravelling-images-threejs",
+            "content_html": "## Summary & Key Takeaways\n\n- Discover how to create dynamic image transformations using Three.js.\n- Learn to render images as flowing ribbons and threads.\n- Explore techniques for weaving and unraveling visual elements.\n- Understand the experimental approach to web graphics development.\n\n## Our Commentary\n\nCodrops always delivers on the visual front. This Three.js experiment is just stunning. I'm genuinely curious about the performance implications of such intricate animations. We've seen a lot of generative art, but this 'unravelling' concept feels fresh. It's a good reminder of what's possible when you push the boundaries of browser rendering.\n\nOriginal Link: https://tympanus.net/codrops/2026/09/05/building-an-infinite-loom-unravelling-images-into-threads-with-three-js/",
+            "url": "https://digestweb.dev/articles/2026-09-05/infinite-loom-unravelling-images-threejs",
+            "title": "Infinite Loom: Unravelling Images into Threads with Three.js",
+            "summary": "Explore an experimental Three.js demo that transforms images into flowing ribbons, weaving and unraveling them across the screen. Learn advanced web graphics techniques.",
+            "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/09/unvowen_cover.png?x57826",
+            "date_modified": "2026-09-05T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-09-04/anthropic-research-fermat-last-theorem",
             "content_html": "## Summary & Key Takeaways\n\n• Anthropic has published new research focusing on the formalization of Fermat's Last Theorem.\n• The paper explores advanced mathematical and logical frameworks.\n• This work contributes to the field of formal verification and automated reasoning.\n\n## Our Commentary\n\nAnthropic is doing some deep, foundational research here. Formalizing complex mathematical theorems with AI is a fascinating area, even if it's a bit removed from our daily web dev grind. It makes me wonder about the long-term implications for AI-assisted proofs and scientific discovery. It's a reminder that AI isn't just about chatbots and code generation.\n\nOriginal Link: https://www.anthropic.com/research/formalizing-fermats-last-theorem",
             "url": "https://digestweb.dev/articles/2026-09-04/anthropic-research-fermat-last-theorem",
