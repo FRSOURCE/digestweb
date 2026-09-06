@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Sun, 06 Sep 2026 05:31:54 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 06 Sep 2026 11:33:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -56,6 +56,29 @@ Codrops always delivers on the visual front. This Three.js experiment is just st
 
 Original Link: https://tympanus.net/codrops/2026/09/05/building-an-infinite-loom-unravelling-images-into-threads-with-three-js/]]></content:encoded>
             <enclosure url="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/09/unvowen_cover.png?x57826" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Unveils GPT-6 Astra: Next-Gen AI Excels at 3D Model Creation]]></title>
+            <link>https://digestweb.dev/articles/2026-09-05/openai-unveils-gpt-6-astra-next-gen-ai-3d-models</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-05/openai-unveils-gpt-6-astra-next-gen-ai-3d-models</guid>
+            <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI introduces GPT-6 Astra, a powerful new AI model demonstrating enhanced prompt understanding and sophisticated output generation, particularly in 3D modeling. Developers can now leverage its advanced capabilities.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+GPT-6 Astra is the latest iteration of OpenAI's foundational AI model.
+It features improved attention to detail and better understanding of user prompts.
+The model can generate more sophisticated and complex outputs.
+Astra shows particular excellence in creating detailed 3D models.
+Examples include renderings of gardens, shipyards, animals, and cityscapes.
+The release promises new capabilities for developers leveraging AI for creative tasks.
+
+## Our Commentary
+
+GPT-6 Astra is here, and honestly, I'm a little overwhelmed. The speed of these releases is just wild. We're talking about 3D model generation now, not just text or images. Gardens, shipyards, even Dyson spheres? That's a leap. I keep thinking about the implications for game development, architecture, even just casual content creation. The idea of an AI that "really does believe in putting a red neckerchief on a pelican riding a bicycle" is both hilarious and slightly terrifying. What kind of creative chaos will this unleash? I genuinely don't know how to process it all.
+
+Original Link: https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/662/800/450" length="0" type="image//id/662/800/450"/>
         </item>
         <item>
             <title><![CDATA[Anthropic Research: Formalizing Fermat's Last Theorem]]></title>
