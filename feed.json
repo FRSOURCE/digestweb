@@ -11,6 +11,69 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-09-06/building-real-time-3d-face-mask-mediapipe-threlte-threejs",
+            "content_html": "## Summary & Key Takeaways\n\n• Explores creating a real-time 3D face mask application.\n• Utilizes MediaPipe for accurate face landmark detection.\n• Integrates Google's canonical face model for 3D mesh generation.\n• Leverages Three.js for rendering and animation of the 3D mask.\n• Demonstrates combining these tools for interactive web experiences.\n• Provides a step-by-step guide for implementation.\n\n## Our Commentary\n\nThis is a really cool application of web tech. I'm always impressed by what people build with Three.js. Combining it with MediaPipe for real-time interaction feels like a glimpse into the future of web-based AR. We've seen a lot of static 3D, but the real-time aspect here is what makes it pop. It's a solid example of pushing browser capabilities.\n\nOriginal Link: https://tympanus.net/codrops/2026/09/06/building-a-real-time-3d-face-mask-with-mediapipe-threlte-and-three-js/",
+            "url": "https://digestweb.dev/articles/2026-09-06/building-real-time-3d-face-mask-mediapipe-threlte-threejs",
+            "title": "Building a Real-Time 3D Face Mask with MediaPipe, Threlte, and Three.js",
+            "summary": "Learn to create interactive 3D face masks using MediaPipe's face landmarks, Google's canonical face model, and the power of Three.js. This tutorial guides you through integrating these technologies for real-time web applications.",
+            "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/09/3dfacemask.png?x57826",
+            "date_modified": "2026-09-06T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-06/dns-primary-vector-for-spreading-scams",
+            "content_html": "## Summary & Key Takeaways\n\n• Terence Eden argues that DNS is heavily exploited for scams.\n• Simon Willison amplifies this concern, citing an Interisle report.\n• The report indicates 8.5 million new gTLDs were blocklisted in 2025.\n• Estimates suggest 10-20% of new gTLD registrations are scams.\n• This represents a significant crisis in web security and trust.\n• ICANN has reportedly been aware of this problem for years.\n\n## Our Commentary\n\nThis article hit me hard. \"One in five newly registered domains with a gTLD are scams.\" That's not just a problem; it's a systemic failure. We rely on DNS for everything, and to think it's so easily weaponized is genuinely unsettling. It makes you question the fundamental trust layers of the internet. I'm left wondering what practical solutions exist beyond blocklists, which clearly aren't enough.\n\nOriginal Link: https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/",
+            "url": "https://digestweb.dev/articles/2026-09-06/dns-primary-vector-for-spreading-scams",
+            "title": "Is DNS Primarily a Vector for Spreading Scams?",
+            "summary": "Simon Willison shares Terence Eden's stark view that DNS has become a primary vector for scams, citing an Interisle report revealing that 10-20% of new gTLD registrations are abusive. This piece highlights a critical web security issue.",
+            "image": "https://picsum.photos/id/47/800/450",
+            "date_modified": "2026-09-06T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-06/openai-internal-coding-agents-research-acceleration",
+            "content_html": "## Summary & Key Takeaways\n\n• OpenAI is using coding agents to speed up its internal AI research.\n• The article provides early data on how these agents are being utilized.\n• It examines the impact on experiment velocity within the organization.\n• Details how agents are affecting the complexity of research tasks.\n• Offers an inside look at OpenAI's development methodologies.\n\n## Our Commentary\n\nIt's always fascinating to peek behind the curtain at OpenAI. The idea of AI agents building AI feels a bit meta, doesn't it? I wonder about the feedback loops, the potential for emergent behaviors in the research itself. We're seeing a lot of talk about agents, but this is a practical, internal application. It makes me think about the future of developer tools.\n\nOriginal Link: https://openai.com/index/research-acceleration-view-inside-openai",
+            "url": "https://digestweb.dev/articles/2026-09-06/openai-internal-coding-agents-research-acceleration",
+            "title": "OpenAI's Internal Coding Agents Accelerate AI Research",
+            "summary": "Discover how OpenAI is leveraging coding agents internally to reshape its AI research process. This article shares early data on agent usage, experiment velocity, and the impact on task complexity.",
+            "image": "https://picsum.photos/id/100/800/450",
+            "date_modified": "2026-09-06T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-06/openai-jakub-pachocki-ai-alignment-safeguards",
+            "content_html": "## Summary & Key Takeaways\n\n• Jakub Pachocki discusses the rapid advancements in AI capabilities.\n• He emphasizes the growing challenge of AI alignment.\n• The article calls for the implementation of stronger safety measures.\n• Pachocki advocates for increased international coordination on AI governance.\n• Reflects on the implications of increasingly powerful AI systems.\n\n## Our Commentary\n\nPachocki's reflections here are sobering. \"An Alien Mind\" is a title that really sticks with you. We're building things we don't fully understand, and the call for stronger safeguards and international coordination feels increasingly urgent. It's not just about what AI can _do_, but what it _thinks_ and how we ensure it aligns with human values. I find myself wondering if we're moving fast enough on the governance side.\n\nOriginal Link: https://openai.com/index/an-alien-mind",
+            "url": "https://digestweb.dev/articles/2026-09-06/openai-jakub-pachocki-ai-alignment-safeguards",
+            "title": "OpenAI's Jakub Pachocki on AI Alignment and Safeguards",
+            "summary": "Jakub Pachocki of OpenAI shares his reflections on the increasing capabilities of AI and the critical challenge of alignment. He advocates for stronger safeguards and international cooperation to manage advanced AI.",
+            "image": "https://picsum.photos/id/695/800/450",
+            "date_modified": "2026-09-06T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-06/perils-rewriting-systems-from-scratch-technical-debt",
+            "content_html": "## Summary & Key Takeaways\n\n• Simon Willison discusses the common failure of \"rewrite from scratch\" projects.\n• He argues that the old system often remains a moving target, requiring ongoing changes.\n• Developers on the old system lose incentive to maintain quality.\n• New system teams often underestimate the complexity of the existing system.\n• Projects frequently launch with only a subset of the old system's features.\n• This often results in two partially functional systems in production.\n• The new system risks abandonment if patience runs out.\n\n## Our Commentary\n\nOh, this one hits home. I've seen this play out so many times. The allure of a greenfield rewrite is powerful, but the reality is almost always messier. \"You now have TWO systems in production\" – that line is brutal because it's so true. It makes me think about the psychological aspect of technical debt and how hard it is to escape. Maybe incremental refactoring, no matter how slow, is the only sane path.\n\nOriginal Link: https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/",
+            "url": "https://digestweb.dev/articles/2026-09-06/perils-rewriting-systems-from-scratch-technical-debt",
+            "title": "The Perils of Rewriting Systems from Scratch: A Developer's Lament",
+            "summary": "Simon Willison shares his candid thoughts on why rewriting software systems from scratch rarely works as intended. He argues that it often results in two incomplete systems and persistent technical debt, rather than a clean slate.",
+            "image": "https://picsum.photos/id/308/800/450",
+            "date_modified": "2026-09-06T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-06/software-infinite-capacity-for-degradation",
+            "content_html": "## Summary & Key Takeaways\n\n• Zach Kehs states that physical buildings have limits to growth before collapse.\n• He contrasts this with software, which lacks such inherent constraints.\n• Software code can always be made worse, indefinitely.\n• This degradation can manifest as new layers of indirection.\n• It can also lead to a reduction in performance.\n• The quote offers a stark perspective on technical debt.\n\n## Our Commentary\n\nThis quote is a gut punch, isn't it? \"The code can always get worse.\" It's a dark truth about our craft. We often talk about technical debt as something to be paid down, but this suggests it's an ever-present, potentially infinite force. It makes me feel a bit helpless, honestly. How do you fight something that has no natural limit?\n\nOriginal Link: https://simonwillison.net/2026/Sep/6/zach-kehs/",
+            "url": "https://digestweb.dev/articles/2026-09-06/software-infinite-capacity-for-degradation",
+            "title": "Software's Infinite Capacity for Degradation",
+            "summary": "Simon Willison shares a powerful quote from Zach Kehs, highlighting that unlike physical structures, software has no inherent limit to how bad its code can become, always allowing for more indirection or performance reduction.",
+            "image": "https://picsum.photos/id/533/800/450",
+            "date_modified": "2026-09-06T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-09-05/blender-ai-agents-macos-chatgpt-codex",
             "content_html": "## Summary & Key Takeaways\n\n- Learn how to integrate ChatGPT Codex with Blender on macOS.\n- Discover the ease of using AI agents to control local applications.\n- Generate complex 3D scenes with simple natural language prompts.\n- Understand the potential of AI agents interacting via Python APIs.\n- See a practical example of a pelican riding a bicycle rendered by AI.\n\n## Our Commentary\n\nThis is exactly the kind of practical AI application I love to see. The idea of agents just... running Blender for you? It's wild. I'm picturing a future where I just tell my computer to 'make me a cool animation' and it just does it. There's something unsettling about agents churning away at 3am while nobody's watching, but also, the sheer convenience is undeniable. We're definitely moving towards a world where local APIs become prime targets for AI orchestration.\n\nOriginal Link: https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
             "url": "https://digestweb.dev/articles/2026-09-05/blender-ai-agents-macos-chatgpt-codex",

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-09-06T11:33:07.499Z</updated>
+    <updated>2026-09-07T05:42:55.581Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,146 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Building a Real-Time 3D Face Mask with MediaPipe, Threlte, and Three.js]]></title>
+        <id>https://digestweb.dev/articles/2026-09-06/building-real-time-3d-face-mask-mediapipe-threlte-threejs</id>
+        <link href="https://digestweb.dev/articles/2026-09-06/building-real-time-3d-face-mask-mediapipe-threlte-threejs"/>
+        <link rel="enclosure" href="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/09/3dfacemask.png?x57826" type="image/png"/>
+        <updated>2026-09-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn to create interactive 3D face masks using MediaPipe's face landmarks, Google's canonical face model, and the power of Three.js. This tutorial guides you through integrating these technologies for real-time web applications.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+• Explores creating a real-time 3D face mask application.
+• Utilizes MediaPipe for accurate face landmark detection.
+• Integrates Google's canonical face model for 3D mesh generation.
+• Leverages Three.js for rendering and animation of the 3D mask.
+• Demonstrates combining these tools for interactive web experiences.
+• Provides a step-by-step guide for implementation.
+
+## Our Commentary
+
+This is a really cool application of web tech. I'm always impressed by what people build with Three.js. Combining it with MediaPipe for real-time interaction feels like a glimpse into the future of web-based AR. We've seen a lot of static 3D, but the real-time aspect here is what makes it pop. It's a solid example of pushing browser capabilities.
+
+Original Link: https://tympanus.net/codrops/2026/09/06/building-a-real-time-3d-face-mask-with-mediapipe-threlte-and-three-js/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is DNS Primarily a Vector for Spreading Scams?]]></title>
+        <id>https://digestweb.dev/articles/2026-09-06/dns-primary-vector-for-spreading-scams</id>
+        <link href="https://digestweb.dev/articles/2026-09-06/dns-primary-vector-for-spreading-scams"/>
+        <link rel="enclosure" href="https://picsum.photos/id/47/800/450" type="image//id/47/800/450"/>
+        <updated>2026-09-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison shares Terence Eden's stark view that DNS has become a primary vector for scams, citing an Interisle report revealing that 10-20% of new gTLD registrations are abusive. This piece highlights a critical web security issue.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+• Terence Eden argues that DNS is heavily exploited for scams.
+• Simon Willison amplifies this concern, citing an Interisle report.
+• The report indicates 8.5 million new gTLDs were blocklisted in 2025.
+• Estimates suggest 10-20% of new gTLD registrations are scams.
+• This represents a significant crisis in web security and trust.
+• ICANN has reportedly been aware of this problem for years.
+
+## Our Commentary
+
+This article hit me hard. "One in five newly registered domains with a gTLD are scams." That's not just a problem; it's a systemic failure. We rely on DNS for everything, and to think it's so easily weaponized is genuinely unsettling. It makes you question the fundamental trust layers of the internet. I'm left wondering what practical solutions exist beyond blocklists, which clearly aren't enough.
+
+Original Link: https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI's Internal Coding Agents Accelerate AI Research]]></title>
+        <id>https://digestweb.dev/articles/2026-09-06/openai-internal-coding-agents-research-acceleration</id>
+        <link href="https://digestweb.dev/articles/2026-09-06/openai-internal-coding-agents-research-acceleration"/>
+        <link rel="enclosure" href="https://picsum.photos/id/100/800/450" type="image//id/100/800/450"/>
+        <updated>2026-09-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Discover how OpenAI is leveraging coding agents internally to reshape its AI research process. This article shares early data on agent usage, experiment velocity, and the impact on task complexity.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+• OpenAI is using coding agents to speed up its internal AI research.
+• The article provides early data on how these agents are being utilized.
+• It examines the impact on experiment velocity within the organization.
+• Details how agents are affecting the complexity of research tasks.
+• Offers an inside look at OpenAI's development methodologies.
+
+## Our Commentary
+
+It's always fascinating to peek behind the curtain at OpenAI. The idea of AI agents building AI feels a bit meta, doesn't it? I wonder about the feedback loops, the potential for emergent behaviors in the research itself. We're seeing a lot of talk about agents, but this is a practical, internal application. It makes me think about the future of developer tools.
+
+Original Link: https://openai.com/index/research-acceleration-view-inside-openai]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI's Jakub Pachocki on AI Alignment and Safeguards]]></title>
+        <id>https://digestweb.dev/articles/2026-09-06/openai-jakub-pachocki-ai-alignment-safeguards</id>
+        <link href="https://digestweb.dev/articles/2026-09-06/openai-jakub-pachocki-ai-alignment-safeguards"/>
+        <link rel="enclosure" href="https://picsum.photos/id/695/800/450" type="image//id/695/800/450"/>
+        <updated>2026-09-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Jakub Pachocki of OpenAI shares his reflections on the increasing capabilities of AI and the critical challenge of alignment. He advocates for stronger safeguards and international cooperation to manage advanced AI.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+• Jakub Pachocki discusses the rapid advancements in AI capabilities.
+• He emphasizes the growing challenge of AI alignment.
+• The article calls for the implementation of stronger safety measures.
+• Pachocki advocates for increased international coordination on AI governance.
+• Reflects on the implications of increasingly powerful AI systems.
+
+## Our Commentary
+
+Pachocki's reflections here are sobering. "An Alien Mind" is a title that really sticks with you. We're building things we don't fully understand, and the call for stronger safeguards and international coordination feels increasingly urgent. It's not just about what AI can _do_, but what it _thinks_ and how we ensure it aligns with human values. I find myself wondering if we're moving fast enough on the governance side.
+
+Original Link: https://openai.com/index/an-alien-mind]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Perils of Rewriting Systems from Scratch: A Developer's Lament]]></title>
+        <id>https://digestweb.dev/articles/2026-09-06/perils-rewriting-systems-from-scratch-technical-debt</id>
+        <link href="https://digestweb.dev/articles/2026-09-06/perils-rewriting-systems-from-scratch-technical-debt"/>
+        <link rel="enclosure" href="https://picsum.photos/id/308/800/450" type="image//id/308/800/450"/>
+        <updated>2026-09-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison shares his candid thoughts on why rewriting software systems from scratch rarely works as intended. He argues that it often results in two incomplete systems and persistent technical debt, rather than a clean slate.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+• Simon Willison discusses the common failure of "rewrite from scratch" projects.
+• He argues that the old system often remains a moving target, requiring ongoing changes.
+• Developers on the old system lose incentive to maintain quality.
+• New system teams often underestimate the complexity of the existing system.
+• Projects frequently launch with only a subset of the old system's features.
+• This often results in two partially functional systems in production.
+• The new system risks abandonment if patience runs out.
+
+## Our Commentary
+
+Oh, this one hits home. I've seen this play out so many times. The allure of a greenfield rewrite is powerful, but the reality is almost always messier. "You now have TWO systems in production" – that line is brutal because it's so true. It makes me think about the psychological aspect of technical debt and how hard it is to escape. Maybe incremental refactoring, no matter how slow, is the only sane path.
+
+Original Link: https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Software's Infinite Capacity for Degradation]]></title>
+        <id>https://digestweb.dev/articles/2026-09-06/software-infinite-capacity-for-degradation</id>
+        <link href="https://digestweb.dev/articles/2026-09-06/software-infinite-capacity-for-degradation"/>
+        <link rel="enclosure" href="https://picsum.photos/id/533/800/450" type="image//id/533/800/450"/>
+        <updated>2026-09-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison shares a powerful quote from Zach Kehs, highlighting that unlike physical structures, software has no inherent limit to how bad its code can become, always allowing for more indirection or performance reduction.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+• Zach Kehs states that physical buildings have limits to growth before collapse.
+• He contrasts this with software, which lacks such inherent constraints.
+• Software code can always be made worse, indefinitely.
+• This degradation can manifest as new layers of indirection.
+• It can also lead to a reduction in performance.
+• The quote offers a stark perspective on technical debt.
+
+## Our Commentary
+
+This quote is a gut punch, isn't it? "The code can always get worse." It's a dark truth about our craft. We often talk about technical debt as something to be paid down, but this suggests it's an ever-present, potentially infinite force. It makes me feel a bit helpless, honestly. How do you fight something that has no natural limit?
+
+Original Link: https://simonwillison.net/2026/Sep/6/zach-kehs/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Blender & AI Agents: Generating 3D Scenes on macOS with ChatGPT Codex]]></title>
         <id>https://digestweb.dev/articles/2026-09-05/blender-ai-agents-macos-chatgpt-codex</id>
