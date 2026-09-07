@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Mon, 07 Sep 2026 12:44:52 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Sep 2026 13:18:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -59,6 +59,29 @@ This article hit me hard. "One in five newly registered domains with a gTLD are 
 Original Link: https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/]]></content:encoded>
             <author>Simon Willison</author>
             <enclosure url="https://picsum.photos/id/47/800/450" length="0" type="image//id/47/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Inside OpenAI: AGI, RSI Day, and the Rise of Coding Agents]]></title>
+            <link>https://digestweb.dev/articles/2026-09-06/inside-openai-agi-rsi-day-coding-agents</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-06/inside-openai-agi-rsi-day-coding-agents</guid>
+            <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison offers a rare glimpse into OpenAI's internal workings, revealing "RSI day" for Recursive Self-Improvement and the pervasive use of coding agents.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI internally celebrates "RSI day" for Recursive Self-Improvement, hinting at new AGI.
+- Chief Scientist Jakub Pachocki's essay "An Alien Mind" also discusses RSI.
+- OpenAI's research team extensively uses coding agents for internal development.
+- Agentic engineering has seen significant acceleration within OpenAI in 2026.
+- A chart shows a sharp increase in AI spend per researcher in late July.
+- This acceleration is speculated to coincide with internal access to GPT-6 Astra.
+
+## Our Commentary
+
+Okay, 'RSI day' and 'An Alien Mind' – this is the kind of stuff that makes my brain buzz. The idea of Recursive Self-Improvement being a core internal focus at OpenAI is both thrilling and a little terrifying. We've been talking about agents for a while, but seeing them become so central to OpenAI's _own_ research process? That's a different beast entirely. I'm genuinely curious about the implications of GPT-6 Astra and what it means for the broader AI landscape. It feels like we're on the cusp of something truly wild, and this article gives us a peek behind the curtain.
+
+Original Link: https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://static.simonwillison.net/static/2026/openai-agent-usage.webp" length="0" type="image/webp"/>
         </item>
         <item>
             <title><![CDATA[OpenAI's Internal Coding Agents Accelerate AI Research]]></title>
@@ -125,6 +148,30 @@ Oh, this one hits home. I've seen this play out so many times. The allure of a g
 Original Link: https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/]]></content:encoded>
             <author>Simon Willison</author>
             <enclosure url="https://picsum.photos/id/308/800/450" length="0" type="image//id/308/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[pnpm 11.26: Workspace Protocol & Lockfile Trust Policies]]></title>
+            <link>https://digestweb.dev/articles/2026-09-06/pnpm-11-26-workspace-protocol-lockfile-trust-policies</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-06/pnpm-11-26-workspace-protocol-lockfile-trust-policies</guid>
+            <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This minor pnpm release introduces workspace dependency resolution via `workspace:` protocol and new `trust-lockfile` options for `remove` and `update`.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Catalogs now resolve workspace dependencies using the `workspace:` protocol.
+- `pnpm remove` and `pnpm update` gain new `--trust-lockfile` and `--trust-policy` options.
+- A new `pnpm change check` command validates package versions against workspace policies.
+- Fetch and tarball error logs now hide sensitive URL credentials.
+- Fixed a race condition during config dependency updates that could redirect lockfile writes.
+- `pnpm audit --fix` now correctly respects `saveExact` and `savePrefix` for overrides.
+- `pnpm audit` now reports ignored advisories separately from vulnerability totals.
+- Concurrent installs sharing a store no longer fail with `ENOENT` errors.
+
+## Our Commentary
+
+We're always happy to see continuous improvements in our build tools. The `workspace:` protocol resolution is a nice touch for monorepo users. I'm particularly interested in the new `trust-lockfile` options; managing lockfile integrity can be a headache, so any tools to streamline that are welcome. The `pnpm change check` for CI validation also feels like a solid win for team workflows. Small releases like this often contain the most impactful DX improvements.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.26.0]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/08f0cd256ec1d2fe383df1af2900efef09be6480747c8b363ba7686cfcb8a653/pnpm/pnpm/releases/tag/v11.26.0" length="0" type="image/0"/>
         </item>
         <item>
             <title><![CDATA[Software's Infinite Capacity for Degradation]]></title>

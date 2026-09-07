@@ -32,6 +32,18 @@
             }
         },
         {
+            "id": "https://digestweb.dev/articles/2026-09-06/inside-openai-agi-rsi-day-coding-agents",
+            "content_html": "## Summary & Key Takeaways\n\n- OpenAI internally celebrates \"RSI day\" for Recursive Self-Improvement, hinting at new AGI.\n- Chief Scientist Jakub Pachocki's essay \"An Alien Mind\" also discusses RSI.\n- OpenAI's research team extensively uses coding agents for internal development.\n- Agentic engineering has seen significant acceleration within OpenAI in 2026.\n- A chart shows a sharp increase in AI spend per researcher in late July.\n- This acceleration is speculated to coincide with internal access to GPT-6 Astra.\n\n## Our Commentary\n\nOkay, 'RSI day' and 'An Alien Mind' – this is the kind of stuff that makes my brain buzz. The idea of Recursive Self-Improvement being a core internal focus at OpenAI is both thrilling and a little terrifying. We've been talking about agents for a while, but seeing them become so central to OpenAI's _own_ research process? That's a different beast entirely. I'm genuinely curious about the implications of GPT-6 Astra and what it means for the broader AI landscape. It feels like we're on the cusp of something truly wild, and this article gives us a peek behind the curtain.\n\nOriginal Link: https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+            "url": "https://digestweb.dev/articles/2026-09-06/inside-openai-agi-rsi-day-coding-agents",
+            "title": "Inside OpenAI: AGI, RSI Day, and the Rise of Coding Agents",
+            "summary": "Simon Willison offers a rare glimpse into OpenAI's internal workings, revealing \"RSI day\" for Recursive Self-Improvement and the pervasive use of coding agents.",
+            "image": "https://static.simonwillison.net/static/2026/openai-agent-usage.webp",
+            "date_modified": "2026-09-06T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-09-06/openai-internal-coding-agents-research-acceleration",
             "content_html": "## Summary & Key Takeaways\n\n• OpenAI is using coding agents to speed up its internal AI research.\n• The article provides early data on how these agents are being utilized.\n• It examines the impact on experiment velocity within the organization.\n• Details how agents are affecting the complexity of research tasks.\n• Offers an inside look at OpenAI's development methodologies.\n\n## Our Commentary\n\nIt's always fascinating to peek behind the curtain at OpenAI. The idea of AI agents building AI feels a bit meta, doesn't it? I wonder about the feedback loops, the potential for emergent behaviors in the research itself. We're seeing a lot of talk about agents, but this is a practical, internal application. It makes me think about the future of developer tools.\n\nOriginal Link: https://openai.com/index/research-acceleration-view-inside-openai",
             "url": "https://digestweb.dev/articles/2026-09-06/openai-internal-coding-agents-research-acceleration",
@@ -60,6 +72,15 @@
             "author": {
                 "name": "Simon Willison"
             }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-06/pnpm-11-26-workspace-protocol-lockfile-trust-policies",
+            "content_html": "## Summary & Key Takeaways\n\n- Catalogs now resolve workspace dependencies using the `workspace:` protocol.\n- `pnpm remove` and `pnpm update` gain new `--trust-lockfile` and `--trust-policy` options.\n- A new `pnpm change check` command validates package versions against workspace policies.\n- Fetch and tarball error logs now hide sensitive URL credentials.\n- Fixed a race condition during config dependency updates that could redirect lockfile writes.\n- `pnpm audit --fix` now correctly respects `saveExact` and `savePrefix` for overrides.\n- `pnpm audit` now reports ignored advisories separately from vulnerability totals.\n- Concurrent installs sharing a store no longer fail with `ENOENT` errors.\n\n## Our Commentary\n\nWe're always happy to see continuous improvements in our build tools. The `workspace:` protocol resolution is a nice touch for monorepo users. I'm particularly interested in the new `trust-lockfile` options; managing lockfile integrity can be a headache, so any tools to streamline that are welcome. The `pnpm change check` for CI validation also feels like a solid win for team workflows. Small releases like this often contain the most impactful DX improvements.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v11.26.0",
+            "url": "https://digestweb.dev/articles/2026-09-06/pnpm-11-26-workspace-protocol-lockfile-trust-policies",
+            "title": "pnpm 11.26: Workspace Protocol & Lockfile Trust Policies",
+            "summary": "This minor pnpm release introduces workspace dependency resolution via `workspace:` protocol and new `trust-lockfile` options for `remove` and `update`.",
+            "image": "https://opengraph.githubassets.com/08f0cd256ec1d2fe383df1af2900efef09be6480747c8b363ba7686cfcb8a653/pnpm/pnpm/releases/tag/v11.26.0",
+            "date_modified": "2026-09-06T00:00:00.000Z"
         },
         {
             "id": "https://digestweb.dev/articles/2026-09-06/software-infinite-capacity-for-degradation",
