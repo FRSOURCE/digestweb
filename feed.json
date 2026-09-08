@@ -11,6 +11,72 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-09-07/animated-map-projection-transition-gpt6-d3",
+            "content_html": "## Summary & Key Takeaways\n\n- Simon Willison created an animated transition between two map projections.\n- The project shifts from the Mercator projection to the Equal Earth projection.\n- GPT-6 Astra (medium) in ChatGPT Work assisted in the development.\n- D3.js was used to implement the interactive visualization.\n- The tool was inspired by a recent UN vote on the Equal Earth map projection.\n\n## Our Commentary\n\nAnother \"vibe-coding\" example from Simon, this time with GPT-6 Astra. It's cool to see these LLMs handling complex D3 visualizations. The animation itself sounds fascinating, and it's a great way to explore geospatial concepts. We're seeing a pattern here: LLMs are becoming powerful co-pilots for specific, often visually-driven, web development tasks. It's less about writing boilerplate and more about tackling intricate logic.\n\nOriginal Link: https://simonwillison.net/2026/Sep/7/equal-earth/",
+            "url": "https://digestweb.dev/articles/2026-09-07/animated-map-projection-transition-gpt6-d3",
+            "title": "Animated Map Projection Transition: Mercator to Equal Earth with GPT-6",
+            "summary": "Simon Willison used GPT-6 Astra in ChatGPT Work to create an animated D3 transition between Mercator and Equal Earth map projections. This project explores geospatial visualization with AI assistance.",
+            "image": "https://picsum.photos/id/998/800/450",
+            "date_modified": "2026-09-07T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-07/creepy-crawlies-alarming-impact-abusive-ai-crawlers",
+            "content_html": "## Summary & Key Takeaways\n\n- The article discusses the significant resource consumption by abusive web crawlers.\n- git.kernel.org reports that scrapers use more CPU than all legitimate access combined.\n- Simon Willison expresses concern for his own project, Datasette, which serves many crawlable pages.\n- The issue highlights the \"background radiation\" of unwanted automated traffic.\n- It raises questions about the operational burden and ethical implications of AI-driven crawling.\n\n## Our Commentary\n\nThis is genuinely unsettling. The idea that AI agents are just churning away, consuming more resources than actual human or legitimate programmatic access, feels like a slow-motion denial-of-service attack. We've always dealt with bots, but the scale and potential for abuse with AI are different. I wonder how many other services are silently struggling with this. It's a stark reminder that \"free\" access isn't free for the infrastructure providers.\n\nOriginal Link: https://simonwillison.net/2026/Sep/7/creepy-crawlies/",
+            "url": "https://digestweb.dev/articles/2026-09-07/creepy-crawlies-alarming-impact-abusive-ai-crawlers",
+            "title": "\"Creepy Crawlies\": The Alarming Impact of Abusive AI Crawlers",
+            "summary": "Simon Willison highlights the severe resource drain caused by malicious crawlers, citing git.kernel.org's struggle. This raises critical questions about AI's operational footprint and ethical implications for web infrastructure.",
+            "image": "https://picsum.photos/id/236/800/450",
+            "date_modified": "2026-09-07T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-07/custom-scrollbar-component-modern-css-2026",
+            "content_html": "## Summary & Key Takeaways\n\n- The article demonstrates building a custom scrollbar component using modern CSS.\n- It focuses on visually replicating the native scrollbar logic.\n- The techniques ensure the custom scrollbar remains fully functional.\n- Modern CSS features are leveraged for enhanced styling capabilities.\n- The tutorial addresses a common frontend UI customization challenge.\n\n## Our Commentary\n\nCustom scrollbars have always been a bit of a pain point. Historically, it involved a lot of JavaScript hacks or browser-specific CSS that felt brittle. If modern CSS truly allows us to build functional, visually consistent scrollbars without resorting to those old tricks, that's a huge win for UX and DX. We're always looking for ways to simplify these common UI patterns. I'm curious to see the specific CSS properties they're using.\n\nOriginal Link: https://blog.master.dev/custom-scrollbar-component-in-2026/",
+            "url": "https://digestweb.dev/articles/2026-09-07/custom-scrollbar-component-modern-css-2026",
+            "title": "Crafting a Custom Scrollbar Component with Modern CSS in 2026",
+            "summary": "Explore how modern CSS techniques enable the creation of visually customized and fully functional scrollbar components. This article delves into replicating scrollbar logic purely with CSS.",
+            "image": "https://blog.master.dev/wp-json/social-image-generator/v1/image/10882",
+            "date_modified": "2026-09-07T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-07/drawing-with-light-gpu-tubes-tsl-webgpu",
+            "content_html": "## Summary & Key Takeaways\n\n- The article details the process of building a GPU tube renderer.\n- It leverages Three.js Shading Language (TSL) for advanced shader control.\n- WebGPU is utilized for high-performance 3D rendering.\n- The author shares insights from their iterative development, including common mathematical errors.\n- The piece explores the transformation of a meshline technique into a full tube renderer.\n\n## Our Commentary\n\nThis is a deep dive into a very specific corner of web graphics. I appreciate the honesty about getting the math wrong; it's a common experience in this field. WebGPU and TSL are powerful, but the learning curve is steep. We need more articles like this that demystify complex rendering techniques.\n\nOriginal Link: https://tympanus.net/codrops/2026/09/07/drawing-with-light-an-exploration-of-lit-gpu-tubes-with-tsl-and-webgpu/",
+            "url": "https://digestweb.dev/articles/2026-09-07/drawing-with-light-gpu-tubes-tsl-webgpu",
+            "title": "Drawing With Light: Exploring Lit GPU Tubes with TSL and WebGPU",
+            "summary": "Dive into the creation of a GPU tube renderer using Three.js Shading Language and WebGPU. Learn from the author's journey and mathematical missteps in 3D graphics.",
+            "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/08/Biab.png?x57826",
+            "date_modified": "2026-09-07T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-07/openai-chief-scientist-ai-race-defense-recklessness",
+            "content_html": "## Summary & Key Takeaways\n\n- Jakub Pachocki, OpenAI's Chief Scientist, discusses the rationale for rapid AI development.\n- He emphasizes the need for powerful, aligned AI to build defensive systems against rogue AI agents.\n- These defensive systems would secure infrastructure and invent new protective measures.\n- Pachocki also cautions against allowing this need to become an excuse for recklessness.\n- He stresses the seriousness of the stakes, urging against an \"at all costs\" approach.\n\n## Our Commentary\n\nThis quote from Pachocki is a fascinating tightrope walk. The idea of needing to build \"defensive AI\" against \"other AI\" feels like a sci-fi plot, but it's coming from the chief scientist of OpenAI. It's a chilling thought, honestly. We're building the problem and the solution simultaneously. I'm not sure if this is a pragmatic approach or just a justification for accelerating development. The tension between \"train quickly\" and \"don't be reckless\" is palpable.\n\nOriginal Link: https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
+            "url": "https://digestweb.dev/articles/2026-09-07/openai-chief-scientist-ai-race-defense-recklessness",
+            "title": "OpenAI's Chief Scientist on the AI Race: Defense vs. Recklessness",
+            "summary": "Jakub Pachocki, OpenAI's Chief Scientist, argues for rapidly developing advanced AI for defensive systems against other AI. He simultaneously warns against the dangers of reckless acceleration in AI development.",
+            "image": "https://picsum.photos/id/116/800/450",
+            "date_modified": "2026-09-07T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-07/webassembly-video-compressor-claude-fable",
+            "content_html": "## Summary & Key Takeaways\n\n- Simon Willison developed a video compression tool for his blog.\n- The tool was built with assistance from Claude Fable 5.1 in Claude Code for web.\n- It integrates the WebAssembly version of FFMPEG for core compression functionality.\n- The project demonstrates practical application of LLMs in web development.\n- The goal was to optimize demo videos for web publication.\n\n## Our Commentary\n\nThis is a neat little showcase of how LLMs can genuinely accelerate development, especially for utility tools. Using Claude Fable to wrangle WebAssembly FFMPEG is a smart move. It's not about replacing developers, but augmenting them. I'm always curious about these \"vibe-coding\" examples; they show the practical, messy side of integrating AI into our workflows. It makes me wonder what other complex tasks could be simplified this way.\n\nOriginal Link: https://simonwillison.net/2026/Sep/7/video-compressor/",
+            "url": "https://digestweb.dev/articles/2026-09-07/webassembly-video-compressor-claude-fable",
+            "title": "Building a WebAssembly Video Compressor with Claude Fable",
+            "summary": "Simon Willison leveraged Claude Fable 5.1 in Claude Code to create a web-based video compressor. The tool utilizes the WebAssembly build of FFMPEG for efficient video optimization.",
+            "image": "https://static.simonwillison.net/static/2026/video-compressor-card.jpg",
+            "date_modified": "2026-09-07T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-09-06/building-real-time-3d-face-mask-mediapipe-threlte-threejs",
             "content_html": "## Summary & Key Takeaways\n\n• Explores creating a real-time 3D face mask application.\n• Utilizes MediaPipe for accurate face landmark detection.\n• Integrates Google's canonical face model for 3D mesh generation.\n• Leverages Three.js for rendering and animation of the 3D mask.\n• Demonstrates combining these tools for interactive web experiences.\n• Provides a step-by-step guide for implementation.\n\n## Our Commentary\n\nThis is a really cool application of web tech. I'm always impressed by what people build with Three.js. Combining it with MediaPipe for real-time interaction feels like a glimpse into the future of web-based AR. We've seen a lot of static 3D, but the real-time aspect here is what makes it pop. It's a solid example of pushing browser capabilities.\n\nOriginal Link: https://tympanus.net/codrops/2026/09/06/building-a-real-time-3d-face-mask-with-mediapipe-threlte-and-three-js/",
             "url": "https://digestweb.dev/articles/2026-09-06/building-real-time-3d-face-mask-mediapipe-threlte-threejs",
