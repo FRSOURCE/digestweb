@@ -65,6 +65,18 @@
             }
         },
         {
+            "id": "https://digestweb.dev/articles/2026-09-07/openai-unveils-gpt-6-astra-new-llm-era",
+            "content_html": "## Summary & Key Takeaways\n\nOpenAI has officially released its latest large language model, GPT-6 Astra.\nThis new model represents a significant leap in AI capabilities.\nSimon Willison's `llm` command-line tool now includes support for GPT-6 Astra.\nDevelopers can immediately experiment with the new model via the `llm` tool.\nThis release signals ongoing rapid advancements in the LLM landscape.\n\n## Our Commentary\n\nGPT-6 Astra. Already? We're barely processing the implications of GPT-5, and now this. The pace is just... relentless. I find myself oscillating between genuine excitement for the new capabilities and a creeping sense of overwhelm. How do we, as developers, truly integrate and understand these leaps when they come so fast? Simon Willison's `llm` tool is, as always, right there, making it accessible. That's fantastic, but it also means the pressure to adapt is immediate. I'm curious to see the real-world impact, not just the benchmark numbers. Is this a true paradigm shift, or just another iteration in a very fast race?\n\nOriginal Link: https://simonwillison.net/2026/Sep/7/llm/",
+            "url": "https://digestweb.dev/articles/2026-09-07/openai-unveils-gpt-6-astra-new-llm-era",
+            "title": "OpenAI Unveils GPT-6 Astra: A New Era for LLMs",
+            "summary": "OpenAI introduces GPT-6 Astra, a powerful new model. Simon Willison's `llm` tool now supports it, enabling immediate access for developers.",
+            "image": "https://picsum.photos/id/257/800/450",
+            "date_modified": "2026-09-07T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-09-07/webassembly-video-compressor-claude-fable",
             "content_html": "## Summary & Key Takeaways\n\n- Simon Willison developed a video compression tool for his blog.\n- The tool was built with assistance from Claude Fable 5.1 in Claude Code for web.\n- It integrates the WebAssembly version of FFMPEG for core compression functionality.\n- The project demonstrates practical application of LLMs in web development.\n- The goal was to optimize demo videos for web publication.\n\n## Our Commentary\n\nThis is a neat little showcase of how LLMs can genuinely accelerate development, especially for utility tools. Using Claude Fable to wrangle WebAssembly FFMPEG is a smart move. It's not about replacing developers, but augmenting them. I'm always curious about these \"vibe-coding\" examples; they show the practical, messy side of integrating AI into our workflows. It makes me wonder what other complex tasks could be simplified this way.\n\nOriginal Link: https://simonwillison.net/2026/Sep/7/video-compressor/",
             "url": "https://digestweb.dev/articles/2026-09-07/webassembly-video-compressor-claude-fable",

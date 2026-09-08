@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-09-08T05:38:09.711Z</updated>
+    <updated>2026-09-08T12:00:41.410Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -124,6 +124,30 @@ Original Link: https://tympanus.net/codrops/2026/09/07/drawing-with-light-an-exp
 This quote from Pachocki is a fascinating tightrope walk. The idea of needing to build "defensive AI" against "other AI" feels like a sci-fi plot, but it's coming from the chief scientist of OpenAI. It's a chilling thought, honestly. We're building the problem and the solution simultaneously. I'm not sure if this is a pragmatic approach or just a justification for accelerating development. The tension between "train quickly" and "don't be reckless" is palpable.
 
 Original Link: https://simonwillison.net/2026/Sep/7/jakub-pachocki/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Unveils GPT-6 Astra: A New Era for LLMs]]></title>
+        <id>https://digestweb.dev/articles/2026-09-07/openai-unveils-gpt-6-astra-new-llm-era</id>
+        <link href="https://digestweb.dev/articles/2026-09-07/openai-unveils-gpt-6-astra-new-llm-era"/>
+        <link rel="enclosure" href="https://picsum.photos/id/257/800/450" type="image//id/257/800/450"/>
+        <updated>2026-09-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI introduces GPT-6 Astra, a powerful new model. Simon Willison's `llm` tool now supports it, enabling immediate access for developers.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+OpenAI has officially released its latest large language model, GPT-6 Astra.
+This new model represents a significant leap in AI capabilities.
+Simon Willison's `llm` command-line tool now includes support for GPT-6 Astra.
+Developers can immediately experiment with the new model via the `llm` tool.
+This release signals ongoing rapid advancements in the LLM landscape.
+
+## Our Commentary
+
+GPT-6 Astra. Already? We're barely processing the implications of GPT-5, and now this. The pace is just... relentless. I find myself oscillating between genuine excitement for the new capabilities and a creeping sense of overwhelm. How do we, as developers, truly integrate and understand these leaps when they come so fast? Simon Willison's `llm` tool is, as always, right there, making it accessible. That's fantastic, but it also means the pressure to adapt is immediate. I'm curious to see the real-world impact, not just the benchmark numbers. Is this a true paradigm shift, or just another iteration in a very fast race?
+
+Original Link: https://simonwillison.net/2026/Sep/7/llm/]]></content>
         <author>
             <name>Simon Willison</name>
         </author>
