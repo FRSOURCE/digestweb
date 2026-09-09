@@ -11,6 +11,222 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-09-08/1password-engineering-productivity-openai-codex",
+            "content_html": "## Summary & Key Takeaways\n\n- 1Password engineers utilized OpenAI Codex for development.\n- They achieved a 21% increase in engineering productivity.\n- Codex helped in rapidly building new features and internal tools.\n- This was accomplished while adhering to rigorous security policies.\n- The case study highlights AI's practical impact on developer workflows.\n\n## Our Commentary\n\nA 21% productivity boost is a significant number, especially for a company like 1Password with strict security requirements. This case study provides concrete evidence of AI's value in developer workflows. It's not just about writing code faster, but doing it securely and efficiently. I think we'll see more and more companies reporting similar gains.\n\nOriginal Link: https://openai.com/index/1password",
+            "url": "https://digestweb.dev/articles/2026-09-08/1password-engineering-productivity-openai-codex",
+            "title": "1Password Boosts Engineering Productivity 21% with OpenAI Codex",
+            "summary": "A case study reveals that 1Password engineers increased their productivity by 21% using OpenAI Codex to rapidly build new features and internal tools while maintaining security.",
+            "image": "https://picsum.photos/id/781/800/450",
+            "date_modified": "2026-09-08T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-08/codepen-2-editor-draggable-panels-tabs",
+            "content_html": "## Summary & Key Takeaways\n\n- CodePen's 2.0 editor has implemented a new UI feature.\n- Panels previously fixed to the left side can now be dragged.\n- These dragged panels transform into \"Editor Tabs.\"\n- This provides users with significantly more freedom for their workspace layout.\n- The feature aims to enhance the overall user experience and flexibility.\n\n## Our Commentary\n\nThis is a fantastic quality-of-life improvement for CodePen users. Being able to customize your workspace layout is crucial for productivity, especially in a creative environment like CodePen. It's a small change that can make a huge difference in how developers interact with the platform. I love seeing tools evolve to meet user needs.\n\nOriginal Link: https://blog.codepen.io/2026/09/08/439-dragging-drag-everything/",
+            "url": "https://digestweb.dev/articles/2026-09-08/codepen-2-editor-draggable-panels-tabs",
+            "title": "CodePen 2.0 Editor Introduces Draggable Panels as Editor Tabs",
+            "summary": "CodePen's 2.0 editor now allows users to drag previously fixed left-side panels, transforming them into flexible \"Editor Tabs\" for enhanced layout freedom.",
+            "image": "https://s0.wp.com/i/blank.jpg",
+            "date_modified": "2026-09-08T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-08/cypress-cloud-webhooks-custom-workflows",
+            "content_html": "## Summary & Key Takeaways\n\n- Webhooks are a new addition to Cypress Cloud.\n- They allow for more flexible and custom automation workflows.\n- This extends capabilities beyond Cypress Cloud's built-in integrations.\n- Developers can now integrate Cypress Cloud with a wider range of external services.\n- The feature aims to support diverse CI/CD and reporting needs.\n\n## Our Commentary\n\nWebhooks are a fundamental building block for any extensible platform, and it's great to see Cypress Cloud adding them. This opens up a ton of possibilities for custom integrations and automation that weren't possible before. It's a solid step towards making Cypress Cloud even more adaptable to diverse development workflows.\n\nOriginal Link: https://www.cypress.io/blog/build-custom-workflows-with-cypress-cloud-webhooks/",
+            "url": "https://digestweb.dev/articles/2026-09-08/cypress-cloud-webhooks-custom-workflows",
+            "title": "Cypress Cloud Introduces Webhooks for Custom Automation Workflows",
+            "summary": "Cypress Cloud now supports webhooks, enabling developers to build more flexible and custom automation workflows beyond its built-in integrations.",
+            "image": "https://storage.ghost.io/c/12/89/12899ca1-4786-4eea-b7e1-9c5268baa48a/content/images/2026/09/webhooks-blog-image-1200x630.png",
+            "date_modified": "2026-09-08T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-08/deepmind-alphagenome-atlas-dna-map",
+            "content_html": "## Summary & Key Takeaways\n\n- Google DeepMind has launched the AlphaGenome Atlas.\n- It is a predictive map of every possible DNA letter change in the human genome.\n- The atlas details the molecular effects of 9 billion single-letter DNA variants.\n- This represents a significant breakthrough in genomics and AI-driven biology.\n- It has profound implications for understanding genetic diseases and drug discovery.\n\n## Our Commentary\n\nAnother absolute bombshell from DeepMind. Mapping the molecular effects of _every possible_ single-letter DNA change is a monumental scientific achievement. This isn't just AI playing games; this is AI fundamentally changing our understanding of biology. The implications for medicine and genetic research are staggering. We are truly living in a new era of scientific discovery.\n\nOriginal Link: https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+            "url": "https://digestweb.dev/articles/2026-09-08/deepmind-alphagenome-atlas-dna-map",
+            "title": "DeepMind's AlphaGenome Atlas Maps All Human DNA Letter Changes",
+            "summary": "Google DeepMind introduces AlphaGenome Atlas, an AI-powered predictive map detailing the molecular effects of 9 billion single-letter DNA variants across the entire human genome.",
+            "image": "https://picsum.photos/id/58/800/450",
+            "date_modified": "2026-09-08T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-08/evil-martians-gatsby-to-astro-migration",
+            "content_html": "## Summary & Key Takeaways\n\n- Evil Martians migrated their website from Gatsby to Astro.\n- The migration was completed in a remarkably short nine-day period.\n- They achieved this without rewriting any existing React components.\n- The case study highlights Astro's interoperability with other frameworks.\n- It demonstrates Astro's potential for fast and affordable migrations.\n\n## Our Commentary\n\nNine days? Without rewriting React components? That's an impressive feat and a strong endorsement for Astro's flexibility and migration story. We've seen a lot of frameworks promise easy transitions, but this case study really puts a number on it. It makes me wonder what other complex sites could benefit from such a rapid shift.\n\nOriginal Link: https://astro.build/case-studies/evil-martians/",
+            "url": "https://digestweb.dev/articles/2026-09-08/evil-martians-gatsby-to-astro-migration",
+            "title": "Evil Martians Migrates from Gatsby to Astro in Nine Days",
+            "summary": "A case study details how Evil Martians successfully migrated their site from Gatsby to Astro in just nine days, without rewriting any React components.",
+            "image": "https://astro.build/_astro/social-image.B6O9kkt6.webp",
+            "date_modified": "2026-09-08T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-08/gpt-5-6-sol-quantum-computing-experiments",
+            "content_html": "## Summary & Key Takeaways\n\n- An MIT researcher is leveraging GPT-5.6 Sol for quantum computing.\n- The AI, combined with Codex, autonomously runs experiments.\n- It also analyzes the experimental results.\n- GPT-5.6 Sol assists in calibrating qubits.\n- This demonstrates a powerful, practical application of AI in complex scientific research.\n\n## Our Commentary\n\nThis is the kind of AI application that truly excites me. Using an LLM to autonomously run and analyze quantum computing experiments is a huge leap. It shows AI moving beyond just code generation to actively participating in scientific discovery. The potential for accelerating research in highly complex fields is immense.\n\nOriginal Link: https://openai.com/index/codex-quantum-computing-experiments",
+            "url": "https://digestweb.dev/articles/2026-09-08/gpt-5-6-sol-quantum-computing-experiments",
+            "title": "GPT-5.6 Sol Powers Autonomous Quantum Computing Experiments",
+            "summary": "An MIT researcher is using GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits, showcasing advanced AI application in science.",
+            "image": "https://picsum.photos/id/388/800/450",
+            "date_modified": "2026-09-08T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-08/hugging-face-ai-safety-nuanced-refusal",
+            "content_html": "## Summary & Key Takeaways\n\n- The article discusses a nuanced approach to AI safety.\n- It advocates for refusing specific subsets of a topic.\n- This is proposed as an alternative to blocking entire topics.\n- The focus is on improving content moderation and ethical AI development.\n- This approach aims for more precise and less restrictive safety mechanisms.\n\n## Our Commentary\n\nThis is a really important discussion for the future of AI. Blanket content moderation can be overly restrictive and lead to unintended censorship. A nuanced approach that understands context and refuses specific subsets is far more desirable. It's a complex problem, but Hugging Face is tackling it head-on, which I appreciate.\n\nOriginal Link: https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+            "url": "https://digestweb.dev/articles/2026-09-08/hugging-face-ai-safety-nuanced-refusal",
+            "title": "Hugging Face Discusses Nuanced AI Safety: Refusing Subsets, Not Topics",
+            "summary": "Hugging Face explores a nuanced approach to AI safety, advocating for refusing specific subsets of a topic rather than broadly blocking entire topics in content moderation.",
+            "image": "https://cdn-uploads.huggingface.co/production/uploads/668e37fd9c9aa124a3c867e8/HuauFbdznYW4fNQh8j4Tp.png",
+            "date_modified": "2026-09-08T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-08/infinite-liquid-glass-grid-threejs-webgpu",
+            "content_html": "## Summary & Key Takeaways\n\n- The article explores creating an infinite grid effect.\n- It features a liquid glass aesthetic with video refraction.\n- The implementation uses Three.js for 3D rendering.\n- WebGPU is utilized for high-performance graphics.\n- TSL (Three.js Shading Language) and custom shaders are key components.\n\n## Our Commentary\n\nThis is the kind of cutting-edge web graphics work that makes me excited about the platform's future. Combining Three.js with WebGPU and custom shaders for such a visually complex effect is no small feat. It's a fantastic showcase of what's possible when you push the boundaries of browser capabilities.\n\nOriginal Link: https://tympanus.net/codrops/2026/09/08/building-an-infinite-liquid-glass-grid-with-three-js-webgpu-and-tsl/",
+            "url": "https://digestweb.dev/articles/2026-09-08/infinite-liquid-glass-grid-threejs-webgpu",
+            "title": "Building an Infinite Liquid Glass Grid with Three.js & WebGPU",
+            "summary": "Explore the creation of an infinite liquid glass grid effect using Three.js, WebGPU, TSL, and custom shaders for advanced video refraction.",
+            "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/09/cover_glass.png?x57826",
+            "date_modified": "2026-09-08T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-08/interconnects-24-open-ai-models-licenses",
+            "content_html": "## Summary & Key Takeaways\n\n- The newsletter provides an update on the expanding open model ecosystem.\n- It covers new open-source AI models like Motif-3, GLM-5.3, and Hy4-preview.\n- The article also delves into the critical topic of open model licenses.\n- It aims to keep readers informed about the breadth of the open AI landscape.\n\n## Our Commentary\n\nKeeping up with the open-source AI ecosystem is a full-time job, so digests like this are invaluable. The discussion around open model licenses is particularly important; it's a complex area that will define how AI technology is shared and built upon. I appreciate the focus on both new models and the underlying legal frameworks.\n\nOriginal Link: https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3",
+            "url": "https://digestweb.dev/articles/2026-09-08/interconnects-24-open-ai-models-licenses",
+            "title": "Interconnects #24: Latest Open AI Models & Licensing Insights",
+            "summary": "Nathan Lambert's Interconnects newsletter provides an update on the latest open-source AI models, including Motif-3, GLM-5.3, Hy4-preview, and discusses open model licenses.",
+            "image": "https://substackcdn.com/image/fetch/$s_!J8Bn!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2908b12f-8586-49cf-b34b-e1d5bc61bf19_1196x798.png",
+            "date_modified": "2026-09-08T00:00:00.000Z",
+            "author": {
+                "name": "Nathan Lambert"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-08/javascript-weekly-801-vitest-safari-tla-turbopack",
+            "content_html": "## Summary & Key Takeaways\n\n- Vitest 5.0 focuses on speed, achieving up to 53% faster runs, and introduces a Trace View for debugging.\n- Safari 27 now fully complies with the top-level await spec after a ground-up rewrite of its module loader.\n- A deep dive explores how Turbopack chunks JavaScript, analyzing tradeoffs between requests and code size.\n- Greptile offers an AI-powered tool to catch runtime bugs before PR merges, with sandbox execution and UI agents.\n- jQuery 1.0 celebrates its 20th anniversary, reflecting on its impact on web development.\n- deck.gl 9.4 extends its experimental WebGPU support.\n\n## Our Commentary\n\nThis weekly is packed! Vitest 5.0's speed improvements and debugging features are a big deal for the testing ecosystem. Safari finally fixing top-level await is a huge win for web platform consistency—that was a long-standing headache. And the Turbopack chunking deep dive is exactly the kind of performance analysis we need. It's a solid roundup of important web dev news.\n\nOriginal Link: https://javascriptweekly.com/issues/801",
+            "url": "https://digestweb.dev/articles/2026-09-08/javascript-weekly-801-vitest-safari-tla-turbopack",
+            "title": "JavaScript Weekly #801: Vitest 5.0, Safari Top-Level Await, Turbopack Chunks",
+            "summary": "This edition covers Vitest 5.0's speed and debugging focus, Safari's fix for top-level await, Turbopack's chunking strategies, and an AI-powered bug detection tool.",
+            "image": "https://picsum.photos/id/493/800/450",
+            "date_modified": "2026-09-08T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-08/kent-c-dodds-introduces-kody-software-factory",
+            "content_html": "## Summary & Key Takeaways\n\n- Kent C. Dodds has launched a new tool named Kody.\n- Kody is described as a \"personal software factory.\"\n- Its core function is to convert effective solutions into reusable code packages.\n- This aims to streamline development by automating boilerplate or repetitive tasks.\n- The tool likely leverages AI or advanced templating for code generation.\n\n## Our Commentary\n\nA \"personal software factory\" from Kent C. Dodds? I'm intrigued. The idea of turning \"good answers\" into reusable packages sounds like a powerful way to combat boilerplate and enforce best practices. I'm curious to see how much AI plays a role here and if it can truly adapt to individual developer styles. This could be a significant boost to developer productivity.\n\nOriginal Link: https://kentcdodds.com/blog/introducing-kody-your-personal-software-factory",
+            "url": "https://digestweb.dev/articles/2026-09-08/kent-c-dodds-introduces-kody-software-factory",
+            "title": "Kent C. Dodds Unveils Kody: Your Personal Software Factory",
+            "summary": "Kent C. Dodds introduces Kody, a new tool designed to act as a \"personal software factory\" by turning good answers into reusable code packages.",
+            "image": "https://kentcdodds.com/resources/og-image?tpl=social-preview&amp;params=eyJ0aXRsZSI6IkludHJvZHVjaW5nIEtvZHk6IFlvdXIgUGVyc29uYWwgU29mdHdhcmUgRmFjdG9yeSIsInByZVRpdGxlIjoiQ2hlY2sgb3V0IHRoaXMgYXJ0aWNsZSIsInVybCI6ImtlbnRjZG9kZHMuY29tL2Jsb2cvaW50cm9kdWNpbmcta29keS15b3VyLXBlcnNvbmFsLXNvZnR3YXJlLWZhY3RvcnkiLCJmZWF0dXJlZEltYWdlIjoia2VudGNkb2Rkcy5jb20vY29udGVudC9ibG9nL2ludHJvZHVjaW5nLWtvZHkteW91ci1wZXJzb25hbC1zb2Z0d2FyZS1mYWN0b3J5L2Jhbm5lci12MiIsImZlYXR1cmVkSW1hZ2VTdHlsZSI6InBvcnRyYWl0In0&amp;v=1&amp;sig=bb1b0c7a1193cb6b562cdbdcf24a3b02f57d8ea48af86bffe8635f737ffd2c58",
+            "date_modified": "2026-09-08T00:00:00.000Z",
+            "author": {
+                "name": "Kent C. Dodds"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-08/openai-ai-solves-navier-stokes-problem",
+            "content_html": "## Summary & Key Takeaways\n\n- OpenAI claims to have found an AI-generated solution to the Navier–Stokes Millennium Prize Problem.\n- The solution includes a comprehensive writeup.\n- A formal proof has been provided using the Lean theorem prover.\n- This represents a potential landmark achievement in both AI and mathematics/physics.\n- The problem is one of seven Millennium Prize Problems, each carrying a $1 million award.\n\n## Our Commentary\n\nOkay, if this holds up, this is absolutely monumental. Solving a Millennium Prize Problem with AI is a staggering achievement, pushing the boundaries of what we thought AI was capable of. I genuinely don't know how to feel about the implications, but it's a moment that will be talked about for decades. The formal proof in Lean adds a layer of credibility that makes this even more compelling.\n\nOriginal Link: https://openai.com/index/navier-stokes-solution",
+            "url": "https://digestweb.dev/articles/2026-09-08/openai-ai-solves-navier-stokes-problem",
+            "title": "OpenAI Claims AI Solution to Navier–Stokes Millennium Prize Problem",
+            "summary": "OpenAI announces an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a detailed writeup and a formal proof in Lean.",
+            "image": "https://picsum.photos/id/471/800/450",
+            "date_modified": "2026-09-08T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-08/openai-chatgpt-images-2-5-enhanced",
+            "content_html": "## Summary & Key Takeaways\n\n- ChatGPT Images 2.5 has been officially introduced.\n- It features improved instruction-following across multiple turns.\n- The new version offers faster image generation responses.\n- It is better at preserving subjects from reference photos.\n- This update aims to create more personalized and polished images.\n\n## Our Commentary\n\nIterative improvements to generative AI models are crucial, and ChatGPT Images 2.5 seems to hit some key pain points. Better instruction-following and subject preservation are huge for practical use cases. I'm always a bit skeptical of \"faster\" claims without benchmarks, but the quality improvements sound genuinely useful for creators.\n\nOriginal Link: https://openai.com/index/introducing-chatgpt-images-2-5",
+            "url": "https://digestweb.dev/articles/2026-09-08/openai-chatgpt-images-2-5-enhanced",
+            "title": "OpenAI Introduces ChatGPT Images 2.5 with Enhanced Capabilities",
+            "summary": "ChatGPT Images 2.5 is released, offering improved instruction-following, faster response times, and better preservation of subjects from reference photos for more personalized image generation.",
+            "image": "https://picsum.photos/id/884/800/450",
+            "date_modified": "2026-09-08T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-08/openai-grants-ai-teen-development-research",
+            "content_html": "## Summary & Key Takeaways\n\n- OpenAI has announced a $5 million grant program.\n- The grants support independent research into generative AI.\n- The focus is on AI's effects on teen development, well-being, and safety.\n- This initiative aims to understand and mitigate potential negative impacts.\n- Applications are now open for interested researchers.\n\n## Our Commentary\n\nIt's good to see OpenAI investing in research on the societal impact of their technology, especially concerning vulnerable populations like teenagers. The ethical implications of generative AI are vast, and understanding its effects on development is critical. I hope this leads to genuinely independent and impactful studies.\n\nOriginal Link: https://openai.com/index/teen-development-research-grants",
+            "url": "https://digestweb.dev/articles/2026-09-08/openai-grants-ai-teen-development-research",
+            "title": "OpenAI Launches $5M Grant for AI & Teen Development Research",
+            "summary": "OpenAI is offering $5 million in grants to support independent research on how generative AI affects teen development, well-being, and safety.",
+            "image": "https://picsum.photos/id/816/800/450",
+            "date_modified": "2026-09-08T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-08/pnpm-12-4-multi-ecosystem-workspaces-pipeline",
+            "content_html": "## Summary & Key Takeaways\n\n- pnpm can now manage npm, Python, and Cargo dependencies within a single workspace.\n- Enable Python or Cargo support via `pnpm-workspace.yaml` and use `pnpm add pypi:<package>` or `pnpm add crate:<package>`.\n- A new `pnpm pipeline [name]` command orchestrates workspace tasks with inputs, outputs, and caching.\n- `pnpm pipeline` supports selecting affected projects and running task graphs.\n- Expanded platform support includes Android (arm64, x64), FreeBSD (x64), and Linux (ppc64le, s390x, RISC-V).\n- `trustPolicyExcludePrune` automatically removes unused packages from `trustPolicyExclude`.\n\n## Our Commentary\n\nThis is a massive release for pnpm. The ability to manage multiple language ecosystems in one workspace is a game-changer for polyglot monorepos. I've been waiting for a package manager to truly embrace this. The `pnpm pipeline` command also looks incredibly powerful for task orchestration. This release solidifies pnpm's position as a top-tier build tool.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v12.4.0",
+            "url": "https://digestweb.dev/articles/2026-09-08/pnpm-12-4-multi-ecosystem-workspaces-pipeline",
+            "title": "pnpm 12.4 Introduces Multi-Ecosystem Workspaces & Pipeline Command",
+            "summary": "pnpm 12.4 significantly enhances monorepo management by allowing npm, Python, and Cargo dependencies in the same workspace, alongside a new `pnpm pipeline` command for task orchestration.",
+            "image": "https://opengraph.githubassets.com/087499c6d58c7c72b6ae74bf1eda095d6e1aa80587c8bcd11482ef895bf2ee06/pnpm/pnpm/releases/tag/v12.4.0",
+            "date_modified": "2026-09-08T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-08/simon-willison-chatgpt-images-2-5-api",
+            "content_html": "## Summary & Key Takeaways\n\n- Simon Willison provides his perspective on ChatGPT Images 2.5.\n- He highlights the new API model IDs: `gpt-image-2.5-sunburst` and `gpt-image-2.5-flare`.\n- Sunburst is noted for editing precision, Flare for fast, high-quality generation.\n- His `openai_image.py` CLI tool is updated to support reference images.\n- He demonstrates using the tool with a reference image and a prompt.\n\n## Our Commentary\n\nSimon Willison always provides excellent practical insights into new AI releases. His breakdown of the `Sunburst` and `Flare` models is super helpful for anyone using the API. And, of course, updating his CLI tool to support reference images is a classic Simon move—making powerful tech immediately accessible. I appreciate the hands-on approach.\n\nOriginal Link: https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/",
+            "url": "https://digestweb.dev/articles/2026-09-08/simon-willison-chatgpt-images-2-5-api",
+            "title": "Simon Willison's Take on ChatGPT Images 2.5 & API Models",
+            "summary": "Simon Willison shares his insights on OpenAI's ChatGPT Images 2.5, detailing the new API model IDs (Sunburst, Flare) and updating his CLI tool for reference image support.",
+            "image": "https://picsum.photos/id/249/800/450",
+            "date_modified": "2026-09-08T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-08/solidjs-2-rc7-advanced-attribution-feedback",
+            "content_html": "## Summary & Key Takeaways\n\n- Store overloads are aligned across client, server, and signals entry points.\n- Attribution feedback provides ranked tables of async sources and user interactions.\n- `sources` ranks holds by silent time, showing `holds`/`heldMs`/`worstMs` and `silent`/`silentMs`.\n- `interactions` ranks user events by total cost, including synchronous work and held time.\n- Write provenance tracks the origin (interaction, effect, action, async, external) of every change.\n- New exported types `FeedbackSource` and `FeedbackInteraction` are available.\n\n## Our Commentary\n\nThis is the big one for SolidJS 2.0 RC.7. The depth of the attribution and feedback system is genuinely groundbreaking. Being able to see ranked tables of what users waited on, and tracing every write back to its origin, is a dream for performance debugging. We're talking about a level of insight that few other frameworks offer out of the box. This is a massive step forward for SolidJS's developer experience.\n\nOriginal Link: https://github.com/solidjs/solid/releases/tag/solid-js%402.0.0-rc.7",
+            "url": "https://digestweb.dev/articles/2026-09-08/solidjs-2-rc7-advanced-attribution-feedback",
+            "title": "SolidJS 2.0 RC.7 Unveils Advanced Attribution & Performance Feedback",
+            "summary": "The core SolidJS 2.0 RC.7 introduces a comprehensive attribution system with ranked performance feedback tables and detailed write provenance for enhanced debugging.",
+            "image": "https://opengraph.githubassets.com/27e7c6159e9d855b431ac7186124657933b234abafe1946dd3d9c5d1516c8f40/solidjs/solid/releases/tag/solid-js%402.0.0-rc.7",
+            "date_modified": "2026-09-08T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-08/solidjs-babel-plugin-2-rc7-hydration-template-validation",
+            "content_html": "## Summary & Key Takeaways\n\n- Hydration IDs are now correctly aligned with intrinsic elements and reactive spreads.\n- Document-shell templates are validated within the document context, preventing compile errors.\n- The plugin no longer fails on root components owning the document shell.\n- The experimental patch channel and its related compiler option are removed.\n- This contributes to a ~900 B brotli size reduction for store-family app bundles.\n\n## Our Commentary\n\nIt's great to see the Babel plugin keeping pace with the core compiler's improvements. Consistent behavior across different build tools is essential for a smooth developer experience. These fixes, while technical, directly impact the reliability and correctness of SolidJS applications, especially those dealing with hydration.\n\nOriginal Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fbabel-plugin%402.0.0-rc.7",
+            "url": "https://digestweb.dev/articles/2026-09-08/solidjs-babel-plugin-2-rc7-hydration-template-validation",
+            "title": "SolidJS Babel Plugin 2.0 RC.7 Enhances Hydration & Template Validation",
+            "summary": "The SolidJS Babel Plugin 2.0 RC.7 includes fixes for hydration ID alignment and improved document-shell template validation, mirroring compiler enhancements.",
+            "image": "https://opengraph.githubassets.com/b19b75164c9124dc021693f4cc0f7bed00595f2be4962c2972aecf6c55b1fb18/solidjs/solid/releases/tag/%40solidjs/babel-plugin%402.0.0-rc.7",
+            "date_modified": "2026-09-08T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-08/solidjs-compiler-2-rc7-hydration-template-validation",
+            "content_html": "## Summary & Key Takeaways\n\n- Hydration IDs now remain aligned when intrinsic elements have a ref and reactive spread.\n- Document-shell templates are validated correctly within the document context.\n- The compiler no longer fails on root components owning the document shell in client mode.\n- The experimental patch channel and its associated compiler option are removed.\n- Store-family app bundles see up to ~900 B brotli size reduction.\n\n## Our Commentary\n\nCompiler improvements are often unsung heroes, but these fixes for hydration and template validation are crucial for building robust SolidJS applications. It's the kind of work that prevents headaches down the line. Removing experimental features also signals a maturing codebase, which is always a good sign.\n\nOriginal Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fcompiler%402.0.0-rc.7",
+            "url": "https://digestweb.dev/articles/2026-09-08/solidjs-compiler-2-rc7-hydration-template-validation",
+            "title": "SolidJS Compiler 2.0 RC.7 Improves Hydration & Template Validation",
+            "summary": "SolidJS Compiler 2.0 RC.7 brings fixes for hydration ID alignment, enhanced document-shell template validation, and removes the experimental patch channel.",
+            "image": "https://opengraph.githubassets.com/aa8cb142aaa840ed3a06314e9b433c97f48ee542ce85f19113ba9a64569c8ced/solidjs/solid/releases/tag/%40solidjs/compiler%402.0.0-rc.7",
+            "date_modified": "2026-09-08T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-08/solidjs-diagnostics-2-rc7-performance-debugging",
+            "content_html": "## Summary & Key Takeaways\n\n- Attribution feedback now includes fact tables for async flights and fallbacks.\n- `flights` tracks started, landed, and abandoned async operations with wall time.\n- `fallbacks` measures fallback display times and sub-150ms flashes.\n- New `WIDE_WRITE` and `HOT_SCOPE_FANOUT` diagnostics are added.\n- Responsiveness gates like `expectNoSilentHolds` help identify unacknowledged holds.\n- The artifact format (v2) now carries `attribution.holds` and `attribution.feedback`.\n\n## Our Commentary\n\nThis is a huge leap for SolidJS's diagnostic capabilities. The responsiveness gates, especially `expectNoSilentHolds`, are exactly what we need to catch subtle performance issues before they hit production. I love seeing frameworks invest so heavily in tools that empower developers to build truly performant applications. This is a big win for DX.\n\nOriginal Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fdiagnostics%402.0.0-rc.7",
+            "url": "https://digestweb.dev/articles/2026-09-08/solidjs-diagnostics-2-rc7-performance-debugging",
+            "title": "SolidJS Diagnostics 2.0 RC.7 Boosts Performance Debugging",
+            "summary": "This release candidate for SolidJS Diagnostics introduces enhanced attribution feedback, new diagnostic tools, and responsiveness gates for deeper performance analysis.",
+            "image": "https://opengraph.githubassets.com/b0c1f1c048cc87eee597feb20fa6bc6c32a17dd3e59a61ef360ca7ee52935e21/solidjs/solid/releases/tag/%40solidjs/diagnostics%402.0.0-rc.7",
+            "date_modified": "2026-09-08T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-08/solidjs-signals-2-rc7-attribution-feedback",
+            "content_html": "## Summary & Key Takeaways\n\n- Queued effects are now preserved when pending actions merge into transactions.\n- Store overloads are aligned across signals, client, and server entry points.\n- Attribution feedback gains fact tables for flights (started, landed, abandoned).\n- Fallbacks now measure how often and long fallbacks were shown, including flashes.\n- Source rows include `late`/`lateMs` for acknowledged holds past `holds.infoMs`.\n\n## Our Commentary\n\nThe level of detail SolidJS is building into its attribution and feedback system is genuinely impressive. Understanding async flight paths and fallback performance is crucial for building truly responsive applications. This is the kind of deep insight that can elevate a developer's ability to diagnose and optimize.\n\nOriginal Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fsignals%402.0.0-rc.7",
+            "url": "https://digestweb.dev/articles/2026-09-08/solidjs-signals-2-rc7-attribution-feedback",
+            "title": "SolidJS Signals 2.0 RC.7 Enhances Attribution Feedback & Store Overloads",
+            "summary": "SolidJS Signals 2.0 RC.7 introduces detailed attribution feedback for async operations and fallbacks, alongside aligning store overloads for better consistency.",
+            "image": "https://opengraph.githubassets.com/e2ccd0fd3d751c54207db688fba4150f722727dbb03ab9a2d5050a8302c65f2f/solidjs/solid/releases/tag/%40solidjs/signals%402.0.0-rc.7",
+            "date_modified": "2026-09-08T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-08/solidjs-universal-2-rc7-dev-artifacts-bundle-size",
+            "content_html": "## Summary & Key Takeaways\n\n- Legacy client dev artifacts are renamed to a consistent `.dev.{js,cjs}` convention.\n- The experimental patch channel and patch-mode list driver have been removed.\n- This removal results in store-family app bundles reclaiming up to ~900 B brotli.\n- Compiler options and exports related to the patch driver are also removed.\n\n## Our Commentary\n\nIt's always good to see frameworks cleaning up experimental features that didn't pan out. The bundle size reduction, even if minor, is a welcome bonus. Consistency in dev artifact naming is a small but appreciated quality-of-life improvement for developers.\n\nOriginal Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Funiversal%402.0.0-rc.7",
+            "url": "https://digestweb.dev/articles/2026-09-08/solidjs-universal-2-rc7-dev-artifacts-bundle-size",
+            "title": "SolidJS Universal 2.0 RC.7 Streamlines Dev Artifacts & Reduces Bundle Size",
+            "summary": "This release candidate for SolidJS Universal renames legacy client dev artifacts and removes an experimental patch channel, leading to bundle size reductions.",
+            "image": "https://opengraph.githubassets.com/4bff353d3512fd8bf0d01b410f3a38f115c2cf2bd30d7fd54184ced79d398f03/solidjs/solid/releases/tag/%40solidjs/universal%402.0.0-rc.7",
+            "date_modified": "2026-09-08T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-08/solidjs-web-2-rc7-attribution-security-fixes",
+            "content_html": "## Summary & Key Takeaways\n\n- A new attribution system tracks the origin of every root change record.\n- Interaction, effect, action, async, and external frames now carry origin data.\n- `DEV.attribution.withInteraction` allows custom renderers to declare interactions.\n- Core dev hooks `effectRunStart`/`End` and `actionStepStart`/`End` are introduced.\n- A security fix binds GET() grants to the declared function identity.\n\n## Our Commentary\n\nSolidJS continues to impress with its deep commitment to developer experience, even in release candidates. The new attribution system feels like a game-changer for debugging complex reactivity flows. I'm always a fan of tools that help us understand _why_ things are happening, not just _what_. This level of introspection is rare and genuinely exciting.\n\nOriginal Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fweb%402.0.0-rc.7",
+            "url": "https://digestweb.dev/articles/2026-09-08/solidjs-web-2-rc7-attribution-security-fixes",
+            "title": "SolidJS Web 2.0 RC.7 Introduces Attribution & Security Fixes",
+            "summary": "This release candidate for SolidJS Web brings a new attribution system for tracking change origins and a critical security fix for GET() grant binding.",
+            "image": "https://opengraph.githubassets.com/47ad4fe316ba05f34ef2b9e601be2fc93101384b1c0ccf3ffa7e6cc4af82e50f/solidjs/solid/releases/tag/%40solidjs/web%402.0.0-rc.7",
+            "date_modified": "2026-09-08T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-09-07/animated-map-projection-transition-gpt6-d3",
             "content_html": "## Summary & Key Takeaways\n\n- Simon Willison created an animated transition between two map projections.\n- The project shifts from the Mercator projection to the Equal Earth projection.\n- GPT-6 Astra (medium) in ChatGPT Work assisted in the development.\n- D3.js was used to implement the interactive visualization.\n- The tool was inspired by a recent UN vote on the Equal Earth map projection.\n\n## Our Commentary\n\nAnother \"vibe-coding\" example from Simon, this time with GPT-6 Astra. It's cool to see these LLMs handling complex D3 visualizations. The animation itself sounds fascinating, and it's a great way to explore geospatial concepts. We're seeing a pattern here: LLMs are becoming powerful co-pilots for specific, often visually-driven, web development tasks. It's less about writing boilerplate and more about tackling intricate logic.\n\nOriginal Link: https://simonwillison.net/2026/Sep/7/equal-earth/",
             "url": "https://digestweb.dev/articles/2026-09-07/animated-map-projection-transition-gpt6-d3",
