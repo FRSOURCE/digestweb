@@ -11,6 +11,18 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-09-09/ai-impact-open-science-terence-tao-warning",
+            "content_html": "## Summary & Key Takeaways\n\n- AI is rapidly solving open scientific problems, potentially depleting the pool of fruitful research questions.\n- The speed of AI-powered effort can \"flatten\" problems before human researchers fully explore them.\n- This creates an incentive for researchers to withhold promising directions, reversing open science traditions.\n- Such a shift could cause serious long-term damage to the future of scientific fields.\n\n## Our Commentary\n\nThis is heavy. I'm genuinely unsettled by the idea of AI consuming the very wellspring of human curiosity. We've always relied on the slow burn of shared problems. The thought of that being strip-mined for quick solutions feels... wrong. It's like we're accelerating towards a future where the joy of discovery is outsourced, and the process itself becomes a race against machines. What happens when all the \"easy\" problems are gone?\n\nOriginal Link: https://simonwillison.net/2026/Sep/9/terence-tao/",
+            "url": "https://digestweb.dev/articles/2026-09-09/ai-impact-open-science-terence-tao-warning",
+            "title": "AI's Impact on Open Science: A Looming Crisis for Research",
+            "summary": "Terence Tao warns that AI's rapid problem-solving could deplete open research questions, threatening centuries of open science traditions.",
+            "image": "https://picsum.photos/id/237/800/450",
+            "date_modified": "2026-09-09T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-09-08/1password-engineering-productivity-openai-codex",
             "content_html": "## Summary & Key Takeaways\n\n- 1Password engineers utilized OpenAI Codex for development.\n- They achieved a 21% increase in engineering productivity.\n- Codex helped in rapidly building new features and internal tools.\n- This was accomplished while adhering to rigorous security policies.\n- The case study highlights AI's practical impact on developer workflows.\n\n## Our Commentary\n\nA 21% productivity boost is a significant number, especially for a company like 1Password with strict security requirements. This case study provides concrete evidence of AI's value in developer workflows. It's not just about writing code faster, but doing it securely and efficiently. I think we'll see more and more companies reporting similar gains.\n\nOriginal Link: https://openai.com/index/1password",
             "url": "https://digestweb.dev/articles/2026-09-08/1password-engineering-productivity-openai-codex",
@@ -141,6 +153,18 @@
             "summary": "OpenAI is offering $5 million in grants to support independent research on how generative AI affects teen development, well-being, and safety.",
             "image": "https://picsum.photos/id/816/800/450",
             "date_modified": "2026-09-08T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-08/openai-navier-stokes-solution-ethics-controversy",
+            "content_html": "## Summary & Key Takeaways\n\n- OpenAI claims to have resolved the Navier–Stokes existence and smoothness problem, a Millennium Prize Problem.\n- This achievement is clouded by accusations from Tristan Buckmaster, who was working on the same problem with Levent Alpöge (Anthropic).\n- Buckmaster alleges OpenAI prompted their model after hearing rumors of his team's breakthrough.\n- OpenAI reportedly refused to include Alpöge as a co-author due to competitive reasons with Anthropic.\n- The incident raises serious questions about AI research ethics, intellectual property, and competitive practices.\n\n## Our Commentary\n\nThis is wild. A Millennium Prize Problem, potentially solved by AI, but the whole thing is steeped in accusations of corporate espionage and competitive backstabbing. I mean, seriously? The idea that AI models are now racing to \"solve\" problems based on rumors of human progress is deeply unsettling. And the refusal to co-author because of company rivalry? It feels like the worst aspects of human competition are being amplified by AI's capabilities. This is a mess, and I'm not sure how we untangle it.\n\nOriginal Link: https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
+            "url": "https://digestweb.dev/articles/2026-09-08/openai-navier-stokes-solution-ethics-controversy",
+            "title": "OpenAI Claims Navier–Stokes Solution Amidst Ethics Controversy",
+            "summary": "OpenAI reportedly solved a Millennium Prize Problem, but faces accusations of using competitor's research and unethical co-authorship practices.",
+            "image": "https://picsum.photos/id/926/800/450",
+            "date_modified": "2026-09-08T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
         },
         {
             "id": "https://digestweb.dev/articles/2026-09-08/pnpm-12-4-multi-ecosystem-workspaces-pipeline",

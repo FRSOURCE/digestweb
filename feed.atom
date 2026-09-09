@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-09-09T05:45:53.219Z</updated>
+    <updated>2026-09-09T12:11:27.030Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,29 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[AI's Impact on Open Science: A Looming Crisis for Research]]></title>
+        <id>https://digestweb.dev/articles/2026-09-09/ai-impact-open-science-terence-tao-warning</id>
+        <link href="https://digestweb.dev/articles/2026-09-09/ai-impact-open-science-terence-tao-warning"/>
+        <link rel="enclosure" href="https://picsum.photos/id/237/800/450" type="image//id/237/800/450"/>
+        <updated>2026-09-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Terence Tao warns that AI's rapid problem-solving could deplete open research questions, threatening centuries of open science traditions.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- AI is rapidly solving open scientific problems, potentially depleting the pool of fruitful research questions.
+- The speed of AI-powered effort can "flatten" problems before human researchers fully explore them.
+- This creates an incentive for researchers to withhold promising directions, reversing open science traditions.
+- Such a shift could cause serious long-term damage to the future of scientific fields.
+
+## Our Commentary
+
+This is heavy. I'm genuinely unsettled by the idea of AI consuming the very wellspring of human curiosity. We've always relied on the slow burn of shared problems. The thought of that being strip-mined for quick solutions feels... wrong. It's like we're accelerating towards a future where the joy of discovery is outsourced, and the process itself becomes a race against machines. What happens when all the "easy" problems are gone?
+
+Original Link: https://simonwillison.net/2026/Sep/9/terence-tao/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[1Password Boosts Engineering Productivity 21% with OpenAI Codex]]></title>
         <id>https://digestweb.dev/articles/2026-09-08/1password-engineering-productivity-openai-codex</id>
@@ -313,6 +336,30 @@ Original Link: https://openai.com/index/introducing-chatgpt-images-2-5]]></conte
 It's good to see OpenAI investing in research on the societal impact of their technology, especially concerning vulnerable populations like teenagers. The ethical implications of generative AI are vast, and understanding its effects on development is critical. I hope this leads to genuinely independent and impactful studies.
 
 Original Link: https://openai.com/index/teen-development-research-grants]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Claims Navier–Stokes Solution Amidst Ethics Controversy]]></title>
+        <id>https://digestweb.dev/articles/2026-09-08/openai-navier-stokes-solution-ethics-controversy</id>
+        <link href="https://digestweb.dev/articles/2026-09-08/openai-navier-stokes-solution-ethics-controversy"/>
+        <link rel="enclosure" href="https://picsum.photos/id/926/800/450" type="image//id/926/800/450"/>
+        <updated>2026-09-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI reportedly solved a Millennium Prize Problem, but faces accusations of using competitor's research and unethical co-authorship practices.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI claims to have resolved the Navier–Stokes existence and smoothness problem, a Millennium Prize Problem.
+- This achievement is clouded by accusations from Tristan Buckmaster, who was working on the same problem with Levent Alpöge (Anthropic).
+- Buckmaster alleges OpenAI prompted their model after hearing rumors of his team's breakthrough.
+- OpenAI reportedly refused to include Alpöge as a co-author due to competitive reasons with Anthropic.
+- The incident raises serious questions about AI research ethics, intellectual property, and competitive practices.
+
+## Our Commentary
+
+This is wild. A Millennium Prize Problem, potentially solved by AI, but the whole thing is steeped in accusations of corporate espionage and competitive backstabbing. I mean, seriously? The idea that AI models are now racing to "solve" problems based on rumors of human progress is deeply unsettling. And the refusal to co-author because of company rivalry? It feels like the worst aspects of human competition are being amplified by AI's capabilities. This is a mess, and I'm not sure how we untangle it.
+
+Original Link: https://simonwillison.net/2026/Sep/8/on-navier-stokes/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[pnpm 12.4 Introduces Multi-Ecosystem Workspaces & Pipeline Command]]></title>
