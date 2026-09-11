@@ -11,6 +11,18 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-09-11/ai-assisted-security-audit-datasette-patches",
+            "content_html": "## Summary & Key Takeaways\n\n• Datasette released security patch versions 1.0a39 and 0.65.4.\n• These patches address issues for instances running on the public web, especially those mixing public and private tables.\n• The audit was conducted by Alex Garcia and Simon Willison using Claude Fable 5.1, GPT-5.6, and GPT-6 Astra.\n• Frontier AI models helped discover subtle bugs in the codebase.\n• The team plans to integrate AI security audits into future development workflows.\n• A productive workflow involved one person creating tests and the other implementing fixes.\n\n## Our Commentary\n\nThis is fascinating. We've been talking about AI for code generation, but AI for security auditing? That's a whole new level of trust and capability. I'm genuinely curious about the types of \"subtle bugs\" these models found. It feels like a glimpse into the future of devops, where AI agents are constantly scrutinizing our code. There's something unsettling about agents churning away at 3am while nobody's watching, but also incredibly powerful.\n\nOriginal Link: https://simonwillison.net/2026/Sep/11/datasette-security/",
+            "url": "https://digestweb.dev/articles/2026-09-11/ai-assisted-security-audit-datasette-patches",
+            "title": "AI-Assisted Security Audit for Datasette Patches",
+            "summary": "Datasette releases security patches 1.0a39 and 0.65.4. The audit process notably leveraged frontier AI models like Claude and GPT, highlighting a new approach to finding subtle bugs.",
+            "image": "https://picsum.photos/id/743/800/450",
+            "date_modified": "2026-09-11T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-09-10/ai-assisted-zero-click-worm-weworm-wechat",
             "content_html": "## Summary & Key Takeaways\n\n- Calif Research has demonstrated \"WeWorm,\" a zero-click worm.\n- The worm spreads through WeChat calls across both iOS and Android.\n- Victims do not need to interact with their phone for the exploit to succeed.\n- AI assisted the team in finding the bug and writing the RCE exploit in two days.\n- Building the full worm took an additional week.\n- This highlights the accelerated pace of exploit development with AI.\n\n## Our Commentary\n\nA zero-click worm developed with AI in a week? This is terrifying. We've been talking about AI's potential for misuse, and this is a stark, concrete example. The speed at which these exploits can be generated is genuinely unsettling. We need to be thinking about AI security and defense just as aggressively as we're building new capabilities.\n\nOriginal Link: https://simonwillison.net/2026/Sep/10/calif-research/",
             "url": "https://digestweb.dev/articles/2026-09-10/ai-assisted-zero-click-worm-weworm-wechat",
@@ -159,6 +171,18 @@
             "summary": "A brief look inside the first-ever Three.js Conference held in Paris, capturing the atmosphere and key highlights from the event.",
             "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/09/Header-—-Codrops-×-Three.js-Conf@2x-1.png?x57826",
             "date_modified": "2026-09-10T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-10/run-any-nix-package-live-browser-webassembly-vm",
+            "content_html": "## Summary & Key Takeaways\n\n• trynix.dev allows running any Nix package from the past 13 years directly in the browser.\n• It achieves this using a qemu-wasm powered x86_64 Linux virtual machine.\n• The entire VM operates within the browser via WebAssembly.\n• Packages are URL addressable, enabling direct links to specific versions like Python 3.6.2.\n• A related tool, trynix-preview, offers GitHub Action integration.\n• trynix-preview comments a link on pull requests to boot the PR's build in the browser.\n• This system operates with \"No servers, just browsers.\"\n\n## Our Commentary\n\nThis is genuinely mind-blowing. A full x86_64 Linux VM, running Nix packages, entirely in the browser? And then using that for PR previews? The implications for developer experience and reproducible environments are massive. We've seen WASM push boundaries, but this feels like a new frontier. I'm picturing a future where entire dev environments are ephemeral, spun up instantly in a tab. The \"no servers, just browsers\" mantra is a powerful one.\n\nOriginal Link: https://simonwillison.net/2026/Sep/10/trynix/",
+            "url": "https://digestweb.dev/articles/2026-09-10/run-any-nix-package-live-browser-webassembly-vm",
+            "title": "Run Any Nix Package Live in Your Browser with WebAssembly VM",
+            "summary": "trynix.dev introduces a qemu-wasm powered x86_64 Linux VM, enabling users to boot any Nix package from the last 13 years directly in their browser. This innovation also allows for in-browser GitHub PR build previews.",
+            "image": "https://picsum.photos/id/519/800/450",
+            "date_modified": "2026-09-10T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
         },
         {
             "id": "https://digestweb.dev/articles/2026-09-10/shopify-shifts-react-native-to-native-ai-agents",

@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Fri, 11 Sep 2026 05:39:31 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 11 Sep 2026 12:04:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,29 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[AI-Assisted Security Audit for Datasette Patches]]></title>
+            <link>https://digestweb.dev/articles/2026-09-11/ai-assisted-security-audit-datasette-patches</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-11/ai-assisted-security-audit-datasette-patches</guid>
+            <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Datasette releases security patches 1.0a39 and 0.65.4. The audit process notably leveraged frontier AI models like Claude and GPT, highlighting a new approach to finding subtle bugs.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+• Datasette released security patch versions 1.0a39 and 0.65.4.
+• These patches address issues for instances running on the public web, especially those mixing public and private tables.
+• The audit was conducted by Alex Garcia and Simon Willison using Claude Fable 5.1, GPT-5.6, and GPT-6 Astra.
+• Frontier AI models helped discover subtle bugs in the codebase.
+• The team plans to integrate AI security audits into future development workflows.
+• A productive workflow involved one person creating tests and the other implementing fixes.
+
+## Our Commentary
+
+This is fascinating. We've been talking about AI for code generation, but AI for security auditing? That's a whole new level of trust and capability. I'm genuinely curious about the types of "subtle bugs" these models found. It feels like a glimpse into the future of devops, where AI agents are constantly scrutinizing our code. There's something unsettling about agents churning away at 3am while nobody's watching, but also incredibly powerful.
+
+Original Link: https://simonwillison.net/2026/Sep/11/datasette-security/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/743/800/450" length="0" type="image//id/743/800/450"/>
+        </item>
         <item>
             <title><![CDATA[AI-Assisted Zero-Click Worm "WeWorm" Spreads via WeChat]]></title>
             <link>https://digestweb.dev/articles/2026-09-10/ai-assisted-zero-click-worm-weworm-wechat</link>
@@ -360,6 +383,30 @@ A Three.js conference! That's pretty cool. It's always good to see communities g
 
 Original Link: https://tympanus.net/codrops/2026/09/10/inside-the-first-three-js-conference-in-paris/]]></content:encoded>
             <enclosure url="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/09/Header-%E2%80%94-Codrops-%C3%97-Three.js-Conf@2x-1.png?x57826" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Run Any Nix Package Live in Your Browser with WebAssembly VM]]></title>
+            <link>https://digestweb.dev/articles/2026-09-10/run-any-nix-package-live-browser-webassembly-vm</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-10/run-any-nix-package-live-browser-webassembly-vm</guid>
+            <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[trynix.dev introduces a qemu-wasm powered x86_64 Linux VM, enabling users to boot any Nix package from the last 13 years directly in their browser. This innovation also allows for in-browser GitHub PR build previews.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+• trynix.dev allows running any Nix package from the past 13 years directly in the browser.
+• It achieves this using a qemu-wasm powered x86_64 Linux virtual machine.
+• The entire VM operates within the browser via WebAssembly.
+• Packages are URL addressable, enabling direct links to specific versions like Python 3.6.2.
+• A related tool, trynix-preview, offers GitHub Action integration.
+• trynix-preview comments a link on pull requests to boot the PR's build in the browser.
+• This system operates with "No servers, just browsers."
+
+## Our Commentary
+
+This is genuinely mind-blowing. A full x86_64 Linux VM, running Nix packages, entirely in the browser? And then using that for PR previews? The implications for developer experience and reproducible environments are massive. We've seen WASM push boundaries, but this feels like a new frontier. I'm picturing a future where entire dev environments are ephemeral, spun up instantly in a tab. The "no servers, just browsers" mantra is a powerful one.
+
+Original Link: https://simonwillison.net/2026/Sep/10/trynix/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/519/800/450" length="0" type="image//id/519/800/450"/>
         </item>
         <item>
             <title><![CDATA[Shopify Shifts from React Native to Native, Citing AI Agent Impact]]></title>
