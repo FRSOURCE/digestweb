@@ -11,6 +11,201 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-09-10/ai-assisted-zero-click-worm-weworm-wechat",
+            "content_html": "## Summary & Key Takeaways\n\n- Calif Research has demonstrated \"WeWorm,\" a zero-click worm.\n- The worm spreads through WeChat calls across both iOS and Android.\n- Victims do not need to interact with their phone for the exploit to succeed.\n- AI assisted the team in finding the bug and writing the RCE exploit in two days.\n- Building the full worm took an additional week.\n- This highlights the accelerated pace of exploit development with AI.\n\n## Our Commentary\n\nA zero-click worm developed with AI in a week? This is terrifying. We've been talking about AI's potential for misuse, and this is a stark, concrete example. The speed at which these exploits can be generated is genuinely unsettling. We need to be thinking about AI security and defense just as aggressively as we're building new capabilities.\n\nOriginal Link: https://simonwillison.net/2026/Sep/10/calif-research/",
+            "url": "https://digestweb.dev/articles/2026-09-10/ai-assisted-zero-click-worm-weworm-wechat",
+            "title": "AI-Assisted Zero-Click Worm \"WeWorm\" Spreads via WeChat",
+            "summary": "Calif Research unveils \"WeWorm,\" the first zero-click worm spreading across iOS and Android via WeChat calls, developed rapidly with AI assistance.",
+            "image": "https://picsum.photos/id/717/800/450",
+            "date_modified": "2026-09-10T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-10/ai-drug-discovery-codex-chatgpt-antimicrobials",
+            "content_html": "## Summary & Key Takeaways\n\n- César de la Fuente’s lab is utilizing AI for drug discovery.\n- OpenAI's Codex and ChatGPT are employed in their research.\n- The AI models search living and extinct genomes for antimicrobial candidates.\n- The goal is to find new ways to fight drug-resistant infections.\n- This demonstrates a high-impact application of current AI capabilities.\n\n## Our Commentary\n\nThis is genuinely exciting. Using AI to hunt for new antimicrobial molecules? That's a direct, tangible benefit to humanity. It's a powerful reminder that these tools aren't just for generating text or images; they can accelerate scientific breakthroughs. We're seeing AI move from novelty to necessity in critical fields.\n\nOriginal Link: https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+            "url": "https://digestweb.dev/articles/2026-09-10/ai-drug-discovery-codex-chatgpt-antimicrobials",
+            "title": "AI in Drug Discovery: Codex & ChatGPT Hunt Antimicrobials",
+            "summary": "A researcher's lab leverages OpenAI's Codex and ChatGPT to scan genomes for novel antimicrobial candidates, combating drug-resistant infections.",
+            "image": "https://picsum.photos/id/644/800/450",
+            "date_modified": "2026-09-10T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-10/ai-fear-ignites-recent-events-public-reaction",
+            "content_html": "## Summary & Key Takeaways\n\n- The article provides commentary on a specific event that heightened AI-related fears.\n- It reflects on the rapid escalation of public concern regarding AI.\n- The author shares personal observations on the \"weird week\" in AI news.\n- It discusses the broader societal implications of AI advancements.\n\n## Our Commentary\n\n\"One resignation turned the embers of AI fear into a wildfire.\" That's a headline, alright. We're seeing so much volatility in the AI space, both technically and culturally. It's hard to keep up, and I genuinely don't know how to feel about some of these rapid shifts.\n\nOriginal Link: https://www.interconnects.ai/p/one-resignation-turned-the-embers",
+            "url": "https://digestweb.dev/articles/2026-09-10/ai-fear-ignites-recent-events-public-reaction",
+            "title": "AI Fear Ignites: A Look at Recent Events and Public Reaction",
+            "summary": "This article offers quick notes and commentary on a recent event that amplified public fears and discussions surrounding the rapid advancements in AI.",
+            "image": "https://substackcdn.com/image/fetch/$s_!Q03F!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdcb4417f-b766-4f5c-9ade-78f591cf0e71_3182x1790.png",
+            "date_modified": "2026-09-10T00:00:00.000Z",
+            "author": {
+                "name": "Nathan Lambert"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-10/anthropic-red-team-ai-tactical-intelligence-weapons",
+            "content_html": "## Summary & Key Takeaways\n\n- Anthropic's Frontier Red Team conducted research on AI model capabilities.\n- The study focused on measuring tactical intelligence targeting.\n- It also assessed AI models' conventional weapons capabilities.\n- The research aims to understand and mitigate potential misuse of advanced AI.\n- This work contributes to the ongoing discussion around AI safety and ethics.\n\n## Our Commentary\n\nThis is the kind of research that keeps me up at night. Anthropic's Red Team diving into AI's tactical intelligence and weapons capabilities? It's necessary work, but it's also a stark reminder of the stakes. We're building powerful tools, and understanding their potential for harm is paramount. This isn't just academic; it's about the future.\n\nOriginal Link: https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
+            "url": "https://digestweb.dev/articles/2026-09-10/anthropic-red-team-ai-tactical-intelligence-weapons",
+            "title": "Anthropic Red Team Measures AI's Tactical Intelligence & Weapon Capabilities",
+            "summary": "Anthropic's Frontier Red Team publishes research on measuring AI models' capabilities in tactical intelligence targeting and conventional weapons, raising critical safety questions.",
+            "image": "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+            "date_modified": "2026-09-10T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-10/cursor-ai-first-ide-introduces-projects-feature",
+            "content_html": "## Summary & Key Takeaways\n\n- Cursor, the AI-first IDE, has introduced a new \"Projects\" feature.\n- This feature aims to improve code organization and management.\n- It likely provides enhanced ways to structure and navigate codebases.\n- The update contributes to a more streamlined developer experience within Cursor.\n\n## Our Commentary\n\nCursor introducing \"Projects\" is a logical step for an AI-first IDE. We've seen how AI can assist with individual files and functions, but managing entire projects is the next frontier. I'm curious about how their AI integrates into this higher-level organization. It could be a real productivity booster.\n\nOriginal Link: https://cursor.com/blog/projects",
+            "url": "https://digestweb.dev/articles/2026-09-10/cursor-ai-first-ide-introduces-projects-feature",
+            "title": "Cursor AI-First IDE Introduces New Projects Feature",
+            "summary": "Cursor, the AI-first code editor, announces its new \"Projects\" feature, designed to streamline code organization and management within the IDE.",
+            "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/blog/og/projects-og-4-eYFsGoC01dE653MUPbfMcWZNX6eR8w.png",
+            "date_modified": "2026-09-10T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-10/deep-dive-understanding-stylex-efficient-css-in-js",
+            "content_html": "## Summary & Key Takeaways\n\n- The article provides a deep dive into StyleX, a CSS-in-JS solution.\n- StyleX is currently experiencing a resurgence in popularity.\n- It allows developers to avoid writing atomic CSS directly.\n- The tool generates efficient atomic CSS output.\n- This output loads similarly to traditional CSS.\n- It offers a balance between developer experience and performance.\n\n## Our Commentary\n\nStyleX is back in the conversation, huh? We've seen so many CSS-in-JS solutions come and go. The promise of atomic CSS output without having to write it manually is definitely appealing. It's a constant battle to balance developer ergonomics with performance, and StyleX seems to be hitting a sweet spot for some.\n\nOriginal Link: https://blog.master.dev/a-deep-dive-into-stylex/",
+            "url": "https://digestweb.dev/articles/2026-09-10/deep-dive-understanding-stylex-efficient-css-in-js",
+            "title": "Deep Dive: Understanding StyleX for Efficient CSS-in-JS",
+            "summary": "Explore StyleX, the CSS-in-JS solution gaining renewed popularity, and learn how it delivers atomic CSS output without requiring atomic CSS authoring.",
+            "image": "https://blog.master.dev/wp-json/social-image-generator/v1/image/10956",
+            "date_modified": "2026-09-10T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-10/fable-5-1-tuesday-work-index-gemini-3-8-math",
+            "content_html": "## Summary & Key Takeaways\n\n- Fable 5.1 achieved the highest overall score on the Tuesday Work Index.\n- Muse Spark 1.3 demonstrated leading performance in \"ComplexConstraints.\"\n- Gemini 3.8 Flash is noted for its cost-performance efficiency in frontier mathematics.\n- The report provides a comparative analysis of various AI model performances.\n- It highlights specific strengths of different models across tasks.\n\n## Our Commentary\n\nAnother day, another benchmark. Fable 5.1 leading the \"Tuesday Work Index\" is interesting, but I'm always a bit skeptical of proprietary benchmarks. Still, Gemini 3.8 Flash pushing cost-performance in math is a detail worth noting. We're in a constant race for efficiency and capability.\n\nOriginal Link: https://www.surgehq.ai/blog/fable-5-1-tuesday-work-index",
+            "url": "https://digestweb.dev/articles/2026-09-10/fable-5-1-tuesday-work-index-gemini-3-8-math",
+            "title": "Fable 5.1 Leads Tuesday Work Index; Gemini 3.8 Excels in Math",
+            "summary": "Surge AI's latest benchmark report shows Fable 5.1 leading the Tuesday Work Index, while Gemini 3.8 Flash pushes cost-performance boundaries in mathematics.",
+            "image": "https://cdn.prod.website-files.com/68dcd2ceb173c46fa029931c/6aa2ddc6532375e501d9030b_Screenshot%202026-09-10%20at%2010.39.44%E2%80%AFAM.png",
+            "date_modified": "2026-09-10T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-10/github-copilot-app-beginners-workflow",
+            "content_html": "## Summary & Key Takeaways\n\n- The GitHub Copilot app integrates diff viewing, terminal access, and browser previews.\n- This integration aims to reduce context switching when reviewing AI-generated code.\n- Users can view code changes side-by-side within the app.\n- Terminal commands can be executed directly from the Copilot interface.\n- Web applications can be previewed without leaving the app.\n- The guide targets beginners looking to optimize their workflow with Copilot.\n\n## Our Commentary\n\nAnything that reduces tab-hopping is a win in my book. We're constantly juggling so many tools. Integrating diffs, terminals, and browsers directly into the Copilot app makes a lot of sense for developer experience. It's a small quality-of-life improvement, but those add up.\n\nOriginal Link: https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
+            "url": "https://digestweb.dev/articles/2026-09-10/github-copilot-app-beginners-workflow",
+            "title": "GitHub Copilot App: Streamlining Dev Workflow for Beginners",
+            "summary": "A beginner's guide to the GitHub Copilot app, demonstrating how to use its integrated diff, terminal, and browser features for a smoother development experience.",
+            "image": "https://github.blog/wp-content/uploads/2026/09/Screenshot-2026-09-09-at-3.23.34-PM.png",
+            "date_modified": "2026-09-10T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-10/openai-agents-api-autonomous-cloud-agents",
+            "content_html": "## Summary & Key Takeaways\n\n- OpenAI has launched the new Agents API.\n- The API enables developers to build and deploy cloud agents.\n- It is a managed service powered by the Codex harness.\n- Key features include orchestration capabilities for complex tasks.\n- The API supports long-running sessions for persistent agent interactions.\n- It facilitates advanced tool use for agents to interact with external systems.\n- This represents a significant step towards more autonomous AI systems.\n\n## Our Commentary\n\nOkay, the Agents API. This is huge. We've been talking about autonomous agents for a while, and now OpenAI is giving us a managed service to build them. Orchestration, long-running sessions, tool use – this is the infrastructure for the next wave of AI applications. I'm both excited and a little terrified by the possibilities. This is a paradigm shift.\n\nOriginal Link: https://openai.com/index/introducing-the-agents-api",
+            "url": "https://digestweb.dev/articles/2026-09-10/openai-agents-api-autonomous-cloud-agents",
+            "title": "OpenAI Unveils Agents API for Building Autonomous Cloud Agents",
+            "summary": "OpenAI introduces the Agents API, a managed service powered by the Codex harness, allowing developers to build and deploy cloud agents with orchestration and tool use.",
+            "image": "https://picsum.photos/id/463/800/450",
+            "date_modified": "2026-09-10T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-10/openai-chatgpt-financial-services-gpt6-astra",
+            "content_html": "## Summary & Key Takeaways\n\n- OpenAI has launched a new product: ChatGPT for Financial Services.\n- This specialized version includes built-in financial data.\n- It is powered by the advanced GPT-6 Astra model.\n- The tool is designed for financial research and modeling.\n- It can also generate client-ready materials.\n- This marks a significant expansion into a major industry sector.\n\n## Our Commentary\n\nChatGPT for Financial Services, powered by GPT-6 Astra? This is a huge play by OpenAI. We're talking about a direct assault on a highly regulated, data-intensive industry. The implications for efficiency and automation are massive. I'm curious about the guardrails they've put in place for accuracy and compliance. This is a big one.\n\nOriginal Link: https://openai.com/index/introducing-chatgpt-financial-services",
+            "url": "https://digestweb.dev/articles/2026-09-10/openai-chatgpt-financial-services-gpt6-astra",
+            "title": "OpenAI Launches ChatGPT for Financial Services with GPT-6 Astra",
+            "summary": "OpenAI introduces a specialized ChatGPT for Financial Services, integrating built-in financial data and powered by the new GPT-6 Astra for research, modeling, and client materials.",
+            "image": "https://picsum.photos/id/831/800/450",
+            "date_modified": "2026-09-10T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-10/openai-data-agent-chatgpt-work-business-insights",
+            "content_html": "## Summary & Key Takeaways\n\n- OpenAI has launched a new \"Data agent\" feature in ChatGPT Work.\n- This agent allows users to connect and analyze company data.\n- It helps uncover insights using natural language queries.\n- Users can build interactive dashboards with AI assistance.\n- The feature aims to make data analysis more accessible to everyone.\n- This expands ChatGPT's utility for enterprise business intelligence.\n\n## Our Commentary\n\nA \"Data agent\" in ChatGPT Work? This is a smart move for OpenAI. We've seen the push for AI in enterprise, and making data analysis accessible via natural language is a huge step. It's going to change how many businesses approach their data. I wonder how robust the data connectors are.\n\nOriginal Link: https://openai.com/index/put-data-to-work",
+            "url": "https://digestweb.dev/articles/2026-09-10/openai-data-agent-chatgpt-work-business-insights",
+            "title": "OpenAI Introduces Data Agent in ChatGPT Work for Business Insights",
+            "summary": "OpenAI unveils a new Data agent within ChatGPT Work, enabling users to connect company data, uncover insights, and build interactive dashboards using natural language.",
+            "image": "https://picsum.photos/id/205/800/450",
+            "date_modified": "2026-09-10T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-10/openai-gpt-live-1-api-full-duplex-voice-ai",
+            "content_html": "## Summary & Key Takeaways\n\n- OpenAI has released GPT-Live-1 in its API.\n- This new model enables natural, full-duplex voice conversations.\n- It offers stronger instruction following capabilities.\n- Developers can now implement custom voices.\n- The API includes direct telephony support.\n- This significantly enhances the realism and interactivity of voice AI experiences.\n\n## Our Commentary\n\nFull-duplex voice conversations with GPT-Live-1? This is a game-changer for voice interfaces. We're moving beyond turn-taking and into genuinely natural interactions. The custom voices and telephony support are just icing on the cake. I'm thinking about all the customer service and accessibility applications this could unlock.\n\nOriginal Link: https://openai.com/index/introducing-gpt-live-1-in-the-api",
+            "url": "https://digestweb.dev/articles/2026-09-10/openai-gpt-live-1-api-full-duplex-voice-ai",
+            "title": "OpenAI's GPT-Live-1 API Enables Natural Full-Duplex Voice AI",
+            "summary": "OpenAI introduces GPT-Live-1 in its API, allowing developers to build natural, full-duplex voice conversations with stronger instruction following, custom voices, and telephony support.",
+            "image": "https://picsum.photos/id/89/800/450",
+            "date_modified": "2026-09-10T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-10/pnpm-12-4-1-enhances-installation-reliability",
+            "content_html": "## Summary & Key Takeaways\n\n- pnpm 12.4.1 fixes installation failures on filesystems that refuse hard links or clones.\n- It now falls back to copying files when hard linking or cloning is not permitted.\n- Critical installation issues on Android devices have been resolved.\n- The update addresses problems with preserving `node_modules` during Docker builds.\n- Repeat installs are now faster due to various optimizations.\n- It correctly handles package tarballs with files at the archive root.\n\n## Our Commentary\n\nThis pnpm update is a big deal for anyone hitting those obscure filesystem errors or struggling with Android builds. We've all been there, scratching our heads at \"Operation not permitted.\" It's good to see these edge cases getting solid fixes. Reliability is everything.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v12.4.1",
+            "url": "https://digestweb.dev/articles/2026-09-10/pnpm-12-4-1-enhances-installation-reliability",
+            "title": "pnpm 12.4.1 Enhances Installation Reliability Across Platforms",
+            "summary": "pnpm's latest patch, 12.4.1, significantly improves installation success rates by addressing issues with hard links, Android compatibility, and Docker builds.",
+            "image": "https://opengraph.githubassets.com/5ff104fd4e608a06805cc56e962fb21263990fc1360bd8b765351413ca577fef/pnpm/pnpm/releases/tag/v12.4.1",
+            "date_modified": "2026-09-10T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-10/pnpr-alpha-multi-ecosystem-registry-oidc",
+            "content_html": "## Summary & Key Takeaways\n\n- pnpr now serves Cargo, Python, and container registries in addition to npm.\n- It enables publishing across all supported ecosystems in a single transaction.\n- User authentication is now integrated via OIDC.\n- Hosted Cargo registries support `cargo publish`, `cargo yank`, and crate downloads.\n- Hosted Python registries support `pip install --index-url` and `twine upload`.\n- `pnpm install` can now resolve Cargo and Python dependencies through the pnpr server.\n- Container images are now served, supporting Docker, Podman, or Skopeo pushes.\n\n## Our Commentary\n\nOkay, this is a huge leap for `pnpr`. We're talking about a single registry serving npm, Cargo, Python, _and_ OCI? That's ambitious. The idea of publishing across all of them in one go is genuinely compelling. I'm curious to see how this evolves. It could simplify a lot of polyglot development workflows.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.11",
+            "url": "https://digestweb.dev/articles/2026-09-10/pnpr-alpha-multi-ecosystem-registry-oidc",
+            "title": "pnpr Alpha Expands to Multi-Ecosystem Registry and OIDC Support",
+            "summary": "pnpr's latest alpha release, 0.1.0-alpha.11, dramatically expands its capabilities by supporting Cargo, Python, and OCI registries alongside npm, with OIDC integration.",
+            "image": "https://opengraph.githubassets.com/32d29e0d2adc373f81ecd62cd6802a0b67cf53c7681bb058ab0ae50c4a6d7302/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.11",
+            "date_modified": "2026-09-10T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-10/rebuilding-automatic1111-gradio-workflow-ai-devs",
+            "content_html": "## Summary & Key Takeaways\n\n- The article details the process of rebuilding AUTOMATIC1111.\n- It utilizes the Gradio Workflow for this reconstruction.\n- The content is aimed at AI developers interested in tool architecture.\n- It likely covers practical steps and considerations for such a project.\n- This offers insights into integrating different AI development tools.\n\n## Our Commentary\n\nRebuilding AUTOMATIC1111 with Gradio Workflow sounds like a solid technical deep-dive. We're always looking for good examples of how to integrate and optimize AI tools. Gradio is a powerful way to build UIs for models, so seeing it applied to such a widely used project is valuable.\n\nOriginal Link: https://huggingface.co/blog/gradio-workflow-1111",
+            "url": "https://digestweb.dev/articles/2026-09-10/rebuilding-automatic1111-gradio-workflow-ai-devs",
+            "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow for AI Devs",
+            "summary": "This article explores the process of rebuilding the popular AUTOMATIC1111 tool using Gradio Workflow, offering valuable insights for AI developers.",
+            "image": "https://huggingface.co/blog/assets/gradio-workflow1111/thumbnail.png",
+            "date_modified": "2026-09-10T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-10/recap-inaugural-threejs-conference-paris",
+            "content_html": "## Summary & Key Takeaways\n\n- The article provides an inside look at the first Three.js Conference.\n- The event took place in Paris, gathering the Three.js community.\n- It covers general impressions and highlights from the conference.\n- The focus is on the event itself rather than specific technical deep-dives.\n\n## Our Commentary\n\nA Three.js conference! That's pretty cool. It's always good to see communities gather around specific technologies. I'm sure there were some incredible demos. We're always keeping an eye on what's happening in the 3D web space.\n\nOriginal Link: https://tympanus.net/codrops/2026/09/10/inside-the-first-three-js-conference-in-paris/",
+            "url": "https://digestweb.dev/articles/2026-09-10/recap-inaugural-threejs-conference-paris",
+            "title": "Recap: The Inaugural Three.js Conference in Paris",
+            "summary": "A brief look inside the first-ever Three.js Conference held in Paris, capturing the atmosphere and key highlights from the event.",
+            "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/09/Header-—-Codrops-×-Three.js-Conf@2x-1.png?x57826",
+            "date_modified": "2026-09-10T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-10/shopify-shifts-react-native-to-native-ai-agents",
+            "content_html": "## Summary & Key Takeaways\n\n- Shopify is transitioning its mobile development from React Native to native Swift and Kotlin.\n- The company previously adopted React Native in 2020 for cross-platform efficiency.\n- The primary reason for the shift is the emergence of AI agents.\n- AI agents can now handle significant implementation, translation, testing, and review tasks.\n- This reduces the overhead of maintaining separate native codebases.\n- Shopify will rehome or archive its significant React Native open-source libraries.\n\n## Our Commentary\n\nShopify moving _away_ from React Native, and explicitly citing AI agents as the reason? This is a bombshell. We've been debating cross-platform vs. native for years, and now AI is throwing a wrench into the whole discussion. It makes me wonder if the \"build once, deploy everywhere\" dream is being reshaped by AI's ability to bridge the native gap. This is a huge signal.\n\nOriginal Link: https://simonwillison.net/2026/Sep/10/shopify-react-native/",
+            "url": "https://digestweb.dev/articles/2026-09-10/shopify-shifts-react-native-to-native-ai-agents",
+            "title": "Shopify Shifts from React Native to Native, Citing AI Agent Impact",
+            "summary": "Shopify is moving its mobile development from React Native back to native Swift and Kotlin, attributing the change to AI agents' ability to streamline native development.",
+            "image": "https://picsum.photos/id/884/800/450",
+            "date_modified": "2026-09-10T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-10/tech-companies-shift-open-ai-models-cost-savings",
+            "content_html": "## Summary & Key Takeaways\n\n- Several major tech companies are transitioning to open AI models.\n- Companies like Uber, Pinterest, and Stripe are cited in the report.\n- The primary driver for this shift is significant cost savings on AI bills.\n- They are moving away from proprietary AI models.\n- Smart model routing is being employed to optimize usage.\n- This indicates a growing trend in enterprise AI adoption and strategy.\n\n## Our Commentary\n\nThis is a trend we've been watching closely. Major tech companies ditching proprietary AI models for open-source alternatives to save money? That's a huge validation for the open-source AI community. It also suggests that the performance gap is closing, or the cost-benefit analysis is shifting dramatically. We're seeing the democratization of advanced AI.\n\nOriginal Link: https://blog.pragmaticengineer.com/the-pulse-tech-companies-move-to-open-ai-models/",
+            "url": "https://digestweb.dev/articles/2026-09-10/tech-companies-shift-open-ai-models-cost-savings",
+            "title": "Major Tech Companies Shift to Open AI Models for Cost Savings",
+            "summary": "Uber, Pinterest, Stripe, and other tech giants are reportedly moving from proprietary to open AI models, achieving significant cost savings through smart model routing.",
+            "image": "https://picsum.photos/id/506/800/450",
+            "date_modified": "2026-09-10T00:00:00.000Z",
+            "author": {
+                "name": "Gergely Orosz"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-10/vite-v8-3-0-released-performance-boosts",
+            "content_html": "## Summary & Key Takeaways\n\n- Vite v8.3.0 introduces performance improvements for build processes.\n- It optimizes dependency handling to avoid settling seen preload dependencies.\n- Bug fixes address CRLF line endings and correct `node_modules` path segment treatment.\n- Proxy context matchers are now pre-compiled at server creation for better performance.\n\n## Our Commentary\n\nAnother Vite update, and it's always good to see performance getting attention. We're constantly chasing those milliseconds, aren't we? It's the little things that add up.\n\nOriginal Link: https://github.com/vitejs/vite/releases/tag/v8.3.0",
+            "url": "https://digestweb.dev/articles/2026-09-10/vite-v8-3-0-released-performance-boosts",
+            "title": "Vite v8.3.0 Released with Performance Boosts",
+            "summary": "Vite's latest minor update, v8.3.0, focuses on performance enhancements and crucial bug fixes, improving build processes and dependency handling.",
+            "image": "https://opengraph.githubassets.com/e942ab399e29dae63dc80d06542817c64977f3cd9172f39e34966a62df68b0f9/vitejs/vite/releases/tag/v8.3.0",
+            "date_modified": "2026-09-10T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-09/ai-generates-3d-blender-models-images-gpt6-astra",
+            "content_html": "## Summary & Key Takeaways\n\n- The article showcases AI's ability to generate 3D Blender models from images.\n- GPT-6 Astra and Codex were used to create the models.\n- An image of a Fabergé egg was used as the prompt input.\n- The AI successfully generated multiple `.blend` files.\n- A new `.blend` URL viewer tool was created to display these models in the browser.\n- This highlights AI's growing capabilities in creative 3D content generation.\n\n## Our Commentary\n\nAI generating 3D Blender models from an image? That's genuinely impressive. We're seeing AI move beyond 2D image generation into complex 3D assets. The fact that it took 17 minutes is a detail, but the capability itself is a huge leap. I'm thinking about the implications for game development and virtual worlds. This is a powerful creative tool.\n\nOriginal Link: https://simonwillison.net/2026/Sep/9/blender-viewer/",
+            "url": "https://digestweb.dev/articles/2026-09-09/ai-generates-3d-blender-models-images-gpt6-astra",
+            "title": "AI Generates 3D Blender Models from Images with GPT-6 Astra",
+            "summary": "Simon Willison demonstrates how GPT-6 Astra and Codex can generate 3D Blender models from images, showcasing AI's creative potential and a new .blend URL viewer.",
+            "image": "https://static.simonwillison.net/static/2026/pluribus-blender-viewer.webp",
+            "date_modified": "2026-09-09T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-09-09/ai-impact-open-science-terence-tao-warning",
             "content_html": "## Summary & Key Takeaways\n\n- AI is rapidly solving open scientific problems, potentially depleting the pool of fruitful research questions.\n- The speed of AI-powered effort can \"flatten\" problems before human researchers fully explore them.\n- This creates an incentive for researchers to withhold promising directions, reversing open science traditions.\n- Such a shift could cause serious long-term damage to the future of scientific fields.\n\n## Our Commentary\n\nThis is heavy. I'm genuinely unsettled by the idea of AI consuming the very wellspring of human curiosity. We've always relied on the slow burn of shared problems. The thought of that being strip-mined for quick solutions feels... wrong. It's like we're accelerating towards a future where the joy of discovery is outsourced, and the process itself becomes a race against machines. What happens when all the \"easy\" problems are gone?\n\nOriginal Link: https://simonwillison.net/2026/Sep/9/terence-tao/",
             "url": "https://digestweb.dev/articles/2026-09-09/ai-impact-open-science-terence-tao-warning",
