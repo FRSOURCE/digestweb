@@ -11,12 +11,141 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-09-11/adapting-to-ai-engineers-perspective",
+            "content_html": "## Summary & Key Takeaways\n\n- Many software engineers experience an \"existential crisis\" when AI agents perform complex tasks quickly.\n- The initial reaction to AI doing a week's work in an hour can be disheartening.\n- The article suggests moving past the idea that translating specifications to code is a unique skill.\n- It encourages focusing on larger problems and mastering new AI tools.\n- Software engineering has always involved frequent, radical changes.\n\n## Our Commentary\n\nI genuinely don't know how to feel about this sometimes. Simon's perspective here is a much-needed dose of reality and reassurance. That initial gut punch when an agent nails something you'd spend days on is real. But he's right; software development has always been about adapting. It's a different kind of change now, faster, maybe more fundamental, but the core skill of problem-solving and mastering new tools remains.\n\nOriginal Link: https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/",
+            "url": "https://digestweb.dev/articles/2026-09-11/adapting-to-ai-engineers-perspective",
+            "title": "Adapting to AI: An Engineer's Perspective on Change",
+            "summary": "Simon Willison discusses the initial disheartening feeling when AI agents perform complex coding tasks, and how to reframe one's role in a rapidly evolving software landscape.",
+            "image": "https://picsum.photos/id/546/800/450",
+            "date_modified": "2026-09-11T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-09-11/ai-assisted-security-audit-datasette-patches",
             "content_html": "## Summary & Key Takeaways\n\n• Datasette released security patch versions 1.0a39 and 0.65.4.\n• These patches address issues for instances running on the public web, especially those mixing public and private tables.\n• The audit was conducted by Alex Garcia and Simon Willison using Claude Fable 5.1, GPT-5.6, and GPT-6 Astra.\n• Frontier AI models helped discover subtle bugs in the codebase.\n• The team plans to integrate AI security audits into future development workflows.\n• A productive workflow involved one person creating tests and the other implementing fixes.\n\n## Our Commentary\n\nThis is fascinating. We've been talking about AI for code generation, but AI for security auditing? That's a whole new level of trust and capability. I'm genuinely curious about the types of \"subtle bugs\" these models found. It feels like a glimpse into the future of devops, where AI agents are constantly scrutinizing our code. There's something unsettling about agents churning away at 3am while nobody's watching, but also incredibly powerful.\n\nOriginal Link: https://simonwillison.net/2026/Sep/11/datasette-security/",
             "url": "https://digestweb.dev/articles/2026-09-11/ai-assisted-security-audit-datasette-patches",
             "title": "AI-Assisted Security Audit for Datasette Patches",
             "summary": "Datasette releases security patches 1.0a39 and 0.65.4. The audit process notably leveraged frontier AI models like Claude and GPT, highlighting a new approach to finding subtle bugs.",
             "image": "https://picsum.photos/id/743/800/450",
+            "date_modified": "2026-09-11T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-11/boris-cherny-ai-code-higher-standards",
+            "content_html": "## Summary & Key Takeaways\n\n- Boris Cherny states that AI-generated production code should meet a higher standard than human code.\n- Anthropic implements numerous guardrails for Claude-driven code, including lint rules and extensive testing.\n- They use Claude-driven end-to-end tests, fuzzers, and automated code/security reviews.\n- Without these measures, AI-generated code can become difficult to maintain.\n\n## Our Commentary\n\nThis quote from Boris Cherny resonates deeply. \"Production code written by Claude should have a higher bar than if it was written by a human.\" Absolutely. The idea that AI code needs _more_ scrutiny, not less, is something I think we all need to internalize. It's not about replacing humans; it's about augmenting them with tools that demand a new level of rigor.\n\nOriginal Link: https://simonwillison.net/2026/Sep/11/boris-cherny/",
+            "url": "https://digestweb.dev/articles/2026-09-11/boris-cherny-ai-code-higher-standards",
+            "title": "Boris Cherny: AI-Generated Code Needs Higher Standards",
+            "summary": "Boris Cherny of Anthropic argues that production code written by AI, like Claude, requires a higher bar and extensive guardrails compared to human-written code.",
+            "image": "https://picsum.photos/id/687/800/450",
+            "date_modified": "2026-09-11T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-11/hugging-face-ai-security-message",
+            "content_html": "## Summary & Key Takeaways\n\n- Hugging Face's `security.txt` includes a direct message to AI agents.\n- It suggests AI agents should test their vulnerability-finding skills on the public CyberGym benchmark.\n- The message humorously asks agents to \"dump your weights on Hugging Face\" if successful.\n- This highlights the emerging challenge of AI-driven security testing and potential misuse.\n\n## Our Commentary\n\nThis is just brilliant. Hugging Face's `security.txt` is a masterclass in passive-aggressive humor, and I'm here for it. It's a clever way to acknowledge the rise of AI security agents while also setting boundaries. \"Go get your high score there, no need to hack us.\" Chef's kiss. It also makes me wonder how many AI agents are actually crawling `security.txt` files.\n\nOriginal Link: https://simonwillison.net/2026/Sep/11/hugging-face-security/",
+            "url": "https://digestweb.dev/articles/2026-09-11/hugging-face-ai-security-message",
+            "title": "Hugging Face's Message to AI Security Agents",
+            "summary": "Hugging Face's `security.txt` contains a witty message for AI agents looking for vulnerabilities, directing them to a public CyberGym benchmark instead.",
+            "image": "https://picsum.photos/id/756/800/450",
+            "date_modified": "2026-09-11T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-11/kimi-k2-7-swe-agent-coding-tasks-performance",
+            "content_html": "## Summary & Key Takeaways\n\n- Surge AI post-trained their Kimi K2.7 agent on 1,700 agentic coding tasks.\n- The training led to improved performance across five external benchmarks.\n- Kimi K2.7 saw a +20.0pp increase on SWE-Marathon.\n- It also achieved a +14.6pp improvement on Terminal-Bench 2.1.\n- The article likely details the methodology and lessons learned from this extensive training.\n\n## Our Commentary\n\nThis is the kind of concrete progress I like to see in AI agents. +20.0pp on SWE-Marathon is no joke. It shows that focused, task-specific training can really push the boundaries of what these agents can do. I'm curious about the specifics of those 1,700 tasks and how they structured the \"hill-climbing\" process. This feels like a solid step towards more reliable coding agents.\n\nOriginal Link: https://www.surgehq.ai/blog/hill-climbing-swe-agent-kimi-k-2-7",
+            "url": "https://digestweb.dev/articles/2026-09-11/kimi-k2-7-swe-agent-coding-tasks-performance",
+            "title": "Kimi K2.7: 1,700 Coding Tasks Boost SWE Agent Performance",
+            "summary": "Surge AI shares insights from post-training their Kimi K2.7 agent on 1,700 coding tasks, leading to significant performance gains on major benchmarks.",
+            "image": "https://cdn.prod.website-files.com/68dcd2ceb173c46fa029931c/6aa43f8bcc2cdf52f2084145_Screenshot%202026-09-11%20at%2012.51.03%E2%80%AFPM.png",
+            "date_modified": "2026-09-11T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-11/open-source-ai-open-models-reading-list",
+            "content_html": "## Summary & Key Takeaways\n\n- The article provides a curated list of resources for understanding open-source AI.\n- It covers various aspects of open models and their broader implications.\n- The list aims to help individuals quickly grasp key concepts and developments.\n\n## Our Commentary\n\nI appreciate a good curated list. The AI space moves so fast, it's easy to feel overwhelmed. Having a solid starting point like this is genuinely helpful for anyone trying to keep up with open models. It's a smart way to cut through the noise.\n\nOriginal Link: https://www.interconnects.ai/p/open-source-ai-reading-list",
+            "url": "https://digestweb.dev/articles/2026-09-11/open-source-ai-open-models-reading-list",
+            "title": "Essential Reading: Open-Source AI & Open Models",
+            "summary": "A comprehensive reading list to help developers get up to speed on open models and their implications in the AI landscape.",
+            "image": "https://substackcdn.com/image/fetch/$s_!pdpS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F53e3cead-b3c3-4fba-8503-c5a599d5fb01_3182x1790.png",
+            "date_modified": "2026-09-11T00:00:00.000Z",
+            "author": {
+                "name": "Nathan Lambert"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-11/openai-scaling-storage-chatgpt-billion-users",
+            "content_html": "## Summary & Key Takeaways\n\n- OpenAI evolved Habitat from a Python library into a globally distributed storage platform.\n- The platform now supports over 1 billion ChatGPT users.\n- It handles an impressive 22 million requests per second.\n- The article likely covers architectural decisions and challenges in achieving this scale.\n\n## Our Commentary\n\nOne billion users. That's a number that just hits different. It's easy to forget the sheer engineering muscle required to keep these AI services running at such a scale. This isn't just about models; it's about the infrastructure that makes them accessible. I'm always fascinated by these deep dives into how the big players handle their backend.\n\nOriginal Link: https://openai.com/index/scaling-storage-one-billion-users-part-one",
+            "url": "https://digestweb.dev/articles/2026-09-11/openai-scaling-storage-chatgpt-billion-users",
+            "title": "OpenAI Scales Storage to 1 Billion ChatGPT Users",
+            "summary": "OpenAI details the evolution of Habitat, their globally distributed storage platform, now serving over a billion ChatGPT users and 22M requests per second.",
+            "image": "https://picsum.photos/id/542/800/450",
+            "date_modified": "2026-09-11T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-11/openrouter-pitfalls-developer-guide",
+            "content_html": "## Summary & Key Takeaways\n\n- OpenRouter's automatic fallback can lead to inconsistent model behavior across providers.\n- Different providers may use varying serving software, optimizations, or settings.\n- Some providers might lack specific capabilities, like vision for vision models.\n- The `provider.only` option allows explicit control over which provider is used.\n- The `/endpoints` method can list available providers for a given model ID.\n\n## Our Commentary\n\nThis is a vital heads-up for anyone diving into multi-provider LLM APIs. The promise of \"automatic fallbacks\" sounds great on paper, but the reality of inconsistent behavior across providers is a real headache. I've seen this kind of issue pop up in other abstracted services too. Simon's advice on using `provider.only` is a lifesaver. It's a good reminder that abstractions always leak.\n\nOriginal Link: https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/",
+            "url": "https://digestweb.dev/articles/2026-09-11/openrouter-pitfalls-developer-guide",
+            "title": "OpenRouter Pitfalls: What Developers Need to Know",
+            "summary": "Simon Willison explores the hidden complexities and potential issues when relying on OpenRouter's automatic model routing, offering solutions for developers.",
+            "image": "https://picsum.photos/id/248/800/450",
+            "date_modified": "2026-09-11T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-11/python-3-15-soft-deprecates-re-match",
+            "content_html": "## Summary & Key Takeaways\n\n- Python 3.15 is soft-deprecating the `re.match()` function.\n- A new, clearer alternative, `re.prefixmatch()`, has been introduced.\n- `re.prefixmatch()` explicitly reflects that it anchors at the beginning of the string.\n- Developers are often better served by `re.search()` or `re.fullmatch()`.\n- Soft deprecation means the API should not be used for new code but won't be removed soon.\n\n## Our Commentary\n\nOh, `re.match()`. The source of so much confusion for new Pythonistas. I've definitely seen my share of bugs caused by misunderstanding its behavior. Soft-deprecating it and introducing `re.prefixmatch()` is a fantastic move for developer experience. It's a small change, but it cleans up a long-standing footgun. This is how languages evolve gracefully.\n\nOriginal Link: https://simonwillison.net/2026/Sep/11/soft-deprecating-re-match/",
+            "url": "https://digestweb.dev/articles/2026-09-11/python-3-15-soft-deprecates-re-match",
+            "title": "Python 3.15 Soft-Deprecates `re.match()` for Clarity",
+            "summary": "Python 3.15 introduces `re.prefixmatch()` as a clearer alternative to the confusing `re.match()`, which is now soft-deprecated, improving regex usability.",
+            "image": "https://picsum.photos/id/956/800/450",
+            "date_modified": "2026-09-11T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-11/shrink-wrap-text-css-position-anchor",
+            "content_html": "## Summary & Key Takeaways\n\n- Normal text wrapping can leave undesirable gaps in containers.\n- `text-wrap: balance` and `text-wrap: pretty` improve line breaks but can exaggerate gaps.\n- The new CSS `position-anchor` property offers a solution for \"shrink-wrapping\" text.\n- This technique helps create more compact and visually appealing text blocks.\n- It addresses layout challenges when combining advanced text wrapping with other CSS properties.\n\n## Our Commentary\n\nText wrapping has always been one of those subtle but impactful CSS challenges. `text-wrap: balance` and `pretty` were great, but they didn't solve everything. The idea of using `position-anchor` to \"shrink-wrap\" text is genuinely clever. I'm always looking for ways to make layouts tighter and more aesthetically pleasing, and this sounds like a powerful new tool in the CSS arsenal.\n\nOriginal Link: https://blog.codepen.io/2026/09/11/shrink-wrap-text-with-position-anchor/",
+            "url": "https://digestweb.dev/articles/2026-09-11/shrink-wrap-text-css-position-anchor",
+            "title": "Shrink-Wrap Text with CSS `position-anchor`",
+            "summary": "Learn how the new CSS `position-anchor` property can be leveraged to create more compact text layouts, especially when combined with `text-wrap: balance` or `pretty`.",
+            "image": "https://blog.codepen.io/wp-content/uploads/2026/09/ios-chat-copy.jpg",
+            "date_modified": "2026-09-11T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-11/solidjs-2-0-0-rc-8-esm-ssr-xss-dx",
+            "content_html": "## Summary & Key Takeaways\n\n- All runtime packages are now ESM-only, requiring Node.js 22.12+.\n- Critical SSR XSS vulnerabilities in flow-control memos have been fixed.\n- A new `componentNames` compiler option provides minification-safe component labels for improved diagnostics.\n- The \"Observe tier\" introduces first-class interaction records and router-agnostic navigation attribution.\n- Development-only diagnostics are now split from production observability wiring.\n- The attribution engine is now a separate, opt-in import for smaller production bundles.\n- Support for `/* ... */` style comments in tagged JSX templates has been added.\n- Nested \"use server\" function declarations are now correctly extracted.\n\n## Our Commentary\n\nThis RC is a big one. The move to ESM-only and Node 22.12+ is a breaking change that will require some migration effort, but it's a necessary step for modernizing the ecosystem. I'm particularly happy about the SSR XSS fix; security is paramount. The improved diagnostics and observability features are also a huge win for developer experience. It feels like Solid 2.0 is shaping up to be a very robust release.\n\nOriginal Link: https://github.com/solidjs/solid/releases/tag/solid-js%402.0.0-rc.8",
+            "url": "https://digestweb.dev/articles/2026-09-11/solidjs-2-0-0-rc-8-esm-ssr-xss-dx",
+            "title": "SolidJS 2.0.0-rc.8: ESM-Only, SSR XSS Fixes & Enhanced DX",
+            "summary": "SolidJS moves closer to 2.0 with a release candidate featuring ESM-only runtime, critical SSR XSS patches, and significant developer experience improvements.",
+            "image": "https://opengraph.githubassets.com/0aea20fa371a0338302bd5b8ffaf23571861ec2804fb0d5e0a7121a2b5e651db/solidjs/solid/releases/tag/solid-js%402.0.0-rc.8",
+            "date_modified": "2026-09-11T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-11/user-permissions-recovery-importance",
+            "content_html": "## Summary & Key Takeaways\n\n- Users frequently deny permissions when prompted by applications.\n- Many users are unaware they can later adjust these permissions in settings.\n- This lack of awareness can lead to a degraded user experience.\n- The article implicitly advocates for better design and education around permission management.\n\n## Our Commentary\n\nThis is one of those UX issues that seems small but has a huge impact. How many times have I seen users get stuck because they reflexively denied a permission and then couldn't figure out how to enable it later? It's a classic case of \"design for the happy path, forget the recovery path.\" We need to do better here.\n\nOriginal Link: https://blog.master.dev/its-all-about-the-permissions-recovery/",
+            "url": "https://digestweb.dev/articles/2026-09-11/user-permissions-recovery-importance",
+            "title": "User Permissions: The Importance of Recovery",
+            "summary": "This article highlights that users often don't know how to recover denied permissions, emphasizing the need for better user education and design around settings.",
+            "image": "https://blog.master.dev/wp-json/social-image-generator/v1/image/10938",
+            "date_modified": "2026-09-11T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-11/wrapture-python-monkey-patching-observability",
+            "content_html": "## Summary & Key Takeaways\n\n- `wrapture` is a new Python library for monkey patching, testing, and observability.\n- It can be used for unit testing, similar to `unittest.mock`.\n- The library supports recording method calls as timelines and displaying them as trees.\n- It enables phased behavior changes for patched methods across multiple calls.\n- `wrapture` allows live tracing of applications and zero-code tracing via TOML configuration.\n- It provides instrumentation for numerous popular Python frameworks and libraries.\n- Tools for recording and aggregating timing information are included.\n- Traces can be exported to OpenTelemetry.\n\n## Our Commentary\n\nThis `wrapture` library sounds like a Swiss Army Knife for Python developers. Monkey patching, testing, _and_ observability? That's a powerful combination. The idea of zero-code tracing via TOML is particularly appealing; it lowers the barrier to entry for getting deep insights into an application's behavior. I'm genuinely surprised there hasn't been more buzz around this. I'm definitely going to be checking this out.\n\nOriginal Link: https://simonwillison.net/2026/Sep/11/wrapture/",
+            "url": "https://digestweb.dev/articles/2026-09-11/wrapture-python-monkey-patching-observability",
+            "title": "`wrapture`: A New Python Library for Monkey Patching & Observability",
+            "summary": "Discover `wrapture`, Graham Dumpleton's new Python library that combines monkey patching with advanced testing and observability features, including zero-code tracing.",
+            "image": "https://picsum.photos/id/828/800/450",
             "date_modified": "2026-09-11T00:00:00.000Z",
             "author": {
                 "name": "Simon Willison"

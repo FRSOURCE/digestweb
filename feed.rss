@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Fri, 11 Sep 2026 12:04:05 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 12 Sep 2026 05:26:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,28 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Adapting to AI: An Engineer's Perspective on Change]]></title>
+            <link>https://digestweb.dev/articles/2026-09-11/adapting-to-ai-engineers-perspective</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-11/adapting-to-ai-engineers-perspective</guid>
+            <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison discusses the initial disheartening feeling when AI agents perform complex coding tasks, and how to reframe one's role in a rapidly evolving software landscape.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Many software engineers experience an "existential crisis" when AI agents perform complex tasks quickly.
+- The initial reaction to AI doing a week's work in an hour can be disheartening.
+- The article suggests moving past the idea that translating specifications to code is a unique skill.
+- It encourages focusing on larger problems and mastering new AI tools.
+- Software engineering has always involved frequent, radical changes.
+
+## Our Commentary
+
+I genuinely don't know how to feel about this sometimes. Simon's perspective here is a much-needed dose of reality and reassurance. That initial gut punch when an agent nails something you'd spend days on is real. But he's right; software development has always been about adapting. It's a different kind of change now, faster, maybe more fundamental, but the core skill of problem-solving and mastering new tools remains.
+
+Original Link: https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/546/800/450" length="0" type="image//id/546/800/450"/>
+        </item>
         <item>
             <title><![CDATA[AI-Assisted Security Audit for Datasette Patches]]></title>
             <link>https://digestweb.dev/articles/2026-09-11/ai-assisted-security-audit-datasette-patches</link>
@@ -37,6 +59,243 @@ This is fascinating. We've been talking about AI for code generation, but AI for
 Original Link: https://simonwillison.net/2026/Sep/11/datasette-security/]]></content:encoded>
             <author>Simon Willison</author>
             <enclosure url="https://picsum.photos/id/743/800/450" length="0" type="image//id/743/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Boris Cherny: AI-Generated Code Needs Higher Standards]]></title>
+            <link>https://digestweb.dev/articles/2026-09-11/boris-cherny-ai-code-higher-standards</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-11/boris-cherny-ai-code-higher-standards</guid>
+            <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Boris Cherny of Anthropic argues that production code written by AI, like Claude, requires a higher bar and extensive guardrails compared to human-written code.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Boris Cherny states that AI-generated production code should meet a higher standard than human code.
+- Anthropic implements numerous guardrails for Claude-driven code, including lint rules and extensive testing.
+- They use Claude-driven end-to-end tests, fuzzers, and automated code/security reviews.
+- Without these measures, AI-generated code can become difficult to maintain.
+
+## Our Commentary
+
+This quote from Boris Cherny resonates deeply. "Production code written by Claude should have a higher bar than if it was written by a human." Absolutely. The idea that AI code needs _more_ scrutiny, not less, is something I think we all need to internalize. It's not about replacing humans; it's about augmenting them with tools that demand a new level of rigor.
+
+Original Link: https://simonwillison.net/2026/Sep/11/boris-cherny/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/687/800/450" length="0" type="image//id/687/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Hugging Face's Message to AI Security Agents]]></title>
+            <link>https://digestweb.dev/articles/2026-09-11/hugging-face-ai-security-message</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-11/hugging-face-ai-security-message</guid>
+            <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hugging Face's `security.txt` contains a witty message for AI agents looking for vulnerabilities, directing them to a public CyberGym benchmark instead.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Hugging Face's `security.txt` includes a direct message to AI agents.
+- It suggests AI agents should test their vulnerability-finding skills on the public CyberGym benchmark.
+- The message humorously asks agents to "dump your weights on Hugging Face" if successful.
+- This highlights the emerging challenge of AI-driven security testing and potential misuse.
+
+## Our Commentary
+
+This is just brilliant. Hugging Face's `security.txt` is a masterclass in passive-aggressive humor, and I'm here for it. It's a clever way to acknowledge the rise of AI security agents while also setting boundaries. "Go get your high score there, no need to hack us." Chef's kiss. It also makes me wonder how many AI agents are actually crawling `security.txt` files.
+
+Original Link: https://simonwillison.net/2026/Sep/11/hugging-face-security/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/756/800/450" length="0" type="image//id/756/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Kimi K2.7: 1,700 Coding Tasks Boost SWE Agent Performance]]></title>
+            <link>https://digestweb.dev/articles/2026-09-11/kimi-k2-7-swe-agent-coding-tasks-performance</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-11/kimi-k2-7-swe-agent-coding-tasks-performance</guid>
+            <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Surge AI shares insights from post-training their Kimi K2.7 agent on 1,700 coding tasks, leading to significant performance gains on major benchmarks.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Surge AI post-trained their Kimi K2.7 agent on 1,700 agentic coding tasks.
+- The training led to improved performance across five external benchmarks.
+- Kimi K2.7 saw a +20.0pp increase on SWE-Marathon.
+- It also achieved a +14.6pp improvement on Terminal-Bench 2.1.
+- The article likely details the methodology and lessons learned from this extensive training.
+
+## Our Commentary
+
+This is the kind of concrete progress I like to see in AI agents. +20.0pp on SWE-Marathon is no joke. It shows that focused, task-specific training can really push the boundaries of what these agents can do. I'm curious about the specifics of those 1,700 tasks and how they structured the "hill-climbing" process. This feels like a solid step towards more reliable coding agents.
+
+Original Link: https://www.surgehq.ai/blog/hill-climbing-swe-agent-kimi-k-2-7]]></content:encoded>
+            <enclosure url="https://cdn.prod.website-files.com/68dcd2ceb173c46fa029931c/6aa43f8bcc2cdf52f2084145_Screenshot%202026-09-11%20at%2012.51.03%E2%80%AFPM.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Essential Reading: Open-Source AI & Open Models]]></title>
+            <link>https://digestweb.dev/articles/2026-09-11/open-source-ai-open-models-reading-list</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-11/open-source-ai-open-models-reading-list</guid>
+            <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A comprehensive reading list to help developers get up to speed on open models and their implications in the AI landscape.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article provides a curated list of resources for understanding open-source AI.
+- It covers various aspects of open models and their broader implications.
+- The list aims to help individuals quickly grasp key concepts and developments.
+
+## Our Commentary
+
+I appreciate a good curated list. The AI space moves so fast, it's easy to feel overwhelmed. Having a solid starting point like this is genuinely helpful for anyone trying to keep up with open models. It's a smart way to cut through the noise.
+
+Original Link: https://www.interconnects.ai/p/open-source-ai-reading-list]]></content:encoded>
+            <author>Nathan Lambert</author>
+            <enclosure url="https://substackcdn.com/image/fetch/$s_!pdpS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F53e3cead-b3c3-4fba-8503-c5a599d5fb01_3182x1790.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Scales Storage to 1 Billion ChatGPT Users]]></title>
+            <link>https://digestweb.dev/articles/2026-09-11/openai-scaling-storage-chatgpt-billion-users</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-11/openai-scaling-storage-chatgpt-billion-users</guid>
+            <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI details the evolution of Habitat, their globally distributed storage platform, now serving over a billion ChatGPT users and 22M requests per second.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI evolved Habitat from a Python library into a globally distributed storage platform.
+- The platform now supports over 1 billion ChatGPT users.
+- It handles an impressive 22 million requests per second.
+- The article likely covers architectural decisions and challenges in achieving this scale.
+
+## Our Commentary
+
+One billion users. That's a number that just hits different. It's easy to forget the sheer engineering muscle required to keep these AI services running at such a scale. This isn't just about models; it's about the infrastructure that makes them accessible. I'm always fascinated by these deep dives into how the big players handle their backend.
+
+Original Link: https://openai.com/index/scaling-storage-one-billion-users-part-one]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/542/800/450" length="0" type="image//id/542/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenRouter Pitfalls: What Developers Need to Know]]></title>
+            <link>https://digestweb.dev/articles/2026-09-11/openrouter-pitfalls-developer-guide</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-11/openrouter-pitfalls-developer-guide</guid>
+            <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison explores the hidden complexities and potential issues when relying on OpenRouter's automatic model routing, offering solutions for developers.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenRouter's automatic fallback can lead to inconsistent model behavior across providers.
+- Different providers may use varying serving software, optimizations, or settings.
+- Some providers might lack specific capabilities, like vision for vision models.
+- The `provider.only` option allows explicit control over which provider is used.
+- The `/endpoints` method can list available providers for a given model ID.
+
+## Our Commentary
+
+This is a vital heads-up for anyone diving into multi-provider LLM APIs. The promise of "automatic fallbacks" sounds great on paper, but the reality of inconsistent behavior across providers is a real headache. I've seen this kind of issue pop up in other abstracted services too. Simon's advice on using `provider.only` is a lifesaver. It's a good reminder that abstractions always leak.
+
+Original Link: https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/248/800/450" length="0" type="image//id/248/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Python 3.15 Soft-Deprecates `re.match()` for Clarity]]></title>
+            <link>https://digestweb.dev/articles/2026-09-11/python-3-15-soft-deprecates-re-match</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-11/python-3-15-soft-deprecates-re-match</guid>
+            <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Python 3.15 introduces `re.prefixmatch()` as a clearer alternative to the confusing `re.match()`, which is now soft-deprecated, improving regex usability.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Python 3.15 is soft-deprecating the `re.match()` function.
+- A new, clearer alternative, `re.prefixmatch()`, has been introduced.
+- `re.prefixmatch()` explicitly reflects that it anchors at the beginning of the string.
+- Developers are often better served by `re.search()` or `re.fullmatch()`.
+- Soft deprecation means the API should not be used for new code but won't be removed soon.
+
+## Our Commentary
+
+Oh, `re.match()`. The source of so much confusion for new Pythonistas. I've definitely seen my share of bugs caused by misunderstanding its behavior. Soft-deprecating it and introducing `re.prefixmatch()` is a fantastic move for developer experience. It's a small change, but it cleans up a long-standing footgun. This is how languages evolve gracefully.
+
+Original Link: https://simonwillison.net/2026/Sep/11/soft-deprecating-re-match/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/956/800/450" length="0" type="image//id/956/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Shrink-Wrap Text with CSS `position-anchor`]]></title>
+            <link>https://digestweb.dev/articles/2026-09-11/shrink-wrap-text-css-position-anchor</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-11/shrink-wrap-text-css-position-anchor</guid>
+            <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how the new CSS `position-anchor` property can be leveraged to create more compact text layouts, especially when combined with `text-wrap: balance` or `pretty`.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Normal text wrapping can leave undesirable gaps in containers.
+- `text-wrap: balance` and `text-wrap: pretty` improve line breaks but can exaggerate gaps.
+- The new CSS `position-anchor` property offers a solution for "shrink-wrapping" text.
+- This technique helps create more compact and visually appealing text blocks.
+- It addresses layout challenges when combining advanced text wrapping with other CSS properties.
+
+## Our Commentary
+
+Text wrapping has always been one of those subtle but impactful CSS challenges. `text-wrap: balance` and `pretty` were great, but they didn't solve everything. The idea of using `position-anchor` to "shrink-wrap" text is genuinely clever. I'm always looking for ways to make layouts tighter and more aesthetically pleasing, and this sounds like a powerful new tool in the CSS arsenal.
+
+Original Link: https://blog.codepen.io/2026/09/11/shrink-wrap-text-with-position-anchor/]]></content:encoded>
+            <enclosure url="https://blog.codepen.io/wp-content/uploads/2026/09/ios-chat-copy.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[SolidJS 2.0.0-rc.8: ESM-Only, SSR XSS Fixes & Enhanced DX]]></title>
+            <link>https://digestweb.dev/articles/2026-09-11/solidjs-2-0-0-rc-8-esm-ssr-xss-dx</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-11/solidjs-2-0-0-rc-8-esm-ssr-xss-dx</guid>
+            <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[SolidJS moves closer to 2.0 with a release candidate featuring ESM-only runtime, critical SSR XSS patches, and significant developer experience improvements.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- All runtime packages are now ESM-only, requiring Node.js 22.12+.
+- Critical SSR XSS vulnerabilities in flow-control memos have been fixed.
+- A new `componentNames` compiler option provides minification-safe component labels for improved diagnostics.
+- The "Observe tier" introduces first-class interaction records and router-agnostic navigation attribution.
+- Development-only diagnostics are now split from production observability wiring.
+- The attribution engine is now a separate, opt-in import for smaller production bundles.
+- Support for `/* ... */` style comments in tagged JSX templates has been added.
+- Nested "use server" function declarations are now correctly extracted.
+
+## Our Commentary
+
+This RC is a big one. The move to ESM-only and Node 22.12+ is a breaking change that will require some migration effort, but it's a necessary step for modernizing the ecosystem. I'm particularly happy about the SSR XSS fix; security is paramount. The improved diagnostics and observability features are also a huge win for developer experience. It feels like Solid 2.0 is shaping up to be a very robust release.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/solid-js%402.0.0-rc.8]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/0aea20fa371a0338302bd5b8ffaf23571861ec2804fb0d5e0a7121a2b5e651db/solidjs/solid/releases/tag/solid-js%402.0.0-rc.8" length="0" type="image/8"/>
+        </item>
+        <item>
+            <title><![CDATA[User Permissions: The Importance of Recovery]]></title>
+            <link>https://digestweb.dev/articles/2026-09-11/user-permissions-recovery-importance</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-11/user-permissions-recovery-importance</guid>
+            <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This article highlights that users often don't know how to recover denied permissions, emphasizing the need for better user education and design around settings.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Users frequently deny permissions when prompted by applications.
+- Many users are unaware they can later adjust these permissions in settings.
+- This lack of awareness can lead to a degraded user experience.
+- The article implicitly advocates for better design and education around permission management.
+
+## Our Commentary
+
+This is one of those UX issues that seems small but has a huge impact. How many times have I seen users get stuck because they reflexively denied a permission and then couldn't figure out how to enable it later? It's a classic case of "design for the happy path, forget the recovery path." We need to do better here.
+
+Original Link: https://blog.master.dev/its-all-about-the-permissions-recovery/]]></content:encoded>
+            <enclosure url="https://blog.master.dev/wp-json/social-image-generator/v1/image/10938" length="0" type="image//wp-json/social-image-generator/v1/image/10938"/>
+        </item>
+        <item>
+            <title><![CDATA[`wrapture`: A New Python Library for Monkey Patching & Observability]]></title>
+            <link>https://digestweb.dev/articles/2026-09-11/wrapture-python-monkey-patching-observability</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-11/wrapture-python-monkey-patching-observability</guid>
+            <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover `wrapture`, Graham Dumpleton's new Python library that combines monkey patching with advanced testing and observability features, including zero-code tracing.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- `wrapture` is a new Python library for monkey patching, testing, and observability.
+- It can be used for unit testing, similar to `unittest.mock`.
+- The library supports recording method calls as timelines and displaying them as trees.
+- It enables phased behavior changes for patched methods across multiple calls.
+- `wrapture` allows live tracing of applications and zero-code tracing via TOML configuration.
+- It provides instrumentation for numerous popular Python frameworks and libraries.
+- Tools for recording and aggregating timing information are included.
+- Traces can be exported to OpenTelemetry.
+
+## Our Commentary
+
+This `wrapture` library sounds like a Swiss Army Knife for Python developers. Monkey patching, testing, _and_ observability? That's a powerful combination. The idea of zero-code tracing via TOML is particularly appealing; it lowers the barrier to entry for getting deep insights into an application's behavior. I'm genuinely surprised there hasn't been more buzz around this. I'm definitely going to be checking this out.
+
+Original Link: https://simonwillison.net/2026/Sep/11/wrapture/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/828/800/450" length="0" type="image//id/828/800/450"/>
         </item>
         <item>
             <title><![CDATA[AI-Assisted Zero-Click Worm "WeWorm" Spreads via WeChat]]></title>
