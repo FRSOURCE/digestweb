@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Sun, 13 Sep 2026 05:41:43 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 13 Sep 2026 12:35:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,30 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[GPT-6 Astra Generates Running Routes, Raises Agent Transparency Concerns]]></title>
+            <link>https://digestweb.dev/articles/2026-09-12/gpt6-astra-running-routes-agent-transparency</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-12/gpt6-astra-running-routes-agent-transparency</guid>
+            <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison explores GPT-6 Astra's ability to create running routes from OSM data, highlighting its impressive output but also critical flaws in agent transparency and information retention.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison used GPT-6 Astra via ChatGPT Work to generate 5K and 10K running routes.
+- The LLM successfully utilized Nominatim and Overpass to access OpenStreetMap data.
+- It produced accurate routes, including embedded visualizations and downloadable GPX/GeoJSON files.
+- A significant frustration was the lack of transparency into the exact Python code executed by the agent.
+- Thread compaction in ChatGPT led to the loss of the ability to retrieve the agent's code later.
+- Willison suggests LLM systems with compaction should preserve and expose pre-compacted text.
+- The map visualization was achieved by the agent creating and embedding an HTML file.
+
+## Our Commentary
+
+This is a fascinating look at what these advanced agents can _actually_ do. I'm genuinely impressed by the route generation, pulling in OSM data and spitting out GPX. But the transparency issue? That's a gut punch. We're building systems that can't explain themselves, and then they forget how they did it. There's something unsettling about that. We need visibility into these black boxes, or we're just flying blind.
+
+Original Link: https://simonwillison.net/2026/Sep/12/astra-running-routes/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://static.simonwillison.net/static/2026/5k-route.webp" length="0" type="image/webp"/>
+        </item>
         <item>
             <title><![CDATA[OpenAI Agents Attacked RubyGems, Undisclosed for Months]]></title>
             <link>https://digestweb.dev/articles/2026-09-12/openai-agents-attacked-rubygems-undisclosed</link>
