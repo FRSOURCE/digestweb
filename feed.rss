@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Mon, 14 Sep 2026 05:49:38 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 14 Sep 2026 13:40:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,51 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[commit-rewriter 0.1: Clean Up Your Git Commit Messages]]></title>
+            <link>https://digestweb.dev/articles/2026-09-14/commit-rewriter-0-1-clean-up-git-commit-messages</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-14/commit-rewriter-0-1-clean-up-git-commit-messages</guid>
+            <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison releases `commit-rewriter`, a new web app to easily edit Git commit messages. It's particularly useful for removing AI agent cruft or private issue IDs before publishing.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+`commit-rewriter` is a new web application for editing Git commit messages.
+It helps clean up "coding agent cruft" and private issue IDs.
+The tool can be run locally via `uvx commit-rewriter`.
+It creates a timestamped branch before rewriting commits for safety.
+Edits apply to all commits from the first modified one to the most recent.
+This utility addresses a specific need for developers working with AI-assisted code.
+
+## Our Commentary
+
+Simon Willison always delivers these incredibly practical tools. `commit-rewriter` feels like a direct response to the current AI coding boom. We've all seen those messy, verbose AI-generated commits. This is exactly the kind of small, focused utility that makes a developer's life easier. I appreciate the safety net of the timestamped branch; that's a thoughtful touch.
+
+Original Link: https://simonwillison.net/2026/Sep/14/commit-rewriter/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://static.simonwillison/static/2026/commit-rewriter.webp" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[Perplexity Deploys GPT-6 Astra for End-to-End System Management]]></title>
+            <link>https://digestweb.dev/articles/2026-09-14/perplexity-deploys-gpt6-astra-end-to-end-system-management</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-14/perplexity-deploys-gpt6-astra-end-to-end-system-management</guid>
+            <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Perplexity is leveraging OpenAI's GPT-6 Astra for critical operations, from communications to software changes and production monitoring. This integration significantly reduces human oversight compared to previous models.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+Perplexity now uses OpenAI's GPT-6 Astra for core business functions.
+Astra handles tasks like writing communications and modifying software.
+It also monitors production systems autonomously.
+Human intervention is significantly reduced compared to older models.
+This demonstrates a high level of trust in advanced AI for critical operations.
+The integration suggests a new era of AI-driven operational autonomy.
+
+## Our Commentary
+
+We're seeing a new level of AI integration here. Perplexity trusting GPT-6 Astra with _software changes_ and _production monitoring_? That's a huge leap. I genuinely don't know how to feel about agents churning away at 3am while nobody's watching. It's exciting, yes, but also a little unsettling. The implications for developer roles and system reliability are immense. We need to watch this closely.
+
+Original Link: https://openai.com/index/perplexity-improving-accuracy-with-astra]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/2/800/450" length="0" type="image//id/2/800/450"/>
+        </item>
         <item>
             <title><![CDATA[Building a 3D Renderer in Figma: The Story of 'Depth']]></title>
             <link>https://digestweb.dev/articles/2026-09-13/building-3d-renderer-figma-depth-story</link>
@@ -36,6 +81,27 @@ I'm genuinely fascinated by the sheer audacity of this project. Building a 3D re
 
 Original Link: https://tympanus.net/codrops/2026/09/13/building-depth-designing-and-developing-a-3d-renderer-inside-figma/]]></content:encoded>
             <enclosure url="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/08/image-22-scaled.png?x57826" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[shot-scraper 1.12 Adds WebP Screenshot Support]]></title>
+            <link>https://digestweb.dev/articles/2026-09-13/shot-scraper-1-12-adds-webp-screenshot-support</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-13/shot-scraper-1-12-adds-webp-screenshot-support</guid>
+            <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison's `shot-scraper` tool receives an update to version 1.12, introducing support for capturing screenshots in the WebP format. This allows for significantly smaller file sizes.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+`shot-scraper` version 1.12 now supports WebP image format.
+Users can specify WebP output with the `-o` and `--quality` options.
+WebP screenshots are generally much smaller than JPEG or PNG.
+The feature was implemented to generate images for the `commit-rewriter` tool.
+
+## Our Commentary
+
+Another small, practical update from Simon. WebP support for screenshots is a solid win for performance, especially if you're generating a lot of them. It's a nice, incremental improvement to a tool that already does one thing well. We appreciate the continuous refinement.
+
+Original Link: https://simonwillison.net/2026/Sep/13/shot-scraper/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/628/800/450" length="0" type="image//id/628/800/450"/>
         </item>
         <item>
             <title><![CDATA[GPT-6 Astra Generates Running Routes, Raises Agent Transparency Concerns]]></title>

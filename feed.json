@@ -11,6 +11,27 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-09-14/commit-rewriter-0-1-clean-up-git-commit-messages",
+            "content_html": "## Summary & Key Takeaways\n\n`commit-rewriter` is a new web application for editing Git commit messages.\nIt helps clean up \"coding agent cruft\" and private issue IDs.\nThe tool can be run locally via `uvx commit-rewriter`.\nIt creates a timestamped branch before rewriting commits for safety.\nEdits apply to all commits from the first modified one to the most recent.\nThis utility addresses a specific need for developers working with AI-assisted code.\n\n## Our Commentary\n\nSimon Willison always delivers these incredibly practical tools. `commit-rewriter` feels like a direct response to the current AI coding boom. We've all seen those messy, verbose AI-generated commits. This is exactly the kind of small, focused utility that makes a developer's life easier. I appreciate the safety net of the timestamped branch; that's a thoughtful touch.\n\nOriginal Link: https://simonwillison.net/2026/Sep/14/commit-rewriter/",
+            "url": "https://digestweb.dev/articles/2026-09-14/commit-rewriter-0-1-clean-up-git-commit-messages",
+            "title": "commit-rewriter 0.1: Clean Up Your Git Commit Messages",
+            "summary": "Simon Willison releases `commit-rewriter`, a new web app to easily edit Git commit messages. It's particularly useful for removing AI agent cruft or private issue IDs before publishing.",
+            "image": "https://static.simonwillison/static/2026/commit-rewriter.webp",
+            "date_modified": "2026-09-14T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-14/perplexity-deploys-gpt6-astra-end-to-end-system-management",
+            "content_html": "## Summary & Key Takeaways\n\nPerplexity now uses OpenAI's GPT-6 Astra for core business functions.\nAstra handles tasks like writing communications and modifying software.\nIt also monitors production systems autonomously.\nHuman intervention is significantly reduced compared to older models.\nThis demonstrates a high level of trust in advanced AI for critical operations.\nThe integration suggests a new era of AI-driven operational autonomy.\n\n## Our Commentary\n\nWe're seeing a new level of AI integration here. Perplexity trusting GPT-6 Astra with _software changes_ and _production monitoring_? That's a huge leap. I genuinely don't know how to feel about agents churning away at 3am while nobody's watching. It's exciting, yes, but also a little unsettling. The implications for developer roles and system reliability are immense. We need to watch this closely.\n\nOriginal Link: https://openai.com/index/perplexity-improving-accuracy-with-astra",
+            "url": "https://digestweb.dev/articles/2026-09-14/perplexity-deploys-gpt6-astra-end-to-end-system-management",
+            "title": "Perplexity Deploys GPT-6 Astra for End-to-End System Management",
+            "summary": "Perplexity is leveraging OpenAI's GPT-6 Astra for critical operations, from communications to software changes and production monitoring. This integration significantly reduces human oversight compared to previous models.",
+            "image": "https://picsum.photos/id/2/800/450",
+            "date_modified": "2026-09-14T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-09-13/building-3d-renderer-figma-depth-story",
             "content_html": "## Summary & Key Takeaways\n\nThe article details the creation of 'Depth,' a 3D renderer built entirely within Figma.\nIt covers the technical challenges and solutions involved in rendering 3D objects in a 2D design environment.\nThe project demonstrates Figma's capabilities beyond traditional UI/UX design.\nIt explores the design process for the accompanying website showcasing the renderer's features.\nKey aspects include handling geometry, lighting, and material properties within Figma's constraints.\nThe renderer leverages Figma's plugin API for custom rendering logic.\n\n## Our Commentary\n\nI'm genuinely fascinated by the sheer audacity of this project. Building a 3D renderer _inside_ Figma? That's just wild. We often think of design tools as fixed environments, but this pushes the boundaries of what's possible with plugins. It makes me wonder what other unexpected applications are lurking within these platforms. The technical hurdles must have been immense. I can only imagine the late nights spent debugging matrix transformations. It's not directly web dev, but the ingenuity here is inspiring. We love seeing tools bent to their absolute limits.\n\nOriginal Link: https://tympanus.net/codrops/2026/09/13/building-depth-designing-and-developing-a-3d-renderer-inside-figma/",
             "url": "https://digestweb.dev/articles/2026-09-13/building-3d-renderer-figma-depth-story",
@@ -18,6 +39,18 @@
             "summary": "Explore the technical journey of creating a functional 3D renderer directly within Figma, from concept to implementation.",
             "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/08/image-22-scaled.png?x57826",
             "date_modified": "2026-09-13T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-13/shot-scraper-1-12-adds-webp-screenshot-support",
+            "content_html": "## Summary & Key Takeaways\n\n`shot-scraper` version 1.12 now supports WebP image format.\nUsers can specify WebP output with the `-o` and `--quality` options.\nWebP screenshots are generally much smaller than JPEG or PNG.\nThe feature was implemented to generate images for the `commit-rewriter` tool.\n\n## Our Commentary\n\nAnother small, practical update from Simon. WebP support for screenshots is a solid win for performance, especially if you're generating a lot of them. It's a nice, incremental improvement to a tool that already does one thing well. We appreciate the continuous refinement.\n\nOriginal Link: https://simonwillison.net/2026/Sep/13/shot-scraper/",
+            "url": "https://digestweb.dev/articles/2026-09-13/shot-scraper-1-12-adds-webp-screenshot-support",
+            "title": "shot-scraper 1.12 Adds WebP Screenshot Support",
+            "summary": "Simon Willison's `shot-scraper` tool receives an update to version 1.12, introducing support for capturing screenshots in the WebP format. This allows for significantly smaller file sizes.",
+            "image": "https://picsum.photos/id/628/800/450",
+            "date_modified": "2026-09-13T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
         },
         {
             "id": "https://digestweb.dev/articles/2026-09-12/gpt6-astra-running-routes-agent-transparency",
