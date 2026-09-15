@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Mon, 14 Sep 2026 22:11:58 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 15 Sep 2026 05:50:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,47 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Agentic Coding Strains CI: Scaling Test Impact Analysis at Anthropic]]></title>
+            <link>https://digestweb.dev/articles/2026-09-14/agentic-coding-strains-ci-anthropic-test-impact-analysis</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-14/agentic-coding-strains-ci-anthropic-test-impact-analysis</guid>
+            <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Anthropic shares their challenges with agentic coding impacting CI pipelines and details their approach to scaling test impact analysis.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Agentic coding practices are introducing new strains on continuous integration (CI) systems.
+- Anthropic faced challenges with increased test loads and longer feedback loops due to AI agents.
+- They developed methods to scale test impact analysis to manage these new demands.
+- The article details their specific strategies and tools for optimizing CI in an agentic development environment.
+
+## Our Commentary
+
+This is exactly the kind of real-world problem we're starting to see with AI in development. I'm genuinely curious about how Anthropic is tackling this; it feels like a glimpse into the future of DX. We've been talking about agentic coding for a while, but seeing the practical implications on CI is a wake-up call.
+
+Original Link: https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic]]></content:encoded>
+            <enclosure url="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa84372cad89b379e956f78_og_agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Bryan Cantrill on the Contagion of Fear in AI Doomerism]]></title>
+            <link>https://digestweb.dev/articles/2026-09-14/bryan-cantrill-contagion-of-fear-ai-doomerism</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-14/bryan-cantrill-contagion-of-fear-ai-doomerism</guid>
+            <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Bryan Cantrill critiques AI doomerism, urging experts to be circumspect in claims about existential risks like bioweapons and critical infrastructure.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Bryan Cantrill addresses the "contagion of fear" surrounding AI's potential for existential threats.
+- He warns against non-experts making unsubstantiated claims about AI's ability to create bioweapons or hack critical infrastructure.
+- Cantrill emphasizes the responsibility of domain experts to be circumspect and avoid abusing public trust.
+- He recounts a personal anecdote about causing unjustified panic and applies the lesson to current AI discussions.
+
+## Our Commentary
+
+I've been feeling this tension for a while. The "AI will kill us all" narrative, especially when it comes from people outside the relevant domains, is just exhausting. Bryan Cantrill's point about the responsibility of experts is spot on. We need more measured voices in this space, not more hand-wavy extrapolations.
+
+Original Link: https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/851/800/450" length="0" type="image//id/851/800/450"/>
+        </item>
         <item>
             <title><![CDATA[commit-rewriter 0.1: Clean Up Your Git Commit Messages]]></title>
             <link>https://digestweb.dev/articles/2026-09-14/commit-rewriter-0-1-clean-up-git-commit-messages</link>
@@ -39,6 +80,106 @@ Original Link: https://simonwillison.net/2026/Sep/14/commit-rewriter/]]></conten
             <enclosure url="https://static.simonwillison/static/2026/commit-rewriter.webp" length="0" type="image/webp"/>
         </item>
         <item>
+            <title><![CDATA[Mastering Responsive Design with the New CSS progress() Function]]></title>
+            <link>https://digestweb.dev/articles/2026-09-14/css-progress-function-responsive-design</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-14/css-progress-function-responsive-design</guid>
+            <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore the new CSS `progress()` function, a powerful tool for mapping values to ranges, ideal for responsive layouts and typography.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The new CSS `progress()` function allows mapping a given value to a specified range.
+- This function is highly useful for creating responsive layouts.
+- It provides capabilities for dynamic and responsive typography.
+- Developers can leverage `progress()` for various creative CSS tricks and effects.
+
+## Our Commentary
+
+Another interesting CSS function! `progress()` sounds incredibly useful for responsive design, especially for things like fluid typography or dynamic spacing based on viewport size. We're seeing CSS gain more and more power, which is always exciting. I'm eager to play around with this one.
+
+Original Link: https://blog.master.dev/comparing-values-with-css-progress/]]></content:encoded>
+            <enclosure url="https://blog.master.dev/wp-json/social-image-generator/v1/image/10978" length="0" type="image//wp-json/social-image-generator/v1/image/10978"/>
+        </item>
+        <item>
+            <title><![CDATA[CSS random() Function Lands in Chrome, Expanding Browser Support]]></title>
+            <link>https://digestweb.dev/articles/2026-09-14/css-random-function-chrome-browser-support</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-14/css-random-function-chrome-browser-support</guid>
+            <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The `random()` CSS function is now coming to Chrome, following Safari's lead, enabling more dynamic and creative styling across browsers.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The `random()` CSS function is being implemented in Chrome.
+- This feature was previously available in Safari.
+- Wider browser support will enable more developers to use this dynamic CSS capability.
+- It allows for creative and modern CSS effects with minimal code.
+
+## Our Commentary
+
+We love seeing new CSS features land in more browsers. `random()` opens up some really fun possibilities for dynamic design without needing JavaScript. It's a small win, but these incremental improvements to the web platform add up to a much richer experience for developers and users alike.
+
+Original Link: https://blog.codepen.io/2026/09/14/chris-corner-things-getting-better/]]></content:encoded>
+            <enclosure url="https://blog.codepen.io/wp-content/uploads/2026/09/Screenshot-2026-09-12-at-6.57.23-AM.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Fyxer Builds Trusted AI Executive Assistant with OpenAI Models]]></title>
+            <link>https://digestweb.dev/articles/2026-09-14/fyxer-ai-executive-assistant-openai-models</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-14/fyxer-ai-executive-assistant-openai-models</guid>
+            <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover how Fyxer leverages OpenAI models, fine-tuning, and user feedback to create an AI executive assistant that earns user trust.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Fyxer developed an AI executive assistant designed to organize inboxes and draft emails.
+- The assistant utilizes OpenAI models as its core technology.
+- Key to its success are fine-tuning, memory capabilities, and continuous integration of real user feedback.
+- The focus is on building an AI that users can genuinely trust for sensitive tasks.
+
+## Our Commentary
+
+Building trust in AI is paramount, especially for something as personal as an executive assistant. I'm always interested in how companies move beyond the "wow" factor to actual utility and reliability. This feels like a practical step forward for AI adoption.
+
+Original Link: https://openai.com/index/fyxer]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/62/800/450" length="0" type="image//id/62/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Laurie Voss: The Future of Software is Defining What People Want]]></title>
+            <link>https://digestweb.dev/articles/2026-09-14/laurie-voss-future-software-defining-user-needs</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-14/laurie-voss-future-software-defining-user-needs</guid>
+            <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Laurie Voss argues that as code generation costs collapse, the core of software development shifts to understanding user needs and crafting pleasant experiences.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Laurie Voss observes that the cost of writing code has significantly decreased.
+- He predicts that the costs of reviewing, fixing, and operating code will also follow this trend.
+- The remaining core challenge in software development will be precisely defining user needs.
+- Crafting pleasant and effective user experiences will become the primary focus of the job.
+
+## Our Commentary
+
+This quote from Laurie Voss really resonates with me. We've been seeing the writing on the wall for a while, but to have it articulated so clearly – that the "whole job" becomes understanding people and making things pleasant – is a powerful thought. It makes me wonder what "developer experience" will even mean in five years.
+
+Original Link: https://simonwillison.net/2026/Sep/14/laurie-voss/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/707/800/450" length="0" type="image//id/707/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Making the Internet Less Sh*t: Inside Resn’s Digital Experiences]]></title>
+            <link>https://digestweb.dev/articles/2026-09-14/making-internet-less-shit-resn-digital-experiences</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-14/making-internet-less-shit-resn-digital-experiences</guid>
+            <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore how Resn combines brand, content, and technology to craft engaging digital experiences that defy boring.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Resn focuses on creating unique digital experiences that users want to explore.
+- They integrate brand, content, and technology with a disregard for conventional, boring websites.
+- The agency aims to make the internet a more engaging and less mundane place.
+
+## Our Commentary
+
+This is a nice reminder that web development isn't just about frameworks and build tools; it's about the actual user experience. I appreciate the directness of the title. We should always be striving for less "sh*t" on the web.
+
+Original Link: https://tympanus.net/codrops/2026/09/14/inside-resns-digital-experiences/]]></content:encoded>
+            <enclosure url="https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/09/ResnWebsite_Interactive4-1-scaled.png?x89243" length="0" type="image/png"/>
+        </item>
+        <item>
             <title><![CDATA[Perplexity Deploys GPT-6 Astra for End-to-End System Management]]></title>
             <link>https://digestweb.dev/articles/2026-09-14/perplexity-deploys-gpt6-astra-end-to-end-system-management</link>
             <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-14/perplexity-deploys-gpt6-astra-end-to-end-system-management</guid>
@@ -59,6 +200,27 @@ We're seeing a new level of AI integration here. Perplexity trusting GPT-6 Astra
 
 Original Link: https://openai.com/index/perplexity-improving-accuracy-with-astra]]></content:encoded>
             <enclosure url="https://picsum.photos/id/2/800/450" length="0" type="image//id/2/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Simon Willison Shares Most Influential Software Engineering Blog Posts]]></title>
+            <link>https://digestweb.dev/articles/2026-09-14/simon-willison-influential-software-engineering-blog-posts</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-14/simon-willison-influential-software-engineering-blog-posts</guid>
+            <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison reflects on key blog posts that shaped his thinking, covering leaky abstractions, tech debt migrations, and career paths.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison highlights Joel Spolsky's "The Law of Leaky Abstractions" as an early career influence.
+- Will Larson's "Migrations: the sole scalable fix to tech debt" reframed his view on managing technical debt.
+- Charity Majors' "The Engineer/Manager Pendulum" provided permission to switch between engineering and management roles.
+- These posts encouraged deeper understanding of underlying layers and embracing career flexibility.
+
+## Our Commentary
+
+I love these kinds of posts. It's a great way to discover foundational ideas that might have slipped past you. "The Law of Leaky Abstractions" is a classic, and I genuinely agree with the sentiment about migrations being a core skill. These posts show that some wisdom is timeless.
+
+Original Link: https://simonwillison.net/2026/Sep/14/influences/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/401/800/450" length="0" type="image//id/401/800/450"/>
         </item>
         <item>
             <title><![CDATA[Building a 3D Renderer in Figma: The Story of 'Depth']]></title>

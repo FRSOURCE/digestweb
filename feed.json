@@ -11,6 +11,27 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-09-14/agentic-coding-strains-ci-anthropic-test-impact-analysis",
+            "content_html": "## Summary & Key Takeaways\n\n- Agentic coding practices are introducing new strains on continuous integration (CI) systems.\n- Anthropic faced challenges with increased test loads and longer feedback loops due to AI agents.\n- They developed methods to scale test impact analysis to manage these new demands.\n- The article details their specific strategies and tools for optimizing CI in an agentic development environment.\n\n## Our Commentary\n\nThis is exactly the kind of real-world problem we're starting to see with AI in development. I'm genuinely curious about how Anthropic is tackling this; it feels like a glimpse into the future of DX. We've been talking about agentic coding for a while, but seeing the practical implications on CI is a wake-up call.\n\nOriginal Link: https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic",
+            "url": "https://digestweb.dev/articles/2026-09-14/agentic-coding-strains-ci-anthropic-test-impact-analysis",
+            "title": "Agentic Coding Strains CI: Scaling Test Impact Analysis at Anthropic",
+            "summary": "Anthropic shares their challenges with agentic coding impacting CI pipelines and details their approach to scaling test impact analysis.",
+            "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aa84372cad89b379e956f78_og_agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic.jpg",
+            "date_modified": "2026-09-14T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-14/bryan-cantrill-contagion-of-fear-ai-doomerism",
+            "content_html": "## Summary & Key Takeaways\n\n- Bryan Cantrill addresses the \"contagion of fear\" surrounding AI's potential for existential threats.\n- He warns against non-experts making unsubstantiated claims about AI's ability to create bioweapons or hack critical infrastructure.\n- Cantrill emphasizes the responsibility of domain experts to be circumspect and avoid abusing public trust.\n- He recounts a personal anecdote about causing unjustified panic and applies the lesson to current AI discussions.\n\n## Our Commentary\n\nI've been feeling this tension for a while. The \"AI will kill us all\" narrative, especially when it comes from people outside the relevant domains, is just exhausting. Bryan Cantrill's point about the responsibility of experts is spot on. We need more measured voices in this space, not more hand-wavy extrapolations.\n\nOriginal Link: https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
+            "url": "https://digestweb.dev/articles/2026-09-14/bryan-cantrill-contagion-of-fear-ai-doomerism",
+            "title": "Bryan Cantrill on the Contagion of Fear in AI Doomerism",
+            "summary": "Bryan Cantrill critiques AI doomerism, urging experts to be circumspect in claims about existential risks like bioweapons and critical infrastructure.",
+            "image": "https://picsum.photos/id/851/800/450",
+            "date_modified": "2026-09-14T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-09-14/commit-rewriter-0-1-clean-up-git-commit-messages",
             "content_html": "## Summary & Key Takeaways\n\n`commit-rewriter` is a new web application for editing Git commit messages.\nIt helps clean up \"coding agent cruft\" and private issue IDs.\nThe tool can be run locally via `uvx commit-rewriter`.\nIt creates a timestamped branch before rewriting commits for safety.\nEdits apply to all commits from the first modified one to the most recent.\nThis utility addresses a specific need for developers working with AI-assisted code.\n\n## Our Commentary\n\nSimon Willison always delivers these incredibly practical tools. `commit-rewriter` feels like a direct response to the current AI coding boom. We've all seen those messy, verbose AI-generated commits. This is exactly the kind of small, focused utility that makes a developer's life easier. I appreciate the safety net of the timestamped branch; that's a thoughtful touch.\n\nOriginal Link: https://simonwillison.net/2026/Sep/14/commit-rewriter/",
             "url": "https://digestweb.dev/articles/2026-09-14/commit-rewriter-0-1-clean-up-git-commit-messages",
@@ -23,6 +44,54 @@
             }
         },
         {
+            "id": "https://digestweb.dev/articles/2026-09-14/css-progress-function-responsive-design",
+            "content_html": "## Summary & Key Takeaways\n\n- The new CSS `progress()` function allows mapping a given value to a specified range.\n- This function is highly useful for creating responsive layouts.\n- It provides capabilities for dynamic and responsive typography.\n- Developers can leverage `progress()` for various creative CSS tricks and effects.\n\n## Our Commentary\n\nAnother interesting CSS function! `progress()` sounds incredibly useful for responsive design, especially for things like fluid typography or dynamic spacing based on viewport size. We're seeing CSS gain more and more power, which is always exciting. I'm eager to play around with this one.\n\nOriginal Link: https://blog.master.dev/comparing-values-with-css-progress/",
+            "url": "https://digestweb.dev/articles/2026-09-14/css-progress-function-responsive-design",
+            "title": "Mastering Responsive Design with the New CSS progress() Function",
+            "summary": "Explore the new CSS `progress()` function, a powerful tool for mapping values to ranges, ideal for responsive layouts and typography.",
+            "image": "https://blog.master.dev/wp-json/social-image-generator/v1/image/10978",
+            "date_modified": "2026-09-14T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-14/css-random-function-chrome-browser-support",
+            "content_html": "## Summary & Key Takeaways\n\n- The `random()` CSS function is being implemented in Chrome.\n- This feature was previously available in Safari.\n- Wider browser support will enable more developers to use this dynamic CSS capability.\n- It allows for creative and modern CSS effects with minimal code.\n\n## Our Commentary\n\nWe love seeing new CSS features land in more browsers. `random()` opens up some really fun possibilities for dynamic design without needing JavaScript. It's a small win, but these incremental improvements to the web platform add up to a much richer experience for developers and users alike.\n\nOriginal Link: https://blog.codepen.io/2026/09/14/chris-corner-things-getting-better/",
+            "url": "https://digestweb.dev/articles/2026-09-14/css-random-function-chrome-browser-support",
+            "title": "CSS random() Function Lands in Chrome, Expanding Browser Support",
+            "summary": "The `random()` CSS function is now coming to Chrome, following Safari's lead, enabling more dynamic and creative styling across browsers.",
+            "image": "https://blog.codepen.io/wp-content/uploads/2026/09/Screenshot-2026-09-12-at-6.57.23-AM.png",
+            "date_modified": "2026-09-14T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-14/fyxer-ai-executive-assistant-openai-models",
+            "content_html": "## Summary & Key Takeaways\n\n- Fyxer developed an AI executive assistant designed to organize inboxes and draft emails.\n- The assistant utilizes OpenAI models as its core technology.\n- Key to its success are fine-tuning, memory capabilities, and continuous integration of real user feedback.\n- The focus is on building an AI that users can genuinely trust for sensitive tasks.\n\n## Our Commentary\n\nBuilding trust in AI is paramount, especially for something as personal as an executive assistant. I'm always interested in how companies move beyond the \"wow\" factor to actual utility and reliability. This feels like a practical step forward for AI adoption.\n\nOriginal Link: https://openai.com/index/fyxer",
+            "url": "https://digestweb.dev/articles/2026-09-14/fyxer-ai-executive-assistant-openai-models",
+            "title": "Fyxer Builds Trusted AI Executive Assistant with OpenAI Models",
+            "summary": "Discover how Fyxer leverages OpenAI models, fine-tuning, and user feedback to create an AI executive assistant that earns user trust.",
+            "image": "https://picsum.photos/id/62/800/450",
+            "date_modified": "2026-09-14T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-14/laurie-voss-future-software-defining-user-needs",
+            "content_html": "## Summary & Key Takeaways\n\n- Laurie Voss observes that the cost of writing code has significantly decreased.\n- He predicts that the costs of reviewing, fixing, and operating code will also follow this trend.\n- The remaining core challenge in software development will be precisely defining user needs.\n- Crafting pleasant and effective user experiences will become the primary focus of the job.\n\n## Our Commentary\n\nThis quote from Laurie Voss really resonates with me. We've been seeing the writing on the wall for a while, but to have it articulated so clearly – that the \"whole job\" becomes understanding people and making things pleasant – is a powerful thought. It makes me wonder what \"developer experience\" will even mean in five years.\n\nOriginal Link: https://simonwillison.net/2026/Sep/14/laurie-voss/",
+            "url": "https://digestweb.dev/articles/2026-09-14/laurie-voss-future-software-defining-user-needs",
+            "title": "Laurie Voss: The Future of Software is Defining What People Want",
+            "summary": "Laurie Voss argues that as code generation costs collapse, the core of software development shifts to understanding user needs and crafting pleasant experiences.",
+            "image": "https://picsum.photos/id/707/800/450",
+            "date_modified": "2026-09-14T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-14/making-internet-less-shit-resn-digital-experiences",
+            "content_html": "## Summary & Key Takeaways\n\n- Resn focuses on creating unique digital experiences that users want to explore.\n- They integrate brand, content, and technology with a disregard for conventional, boring websites.\n- The agency aims to make the internet a more engaging and less mundane place.\n\n## Our Commentary\n\nThis is a nice reminder that web development isn't just about frameworks and build tools; it's about the actual user experience. I appreciate the directness of the title. We should always be striving for less \"sh*t\" on the web.\n\nOriginal Link: https://tympanus.net/codrops/2026/09/14/inside-resns-digital-experiences/",
+            "url": "https://digestweb.dev/articles/2026-09-14/making-internet-less-shit-resn-digital-experiences",
+            "title": "Making the Internet Less Sh*t: Inside Resn’s Digital Experiences",
+            "summary": "Explore how Resn combines brand, content, and technology to craft engaging digital experiences that defy boring.",
+            "image": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2026/09/ResnWebsite_Interactive4-1-scaled.png?x89243",
+            "date_modified": "2026-09-14T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-09-14/perplexity-deploys-gpt6-astra-end-to-end-system-management",
             "content_html": "## Summary & Key Takeaways\n\nPerplexity now uses OpenAI's GPT-6 Astra for core business functions.\nAstra handles tasks like writing communications and modifying software.\nIt also monitors production systems autonomously.\nHuman intervention is significantly reduced compared to older models.\nThis demonstrates a high level of trust in advanced AI for critical operations.\nThe integration suggests a new era of AI-driven operational autonomy.\n\n## Our Commentary\n\nWe're seeing a new level of AI integration here. Perplexity trusting GPT-6 Astra with _software changes_ and _production monitoring_? That's a huge leap. I genuinely don't know how to feel about agents churning away at 3am while nobody's watching. It's exciting, yes, but also a little unsettling. The implications for developer roles and system reliability are immense. We need to watch this closely.\n\nOriginal Link: https://openai.com/index/perplexity-improving-accuracy-with-astra",
             "url": "https://digestweb.dev/articles/2026-09-14/perplexity-deploys-gpt6-astra-end-to-end-system-management",
@@ -30,6 +99,18 @@
             "summary": "Perplexity is leveraging OpenAI's GPT-6 Astra for critical operations, from communications to software changes and production monitoring. This integration significantly reduces human oversight compared to previous models.",
             "image": "https://picsum.photos/id/2/800/450",
             "date_modified": "2026-09-14T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-14/simon-willison-influential-software-engineering-blog-posts",
+            "content_html": "## Summary & Key Takeaways\n\n- Simon Willison highlights Joel Spolsky's \"The Law of Leaky Abstractions\" as an early career influence.\n- Will Larson's \"Migrations: the sole scalable fix to tech debt\" reframed his view on managing technical debt.\n- Charity Majors' \"The Engineer/Manager Pendulum\" provided permission to switch between engineering and management roles.\n- These posts encouraged deeper understanding of underlying layers and embracing career flexibility.\n\n## Our Commentary\n\nI love these kinds of posts. It's a great way to discover foundational ideas that might have slipped past you. \"The Law of Leaky Abstractions\" is a classic, and I genuinely agree with the sentiment about migrations being a core skill. These posts show that some wisdom is timeless.\n\nOriginal Link: https://simonwillison.net/2026/Sep/14/influences/",
+            "url": "https://digestweb.dev/articles/2026-09-14/simon-willison-influential-software-engineering-blog-posts",
+            "title": "Simon Willison Shares Most Influential Software Engineering Blog Posts",
+            "summary": "Simon Willison reflects on key blog posts that shaped his thinking, covering leaky abstractions, tech debt migrations, and career paths.",
+            "image": "https://picsum.photos/id/401/800/450",
+            "date_modified": "2026-09-14T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
         },
         {
             "id": "https://digestweb.dev/articles/2026-09-13/building-3d-renderer-figma-depth-story",
