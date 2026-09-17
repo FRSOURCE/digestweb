@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Thu, 17 Sep 2026 05:45:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 17 Sep 2026 12:27:17 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,27 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[GitHub Copilot Runtime Migrates to Rust, Powered by Copilot Agents]]></title>
+            <link>https://digestweb.dev/articles/2026-09-17/github-copilot-runtime-rust-migration-ai-agents</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-17/github-copilot-runtime-rust-migration-ai-agents</guid>
+            <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[GitHub details the massive undertaking of porting 800,000 lines of Copilot's runtime to Rust, leveraging AI agents for the rewrite. This showcases a new frontier in AI-assisted development.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+GitHub successfully migrated 800,000 lines of Copilot's runtime from TypeScript to Rust.
+The migration was made feasible by using Copilot agents to assist with the rewrite.
+This project demonstrates the practical application of AI in large-scale code modernization.
+The new Rust runtime aims to improve performance and efficiency for Copilot.
+The blog post details the engineering challenges and solutions encountered.
+
+## Our Commentary
+
+I'm genuinely floored by this. The idea of Copilot rewriting itself is almost too meta to grasp. We've talked about AI agents, but seeing one tackle 800,000 lines of production code? That's a different beast entirely. It makes me wonder what other legacy systems are ripe for this kind of AI-driven overhaul. The implications for developer productivity and the future of refactoring are immense, and frankly, a little unsettling in its efficiency.
+
+Original Link: https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/]]></content:encoded>
+            <enclosure url="https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo-stripe.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Advanced CSS: Extracting Grid Information with CSS]]></title>
             <link>https://digestweb.dev/articles/2026-09-16/advanced-css-extracting-grid-information</link>
@@ -75,6 +96,28 @@ This is a smart move from Anthropic. I've personally found the distinction betwe
 
 Original Link: https://claude.com/blog/cowork-is-now-claude]]></content:encoded>
             <enclosure url="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aaaa16ed688635ea2b10fa1_tn-artifacts.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Datasette 1.0a40 Alpha Release Introduces Background Tasks]]></title>
+            <link>https://digestweb.dev/articles/2026-09-16/datasette-1-0a40-alpha-release-background-tasks</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-16/datasette-1-0a40-alpha-release-background-tasks</guid>
+            <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Datasette's latest alpha release, 1.0a40, brings new capabilities for plugins to manage background tasks and migrates to httpx2. This release also includes numerous bug fixes as it approaches a stable 1.0.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+Datasette 1.0a40 alpha release is now available with new features and bug fixes.
+Plugins can now launch and manage background tasks using `datasette.add_background_task()`.
+The internal client has been migrated to `httpx2` for enhanced features.
+This release includes a security fix, also present in version 0.65.5.
+Many bug fixes are included as part of the push towards a stable 1.0 release.
+
+## Our Commentary
+
+Simon Willison keeps pushing Datasette forward. The addition of background tasks for plugins is a solid step, opening up new possibilities for data processing directly within the tool. We're watching the 1.0 stable release with interest; it feels like a significant milestone for the project. It's always good to see a project mature like this.
+
+Original Link: https://simonwillison.net/2026/Sep/16/datasette/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/995/800/450" length="0" type="image//id/995/800/450"/>
         </item>
         <item>
             <title><![CDATA[Master CSS Container Queries: Beyond Media Queries]]></title>

@@ -11,6 +11,15 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-09-17/github-copilot-runtime-rust-migration-ai-agents",
+            "content_html": "## Summary & Key Takeaways\n\nGitHub successfully migrated 800,000 lines of Copilot's runtime from TypeScript to Rust.\nThe migration was made feasible by using Copilot agents to assist with the rewrite.\nThis project demonstrates the practical application of AI in large-scale code modernization.\nThe new Rust runtime aims to improve performance and efficiency for Copilot.\nThe blog post details the engineering challenges and solutions encountered.\n\n## Our Commentary\n\nI'm genuinely floored by this. The idea of Copilot rewriting itself is almost too meta to grasp. We've talked about AI agents, but seeing one tackle 800,000 lines of production code? That's a different beast entirely. It makes me wonder what other legacy systems are ripe for this kind of AI-driven overhaul. The implications for developer productivity and the future of refactoring are immense, and frankly, a little unsettling in its efficiency.\n\nOriginal Link: https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
+            "url": "https://digestweb.dev/articles/2026-09-17/github-copilot-runtime-rust-migration-ai-agents",
+            "title": "GitHub Copilot Runtime Migrates to Rust, Powered by Copilot Agents",
+            "summary": "GitHub details the massive undertaking of porting 800,000 lines of Copilot's runtime to Rust, leveraging AI agents for the rewrite. This showcases a new frontier in AI-assisted development.",
+            "image": "https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo-stripe.png",
+            "date_modified": "2026-09-17T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-09-16/advanced-css-extracting-grid-information",
             "content_html": "## Summary & Key Takeaways\n\n- The article details a unique CSS trick for grid item awareness.\n- It covers how elements can determine their position within a grid.\n- The technique is particularly useful for items spanning multiple rows or columns.\n- This offers new possibilities for dynamic grid layouts.\n\n## Our Commentary\n\nThis sounds like one of those \"aha!\" CSS tricks that you didn't know you needed until you see it. We're always looking for ways to push the boundaries of what CSS can do, and having elements \"know\" their grid position opens up some fascinating possibilities for dynamic layouts. I'm intrigued.\n\nOriginal Link: https://blog.master.dev/extracting-grid-information-using-css/",
             "url": "https://digestweb.dev/articles/2026-09-16/advanced-css-extracting-grid-information",
@@ -39,6 +48,18 @@
             "summary": "Anthropic announces the consolidation of its Cowork and chat interfaces, streamlining the Claude AI experience into a single, more intuitive platform.",
             "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aaaa16ed688635ea2b10fa1_tn-artifacts.jpg",
             "date_modified": "2026-09-16T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-16/datasette-1-0a40-alpha-release-background-tasks",
+            "content_html": "## Summary & Key Takeaways\n\nDatasette 1.0a40 alpha release is now available with new features and bug fixes.\nPlugins can now launch and manage background tasks using `datasette.add_background_task()`.\nThe internal client has been migrated to `httpx2` for enhanced features.\nThis release includes a security fix, also present in version 0.65.5.\nMany bug fixes are included as part of the push towards a stable 1.0 release.\n\n## Our Commentary\n\nSimon Willison keeps pushing Datasette forward. The addition of background tasks for plugins is a solid step, opening up new possibilities for data processing directly within the tool. We're watching the 1.0 stable release with interest; it feels like a significant milestone for the project. It's always good to see a project mature like this.\n\nOriginal Link: https://simonwillison.net/2026/Sep/16/datasette/",
+            "url": "https://digestweb.dev/articles/2026-09-16/datasette-1-0a40-alpha-release-background-tasks",
+            "title": "Datasette 1.0a40 Alpha Release Introduces Background Tasks",
+            "summary": "Datasette's latest alpha release, 1.0a40, brings new capabilities for plugins to manage background tasks and migrates to httpx2. This release also includes numerous bug fixes as it approaches a stable 1.0.",
+            "image": "https://picsum.photos/id/995/800/450",
+            "date_modified": "2026-09-16T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
         },
         {
             "id": "https://digestweb.dev/articles/2026-09-16/master-css-container-queries-beyond-media-queries",
