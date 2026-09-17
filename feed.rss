@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Wed, 16 Sep 2026 05:40:23 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 17 Sep 2026 05:45:45 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,170 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Advanced CSS: Extracting Grid Information with CSS]]></title>
+            <link>https://digestweb.dev/articles/2026-09-16/advanced-css-extracting-grid-information</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-16/advanced-css-extracting-grid-information</guid>
+            <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Frontend Masters explores a clever CSS technique that allows elements within a grid to "know" their position and span, even in complex layouts.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article details a unique CSS trick for grid item awareness.
+- It covers how elements can determine their position within a grid.
+- The technique is particularly useful for items spanning multiple rows or columns.
+- This offers new possibilities for dynamic grid layouts.
+
+## Our Commentary
+
+This sounds like one of those "aha!" CSS tricks that you didn't know you needed until you see it. We're always looking for ways to push the boundaries of what CSS can do, and having elements "know" their grid position opens up some fascinating possibilities for dynamic layouts. I'm intrigued.
+
+Original Link: https://blog.master.dev/extracting-grid-information-using-css/]]></content:encoded>
+            <enclosure url="https://blog.master.dev/wp-json/social-image-generator/v1/image/11001" length="0" type="image//wp-json/social-image-generator/v1/image/11001"/>
+        </item>
+        <item>
+            <title><![CDATA[Anthony Fu on Pluggable, Extensible, and Playful DevTools]]></title>
+            <link>https://digestweb.dev/articles/2026-09-16/anthony-fu-pluggable-extensible-devtools</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-16/anthony-fu-pluggable-extensible-devtools</guid>
+            <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Anthony Fu explores the philosophy and architecture behind creating developer tools that are not just functional but also enjoyable and highly customizable.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Anthony Fu discusses the principles of designing effective and enjoyable developer tools.
+- The article emphasizes making tools pluggable and extensible for customization.
+- It advocates for a "playful" approach to developer experience.
+- The post likely delves into architectural patterns for such tools.
+
+## Our Commentary
+
+Anthony Fu always delivers. We're constantly thinking about DX, and the idea of "playful" devtools really resonates. It's not just about getting the job done; it's about making the process genuinely engaging. I think we often forget that.
+
+Original Link: https://antfu.me/posts/pluggable-extensible-playful-devtools]]></content:encoded>
+            <author>Anthony Fu</author>
+            <enclosure url="https://picsum.photos/id/127/800/450" length="0" type="image//id/127/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Claude Cowork and Chat Merge into a Unified Claude Experience]]></title>
+            <link>https://digestweb.dev/articles/2026-09-16/claude-cowork-chat-merge-unified-experience</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-16/claude-cowork-chat-merge-unified-experience</guid>
+            <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Anthropic announces the consolidation of its Cowork and chat interfaces, streamlining the Claude AI experience into a single, more intuitive platform.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Anthropic has merged its Claude Cowork and chat functionalities.
+- The goal is to create a single, unified Claude experience.
+- This aims to simplify interaction and reduce user confusion.
+- The change is rolling out to Pro and Max plans first.
+
+## Our Commentary
+
+This is a smart move from Anthropic. I've personally found the distinction between Cowork and regular Claude a bit fuzzy. Consolidation makes sense, especially as these models become more agentic. It feels like a natural evolution.
+
+Original Link: https://claude.com/blog/cowork-is-now-claude]]></content:encoded>
+            <enclosure url="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aaaa16ed688635ea2b10fa1_tn-artifacts.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Master CSS Container Queries: Beyond Media Queries]]></title>
+            <link>https://digestweb.dev/articles/2026-09-16/master-css-container-queries-beyond-media-queries</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-16/master-css-container-queries-beyond-media-queries</guid>
+            <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Smashing Magazine clarifies the distinct advantages of CSS Container Queries over traditional media queries, guiding developers on their proper and effective use for responsive components.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article addresses common misunderstandings of CSS Container Queries.
+- It differentiates container queries from traditional media queries.
+- Guidance is provided on when to use each for optimal responsiveness.
+- Container queries enable components to respond to their parent's context.
+- The piece aims to boost adoption and correct usage of this modern CSS feature.
+
+## Our Commentary
+
+Container queries are a game-changer for component-driven design, but I still see them underutilized. This article is a welcome push to get developers thinking about them correctly. It's not just another media query; it's a fundamental shift in how we build responsive UIs.
+
+Original Link: https://smashingmagazine.com/2026/09/stop-treating-css-container-queries-traditional-media-queries/]]></content:encoded>
+            <enclosure url="https://files.smashing.media/articles/stop-treating-css-container-queries-traditional-media-queries/stop-treating-css-container-queries-traditional-media-queries.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Mustafa Suleyman on AI Ethics and Model Welfare]]></title>
+            <link>https://digestweb.dev/articles/2026-09-16/mustafa-suleyman-ai-ethics-model-welfare</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-16/mustafa-suleyman-ai-ethics-model-welfare</guid>
+            <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison shares a powerful quote from Mustafa Suleyman, emphasizing the importance of not anthropomorphizing AI models and the implications for ethical frameworks.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article features a quote from Mustafa Suleyman on AI ethics.
+- Suleyman warns against attributing human feelings or rights to AI models.
+- He argues that consciousness is fundamental to ethical systems.
+- Anthropomorphizing AI could complicate alignment and containment challenges.
+
+## Our Commentary
+
+This quote from Mustafa Suleyman is a stark reminder. It's easy to get caught up in the hype and start projecting human traits onto AI. We need to be incredibly disciplined about this, especially as models become more sophisticated. It's a critical ethical boundary.
+
+Original Link: https://simonwillison.net/2026/Sep/16/mustafa-suleyman/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/348/800/450" length="0" type="image//id/348/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Node.js 26.9.0 Released: Current Branch Updates]]></title>
+            <link>https://digestweb.dev/articles/2026-09-16/nodejs-26-9-0-current-branch-updates</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-16/nodejs-26-9-0-current-branch-updates</guid>
+            <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Node.js 26.9.0 brings the latest minor updates to the current release line, offering incremental improvements and bug fixes.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Node.js 26.9.0 is now available as the latest current branch release.
+- This update includes various minor improvements and bug fixes.
+- It continues the regular release cycle for the non-LTS version.
+
+## Our Commentary
+
+We always keep an eye on the Node.js current branch, even if it's not LTS. It's where new features often land first. I'm curious what small gems might be tucked away in this one.
+
+Original Link: https://nodejs.org/en/blog/release/v26.9.0]]></content:encoded>
+            <enclosure url="https://nodejs.org/en/next-data/og/release/Node.js%20%E2%80%94%20Node.js%2026.9.0%20(Current)" length="0" type="image/0%20(Current)"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI's Framework for Reporting Model Misalignment]]></title>
+            <link>https://digestweb.dev/articles/2026-09-16/openai-framework-model-misalignment-reporting</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-16/openai-framework-model-misalignment-reporting</guid>
+            <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI introduces a new framework for tracking, investigating, and disclosing instances of model misalignment, alongside initial reports of unexpected behaviors.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI has published a framework for reporting model misalignment.
+- The framework outlines processes for tracking and investigating issues.
+- It includes mechanisms for disclosing unexpected model behaviors.
+- Six initial reports of concerning model behavior are shared.
+- This initiative aims to enhance transparency and safety in AI development.
+
+## Our Commentary
+
+This is genuinely important. As AI models become more powerful, understanding and mitigating misalignment is paramount. We need more transparency like this. It's a step towards responsible AI, and I'm glad to see it.
+
+Original Link: https://openai.com/index/model-misalignment-reporting-framework]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/466/800/450" length="0" type="image//id/466/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Simon Willison on Claude's Unified Agent Experience]]></title>
+            <link>https://digestweb.dev/articles/2026-09-16/simon-willison-claude-unified-agent-experience</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-16/simon-willison-claude-unified-agent-experience</guid>
+            <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison provides insightful commentary on Anthropic's decision to merge Claude Cowork and chat, discussing its implications for AI agents and user experience.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison analyzes Anthropic's consolidation of Claude Cowork and chat.
+- He notes the trend of AI products evolving into general agents.
+- The article draws parallels with OpenAI's recent product changes.
+- Willison reflects on the simplification for users but also potential new complexities.
+
+## Our Commentary
+
+Simon Willison's take on the Claude merger is spot on. He always cuts through the marketing to the core implications. The parallel with OpenAI's moves is particularly interesting; it suggests a broader industry trend towards unified, agentic AI. We're watching this space closely.
+
+Original Link: https://simonwillison.net/2026/Sep/16/one-claude/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/34/800/450" length="0" type="image//id/34/800/450"/>
+        </item>
         <item>
             <title><![CDATA[AI Agent Consistency: Ensuring Reliable Performance in Complex Tasks]]></title>
             <link>https://digestweb.dev/articles/2026-09-15/ai-agent-consistency-reliable-performance-complex-tasks</link>
