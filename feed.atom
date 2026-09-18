@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-09-18T05:34:39.516Z</updated>
+    <updated>2026-09-18T12:06:44.954Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -140,6 +140,30 @@ I'm genuinely floored by this. The idea of Copilot rewriting itself is almost to
 Original Link: https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Mastering LLMs: Use Them as Copyeditors, Not Content Generators]]></title>
+        <id>https://digestweb.dev/articles/2026-09-17/mastering-llms-use-as-copyeditors-not-content-generators</id>
+        <link href="https://digestweb.dev/articles/2026-09-17/mastering-llms-use-as-copyeditors-not-content-generators"/>
+        <link rel="enclosure" href="https://picsum.photos/id/798/800/450" type="image//id/798/800/450"/>
+        <updated>2026-09-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article advocates for a strict rule: never use an LLM's suggested turn of phrase, instead leveraging them for fact-checking and grammar.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Thomas Ptacek suggests a strict rule: never use a single word an LLM suggests for writing.
+- LLMs are best utilized for fact-checking, spelling, grammar, and as a thesaurus.
+- The "weird smell" of LLM-generated text is a good indicator to avoid it.
+- Adopting this principle helps maintain writing discipline.
+- The article provides insights into building a personal LLM copyediting tool.
+
+## Our Commentary
+
+"You may not use a single word an LLM suggests to you." I love this rule. It's so simple, so absolute, and it immediately resonates with that "weird smell" we all recognize in AI-generated text. We've been grappling with how to integrate LLMs without losing our voice, and this feels like a solid, actionable boundary. It's not about rejecting the tech, but about defining its role precisely. I'm definitely going to try adopting this for my own writing process.
+
+Original Link: https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[OpenAI Introduces Astra: A Specialized AI for the Legal Sector]]></title>
         <id>https://digestweb.dev/articles/2026-09-17/openai-astra-for-law-launch</id>
         <link href="https://digestweb.dev/articles/2026-09-17/openai-astra-for-law-launch"/>
@@ -157,6 +181,50 @@ Original Link: https://github.blog/ai-and-ml/generative-ai/migrating-the-github-
 Another industry-specific AI product from OpenAI. The "legal-grade controls for confidential client work" part is the real headline here. That's a huge hurdle for AI adoption in sensitive sectors. I wonder how much of this is truly novel tech versus careful packaging and compliance.
 
 Original Link: https://openai.com/index/astra-for-law]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Safari 27.0 Unleashes Unprecedented WebKit Features]]></title>
+        <id>https://digestweb.dev/articles/2026-09-17/safari-27-0-unleashes-unprecedented-webkit-features</id>
+        <link href="https://digestweb.dev/articles/2026-09-17/safari-27-0-unleashes-unprecedented-webkit-features"/>
+        <link rel="enclosure" href="https://webkit.org/wp-content/uploads/Safari27-piechart-1024x575.png" type="image/png"/>
+        <updated>2026-09-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Safari's latest release boasts its longest-ever list of WebKit features, promising significant advancements for web developers and users.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Safari 27.0 introduces an extensive array of new WebKit features.
+- The release notes are the longest in Safari's history.
+- This update brings significant advancements to the web platform.
+- Developers can expect new capabilities and improved compatibility.
+
+## Our Commentary
+
+"Never as long as they are for this version." That's a statement. We've been waiting for Safari to really step up its game, and this sounds like it might be the moment. I'm genuinely excited to dig into the full list. Let's hope this isn't just a lot of small things, but some truly impactful additions that push the web forward.
+
+Original Link: https://webkit.org/blog/18325/webkit-features-for-safari-27-0/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Urgent Warning: Targeted Supply Chain Attacks on Open-Source Maintainers]]></title>
+        <id>https://digestweb.dev/articles/2026-09-17/urgent-warning-targeted-supply-chain-attacks-open-source-maintainers</id>
+        <link href="https://digestweb.dev/articles/2026-09-17/urgent-warning-targeted-supply-chain-attacks-open-source-maintainers"/>
+        <link rel="enclosure" href="https://picsum.photos/id/982/800/450" type="image//id/982/800/450"/>
+        <updated>2026-09-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A critical alert details ongoing, sophisticated attacks targeting prominent open-source maintainers to inject malware into popular packages.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- An ongoing campaign targets prominent open-source maintainers, specifically Rustaceans.
+- Attackers use video calls as a vector to trick targets into installing malware or executing commands.
+- This method was successfully used in a supply chain attack against the `array-ref` crate.
+- The vulnerability lies in the human network of package publishers.
+- Dependency cooldowns are suggested as a defense mechanism.
+
+## Our Commentary
+
+This is genuinely unsettling. The idea of social engineering through a seemingly legitimate video call for a job or project is insidious. It's a stark reminder that our open-source dependencies aren't just code; they're maintained by people, and people are attack vectors. We talk about supply chain security, but this is a whole new level of personal targeting. I'm left wondering what practical steps we can take beyond "dependency cooldowns." This feels like a problem without an easy answer.
+
+Original Link: https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Advanced CSS: Extracting Grid Information with CSS]]></title>
