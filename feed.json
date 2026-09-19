@@ -11,6 +11,165 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-09-18/claude-code-agents-md-customization",
+            "content_html": "## Summary & Key Takeaways\n\n- Claude Code version 2.1.277 now checks for and uses `AGENTS.md` if `CLAUDE.md` is not present.\n- This feature is built on Claude Code's upcoming \"mods\" system for customizing the agent harness.\n- `AGENTS.md` allows developers to provide project instructions for AI agents.\n- Users will eventually be able to build custom versions of project instructions themselves.\n- The source for the built-in mod is available for reference.\n\n## Our Commentary\n\nThis is a pretty interesting move from Anthropic. Giving developers more control over how their AI agents interpret instructions via `AGENTS.md` and the \"mods\" system is a clear step towards more powerful and customizable AI workflows. I'm always looking for ways to make agents less opaque, and this feels like a good direction.\n\nOriginal Link: https://simonwillison.net/2026/Sep/18/thariq-shihipar/",
+            "url": "https://digestweb.dev/articles/2026-09-18/claude-code-agents-md-customization",
+            "title": "Claude Code Adds AGENTS.md Support for Agent Customization",
+            "summary": "Anthropic's Claude Code now supports `AGENTS.md` for project instructions, building on an upcoming \"mods\" system to customize AI agent behavior.",
+            "image": "https://picsum.photos/id/369/800/450",
+            "date_modified": "2026-09-18T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-18/custom-glow-rings-css-masking",
+            "content_html": "## Summary & Key Takeaways\n\n- Explores creating inner glow effects beyond standard `box-shadow`.\n- Demonstrates using CSS masking to achieve custom overlay styles for inner glows.\n- Provides a flexible approach to highlight elements with unique visual flair.\n- Offers a creative solution for designers and developers looking for advanced CSS techniques.\n- The method allows for any overlay style to be used for the glow effect.\n\n## Our Commentary\n\nI love a good CSS trick, and this one is pretty neat. `box-shadow` is fine, but using masking for inner glows opens up a whole new world of possibilities for custom visual effects. It's the kind of detail that can really elevate a design. I'm definitely bookmarking this for future projects.\n\nOriginal Link: https://blog.master.dev/custom-glow-rings-inside-of-elements/",
+            "url": "https://digestweb.dev/articles/2026-09-18/custom-glow-rings-css-masking",
+            "title": "Custom Glow Rings Inside Elements with CSS Masking",
+            "summary": "Learn how to create custom inner glow effects for elements using advanced CSS masking techniques, offering more flexibility than traditional `box-shadow`.",
+            "image": "https://blog.master.dev/wp-json/social-image-generator/v1/image/11076",
+            "date_modified": "2026-09-18T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-18/cypress-cloud-test-replay-mask-sensitive-inputs",
+            "content_html": "## Summary & Key Takeaways\n\n- Test Replay now replaces sensitive form input values with asterisks by default.\n- This masking occurs before any Test Replay data is uploaded to Cypress Cloud.\n- The feature is automatically enabled for all Cypress Cloud projects.\n- It aligns with existing network data redaction principles to keep sensitive values out of captured artifacts.\n- Aims to maintain the debugging experience while improving data privacy and compliance.\n\n## Our Commentary\n\nThis is a really smart move by Cypress. Security and privacy are paramount, especially when dealing with test data that might contain sensitive information. Making this the default is the right call. It means developers can get the full debugging power of Test Replay without worrying about accidentally exposing credentials. Good stuff.\n\nOriginal Link: https://www.cypress.io/blog/ctest-replay-now-masks-sensitive-form-inputs-by-default/",
+            "url": "https://digestweb.dev/articles/2026-09-18/cypress-cloud-test-replay-mask-sensitive-inputs",
+            "title": "Cypress Cloud: Test Replay Masks Sensitive Form Inputs by Default",
+            "summary": "Cypress Cloud's Test Replay now automatically masks sensitive form fields like passwords and payment details before data upload, enhancing privacy and security.",
+            "image": "https://www.cypress.io/cypress_logo_social.png",
+            "date_modified": "2026-09-18T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-18/jest-30-5-2-typescript-stripping-fixes",
+            "content_html": "## Summary & Key Takeaways\n\n- Adds a feature to strip TypeScript types with Node when no other transformer is configured for `.ts` files.\n- Fixes an issue where `require('../package.json')` was not kept external during bundling.\n- Escapes table row keys in `jest-each` to prevent `Invalid regular expression` errors.\n- Resolves absolute Windows paths in source maps correctly.\n- Includes contributions from new community members.\n\n## Our Commentary\n\nA solid patch release for Jest. The TypeScript stripping feature is a nice quality-of-life improvement for some setups. The bug fixes, especially for `jest-each` and source maps, are important for maintaining stability. It's good to see continuous refinement in such a widely used testing framework.\n\nOriginal Link: https://github.com/jestjs/jest/releases/tag/v30.5.2",
+            "url": "https://digestweb.dev/articles/2026-09-18/jest-30-5-2-typescript-stripping-fixes",
+            "title": "Jest 30.5.2: TypeScript Stripping & Stability Fixes",
+            "summary": "Jest 30.5.2 introduces TypeScript type stripping with Node and delivers several bug fixes for improved stability and compatibility.",
+            "image": "https://opengraph.githubassets.com/9a02ee5ae80754fa8e60506df0c06b0ac27180de118a30f7ce58ad3f031f87b2/jestjs/jest/releases/tag/v30.5.2",
+            "date_modified": "2026-09-18T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-18/nngroup-ai-agent-context-roles",
+            "content_html": "## Summary & Key Takeaways\n\n- Identifies three key roles of context for AI agents: global, local, and ambient.\n- Global context applies across multiple tasks, providing overarching knowledge.\n- Local context is specific to a single task, offering immediate relevance.\n- Ambient context refers to raw data streams, such as emails or notifications.\n- Power users actively curate these different contexts to enhance agent performance.\n- Understanding these roles is crucial for designing more effective and intelligent AI products.\n\n## Our Commentary\n\nThis is a really insightful breakdown of context for AI agents. We often talk about \"context windows,\" but NNGroup's distinction between global, local, and ambient context is a much more nuanced and practical way to think about how agents operate. It's a good framework for anyone trying to build or even just understand more sophisticated AI systems.\n\nOriginal Link: https://www.nngroup.com/articles/3-agent-context-roles/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+            "url": "https://digestweb.dev/articles/2026-09-18/nngroup-ai-agent-context-roles",
+            "title": "The 3 Roles of Context for Effective AI Agents",
+            "summary": "Nielsen Norman Group outlines three crucial types of context—global, local, and ambient—that power users curate for designing and interacting with AI agents.",
+            "image": "https://picsum.photos/id/140/800/450",
+            "date_modified": "2026-09-18T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-18/pnpm-12-5-1-stability-python-fixes",
+            "content_html": "## Summary & Key Takeaways\n\n- pnpm now reports unknown task settings in `pnpm-workspace.yaml` but continues execution.\n- Python interpreter installation retries historical release metadata requests and caches results.\n- Python registry entries now route packages by exact names or trailing-prefix patterns.\n- Fixes \"Too many levels of symbolic links\" when Cargo config files are symlinks.\n- Prevents `pnpm install` from forcing full installs on projects without `node_modules` after `dedupeDirectDeps`.\n- Improves performance for `pnpm install` with large `pnpm-lock.yaml` files (16 MiB+).\n\n## Our Commentary\n\nThis is a solid patch release for pnpm. The Python registry improvements are a nice touch, and fixing the symlink issue for Cargo users is important. I'm particularly happy about the large lockfile performance fix; nobody wants a full install just because their lockfile grew a bit. It's all about making the developer experience smoother.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v12.5.1",
+            "url": "https://digestweb.dev/articles/2026-09-18/pnpm-12-5-1-stability-python-fixes",
+            "title": "pnpm 12.5.1: Stability Fixes & Python Registry Improvements",
+            "summary": "pnpm 12.5.1 delivers a series of bug fixes, including better handling of unknown task settings, Python registry retries, and large lockfile performance.",
+            "image": "https://opengraph.githubassets.com/e2d3c0e6a8c004dd4521a09a425d1007f08f34d8dbcfebd0fa07d49513fe8810/pnpm/pnpm/releases/tag/v12.5.1",
+            "date_modified": "2026-09-18T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-18/pnpm-12-5-python-package-urls-platforms",
+            "content_html": "## Summary & Key Takeaways\n\n- Python is now a first-class ecosystem, allowing pnpm to manage Python dependencies.\n- `pnpm add` now accepts Package URLs (e.g., `pkg:npm/express@4.18.2`) for various ecosystems.\n- `registries` entries can now specify the `ecosystem` they serve (npm, cargo, pypi).\n- `supportedArchitectures` now accepts a list of platforms (e.g., `linux-x64`, `darwin-arm64`).\n- Tasks can now be configured with machine-wide concurrency limits.\n- Fixes an issue where one package's tarball could be reused for another.\n\n## Our Commentary\n\nThis is a huge release for pnpm! Expanding beyond just Node.js to embrace Python and Cargo is a game-changer. I genuinely didn't expect pnpm to go this broad, but I'm here for it. The Package URLs are a neat abstraction, and the `supportedArchitectures` list is a much-needed improvement for cross-platform development. It feels like pnpm is trying to become a universal package manager, and I'm curious to see how that plays out.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v12.5.0",
+            "url": "https://digestweb.dev/articles/2026-09-18/pnpm-12-5-python-package-urls-platforms",
+            "title": "pnpm 12.5: Python Ecosystem, Package URLs & Platform Support",
+            "summary": "pnpm 12.5 introduces first-class Python ecosystem support, accepts Package URLs for adding dependencies, and enhances platform-specific architecture configuration.",
+            "image": "https://opengraph.githubassets.com/bc2d0de9d788f5852315bb98fe89c99df1a7389cb3224b127e380a9c2767f326/pnpm/pnpm/releases/tag/v12.5.0",
+            "date_modified": "2026-09-18T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-18/simon-willison-llms-jurassic-park-analogy",
+            "content_html": "## Summary & Key Takeaways\n\n- The author presents an analogy: ignoring LLMs as a computer scientist is like a geneticist ignoring Jurassic Park.\n- This highlights the perceived significance and unavoidable impact of LLMs in the current tech landscape.\n- It serves as a commentary on the widespread and transformative nature of AI advancements.\n- The note is a short, opinionated take from an influential voice in the AI community.\n\n## Our Commentary\n\nSimon Willison always has a way of cutting through the noise. This analogy is just _chef's kiss_. It perfectly captures the feeling I get when I hear people dismiss LLMs as a fad. Like it or not, they're here, and they're changing things. We can't just pretend they don't exist.\n\nOriginal Link: https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/",
+            "url": "https://digestweb.dev/articles/2026-09-18/simon-willison-llms-jurassic-park-analogy",
+            "title": "Simon Willison: LLMs and the Jurassic Park Analogy",
+            "summary": "Simon Willison shares a concise, thought-provoking analogy comparing disinterest in LLMs to a geneticist ignoring a real-life Jurassic Park.",
+            "image": "https://picsum.photos/id/691/800/450",
+            "date_modified": "2026-09-18T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-18/solidjs-2-rc9-async-store-errors-client-hook",
+            "content_html": "## Summary & Key Takeaways\n\n- Adds a new dev diagnostic, `ASYNC_STORE_SETTER`, which throws when a store setter callback returns a Promise.\n- This prevents silent data loss as store setters are synchronous transactions.\n- Introduces `configureClientErrors({ onError })` as a client error hook for `solid-js` and `render`/`hydrate`.\n- The client error hook provides a production-tier seam to catch component failures not handled by `createErrorBoundary`.\n- Uncaught errors still report to the platform's `reportError`, ensuring existing monitors still function.\n\n## Our Commentary\n\nThis is a big one for SolidJS 2.0. That `ASYNC_STORE_SETTER` diagnostic is a lifesaver; I've definitely seen developers (myself included) make that mistake, and having it throw in dev is just _good_. The client error hook is also a huge step forward for building truly resilient applications. It feels like SolidJS is really maturing its error story, which is something I always look for in a framework.\n\nOriginal Link: https://github.com/solidjs/solid/releases/tag/solid-js%402.0.0-rc.9",
+            "url": "https://digestweb.dev/articles/2026-09-18/solidjs-2-rc9-async-store-errors-client-hook",
+            "title": "SolidJS 2.0 RC.9: Async Store Setter Diagnostic & Client Error Hook",
+            "summary": "SolidJS 2.0 Release Candidate 9 introduces a dev diagnostic for async store setters and a new client error hook for robust error handling.",
+            "image": "https://opengraph.githubassets.com/6a58050809970943b9ed291b060d7845e851bd16bc435978808ef16c9077a7d3/solidjs/solid/releases/tag/solid-js%402.0.0-rc.9",
+            "date_modified": "2026-09-18T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-18/solidjs-2-rc9-babel-plugin-optimizations",
+            "content_html": "## Summary & Key Takeaways\n\n- The Babel plugin now compiles native elements with multiple spread sources to the runtimes' array form.\n- This change improves client-side `spread()` and server-side `ssrElement()` performance by avoiding `mergeProps()`.\n- Delegated event handlers are now stamped with `_$$<type>` keys to prevent conflicts with Solid 1.x.\n- Non-identifier getter keys in compiled props literals are emitted as string literals, optimizing build cost.\n- These updates ensure better compatibility and performance for SolidJS applications using Babel.\n\n## Our Commentary\n\nIt's good to see the Babel plugin keeping pace with the core compiler changes. For many, the Babel plugin _is_ the compiler, so these updates mean that the performance and compatibility benefits are immediately available to a wide range of SolidJS users. It's a solid step towards a smoother 2.0 transition.\n\nOriginal Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fbabel-plugin%402.0.0-rc.9",
+            "url": "https://digestweb.dev/articles/2026-09-18/solidjs-2-rc9-babel-plugin-optimizations",
+            "title": "SolidJS 2.0 RC.9: Babel Plugin Aligns with Compiler Optimizations",
+            "summary": "SolidJS 2.0 Release Candidate 9's Babel plugin incorporates the latest compiler optimizations for spread props, event handlers, and getter keys.",
+            "image": "https://opengraph.githubassets.com/a280b31b72229026360148a7dd92ae21f0a8966f81661571f47bbdd9d8b2c0ee/solidjs/solid/releases/tag/%40solidjs/babel-plugin%402.0.0-rc.9",
+            "date_modified": "2026-09-18T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-18/solidjs-2-rc9-compiler-optimizations",
+            "content_html": "## Summary & Key Takeaways\n\n- Native elements with multiple spread sources now compile to array form for `spread()` and `ssrElement()`.\n- This avoids `mergeProps()` calls, reducing runtime overhead and hydration IDs.\n- Delegated event handlers move from `$$<type>` to `_$$<type>` keys to prevent conflicts with Solid 1.x runtimes.\n- Compiler emits non-identifier getter keys as string literals (`get \"aria-label\"() {}`) instead of computed keys.\n- This getter key optimization can reduce build costs by ~45% for prop literals.\n\n## Our Commentary\n\nCompiler optimizations are often unsung heroes. The changes to how spread props are handled and the event delegation key change are crucial for both performance and preventing headaches when mixing Solid 1 and 2. And that getter key optimization? It's a small detail, but those micro-optimizations add up to a snappier application.\n\nOriginal Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fcompiler%402.0.0-rc.9",
+            "url": "https://digestweb.dev/articles/2026-09-18/solidjs-2-rc9-compiler-optimizations",
+            "title": "SolidJS 2.0 RC.9: Compiler Optimizations for Performance",
+            "summary": "SolidJS 2.0 Release Candidate 9 introduces compiler optimizations for spread sources and event handlers, improving runtime performance and compatibility.",
+            "image": "https://opengraph.githubassets.com/737899324f00ef03f49f5fe23dca110610c0a3e8e7f7b5857ed253aa12d738e8/solidjs/solid/releases/tag/%40solidjs/compiler%402.0.0-rc.9",
+            "date_modified": "2026-09-18T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-18/solidjs-2-rc9-diagnostics-tree-shaking",
+            "content_html": "## Summary & Key Takeaways\n\n- Attribution engine's folds, queries, and formatters are now named exports from `solid-js/attribution`.\n- This allows consumers to tree-shake unused diagnostic parts, reducing bundle size by ~1,150 B brotli.\n- Rerun records are now serializable, and `RerunEvent` no longer carries the live node, using `nodeId` instead.\n- `AttributionCostTables` and `AttributionFeedbackTables` are new types for diagnostic data.\n- The `attribution` object retains core functions like `enable`, `disable`, and `subscribe`.\n\n## Our Commentary\n\nI'm always happy to see improvements in developer diagnostics and bundle size. The tree-shaking for the attribution engine is a smart move; it means we get powerful debugging tools without paying for them in production if we don't need them. And serializable rerun records? That's a win for anyone trying to analyze performance data outside the browser.\n\nOriginal Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fdiagnostics%402.0.0-rc.9",
+            "url": "https://digestweb.dev/articles/2026-09-18/solidjs-2-rc9-diagnostics-tree-shaking",
+            "title": "SolidJS 2.0 RC.9: Enhanced Diagnostics & Tree-Shaking",
+            "summary": "SolidJS 2.0 Release Candidate 9 refines its attribution engine, improving diagnostics and enabling better tree-shaking for smaller bundles.",
+            "image": "https://opengraph.githubassets.com/b42af302471993de3b2b7491dc0c2c8597aa2ae5d879d4e637da02dcd9485e06/solidjs/solid/releases/tag/%40solidjs/diagnostics%402.0.0-rc.9",
+            "date_modified": "2026-09-18T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-18/solidjs-2-rc9-dynamic-elements-xmlns",
+            "content_html": "## Summary & Key Takeaways\n\n- `dynamic()` and `Dynamic` components now respect the `xmlns` prop for elements like `<a>`, `<script>`, `<style>`, and `<title>`.\n- This resolves an issue where such tags were always created as HTML elements within an SVG tree.\n- The `xmlns` attribute is read once, untracked, at element creation, then applied as an ordinary attribute.\n- Hydration is unaffected, claiming the parser-namespaced node.\n- Types for `xmlns` are now accepted on these four specific tags.\n\n## Our Commentary\n\nThis is a pretty specific fix, but if you've ever wrestled with dynamic SVG elements in SolidJS, you know how frustrating namespace issues can be. It's good to see these edge cases getting ironed out in the RC phase. It makes the framework more robust for complex rendering scenarios.\n\nOriginal Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fh%402.0.0-rc.9",
+            "url": "https://digestweb.dev/articles/2026-09-18/solidjs-2-rc9-dynamic-elements-xmlns",
+            "title": "SolidJS 2.0 RC.9: Dynamic Elements Honor `xmlns` for SVG",
+            "summary": "SolidJS 2.0 Release Candidate 9 ensures `dynamic()` and `Dynamic` components correctly honor the `xmlns` prop when creating elements that exist in both HTML and SVG.",
+            "image": "https://opengraph.githubassets.com/2f5c96091fa868b7122ec1f9a29d946cc10bf54a16687539878759912be47d7a/solidjs/solid/releases/tag/%40solidjs/h%402.0.0-rc.9",
+            "date_modified": "2026-09-18T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-18/solidjs-2-rc9-error-handling-event-delegation",
+            "content_html": "## Summary & Key Takeaways\n\n- Introduces `configureClientErrors({ onError })` for comprehensive client-side error monitoring.\n- Provides a dedicated seam for applications or error monitors to catch otherwise unhandled component failures.\n- Moves delegated event handlers off Solid 1's `$$<type>` key to `_$$<type>` to prevent conflicts with older runtimes.\n- Ensures compatibility and isolation when multiple Solid versions coexist on a single page.\n- The error hook machinery is pay-for-use, only included if `createErrorBoundary` or `configureClientErrors` are imported.\n\n## Our Commentary\n\nWe're seeing SolidJS 2.0 really mature in its release candidate phase. The new client error hook is a big deal for robust applications; it's the kind of foundational improvement that makes debugging less of a nightmare. And that event delegation fix? I've seen enough weird conflicts with embedded widgets to know that's a welcome change. It's all about stability and making sure things just work.\n\nOriginal Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fweb%402.0.0-rc.9",
+            "url": "https://digestweb.dev/articles/2026-09-18/solidjs-2-rc9-error-handling-event-delegation",
+            "title": "SolidJS 2.0 RC.9: Enhanced Error Handling & Event Delegation",
+            "summary": "SolidJS 2.0 Release Candidate 9 introduces a new client error hook and refines delegated event handling for improved stability and debugging.",
+            "image": "https://opengraph.githubassets.com/df385be918da661b9102f5bfe09d36d5e23dea7587db6083f4d112a801ae772f/solidjs/solid/releases/tag/%40solidjs/web%402.0.0-rc.9",
+            "date_modified": "2026-09-18T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-18/solidjs-2-rc9-internal-performance-refinements",
+            "content_html": "## Summary & Key Takeaways\n\n- Internal runtime seams are moved off the `solid-js` surface to `solid-js/internal` for better encapsulation.\n- `merge()` and `omit()` now return lazy views, optimizing how props are read leaf by leaf.\n- This change improves performance for spread and SSR element rendering by avoiding proxy traps.\n- TypeScript declarations no longer expose internal API names, improving developer experience.\n- Ensures a single reactive engine guarantee remains untouched at runtime.\n\n## Our Commentary\n\nThis is deep in the SolidJS internals, but it's the kind of work that pays off in performance. Moving internal APIs behind a subpath is just good hygiene. I appreciate the focus on lazy views for props; it's a subtle change that can have a real impact on rendering speed, especially in complex component trees.\n\nOriginal Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Funiversal%402.0.0-rc.9",
+            "url": "https://digestweb.dev/articles/2026-09-18/solidjs-2-rc9-internal-performance-refinements",
+            "title": "SolidJS 2.0 RC.9: Internal Refinements for Performance",
+            "summary": "SolidJS 2.0 Release Candidate 9 moves internal runtime seams and introduces lazy views for `merge()` and `omit()` to optimize prop handling.",
+            "image": "https://opengraph.githubassets.com/4e8e3140ee16af294cea4291a6fa48a34ca9b8462091189dd70bb27081448194/solidjs/solid/releases/tag/%40solidjs/universal%402.0.0-rc.9",
+            "date_modified": "2026-09-18T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-18/solidjs-2-rc9-lazy-merge-omit-props",
+            "content_html": "## Summary & Key Takeaways\n\n- `merge()` and `omit()` now consistently return lazy views, even for plain objects.\n- This avoids eager copying, leading to O(1) views over flattened sources.\n- Nested `omit()` operations fold their filters, and `merge()` over `omit()` handles views efficiently.\n- Construction cost for prop chains drops significantly (3–7x), improving SSR performance by ~2.4x.\n- Reads remain cheap, resolving keys once on first access and performing single lookups thereafter.\n\n## Our Commentary\n\nThis is a fantastic performance win, especially for those of us building or using headless UI libraries. The idea that a complex chain of `merge` and `omit` operations can collapse to leaf views over original objects, with no proxy layer in between, is just _chef's kiss_. It's the kind of optimization that makes SolidJS feel even faster without changing how we write code.\n\nOriginal Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fhtml%402.0.0-rc.9",
+            "url": "https://digestweb.dev/articles/2026-09-18/solidjs-2-rc9-lazy-merge-omit-props",
+            "title": "SolidJS 2.0 RC.9: Faster Props with Lazy Merge & Omit Views",
+            "summary": "SolidJS 2.0 Release Candidate 9 optimizes `merge()` and `omit()` to always use lazy views, drastically improving props handling performance.",
+            "image": "https://opengraph.githubassets.com/74ded13069412f0be93582773e117e9fb6ec91c8b13f2e52357fd8eebd60b499/solidjs/solid/releases/tag/%40solidjs/html%402.0.0-rc.9",
+            "date_modified": "2026-09-18T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-09-18/solidjs-2-rc9-reactivity-optimistic-writes",
+            "content_html": "## Summary & Key Takeaways\n\n- Defines when a write becomes visible at flush, ensuring consistent behavior across channels.\n- Clarifies that `setOptimistic(v)` becomes the active override at the carrying flush.\n- Rewrites a node held by a transaction to keep the staged value for `latest()` until the next flush.\n- Corrects documentation for `until()` within actions, requiring a `yield` after `await` before creating readers.\n- Ensures an async memo's held landing retains the committed frame's dependencies.\n\n## Our Commentary\n\nReactivity is the heart of SolidJS, so any changes here are worth noting. The clarification around optimistic writes and async memos feels like a necessary step towards a more predictable and robust system. I'm glad they're tightening up these core behaviors, even if it means a few doc corrections. It makes the mental model more solid.\n\nOriginal Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fsignals%402.0.0-rc.9",
+            "url": "https://digestweb.dev/articles/2026-09-18/solidjs-2-rc9-reactivity-optimistic-writes",
+            "title": "SolidJS 2.0 RC.9: Core Reactivity Updates & Optimistic Writes",
+            "summary": "SolidJS 2.0 Release Candidate 9 refines signal behavior, introducing clearer rules for optimistic writes and async memo dependencies.",
+            "image": "https://opengraph.githubassets.com/6331e1365669accc6d04bf8c357969b94950664a4f9d3942c4f1df0cacf576bb/solidjs/solid/releases/tag/%40solidjs/signals%402.0.0-rc.9",
+            "date_modified": "2026-09-18T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-09-17/accessible-custom-checkbox-pattern-css",
             "content_html": "## Summary & Key Takeaways\n\n- The article provides a custom checkbox pattern for current web development.\n- It addresses limitations of styling native checkboxes.\n- The solution uses good quality HTML markup and CSS.\n- It anticipates future browser support for `::checkmark` and `appearance: base`.\n- The pattern ensures accessibility and visual customization.\n\n## Our Commentary\n\nCustom checkboxes are one of those things that seem simple but are surprisingly tricky to get right, especially with accessibility. This pattern looks solid. It's smart to build for now while keeping an eye on future CSS features like `::checkmark`. We're always balancing what's possible today with what's coming tomorrow.\n\nOriginal Link: https://piccalil.li/blog/a-decent-custom-checkbox-for-until-checkmark-is-ready/?ref=articles-rss-feed",
             "url": "https://digestweb.dev/articles/2026-09-17/accessible-custom-checkbox-pattern-css",
