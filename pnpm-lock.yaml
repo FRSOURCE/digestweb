@@ -26,10 +26,10 @@ importers:
         version: 4.13.0(playwright-core@1.63.0)
       '@frsource/eslint-config':
         specifier: ^1.73.0
-        version: 1.85.10(eslint@10.11.0(jiti@2.7.0))(typescript@5.9.3)
+        version: 1.85.12(eslint@10.11.0(jiti@2.7.0))(typescript@5.9.3)
       '@frsource/prettier-config':
         specifier: ^1.41.0
-        version: 1.47.9(prettier@3.9.6)
+        version: 1.47.11(prettier@3.9.8)
       '@google/generative-ai':
         specifier: ^0.24.0
         version: 0.24.1
@@ -71,7 +71,7 @@ importers:
         version: 17.5.1
       prettier:
         specifier: ^3.8.1
-        version: 3.9.6
+        version: 3.9.8
       rss-parser:
         specifier: ^3.13.0
         version: 3.13.0
@@ -818,14 +818,14 @@ packages:
   '@frsource/autoresize-textarea@2.0.227':
     resolution: {integrity: sha512-E5DZ4JeR0+ouunGCklNJ0+oRxd5yEF3SW5ytDbb6O+wKW4Fp2jo7ViMyhg9V55lIFxw/8FtESqoVwjQHttPHEA==}
 
-  '@frsource/eslint-config@1.85.10':
-    resolution: {integrity: sha512-arg2hSItMxZkGfXx0/nLftFpxDwjId55mkjoAkJA3lL8OVBMv7rP1DD4HE+uvx9qbNdQ1nEe2ZecteOjEw27Hg==}
+  '@frsource/eslint-config@1.85.12':
+    resolution: {integrity: sha512-YMqPQ7E2UoloJI6/OCcbCBBm/iBc5UQqxZ6tK6gCZVpgOGz4Dj+GDjEPb/YnyFZlv0DyQczGg/w41Az5lC4afw==}
     peerDependencies:
       eslint: '>= 10'
       typescript: '>= 5.0.0'
 
-  '@frsource/prettier-config@1.47.9':
-    resolution: {integrity: sha512-iukYBUPLRqVnKyPhjmhlZvNGYXSCHgL+ZGHqbyp6eBEt7/S0yvTm0lzoJdFK28dLojXM2Lkrv4FljnSksc4OjA==}
+  '@frsource/prettier-config@1.47.11':
+    resolution: {integrity: sha512-YfV0hbTX66zf5+D1Rm4KGPGnyHsnF+1qY7hVfnTftN3ilBJ/JihmJPV6NCcCmNttOmIWR4v8LMhH2LcoKDWdTA==}
     peerDependencies:
       prettier: '>= 3'
 
@@ -2811,8 +2811,8 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
-  prettier@3.9.6:
-    resolution: {integrity: sha512-OpN0zzVdiaiAhxpuuj5efpIS4sY9j7bY6uR5mnj5yPzGkdkjNKSJeUThPb60Jw29QuAZgA4o+/iB49kFiaBX6g==}
+  prettier@3.9.8:
+    resolution: {integrity: sha512-WRFq3Wn3WId7LLROfMLdH7xaFr2jR62wU8nLO6rQUOLOxNZUviyJQs1M0iIhLexSFy+L+w0ch66wtoO2jRjG0A==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -4219,7 +4219,7 @@ snapshots:
 
   '@frsource/autoresize-textarea@2.0.227': {}
 
-  '@frsource/eslint-config@1.85.10(eslint@10.11.0(jiti@2.7.0))(typescript@5.9.3)':
+  '@frsource/eslint-config@1.85.12(eslint@10.11.0(jiti@2.7.0))(typescript@5.9.3)':
     dependencies:
       '@eslint/js': 10.0.1(eslint@10.11.0(jiti@2.7.0))
       '@typescript-eslint/eslint-plugin': 8.68.0(@typescript-eslint/parser@8.68.0(eslint@10.11.0(jiti@2.7.0))(typescript@5.9.3))(eslint@10.11.0(jiti@2.7.0))(typescript@5.9.3)
@@ -4232,9 +4232,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@frsource/prettier-config@1.47.9(prettier@3.9.6)':
+  '@frsource/prettier-config@1.47.11(prettier@3.9.8)':
     dependencies:
-      prettier: 3.9.6
+      prettier: 3.9.8
 
   '@google/generative-ai@0.24.1': {}
 
@@ -6121,7 +6121,7 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier@3.9.6: {}
+  prettier@3.9.8: {}
 
   pretty-bytes@5.6.0: {}
 
