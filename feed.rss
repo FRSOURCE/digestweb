@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Wed, 23 Sep 2026 05:31:42 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 23 Sep 2026 12:35:16 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,30 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[AI Model Price War: Claude Opus 5.5, GPT-6 Sol & Luna Slash Costs]]></title>
+            <link>https://digestweb.dev/articles/2026-09-22/ai-model-price-war-claude-opus-gpt6-sol-luna-slash-costs</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-22/ai-model-price-war-claude-opus-gpt6-sol-luna-slash-costs</guid>
+            <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Anthropic and OpenAI drop new models with aggressive pricing, igniting a fierce competition in the LLM market. GPT-6 Luna is now half its previous cost.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+Anthropic released Claude Opus 5.5.
+OpenAI launched GPT-6 Sol and GPT-6 Luna.
+GPT-6 Sol and Luna are priced at half their GPT-5.6 equivalents.
+GPT-6 Luna is now one of OpenAI's cheapest models ever at $0.10/$0.50 per million tokens.
+The new pricing significantly undercuts competitors like Grok 4.7.
+GPT-5.6 models face a scheduled 25% price increase, making GPT-6 even more competitive.
+Visual comparisons of model outputs show distinct stylistic differences between the 5.6 and 6 families.
+
+## Our Commentary
+
+Okay, this is wild. We just got hit with a barrage of new models and a price war that feels like it came out of nowhere. GPT-6 Luna at half the price? That's a game-changer for developers building on these platforms. I'm genuinely curious how long this aggressive pricing can last, and what it means for smaller players in the LLM space. It's a race to the bottom, but for now, our wallets are winning.
+
+Original Link: https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://static.simonwillison.net/static/2026/gpt-grid-card.jpg" length="0" type="image/jpg"/>
+        </item>
         <item>
             <title><![CDATA[Brighter Than White: Exploring HDR Colors in Modern Browsers]]></title>
             <link>https://digestweb.dev/articles/2026-09-22/brighter-than-white-hdr-browsers</link>
@@ -162,6 +186,45 @@ This is a fantastic development! `llama.cpp` has been a game-changer for running
 
 Original Link: https://huggingface.co/blog/transformers-llama-cpp-quants]]></content:encoded>
             <enclosure url="https://huggingface.co/blog/assets/transformers_llama_cpp_quants/thumbnail.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[llm-anthropic Plugin Adds Claude Opus 5.5 Support]]></title>
+            <link>https://digestweb.dev/articles/2026-09-22/llm-anthropic-plugin-adds-claude-opus-5-5-support</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-22/llm-anthropic-plugin-adds-claude-opus-5-5-support</guid>
+            <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The `llm-anthropic` plugin for Simon Willison's `llm` CLI tool now supports the newly released Claude Opus 5.5 model.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+`llm-anthropic` 0.29 adds support for Claude Opus 5.5.
+
+## Our Commentary
+
+Another quick update to keep the `llm` ecosystem current. It's a constant game of catch-up with these model releases, and having plugins updated swiftly is crucial for developers who rely on these tools.
+
+Original Link: https://simonwillison.net/2026/Sep/22/llm-anthropic/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/253/800/450" length="0" type="image//id/253/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[llm CLI Tool Updates with GPT-6 Sol & Luna Support]]></title>
+            <link>https://digestweb.dev/articles/2026-09-22/llm-cli-tool-updates-gpt6-sol-luna-support</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-22/llm-cli-tool-updates-gpt6-sol-luna-support</guid>
+            <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison's `llm` CLI tool gets an update, adding support for the latest OpenAI models and new features for conversation handling.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+`llm` 0.36 adds support for OpenAI's new `gpt-6-sol` and `gpt-6-luna` models.
+Model plugins can now declare `supports_conversation = False` for single-turn models.
+The `llm` chat interface will reject models that do not support conversations.
+Reasoning traces in `llm logs` Markdown output are now wrapped in `<details>` tags.
+
+## Our Commentary
+
+It's good to see `llm` keeping pace with the rapid model releases. The `supports_conversation` flag is a smart addition; it helps manage expectations for models not designed for multi-turn interactions. We appreciate the continuous refinement of developer tools in this fast-moving AI landscape.
+
+Original Link: https://simonwillison.net/2026/Sep/22/llm/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/315/800/450" length="0" type="image//id/315/800/450"/>
         </item>
         <item>
             <title><![CDATA[llm-typesafe 0.1a0: Structured LLM Interactions with Jev Model]]></title>
