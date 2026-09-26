@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Wed, 23 Sep 2026 12:35:16 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 26 Sep 2026 05:52:55 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,271 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Angular Compiler Update: Progress Towards TypeScript 7 Integration]]></title>
+            <link>https://digestweb.dev/articles/2026-09-25/angular-compiler-typescript-7-update</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-25/angular-compiler-typescript-7-update</guid>
+            <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Angular provides an update on the development of its compiler, detailing progress and challenges in integrating with the upcoming TypeScript 7.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- An update on Angular's compiler development is provided.
+- The focus is on integration with the upcoming TypeScript 7.
+- Details on progress and potential future benefits are shared.
+- This work is important for the framework's long-term evolution and compatibility.
+
+## Our Commentary
+
+TypeScript 7 already? Time genuinely flies. This kind of foundational work is crucial, even if it's not flashy. It's good to see Angular staying on top of the TypeScript ecosystem, ensuring future compatibility and performance.
+
+Original Link: https://blog.angular.dev/an-update-on-angulars-typescript-7-powered-compiler-9619a35e2b0a?source=rss----447683c3d9a3---4]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/275/800/450" length="0" type="image//id/275/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Angular Introduces Debounce APIs, New Rendering, & AI Setup]]></title>
+            <link>https://digestweb.dev/articles/2026-09-25/angular-debounce-apis-rendering-ai-setup</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-25/angular-debounce-apis-rendering-ai-setup</guid>
+            <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Angular unveils new debounce APIs, enhanced rendering strategies, and an automated AI setup, aiming to streamline modern web development workflows.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- New debounce APIs are introduced for improved event handling.
+- Enhanced rendering strategies aim for better performance.
+- An automated AI setup is included to streamline development.
+- The update focuses on modernizing web architecture within Angular.
+
+## Our Commentary
+
+This is a big title from Angular. "Automated AI Setup" is genuinely intriguing. We're seeing AI creep into everything, and I wonder how deep this integration goes. Is it just scaffolding, or something more fundamental? It feels like a significant step for the framework.
+
+Original Link: https://blog.angular.dev/architecting-the-modern-web-debounce-apis-rendering-strategies-and-automated-ai-setup-826bc54ae3a9?source=rss----447683c3d9a3---4]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/684/800/450" length="0" type="image//id/684/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Anthropic Research: Claude Demonstrates Advanced 'Nine Loops' Capability]]></title>
+            <link>https://digestweb.dev/articles/2026-09-25/anthropic-claude-nine-loops-research</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-25/anthropic-claude-nine-loops-research</guid>
+            <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Anthropic's latest research showcases Claude's ability to perform 'Nine Loops,' indicating significant advancements in its reasoning and computational prowess.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Anthropic research demonstrates Claude's "Nine Loops" capability.
+- This suggests advanced reasoning and computational abilities in Claude.
+- It contributes to understanding LLM performance limits.
+- The research highlights ongoing progress in AI model development.
+
+## Our Commentary
+
+"Nine Loops"? That sounds like a specific, complex computational task. If Claude can handle that, it's a strong indicator of its growing sophistication. We're moving beyond simple chat, and I'm genuinely curious about the implications for complex problem-solving.
+
+Original Link: https://www.anthropic.com/research/yes-claude-can-do-nine-loops]]></content:encoded>
+            <enclosure url="https://www-cdn.anthropic.com/images/4zrzovbb/website/2ed453f8c87d2166b09940a859cd193b29678a88-3840x2160.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Anthropic Unveils Plugin Development for Claude, Expanding Capabilities]]></title>
+            <link>https://digestweb.dev/articles/2026-09-25/anthropic-claude-plugins-development</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-25/anthropic-claude-plugins-development</guid>
+            <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Claude now supports plugin development, allowing users and developers to extend its functionality and integrate it with external services and tools.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Claude now supports building and integrating plugins.
+- This significantly expands Claude's functionality and ecosystem.
+- It enables integration with external services and tools.
+- The feature opens new possibilities for AI applications and developer experience.
+
+## Our Commentary
+
+Plugins for Claude! This is huge. It's exactly what we saw with ChatGPT, and it fundamentally changes how people can interact with and extend these models. The race for the AI ecosystem is heating up, and this feels like a major play.
+
+Original Link: https://claude.com/blog/build-plugins-for-claude]]></content:encoded>
+            <enclosure url="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69051360369f8c1bb58fc2fe_og_build-artifacts.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[GitHub Copilot App: Custom Workflows with Canvases for Beginners]]></title>
+            <link>https://digestweb.dev/articles/2026-09-25/github-copilot-canvases-custom-workflows</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-25/github-copilot-canvases-custom-workflows</guid>
+            <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how to leverage GitHub Copilot's canvas feature to build custom workflows by describing interfaces in plain English, enhancing productivity.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Introduces GitHub Copilot's canvas feature.
+- Guides beginners on building custom workflows.
+- Allows describing interfaces in plain English for agent creation.
+- Aims to reduce tool adaptation time and boost productivity.
+
+## Our Commentary
+
+Copilot's canvases sound like a powerful way to interact with AI. The idea of describing an interface and having an agent build it is compelling. This is a practical application of AI that could genuinely improve DX. I'm curious to see how intuitive it feels in practice.
+
+Original Link: https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/]]></content:encoded>
+            <enclosure url="https://github.blog/wp-content/uploads/2026/09/Screenshot-2026-09-23-at-3.59.20-PM.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[GitHub Boosts Performance by Migrating Away from CSS-in-JS]]></title>
+            <link>https://digestweb.dev/articles/2026-09-25/github-performance-css-in-js-migration</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-25/github-performance-css-in-js-migration</guid>
+            <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[GitHub details its full migration of github.com from CSS-in-JS, explaining how shipping more traditional CSS significantly improved site performance.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- GitHub fully migrated github.com away from CSS-in-JS.
+- The migration aimed to improve site performance.
+- Involves shipping more traditional CSS.
+- Represents a significant architectural decision for a large platform.
+
+## Our Commentary
+
+This is a bold move from GitHub. We've seen the pendulum swing on CSS-in-JS for years, and a major player like GitHub publicly moving away from it for performance reasons is a huge signal. It makes me genuinely wonder about the long-term viability of some of these solutions.
+
+Original Link: https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/]]></content:encoded>
+            <enclosure url="https://github.blog/wp-content/uploads/2026/01/generic-invertocat-github-logo.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[John Gruber on Meta's Muse: Powerful Agentic AI, Hidden Dangers]]></title>
+            <link>https://digestweb.dev/articles/2026-09-25/john-gruber-meta-muse-agentic-ai-dangers</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-25/john-gruber-meta-muse-agentic-ai-dangers</guid>
+            <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison quotes John Gruber's take on Meta's Muse, a consumer-accessible agentic AI, highlighting its technical prowess but questioning user awareness of its inherent power and risks.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Discusses Meta's "Muse," a groundbreaking agentic AI system.
+- Highlights its technical innovation and user-friendly packaging.
+- Raises concerns about consumers' understanding of its power.
+- Questions the awareness of potential dangers, especially when running locally.
+
+## Our Commentary
+
+John Gruber's take on Meta's Muse is chillingly accurate. The "cute mascot" packaging for something potentially so powerful and "dangerous" is a classic tech move. We're rushing into agentic AI without fully grasping the implications, and that's genuinely unsettling. I don't know how we regulate this.
+
+Original Link: https://simonwillison.net/2026/Sep/25/john-gruber/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/18/800/450" length="0" type="image//id/18/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[NNGroup Study Guide: Understanding AI Functionality & User Perception]]></title>
+            <link>https://digestweb.dev/articles/2026-09-25/nngroup-ai-functionality-user-perception-guide</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-25/nngroup-ai-functionality-user-perception-guide</guid>
+            <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Nielsen Norman Group offers a comprehensive study guide to help understand how AI works and how users perceive and interact with artificial intelligence systems.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- This is a study guide from the Nielsen Norman Group.
+- It covers how artificial intelligence functions.
+- It explores how users think about and interact with AI.
+- The guide provides a collection of articles and videos for learning.
+
+## Our Commentary
+
+NNGroup diving into AI is always a good thing. Understanding user perception of AI is just as important as the tech itself. We need more focus on the human side of these systems, not just the algorithms. This is a valuable resource.
+
+Original Link: https://www.nngroup.com/articles/ai-functionality-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication]]></content:encoded>
+            <enclosure url="https://media.nngroup.com/media/articles/opengraph_images/How-AI-Works-Study-Guide-1_rBL76lj.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[NNGroup's PACED Framework: When to Disclose AI Use]]></title>
+            <link>https://digestweb.dev/articles/2026-09-25/nngroup-paced-framework-ai-disclosure</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-25/nngroup-paced-framework-ai-disclosure</guid>
+            <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Nielsen Norman Group introduces the PACED Framework, offering guidance on when and how to disclose AI involvement in content creation, considering audience and context.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Introduces the PACED Framework for AI disclosure.
+- Provides guidance on when to inform users about AI use.
+- Considers audience, context, and degree of AI involvement.
+- Aims to address ethical considerations and user trust in AI.
+
+## Our Commentary
+
+The PACED Framework sounds like a much-needed tool. The question of "when to disclose AI" is becoming increasingly complex. It's not a simple yes/no, and having a structured approach from a UX authority is incredibly valuable. We need to build trust, not just features; this is a step in the right direction.
+
+Original Link: https://www.nngroup.com/articles/disclose-ai-paced/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication]]></content:encoded>
+            <enclosure url="https://media.nngroup.com/media/articles/opengraph_images/PACED_1.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[pnpm 11.28 Update: Platform Ignorance & Peer Dependency Control]]></title>
+            <link>https://digestweb.dev/articles/2026-09-25/pnpm-11-28-force-ignores-platform-peer-update</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-25/pnpm-11-28-force-ignores-platform-peer-update</guid>
+            <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[pnpm 11.28 adds `forceIgnoresPlatform` for optional dependencies, `pnpm update --peer`, and addresses several bugs and security vulnerabilities.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Introduces the `forceIgnoresPlatform` setting for optional dependencies.
+- Adds `pnpm update --peer` for updating peer dependencies.
+- Fixes bugs in `pnpm deploy`, `--filter`, and `nodeLinker: hoisted`.
+- Includes security fixes for shell completion and bin shims.
+- Addresses security concerns related to `userAgent` in `pnpm-workspace.yaml`.
+
+## Our Commentary
+
+Two pnpm releases back-to-back. It's a good sign of active development. The security fixes are always welcome, especially for a tool that touches so many parts of the system. It's reassuring to see this level of attention to detail.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.28.0]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/3271300bebeec9846c43ee05c56ab975abeb4c4db6aae1c4407ce74e8c8104b5/pnpm/pnpm/releases/tag/v11.28.0" length="0" type="image/0"/>
+        </item>
+        <item>
+            <title><![CDATA[pnpm 12.7 Released: .nvmrc Support, Build Control, & Security Fixes]]></title>
+            <link>https://digestweb.dev/articles/2026-09-25/pnpm-12-7-nvmrc-allow-build-security</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-25/pnpm-12-7-nvmrc-allow-build-security</guid>
+            <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[pnpm 12.7 introduces .nvmrc support, granular control over package build scripts, a publish wait timeout, and critical security enhancements.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Adds `.nvmrc` and `.node-version` support for the global node shim.
+- Introduces `pnpm install --allow-build` for selective script execution.
+- A new `pnpm publish --publish-wait-timeout` option is available.
+- `pnpm install --force` now skips platform-mismatched optional dependencies by default.
+- Includes security fixes for bin shims and lifecycle scripts.
+- Improves the creation of `pnpm-workspace.yaml` files.
+
+## Our Commentary
+
+pnpm just keeps shipping. The `.nvmrc` support is a nice quality-of-life improvement, and `--allow-build` is a solid security feature. It's these continuous, thoughtful updates that make a tool indispensable. We appreciate the consistent improvements.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v12.7.0]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/81b8bba9b31dc03eaffa2d40a6f9dd8723a585e80ba04a914c37ae9e16255193/pnpm/pnpm/releases/tag/v12.7.0" length="0" type="image/0"/>
+        </item>
+        <item>
+            <title><![CDATA[pnpr 0.1.0-alpha.13: TLS Fixes & Peer Dependency Support]]></title>
+            <link>https://digestweb.dev/articles/2026-09-25/pnpr-0-1-alpha-13-tls-peers</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-25/pnpr-0-1-alpha-13-tls-peers</guid>
+            <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[pnpr 0.1.0-alpha.13 improves TLS certificate verification, fixes macOS SSL policy issues, and ensures peer dependency installation.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- TLS certificate verification failures now occur immediately.
+- Fixes macOS SSL policy issues by using bundled certificates.
+- Ensures peer dependencies are installed when `autoInstallPeers` is enabled.
+- Improves package index build speed on macOS.
+- Adds support for `${VAR?}` placeholders in `pnpr` config files.
+
+## Our Commentary
+
+An alpha release for `pnpr`. It's good to see continued work on related tools, but alpha means it's still very much in flux. We'll keep an eye on `pnpr` as it matures, but it's not quite ready for prime time.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.13]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/52843a2849f7a68e8dd3d8f61989d9e421745ec53f7031b4401f3d7724bc935b/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.13" length="0" type="image/13"/>
+        </item>
+        <item>
+            <title><![CDATA[CSS/JS Tutorial: Randomly Place Elements Along Edges]]></title>
+            <link>https://digestweb.dev/articles/2026-09-25/randomly-place-element-edge-tutorial</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-09-25/randomly-place-element-edge-tutorial</guid>
+            <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how to easily animate and randomly position an element along the border edge of another element using CSS and JavaScript for dynamic layouts.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- This tutorial covers animating elements along another element's border.
+- It achieves random positioning for dynamic visual effects.
+- The techniques utilize CSS and JavaScript.
+- The implementation is presented as relatively straightforward.
+
+## Our Commentary
+
+Sometimes it's the small, clever CSS/JS tricks that make a design pop. This sounds like a fun little tutorial. It's a good reminder that not everything has to be a massive framework update to be useful. I appreciate these practical tips.
+
+Original Link: https://blog.master.dev/randomly-place-an-element-along-edge-of-another-element/]]></content:encoded>
+            <enclosure url="https://blog.master.dev/wp-json/social-image-generator/v1/image/11153" length="0" type="image//wp-json/social-image-generator/v1/image/11153"/>
+        </item>
         <item>
             <title><![CDATA[AI Model Price War: Claude Opus 5.5, GPT-6 Sol & Luna Slash Costs]]></title>
             <link>https://digestweb.dev/articles/2026-09-22/ai-model-price-war-claude-opus-gpt6-sol-luna-slash-costs</link>
