@@ -21,5 +21,10 @@ export default defineConfig({
     command: CI ? 'pnpm build && pnpm preview' : 'pnpm dev',
     url: `http://localhost:${PORT}`,
     reuseExistingServer: !CI,
+    // pnpm >= 12.6 runs scripts in their own process group when it has no
+    // terminal, so Playwright's default SIGKILL of the webServer group only
+    // kills pnpm and leaves the server holding the stdio pipes - the run then
+    // never exits (pnpm/pnpm#15555). pnpm forwards SIGTERM to the script.
+    gracefulShutdown: { signal: 'SIGTERM', timeout: 5000 },
   },
 });
