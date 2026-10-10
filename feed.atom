@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-10-07T22:32:57.847Z</updated>
+    <updated>2026-10-10T06:43:17.387Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,222 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Angular Unveils Signal Value Transforms, Routing Enhancements, and Veo Video]]></title>
+        <id>https://digestweb.dev/articles/2026-10-09/angular-signal-value-transforms-routing-veo-video</id>
+        <link href="https://digestweb.dev/articles/2026-10-09/angular-signal-value-transforms-routing-veo-video"/>
+        <link rel="enclosure" href="https://picsum.photos/id/115/800/450" type="image//id/115/800/450"/>
+        <updated>2026-10-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Angular's latest update introduces powerful Signal Value Transforms, essential routing improvements, and a new video extension with Veo. These features aim to enhance developer experience and application capabilities.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Signal Value Transforms provide new ways to manipulate signal values.
+- Routing essentials are improved for better navigation and application structure.
+- A new video extension, Veo, integrates video capabilities into Angular applications.
+- These updates collectively enhance Angular's reactivity and media handling.
+
+## Our Commentary
+
+We're always watching Angular's progress with Signals. This 'Signal Value Transforms' sounds like a big deal for how developers interact with reactive state. It's a good move to keep pushing the framework forward, especially with routing improvements. The Veo video extension feels a bit out of left field, but hey, more tools are usually better.
+
+Original Link: https://blog.angular.dev/signal-value-transforms-routing-essentials-and-video-extension-with-veo-3846cae9283a?source=rss----447683c3d9a3---4]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Asana Slashes AI Model Costs 76x with OpenAI's GPT-6.1 Sol in Browser Agents]]></title>
+        <id>https://digestweb.dev/articles/2026-10-09/asana-openai-gpt6-sol-browser-agent-cost-reduction</id>
+        <link href="https://digestweb.dev/articles/2026-10-09/asana-openai-gpt6-sol-browser-agent-cost-reduction"/>
+        <link rel="enclosure" href="https://picsum.photos/id/648/800/450" type="image//id/648/800/450"/>
+        <updated>2026-10-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Asana achieved a 76x cost reduction and 5x speed increase for its browser agent in tests by leveraging OpenAI's new GPT-6 Astra model within Codex, offering customers more capable and efficient AI.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Asana utilized OpenAI's GPT-6 Astra model in Codex for its browser agent.
+- This integration resulted in a 76x reduction in model costs during tests.
+- The browser agent also saw a 5x improvement in speed.
+- The advancements enable Asana to provide more capable AI models to its users.
+- GPT-6.1 Sol is highlighted as a key component in these efficiency gains.
+
+## Our Commentary
+
+Seventy-six times cheaper and five times faster? That's not just an improvement; that's a paradigm shift for deploying AI agents. We've been talking about the cost of inference, and this feels like a massive leap forward. It makes me wonder what other applications will suddenly become viable. This is a big deal.
+
+Original Link: https://openai.com/index/asana-browser-agent]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deno Acquired by Cloudflare, Future Focus Shifts to Workerd and Celld]]></title>
+        <id>https://digestweb.dev/articles/2026-10-09/deno-acquired-cloudflare-workerd-celld-future</id>
+        <link href="https://digestweb.dev/articles/2026-10-09/deno-acquired-cloudflare-workerd-celld-future"/>
+        <link rel="enclosure" href="https://picsum.photos/id/301/800/450" type="image//id/301/800/450"/>
+        <updated>2026-10-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cloudflare has acquired Deno, with plans to sunset Deno runtime development within a year, shifting focus to `workerd` and `celld`. Ryan Dahl explains the decision, citing Deno's struggle with Node.js compatibility.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Cloudflare has acquired the Deno runtime and its team.
+- Cloudflare will cease active development on the Deno runtime within a year.
+- The focus will shift to `workerd` and `celld`, Cloudflare's open-source runtime and Durable Objects implementation.
+- Deno creator Ryan Dahl cites Deno's "gravity well of Node compatibility" as a reason for the shift.
+- This move aims to build new server development abstractions, moving beyond Node.js reimplementation.
+- Deno will remain open source for community maintenance.
+
+## Our Commentary
+
+Wow. Just... wow. Deno joining Cloudflare is big, but the news that Cloudflare will _stop_ maintaining the Deno runtime after a year is a gut punch. Ryan Dahl's explanation about the "gravity well of Node compatibility" is brutally honest, and I get it. It's a tough spot to be in, trying to innovate while constantly being pulled back to Node.js parity. This feels like a definitive end to the "Node.js killer" narrative, and a clear pivot towards Cloudflare's `workerd` vision. I'm genuinely sad for the Deno community, but also intrigued by what `celld` might become.
+
+Original Link: https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Optimizing GPU Cluster Scheduling for AI Workloads]]></title>
+        <id>https://digestweb.dev/articles/2026-10-09/huggingface-gpu-cluster-scheduling-optimization</id>
+        <link href="https://digestweb.dev/articles/2026-10-09/huggingface-gpu-cluster-scheduling-optimization"/>
+        <link rel="enclosure" href="https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/Kj0n5ea3ItoNIc2ha2SVL.png" type="image/png"/>
+        <updated>2026-10-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article from Hugging Face explores strategies for impactful scheduling within GPU clusters, a critical aspect for efficiently managing and accelerating AI and machine learning workloads.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Efficient GPU cluster scheduling is crucial for AI and ML performance.
+- The article discusses strategies to optimize resource allocation.
+- Proper scheduling can significantly impact the speed and cost of training models.
+- Hugging Face shares insights into managing complex AI workloads on distributed hardware.
+
+## Our Commentary
+
+GPU cluster scheduling is one of those behind-the-scenes topics that makes or breaks large-scale AI. It's not flashy, but it's absolutely essential. We appreciate Hugging Face diving into these practical, impactful areas. It's a reminder that the infrastructure side of AI is just as complex as the model development.
+
+Original Link: https://huggingface.co/blog/allenai/impactful-scheduling]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Matthew Green Warns of AI's Threat to Public-Key Encryption Standards]]></title>
+        <id>https://digestweb.dev/articles/2026-10-09/matthew-green-ai-threat-public-key-encryption</id>
+        <link href="https://digestweb.dev/articles/2026-10-09/matthew-green-ai-threat-public-key-encryption"/>
+        <link rel="enclosure" href="https://picsum.photos/id/214/800/450" type="image//id/214/800/450"/>
+        <updated>2026-10-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cryptographer Matthew Green raises a stark warning about the potential for AI to outpace human ability to update security standards, posing a significant risk to public-key encryption and potentially leading to a "Minicrypt" scenario.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Matthew Green expresses concern about AI's rapid progress versus slow human standards updates.
+- He estimates a 15% chance of losing confidence in existing public-key encryption.
+- There's a 1% chance of entering "Minicrypt," where public-key encryption is impossible.
+- Proactive preparation is essential to mitigate these AI-driven security risks.
+
+## Our Commentary
+
+Matthew Green's warning is chilling. The idea that AI could break fundamental cryptography faster than we can adapt is a terrifying thought. We're so reliant on these systems. It's a stark reminder that the "move fast and break things" mentality doesn't apply to foundational security. This isn't just a technical problem; it's a societal one.
+
+Original Link: https://simonwillison.net/2026/Oct/9/matthew-green/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rapid AI Progress, But Not Towards General Superintelligence, Says Lambert]]></title>
+        <id>https://digestweb.dev/articles/2026-10-09/nathan-lambert-ai-progress-not-superintelligence</id>
+        <link href="https://digestweb.dev/articles/2026-10-09/nathan-lambert-ai-progress-not-superintelligence"/>
+        <link rel="enclosure" href="https://substackcdn.com/image/fetch/$s_!8EAF!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffe890df0-8dfe-4dfb-9fb9-659d721e2d76_3182x1790.png" type="image/png"/>
+        <updated>2026-10-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Nathan Lambert, a prominent AI researcher, shares his perspective on the future of AI, predicting continued rapid progress in specific domains but skepticism towards the imminent arrival of general superintelligence.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Nathan Lambert expresses surprise at industry researchers' belief in imminent AI job superiority.
+- He anticipates rapid advancements in AI capabilities within specific areas.
+- His perspective leans against the immediate emergence of general superintelligence.
+- The article explores the reasons behind his nuanced view on AI's trajectory.
+
+## Our Commentary
+
+I find myself nodding along with Nathan Lambert here. The hype cycle around AGI is intense, and it's easy to get swept up. It's refreshing to hear a researcher articulate a more grounded view: rapid progress, yes, but maybe not the sci-fi leap we sometimes imagine. It's a good dose of reality.
+
+Original Link: https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards]]></content>
+        <author>
+            <name>Nathan Lambert</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NNG: AI Power Users Struggle with Context Libraries and Engineering]]></title>
+        <id>https://digestweb.dev/articles/2026-10-09/nngroup-ai-context-libraries-power-users</id>
+        <link href="https://digestweb.dev/articles/2026-10-09/nngroup-ai-context-libraries-power-users"/>
+        <link rel="enclosure" href="https://media.nngroup.com/media/articles/opengraph_images/Context_Libraries-1.png" type="image/png"/>
+        <updated>2026-10-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Nielsen Norman Group's research reveals that even power users of AI agents like Claude often struggle with managing and locating their context files, highlighting a critical usability challenge in context engineering.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- AI power users frequently struggle with managing their context files.
+- Many users find it difficult to locate their existing context libraries.
+- The effectiveness of an AI agent is directly tied to its context library.
+- This points to a significant usability challenge in current AI tools.
+
+## Our Commentary
+
+This resonates so much. We're all trying to figure out how to "prompt engineer" or "context engineer" our way to better AI results, but if the tools themselves make managing that context a nightmare, we're hitting a wall. It's a clear signal that AI interfaces need to evolve rapidly to support these new workflows.
+
+Original Link: https://www.nngroup.com/articles/context-libraries/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NNG: New Siri's Strength Lies in Context, Not Raw Intelligence]]></title>
+        <id>https://digestweb.dev/articles/2026-10-09/nngroup-siri-ai-context-over-intelligence</id>
+        <link href="https://digestweb.dev/articles/2026-10-09/nngroup-siri-ai-context-over-intelligence"/>
+        <link rel="enclosure" href="https://media.nngroup.com/media/articles/opengraph_images/The_New_Siri-1.png" type="image/png"/>
+        <updated>2026-10-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Nielsen Norman Group argues that the effectiveness of AI assistants like the new Siri hinges on their ability to leverage relevant personal context and manage user expectations, rather than just raw intelligence.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- A useful AI assistant relies heavily on relevant personal context.
+- The ability to effectively use this context is a key strength.
+- User experience should help clarify the AI's limitations.
+- Raw intelligence alone is not sufficient for a truly helpful AI assistant.
+
+## Our Commentary
+
+This is a really important distinction for AI product design. We get so caught up in "how smart" an AI is, but NNG reminds us that _utility_ often comes down to context and managing expectations. It's a good framework for thinking about how to build AI that people actually want to use, not just marvel at.
+
+Original Link: https://www.nngroup.com/articles/ai-assistant-context/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beyond Divs: 5 Semantic HTML Container Choices]]></title>
+        <id>https://digestweb.dev/articles/2026-10-09/semantic-html-container-choices-frontend-masters</id>
+        <link href="https://digestweb.dev/articles/2026-10-09/semantic-html-container-choices-frontend-masters"/>
+        <link rel="enclosure" href="https://blog.master.dev/wp-json/social-image-generator/v1/image/11290" type="image//wp-json/social-image-generator/v1/image/11290"/>
+        <updated>2026-10-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This Frontend Masters article explores five semantic HTML elements that offer more meaningful alternatives to generic `div` and `span` tags, improving accessibility and document structure.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article advocates for using semantic HTML elements over generic `div` and `span`.
+- It presents five specific HTML container choices.
+- Using semantic tags improves document structure and readability.
+- Proper semantic HTML enhances web accessibility for users and search engines.
+
+## Our Commentary
+
+We've all been there, reaching for a `div` out of habit. This is a good, gentle reminder about the power of semantic HTML. It's fundamental, but often overlooked, especially by newer developers. A solid refresher for anyone looking to improve their markup.
+
+Original Link: https://blog.master.dev/5-good-choices-for-html-containers/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Simon Willison Builds Blog Feature Entirely with Voice Using ChatGPT Codex]]></title>
+        <id>https://digestweb.dev/articles/2026-10-09/simon-willison-voice-coding-chatgpt-codex-blog</id>
+        <link href="https://digestweb.dev/articles/2026-10-09/simon-willison-voice-coding-chatgpt-codex-blog"/>
+        <link rel="enclosure" href="https://static.simonwillison.net/static/2026/newsletters-card.webp" type="image/webp"/>
+        <updated>2026-10-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison demonstrates a new level of AI-assisted development by building a complete blog feature, including models, views, and templates, almost entirely through voice commands using the ChatGPT desktop app's Codex tab.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison developed a new blog feature using voice commands.
+- He utilized the ChatGPT desktop app's Codex tab with voice conversation mode.
+- The process involved creating Django models, views, templates, and import functions.
+- This showcases a practical application of AI for hands-free coding.
+- The experience highlights the potential for voice-driven developer workflows.
+
+## Our Commentary
+
+This is genuinely fascinating. Voice-driven coding has always felt like a futuristic pipe dream, but Simon Willison just did it for a real feature. It makes me wonder how much of our daily coding could be offloaded to voice. The idea of just _talking_ a feature into existence while doing something else is wild. It's a powerful demonstration of AI's potential to transform developer experience.
+
+Original Link: https://simonwillison.net/2026/Oct/9/built-using-my-voice/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AI Solves Math Conjecture, Human Feels Loss: A Personal Reflection]]></title>
         <id>https://digestweb.dev/articles/2026-10-07/ai-solves-math-conjecture-human-feels-loss</id>
