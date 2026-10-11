@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-10-10T13:19:29.353Z</updated>
+    <updated>2026-10-11T06:49:59.828Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -65,6 +65,29 @@ Original Link: https://bun.com/blog/bun-v1.4.3]]></content>
         <author>
             <name>Jarred Sumner</name>
         </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pnpm 12.12.0: Remote Caching & Enhanced TypeScript Support]]></title>
+        <id>https://digestweb.dev/articles/2026-10-10/pnpm-12-12-0-remote-caching-typescript-support</id>
+        <link href="https://digestweb.dev/articles/2026-10-10/pnpm-12-12-0-remote-caching-typescript-support"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/ef19181e125338d4f056c464b026ec175300e29d92194bcf844e43c288f06aa7/pnpm/pnpm/releases/tag/v12.12.0" type="image/0"/>
+        <updated>2026-10-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[pnpm 12.12.0 introduces remote caching for task results and dependency builds, compatible with Turborepo. It also adds a new setting to automatically link @types packages for peer dependencies, streamlining TypeScript workflows.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Remote caching for task results and dependency builds is now available.
+- This cache is compatible with the Turborepo Remote Cache API.
+- A new `addMissingPeerTypes` setting automatically links `@types` packages for peer dependencies.
+- `pnpm add --config` and `pnpm update` now manage configuration dependencies more robustly.
+- The `remoteCache` setting configures the server and signing keys for caching.
+- `pnpm pipeline --report` can record runs under a specified organization.
+- A bug was fixed where `dangerouslyAllowAllBuilds` ignored `allowBuilds` denials.
+
+## Our Commentary
+
+Remote caching for pnpm? This is a huge deal for monorepos and CI/CD pipelines. We've seen the impact of similar features in other build tools, and bringing that to pnpm is a serious performance boost. I'm genuinely excited to see how this integrates with existing setups. The `addMissingPeerTypes` setting is also a quiet but powerful DX win for TypeScript users; it's those little quality-of-life improvements that really smooth out the rough edges of development.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v12.12.0]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Angular Unveils Signal Value Transforms, Routing Enhancements, and Veo Video]]></title>

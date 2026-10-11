@@ -35,6 +35,15 @@
             }
         },
         {
+            "id": "https://digestweb.dev/articles/2026-10-10/pnpm-12-12-0-remote-caching-typescript-support",
+            "content_html": "## Summary & Key Takeaways\n\n- Remote caching for task results and dependency builds is now available.\n- This cache is compatible with the Turborepo Remote Cache API.\n- A new `addMissingPeerTypes` setting automatically links `@types` packages for peer dependencies.\n- `pnpm add --config` and `pnpm update` now manage configuration dependencies more robustly.\n- The `remoteCache` setting configures the server and signing keys for caching.\n- `pnpm pipeline --report` can record runs under a specified organization.\n- A bug was fixed where `dangerouslyAllowAllBuilds` ignored `allowBuilds` denials.\n\n## Our Commentary\n\nRemote caching for pnpm? This is a huge deal for monorepos and CI/CD pipelines. We've seen the impact of similar features in other build tools, and bringing that to pnpm is a serious performance boost. I'm genuinely excited to see how this integrates with existing setups. The `addMissingPeerTypes` setting is also a quiet but powerful DX win for TypeScript users; it's those little quality-of-life improvements that really smooth out the rough edges of development.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v12.12.0",
+            "url": "https://digestweb.dev/articles/2026-10-10/pnpm-12-12-0-remote-caching-typescript-support",
+            "title": "pnpm 12.12.0: Remote Caching & Enhanced TypeScript Support",
+            "summary": "pnpm 12.12.0 introduces remote caching for task results and dependency builds, compatible with Turborepo. It also adds a new setting to automatically link @types packages for peer dependencies, streamlining TypeScript workflows.",
+            "image": "https://opengraph.githubassets.com/ef19181e125338d4f056c464b026ec175300e29d92194bcf844e43c288f06aa7/pnpm/pnpm/releases/tag/v12.12.0",
+            "date_modified": "2026-10-10T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-10-09/angular-signal-value-transforms-routing-veo-video",
             "content_html": "## Summary & Key Takeaways\n\n- Signal Value Transforms provide new ways to manipulate signal values.\n- Routing essentials are improved for better navigation and application structure.\n- A new video extension, Veo, integrates video capabilities into Angular applications.\n- These updates collectively enhance Angular's reactivity and media handling.\n\n## Our Commentary\n\nWe're always watching Angular's progress with Signals. This 'Signal Value Transforms' sounds like a big deal for how developers interact with reactive state. It's a good move to keep pushing the framework forward, especially with routing improvements. The Veo video extension feels a bit out of left field, but hey, more tools are usually better.\n\nOriginal Link: https://blog.angular.dev/signal-value-transforms-routing-essentials-and-video-extension-with-veo-3846cae9283a?source=rss----447683c3d9a3---4",
             "url": "https://digestweb.dev/articles/2026-10-09/angular-signal-value-transforms-routing-veo-video",
