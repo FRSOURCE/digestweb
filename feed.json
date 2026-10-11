@@ -44,6 +44,18 @@
             "date_modified": "2026-10-10T00:00:00.000Z"
         },
         {
+            "id": "https://digestweb.dev/articles/2026-10-10/python-3-15-github-actions-available",
+            "content_html": "## Summary & Key Takeaways\n\n- Python 3.15.0 has been added to the `actions/python-versions` repository.\n- This allows developers to specify \"3.15\" in their GitHub Actions testing matrix.\n- Projects can now run CI/CD tests against the new stable Python 3.15.0 release.\n- The author used ChatGPT to monitor the repository for the update.\n\n## Our Commentary\n\nI've definitely been in this situation, waiting for a specific version to land in a CI/CD environment. It's a small thing, but it unblocks a lot of teams. The ChatGPT monitoring trick is a neat, if slightly over-engineered, solution. We're seeing more and more of these little AI assists in developer workflows.\n\nOriginal Link: https://simonwillison.net/2026/Oct/10/python-actions/",
+            "url": "https://digestweb.dev/articles/2026-10-10/python-3-15-github-actions-available",
+            "title": "Python 3.15.0 Now Available in GitHub Actions",
+            "summary": "Developers can now test their projects against the stable Python 3.15.0 release within GitHub Actions workflows. This update streamlines CI/CD for Python projects.",
+            "image": "https://picsum.photos/id/512/800/450",
+            "date_modified": "2026-10-10T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-10-09/angular-signal-value-transforms-routing-veo-video",
             "content_html": "## Summary & Key Takeaways\n\n- Signal Value Transforms provide new ways to manipulate signal values.\n- Routing essentials are improved for better navigation and application structure.\n- A new video extension, Veo, integrates video capabilities into Angular applications.\n- These updates collectively enhance Angular's reactivity and media handling.\n\n## Our Commentary\n\nWe're always watching Angular's progress with Signals. This 'Signal Value Transforms' sounds like a big deal for how developers interact with reactive state. It's a good move to keep pushing the framework forward, especially with routing improvements. The Veo video extension feels a bit out of left field, but hey, more tools are usually better.\n\nOriginal Link: https://blog.angular.dev/signal-value-transforms-routing-essentials-and-video-extension-with-veo-3846cae9283a?source=rss----447683c3d9a3---4",
             "url": "https://digestweb.dev/articles/2026-10-09/angular-signal-value-transforms-routing-veo-video",

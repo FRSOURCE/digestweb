@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-10-11T06:49:59.828Z</updated>
+    <updated>2026-10-11T13:48:09.873Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -88,6 +88,29 @@ Original Link: https://bun.com/blog/bun-v1.4.3]]></content>
 Remote caching for pnpm? This is a huge deal for monorepos and CI/CD pipelines. We've seen the impact of similar features in other build tools, and bringing that to pnpm is a serious performance boost. I'm genuinely excited to see how this integrates with existing setups. The `addMissingPeerTypes` setting is also a quiet but powerful DX win for TypeScript users; it's those little quality-of-life improvements that really smooth out the rough edges of development.
 
 Original Link: https://github.com/pnpm/pnpm/releases/tag/v12.12.0]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Python 3.15.0 Now Available in GitHub Actions]]></title>
+        <id>https://digestweb.dev/articles/2026-10-10/python-3-15-github-actions-available</id>
+        <link href="https://digestweb.dev/articles/2026-10-10/python-3-15-github-actions-available"/>
+        <link rel="enclosure" href="https://picsum.photos/id/512/800/450" type="image//id/512/800/450"/>
+        <updated>2026-10-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Developers can now test their projects against the stable Python 3.15.0 release within GitHub Actions workflows. This update streamlines CI/CD for Python projects.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Python 3.15.0 has been added to the `actions/python-versions` repository.
+- This allows developers to specify "3.15" in their GitHub Actions testing matrix.
+- Projects can now run CI/CD tests against the new stable Python 3.15.0 release.
+- The author used ChatGPT to monitor the repository for the update.
+
+## Our Commentary
+
+I've definitely been in this situation, waiting for a specific version to land in a CI/CD environment. It's a small thing, but it unblocks a lot of teams. The ChatGPT monitoring trick is a neat, if slightly over-engineered, solution. We're seeing more and more of these little AI assists in developer workflows.
+
+Original Link: https://simonwillison.net/2026/Oct/10/python-actions/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Angular Unveils Signal Value Transforms, Routing Enhancements, and Veo Video]]></title>

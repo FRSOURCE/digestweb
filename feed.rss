@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Sun, 11 Oct 2026 06:49:59 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 11 Oct 2026 13:48:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -85,6 +85,27 @@ Remote caching for pnpm? This is a huge deal for monorepos and CI/CD pipelines. 
 
 Original Link: https://github.com/pnpm/pnpm/releases/tag/v12.12.0]]></content:encoded>
             <enclosure url="https://opengraph.githubassets.com/ef19181e125338d4f056c464b026ec175300e29d92194bcf844e43c288f06aa7/pnpm/pnpm/releases/tag/v12.12.0" length="0" type="image/0"/>
+        </item>
+        <item>
+            <title><![CDATA[Python 3.15.0 Now Available in GitHub Actions]]></title>
+            <link>https://digestweb.dev/articles/2026-10-10/python-3-15-github-actions-available</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-10/python-3-15-github-actions-available</guid>
+            <pubDate>Sat, 10 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Developers can now test their projects against the stable Python 3.15.0 release within GitHub Actions workflows. This update streamlines CI/CD for Python projects.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Python 3.15.0 has been added to the `actions/python-versions` repository.
+- This allows developers to specify "3.15" in their GitHub Actions testing matrix.
+- Projects can now run CI/CD tests against the new stable Python 3.15.0 release.
+- The author used ChatGPT to monitor the repository for the update.
+
+## Our Commentary
+
+I've definitely been in this situation, waiting for a specific version to land in a CI/CD environment. It's a small thing, but it unblocks a lot of teams. The ChatGPT monitoring trick is a neat, if slightly over-engineered, solution. We're seeing more and more of these little AI assists in developer workflows.
+
+Original Link: https://simonwillison.net/2026/Oct/10/python-actions/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/512/800/450" length="0" type="image//id/512/800/450"/>
         </item>
         <item>
             <title><![CDATA[Angular Unveils Signal Value Transforms, Routing Enhancements, and Veo Video]]></title>
