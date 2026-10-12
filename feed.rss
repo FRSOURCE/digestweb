@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Sun, 11 Oct 2026 13:48:09 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 12 Oct 2026 04:59:34 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -192,6 +192,27 @@ Original Link: https://huggingface.co/blog/allenai/impactful-scheduling]]></cont
             <enclosure url="https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/Kj0n5ea3ItoNIc2ha2SVL.png" length="0" type="image/png"/>
         </item>
         <item>
+            <title><![CDATA[Mastering Keyboard Shortcuts for Web Accessibility]]></title>
+            <link>https://digestweb.dev/articles/2026-10-09/mastering-keyboard-shortcuts-web-accessibility</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-09/mastering-keyboard-shortcuts-web-accessibility</guid>
+            <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Eric Bailey provides a comprehensive guide on the intricate process and considerations involved in adding custom keyboard shortcuts to web applications with accessibility in mind.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Eric Bailey details the thought process behind adding keyboard shortcuts to web apps.
+- Significant research and testing are required for effective implementation.
+- Challenges can arise from internal team dynamics and differing priorities.
+- The article emphasizes considering user expectations and existing browser behaviors.
+- It highlights the complexity beyond simply assigning key combinations.
+
+## Our Commentary
+
+Accessibility is one of those areas that's often overlooked until it's too late. This article on keyboard shortcuts is a fantastic reminder of the depth involved. It's not just about slapping on an `onkeydown` listener; it's about thoughtful design, user expectations, and avoiding conflicts. We need more pieces like this that dive into the nuances of building truly inclusive web experiences.
+
+Original Link: https://blog.master.dev/how-an-accessibility-designer-adds-keyboard-shortcuts-to-a-web-app/]]></content:encoded>
+            <enclosure url="https://blog.master.dev/wp-json/social-image-generator/v1/image/11340" length="0" type="image//wp-json/social-image-generator/v1/image/11340"/>
+        </item>
+        <item>
             <title><![CDATA[Matthew Green Warns of AI's Threat to Public-Key Encryption Standards]]></title>
             <link>https://digestweb.dev/articles/2026-10-09/matthew-green-ai-threat-public-key-encryption</link>
             <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-09/matthew-green-ai-threat-public-key-encryption</guid>
@@ -274,6 +295,28 @@ Original Link: https://www.nngroup.com/articles/ai-assistant-context/?utm_source
             <enclosure url="https://media.nngroup.com/media/articles/opengraph_images/The_New_Siri-1.png" length="0" type="image/png"/>
         </item>
         <item>
+            <title><![CDATA[pnpm 12.11.0 Ships Rust Toolchain Management & AI Agent Skills]]></title>
+            <link>https://digestweb.dev/articles/2026-10-09/pnpm-12-11-0-rust-toolchain-ai-agent-skills</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-09/pnpm-12-11-0-rust-toolchain-ai-agent-skills</guid>
+            <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[pnpm's latest release introduces built-in Rust toolchain management, a novel system for linking AI agent skills from dependencies, and a granular permissions setting for packages.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- pnpm 12.11.0 now supports installing and running Rust toolchains.
+- It links AI agent skills from direct dependencies into project skill directories.
+- A new `permissions` setting allows recording what each dependency may do.
+- `pnpm approve` now reviews both build scripts and agent skills.
+- Script output colors are preserved when streamed with `--stream`.
+- Global Rust toolchain management is also supported.
+
+## Our Commentary
+
+Okay, this is wild. Rust toolchain management in a JavaScript package manager? And then "agent skills" and "permissions"? We're seeing package managers evolve beyond just dependency resolution. The idea of approving what a dependency "may do" feels like a necessary step in a world of increasingly complex, and potentially autonomous, tools. I'm genuinely curious how this "agent skills" concept will play out. It feels like a glimpse into a future where our dev tools are more integrated with AI agents.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v12.11.0]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/7cbbe18beb47766281c75e81a962254a7e70ea3f042987eae4a3159cb5df9457/pnpm/pnpm/releases/tag/v12.11.0" length="0" type="image/0"/>
+        </item>
+        <item>
             <title><![CDATA[Beyond Divs: 5 Semantic HTML Container Choices]]></title>
             <link>https://digestweb.dev/articles/2026-10-09/semantic-html-container-choices-frontend-masters</link>
             <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-09/semantic-html-container-choices-frontend-masters</guid>
@@ -314,6 +357,151 @@ This is genuinely fascinating. Voice-driven coding has always felt like a futuri
 Original Link: https://simonwillison.net/2026/Oct/9/built-using-my-voice/]]></content:encoded>
             <author>Simon Willison</author>
             <enclosure url="https://static.simonwillison.net/static/2026/newsletters-card.webp" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[ttok 1.0 Confirms GPT-5 & GPT-6 Share Tokenizer]]></title>
+            <link>https://digestweb.dev/articles/2026-10-09/ttok-1-0-gpt5-gpt6-tokenizer-confirmation</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-09/ttok-1-0-gpt5-gpt6-tokenizer-confirmation</guid>
+            <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison's `ttok` CLI tool reaches 1.0, notably confirming through experimental data that OpenAI's GPT-5 family and GPT-6 models likely share the same tokenizer.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- `ttok` CLI tool for token counting has been released as version 1.0.
+- The default tokenizer was switched from GPT-4 to the GPT-5/GPT-6 family.
+- Experimental data suggests GPT-6 uses the same tokenizer as GPT-5 models.
+- All seven GPT models (5.5, 5.6 Sol/Terra/Luna, 6 Astra/Sol/Luna) showed identical token counts on a test corpus.
+- This confirms no input-count change for GPT-6 on the tested corpus.
+
+## Our Commentary
+
+This is a genuinely useful piece of detective work! Simon Willison's `ttok` reaching 1.0 is cool, but the real gem here is the experimental confirmation about the GPT-5/6 tokenizer. We've all been wondering. It's the kind of practical, developer-focused insight that cuts through the marketing noise. I appreciate the effort to verify these details, it helps us build more predictable AI applications.
+
+Original Link: https://simonwillison.net/2026/Oct/9/ttok/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/668/800/450" length="0" type="image//id/668/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Carson Gross on Programming, Complexity, and AI's Future]]></title>
+            <link>https://digestweb.dev/articles/2026-10-08/carson-gross-programming-complexity-ai-future</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-08/carson-gross-programming-complexity-ai-future</guid>
+            <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Carson Gross shares a perspective on the enduring value of problem-solving and complexity control in programming, even with the rise of AI tools.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Carson Gross defines programming as problem-solving and complexity control.
+- He believes these skills will remain valuable despite AI advancements.
+- The core value of programming as a career is expected to persist.
+- AI tools are seen as augmenting, not replacing, fundamental programming skills.
+
+## Our Commentary
+
+I resonate with this quote from Carson Gross. It's easy to get caught up in the "AI will take our jobs" panic, but the core of programming—problem-solving and managing complexity—feels inherently human. AI can automate the mundane, but the creative, architectural thinking? That's still us. I find it reassuring, honestly.
+
+Original Link: https://simonwillison.net/2026/Oct/8/carson-gross/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/23/800/450" length="0" type="image//id/23/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Firebase Global Outage: iOS SDK Crash & Google's Response]]></title>
+            <link>https://digestweb.dev/articles/2026-10-08/firebase-global-outage-ios-sdk-crash-google-response</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-08/firebase-global-outage-ios-sdk-crash-google-response</guid>
+            <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A report details a global Firebase outage caused by an iOS SDK crash after a backend change, affecting apps for hours, alongside criticism of Google's delayed status page updates.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Firebase experienced a global outage affecting apps using its iOS SDK.
+- The outage lasted 2-6 hours due to a backend change.
+- Apps using Firebase analytics were particularly impacted.
+- Google's status page was not updated promptly during the incident.
+- A postmortem was provided four days after the event.
+
+## Our Commentary
+
+Outages are inevitable, but the response is everything. A 2-6 hour global outage for Firebase is a big deal for many developers. The delayed status page updates are a tough pill to swallow; transparency in these situations is paramount. We rely on these services, and when they go down, it's a scramble. I hope Google takes this feedback seriously.
+
+Original Link: https://blog.pragmaticengineer.com/the-pulse-firebases-global-outage-poor-response/]]></content:encoded>
+            <author>Gergely Orosz</author>
+            <enclosure url="https://picsum.photos/id/428/800/450" length="0" type="image//id/428/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Inside a Bug Bounty Hunter's Mind: How They Choose Targets]]></title>
+            <link>https://digestweb.dev/articles/2026-10-08/github-bug-bounty-researcher-methodology</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-08/github-bug-bounty-researcher-methodology</guid>
+            <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[GitHub spotlights a bug bounty researcher, @vaib25vicky, sharing their unique methodology and techniques for identifying vulnerabilities within the platform.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- GitHub is featuring bug bounty researcher @vaib25vicky for Cybersecurity Awareness Month.
+- The article explores their specific methodology for investigating features.
+- It delves into their techniques and experiences hacking on GitHub.
+- The spotlight aims to share insights from a successful bug bounty hunter.
+
+## Our Commentary
+
+It's always fascinating to get a peek behind the curtain of how security researchers think. Understanding their approach can help us build more resilient systems. I appreciate GitHub sharing these insights; it's a good way to foster a stronger security-aware community. It's a reminder that security isn't just about tools, but about creative problem-solving.
+
+Original Link: https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/]]></content:encoded>
+            <enclosure url="https://github.blog/wp-content/uploads/2021/06/GitHub-Bug-Bounty_for-social.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Next.js Prepares Out-of-Band Security Update for Upstream Flaws]]></title>
+            <link>https://digestweb.dev/articles/2026-10-08/nextjs-security-update-upstream-vulnerabilities</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-08/nextjs-security-update-upstream-vulnerabilities</guid>
+            <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Next.js will release an urgent security update next week to address critical and high-severity vulnerabilities found in its upstream dependencies.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Next.js is planning an out-of-band security update for October 14, 2026.
+- The update will address two Critical and one High severity vulnerability.
+- These vulnerabilities are located in upstream dependencies, not directly in Next.js code.
+- Users should monitor the official blog for the release and apply the patch promptly.
+
+## Our Commentary
+
+We always appreciate transparency around security. It's good to get a heads-up like this, even if it's just an announcement of an upcoming patch. It gives us time to prepare our deployment pipelines. I just hope the fixes are straightforward and don't introduce new regressions. Security updates are a necessary evil, aren't they?
+
+Original Link: https://nextjs.org/blog/upcoming-nextjs-security-update-october-2026]]></content:encoded>
+            <enclosure url="https://h8dxkfmaphn8o0p3.public.blob.vercel-storage.com/static/blog/upcoming-nextjs-security-update-october-2026/twitter-card.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Pollo AI Leverages New GPT-5.6, GPT-6 Astra, & GPT-Image-2.5]]></title>
+            <link>https://digestweb.dev/articles/2026-10-08/pollo-ai-openai-gpt-5-6-gpt-6-astra-gpt-image-2-5</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-08/pollo-ai-openai-gpt-5-6-gpt-6-astra-gpt-image-2-5</guid>
+            <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Pollo AI showcases how it transforms creative concepts into detailed images and cinematic video ads, powered by OpenAI's latest models, including GPT-5.6, GPT-6 Astra, and GPT-Image-2.5.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Pollo AI uses OpenAI models to convert creative ideas into campaigns.
+- The platform leverages GPT-5.6 and GPT-6 Astra for text generation.
+- GPT-Image-2.5 is utilized for generating detailed images and cinematic video ads.
+- This case study highlights the application of advanced AI in creative workflows.
+
+## Our Commentary
+
+Okay, this is interesting. Not just another case study, but a subtle confirmation of new model versions: GPT-5.6, GPT-6 Astra, and GPT-Image-2.5. We've been hearing whispers, but seeing them in a public-facing use case like this is a different kind of signal. It makes me wonder what other capabilities these new iterations bring to the table beyond creative ad generation. The pace of these releases is just relentless.
+
+Original Link: https://openai.com/index/pollo-ai]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/544/800/450" length="0" type="image//id/544/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Safari Technology Preview 254 Released with Web Platform Updates]]></title>
+            <link>https://digestweb.dev/articles/2026-10-08/safari-technology-preview-254-release-notes</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-08/safari-technology-preview-254-release-notes</guid>
+            <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[WebKit has released Safari Technology Preview 254, bringing new features and improvements for web developers to test on macOS Golden Gate and macOS Tahoe.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Safari Technology Preview Release 254 is now available.
+- It supports macOS Golden Gate and macOS Tahoe.
+- These releases typically include updates to WebKit's rendering engine.
+- Developers can test upcoming web platform features and bug fixes.
+
+## Our Commentary
+
+Another STP release! We always keep an eye on these to see what's brewing in WebKit. It's where we get our first look at potential new browser features and performance tweaks. I'm always hopeful for some exciting CSS or JavaScript additions that push the web forward. It's a good reminder to keep our test environments updated.
+
+Original Link: https://webkit.org/blog/18420/release-notes-for-safari-technology-preview-254/]]></content:encoded>
+            <enclosure url="https://webkit.org/wp-content/themes/webkit/images/preview-card.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[AI Solves Math Conjecture, Human Feels Loss: A Personal Reflection]]></title>
