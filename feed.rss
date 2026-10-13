@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Mon, 12 Oct 2026 07:00:08 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 Oct 2026 07:23:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,132 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Datasette-Ports 0.4: PID Display for Enhanced Profiling]]></title>
+            <link>https://digestweb.dev/articles/2026-10-12/datasette-ports-0-4-pid-display-enhanced-profiling</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-12/datasette-ports-0-4-pid-display-enhanced-profiling</guid>
+            <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Datasette-ports, a plugin for detecting Datasette instances, updates to version 0.4. It now supports the latest Datasette and displays process IDs, aiding in profiling with the new Python 3.15 profiler.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Datasette-ports plugin has been updated to version 0.4.
+- The plugin detects and lists Datasette instances running on a machine.
+- It now ensures compatibility with the latest version of Datasette.
+- A new feature displays the Process ID (PID) for each detected instance.
+- The PID display is useful for attaching the new Python 3.15 profiler.
+
+## Our Commentary
+
+It's always good to see tools evolve to integrate with new language features. The PID display in `datasette-ports` is a small but smart addition, directly leveraging the new Python 3.15 profiler. It's these little quality-of-life improvements that make a developer's day smoother, especially when debugging.
+
+Original Link: https://simonwillison.net/2026/Oct/12/datasette-ports/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/886/800/450" length="0" type="image//id/886/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Mastering GitHub Copilot: Teach it Your Codebase with Custom Instructions]]></title>
+            <link>https://digestweb.dev/articles/2026-10-12/mastering-github-copilot-teach-it-your-codebase-custom-instructions</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-12/mastering-github-copilot-teach-it-your-codebase-custom-instructions</guid>
+            <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how to personalize GitHub Copilot by adding custom instructions, skills, and agents to better understand your specific repository. This guide covers connecting to tools like Playwright.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- GitHub Copilot can be customized to better understand specific codebases.
+- Users can add custom instructions and skills directly to their repositories.
+- The article explains how to leverage custom agents for tailored assistance.
+- It also covers connecting Copilot to external tools and servers, such as Playwright.
+
+## Our Commentary
+
+We've seen a lot of "how to use Copilot" content, but this one feels more actionable. The idea of teaching an AI about _your_ specific codebase, rather than just general programming, is where the real value lies. I'm curious how effective these custom instructions truly are in practice. It's a step towards more personalized AI assistance.
+
+Original Link: https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/]]></content:encoded>
+            <enclosure url="https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-3.08.26-PM.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Python 3.15 Arrives with Lazy Imports and New Sampling Profiler]]></title>
+            <link>https://digestweb.dev/articles/2026-10-12/python-3-15-arrives-lazy-imports-new-sampling-profiler</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-12/python-3-15-arrives-lazy-imports-new-sampling-profiler</guid>
+            <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Python 3.15 is released, bringing explicit lazy imports (PEP 810) to optimize startup times and a new sampling profiler, Tachyon. This update also includes enhanced unpacking in comprehensions.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Python 3.15 has been released, introducing several new features.
+- Explicit lazy imports (PEP 810) are a major addition, improving startup performance for applications with heavy dependencies.
+- The new unpacking syntax in comprehensions (PEP 798) offers more concise list, set, and dictionary manipulations.
+- A new sampling profiler, Tachyon (`profiling.sampling`), joins the existing tracing profiler.
+- The update allows developers to deprecate support for Python 3.10 and embrace 3.11 features.
+
+## Our Commentary
+
+Python 3.15's lazy imports are a game-changer for CLI tools and applications with many optional dependencies. I've wrestled with slow startup times myself, and this feels like a direct answer to that pain. The new profiler is also a welcome addition; performance debugging can be such a black box. It's good to see the language continue to evolve with developer experience in mind.
+
+Original Link: https://simonwillison.net/2026/Oct/12/python-3-15/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://static.simonwillison.net/static/2026/profiler-output.webp" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[StudentSim: AI System Simulates Learning to Improve AI Tutors]]></title>
+            <link>https://digestweb.dev/articles/2026-10-12/studentsim-ai-system-simulates-learning-to-improve-ai-tutors</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-12/studentsim-ai-system-simulates-learning-to-improve-ai-tutors</guid>
+            <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Microsoft Research unveils StudentSim, a novel system designed to simulate student engagement and learning patterns. This allows for the evaluation and refinement of AI tutoring tools before real-world deployment across various subjects.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- StudentSim is a new research system from Microsoft for AI tutoring.
+- It simulates how students interact with AI tutors to provide feedback.
+- The system aims to improve AI tutor performance before human testing.
+- It can evaluate tutors across diverse subjects, including chess, writing, and mathematics.
+
+## Our Commentary
+
+The idea of an AI simulating human learning to train other AIs is fascinating and a little unsettling. It feels like a step towards AIs training AIs, which has some wild implications. We're building digital students to perfect digital teachers. I wonder about the fidelity of these simulations; can they truly capture the nuances of human struggle and breakthrough?
+
+Original Link: https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring/]]></content:encoded>
+            <enclosure url="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/09/StudentSim-TWLIFB-1200x627-1.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[TanStack Start & Cloudflare Durable Objects: Middleware Tips]]></title>
+            <link>https://digestweb.dev/articles/2026-10-12/tanstack-start-cloudflare-durable-objects-middleware-tips</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-12/tanstack-start-cloudflare-durable-objects-middleware-tips</guid>
+            <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover practical tips for integrating TanStack Start with Cloudflare Durable Objects. This guide focuses on leveraging middleware to simplify Durable Object creation and efficiently manage WebSocket connections within your applications.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article provides tips for combining TanStack Start with Cloudflare Durable Objects.
+- It demonstrates using middleware to streamline the creation of Durable Objects.
+- Techniques for effectively managing WebSocket connections are covered.
+- The integration aims to simplify complex distributed application patterns.
+
+## Our Commentary
+
+Durable Objects are a powerful primitive for building stateful, distributed applications on the edge, and TanStack Start is gaining traction. Seeing a tutorial that bridges these two is genuinely useful. We're always looking for patterns that simplify the complexities of edge computing, and middleware often feels like the right abstraction for that.
+
+Original Link: https://blog.master.dev/tips-and-tricks-for-using-tanstack-start-with-cloudflare-durable-objects/]]></content:encoded>
+            <enclosure url="https://blog.master.dev/wp-json/social-image-generator/v1/image/11298" length="0" type="image//wp-json/social-image-generator/v1/image/11298"/>
+        </item>
+        <item>
+            <title><![CDATA[web-edit 0.1a0: AI-Built Web Editor for Remote Files]]></title>
+            <link>https://digestweb.dev/articles/2026-10-12/web-edit-ai-built-web-editor-remote-files</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-12/web-edit-ai-built-web-editor-remote-files</guid>
+            <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison releases `web-edit`, a Python web application built with AI assistance (Codex, GPT-6). It offers a web UI for viewing and editing files remotely, designed for mobile use over Tailscale and powered by CodeMirror 6.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- `web-edit` is a new Python web application for remote file editing.
+- It was developed with significant assistance from AI models like Codex and GPT-6.
+- The tool provides a web user interface for browsing and editing files in a folder.
+- It's designed for secure access via Tailscale, particularly from mobile devices.
+- CodeMirror 6 is used for the editing experience, chosen for its mobile compatibility.
+
+## Our Commentary
+
+I love seeing these kinds of practical, niche tools emerge from AI-assisted development. The idea of having an agent spin up a secure web editor on the fly for a quick fix from my phone is genuinely appealing. It makes me wonder how many small, bespoke utilities we'll see built this way in the coming years. The choice of CodeMirror 6 over Monaco for mobile is a detail I appreciate.
+
+Original Link: https://simonwillison.net/2026/Oct/12/web-edit/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://static.simonwillison.net/static/2026/web-edit-card.jpg" length="0" type="image/jpg"/>
+        </item>
         <item>
             <title><![CDATA[pnpm 12.12.1: OIDC Auth & New `tool:` Protocol for Runtimes]]></title>
             <link>https://digestweb.dev/articles/2026-10-11/pnpm-12-12-1-oidc-auth-tool-protocol-runtimes</link>
