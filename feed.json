@@ -11,6 +11,15 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-10-14/deepmind-singapore-gov-on-device-ai-scam-detection",
+            "content_html": "## Summary & Key Takeaways\n\nGoogle DeepMind and GovTech Singapore are collaborating on an AI-powered scam detection system.\nThe system utilizes lightweight Gemma models running directly on user devices.\nThis on-device approach ensures conversational data remains private with zero cloud egress.\nThe initiative aims to intercept sophisticated conversational scams effectively.\nThis project demonstrates a practical application of AI for public safety and privacy.\nThe models are fine-tuned for specific scam patterns.\nThis collaboration highlights the potential of localized AI processing.\nIt offers a new paradigm for secure and private AI deployments.\n\n## Our Commentary\n\nWe've been talking about on-device AI for a while, but this feels like a genuinely impactful application. Scam detection is a huge problem, and the privacy-first approach here is critical. I'm always wary of AI solutions that demand all our data, so seeing 'zero cloud data egress' is a breath of fresh air. It makes me wonder how much more we can push local processing for sensitive tasks. There's something really compelling about AI working silently in the background, protecting us without needing to phone home. It's a good step towards more trustworthy AI deployments, I think.\n\nOriginal Link: https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+            "url": "https://digestweb.dev/articles/2026-10-14/deepmind-singapore-gov-on-device-ai-scam-detection",
+            "title": "DeepMind & Singapore Gov Tackle Scams with On-Device AI",
+            "summary": "Google DeepMind partners with GovTech Singapore to deploy lightweight Gemma models directly on devices. This initiative aims to detect conversational scams privately, ensuring no user data leaves the device.",
+            "image": "https://picsum.photos/id/114/800/450",
+            "date_modified": "2026-10-14T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-10-13/ai-agent-diagnostics-pre-commit-hooks",
             "content_html": "## Summary & Key Takeaways\n\n- AI agents often bypass diagnostic libraries, leading to drift.\n- A pre-commit hook can check for direct calls to observability modules.\n- If bypassed, the commit fails, and the agent receives a prompt to use the library.\n- This method ensures consistent diagnostic usage by AI coding agents.\n\n## Our Commentary\n\nThis is such a clever, pragmatic solution to a very real problem with AI agents. We've all seen agents go off-script, and enforcing best practices at the commit level is brilliant. It's a great example of 'agentic engineering' in action – using automation to guide other automation. I love the idea of injecting a prompt directly into the agent's workflow. It's a bit meta, but highly effective.\n\nOriginal Link: https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
             "url": "https://digestweb.dev/articles/2026-10-13/ai-agent-diagnostics-pre-commit-hooks",
