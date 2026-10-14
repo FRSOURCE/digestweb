@@ -11,6 +11,126 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-10-13/ai-agent-diagnostics-pre-commit-hooks",
+            "content_html": "## Summary & Key Takeaways\n\n- AI agents often bypass diagnostic libraries, leading to drift.\n- A pre-commit hook can check for direct calls to observability modules.\n- If bypassed, the commit fails, and the agent receives a prompt to use the library.\n- This method ensures consistent diagnostic usage by AI coding agents.\n\n## Our Commentary\n\nThis is such a clever, pragmatic solution to a very real problem with AI agents. We've all seen agents go off-script, and enforcing best practices at the commit level is brilliant. It's a great example of 'agentic engineering' in action – using automation to guide other automation. I love the idea of injecting a prompt directly into the agent's workflow. It's a bit meta, but highly effective.\n\nOriginal Link: https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
+            "url": "https://digestweb.dev/articles/2026-10-13/ai-agent-diagnostics-pre-commit-hooks",
+            "title": "Enforcing AI Agent Diagnostics with Git Pre-Commit Hooks",
+            "summary": "Geoffrey Huntley suggests using Git pre-commit hooks to ensure AI coding agents utilize diagnostic libraries, failing commits and injecting prompts when bypassed.",
+            "image": "https://picsum.photos/id/585/800/450",
+            "date_modified": "2026-10-13T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-13/anthropic-redesigns-source-control-scion",
+            "content_html": "## Summary & Key Takeaways\n\n- Anthropic developed a custom source control system, Scion, to replace Git.\n- The move was necessitated by an increase to over 30,000 code changes merged daily.\n- Their main branch history is nearly 100 GB, with 25 million daily CI checkouts.\n- Scion is described as a reinvention of centralized source control.\n- A team of seven completed the migration from Git in five months.\n- They also built a new code review system called Antique.\n\n## Our Commentary\n\nThis is fascinating. Building your own Git alternative because Git can't keep up with your scale? That's a problem most of us can only dream of having. It really highlights the insane velocity at which these AI labs are operating. The idea of a 'reinvention of centralized source control' is almost heretical in the Git era, but for their specific needs, it makes sense. It makes me wonder if we'll see more bespoke tooling emerge as AI development pushes the boundaries of traditional dev practices.\n\nOriginal Link: https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+            "url": "https://digestweb.dev/articles/2026-10-13/anthropic-redesigns-source-control-scion",
+            "title": "Anthropic Reimagines Source Control for Extreme Scale",
+            "summary": "Anthropic details their journey building Scion, a custom Git alternative, to manage over 30,000 code changes daily and 25 million CI checkouts, driven by their rapid AI development.",
+            "image": "https://static.simonwillison.net/static/2026/anthropic-merges-per-day.webp",
+            "date_modified": "2026-10-13T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-13/github-ai-secret-detection-improvements",
+            "content_html": "## Summary & Key Takeaways\n\n- GitHub's context-aware secret classifier improves detection quality.\n- Weighted acceptance of detected secrets increases by 11.5%.\n- Median scan execution time is reduced by 86%.\n- The model aims to find more secrets with less false positives.\n\n## Our Commentary\n\nThis is a solid win for developer security and experience. False positives in secret detection are incredibly annoying, so a model that can reduce noise while increasing detection is fantastic. The 86% reduction in scan time is also huge; nobody wants to wait around for security checks. It's a great example of AI being applied to a practical, everyday developer problem.\n\nOriginal Link: https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
+            "url": "https://digestweb.dev/articles/2026-10-13/github-ai-secret-detection-improvements",
+            "title": "GitHub's AI-Powered Secret Detection: More Finds, Less Noise",
+            "summary": "GitHub's new context-aware secret classifier significantly improves detection quality, boosts acceptance rates, and drastically cuts scan execution time.",
+            "image": "https://github.blog/wp-content/uploads/2026/01/generic-github-security-logo.png",
+            "date_modified": "2026-10-13T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-13/higgsfield-ai-video-generation-extended",
+            "content_html": "## Summary & Key Takeaways\n\n- Higgsfield now generates AI videos over 10 minutes in length, up from 1 minute.\n- It leverages GPT-6 Astra for longer video generation.\n- GPT-Image-2.5 provides precise visuals for the generated content.\n- The platform is paving the way for voice filmmaking with GPT-Live.\n\n## Our Commentary\n\nTen minutes of AI-generated video? That's a huge leap. We've been seeing these short, impressive clips, but extending the duration significantly changes the game for what's possible. The integration with GPT-6 Astra and GPT-Image-2.5 for precision is also a big deal. I'm genuinely curious about the voice filmmaking aspect with GPT-Live; that could be a paradigm shift for content creation.\n\nOriginal Link: https://openai.com/index/higgsfield-longer-videos-voice",
+            "url": "https://digestweb.dev/articles/2026-10-13/higgsfield-ai-video-generation-extended",
+            "title": "Higgsfield Extends AI Video Generation to Over 10 Minutes",
+            "summary": "Higgsfield, powered by GPT-6 Astra and GPT-Image-2.5, now enables creators to generate AI videos over 10 minutes long with enhanced visual precision and voice filmmaking capabilities.",
+            "image": "https://picsum.photos/id/980/800/450",
+            "date_modified": "2026-10-13T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-13/llm-gemini-0-35-gemini-4-argon-support",
+            "content_html": "## Summary & Key Takeaways\n\n- `llm-gemini` 0.35 adds support for the new Gemini 4 Argon model.\n- Gemini 4 Argon is available via the Gemini API and a $100/month subscription.\n- Initial pricing is $2/million input and $10/million output, doubling on December 1st.\n- The article provides benchmark cost comparisons, showing Argon as competitive.\n- Gemini models are noted for producing excellent SVGs, including pelican illustrations.\n\n## Our Commentary\n\nGemini 4 Argon is here, and Simon Willison is on it with `llm-gemini` support. The pricing details are always the most interesting part for me. That price doubling on December 1st is a bit of a curveball, making it align with Opus 5.5. It really drives home that raw token cost isn't the only metric; what matters is how efficiently a model achieves a goal within an agentic workflow. The benchmark comparisons are super valuable for anyone trying to pick the right model.\n\nOriginal Link: https://simonwillison.net/2026/Oct/13/llm-gemini/",
+            "url": "https://digestweb.dev/articles/2026-10-13/llm-gemini-0-35-gemini-4-argon-support",
+            "title": "llm-gemini 0.35 Adds Gemini 4 Argon Support & Pricing Insights",
+            "summary": "Simon Willison's `llm-gemini` tool now supports the new Gemini 4 Argon model, with the release offering detailed pricing and performance comparisons against other leading LLMs.",
+            "image": "https://static.simonwillison.net/static/2026/gemini-4-argon-artificial-analysis.webp",
+            "date_modified": "2026-10-13T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-13/pnpm-12-13-0-new-features",
+            "content_html": "## Summary & Key Takeaways\n\n- New `pnpm profile` command to view and update registry user profile settings.\n- New `pnpm token` command to list, create, and revoke authentication tokens.\n- `storeIndexFormat: files` setting for network filesystems to prevent SQLite locking issues.\n- Faster Python dependency resolution is now included.\n- `nodePackageMap` settings are grouped, with `mode: write-only` for other tools.\n- Fixes for `pnpm setup` on macOS and install issues on virtiofs/SMB shares.\n\n## Our Commentary\n\npnpm keeps getting better. The `profile` and `token` commands are nice quality-of-life additions, but the `storeIndexFormat: files` setting for network filesystems is a real problem-solver. Anyone who's tried to use pnpm stores over SMB knows the pain of SQLite locking. This is a smart solution. We're always looking for ways to improve DX, and these kinds of targeted fixes and features really deliver.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v12.13.0",
+            "url": "https://digestweb.dev/articles/2026-10-13/pnpm-12-13-0-new-features",
+            "title": "pnpm 12.13.0 Introduces Profile Commands & Network Store Format",
+            "summary": "pnpm 12.13.0 adds new commands for user profiles and authentication tokens, a `storeIndexFormat` setting for network filesystems, and faster Python dependency resolution.",
+            "image": "https://opengraph.githubassets.com/f291dda5bf9a49c80a0c9ed3401b8862819d1c0e7df36e41a3ba4c0ba0e7f513/pnpm/pnpm/releases/tag/v12.13.0",
+            "date_modified": "2026-10-13T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-13/solidjs-2-0-0-rc-15-babel-plugin-updates",
+            "content_html": "## Summary & Key Takeaways\n\n- Element claims are now emitted after initial attributes, ensuring parity across compilers.\n- Non-hydratable client builds correctly remove `value` attribute for nullish checkbox/radio inputs.\n- Select's bound value is reapplied when options arrive after the value was written.\n- SSR now allows routers to mark links in server HTML, improving link state handling.\n\n## Our Commentary\n\nThe Babel plugin for SolidJS 2.0.0 also gets an RC update, bringing it in line with the compiler changes. It's good to see consistency across the toolchain. These are mostly under-the-hood improvements that will make the developer experience smoother, especially for those dealing with SSR and complex form inputs. It's all about getting those last few kinks out before the big 2.0.0 release.\n\nOriginal Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fbabel-plugin%402.0.0-rc.15",
+            "url": "https://digestweb.dev/articles/2026-10-13/solidjs-2-0-0-rc-15-babel-plugin-updates",
+            "title": "SolidJS 2.0.0-rc.15 Babel Plugin Improves SSR & Input Handling",
+            "summary": "This SolidJS 2.0.0 release candidate for the Babel plugin enhances element claims, input binding, and SSR link marking, aligning with compiler updates.",
+            "image": "https://opengraph.githubassets.com/19d108c53193c42f66ff1f81a3d3be2a4b37aae272193b8e982fffc85dcbca09/solidjs/solid/releases/tag/%40solidjs/babel-plugin%402.0.0-rc.15",
+            "date_modified": "2026-10-13T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-13/solidjs-2-0-0-rc-15-compiler-enhancements",
+            "content_html": "## Summary & Key Takeaways\n\n- Element claims are now emitted after initial attributes, ensuring parity across compilers.\n- Non-hydratable client builds correctly remove `value` attribute for nullish checkbox/radio inputs.\n- Select's bound value is reapplied when options arrive after the value was written.\n- `lazyModule()` is added for preloading and hydrating non-component lazy modules.\n- SSR now allows routers to mark links in server HTML, improving link state handling.\n\n## Our Commentary\n\nAnother SolidJS 2.0.0 RC, this time for the compiler. It's a collection of solid fixes and minor features. The `lazyModule()` addition is neat for non-component lazy loading, and the SSR link marking is a good quality-of-life improvement for routing integrations. These are the kinds of details that make a framework feel polished, even if they aren't headline-grabbing.\n\nOriginal Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fcompiler%402.0.0-rc.15",
+            "url": "https://digestweb.dev/articles/2026-10-13/solidjs-2-0-0-rc-15-compiler-enhancements",
+            "title": "SolidJS 2.0.0-rc.15 Compiler Enhancements for SSR & Input Bindings",
+            "summary": "The latest SolidJS 2.0.0 release candidate for the compiler brings improvements to element claims, input binding behavior, and SSR link marking.",
+            "image": "https://opengraph.githubassets.com/ffb2bdb478e3487bfd238f5b5dac8345f626417e9b734613b67d4b6279cfe4e3/solidjs/solid/releases/tag/%40solidjs/compiler%402.0.0-rc.15",
+            "date_modified": "2026-10-13T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-13/solidjs-2-0-0-rc-15-core-updates",
+            "content_html": "## Summary & Key Takeaways\n\n- `dynamicComponent` is moved into `solid-js`, with `@solidjs/web` re-exporting it.\n- Fixes for unhandled rejections in `Errored` boundaries during SSR.\n- Hydration IDs for SSR `Errored` fallbacks are now preserved on retry.\n- Mounted context IDs are preserved during hot module evaluation.\n- `lazy()` and `lazyModule()` no longer cache loader promises created during hydration traces.\n- `onHydrationEnd` is re-exposed as a public `@experimental` API for end-to-end testing.\n\n## Our Commentary\n\nThis is the core `solid-js` package RC, and it's got some good stuff. Making `onHydrationEnd` public again, even as experimental, is a win for testing and debugging hydration issues. The HMR and error boundary fixes are also crucial for a smooth developer experience. It feels like they're really buttoning up the rough edges for 2.0.0, which is exactly what you want to see in an RC.\n\nOriginal Link: https://github.com/solidjs/solid/releases/tag/solid-js%402.0.0-rc.15",
+            "url": "https://digestweb.dev/articles/2026-10-13/solidjs-2-0-0-rc-15-core-updates",
+            "title": "SolidJS 2.0.0-rc.15 Core Updates: Hydration, HMR, & Error Handling",
+            "summary": "The latest SolidJS 2.0.0 release candidate brings fixes for hydration, hot module reloading, error boundary rejections, and re-exposes `onHydrationEnd`.",
+            "image": "https://opengraph.githubassets.com/76ac92f0994f1f8445512271d99e267cff38d87226a9544f2c994f10cc596340/solidjs/solid/releases/tag/solid-js%402.0.0-rc.15",
+            "date_modified": "2026-10-13T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-13/solidjs-2-0-0-rc-15-web-package-updates",
+            "content_html": "## Summary & Key Takeaways\n\n- Element claims now fire after initial attributes are applied, improving dynamic attribute handling.\n- Server-function calls no longer report thrown `Response` values as failures, aligning with HTTP dispatch.\n- Non-standard `<a>` attributes like `state` and `noscroll` have been removed from core JSX types.\n\n## Our Commentary\n\nWe're seeing a lot of RC updates for SolidJS 2.0.0. This one is pretty deep in the weeds, focusing on internal mechanics like element claims. It's good to see the team refining these core behaviors, but I'm really just waiting for the stable 2.0.0 release to drop. The changes here are important for Solid's robustness, but they don't scream 'new feature' to the average developer.\n\nOriginal Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fweb%402.0.0-rc.15",
+            "url": "https://digestweb.dev/articles/2026-10-13/solidjs-2-0-0-rc-15-web-package-updates",
+            "title": "SolidJS 2.0.0-rc.15: Web Package Updates Element Claims & Server Functions",
+            "summary": "This release candidate for SolidJS 2.0.0's web package refines element claiming behavior and server function error reporting, alongside minor JSX type adjustments.",
+            "image": "https://opengraph.githubassets.com/cbffa860007617d7db7022641ad76d9c2dc6bcbc54dad197b440be4ecc09233e/solidjs/solid/releases/tag/%40solidjs/web%402.0.0-rc.15",
+            "date_modified": "2026-10-13T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-13/tanstack-start-1-0-stable-release",
+            "content_html": "## Summary & Key Takeaways\n\n- TanStack Start has achieved its 1.0 stable release.\n- It is now considered ready for production use.\n- This marks a significant milestone for the TanStack ecosystem's entry into meta-frameworks.\n\n## Our Commentary\n\nA 1.0 stable release from TanStack is always a big deal. We've seen the quality of their libraries like Query and Router, so a full meta-framework from them is exciting. I'm curious to see how it carves out its niche in an already crowded space. The TanStack philosophy of framework-agnostic utilities is strong, so I expect Start to bring that same level of thoughtful design to the full-stack experience.\n\nOriginal Link: https://tanstack.com/blog/tanstack-start-1-0",
+            "url": "https://digestweb.dev/articles/2026-10-13/tanstack-start-1-0-stable-release",
+            "title": "TanStack Start 1.0 Reaches Stable Release, Ready for Production",
+            "summary": "TanStack Start, the new meta-framework from the creators of TanStack Query, has officially reached its 1.0 stable release, signaling its production readiness.",
+            "image": "https://media.tanstack.com/blog/tanstack-start-1-0/v11-title-poster.jpg",
+            "date_modified": "2026-10-13T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-13/web-edit-ai-performance-optimizations",
+            "content_html": "## Summary & Key Takeaways\n\n- `web-edit` 0.1a1 has been released.\n- Performance optimizations were written by Claude Opus 5.5.\n- Claude's work was based on a Python 3.15 profiling report.\n- The profiling report itself was generated by GPT-6 Astra.\n- This showcases a fully AI-assisted optimization workflow.\n\n## Our Commentary\n\nThis is wild. An AI profiling another AI's code, then another AI writing the optimizations? We're seeing the future of development right here. It's not just about AI writing code, but AI _improving_ code based on complex analysis. I'm genuinely excited and a little terrified about what this means for the role of human developers. It's a powerful demonstration of AI's potential in the dev workflow.\n\nOriginal Link: https://simonwillison.net/2026/Oct/13/web-edit/",
+            "url": "https://digestweb.dev/articles/2026-10-13/web-edit-ai-performance-optimizations",
+            "title": "web-edit 0.1a1: AI-Assisted Performance Optimizations",
+            "summary": "The `web-edit` 0.1a1 release features performance optimizations entirely written by Claude Opus 5.5, based on a profiling report generated by GPT-6 Astra.",
+            "image": "https://picsum.photos/id/652/800/450",
+            "date_modified": "2026-10-13T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-10-12/datasette-ports-0-4-pid-display-enhanced-profiling",
             "content_html": "## Summary & Key Takeaways\n\n- Datasette-ports plugin has been updated to version 0.4.\n- The plugin detects and lists Datasette instances running on a machine.\n- It now ensures compatibility with the latest version of Datasette.\n- A new feature displays the Process ID (PID) for each detected instance.\n- The PID display is useful for attaching the new Python 3.15 profiler.\n\n## Our Commentary\n\nIt's always good to see tools evolve to integrate with new language features. The PID display in `datasette-ports` is a small but smart addition, directly leveraging the new Python 3.15 profiler. It's these little quality-of-life improvements that make a developer's day smoother, especially when debugging.\n\nOriginal Link: https://simonwillison.net/2026/Oct/12/datasette-ports/",
             "url": "https://digestweb.dev/articles/2026-10-12/datasette-ports-0-4-pid-display-enhanced-profiling",
