@@ -11,12 +11,141 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-10-14/ai-mass-decompiling-games-preservation-ip",
+            "content_html": "## Summary & Key Takeaways\n\n- AI is now capable of mass decompiling video games and other software.\n- This enables new possibilities for game preservation and porting old titles.\n- It allows for creative mashups and making games playable on new hardware.\n- The technology raises serious concerns about intellectual property theft.\n- Companies could potentially decompile competitors' software.\n- Paid software might be open-sourced against the developer's will.\n- This development impacts the entire tech industry, not just gaming.\n- It offers a potential solution to digital game ownership issues when servers shut down.\n\n## Our Commentary\n\nI genuinely don't know how to feel about this. On one hand, game preservation is a noble cause, and AI making old games playable again is fantastic. On the other, the implications for intellectual property are terrifying. If AI can just decompile _any_ software, what does that mean for proprietary code? This feels like a Pandora's Box moment for the entire software industry. We're talking about a fundamental shift in how software is protected and owned.\n\nOriginal Link: https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
+            "url": "https://digestweb.dev/articles/2026-10-14/ai-mass-decompiling-games-preservation-ip",
+            "title": "AI Mass Decompiles Games: Awesome for Preservation, Scary for IP",
+            "summary": "AI is now mass decompiling games, enabling new preservation efforts and mashups, but raising profound questions about software ownership and intellectual property.",
+            "image": "https://picsum.photos/id/891/800/450",
+            "date_modified": "2026-10-14T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-14/amp-openai-agents-beyond-code",
+            "content_html": "## Summary & Key Takeaways\n\n- Amp is using OpenAI models to develop AI agents for non-coding tasks.\n- They leverage GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.\n- The initiative aims to expand the utility of AI agents into new domains.\n- This showcases the evolving capabilities of advanced AI models.\n\n## Our Commentary\n\nAnother \"look what our partner built\" piece from OpenAI. It's interesting to see agents move beyond code, but these partner showcases often feel a bit like marketing fluff. We're always looking for the _how_, not just the _what_.\n\nOriginal Link: https://openai.com/index/amp-beyond-coding",
+            "url": "https://digestweb.dev/articles/2026-10-14/amp-openai-agents-beyond-code",
+            "title": "Amp Leverages OpenAI Models for AI Agents Beyond Coding Tasks",
+            "summary": "Amp demonstrates how it's pushing the boundaries of AI agents using OpenAI's latest models, extending their capabilities beyond traditional coding.",
+            "image": "https://picsum.photos/id/119/800/450",
+            "date_modified": "2026-10-14T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-14/apigee-hybrid-mcp-agentic-tools-kubernetes",
+            "content_html": "## Summary & Key Takeaways\n\n- Apigee hybrid 1.17.0 now supports the Model Context Protocol (MCP).\n- MCP allows AI agent tools to execute directly within a user's Kubernetes cluster.\n- This architecture keeps AI agent request traffic and tool execution local.\n- Configuration updates are pulled from the control plane, maintaining security.\n- Developers can expose OpenAPI 3.0.x specs as discoverable MCP tools.\n- Existing security policies and API products can be leveraged.\n- End-to-end requests are traceable using W3C trace context headers.\n\n## Our Commentary\n\nThis is a significant move for enterprise AI. Running agentic tools _inside_ your own Kubernetes cluster addresses major data privacy and security concerns. It's a practical step towards making AI agents viable for regulated industries. The OpenAPI integration is a smart touch for discoverability.\n\nOriginal Link: https://developers.googleblog.com/announcing-mcp-support-in-apigee-hybrid-agentic-tools-that-run-in-your-own-cluster/",
+            "url": "https://digestweb.dev/articles/2026-10-14/apigee-hybrid-mcp-agentic-tools-kubernetes",
+            "title": "Apigee Hybrid 1.17.0 Adds MCP Support for In-Cluster Agentic Tools",
+            "summary": "Apigee hybrid 1.17.0 introduces native Model Context Protocol (MCP) support, enabling AI agent tools to run securely within your own Kubernetes cluster.",
+            "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_bib6g3bib6.2e16d0ba.fill-1200x600.jpg",
+            "date_modified": "2026-10-14T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-14/block-ai-powered-security-openai",
+            "content_html": "## Summary & Key Takeaways\n\n- Block is integrating OpenAI technology into its security operations.\n- AI helps their security team investigate threats more rapidly.\n- The system can propose security patches within minutes.\n- This demonstrates AI's practical application in enterprise security.\n\n## Our Commentary\n\nAnother security-focused AI application. It's good to see AI being used to automate and accelerate critical tasks like threat investigation and patching. The pattern of \"AI for security\" is definitely emerging as a strong use case.\n\nOriginal Link: https://openai.com/index/block-ai-powered-security",
+            "url": "https://digestweb.dev/articles/2026-10-14/block-ai-powered-security-openai",
+            "title": "Block Enhances Security Operations with OpenAI-Powered AI",
+            "summary": "Block's security team leverages OpenAI technology to investigate threats faster and propose patches in minutes, streamlining their security processes.",
+            "image": "https://picsum.photos/id/349/800/450",
+            "date_modified": "2026-10-14T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-14/claude-platform-agent-observability-opentelemetry",
+            "content_html": "## Summary & Key Takeaways\n\n- Claude Platform now supports OpenTelemetry traces for its AI agents.\n- This feature applies to Claude Managed Agents, the Messages API, and SDKs.\n- It aims to provide better visibility into agent behavior and performance.\n- Improved observability is crucial for debugging and optimizing AI agents.\n\n## Our Commentary\n\nObservability for AI agents is becoming critical. As these systems get more complex, understanding _why_ they do what they do is paramount. OpenTelemetry is a good standard choice here. It's a niche update, but a necessary one for serious agent development.\n\nOriginal Link: https://claude.com/resources/articles/agent-observability-on-the-claude-platform",
+            "url": "https://digestweb.dev/articles/2026-10-14/claude-platform-agent-observability-opentelemetry",
+            "title": "Claude Platform Enhances Agent Observability with OpenTelemetry Traces",
+            "summary": "Claude announces OpenTelemetry trace support for its Managed Agents, Messages API, and SDKs, improving observability for AI agent development.",
+            "image": "https://claude.com/resources/articles/agent-observability-on-the-claude-platform/opengraph-image/og",
+            "date_modified": "2026-10-14T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-14/codepen-full-read-write-api-v2",
+            "content_html": "## Summary & Key Takeaways\n\n- CodePen has released its new v2 API.\n- The API provides full read and write access to Pens, Collections, and Assets.\n- It aims to enable developers to build custom integrations and tools.\n- The announcement was made via a podcast episode.\n\n## Our Commentary\n\nA full read/write API for CodePen is a nice quality-of-life improvement for its users. It's always good to see platforms open up their data for more creative integrations. It's not a game-changer for the web, but it's a solid enhancement for a popular dev tool.\n\nOriginal Link: https://blog.codepen.io/2026/10/14/444-a-gosh-dang-full-blown-read-write-api/",
+            "url": "https://digestweb.dev/articles/2026-10-14/codepen-full-read-write-api-v2",
+            "title": "CodePen Launches Full Read/Write v2 API for Pens, Collections, Assets",
+            "summary": "CodePen announces its new v2 API, offering complete read/write access to user Pens, Collections, and Assets, opening doors for new integrations.",
+            "image": "https://s0.wp.com/i/blank.jpg",
+            "date_modified": "2026-10-14T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-14/cypress-getbyrole-accessibility-testing",
+            "content_html": "## Summary & Key Takeaways\n\n- Cypress 16.2.0 adds the new `cy.getByRole()` command.\n- This command finds elements based on their ARIA role and accessible name.\n- It helps align tests with how users perceive and interact with the UI.\n- By default, it only matches native elements, catching semantic HTML issues.\n- The article explains why this approach is beneficial for robust testing.\n- It also guides users on migrating from Cypress Testing Library.\n\n## Our Commentary\n\nThis is a smart move from Cypress. Testing by role and accessible name is just _better_ for catching real-world accessibility regressions. We've seen too many tests pass while the user experience crumbles. This pushes developers towards more semantic HTML, which is always a win.\n\nOriginal Link: https://www.cypress.io/blog/find-elements-the-way-your-users-do-with-cy-getbyrole/",
+            "url": "https://digestweb.dev/articles/2026-10-14/cypress-getbyrole-accessibility-testing",
+            "title": "Cypress 16.2.0: Find Elements with `cy.getByRole()` for Better Accessibility",
+            "summary": "Cypress 16.2.0 introduces `cy.getByRole()`, allowing testers to find elements by their accessible role and name, aligning tests with user interaction.",
+            "image": "https://storage.ghost.io/c/12/89/12899ca1-4786-4eea-b7e1-9c5268baa48a/content/images/2026/10/Cypress---getByRole---Blog-hero-1200--630@2x.png",
+            "date_modified": "2026-10-14T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-10-14/deepmind-singapore-gov-on-device-ai-scam-detection",
             "content_html": "## Summary & Key Takeaways\n\nGoogle DeepMind and GovTech Singapore are collaborating on an AI-powered scam detection system.\nThe system utilizes lightweight Gemma models running directly on user devices.\nThis on-device approach ensures conversational data remains private with zero cloud egress.\nThe initiative aims to intercept sophisticated conversational scams effectively.\nThis project demonstrates a practical application of AI for public safety and privacy.\nThe models are fine-tuned for specific scam patterns.\nThis collaboration highlights the potential of localized AI processing.\nIt offers a new paradigm for secure and private AI deployments.\n\n## Our Commentary\n\nWe've been talking about on-device AI for a while, but this feels like a genuinely impactful application. Scam detection is a huge problem, and the privacy-first approach here is critical. I'm always wary of AI solutions that demand all our data, so seeing 'zero cloud data egress' is a breath of fresh air. It makes me wonder how much more we can push local processing for sensitive tasks. There's something really compelling about AI working silently in the background, protecting us without needing to phone home. It's a good step towards more trustworthy AI deployments, I think.\n\nOriginal Link: https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
             "url": "https://digestweb.dev/articles/2026-10-14/deepmind-singapore-gov-on-device-ai-scam-detection",
             "title": "DeepMind & Singapore Gov Tackle Scams with On-Device AI",
             "summary": "Google DeepMind partners with GovTech Singapore to deploy lightweight Gemma models directly on devices. This initiative aims to detect conversational scams privately, ensuring no user data leaves the device.",
             "image": "https://picsum.photos/id/114/800/450",
+            "date_modified": "2026-10-14T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-14/eu-agentic-ai-adoption-analysis",
+            "content_html": "## Summary & Key Takeaways\n\n- New analysis indicates a rise in agentic AI adoption within the EU.\n- Both enterprises and small businesses are integrating agentic AI.\n- The report identifies opportunities for deeper AI use to create more value.\n- This suggests a significant shift in how EU businesses leverage AI.\n\n## Our Commentary\n\nThis is a more interesting piece than the typical partner showcase. An analysis of _how_ agentic AI is being adopted across an entire economic bloc gives us a better sense of the macro trends. It's not just about the tech, but its real-world impact and integration.\n\nOriginal Link: https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+            "url": "https://digestweb.dev/articles/2026-10-14/eu-agentic-ai-adoption-analysis",
+            "title": "Agentic AI Adoption Surges Across EU Enterprises and SMBs",
+            "summary": "New analysis reveals growing adoption of agentic AI across EU businesses, highlighting areas where deeper integration could unlock significant value.",
+            "image": "https://picsum.photos/id/601/800/450",
+            "date_modified": "2026-10-14T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-14/hiro-acev2-extreme-weather-simulation",
+            "content_html": "## Summary & Key Takeaways\n\n- HiRO-ACEv2 is a new model for simulating extreme weather.\n- It achieves a high resolution of 3 kilometers.\n- The model significantly reduces the computational cost of simulations.\n- This advancement could improve climate modeling and disaster prediction.\n\n## Our Commentary\n\nClimate modeling with AI is a fascinating application. The ability to simulate extreme weather at high resolution for less cost is a big deal for scientific research. It's not directly web dev, but it's a cool AI application.\n\nOriginal Link: https://huggingface.co/blog/allenai/hiro-acev2",
+            "url": "https://digestweb.dev/articles/2026-10-14/hiro-acev2-extreme-weather-simulation",
+            "title": "HiRO-ACEv2: Cost-Effective Extreme Weather Simulation at 3km Resolution",
+            "summary": "Hugging Face details HiRO-ACEv2, a new model capable of simulating extreme weather events at high resolution for a significantly reduced cost.",
+            "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/Y8t8GnfI2lUa40iX4_sxA.png",
+            "date_modified": "2026-10-14T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-14/modern-css-scrollspy-no-javascript",
+            "content_html": "## Summary & Key Takeaways\n\n- Modern CSS enables building scrollspy navigation without JavaScript.\n- The tutorial uses `scroll-target-group` and `:target-current` properties.\n- It leverages anchor positioning for highlighting the current section.\n- This approach simplifies a common UI pattern.\n- It reduces reliance on `IntersectionObserver` and complex JS.\n\n## Our Commentary\n\nThis is exactly the kind of thing we love to see. Pushing more UI logic into CSS, reducing JavaScript overhead, and simplifying development. `scroll-target-group` and `:target-current` are powerful additions. It's a great example of how the web platform is evolving to make common patterns easier and more performant.\n\nOriginal Link: https://blog.master.dev/building-a-fancy-scrollspy-using-modern-css/",
+            "url": "https://digestweb.dev/articles/2026-10-14/modern-css-scrollspy-no-javascript",
+            "title": "Build a Fancy Scrollspy with Modern CSS, No JavaScript Needed",
+            "summary": "Learn how to create a scrollspy navigation using modern CSS features like `scroll-target-group` and `:target-current`, eliminating the need for JavaScript.",
+            "image": "https://blog.master.dev/wp-json/social-image-generator/v1/image/11384",
+            "date_modified": "2026-10-14T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-14/rebuilding-github-star-history-optimization",
+            "content_html": "## Summary & Key Takeaways\n\n- GitHub optimized its star history API to reduce database load.\n- The previous API returned individual stargazers, leading to high request counts.\n- The new API provides trends without exposing individual identities.\n- This involved significant engineering tradeoffs and architectural changes.\n- The goal was to improve performance and reduce resource consumption.\n\n## Our Commentary\n\nThis is a solid engineering deep dive. We love seeing how big platforms tackle performance challenges. It's a good reminder that sometimes the best optimization is rethinking the data you actually need to serve. I'm curious about the specific architectural shifts they made.\n\nOriginal Link: https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers/",
+            "url": "https://digestweb.dev/articles/2026-10-14/rebuilding-github-star-history-optimization",
+            "title": "Rebuilding GitHub's Star History: From 2,500 to 24 Requests",
+            "summary": "GitHub shares how they optimized their star history API, reducing requests from 2,500 to just 24 by rethinking data access.",
+            "image": "https://github.blog/wp-content/uploads/2026/01/generic-github-invertocat-mona-logo.png",
+            "date_modified": "2026-10-14T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-14/sentinelone-openai-malware-analysis",
+            "content_html": "## Summary & Key Takeaways\n\n- SentinelOne uses OpenAI Daybreak to speed up malware analysis.\n- Analysis time is reduced from weeks to just hours.\n- This allows SentinelOne to investigate more threats efficiently.\n- It highlights AI's impact on cybersecurity operations.\n\n## Our Commentary\n\nCybersecurity is a clear win for AI, and this is a good example. Cutting analysis from weeks to hours is a huge leap. It's a specific application, but the impact is undeniable.\n\nOriginal Link: https://openai.com/index/sentinelone",
+            "url": "https://digestweb.dev/articles/2026-10-14/sentinelone-openai-malware-analysis",
+            "title": "SentinelOne Accelerates Malware Analysis with OpenAI Daybreak",
+            "summary": "SentinelOne dramatically reduces malware analysis time from weeks to hours by integrating OpenAI Daybreak, enhancing threat investigation capacity.",
+            "image": "https://picsum.photos/id/155/800/450",
+            "date_modified": "2026-10-14T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-14/third-moment-research-10000-ai-agents",
+            "content_html": "## Summary & Key Takeaways\n\n- Third Moment Research successfully ran 10,000 AI agents concurrently.\n- These agents operated for over 36 hours, demonstrating persistence.\n- They utilized OpenAI models like GPT-6 Astra, GPT-6.1 Sol, Codex, and Daybreak.\n- The agents are applied to cybersecurity tasks and improve with use.\n- This showcases the scalability and endurance of modern AI agent systems.\n\n## Our Commentary\n\nNow _this_ is interesting. 10,000 agents running for 36+ hours? That's a serious stress test and a glimpse into the future of autonomous systems. The \"improve with use\" part is key. It's less about the specific models and more about the operational scale they're achieving.\n\nOriginal Link: https://openai.com/index/third-moment-research",
+            "url": "https://digestweb.dev/articles/2026-10-14/third-moment-research-10000-ai-agents",
+            "title": "Third Moment Research Runs 10,000 AI Agents for Over 36 Hours",
+            "summary": "An AI lab demonstrates running 10,000 agents for extended periods using GPT-6 Astra, GPT-6.1 Sol, Codex, and Daybreak for cybersecurity.",
+            "image": "https://picsum.photos/id/73/800/450",
+            "date_modified": "2026-10-14T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-14/webmcp-agentic-webperf-ai-protocol",
+            "content_html": "## Summary & Key Takeaways\n\n- Yoav Weiss coined the phrase \"WebMCP is Agentic WebPerf.\"\n- WebMCP is a proposed protocol for AI agents to interact with web content.\n- It aims to provide alternative paths for agents to consume web data.\n- The concept has generated both excitement and pushback.\n- Critics argue websites should just be better, or agents smarter.\n- Proponents see it as a way to unlock more value with AI.\n- The discussion revolves around the necessity and implications of such a protocol.\n\n## Our Commentary\n\n\"WebMCP is Agentic WebPerf\" is a provocative statement, and I'm here for the debate. The idea of a dedicated protocol for AI agents to interact with the web is fascinating, but also a bit unsettling. Are we building a separate internet for bots? I get the performance angle, but there's something about creating \"alternative paths\" that feels like a workaround for fundamental web design issues. It's a complex topic, and we need to watch this space closely.\n\nOriginal Link: https://blog.master.dev/webmcp-is-agentic-webperf/",
+            "url": "https://digestweb.dev/articles/2026-10-14/webmcp-agentic-webperf-ai-protocol",
+            "title": "\"WebMCP is Agentic WebPerf\": Exploring a New Paradigm for AI and Web Performance",
+            "summary": "Yoav Weiss proposes \"WebMCP is Agentic WebPerf,\" sparking discussion around a new protocol that aims to bridge AI agents and web performance, offering alternative paths for interaction.",
+            "image": "https://blog.master.dev/wp-json/social-image-generator/v1/image/11414",
             "date_modified": "2026-10-14T00:00:00.000Z"
         },
         {
