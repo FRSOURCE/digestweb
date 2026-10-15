@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Thu, 15 Oct 2026 05:35:34 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 Oct 2026 12:29:28 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,53 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Fit Height to Background Pattern Size with calc-size()]]></title>
+            <link>https://digestweb.dev/articles/2026-10-15/fit-height-background-pattern-calc-size</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-15/fit-height-background-pattern-calc-size</guid>
+            <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore an advanced CSS technique to dynamically adjust element height based on background pattern dimensions using the experimental `calc-size()` function.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- This article explores using the experimental `calc-size()` CSS function.
+- It demonstrates how to dynamically adjust an element's height.
+- The goal is to match the height to the dimensions of a background pattern.
+- The technique aims for more responsive and pattern-aware layouts.
+- It provides practical examples for implementing this advanced CSS feature.
+- Understanding its current browser support and experimental status is crucial.
+
+## Our Commentary
+
+Ahmad Shadeed always brings the heat with CSS. We love seeing these deep dives into experimental features. `calc-size()` feels like a natural evolution for responsive design, letting us tie layout directly to visual assets. I'm curious about the performance implications, but the potential for truly fluid, pattern-driven interfaces is exciting. It's a glimpse into a future where CSS is even more powerful.
+
+Original Link: https://ishadeed.com/article/fit-height-background-pattern-calc-size/]]></content:encoded>
+            <author>Ahmad Shadeed</author>
+            <enclosure url="https://ishadeed.com/assets/fit-height-background-pattern/thumb.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[AI-Generated Three.js Game: Simon Willison's 'Tree Appreciator']]></title>
+            <link>https://digestweb.dev/articles/2026-10-14/ai-generated-threejs-game-simon-willison-tree-appreciator</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-14/ai-generated-threejs-game-simon-willison-tree-appreciator</guid>
+            <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison explores the creative power of Claude Opus 5.5 Max, generating a compelling Three.js game that highlights the surprising effectiveness of simple prompts.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison experimented with Claude Opus 5.5 Max to generate a game.
+- The AI created "Tree Appreciator," a Three.js-based spot-the-difference game.
+- Claude spent over three hours generating the game's assets and logic.
+- The prompt included "make sure it is fun," which yielded compelling results.
+- The game features music, animation, and an achievement system.
+- This showcases LLMs' advanced capabilities in creative and complex game design.
+- It highlights the surprising effectiveness of high-level, abstract prompts.
+
+## Our Commentary
+
+"Make sure it is fun." That's the prompt. And Claude delivered. We're genuinely a little unnerved by how effective that was. It's one thing for an LLM to write code, but to grasp and implement "fun" in a game? That's a whole different ballgame. I'm left wondering what other abstract concepts these models can now interpret and execute. The implications for creative industries are immense, and honestly, a bit scary. Where does human creativity fit when an AI can just... make something fun?
+
+Original Link: https://simonwillison.net/2026/Oct/14/tree-appreciator/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://static.simonwillison.net/static/2026-10-14/IMG_9084.jpeg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[AI Mass Decompiles Games: Awesome for Preservation, Scary for IP]]></title>
             <link>https://digestweb.dev/articles/2026-10-14/ai-mass-decompiling-games-preservation-ip</link>
