@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-10-16T05:28:10.902Z</updated>
+    <updated>2026-10-16T12:07:53.557Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,48 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Scaling Indic Pretraining: 2.8 Trillion Tokens & Open Data Pipeline]]></title>
+        <id>https://digestweb.dev/articles/2026-10-16/scaling-indic-pretraining-2-8-trillion-tokens-open-data-pipeline</id>
+        <link href="https://digestweb.dev/articles/2026-10-16/scaling-indic-pretraining-2-8-trillion-tokens-open-data-pipeline"/>
+        <link rel="enclosure" href="https://cdn-uploads.huggingface.co/production/uploads/68d2fec8856b85d927e44d32/x0aObe_0mduBjWFuKBGoV.png" type="image/png"/>
+        <updated>2026-10-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hugging Face details a massive 2.8 trillion token pretraining effort for Indic languages, alongside an open data generation pipeline. This work aims to democratize large-scale LLM development.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Hugging Face and NVIDIA collaborated on a massive 2.8 trillion token pretraining dataset for Indic languages.
+- They developed an open data generation pipeline to create high-quality, diverse datasets.
+- The initiative aims to democratize access to large-scale LLM development for underrepresented languages.
+- This work addresses the scarcity of high-quality data for non-English LLMs.
+- The project includes models trained on this dataset, available for public use.
+
+## Our Commentary
+
+This is huge. The sheer scale of 2.8 trillion tokens is mind-boggling, and the commitment to an open data pipeline for Indic languages? That's a game-changer for global AI accessibility. I'm genuinely excited to see how this impacts LLM diversity. We've been talking about data scarcity for so long, and this feels like a concrete step forward.
+
+Original Link: https://huggingface.co/blog/nvidia/scaling-indic-pretraining]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SVG "Linked Parameters" Could Revolutionize Web Icon Systems]]></title>
+        <id>https://digestweb.dev/articles/2026-10-16/svg-linked-parameters-icon-systems-revolution</id>
+        <link href="https://digestweb.dev/articles/2026-10-16/svg-linked-parameters-icon-systems-revolution"/>
+        <link rel="enclosure" href="https://blog.master.dev/wp-json/social-image-generator/v1/image/11420" type="image//wp-json/social-image-generator/v1/image/11420"/>
+        <updated>2026-10-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A new SVG proposal, "Linked Parameters," promises to simplify icon systems, potentially allowing a return to `<img>`-based SVG icons with dynamic styling capabilities. This could be a game-changer for frontend developers.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The "Linked Parameters" proposal introduces a new way to define dynamic properties within SVGs.
+- This feature could enable `<img>`-based SVG icons to be styled directly with CSS variables.
+- It aims to simplify icon system management, reducing the need for complex JavaScript solutions.
+- Developers might regain the benefits of `<img>` for icons while retaining styling flexibility.
+- The proposal addresses current limitations of SVG sprites and inline SVGs.
+
+## Our Commentary
+
+Okay, "Linked Parameters" for SVG? This is genuinely exciting. The idea of getting back to `<img>` for icons but still having dynamic styling? That's a dream. We've been wrestling with icon systems for years, and this feels like a proper solution. I'm cautiously optimistic, but if this lands, it's a huge win for frontend DX.
+
+Original Link: https://blog.master.dev/svg-linked-parameters-will-change-how-we-do-icon-systems/]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Astro 7.4 Boosts DX with Build Timings, Image Services, and Prerendering]]></title>
         <id>https://digestweb.dev/articles/2026-10-15/astro-7-4-build-timings-image-services-prerendering</id>
@@ -209,6 +251,26 @@ Original Link: https://github.blog/news-insights/company-news/the-next-developer
 Building AI agents is still a bit of the wild west, so a structured repository like Google's `adk-recipes` is a welcome sight. I appreciate the idea of having a 'single source of truth' and clear layers. It feels like Google is trying to bring some order to the chaos, which is exactly what developers need when tackling complex AI systems. Anything that makes agent development less of a black box is a win.
 
 Original Link: https://developers.googleblog.com/three-layers-one-repo-a-tour-of-googleadk-recipes/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Antigravity Accelerates Antimicrobial Peptide Discovery]]></title>
+        <id>https://digestweb.dev/articles/2026-10-15/google-antigravity-antimicrobial-peptide-discovery</id>
+        <link href="https://digestweb.dev/articles/2026-10-15/google-antigravity-antimicrobial-peptide-discovery"/>
+        <link rel="enclosure" href="https://picsum.photos/id/158/800/450" type="image//id/158/800/450"/>
+        <updated>2026-10-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Google DeepMind showcases how its "Antigravity for Science" platform is being used to rapidly accelerate the discovery of novel antimicrobial peptides. This highlights AI's potential in drug research.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Google DeepMind utilized its "Antigravity for Science" platform for drug discovery.
+- The AI system significantly speeds up the identification of novel antimicrobial peptides.
+- This research aims to combat antibiotic resistance by finding new therapeutic agents.
+- The platform leverages AI to predict and design effective peptide sequences.
+
+## Our Commentary
+
+It's always fascinating to see AI applied to real-world scientific problems like this. "Antigravity for Science" sounds like something out of a sci-fi novel, and using it to find new antibiotics is genuinely cool. It's a reminder that AI isn't just about chatbots; it's a powerful tool for fundamental research.
+
+Original Link: https://deepmind.google/blog/accelerating-antimicrobial-discovery/]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Google's Guide to Robust AI Agent Evaluation Pipelines]]></title>
