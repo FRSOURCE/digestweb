@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-10-16T12:07:53.557Z</updated>
+    <updated>2026-10-17T05:21:37.952Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,88 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Claude Code Team Shares AI-Powered Code Review Workflow]]></title>
+        <id>https://digestweb.dev/articles/2026-10-16/claude-code-team-ai-powered-code-review-workflow</id>
+        <link href="https://digestweb.dev/articles/2026-10-16/claude-code-team-ai-powered-code-review-workflow"/>
+        <link rel="enclosure" href="https://claude.dev/blog/solving-code-review-at-anthropic/og.png" type="image/png"/>
+        <updated>2026-10-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Claude Code team details their innovative code review process, where AI agents verify their own work before human approval. Learn how they manage high-volume code reviews and a checklist for adopting similar practices.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The Claude Code team uses AI agents to manage high-volume code reviews.
+- Claude agents perform initial self-verification of their generated code.
+- A risk-tiered human approval process follows the AI's initial review.
+- The article provides a checklist for implementing similar AI-assisted review practices.
+
+## Our Commentary
+
+This is exactly the kind of practical AI integration we've been waiting for. The idea of agents reviewing their own work before human eyes even touch it is both exciting and a little unsettling. We're moving into a world where the "human in the loop" might be more of a final gatekeeper than an active participant in every step. I wonder about the edge cases and how much trust is truly placed in the AI's self-correction.
+
+Original Link: https://claude.dev/blog/solving-code-review-at-anthropic/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intro to TanStack AI: Integrating AI Features into Your Apps]]></title>
+        <id>https://digestweb.dev/articles/2026-10-16/intro-tanstack-ai-integrating-ai-features-apps</id>
+        <link href="https://digestweb.dev/articles/2026-10-16/intro-tanstack-ai-integrating-ai-features-apps"/>
+        <link rel="enclosure" href="https://blog.master.dev/wp-json/social-image-generator/v1/image/11346" type="image//wp-json/social-image-generator/v1/image/11346"/>
+        <updated>2026-10-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Explore TanStack AI, a strongly typed library suite designed for adding AI capabilities to your applications. This introductory guide covers basic setup, prompting, streaming responses, and managing persistent AI threads.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- TanStack AI provides strongly typed libraries for integrating AI features into applications.
+- The introduction covers fundamental setup and prompting techniques.
+- It demonstrates how to handle streaming responses from AI models.
+- Guidance is provided on persisting AI conversation threads to a database.
+- The article also explains how to resume an AI response after a mid-stream refresh.
+
+## Our Commentary
+
+TanStack is a name we trust, so seeing them jump into the AI space with a strongly typed library for app integration is genuinely exciting. This feels like a practical, developer-first approach to bringing AI into our apps, rather than just another wrapper. I'm particularly interested in the persistence and streaming aspects; those are often the trickiest parts to get right.
+
+Original Link: https://blog.master.dev/unlocking-ai-in-your-apps-with-tanstack-ai/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next.js 16.4: Enhancing v0 Navigation with Partial Prefetching & AI Agents]]></title>
+        <id>https://digestweb.dev/articles/2026-10-16/nextjs-16-4-v0-navigation-partial-prefetching-ai-agents</id>
+        <link href="https://digestweb.dev/articles/2026-10-16/nextjs-16-4-v0-navigation-partial-prefetching-ai-agents"/>
+        <link rel="enclosure" href="https://h8dxkfmaphn8o0p3.public.blob.vercel-storage.com/static/blog/improving-navigation-experience-in-v0-with-nextjs-16-4/twitter-card.png" type="image/png"/>
+        <updated>2026-10-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Discover how the Next.js team leveraged Partial Prefetching and a coding agent to significantly improve navigation performance within their v0 project. This article offers practical insights into optimizing user experience.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Next.js 16.4 features were used to optimize navigation in the v0 project.
+- Partial Prefetching played a key role in improving load times.
+- A coding agent assisted in the implementation and optimization process.
+- The focus was on enhancing the overall user navigation experience.
+
+## Our Commentary
+
+This is a fascinating blend of traditional web performance techniques and AI assistance. We're seeing more of these hybrid approaches. I'm curious how much the "coding agent" actually contributed versus just being a buzzword. Still, it's a practical example of AI in action for dev teams.
+
+Original Link: https://nextjs.org/blog/improving-navigation-experience-in-v0-with-nextjs-16-4]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reflection's Beam LLM Now Available on Ollama for Dev Tasks]]></title>
+        <id>https://digestweb.dev/articles/2026-10-16/reflections-beam-llm-ollama-dev-tasks</id>
+        <link href="https://digestweb.dev/articles/2026-10-16/reflections-beam-llm-ollama-dev-tasks"/>
+        <link rel="enclosure" href="https://ollama.com/public/og.png" type="image/png"/>
+        <updated>2026-10-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Reflection's new open-weight model, Beam, designed for software engineering and agentic tasks, is now freely accessible on Ollama for a limited period. Developers can leverage Beam through Ollama Cloud for advanced reasoning.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Reflection has released its first open-weight model named Beam.
+- Beam is specifically engineered for software engineering and reasoning tasks.
+- It also supports long-running agentic tasks.
+- The model is currently available for free on Ollama for a limited time.
+- Users can access Beam via Ollama Cloud.
+
+## Our Commentary
+
+Another open-weight model hitting the scene, and this one is specifically tuned for software engineering and agentic tasks. That's a big deal for developers looking to integrate more sophisticated AI into their workflows. The "limited time free" aspect is a classic move, but it's a great opportunity to kick the tires on something potentially powerful. We're seeing a clear trend towards specialized LLMs for dev.
+
+Original Link: https://ollama.com/blog/reflection-beam]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Scaling Indic Pretraining: 2.8 Trillion Tokens & Open Data Pipeline]]></title>
         <id>https://digestweb.dev/articles/2026-10-16/scaling-indic-pretraining-2-8-trillion-tokens-open-data-pipeline</id>
@@ -55,6 +137,27 @@ Original Link: https://huggingface.co/blog/nvidia/scaling-indic-pretraining]]></
 Okay, "Linked Parameters" for SVG? This is genuinely exciting. The idea of getting back to `<img>` for icons but still having dynamic styling? That's a dream. We've been wrestling with icon systems for years, and this feels like a proper solution. I'm cautiously optimistic, but if this lands, it's a huge win for frontend DX.
 
 Original Link: https://blog.master.dev/svg-linked-parameters-will-change-how-we-do-icon-systems/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Synthetic Users Match Human UX Research, Show Less Variation]]></title>
+        <id>https://digestweb.dev/articles/2026-10-16/synthetic-users-match-human-ux-research-less-variation</id>
+        <link href="https://digestweb.dev/articles/2026-10-16/synthetic-users-match-human-ux-research-less-variation"/>
+        <link rel="enclosure" href="https://media.nngroup.com/media/articles/opengraph_images/Synthetic_Users_vs._Human_Respondents__Same_Conclusion_Less_Variation.png" type="image/png"/>
+        <updated>2026-10-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A study reveals that data from AI-generated "synthetic users" yields similar conclusions to human respondents in UX research, but with significantly less variation in answers. This suggests new avenues for efficient user testing.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Research compared AI-generated synthetic users with human respondents in UX studies.
+- Both groups arrived at the same overall conclusions.
+- Synthetic users provided significantly fewer distinct answers compared to humans.
+- This method could offer a more efficient approach to gathering user feedback.
+- The findings suggest potential for AI in streamlining UX research processes.
+
+## Our Commentary
+
+This is a genuinely thought-provoking piece. The idea that synthetic users can replicate human research findings with less noise is huge for UX testing. We've been talking about AI for efficiency, and this feels like a concrete win. But I also wonder about the nuances we might miss. Human variation, even "noise," sometimes reveals unexpected insights. Are we optimizing for speed at the cost of serendipitous discovery? It's a trade-off I'm still wrestling with.
+
+Original Link: https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Astro 7.4 Boosts DX with Build Timings, Image Services, and Prerendering]]></title>
