@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-10-19T05:39:29.088Z</updated>
+    <updated>2026-10-19T14:22:24.716Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,75 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[create-vite 9.3.0: TypeScript v7 Support and Minor Enhancements]]></title>
+        <id>https://digestweb.dev/articles/2026-10-19/create-vite-9-3-0-typescript-v7-support-minor-enhancements</id>
+        <link href="https://digestweb.dev/articles/2026-10-19/create-vite-9-3-0-typescript-v7-support-minor-enhancements"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/f84c3b69391e9272442f935e3aa1977c710b1fd109ec40e0b85ae158311e47f9/vitejs/vite/releases/tag/create-vite%409.3.0" type="image/0"/>
+        <updated>2026-10-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The scaffolding tool for Vite receives an update, bringing TypeScript v7 compatibility and minor quality-of-life improvements.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- `create-vite` now prints its version before scaffolding new projects.
+- TypeScript v7 is now used where possible in generated projects.
+- Bug fixes include adding router-only options for TanStack Router/Start.
+- Dependencies across the project have been updated.
+- The internal `cross-spawn` dependency was replaced with `tinyexec`.
+
+## Our Commentary
+
+This is a small but welcome update for `create-vite`. We appreciate the continued refinement of the scaffolding experience. Using TypeScript v7 by default is a good move, keeping new projects on the latest stable. It's the little things that make a difference in developer experience, right?
+
+Original Link: https://github.com/vitejs/vite/releases/tag/create-vite%409.3.0]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The AI Paradox: Fear, Value, and the Changing Face of Software Development]]></title>
+        <id>https://digestweb.dev/articles/2026-10-18/ai-paradox-fear-value-changing-software-development</id>
+        <link href="https://digestweb.dev/articles/2026-10-18/ai-paradox-fear-value-changing-software-development"/>
+        <link rel="enclosure" href="https://res.cloudinary.com/dfcwuxv3l/image/upload/w_1280,h_669,c_fill,q_auto,f_auto/w_900,c_fit,co_rgb:232129,g_south_west,x_70,y_160,l_text:oswald_84_bold_line_spacing_-34:Blake%20Watson%20on%20the%20state%20of%20the%20industry/w_900,c_fit,co_rgb:232129,g_north_west,x_70,y_540,l_text:ubuntu_38:%40stefanjudis/stefan-judis-website/social-image-with-new-dude" type="image//dfcwuxv3l/image/upload/w_1280,h_669,c_fill,q_auto,f_auto/w_900,c_fit,co_rgb:232129,g_south_west,x_70,y_160,l_text:oswald_84_bold_line_spacing_-34:Blake%20Watson%20on%20the%20state%20of%20the%20industry/w_900,c_fit,co_rgb:232129,g_north_west,x_70,y_540,l_text:ubuntu_38:%40stefanjudis/stefan-judis-website/social-image-with-new-dude"/>
+        <updated>2026-10-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Stefan Judis reflects on Blake Watson's insights into AI's impact on developers, exploring fears of obsolescence, the rise of "personal software," and the evolving value of deep technical skills.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The author shares a common fear of being replaced or devalued by AI in software development.
+- Deep platform knowledge feels less valuable when LLMs know more.
+- "Personal software" is emerging, where quality is secondary to getting the job done.
+- The capabilities of coding AI tools have advanced significantly in the last year.
+- There's an "icky feeling" when creating things without effort or understanding using AI.
+- The author struggles with the push-and-pull between fear of replacement and potential increased value.
+
+## Our Commentary
+
+This piece hits hard. I feel this in my bones. The "icky feeling" of creating without understanding is so real. We're all grappling with this tension between the immense power of AI and the unsettling feeling that our hard-won skills might be eroding. It's a strange time to be a developer. I genuinely don't know how to feel about agents churning away at 3am while nobody's watching. Are we becoming orchestrators of algorithms, or are we just... prompt engineers? It's a question that keeps me up at night.
+
+Original Link: https://www.stefanjudis.com/notes/blake-watson-on-the-state-of-the-industry/]]></content>
+        <author>
+            <name>Stefan Judis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[llm-echo 0.5: Enhanced Token Usage Simulation for LLM Debugging]]></title>
+        <id>https://digestweb.dev/articles/2026-10-18/llm-echo-0-5-enhanced-token-usage-simulation-llm-debugging</id>
+        <link href="https://digestweb.dev/articles/2026-10-18/llm-echo-0-5-enhanced-token-usage-simulation-llm-debugging"/>
+        <link rel="enclosure" href="https://picsum.photos/id/614/800/450" type="image//id/614/800/450"/>
+        <updated>2026-10-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The `llm-echo` debug plugin receives an update, now accurately simulating token usage for tool calls, system prompts, and reasoning tokens.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- `llm-echo` is a debug plugin that repeats back prompts without involving an actual LLM.
+- The new release updates simulated token usage counts.
+- It now accounts for tool calls, system prompts, and reasoning tokens.
+- This helps developers understand token consumption in complex LLM interactions.
+
+## Our Commentary
+
+Simon Willison's `llm-echo` plugin is a neat little utility for debugging LLM interactions. We appreciate the attention to detail in simulating token usage, especially with the increasing complexity of tool calls and system prompts. It's a small but useful improvement for anyone deep in LLM development.
+
+Original Link: https://simonwillison.net/2026/Oct/18/llm-echo/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Claude Code Team Shares AI-Powered Code Review Workflow]]></title>
         <id>https://digestweb.dev/articles/2026-10-16/claude-code-team-ai-powered-code-review-workflow</id>
