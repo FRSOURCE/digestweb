@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-10-21T05:45:22.477Z</updated>
+    <updated>2026-10-21T12:44:55.537Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -139,6 +139,31 @@ Original Link: https://blog.codepen.io/2026/10/20/445-codepen-ai-is-here/]]></co
 The CSS `random()` function sounds like a blast! I love the idea of bringing 'playful imperfection' directly into CSS without needing JavaScript. Design systems can sometimes feel a bit too rigid, and a little controlled randomness can add so much character. This is exactly the kind of web platform feature that sparks creativity. I'm already thinking of ways to use this for subtle animations and unique layouts.
 
 Original Link: https://smashingmagazine.com/2026/10/embracing-playful-imperfection-css-random-function/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[eMudhra CA Compromise: Widespread Certificate Security Alert]]></title>
+        <id>https://digestweb.dev/articles/2026-10-20/emudhra-ca-compromise-widespread-certificate-security-alert</id>
+        <link href="https://digestweb.dev/articles/2026-10-20/emudhra-ca-compromise-widespread-certificate-security-alert"/>
+        <link rel="enclosure" href="https://picsum.photos/id/684/800/450" type="image//id/684/800/450"/>
+        <updated>2026-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Eight eMudhra intermediate CA certificates have been compromised, impacting trust roots across major browsers and operating systems. Immediate software updates are required.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Private keys for eight eMudhra intermediate CA certificates are compromised.
+- These certificates chain to roots trusted by Mozilla, Microsoft, Apple, and Chrome.
+- The compromise affects many downstream trust stores and requires immediate action.
+- Any software bundling trusted certificates needs to be updated promptly.
+- Linux distributions must update their `ca-certificates` packages.
+- Python tools like `uv` (0.13.4), `pip` (26.2.2), and `certifi` (2026.10.19) have already released updates.
+
+## Our Commentary
+
+This is genuinely unsettling. A CA compromise is one of those things that makes you question the very foundations of web security. We're talking about trust roots here, the bedrock. I'm thinking about the sheer scale of updates needed, the potential for unnoticed vulnerabilities. It's a stark reminder that the web's security model, while robust, is only as strong as its weakest link. This isn't just a "patch your server" moment; it's a "check everything" moment.
+
+Original Link: https://simonwillison.net/2026/Oct/20/emudhra-certificates/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[FairStress: Evaluating Fairness in LLM Decision-Making]]></title>

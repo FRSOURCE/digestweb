@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Wed, 21 Oct 2026 05:45:22 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 21 Oct 2026 12:44:55 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -138,6 +138,29 @@ The CSS `random()` function sounds like a blast! I love the idea of bringing 'pl
 
 Original Link: https://smashingmagazine.com/2026/10/embracing-playful-imperfection-css-random-function/]]></content:encoded>
             <enclosure url="https://files.smashing.media/articles/embracing-playful-imperfection-css-random-function/embracing-playful-imperfection-css-random-function.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[eMudhra CA Compromise: Widespread Certificate Security Alert]]></title>
+            <link>https://digestweb.dev/articles/2026-10-20/emudhra-ca-compromise-widespread-certificate-security-alert</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-20/emudhra-ca-compromise-widespread-certificate-security-alert</guid>
+            <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Eight eMudhra intermediate CA certificates have been compromised, impacting trust roots across major browsers and operating systems. Immediate software updates are required.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Private keys for eight eMudhra intermediate CA certificates are compromised.
+- These certificates chain to roots trusted by Mozilla, Microsoft, Apple, and Chrome.
+- The compromise affects many downstream trust stores and requires immediate action.
+- Any software bundling trusted certificates needs to be updated promptly.
+- Linux distributions must update their `ca-certificates` packages.
+- Python tools like `uv` (0.13.4), `pip` (26.2.2), and `certifi` (2026.10.19) have already released updates.
+
+## Our Commentary
+
+This is genuinely unsettling. A CA compromise is one of those things that makes you question the very foundations of web security. We're talking about trust roots here, the bedrock. I'm thinking about the sheer scale of updates needed, the potential for unnoticed vulnerabilities. It's a stark reminder that the web's security model, while robust, is only as strong as its weakest link. This isn't just a "patch your server" moment; it's a "check everything" moment.
+
+Original Link: https://simonwillison.net/2026/Oct/20/emudhra-certificates/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/684/800/450" length="0" type="image//id/684/800/450"/>
         </item>
         <item>
             <title><![CDATA[FairStress: Evaluating Fairness in LLM Decision-Making]]></title>
