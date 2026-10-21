@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-10-19T18:06:55.847Z</updated>
+    <updated>2026-10-21T05:45:22.477Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,532 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[ALTK-Evolve: Learned Memory Tops τ²-bench for Customer Service]]></title>
+        <id>https://digestweb.dev/articles/2026-10-20/altk-evolve-learned-memory-customer-service-llm</id>
+        <link href="https://digestweb.dev/articles/2026-10-20/altk-evolve-learned-memory-customer-service-llm"/>
+        <link rel="enclosure" href="https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/rzXYJh7e7UdoYgCLwOZjH.jpeg" type="image/jpeg"/>
+        <updated>2026-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ALTK-Evolve demonstrates how learned memory can outperform frontier models on customer service tasks, topping the τ²-bench leaderboard.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- ALTK-Evolve utilizes learned memory to achieve top performance on customer service tasks.
+- It successfully leads the τ²-bench leaderboard without relying on frontier models.
+- This research highlights the effectiveness of innovative architectural approaches in LLMs.
+- The findings suggest that specialized memory mechanisms can enhance task-specific AI capabilities.
+
+## Our Commentary
+
+This is a fascinating piece of research. Topping a leaderboard on customer service tasks _without_ a frontier model, using learned memory? That's a big deal. It suggests that throwing more parameters at a problem isn't always the answer. Smart architectural choices and specialized techniques can yield incredible results. I love seeing innovation that pushes beyond just scaling up existing models.
+
+Original Link: https://huggingface.co/blog/ibm-research/altk-evolve-bc]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AnyLanguageModel 1.0: A Year of Local AI on Apple Platforms]]></title>
+        <id>https://digestweb.dev/articles/2026-10-20/anylanguagemodel-1-0-local-ai-apple</id>
+        <link href="https://digestweb.dev/articles/2026-10-20/anylanguagemodel-1-0-local-ai-apple"/>
+        <link rel="enclosure" href="https://huggingface.co/blog/assets/anylanguagemodel-1-0/banner.png" type="image/png"/>
+        <updated>2026-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[AnyLanguageModel 1.0 marks a year of progress for running local AI models efficiently on Apple platforms, offering a retrospective and update.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- AnyLanguageModel 1.0 celebrates one year of enabling local AI models on Apple platforms.
+- The update provides a retrospective on the progress and capabilities achieved.
+- It highlights the efficiency and performance of running AI directly on Apple hardware.
+- This platform caters to developers focused on on-device machine learning solutions.
+
+## Our Commentary
+
+A year of local AI on Apple platforms with AnyLanguageModel 1.0 is a cool milestone. Running models locally is becoming increasingly important for privacy, speed, and cost. Apple's hardware is powerful, and seeing dedicated efforts to optimize AI for it is great. I think local AI is going to be a huge trend, and tools like this are paving the way.
+
+Original Link: https://huggingface.co/blog/anylanguagemodel-1-0]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Battle Drones: An AI-Coded RTS with Audio Multiplayer]]></title>
+        <id>https://digestweb.dev/articles/2026-10-20/battle-drones-ai-coded-rts-audio-multiplayer</id>
+        <link href="https://digestweb.dev/articles/2026-10-20/battle-drones-ai-coded-rts-audio-multiplayer"/>
+        <link rel="enclosure" href="https://static.simonwillison.net/static/2026/battle-drones-card.webp" type="image/webp"/>
+        <updated>2026-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison showcases 'Battle Drones,' a Command & Conquer-style RTS game built with AI coding agents, featuring unique audio-based multiplayer.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison developed 'Battle Drones,' a browser-based RTS game, with significant help from AI coding agents.
+- The game features 3D models, fog of war, multiple biomes, and a random map generator.
+- It includes skirmish and last stand modes with various units and area effect weapons.
+- A standout feature is multiplayer support for nearby devices using audio to synchronize game state.
+- The project demonstrates the power of AI in accelerating complex game development.
+
+## Our Commentary
+
+Simon Willison's 'Battle Drones' is just pure joy. An RTS game, built with coding agents, and _audio-based multiplayer_? That's the kind of innovative, slightly messy, human-driven tech exploration I love. It's a brilliant showcase of what's possible when you lean into AI as a co-pilot, and the audio multiplayer is just a wild, creative idea. I genuinely don't know how to feel about AI writing so much of the code, but the result is undeniably fun.
+
+Original Link: https://simonwillison.net/2026/Oct/20/battledrones/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Claude Designs Protein Binders Against Scorpion Neurotoxins]]></title>
+        <id>https://digestweb.dev/articles/2026-10-20/claude-designs-protein-binders-scorpion-neurotoxins</id>
+        <link href="https://digestweb.dev/articles/2026-10-20/claude-designs-protein-binders-scorpion-neurotoxins"/>
+        <link rel="enclosure" href="https://www-cdn.anthropic.com/images/4zrzovbb/website/187c8077329b22f6bd02c5648ea58749af892e8c-1200x630.jpg" type="image/jpg"/>
+        <updated>2026-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Anthropic's Claude model successfully designed minibinders, small proteins capable of attaching tightly to scorpion neurotoxins.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Anthropic tasked an internal research Claude model with designing protein minibinders.
+- The goal was to create small proteins that could tightly attach to scorpion neurotoxins.
+- This research demonstrates Claude's capabilities in complex scientific design tasks.
+- The project showcases a practical application of LLMs in biotechnology and medicine.
+
+## Our Commentary
+
+This is genuinely impressive. Claude designing protein binders against scorpion neurotoxins? That's a huge leap from generating text. It shows the incredible potential of LLMs in scientific research and drug discovery. I'm always a bit awestruck when AI moves into these highly specialized, complex domains. It makes me wonder what other scientific challenges LLMs will tackle next.
+
+Original Link: https://www.anthropic.com/research/claude-scorpion-toxin-binder-design]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CodePen AI is Here: A Major Platform Update]]></title>
+        <id>https://digestweb.dev/articles/2026-10-20/codepen-ai-is-here-major-update</id>
+        <link href="https://digestweb.dev/articles/2026-10-20/codepen-ai-is-here-major-update"/>
+        <link rel="enclosure" href="https://s0.wp.com/i/blank.jpg" type="image/jpg"/>
+        <updated>2026-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CodePen announces its biggest release since version 2.0, integrating AI capabilities directly into the popular web development platform.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- CodePen has launched 'CodePen AI,' marking its most significant release since version 2.0.
+- The integration brings AI capabilities directly into the platform for users.
+- The team acknowledges AI as a fast-changing technology, promising continuous development.
+- This update aims to enhance the creative and development workflow for CodePen users.
+- The feature is now live and available for use on the platform.
+
+## Our Commentary
+
+CodePen AI is here! This is a big one for a platform so many of us use daily. Integrating AI directly into the creative coding workflow could be transformative. I'm curious to see how it evolves, especially with CodePen's commitment to continuous development in this fast-moving space. It's a clear signal that AI is becoming an indispensable part of our web development toolkit.
+
+Original Link: https://blog.codepen.io/2026/10/20/445-codepen-ai-is-here/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Embracing Playful Imperfection with the CSS `random()` Function]]></title>
+        <id>https://digestweb.dev/articles/2026-10-20/css-random-function-playful-imperfection</id>
+        <link href="https://digestweb.dev/articles/2026-10-20/css-random-function-playful-imperfection"/>
+        <link rel="enclosure" href="https://files.smashing.media/articles/embracing-playful-imperfection-css-random-function/embracing-playful-imperfection-css-random-function.jpg" type="image/jpg"/>
+        <updated>2026-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Smashing Magazine explores the new CSS `random()` function, demonstrating how to add organic imperfection to designs without JavaScript.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article explores the new CSS `random()` function for adding visual imperfection.
+- It demonstrates how to achieve organic typography, bouncing letters, and splayed cards.
+- The `random()` function allows for dynamic design elements without JavaScript or preprocessor loops.
+- This feature helps balance design system consistency with playful, unique aesthetics.
+- It showcases a new way to bring a touch of randomness directly to the web with CSS.
+
+## Our Commentary
+
+The CSS `random()` function sounds like a blast! I love the idea of bringing 'playful imperfection' directly into CSS without needing JavaScript. Design systems can sometimes feel a bit too rigid, and a little controlled randomness can add so much character. This is exactly the kind of web platform feature that sparks creativity. I'm already thinking of ways to use this for subtle animations and unique layouts.
+
+Original Link: https://smashingmagazine.com/2026/10/embracing-playful-imperfection-css-random-function/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FairStress: Evaluating Fairness in LLM Decision-Making]]></title>
+        <id>https://digestweb.dev/articles/2026-10-20/fairstress-fairness-llm-decision-making</id>
+        <link href="https://digestweb.dev/articles/2026-10-20/fairstress-fairness-llm-decision-making"/>
+        <link rel="enclosure" href="https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/7zYjyTWswjO2erWsO5HNf.png" type="image/png"/>
+        <updated>2026-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[FairStress offers a deeper evaluation of fairness in LLM decision-making, addressing a critical ethical aspect of AI systems.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- FairStress provides a comprehensive framework for evaluating fairness in LLM decision-making.
+- The research delves into the ethical implications of AI systems' outputs.
+- It aims to identify and mitigate biases within large language models.
+- This work contributes to the field of explainable AI (XAI) and responsible AI development.
+
+## Our Commentary
+
+Fairness in LLM decision-making is a huge, thorny problem. FairStress sounds like a much-needed deep dive into this. We're building these incredibly powerful systems, and understanding their biases is paramount. I appreciate research that tackles these ethical challenges head-on; it's not just about making models smarter, but making them more equitable. This is the kind of work that truly matters for the future of AI.
+
+Original Link: https://huggingface.co/blog/allenai/fairstress]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Future of CSS: A Glimpse into Interop 2027 Features]]></title>
+        <id>https://digestweb.dev/articles/2026-10-20/future-of-css-interop-2027</id>
+        <link href="https://digestweb.dev/articles/2026-10-20/future-of-css-interop-2027"/>
+        <link rel="enclosure" href="https://www.joshwcomeau.com/images/og-interop-2027.png" type="image/png"/>
+        <updated>2026-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Josh W. Comeau explores exciting new CSS features under consideration for Interop 2027, showcasing what's coming to browsers.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Browser vendors collaborate annually on the Interop project to synchronize new web features.
+- The article explores a range of exciting CSS features being considered for Interop 2027.
+- It provides a preview of capabilities developers will soon be able to use in CSS.
+- The post aims to give a glimpse into the evolving landscape of web styling.
+
+## Our Commentary
+
+Josh W. Comeau always delivers, and this look into the future of CSS via Interop 2027 is no exception. It's exciting to see what's on the horizon, especially with browser vendors collaborating more closely. I'm a sucker for new CSS features that reduce the need for JavaScript, and this article promises a lot of those. It's a good reminder that the web platform is constantly pushing forward.
+
+Original Link: https://www.joshwcomeau.com/css/interop-2027/]]></content>
+        <author>
+            <name>Josh W. Comeau</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google AI Edge Model Explorer: Visual Debugging for Edge Compilers]]></title>
+        <id>https://digestweb.dev/articles/2026-10-20/google-ai-edge-model-explorer-visual-debugging</id>
+        <link href="https://digestweb.dev/articles/2026-10-20/google-ai-edge-model-explorer-visual-debugging"/>
+        <link rel="enclosure" href="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_8zpqf88zpq.2e16d0ba.fill-1200x600.jpg" type="image/jpg"/>
+        <updated>2026-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Google AI Edge Model Explorer now offers visual graph debugging for custom edge compilers, enhancing transparency and bottleneck identification.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Google AI Edge Model Explorer now supports custom compiler intermediate representations.
+- It includes open-source adapters like TOSA, VGF, and PTE for on-device machine learning.
+- Developers can use hierarchical graph visualization and split-pane views for debugging.
+- Per-node trace overlays help catch export regressions and verify hardware delegation.
+- These tools enable transparent debugging of execution graphs and pinpointing latency bottlenecks.
+
+## Our Commentary
+
+Visual graph debugging for custom edge compilers? Yes, please. Debugging complex AI models, especially on edge devices, can be a nightmare. Tools like Google AI Edge Model Explorer, with its hierarchical views and trace overlays, are absolutely essential. It's a huge DX improvement that will save countless hours. I'm a firm believer that better tooling unlocks faster innovation, and this is a prime example.
+
+Original Link: https://developers.googleblog.com/bringing-visual-graph-debugging-to-custom-edge-compilers-with-model-explorer/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Unifies Edge AI with Open Coral NPU RISC-V & v1.0 MLIR Compiler]]></title>
+        <id>https://digestweb.dev/articles/2026-10-20/google-unifies-edge-ai-coral-npu-risc-v-mlir-compiler</id>
+        <link href="https://digestweb.dev/articles/2026-10-20/google-unifies-edge-ai-coral-npu-risc-v-mlir-compiler"/>
+        <link rel="enclosure" href="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog-header-image.2e16d0ba.fill-1200x600.jpg" type="image/jpg"/>
+        <updated>2026-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Google Research unveils the 32-bit open-source Coral NPU RISC-V architecture and a v1.0 IREE/MLIR compiler, democratizing edge AI development.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Google Research completed the 32-bit open-source Coral NPU RISC-V architecture.
+- The NPU features a Matrix Execution Unit delivering up to 1 TOPS at 10 mW for edge inference.
+- A v1.0 open-source IREE/MLIR compiler allows models from JAX, PyTorch, and TensorFlow to run on Coral NPU hardware.
+- Developers can now prototype and deploy multimodal edge applications with new hardware options like Synaptics Astra SR200 MCUs.
+- The initiative aims to bring portable, energy-viable intelligence from model to silicon.
+
+## Our Commentary
+
+This is a huge deal for edge AI. An open-source RISC-V NPU architecture from Google, paired with a v1.0 MLIR compiler that takes models directly from major frameworks? That's a game-changer. It feels like Google is really trying to democratize edge AI, making it accessible to a much wider range of developers. The 1 TOPS at 10 mW is also incredibly efficient. I think this could spark a lot of innovation in on-device AI.
+
+Original Link: https://developers.googleblog.com/unifying-edge-ai-how-coral-npus-open-standard-brings-portable-energy-viable-intelligence-from-model-to-silicon/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Announces New vLLM & SGLang Inference Engines on TPU]]></title>
+        <id>https://digestweb.dev/articles/2026-10-20/google-vllm-sglang-inference-engines-tpu</id>
+        <link href="https://digestweb.dev/articles/2026-10-20/google-vllm-sglang-inference-engines-tpu"/>
+        <link rel="enclosure" href="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/inferenceblog.2e16d0ba.fill-1200x600.jpg" type="image/jpg"/>
+        <updated>2026-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Google unveils native PyTorch backends for vLLM and SGLang inference engines on TPU, delivering state-of-the-art performance and cost efficiency.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Native PyTorch backends for vLLM and SGLang inference engines are now available on TPU.
+- These engines enable running and optimizing serving workloads using familiar PyTorch tools.
+- Optimized TPU kernel implementations and production-ready features like KV cache management are included.
+- Disaggregated serving is supported for enhanced flexibility and scalability.
+- Public benchmarks demonstrate state-of-the-art performance and industry-leading cost efficiency on Ironwood TPU.
+
+## Our Commentary
+
+This is a massive announcement for anyone deploying LLMs. Native PyTorch backends for vLLM and SGLang on TPUs, with optimized kernels and state-of-the-art performance? That's a huge leap forward for LLM inference. Cost and speed are everything in production, and this promises to deliver on both. It feels like Google is really pushing the envelope for efficient LLM serving. I'm excited to see the real-world impact of this.
+
+Original Link: https://developers.googleblog.com/announcing-new-vllm-and-sglang-inference-engines-on-tpu/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hugging Face ❤️ TorchTPU: Native TPU Support for PyTorch]]></title>
+        <id>https://digestweb.dev/articles/2026-10-20/hugging-face-torchtpu-native-tpu-support</id>
+        <link href="https://digestweb.dev/articles/2026-10-20/hugging-face-torchtpu-native-tpu-support"/>
+        <link rel="enclosure" href="https://huggingface.co/blog/assets/hf-torchtpu/thumbnail.png" type="image/png"/>
+        <updated>2026-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hugging Face announces native integration with TorchTPU, making Google Cloud TPUs directly accessible for PyTorch users.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Hugging Face now offers native support for Google Cloud TPUs through TorchTPU.
+- This integration allows PyTorch users to leverage TPUs directly within the Hugging Face ecosystem.
+- The collaboration aims to simplify large-scale model training and deployment.
+- It provides a more seamless experience for developers working with PyTorch on TPU infrastructure.
+
+## Our Commentary
+
+Hugging Face and TorchTPU joining forces is a smart move. Making TPUs natively accessible for PyTorch users on Hugging Face is a big win for the AI community. Training large models is resource-intensive, and simplifying access to specialized hardware like TPUs can really accelerate research and development. It's all about lowering the barrier to entry for powerful AI tools.
+
+Original Link: https://huggingface.co/blog/hf-torchtpu]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NVIDIA Cosmos3-H-Dreams: Generative Simulation for Clinical Surgery]]></title>
+        <id>https://digestweb.dev/articles/2026-10-20/nvidia-cosmos3-h-dreams-generative-surgery-simulation</id>
+        <link href="https://digestweb.dev/articles/2026-10-20/nvidia-cosmos3-h-dreams-generative-surgery-simulation"/>
+        <link rel="enclosure" href="https://cdn-uploads.huggingface.co/production/uploads/67a4f15057fb66b9db6dac82/45XSEtdQHqTdspRe3wkYs.png" type="image/png"/>
+        <updated>2026-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[NVIDIA's Cosmos3-H-Dreams project brings clinical surgery to life through advanced generative simulation, offering new training possibilities.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- NVIDIA's Cosmos3-H-Dreams project focuses on generative simulation for clinical surgery.
+- The initiative aims to bring realistic surgical scenarios to life through AI.
+- This technology could revolutionize medical training and surgical planning.
+- It represents a significant advancement in applying generative AI to complex real-world problems.
+
+## Our Commentary
+
+Generative simulation for clinical surgery? That's a mind-bending application of AI. The implications for medical training and even pre-surgical planning are immense. It's one of those things that sounds like science fiction but is rapidly becoming reality. I'm genuinely excited about the potential here, even if it's a bit unsettling to think about AI operating on virtual patients.
+
+Original Link: https://huggingface.co/blog/nvidia/cosmos3-h-dreams]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Open AI Artifacts #25: DeepSeek V4.1 Flash & Regulatory Shifts]]></title>
+        <id>https://digestweb.dev/articles/2026-10-20/open-ai-artifacts-deepseek-regulatory-shifts</id>
+        <link href="https://digestweb.dev/articles/2026-10-20/open-ai-artifacts-deepseek-regulatory-shifts"/>
+        <link rel="enclosure" href="https://substackcdn.com/image/fetch/$s_!ptGw!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd500e8ff-94e8-4cf5-b99d-5d9aac7f0a8a_1024x768.png" type="image/png"/>
+        <updated>2026-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This digest covers the DeepSeek V4.1 Flash 1017 model, new American-made AI models, and evolving regulatory controls in the US and China.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The latest open artifacts digest covers the DeepSeek V4.1 Flash 1017 model.
+- It highlights the emergence of new American-made AI models.
+- The article discusses recent regulatory controls impacting AI in the US and China.
+- The author notes a trend of 'Western open models striking back' in the AI landscape.
+
+## Our Commentary
+
+Nathan Lambert's digest is always a good pulse check on the open AI scene. DeepSeek V4.1 Flash 1017 sounds interesting, and the mention of 'Western open models striking back' suggests some real competition brewing. The regulatory aspect is also something we need to keep an eye on; it's going to shape the future of AI development as much as the technical breakthroughs.
+
+Original Link: https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek]]></content>
+        <author>
+            <name>Nathan Lambert</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PyTorch 2.15 Enhances MPS Support for Apple Hardware]]></title>
+        <id>https://digestweb.dev/articles/2026-10-20/pytorch-2-15-mps-apple-performance</id>
+        <link href="https://digestweb.dev/articles/2026-10-20/pytorch-2-15-mps-apple-performance"/>
+        <link rel="enclosure" href="https://huggingface.co/blog/assets/mps-pytorch-2-15/thumbnail.png" type="image/png"/>
+        <updated>2026-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[PyTorch 2.15 introduces improved support for Metal Performance Shaders (MPS), boosting performance on Apple platforms.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- PyTorch 2.15 includes enhanced support for Metal Performance Shaders (MPS).
+- This update aims to improve the performance of PyTorch models on Apple hardware.
+- MPS leverages Apple's integrated GPUs for accelerated machine learning workloads.
+- The improvement benefits developers working with PyTorch on macOS and iOS devices.
+
+## Our Commentary
+
+PyTorch 2.15 getting better MPS support is a solid, if niche, improvement. For anyone doing ML development on Apple hardware, squeezing more performance out of the Metal Performance Shaders is always welcome. It's a continuous effort to optimize these frameworks for specific hardware, and every little bit helps.
+
+Original Link: https://huggingface.co/blog/mps-pytorch-2-15]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rust Port of TypeScript (tsrs) Up to 8x Faster; Next.js RCE Patches]]></title>
+        <id>https://digestweb.dev/articles/2026-10-20/rust-typescript-tsrs-faster-nextjs-rce-patches</id>
+        <link href="https://digestweb.dev/articles/2026-10-20/rust-typescript-tsrs-faster-nextjs-rce-patches"/>
+        <link rel="enclosure" href="https://picsum.photos/id/414/800/450" type="image//id/414/800/450"/>
+        <updated>2026-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A Rust port of TypeScript 7, `tsrs`, promises up to 8x faster compilation, while Next.js patches critical RCE flaws, and Node.js/Astro see notable updates.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Cloudflare and VoidZero's `tsrs`, a Rust port of TypeScript 7, claims up to 8x faster compilation and runs in WebAssembly.
+- Next.js has patched two critical RCE flaws, urging users to upgrade to 16.4.1 or 15.5.28.
+- Node.js security releases are due for 26.x, 24.x, and 22.x lines, with high-severity issues.
+- Bun is previewing ahead-of-time JavaScript compilation with a draft PR for producing binaries.
+- Node.js v26.12.0 and v24.22.0 releases include synchronous ES module loading and new `util.throttle`/`util.debounce`.
+- Astro 7.4 adds a `--timings` flag for build analysis and experimental parallel prerendering.
+- React Router 8.5 deprecates its own view transition API.
+
+## Our Commentary
+
+Okay, this JavaScript Weekly is absolutely packed. The `tsrs` Rust port of TypeScript is the real headline here; 8x faster compilation is a monumental leap for developer experience and build times. That's the kind of performance gain that changes workflows. Then we have critical RCE patches for Next.js – always a stark reminder to keep dependencies updated. Node.js and Astro also dropped some solid updates. It's a lot to digest, but it feels like the ecosystem is just buzzing with activity, pushing forward on all fronts, from raw speed to security.
+
+Original Link: https://javascriptweekly.com/issues/807]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SolidJS 2.0 RC.16: Introducing `createDeferred` for Async State]]></title>
+        <id>https://digestweb.dev/articles/2026-10-20/solidjs-2-0-rc-16-createdeferred-async-state</id>
+        <link href="https://digestweb.dev/articles/2026-10-20/solidjs-2-0-rc-16-createdeferred-async-state"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/e1c92874484a3689a1fbfe7511a20f6862e68731a11c386502c468c1d11fcdb3/solidjs/solid/releases/tag/solid-js%402.0.0-rc.16" type="image/16"/>
+        <updated>2026-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The latest SolidJS release candidate unveils `createDeferred`, a new primitive for managing async state, and updates guidance on application-wide state.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- `createDeferred(fn, options?)` is a new async memo that lags but never leads, holding previous answers during refetches.
+- The cheatsheet no longer recommends module-scope state for app-wide state, aligning with `createContext` JSDoc and 2.0 docs.
+- `createComponent` now takes a `loc` parameter, providing source site information for diagnostics.
+- The console footer is updated to provide clearer documentation links for diagnostic codes.
+- JSDoc descriptions and various links now point to the 2.0 reference documentation.
+
+## Our Commentary
+
+This is the big one for SolidJS 2.0 RCs. `createDeferred` is a genuinely interesting new primitive for handling async state. The idea of a memo that lags but never leads is a powerful concept for UX, allowing the UI to remain responsive while new data loads. I'm also glad to see the state management guidance clarified; `createContext` for app-wide state is a much more robust pattern, especially with SSR. These are the kinds of features that make a framework feel truly mature.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/solid-js%402.0.0-rc.16]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SolidJS Babel Plugin 2.0 RC.16: Better Diagnostics & Server Components]]></title>
+        <id>https://digestweb.dev/articles/2026-10-20/solidjs-babel-plugin-2-0-rc-16-diagnostics-server-components</id>
+        <link href="https://digestweb.dev/articles/2026-10-20/solidjs-babel-plugin-2-0-rc-16-diagnostics-server-components"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/acb29542a5e52006cfc6c65d3682c781b8492a73c6fc340714123a63ef0db891/solidjs/solid/releases/tag/%40solidjs/babel-plugin%402.0.0-rc.16" type="image/16"/>
+        <updated>2026-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The SolidJS Babel plugin RC enhances diagnostics with source locations and refactors server components by removing binding slots.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- `sourceNames` now includes a `locations` kind, providing `file:line:col` for diagnostics.
+- The plugin gains a `root` option to specify the base directory for source locations.
+- `createComponent` and binding labels now carry source location information for better debugging.
+- Server components have removed binding slots, with client components in slots replacing them for client-side behavior.
+- SSR now evaluates ref expressions alongside spreads, ensuring hydration IDs align.
+
+## Our Commentary
+
+Similar to the compiler, the SolidJS Babel plugin RC is getting better diagnostic reporting with source locations. This is just good engineering. The server component changes, specifically the removal of binding slots, are a consistent theme across these RCs. It's a clear direction for Solid 2.0's server story. The ref evaluation fix for SSR is also a subtle but important detail for hydration correctness.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fbabel-plugin%402.0.0-rc.16]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SolidJS Compiler 2.0 RC.16: Source Maps & Server Component Refactor]]></title>
+        <id>https://digestweb.dev/articles/2026-10-20/solidjs-compiler-2-0-rc-16-source-maps-server-components</id>
+        <link href="https://digestweb.dev/articles/2026-10-20/solidjs-compiler-2-0-rc-16-source-maps-server-components"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/3ae323c78b077a386caa7e2a44efd01a85543ef9a7d5459513b2a327df73e7d9/solidjs/solid/releases/tag/%40solidjs/compiler%402.0.0-rc.16" type="image/16"/>
+        <updated>2026-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The SolidJS compiler RC improves diagnostics with precise source locations and removes binding slots in server components.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- `sourceNames` now includes a `locations` kind, providing `file:line:col` for diagnostics.
+- `transform()` gains a `root` option to specify the base directory for source locations.
+- `createComponent` and binding labels now carry source location information for better debugging.
+- Server components have removed binding slots, with client components in slots replacing them for client-side behavior.
+- Related types, entries, position markers, and the `serverComponents` compiler option effect have been removed.
+
+## Our Commentary
+
+The SolidJS compiler RC brings some solid DX improvements with source location reporting. Pinpointing exactly where an issue originates in compiled code is always a win. The removal of binding slots in server components is a more substantial architectural shift. It feels like a simplification, pushing towards a clearer separation of client and server concerns. I'm curious to see how this impacts existing server component patterns.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fcompiler%402.0.0-rc.16]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SolidJS Diagnostics 2.0 RC.16: Agent Skills & Protocol Refinements]]></title>
+        <id>https://digestweb.dev/articles/2026-10-20/solidjs-diagnostics-2-0-rc-16-agent-skills</id>
+        <link href="https://digestweb.dev/articles/2026-10-20/solidjs-diagnostics-2-0-rc-16-agent-skills"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/caa540adb32c1218a460091d45906d586c2e40428a7225c9c39558a061573191/solidjs/solid/releases/tag/%40solidjs/diagnostics%402.0.0-rc.16" type="image/16"/>
+        <updated>2026-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[SolidJS diagnostics now ships with 'agent skills' for AI coding assistants and refines its protocol for better debugging insights.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The diagnostics protocol has been updated, moving holds and feedback entries to the `end` payload.
+- Captured findings now carry `loc` (source location) as a plain event field for improved debugging.
+- The Solid 2.0 primer and cheatsheet are now shipped as 'agent skills' for AI coding assistants.
+- Every shipped skill includes required name and description frontmatter for skill registries.
+- The `tanstack-intent` keyword is added to skills for better discovery in `node_modules`.
+
+## Our Commentary
+
+This SolidJS diagnostics RC has a fascinating detail: shipping Solid 2.0 primer and cheatsheet as 'agent skills.' We're seeing more and more frameworks think about how AI coding assistants interact with their ecosystems. This is a smart move, making it easier for agents to understand and generate SolidJS code. It's a small step, but it hints at a future where AI is deeply integrated into our dev workflows, not just a separate tool.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fdiagnostics%402.0.0-rc.16]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SolidJS Signals 2.0 RC.16: Reactivity & Error Handling Fixes]]></title>
+        <id>https://digestweb.dev/articles/2026-10-20/solidjs-signals-2-0-rc-16-reactivity-fixes</id>
+        <link href="https://digestweb.dev/articles/2026-10-20/solidjs-signals-2-0-rc-16-reactivity-fixes"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/9d25d9b8df79be37d6e6b9ef0ec844d4c98b35e026c40a2a3d21d4e09f38b32e/solidjs/solid/releases/tag/%40solidjs/signals%402.0.0-rc.16" type="image/16"/>
+        <updated>2026-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This SolidJS signals release candidate improves error handling for async operations and refines loading boundary behavior.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Synchronous throws from async iterators are now routed to the owning memo's error handling.
+- `StatusError` message formatting is now best-effort to prevent replacing original errors.
+- `Loading` boundary behavior is fixed, ensuring fallbacks are not prematurely shown.
+- Effects and memos catching `NotReadyError` from async derived stores now re-run when the store's flight lands.
+- Signal writes from `onCleanup` during transition landings no longer leave the transaction parked.
+- Writes are now allowed in cleanups during teardown, preventing reactivity halts in development.
+
+## Our Commentary
+
+More SolidJS 2.0 RC goodness, this time for signals. The fixes around async error handling and `Loading` boundaries are crucial for building robust applications. I've definitely run into tricky situations with async state, so seeing these kinds of stability improvements is reassuring. Allowing writes in cleanups during teardown also feels like a necessary correction for more predictable reactivity.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fsignals%402.0.0-rc.16]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SolidJS Web 2.0 RC.16: Async Renders & Enhanced Diagnostics]]></title>
+        <id>https://digestweb.dev/articles/2026-10-20/solidjs-web-2-0-rc-16-async-renders-diagnostics</id>
+        <link href="https://digestweb.dev/articles/2026-10-20/solidjs-web-2-0-rc-16-async-renders-diagnostics"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/0455585538830b2e9056651e31447749210e344ddddc1a000c8c97aaf776e60c/solidjs/solid/releases/tag/%40solidjs/web%402.0.0-rc.16" type="image/16"/>
+        <updated>2026-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The latest SolidJS web release candidate brings consistent async rendering behavior and improved diagnostic source location reporting.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Async-mode renders now produce consistent bytes regardless of source settlement order, improving ETag matching.
+- `data-*` attributes now type-check correctly in props objects, not just JSX.
+- `effect` and `insert` options now include `loc` for better diagnostic reporting at the source site.
+- Internal `scriptNonce` and `styleNonce` exports have been removed from the server build.
+- Fixes address issues with links inside nested slot regions and streaming document tier writes.
+
+## Our Commentary
+
+Another SolidJS 2.0 release candidate is out, and it's a collection of solid, if not flashy, improvements. I'm particularly interested in the async render consistency; that kind of determinism is a huge win for debugging and reliability. The enhanced diagnostic `loc` reporting is also a welcome quality-of-life improvement for developers. It's all about those small, steady steps towards a stable 2.0.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fweb%402.0.0-rc.16]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TorchTPU Integrates into TorchTitan for Optimized TPU Training]]></title>
+        <id>https://digestweb.dev/articles/2026-10-20/torchtpu-torchtitan-optimized-tpu-training</id>
+        <link href="https://digestweb.dev/articles/2026-10-20/torchtpu-torchtitan-optimized-tpu-training"/>
+        <link rel="enclosure" href="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Torch_Titan_Header_Image.2e16d0ba.fill-1200x600.jpg" type="image/jpg"/>
+        <updated>2026-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TorchTPU now integrates natively into PyTorch, and TorchTitan enhances it with production-grade scaling primitives for Google Cloud TPUs.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- TorchTPU integrates a native `torch.device("tpu")` backend directly into PyTorch.
+- This allows training large-scale models on Google Cloud TPUs without rewriting code in JAX.
+- The TorchTitan TPU fork adds production-grade scaling primitives like SimpleFSDP and Graph Trainer.
+- Custom Pallas kernels achieve high Model Flops Utilization (MFU) across various architectures.
+- Developers can leverage optimization playbooks and Hugging Face modeling backend for efficient TPU workloads.
+
+## Our Commentary
+
+Integrating TorchTPU directly into PyTorch and then supercharging it with TorchTitan's optimizations for Google Cloud TPUs is a powerful combination. Training large models is a beast, and anything that makes TPUs more accessible and efficient for PyTorch users is a win. It's all about getting those high MFUs. This feels like a significant step towards making large-scale AI training more streamlined and less painful.
+
+Original Link: https://developers.googleblog.com/integrating-torchtpu-into-torchtitan-and-optimizing-models-for-tpu/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TypeScript 7.1 Beta: Import Attributes in Ambient Modules]]></title>
+        <id>https://digestweb.dev/articles/2026-10-20/typescript-7-1-beta-import-attributes</id>
+        <link href="https://digestweb.dev/articles/2026-10-20/typescript-7-1-beta-import-attributes"/>
+        <link rel="enclosure" href="https://devblogs.microsoft.com/typescript/wp-content/uploads/sites/11/2026/10/ts7-1-beta-1.png" type="image/png"/>
+        <updated>2026-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TypeScript 7.1 Beta introduces support for Import Attributes within ambient modules, enhancing module metadata handling.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The beta release of TypeScript 7.1 is now available for testing.
+- Key new feature is support for Import Attributes in Ambient Modules.
+- Import attributes provide metadata to instruct runtimes and bundlers on module interpretation.
+- Developers can install the beta using `npm install -D typescript@beta`.
+
+## Our Commentary
+
+TypeScript 7.1 Beta is here, and the big news is Import Attributes. This is a Stage 3 TC39 proposal, so seeing TypeScript jump on it early is great. It's a feature that will give bundlers and runtimes more explicit hints about how to handle imports, which can only lead to more robust and optimized builds. I'm always happy when TypeScript stays ahead of the curve on web platform features.
+
+Original Link: https://devblogs.microsoft.com/typescript/announcing-typescript-7-1-beta/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VLC Redesign Concept: A Look at 25 Years Later]]></title>
+        <id>https://digestweb.dev/articles/2026-10-20/vlc-redesign-concept-25-years-later</id>
+        <link href="https://digestweb.dev/articles/2026-10-20/vlc-redesign-concept-25-years-later"/>
+        <link rel="enclosure" href="https://blog.master.dev/wp-json/social-image-generator/v1/image/11492" type="image//wp-json/social-image-generator/v1/image/11492"/>
+        <updated>2026-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Frontend Masters discusses a fan-made redesign concept for VLC player, highlighting the human effort behind good design.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article reviews a fan-made redesign concept for the VLC media player.
+- It emphasizes the significant human brainpower required for effective design.
+- The redesign, though unofficial, is presented as an exemplary design effort.
+- The discussion touches on the importance of thoughtful design in user experience.
+
+## Our Commentary
+
+A fan redesign of VLC after 25 years? That's a fun thought experiment. It's a good reminder that even with all our AI tools, genuine human creativity and empathy are still at the core of good design. I mean, VLC is iconic, but its UI definitely shows its age. It's a nice piece on the value of human-centered design, even if it's not directly about new tech.
+
+Original Link: https://blog.master.dev/i-redesigned-vlc-after-25-years/]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[create-vite 9.3.0: TypeScript v7 Support and Minor Enhancements]]></title>
         <id>https://digestweb.dev/articles/2026-10-19/create-vite-9-3-0-typescript-v7-support-minor-enhancements</id>
@@ -34,6 +560,30 @@
 This is a small but welcome update for `create-vite`. We appreciate the continued refinement of the scaffolding experience. Using TypeScript v7 by default is a good move, keeping new projects on the latest stable. It's the little things that make a difference in developer experience, right?
 
 Original Link: https://github.com/vitejs/vite/releases/tag/create-vite%409.3.0]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My Obituary for Programming: Reflecting on AI's Impact]]></title>
+        <id>https://digestweb.dev/articles/2026-10-19/obituary-for-programming-ai-impact</id>
+        <link href="https://digestweb.dev/articles/2026-10-19/obituary-for-programming-ai-impact"/>
+        <link rel="enclosure" href="https://picsum.photos/id/592/800/450" type="image//id/592/800/450"/>
+        <updated>2026-10-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison offers a poignant reflection on how AI coding agents are changing the nature of programming and the enjoyment derived from it.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison reflects on the changing nature of programming due to AI coding agents.
+- He quotes Jeremy Scheff on the loss for programmers who enjoyed solving 'tricky little logic puzzles.'
+- The article contrasts the experience of puzzle-solving programmers with those who focus on building systems.
+- It explores the real impact of LLMs on the enjoyment and definition of a programming career.
+- The piece serves as a commentary on the evolving developer experience in the AI era.
+
+## Our Commentary
+
+Simon Willison's 'Obituary for Programming' really hit me. The idea that AI is taking away the 'tricky little logic puzzles' that made programming so enjoyable for many of us is a tough pill to swallow. I've always loved the problem-solving aspect, and if agents are just churning out the solutions, what's left? It's a half-formed thought, but there's something unsettling about the potential loss of that intellectual challenge. We're gaining efficiency, but at what cost to the craft?
+
+Original Link: https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[The AI Paradox: Fear, Value, and the Changing Face of Software Development]]></title>
