@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Thu, 22 Oct 2026 05:47:10 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 22 Oct 2026 12:49:20 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,106 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Ensemble Forecasting with IBM Granite Time-Series Models]]></title>
+            <link>https://digestweb.dev/articles/2026-10-22/ibm-granite-time-series-ensemble-forecasting</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-22/ibm-granite-time-series-ensemble-forecasting</guid>
+            <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This article explores ensemble forecasting techniques using IBM Granite time-series models, focusing on their application in predictive analytics.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article discusses ensemble forecasting methods.
+- It specifically applies these methods to IBM Granite time-series models.
+- The focus is on improving predictive analytics for time-series data.
+
+## Our Commentary
+
+Time-series forecasting is a fascinating niche in AI. While not directly web dev, understanding how these models are being applied, especially with ensemble techniques, is always good for keeping a pulse on the broader AI landscape. It's a reminder that AI isn't just about chatbots.
+
+Original Link: https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1]]></content:encoded>
+            <enclosure url="https://cdn-uploads.huggingface.co/production/uploads/6806091ee92bd22fd8ce9719/P6P8ZzHR8yL7GOOO4hQOg.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[SolidJS 2.0 RC.17: Live Server Functions, Rich Arguments, and Streaming]]></title>
+            <link>https://digestweb.dev/articles/2026-10-22/solidjs-2-rc17-live-server-functions-rich-arguments</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-22/solidjs-2-rc17-live-server-functions-rich-arguments</guid>
+            <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This release candidate for SolidJS 2.0 introduces experimental live server functions, support for files and blobs in server function arguments, and improved `renderToStream` error reporting.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Experimental `broadcast(fn)` enables live server functions that share a single render across multiple viewers.
+- `live(fn)` now implicitly uses GET requests, optimizing client-side bundles.
+- Server functions can now accept files and blobs as arguments using `enableRichArguments()`.
+- `renderToStream` now reports serialization failures through the server error hook.
+- Live server component slot records are now committed in a single write, preventing inconsistent states.
+
+## Our Commentary
+
+This is a meaty RC. The `broadcast(fn)` feature for live server functions sounds genuinely innovative; I'm trying to wrap my head around the implications for real-time data. It feels like a powerful abstraction for shared state. And rich arguments for server functions? That's a huge quality-of-life improvement. We've all wrestled with file uploads. This is a solid step towards Solid 2.0.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fweb%402.0.0-rc.17]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/0526fc6b7ad536e0e43726101cefb88e8629d1dcd978c0f8e95e5faaaa7af30a/solidjs/solid/releases/tag/%40solidjs/web%402.0.0-rc.17" length="0" type="image/17"/>
+        </item>
+        <item>
+            <title><![CDATA[SolidJS Compiler 2.0 RC.17: Stricter Syntax and Dev Warnings]]></title>
+            <link>https://digestweb.dev/articles/2026-10-22/solidjs-compiler-2-rc17-syntax-warnings</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-22/solidjs-compiler-2-rc17-syntax-warnings</guid>
+            <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This SolidJS compiler release candidate introduces compile-time errors for deprecated Solid 1.x attribute forms and adds development warnings for uncommitted input overwrites.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Solid 1.x attribute forms like `on:`, `attr:`, and `classList` now trigger compile errors on native elements.
+- The compiler provides specific 2.0 replacements for deprecated attribute forms.
+- Dev builds now warn about `UNCOMMITTED_INPUT_OVERWRITTEN` when DOM property bindings overwrite user edits.
+- These checks run at compile time and add no runtime code.
+
+## Our Commentary
+
+Breaking changes are never fun, but enforcing the new 2.0 attribute forms at compile time is the right move. It's a clear signal for migration. The `UNCOMMITTED_INPUT_OVERWRITTEN` warning is also a fantastic addition for developer experience; I've seen that bug sneak into apps more times than I care to admit.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fcompiler%402.0.0-rc.17]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/d266c6540af749abe9cf8b712d37427eb80bbe273545784067a3b6db67198460/solidjs/solid/releases/tag/%40solidjs/compiler%402.0.0-rc.17" length="0" type="image/17"/>
+        </item>
+        <item>
+            <title><![CDATA[SolidJS Core 2.0 RC.17: Reactive System Stability and Context Clarity]]></title>
+            <link>https://digestweb.dev/articles/2026-10-22/solidjs-core-2-rc17-stability-context</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-22/solidjs-core-2-rc17-stability-context</guid>
+            <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The core `solid-js` package RC.17 enhances reactive system stability, clarifies context behavior, and updates documentation for better developer understanding.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Cleanup functions that throw errors no longer halt the entire teardown process.
+- `ContextNotFoundError` messages are now more explicit, guiding developers on `undefined` vs `null`.
+- Documentation updates clarify `createDeferred` usage and effect re-run behavior.
+- The migration guide notes when `from()` async generator cleanups run.
+
+## Our Commentary
+
+This core update feels like a lot of polish. Making the reactive system more robust against errors is always welcome. The context clarity is a big one for new users, and honestly, for me too sometimes. It's the little things that make a framework feel solid.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/solid-js%402.0.0-rc.17]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/4699974e88cebfaae0732e03954a3ac08bf5ba8d9cff15aada5aca6e6f36f919/solidjs/solid/releases/tag/solid-js%402.0.0-rc.17" length="0" type="image/17"/>
+        </item>
+        <item>
+            <title><![CDATA[SolidJS Signals 2.0 RC.17: Enhanced Error Handling and DX]]></title>
+            <link>https://digestweb.dev/articles/2026-10-22/solidjs-signals-2-rc17-error-handling-dx</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-22/solidjs-signals-2-rc17-error-handling-dx</guid>
+            <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The latest SolidJS Signals release candidate improves cleanup error handling, provides clearer `ContextNotFoundError` messages, and refines fallback behavior in `mapArray`.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Cleanup functions that throw errors no longer abort the entire teardown process.
+- `ContextNotFoundError` messages are now more descriptive, guiding developers to use `null` for optional contexts.
+- `mapArray` and `repeat` now retain successful falsy fallbacks when input remains empty.
+- Dev messages for `REACTIVITY_HALTED` now include the owner path of the computation that threw.
+
+## Our Commentary
+
+Good to see the core reactivity system getting these stability and DX bumps. The improved error messages for context are a small but mighty win; I've definitely been tripped up by `undefined` vs `null` in contexts before. And making cleanups more resilient to errors? That's just good engineering.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fsignals%402.0.0-rc.17]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/a4c8a81a3c6d650bbe5ed824af634327b9add72bbe4f1b4bcf1e10a964862b73/solidjs/solid/releases/tag/%40solidjs/signals%402.0.0-rc.17" length="0" type="image/17"/>
+        </item>
         <item>
             <title><![CDATA[AI Agents Uncover Biological Insights from Brain Cell Data]]></title>
             <link>https://digestweb.dev/articles/2026-10-21/ai-agents-biological-data-brain-cells</link>
