@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-10-22T12:49:20.825Z</updated>
+    <updated>2026-10-23T05:45:44.542Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,161 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Anthropic Donates Agent Skills to Agentic AI Foundation]]></title>
+        <id>https://digestweb.dev/articles/2026-10-22/anthropic-donates-agent-skills-agentic-ai-foundation</id>
+        <link href="https://digestweb.dev/articles/2026-10-22/anthropic-donates-agent-skills-agentic-ai-foundation"/>
+        <link rel="enclosure" href="https://picsum.photos/id/82/800/450" type="image//id/82/800/450"/>
+        <updated>2026-10-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Anthropic has donated its Agent Skills standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, aiming for open, community-driven, and vendor-neutral agent development. This follows their earlier donation of the Model Context Protocol.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Anthropic donated its Agent Skills standard to the Agentic AI Foundation (AAIF).
+- The AAIF, co-founded by Anthropic, Block, and OpenAI, is under the Linux Foundation.
+- This move aims to ensure Agent Skills remain open, community-driven, and vendor-neutral.
+- It follows Anthropic's previous donation of the Model Context Protocol (MCP) to the AAIF.
+- Simon Willison had predicted this move back in December.
+
+## Our Commentary
+
+This is a smart move by Anthropic. Open standards are absolutely crucial for the healthy evolution of the agentic AI ecosystem. I'm glad to see the AAIF becoming a central hub for these foundational specifications. Simon Willison's prediction coming true just adds a nice touch to the story. It feels like the industry is slowly, but surely, moving towards more interoperable and less walled-garden AI.
+
+Original Link: https://simonwillison.net/2026/Oct/22/donating-agent-skills/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Architecting Governed, Self-Evolving AI Agents on Google Cloud]]></title>
+        <id>https://digestweb.dev/articles/2026-10-22/architecting-governed-self-evolving-ai-agents-google-cloud</id>
+        <link href="https://digestweb.dev/articles/2026-10-22/architecting-governed-self-evolving-ai-agents-google-cloud"/>
+        <link rel="enclosure" href="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_g9d0nag9d0.2e16d0ba.fill-1200x600.jpg" type="image/jpg"/>
+        <updated>2026-10-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Google details Project Chrysalis, showcasing how to build governed, self-evolving AI agents on Google Cloud using Gemini Enterprise Agent Platform. The architecture emphasizes a four-gate defense-in-depth security stack for remediating production outages in seconds.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Project Chrysalis demonstrates building governed, self-evolving AI agents on Google Cloud.
+- It leverages Gemini Enterprise Agent Platform and Agent Development Kit (ADK).
+- A four-gate defense-in-depth security stack is central to the architecture.
+- These agents are designed to remediate live production outages in 1.8 seconds.
+- The architecture integrates BigQuery, Cloud KMS, Binary Authorization, and OPA.
+
+## Our Commentary
+
+"Governed, self-evolving AI agents" that fix production outages in 1.8 seconds? That's a bold claim, and if true, it's a paradigm shift for SRE. The security stack is crucial here; the idea of autonomous agents making changes in production is both exciting and terrifying. I'm genuinely curious about the failure modes and how "governed" they truly are. This feels like a glimpse into a very near future, and I'm not sure I'm ready for it.
+
+Original Link: https://developers.googleblog.com/architecting-governed-self-evolving-ai-agents-on-gemini-agent-platform/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Armin Ronacher on AI and Software Quality]]></title>
+        <id>https://digestweb.dev/articles/2026-10-22/armin-ronacher-ai-software-quality</id>
+        <link href="https://digestweb.dev/articles/2026-10-22/armin-ronacher-ai-software-quality"/>
+        <link rel="enclosure" href="https://picsum.photos/id/900/800/450" type="image//id/900/800/450"/>
+        <updated>2026-10-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison shares a poignant quote from Armin Ronacher, reflecting on the current state of software development and the potential consequences of past practices in the age of AI.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Armin Ronacher suggests that current AI challenges are a "punishment" for past bad software practices.
+- The quote implies a connection between historical software quality and present AI complexities.
+- It prompts reflection on the long-term impact of development decisions.
+- Simon Willison highlights this perspective on his blog.
+
+## Our Commentary
+
+Armin Ronacher always has a way of cutting right to the chase. "We built so much bad software over the last 30 years, and now the universe is punishing us for our sins." That hits hard. It's a stark reminder that AI isn't a magic bullet; it inherits the messiness of the data and systems it interacts with. I genuinely don't know how to feel about the idea of AI amplifying our past mistakes, but it's a thought that sticks with me.
+
+Original Link: https://simonwillison.net/2026/Oct/22/armin-ronacher/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bun v1.4.4: Faster Formatting, Checks, Installs, and SQL Performance]]></title>
+        <id>https://digestweb.dev/articles/2026-10-22/bun-v1-4-4-faster-formatting-checks-installs-sql</id>
+        <link href="https://digestweb.dev/articles/2026-10-22/bun-v1-4-4-faster-formatting-checks-installs-sql"/>
+        <link rel="enclosure" href="https://bun.com/og/blog/bun-v1.4.4.png" type="image/png"/>
+        <updated>2026-10-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Bun's latest release, v1.4.4, delivers substantial performance boosts for `bun fmt`, `bun check`, and `bun install`. It also introduces new features for `Bun.SQL` and `Bun.Glob`, alongside numerous bug fixes.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Bun v1.4.4 fixes 271 issues and addresses 544 community upvotes.
+- `bun fmt` is now 3x to 6x faster than `oxfmt`.
+- `bun check` sees 1.4x to 7.8x speed improvements on large projects.
+- `bun install` now supports Yarn Berry lockfiles and is up to 3.2x faster for hoisted installs from a warm cache.
+- `Bun.SQL` uses up to 48% less CPU per query and gains new features like `query.cancel()` and user-defined functions.
+- WebSocket handling in `Bun.serve` is rewritten to behave like npm's `ws` on Node.js.
+- JavaScriptCore upgrade brings 54x faster `toLocaleString` and faster `Headers` iteration.
+- The dev server features a redesigned error overlay.
+
+## Our Commentary
+
+Bun keeps pushing. The sheer volume of fixes and performance gains in a minor release is wild. I'm particularly interested in the `bun fmt` speedup; that's a daily driver for many. The `Bun.SQL` improvements are also a big deal for database-heavy applications. It feels like they're just relentlessly chipping away at every possible bottleneck. We're seeing a pattern here, and it's impressive.
+
+Original Link: https://bun.com/blog/bun-v1.4.4]]></content>
+        <author>
+            <name>Jarred Sumner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DeepMind Maps World's Forest Types Beyond Tree Cover]]></title>
+        <id>https://digestweb.dev/articles/2026-10-22/deepmind-maps-worlds-forest-types</id>
+        <link href="https://digestweb.dev/articles/2026-10-22/deepmind-maps-worlds-forest-types"/>
+        <link rel="enclosure" href="https://picsum.photos/id/693/800/450" type="image//id/693/800/450"/>
+        <updated>2026-10-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Google DeepMind has developed a global map categorizing every 10-meter patch of land into distinct forest types, moving beyond simple tree cover. This advanced mapping provides a more nuanced understanding of global ecosystems.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Google DeepMind created a global map categorizing forest types.
+- The map details every 10-meter patch of land on Earth.
+- It moves beyond traditional tree cover mapping to distinct forest classifications.
+- This provides a more granular and nuanced understanding of global ecosystems.
+
+## Our Commentary
+
+This is a fantastic application of AI for environmental science. Moving beyond just "tree cover" to actual _types_ of forests is a huge leap for conservation and climate research. It's the kind of detailed, actionable data that can genuinely inform policy and intervention. I love seeing AI used for these kinds of large-scale, positive impact projects.
+
+Original Link: https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Devin AI Agent Fixes Critical Node.js & PHP Security Flaws]]></title>
+        <id>https://digestweb.dev/articles/2026-10-22/devin-ai-agent-fixes-node-php-security-flaws</id>
+        <link href="https://digestweb.dev/articles/2026-10-22/devin-ai-agent-fixes-node-php-security-flaws"/>
+        <link rel="enclosure" href="https://devin.ai/assets/images/security/vulnerability-fixes-og.jpg" type="image/jpg"/>
+        <updated>2026-10-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Devin AI, an autonomous coding agent, successfully identified and patched critical remote code execution vulnerabilities in Node.js and PHP. The remediation workflow is now open-source as a plugin for Devin and other coding agents.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Devin AI addressed critical remote code execution vulnerabilities in Node.js and PHP.
+- The AI agent identified affected repositories and patched deployments to fixed versions.
+- It tested changes before and after, opening focused pull requests.
+- The remediation workflow is now an open-source plugin for Devin and other coding agents.
+
+## Our Commentary
+
+This is a compelling demonstration of AI's potential in cybersecurity. An agent autonomously identifying, patching, and testing critical vulnerabilities is a huge step. The fact that they're open-sourcing the workflow as a plugin is even better. It makes me wonder how quickly these agents will become standard tools in every security team's arsenal. The implications for proactive security are massive.
+
+Original Link: https://devin.ai/blog/vulnerability-fixes-plugin]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Flint-interactive: AI Agents Create Interactive Data Visualizations]]></title>
+        <id>https://digestweb.dev/articles/2026-10-22/flint-interactive-ai-agents-create-data-visualizations</id>
+        <link href="https://digestweb.dev/articles/2026-10-22/flint-interactive-ai-agents-create-data-visualizations"/>
+        <link rel="enclosure" href="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/10/FlintInteractive-TWLIFB-1200x627-1.jpg" type="image/jpg"/>
+        <updated>2026-10-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft Research introduces Flint-interactive, a language designed to empower AI agents to create dynamic and interactive data visualizations. This allows users to explore data beyond initial views, filtering and highlighting content directly within charts.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Flint-interactive is a new language for AI agents to create interactive data visualizations.
+- It allows users to click, filter, highlight, and explore data beyond static views.
+- The language aims to enhance the sophistication of AI-generated visual content.
+- This research pushes towards more dynamic and user-driven AI outputs.
+
+## Our Commentary
+
+This is a smart move. AI-generated static charts are fine, but interactive ones are a whole different ballgame for data exploration. Giving agents a specific language for this feels like a necessary abstraction. I'm thinking about the potential for AI to generate entire interactive dashboards on the fly. That's a powerful capability, and it could significantly change how we interact with data.
+
+Original Link: https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ensemble Forecasting with IBM Granite Time-Series Models]]></title>
         <id>https://digestweb.dev/articles/2026-10-22/ibm-granite-time-series-ensemble-forecasting</id>
@@ -32,6 +187,148 @@
 Time-series forecasting is a fascinating niche in AI. While not directly web dev, understanding how these models are being applied, especially with ensemble techniques, is always good for keeping a pulse on the broader AI landscape. It's a reminder that AI isn't just about chatbots.
 
 Original Link: https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LLMs Enable Large-Scale Formal Software Verification]]></title>
+        <id>https://digestweb.dev/articles/2026-10-22/llms-enable-large-scale-formal-software-verification</id>
+        <link href="https://digestweb.dev/articles/2026-10-22/llms-enable-large-scale-formal-software-verification"/>
+        <link rel="enclosure" href="https://www-cdn.anthropic.com/images/4zrzovbb/website/80cf520cb540989c3643907f004b2514ec4d01f1-1200x630.jpg" type="image/jpg"/>
+        <updated>2026-10-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Anthropic research shows how LLMs, specifically Claude, can make formal software verification feasible for hundreds of real-world open-source libraries. This marks a significant step towards proving code security properties at scale.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Formal verification, traditionally limited to small codebases, is becoming scalable with AI models.
+- Anthropic used Claude to prove security properties in over one hundred open-source libraries.
+- The process was completed over a span of a few weeks, demonstrating efficiency.
+- This approach could significantly enhance software security by identifying bugs at a larger scale.
+
+## Our Commentary
+
+This is genuinely exciting. Formal verification has always felt like the holy grail of software security, but the manual effort was prohibitive. If LLMs can genuinely automate this at scale, it's a game-changer. I'm curious about the false positive rates and the depth of properties they can prove, but the potential here is immense. It's a tangible application of AI that could make our software stacks much safer.
+
+Original Link: https://www.anthropic.com/research/formal-verification]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Native Masonry Layouts Arrive with CSS `display: grid-lanes`]]></title>
+        <id>https://digestweb.dev/articles/2026-10-22/native-masonry-layouts-css-grid-lanes</id>
+        <link href="https://digestweb.dev/articles/2026-10-22/native-masonry-layouts-css-grid-lanes"/>
+        <link rel="enclosure" href="https://piccalil.b-cdn.net/api/og-image?slug=native-masonry-layouts-with-css-grid-lanes/" type="image//api/og-image"/>
+        <updated>2026-10-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[After years of debate, native masonry layouts are finally coming to CSS with `display: grid-lanes`. This article dives into the technical details, explaining why it took so long and how this new property works to create Pinterest-style layouts.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Native masonry layouts are now available in CSS with `display: grid-lanes`.
+- This feature has been a long-standing challenge and highly requested by developers.
+- It allows items to flow across rows, tightly packing into available vertical space.
+- The article explains the technical evolution and implementation of `grid-lanes`.
+- It moves beyond previous hacks and JavaScript libraries like Masonry.js.
+
+## Our Commentary
+
+Finally! Native masonry with `display: grid-lanes` is here. This has been one of those "will it ever happen?" CSS features, and I'm genuinely thrilled to see it land. We've all relied on JavaScript for too long to achieve this, and a native solution is a huge win for performance and simplicity. It's a testament to the CSS Working Group's persistence. I can't wait to start ripping out Masonry.js from old projects. This is a big one for the web platform.
+
+Original Link: https://piccalil.li/blog/native-masonry-layouts-with-css-grid-lanes/?ref=articles-rss-feed]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OlmoEarth v1.3: State-of-the-Art Geospatial Embeddings]]></title>
+        <id>https://digestweb.dev/articles/2026-10-22/olmoearth-v1-3-state-of-the-art-geospatial-embeddings</id>
+        <link href="https://digestweb.dev/articles/2026-10-22/olmoearth-v1-3-state-of-the-art-geospatial-embeddings"/>
+        <link rel="enclosure" href="https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/VEmSzlLjei8J3cUVNe7G6.png" type="image/png"/>
+        <updated>2026-10-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hugging Face announces OlmoEarth v1.3, a new version of their specialized AI model offering state-of-the-art embeddings for the entire planet. This release enhances capabilities for geospatial data analysis and applications.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OlmoEarth v1.3 provides state-of-the-art embeddings for global geospatial data.
+- This specialized AI model is designed for planet-wide applications.
+- It enhances capabilities for analyzing and understanding geographical information.
+- The release is significant for researchers and developers in geospatial AI.
+
+## Our Commentary
+
+Geospatial embeddings for the _entire planet_? That's a bold claim and a massive undertaking. While it's a niche area, the implications for environmental monitoring, urban planning, and even disaster response are huge. I'm always impressed by the specialized models that emerge from the broader AI landscape. It shows how AI is becoming a foundational layer for so many different scientific and practical domains.
+
+Original Link: https://huggingface.co/blog/allenai/olmoearth-v1-3]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Launches Decisions API for Responsive AI Applications]]></title>
+        <id>https://digestweb.dev/articles/2026-10-22/openai-launches-decisions-api-responsive-ai-apps</id>
+        <link href="https://digestweb.dev/articles/2026-10-22/openai-launches-decisions-api-responsive-ai-apps"/>
+        <link rel="enclosure" href="https://picsum.photos/id/424/800/450" type="image//id/424/800/450"/>
+        <updated>2026-10-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI introduces the Decisions API, a new offering designed to enable developers to build more responsive applications by providing fast, focused, and low-cost AI-driven decisions. This API aims to streamline real-time AI integration.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI's new Decisions API is designed for fast, focused, and low-cost AI decisions.
+- It aims to help developers build more responsive applications.
+- The API is optimized for real-time integration of AI capabilities.
+- This could simplify the process of embedding quick AI judgments into various applications.
+
+## Our Commentary
+
+A "Decisions API" from OpenAI? This is interesting. It sounds like they're trying to carve out a specific, high-performance niche for AI inference, distinct from general-purpose LLM calls. The focus on "fast, focused, low-cost" is exactly what many real-time applications need. I'm curious about the underlying models and how much control developers have over the "focus." This could be a quiet but impactful release.
+
+Original Link: https://openai.com/index/decisions-api]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Optimizing AI Agents: When to Consolidate Subagents]]></title>
+        <id>https://digestweb.dev/articles/2026-10-22/optimizing-ai-agents-consolidate-subagents</id>
+        <link href="https://digestweb.dev/articles/2026-10-22/optimizing-ai-agents-consolidate-subagents"/>
+        <link rel="enclosure" href="https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop/opengraph-image/og" type="image//resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop/opengraph-image/og"/>
+        <updated>2026-10-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article provides practical guidance on building AI agents with Claude Platform, suggesting that consolidating subagents into the main agent loop can improve quality, reduce costs, and lower latency. It details when and how to make this migration.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Using fewer subagents can improve AI agent quality, cost, and latency.
+- Progressively disclosed context and tools are preferred over numerous subagents.
+- The article provides guidance on when and how to migrate subagents into the main loop.
+- This optimization strategy is relevant for agents built on the Claude Platform.
+
+## Our Commentary
+
+This is the kind of practical advice we need as agentic AI becomes more prevalent. It's easy to over-engineer with subagents, and seeing a clear strategy for optimization is helpful. I appreciate the focus on cost and latency; those are real-world constraints that often get overlooked in the hype. It's a good reminder that simpler architectures can often be more effective.
+
+Original Link: https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Post-Training Agents with ThinkingBox: RL Rewards from Database Grading]]></title>
+        <id>https://digestweb.dev/articles/2026-10-22/post-training-agents-thinkingbox-rl-rewards</id>
+        <link href="https://digestweb.dev/articles/2026-10-22/post-training-agents-thinkingbox-rl-rewards"/>
+        <link rel="enclosure" href="https://cdn-uploads.huggingface.co/production/uploads/64b8491203124195cd795cad/oS8I8qx7iBS8EcNIXR3q9.png" type="image/png"/>
+        <updated>2026-10-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hugging Face explores a novel approach to post-training AI agents using ThinkingBox, where database grading is converted into Reinforcement Learning rewards. This research offers insights into advanced agent training methodologies.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article details a method for post-training agents using ThinkingBox.
+- Database grading is utilized to generate Reinforcement Learning (RL) rewards.
+- This approach aims to improve agent performance through targeted feedback.
+- It represents an advanced technique in AI agent training.
+
+## Our Commentary
+
+This is a fascinating dive into the mechanics of agent training. Using database grading as an RL reward signal is a clever way to provide structured feedback. It makes me think about how many other structured data sources could be leveraged for similar purposes. The complexity of training these agents is immense, and every new technique like this feels like a small step forward in making them more robust.
+
+Original Link: https://huggingface.co/blog/microsoft/thinkingbox-training]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Securing AI-Generated HTML Previews]]></title>
+        <id>https://digestweb.dev/articles/2026-10-22/securing-ai-generated-html-previews</id>
+        <link href="https://digestweb.dev/articles/2026-10-22/securing-ai-generated-html-previews"/>
+        <link rel="enclosure" href="https://blog.master.dev/wp-json/social-image-generator/v1/image/11466" type="image//wp-json/social-image-generator/v1/image/11466"/>
+        <updated>2026-10-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Frontend Masters explores the security risks of rendering AI-generated HTML in iframes, demonstrating how previews can read parent pages, escape frames, and exfiltrate data. It then outlines four layers of protection to mitigate these vulnerabilities.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Rendering AI-generated HTML in `srcdoc` iframes is not inherently safe.
+- The article demonstrates how such previews can read the parent page.
+- It shows methods for escaping the iframe and exfiltrating data.
+- Four layers of protection are detailed to close these security holes.
+- This is crucial for developers working with AI-generated content.
+
+## Our Commentary
+
+This is a _must-read_ for anyone dabbling in AI-generated UI. The assumption that `srcdoc` is a safe sandbox is a dangerous one, and this article lays out exactly why. I've seen so many projects just blindly render AI output, and the security implications are terrifying. It's a stark reminder that AI doesn't magically solve security; it often introduces new vectors. We need more content like this, focusing on the practical, messy realities.
+
+Original Link: https://blog.master.dev/building-an-isolated-preview-for-ai-generated-html/]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[SolidJS 2.0 RC.17: Live Server Functions, Rich Arguments, and Streaming]]></title>
