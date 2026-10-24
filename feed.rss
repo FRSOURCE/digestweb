@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Fri, 23 Oct 2026 05:45:44 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 24 Oct 2026 11:53:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,259 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Accordion Icons: Best Practices for UI/UX Design]]></title>
+            <link>https://digestweb.dev/articles/2026-10-23/accordion-icons-best-practices-ui-ux</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-23/accordion-icons-best-practices-ui-ux</guid>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This article from Smashing Magazine delves into the best practices for accordion icons, explaining why split menus are harmful and why the caret is often the safest choice. It offers practical advice for UI/UX design.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article examines best practices for accordion icons.
+- It advises against split menus due to potential harm to user experience.
+- Linking icons and text labels to different actions is discouraged.
+- The caret icon is identified as the safest and most intuitive choice.
+- The piece offers practical guidance for UI/UX designers.
+
+## Our Commentary
+
+Accordion icons might seem like a small detail, but good UX is all about these small details. We've all wrestled with inconsistent UI patterns, and this kind of practical guidance is always welcome. I appreciate the focus on why certain choices are "harmful" rather than just "less good."
+
+Original Link: https://smashingmagazine.com/2026/10/accordion-icons-which-work-best/]]></content:encoded>
+            <enclosure url="https://files.smashing.media/articles/how-name-things-choose-accordion-icons/accordion-icons-which-work-best.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[AI in UX: Faster Work, Mixed Feelings Among Practitioners]]></title>
+            <link>https://digestweb.dev/articles/2026-10-23/ai-in-ux-practitioner-feelings</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-23/ai-in-ux-practitioner-feelings</guid>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A new survey reveals that AI significantly speeds up nearly every UX task, yet practitioners have mixed feelings. Mandates, unreliable output, and inflated expectations often negate the time-saving benefits.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- AI tools are making UX practitioners' work faster.
+- Despite speed gains, most practitioners have lukewarm feelings about AI.
+- Mandates to use AI are a source of frustration.
+- Unreliable AI output remains a significant concern.
+- Inflated expectations for AI's capabilities often diminish perceived value.
+
+## Our Commentary
+
+This NNGroup report on AI in UX is exactly what we need: a dose of reality. It's not just about the tech; it's about the human experience of using it. "Mixed feelings" and "unreliable output" are sentiments I hear constantly. We're still figuring out how to integrate AI effectively without adding more friction than it removes.
+
+Original Link: https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication]]></content:encoded>
+            <enclosure url="https://media.nngroup.com/media/articles/opengraph_images/AI_in_UX__Work_Is_Faster_But_Practitioners_Have_Mixed_Feelings.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Kimi K3.1 Pro: New Frontier Model Challenges GPT-6 and Claude Opus]]></title>
+            <link>https://digestweb.dev/articles/2026-10-23/kimi-k3-1-pro-frontier-model-open-weights</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-23/kimi-k3-1-pro-frontier-model-open-weights</guid>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Moonshot introduces Kimi K3.1 Pro, a new frontier AI model that rivals GPT-6 Astra and Claude Opus 5.5 in benchmarks. Full model weights are promised for release by November 4, 2026, marking a significant moment for open-source AI.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Moonshot has released Kimi K3.1 Pro, a new frontier AI model.
+- It shows benchmark performance comparable to GPT-6 Astra and Claude Opus 5.5.
+- Full model weights are slated for release by November 4, 2026.
+- Pricing is competitive, matching GPT-6.1 Sol.
+- This is the first time a soon-to-be open-weight model has scored so highly against frontier models.
+
+## Our Commentary
+
+Kimi K3.1 Pro is a bombshell. A frontier model, competitive with the best, _and_ soon-to-be open-weight? This is exactly what we need to push the open-source AI ecosystem forward. I'm genuinely excited to see what developers build with this once the weights drop. This could really shake things up.
+
+Original Link: https://simonwillison.net/2026/Oct/23/kimi-k31-pro/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://static.simonwillison.net/static/2026/kimi-k3.1-card.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[LitPivot: AI Tool for Dynamic Research Idea Contextualization]]></title>
+            <link>https://digestweb.dev/articles/2026-10-23/litpivot-ai-research-idea-contextualization</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-23/litpivot-ai-research-idea-contextualization</guid>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[AllenAI introduces LitPivot, a new tool designed to help researchers develop ideas by dynamically contextualizing them within the existing scientific literature landscape. It aims to streamline the research process.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- LitPivot is a new tool from AllenAI.
+- It aids in developing research ideas.
+- The tool provides dynamic contextualization within scientific literature.
+- It aims to streamline the research process for academics.
+- The project is hosted on the Hugging Face blog.
+
+## Our Commentary
+
+Tools like LitPivot are fascinating. The idea of AI helping researchers navigate the ever-growing sea of literature is incredibly appealing. I wonder how much it truly accelerates discovery versus just organizing existing knowledge.
+
+Original Link: https://huggingface.co/blog/allenai/litpivot]]></content:encoded>
+            <enclosure url="https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/7F9q8BZloWigwe7m5YGLG.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Scales ChatGPT Storage to 1 Billion Users (Part II)]]></title>
+            <link>https://digestweb.dev/articles/2026-10-23/openai-scaling-chatgpt-storage-part-2</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-23/openai-scaling-chatgpt-storage-part-2</guid>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI details how they scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to achieve 12x faster reads for ChatGPT's billion-user base. This is the second part of their scaling journey.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI scaled Habitat to support over 1 billion ChatGPT users.
+- Key strategies included reliable multi-tenancy and global caching.
+- Azure Cosmos DB was a crucial component in their architecture.
+- These efforts resulted in 12x faster reads for ChatGPT.
+- This article is the second part of their storage scaling series.
+
+## Our Commentary
+
+Scaling to a billion users is no small feat. While this is deep infrastructure, it's a fascinating look behind the curtain at how OpenAI manages the sheer load. It makes me wonder about the hidden costs and complexities of running these massive AI services.
+
+Original Link: https://openai.com/index/scaling-storage-one-billion-users-part-two]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/591/800/450" length="0" type="image//id/591/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Details Security for Frontier Model Training Environments]]></title>
+            <link>https://digestweb.dev/articles/2026-10-23/openai-securing-frontier-model-training</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-23/openai-securing-frontier-model-training</guid>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI outlines how they strengthened containment for frontier model training and evaluation. This includes implementing offline environments and high-compute red-teaming to enhance security.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI is strengthening security for frontier model training.
+- Measures include enhanced containment strategies.
+- Offline training environments are being utilized.
+- High-compute red-teaming is part of their evaluation process.
+- The goal is to mitigate risks associated with advanced AI development.
+
+## Our Commentary
+
+Security for frontier models is a conversation we _need_ to be having. It's good to see OpenAI being transparent about their efforts, even if it's just a high-level overview. The idea of "offline environments" for training is particularly interesting; it feels like a necessary step for models with potentially unpredictable capabilities.
+
+Original Link: https://openai.com/index/securing-our-frontier-model-training-environment]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/16/800/450" length="0" type="image//id/16/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Quick Study: AI-Generated Canvas Painting Tool with Claude Opus]]></title>
+            <link>https://digestweb.dev/articles/2026-10-23/quick-study-ai-canvas-painting-tool</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-23/quick-study-ai-canvas-painting-tool</guid>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison shares an experiment using Claude Opus 5.5 to rapidly generate a canvas painting tool. The tool simulates paintbrush strokes on a photo using Sobel edge detection and a canvas element.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison experimented with Claude Opus 5.5.
+- The AI generated a tool that paints photos onto a canvas element.
+- It uses simulated paintbrush strokes and Sobel edge detection.
+- No external libraries were used beyond Google Fonts.
+- This builds on previous experiments with AI-simulated art.
+
+## Our Commentary
+
+Simon Willison's experiments are always a delight. Getting an AI to generate a functional canvas painting tool with just a prompt is pretty wild. It makes me think about how much of our front-end boilerplate could eventually be AI-generated.
+
+Original Link: https://simonwillison.net/2026/Oct/23/quick-study-painter/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://static.simonwillison.net/static/2026/heron-oil.webp" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[SolidJS 2.0.0-rc.18: Core Framework Refinements and DX Improvements]]></title>
+            <link>https://digestweb.dev/articles/2026-10-23/solidjs-2-rc-18-core-framework-refinements-dx-improvements</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-23/solidjs-2-rc-18-core-framework-refinements-dx-improvements</guid>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The latest release candidate for SolidJS 2.0.0 brings core framework refinements, including better handling of async iterables and significant developer experience improvements. It also incorporates performance boosts from updated serialization.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- `from(source)` now converts callback subscriptions, Observables, or AsyncIterables into AsyncIterables for computations.
+- Developer experience improved by fixing `STRICT_READ_UNTRACKED` and `PRIMITIVE_IN_EFFECT_CALLBACK` logs in dev mode.
+- Live updates for rows with stable markup now send text and attribute edits, not full HTML.
+- `seroval` and `seroval-plugins` updated to 1.7.0, boosting hydration and JSON write performance by 20-35%.
+- DOM docs and cheatsheet clarify `ref-timing` note regarding `el.ownerDocument.defaultView`.
+
+## Our Commentary
+
+SolidJS 2.0.0-rc.18 is shaping up nicely. The `from(source)` enhancements for async iterables feel like a natural evolution for reactive data streams. I'm particularly happy about the dev-mode fixes; those strict read warnings could be a bit noisy. The `seroval` performance bump is just icing on the cake.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/solid-js%402.0.0-rc.18]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/cd8fb332f466a972c76307b8f62ce63d0eb7d4afda9136543114bf801ddb0f9e/solidjs/solid/releases/tag/solid-js%402.0.0-rc.18" length="0" type="image/18"/>
+        </item>
+        <item>
+            <title><![CDATA[SolidJS 2.0.0-rc.18: Web Package Enhancements]]></title>
+            <link>https://digestweb.dev/articles/2026-10-23/solidjs-2-rc-18-web-package-enhancements</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-23/solidjs-2-rc-18-web-package-enhancements</guid>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This release candidate for SolidJS 2.0.0's web package brings improvements to server functions, live updates, and serialization performance. It refines how data is broadcast and how UI changes are delivered.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- `broadcast(fn)` now shares data sources, improving efficiency for async iterable returns.
+- Live updates for rows with stable markup now send text and attribute edits instead of full HTML.
+- `seroval` and `seroval-plugins` updated to 1.7.0, boosting hydration and JSON write performance by 20-35%.
+- A `buildId` option added to `configureServerFunctionsServer` prevents function skew across deploys.
+- `renderToStream` now completes when the serializer encounters an unhandleable value.
+
+## Our Commentary
+
+SolidJS continues to push the boundaries of fine-grained reactivity and server-side capabilities. The `buildId` for server functions is a smart move to prevent subtle bugs from mismatched client/server code. We're also seeing a focus on optimizing the wire protocol for live updates, which is always a good sign for performance.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fweb%402.0.0-rc.18]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/76384d1ff53f0750087e99502b41d8e6d2a5978d448d3689bbcfa93d12dded32/solidjs/solid/releases/tag/%40solidjs/web%402.0.0-rc.18" length="0" type="image/18"/>
+        </item>
+        <item>
+            <title><![CDATA[TanStack AI 1.0 Released: Stable Core APIs and Agent Harness]]></title>
+            <link>https://digestweb.dev/articles/2026-10-23/tanstack-ai-1-0-stable-core-apis-agent-harness</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-23/tanstack-ai-1-0-stable-core-apis-agent-harness</guid>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[TanStack AI reaches its 1.0 stable release, offering core APIs for integrating AI into applications. The release also includes rewritten documentation and an experimental agent harness.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- TanStack AI has reached its 1.0 stable release.
+- The core APIs are now stable for production use.
+- Documentation has been completely rewritten for clarity.
+- An experimental agent harness is included for advanced AI workflows.
+- The library emphasizes a "Your AI, Your Way" philosophy, promoting flexibility.
+
+## Our Commentary
+
+TanStack AI hitting 1.0 is a big deal. We've seen a lot of AI tooling, but TanStack's approach to framework-agnostic utilities is always compelling. The experimental agent harness is where my curiosity really piques; that could unlock some powerful new patterns for web applications.
+
+Original Link: https://tanstack.com/blog/tanstack-ai-1-0]]></content:encoded>
+            <enclosure url="https://media.tanstack.com/blog/tanstack-ai-1-0/v9-title-poster.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[The Vertical Codebase: Organizing Projects by Conceptual Areas]]></title>
+            <link>https://digestweb.dev/articles/2026-10-23/vertical-codebase-project-organization</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-23/vertical-codebase-project-organization</guid>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dominik's "Vertical Codebase" concept proposes organizing projects by conceptual areas rather than technical layers. This extends component co-location to include all related hooks, types, and queries within a specific site section.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The "Vertical Codebase" proposes a new app architecture.
+- It extends component co-location to conceptual site areas.
+- All related code (hooks, types, queries) for a feature lives together.
+- This aims to improve project organization and developer experience.
+- The concept builds on the success of co-locating HTML/CSS/JS for components.
+
+## Our Commentary
+
+The "Vertical Codebase" idea resonates with me. We've seen the benefits of co-locating component logic; extending that to entire conceptual areas feels like a natural next step for larger applications. I'm curious how this scales in practice, but the principle is solid.
+
+Original Link: https://blog.master.dev/the-vertical-codebase/]]></content:encoded>
+            <enclosure url="https://blog.master.dev/wp-json/social-image-generator/v1/image/11536" length="0" type="image//wp-json/social-image-generator/v1/image/11536"/>
+        </item>
+        <item>
+            <title><![CDATA[WebKit Features for Safari 27.1 Released with iPhone Duo]]></title>
+            <link>https://digestweb.dev/articles/2026-10-23/webkit-features-safari-27-1-iphone-duo</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-23/webkit-features-safari-27-1-iphone-duo</guid>
+            <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Safari 27.1 arrives with the new iPhone Duo, bringing a new set of WebKit features and improvements to the web platform. Developers should review the changes for compatibility.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Safari 27.1 has been released alongside the new iPhone Duo.
+- The update includes various new WebKit features.
+- Developers should consult the full release notes for detailed changes.
+- This release continues WebKit's ongoing evolution of web standards support.
+
+## Our Commentary
+
+Another Safari release, another set of WebKit features. It's always a good idea to keep an eye on these, especially with new hardware like the iPhone Duo. We're constantly playing catch-up with browser updates, but that's just the web dev life, isn't it?
+
+Original Link: https://webkit.org/blog/18486/webkit-features-for-safari-27-1/]]></content:encoded>
+            <enclosure url="https://webkit.org/wp-content/uploads/image-3-2.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Anthropic Donates Agent Skills to Agentic AI Foundation]]></title>
             <link>https://digestweb.dev/articles/2026-10-22/anthropic-donates-agent-skills-agentic-ai-foundation</link>
