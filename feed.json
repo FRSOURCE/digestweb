@@ -11,6 +11,30 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-10-24/battledrones-v14-four-player-map-ai-multiplayer",
+            "content_html": "## Summary & Key Takeaways\n\n- Battledrones v14 introduces a new four-player map named \"Compass Rose.\"\n- Multiplayer mode now supports up to four human players via WebSockets.\n- AI (Claude Opus 5.5) assisted in generating the new map and modifying network code.\n- New robot team colors, purple and green, join the existing red and blue.\n- AI players fill any unused slots in four-player matches.\n\n## Our Commentary\n\nSimon Willison's Battledrones is always a fun read. It's cool to see Claude Opus 5.5 generating maps and even tweaking network code. This is a neat example of AI as a co-pilot for game development. I'm curious how much hand-holding the AI needed for the WebSocket changes. It makes me wonder about the future of solo dev.\n\nOriginal Link: https://simonwillison.net/2026/Oct/24/battledrones/",
+            "url": "https://digestweb.dev/articles/2026-10-24/battledrones-v14-four-player-map-ai-multiplayer",
+            "title": "Battledrones v14: Four-Player Map & AI-Assisted Multiplayer",
+            "summary": "Simon Willison updates Battledrones to v14, introducing a new four-player map, \"Compass Rose,\" and expanding multiplayer support, with AI assisting in development.",
+            "image": "https://raw.githubusercontent.com/simonw/battledrones/v14/progress-shots/v14/compass-rose.jpg",
+            "date_modified": "2026-10-24T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-24/building-reasoning-models-video-course",
+            "content_html": "## Summary & Key Takeaways\n\n- Offers over 11 hours of video content for building AI reasoning models.\n- Covers key topics including model evaluation and inference-time scaling.\n- Explores advanced techniques like reinforcement learning.\n- Includes practical applications of distillation for model optimization.\n- Utilizes Python and PyTorch for hands-on coding examples.\n\n## Our Commentary\n\nThis is a serious commitment. 11 hours of video on reasoning models? That's a deep dive. I appreciate the focus on building from the ground up; it's easy to get lost in the API layers. We're seeing more of these comprehensive resources emerge, which is a good sign for deeper understanding. I wonder how many people will actually finish it.\n\nOriginal Link: https://magazine.sebastianraschka.com/p/building-reasoning-models",
+            "url": "https://digestweb.dev/articles/2026-10-24/building-reasoning-models-video-course",
+            "title": "Building Reasoning Models: A Comprehensive Video Course",
+            "summary": "Dive deep into AI reasoning with over 11 hours of coding videos. Learn evaluation, inference-time scaling, reinforcement learning, and distillation using Python and PyTorch.",
+            "image": "https://substackcdn.com/image/fetch/$s_!1SoS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F519db120-1320-411b-adec-a88865345f2c_4083x2916.jpeg",
+            "date_modified": "2026-10-24T00:00:00.000Z",
+            "author": {
+                "name": "Sebastian Raschka"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-10-23/accordion-icons-best-practices-ui-ux",
             "content_html": "## Summary & Key Takeaways\n\n- The article examines best practices for accordion icons.\n- It advises against split menus due to potential harm to user experience.\n- Linking icons and text labels to different actions is discouraged.\n- The caret icon is identified as the safest and most intuitive choice.\n- The piece offers practical guidance for UI/UX designers.\n\n## Our Commentary\n\nAccordion icons might seem like a small detail, but good UX is all about these small details. We've all wrestled with inconsistent UI patterns, and this kind of practical guidance is always welcome. I appreciate the focus on why certain choices are \"harmful\" rather than just \"less good.\"\n\nOriginal Link: https://smashingmagazine.com/2026/10/accordion-icons-which-work-best/",
             "url": "https://digestweb.dev/articles/2026-10-23/accordion-icons-best-practices-ui-ux",

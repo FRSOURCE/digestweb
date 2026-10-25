@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Sat, 24 Oct 2026 11:53:30 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 25 Oct 2026 05:42:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,50 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Battledrones v14: Four-Player Map & AI-Assisted Multiplayer]]></title>
+            <link>https://digestweb.dev/articles/2026-10-24/battledrones-v14-four-player-map-ai-multiplayer</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-24/battledrones-v14-four-player-map-ai-multiplayer</guid>
+            <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison updates Battledrones to v14, introducing a new four-player map, "Compass Rose," and expanding multiplayer support, with AI assisting in development.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Battledrones v14 introduces a new four-player map named "Compass Rose."
+- Multiplayer mode now supports up to four human players via WebSockets.
+- AI (Claude Opus 5.5) assisted in generating the new map and modifying network code.
+- New robot team colors, purple and green, join the existing red and blue.
+- AI players fill any unused slots in four-player matches.
+
+## Our Commentary
+
+Simon Willison's Battledrones is always a fun read. It's cool to see Claude Opus 5.5 generating maps and even tweaking network code. This is a neat example of AI as a co-pilot for game development. I'm curious how much hand-holding the AI needed for the WebSocket changes. It makes me wonder about the future of solo dev.
+
+Original Link: https://simonwillison.net/2026/Oct/24/battledrones/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://raw.githubusercontent.com/simonw/battledrones/v14/progress-shots/v14/compass-rose.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Building Reasoning Models: A Comprehensive Video Course]]></title>
+            <link>https://digestweb.dev/articles/2026-10-24/building-reasoning-models-video-course</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-24/building-reasoning-models-video-course</guid>
+            <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dive deep into AI reasoning with over 11 hours of coding videos. Learn evaluation, inference-time scaling, reinforcement learning, and distillation using Python and PyTorch.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Offers over 11 hours of video content for building AI reasoning models.
+- Covers key topics including model evaluation and inference-time scaling.
+- Explores advanced techniques like reinforcement learning.
+- Includes practical applications of distillation for model optimization.
+- Utilizes Python and PyTorch for hands-on coding examples.
+
+## Our Commentary
+
+This is a serious commitment. 11 hours of video on reasoning models? That's a deep dive. I appreciate the focus on building from the ground up; it's easy to get lost in the API layers. We're seeing more of these comprehensive resources emerge, which is a good sign for deeper understanding. I wonder how many people will actually finish it.
+
+Original Link: https://magazine.sebastianraschka.com/p/building-reasoning-models]]></content:encoded>
+            <author>Sebastian Raschka</author>
+            <enclosure url="https://substackcdn.com/image/fetch/$s_!1SoS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F519db120-1320-411b-adec-a88865345f2c_4083x2916.jpeg" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Accordion Icons: Best Practices for UI/UX Design]]></title>
             <link>https://digestweb.dev/articles/2026-10-23/accordion-icons-best-practices-ui-ux</link>

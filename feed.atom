@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-10-24T11:53:30.007Z</updated>
+    <updated>2026-10-25T05:42:35.786Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,54 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Battledrones v14: Four-Player Map & AI-Assisted Multiplayer]]></title>
+        <id>https://digestweb.dev/articles/2026-10-24/battledrones-v14-four-player-map-ai-multiplayer</id>
+        <link href="https://digestweb.dev/articles/2026-10-24/battledrones-v14-four-player-map-ai-multiplayer"/>
+        <link rel="enclosure" href="https://raw.githubusercontent.com/simonw/battledrones/v14/progress-shots/v14/compass-rose.jpg" type="image/jpg"/>
+        <updated>2026-10-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison updates Battledrones to v14, introducing a new four-player map, "Compass Rose," and expanding multiplayer support, with AI assisting in development.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Battledrones v14 introduces a new four-player map named "Compass Rose."
+- Multiplayer mode now supports up to four human players via WebSockets.
+- AI (Claude Opus 5.5) assisted in generating the new map and modifying network code.
+- New robot team colors, purple and green, join the existing red and blue.
+- AI players fill any unused slots in four-player matches.
+
+## Our Commentary
+
+Simon Willison's Battledrones is always a fun read. It's cool to see Claude Opus 5.5 generating maps and even tweaking network code. This is a neat example of AI as a co-pilot for game development. I'm curious how much hand-holding the AI needed for the WebSocket changes. It makes me wonder about the future of solo dev.
+
+Original Link: https://simonwillison.net/2026/Oct/24/battledrones/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building Reasoning Models: A Comprehensive Video Course]]></title>
+        <id>https://digestweb.dev/articles/2026-10-24/building-reasoning-models-video-course</id>
+        <link href="https://digestweb.dev/articles/2026-10-24/building-reasoning-models-video-course"/>
+        <link rel="enclosure" href="https://substackcdn.com/image/fetch/$s_!1SoS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F519db120-1320-411b-adec-a88865345f2c_4083x2916.jpeg" type="image/jpeg"/>
+        <updated>2026-10-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dive deep into AI reasoning with over 11 hours of coding videos. Learn evaluation, inference-time scaling, reinforcement learning, and distillation using Python and PyTorch.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Offers over 11 hours of video content for building AI reasoning models.
+- Covers key topics including model evaluation and inference-time scaling.
+- Explores advanced techniques like reinforcement learning.
+- Includes practical applications of distillation for model optimization.
+- Utilizes Python and PyTorch for hands-on coding examples.
+
+## Our Commentary
+
+This is a serious commitment. 11 hours of video on reasoning models? That's a deep dive. I appreciate the focus on building from the ground up; it's easy to get lost in the API layers. We're seeing more of these comprehensive resources emerge, which is a good sign for deeper understanding. I wonder how many people will actually finish it.
+
+Original Link: https://magazine.sebastianraschka.com/p/building-reasoning-models]]></content>
+        <author>
+            <name>Sebastian Raschka</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Accordion Icons: Best Practices for UI/UX Design]]></title>
         <id>https://digestweb.dev/articles/2026-10-23/accordion-icons-best-practices-ui-ux</id>
