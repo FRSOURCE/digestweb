@@ -11,6 +11,129 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-10-29/useful-custom-media-presets-css",
+            "content_html": "## Summary & Key Takeaways\n\n- Custom media queries allow naming and reusing media queries in CSS.\n- The article provides a set of drop-in `@custom-media` presets.\n- Presets cover input mechanisms, breakpoints, and true HDR.\n- Container style query versions are also included for broader browser support.\n- These presets enhance CSS organization and reusability.\n\n## Our Commentary\n\nCustom media queries are such a neat addition to CSS. We've been waiting for this kind of reusability for ages. These presets are a fantastic starting point. It's the kind of small, practical improvement that makes a big difference in day-to-day front-end work. I'm definitely bookmarking this one for our next project.\n\nOriginal Link: https://blog.master.dev/useful-custom-media-presets/",
+            "url": "https://digestweb.dev/articles/2026-10-29/useful-custom-media-presets-css",
+            "title": "Useful @custom-media Presets for Modern CSS Development",
+            "summary": "Frontend Masters shares a collection of drop-in `@custom-media` presets for CSS, covering input mechanisms, breakpoints, and true HDR. These presets offer reusable media queries, similar to custom properties.",
+            "image": "https://blog.master.dev/wp-json/social-image-generator/v1/image/11561",
+            "date_modified": "2026-10-29T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-28/ai-benchmarkers-dilemma-artificial-analysis-v5",
+            "content_html": "## Summary & Key Takeaways\n\n- Nathan Lambert's 'Artificial Analysis v5' reviews the AI benchmarking industry.\n- The article critically examines current benchmarking practices.\n- It highlights missing aspects and inherent challenges in evaluating AI.\n- The piece explores the complexities faced by AI benchmarkers.\n- It offers insights into improving the reliability of AI performance metrics.\n\n## Our Commentary\n\nBenchmarking AI is such a mess right now. I appreciate Nathan Lambert digging into this. It's easy to get lost in the hype of new models without a solid way to compare them. This kind of critical analysis is exactly what we need to cut through the noise. It's a reminder that 'bigger model' doesn't always mean 'better for my specific task'.\n\nOriginal Link: https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers",
+            "url": "https://digestweb.dev/articles/2026-10-28/ai-benchmarkers-dilemma-artificial-analysis-v5",
+            "title": "The Benchmarker's Dilemma: A Critical Look at AI Benchmarking",
+            "summary": "Nathan Lambert's 'Artificial Analysis v5' delves into the current state of the AI benchmarking industry. The article explores what's missing and the inherent challenges faced by those evaluating AI models.",
+            "image": "https://substackcdn.com/image/fetch/$s_!6u4S!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a847075-78be-45e9-b554-ae9abc6f9296_3182x1790.png",
+            "date_modified": "2026-10-28T00:00:00.000Z",
+            "author": {
+                "name": "Nathan Lambert"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-28/ai-inflection-point-vibe-game-development-claude-opus",
+            "content_html": "## Summary & Key Takeaways\n\n- October 2026 marks an inflection point for \"vibe game development\" with AI.\n- This follows a similar shift for coding agents in November 2025.\n- Claude Opus 5.5 shows significant improvements in game creation.\n- Key areas include 3D modeling, music generation, and crucially, game design.\n- The model can now create games that are genuinely fun to play.\n- The new challenge is conceptualizing novel games that leverage AI assistance.\n- GPT-6 Astra is noted as not yet matching Opus 5.5's \"sense of fun.\"\n\n## Our Commentary\n\nOkay, this is wild. AI making _fun_ games? Not just games, but _fun_ ones? I genuinely didn't see that coming so quickly. Simon Willison has a knack for spotting these inflection points, and if he's right, this changes everything for indie game dev. The idea of 'vibe coding' a game and it actually being enjoyable... it's both exhilarating and a little terrifying. What does 'game designer' even mean in this new world? My brain is buzzing.\n\nOriginal Link: https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+            "url": "https://digestweb.dev/articles/2026-10-28/ai-inflection-point-vibe-game-development-claude-opus",
+            "title": "AI Reaches New Inflection Point: 'Vibe Game Development' is Here",
+            "summary": "Simon Willison declares October 2026 an inflection point for AI-powered 'vibe game development,' akin to the rise of coding agents. He notes Claude Opus 5.5's surprising ability to generate genuinely fun and playable games.",
+            "image": "https://static.simonwillison.net/static/2026/pumpkin-farmer.webp",
+            "date_modified": "2026-10-28T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-28/amazon-ai-tooling-judgement-terk-terkowitz",
+            "content_html": "## Summary & Key Takeaways\n\n- Terk Terkowitz from Amazon engineering leadership offers advice on AI tooling.\n- Engineers should document if their work doesn't benefit from current AI.\n- This documentation is considered a finding, not a failing.\n- Sharing these findings with peers and management is encouraged.\n- Demonstrating judgment in AI adoption is a key expectation for engineers.\n\n## Our Commentary\n\nThis is such a refreshing take from Amazon leadership. It's easy to feel pressured to adopt every new AI tool, but Terk Terkowitz is saying it's okay if it doesn't fit. In fact, it's _good_ to know why. We need more of this critical thinking, not just blind enthusiasm. It's a reminder that AI is a tool, not a mandate, and our judgment still matters.\n\nOriginal Link: https://simonwillison.net/2026/Oct/28/terk-terkowitz/",
+            "url": "https://digestweb.dev/articles/2026-10-28/amazon-ai-tooling-judgement-terk-terkowitz",
+            "title": "Amazon Leadership: Document When AI Doesn't Help Your Work",
+            "summary": "Simon Willison shares a quote from Amazon's Terk Terkowitz, advising engineers to document instances where current AI tooling doesn't benefit their work. This encourages critical judgment over blind adoption of AI.",
+            "image": "https://picsum.photos/id/806/800/450",
+            "date_modified": "2026-10-28T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-28/github-octoverse-2026-ai-agents-drive-growth",
+            "content_html": "## Summary & Key Takeaways\n\n- GitHub's 2026 Octoverse report shows record growth in developer activity.\n- Commits and pushes have reached unprecedented highs.\n- The report highlights the increasing role of AI agents in development workflows.\n- This growth spans across various industries and types of builders.\n- The data suggests a significant shift in how software is being created.\n\n## Our Commentary\n\nThis Octoverse report is a big one. We've been watching the agentic engineering trend, but seeing it reflected in GitHub's core metrics like this is... wow. It's not just a niche thing anymore. I wonder how much of this 'growth' is actual human output versus agent-generated code. The lines are blurring, and it's a lot to process.\n\nOriginal Link: https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+            "url": "https://digestweb.dev/articles/2026-10-28/github-octoverse-2026-ai-agents-drive-growth",
+            "title": "GitHub Octoverse 2026: Record Growth Driven by AI Agents",
+            "summary": "The 2026 Octoverse report reveals record-breaking developer activity, with commits and pushes reaching new highs. The report attributes much of this growth to developers increasingly building with AI agents.",
+            "image": "https://github.blog/wp-content/uploads/2026/10/Octoverse2026_BlogHeader_2.jpg",
+            "date_modified": "2026-10-28T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-28/google-deepmind-gemini-4-carbon-frontier-ai-model",
+            "content_html": "## Summary & Key Takeaways\n\n- Google DeepMind has officially announced Gemini 4 Carbon.\n- This new model is positioned as their \"next frontier model.\"\n- The announcement suggests significant advancements in AI capabilities.\n- It represents a major release from the Google DeepMind team.\n- Further details on its features and performance are anticipated.\n\n## Our Commentary\n\nGemini 4 Carbon. Another frontier model. It feels like these announcements are coming faster and faster. We're in an AI arms race, aren't we? I'm always a mix of excited and terrified by these leaps. What new capabilities will this unlock? And what new problems will it create? The pace is just relentless.\n\nOriginal Link: https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+            "url": "https://digestweb.dev/articles/2026-10-28/google-deepmind-gemini-4-carbon-frontier-ai-model",
+            "title": "Google DeepMind Unveils Gemini 4 Carbon: The Next Frontier AI Model",
+            "summary": "Google DeepMind has announced Gemini 4 Carbon, their latest 'frontier model' in artificial intelligence. This release signals a major step forward in AI capabilities and research from the Google team.",
+            "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_social_share.width-1300.png",
+            "date_modified": "2026-10-28T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-28/legora-agentic-os-legal-work-openai",
+            "content_html": "## Summary & Key Takeaways\n\n- Legora is developing an agentic operating system for legal professionals.\n- It utilizes OpenAI models, including ChatGPT and Codex.\n- The system aims to accelerate various legal workflows.\n- Specific benefits include enhanced contract analysis.\n- The goal is to enable lawyers to focus on more complex, high-value work.\n\n## Our Commentary\n\nAnother day, another industry getting an AI agent overhaul. Legal work feels like a prime candidate for this kind of automation. I'm always a bit wary of 'freeing up' professionals, though. What does that really mean for job security? Still, seeing these specific applications emerge is a clear sign of where things are headed.\n\nOriginal Link: https://openai.com/index/legora",
+            "url": "https://digestweb.dev/articles/2026-10-28/legora-agentic-os-legal-work-openai",
+            "title": "Legora: An Agentic OS for Legal Work Powered by OpenAI",
+            "summary": "Legora is leveraging OpenAI models, ChatGPT, and Codex to create an agentic operating system tailored for legal workflows. This aims to accelerate contract analysis and free lawyers for higher-value tasks.",
+            "image": "https://picsum.photos/id/500/800/450",
+            "date_modified": "2026-10-28T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-28/nextjs-ai-agent-javascript-bundle-optimization",
+            "content_html": "## Summary & Key Takeaways\n\n- Next.js introduces the `next-bundle-optimizer` agent skill.\n- This AI agent aims to reduce JavaScript bundle sizes in Next.js applications.\n- New Bundle Analyzer tools are also available for developers.\n- These tools allow for manual exploration and optimization of bundles.\n- The initiative focuses on shipping less JavaScript for improved performance.\n\n## Our Commentary\n\nAn AI agent for bundle optimization? This is fascinating. We've been talking about AI in dev workflows, but this feels like a very concrete, practical application. I'm curious how effective it is. The idea of an agent just... optimizing my code while I'm not looking is a bit unsettling, but the performance gains could be huge. It's a glimpse into a future where our tools are far more proactive.\n\nOriginal Link: https://nextjs.org/blog/ship-less-javascript-with-ai",
+            "url": "https://digestweb.dev/articles/2026-10-28/nextjs-ai-agent-javascript-bundle-optimization",
+            "title": "Next.js Introduces AI Agent for JavaScript Bundle Optimization",
+            "summary": "Next.js now offers an AI agent skill, `next-bundle-optimizer`, to help developers reduce JavaScript bundles. New Bundle Analyzer tools are also available for manual exploration.",
+            "image": "https://h8dxkfmaphn8o0p3.public.blob.vercel-storage.com/static/blog/ship-less-javascript-with-ai/twitter-card.png",
+            "date_modified": "2026-10-28T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-28/nvidia-nemotron-granary-multilingual-ai-transcription",
+            "content_html": "## Summary & Key Takeaways\n\n- NVIDIA has released Nemotron 3.5 Transcribe and Granary v2 models.\n- These models are designed for intelligent multilingual transcription.\n- They offer improved capabilities for prompting and adaptation.\n- The release enhances AI's ability to process diverse languages.\n- This development is significant for speech-to-text applications.\n\n## Our Commentary\n\nMultilingual transcription is a huge deal for global accessibility and content creation. NVIDIA pushing these models out is a solid step forward. I'm always curious about the 'intelligent' part – how much context can these models really grasp? It's not just about words, it's about meaning. Still, a strong release.\n\nOriginal Link: https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+            "url": "https://digestweb.dev/articles/2026-10-28/nvidia-nemotron-granary-multilingual-ai-transcription",
+            "title": "NVIDIA Releases Nemotron 3.5 Transcribe & Granary v2 for Multilingual AI",
+            "summary": "Hugging Face announces the release of NVIDIA Nemotron 3.5 Transcribe and Granary v2, new AI models designed for intelligent multilingual transcription. These models offer enhanced prompting and adaptation capabilities.",
+            "image": "https://cdn-uploads.huggingface.co/production/uploads/68127936de624fb6f57d9989/3vFxCEUXz_xJVrTBr4hNr.jpeg",
+            "date_modified": "2026-10-28T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-28/simon-willison-github-octoverse-2026-agentic-engineering",
+            "content_html": "## Summary & Key Takeaways\n\n- Simon Willison analyzes the GitHub Octoverse 2026 report.\n- He highlights the stark impact of agentic engineering on GitHub metrics.\n- Merged pull requests tripled to 220 million per month in less than a year.\n- Commits more than tripled to 7.38 billion per month, mostly in H2 2026.\n- New repository creation doubled to 30.3 million per month.\n- The report's methodology used LLM classification for country and industry data.\n- Interoperability repositories were identified using AI for related terms.\n\n## Our Commentary\n\nSimon Willison's take on the Octoverse report is essential. The numbers are staggering: PRs and commits tripling? That's not just growth; that's a paradigm shift. It makes me wonder about the quality of all that agent-generated code. Are we just churning out more, or better? I'm genuinely grappling with the implications for developer skill sets and the future of coding itself. It's a lot to unpack.\n\nOriginal Link: https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
+            "url": "https://digestweb.dev/articles/2026-10-28/simon-willison-github-octoverse-2026-agentic-engineering",
+            "title": "Simon Willison on GitHub Octoverse 2026: Agentic Engineering's Impact",
+            "summary": "Simon Willison provides his analysis of the GitHub Octoverse 2026 report, emphasizing the dramatic impact of agentic engineering. He notes a tripling of merged pull requests and commits, largely driven by AI agents.",
+            "image": "https://picsum.photos/id/615/800/450",
+            "date_modified": "2026-10-28T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-28/speed-up-shell-startup-claude-code-ai",
+            "content_html": "## Summary & Key Takeaways\n\n- Nick Taylor used Claude Code to optimize his shell startup.\n- He prompted the AI to suggest improvements to his `~/.zshrc` file.\n- This process led to a significant 95% reduction in startup time.\n- The article demonstrates AI's practical application for developer experience.\n- It highlights how AI can identify performance bottlenecks in configuration files.\n\n## Our Commentary\n\nOkay, this is the kind of AI use case I love to see. A 95% speedup on shell startup? That's huge for daily productivity. It's a perfect example of how AI can be a personal assistant for developer experience, finding those little optimizations we might overlook. I'm definitely going to try this with my own config files. It's a small win, but those add up.\n\nOriginal Link: https://blog.master.dev/how-i-used-claude-code-to-speed-up-my-shell-startup-by-95/",
+            "url": "https://digestweb.dev/articles/2026-10-28/speed-up-shell-startup-claude-code-ai",
+            "title": "Boosting Shell Startup by 95% with Claude Code AI",
+            "summary": "Nick Taylor shares his experience using Claude Code to optimize his `~/.zshrc` file, resulting in a remarkable 95% reduction in shell startup time. This showcases AI's practical utility for developer experience.",
+            "image": "https://blog.master.dev/wp-json/social-image-generator/v1/image/11637",
+            "date_modified": "2026-10-28T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-28/ted-sanders-llm-performance-openai-naming",
+            "content_html": "## Summary & Key Takeaways\n\n- Ted Sanders explains LLM performance is highly multidimensional.\n- A model's strength in one area doesn't guarantee it in another.\n- Model size generally correlates with performance, reliability, and cost.\n- Larger models often have better recall of esoteric facts.\n- OpenAI's version numbers indicate release order, relationships, and improvement magnitude.\n\n## Our Commentary\n\nThis quote from Ted Sanders is gold. We've all felt the frustration of a 'smart' model failing at a simple task. The multidimensionality of LLM performance is something I think gets lost in the hype. And the naming conventions? It's good to have some clarity there, even if it still feels a bit like alphabet soup sometimes. It's a reminder that these aren't magic boxes.\n\nOriginal Link: https://simonwillison.net/2026/Oct/28/ted-sanders/",
+            "url": "https://digestweb.dev/articles/2026-10-28/ted-sanders-llm-performance-openai-naming",
+            "title": "Ted Sanders on LLM Performance & OpenAI's Model Naming",
+            "summary": "Simon Willison quotes Ted Sanders, who explains the multidimensional nature of LLM performance and the logic behind OpenAI's model naming conventions. Performance varies, but size often correlates with capability and cost.",
+            "image": "https://picsum.photos/id/217/800/450",
+            "date_modified": "2026-10-28T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-10-27/pnpm-12-16-env-file-symlink-security-fixes",
             "content_html": "## Summary & Key Takeaways\n\n- A new global --env-file flag allows loading environment variables from dotenv-style files.\n- pnpm can now update symlinked pnpm-lock.yaml files.\n- The pnpm setup command gains a --no-modify-path option for manual PATH configuration.\n- Two security vulnerabilities related to zstd decompression and signing have been fixed.\n- Improved error handling for dependency symlinks that fail to resolve.\n\n## Our Commentary\n\nThe --env-file flag is a nice quality-of-life improvement for managing configurations. Symlinked lockfile updates are a niche but welcome fix for specific setups. The security patches are, of course, the most critical part here. It's good to see pnpm staying on top of these things.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v12.16.0",
             "url": "https://digestweb.dev/articles/2026-10-27/pnpm-12-16-env-file-symlink-security-fixes",
