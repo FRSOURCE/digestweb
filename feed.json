@@ -50,6 +50,15 @@
             "date_modified": "2026-10-29T00:00:00.000Z"
         },
         {
+            "id": "https://digestweb.dev/articles/2026-10-29/malicious-anthropic-claude-code-extension-cursor-marketplace",
+            "content_html": "## Summary & Key Takeaways\n\n- Cursor issued a security notice regarding a malicious extension.\n- The affected extension is `Anthropic.claude-code` version 2.1.313.\n- It was identified in the Cursor Extension Marketplace.\n- Users who installed this specific version are at risk.\n- Immediate update to a safe version is strongly recommended.\n- The malicious version could potentially compromise user data or system integrity.\n\n## Our Commentary\n\nThis is genuinely unsettling. We've seen supply chain attacks in traditional package managers, but seeing it hit AI-specific marketplaces feels like a new frontier. It makes me wonder how robust the vetting processes are for these extensions. It's a stark reminder that even with AI tools, vigilance is paramount. I'm curious about the attack vector here. Was it a compromised developer account? Or something more insidious? We need more transparency on these incidents.\n\nOriginal Link: https://cursor.com/blog/claude-code-extension-security-notice",
+            "url": "https://digestweb.dev/articles/2026-10-29/malicious-anthropic-claude-code-extension-cursor-marketplace",
+            "title": "Malicious Anthropic.claude-code Extension Found in Cursor Marketplace",
+            "summary": "A security notice from Cursor reveals a malicious version of the Anthropic.claude-code extension (2.1.313) was identified in their marketplace. Users are urged to update immediately.",
+            "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/og/opengraph-default.png",
+            "date_modified": "2026-10-29T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-10-29/nodejs-27-0-0-alpha-preview",
             "content_html": "## Summary & Key Takeaways\n\n- Node.js 27.0.0-alpha.0.0.0 has been released.\n- This alpha version provides an early preview of the next major Node.js release.\n- Developers can test upcoming features and changes.\n- It's an opportunity to provide feedback on the future direction of Node.js.\n\n## Our Commentary\n\nAn alpha release for Node.js 27 is always a good sign of progress. It's too early to dive into specifics, but it's exciting to see the next iteration taking shape. I'm always hopeful for performance boosts and better developer ergonomics in these major bumps. It's a reminder that the Node.js team is constantly pushing forward, even if the details are still under wraps.\n\nOriginal Link: https://nodejs.org/en/blog/release/v27.0.0-alpha.0.0.0",
             "url": "https://digestweb.dev/articles/2026-10-29/nodejs-27-0-0-alpha-preview",

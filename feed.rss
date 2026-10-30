@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Fri, 30 Oct 2026 06:49:57 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 30 Oct 2026 13:52:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -102,6 +102,28 @@ Original Link: https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1]]></
 
 Original Link: https://piccalil.li/blog/if-we-stop-we-lose/?ref=articles-rss-feed]]></content:encoded>
             <enclosure url="https://piccalil.b-cdn.net/api/og-image?slug=if-we-stop-we-lose/" length="0" type="image//api/og-image"/>
+        </item>
+        <item>
+            <title><![CDATA[Malicious Anthropic.claude-code Extension Found in Cursor Marketplace]]></title>
+            <link>https://digestweb.dev/articles/2026-10-29/malicious-anthropic-claude-code-extension-cursor-marketplace</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-29/malicious-anthropic-claude-code-extension-cursor-marketplace</guid>
+            <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A security notice from Cursor reveals a malicious version of the Anthropic.claude-code extension (2.1.313) was identified in their marketplace. Users are urged to update immediately.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Cursor issued a security notice regarding a malicious extension.
+- The affected extension is `Anthropic.claude-code` version 2.1.313.
+- It was identified in the Cursor Extension Marketplace.
+- Users who installed this specific version are at risk.
+- Immediate update to a safe version is strongly recommended.
+- The malicious version could potentially compromise user data or system integrity.
+
+## Our Commentary
+
+This is genuinely unsettling. We've seen supply chain attacks in traditional package managers, but seeing it hit AI-specific marketplaces feels like a new frontier. It makes me wonder how robust the vetting processes are for these extensions. It's a stark reminder that even with AI tools, vigilance is paramount. I'm curious about the attack vector here. Was it a compromised developer account? Or something more insidious? We need more transparency on these incidents.
+
+Original Link: https://cursor.com/blog/claude-code-extension-security-notice]]></content:encoded>
+            <enclosure url="https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/og/opengraph-default.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Node.js 27.0.0-alpha.0.0.0 Released, Previewing Future Features]]></title>

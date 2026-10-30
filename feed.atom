@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-10-30T06:49:57.795Z</updated>
+    <updated>2026-10-30T13:52:33.334Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -103,6 +103,28 @@ Original Link: https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1]]></
 'If we stop, we lose' — that title hits hard. I've felt that morale drain too, this sense that LLMs are devaluing human expertise. It's easy to get discouraged when you see comments like 'just ask an LLM.' But the truth is, LLMs are a tool, not a replacement for deep understanding and critical thinking. Geoff's return to CSS-Tricks as an independent publisher is indeed a huge shot in the arm for the community. We need more voices reminding us that quality, human-crafted education will always matter. This isn't just about teaching; it's about preserving craft and critical thought in a rapidly changing landscape.
 
 Original Link: https://piccalil.li/blog/if-we-stop-we-lose/?ref=articles-rss-feed]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Malicious Anthropic.claude-code Extension Found in Cursor Marketplace]]></title>
+        <id>https://digestweb.dev/articles/2026-10-29/malicious-anthropic-claude-code-extension-cursor-marketplace</id>
+        <link href="https://digestweb.dev/articles/2026-10-29/malicious-anthropic-claude-code-extension-cursor-marketplace"/>
+        <link rel="enclosure" href="https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/og/opengraph-default.png" type="image/png"/>
+        <updated>2026-10-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A security notice from Cursor reveals a malicious version of the Anthropic.claude-code extension (2.1.313) was identified in their marketplace. Users are urged to update immediately.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Cursor issued a security notice regarding a malicious extension.
+- The affected extension is `Anthropic.claude-code` version 2.1.313.
+- It was identified in the Cursor Extension Marketplace.
+- Users who installed this specific version are at risk.
+- Immediate update to a safe version is strongly recommended.
+- The malicious version could potentially compromise user data or system integrity.
+
+## Our Commentary
+
+This is genuinely unsettling. We've seen supply chain attacks in traditional package managers, but seeing it hit AI-specific marketplaces feels like a new frontier. It makes me wonder how robust the vetting processes are for these extensions. It's a stark reminder that even with AI tools, vigilance is paramount. I'm curious about the attack vector here. Was it a compromised developer account? Or something more insidious? We need more transparency on these incidents.
+
+Original Link: https://cursor.com/blog/claude-code-extension-security-notice]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Node.js 27.0.0-alpha.0.0.0 Released, Previewing Future Features]]></title>
