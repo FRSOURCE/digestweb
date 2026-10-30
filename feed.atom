@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-10-29T06:47:28.282Z</updated>
+    <updated>2026-10-30T06:49:57.795Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,224 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Autonomous AI Agents Build & Ship Game Code Hourly in Spawn]]></title>
+        <id>https://digestweb.dev/articles/2026-10-29/autonomous-ai-agents-ship-code-hourly-spawn</id>
+        <link href="https://digestweb.dev/articles/2026-10-29/autonomous-ai-agents-ship-code-hourly-spawn"/>
+        <link rel="enclosure" href="https://static.simonwillison.net/static/2026-10-29/IMG_9406.webp" type="image/webp"/>
+        <updated>2026-10-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Explore Spawn, a multiplayer game where autonomous Fable-class AI agents develop and deploy live code to production hourly, showcasing the bleeding edge of agentic engineering.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Spawn is a massively multiplayer game where players can modify the world via AI prompts.
+- The game is autonomously developed by a swarm of Fable-powered AI agents.
+- These agents directly change live code and ship to production hourly.
+- They self-diagnose errors, bug reports, and feature requests.
+- The system allows for rapid iteration and 30-second rollbacks of broken changes.
+- This represents a continuous deployment model turned up to eleven.
+- The company spends 30x payroll on AI tokens, highlighting the scale of agent usage.
+
+## Our Commentary
+
+Okay, this is wild. 'Autonomous agents changing live code directly and shipping to production hourly' – I genuinely don't know how to feel about this. On one hand, it's an incredible demonstration of agentic engineering, pushing the boundaries of what's possible. On the other, the thought of AI churning away at 3 AM, deploying code without human oversight, is unsettling. The '30x payroll on AI tokens' is a staggering figure. This isn't just continuous deployment; it's hyper-continuous, self-correcting deployment. It's a glimpse into a future that feels both exhilarating and terrifying. We're talking about a paradigm shift in how software is built, and I'm not sure we're ready for it.
+
+Original Link: https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Frankenstein Table: Building Tables with CSS Grid]]></title>
+        <id>https://digestweb.dev/articles/2026-10-29/frankenstein-table-css-grid</id>
+        <link href="https://digestweb.dev/articles/2026-10-29/frankenstein-table-css-grid"/>
+        <link rel="enclosure" href="https://css-tricks.com/wp-content/uploads/2026/10/zombie-table.jpg" type="image/jpg"/>
+        <updated>2026-10-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This CSS-Tricks article explores a 'super scary' approach to creating tables using modern CSS layout techniques like CSS Grid, moving beyond traditional table elements.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article presents an unconventional method for building tables.
+- It leverages CSS Grid for table layout instead of native `<table>` elements.
+- This 'Frankenstein' approach offers flexibility in design.
+- It challenges traditional table rendering techniques.
+- The tutorial provides insights into advanced CSS layout.
+
+## Our Commentary
+
+'The Frankenstein Table' is a wonderfully evocative title for using CSS Grid to build tables. I've seen so many developers struggle with responsive tables, and while native `<table>` elements have their place, sometimes you need more layout control. This kind of creative problem-solving with CSS Grid is exactly what I love to see. It's a good reminder that we don't always have to stick to the 'traditional' way of doing things, especially when modern CSS offers such powerful alternatives.
+
+Original Link: https://css-tricks.com/the-frankenstein-table/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Granite Switch 4.1.1: Streamlined AI Model Updates]]></title>
+        <id>https://digestweb.dev/articles/2026-10-29/granite-switch-4-1-1-model-updates</id>
+        <link href="https://digestweb.dev/articles/2026-10-29/granite-switch-4-1-1-model-updates"/>
+        <link rel="enclosure" href="https://cdn-uploads.huggingface.co/production/uploads/662836b742709fe826510597/az6afuuoAkyiMImufSePe.png" type="image/png"/>
+        <updated>2026-10-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[IBM's Granite Switch 4.1.1 focuses on simplifying the lifecycle management of AI models, allowing developers to update them with the same ease as traditional software.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- IBM's Granite Switch 4.1.1 has been released.
+- The update emphasizes treating AI model updates like software updates.
+- It aims to streamline the model lifecycle management process.
+- This approach simplifies deployment and maintenance of AI models.
+- The tool helps integrate AI models more seamlessly into development workflows.
+
+## Our Commentary
+
+'Update models like you update software' is a great tagline. It points to a real pain point in MLOps: the friction of deploying and managing AI models. If Granite Switch 4.1.1 genuinely makes this process smoother, that's a win for developers. We're still figuring out the best practices for model versioning and deployment, so any tool that simplifies that is worth a look. I'm always a bit wary of vendor-specific solutions, but the underlying problem is universal.
+
+Original Link: https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA['If We Stop, We Lose': A Call to Action for Web Education]]></title>
+        <id>https://digestweb.dev/articles/2026-10-29/if-we-stop-we-lose-web-education</id>
+        <link href="https://digestweb.dev/articles/2026-10-29/if-we-stop-we-lose-web-education"/>
+        <link rel="enclosure" href="https://piccalil.b-cdn.net/api/og-image?slug=if-we-stop-we-lose/" type="image//api/og-image"/>
+        <updated>2026-10-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Piccalil reflects on the morale drain in web development due to LLMs, emphasizing the critical need for continued human-led education and content creation despite industry shifts.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article addresses the morale drain in web development caused by the rise of LLMs.
+- It highlights a slowdown in web education content creation across the industry.
+- Piccalil emphasizes the enduring importance of human-led education and articles.
+- The author was inspired by CSS-Tricks' return to independent publishing.
+- It serves as a call to action for educators to continue creating high-quality content.
+- The piece argues against the notion that LLMs negate the need for traditional learning resources.
+
+## Our Commentary
+
+'If we stop, we lose' — that title hits hard. I've felt that morale drain too, this sense that LLMs are devaluing human expertise. It's easy to get discouraged when you see comments like 'just ask an LLM.' But the truth is, LLMs are a tool, not a replacement for deep understanding and critical thinking. Geoff's return to CSS-Tricks as an independent publisher is indeed a huge shot in the arm for the community. We need more voices reminding us that quality, human-crafted education will always matter. This isn't just about teaching; it's about preserving craft and critical thought in a rapidly changing landscape.
+
+Original Link: https://piccalil.li/blog/if-we-stop-we-lose/?ref=articles-rss-feed]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Node.js 27.0.0-alpha.0.0.0 Released, Previewing Future Features]]></title>
+        <id>https://digestweb.dev/articles/2026-10-29/nodejs-27-0-0-alpha-preview</id>
+        <link href="https://digestweb.dev/articles/2026-10-29/nodejs-27-0-0-alpha-preview"/>
+        <link rel="enclosure" href="https://nodejs.org/en/next-data/og/release/Node.js%20%E2%80%94%20Node.js%2027.0.0-alpha.0.0.0%20(Alpha)" type="image/0%20(Alpha)"/>
+        <updated>2026-10-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The first alpha release of Node.js 27.0.0 is now available, offering an early look at upcoming features and changes for the JavaScript runtime.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Node.js 27.0.0-alpha.0.0.0 has been released.
+- This alpha version provides an early preview of the next major Node.js release.
+- Developers can test upcoming features and changes.
+- It's an opportunity to provide feedback on the future direction of Node.js.
+
+## Our Commentary
+
+An alpha release for Node.js 27 is always a good sign of progress. It's too early to dive into specifics, but it's exciting to see the next iteration taking shape. I'm always hopeful for performance boosts and better developer ergonomics in these major bumps. It's a reminder that the Node.js team is constantly pushing forward, even if the details are still under wraps.
+
+Original Link: https://nodejs.org/en/blog/release/v27.0.0-alpha.0.0.0]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI & Anthropic Offer API Credits to Subscribers]]></title>
+        <id>https://digestweb.dev/articles/2026-10-29/openai-anthropic-api-credits-subscriptions</id>
+        <link href="https://digestweb.dev/articles/2026-10-29/openai-anthropic-api-credits-subscriptions"/>
+        <link rel="enclosure" href="https://picsum.photos/id/229/800/450" type="image//id/229/800/450"/>
+        <updated>2026-10-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI and Anthropic are now providing API credits to eligible ChatGPT and Claude subscribers, mirroring a benefit that makes experimenting and building with their LLMs more accessible.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI now offers API credits to eligible ChatGPT subscribers.
+- This benefit mirrors a similar program recently launched by Anthropic for Claude subscribers.
+- Subscribers on $100, $200, or $500 plans receive equivalent API credits.
+- The credits can be applied to one of the user's API organizations.
+- This initiative makes it more affordable for developers to build and experiment with LLMs.
+
+## Our Commentary
+
+This is a genuinely welcome move from both OpenAI and Anthropic. As someone who maintains subscriptions, getting API credits on top is a fantastic perk. It lowers the barrier to experimentation and might even encourage me to ship some of those public-facing demos I've been meaning to build. It's a smart play to foster ecosystem growth and developer engagement. I just hope these credits don't expire too quickly, because sometimes my side projects take a while to get off the ground!
+
+Original Link: https://simonwillison.net/2026/Oct/29/api-credits/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Details Detection of Frontier Model Misalignment]]></title>
+        <id>https://digestweb.dev/articles/2026-10-29/openai-detecting-ai-misalignment</id>
+        <link href="https://digestweb.dev/articles/2026-10-29/openai-detecting-ai-misalignment"/>
+        <link rel="enclosure" href="https://picsum.photos/id/353/800/450" type="image//id/353/800/450"/>
+        <updated>2026-10-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI explains its layered monitoring approach to detect frontier model misalignment and unauthorized agent behavior, enabling intervention before incidents escalate.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI employs layered monitoring to detect frontier model misalignment.
+- The system aims to identify unauthorized agent behavior.
+- Responders can intervene proactively to prevent incidents.
+- This approach is critical for maintaining AI safety and control.
+- It addresses the challenges of managing increasingly capable AI systems.
+
+## Our Commentary
+
+This is the kind of transparency I want to see more of from frontier AI labs. Understanding _how_ they detect misalignment is vital, especially as agents become more autonomous. The idea of 'layered monitoring' and 'intervening before incidents escalate' sounds like something out of a sci-fi movie, but it's our reality now. I'm curious about the specifics of these layers and the thresholds for intervention. It's a complex problem, and I genuinely don't know how effective these measures will be against truly advanced, emergent behaviors. It's a constant cat-and-mouse game, isn't it?
+
+Original Link: https://openai.com/index/how-we-detect-frontier-model-misalignment]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Updates Model Spec: Guiding AI with Core Values]]></title>
+        <id>https://digestweb.dev/articles/2026-10-29/openai-updated-model-spec-core-values</id>
+        <link href="https://digestweb.dev/articles/2026-10-29/openai-updated-model-spec-core-values"/>
+        <link rel="enclosure" href="https://picsum.photos/id/746/800/450" type="image//id/746/800/450"/>
+        <updated>2026-10-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI has released an updated Model Spec, outlining five core values to ensure more capable AI systems exhibit sound judgment, human agency, and faithfulness to human intent.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI updated its Model Spec to guide the development of more capable AI.
+- The spec introduces five core values for AI systems.
+- These values emphasize sound judgment and human agency.
+- Faithfulness to human intent is a key principle.
+- The update aims to ensure beneficial AI development.
+
+## Our Commentary
+
+An updated Model Spec from OpenAI is a big deal. It's not about a new model, but about the _principles_ guiding all future models. I find it fascinating how these companies are trying to bake ethics and intent into the very fabric of their AI. 'Sound judgment, human agency, and faithfulness to human intent' — these are lofty goals. The challenge, as always, will be in the implementation and how these values translate into real-world AI behavior. It's a necessary conversation, but I'm always a bit skeptical about how much 'spec' can truly govern something as complex as frontier AI.
+
+Original Link: https://openai.com/index/updated-model-spec]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SolidJS 2.0 RC.20: Key Fixes for Signals & Hydration]]></title>
+        <id>https://digestweb.dev/articles/2026-10-29/solidjs-2-0-rc-20-signals-hydration-fixes</id>
+        <link href="https://digestweb.dev/articles/2026-10-29/solidjs-2-0-rc-20-signals-hydration-fixes"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/b130ce971794460e445a0dda1aaabf47461687dbe8f4a7abb14fcc72e470a293/solidjs/solid/releases/tag/solid-js%402.0.0-rc.20" type="image/20"/>
+        <updated>2026-10-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This release candidate for SolidJS 2.0 brings crucial bug fixes for `isPending` behavior, derived stores, and hydration issues, alongside an improved 'multiple instances' warning.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- `isPending` for derived store keys no longer incorrectly reads true on first landing.
+- Derived stores reading async memos through `latest()` now show correct values immediately.
+- Render effects reading errored-then-recovered derived stores now re-run as expected.
+- The 'multiple instances of Solid' warning is now more accurate, firing only when instances actually interact.
+- Hydrated `<Errored>` boundaries no longer log 'Hydration key miss' for lazily created content.
+
+## Our Commentary
+
+Solid's RC releases are always packed with deep, technical fixes. I appreciate the precision in addressing these edge cases around reactivity and hydration. It shows a commitment to robustness that I think is often overlooked in the rush for new features. The improved 'multiple instances' warning is a small but welcome DX win.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/solid-js%402.0.0-rc.20]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TanStack DB 1.0 RC1: Embracing Oracles and Agentic Programming]]></title>
+        <id>https://digestweb.dev/articles/2026-10-29/tanstack-db-1-0-rc1-oracles-agents</id>
+        <link href="https://digestweb.dev/articles/2026-10-29/tanstack-db-1-0-rc1-oracles-agents"/>
+        <link rel="enclosure" href="https://tanstack.com/cdn-cgi/image/width=1200,height=630,fit=cover,quality=80,format=auto/blog-assets/tanstack-db-1.0-rc1-going-all-in-on-oracles/hero.png" type="image/png"/>
+        <updated>2026-10-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TanStack DB 1.0 RC1 introduces a new paradigm, leveraging 'oracles' to find bugs and fundamentally rethink programming with AI agents.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- TanStack DB 1.0 RC1 has been released, marking a significant milestone.
+- The release focuses on 'oracles' as a core concept for bug detection.
+- It explores a new approach to programming, integrating AI agents.
+- Oracles helped uncover entire classes of bugs in the development process.
+- The update encourages a re-evaluation of traditional programming methodologies.
+
+## Our Commentary
+
+'Going All In on Oracles' is a bold statement. I'm genuinely intrigued by how TanStack is integrating these concepts into a database library. It feels like a very forward-thinking move, blurring the lines between traditional data management and AI-driven development. We've seen AI assist with code, but building it into the core of a library to find bugs and 'rethink programming' is a different beast entirely. I'm curious if this is a niche experiment or a glimpse into the future of developer tools.
+
+Original Link: https://tanstack.com/blog/tanstack-db-1.0-rc1-going-all-in-on-oracles]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Useful @custom-media Presets for Modern CSS Development]]></title>
         <id>https://digestweb.dev/articles/2026-10-29/useful-custom-media-presets-css</id>
