@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Fri, 30 Oct 2026 13:52:33 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 31 Oct 2026 06:39:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,233 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[AI Cyber Risks: Was I Wrong About Open Models?]]></title>
+            <link>https://digestweb.dev/articles/2026-10-30/ai-cyber-risks-open-models-nathan-lambert</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-30/ai-cyber-risks-open-models-nathan-lambert</guid>
+            <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Nathan Lambert reflects on "Black October," a period marked by critical vulnerabilities, questioning previous assumptions about the cyber risks posed by open AI models.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The author coined "Black October" to describe a recent surge in critical vulnerability disclosures.
+- These disclosures, including PHP2Shell and GitLab, highlight the materialization of AI model cyber risks.
+- The article prompts a re-evaluation of the security implications of open AI models.
+- It suggests that the theoretical risks are now becoming practical concerns.
+
+## Our Commentary
+
+This is a conversation we absolutely need to be having. The idea of "Black October" for AI vulnerabilities is chilling. I've been optimistic about open models, but the security implications are a genuine blind spot for many, myself included. It's easy to get caught up in the capabilities and forget the potential for misuse or unintended consequences. This feels like a wake-up call.
+
+Original Link: https://www.interconnects.ai/p/was-i-wrong-about-open-models-and]]></content:encoded>
+            <author>Nathan Lambert</author>
+            <enclosure url="https://substackcdn.com/image/fetch/$s_!NQ70!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff51bb5d0-4390-4676-af4a-6bc8199412d5_2006x1362.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[AI & Software Security: Time for a Rethink?]]></title>
+            <link>https://digestweb.dev/articles/2026-10-30/ai-software-security-rethink</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-30/ai-software-security-rethink</guid>
+            <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Pragmatic Engineer explores whether the recent surge in security breaches, potentially exacerbated by AI, necessitates a fundamental rethinking of software security strategies.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article highlights a recent surge in security breaches, described as "a month's worth in a single day."
+- It questions whether AI is a contributing factor to this increased vulnerability.
+- The piece prompts a discussion on the need to fundamentally rethink software security paradigms.
+- It suggests that traditional security approaches may be insufficient in the age of AI.
+
+## Our Commentary
+
+This is the kind of question that keeps me up at night. "A month's worth of security breaches in a single day" – that's a terrifying thought. AI is a double-edged sword; it can help with security, but it can also be weaponized. We're clearly in uncharted territory here. I genuinely don't know if our current security models can adapt fast enough. It feels like we're playing catch-up before the game has even fully started.
+
+Original Link: https://blog.pragmaticengineer.com/the-pulse-time-to-rethink-software-security-because-of-ai/]]></content:encoded>
+            <author>Gergely Orosz</author>
+            <enclosure url="https://picsum.photos/id/613/800/450" length="0" type="image//id/613/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[CodePen Launches Next-Gen In-House Feeds]]></title>
+            <link>https://digestweb.dev/articles/2026-10-30/codepen-next-gen-in-house-feeds</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-30/codepen-next-gen-in-house-feeds</guid>
+            <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[CodePen announces the launch of its next-generation feeds, including Trending and Following, now powered by in-house technology for improved performance and control.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- CodePen has launched its next-generation of feeds, including Trending and Following.
+- The technology powering these feeds has been pulled in-house.
+- This move aims to provide more control and potentially better performance.
+- It represents an internal infrastructure shift for the platform.
+
+## Our Commentary
+
+It's always interesting to see platforms bring core functionality in-house. It speaks to the desire for more control and optimization. For CodePen, feeds are central to discovery, so this makes sense. I'm curious about the technical challenges they faced and how they solved them. It's a good reminder that even seemingly simple features often hide complex engineering.
+
+Original Link: https://blog.codepen.io/2026/10/30/446-our-next-generation-of-feeds-is-here/]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/990/800/450" length="0" type="image//id/990/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Connecting Circles with CSS border-shape & shape()]]></title>
+            <link>https://digestweb.dev/articles/2026-10-30/css-border-shape-connect-circles</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-30/css-border-shape-connect-circles</guid>
+            <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This Frontend Masters tutorial explores how to connect two draggable circles with perfectly aligned, fancy curved lines using the experimental CSS properties `border-shape` and `shape()`.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The tutorial demonstrates connecting two draggable circles with curved lines.
+- It utilizes the experimental CSS properties `border-shape` and `shape()`.
+- This technique allows for dynamic and perfectly aligned UI connections.
+- It builds upon a previous article, swapping `clip-path` for `border-shape`.
+
+## Our Commentary
+
+Oh, `border-shape` and `shape()`! These are some seriously cool, albeit experimental, CSS features. It's always exciting to see creative applications that push the boundaries of what's possible with styling. This kind of tutorial is fantastic for inspiring new UI ideas. I'm a sucker for elegant CSS solutions to complex visual problems.
+
+Original Link: https://blog.master.dev/two-circles-one-connection-and-border-shape/]]></content:encoded>
+            <enclosure url="https://blog.master.dev/wp-json/social-image-generator/v1/image/11629" length="0" type="image//wp-json/social-image-generator/v1/image/11629"/>
+        </item>
+        <item>
+            <title><![CDATA[Experience Design: Beyond the "User" in UX]]></title>
+            <link>https://digestweb.dev/articles/2026-10-30/experience-design-beyond-user-ux-nngroup</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-30/experience-design-beyond-user-ux-nngroup</guid>
+            <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[NNGroup suggests evolving "User Experience" to "Experience Design" to reflect AI's expansion of design scope beyond human users to include agents, while maintaining a focus on people's ultimate goals.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- AI is expanding the scope of traditional User Experience (UX).
+- Design now extends beyond direct human users to include AI agents acting on their behalf.
+- The article proposes "Experience Design" as a broader term for this evolving field.
+- This new framing still emphasizes centering on people's goals and needs.
+
+## Our Commentary
+
+This feels like a natural, almost inevitable, evolution of the UX field. As AI agents become more sophisticated, we absolutely need a broader lens than just "user." It's not just about human-computer interaction anymore; it's about human-agent-system interaction. I think it's a smart move to reframe it now, before the terminology becomes too entrenched and limiting. It's a subtle but important distinction.
+
+Original Link: https://www.nngroup.com/articles/ux-vs-experience-design/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication]]></content:encoded>
+            <enclosure url="https://media.nngroup.com/media/articles/opengraph_images/The_Role_of_UX_in_Agentic_Software_Factories_YO2Q558.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Microsoft Copilot: Synthetic Data for Enterprise AI Evaluation]]></title>
+            <link>https://digestweb.dev/articles/2026-10-30/microsoft-copilot-synthetic-data-enterprise-ai-evaluation</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-30/microsoft-copilot-synthetic-data-enterprise-ai-evaluation</guid>
+            <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Microsoft Research details its strategy for evaluating Copilot at enterprise scale, leveraging synthetic data to ensure privacy while capturing the complexity of real organizations.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Evaluating Microsoft Copilot at enterprise scale requires complex test data.
+- Real enterprise data contains sensitive information, making direct use impossible.
+- Microsoft is using synthetic enterprise data for these evaluations.
+- This approach aims to capture real-world complexity while maintaining data privacy.
+
+## Our Commentary
+
+This is a smart approach to a very real problem. Data privacy is a huge hurdle for enterprise AI, and synthetic data generation is becoming an increasingly vital tool. It's not just about privacy; it's about scaling evaluations without compromising sensitive information. I'm always fascinated by the clever ways researchers tackle these practical constraints.
+
+Original Link: https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/]]></content:encoded>
+            <enclosure url="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/10/FromSyntheticEnterprise-TWLIFB-1200x627-1.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[NES Emulator Baked Into LLM Weights: Play Mario in Qwen!]]></title>
+            <link>https://digestweb.dev/articles/2026-10-30/nes-emulator-llm-weights-qwen-mario</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-30/nes-emulator-llm-weights-qwen-mario</guid>
+            <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Drew Breunig has embedded a functional Nintendo Entertainment System 6502 CPU emulator directly into the weights of the Qwen3.5-4B LLM, enabling games like Super Mario Bros to run within it.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Drew Breunig embedded a working NES 6502 CPU emulator into Qwen3.5-4B's weights.
+- This allows playing NES ROMs, such as Super Mario Bros, directly within the LLM.
+- The project was inspired by Divyansh Agrawal's qwenputer.
+- Opus 5.5 prompts were used to guide the model's development.
+- The emulator uses conformance tests for the NES CPU released 15 years ago.
+
+## Our Commentary
+
+Okay, this is absolutely wild. An NES emulator _inside_ an LLM? My brain is genuinely struggling to process the implications. It's not just a cool hack; it's a profound demonstration of emergent computation and the unexpected capabilities of these models. We're moving beyond just text generation into something far more complex. I don't even know how to feel about it, but it's definitely pushing the boundaries of what I thought was possible.
+
+Original Link: https://simonwillison.net/2026/Oct/30/nesformer/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/345/800/450" length="0" type="image//id/345/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Boosts ChatGPT Safety, Adds Teen Protections]]></title>
+            <link>https://digestweb.dev/articles/2026-10-30/openai-chatgpt-safety-teen-protections</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-30/openai-chatgpt-safety-teen-protections</guid>
+            <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI is enhancing violence prevention in ChatGPT through expanded safeguards, earlier interventions, and a new commitment to public safety reporting, with a focus on protecting teens.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI is implementing stronger violence prevention measures in ChatGPT.
+- This includes expanded safeguards and earlier intervention strategies.
+- New protections are specifically being rolled out for teenage users.
+- OpenAI is also committing to more transparent public safety reporting.
+
+## Our Commentary
+
+Safety is paramount, especially when it comes to platforms used by younger audiences. It's good to see OpenAI taking these steps. However, I always wonder about the effectiveness of these measures. It feels like a constant cat-and-mouse game between safety protocols and those determined to circumvent them. It's a necessary effort, but the underlying challenges are immense.
+
+Original Link: https://openai.com/index/community-safety-report-and-new-protections-for-teens]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/548/800/450" length="0" type="image//id/548/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Adopts Robots.txt for AI Training Preferences]]></title>
+            <link>https://digestweb.dev/articles/2026-10-30/openai-robots-txt-ai-training-preferences</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-30/openai-robots-txt-ai-training-preferences</guid>
+            <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI announces it will honor a shared `robots.txt` signal, allowing website operators to communicate their preferences regarding AI model training data.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI will now respect a shared `robots.txt` signal.
+- This signal allows website operators to express their preferences for AI training data.
+- The initiative aims to provide more control to content creators over how their data is used by AI.
+- It represents a move towards standardized data governance for AI providers.
+
+## Our Commentary
+
+This is a big deal. `robots.txt` has been the de facto standard for web crawling for decades, and extending it to AI training preferences feels like a natural, if belated, evolution. It's a small step, but a crucial one for content creators to regain some agency. I'm curious to see how widely adopted this "shared signal" becomes across other AI providers. It needs to be universal to truly work.
+
+Original Link: https://openai.com/index/helping-websites-express-ai-training-preferences]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/760/800/450" length="0" type="image//id/760/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[pnpm 12.17: Global Peer Checks, Advanced Overrides & Docker Fixes]]></title>
+            <link>https://digestweb.dev/articles/2026-10-30/pnpm-12-17-global-peer-checks-advanced-overrides-docker-fixes</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-30/pnpm-12-17-global-peer-checks-advanced-overrides-docker-fixes</guid>
+            <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This pnpm release introduces global peer dependency checks, powerful new selectors for overrides, and critical fixes for file permissions in Docker environments.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- `pnpm peers check` now supports a `--global` flag for globally installed packages.
+- `pnpm outdated` and `pnpm update` now inspect and update package manager and runtime versions in `devEngines` and `engines`.
+- Cargo and Python dependencies are now inspected and updated by `pnpm outdated` and `pnpm update` when enabled.
+- Overrides selectors gain `:prod`, `:optional`, `:peer` pseudo-selectors and `*` wildcard patterns.
+- Files created by pnpm in a project now respect umask permissions, fixing Docker image issues.
+- Repeat installs no longer miss changes to local dependencies.
+
+## Our Commentary
+
+This pnpm release feels like a solid step forward. The new override selectors with wildcards are genuinely powerful for complex monorepos. But the Docker file permissions fix? That's a huge quality-of-life improvement. I've seen so many developers struggle with that exact issue. It's the kind of fix that just makes things _work_ without you even realizing why they were broken before.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v12.17.0]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/c5881e54fe5d1a65c73cf7e849cb172ae6fc5339bc12e76d84a2e5ed36189a8b/pnpm/pnpm/releases/tag/v12.17.0" length="0" type="image/0"/>
+        </item>
+        <item>
+            <title><![CDATA[UX in Agentic Software Factories: A Re-evaluation]]></title>
+            <link>https://digestweb.dev/articles/2026-10-30/ux-agentic-software-factories-nngroup</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-10-30/ux-agentic-software-factories-nngroup</guid>
+            <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[NNGroup explores the changing role of UX in AI-native software development, arguing that UX must actively discover user needs, shape product development, and evaluate outcomes in agentic systems.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- AI-native software development lifecycles risk reducing UX to mere AI context.
+- The article argues UX must retain its core functions in agentic software factories.
+- These functions include discovering genuine user needs.
+- UX professionals should actively shape what software is built.
+- Evaluation before and after launch remains a crucial UX responsibility.
+
+## Our Commentary
+
+This is a conversation I've been waiting for. The idea that AI might "reduce UX to AI context" is a genuine concern. We can't just let agents churn out software without a deep understanding of human needs. I think there's something unsettling about agents churning away at 3am while nobody's watching, potentially missing crucial human elements. UX needs to be more, not less, involved in this new paradigm.
+
+Original Link: https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication]]></content:encoded>
+            <enclosure url="https://media.nngroup.com/media/articles/opengraph_images/The_Role_of_UX_in_Agentic_Software_Factories.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Autonomous AI Agents Build & Ship Game Code Hourly in Spawn]]></title>
             <link>https://digestweb.dev/articles/2026-10-29/autonomous-ai-agents-ship-code-hourly-spawn</link>
