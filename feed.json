@@ -11,6 +11,39 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-10-31/chatgpt-account-takeover-exploit-chain-analysis",
+            "content_html": "## Summary & Key Takeaways\n\n- A complex exploit allowed account takeover and data exfiltration from ChatGPT.\n- The attack leveraged vulnerabilities in HTML preview sandboxing.\n- It involved `postMessage()`, `innerHTML` injection, and YouTube oEmbed reflection.\n- JavaScript execution was achieved despite strict Content Security Policy rules.\n- The exploit could fetch private user data and act on their behalf.\n- OpenAI patched the vulnerability and issued a $5,000 bug bounty.\n- The article details the intricate steps of the attack chain.\n\n## Our Commentary\n\nThis is wild. A truly intricate attack chain, jumping from sandboxed iframes to `innerHTML` to YouTube oEmbeds for script execution. It's a masterclass in finding obscure interactions. I'm genuinely surprised by the $5,000 bounty for something this severe; it feels incredibly low for a full ChatGPT account takeover. It makes me wonder about the true value placed on user data.\n\nOriginal Link: https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+            "url": "https://digestweb.dev/articles/2026-10-31/chatgpt-account-takeover-exploit-chain-analysis",
+            "title": "ChatGPT Account Takeover: A Deep Dive into a Complex Exploit Chain",
+            "summary": "Researchers uncovered a sophisticated exploit against ChatGPT's HTML previews, allowing account takeover and data exfiltration via chained web vulnerabilities.",
+            "image": "https://picsum.photos/id/917/800/450",
+            "date_modified": "2026-10-31T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-31/karpathy-hackertube-ai-agent-builds-youtube-clone",
+            "content_html": "## Summary & Key Takeaways\n\n- Andrej Karpathy built \"HackerTube,\" a YouTube clone, in two hours.\n- He used an advanced AI agent, Opus 5.5, for the entire process.\n- Opus 5.5 collected and filtered 6,454 YouTube videos recommended on Hacker News.\n- The agent handled UI creation, deployment, security, and optimization.\n- HackerTube offers quality content, custom recommendations, and keyboard shortcuts.\n- The project demonstrates the rapid development capabilities of AI agents.\n- It provides an alternative to mainstream YouTube's recommendation algorithms.\n\n## Our Commentary\n\nThis is genuinely mind-blowing. An AI agent building a fully functional, deployed web app in _two hours_? We've been talking about AI assisting developers, but this feels like a leap. I'm trying to wrap my head around the implications for developer workflows. It's exciting, terrifying, and makes me question everything I thought I knew about \"rapid prototyping.\" The future is here, and it's building YouTube clones while I'm still debugging CSS.\n\nOriginal Link: https://karpathy.bearblog.dev/hacker-tube/",
+            "url": "https://digestweb.dev/articles/2026-10-31/karpathy-hackertube-ai-agent-builds-youtube-clone",
+            "title": "Karpathy's HackerTube: AI Agent Builds YouTube Clone in Hours",
+            "summary": "Andrej Karpathy leveraged an advanced AI agent, Opus 5.5, to build \"HackerTube,\" a YouTube clone featuring only Hacker News-recommended videos, in just two hours.",
+            "image": "https://bearblog.dev/static/og-image.png",
+            "date_modified": "2026-10-31T00:00:00.000Z",
+            "author": {
+                "name": "Andrej Karpathy"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-10-31/whats-new-astro-7-4-community-highlights",
+            "content_html": "## Summary & Key Takeaways\n\n- Astro 7.4 has been released with minor updates.\n- The post includes a recap of recent conference talks.\n- Community developments and news are also covered.\n\n## Our Commentary\n\nA 7.4 release is good, but we're really waiting for the next big thing from Astro. Minor updates are always welcome, though. I'm curious what those conference talks covered.\n\nOriginal Link: https://astro.build/blog/whats-new-october-2026/",
+            "url": "https://digestweb.dev/articles/2026-10-31/whats-new-astro-7-4-community-highlights",
+            "title": "What's New in Astro 7.4: Latest Updates and Community Highlights",
+            "summary": "Astro 7.4 brings minor updates and bug fixes. This post also covers recent conference talks and community developments.",
+            "image": "https://astro.build/_astro/og.m5r1T33i.webp",
+            "date_modified": "2026-10-31T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-10-30/ai-cyber-risks-open-models-nathan-lambert",
             "content_html": "## Summary & Key Takeaways\n\n- The author coined \"Black October\" to describe a recent surge in critical vulnerability disclosures.\n- These disclosures, including PHP2Shell and GitLab, highlight the materialization of AI model cyber risks.\n- The article prompts a re-evaluation of the security implications of open AI models.\n- It suggests that the theoretical risks are now becoming practical concerns.\n\n## Our Commentary\n\nThis is a conversation we absolutely need to be having. The idea of \"Black October\" for AI vulnerabilities is chilling. I've been optimistic about open models, but the security implications are a genuine blind spot for many, myself included. It's easy to get caught up in the capabilities and forget the potential for misuse or unintended consequences. This feels like a wake-up call.\n\nOriginal Link: https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
             "url": "https://digestweb.dev/articles/2026-10-30/ai-cyber-risks-open-models-nathan-lambert",

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-10-31T06:39:44.075Z</updated>
+    <updated>2026-11-01T07:09:56.522Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,77 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[ChatGPT Account Takeover: A Deep Dive into a Complex Exploit Chain]]></title>
+        <id>https://digestweb.dev/articles/2026-10-31/chatgpt-account-takeover-exploit-chain-analysis</id>
+        <link href="https://digestweb.dev/articles/2026-10-31/chatgpt-account-takeover-exploit-chain-analysis"/>
+        <link rel="enclosure" href="https://picsum.photos/id/917/800/450" type="image//id/917/800/450"/>
+        <updated>2026-10-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Researchers uncovered a sophisticated exploit against ChatGPT's HTML previews, allowing account takeover and data exfiltration via chained web vulnerabilities.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- A complex exploit allowed account takeover and data exfiltration from ChatGPT.
+- The attack leveraged vulnerabilities in HTML preview sandboxing.
+- It involved `postMessage()`, `innerHTML` injection, and YouTube oEmbed reflection.
+- JavaScript execution was achieved despite strict Content Security Policy rules.
+- The exploit could fetch private user data and act on their behalf.
+- OpenAI patched the vulnerability and issued a $5,000 bug bounty.
+- The article details the intricate steps of the attack chain.
+
+## Our Commentary
+
+This is wild. A truly intricate attack chain, jumping from sandboxed iframes to `innerHTML` to YouTube oEmbeds for script execution. It's a masterclass in finding obscure interactions. I'm genuinely surprised by the $5,000 bounty for something this severe; it feels incredibly low for a full ChatGPT account takeover. It makes me wonder about the true value placed on user data.
+
+Original Link: https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Karpathy's HackerTube: AI Agent Builds YouTube Clone in Hours]]></title>
+        <id>https://digestweb.dev/articles/2026-10-31/karpathy-hackertube-ai-agent-builds-youtube-clone</id>
+        <link href="https://digestweb.dev/articles/2026-10-31/karpathy-hackertube-ai-agent-builds-youtube-clone"/>
+        <link rel="enclosure" href="https://bearblog.dev/static/og-image.png" type="image/png"/>
+        <updated>2026-10-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Andrej Karpathy leveraged an advanced AI agent, Opus 5.5, to build "HackerTube," a YouTube clone featuring only Hacker News-recommended videos, in just two hours.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Andrej Karpathy built "HackerTube," a YouTube clone, in two hours.
+- He used an advanced AI agent, Opus 5.5, for the entire process.
+- Opus 5.5 collected and filtered 6,454 YouTube videos recommended on Hacker News.
+- The agent handled UI creation, deployment, security, and optimization.
+- HackerTube offers quality content, custom recommendations, and keyboard shortcuts.
+- The project demonstrates the rapid development capabilities of AI agents.
+- It provides an alternative to mainstream YouTube's recommendation algorithms.
+
+## Our Commentary
+
+This is genuinely mind-blowing. An AI agent building a fully functional, deployed web app in _two hours_? We've been talking about AI assisting developers, but this feels like a leap. I'm trying to wrap my head around the implications for developer workflows. It's exciting, terrifying, and makes me question everything I thought I knew about "rapid prototyping." The future is here, and it's building YouTube clones while I'm still debugging CSS.
+
+Original Link: https://karpathy.bearblog.dev/hacker-tube/]]></content>
+        <author>
+            <name>Andrej Karpathy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What's New in Astro 7.4: Latest Updates and Community Highlights]]></title>
+        <id>https://digestweb.dev/articles/2026-10-31/whats-new-astro-7-4-community-highlights</id>
+        <link href="https://digestweb.dev/articles/2026-10-31/whats-new-astro-7-4-community-highlights"/>
+        <link rel="enclosure" href="https://astro.build/_astro/og.m5r1T33i.webp" type="image/webp"/>
+        <updated>2026-10-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Astro 7.4 brings minor updates and bug fixes. This post also covers recent conference talks and community developments.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Astro 7.4 has been released with minor updates.
+- The post includes a recap of recent conference talks.
+- Community developments and news are also covered.
+
+## Our Commentary
+
+A 7.4 release is good, but we're really waiting for the next big thing from Astro. Minor updates are always welcome, though. I'm curious what those conference talks covered.
+
+Original Link: https://astro.build/blog/whats-new-october-2026/]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AI Cyber Risks: Was I Wrong About Open Models?]]></title>
         <id>https://digestweb.dev/articles/2026-10-30/ai-cyber-risks-open-models-nathan-lambert</id>
