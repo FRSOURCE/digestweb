@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Mon, 02 Nov 2026 09:47:45 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Nov 2026 07:35:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,200 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Nuxt v4.6.4: Critical Security Fixes & Key Behavior Changes]]></title>
+            <link>https://digestweb.dev/articles/2026-11-03/nuxt-v4-6-4-critical-security-fixes-behavior-changes</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-03/nuxt-v4-6-4-critical-security-fixes-behavior-changes</guid>
+            <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Nuxt's latest release addresses multiple security vulnerabilities in both Nuxt and Nitro, alongside significant adjustments to error handling, dev server behavior, and caching. Developers should upgrade promptly.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Nuxt v4.6.4 is a security release addressing eight advisories in Nuxt and three in Nitro.
+- Error details in production are now stripped, only showing `createError` messages.
+- Dev server host checks are stricter, requiring `devServer.allowedHosts` for custom hostnames.
+- `workspaceDir` detection is more precise, limiting scope to explicit roots or git repos.
+- Nitropack's `cache`, `swr`, and `isr` rules now only cache GET/HEAD requests and avoid responses with cookies or `Cache-Control: private/no-store`.
+- Route rules now correctly match paths containing encoded slashes.
+
+## Our Commentary
+
+A security release is always a good thing, but the behavior changes here are quite substantial. Stripping error details in production is a smart move for security, but I can see it catching some developers off guard. The stricter dev server host checks are also a welcome security hardening. We're seeing a trend towards more secure defaults, which is great, but it means we need to pay closer attention to release notes.
+
+Original Link: https://github.com/nuxt/nuxt/releases/tag/v4.6.4]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/4a74ff64aeb4f7770c003acdaa3fa3c0411371fb6f7725f8ec80d541a760e6dd/nuxt/nuxt/releases/tag/v4.6.4" length="0" type="image/4"/>
+        </item>
+        <item>
+            <title><![CDATA[AI Adoption Rates: How Survey Wording Skews the Data]]></title>
+            <link>https://digestweb.dev/articles/2026-11-02/ai-adoption-rates-survey-wording-skews-data</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-02/ai-adoption-rates-survey-wording-skews-data</guid>
+            <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison revisits U.S. Census Bureau data on AI adoption, revealing how a change in survey question wording dramatically increased reported rates and discussing the implications of such measurement shifts.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison updates a previous analysis of AI adoption rates in large U.S. companies.
+- New data from the U.S. Census Bureau's Business Trends and Outlook Survey is used.
+- A significant increase in reported AI adoption is observed, from 12% to 40% for large companies.
+- This increase is attributed to a change in the survey question from "producing goods or services" to "any business function."
+- The article implicitly critiques how measurement methodologies can influence perceived trends in AI adoption.
+- The Census Bureau is noted to have fallen foul of Executive Order 14434, related to "Super Intelligence."
+
+## Our Commentary
+
+This is a fantastic piece of critical analysis. It's so easy to take statistics at face value, especially when they come from official sources. Simon's breakdown of how a simple change in survey wording can completely alter the perception of AI adoption is a crucial reminder to always question the data. It makes me wonder how many other "trends" are similarly influenced by subtle methodological shifts. This is exactly the kind of nuanced perspective we need in the AI discourse.
+
+Original Link: https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://static.simonwillison.net/static/2026-11-01/5821A414-FAF6-4E61-B037-952C1FD80D39.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[llm 0.37: New Models, Cost Savings, & AI-Assisted PR Insights]]></title>
+            <link>https://digestweb.dev/articles/2026-11-02/llm-0-37-new-models-cost-savings-ai-assisted-pr-insights</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-02/llm-0-37-new-models-cost-savings-ai-assisted-pr-insights</guid>
+            <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison's `llm` CLI tool gets an update with new OpenAI-compatible models, a cheaper default, enhanced embedding support, and a positive take on managing AI-assisted pull requests.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- `llm` 0.37 introduces support for new models like `gpt-6.1-sol` and `gpt-6.1-terra`.
+- A new `llm openai endpoint add` command simplifies configuring additional OpenAI-compatible models.
+- The default model has been switched to `gpt-6-luna`, offering half the price of the previous default.
+- Embeddings now support different binary content types, crucial for multimodal models.
+- Simon Willison shares a positive experience with AI-assisted PRs, viewing them as valuable bug reports.
+
+## Our Commentary
+
+Simon Willison's `llm` tool is a staple for many of us experimenting with LLMs locally. The cost reduction for the default model is a welcome change, and the improved embedding support is crucial as multimodal models become more common. His take on AI-assisted PRs is also refreshing; it's good to hear a positive perspective on how AI can genuinely assist in open-source maintenance, rather than just creating noise.
+
+Original Link: https://simonwillison.net/2026/Nov/2/llm/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/864/800/450" length="0" type="image//id/864/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Mastering Cypress Plugins: A Guide to Smart Selection & Integration]]></title>
+            <link>https://digestweb.dev/articles/2026-11-02/mastering-cypress-plugins-guide-selection-integration</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-02/mastering-cypress-plugins-guide-selection-integration</guid>
+            <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how to navigate the Cypress plugin ecosystem, perform security reviews, integrate plugins correctly, and troubleshoot common issues in CI and during upgrades.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Most Cypress plugins are npm packages maintained separately from Cypress itself.
+- The article guides on how to effectively use the Cypress plugin directory.
+- It emphasizes the importance of security reviews for chosen plugins.
+- Proper integration techniques are covered to avoid common pitfalls.
+- Tips are provided for fixing issues that arise in CI environments or during upgrades.
+
+## Our Commentary
+
+Choosing the right plugins can be a minefield, especially with security concerns and compatibility. This guide feels like a necessary resource for anyone serious about their Cypress setup. I appreciate the focus on security review; it's something often overlooked until it's too late. It's a practical piece that will definitely help developers avoid headaches.
+
+Original Link: https://www.cypress.io/blog/how-to-choose-the-right-cypress-plugins-for-your-project/]]></content:encoded>
+            <enclosure url="https://storage.ghost.io/c/12/89/12899ca1-4786-4eea-b7e1-9c5268baa48a/content/images/2026/11/cypress-plugins-facebook-1080x1080--1-.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[New `headingoffset` HTML Attribute Revolutionizes Heading Management]]></title>
+            <link>https://digestweb.dev/articles/2026-11-02/new-headingoffset-html-attribute-heading-management</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-02/new-headingoffset-html-attribute-heading-management</guid>
+            <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover the `headingoffset` HTML attribute, a powerful new tool that allows developers to easily adjust heading levels within components, enhancing accessibility and reusability.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The `headingoffset` HTML attribute allows developers to adjust a heading's semantic level.
+- This attribute is particularly useful for component reusability, where an `h1` might need to become an `h2` or `h3`.
+- The article explains the mathematical logic behind how `headingoffset` modifies heading levels.
+- It covers methods for resetting the offset and styling the resulting headings with `:heading()`.
+- The relationship between `headingoffset` and the `aria-level` attribute is also discussed.
+
+## Our Commentary
+
+This `headingoffset` attribute is a game-changer for component libraries and design systems. We've all wrestled with the semantic nightmare of reusing components with fixed heading levels. This directly addresses a long-standing accessibility and DX pain point. I'm genuinely excited about this; it feels like a small but incredibly impactful addition to the web platform. It's the kind of thoughtful feature that makes our lives easier.
+
+Original Link: https://blog.master.dev/overriding-heading-levels-with-the-headingoffset-html-attribute/]]></content:encoded>
+            <enclosure url="https://blog.master.dev/wp-json/social-image-generator/v1/image/11691" length="0" type="image//wp-json/social-image-generator/v1/image/11691"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Unveils LifeVal: A New Benchmark for Everyday AI Assistance]]></title>
+            <link>https://digestweb.dev/articles/2026-11-02/openai-lifeval-new-benchmark-everyday-ai-assistance</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-02/openai-lifeval-new-benchmark-everyday-ai-assistance</guid>
+            <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI introduces LifeVal, a novel benchmark designed to assess how effectively AI systems can help individuals navigate common real-world tasks, from childcare to financial management.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI has launched LifeVal, a new benchmark for AI evaluation.
+- LifeVal measures AI's ability to assist with practical, everyday human tasks.
+- Examples include finding childcare, managing finances, and handling government paperwork.
+- This benchmark aims to quantify AI's utility in real-world scenarios.
+
+## Our Commentary
+
+This is interesting. We've seen so many benchmarks focused on raw intelligence or specific technical tasks, but LifeVal shifts the focus to practical utility. It's a smart move to evaluate AI on how it actually helps people in their daily lives. I'm curious to see how models perform here and if it drives a new direction in AI development. It feels like a step towards more human-centric AI.
+
+Original Link: https://openai.com/index/lifeval]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/522/800/450" length="0" type="image//id/522/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Revisiting CSS Floats: Beyond Layouts]]></title>
+            <link>https://digestweb.dev/articles/2026-11-02/revisiting-css-floats-beyond-layouts</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-02/revisiting-css-floats-beyond-layouts</guid>
+            <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore the historical significance of the `float` property in CSS for layouts and understand its continued, albeit diminished, relevance in modern web development.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The `float` property was historically crucial for creating CSS layouts like side-by-side columns.
+- Modern CSS layout methods like Flexbox and Grid have largely superseded `float` for layout purposes.
+- Despite this, `float` still retains some specific use cases in contemporary web design.
+- The article encourages understanding its origins and current applications.
+
+## Our Commentary
+
+Ah, `float`. It brings back memories of a simpler, yet more frustrating, time in CSS layout. While we've moved on to much more powerful tools like Flexbox and Grid, it's good to remember where we came from. For new developers, understanding `float` can offer valuable context on CSS evolution, even if they won't be using it for main layouts anymore. It's a nice little historical nod.
+
+Original Link: https://blog.codepen.io/2026/11/02/chris-corner-doin-stuff-in-css/]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/391/800/450" length="0" type="image//id/391/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Scaling Git at OpenAI: Introducing Pando for AI-Driven Development]]></title>
+            <link>https://digestweb.dev/articles/2026-11-02/scaling-git-openai-pando-ai-driven-development</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-02/scaling-git-openai-pando-ai-driven-development</guid>
+            <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI shares insights into Pando, their custom Git-compatible backend engineered to manage the unprecedented scale of code generated by AI models like Codex, addressing unique challenges in large-scale AI development.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI developed Pando, a custom Git-compatible backend.
+- Pando is designed to handle the immense scale of development enabled by AI models like Codex.
+- The article explains the infrastructure challenges faced when AI generates vast amounts of code.
+- It provides insights into how OpenAI manages version control in an AI-centric environment.
+
+## Our Commentary
+
+This is a fascinating look behind the curtain at OpenAI's infrastructure. The idea of a Git-compatible backend built specifically for AI-generated code is wild. It makes me wonder about the sheer volume of code they're dealing with and the unique challenges that come with it. It's a reminder that AI isn't just about the models; it's about the entire ecosystem supporting them. I'm genuinely curious about the specific bottlenecks they hit that necessitated this.
+
+Original Link: https://openai.com/index/scaling-git-at-openai]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/88/800/450" length="0" type="image//id/88/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Vitest v5.1.0 Unleashes Powerful New Testing & Debugging Features]]></title>
+            <link>https://digestweb.dev/articles/2026-11-02/vitest-v5-1-0-new-testing-debugging-features</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-02/vitest-v5-1-0-new-testing-debugging-features</guid>
+            <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Vitest's latest release brings a suite of enhancements, including flags for running failed or changed tests, improved fake timers, interactive snapshot review, and advanced trace view capabilities for better debugging.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- New `--last-failed` and `--since-last-run` flags streamline test execution.
+- `vi.setSystemTime()` now supports `Temporal.Instant` and `Temporal.ZonedDateTime`.
+- Per-retry/repeat attempt results are now exposed for more granular control.
+- Fake timers have expanded support for `node:timers` and `node:timers/promise`.
+- Developers can now interactively review failed snapshots directly.
+- Browser module mocking is improved with import map support.
+- The trace view is out of experimental, with new timeline and failure-only modes.
+- An experimental pointer API and `aria` snapshot capture enhance UI testing.
+- Coverage providers can now store data in the file system module cache.
+
+## Our Commentary
+
+Vitest just keeps getting better, doesn't it? The `--last-failed` and `--since-last-run` flags are absolute game-changers for iterative development. I'm also really excited about the interactive snapshot review; that's going to save so much time. It feels like they're really listening to what developers need for a smoother, faster testing workflow. This release is packed.
+
+Original Link: https://github.com/vitest-dev/vitest/releases/tag/v5.1.0]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/b8bffa3ab477731f90158e4d8c52df18a28f0ef5e5e3727073601b487b20e045/vitest-dev/vitest/releases/tag/v5.1.0" length="0" type="image/0"/>
+        </item>
         <item>
             <title><![CDATA[ChatGPT Account Takeover: A Deep Dive into a Complex Exploit Chain]]></title>
             <link>https://digestweb.dev/articles/2026-10-31/chatgpt-account-takeover-exploit-chain-analysis</link>
