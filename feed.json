@@ -98,6 +98,30 @@
             "date_modified": "2026-11-02T00:00:00.000Z"
         },
         {
+            "id": "https://digestweb.dev/articles/2026-11-01/llms-erosion-trust-software-documentation-kyle-kingsbury",
+            "content_html": "## Summary & Key Takeaways\n\n- LLMs are eroding trust in software documentation and the organizations producing it.\n- Signals previously used to mark mature systems are now easier to counterfeit.\n- Engineers may approach new software with increased suspicion.\n- Maintainers face a challenge in ensuring and demonstrating software and documentation quality.\n\n## Our Commentary\n\nThis quote from Kyle Kingsbury hits hard. I've felt this creeping unease myself. When you can't trust the docs, what _can_ you trust? It's not just about accuracy; it's about the very foundation of knowledge transfer in our field. We're entering a weird era where the source of truth is constantly in question. It's a messy problem, and I don't see an easy fix.\n\nOriginal Link: https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
+            "url": "https://digestweb.dev/articles/2026-11-01/llms-erosion-trust-software-documentation-kyle-kingsbury",
+            "title": "LLMs and the Erosion of Trust in Software Documentation",
+            "summary": "Kyle Kingsbury's insights on how large language models are undermining confidence in software documentation and the challenge for maintainers to prove quality.",
+            "image": "https://picsum.photos/id/760/800/450",
+            "date_modified": "2026-11-01T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-01/python-uv-delete-uv-lock-file-tip",
+            "content_html": "## Summary & Key Takeaways\n\n- `uv.lock` files can cause Python dependency errors, especially with new Python versions.\n- These files pin dependency versions, which can conflict with newer Python wheels.\n- Libraries should generally not include `uv.lock` files.\n- Deleting `uv.lock` and re-running `uv` commands often resolves build issues.\n\n## Our Commentary\n\nThis is a classic \"TIL\" moment. I've definitely hit similar dependency walls in other ecosystems. It's a good reminder that sometimes the simplest solution is to just nuke the lock file and let the system rebuild. There's something satisfying about that.\n\nOriginal Link: https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/",
+            "url": "https://digestweb.dev/articles/2026-11-01/python-uv-delete-uv-lock-file-tip",
+            "title": "Python UV: When to Delete Your uv.lock File",
+            "summary": "A quick tip for Python developers using `uv` to resolve dependency errors, especially after upgrading Python versions.",
+            "image": "https://picsum.photos/id/757/800/450",
+            "date_modified": "2026-11-01T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-10-31/chatgpt-account-takeover-exploit-chain-analysis",
             "content_html": "## Summary & Key Takeaways\n\n- A complex exploit allowed account takeover and data exfiltration from ChatGPT.\n- The attack leveraged vulnerabilities in HTML preview sandboxing.\n- It involved `postMessage()`, `innerHTML` injection, and YouTube oEmbed reflection.\n- JavaScript execution was achieved despite strict Content Security Policy rules.\n- The exploit could fetch private user data and act on their behalf.\n- OpenAI patched the vulnerability and issued a $5,000 bug bounty.\n- The article details the intricate steps of the attack chain.\n\n## Our Commentary\n\nThis is wild. A truly intricate attack chain, jumping from sandboxed iframes to `innerHTML` to YouTube oEmbeds for script execution. It's a masterclass in finding obscure interactions. I'm genuinely surprised by the $5,000 bounty for something this severe; it feels incredibly low for a full ChatGPT account takeover. It makes me wonder about the true value placed on user data.\n\nOriginal Link: https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
             "url": "https://digestweb.dev/articles/2026-10-31/chatgpt-account-takeover-exploit-chain-analysis",

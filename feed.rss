@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Tue, 03 Nov 2026 07:35:21 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 04 Nov 2026 07:17:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -208,6 +208,48 @@ Vitest just keeps getting better, doesn't it? The `--last-failed` and `--since-l
 
 Original Link: https://github.com/vitest-dev/vitest/releases/tag/v5.1.0]]></content:encoded>
             <enclosure url="https://opengraph.githubassets.com/b8bffa3ab477731f90158e4d8c52df18a28f0ef5e5e3727073601b487b20e045/vitest-dev/vitest/releases/tag/v5.1.0" length="0" type="image/0"/>
+        </item>
+        <item>
+            <title><![CDATA[LLMs and the Erosion of Trust in Software Documentation]]></title>
+            <link>https://digestweb.dev/articles/2026-11-01/llms-erosion-trust-software-documentation-kyle-kingsbury</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-01/llms-erosion-trust-software-documentation-kyle-kingsbury</guid>
+            <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Kyle Kingsbury's insights on how large language models are undermining confidence in software documentation and the challenge for maintainers to prove quality.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- LLMs are eroding trust in software documentation and the organizations producing it.
+- Signals previously used to mark mature systems are now easier to counterfeit.
+- Engineers may approach new software with increased suspicion.
+- Maintainers face a challenge in ensuring and demonstrating software and documentation quality.
+
+## Our Commentary
+
+This quote from Kyle Kingsbury hits hard. I've felt this creeping unease myself. When you can't trust the docs, what _can_ you trust? It's not just about accuracy; it's about the very foundation of knowledge transfer in our field. We're entering a weird era where the source of truth is constantly in question. It's a messy problem, and I don't see an easy fix.
+
+Original Link: https://simonwillison.net/2026/Nov/1/kyle-kingsbury/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/760/800/450" length="0" type="image//id/760/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Python UV: When to Delete Your uv.lock File]]></title>
+            <link>https://digestweb.dev/articles/2026-11-01/python-uv-delete-uv-lock-file-tip</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-01/python-uv-delete-uv-lock-file-tip</guid>
+            <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A quick tip for Python developers using `uv` to resolve dependency errors, especially after upgrading Python versions.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- `uv.lock` files can cause Python dependency errors, especially with new Python versions.
+- These files pin dependency versions, which can conflict with newer Python wheels.
+- Libraries should generally not include `uv.lock` files.
+- Deleting `uv.lock` and re-running `uv` commands often resolves build issues.
+
+## Our Commentary
+
+This is a classic "TIL" moment. I've definitely hit similar dependency walls in other ecosystems. It's a good reminder that sometimes the simplest solution is to just nuke the lock file and let the system rebuild. There's something satisfying about that.
+
+Original Link: https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/757/800/450" length="0" type="image//id/757/800/450"/>
         </item>
         <item>
             <title><![CDATA[ChatGPT Account Takeover: A Deep Dive into a Complex Exploit Chain]]></title>
