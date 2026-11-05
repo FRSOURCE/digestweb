@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-11-04T07:17:07.436Z</updated>
+    <updated>2026-11-05T07:44:52.556Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,160 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[pnpm 12.18: Agent Skills & Platform Variants for Packages]]></title>
+        <id>https://digestweb.dev/articles/2026-11-05/pnpm-12-18-agent-skills-platform-variants</id>
+        <link href="https://digestweb.dev/articles/2026-11-05/pnpm-12-18-agent-skills-platform-variants"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/9871622e574618a83b87271d2e643723a2d4e6f3032421046d60dfb63f0e8c1f/pnpm/pnpm/releases/tag/v12.18.0" type="image/0"/>
+        <updated>2026-11-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This release introduces agent skill management, allowing granular control over AI agent capabilities, alongside new platform variant support for package publishing.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Introduces agent skill management for packages, allowing per-skill approval and linking.
+- Skills are now linked by name alone, with conflict resolution for duplicate names.
+- `pnpm approve` now prompts for specific skills and agent directories to link.
+- Supports nested agent skills up to three levels deep.
+- Adds platform variant support for `pnpm pack` and `pnpm publish` for pnpr registries.
+- `pnpm pack --json` now prints integrity and size for all archives.
+- Optimizes repeat installs and `verifyDepsBeforeRun` by avoiding unnecessary `package.json` reads.
+
+## Our Commentary
+
+This is a fascinating direction for a package manager. The integration of "agent skills" feels like a glimpse into a future where our build tools are deeply intertwined with AI agents. I'm genuinely curious how this will play out. The platform variants are a solid DX win too.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v12.18.0]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pnpr 0.1.0-alpha.18: SQL Metadata & Transparency Logs]]></title>
+        <id>https://digestweb.dev/articles/2026-11-05/pnpr-0-1-alpha-18-sql-metadata-transparency-logs</id>
+        <link href="https://digestweb.dev/articles/2026-11-05/pnpr-0-1-alpha-18-sql-metadata-transparency-logs"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/bb13c801c9cfdd58dc208acfd65029eadea507f6e54696bcb55f755bcde766d5/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.18" type="image/18"/>
+        <updated>2026-11-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This alpha release of pnpr overhauls metadata storage to SQL databases, introduces transparency logs for releases, and supports platform variants for packages.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Overhauls metadata storage to use SQLite or shared libSQL databases, removing the documents backend.
+- Requires republishing packages for stores that previously used the documents backend.
+- Introduces transparency logs for release records, tracking who moved dist-tags and when.
+- Supports publishing and accepting packages with platform variants.
+- Refuses changes to published npm version manifests and never accepts unpublished versions again.
+- Adds `pnpr-generation` header to hosted npm package responses for atomic publishes.
+- Records each publish as a publication, accessible via a dedicated endpoint.
+
+## Our Commentary
+
+Moving a package registry's metadata to SQL is a pretty big architectural shift, even for an alpha. The transparency logs are a smart move for security and accountability. I'm always a little wary of alpha releases that break compatibility, but the benefits here seem to outweigh the initial friction. This feels like a solid foundation for future registry features.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.18]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Streamline Data Access Testing with Testcontainers & Vitest]]></title>
+        <id>https://digestweb.dev/articles/2026-11-04/data-access-testing-testcontainers-vitest</id>
+        <link href="https://digestweb.dev/articles/2026-11-04/data-access-testing-testcontainers-vitest"/>
+        <link rel="enclosure" href="https://blog.master.dev/wp-json/social-image-generator/v1/image/11703" type="image//wp-json/social-image-generator/v1/image/11703"/>
+        <updated>2026-11-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn how to effectively test data access code by spinning up throwaway databases like Postgres with Docker and Testcontainers within your Vitest suite.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Addresses the challenge of testing data access code efficiently.
+- Proposes using Docker and `@testcontainers` to create isolated database instances.
+- Demonstrates spinning up a throwaway Postgres database within a Vitest suite.
+- Explains how to apply Drizzle schema to the temporary database.
+- Enables verification of real insert and query code round-trips.
+- Improves the speed and isolation of data access unit tests.
+
+## Our Commentary
+
+Data access testing has always been a pain point. This approach using Testcontainers and Docker to spin up ephemeral databases is a game-changer for developer experience. It means faster, more reliable tests without the headache of shared test environments. I've seen this pattern gain traction, and it's genuinely exciting to see it applied so cleanly with modern tools like Vitest and Drizzle.
+
+Original Link: https://blog.master.dev/data-access-testing-with-testcontainers/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datasette-llm 0.1a10 Fixes LLM Model Restriction Bug]]></title>
+        <id>https://digestweb.dev/articles/2026-11-04/datasette-llm-0-1a10-bug-fix</id>
+        <link href="https://digestweb.dev/articles/2026-11-04/datasette-llm-0-1a10-bug-fix"/>
+        <link rel="enclosure" href="https://picsum.photos/id/281/800/450" type="image//id/281/800/450"/>
+        <updated>2026-11-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[datasette-llm 0.1a10 is released, addressing a bug that prevented correct restriction of available LLM models in its configuration.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- datasette-llm 0.1a10 has been released.
+- It fixes a bug in the `agent.datasette.io` demo site.
+- The bug involved incorrect restriction of available LLM models.
+- Models were not correctly limited to those specified in the configuration.
+
+## Our Commentary
+
+Simon Willison's work with Datasette and LLMs is always interesting. This is a minor bug fix, but it highlights the ongoing refinement needed for tools integrating with LLMs, especially around configuration and model access. It's a reminder that even powerful AI needs careful plumbing.
+
+Original Link: https://simonwillison.net/2026/Nov/4/datasette-llm/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Acquires Pierre Computer Company to Enhance Codex]]></title>
+        <id>https://digestweb.dev/articles/2026-11-04/openai-acquires-pierre-computer-company-codex</id>
+        <link href="https://digestweb.dev/articles/2026-11-04/openai-acquires-pierre-computer-company-codex"/>
+        <link rel="enclosure" href="https://picsum.photos/id/749/800/450" type="image//id/749/800/450"/>
+        <updated>2026-11-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI announces the acquisition of Pierre Computer Company, aiming to expand Codex's capabilities for code building, understanding, and review.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI is acquiring Pierre Computer Company, Inc.
+- The acquisition aims to expand the capabilities of OpenAI's Codex.
+- Focus areas include tools for building code.
+- Also targets enhancing code understanding.
+- The acquisition will improve code review processes.
+
+## Our Commentary
+
+Another acquisition from OpenAI. This one, focused on code tools for Codex, feels like a direct play to strengthen their developer offerings. I wonder if this means we'll see more sophisticated code generation or debugging features integrated directly into their platforms. It's a smart move to consolidate talent and tech in this rapidly evolving space.
+
+Original Link: https://openai.com/index/openai-to-acquire-pierre]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI AI Pipeline Autonomously Patches 948 Linux Kernel Vulnerabilities]]></title>
+        <id>https://digestweb.dev/articles/2026-11-04/openai-ai-pipeline-patches-linux-kernel-vulnerabilities</id>
+        <link href="https://digestweb.dev/articles/2026-11-04/openai-ai-pipeline-patches-linux-kernel-vulnerabilities"/>
+        <link rel="enclosure" href="https://picsum.photos/id/396/800/450" type="image//id/396/800/450"/>
+        <updated>2026-11-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI developed an autonomous AI pipeline that successfully identified, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI developed an autonomous pipeline for vulnerability management.
+- The pipeline found 948 local privilege-escalation vulnerabilities.
+- It validated these vulnerabilities within the Linux kernel.
+- The system also generated patches for all identified issues.
+- This demonstrates AI's capability in automated security and software development.
+
+## Our Commentary
+
+This is genuinely mind-blowing. An AI pipeline finding, validating, _and patching_ nearly a thousand Linux kernel vulnerabilities? That's not just a big deal; it's a paradigm shift. We've talked about AI assisting developers, but this is AI _doing_ development and security work at a scale and speed humans can't match. I'm thrilled by the potential for more secure software, but there's something unsettling about agents churning away at 3am while nobody's watching. What happens when it makes a mistake?
+
+Original Link: https://openai.com/index/a-thousand-fewer-paths-to-root]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI's Daybreak Red with GPT-5.6 Cyber Lands in AWS GovCloud]]></title>
+        <id>https://digestweb.dev/articles/2026-11-04/openai-daybreak-red-gpt-5-6-cyber-aws-govcloud</id>
+        <link href="https://digestweb.dev/articles/2026-11-04/openai-daybreak-red-gpt-5-6-cyber-aws-govcloud"/>
+        <link rel="enclosure" href="https://picsum.photos/id/249/800/450" type="image//id/249/800/450"/>
+        <updated>2026-11-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI's Daybreak Red, featuring GPT-5.6 Cyber, is now available to approved customers in AWS GovCloud (US-East) via Amazon Bedrock for cybersecurity tasks.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Daybreak Red is now accessible in AWS GovCloud (US-East).
+- It features the GPT-5.6 Cyber model.
+- Availability is for approved customers only.
+- Access is provided through Amazon Bedrock.
+- The service is intended for authorized cybersecurity work.
+
+## Our Commentary
+
+GPT-5.6 Cyber in GovCloud is a very specific release. It's interesting to see OpenAI pushing into these highly regulated environments with specialized models. It shows a clear strategy to capture enterprise and government contracts, but it also makes me wonder about the specific capabilities of a "Cyber" variant of GPT. What exactly does it do differently?
+
+Original Link: https://openai.com/index/daybreak-red-aws-govcloud]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Nuxt v4.6.4: Critical Security Fixes & Key Behavior Changes]]></title>
         <id>https://digestweb.dev/articles/2026-11-03/nuxt-v4-6-4-critical-security-fixes-behavior-changes</id>
