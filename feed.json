@@ -68,6 +68,15 @@
             "date_modified": "2026-11-06T00:00:00.000Z"
         },
         {
+            "id": "https://digestweb.dev/articles/2026-11-06/open-asr-leaderboard-egyptian-nigerian-english",
+            "content_html": "## Summary & Key Takeaways\n\n- Hugging Face's Open ASR Leaderboard now includes models for Egyptian and Nigerian English.\n- This expands the linguistic diversity and coverage of the leaderboard.\n- It highlights ongoing progress in automatic speech recognition for various dialects.\n- Researchers and developers can now benchmark these specific language models.\n\n## Our Commentary\n\nIt's always good to see more linguistic diversity in AI models. These specific additions to the ASR leaderboard are a step in the right direction. We need more of this, honestly. The world is bigger than just a few dominant languages.\n\nOriginal Link: https://huggingface.co/blog/open-asr-leaderboard-liva",
+            "url": "https://digestweb.dev/articles/2026-11-06/open-asr-leaderboard-egyptian-nigerian-english",
+            "title": "Egyptian and Nigerian English Join Open ASR Leaderboard",
+            "summary": "Hugging Face announces the addition of Egyptian and Nigerian English models to the Open ASR Leaderboard, expanding language support.",
+            "image": "https://huggingface.co/blog/assets/open-asr-leaderboard-liva/thumbnail.png",
+            "date_modified": "2026-11-06T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-11-06/openai-hacktron-vulnerability-testing",
             "content_html": "## Summary & Key Takeaways\n\n- OpenAI is collaborating with Hacktron, a security firm.\n- The partnership aims to find vulnerabilities in OpenAI's systems.\n- Testing will include connections with third-party services.\n- The goal is to strengthen defenses for frontier AI.\n\n## Our Commentary\n\nIt's good to see OpenAI taking security seriously, but this feels like a standard corporate announcement. Every major tech company should be doing this. It's not groundbreaking, just necessary. I'm always a bit wary when these things are announced; it makes me wonder what prompted the public statement.\n\nOriginal Link: https://openai.com/index/partnering-with-hacktron",
             "url": "https://digestweb.dev/articles/2026-11-06/openai-hacktron-vulnerability-testing",
@@ -75,6 +84,87 @@
             "summary": "OpenAI announces a partnership with Hacktron to identify and address vulnerabilities, test third-party connections, and enhance the security of its frontier AI systems.",
             "image": "https://picsum.photos/id/528/800/450",
             "date_modified": "2026-11-06T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-05/accessible-llm-chat-experiences",
+            "content_html": "## Summary & Key Takeaways\n\n- The article addresses the growing need for accessible LLM chat experiences.\n- Eric Bailey provides practical methods to improve these interfaces.\n- It focuses on making chat-based web experiences usable for assistive technology users.\n- The goal is to ensure everyone can access information and tools offered by LLMs.\n\n## Our Commentary\n\nThis is a critical piece. LLM chat interfaces are popping up everywhere, and if we don't bake in accessibility from the start, we're just creating new barriers. Eric Bailey's insights are always spot-on, and this article feels incredibly timely. We need to be thinking about this now, not as an afterthought. It's not just about compliance; it's about fundamental human access.\n\nOriginal Link: https://smashingmagazine.com/2026/11/making-immersive-llm-chat-experiences-more-accessible/",
+            "url": "https://digestweb.dev/articles/2026-11-05/accessible-llm-chat-experiences",
+            "title": "Making Immersive LLM Chat Experiences Accessible",
+            "summary": "Eric Bailey shares practical strategies to enhance the accessibility of LLM chat interfaces, ensuring they are usable for everyone, including those with assistive technology.",
+            "image": "https://files.smashing.media/articles/making-immersive-llm-chat-experiences-more-accessible/making-immersive-llm-chat-experiences-more-accessible.jpg",
+            "date_modified": "2026-11-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-05/coreweave-kubernetes-oidc-auth",
+            "content_html": "## Summary & Key Takeaways\n\n- The article details configuring CoreWeave Kubernetes Service for external OIDC authentication.\n- It explains how to use `kubelogin` for user sign-in.\n- Users can authenticate through providers like Google OAuth.\n- This enhances security and simplifies access management for Kubernetes clusters.\n\n## Our Commentary\n\nThis is super niche, but for anyone running Kubernetes on CoreWeave and needing federated auth, it's probably a lifesaver. I appreciate the specificity, but it's not something that's going to move the needle for most of our readers. Still, good to know it's out there.\n\nOriginal Link: https://wandb.ai/wandb_fc/brc-fe/reports/Federated-Authentication-to-CoreWeave-Kubernetes-with-an-External-OIDC-Provider--VmlldzoxODE0NDE2Nw",
+            "url": "https://digestweb.dev/articles/2026-11-05/coreweave-kubernetes-oidc-auth",
+            "title": "Federated Auth for CoreWeave Kubernetes with OIDC",
+            "summary": "A guide on configuring CoreWeave Kubernetes Service for external OIDC authentication, enabling kubectl users to sign in via Google OAuth or other identity providers.",
+            "image": "https://picsum.photos/id/917/800/450",
+            "date_modified": "2026-11-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-05/gemini-omni-1-2-flash-update",
+            "content_html": "## Summary & Key Takeaways\n\n- Google DeepMind has released Gemini Omni 1.2 Flash.\n- This updated model focuses on enhanced speed and cost-effectiveness.\n- It now supports processing significantly longer input clips.\n- These improvements make the LLM more practical for various applications.\n\n## Our Commentary\n\nFaster, cheaper, longer context? That's the holy trinity for LLMs right now. Gemini Flash getting these upgrades is a solid win for developers. It means more complex tasks become feasible without breaking the bank or hitting context limits. I'm genuinely excited about the practical implications here.\n\nOriginal Link: https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+            "url": "https://digestweb.dev/articles/2026-11-05/gemini-omni-1-2-flash-update",
+            "title": "Gemini Omni 1.2 Flash: Faster, Cheaper, Longer Context",
+            "summary": "Google DeepMind announces Gemini Omni 1.2 Flash, an updated LLM offering improved speed, cost-effectiveness, and support for longer input clips.",
+            "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.width-1300.png",
+            "date_modified": "2026-11-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-05/github-accessibility-statements-home",
+            "content_html": "## Summary & Key Takeaways\n\n- GitHub now officially recognizes and highlights ACCESSIBILITY.md files in repositories.\n- This feature helps maintainers document accessibility goals and known barriers.\n- It provides a standardized way to communicate supported environments and contributor expectations.\n- The initiative aims to foster more inclusive development practices across the platform.\n\n## Our Commentary\n\nThis is a fantastic move. We've been advocating for better accessibility documentation for ages, and GitHub giving it a dedicated home is a huge win. It's not just about compliance; it's about making the web truly for everyone. I hope this encourages more projects to prioritize accessibility from the start.\n\nOriginal Link: https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/",
+            "url": "https://digestweb.dev/articles/2026-11-05/github-accessibility-statements-home",
+            "title": "GitHub Now Highlights Accessibility Statements",
+            "summary": "GitHub introduces official support for ACCESSIBILITY.md files, helping maintainers document and communicate their accessibility goals and known barriers.",
+            "image": "https://github.blog/wp-content/uploads/2026/11/656823335-947f6f10-c9af-4a85-b9b8-72dfcce66825.png",
+            "date_modified": "2026-11-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-05/github-new-git-storage-architecture",
+            "content_html": "## Summary & Key Takeaways\n\n- GitHub's new Git storage architecture supports thousands of concurrent pushes to a single repository.\n- The article explains the underlying engineering principles and optimizations.\n- This re-architecture addresses challenges of scale for large, active projects.\n- It aims to improve reliability and performance for Git operations on GitHub.\n\n## Our Commentary\n\nThis is a fascinating look under the hood. We often take GitHub's reliability for granted, but seeing the sheer engineering effort to support such scale is genuinely impressive. Thousands of agents pushing at once? That's a problem I don't want to solve, but I'm glad someone did.\n\nOriginal Link: https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+            "url": "https://digestweb.dev/articles/2026-11-05/github-new-git-storage-architecture",
+            "title": "Inside GitHub's New Git Storage Architecture",
+            "summary": "GitHub details its re-engineered Git storage, designed to handle thousands of concurrent pushes to a single repository. Learn how they scaled their infrastructure.",
+            "image": "https://github.blog/wp-content/uploads/2026/01/4ba0cd42388a255e04c78e5143548f22e577d68e0f15f68e6a3c76c18b927981-1920x1080-1.png",
+            "date_modified": "2026-11-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-05/microsoft-pdd-kit-ai-code-verification",
+            "content_html": "## Summary & Key Takeaways\n\n- Microsoft Research developed PDD Kit for formally verifying AI-generated code.\n- It addresses the challenge of reviewing large volumes of agent-written code.\n- PDD Kit converts developer intent into formal Verus specifications.\n- It proves AI-generated code meets specifications for all inputs.\n- The kit uses traditional tests when formal proofs are impractical.\n- Developers can focus on reviewing intent rather than every line of code.\n\n## Our Commentary\n\nThis is a headline-level piece, no doubt. The idea of formally verifying AI-generated code is absolutely critical. I mean, we're already struggling to trust human-written code, let alone what an agent churns out at 3 AM. PDD Kit sounds like a crucial step towards building actual trust in AI-assisted development. I genuinely don't know how we'd scale AI code generation without something like this. It's a paradigm shift in how we might approach code quality and security in an AI-first world.\n\nOriginal Link: https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/",
+            "url": "https://digestweb.dev/articles/2026-11-05/microsoft-pdd-kit-ai-code-verification",
+            "title": "Formally Verifying AI-Written Web Apps with PDD Kit",
+            "summary": "Microsoft Research unveils PDD Kit, a tool for formally verifying agent-written full-stack web applications, ensuring AI-generated code meets developer intent.",
+            "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/10/PDDKitRecap-TWLIFB-1200x627-1.jpg",
+            "date_modified": "2026-11-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-05/nodejs-27-alpha-v8-changes",
+            "content_html": "## Summary & Key Takeaways\n\n- The article outlines key V8 engine updates in Node.js 27 Alpha.\n- These changes may bring performance improvements and new JavaScript features.\n- It provides insights into the future direction of Node.js development.\n- Developers can anticipate upcoming language and runtime capabilities.\n\n## Our Commentary\n\nAn alpha release, so we're still in the 'wait and see' phase. V8 updates are always interesting, but I'm not going to lose sleep over changes that might not even make it to a stable release. It's good to keep an eye on, though, for what's coming down the pipeline.\n\nOriginal Link: https://nodejs.org/en/blog/announcements/notable-v8-changes-from-node-js-26-to-27-alpha",
+            "url": "https://digestweb.dev/articles/2026-11-05/nodejs-27-alpha-v8-changes",
+            "title": "Notable V8 Changes in Node.js 27 Alpha",
+            "summary": "A look at the significant V8 engine updates integrated into the alpha release of Node.js version 27, detailing potential performance and feature enhancements.",
+            "image": "https://nodejs.org/en/next-data/og/announcements/Node.js%20%E2%80%94%20Notable%20V8%20changes%20from%20Node.js%2026%20to%2027%20(Alpha)",
+            "date_modified": "2026-11-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-05/nvidia-cosmos-3-open-models-world-simulation",
+            "content_html": "## Summary & Key Takeaways\n\n- NVIDIA has released new open models as part of its Cosmos 3 initiative.\n- These models are specifically designed for interactive world simulation.\n- They aim to advance AI capabilities in virtual environments and robotics.\n- The release provides new tools for researchers and developers in this field.\n\n## Our Commentary\n\nNVIDIA dropping new open models for interactive world simulation? That's a big deal for anyone dabbling in virtual environments or robotics. The potential here for more realistic training grounds for AI agents is huge. I'm curious to see what people build with these.\n\nOriginal Link: https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+            "url": "https://digestweb.dev/articles/2026-11-05/nvidia-cosmos-3-open-models-world-simulation",
+            "title": "NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+            "summary": "NVIDIA introduces new open models under the Cosmos 3 initiative, designed to enhance interactive world simulation capabilities for AI applications.",
+            "image": "https://cdn-uploads.huggingface.co/production/uploads/677c471f8b4c4e271e57eaa5/rtmGVvFdD6JqkjBc26vsp.png",
+            "date_modified": "2026-11-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-05/playwright-1-65-bun-support-test-locks",
+            "content_html": "## Summary & Key Takeaways\n\n- Playwright v1.65.0 introduces experimental support for running tests with Bun.\n- A new 'failures' reporter prints failures and successful retries as they occur.\n- HTML, JSON, and JUnit reporters now support an `onlyFailures` option.\n- A built-in `-exclusive-` test lock allows a single test to run without parallel interference.\n- `test.skip()`, `test.fixme()`, `test.fail()`, and `test.slow()` now accept only a description.\n- A new `PLAYWRIGHT_TRANSFORM_CACHE_DIR` environment variable is available.\n\n## Our Commentary\n\nBun support in Playwright is a big deal, even if it's experimental. The testing landscape is getting wild with all these runtimes. I'm also really digging the new failures reporter; it's a small quality-of-life improvement that makes a huge difference when debugging. The exclusive test lock is a clever addition for those tricky integration scenarios.\n\nOriginal Link: https://github.com/microsoft/playwright/releases/tag/v1.65.0",
+            "url": "https://digestweb.dev/articles/2026-11-05/playwright-1-65-bun-support-test-locks",
+            "title": "Playwright 1.65.0: Bun Support, New Reporters, and Test Locks",
+            "summary": "Playwright v1.65.0 ships with experimental Bun support, a new failures reporter, and an exclusive test lock feature, enhancing testing workflows.",
+            "image": "https://opengraph.githubassets.com/85ab305e1d07ea03f9b0ce65822872acd339850d1a126e872fec04d9a7de9034/microsoft/playwright/releases/tag/v1.65.0",
+            "date_modified": "2026-11-05T00:00:00.000Z"
         },
         {
             "id": "https://digestweb.dev/articles/2026-11-05/pnpm-12-18-agent-skills-platform-variants",
@@ -92,6 +182,15 @@
             "title": "pnpr 0.1.0-alpha.18: SQL Metadata & Transparency Logs",
             "summary": "This alpha release of pnpr overhauls metadata storage to SQL databases, introduces transparency logs for releases, and supports platform variants for packages.",
             "image": "https://opengraph.githubassets.com/bb13c801c9cfdd58dc208acfd65029eadea507f6e54696bcb55f755bcde766d5/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.18",
+            "date_modified": "2026-11-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-05/taming-typography-modern-css-reset",
+            "content_html": "## Summary & Key Takeaways\n\n- Stu created `tidy-typography.css`, a new CSS reset.\n- It utilizes modern CSS features for enhanced typography control.\n- The reset addresses fluid typography and vertical rhythm.\n- It also incorporates support for hyphens and variable fonts.\n- This tool aims to simplify consistent and responsive typographic styling.\n\n## Our Commentary\n\nAnother CSS reset? My initial reaction was 'do we really need another one?' But Stu's `tidy-typography.css` actually looks pretty thoughtful, especially with its focus on modern CSS features like fluid typography. It's a good resource for anyone trying to get a handle on consistent, responsive type. I appreciate the effort to bring these concepts together.\n\nOriginal Link: https://css-tricks.com/taming-typography-modern-css-reset/",
+            "url": "https://digestweb.dev/articles/2026-11-05/taming-typography-modern-css-reset",
+            "title": "Taming Typography: A Modern CSS Reset for the Web",
+            "summary": "Explore 'tidy-typography.css,' a new CSS reset by Stu that leverages modern CSS features for fluid typography, vertical rhythm, and variable fonts.",
+            "image": "https://css-tricks.com/wp-content/uploads/2019/02/text-wrap.png",
             "date_modified": "2026-11-05T00:00:00.000Z"
         },
         {
