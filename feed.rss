@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Thu, 05 Nov 2026 07:44:52 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Nov 2026 06:51:49 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,151 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Agentic Engineering: Beyond Code Generation with GitHub Copilot]]></title>
+            <link>https://digestweb.dev/articles/2026-11-06/agentic-engineering-github-copilot-guide</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-06/agentic-engineering-github-copilot-guide</guid>
+            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[GitHub explores 'agentic engineering,' detailing how Copilot can assist developers across the entire software development lifecycle, from planning to production issue investigation.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- GitHub Copilot is evolving beyond just code generation.
+- The concept of 'agentic engineering' is introduced, where AI assists in broader development tasks.
+- Copilot can help with planning, writing code, reviewing changes, and investigating production issues.
+- The article guides developers on integrating AI agents into their workflow.
+- Human judgment remains crucial even with advanced AI assistance.
+
+## Our Commentary
+
+This 'agentic engineering' idea is fascinating, and a little unsettling. We're moving from AI as a helper to AI as a collaborator, or even an orchestrator. I wonder how much human oversight will truly be needed when agents are churning away at 3 AM. It feels like a step towards a future where the developer's role shifts dramatically, and I'm not sure we're all ready for it.
+
+Original Link: https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/]]></content:encoded>
+            <enclosure url="https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo-stripe.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Angular's Signal-First Architecture, Core Vitals, and SSR Deployments]]></title>
+            <link>https://digestweb.dev/articles/2026-11-06/angular-signal-first-architecture-core-vitals-ssr</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-06/angular-signal-first-architecture-core-vitals-ssr</guid>
+            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore Angular's latest advancements, focusing on performance optimization with Core Vitals, streamlined SSR deployments, and a fundamental shift to a signal-first architecture.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Angular is moving towards a signal-first architecture, impacting how reactivity is managed.
+- New optimizations are introduced to improve Core Web Vitals for Angular applications.
+- Enhancements for Server-Side Rendering (SSR) deployments are detailed.
+- These changes aim to boost application performance and developer experience.
+
+## Our Commentary
+
+This is a big one for Angular. The move to a signal-first architecture feels like a fundamental shift, and I'm curious how it will reshape development patterns. We've seen signals gain traction across frameworks, and Angular's deep dive here is a strong statement. The focus on Core Vitals and SSR is always welcome; performance is never a solved problem.
+
+Original Link: https://blog.angular.dev/core-vitals-optimization-ssr-deployments-and-signal-first-architecture-be82fd4a8c87?source=rss----447683c3d9a3---4]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/491/800/450" length="0" type="image//id/491/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Implementing Boolean Logic with `true` and `false` in CSS]]></title>
+            <link>https://digestweb.dev/articles/2026-11-06/css-boolean-logic-true-false-has</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-06/css-boolean-logic-true-false-has</guid>
+            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover how to introduce boolean-like behavior into CSS using custom properties with `true` and `false` keywords, combined with `:has()` and container style queries for cleaner conditional styling.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- CSS lacks a native boolean type but supports `true` and `false` keywords.
+- Custom properties can be registered to accept only these boolean-like keywords.
+- The `:has()` pseudo-class can be used to flip these custom properties.
+- Container style queries enable readable conditional styling based on these values.
+- This approach offers a cleaner alternative to messy `:checked` selector combinations.
+
+## Our Commentary
+
+This is a genuinely smart trick! I've often wished for more direct boolean logic in CSS, and this approach using custom properties and `:has()` is a fantastic workaround. It really shows how powerful modern CSS features are becoming, letting us write more expressive and maintainable styles. I'm definitely tucking this one away for future projects.
+
+Original Link: https://blog.master.dev/true-or-false-in-css/]]></content:encoded>
+            <enclosure url="https://blog.master.dev/wp-json/social-image-generator/v1/image/11742" length="0" type="image//wp-json/social-image-generator/v1/image/11742"/>
+        </item>
+        <item>
+            <title><![CDATA[ToyBlocks: A Controlled Environment for Robot Learning]]></title>
+            <link>https://digestweb.dev/articles/2026-11-06/huggingface-toyblocks-robot-learning</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-06/huggingface-toyblocks-robot-learning</guid>
+            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hugging Face introduces ToyBlocks, a new controlled world designed to facilitate and evaluate robot learning algorithms in a structured and reproducible environment.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Hugging Face has released ToyBlocks, a new research environment.
+- It provides a controlled world for robot learning.
+- The platform is designed for evaluating robot learning algorithms.
+- ToyBlocks aims to offer a structured and reproducible testing ground.
+
+## Our Commentary
+
+This is cool for robotics, but it's pretty far removed from what most of us are doing day-to-day. It's a reminder of how diverse the AI field is, stretching far beyond LLMs and code generation. I always appreciate these glimpses into specialized AI research.
+
+Original Link: https://huggingface.co/blog/allenai/toyblocks]]></content:encoded>
+            <enclosure url="https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/OAJMu2jr7i5jVAbmsKdZW.jpeg" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Nilay Patel: AI Products Are "Slop" and Not Worth the Cost]]></title>
+            <link>https://digestweb.dev/articles/2026-11-06/nilay-patel-ai-products-slop-critique</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-06/nilay-patel-ai-products-slop-critique</guid>
+            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison quotes Nilay Patel's scathing critique of the AI industry, arguing that current AI products are "slop," too costly, and fail to deliver tangible benefits to users.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Nilay Patel criticizes current AI products as not being good enough to justify their costs.
+- He refers to AI overviews and deep fake content as "hilarious deep fake slop."
+- Patel questions the reality and utility of AI agents in their current state.
+- He argues that AI companies are spending more than they're making on these products.
+- The industry needs to create products that demonstrably improve users' lives.
+
+## Our Commentary
+
+Nilay Patel absolutely nails it here. "Slop" is the perfect word for so much of what we're seeing. I've been feeling this disconnect between the hype and the actual utility for a while now. It's refreshing to hear someone articulate the frustration so clearly. We need real value, not just more data center hum and questionable deep fakes.
+
+Original Link: https://simonwillison.net/2026/Nov/6/nilay-patel/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/817/800/450" length="0" type="image//id/817/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Defining the 'Agent Harness' in AI Systems]]></title>
+            <link>https://digestweb.dev/articles/2026-11-06/nngroup-agent-harness-definition</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-06/nngroup-agent-harness-definition</guid>
+            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Nielsen Norman Group defines an "agent harness" as the software loop that manages interactions between an AI model and its tools, controlling context, permissions, and user capabilities.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- An "agent harness" is a software component in AI systems.
+- It manages the loop between an AI model and its associated tools.
+- The harness defines the context in which the AI operates.
+- It also sets permissions and limits on what users can do with the agent.
+- This concept is crucial for understanding the control and capabilities of AI agents.
+
+## Our Commentary
+
+This definition of an "agent harness" is really helpful, especially when we're talking about "agentic engineering." It clarifies the underlying mechanism that controls these AI systems. It's a good reminder that even autonomous-sounding agents still operate within defined boundaries, which is both reassuring and a little concerning depending on who sets those boundaries.
+
+Original Link: https://www.nngroup.com/articles/agent-harness/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication]]></content:encoded>
+            <enclosure url="https://media.nngroup.com/media/articles/opengraph_images/Agent-Harness_socialcard.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Partners with Hacktron for System Vulnerability Testing]]></title>
+            <link>https://digestweb.dev/articles/2026-11-06/openai-hacktron-vulnerability-testing</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-06/openai-hacktron-vulnerability-testing</guid>
+            <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI announces a partnership with Hacktron to identify and address vulnerabilities, test third-party connections, and enhance the security of its frontier AI systems.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI is collaborating with Hacktron, a security firm.
+- The partnership aims to find vulnerabilities in OpenAI's systems.
+- Testing will include connections with third-party services.
+- The goal is to strengthen defenses for frontier AI.
+
+## Our Commentary
+
+It's good to see OpenAI taking security seriously, but this feels like a standard corporate announcement. Every major tech company should be doing this. It's not groundbreaking, just necessary. I'm always a bit wary when these things are announced; it makes me wonder what prompted the public statement.
+
+Original Link: https://openai.com/index/partnering-with-hacktron]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/528/800/450" length="0" type="image//id/528/800/450"/>
+        </item>
         <item>
             <title><![CDATA[pnpm 12.18: Agent Skills & Platform Variants for Packages]]></title>
             <link>https://digestweb.dev/articles/2026-11-05/pnpm-12-18-agent-skills-platform-variants</link>
