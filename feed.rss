@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Sat, 07 Nov 2026 13:47:01 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 08 Nov 2026 06:58:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,47 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Firefox Prefetching Bug: Datasette Fixes Unnecessary HTTP Link Headers]]></title>
+            <link>https://digestweb.dev/articles/2026-11-07/firefox-prefetching-bug-datasette-fixes-unnecessary-http-link-headers</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-07/firefox-prefetching-bug-datasette-fixes-unnecessary-http-link-headers</guid>
+            <pubDate>Sat, 07 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A deep dive into a 24-year-old Firefox bug causing unnecessary HTTP prefetching and how Datasette implemented a fix.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Firefox has a 24-year-old bug that causes it to prefetch `rel="next"` links in HTTP headers for HTML pages.
+- This behavior leads to browsers fetching unnecessary data and servers rendering pages that are often discarded.
+- Simon Willison discovered Datasette was affected and implemented a conditional fix to prevent serving these headers to Firefox.
+- The issue was first documented by Willison himself in 2002, a detail he had completely forgotten.
+
+## Our Commentary
+
+I'm genuinely fascinated by how these ancient browser quirks resurface. A 24-year-old bug! And Simon Willison, the original reporter, had forgotten about it entirely. It's a stark reminder of the web's long memory and how small, seemingly innocuous details can impact performance. We often chase the shiny new APIs, but sometimes the biggest wins are in fixing these long-standing, subtle inefficiencies. It makes me wonder what other forgotten 'features' are out there, quietly consuming resources.
+
+Original Link: https://simonwillison.net/2026/Nov/7/link-rel-next/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/759/800/450" length="0" type="image//id/759/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[WebMCP: A New Web Standard for Model Context APIs Emerges]]></title>
+            <link>https://digestweb.dev/articles/2026-11-07/webmcp-new-web-standard-model-context-apis-emerges</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-07/webmcp-new-web-standard-model-context-apis-emerges</guid>
+            <pubDate>Sat, 07 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore WebMCP, a new web standard introducing APIs like `document.modelContext`, with CodePen already implementing it conditionally.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- WebMCP is a new web technology introducing browser APIs like `document.modelContext`.
+- It is currently undergoing the web standardization process.
+- CodePen has already begun conditionally implementing WebMCP for browsers that support it.
+- The article suggests this technology is a significant development for the web platform.
+
+## Our Commentary
+
+New browser APIs are always exciting, and `document.modelContext` sounds like it could be a big one. The fact that CodePen is already on board, even conditionally, tells me this isn't just a theoretical proposal; it's gaining traction. We're always looking for ways to make web development more intuitive, and new standards like this could really streamline how we interact with the DOM's underlying data models. I'm eager to see what problems WebMCP aims to solve and how it will integrate with existing frameworks. This feels like a quiet but important step forward.
+
+Original Link: https://blog.codepen.io/2026/11/07/447-webmcp-rules-and-we-already-have-it/]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/295/800/450" length="0" type="image//id/295/800/450"/>
+        </item>
         <item>
             <title><![CDATA[Agentic Engineering: Beyond Code Generation with GitHub Copilot]]></title>
             <link>https://digestweb.dev/articles/2026-11-06/agentic-engineering-github-copilot-guide</link>

@@ -11,6 +11,27 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-11-07/firefox-prefetching-bug-datasette-fixes-unnecessary-http-link-headers",
+            "content_html": "## Summary & Key Takeaways\n\n- Firefox has a 24-year-old bug that causes it to prefetch `rel=\"next\"` links in HTTP headers for HTML pages.\n- This behavior leads to browsers fetching unnecessary data and servers rendering pages that are often discarded.\n- Simon Willison discovered Datasette was affected and implemented a conditional fix to prevent serving these headers to Firefox.\n- The issue was first documented by Willison himself in 2002, a detail he had completely forgotten.\n\n## Our Commentary\n\nI'm genuinely fascinated by how these ancient browser quirks resurface. A 24-year-old bug! And Simon Willison, the original reporter, had forgotten about it entirely. It's a stark reminder of the web's long memory and how small, seemingly innocuous details can impact performance. We often chase the shiny new APIs, but sometimes the biggest wins are in fixing these long-standing, subtle inefficiencies. It makes me wonder what other forgotten 'features' are out there, quietly consuming resources.\n\nOriginal Link: https://simonwillison.net/2026/Nov/7/link-rel-next/",
+            "url": "https://digestweb.dev/articles/2026-11-07/firefox-prefetching-bug-datasette-fixes-unnecessary-http-link-headers",
+            "title": "Firefox Prefetching Bug: Datasette Fixes Unnecessary HTTP Link Headers",
+            "summary": "A deep dive into a 24-year-old Firefox bug causing unnecessary HTTP prefetching and how Datasette implemented a fix.",
+            "image": "https://picsum.photos/id/759/800/450",
+            "date_modified": "2026-11-07T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-07/webmcp-new-web-standard-model-context-apis-emerges",
+            "content_html": "## Summary & Key Takeaways\n\n- WebMCP is a new web technology introducing browser APIs like `document.modelContext`.\n- It is currently undergoing the web standardization process.\n- CodePen has already begun conditionally implementing WebMCP for browsers that support it.\n- The article suggests this technology is a significant development for the web platform.\n\n## Our Commentary\n\nNew browser APIs are always exciting, and `document.modelContext` sounds like it could be a big one. The fact that CodePen is already on board, even conditionally, tells me this isn't just a theoretical proposal; it's gaining traction. We're always looking for ways to make web development more intuitive, and new standards like this could really streamline how we interact with the DOM's underlying data models. I'm eager to see what problems WebMCP aims to solve and how it will integrate with existing frameworks. This feels like a quiet but important step forward.\n\nOriginal Link: https://blog.codepen.io/2026/11/07/447-webmcp-rules-and-we-already-have-it/",
+            "url": "https://digestweb.dev/articles/2026-11-07/webmcp-new-web-standard-model-context-apis-emerges",
+            "title": "WebMCP: A New Web Standard for Model Context APIs Emerges",
+            "summary": "Explore WebMCP, a new web standard introducing APIs like `document.modelContext`, with CodePen already implementing it conditionally.",
+            "image": "https://picsum.photos/id/295/800/450",
+            "date_modified": "2026-11-07T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-11-06/agentic-engineering-github-copilot-guide",
             "content_html": "## Summary & Key Takeaways\n\n- GitHub Copilot is evolving beyond just code generation.\n- The concept of 'agentic engineering' is introduced, where AI assists in broader development tasks.\n- Copilot can help with planning, writing code, reviewing changes, and investigating production issues.\n- The article guides developers on integrating AI agents into their workflow.\n- Human judgment remains crucial even with advanced AI assistance.\n\n## Our Commentary\n\nThis 'agentic engineering' idea is fascinating, and a little unsettling. We're moving from AI as a helper to AI as a collaborator, or even an orchestrator. I wonder how much human oversight will truly be needed when agents are churning away at 3 AM. It feels like a step towards a future where the developer's role shifts dramatically, and I'm not sure we're all ready for it.\n\nOriginal Link: https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
             "url": "https://digestweb.dev/articles/2026-11-06/agentic-engineering-github-copilot-guide",
