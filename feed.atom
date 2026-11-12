@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-11-09T07:41:04.430Z</updated>
+    <updated>2026-11-12T07:59:47.506Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,370 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[pnpm 12.20: Bug Fixes, Security Update, and Experimental Lockfile Features]]></title>
+        <id>https://digestweb.dev/articles/2026-11-12/pnpm-12-20-bug-fixes-security-experimental-lockfile</id>
+        <link href="https://digestweb.dev/articles/2026-11-12/pnpm-12-20-bug-fixes-security-experimental-lockfile"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/370e23c7873caf70dc6e9247036de5809a065d904c8aa60655b04d779be2e8dd/pnpm/pnpm/releases/tag/v12.20.0" type="image/0"/>
+        <updated>2026-11-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[pnpm's latest release focuses on stability, addressing several bugs related to hoisted nodeLinker and peer dependencies. It also includes a security fix for the bundled node-gyp and introduces experimental v13 lockfile enhancements.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Fixes several bugs related to `nodeLinker: hoisted` and peer dependencies.
+- Addresses a security vulnerability in the bundled `node-gyp` by updating `undici`.
+- Introduces experimental v13 lockfile features to record local directory dependency specifiers.
+- Improves handling of version-selector overrides for catalog and workspace dependencies.
+- Enhances `pnpm dedupe` to better manage locked runtime versions and Node.js ranges.
+
+## Our Commentary
+
+We appreciate the continuous bug fixes and security updates from the pnpm team. The experimental v13 lockfile changes are interesting; I'm curious to see how they evolve. It's good to see them addressing the `undici` security flag.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v12.20.0]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AlphaGenome 2: AI Deciphers DNA to Understand Disease]]></title>
+        <id>https://digestweb.dev/articles/2026-11-11/alphagenome-2-ai-deciphers-dna-disease</id>
+        <link href="https://digestweb.dev/articles/2026-11-11/alphagenome-2-ai-deciphers-dna-disease"/>
+        <link rel="enclosure" href="https://picsum.photos/id/143/800/450" type="image//id/143/800/450"/>
+        <updated>2026-11-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Google DeepMind's AlphaGenome 2 aims to predict how DNA sequences and their variations influence human cell types and disease. This research could lead to a deeper understanding of genetic conditions.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- AlphaGenome 2 is a Google DeepMind project focused on bioinformatics.
+- It predicts the impact of DNA sequences and variations on human cell types.
+- The research aims to enhance understanding of various diseases.
+- This work could potentially lead to new insights into genetic conditions.
+
+## Our Commentary
+
+This is fascinating work, truly. The intersection of AI and biology is where some of the most profound breakthroughs are happening. While not directly web dev, the sheer power of AI applied to such complex problems is something we should all be watching. It makes me wonder what other scientific fields are on the cusp of similar AI-driven revolutions.
+
+Original Link: https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Anthropic Reveals Multi-Chip AI Strategy and Agent-Driven Porting]]></title>
+        <id>https://digestweb.dev/articles/2026-11-11/anthropic-multi-chip-ai-strategy-agent-porting</id>
+        <link href="https://digestweb.dev/articles/2026-11-11/anthropic-multi-chip-ai-strategy-agent-porting"/>
+        <link rel="enclosure" href="https://picsum.photos/id/613/800/450" type="image//id/613/800/450"/>
+        <updated>2026-11-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Anthropic's IPO roadshow video details their "unconventional bet" on a multi-chip strategy, training Claude across AWS, Google, NVIDIA, and AMD hardware. It also highlights an AI agent, Mythos, porting Claude to AMD GPUs in just three days.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Anthropic's IPO roadshow video revealed details about their business and technical approach.
+- They employ a multi-chip strategy, training and serving Claude across AWS, Google, NVIDIA, and AMD GPUs.
+- This approach requires tailored software and inference stacks for each chip family.
+- An AI agent named Mythos successfully ported Claude to AMD GPUs in three days.
+- Anthropic focuses on "compute multipliers" to increase total effective compute.
+- These multipliers allow for training more intelligent models with the same physical compute.
+
+## Our Commentary
+
+This is absolutely wild. Anthropic's multi-chip strategy is a bold move, and the idea of an AI agent, Mythos, porting Claude to a new GPU platform in _three days_ with "basically no human intervention" is mind-boggling. It makes me wonder about the future of engineering. Are we just going to be orchestrating AI agents soon? The concept of "compute multipliers" is also fascinating; it feels like a new frontier in efficiency.
+
+Original Link: https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AWS Releases Official Emulator for Local Service Testing]]></title>
+        <id>https://digestweb.dev/articles/2026-11-11/aws-emulator-official-local-testing-tool</id>
+        <link href="https://digestweb.dev/articles/2026-11-11/aws-emulator-official-local-testing-tool"/>
+        <link rel="enclosure" href="https://picsum.photos/id/150/800/450" type="image//id/150/800/450"/>
+        <updated>2026-11-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[AWS has launched an official emulator, `aws-emulator`, enabling developers to test against local clones of AWS services. Written in Rust by AI agents, it currently requires Docker for macOS and Windows.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- AWS has released an official emulator for local testing of its services.
+- The `aws-emulator` allows developers to run tests without provisioning paid API keys.
+- It was developed in Rust by a large number of AI agents.
+- The emulator currently requires Docker to run on macOS or Windows.
+- This tool significantly improves the developer experience for AWS users.
+
+## Our Commentary
+
+An _official_ AWS emulator? This is huge for DX. No more spinning up resources just to test a lambda or S3 interaction locally. The fact that it was written by "a huge swarm of agents" is... something else. I genuinely don't know how to feel about agents churning away at 3am while nobody's watching, but the output is undeniably useful. I hope they make it a single binary soon, Docker is a bit of a hurdle for quick local tests.
+
+Original Link: https://simonwillison.net/2026/Nov/11/aws-emulator/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BotPsy: On-Device Agentic LLM for Personal Assistants]]></title>
+        <id>https://digestweb.dev/articles/2026-11-11/botpsy-on-device-agentic-llm-personal-assistant</id>
+        <link href="https://digestweb.dev/articles/2026-11-11/botpsy-on-device-agentic-llm-personal-assistant"/>
+        <link rel="enclosure" href="https://cdn-uploads.huggingface.co/production/uploads/6468b319b2321e47d3267049/Emr86qw6NAueYLdIEiTTD.png" type="image/png"/>
+        <updated>2026-11-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hugging Face introduces BotPsy, an on-device personal assistant powered by a sub-billion-parameter agentic language model. This research explores efficient AI for edge devices.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- BotPsy is an on-device personal assistant utilizing an agentic language model.
+- The model operates with a sub-billion-parameter count, emphasizing efficiency.
+- This research focuses on bringing advanced AI capabilities to edge devices.
+
+## Our Commentary
+
+On-device AI is where it's at for privacy and speed. A sub-billion-parameter agentic model for personal assistants? That's genuinely exciting. We're seeing a real push to make these powerful models run locally, which I think is a huge win for users. It feels like a step towards truly personal, private AI.
+
+Original Link: https://huggingface.co/blog/qvac/botpsy]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Claude Mythos 5.2 Now Available in Devin Security]]></title>
+        <id>https://digestweb.dev/articles/2026-11-11/claude-mythos-5-2-devin-security</id>
+        <link href="https://digestweb.dev/articles/2026-11-11/claude-mythos-5-2-devin-security"/>
+        <link rel="enclosure" href="https://devin.ai/images/blog/claude-mythos-5-2-security/cover-alt.png" type="image/png"/>
+        <updated>2026-11-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Claude Mythos 5.2 has been integrated into Devin Security, offering advanced cyber model access to customers of the platform.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Claude Mythos 5.2 is now accessible within the Devin Security platform.
+- This release provides customers with frontier cyber model capabilities.
+- Access is available to users with specific Devin subscriptions.
+
+## Our Commentary
+
+Another day, another specialized AI model release. Claude Mythos 5.2 in Devin Security sounds like a powerful tool for a very specific use case. It's a reminder of how quickly these models are being tailored for niche applications. I wonder what kind of "frontier cyber model access" this entails.
+
+Original Link: https://devin.ai/blog/claude-mythos-5-2-security]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Launches Gemini Decision 1: A New Multi-Modal AI Decision API]]></title>
+        <id>https://digestweb.dev/articles/2026-11-11/google-gemini-decision-1-multi-modal-ai-api</id>
+        <link href="https://digestweb.dev/articles/2026-11-11/google-gemini-decision-1-multi-modal-ai-api"/>
+        <link rel="enclosure" href="https://picsum.photos/id/377/800/450" type="image//id/377/800/450"/>
+        <updated>2026-11-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Google introduces Gemini Decision 1, a new multi-modal AI decision model API. It competes with Jev and OpenAI's offerings, supporting text, images, audio, video, and PDFs for various question types.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Google has launched "Gemini Decision 1," a new AI decision model API.
+- It directly competes with Jev and OpenAI's decision models.
+- Gemini Decision 1 is fully multi-modal, handling text, images, audio, video, and PDFs.
+- The API supports yes/no, choice, and rubric-scoring questions.
+- Pricing is competitive, positioned between Jev and OpenAI's Luna model.
+- Simon Willison tested its video analysis capabilities with promising results.
+
+## Our Commentary
+
+Okay, this is a big one. Google jumping into the decision model API space with a fully multi-modal offering is a serious move. The ability to process video, audio, and PDFs alongside text and images is a game-changer for many applications. I'm genuinely impressed by the multi-modal capabilities Simon demonstrated. It feels like the AI landscape is just getting started with these specialized models.
+
+Original Link: https://simonwillison.net/2026/Nov/11/gemini-decisions-api/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[llm 0.37.2 Fixes API Key Security Vulnerability]]></title>
+        <id>https://digestweb.dev/articles/2026-11-11/llm-0-37-2-security-fix-api-keys</id>
+        <link href="https://digestweb.dev/articles/2026-11-11/llm-0-37-2-security-fix-api-keys"/>
+        <link rel="enclosure" href="https://picsum.photos/id/916/800/450" type="image//id/916/800/450"/>
+        <updated>2026-11-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Version 0.37.2 of the `llm` tool addresses a security issue where OpenAI API keys could inadvertently be sent to third-party OpenAI-compatible API endpoints. Users are advised to update.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- `llm` version 0.37.2 has been released to fix a security vulnerability.
+- The issue involved potential leakage of OpenAI API keys to other providers.
+- This could occur when using `extra-openai-models.yaml` or specific model configurations.
+- The fix prevents API keys from being sent to unintended OpenAI-compatible endpoints.
+- Users of the `llm` tool are encouraged to update to this version.
+
+## Our Commentary
+
+Security fixes are always important, especially when API keys are involved. It's a good reminder that even well-intentioned features, like using OpenAI-compatible endpoints, can have unintended side effects if not carefully implemented. I appreciate the transparency in reporting this.
+
+Original Link: https://simonwillison.net/2026/Nov/11/llm/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Master Modern CSS for Dynamic Diagrams and Graphs]]></title>
+        <id>https://digestweb.dev/articles/2026-11-11/modern-css-dynamic-diagrams-graphs</id>
+        <link href="https://digestweb.dev/articles/2026-11-11/modern-css-dynamic-diagrams-graphs"/>
+        <link rel="enclosure" href="https://blog.master.dev/wp-json/social-image-generator/v1/image/11833" type="image//wp-json/social-image-generator/v1/image/11833"/>
+        <updated>2026-11-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This tutorial explores advanced modern CSS techniques, including anchor positioning, `border-shape`, `shape()`, and `if()`, to create dynamic and visually complex diagrams and graphs directly in the browser.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article is the final part of a series on CSS connectors.
+- It demonstrates creating dynamic connections that pick the closest sides.
+- Static connections that always leave from the same edge are also covered.
+- Techniques for bendy, zig-zag, and spring connectors are explained.
+- Key modern CSS features used include anchor positioning, `border-shape`, `shape()`, and `if()`.
+- The tutorial shows how to build complex visual elements purely with CSS.
+
+## Our Commentary
+
+This is exactly the kind of creative CSS usage we love to see. Using modern CSS features like anchor positioning and `border-shape` to build complex diagrams is incredibly powerful. It feels like we're constantly rediscovering what's possible with CSS, pushing the boundaries beyond just layout and styling. I'm excited to see what else people build with these capabilities.
+
+Original Link: https://blog.master.dev/creating-diagrams-and-graphs-using-modern-css/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Simon Willison Enhances Tools Site with Tag-Based Browsing]]></title>
+        <id>https://digestweb.dev/articles/2026-11-11/simon-willison-tools-site-tag-browsing</id>
+        <link href="https://digestweb.dev/articles/2026-11-11/simon-willison-tools-site-tag-browsing"/>
+        <link rel="enclosure" href="https://static.simonwillison.net/static/2026/tools-tag-cloud.webp" type="image/webp"/>
+        <updated>2026-11-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison updated his tools website, tools.simonwillison.net, to include tag clouds for browsing. He used Fable 5.2 credits and tree-sitter to analyze code for JavaScript APIs, libraries, and web API hosts.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison added tag clouds to his personal tools website.
+- The tags allow browsing tools by JavaScript APIs, libraries, and web API hosts.
+- He utilized Fable 5.2 credits for the implementation.
+- Tree-sitter was employed to analyze the code and extract relevant tags.
+- This improves discoverability for his collection of 244 "vibe-coded" tools.
+
+## Our Commentary
+
+Simon's tools site is always a treasure trove, and better navigation is a welcome addition. Using Fable credits and tree-sitter for code analysis to generate tags is a clever approach. It's a nice example of how AI-assisted tooling can enhance personal projects. I'm always curious about his "vibe-coded" tools.
+
+Original Link: https://simonwillison.net/2026/Nov/11/tools-tags/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS Modules: Cool Again with CodePen Support]]></title>
+        <id>https://digestweb.dev/articles/2026-11-10/css-modules-cool-again-codepen-support</id>
+        <link href="https://digestweb.dev/articles/2026-11-10/css-modules-cool-again-codepen-support"/>
+        <link rel="enclosure" href="https://picsum.photos/id/755/800/450" type="image//id/755/800/450"/>
+        <updated>2026-11-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CodePen now supports CSS Modules, an older CSS-in-JS technology, prompting a discussion on its renewed relevance and implementation challenges.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- CodePen has officially added support for CSS Modules.
+- CSS Modules are described as an older technology in the CSS-in-JS category.
+- The implementation required specific adjustments due to CodePen's code processing.
+- The article discusses the renewed interest and relevance of CSS Modules.
+
+## Our Commentary
+
+"CSS Modules is Cool Again." I love that title. It's true, sometimes older tech just needs the right context or tooling support to shine again. CodePen adding support is a big deal for accessibility and experimentation. I've always liked the idea of scoped CSS, and maybe this is the push it needs to become more mainstream again.
+
+Original Link: https://blog.codepen.io/2026/11/10/448-css-modules-is-cool-again/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS Optimization: Is UDJO Still Effective?]]></title>
+        <id>https://digestweb.dev/articles/2026-11-10/css-optimization-udjo-still-effective</id>
+        <link href="https://digestweb.dev/articles/2026-11-10/css-optimization-udjo-still-effective"/>
+        <link rel="enclosure" href="https://css-tricks.com/wp-content/uploads/2018/04/ellipses-brackets.jpg" type="image/jpg"/>
+        <updated>2026-11-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article from CSS-Tricks investigates whether the "Using Declarations Just Once" (UDJO) principle remains a relevant and effective CSS optimization strategy in modern web development.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article examines the "Using Declarations Just Once" (UDJO) CSS optimization technique.
+- It questions the current relevance of UDJO in modern web development.
+- UDJO aims to reduce or eliminate CSS declaration repetition, inspired by the DRY principle.
+- The piece evaluates its effectiveness as an optimization strategy today.
+
+## Our Commentary
+
+UDJO in CSS? That's a blast from the past. I remember trying to optimize CSS like crazy back in the day. It's a good question whether these older techniques still hold up with modern build tools and browser optimizations. I'm curious to see the findings. Sometimes the old ways are still the best, sometimes they're just... old.
+
+Original Link: https://css-tricks.com/css-using-declarations-just-once/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cursor Projects Introduces Multiplayer Collaboration]]></title>
+        <id>https://digestweb.dev/articles/2026-11-10/cursor-projects-multiplayer-collaboration</id>
+        <link href="https://digestweb.dev/articles/2026-11-10/cursor-projects-multiplayer-collaboration"/>
+        <link rel="enclosure" href="https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/projects-mp-UBYHzU2mlANxiKl3n44qnRePiRTOgt.jpg" type="image/jpg"/>
+        <updated>2026-11-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The AI-native IDE, Cursor, has launched multiplayer functionality for its Projects feature, enabling real-time collaborative coding. This enhances team development workflows.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Cursor, an AI-native IDE, now supports multiplayer collaboration in its Projects feature.
+- This update allows multiple developers to work together in real-time within the IDE.
+- The new functionality aims to streamline team-based development workflows.
+
+## Our Commentary
+
+Multiplayer in an AI-native IDE? That's a fascinating combination. I'm curious how the AI assistance integrates with multiple people editing simultaneously. Does it get confused? Does it become even smarter? This could be a game-changer for pair programming with AI. We'll have to see how it feels in practice.
+
+Original Link: https://cursor.com/blog/projects-multiplayer]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Git Addresses Six New Security Vulnerabilities]]></title>
+        <id>https://digestweb.dev/articles/2026-11-10/git-addresses-six-new-security-vulnerabilities</id>
+        <link href="https://digestweb.dev/articles/2026-11-10/git-addresses-six-new-security-vulnerabilities"/>
+        <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/01/generic-security-github-logo-blue.png" type="image/png"/>
+        <updated>2026-11-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Git has released updates to patch six security vulnerabilities impacting recursive clones, reference handling, merges, binary patches, and imports. Users are advised to update immediately.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Git has released updates to address six new security vulnerabilities.
+- The vulnerabilities affect recursive clones, reference handling, merges, binary patches, and imports.
+- Users are strongly advised to update their Git installations.
+
+## Our Commentary
+
+Security vulnerabilities in Git always make me a little nervous. It's such a core part of our workflow, and the idea of something going wrong with clones or merges is just... ugh. We really need to stay on top of these updates. It's a good reminder that even the most robust tools need constant vigilance.
+
+Original Link: https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google's Gemini 4 Carbon Now Generally Available]]></title>
+        <id>https://digestweb.dev/articles/2026-11-10/google-gemini-4-carbon-generally-available</id>
+        <link href="https://digestweb.dev/articles/2026-11-10/google-gemini-4-carbon-generally-available"/>
+        <link rel="enclosure" href="https://static.simonwillison.net/static/2026/carbon-pelican.webp" type="image/webp"/>
+        <updated>2026-11-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Google's most advanced Gemini model, Carbon, is now accessible to all, previously limited to cyber defenders. It offers competitive pricing, though a price increase is scheduled for December 1st.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Google's Gemini 4 Carbon model is now publicly available.
+- It was previously restricted to a subset of cyber defenders.
+- The model is priced at $2/million input and $10/million output at launch.
+- Prices are set to double to $4/$20 on December 1st.
+- Simon Willison demonstrates its capabilities, including 3D animation generation.
+
+## Our Commentary
+
+Gemini 4 Carbon is finally out for everyone! I've been waiting for this. The pricing is aggressive at launch, but that December 1st price hike is a bit of a gut punch. Still, seeing it generate a Three.js animation of a mech stomping around NYC is wild. The potential for creative coding with these models is just exploding. I'm excited to play with this.
+
+Original Link: https://simonwillison.net/2026/Nov/10/llm-gemini/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lazarus: Backdooring AI Agents by Reprogramming Dormant Neurons]]></title>
+        <id>https://digestweb.dev/articles/2026-11-10/lazarus-backdooring-ai-agents-dormant-neurons</id>
+        <link href="https://digestweb.dev/articles/2026-11-10/lazarus-backdooring-ai-agents-dormant-neurons"/>
+        <link rel="enclosure" href="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/MSR-BLG_LAZ_HERO.png" type="image/png"/>
+        <updated>2026-11-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft researchers discovered "Lazarus," a technique to reprogram dormant AI neurons, enabling malicious commands via hidden triggers. This poses a serious threat to AI agents with tool access.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Microsoft Research identified "Lazarus," a new AI backdoor technique.
+- It involves reprogramming dormant neurons within an AI model.
+- A hidden trigger can activate these reprogrammed neurons to execute malicious commands.
+- The threat is particularly severe for AI agents with tool or terminal access.
+
+## Our Commentary
+
+"Reprogramming dormant neurons to backdoor AI agents." That's a sentence that sends shivers down my spine. We're already grappling with AI safety, and now this? The idea of an AI agent quietly downloading and running attacker code is genuinely unsettling. This is the kind of research that makes me question the future of autonomous AI. We need to take this seriously.
+
+Original Link: https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My Picks for Interop 2027 Web Platform Features]]></title>
+        <id>https://digestweb.dev/articles/2026-11-10/my-interop-2027-web-platform-picks</id>
+        <link href="https://digestweb.dev/articles/2026-11-10/my-interop-2027-web-platform-picks"/>
+        <link rel="enclosure" href="https://blog.master.dev/wp-json/social-image-generator/v1/image/11517" type="image//wp-json/social-image-generator/v1/image/11517"/>
+        <updated>2026-11-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A Frontend Masters article shares personal selections for web platform features that developers hope to see achieve perfect cross-browser interoperability in Interop 2027.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article presents a personal list of desired web platform features.
+- These features are candidates for perfect cross-browser interoperability in Interop 2027.
+- It reflects common developer wishes for improved web standards.
+
+## Our Commentary
+
+Interop 2027 picks! This is always a fun read. It's like a developer's wish list to Santa, but for browser vendors. I always find myself nodding along to some of these. It's a good way to gauge what the community is really struggling with and what would make our lives so much easier. I'm curious what made their cut.
+
+Original Link: https://blog.master.dev/my-interop-2027-picks/]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SQLite Extension: C vs Rust Performance for Number Parsing]]></title>
         <id>https://digestweb.dev/articles/2026-11-08/sqlite-extension-c-vs-rust-number-parsing-performance</id>
