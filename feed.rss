@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Thu, 12 Nov 2026 07:59:47 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 14 Nov 2026 07:23:06 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,281 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[datasette-cluster-map 0.19 Updates for Datasette 1.0a42]]></title>
+            <link>https://digestweb.dev/articles/2026-11-13/datasette-cluster-map-0-19-update</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-13/datasette-cluster-map-0-19-update</guid>
+            <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[datasette-cluster-map, a long-standing Datasette plugin, receives an update to version 0.19, ensuring compatibility with Datasette 1.0a42 and improved OpenStreetMap integration.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- `datasette-cluster-map` has been updated to version 0.19.
+- The update ensures compatibility with Datasette 1.0a42.
+- It now depends on `datasette-leaflet` for proper OpenStreetMap tile requests.
+- The plugin is one of the oldest and most popular for Datasette.
+- It continues to provide geospatial visualization capabilities for Datasette data.
+
+## Our Commentary
+
+Simon Willison's work on Datasette and its ecosystem is always interesting. These minor updates, while not groundbreaking, show continuous refinement and compatibility efforts, which is important for long-term project health.
+
+Original Link: https://simonwillison.net/2026/Nov/13/datasette-cluster-map/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/195/800/450" length="0" type="image//id/195/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[datasette-leaflet 0.3 Fixes OpenStreetMap Referrer Policy]]></title>
+            <link>https://digestweb.dev/articles/2026-11-13/datasette-leaflet-0-3-referrer-policy-fix</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-13/datasette-leaflet-0-3-referrer-policy-fix</guid>
+            <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[datasette-leaflet, a core plugin for Datasette, updates to 0.3 to correctly handle OpenStreetMap's referrer policy, ensuring proper tile requests from embedded maps.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- `datasette-leaflet` version 0.3 addresses OpenStreetMap's referrer policy.
+- It now sets `Referrer-Policy: strict-origin-when-cross-origin` for tile requests.
+- This resolves issues where Datasette's default `no-referrer` policy violated OSM's terms.
+- The plugin bundles Leaflet for other Datasette plugins to use.
+- It ensures proper attribution and functionality for map visualizations.
+
+## Our Commentary
+
+It's a small but important fix for respecting external service policies. Details like referrer headers can easily be overlooked, so it's good to see the Datasette ecosystem being diligent about it.
+
+Original Link: https://simonwillison.net/2026/Nov/13/datasette-leaflet/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://picsum.photos/id/359/800/450" length="0" type="image//id/359/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Journey Mapping 101: Visualizing User Experiences]]></title>
+            <link>https://digestweb.dev/articles/2026-11-13/journey-mapping-101-ux-guide</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-13/journey-mapping-101-ux-guide</guid>
+            <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[NNGroup provides a foundational guide to journey mapping, explaining how this visualization tool helps understand the process a person undergoes to achieve a goal.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Journey mapping is defined as a visualization tool.
+- It illustrates the process a user follows to achieve a specific goal.
+- The guide covers the basics of creating and using journey maps.
+- It helps teams gain empathy and identify pain points in user experiences.
+- This is a fundamental concept in user experience design.
+
+## Our Commentary
+
+Journey mapping is a classic for a reason. It's a foundational UX tool that still holds immense value, especially when trying to understand complex user flows. A good refresher for anyone, even seasoned pros.
+
+Original Link: https://www.nngroup.com/articles/journey-mapping-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication]]></content:encoded>
+            <enclosure url="https://media.nngroup.com/media/articles/opengraph_images/Journey_Mapping_101.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[llama.cpp Reaches v1.0.0, Bolstering Local AI Ecosystem]]></title>
+            <link>https://digestweb.dev/articles/2026-11-13/llama-cpp-v1-local-ai-ecosystem</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-13/llama-cpp-v1-local-ai-ecosystem</guid>
+            <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The highly influential `llama.cpp` project releases its v1.0.0, marking a significant milestone that strengthens the foundation for running large language models locally.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- `llama.cpp` has officially released its v1.0.0 version.
+- This milestone provides a stronger foundation for local AI inference.
+- The project is crucial for running large language models efficiently on consumer hardware.
+- It enables broader accessibility and experimentation with LLMs.
+- The release signifies maturity and stability for this open-source initiative.
+
+## Our Commentary
+
+`llama.cpp` hitting v1.0.0 is a huge deal for the local AI community. This project has been absolutely instrumental in democratizing access to LLMs, letting us run powerful models on our own machines. It's a testament to open-source innovation, and I'm genuinely excited to see what comes next.
+
+Original Link: https://huggingface.co/blog/ggml-org/llama-cpp-v1]]></content:encoded>
+            <enclosure url="https://cdn-uploads.huggingface.co/production/uploads/63148d3b996c52bf0142cdbe/2PgU1GxpJX_LVORaP2RRy.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Unveils ChatGPT Wallet for Agent-Driven Purchases]]></title>
+            <link>https://digestweb.dev/articles/2026-11-13/openai-chatgpt-wallet-ai-purchases</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-13/openai-chatgpt-wallet-ai-purchases</guid>
+            <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI introduces ChatGPT Wallet, enabling AI agents in ChatGPT Work, Codex, and dots to securely complete purchases with user approval and existing card protections.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI has launched ChatGPT Wallet for its AI agents.
+- Agents in ChatGPT Work, Codex, and dots can now complete purchases.
+- Transactions require user approval for security.
+- The wallet leverages existing card protections.
+- This feature expands the practical capabilities of AI agents in real-world scenarios.
+
+## Our Commentary
+
+A wallet for AI agents. Wow. This feels like a huge step, and I'm not entirely sure how to process it. On one hand, it's a powerful new capability for automation. On the other, the implications of AI agents making purchases, even with user approval, are... vast. There's something unsettling about agents churning away at 3am while nobody's watching, even if it's just for a coffee subscription.
+
+Original Link: https://openai.com/index/introducing-chatgpt-wallet]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/163/800/450" length="0" type="image//id/163/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[pnpm 11.28.12 Delivers Security Fixes and Bug Resolutions]]></title>
+            <link>https://digestweb.dev/articles/2026-11-13/pnpm-11-28-12-security-fixes</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-13/pnpm-11-28-12-security-fixes</guid>
+            <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This patch release for pnpm addresses a security vulnerability related to registry URLs and resolves numerous bugs concerning peer dependencies and deployment.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- A security fix prevents pnpm from sending requests to unintended registries when environment variables are used in URLs.
+- The bundled `node-gyp` no longer ships a flagged `undici` version.
+- Numerous bugs related to peer dependencies, `pnpm deploy`, and `frozen-lockfile` are resolved.
+- Fixes improve behavior with `nodeLinker: hoisted` configurations.
+- Remote resolution now requires `pnpr 0.1.0-alpha.20` or newer.
+
+## Our Commentary
+
+Security fixes are always important, even in patch releases. It's good to see pnpm addressing potential vulnerabilities and ensuring safer package management.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.28.12]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/d69e4296d531117f024d1f31c08b72e103a3c97a06bba873356206a6355c9836/pnpm/pnpm/releases/tag/v11.28.12" length="0" type="image/12"/>
+        </item>
+        <item>
+            <title><![CDATA[pnpm 12.21 Enhances Offline Installs and Peer Dependency Handling]]></title>
+            <link>https://digestweb.dev/articles/2026-11-13/pnpm-12-21-offline-installs-peer-dependencies</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-13/pnpm-12-21-offline-installs-peer-dependencies</guid>
+            <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This minor pnpm release improves offline installation for tarball and Git dependencies, alongside crucial fixes for peer dependency consistency and deployment issues.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- pnpm 12.21.0 now prepares tarball and Git dependencies for offline installs.
+- Repeated installs will consistently retain their peer dependency choices.
+- Several issues related to `lockfile.format: v13` and `nodeLinker: hoisted` have been resolved.
+- Fixes address `pnpm deploy` failures in specific configurations.
+- pnpm now resolves locally if a `pnpr` server refuses a setting.
+
+## Our Commentary
+
+I'm always happy to see improvements in package managers. Offline install prep for tarballs and Git dependencies is a nice quality-of-life bump. The peer dependency consistency fix is also a big deal; those issues can be a real headache.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v12.21.0]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/2ffc7b88fa519e8bfa5b40cc71121781f3174edfdb6840650f1b5716ebae5e72/pnpm/pnpm/releases/tag/v12.21.0" length="0" type="image/0"/>
+        </item>
+        <item>
+            <title><![CDATA[pnpr 0.1.0-alpha.20 Centralizes Registries, Enhances Security]]></title>
+            <link>https://digestweb.dev/articles/2026-11-13/pnpr-0-1-0-alpha-20-centralized-registries</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-13/pnpr-0-1-0-alpha-20-centralized-registries</guid>
+            <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This alpha release of pnpr introduces database-backed registry management, owner-limited package publishing, and token expiration, alongside critical security fixes.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- `pnpr` now stores registries, accounts, and tokens in a database for consistency across replicas.
+- Package publishing is now limited to package owners by default.
+- Tokens will automatically expire after 90 days, improving security.
+- This release includes several security fixes, preventing unauthorized logins and credential leaks.
+- Upgrading from alpha.19 requires manual data migration due to breaking changes.
+
+## Our Commentary
+
+An alpha release with this many significant changes, especially around security and data persistence, is quite something. The manual migration from alpha.19 sounds like a pain, but the move to database-backed registries and token expiration are solid steps forward for a tool like this.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.20]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/662e28a1f8f18d6078f15b7745dee96d559d21d9fc0e7b770ab5821b85d74c20/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.20" length="0" type="image/20"/>
+        </item>
+        <item>
+            <title><![CDATA[Robot Pick-and-Place Simulation with SimReady Assets Tutorial]]></title>
+            <link>https://digestweb.dev/articles/2026-11-13/robot-pick-place-simulation-simready-assets</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-13/robot-pick-place-simulation-simready-assets</guid>
+            <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This Hugging Face blog post guides users through building a robot pick-and-place simulation using SimReady Assets, focusing on practical AI robotics applications.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article provides a tutorial for building a robot pick-and-place simulation.
+- It utilizes SimReady Assets for the simulation environment.
+- The focus is on practical applications in AI robotics.
+- This guide helps users understand how to implement robotic tasks in a simulated setting.
+- It's a resource for those interested in hands-on AI and robotics development.
+
+## Our Commentary
+
+Robotics simulations are a fascinating niche within AI. While it's a specific application, these kinds of tutorials are valuable for pushing the boundaries of what people can build with AI.
+
+Original Link: https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place]]></content:encoded>
+            <enclosure url="https://cdn-uploads.huggingface.co/production/uploads/6abfe9e7d7cf09a9b38ef308/HFZWtQ2i9VN_agjeUw2HB.gif" length="0" type="image/gif"/>
+        </item>
+        <item>
+            <title><![CDATA[Safari Expands to Apple HomeView, Bringing WebKit to New Platform]]></title>
+            <link>https://digestweb.dev/articles/2026-11-13/safari-apple-homeview-webkit-expansion</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-13/safari-apple-homeview-webkit-expansion</guid>
+            <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Apple's WebKit team announces Safari's debut on the Apple HomeView platform, marking a significant expansion for the browser engine into a new device ecosystem.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Safari, powered by WebKit, is now available on Apple HomeView.
+- This marks a new platform for the browser engine.
+- The expansion brings web capabilities to Apple's smart home ecosystem.
+- It represents a significant step for WebKit's reach beyond traditional devices.
+- The announcement comes directly from the WebKit blog.
+
+## Our Commentary
+
+Safari on HomeView? This is a big deal. It means the web platform is extending its reach into yet another device category. I'm curious about the user experience and what kind of web content will thrive there. It's not every day a browser engine gets a whole new home.
+
+Original Link: https://webkit.org/blog/18608/safari-on-apple-homeview/]]></content:encoded>
+            <enclosure url="https://webkit.org/wp-content/uploads/Apple-HomeView.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Shield Leverages OpenAI to Streamline Legacy IT Workflows]]></title>
+            <link>https://digestweb.dev/articles/2026-11-13/shield-openai-legacy-it-automation</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-13/shield-openai-legacy-it-automation</guid>
+            <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Shield, a customer, uses OpenAI's Forge agents to automate navigation in legacy IT portals, allowing technicians to focus on complex problem-solving.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Shield uses OpenAI to assist IT technicians with legacy portal tasks.
+- Forge agents navigate older systems automatically.
+- Technicians can then concentrate on issues requiring human judgment.
+- This improves efficiency in managing outdated IT infrastructure.
+- It's a practical application of AI for enterprise workflow optimization.
+
+## Our Commentary
+
+It's a solid use case for AI, automating the drudgery of legacy systems. I appreciate seeing practical applications that free up human expertise for more complex problems.
+
+Original Link: https://openai.com/business/customer-stories/shield]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/546/800/450" length="0" type="image//id/546/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[UX Research Adapts to AI Development Speed with "Research-In-The-Loop"]]></title>
+            <link>https://digestweb.dev/articles/2026-11-13/uxr-adapts-ai-development-speed</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-13/uxr-adapts-ai-development-speed</guid>
+            <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This NNGroup article explores how User Experience Research (UXR) is evolving to keep pace with rapid AI development cycles, introducing a "Research-In-The-Loop" approach.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article discusses the challenge of UXR adapting to fast AI development.
+- It proposes a "Research-In-The-Loop" methodology.
+- UXR can define key metrics for each AI release.
+- Research helps teams discover insights during rapid iteration.
+- This approach aims to integrate user understanding more closely with AI development.
+
+## Our Commentary
+
+The pace of AI development is genuinely dizzying, and I've been wondering how traditional UX processes keep up. "Research-In-The-Loop" sounds like a necessary evolution. It's a good reminder that even with AI, understanding human interaction remains paramount.
+
+Original Link: https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication]]></content:encoded>
+            <enclosure url="https://media.nngroup.com/media/articles/opengraph_images/Research-In-The-Loop__How_UXR_Adapts__to_Development_at__AI_Speed.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[XYBench: Addressing the Core Problem Behind AI Questions]]></title>
+            <link>https://digestweb.dev/articles/2026-11-13/xybench-ai-problem-behind-question</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-13/xybench-ai-problem-behind-question</guid>
+            <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This Hugging Face blog post introduces XYBench, a new initiative or benchmark aimed at understanding and solving the underlying issues behind complex AI queries.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- XYBench is introduced as a tool or framework.
+- It aims to help identify and address the fundamental problems behind AI questions.
+- The initiative focuses on deeper understanding beyond surface-level queries.
+- This could improve the robustness and relevance of AI responses.
+- It represents a research-oriented approach to AI problem-solving.
+
+## Our Commentary
+
+"The problem behind the question" is a great way to frame AI research. It hints at moving beyond superficial answers to truly understanding user intent and context. I'm always interested in benchmarks that push AI systems to be more thoughtful.
+
+Original Link: https://huggingface.co/blog/allenai/xybench]]></content:encoded>
+            <enclosure url="https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/aOWdQgZ8ioJcx9Eii4iob.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[pnpm 12.20: Bug Fixes, Security Update, and Experimental Lockfile Features]]></title>
             <link>https://digestweb.dev/articles/2026-11-12/pnpm-12-20-bug-fixes-security-experimental-lockfile</link>
