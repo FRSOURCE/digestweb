@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Sat, 14 Nov 2026 07:23:06 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 15 Nov 2026 07:34:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,51 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Datasette-LLM 0.1a11: Local LLM Integration via OpenAI Endpoints]]></title>
+            <link>https://digestweb.dev/articles/2026-11-14/datasette-llm-0-1a11-local-llm-integration</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-14/datasette-llm-0-1a11-local-llm-integration</guid>
+            <pubDate>Sat, 14 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Datasette's LLM plugin now supports OpenAI-compatible endpoints, enabling seamless integration with local models like Ollama and LM Studio.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The `datasette-llm` plugin has released version 0.1a11.
+- This update introduces support for OpenAI-compatible API endpoints.
+- Users can now connect Datasette to local LLMs like LM Studio, Ollama, or `llama.cpp`.
+- The integration allows running Datasette Agent instances powered by local models.
+- This enhances flexibility for developers working with private or self-hosted AI models.
+
+## Our Commentary
+
+I'm always impressed by Simon Willison's work on Datasette. This update for `datasette-llm` is a smart move. Local LLM integration is becoming crucial for privacy and cost-efficiency. We've seen `llama.cpp` hit v1.0.0 recently, and now Datasette can tap into that local power. It feels like a quiet but important step towards more decentralized AI development. No more relying solely on cloud APIs for every experiment. This is good for DX, good for experimentation. I like it.
+
+Original Link: https://simonwillison.net/2026/Nov/14/datasette-llm/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://static.simonwillison.net/static/2026/lmstudio-datasette-agent.webp" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[Datasette-Vega 0.7: Charting Plugin Updated for Datasette Lite]]></title>
+            <link>https://digestweb.dev/articles/2026-11-14/datasette-vega-0-7-charting-plugin-update</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-14/datasette-vega-0-7-charting-plugin-update</guid>
+            <pubDate>Sat, 14 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Datasette's Vega-Lite charting plugin receives its first update since 2018, bringing compatibility with Datasette Lite and minor cosmetic improvements.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The `datasette-vega` plugin has been updated to version 0.7.
+- This is the first release for the plugin since July 2018.
+- The update ensures compatibility with the latest Datasette alpha versions.
+- Cosmetic tweaks improve its appearance and functionality with Datasette Lite.
+- Datasette Lite now supports running JavaScript plugins, enabling this integration.
+- A live demo is available, showcasing the plugin on Datasette Lite.
+
+## Our Commentary
+
+It's always a good sign when older, useful plugins get some love. `datasette-vega` getting an update after six years is wild. The real kicker here is Datasette Lite gaining JavaScript plugin support. That's a quiet but powerful addition. It means more interactive, client-side functionality for Datasette projects, right in the browser. I'm curious to see what other plugins get ported or created for Lite now. This feels like a small step, but it opens up a lot of possibilities for data exploration directly in the browser.
+
+Original Link: https://simonwillison.net/2026/Nov/14/datasette-vega/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://static.simonwillison.net/static/2026/datasette-vega.webp" length="0" type="image/webp"/>
+        </item>
         <item>
             <title><![CDATA[datasette-cluster-map 0.19 Updates for Datasette 1.0a42]]></title>
             <link>https://digestweb.dev/articles/2026-11-13/datasette-cluster-map-0-19-update</link>

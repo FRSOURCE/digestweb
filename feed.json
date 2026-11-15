@@ -11,6 +11,30 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-11-14/datasette-llm-0-1a11-local-llm-integration",
+            "content_html": "## Summary & Key Takeaways\n\n- The `datasette-llm` plugin has released version 0.1a11.\n- This update introduces support for OpenAI-compatible API endpoints.\n- Users can now connect Datasette to local LLMs like LM Studio, Ollama, or `llama.cpp`.\n- The integration allows running Datasette Agent instances powered by local models.\n- This enhances flexibility for developers working with private or self-hosted AI models.\n\n## Our Commentary\n\nI'm always impressed by Simon Willison's work on Datasette. This update for `datasette-llm` is a smart move. Local LLM integration is becoming crucial for privacy and cost-efficiency. We've seen `llama.cpp` hit v1.0.0 recently, and now Datasette can tap into that local power. It feels like a quiet but important step towards more decentralized AI development. No more relying solely on cloud APIs for every experiment. This is good for DX, good for experimentation. I like it.\n\nOriginal Link: https://simonwillison.net/2026/Nov/14/datasette-llm/",
+            "url": "https://digestweb.dev/articles/2026-11-14/datasette-llm-0-1a11-local-llm-integration",
+            "title": "Datasette-LLM 0.1a11: Local LLM Integration via OpenAI Endpoints",
+            "summary": "Datasette's LLM plugin now supports OpenAI-compatible endpoints, enabling seamless integration with local models like Ollama and LM Studio.",
+            "image": "https://static.simonwillison.net/static/2026/lmstudio-datasette-agent.webp",
+            "date_modified": "2026-11-14T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-14/datasette-vega-0-7-charting-plugin-update",
+            "content_html": "## Summary & Key Takeaways\n\n- The `datasette-vega` plugin has been updated to version 0.7.\n- This is the first release for the plugin since July 2018.\n- The update ensures compatibility with the latest Datasette alpha versions.\n- Cosmetic tweaks improve its appearance and functionality with Datasette Lite.\n- Datasette Lite now supports running JavaScript plugins, enabling this integration.\n- A live demo is available, showcasing the plugin on Datasette Lite.\n\n## Our Commentary\n\nIt's always a good sign when older, useful plugins get some love. `datasette-vega` getting an update after six years is wild. The real kicker here is Datasette Lite gaining JavaScript plugin support. That's a quiet but powerful addition. It means more interactive, client-side functionality for Datasette projects, right in the browser. I'm curious to see what other plugins get ported or created for Lite now. This feels like a small step, but it opens up a lot of possibilities for data exploration directly in the browser.\n\nOriginal Link: https://simonwillison.net/2026/Nov/14/datasette-vega/",
+            "url": "https://digestweb.dev/articles/2026-11-14/datasette-vega-0-7-charting-plugin-update",
+            "title": "Datasette-Vega 0.7: Charting Plugin Updated for Datasette Lite",
+            "summary": "Datasette's Vega-Lite charting plugin receives its first update since 2018, bringing compatibility with Datasette Lite and minor cosmetic improvements.",
+            "image": "https://static.simonwillison.net/static/2026/datasette-vega.webp",
+            "date_modified": "2026-11-14T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-11-13/datasette-cluster-map-0-19-update",
             "content_html": "## Summary & Key Takeaways\n\n- `datasette-cluster-map` has been updated to version 0.19.\n- The update ensures compatibility with Datasette 1.0a42.\n- It now depends on `datasette-leaflet` for proper OpenStreetMap tile requests.\n- The plugin is one of the oldest and most popular for Datasette.\n- It continues to provide geospatial visualization capabilities for Datasette data.\n\n## Our Commentary\n\nSimon Willison's work on Datasette and its ecosystem is always interesting. These minor updates, while not groundbreaking, show continuous refinement and compatibility efforts, which is important for long-term project health.\n\nOriginal Link: https://simonwillison.net/2026/Nov/13/datasette-cluster-map/",
             "url": "https://digestweb.dev/articles/2026-11-13/datasette-cluster-map-0-19-update",
