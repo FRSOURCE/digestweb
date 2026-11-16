@@ -184,10 +184,10 @@ importers:
         version: 4.14.0(playwright-core@1.64.1)
       '@frsource/eslint-config':
         specifier: ^1.73.0
-        version: 1.86.4(eslint@10.13.0(jiti@2.7.0))(typescript@5.9.3)
+        version: 1.86.5(eslint@10.13.0(jiti@2.7.0))(typescript@5.9.3)
       '@frsource/prettier-config':
         specifier: ^1.41.0
-        version: 1.48.2(prettier@3.9.10)
+        version: 1.48.3(prettier@3.9.10)
       '@google/generative-ai':
         specifier: ^0.24.0
         version: 0.24.1
@@ -977,14 +977,14 @@ packages:
   '@frsource/autoresize-textarea@2.0.242':
     resolution: {integrity: sha512-1jaSlGFmCu1mao6n0MeblSNlUIewfDJgTf6/fv3r/vMYW0oWlw8cDvQh0yfOwGuZCFPR8jeu1PrgnX/TzyCYeQ==}
 
-  '@frsource/eslint-config@1.86.4':
-    resolution: {integrity: sha512-4tB7MFGBUq8XbyEZi0aBVyxCYhsdTAfUvC+K3XVEwPKaGPcrdDmzXDhOMQ2zXbgFm1IqkjaZ0YEs9C32HqzFYQ==}
+  '@frsource/eslint-config@1.86.5':
+    resolution: {integrity: sha512-uPDqo1zg2lPzVkkMiH1MjC2HjATtHB8ZrN+4wvXMw2UZvbdfI2bVpb+Dyk2NetvMCmmfFNbY5Xi8X/wX57zbjA==}
     peerDependencies:
       eslint: '>= 10'
       typescript: '>= 5.0.0'
 
-  '@frsource/prettier-config@1.48.2':
-    resolution: {integrity: sha512-BtrnUzvXL8IF3KGAFAsfFFWT8y5l3GvVFumem87pKRB6uancRPpr072BvH92zr+0Sygj9oPoifouUHnF/qklXA==}
+  '@frsource/prettier-config@1.48.3':
+    resolution: {integrity: sha512-AabQPkhpZR/91ayu26XNk6IUsIYa3hjxiqpE/Imz7MfUGpVSctcu9TmWAoHK8/nRkksWvJ9GTBSsfjI9dr1jBQ==}
     peerDependencies:
       prettier: '>= 3'
 
@@ -4313,7 +4313,7 @@ snapshots:
 
   '@frsource/autoresize-textarea@2.0.242': {}
 
-  '@frsource/eslint-config@1.86.4(eslint@10.13.0(jiti@2.7.0))(typescript@5.9.3)':
+  '@frsource/eslint-config@1.86.5(eslint@10.13.0(jiti@2.7.0))(typescript@5.9.3)':
     dependencies:
       '@eslint/js': 10.0.1(eslint@10.13.0(jiti@2.7.0))
       '@typescript-eslint/eslint-plugin': 8.72.1(@typescript-eslint/parser@8.72.1(eslint@10.13.0(jiti@2.7.0))(typescript@5.9.3))(eslint@10.13.0(jiti@2.7.0))(typescript@5.9.3)
@@ -4326,7 +4326,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@frsource/prettier-config@1.48.2(prettier@3.9.10)':
+  '@frsource/prettier-config@1.48.3(prettier@3.9.10)':
     dependencies:
       prettier: 3.9.10
 
