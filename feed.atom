@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-11-15T07:34:43.260Z</updated>
+    <updated>2026-11-16T07:41:04.347Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,216 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Datasette 1.0a43: Streaming, Security & View Transitions]]></title>
+        <id>https://digestweb.dev/articles/2026-11-15/datasette-1-0a43-streaming-security-view-transitions</id>
+        <link href="https://digestweb.dev/articles/2026-11-15/datasette-1-0a43-streaming-security-view-transitions"/>
+        <link rel="enclosure" href="https://picsum.photos/id/730/800/450" type="image//id/730/800/450"/>
+        <updated>2026-11-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Datasette's latest alpha release introduces streaming output, crucial security fixes, and delightful multi-page view transitions for a smoother user experience.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Streaming support is added for output renderers, including TSV and CSV exports.
+- Critical security fixes address potential exposure of private stored queries.
+- A new `<datasette-copy-button>` Web Component enhances schema copying.
+- CSS multi-page view transitions are implemented, making MPA navigation feel like an SPA.
+- Dozens of smaller improvements and bug fixes are included.
+
+## Our Commentary
+
+Simon Willison is always cooking up interesting things with Datasette, and this alpha release is no exception. The multi-page view transitions are a fantastic example of leveraging modern web platform features to enhance the user experience of an MPA. It's a small detail that makes a huge difference in perceived responsiveness. The security fixes are, of course, non-negotiable and always welcome.
+
+Original Link: https://simonwillison.net/2026/Nov/15/datasette/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI: GPT-6 Astra Aids Standard Model Lattice Definition]]></title>
+        <id>https://digestweb.dev/articles/2026-11-15/openai-gpt6-astra-standard-model-lattice</id>
+        <link href="https://digestweb.dev/articles/2026-11-15/openai-gpt6-astra-standard-model-lattice"/>
+        <link rel="enclosure" href="https://picsum.photos/id/194/800/450" type="image//id/194/800/450"/>
+        <updated>2026-11-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI details how GPT-6 Astra contributed to a detailed proof for a nonperturbative lattice definition of the Standard Model, showcasing AI's role in fundamental physics.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI explores a candidate nonperturbative lattice definition of the Standard Model.
+- GPT-6 Astra was instrumental in turning the initial idea into a detailed proof.
+- This demonstrates AI's advanced capabilities in complex scientific research.
+- The work represents a step towards defining fundamental physics models using AI.
+
+## Our Commentary
+
+This is fascinating. Using an LLM like GPT-6 Astra to help define the Standard Model on a lattice? That's a leap. It makes me wonder how much of the heavy lifting the AI did versus human guidance. The implications for accelerating fundamental scientific discovery are immense, but I also feel a slight unease about the black box nature of such complex AI contributions.
+
+Original Link: https://openai.com/index/step-toward-defining-the-standard-model]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SolidJS 2.0.0-rc.22 Core: Context Memory & Attribution Engine Overhaul]]></title>
+        <id>https://digestweb.dev/articles/2026-11-15/solidjs-2-rc-core-context-attribution</id>
+        <link href="https://digestweb.dev/articles/2026-11-15/solidjs-2-rc-core-context-attribution"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/b938339ce4094ee121dbe23d72032367c5e1326fa5a40412636a5fa3d532e0b6/solidjs/solid/releases/tag/solid-js%402.0.0-rc.22" type="image/22"/>
+        <updated>2026-11-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The core SolidJS 2.0.0 release candidate optimizes context providers for memory and significantly refines the attribution engine for better debugging and performance.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Context providers no longer create their own owner, reducing memory allocation.
+- The flush record now details changes on screen, with one entry per signal, memo, or store property.
+- Attribution hooks are streamlined, reducing inputs and improving clarity.
+- The `optimisticReverted` hook and per-transaction staged fallbacks have been removed.
+- `asyncLanded` hook replaces `asyncStart` + `asyncEnd(direct)` for clearer async landing reports.
+
+## Our Commentary
+
+This is the big one for SolidJS 2.0 RCs. The memory optimization for context providers is a subtle but impactful win. What really catches my eye is the complete overhaul of the attribution engine. This is going to be huge for debugging complex reactivity graphs and understanding exactly what's changing and why. It feels like a significant step towards a more transparent and performant core.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/solid-js%402.0.0-rc.22]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SolidJS Babel Plugin 2.0.0-rc.22: Enhanced Compilation & SSR]]></title>
+        <id>https://digestweb.dev/articles/2026-11-15/solidjs-babel-plugin-2-rc-compilation-ssr</id>
+        <link href="https://digestweb.dev/articles/2026-11-15/solidjs-babel-plugin-2-rc-compilation-ssr"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/cc4c83d03c5608cd5ead7d597ae120b15e97c086b6be93bc5c4932564559bd2a/solidjs/solid/releases/tag/%40solidjs/babel-plugin%402.0.0-rc.22" type="image/22"/>
+        <updated>2026-11-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This SolidJS Babel plugin release candidate includes compiler optimizations, fixes for controlled inputs, and improved SSR string literal escaping.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- `istanbul`/`c8` ignore pragmas are now correctly handled during compilation.
+- DOM output is optimized to avoid unnecessary positional walks, reducing generated code.
+- Controlled inputs no longer lose typed text when their signal write is held.
+- Production builds compile `<Show>` components to a ternary expression for better performance.
+- Server builds now correctly escape string literals in various JSX contexts.
+
+## Our Commentary
+
+The Babel plugin is a core part of the SolidJS build story, so these updates are important. The shared improvements with the main compiler are good, and the specific fix for SSR string literal escaping is a nice touch for server-side rendering reliability.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fbabel-plugin%402.0.0-rc.22]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SolidJS Compiler 2.0.0-rc.22: Optimizations & Input Fixes]]></title>
+        <id>https://digestweb.dev/articles/2026-11-15/solidjs-compiler-2-rc-optimizations-fixes</id>
+        <link href="https://digestweb.dev/articles/2026-11-15/solidjs-compiler-2-rc-optimizations-fixes"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/7bc3b8aa89c891e92b3e6672ab5f4a060b16e61a6158afb7b4fb145df6ef18b2/solidjs/solid/releases/tag/%40solidjs/compiler%402.0.0-rc.22" type="image/22"/>
+        <updated>2026-11-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This SolidJS compiler release candidate brings DOM output optimizations, fixes for controlled inputs, and improved `<Show>` component compilation.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- `istanbul`/`c8` ignore pragmas are now carried through component and fragment compilation.
+- DOM output no longer declares unnecessary positional walks, reducing generated code size.
+- Controlled inputs no longer lose typed text when their signal write is held during async derivations.
+- Production builds now compile `<Show>` components to a simpler ternary expression when possible, improving performance.
+
+## Our Commentary
+
+Compiler improvements are always welcome, especially when they lead to smaller bundles and better runtime performance. The fix for controlled inputs losing text during async operations is a crucial DX improvement. It's these kinds of details that make a framework feel truly robust.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fcompiler%402.0.0-rc.22]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SolidJS HTML 2.0.0-rc.22: Trusted Types Policy Support]]></title>
+        <id>https://digestweb.dev/articles/2026-11-15/solidjs-html-2-rc-trusted-types</id>
+        <link href="https://digestweb.dev/articles/2026-11-15/solidjs-html-2-rc-trusted-types"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/b48c432d9403d7cc38b44c3f0a84ea9d83314ef4972f5f9a50d5d2397ef1c619/solidjs/solid/releases/tag/%40solidjs/html%402.0.0-rc.22" type="image/22"/>
+        <updated>2026-11-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This SolidJS HTML release candidate adds support for Trusted Types policies, enhancing security for applications enforcing strict content security.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- A new `setTrustedTypesPolicy(policy)` function is introduced.
+- This allows Solid to render on pages enforcing `require-trusted-types-for 'script'`.
+- The runtime assigns `TrustedHTML` from the provided policy for compiled templates and server HTML.
+- It's a no-op on the server, supporting isomorphic applications.
+
+## Our Commentary
+
+Trusted Types support is a big deal for web security, especially in enterprise environments. It's great to see SolidJS integrating this, making it easier for developers to build secure applications that comply with strict content security policies. This is a solid step forward for the framework's robustness.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fhtml%402.0.0-rc.22]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SolidJS Signals 2.0.0-rc.22: Async Memo & Attribution Engine Refinements]]></title>
+        <id>https://digestweb.dev/articles/2026-11-15/solidjs-signals-2-rc-async-memo-attribution</id>
+        <link href="https://digestweb.dev/articles/2026-11-15/solidjs-signals-2-rc-async-memo-attribution"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/9781ed7295465ba5acf66b6c8bb658bf677b643c950d445830e38102861a1295/solidjs/solid/releases/tag/%40solidjs/signals%402.0.0-rc.22" type="image/22"/>
+        <updated>2026-11-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[SolidJS Signals RC introduces refined async memo behavior and memory optimizations for the attribution engine, improving reactivity and debugging.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Async memos now consistently answer the screen's question for display and the landed world's question for the frame.
+- The attribution engine no longer keeps disposed scopes, async sources, and loading boundaries alive.
+- `WeakMap` and `WeakRef` are now used for attribution, reducing memory footprint for collected components.
+- This improves memory management and debugging for complex reactivity graphs.
+
+## Our Commentary
+
+The changes to the signals package are quite technical, but the memory optimizations in the attribution engine using `WeakMap` and `WeakRef` are a smart move. It's a good example of how SolidJS is pushing the boundaries of reactivity performance and debugging.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fsignals%402.0.0-rc.22]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SolidJS Universal 2.0.0-rc.22: Ref Callback & Memo Fixes]]></title>
+        <id>https://digestweb.dev/articles/2026-11-15/solidjs-universal-2-rc-ref-memo-fixes</id>
+        <link href="https://digestweb.dev/articles/2026-11-15/solidjs-universal-2-rc-ref-memo-fixes"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/bfbef48f2bb380cee4712826f4c02cf4fcdea14ae750e0d9dd672cd3f9d61e20/solidjs/solid/releases/tag/%40solidjs/universal%402.0.0-rc.22" type="image/22"/>
+        <updated>2026-11-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This SolidJS release candidate addresses specific issues with ref callbacks and memo behavior, ensuring more reliable component updates.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Ref callbacks reading sync memos on mounted rows no longer leave updates held indefinitely.
+- Ref callbacks now run untracked within the element creation pass, seeing what that pass is building.
+- This prevents stale reads that could halt the application in specific scenarios.
+
+## Our Commentary
+
+These `ref` callback fixes are pretty niche, but crucial for correctness. It's the kind of detail that can cause subtle, hard-to-debug issues, so it's good to see SolidJS addressing these edge cases in the run-up to 2.0.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Funiversal%402.0.0-rc.22]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SolidJS Web 2.0.0-rc.22: Performance & Stability Boosts]]></title>
+        <id>https://digestweb.dev/articles/2026-11-15/solidjs-web-2-rc-performance-stability</id>
+        <link href="https://digestweb.dev/articles/2026-11-15/solidjs-web-2-rc-performance-stability"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/35465e8837f89b1f3b9079f6b9b211a623645510a8ab43c323106924c1b6df4d/solidjs/solid/releases/tag/%40solidjs/web%402.0.0-rc.22" type="image/22"/>
+        <updated>2026-11-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This release candidate for SolidJS Web brings significant performance optimizations, memory reductions, and critical bug fixes for SSR and hydration.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- `renderToStream().pipe()` no longer throws when abandoned during the first write.
+- Late-joining viewers to a broadcast now download live ranges once, reducing join time by 80%.
+- String class values no longer add unnecessary properties to elements, saving 118 KB and speeding up UI bench renders by 5-10%.
+- Serialization of cyclic values now avoids copying parts that don't need replacement.
+- `deferStream` sources that reject on the server now hydrate as rejections, triggering client-side refetches.
+- Delegated events no longer keep unmounted components alive via `currentTarget`.
+
+## Our Commentary
+
+SolidJS is really tightening things up for 2.0. The performance gains here, especially the 80% reduction in join time for broadcasts and the memory savings from class handling, are genuinely impressive. It feels like they're meticulously polishing every rough edge. I appreciate the focus on these subtle but impactful optimizations.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fweb%402.0.0-rc.22]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Understanding Positional Embeddings in Modern LLMs]]></title>
+        <id>https://digestweb.dev/articles/2026-11-15/understanding-positional-embeddings-llms</id>
+        <link href="https://digestweb.dev/articles/2026-11-15/understanding-positional-embeddings-llms"/>
+        <link rel="enclosure" href="https://substackcdn.com/image/fetch/$s_!UHlM!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2a036907-4c1e-473b-8d82-20f2c777df5f_2912x1632.png" type="image/png"/>
+        <updated>2026-11-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A deep dive into the methods LLMs use to represent token positions, crucial for comprehending how these models process sequence order.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article explains the fundamental concept of positional embeddings in LLMs.
+- It details how these embeddings allow models to understand the order of tokens in a sequence.
+- Various methods for representing token positions are explored.
+- Understanding positional embeddings is key to grasping LLM architecture and function.
+
+## Our Commentary
+
+Positional embeddings are one of those core LLM concepts that can feel a bit like magic if you don't dig into them. This kind of deep-dive is exactly what we need to demystify how these models actually work. I appreciate the focus on foundational knowledge rather than just reporting on the latest model.
+
+Original Link: https://magazine.sebastianraschka.com/p/understanding-positional-embeddings]]></content>
+        <author>
+            <name>Sebastian Raschka</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Datasette-LLM 0.1a11: Local LLM Integration via OpenAI Endpoints]]></title>
         <id>https://digestweb.dev/articles/2026-11-14/datasette-llm-0-1a11-local-llm-integration</id>
