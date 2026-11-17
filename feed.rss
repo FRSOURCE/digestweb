@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Mon, 16 Nov 2026 18:46:01 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Nov 2026 08:50:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,207 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Arc Browser Sunsets: Exploring Alternative Browsers]]></title>
+            <link>https://digestweb.dev/articles/2026-11-16/arc-browser-sunsets-exploring-alternative-browsers</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-16/arc-browser-sunsets-exploring-alternative-browsers</guid>
+            <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[With the Arc browser scheduled to sunset, this article offers personal notes and recommendations on a variety of alternative browsers for users seeking a new daily driver.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The Arc browser is scheduled to sunset on December 22, 2026.
+- The article provides personal recommendations for alternative browsers.
+- It explores a new crop of browsers available in the market.
+- This helps users transition from Arc to a new browsing experience.
+
+## Our Commentary
+
+Arc sunsetting is a bummer for its users. I always appreciate when a browser tries to innovate, even if it doesn't always stick. It's a good reminder that the browser landscape is still evolving, and there are always new players trying to carve out a niche. I'm curious which alternatives are gaining traction. It's a good time to re-evaluate our daily drivers.
+
+Original Link: https://blog.master.dev/browsers-to-try-if-youre-being-forced-off-arc/]]></content:encoded>
+            <enclosure url="https://blog.master.dev/wp-json/social-image-generator/v1/image/11619" length="0" type="image//wp-json/social-image-generator/v1/image/11619"/>
+        </item>
+        <item>
+            <title><![CDATA[ChatGPT for Healthcare Introduces Computer-Use Agents & New Plugins]]></title>
+            <link>https://digestweb.dev/articles/2026-11-16/chatgpt-healthcare-computer-use-agents-plugins</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-16/chatgpt-healthcare-computer-use-agents-plugins</guid>
+            <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI is enhancing ChatGPT for Healthcare with new computer-use agents, improved clinical answers, and specialized plugins designed to integrate with existing healthcare software and streamline workflows.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- ChatGPT for Healthcare now features new computer-use agents.
+- Improvements include enhanced clinical answer capabilities.
+- New healthcare-specific plugins are introduced for software integration.
+- These updates aim to streamline workflows and improve care delivery.
+
+## Our Commentary
+
+AI agents in healthcare? This is a double-edged sword. On one hand, the potential for efficiency is massive. On the other, the stakes are incredibly high. I'm thinking about the ethical implications, the data privacy, the potential for misdiagnosis. We need to be _extremely_ cautious and ensure robust human oversight. This isn't just about productivity; it's about patient lives.
+
+Original Link: https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/340/800/450" length="0" type="image//id/340/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Chris' Corner: A Fresh Look at Sourcemaps]]></title>
+            <link>https://digestweb.dev/articles/2026-11-16/chris-corner-fresh-look-sourcemaps</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-16/chris-corner-fresh-look-sourcemaps</guid>
+            <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This article provides a concise overview of sourcemaps, explaining their importance in debugging modern web applications where code is often transformed, bundled, or transpiled before deployment.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article offers an overview of sourcemaps and their function.
+- Sourcemaps are crucial for debugging processed JavaScript and CSS.
+- They map compiled code back to its original source files.
+- Understanding sourcemaps improves the developer experience in complex build environments.
+
+## Our Commentary
+
+Sourcemaps are one of those unsung heroes of web development. We all use them, but how many of us really understand how they work? It's easy to take them for granted until they break. A good refresher like this is always welcome, especially for newer devs who might not grasp the magic happening behind the scenes.
+
+Original Link: https://blog.codepen.io/2026/11/16/chris-corner-sourcemaps/]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/646/800/450" length="0" type="image//id/646/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Begins Embedded Assessments for Model Alignment and Safeguards]]></title>
+            <link>https://digestweb.dev/articles/2026-11-16/openai-begins-embedded-assessments-model-alignment</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-16/openai-begins-embedded-assessments-model-alignment</guid>
+            <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI has initiated its first phase of embedded assessments, partnering with external organizations like Apollo Research and METR to independently evaluate model alignment, safeguards, and monitoring systems.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI launched its initial phase of embedded assessments.
+- External partners like Apollo Research and METR are conducting independent evaluations.
+- The assessments focus on model alignment, safeguards, and monitoring systems.
+- This initiative aims to enhance trust and transparency in AI development.
+
+## Our Commentary
+
+This is a good step towards transparency, I guess? "Embedded assessments" sounds a bit like letting the fox guard the hen house, even with external partners. I'm always a little skeptical of self-regulation in tech, but independent evaluation is better than none. We need more clarity on the _results_ of these assessments, not just that they're happening.
+
+Original Link: https://openai.com/index/our-first-phase-of-embedded-assessments]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/795/800/450" length="0" type="image//id/795/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Expands Free ChatGPT Access for 200,000 Academic Researchers]]></title>
+            <link>https://digestweb.dev/articles/2026-11-16/openai-expands-free-chatgpt-access-for-academic-researchers</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-16/openai-expands-free-chatgpt-access-for-academic-researchers</guid>
+            <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI is significantly broadening its ChatGPT for Academic Researchers program, offering free access to its frontier models for 200,000 scientists worldwide. This initiative aims to accelerate scientific discovery.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI is expanding its program to provide free access to frontier models.
+- The initiative targets 200,000 academic researchers globally.
+- It aims to support and accelerate scientific research using advanced AI.
+- This move democratizes access to powerful AI tools for the scientific community.
+
+## Our Commentary
+
+This is a smart move by OpenAI. Giving researchers free access to frontier models could lead to some genuinely groundbreaking discoveries. It's also a clever way to get more data and feedback on how these models perform in specialized, high-stakes environments. I wonder what kind of guardrails are in place for sensitive research.
+
+Original Link: https://openai.com/index/expanding-chatgpt-for-academic-researchers]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/394/800/450" length="0" type="image//id/394/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Reports on How 1,800 Scientists Utilize ChatGPT in Research]]></title>
+            <link>https://digestweb.dev/articles/2026-11-16/openai-reports-scientists-use-chatgpt-in-research</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-16/openai-reports-scientists-use-chatgpt-in-research</guid>
+            <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenAI shares findings from a study involving over 1,800 scientists, detailing how they integrate ChatGPT into their daily workflows, its impact on productivity, and their expectations for future discoveries.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- OpenAI surveyed over 1,800 scientists on their ChatGPT usage.
+- Findings cover daily workflows, reported productivity gains, and future expectations.
+- The report explores how AI is being integrated into scientific research processes.
+- It provides insights into the practical applications and perceived benefits of LLMs in academia.
+
+## Our Commentary
+
+It's always interesting to see how these tools are actually being used in the wild, especially in a field like scientific research. I'm curious about the specific tasks where scientists find ChatGPT most valuable. Is it brainstorming, drafting, data analysis? The productivity claims are always a bit squishy, but the qualitative insights could be gold.
+
+Original Link: https://openai.com/index/science-at-the-frontier]]></content:encoded>
+            <enclosure url="https://picsum.photos/id/654/800/450" length="0" type="image//id/654/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Prefer Clear, Simple Code Over Clever, Complex Expressions]]></title>
+            <link>https://digestweb.dev/articles/2026-11-16/prefer-clear-simple-code-over-clever-complex-expressions</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-16/prefer-clear-simple-code-over-clever-complex-expressions</guid>
+            <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This article advocates for writing multiple straightforward statements instead of packing too much logic into a single, overly clever JavaScript expression. It emphasizes readability and maintainability.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The author suggests favoring multiple simple statements over single complex expressions.
+- This approach enhances code readability and understanding.
+- It can lead to more maintainable and less error-prone codebases.
+- The article reflects on a shift in personal coding style towards clarity.
+
+## Our Commentary
+
+I've been there. We all have. That moment when you write some incredibly dense, one-liner JavaScript and feel like a genius, only to come back to it six months later and have absolutely no idea what it does. This article is a good reminder that sometimes, boring is better. Clarity always wins in the long run. My brain thanks me later.
+
+Original Link: https://allthingssmitty.com/2026/11/16/sometimes-three-boring-statements-beat-one-clever-expression/]]></content:encoded>
+            <author>Matt Smith</author>
+            <enclosure url="https://allthingssmitty.com/img/posts/sunset-home-office-min.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Staggering Scroll-Driven Animations with `animation-range-start`]]></title>
+            <link>https://digestweb.dev/articles/2026-11-16/staggering-scroll-driven-animations-animation-range-start</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-16/staggering-scroll-driven-animations-animation-range-start</guid>
+            <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This CSS-Tricks article explores how to create staggered scroll-driven animations using the `animation-range-start` property, offering creative possibilities for interactive web design.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The article demonstrates creating staggered scroll-driven animations.
+- It utilizes the `animation-range-start` CSS property.
+- This technique allows for incremental, synchronized visual effects based on scroll progress.
+- It opens up new creative avenues for interactive web design.
+
+## Our Commentary
+
+Scroll-driven animations are still a bit of a wild west, but `animation-range-start` is a powerful primitive. Staggering them adds a whole new layer of polish. I've seen some really janky scroll effects out there, but when done right, they can be incredibly engaging. This article feels like a good guide to doing it _right_.
+
+Original Link: https://css-tricks.com/staggering-scroll-driven-animations-with-animation-range-start/]]></content:encoded>
+            <enclosure url="https://css-tricks.com/wp-content/uploads/2019/06/staggered-items.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[TokenEconomizer: Boosting Efficiency for AI Coding Agents]]></title>
+            <link>https://digestweb.dev/articles/2026-11-16/tokeneconomizer-boosting-efficiency-ai-coding-agents</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-16/tokeneconomizer-boosting-efficiency-ai-coding-agents</guid>
+            <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Microsoft Research introduces TokenEconomizer, an open-source plugin that helps AI coding agents learn from past sessions to reduce token usage and costs while maintaining task success.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Microsoft Research released TokenEconomizer, an open-source plugin.
+- It aims to make AI coding agents more efficient by learning from experience.
+- The plugin reduces token usage and associated costs.
+- It helps agents spend computation more effectively without sacrificing task success.
+
+## Our Commentary
+
+This is a genuinely practical development. Anyone who's played with AI coding agents knows how quickly token costs can spiral. An open-source solution that helps agents learn and optimize their token usage is a welcome relief. It's a small step, but it points to a future where AI tools are not just powerful, but also economically viable for everyday use.
+
+Original Link: https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/]]></content:encoded>
+            <enclosure url="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/TokenEconomizer-TWLIFB-1200x627-1.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[WebKit Introduces Spatial CSS Developer Preview for 3D Web Experiences]]></title>
+            <link>https://digestweb.dev/articles/2026-11-16/webkit-introduces-spatial-css-developer-preview</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-16/webkit-introduces-spatial-css-developer-preview</guid>
+            <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Safari on visionOS now offers a limited developer preview of the proposed Spatial CSS API, focusing on 3D object interaction via the `<model>` element. This opens new avenues for immersive web content.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- WebKit has released a developer preview of Spatial CSS in Safari on visionOS 27.3.
+- The initial focus is on working with 3D objects using the `<model>` element.
+- This API aims to enable new immersive web experiences.
+- It represents an early look at a proposed standard for spatial web development.
+
+## Our Commentary
+
+This is _huge_. I mean, a developer preview, sure, but "Spatial CSS"? We're talking about the web moving into 3D environments in a native way. The `<model>` element is just the start. I'm genuinely excited to see how this evolves. It feels like a real step towards a more immersive web, beyond just flat screens. We've been talking about the metaverse for ages, but this is actual, tangible browser tech.
+
+Original Link: https://webkit.org/blog/18621/introducing-spatial-css-a-developer-preview/]]></content:encoded>
+            <enclosure url="https://webkit.org/wp-content/uploads/webkids-puzzle-playground-poster-1024x576.png" length="0" type="image/png"/>
+        </item>
         <item>
             <title><![CDATA[Datasette 1.0a43: Streaming, Security & View Transitions]]></title>
             <link>https://digestweb.dev/articles/2026-11-15/datasette-1-0a43-streaming-security-view-transitions</link>
