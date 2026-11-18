@@ -11,6 +11,132 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-11-17/ai-speed-accessibility-qa",
+            "content_html": "## Summary & Key Takeaways\n\n- AI has significantly increased the speed of design and build processes.\n- Quality assurance (QA) testing, particularly for accessibility, struggles to keep pace.\n- This imbalance may lead to a less accessible web.\n- New research identifies practices of teams successfully maintaining accessibility standards.\n- The article provides guidance on integrating human judgment into AI-enabled workflows.\n- The goal is to ensure accessibility without compromising delivery speed.\n- It highlights the importance of balancing automation with human oversight in AI-driven development.\n\n## Our Commentary\n\nThis article hits on a really important, and frankly, unsettling point. We're all chasing speed with AI, but if we're sacrificing accessibility in the process, what's the point? I've seen this tension firsthand. The idea of embedding human judgment into AI workflows is crucial; it's not about replacing humans, but augmenting them responsibly. This is a conversation we absolutely need to keep having as AI becomes more ingrained in our development cycles.\n\nOriginal Link: https://smashingmagazine.com/2026/11/ai-sped-up-build-how-can-accessibility-testing-keep-up/",
+            "url": "https://digestweb.dev/articles/2026-11-17/ai-speed-accessibility-qa",
+            "title": "AI Speed vs. Accessibility: How QA Can Keep Up",
+            "summary": "As AI accelerates development, this article explores how accessibility testing can keep pace, drawing on research to embed human judgment into AI-enabled workflows.",
+            "image": "https://files.smashing.media/articles/ai-sped-up-build-how-can-accessibility-testing-keep-up/ai-sped-up-build-how-can-accessibility-testing-keep-up.jpg",
+            "date_modified": "2026-11-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-17/datasette-lite-python-wasm-browser",
+            "content_html": "## Summary & Key Takeaways\n\n- Datasette Lite has been rewritten to run the full server-side Python application in the browser.\n- It utilizes WebAssembly, Pyodide, and service workers for this functionality.\n- The browser-based version is now almost indistinguishable from the server-side application.\n- Users can browse SQLite databases, JSON, CSV, or SQL scripts directly in the client.\n- It supports loading specific Datasette versions, commits, or branches from GitHub.\n- Users can select from over 100 SQLite versions and install additional Datasette plugins.\n- The tool is ideal for linking to demos, work-in-progress features, or bug reproductions without a server.\n\n## Our Commentary\n\nThis is genuinely mind-blowing. Running a full server-side Python application like Datasette entirely in the browser with WebAssembly and service workers is a monumental achievement. It really pushes the boundaries of what the web platform can do. The ability to load specific versions and plugins via URL parameters makes it an incredible tool for demos and bug reproduction. I'm constantly amazed by the innovation happening in the Wasm space; it feels like we're just scratching the surface.\n\nOriginal Link: https://simonwillison.net/2026/Nov/17/datasette-lite/",
+            "url": "https://digestweb.dev/articles/2026-11-17/datasette-lite-python-wasm-browser",
+            "title": "Datasette Lite: Full Python App Runs in Browser with WebAssembly",
+            "summary": "Datasette Lite, a complete rewrite using service workers and Pyodide, now runs the full server-side Python application directly in the browser, leveraging WebAssembly.",
+            "image": "https://static.simonwillison.net/static/2026/datasette-lite-diag.webp",
+            "date_modified": "2026-11-17T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-17/external-sandboxes-ai-coding-agents",
+            "content_html": "## Summary & Key Takeaways\n\n- The article introduces an 'external sandbox' pattern for safely executing code from AI agents.\n- This pattern runs agent code in a dedicated sandbox, separate from the agent itself.\n- Three sandbox server implementations are released: `external-sandbox-v86` (Node.js/WebAssembly), `external-sandbox-container` (Python/Apple Containers), and `external-sandbox-quicksand` (Python/Microsoft Quicksand).\n- All implementations offer a consistent localhost API for configuring agents like Pi, Claude Code, or Codex.\n- An optional HTTP/HTTPS allow-list proxy controls agent code communication.\n- A credential replacement mechanism allows authenticated API calls without exposing secrets to the agent.\n- The approach aims to mitigate risks from mistakes or prompt injection attacks when using local AI models.\n\n## Our Commentary\n\nThis is a critical piece of work. The security implications of AI agents executing code are massive, and 'external sandboxes' feel like a genuinely robust solution. I've been worried about prompt injection attacks, and this directly addresses that. The use of WebAssembly and containers for isolation is smart. It's a practical, open-source approach to a problem that's only going to get bigger. Simon Willison always delivers these deep, actionable insights.\n\nOriginal Link: https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+            "url": "https://digestweb.dev/articles/2026-11-17/external-sandboxes-ai-coding-agents",
+            "title": "External Sandboxes for Safer AI Coding Agents",
+            "summary": "Simon Willison explores a new pattern for safely sandboxing code executed by AI agents, introducing implementations using WebAssembly, containers, and QEMU.",
+            "image": "https://static.simonwillison.net/static/2026/sandbox-proxy.png",
+            "date_modified": "2026-11-17T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-17/github-agent-host-protocol-cross-device-ai",
+            "content_html": "## Summary & Key Takeaways\n\n- GitHub has developed an open Agent Host Protocol.\n- The protocol aims to enable AI agent sessions to persist across different devices.\n- This includes editors, applications, phones, and cloud environments.\n- The goal is to ensure continuous accessibility for agent interactions.\n- This development could standardize how AI agents maintain state and context.\n- It represents a step towards more integrated and ubiquitous AI experiences.\n\n## Our Commentary\n\nAn 'Agent Host Protocol' for persistent AI sessions across devices? This is huge. We're moving towards a world where AI agents aren't just isolated tools but integrated companions. The idea of an agent session continuing from my desktop to my phone to the cloud without losing context is incredibly powerful. I'm curious to see how this open protocol evolves and what new applications it enables. It feels like a foundational piece for the next generation of AI tools.\n\nOriginal Link: https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
+            "url": "https://digestweb.dev/articles/2026-11-17/github-agent-host-protocol-cross-device-ai",
+            "title": "GitHub Unveils Agent Host Protocol for Cross-Device AI Sessions",
+            "summary": "GitHub introduces an open Agent Host Protocol designed to maintain AI agent sessions seamlessly across various devices, editors, and cloud environments.",
+            "image": "https://github.blog/wp-content/uploads/2026/11/agents-everywhere.png",
+            "date_modified": "2026-11-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-17/github-ai-bug-fixes-not-reports",
+            "content_html": "## Summary & Key Takeaways\n\n- GitHub's Codename MDASH pilot focuses on AI-generated bug fixes, not just reports.\n- The pilot converted thousands of AI findings into 99 checked, private reports with suggested fixes.\n- These reports were for six widely used open-source projects.\n- Maintainers have already fixed more than half of the suggested issues.\n- This initiative aims to move beyond mere bug identification to actionable solutions.\n- The project highlights a more practical and impactful role for AI in software maintenance.\n\n## Our Commentary\n\nThis is the kind of AI application we need more of. We've all seen AI generate questionable code or bug reports that aren't quite right. But AI providing _fixes_? That's a game-changer for open-source maintainers drowning in issues. I genuinely believe this approach could significantly reduce burnout and improve the health of critical projects. It's about augmenting human effort, not just adding noise.\n\nOriginal Link: https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
+            "url": "https://digestweb.dev/articles/2026-11-17/github-ai-bug-fixes-not-reports",
+            "title": "GitHub: AI Should Fix Bugs, Not Just Report Them",
+            "summary": "GitHub's Codename MDASH pilot demonstrates AI's ability to turn raw findings into suggested fixes for open-source projects, with over half already resolved.",
+            "image": "https://github.blog/wp-content/uploads/2026/11/image-17.png",
+            "date_modified": "2026-11-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-17/gpt-6-2-astra-sol-benchmarks-pricing",
+            "content_html": "## Summary & Key Takeaways\n\n- The article analyzes OpenAI's new GPT-6.2 Astra and Sol models.\n- GPT-6.2 Astra offers an 80% price reduction compared to its predecessor, with cached prices even lower.\n- GPT-6.2 Sol maintains the same pricing as previous Sol versions, which were half the cost of GPT-5.6 Sol.\n- Simon Willison updated his LLM tool to support the new models.\n- Benchmarks were run using a complex Three.js animation prompt.\n- Neither Astra nor Sol fully met the benchmark's creative requirements compared to other models.\n- A detailed comparison grid and visual demonstrations of the benchmark results are provided.\n\n## Our Commentary\n\nSimon Willison's immediate deep-dive into the new GPT-6.2 models is exactly what we need. The pricing changes are significant, especially for Astra, making longer agentic sessions much more viable. It's always good to see independent benchmarks, and his 'Yonkers mech' prompt is a fun, creative way to test. The fact that neither model fully nailed the creative aspect is a good reminder that even frontier models still have limitations. It's a balanced, insightful look.\n\nOriginal Link: https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+            "url": "https://digestweb.dev/articles/2026-11-17/gpt-6-2-astra-sol-benchmarks-pricing",
+            "title": "GPT-6.2 Astra & Sol: Benchmarks, Pricing, and Analysis",
+            "summary": "Simon Willison provides an in-depth analysis of OpenAI's new GPT-6.2 Astra and Sol models, including pricing, performance benchmarks, and comparisons.",
+            "image": "https://static.simonwillison.net/static/2026/astra-6-2-max.webp",
+            "date_modified": "2026-11-17T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-17/nextjs-ai-security-enhancements",
+            "content_html": "## Summary & Key Takeaways\n\n- Next.js is actively using AI to improve the security of the framework.\n- This initiative explains the recent increase in Next.js security advisories.\n- AI helps in identifying potential vulnerabilities more efficiently.\n- The goal is to proactively address security concerns within the framework.\n- This approach aims to make Next.js applications more robust against threats.\n- The blog post provides insights into Vercel's security strategy.\n\n## Our Commentary\n\nIt's good to see Vercel being transparent about the increase in Next.js security advisories and, more importantly, how they're tackling it with AI. We often hear about AI for code generation, but using it for security analysis is a powerful application. It makes me wonder if this will become a standard practice across all major frameworks. The proactive stance is definitely a win for developers.\n\nOriginal Link: https://nextjs.org/blog/how-were-using-ai-to-make-nextjs-more-secure",
+            "url": "https://digestweb.dev/articles/2026-11-17/nextjs-ai-security-enhancements",
+            "title": "Next.js Leverages AI to Enhance Framework Security",
+            "summary": "Vercel details how AI is being used to identify and address security vulnerabilities in Next.js, leading to more advisories and proactive fixes.",
+            "image": "https://h8dxkfmaphn8o0p3.public.blob.vercel-storage.com/static/blog/how-were-using-ai-to-make-nextjs-more-secure/twitter-card.png",
+            "date_modified": "2026-11-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-17/openai-gpt-6-2-astra-sol-release",
+            "content_html": "## Summary & Key Takeaways\n\n- OpenAI has released its new frontier models: GPT-6.2 Astra and GPT-6.2 Sol.\n- GPT-6.2 Astra is designed for the hardest projects, offering better professional outputs, coding, and computer use.\n- GPT-6.2 Sol is positioned as an efficient, versatile model for everyday work.\n- Both models promise improved efficiency and lower costs across ChatGPT Work, Codex, and the API.\n- This release marks a significant advancement in OpenAI's model capabilities.\n- The new models are expected to enhance various AI-powered applications and workflows.\n\n## Our Commentary\n\nOkay, this is big. New frontier models from OpenAI always feel like a step function in AI capabilities. 'Better professional outputs, coding, computer use, and efficiency at lower cost' is the dream, right? I'm particularly interested in how Astra handles complex coding tasks. The continuous push for more capable and cheaper models is relentless, and it's genuinely exciting to see what developers will build with these. The AI landscape is just moving at an insane pace.\n\nOriginal Link: https://openai.com/index/introducing-gpt-6-2-astra-sol",
+            "url": "https://digestweb.dev/articles/2026-11-17/openai-gpt-6-2-astra-sol-release",
+            "title": "OpenAI Unveils GPT-6.2 Astra and Sol Models",
+            "summary": "OpenAI introduces GPT-6.2 Astra, a new frontier model for complex tasks, and GPT-6.2 Sol, an efficient, versatile model, both with improved performance and lower costs.",
+            "image": "https://picsum.photos/id/573/800/450",
+            "date_modified": "2026-11-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-17/pnpm-12-22-0-global-config-features",
+            "content_html": "## Summary & Key Takeaways\n\n- pnpm 12.22.0 adds a `globalPackagesConfig` section to `config.yaml` for global package settings.\n- The `pnpm why --ranges` command is introduced to list version ranges declared by direct dependents.\n- `pnpm list --recursive` now sorts workspace projects by dependency order by default.\n- A security fix addresses an issue where `pnpm install` could skip checks after registry changes.\n- `pnpm approve-builds -g` and `pnpm add -g --allow-build` now save build decisions under `globalPackagesConfig.permissions`.\n- File dependencies on local directories now resolve catalog specifiers against workspace catalogs.\n- The experimental v13 lockfile format records declared specifiers for local directory packages.\n\n## Our Commentary\n\npnpm keeps delivering solid updates. The `globalPackagesConfig` is a smart move for managing global packages more granularly, and `pnpm why --ranges` will be incredibly useful for debugging dependency trees. Sorting workspace projects by dependency order is a small but mighty DX improvement. And, of course, security fixes are always welcome. It's these consistent, thoughtful updates that make pnpm such a strong contender in the package manager space.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v12.22.0",
+            "url": "https://digestweb.dev/articles/2026-11-17/pnpm-12-22-0-global-config-features",
+            "title": "pnpm 12.22.0 Released with Global Config & Improved Listing",
+            "summary": "pnpm 12.22.0 introduces `globalPackagesConfig` for global settings, `pnpm why --ranges`, and lists workspace projects in dependency order, alongside a security fix.",
+            "image": "https://opengraph.githubassets.com/d973bf1569ec5726d2d7504d231acc3918b1c3eca3024bef0c25b36678792e17/pnpm/pnpm/releases/tag/v12.22.0",
+            "date_modified": "2026-11-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-17/pnpr-0-1-0-alpha-21-grants-teams",
+            "content_html": "## Summary & Key Takeaways\n\n- pnpr 0.1.0-alpha.21 introduces a new grants system for access control, stored in the database.\n- Grants define actions (read, cache, publish, annotate, delete, manage) for accounts, teams, or groups.\n- Teams are now instance-wide, rather than tied to a single registry.\n- Existing alpha deployments require a database reset due to schema changes.\n- New `pnpr grants export` and `pnpr grants import` commands manage grants via YAML files.\n- Access keys and publish/unpublish lists in registry configurations are removed.\n- The tool now serves upstream versions after caching the package's packument.\n\n## Our Commentary\n\nThis `pnpr` alpha release is making some pretty fundamental changes to how access and teams are managed. Requiring a database reset for an alpha isn't ideal, but it signals a significant architectural shift. The move to instance-wide teams and granular grants feels like a step towards a more robust, enterprise-ready package registry. It's a niche tool, but these are important developments for its users.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.21",
+            "url": "https://digestweb.dev/articles/2026-11-17/pnpr-0-1-0-alpha-21-grants-teams",
+            "title": "pnpr 0.1.0-alpha.21: Database Grants & Instance-Wide Teams",
+            "summary": "pnpr 0.1.0-alpha.21 introduces database-stored grants for access control and makes teams instance-wide, requiring a database reset for existing deployments.",
+            "image": "https://opengraph.githubassets.com/cc1ab93b9a0f0a2e7a9ef70f4a4734d025eb425168b36ad22776cf91f0f7f488/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.21",
+            "date_modified": "2026-11-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-17/solidjs-2-0-diagnostics-package-dx",
+            "content_html": "## Summary & Key Takeaways\n\n- A new `@solidjs/diagnostics` package is introduced with Solid 2.0, providing an agent-consumable diagnostics harness.\n- It includes tools to capture artifacts, assert budgets, and detect reactive mistakes.\n- Vitest matchers and Playwright adapters are available for testing and capturing artifacts from real pages.\n- The package offers live queries for `whyDidRun` and costs against an open session.\n- Attribution features track async operations, flight counts, and fallback display times.\n- A repair guide maps diagnostic codes to fixes, improving developer understanding and efficiency.\n\n## Our Commentary\n\nThis is a big deal for SolidJS developers. We've seen frameworks struggle with providing clear debugging for reactivity, and this new diagnostics package looks like a serious step forward. The idea of 'agent-consumable diagnostics' is intriguing; it feels like a nod to future AI-assisted development workflows. I'm particularly interested in how the attribution engine helps pinpoint performance bottlenecks and 'wasted recomputes.' This could genuinely change how we optimize Solid apps.\n\nOriginal Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fdiagnostics%402.0.0",
+            "url": "https://digestweb.dev/articles/2026-11-17/solidjs-2-0-diagnostics-package-dx",
+            "title": "SolidJS 2.0 Introduces New Diagnostics Package for Enhanced DX",
+            "summary": "SolidJS 2.0 ships with a new @solidjs/diagnostics package, offering advanced tools for debugging reactivity, performance, and attribution.",
+            "image": "https://opengraph.githubassets.com/02356e0137a82091e29f1824fdef74828f422c6061ce2708f480575403a7fa43/solidjs/solid/releases/tag/%40solidjs/diagnostics%402.0.0",
+            "date_modified": "2026-11-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-17/solidjs-2-0-the-long-hold-async-agents",
+            "content_html": "## Summary & Key Takeaways\n\n- SolidJS 2.0 is officially released, five years after its initial launch.\n- A key feature is 'Async in the graph,' allowing computations to return Promises or async iterators seamlessly.\n- The framework is designed to be 'Built to be written by agents,' with detailed reactive graph insights for AI tools.\n- Solid 2.0 focuses on shipping primitives and framework-agnostic Vite plugins, promoting flexibility.\n- The API is streamlined, removing `createResource`, `batch`, `startTransition`, `on`, `produce`, `createComputed`, and `createMutable`.\n- Development builds provide stable codes, source locations, and fixes for reactive mistakes.\n- The release followed 23 release candidates and extensive community contributions.\n- Migration guides and updated documentation are available for existing users.\n\n## Our Commentary\n\nSolid 2.0 is here, and 'Async in the graph' sounds like a game-changer. We've all wrestled with async state, and the promise of it just 'handling itself' is incredibly appealing. The 'Built to be written by agents' angle is fascinating, a clear signal of where framework development is heading. I'm a little sad to see some familiar APIs go, but 'less is more' often rings true for long-term maintainability. This release feels like a significant evolution, not just an update.\n\nOriginal Link: https://github.com/solidjs/solid/releases/tag/solid-js%402.0.0",
+            "url": "https://digestweb.dev/articles/2026-11-17/solidjs-2-0-the-long-hold-async-agents",
+            "title": "SolidJS 2.0 'The Long Hold' Released: Async in the Graph, Agent-Ready",
+            "summary": "SolidJS 2.0 is now stable, introducing 'Async in the graph' for seamless async handling, a smaller API, and features designed for AI agents.",
+            "image": "https://opengraph.githubassets.com/f2f8d2b3dde173001a62da923c796714f968e2eb3b4e2e5709af70baa8ad95d1/solidjs/solid/releases/tag/solid-js%402.0.0",
+            "date_modified": "2026-11-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-17/vitest-5-1-1-cache-fixes",
+            "content_html": "## Summary & Key Takeaways\n\n- Vitest v5.1.1 introduces new environment variables for fs module caching.\n- It fixes issues with rerunning tests on file changes after config restarts.\n- Improvements were made to prevent context leaks in `expect` calls.\n- The release enhances diffs for asymmetric matchers.\n- It addresses problems with applying `--shard` before test runs.\n- Fixture teardown errors are now reported only once.\n- Timeout errors now throw specific error classes instead of generic `Error` objects.\n\n## Our Commentary\n\nVitest continues its steady march of improvements. The `fs` module cache variables are a nice touch for performance, and the bug fixes, especially around reruns and `expect` context, are crucial for a stable testing experience. It's the kind of release that makes your daily dev life just a little bit smoother, even if it's not headline-grabbing.\n\nOriginal Link: https://github.com/vitest-dev/vitest/releases/tag/v5.1.1",
+            "url": "https://digestweb.dev/articles/2026-11-17/vitest-5-1-1-cache-fixes",
+            "title": "Vitest v5.1.1 Released with Cache Features & Bug Fixes",
+            "summary": "Vitest v5.1.1 includes new environment variables for fs module caching, alongside various bug fixes for reruns, context leaks, and diff improvements.",
+            "image": "https://opengraph.githubassets.com/ff40cb016670d799096e196529acacf7b827fc99ab6f7c448f6ea9210fa120ff/vitest-dev/vitest/releases/tag/v5.1.1",
+            "date_modified": "2026-11-17T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-11-16/arc-browser-sunsets-exploring-alternative-browsers",
             "content_html": "## Summary & Key Takeaways\n\n- The Arc browser is scheduled to sunset on December 22, 2026.\n- The article provides personal recommendations for alternative browsers.\n- It explores a new crop of browsers available in the market.\n- This helps users transition from Arc to a new browsing experience.\n\n## Our Commentary\n\nArc sunsetting is a bummer for its users. I always appreciate when a browser tries to innovate, even if it doesn't always stick. It's a good reminder that the browser landscape is still evolving, and there are always new players trying to carve out a niche. I'm curious which alternatives are gaining traction. It's a good time to re-evaluate our daily drivers.\n\nOriginal Link: https://blog.master.dev/browsers-to-try-if-youre-being-forced-off-arc/",
             "url": "https://digestweb.dev/articles/2026-11-16/arc-browser-sunsets-exploring-alternative-browsers",
