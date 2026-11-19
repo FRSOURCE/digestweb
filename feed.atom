@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-11-18T08:14:49.250Z</updated>
+    <updated>2026-11-19T08:25:45.336Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,295 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[5 CSS Values to Simplify Your Text Styling]]></title>
+        <id>https://digestweb.dev/articles/2026-11-18/css-values-easier-text-styling</id>
+        <link href="https://digestweb.dev/articles/2026-11-18/css-values-easier-text-styling"/>
+        <link rel="enclosure" href="https://blog.master.dev/wp-json/social-image-generator/v1/image/11991" type="image//wp-json/social-image-generator/v1/image/11991"/>
+        <updated>2026-11-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Discover five powerful CSS values—unset, AccentColor, ch, from, and revert-layer—that can significantly streamline and simplify your text styling workflows.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article introduces five specific CSS values for text styling.
+- `unset` helps reset properties to their inherited or initial values.
+- `AccentColor` allows styling UI elements with a consistent brand color.
+- `ch` units provide consistent sizing based on the "0" character width.
+- `from` is used in conjunction with `animation-timeline` for scroll-driven animations.
+- `revert-layer` helps manage cascade layers by reverting to previous layer styles.
+
+## Our Commentary
+
+Sometimes it's not about new properties, but mastering the existing values. `AccentColor` is a personal favorite for quick theming, and `ch` units are a godsend for readable text blocks. `revert-layer` is also super useful for managing complex CSS architectures. This is solid, practical advice.
+
+Original Link: https://blog.master.dev/5-css-values-for-easier-text-styling/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Daniel Stenberg Critiques AI Code Rewrites for Curl Project]]></title>
+        <id>https://digestweb.dev/articles/2026-11-18/daniel-stenberg-critiques-ai-code-rewrites-curl</id>
+        <link href="https://digestweb.dev/articles/2026-11-18/daniel-stenberg-critiques-ai-code-rewrites-curl"/>
+        <link rel="enclosure" href="https://picsum.photos/id/714/800/450" type="image//id/714/800/450"/>
+        <updated>2026-11-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison quotes Daniel Stenberg, creator of curl, who highlights the limitations of AI coding agents in rewriting C to Rust, emphasizing human-driven bug fixes and security patches.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Daniel Stenberg, curl's creator, expresses skepticism about AI code rewrites.
+- He notes that AI agents converted 185,000 lines of C to 340,000 lines of Rust.
+- During the same period, human developers merged over 300 commits and 200 bug fixes in curl.
+- Stenberg questions if AI clones can keep up with human-driven improvements and vulnerability fixes.
+- The piece underscores the ongoing value of human expertise in critical open-source projects.
+
+## Our Commentary
+
+This is the kind of grounded reality check we desperately need. Daniel Stenberg's perspective on AI code rewrites for `curl` is absolutely spot on. It's easy to get swept up in the "AI will write all the code" narrative, but the messy, continuous work of fixing bugs and patching vulnerabilities? That's where human expertise still shines. We're not just writing code; we're maintaining trust.
+
+Original Link: https://simonwillison.net/2026/Nov/18/daniel-stenberg/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google DeepMind Releases Genie 4 AI Model]]></title>
+        <id>https://digestweb.dev/articles/2026-11-18/google-deepmind-genie-4-available</id>
+        <link href="https://digestweb.dev/articles/2026-11-18/google-deepmind-genie-4-available"/>
+        <link rel="enclosure" href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/resized_ProjectGenie_Thumbnail_v02.width-1300.png" type="image/png"/>
+        <updated>2026-11-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Google DeepMind announces the availability of Genie 4, a new iteration of their AI model, promising enhanced capabilities and performance.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Google DeepMind has made Genie 4 available.
+- This is a new version of their Genie AI model.
+- It is expected to offer enhanced capabilities and performance.
+- The release signifies ongoing advancements in DeepMind's AI research.
+
+## Our Commentary
+
+Genie 4 is out! Another major release from DeepMind. It's fascinating to watch them iterate on these models so quickly. We're seeing a rapid evolution in AI capabilities, and each new version brings us closer to truly transformative applications. I'm eager to see the benchmarks.
+
+Original Link: https://deepmind.google/blog/genie-4-is-now-available/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google DeepMind Unveils Gemini 4 Neon LLM]]></title>
+        <id>https://digestweb.dev/articles/2026-11-18/google-deepmind-introduces-gemini-4-neon</id>
+        <link href="https://digestweb.dev/articles/2026-11-18/google-deepmind-introduces-gemini-4-neon"/>
+        <link rel="enclosure" href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-neon__blog-header__sm.width-1300.png" type="image/png"/>
+        <updated>2026-11-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Google DeepMind announces the introduction of Gemini 4 Neon, marking a significant advancement in their large language model series.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Google DeepMind has officially introduced Gemini 4 Neon.
+- This represents a new iteration in the Gemini large language model family.
+- The release is expected to bring advancements in AI capabilities.
+- Further details on its features and performance are anticipated.
+
+## Our Commentary
+
+Gemini 4 Neon! This is huge. Google DeepMind is clearly pushing hard in the LLM race. Every new iteration from them is a potential game-changer. We're all waiting to see what new capabilities "Neon" brings to the table. The pace of innovation here is just wild.
+
+Original Link: https://deepmind.google/blog/introducing-gemini-4-neon/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DaisyRose-27B: Advancing Post-Training Efficiency in LLMs]]></title>
+        <id>https://digestweb.dev/articles/2026-11-18/huggingface-daisyrose-27b-llm-efficiency</id>
+        <link href="https://digestweb.dev/articles/2026-11-18/huggingface-daisyrose-27b-llm-efficiency"/>
+        <link rel="enclosure" href="https://cdn-uploads.huggingface.co/production/uploads/6aeabf9f2efd990530425e58/faP4Su889q_DIgN3wmU9M.png" type="image/png"/>
+        <updated>2026-11-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article introduces DaisyRose-27B, a new development from Hugging Face that aims to push the boundaries of post-training efficiency for large language models.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- DaisyRose-27B is presented as a new development in LLM research.
+- The focus is on improving post-training efficiency for large language models.
+- This work aims to push the frontier of current optimization techniques.
+- It likely offers insights into more efficient model deployment and operation.
+
+## Our Commentary
+
+"Post-training efficiency" is where the rubber meets the road for LLMs. It's one thing to train a massive model, another entirely to make it practical and cost-effective to use. DaisyRose-27B sounds like it's tackling a critical bottleneck. We're always looking for ways to make these models more accessible.
+
+Original Link: https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Demystifying LLM Fine-Tuning Time Beyond FLOPs]]></title>
+        <id>https://digestweb.dev/articles/2026-11-18/huggingface-llm-fine-tuning-time-flops</id>
+        <link href="https://digestweb.dev/articles/2026-11-18/huggingface-llm-fine-tuning-time-flops"/>
+        <link rel="enclosure" href="https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/J6DIf4Len_31Tj-CQlQXY.png" type="image/png"/>
+        <updated>2026-11-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article from Hugging Face explores the often-misunderstood factors that cause LLM fine-tuning jobs to take longer than theoretical FLOPs calculations suggest.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article investigates discrepancies between theoretical FLOPs and actual fine-tuning times.
+- It aims to explain hidden factors contributing to longer LLM fine-tuning durations.
+- This provides practical insights for optimizing and predicting fine-tuning schedules.
+- Understanding these bottlenecks is crucial for efficient AI development.
+
+## Our Commentary
+
+Oh, this is a classic developer frustration. We've all looked at the theoretical numbers and then watched our jobs crawl. This kind of practical, "why is this actually slow" deep dive is invaluable. It's not just about raw compute; there are always subtle system-level interactions at play. I'm genuinely curious about the specifics here.
+
+Original Link: https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Time-Series Models in the Streamhouse: New Use Cases]]></title>
+        <id>https://digestweb.dev/articles/2026-11-18/huggingface-time-series-models-streamhouse</id>
+        <link href="https://digestweb.dev/articles/2026-11-18/huggingface-time-series-models-streamhouse"/>
+        <link rel="enclosure" href="https://cdn-uploads.huggingface.co/production/uploads/64e8143f6de557454220921e/yf6E9vJHIkGHG_toGSasb.gif" type="image/gif"/>
+        <updated>2026-11-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article explores the application of time-series models within a "Streamhouse" context, highlighting new frontiers and potential use cases for this specialized AI domain.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- The article introduces the concept of "Streamhouse" for time-series models.
+- It explores new frontiers and potential use cases for these models.
+- This suggests novel applications for analyzing sequential data in real-time.
+- The focus is on expanding the practical utility of time-series AI.
+
+## Our Commentary
+
+"Streamhouse" sounds intriguing for time-series data. It's always good to see AI models applied to new domains, especially when it involves real-time data processing. This feels like a niche, but potentially impactful, area of research.
+
+Original Link: https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deep Dive into OpenAI Codex Sandbox Security]]></title>
+        <id>https://digestweb.dev/articles/2026-11-18/openai-codex-sandbox-security-deep-dive</id>
+        <link href="https://digestweb.dev/articles/2026-11-18/openai-codex-sandbox-security-deep-dive"/>
+        <link rel="enclosure" href="https://picsum.photos/id/919/800/450" type="image//id/919/800/450"/>
+        <updated>2026-11-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Explore how OpenAI's Codex operates within a secure sandbox environment, enforcing filesystem and network limits across macOS, Linux, and Windows.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI's Codex runs commands within a controlled sandbox environment.
+- The sandbox enforces strict filesystem and network limits.
+- This ensures secure operation across macOS, Linux, and Windows.
+- It provides insight into the operational security of AI coding tools.
+
+## Our Commentary
+
+Understanding how tools like Codex are sandboxed is crucial. The idea of an AI running commands on my machine is powerful, but also a little unnerving without clear security boundaries. This deep dive helps demystify that process. It's good to see them addressing these concerns head-on.
+
+Original Link: https://openai.com/index/inside-the-codex-sandbox]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Explores Coding Agents' Uneven Impact on AI Research]]></title>
+        <id>https://digestweb.dev/articles/2026-11-18/openai-coding-agents-ai-research-jagged-frontier</id>
+        <link href="https://digestweb.dev/articles/2026-11-18/openai-coding-agents-ai-research-jagged-frontier"/>
+        <link rel="enclosure" href="https://picsum.photos/id/302/800/450" type="image//id/302/800/450"/>
+        <updated>2026-11-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI's research examines how coding agents accelerate AI development, highlighting their inconsistent performance and what this suggests about recursive self-improvement.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI is measuring the impact of coding agents on accelerating AI research.
+- Performance of these agents remains uneven across different tasks.
+- The research explores what this unevenness signals about recursive self-improvement in AI.
+- Understanding these dynamics is crucial for future AI development strategies.
+
+## Our Commentary
+
+The idea of AI agents accelerating AI research is both fascinating and a little terrifying. "Jagged frontier" is a perfect description; it's not a smooth ascent. We're seeing these tools push boundaries, but the inconsistencies are a stark reminder that human oversight is still critical. The implications for recursive self-improvement are huge.
+
+Original Link: https://openai.com/index/research-acceleration-jagged-frontier]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI's Dean Ball on AI's Societal Impact and Control]]></title>
+        <id>https://digestweb.dev/articles/2026-11-18/openai-dean-ball-ai-societal-impact-control</id>
+        <link href="https://digestweb.dev/articles/2026-11-18/openai-dean-ball-ai-societal-impact-control"/>
+        <link rel="enclosure" href="https://picsum.photos/id/71/800/450" type="image//id/71/800/450"/>
+        <updated>2026-11-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dean Ball, Head of Strategic Futures at OpenAI, discusses how increasingly capable AI could reshape society and the mechanisms for retaining human control over institutions.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Dean Ball from OpenAI explores the potential societal reshaping by advanced AI.
+- The discussion focuses on how human institutions can maintain control amidst AI advancements.
+- It delves into the broader implications of AI capability on human society.
+- The piece encourages thought on governance and oversight in an AI-driven future.
+
+## Our Commentary
+
+This is the kind of conversation we need to be having more often. It's easy to get caught up in the tech, but the societal implications of AI are massive. "Retaining control of institutions" is a phrase that really sticks with me. It's not just about building powerful AI, it's about building a future where we still have agency.
+
+Original Link: https://openai.com/index/the-silent-consensus]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Details Frontier AI Risk Management Strategies]]></title>
+        <id>https://digestweb.dev/articles/2026-11-18/openai-frontier-ai-risk-management-strategies</id>
+        <link href="https://digestweb.dev/articles/2026-11-18/openai-frontier-ai-risk-management-strategies"/>
+        <link rel="enclosure" href="https://picsum.photos/id/352/800/450" type="image//id/352/800/450"/>
+        <updated>2026-11-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI outlines its comprehensive approach to managing frontier AI risks, covering model alignment, sandboxing, blocking safeguards, and continuous monitoring from training to deployment.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- OpenAI details its strategy for managing risks associated with frontier AI.
+- The approach spans the entire lifecycle, from initial training to deployment.
+- Key methods include model alignment, ensuring AI behaves as intended.
+- Sandboxing, blocking safeguards, and continuous monitoring are also employed.
+- This aims to mitigate potential harms and ensure responsible AI development.
+
+## Our Commentary
+
+This is the kind of transparency we need from frontier AI developers. The risks are real, and seeing a structured approach to managing them, from alignment to deployment, is reassuring. It's not just about building powerful models, it's about building them safely. We're all in this together, and these discussions are vital.
+
+Original Link: https://openai.com/index/managing-frontier-ai-risk]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SolidJS 2.0.1 Improves Store Reactivity, Updates Tutorial Link]]></title>
+        <id>https://digestweb.dev/articles/2026-11-18/solidjs-2-0-1-store-reactivity-tutorial-update</id>
+        <link href="https://digestweb.dev/articles/2026-11-18/solidjs-2-0-1-store-reactivity-tutorial-update"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/1747b11bd1b1545f53deca635ca3ed2ba252dbd48910870177b242d36f5c9a97/solidjs/solid/releases/tag/solid-js%402.0.1" type="image/1"/>
+        <updated>2026-11-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[SolidJS 2.0.1 brings a crucial fix for store reactivity with frozen objects and arrays, benefiting state management. It also updates the README to link to the new 2.0 tutorial.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Frozen plain objects and arrays within a store now wrap and track like unfrozen ones.
+- This change enables fine-grained reactivity for libraries that freeze their state, such as XState.
+- The package README now correctly links to the SolidJS 2.0 tutorial at docs.solidjs.com/tutorial.
+- Includes various bug fixes and internal improvements from dependent packages.
+
+## Our Commentary
+
+This is the core SolidJS package, and that frozen object fix is a big one. It smooths out a common friction point when integrating with other state management patterns. We've all been there, debugging why something isn't reactive when it should be. Also, updating the tutorial link? Small, but important for new users. Good stuff.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/solid-js%402.0.1]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SolidJS Signals 2.0.1 Improves Store Tracking for Frozen Objects]]></title>
+        <id>https://digestweb.dev/articles/2026-11-18/solidjs-signals-2-0-1-frozen-object-tracking-bundle-size</id>
+        <link href="https://digestweb.dev/articles/2026-11-18/solidjs-signals-2-0-1-frozen-object-tracking-bundle-size"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/e3120f0eba7555c245c070ad24d9967afd3b5871a6684546dbe2795dd71cc718/solidjs/solid/releases/tag/%40solidjs/signals%402.0.1" type="image/1"/>
+        <updated>2026-11-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This patch release for SolidJS Signals enhances store tracking for frozen plain objects and arrays, benefiting libraries like XState. It also includes client bundle size reductions.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Frozen plain objects and arrays within a store now wrap and track like unfrozen ones.
+- This change enables fine-grained reactivity for libraries that freeze their state, such as XState.
+- Client bundles are smaller, with a reported 88 B Brotli drop for a compiled hello world.
+- Fixes an issue where a disposed dependency kept a memo pending.
+- Addresses a bug where an effect reading a derived writable signal re-ran incorrectly.
+- Portals rendered inside other portals now mount after their parent's content, restoring 1.x behavior.
+
+## Our Commentary
+
+This is a patch release, but that fix for frozen objects in stores is a big deal for anyone using Solid with state machines or other libraries that freeze their data. We've seen so many subtle bugs crop up from unexpected immutability interactions. It's a relief to see this addressed. The bundle size reduction is always welcome, too.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fsignals%402.0.1]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebKit Introduces Global Privacy Control API in Safari 27]]></title>
+        <id>https://digestweb.dev/articles/2026-11-18/webkit-global-privacy-control-api-safari-27</id>
+        <link href="https://digestweb.dev/articles/2026-11-18/webkit-global-privacy-control-api-safari-27"/>
+        <link rel="enclosure" href="https://webkit.org/wp-content/themes/webkit/images/preview-card.jpg" type="image/jpg"/>
+        <updated>2026-11-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[WebKit now provides an API for Global Privacy Control (GPC) across Apple platforms, enabling users to signal their privacy preferences as an emerging web standard.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- WebKit now includes an API for Global Privacy Control (GPC).
+- The API is available in iOS, iPadOS, visionOS, and macOS 27.
+- GPC is an emerging web standard designed to signal user privacy preferences.
+- This implementation allows websites to automatically respect user privacy choices.
+
+## Our Commentary
+
+This is a big win for user privacy. GPC has been a long time coming, and seeing WebKit bake in an API for it is a strong signal. It's one of those features that just _should_ be there. We're always advocating for more user control over data, and this moves the needle.
+
+Original Link: https://webkit.org/blog/18646/global-privacy-control-gpc-webkit-api/]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AI Speed vs. Accessibility: How QA Can Keep Up]]></title>
         <id>https://digestweb.dev/articles/2026-11-17/ai-speed-accessibility-qa</id>
