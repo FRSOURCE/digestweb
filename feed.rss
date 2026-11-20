@@ -4,7 +4,7 @@
         <title>digestweb.dev</title>
         <link>https://digestweb.dev/</link>
         <description>Daily curated web dev news by FRSOURCE</description>
-        <lastBuildDate>Thu, 19 Nov 2026 08:25:45 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Nov 2026 08:05:46 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en-US</language>
@@ -15,6 +15,162 @@
             <link>https://digestweb.dev/</link>
         </image>
         <copyright>Copyright 2026 FRSOURCE</copyright>
+        <item>
+            <title><![CDATA[Bun v1.4.5: Security Release with Dependency Updates]]></title>
+            <link>https://digestweb.dev/articles/2026-11-19/bun-v1-4-5-security-release-dependency-updates</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-19/bun-v1-4-5-security-release-dependency-updates</guid>
+            <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Bun v1.4.5 is a security release that updates several core dependencies including lsquic, c-ares, SQLite, llhttp, and BoringSSL to address potential vulnerabilities.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Bun v1.4.5 is a security-focused patch release.
+- It includes updates to critical underlying dependencies.
+- Updated components include lsquic, c-ares, SQLite, llhttp, and BoringSSL.
+- These updates aim to address potential security vulnerabilities.
+
+## Our Commentary
+
+Security releases are always important, even if they're just dependency bumps. It's a reminder that even fast, modern runtimes like Bun rely on a deep stack of components that need constant vigilance. Keep those updates coming.
+
+Original Link: https://bun.com/blog/bun-v1.4.5]]></content:encoded>
+            <author>Jarred Sumner</author>
+            <enclosure url="https://bun.com/og/blog/bun-v1.4.5.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[SolidJS Element v2.0.1: Custom Element Props Now Enumerable]]></title>
+            <link>https://digestweb.dev/articles/2026-11-19/solidjs-element-v2-0-1-custom-element-props-enumerable</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-19/solidjs-element-v2-0-1-custom-element-props-enumerable</guid>
+            <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[SolidJS Element v2.0.1 fixes an issue where declared custom element properties are now enumerable, allowing them to be correctly seen by `...props` and `Object.keys(props)`.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Declared properties on Solid custom elements are now correctly enumerable.
+- This ensures that operations like object spreading (`{ ...props }`) and `Object.keys(props)` can access these properties.
+- The fix improves compatibility and developer experience when interacting with custom element attributes.
+
+## Our Commentary
+
+This is a good fix for Solid's custom element integration. It's a small detail, but making properties enumerable is crucial for predictable behavior when you're trying to inspect or manipulate custom element attributes programmatically. It just makes sense.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Felement%402.0.1]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/993ae46b78a2fe57d125e3efc7a4523f8816cab05fd2c64c0d79c82ab1641106/solidjs/solid/releases/tag/%40solidjs/element%402.0.1" length="0" type="image/1"/>
+        </item>
+        <item>
+            <title><![CDATA[SolidJS H v2.0.1: Enhanced Hyperscript Argument Forwarding]]></title>
+            <link>https://digestweb.dev/articles/2026-11-19/solidjs-h-v2-0-1-enhanced-hyperscript-argument-forwarding</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-19/solidjs-h-v2-0-1-enhanced-hyperscript-argument-forwarding</guid>
+            <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[SolidJS H v2.0.1 improves hyperscript component callbacks by ensuring all arguments, including default and rest parameters, are correctly forwarded.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Hyperscript component callbacks now receive every argument passed to them.
+- This includes arguments handled by default or rest parameters.
+- The change ensures more consistent and predictable argument forwarding.
+
+## Our Commentary
+
+Another small but useful refinement for Solid's hyperscript. It's about making the developer experience smoother and more consistent, especially for those using more advanced function signatures in their components.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fh%402.0.1]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/a4ef325eb093dc000418d33a86805a9ada2bbda8edf01bf665b03548f7ab3fd7/solidjs/solid/releases/tag/%40solidjs/h%402.0.1" length="0" type="image/1"/>
+        </item>
+        <item>
+            <title><![CDATA[SolidJS H v2.0.2: Text & DocumentFragment Children Fix]]></title>
+            <link>https://digestweb.dev/articles/2026-11-19/solidjs-h-v2-0-2-text-documentfragment-children-fix</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-19/solidjs-h-v2-0-2-text-documentfragment-children-fix</guid>
+            <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[SolidJS H v2.0.2 resolves an issue where Text or DocumentFragment children were incorrectly read as props instead of being inserted as nodes.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Text nodes and DocumentFragments passed as children to `h` functions are now correctly inserted as DOM nodes.
+- Previously, these types of children were mistakenly interpreted as component properties.
+
+## Our Commentary
+
+This is a small but important fix for Solid's hyperscript utility. It's about ensuring predictable behavior when constructing elements programmatically. It's the kind of fix that prevents unexpected rendering issues for those who prefer `h` over JSX.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fh%402.0.2]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/4b1178df0e11473a914eb7d3cc7d8ee36f0721a1aa517f1d14e8608265a91bcf/solidjs/solid/releases/tag/%40solidjs/h%402.0.2" length="0" type="image/2"/>
+        </item>
+        <item>
+            <title><![CDATA[SolidJS HTML v2.0.1: Correct Namespace for Shared Tags]]></title>
+            <link>https://digestweb.dev/articles/2026-11-19/solidjs-html-v2-0-1-correct-namespace-shared-tags</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-19/solidjs-html-v2-0-1-correct-namespace-shared-tags</guid>
+            <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[SolidJS HTML v2.0.1 fixes an issue where shared HTML/SVG tags now correctly inherit their static parent's namespace, ensuring proper rendering within SVG and foreignObject.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Shared HTML and SVG tags (like `title`, `a`, `style`, `script`) now correctly inherit their static parent's namespace.
+- This ensures these tags are treated as SVG elements when inside an `<svg>` block.
+- They revert to HTML elements when nested within a `<foreignObject>`.
+
+## Our Commentary
+
+Namespace handling can be a real headache, so this fix in SolidJS HTML is a welcome refinement. It's one of those details that, when wrong, can lead to subtle and frustrating rendering bugs. Good to see the attention to detail here.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fhtml%402.0.1]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/b7657911455749e12730722cdbf9534aa8cbb173c684ee4dc2172738f7e12311/solidjs/solid/releases/tag/%40solidjs/html%402.0.1" length="0" type="image/1"/>
+        </item>
+        <item>
+            <title><![CDATA[SolidJS Signals v2.0.2: Robustness for Optimistic Updates & Error Boundaries]]></title>
+            <link>https://digestweb.dev/articles/2026-11-19/solidjs-signals-v2-0-2-optimistic-updates-error-boundaries</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-19/solidjs-signals-v2-0-2-optimistic-updates-error-boundaries</guid>
+            <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[SolidJS Signals v2.0.2 delivers crucial fixes for optimistic store actions, ensures error boundaries catch failed re-asks, and refines reactivity tracking for class instances.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Prototype getters on class instances within stores now correctly track dependencies.
+- Error boundaries now catch failed store re-asks, preventing app halts.
+- Issues with overlapping optimistic store actions settling in reverse order are resolved.
+- Store setters now correctly join open actions when reading held keys.
+- Memory leaks related to unmounted store readers are addressed.
+- Improved handling of pending readers and sources in flight.
+
+## Our Commentary
+
+This is a chunky patch for Solid Signals, and it's all about stability. The fixes around optimistic updates and error boundaries are particularly important; these are the areas where reactivity can get really tricky. It's good to see them tightening up the core engine. It makes me feel more confident about building complex, data-intensive applications with Solid.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fsignals%402.0.2]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/bff4ca306ed2425c6bf997f97d556dd1a56eaa94d40a3c2e6447a619aaa56a2b/solidjs/solid/releases/tag/%40solidjs/signals%402.0.2" length="0" type="image/2"/>
+        </item>
+        <item>
+            <title><![CDATA[SolidJS Signals v2.0.3: `markRaw` Now Supports Classes]]></title>
+            <link>https://digestweb.dev/articles/2026-11-19/solidjs-signals-v2-0-3-markraw-supports-classes</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-19/solidjs-signals-v2-0-3-markraw-supports-classes</guid>
+            <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[SolidJS Signals v2.0.3 enhances `markRaw` to accept classes, preventing instances and subclasses from being wrapped by stores. This is useful for self-managing objects.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- The `markRaw` function is now exported from `solid-js` and accepts class constructors.
+- Using `markRaw(MyClass)` prevents all instances of `MyClass` and its subclasses from being wrapped by Solid stores.
+- This feature is designed for self-managing objects, such as those with their own subscribers or private fields.
+
+## Our Commentary
+
+This `markRaw` update for classes is a smart move. It gives developers more granular control over reactivity, which is crucial when you're trying to optimize performance or integrate with libraries that manage their own state. I appreciate the clarity it brings to managing complex object graphs.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fsignals%402.0.3]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/ab4b3768181a3091a807fd969714f6c5bfab31388fadbdc22098fbdfb50682ae/solidjs/solid/releases/tag/%40solidjs/signals%402.0.3" length="0" type="image/3"/>
+        </item>
+        <item>
+            <title><![CDATA[SolidJS v2.0.2: Shadow DOM Event Replay & Server-Timing Fixes]]></title>
+            <link>https://digestweb.dev/articles/2026-11-19/solidjs-v2-0-2-shadow-dom-event-replay-server-timing-fixes</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-19/solidjs-v2-0-2-shadow-dom-event-replay-server-timing-fixes</guid>
+            <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[SolidJS v2.0.2 brings fixes for shadow DOM event replay during hydration and refines server-timing trace handling for cached responses.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Events fired within a shadow root before hydration are now correctly replayed to their handlers.
+- Server-Timing traces are no longer carried by route handler responses when a shared cache might store them.
+- The decision for trace inclusion now depends on the response's Cache-Control or CDN-Cache-Control headers.
+
+## Our Commentary
+
+We're seeing SolidJS continue to refine its server-side and hydration logic. The shadow DOM event replay fix is a good quality-of-life improvement for component authors. It's these small, precise adjustments that make a framework feel robust.
+
+Original Link: https://github.com/solidjs/solid/releases/tag/%40solidjs%2Fweb%402.0.2]]></content:encoded>
+            <enclosure url="https://opengraph.githubassets.com/65882cdebb24a4e14c4953745302efc66e8f91a60f6ec53b48b914bd15075aee/solidjs/solid/releases/tag/%40solidjs/web%402.0.2" length="0" type="image/2"/>
+        </item>
         <item>
             <title><![CDATA[5 CSS Values to Simplify Your Text Styling]]></title>
             <link>https://digestweb.dev/articles/2026-11-18/css-values-easier-text-styling</link>
@@ -58,6 +214,51 @@ This is the kind of grounded reality check we desperately need. Daniel Stenberg'
 Original Link: https://simonwillison.net/2026/Nov/18/daniel-stenberg/]]></content:encoded>
             <author>Simon Willison</author>
             <enclosure url="https://picsum.photos/id/714/800/450" length="0" type="image//id/714/800/450"/>
+        </item>
+        <item>
+            <title><![CDATA[Datasette Gains Streaming Apache Arrow Exports with New Plugin]]></title>
+            <link>https://digestweb.dev/articles/2026-11-18/datasette-streaming-apache-arrow-exports-plugin</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-18/datasette-streaming-apache-arrow-exports-plugin</guid>
+            <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Datasette 1.0a43 now supports streaming export formats, demonstrated by the new `datasette-arrows` plugin, which enables efficient Apache Arrow data exports.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Datasette 1.0a43 introduced a new plugin hook for streaming export formats.
+- The `datasette-arrows` plugin leverages this to provide streaming Apache Arrow exports.
+- This allows exporting millions of data rows without loading them entirely into memory.
+- The plugin was suggested and largely built by Claude Fable 5.2, an AI model.
+- The new Arrow export option appears in Datasette's export dialog.
+
+## Our Commentary
+
+Streaming large datasets is a critical capability, and seeing Datasette embrace Apache Arrow for this is fantastic. What really caught my eye, though, is that Claude Fable 5.2 essentially built this plugin. It's a small, tangible example of AI moving beyond just text generation and into actual code implementation for practical tools. It makes me wonder how many more plugins will be "AI-assisted" in the near future.
+
+Original Link: https://simonwillison.net/2026/Nov/18/datasette-arrows/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://static.simonwillison.net/static/2026/arrow-export-dialog.webp" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[Gemini 4 Neon: Simon Willison Unpacks Google's Confusing New LLM]]></title>
+            <link>https://digestweb.dev/articles/2026-11-18/gemini-4-neon-simon-willison-unpacks-google-llm</link>
+            <guid isPermaLink="false">https://digestweb.dev/articles/2026-11-18/gemini-4-neon-simon-willison-unpacks-google-llm</guid>
+            <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Simon Willison dives into Google's new Gemini 4 Neon LLM, critiquing its baffling pricing structure and offering practical tests of its reasoning capabilities.]]></description>
+            <content:encoded><![CDATA[## Summary & Key Takeaways
+
+- Google introduced Gemini 4 Neon, adding to the existing Hydrogen, Argon, and Carbon lineup.
+- The pricing structure for Gemini 4 models is criticized for being increasingly confusing, especially with introductory discounts.
+- Neon is currently the most expensive of the three new models, but pricing will shift on December 1st.
+- Simon Willison conducted practical tests of Neon's reasoning levels using "pelicans" (a common benchmark).
+- Neon's performance appears to be better than Hydrogen but not as good as Carbon.
+- An example prompt for a Three.js animation was tested against Gemini 4 Neon.
+
+## Our Commentary
+
+Google's LLM naming and pricing strategy is becoming a genuine mess. Simon Willison's breakdown here is essential because it cuts through the marketing fluff and shows the real-world implications. I genuinely don't know how they expect developers to navigate this labyrinth of tiers and temporary discounts. It feels like they're making it harder, not easier, to adopt their models.
+
+Original Link: https://simonwillison.net/2026/Nov/18/llm-gemini/]]></content:encoded>
+            <author>Simon Willison</author>
+            <enclosure url="https://static.simonwillison.net/static/2026/gemini-grid-updated.webp" length="0" type="image/webp"/>
         </item>
         <item>
             <title><![CDATA[Google DeepMind Releases Genie 4 AI Model]]></title>
