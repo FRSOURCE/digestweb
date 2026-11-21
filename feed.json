@@ -11,6 +11,54 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-11-20/ai-design-synthesized-ux-data-study",
+            "content_html": "## Summary & Key Takeaways\n\n- AI-generated designs are improved by providing synthesized data.\n- Raw user comments alone lead to less effective AI designs.\n- The study highlights the importance of human synthesis in the AI design pipeline.\n- Designers should process raw data into findings and recommendations for AI.\n- This optimizes AI's ability to create better design solutions.\n\n## Our Commentary\n\nThis is a really practical insight. It confirms what many of us suspected: AI isn't a magic bullet that can just ingest anything and spit out gold. It still needs human intelligence to refine the input. It's a good reminder that the \"AI\" in \"AI design\" still benefits immensely from the \"human\" in \"human-centered design.\" We're not out of a job yet, folks.\n\nOriginal Link: https://www.nngroup.com/articles/raw-data-vs-synthesized-data/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+            "url": "https://digestweb.dev/articles/2026-11-20/ai-design-synthesized-ux-data-study",
+            "title": "AI Designs Better with Synthesized UX Data, Not Raw User Comments",
+            "summary": "A new study reveals that AI generates superior designs when fed synthesized user findings and recommendations, rather than raw, unprocessed user comments.",
+            "image": "https://media.nngroup.com/media/articles/opengraph_images/Can_AI_Card.png",
+            "date_modified": "2026-11-20T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-20/andy-clarke-standout-web-designs-interview",
+            "content_html": "## Summary & Key Takeaways\n\n- Andy Clarke's new e-book, \"Standout Designs for the Web,\" is now available.\n- The book encourages designers to move past generic templates.\n- It advocates for creating websites with distinct personality.\n- Clarke emphasizes unique layouts over conventional approaches.\n- The interview provides insights into the book's core philosophy.\n\n## Our Commentary\n\nI appreciate the push for more personality in web design. It feels like we've been stuck in a rut of template-driven sameness for a while now. It's a good reminder that design isn't just about functionality; it's about expression too. We need more of this kind of thinking.\n\nOriginal Link: https://css-tricks.com/andy-clarke-standout-designs-for-the-web-interview/",
+            "url": "https://digestweb.dev/articles/2026-11-20/andy-clarke-standout-web-designs-interview",
+            "title": "Andy Clarke on Crafting Standout Web Designs Beyond Templates",
+            "summary": "Andy Clarke discusses his new e-book, \"Standout Designs for the Web,\" advocating for personality-driven websites that move beyond conventional layouts and templates.",
+            "image": "https://css-tricks.com/wp-content/uploads/2026/10/standout-design-thumbmnail.png",
+            "date_modified": "2026-11-20T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-20/claude-ai-reportedly-proves-riemann-hypothesis",
+            "content_html": "## Summary & Key Takeaways\n\n- Levent Alpöge claims to have proven the Riemann Hypothesis with Anthropic's Claude.\n- The method reportedly extends to the Generalized and Extended Riemann Hypotheses.\n- Claude is credited with significantly outpacing the human collaborator near the finish line.\n- The arguments have been formalized without assumptions.\n- This represents a potential major breakthrough in AI's mathematical capabilities.\n\n## Our Commentary\n\nOkay, wow. If this is true, it's absolutely massive. The Riemann Hypothesis is one of the most famous unsolved problems in mathematics. An AI doing this? It's mind-boggling. I'm genuinely thrilled and a little terrified at the same time. What does this even mean for human mathematicians? Claude \"flew, and danced, and sparkled\" – that's a quote that will stick with me. We're watching something truly wild unfold.\n\nOriginal Link: https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+            "url": "https://digestweb.dev/articles/2026-11-20/claude-ai-reportedly-proves-riemann-hypothesis",
+            "title": "Claude AI Reportedly Proves Riemann Hypothesis, Shifting Math & AI Landscape",
+            "summary": "Levent Alpöge, working with Anthropic's Claude, claims to have discovered a proof for the Riemann Hypothesis and its generalizations, with Claude significantly contributing to the formalization.",
+            "image": "https://picsum.photos/id/27/800/450",
+            "date_modified": "2026-11-20T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-20/openai-layered-defense-adversarial-distillation",
+            "content_html": "## Summary & Key Takeaways\n\n- OpenAI is implementing a layered defense strategy to combat adversarial distillation.\n- The approach integrates model training techniques to enhance robustness.\n- Safeguards are in place to prevent unauthorized capability extraction.\n- Detection mechanisms are used to identify adversarial attempts.\n- Enforcement protocols address identified threats to model integrity.\n\n## Our Commentary\n\nThis is a crucial area for AI safety, and it's good to see OpenAI being transparent about their methods. I wonder how effective these measures truly are against increasingly sophisticated attacks. It feels like an arms race, doesn't it? We're building, others are trying to break.\n\nOriginal Link: https://openai.com/index/combatting-adversarial-distillation",
+            "url": "https://digestweb.dev/articles/2026-11-20/openai-layered-defense-adversarial-distillation",
+            "title": "OpenAI Details Layered Defense Against Adversarial Distillation",
+            "summary": "OpenAI outlines its multi-pronged strategy, combining model training, safeguards, detection, and enforcement, to protect AI models from capability extraction.",
+            "image": "https://images.ctfassets.net/kftzwdyauwt9/5SUtPGdssrttC7LfP1yoJ1/b6b000846ab3576c1735c29534ab20b0/combatting-adversarial-distillation-social.png?w=1600&amp;h=900&amp;fit=fill",
+            "date_modified": "2026-11-20T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-20/qualitative-user-research-methods-overview",
+            "content_html": "## Summary & Key Takeaways\n\n- Qualitative user research helps understand user struggles and needs.\n- The article outlines four popular qualitative UX methods.\n- Choosing the right method is crucial for effective research.\n- These methods provide insights into user behavior and motivations.\n- The overview serves as a guide for UX practitioners.\n\n## Our Commentary\n\nA solid refresher for anyone in UX, or a good starting point for newcomers. We often forget the basics in the rush to adopt new tech, but understanding _why_ users do what they do is timeless.\n\nOriginal Link: https://www.nngroup.com/articles/qual-research-methods/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+            "url": "https://digestweb.dev/articles/2026-11-20/qualitative-user-research-methods-overview",
+            "title": "An Overview of Key Qualitative User-Research Methods",
+            "summary": "This article from NNGroup provides a foundational overview of four popular qualitative UX-research methods, explaining how to understand user struggles and needs.",
+            "image": "https://media.nngroup.com/media/articles/opengraph_images/Qualitative_User_Research_Card.png",
+            "date_modified": "2026-11-20T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-11-19/bun-v1-4-5-security-release-dependency-updates",
             "content_html": "## Summary & Key Takeaways\n\n- Bun v1.4.5 is a security-focused patch release.\n- It includes updates to critical underlying dependencies.\n- Updated components include lsquic, c-ares, SQLite, llhttp, and BoringSSL.\n- These updates aim to address potential security vulnerabilities.\n\n## Our Commentary\n\nSecurity releases are always important, even if they're just dependency bumps. It's a reminder that even fast, modern runtimes like Bun rely on a deep stack of components that need constant vigilance. Keep those updates coming.\n\nOriginal Link: https://bun.com/blog/bun-v1.4.5",
             "url": "https://digestweb.dev/articles/2026-11-19/bun-v1-4-5-security-release-dependency-updates",
