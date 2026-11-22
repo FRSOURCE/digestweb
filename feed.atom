@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-11-21T08:01:07.077Z</updated>
+    <updated>2026-11-22T07:47:51.142Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,33 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[Muru: AI-Assisted Rust Server for Python Web Apps]]></title>
+        <id>https://digestweb.dev/articles/2026-11-21/muru-ai-assisted-rust-server-python-web-apps</id>
+        <link href="https://digestweb.dev/articles/2026-11-21/muru-ai-assisted-rust-server-python-web-apps"/>
+        <link rel="enclosure" href="https://picsum.photos/id/636/800/450" type="image//id/636/800/450"/>
+        <updated>2026-11-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Graham Dumpleton, creator of mod_wsgi, unveils Muru, a new Rust-based server for Python ASGI/WSGI applications. It leverages AI assistance and offers advanced features for both development and production environments.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+Muru is a new AI-assisted Rust server designed for Python ASGI and WSGI web applications.
+It is developed by Graham Dumpleton, known for creating mod_wsgi two decades ago.
+The project aims to provide optimal tools for running Python apps in both development and production.
+Dumpleton is publishing an extraordinarily detailed development log as he builds Muru.
+Key features include import-once/fork-many, HTTPS in development, and canary deployments without a service mesh.
+Muru is designed for efficient scaling, seamless Kubernetes integration, and better container tenancy.
+The server emphasizes releases over restarts and dynamic scaling based on worker reports.
+An accompanying post discusses AI as a 'lifestyle choice' integrated into the development process.
+
+## Our Commentary
+
+Graham Dumpleton, the mod_wsgi legend, is back with Muru. A Rust server for Python apps, AI-assisted. Honestly, the sheer volume of his devlog posts is staggering. Who has that much energy to document _everything_? It's a wild ride to follow. I'm genuinely fascinated by his 'AI as a lifestyle choice' piece. It's not just a gimmick; he's really leaning into it, but still stressing the human element for quality. We often see AI as a black box, but this shows a developer's journey with it. It feels... raw. And I like that. This isn't just a new tool; it's a peek into a new way of working.
+
+Original Link: https://simonwillison.net/2026/Nov/21/muru/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AI Designs Better with Synthesized UX Data, Not Raw User Comments]]></title>
         <id>https://digestweb.dev/articles/2026-11-20/ai-design-synthesized-ux-data-study</id>

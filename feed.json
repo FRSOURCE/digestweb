@@ -11,6 +11,18 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-11-21/muru-ai-assisted-rust-server-python-web-apps",
+            "content_html": "## Summary & Key Takeaways\n\nMuru is a new AI-assisted Rust server designed for Python ASGI and WSGI web applications.\nIt is developed by Graham Dumpleton, known for creating mod_wsgi two decades ago.\nThe project aims to provide optimal tools for running Python apps in both development and production.\nDumpleton is publishing an extraordinarily detailed development log as he builds Muru.\nKey features include import-once/fork-many, HTTPS in development, and canary deployments without a service mesh.\nMuru is designed for efficient scaling, seamless Kubernetes integration, and better container tenancy.\nThe server emphasizes releases over restarts and dynamic scaling based on worker reports.\nAn accompanying post discusses AI as a 'lifestyle choice' integrated into the development process.\n\n## Our Commentary\n\nGraham Dumpleton, the mod_wsgi legend, is back with Muru. A Rust server for Python apps, AI-assisted. Honestly, the sheer volume of his devlog posts is staggering. Who has that much energy to document _everything_? It's a wild ride to follow. I'm genuinely fascinated by his 'AI as a lifestyle choice' piece. It's not just a gimmick; he's really leaning into it, but still stressing the human element for quality. We often see AI as a black box, but this shows a developer's journey with it. It feels... raw. And I like that. This isn't just a new tool; it's a peek into a new way of working.\n\nOriginal Link: https://simonwillison.net/2026/Nov/21/muru/",
+            "url": "https://digestweb.dev/articles/2026-11-21/muru-ai-assisted-rust-server-python-web-apps",
+            "title": "Muru: AI-Assisted Rust Server for Python Web Apps",
+            "summary": "Graham Dumpleton, creator of mod_wsgi, unveils Muru, a new Rust-based server for Python ASGI/WSGI applications. It leverages AI assistance and offers advanced features for both development and production environments.",
+            "image": "https://picsum.photos/id/636/800/450",
+            "date_modified": "2026-11-21T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-11-20/ai-design-synthesized-ux-data-study",
             "content_html": "## Summary & Key Takeaways\n\n- AI-generated designs are improved by providing synthesized data.\n- Raw user comments alone lead to less effective AI designs.\n- The study highlights the importance of human synthesis in the AI design pipeline.\n- Designers should process raw data into findings and recommendations for AI.\n- This optimizes AI's ability to create better design solutions.\n\n## Our Commentary\n\nThis is a really practical insight. It confirms what many of us suspected: AI isn't a magic bullet that can just ingest anything and spit out gold. It still needs human intelligence to refine the input. It's a good reminder that the \"AI\" in \"AI design\" still benefits immensely from the \"human\" in \"human-centered design.\" We're not out of a job yet, folks.\n\nOriginal Link: https://www.nngroup.com/articles/raw-data-vs-synthesized-data/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
             "url": "https://digestweb.dev/articles/2026-11-20/ai-design-synthesized-ux-data-study",
