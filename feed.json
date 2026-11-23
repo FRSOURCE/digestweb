@@ -11,6 +11,45 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-11-22/pnpm-11-29-enhanced-security-otp-local-dependencies",
+            "content_html": "## Summary & Key Takeaways\n\n- Stops reading OTP from config files, requiring it via command line or environment variables for security.\n- Rejects local filesystem dependencies declared by non-local packages to prevent supply chain attacks.\n- Enforces `blockExoticSubdeps` against entries in `pnpm-lock.yaml` more strictly.\n- Ensures tarball downloads send registry credentials only over HTTPS or loopback HTTP.\n- Adds the `--minimum-release-age` option for release management.\n\n## Our Commentary\n\nAnother pnpm release, and again, security is front and center. Rejecting local filesystem dependencies from registry packages is a huge win for supply chain security. It's a necessary hardening step, even if it might break some obscure workflows. I'm glad to see this kind of vigilance; it's a constant battle.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v11.29.0",
+            "url": "https://digestweb.dev/articles/2026-11-22/pnpm-11-29-enhanced-security-otp-local-dependencies",
+            "title": "pnpm 11.29: Enhanced Security for OTP and Local Dependencies",
+            "summary": "This release focuses heavily on security, stopping OTP reads from config files and rejecting local filesystem dependencies from registry packages.",
+            "image": "https://opengraph.githubassets.com/ea24ae55f6d22258555da36cacbd1b68fbb1a0852d46d2ab49700d9ceeef40a5/pnpm/pnpm/releases/tag/v11.29.0",
+            "date_modified": "2026-11-22T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-22/pnpm-12-23-new-commands-platform-variant-removal-security-fixes",
+            "content_html": "## Summary & Key Takeaways\n\n- Introduces new commands: `pnpm edit`, `pnpm catalog migrate`, and `pnpm link --hard`.\n- Removes platform variants, requiring packages to use `optionalDependencies` for platform-specific builds.\n- Enhances security by no longer reading OTP from config files and sending registry credentials only over HTTPS.\n- Adds `pnpm publish --new-version` for easier version management during publishing.\n- Improves `pnpm pack --json` to preview `package.json` changes before tarball creation.\n- Ensures private workspace packages are not listed in `dependencies` of public packages.\n\n## Our Commentary\n\nThe removal of platform variants feels like a big one for anyone relying on that. It's a clear push towards a more standardized publishing model, which I appreciate for simplicity, but I can imagine some folks will have a migration headache. The security fixes are always welcome, especially around OTP handling. It's good to see continued hardening.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v12.23.0",
+            "url": "https://digestweb.dev/articles/2026-11-22/pnpm-12-23-new-commands-platform-variant-removal-security-fixes",
+            "title": "pnpm 12.23: New Commands, Platform Variant Removal, and Security Fixes",
+            "summary": "This release introduces new commands like `pnpm edit` and `pnpm link --hard`, removes platform variants, and includes crucial security updates.",
+            "image": "https://opengraph.githubassets.com/b042cb02ed4745118d5e0c4fef867301709d2c24ec807b07a1f791a38b46c965/pnpm/pnpm/releases/tag/v12.23.0",
+            "date_modified": "2026-11-22T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-22/pnpr-0-1-0-alpha-22-registry-proxy-updates-access-control",
+            "content_html": "## Summary & Key Takeaways\n\n- Removes platform variants, aligning with pnpm's recent changes for package archives.\n- Enhances access control by enforcing package grants on owner changes and upload sessions.\n- Improves security by verifying caller permissions for private routes in cached lockfile verdicts.\n- Returns freed memory to the operating system for better resource management.\n- Adds specific access control and security checks for Cargo, PyPI, and OCI registries.\n\n## Our Commentary\n\n`pnpr` is still in alpha, and this release seems to be playing catch-up with some of the pnpm changes, particularly around platform variants. The focus on access control and security for registry operations is good, but it's definitely a tool for a very specific audience. I'm curious to see how it evolves.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.22",
+            "url": "https://digestweb.dev/articles/2026-11-22/pnpr-0-1-0-alpha-22-registry-proxy-updates-access-control",
+            "title": "pnpr 0.1.0-alpha.22: Registry Proxy Updates and Access Control",
+            "summary": "This alpha release for the pnpr registry proxy removes platform variants and significantly enhances access control for various package types.",
+            "image": "https://opengraph.githubassets.com/834beeca8eb82822898099f6bde242ecf90a55896b7355f730f6ca651644296a/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.22",
+            "date_modified": "2026-11-22T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-22/styling-html-select-elements-practical-css-guide",
+            "content_html": "## Summary & Key Takeaways\n\n- Addresses the common frustration of inconsistent default `<select>` box styling across browsers.\n- Showcases various CSS techniques for styling HTML `<select>` elements effectively.\n- Provides a recommended CSS snippet using `appearance: none` and a custom SVG background for consistent appearance.\n- Demonstrates how to achieve a uniform and aesthetically pleasing dropdown across different browsers.\n\n## Our Commentary\n\nOh, the `<select>` element. A classic web dev headache. I've spent way too much time fighting with its inconsistent styling. Simon's approach here, especially with the custom SVG for the arrow, is a clean solution. It's a small detail, but these are the things that make a huge difference in user experience. I'm definitely bookmarking this.\n\nOriginal Link: https://simonwillison.net/2026/Nov/22/select-styling/",
+            "url": "https://digestweb.dev/articles/2026-11-22/styling-html-select-elements-practical-css-guide",
+            "title": "Styling HTML Select Elements: A Practical CSS Guide",
+            "summary": "Simon Willison shares his frustration with inconsistent `<select>` styling and provides a clean CSS solution for cross-browser consistency.",
+            "image": "https://picsum.photos/id/372/800/450",
+            "date_modified": "2026-11-22T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-11-21/muru-ai-assisted-rust-server-python-web-apps",
             "content_html": "## Summary & Key Takeaways\n\nMuru is a new AI-assisted Rust server designed for Python ASGI and WSGI web applications.\nIt is developed by Graham Dumpleton, known for creating mod_wsgi two decades ago.\nThe project aims to provide optimal tools for running Python apps in both development and production.\nDumpleton is publishing an extraordinarily detailed development log as he builds Muru.\nKey features include import-once/fork-many, HTTPS in development, and canary deployments without a service mesh.\nMuru is designed for efficient scaling, seamless Kubernetes integration, and better container tenancy.\nThe server emphasizes releases over restarts and dynamic scaling based on worker reports.\nAn accompanying post discusses AI as a 'lifestyle choice' integrated into the development process.\n\n## Our Commentary\n\nGraham Dumpleton, the mod_wsgi legend, is back with Muru. A Rust server for Python apps, AI-assisted. Honestly, the sheer volume of his devlog posts is staggering. Who has that much energy to document _everything_? It's a wild ride to follow. I'm genuinely fascinated by his 'AI as a lifestyle choice' piece. It's not just a gimmick; he's really leaning into it, but still stressing the human element for quality. We often see AI as a black box, but this shows a developer's journey with it. It feels... raw. And I like that. This isn't just a new tool; it's a peek into a new way of working.\n\nOriginal Link: https://simonwillison.net/2026/Nov/21/muru/",
             "url": "https://digestweb.dev/articles/2026-11-21/muru-ai-assisted-rust-server-python-web-apps",

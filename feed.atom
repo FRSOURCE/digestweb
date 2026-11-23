@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-11-23T07:19:23.154Z</updated>
+    <updated>2026-11-23T08:36:59.587Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -14,6 +14,93 @@
     <subtitle>Daily curated web dev news by FRSOURCE</subtitle>
     <logo>https://digestweb.dev/logo.svg</logo>
     <rights>Copyright 2026 FRSOURCE</rights>
+    <entry>
+        <title type="html"><![CDATA[pnpm 11.29: Enhanced Security for OTP and Local Dependencies]]></title>
+        <id>https://digestweb.dev/articles/2026-11-22/pnpm-11-29-enhanced-security-otp-local-dependencies</id>
+        <link href="https://digestweb.dev/articles/2026-11-22/pnpm-11-29-enhanced-security-otp-local-dependencies"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/ea24ae55f6d22258555da36cacbd1b68fbb1a0852d46d2ab49700d9ceeef40a5/pnpm/pnpm/releases/tag/v11.29.0" type="image/0"/>
+        <updated>2026-11-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This release focuses heavily on security, stopping OTP reads from config files and rejecting local filesystem dependencies from registry packages.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Stops reading OTP from config files, requiring it via command line or environment variables for security.
+- Rejects local filesystem dependencies declared by non-local packages to prevent supply chain attacks.
+- Enforces `blockExoticSubdeps` against entries in `pnpm-lock.yaml` more strictly.
+- Ensures tarball downloads send registry credentials only over HTTPS or loopback HTTP.
+- Adds the `--minimum-release-age` option for release management.
+
+## Our Commentary
+
+Another pnpm release, and again, security is front and center. Rejecting local filesystem dependencies from registry packages is a huge win for supply chain security. It's a necessary hardening step, even if it might break some obscure workflows. I'm glad to see this kind of vigilance; it's a constant battle.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v11.29.0]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pnpm 12.23: New Commands, Platform Variant Removal, and Security Fixes]]></title>
+        <id>https://digestweb.dev/articles/2026-11-22/pnpm-12-23-new-commands-platform-variant-removal-security-fixes</id>
+        <link href="https://digestweb.dev/articles/2026-11-22/pnpm-12-23-new-commands-platform-variant-removal-security-fixes"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/b042cb02ed4745118d5e0c4fef867301709d2c24ec807b07a1f791a38b46c965/pnpm/pnpm/releases/tag/v12.23.0" type="image/0"/>
+        <updated>2026-11-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This release introduces new commands like `pnpm edit` and `pnpm link --hard`, removes platform variants, and includes crucial security updates.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Introduces new commands: `pnpm edit`, `pnpm catalog migrate`, and `pnpm link --hard`.
+- Removes platform variants, requiring packages to use `optionalDependencies` for platform-specific builds.
+- Enhances security by no longer reading OTP from config files and sending registry credentials only over HTTPS.
+- Adds `pnpm publish --new-version` for easier version management during publishing.
+- Improves `pnpm pack --json` to preview `package.json` changes before tarball creation.
+- Ensures private workspace packages are not listed in `dependencies` of public packages.
+
+## Our Commentary
+
+The removal of platform variants feels like a big one for anyone relying on that. It's a clear push towards a more standardized publishing model, which I appreciate for simplicity, but I can imagine some folks will have a migration headache. The security fixes are always welcome, especially around OTP handling. It's good to see continued hardening.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/v12.23.0]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pnpr 0.1.0-alpha.22: Registry Proxy Updates and Access Control]]></title>
+        <id>https://digestweb.dev/articles/2026-11-22/pnpr-0-1-0-alpha-22-registry-proxy-updates-access-control</id>
+        <link href="https://digestweb.dev/articles/2026-11-22/pnpr-0-1-0-alpha-22-registry-proxy-updates-access-control"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/834beeca8eb82822898099f6bde242ecf90a55896b7355f730f6ca651644296a/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.22" type="image/22"/>
+        <updated>2026-11-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This alpha release for the pnpr registry proxy removes platform variants and significantly enhances access control for various package types.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Removes platform variants, aligning with pnpm's recent changes for package archives.
+- Enhances access control by enforcing package grants on owner changes and upload sessions.
+- Improves security by verifying caller permissions for private routes in cached lockfile verdicts.
+- Returns freed memory to the operating system for better resource management.
+- Adds specific access control and security checks for Cargo, PyPI, and OCI registries.
+
+## Our Commentary
+
+`pnpr` is still in alpha, and this release seems to be playing catch-up with some of the pnpm changes, particularly around platform variants. The focus on access control and security for registry operations is good, but it's definitely a tool for a very specific audience. I'm curious to see how it evolves.
+
+Original Link: https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.22]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Styling HTML Select Elements: A Practical CSS Guide]]></title>
+        <id>https://digestweb.dev/articles/2026-11-22/styling-html-select-elements-practical-css-guide</id>
+        <link href="https://digestweb.dev/articles/2026-11-22/styling-html-select-elements-practical-css-guide"/>
+        <link rel="enclosure" href="https://picsum.photos/id/372/800/450" type="image//id/372/800/450"/>
+        <updated>2026-11-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison shares his frustration with inconsistent `<select>` styling and provides a clean CSS solution for cross-browser consistency.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Addresses the common frustration of inconsistent default `<select>` box styling across browsers.
+- Showcases various CSS techniques for styling HTML `<select>` elements effectively.
+- Provides a recommended CSS snippet using `appearance: none` and a custom SVG background for consistent appearance.
+- Demonstrates how to achieve a uniform and aesthetically pleasing dropdown across different browsers.
+
+## Our Commentary
+
+Oh, the `<select>` element. A classic web dev headache. I've spent way too much time fighting with its inconsistent styling. Simon's approach here, especially with the custom SVG for the arrow, is a clean solution. It's a small detail, but these are the things that make a huge difference in user experience. I'm definitely bookmarking this.
+
+Original Link: https://simonwillison.net/2026/Nov/22/select-styling/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Muru: AI-Assisted Rust Server for Python Web Apps]]></title>
         <id>https://digestweb.dev/articles/2026-11-21/muru-ai-assisted-rust-server-python-web-apps</id>
