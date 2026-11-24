@@ -71,6 +71,18 @@
             "date_modified": "2026-11-20T00:00:00.000Z"
         },
         {
+            "id": "https://digestweb.dev/articles/2026-11-20/ai-token-fraud-free-trials-abused",
+            "content_html": "## Summary & Key Takeaways\n\n- AI platforms are experiencing widespread \"token fraud\" through free trial abuse.\n- Users exploit free access for unauthorized AI usage, token resale, and commercial ventures.\n- One platform, ChatPRD, observed unusual prompts like \"pelicans riding bicycles\" used to identify underlying models.\n- This abuse is forcing AI companies to eliminate free trials and re-evaluate access strategies.\n\n## Our Commentary\n\nThis is genuinely unsettling. We've talked about the potential for AI misuse, but this kind of systematic token fraud feels like a new level of parasitic behavior. It's a stark reminder that every new technology brings new vectors for abuse. I feel for the developers trying to build useful tools, only to have their resources drained by bad actors. It makes me wonder how sustainable any \"free tier\" for AI will be in the long run.\n\nOriginal Link: https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+            "url": "https://digestweb.dev/articles/2026-11-20/ai-token-fraud-free-trials-abused",
+            "title": "AI Token Fraud: Free Trials Abused for Resale & Commercial Use",
+            "summary": "AI platforms face rampant token fraud, with free trials exploited for illicit AI usage, token resale, and commercial operations, forcing companies to rethink access.",
+            "image": "https://picsum.photos/id/875/800/450",
+            "date_modified": "2026-11-20T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-11-20/andy-clarke-standout-web-designs-interview",
             "content_html": "## Summary & Key Takeaways\n\n- Andy Clarke's new e-book, \"Standout Designs for the Web,\" is now available.\n- The book encourages designers to move past generic templates.\n- It advocates for creating websites with distinct personality.\n- Clarke emphasizes unique layouts over conventional approaches.\n- The interview provides insights into the book's core philosophy.\n\n## Our Commentary\n\nI appreciate the push for more personality in web design. It feels like we've been stuck in a rut of template-driven sameness for a while now. It's a good reminder that design isn't just about functionality; it's about expression too. We need more of this kind of thinking.\n\nOriginal Link: https://css-tricks.com/andy-clarke-standout-designs-for-the-web-interview/",
             "url": "https://digestweb.dev/articles/2026-11-20/andy-clarke-standout-web-designs-interview",
@@ -119,6 +131,60 @@
             "date_modified": "2026-11-19T00:00:00.000Z",
             "author": {
                 "name": "Jarred Sumner"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-19/exploring-css-scroll-state-query",
+            "content_html": "## Summary & Key Takeaways\n\n- The CSS `scroll-state()` query is a new feature for web developers.\n- It allows changing CSS based on specific scrolling behaviors.\n- This query provides enhanced control over dynamic user interface elements.\n- It offers new possibilities for interactive and responsive web design.\n\n## Our Commentary\n\n`scroll-state()`! This is one of those small but mighty CSS additions that can really clean up a lot of JavaScript hacks we've all had to implement for scroll-based effects. We're seeing CSS gain more and more power, which is fantastic for performance and developer experience. I'm excited to see what creative uses people come up with.\n\nOriginal Link: https://css-tricks.com/almanac/functions/s/scroll-state/",
+            "url": "https://digestweb.dev/articles/2026-11-19/exploring-css-scroll-state-query",
+            "title": "Exploring the New CSS scroll-state() Query",
+            "summary": "Discover `scroll-state()`, a new CSS query that enables dynamic styling based on scrolling behavior, offering enhanced control over user interfaces.",
+            "image": "https://css-tricks.com/wp-content/uploads/2026/11/css-tricks-gradient-logo-default.webp",
+            "date_modified": "2026-11-19T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-19/geoff-graham-buys-back-css-tricks-digitalocean",
+            "content_html": "## Summary & Key Takeaways\n\n- Geoff Graham has reacquired CSS-Tricks from DigitalOcean.\n- He plans to transform CSS-Tricks into a community-driven, inclusive learning platform.\n- The news has been met with widespread encouragement from the web development community.\n- This move signals a potential resurgence for independent web blogging and education.\n\n## Our Commentary\n\nOh, this is just _chef's kiss_. I genuinely didn't see this coming, and it's such a breath of fresh air. We've all watched so many beloved web resources get swallowed up and then slowly fade. The idea of CSS-Tricks returning to its roots, under Geoff's guidance, feels like a win for everyone who believes in independent content. I'm rooting for him, and selfishly, for us all.\n\nOriginal Link: https://www.stefanjudis.com/blog/web-weekly-202/",
+            "url": "https://digestweb.dev/articles/2026-11-19/geoff-graham-buys-back-css-tricks-digitalocean",
+            "title": "Geoff Graham Buys Back CSS-Tricks from DigitalOcean",
+            "summary": "In a surprising turn, Geoff Graham reacquires CSS-Tricks from DigitalOcean, planning to rebuild it as a community-focused, inclusive learning platform.",
+            "image": "https://picsum.photos/id/252/800/450",
+            "date_modified": "2026-11-19T00:00:00.000Z",
+            "author": {
+                "name": "Stefan Judis"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-19/github-introduces-replica-open-source-accessibility-framework",
+            "content_html": "## Summary & Key Takeaways\n\n- GitHub launched Replica, a new open-source project for collaboration.\n- They also introduced the Open Source Accessibility Framework.\n- These initiatives aim to foster inclusion and improve developer experience.\n\n## Our Commentary\n\nThis is a good move. We've seen so many projects struggle with accessibility, and having a dedicated framework from GitHub could really push things forward. I'm curious about Replica too; another collaboration tool is always interesting, but the accessibility framework feels more impactful.\n\nOriginal Link: https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together/",
+            "url": "https://digestweb.dev/articles/2026-11-19/github-introduces-replica-open-source-accessibility-framework",
+            "title": "GitHub Introduces Replica & Open Source Accessibility Framework",
+            "summary": "GitHub unveils two new open-source initiatives: Replica for collaboration and a dedicated framework to enhance accessibility in open-source projects.",
+            "image": "https://github.blog/wp-content/uploads/2026/11/67977d9dac0cf6bc4f8b12cd3a64c4867b87c2f1a9fffa39fc77255b7c0247c3-1920x1080-1.png",
+            "date_modified": "2026-11-19T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-19/postgresql-19-read-your-writes-consistency",
+            "content_html": "## Summary & Key Takeaways\n\n- PostgreSQL 19 has been released, delayed by \"AI-reported vulnerability apocalypse.\"\n- A key new feature is \"read-your-writes\" consistency using `WAIT FOR LSN`.\n- This allows standby replicas to wait for a specific log sequence number before querying.\n- The feature is vital for applications requiring immediate consistency after a write on the primary.\n- It offers a robust solution similar to patterns seen in large-scale systems like Wikipedia.\n\n## Our Commentary\n\nPostgreSQL 19 is here, and that `WAIT FOR LSN` feature is a big deal for anyone wrestling with distributed database consistency. We've all seen the pain points of eventual consistency, and this offers a much-needed tool. The \"AI-reported vulnerability apocalypse\" mention is a bit chilling, though. It makes me wonder what kind of new security challenges we're facing when AI starts finding flaws faster than humans can patch them.\n\nOriginal Link: https://simonwillison.net/2026/Nov/19/postgresql-19/",
+            "url": "https://digestweb.dev/articles/2026-11-19/postgresql-19-read-your-writes-consistency",
+            "title": "PostgreSQL 19 Ships with Read-Your-Writes Consistency",
+            "summary": "PostgreSQL 19 introduces `WAIT FOR LSN` for read-your-writes consistency on standbys, a crucial feature for distributed applications, following a delay due to AI-reported vulnerabilities.",
+            "image": "https://picsum.photos/id/222/800/450",
+            "date_modified": "2026-11-19T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-19/railway-hack-postmortem-ai-attack",
+            "content_html": "## Summary & Key Takeaways\n\n- Cloud platform Railway published a detailed postmortem of a recent hack.\n- The attackers likely utilized AI models that lacked security safeguards.\n- Railway has since hardened its systems in response to the incident.\n- The event provides crucial lessons on securing platforms against AI-assisted attacks.\n\n## Our Commentary\n\nAnother AI-related security incident. This is becoming a pattern, isn't it? The idea of \"no-safeguards AI models\" being weaponized is a terrifying thought. It's not just about data breaches anymore; it's about the tools used to _facilitate_ those breaches. We need to be thinking about AI security from every angle, not just how our own models are protected, but how they might be used against us.\n\nOriginal Link: https://blog.pragmaticengineer.com/the-pulse-what-can-we-learn-from-the-railway-hack/",
+            "url": "https://digestweb.dev/articles/2026-11-19/railway-hack-postmortem-ai-attack",
+            "title": "Railway Hack Postmortem: Attackers Likely Used No-Safeguards AI",
+            "summary": "Cloud platform Railway details a recent hack, revealing attackers likely leveraged AI models without safeguards, prompting system hardening and security lessons.",
+            "image": "https://picsum.photos/id/754/800/450",
+            "date_modified": "2026-11-19T00:00:00.000Z",
+            "author": {
+                "name": "Gergely Orosz"
             }
         },
         {
