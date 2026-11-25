@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-11-24T10:42:57.590Z</updated>
+    <updated>2026-11-25T09:34:09.472Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -1352,6 +1352,30 @@ This is a genuinely practical development. Anyone who's played with AI coding ag
 Original Link: https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Vite v8.4.0 Beta 1: New Features & WASM Improvements]]></title>
+        <id>https://digestweb.dev/articles/2026-11-16/vite-v8-4-0-beta-1-new-features-wasm-improvements</id>
+        <link href="https://digestweb.dev/articles/2026-11-16/vite-v8-4-0-beta-1-new-features-wasm-improvements"/>
+        <link rel="enclosure" href="https://opengraph.githubassets.com/a242bf57d0a2286e8a7ebe68548aab5a28fd0610769816fb22b8791e81d23d35/vitejs/vite/releases/tag/v8.4.0-beta.1" type="image/1"/>
+        <updated>2026-11-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Vite's latest beta introduces several new features, including enhanced environment management, improved CSS handling, and better WebAssembly support. Developers can now explore these updates before the stable release.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Introduces `environment.addSafeModule` and `server.fs.strict: 'extended'` for better control.
+- Includes worker chunks in the build manifest and supports retrying failed CSS preloads.
+- Adds support for subpath imports in CSS `url()` and skips emitting empty CSS files.
+- Exposes the build manifest on the build environment and migrates `css.devSourcemap` to `dev.sourcemap.css`.
+- Aligns module-runner stacktraces with V8 and serves WASM compressed in preview.
+- Stabilizes `--configLoader` and deprecates `--configLoader=runner`.
+- Supports bundled dev mode in SSR and source phase imports for WASM.
+- Performance improvements include using native binaries for process start time on Windows.
+
+## Our Commentary
+
+This beta feels like a solid step forward. I'm particularly interested in the WASM improvements; it feels like Vite is really leaning into that future. The `environment.addSafeModule` stuff also hints at more robust security or isolation, which is always a good thing for complex projects. We're seeing a lot of refinement here, which is exactly what you want from a mature build tool.
+
+Original Link: https://github.com/vitejs/vite/releases/tag/v8.4.0-beta.1]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[WebKit Introduces Spatial CSS Developer Preview for 3D Web Experiences]]></title>
         <id>https://digestweb.dev/articles/2026-11-16/webkit-introduces-spatial-css-developer-preview</id>
         <link href="https://digestweb.dev/articles/2026-11-16/webkit-introduces-spatial-css-developer-preview"/>
@@ -1391,6 +1415,31 @@ Original Link: https://webkit.org/blog/18621/introducing-spatial-css-a-developer
 Simon Willison is always cooking up interesting things with Datasette, and this alpha release is no exception. The multi-page view transitions are a fantastic example of leveraging modern web platform features to enhance the user experience of an MPA. It's a small detail that makes a huge difference in perceived responsiveness. The security fixes are, of course, non-negotiable and always welcome.
 
 Original Link: https://simonwillison.net/2026/Nov/15/datasette/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Datasette-MapLibre: AI-Built Geospatial Plugin with WASM & Pyodide]]></title>
+        <id>https://digestweb.dev/articles/2026-11-15/datasette-maplibre-ai-built-geospatial-plugin-wasm-pyodide</id>
+        <link href="https://digestweb.dev/articles/2026-11-15/datasette-maplibre-ai-built-geospatial-plugin-wasm-pyodide"/>
+        <link rel="enclosure" href="https://static.simonwillison.net/static/cors-allow/2026/datasette-maplibre.webp" type="image/webp"/>
+        <updated>2026-11-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison unveils a new Datasette plugin for geospatial data visualization, largely developed with Claude Fable 5.2. It integrates MapLibre GL and OpenFreeMap, featuring efficient SVG/WebGL rendering.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Introduces `datasette-maplibre`, a new geospatial plugin for Datasette.
+- The plugin combines MapLibre GL with the OpenFreeMap vector map server.
+- A significant portion of the plugin's development was assisted by Claude Fable 5.2.
+- Features include displaying SVG previews of GeoJSON shapes, loading WebGL previews on scroll.
+- A comprehensive demo is available, working in Datasette Lite via Pyodide and WebAssembly.
+- The demo allows viewing both GeoJSON shapes and lat/lon points on the same map.
+
+## Our Commentary
+
+This is genuinely fascinating. Simon Willison building a complex plugin almost entirely with Claude Fable 5.2? That's a powerful demonstration of AI's potential in development. I'm always a bit skeptical of "AI built this" claims, but Simon is meticulous. The fact it leverages Pyodide and WebAssembly for the demo is just icing on the cake. It makes me wonder how many developers are quietly using these tools to accelerate their work. We're seeing a real shift in how we approach coding.
+
+Original Link: https://simonwillison.net/2026/Nov/15/datasette-maplibre/]]></content>
         <author>
             <name>Simon Willison</name>
         </author>

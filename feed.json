@@ -614,6 +614,15 @@
             "date_modified": "2026-11-16T00:00:00.000Z"
         },
         {
+            "id": "https://digestweb.dev/articles/2026-11-16/vite-v8-4-0-beta-1-new-features-wasm-improvements",
+            "content_html": "## Summary & Key Takeaways\n\n- Introduces `environment.addSafeModule` and `server.fs.strict: 'extended'` for better control.\n- Includes worker chunks in the build manifest and supports retrying failed CSS preloads.\n- Adds support for subpath imports in CSS `url()` and skips emitting empty CSS files.\n- Exposes the build manifest on the build environment and migrates `css.devSourcemap` to `dev.sourcemap.css`.\n- Aligns module-runner stacktraces with V8 and serves WASM compressed in preview.\n- Stabilizes `--configLoader` and deprecates `--configLoader=runner`.\n- Supports bundled dev mode in SSR and source phase imports for WASM.\n- Performance improvements include using native binaries for process start time on Windows.\n\n## Our Commentary\n\nThis beta feels like a solid step forward. I'm particularly interested in the WASM improvements; it feels like Vite is really leaning into that future. The `environment.addSafeModule` stuff also hints at more robust security or isolation, which is always a good thing for complex projects. We're seeing a lot of refinement here, which is exactly what you want from a mature build tool.\n\nOriginal Link: https://github.com/vitejs/vite/releases/tag/v8.4.0-beta.1",
+            "url": "https://digestweb.dev/articles/2026-11-16/vite-v8-4-0-beta-1-new-features-wasm-improvements",
+            "title": "Vite v8.4.0 Beta 1: New Features & WASM Improvements",
+            "summary": "Vite's latest beta introduces several new features, including enhanced environment management, improved CSS handling, and better WebAssembly support. Developers can now explore these updates before the stable release.",
+            "image": "https://opengraph.githubassets.com/a242bf57d0a2286e8a7ebe68548aab5a28fd0610769816fb22b8791e81d23d35/vitejs/vite/releases/tag/v8.4.0-beta.1",
+            "date_modified": "2026-11-16T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-11-16/webkit-introduces-spatial-css-developer-preview",
             "content_html": "## Summary & Key Takeaways\n\n- WebKit has released a developer preview of Spatial CSS in Safari on visionOS 27.3.\n- The initial focus is on working with 3D objects using the `<model>` element.\n- This API aims to enable new immersive web experiences.\n- It represents an early look at a proposed standard for spatial web development.\n\n## Our Commentary\n\nThis is _huge_. I mean, a developer preview, sure, but \"Spatial CSS\"? We're talking about the web moving into 3D environments in a native way. The `<model>` element is just the start. I'm genuinely excited to see how this evolves. It feels like a real step towards a more immersive web, beyond just flat screens. We've been talking about the metaverse for ages, but this is actual, tangible browser tech.\n\nOriginal Link: https://webkit.org/blog/18621/introducing-spatial-css-a-developer-preview/",
             "url": "https://digestweb.dev/articles/2026-11-16/webkit-introduces-spatial-css-developer-preview",
@@ -629,6 +638,18 @@
             "title": "Datasette 1.0a43: Streaming, Security & View Transitions",
             "summary": "Datasette's latest alpha release introduces streaming output, crucial security fixes, and delightful multi-page view transitions for a smoother user experience.",
             "image": "https://picsum.photos/id/730/800/450",
+            "date_modified": "2026-11-15T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-15/datasette-maplibre-ai-built-geospatial-plugin-wasm-pyodide",
+            "content_html": "## Summary & Key Takeaways\n\n- Introduces `datasette-maplibre`, a new geospatial plugin for Datasette.\n- The plugin combines MapLibre GL with the OpenFreeMap vector map server.\n- A significant portion of the plugin's development was assisted by Claude Fable 5.2.\n- Features include displaying SVG previews of GeoJSON shapes, loading WebGL previews on scroll.\n- A comprehensive demo is available, working in Datasette Lite via Pyodide and WebAssembly.\n- The demo allows viewing both GeoJSON shapes and lat/lon points on the same map.\n\n## Our Commentary\n\nThis is genuinely fascinating. Simon Willison building a complex plugin almost entirely with Claude Fable 5.2? That's a powerful demonstration of AI's potential in development. I'm always a bit skeptical of \"AI built this\" claims, but Simon is meticulous. The fact it leverages Pyodide and WebAssembly for the demo is just icing on the cake. It makes me wonder how many developers are quietly using these tools to accelerate their work. We're seeing a real shift in how we approach coding.\n\nOriginal Link: https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+            "url": "https://digestweb.dev/articles/2026-11-15/datasette-maplibre-ai-built-geospatial-plugin-wasm-pyodide",
+            "title": "Datasette-MapLibre: AI-Built Geospatial Plugin with WASM & Pyodide",
+            "summary": "Simon Willison unveils a new Datasette plugin for geospatial data visualization, largely developed with Claude Fable 5.2. It integrates MapLibre GL and OpenFreeMap, featuring efficient SVG/WebGL rendering.",
+            "image": "https://static.simonwillison.net/static/cors-allow/2026/datasette-maplibre.webp",
             "date_modified": "2026-11-15T00:00:00.000Z",
             "author": {
                 "name": "Simon Willison"
