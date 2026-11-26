@@ -11,6 +11,72 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-11-25/ai-agents-scientists-draw-line",
+            "content_html": "## Summary & Key Takeaways\n\n- Examines the current state of AI agent capabilities.\n- Discusses the ethical frameworks guiding AI agent development.\n- Highlights specific limitations or risks identified by researchers.\n- Explores the societal implications of autonomous AI agents.\n- Considers the future trajectory of AI agent research.\n- Provides insights into responsible AI innovation.\n\n## Our Commentary\n\nThis is the kind of conversation we desperately need. AI agents are moving fast, and I genuinely don't know how to feel about some of the directions. It's unsettling to think about agents operating without clear human oversight. Drawing lines now, while the tech is still maturing, feels absolutely crucial. We need more of this critical thinking.\n\nOriginal Link: https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+            "url": "https://digestweb.dev/articles/2026-11-25/ai-agents-scientists-draw-line",
+            "title": "AI Agents: Where Scientists Draw the Line on Capabilities",
+            "summary": "This article explores the critical boundaries and ethical considerations scientists are establishing for the development and deployment of AI agents.",
+            "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/F32BgZC_rj0kg99apJlto.png",
+            "date_modified": "2026-11-25T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-25/brice-deguigne-3d-portfolio-webgpu-threejs",
+            "content_html": "## Summary & Key Takeaways\n\n- Showcases a highly interactive 3D portfolio experience.\n- Utilizes Three.js for 3D rendering capabilities.\n- Incorporates WebGPU for advanced graphics processing.\n- Features effects like baked lighting and wireframe reveals.\n- Includes dynamic elements such as particle rain.\n- Demonstrates the potential for immersive web experiences.\n\n## Our Commentary\n\nThis portfolio is just _chef's kiss_. The level of detail and the smooth simulation feel are incredible. It's a fantastic example of pushing the boundaries of what's possible with web graphics. I'm always impressed by what people can build with Three.js and WebGPU. It makes me want to dive back into 3D.\n\nOriginal Link: https://tympanus.net/codrops/2026/11/25/brice-deguigne-3d-portfolio/",
+            "url": "https://digestweb.dev/articles/2026-11-25/brice-deguigne-3d-portfolio-webgpu-threejs",
+            "title": "Brice Deguigne's 3D Portfolio: A WebGPU & Three.js Simulation",
+            "summary": "Explore a stunning 3D portfolio built like a simulation, leveraging Three.js and WebGPU for baked lighting, wireframe reveals, and particle effects.",
+            "image": "https://picsum.photos/id/626/800/450",
+            "date_modified": "2026-11-25T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-25/css-style-queries-conditional-modifiers",
+            "content_html": "## Summary & Key Takeaways\n\n- Explains the concept of CSS Style Queries.\n- Focuses on their application as conditional modifiers.\n- Demonstrates how conditions and styles can be decoupled.\n- Shows how components can adapt to various contexts.\n- Highlights the flexibility gained in component design.\n- Provides practical examples for implementation.\n\n## Our Commentary\n\nStyle queries are such a game-changer for truly adaptive components. This article really nails a core use case: separating concerns and letting components just _work_ wherever they land. It's the kind of CSS feature that makes me genuinely excited about the future of web design. We've been waiting for this kind of power for ages.\n\nOriginal Link: https://css-tricks.com/css-style-queries-as-conditional-modifiers/",
+            "url": "https://digestweb.dev/articles/2026-11-25/css-style-queries-conditional-modifiers",
+            "title": "CSS Style Queries: Conditional Modifiers for Adaptive Components",
+            "summary": "This article delves into using CSS Style Queries as conditional modifiers, enabling components to adapt intelligently regardless of their placement or context.",
+            "image": "https://css-tricks.com/wp-content/uploads/2022/10/container-style-queries.png",
+            "date_modified": "2026-11-25T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-25/cuga-indic-voice-agent-ai",
+            "content_html": "## Summary & Key Takeaways\n\n- Introduces CUGA, a novel voice agent.\n- Specifically targets Indic languages for processing.\n- Aims to improve AI accessibility for diverse linguistic groups.\n- Represents progress in multilingual AI development.\n- Details the technology behind CUGA's voice capabilities.\n- Highlights the importance of language inclusivity in AI.\n\n## Our Commentary\n\nThis is fantastic. Language diversity in AI is so often overlooked, and building agents specifically for Indic languages is a huge step forward. It's not just about translation; it's about cultural context and genuine accessibility. We need more projects like CUGA. It makes me hopeful for a truly global AI future.\n\nOriginal Link: https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+            "url": "https://digestweb.dev/articles/2026-11-25/cuga-indic-voice-agent-ai",
+            "title": "Introducing CUGA: An Indic Voice Agent for Diverse Languages",
+            "summary": "This article unveils CUGA, a new voice agent specifically designed to support and process Indic languages, enhancing AI accessibility for diverse linguistic communities.",
+            "image": "https://cdn-uploads.huggingface.co/production/uploads/67fe070a4e8cc28ba346f53c/-QNcrxSDbjI8VOCBlhi-C.png",
+            "date_modified": "2026-11-25T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-25/motion-design-css-anchors",
+            "content_html": "## Summary & Key Takeaways\n\n- Introduces CSS Anchor Positioning for motion design.\n- Explains how to animate elements between different anchors.\n- Demonstrates creating slick motion effects with minimal code.\n- Highlights the versatility of anchor positioning beyond layout.\n- Provides examples of dynamic waypoint animations.\n- Showcases a new approach to web-based motion graphics.\n\n## Our Commentary\n\nOkay, this is brilliant. We've seen CSS anchors for layout, but using them as _waypoints_ for motion? That's a genuinely fresh take. It feels like unlocking a whole new dimension for CSS animations with surprisingly little effort. I'm already thinking about all the cool transitions this could enable. This is the kind of creative thinking we love to see.\n\nOriginal Link: https://blog.master.dev/motion-design-with-css-anchors/",
+            "url": "https://digestweb.dev/articles/2026-11-25/motion-design-css-anchors",
+            "title": "Motion Design Magic with CSS Anchor Positioning",
+            "summary": "Discover how to leverage CSS Anchor Positioning not just for layout, but for creating dynamic and smooth motion design effects by animating between different anchor points.",
+            "image": "https://blog.master.dev/wp-json/social-image-generator/v1/image/12125",
+            "date_modified": "2026-11-25T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-25/scott-aaronson-llms-mathematical-truth",
+            "content_html": "## Summary & Key Takeaways\n\n- Features a quote from computer scientist Scott Aaronson.\n- Compares LLM impact to early scientific discoveries with new tools.\n- Suggests LLMs are revealing a \"new continent of mathematical truth.\"\n- Implies a significant advancement in understanding complexity theory.\n- Highlights the profound potential of AI in scientific exploration.\n- Shared by prominent blogger Simon Willison.\n\n## Our Commentary\n\nThis quote from Scott Aaronson is just... wow. It's a powerful way to frame the current moment in AI. I've been feeling this sense of uncharted territory, but he articulates it perfectly. It's not just about solving problems; it's about seeing things we couldn't see before. It's a bit terrifying, honestly, but also incredibly exciting.\n\nOriginal Link: https://simonwillison.net/2026/Nov/25/scott-aaronson/",
+            "url": "https://digestweb.dev/articles/2026-11-25/scott-aaronson-llms-mathematical-truth",
+            "title": "Scott Aaronson on LLMs Unveiling New Mathematical Truths",
+            "summary": "Simon Willison shares a profound quote from Scott Aaronson, likening the impact of LLMs to discovering a \"new continent of mathematical truth.\"",
+            "image": "https://picsum.photos/id/882/800/450",
+            "date_modified": "2026-11-25T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-25/vite-v8-4-0-beta-2-fixes-perf",
+            "content_html": "## Summary & Key Takeaways\n\n- Adds plugin names to hook errors for better debugging.\n- Fixes server closing on failed start and CSS deduplication issues.\n- Improves HTML entry script side effect handling.\n- Optimizes source map shifting for preload rewrites.\n- Skips build import analysis hooks for unaffected chunks.\n- Updates non-major dependencies.\n\n## Our Commentary\n\nThis is a solid beta update. We appreciate the focus on stability and developer experience, especially the clearer error messages. It's the kind of iterative improvement that makes a big difference over time. I'm always happy to see performance gains, even small ones.\n\nOriginal Link: https://github.com/vitejs/vite/releases/tag/v8.4.0-beta.2",
+            "url": "https://digestweb.dev/articles/2026-11-25/vite-v8-4-0-beta-2-fixes-perf",
+            "title": "Vite v8.4.0 Beta 2: Incremental Fixes & Perf Boosts",
+            "summary": "This beta release for Vite focuses on stability, addressing numerous bugs, and introducing minor performance enhancements across the build tool.",
+            "image": "https://opengraph.githubassets.com/d1117e79c538b9a4eb472dbf8eb43e522c5cf3345c78b4dcb69ee75e90d8b7fa/vitejs/vite/releases/tag/v8.4.0-beta.2",
+            "date_modified": "2026-11-25T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-11-22/pnpm-11-29-enhanced-security-otp-local-dependencies",
             "content_html": "## Summary & Key Takeaways\n\n- Stops reading OTP from config files, requiring it via command line or environment variables for security.\n- Rejects local filesystem dependencies declared by non-local packages to prevent supply chain attacks.\n- Enforces `blockExoticSubdeps` against entries in `pnpm-lock.yaml` more strictly.\n- Ensures tarball downloads send registry credentials only over HTTPS or loopback HTTP.\n- Adds the `--minimum-release-age` option for release management.\n\n## Our Commentary\n\nAnother pnpm release, and again, security is front and center. Rejecting local filesystem dependencies from registry packages is a huge win for supply chain security. It's a necessary hardening step, even if it might break some obscure workflows. I'm glad to see this kind of vigilance; it's a constant battle.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v11.29.0",
             "url": "https://digestweb.dev/articles/2026-11-22/pnpm-11-29-enhanced-security-otp-local-dependencies",
