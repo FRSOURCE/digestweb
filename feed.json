@@ -11,6 +11,78 @@
     },
     "items": [
         {
+            "id": "https://digestweb.dev/articles/2026-11-26/ai-de-individualization-jack-despain-zhou",
+            "content_html": "## Summary & Key Takeaways\n\n- Simon Willison quotes Jack Despain Zhou on AI's impact.\n- Zhou observes a \"great de-individualization\" due to AI.\n- He notes hearing AI voices, specifically Claude, in various contexts.\n- This includes YouTube, conference presentations, and professional emails.\n- The concern is that AI is homogenizing human communication.\n\n## Our Commentary\n\nThis quote really hits home. I've felt this creeping sense of sameness in AI-generated text. It's not just about accuracy; it's about the loss of unique voice, the subtle quirks that make human communication, well, human. There's something unsettling about agents churning away at 3am while nobody's watching, producing text that sounds just like everyone else's.\n\nOriginal Link: https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+            "url": "https://digestweb.dev/articles/2026-11-26/ai-de-individualization-jack-despain-zhou",
+            "title": "The De-Individualizing Effect of AI on Communication",
+            "summary": "Simon Willison shares a quote from Jack Despain Zhou, highlighting how AI, like Claude, is making communication feel increasingly generic and less human.",
+            "image": "https://picsum.photos/id/7/800/450",
+            "date_modified": "2026-11-26T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-26/create-vite-9-4-0-solid-2-devtools",
+            "content_html": "## Summary & Key Takeaways\n\n- `create-vite` 9.4.0 is now available.\n- It includes a new devtools option for project setup.\n- Templates for Solid.js now use Solid 2 by default.\n- The scaffolding tool adds support for the Vite+ (vp) package manager.\n- Dependencies have been updated across the board.\n\n## Our Commentary\n\nA minor update for `create-vite`. Solid 2 support is good to see, keeping the templates current. The `devtools` option is a nice touch for new projects. I'm curious about this \"Vite+ (vp) package manager\" though; it feels like we're constantly adding new package managers to the ecosystem.\n\nOriginal Link: https://github.com/vitejs/vite/releases/tag/create-vite%409.4.0",
+            "url": "https://digestweb.dev/articles/2026-11-26/create-vite-9-4-0-solid-2-devtools",
+            "title": "create-vite 9.4.0 Adds Solid 2 Support and Devtools Option",
+            "summary": "The latest create-vite update introduces Solid 2 templates, a new devtools option, and support for the Vite+ package manager.",
+            "image": "https://opengraph.githubassets.com/11d9c4f4e8284da5f1fe4f4a490266528310bb13e969b4c94f2e1556f300e859/vitejs/vite/releases/tag/create-vite%409.4.0",
+            "date_modified": "2026-11-26T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-26/houmahani-kane-portfolio-threejs-sphere",
+            "content_html": "## Summary & Key Takeaways\n\n- Houmahani Kane's portfolio is built around a single morphing sphere.\n- The sphere uses Three.js and custom shaders for its dynamic appearance.\n- Contour lines on the sphere are inspired by West African wax prints.\n- It demonstrates creative use of web graphics for personal branding.\n\n## Our Commentary\n\nThis is a beautiful example of what's possible with Three.js and custom shaders. The artistic inspiration from West African wax prints adds a really unique touch. It's always inspiring to see developers push the boundaries of web design like this.\n\nOriginal Link: https://tympanus.net/codrops/2026/11/26/houmahani-kane-portfolio/",
+            "url": "https://digestweb.dev/articles/2026-11-26/houmahani-kane-portfolio-threejs-sphere",
+            "title": "Houmahani Kane's Portfolio: A Morphing Three.js Sphere",
+            "summary": "Explore a unique portfolio by Houmahani Kane, featuring a single morphing sphere with custom shaders and West African wax print inspirations.",
+            "image": "https://picsum.photos/id/496/800/450",
+            "date_modified": "2026-11-26T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-26/nyt-photoshop-ai-ethics-journalism",
+            "content_html": "## Summary & Key Takeaways\n\n- The New York Times has warned its photographers about Photoshop's AI features.\n- This warning stems from the NYT's strict photojournalism policy.\n- Their policy prohibits any image edits beyond cropping and balancing.\n- AI features could compromise the integrity of journalistic photography.\n- The goal is to present photographs exactly as they were taken.\n\n## Our Commentary\n\nThis is a really important stance from the NYT. It highlights a critical ethical dilemma AI presents to journalism. The integrity of photojournalism relies on authenticity, and AI-driven manipulation directly threatens that. It makes me wonder how other industries will grapple with similar issues as AI tools become more pervasive. We need more clear guidelines like this.\n\nOriginal Link: https://simonwillison.net/2026/Nov/26/hn-50651685/",
+            "url": "https://digestweb.dev/articles/2026-11-26/nyt-photoshop-ai-ethics-journalism",
+            "title": "NYT Warns Photographers Against Photoshop AI Features",
+            "summary": "The New York Times advises its photographers against updating Photoshop due to AI features, upholding strict photojournalism ethics against image manipulation.",
+            "image": "https://picsum.photos/id/175/800/450",
+            "date_modified": "2026-11-26T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-26/pnpm-12-24-audit-install-security",
+            "content_html": "## Summary & Key Takeaways\n\n- pnpm 12.24 introduces new audit commands.\n- `pnpm audit deprecations` lists deprecated packages and their sources.\n- `pnpm audit engines` identifies packages incompatible with the current Node.js/platform.\n- Install warnings are now consolidated into a \"checks footer\" for better readability.\n- A security fix ensures pnpm reads package tarballs like npm or refuses them.\n- `pnpm approve <pkg>` no longer grants excessive permissions by default.\n- The install footer provides live updates on deprecated packages, peer issues, and engine incompatibilities.\n\n## Our Commentary\n\nThis is a really solid update for pnpm. The new audit commands are a huge win for developer experience and project health. Consolidating install warnings into a clear footer is also a smart move; it makes the output much less noisy. And a security fix is always welcome. We appreciate the continuous focus on both usability and safety.\n\nOriginal Link: https://github.com/pnpm/pnpm/releases/tag/v12.24.0",
+            "url": "https://digestweb.dev/articles/2026-11-26/pnpm-12-24-audit-install-security",
+            "title": "pnpm 12.24 Enhances Audit, Install Feedback, and Security",
+            "summary": "pnpm's latest release introduces new audit commands for deprecations and engine compatibility, improves install warnings, and includes a security fix.",
+            "image": "https://opengraph.githubassets.com/6a509ed4420548f670c9b0361c5c155134c605e5c995940cbe8e37a26cecddd8/pnpm/pnpm/releases/tag/v12.24.0",
+            "date_modified": "2026-11-26T00:00:00.000Z"
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-26/sqlite3-rsync-remote-copy-sqlite",
+            "content_html": "## Summary & Key Takeaways\n\n- `sqlite3_rsync` is a new SQLite tool for remote database copying.\n- It allows synchronizing SQLite databases over SSH.\n- The tool avoids creating a full local duplicate, saving disk space.\n- This is crucial for small instances with limited disk capacity.\n- It works similarly to `rsync`, sending hashes and only differing page content.\n- The tool was introduced as experimental in SQLite 3.47.0 and enhanced in 3.50.0.\n\n## Our Commentary\n\nThis is genuinely exciting for anyone working with SQLite, especially on constrained systems. The ability to `rsync` a database over SSH without needing a full local copy first is a game-changer for backups and replication. I've definitely run into situations where disk space was a bottleneck for database operations, and this solves that elegantly. It's a clever approach to a common problem.\n\nOriginal Link: https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
+            "url": "https://digestweb.dev/articles/2026-11-26/sqlite3-rsync-remote-copy-sqlite",
+            "title": "sqlite3_rsync: Efficient Remote Copy Tool for SQLite",
+            "summary": "Discover `sqlite3_rsync`, a powerful SQLite tool for remote database synchronization over SSH, eliminating the need for full local copies.",
+            "image": "https://picsum.photos/id/490/800/450",
+            "date_modified": "2026-11-26T00:00:00.000Z",
+            "author": {
+                "name": "Simon Willison"
+            }
+        },
+        {
+            "id": "https://digestweb.dev/articles/2026-11-26/vite-8-4-0-wasm-css-ssr-enhancements",
+            "content_html": "## Summary & Key Takeaways\n\n- Vite 8.4.0 introduces new features and bug fixes.\n- It adds support for WASM source phase imports and compressed WASM serving in preview.\n- CSS handling is improved with subpath imports in `url()` and better empty file skipping.\n- Server-side rendering (SSR) now supports bundled dev mode.\n- Plugin error messages now include the plugin name for easier debugging.\n- The `--configLoader` option is stabilized, deprecating `--configLoader=runner`.\n- Environment-specific safe module paths enhance security.\n- Build manifest now includes worker chunks and is exposed on the build environment.\n\n## Our Commentary\n\nThis is a solid minor release. We're seeing continued refinement in Vite, especially around WASM and SSR, which is great. The improved error messages for plugins are a small but meaningful DX win. I'm always a little nervous about `server.fs.strict: 'extended'` and `safe modules` because it implies more complexity, but security is paramount.\n\nOriginal Link: https://github.com/vitejs/vite/releases/tag/v8.4.0",
+            "url": "https://digestweb.dev/articles/2026-11-26/vite-8-4-0-wasm-css-ssr-enhancements",
+            "title": "Vite 8.4.0 Ships with WASM, CSS, and SSR Enhancements",
+            "summary": "Vite's latest minor update brings new features like WASM source phase imports, improved CSS URL handling, and better SSR bundled dev mode.",
+            "image": "https://opengraph.githubassets.com/ec88880e06f4284f2316321086d5e68055bdc11548a53ccae552ab79bb291cea/vitejs/vite/releases/tag/v8.4.0",
+            "date_modified": "2026-11-26T00:00:00.000Z"
+        },
+        {
             "id": "https://digestweb.dev/articles/2026-11-25/ai-agents-scientists-draw-line",
             "content_html": "## Summary & Key Takeaways\n\n- Examines the current state of AI agent capabilities.\n- Discusses the ethical frameworks guiding AI agent development.\n- Highlights specific limitations or risks identified by researchers.\n- Explores the societal implications of autonomous AI agents.\n- Considers the future trajectory of AI agent research.\n- Provides insights into responsible AI innovation.\n\n## Our Commentary\n\nThis is the kind of conversation we desperately need. AI agents are moving fast, and I genuinely don't know how to feel about some of the directions. It's unsettling to think about agents operating without clear human oversight. Drawing lines now, while the tech is still maturing, feels absolutely crucial. We need more of this critical thinking.\n\nOriginal Link: https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
             "url": "https://digestweb.dev/articles/2026-11-25/ai-agents-scientists-draw-line",
