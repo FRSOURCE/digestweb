@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digestweb.dev/</id>
     <title>digestweb.dev</title>
-    <updated>2026-11-27T09:27:53.979Z</updated>
+    <updated>2026-11-28T08:42:52.086Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Jakub Freisler</name>
@@ -2277,6 +2277,129 @@ Original Link: https://www.nngroup.com/articles/research-in-the-loop/?utm_source
 Original Link: https://huggingface.co/blog/allenai/xybench]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Amplitude Ships Product Improvements in Days Using OpenAI Agents]]></title>
+        <id>https://digestweb.dev/articles/2026-11-12/amplitude-ships-product-improvements-days-openai-agents</id>
+        <link href="https://digestweb.dev/articles/2026-11-12/amplitude-ships-product-improvements-days-openai-agents"/>
+        <link rel="enclosure" href="https://picsum.photos/id/772/800/450" type="image//id/772/800/450"/>
+        <updated>2026-11-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Learn how Amplitude uses its proactive product agent, Wave, built on OpenAI models, to identify features, ship code with AI agents, and measure impact, drastically speeding up development.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Amplitude utilizes a proactive product agent named Wave, powered by OpenAI models.
+- Wave helps identify potential product improvements.
+- Coding agents assist teams in shipping changes rapidly.
+- The system also measures the impact of these deployed changes.
+- This integrated approach allows Amplitude to ship improvements in 1-2 days.
+
+## Our Commentary
+
+This is a fascinating look at how AI is being integrated into the entire product lifecycle. The idea of an agent identifying what to build and then helping ship it is pretty wild. I wonder about the human oversight in such a rapid process. It's a powerful showcase, but it also makes me think about the potential for AI to introduce subtle biases or errors at scale.
+
+Original Link: https://openai.com/business/customer-stories/amplitude]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beyond 12 Columns: Designing Unique Layouts with Personality]]></title>
+        <id>https://digestweb.dev/articles/2026-11-12/beyond-12-columns-designing-unique-layouts-personality</id>
+        <link href="https://digestweb.dev/articles/2026-11-12/beyond-12-columns-designing-unique-layouts-personality"/>
+        <link rel="enclosure" href="https://css-tricks.com/wp-content/uploads/2026/10/css-tricks-1-8.webp" type="image/webp"/>
+        <updated>2026-11-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Andy Clarke challenges the ubiquitous 12-column grid, advocating for modular and compound grids to craft web layouts that truly reflect a company's story and stand out.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Many websites suffer from similar, uninspired layouts.
+- Understanding a company's narrative can lead to more distinctive designs.
+- The article advocates moving beyond standard 12-column grids.
+- Modular and compound grids are presented as alternatives for creating unique layouts.
+- These techniques help infuse personality and character into web designs.
+
+## Our Commentary
+
+I love seeing articles that push us beyond the default. The 12-column grid is fine, but it's become a crutch. This piece reminds us that design isn't just about fitting content into boxes; it's about telling a story. We need more of this kind of creative thinking in web development. It's a good kick in the pants to experiment more with CSS Grid.
+
+Original Link: https://css-tricks.com/beyond-12-columns/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Build Once, Run Anywhere: A Practical Guide to AI Agent Skills]]></title>
+        <id>https://digestweb.dev/articles/2026-11-12/build-once-run-anywhere-practical-guide-ai-agent-skills</id>
+        <link href="https://digestweb.dev/articles/2026-11-12/build-once-run-anywhere-practical-guide-ai-agent-skills"/>
+        <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/11/5b5fed0ce69f241f469053d4f178383688adb2fb7ef44dff82c1a2dd6a626fa1-1920x1080-1.png" type="image/png"/>
+        <updated>2026-11-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[GitHub explores agent skills for repeatable engineering tasks. Learn how to capture work in reusable files while maintaining specific tool and permission contexts.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Agent skills encapsulate repeatable engineering tasks into reusable files.
+- These skills allow teams to review and share common workflows.
+- Tools, project context, and permissions remain specific to the host running the agent.
+- This approach aims to standardize and streamline development processes.
+
+## Our Commentary
+
+We're seeing more and more about AI agents. The idea of "build once, run on any agent" is compelling, but I'm always a little wary of how much abstraction we can really achieve before things get messy. It feels like a step towards more autonomous dev workflows, which is both exciting and a bit unsettling.
+
+Original Link: https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cypress Unlocks Multi-Tab Testing with @cypress/puppeteer 1.0 GA]]></title>
+        <id>https://digestweb.dev/articles/2026-11-12/cypress-multi-tab-testing-puppeteer-1-0-ga</id>
+        <link href="https://digestweb.dev/articles/2026-11-12/cypress-multi-tab-testing-puppeteer-1-0-ga"/>
+        <link rel="enclosure" href="https://storage.ghost.io/c/12/89/12899ca1-4786-4eea-b7e1-9c5268baa48a/content/images/2026/11/cypress-puppeteer-ga-facebook.png" type="image/png"/>
+        <updated>2026-11-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cypress now officially supports multi-tab and popup testing with the general availability of `@cypress/puppeteer 1.0`. This release includes a stable API and Puppeteer v24.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Cypress now supports multi-tab and popup testing with `@cypress/puppeteer 1.0`.
+- This release addresses a previous limitation where tests ran in a single tab.
+- The package is generally available with a stable API.
+- It integrates Puppeteer v24 for enhanced browser control.
+- A new guide is available for implementing multi-tab testing.
+
+## Our Commentary
+
+Finally! Multi-tab testing in Cypress has been a pain point for so many teams. This is a huge win for anyone dealing with complex user flows involving new windows or popups. I'm genuinely excited to see how this changes testing strategies. It feels like a missing piece of the puzzle has just clicked into place.
+
+Original Link: https://www.cypress.io/blog/cypress-puppeteer-ga/]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gondola Doubles Revenue with OpenAI Codex & ChatGPT Productivity]]></title>
+        <id>https://digestweb.dev/articles/2026-11-12/gondola-doubles-revenue-openai-codex-chatgpt-productivity</id>
+        <link href="https://digestweb.dev/articles/2026-11-12/gondola-doubles-revenue-openai-codex-chatgpt-productivity"/>
+        <link rel="enclosure" href="https://picsum.photos/id/356/800/450" type="image//id/356/800/450"/>
+        <updated>2026-11-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Gondola, a platform for creatives, saw its lead engineer's output increase by 50% using OpenAI Codex, while ChatGPT streamlined daily tasks, contributing to a doubling of revenue.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Gondola, a platform for creatives, leveraged OpenAI tools for development.
+- Codex boosted their lead engineer's output by 50%.
+- ChatGPT was used to simplify daily work processes.
+- These AI integrations contributed to Gondola doubling its revenue.
+
+## Our Commentary
+
+Another customer success story from OpenAI. It's good to see concrete numbers like a 50% output increase, but I always take these with a grain of salt. How much of that is the tool, and how much is the team's adaptation? Still, it's a clear signal that these tools are becoming indispensable for many.
+
+Original Link: https://openai.com/business/customer-stories/gondola]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LLMON: A New LLM-Native Markup Language for Granite Models]]></title>
+        <id>https://digestweb.dev/articles/2026-11-12/llmon-new-llm-native-markup-language-granite-models</id>
+        <link href="https://digestweb.dev/articles/2026-11-12/llmon-new-llm-native-markup-language-granite-models"/>
+        <link rel="enclosure" href="https://cdn-uploads.huggingface.co/production/uploads/6484ca4d5ff9a3d2ee52a83b/6KFZDHIJkxpICiErHLqAw.gif" type="image/gif"/>
+        <updated>2026-11-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hugging Face announces LLMON, a markup language designed specifically for LLMs, now integrated into IBM's Granite 4.1 3B and 8B models, promising more structured interactions.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- LLMON is introduced as an LLM-native markup language.
+- It aims to provide a structured way to interact with large language models.
+- The language is now integrated into IBM's Granite 4.1 3B and 8B models.
+- This development could improve prompt engineering and model output consistency.
+
+## Our Commentary
+
+An LLM-native markup language? This is genuinely interesting. We've been fumbling with various prompting techniques, and a standardized, structured approach could be a game-changer for consistency and reliability. I'm curious to see if this gains traction beyond Granite models. It feels like a necessary evolution for more complex AI interactions.
+
+Original Link: https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[pnpm 12.20: Bug Fixes, Security Update, and Experimental Lockfile Features]]></title>
         <id>https://digestweb.dev/articles/2026-11-12/pnpm-12-20-bug-fixes-security-experimental-lockfile</id>
         <link href="https://digestweb.dev/articles/2026-11-12/pnpm-12-20-bug-fixes-security-experimental-lockfile"/>
@@ -2296,6 +2419,30 @@ Original Link: https://huggingface.co/blog/allenai/xybench]]></content>
 We appreciate the continuous bug fixes and security updates from the pnpm team. The experimental v13 lockfile changes are interesting; I'm curious to see how they evolve. It's good to see them addressing the `undici` security flag.
 
 Original Link: https://github.com/pnpm/pnpm/releases/tag/v12.20.0]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Simon Willison Analyzes Confusing Gemini 4 Pricing & Quality]]></title>
+        <id>https://digestweb.dev/articles/2026-11-12/simon-willison-analyzes-confusing-gemini-4-pricing-quality</id>
+        <link href="https://digestweb.dev/articles/2026-11-12/simon-willison-analyzes-confusing-gemini-4-pricing-quality"/>
+        <link rel="enclosure" href="https://static.simonwillison.net/static/2026/gemini-4-card.jpg" type="image/jpg"/>
+        <updated>2026-11-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Simon Willison dives into the perplexing pricing structure of Google's new Gemini 4 models (Carbon, Argon, Hydrogen) and compares their output quality, highlighting inconsistencies.]]></summary>
+        <content type="html"><![CDATA[## Summary & Key Takeaways
+
+- Simon Willison released `llm-gemini 0.37`, focusing on Google's Gemini 4 models.
+- He finds the pricing for Gemini 4 Carbon, Argon, and Hydrogen confusing.
+- Carbon and Argon are currently priced identically but have different performance claims.
+- Hydrogen, the "cheap" model, offers only a 25% discount initially, increasing to 75% after December 1st.
+- Quality differences, particularly for image generation, are stark between the models despite similar pricing.
+
+## Our Commentary
+
+Google's pricing strategies for their AI models are often a labyrinth, and Simon Willison's breakdown here is incredibly helpful. I mean, Carbon and Argon are the same price but one is "faster"? And Hydrogen's pricing only makes sense _after_ a future date? It's a mess. This kind of transparency and critical analysis is exactly what we need in the rapidly evolving LLM space.
+
+Original Link: https://simonwillison.net/2026/Nov/12/llm-gemini/]]></content>
+        <author>
+            <name>Simon Willison</name>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[AlphaGenome 2: AI Deciphers DNA to Understand Disease]]></title>
